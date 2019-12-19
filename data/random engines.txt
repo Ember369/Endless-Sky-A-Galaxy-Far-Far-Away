@@ -1,0 +1,102 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more detailsz
+
+outfit "Consular Cruiser Ion Drive"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/consulariondrive"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 28
+	"thrusting energy" 6.3
+	"thrusting heat" 11.7
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 850
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Consular Cruiser Ion Turbine Drive for Consular Cruiser"
+
+outfit "Transport Sublight Engine"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/4l4fusialthrustengine"
+	"mass" 10
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 20
+	"thrusting energy" 6.3
+	"thrusting heat" 10
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 500
+	"turning energy" 3.5
+	"turning heat" 8.5
+	description " Transport Sublight Engine for BT7 Thunderclap"
+
+outfit "Light Transport Sublight Engine"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/4l4fusialthrustengine"
+	"mass" 5
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 16
+	"thrusting energy" 6.3
+	"thrusting heat" 7
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 300
+	"turning energy" 3.5
+	"turning heat" 6
+	description " Light Transport Sublight Engine for DX9 Transport"
+
+outfit "Heavy Freighter Ion Drive"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/heavyfreighteriondrive"
+	"mass" 210
+	"outfit space" -210
+	"engine capacity" -210
+	"thrust" 27
+	"thrusting energy" 6.3
+	"thrusting heat" 11.7
+	"reverse thrust" 18
+	"reverse thrusting energy" 6.3
+	"reverse thrusting heat" 11.7
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 1350
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Ion Turbine Drive for Heavy Freighters"
+
+outfit "Fighter Engine"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/fighterengine"
+	"mass" 5
+	"outfit space" -5
+	"engine capacity" -5
+	"thrust" 7
+	"thrusting energy" 6.3
+	"thrusting heat" 1
+	"flare sprite" "effect/plasma flare/tiny"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 150
+	"turning energy" 3.5
+	"turning heat" 1
+	description "Fighter Engine"

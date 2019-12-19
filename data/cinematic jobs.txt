@@ -1,0 +1,310 @@
+mission "Battle for Coruscant"
+	name "Battle for Coruscant"
+	description "Battle for Coruscant"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Galactic Republic"
+	destination
+		government "Galactic Republic"
+	npc assist
+		personality heroic staying harvests swarming surveillance
+		government "Civilian"
+		system Coruscant
+		fleet
+			variant 50
+				"Nimbus-class V-wing starfighter" 10
+				"ARC-170 Starfighter" 20
+				"BTL-B Y-Wing" 20
+				"Vulture-class Droid Starfighter" 20
+				"Droid Tri-Fighter" 20
+				"Hyena-class Bomber" 10
+	npc assist
+		personality heroic staying
+		government "Galactic Republic"
+		system Coruscant
+		fleet
+			variant 50
+				"Nimbus-class V-wing starfighter"
+				"Venator-class Star Destroyer" 15
+				"ARC-170 Starfighter" 60
+				"BTL-B Y-Wing" 40
+				"Nimbus-class V-wing starfighter" 20
+				"Acclamator Assault Ship" 6
+
+	npc kill
+		personality heroic staying target
+		government "Separatist Alliance"
+		system Coruscant
+		fleet
+			variant 50
+				"Munificent-class Star Frigate" 16
+				"Vulture-class Droid Starfighter" 60
+				"Droid Tri-Fighter" 60
+				"Hyena-class Bomber" 32
+				"Providence-class Dreadnought" 3
+				"Lucrehulk-class Battleship" 2
+		dialog "Battle for Coruscant"
+	on complete
+		payment 250000
+		dialog "Battle for Coruscant"
+
+mission "Asteroid Field"
+	name "Asteroid Field"
+	description "Asteroid Field"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Empress
+		fleet
+			variant 50
+				"Imperial I Star Destroyer"
+				"TIE/LN Fighter" 4
+	
+		dialog "Asteroid Field"
+	on complete
+		payment 250000
+		dialog "Asteroid Field"
+
+mission "Dummy"
+	name "Dummy"
+	description "Dummy"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target derelict
+		government "Galactic Empire"
+		system Prakith
+		fleet
+			variant 50
+				"Imperial II Star Destroyer"
+	
+		dialog "The tie fighters have been eliminated. Regain contact with the Rebel Alliance to receive the payment."
+	on complete
+		payment 250000
+		dialog "Dummy"
+
+mission "Evacuation of D'Qar"
+	name "Evacuation of D'Qar"
+	description "Evacuation of D'Qar"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Neutral"
+	destination
+		government "Neutral"
+	npc kill
+		personality heroic staying target
+		government "First Order"
+		system "D'Qar"
+		fleet
+			variant 50
+				"TIE/FO Fighter" 45
+				"TIE/SF Fighter" 5
+	
+		dialog "The tie fighters have been eliminated. Regain contact with the Rebel Alliance to receive the payment."
+	on complete
+		payment 250000
+		dialog "Evacuation of D'Qar"
+
+mission "Battle of Naboo"
+	name "Battle of Naboo"
+	description "Battle of Naboo"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Galactic Republic"
+	destination
+		government "Galactic Republic"
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Naboo
+		fleet
+			variant 50
+				"Lucrehulk-class Battleship"
+				"Vulture-class Droid Starfighter" 30
+				"Hyena-class Bomber" 5
+	
+		dialog "The tie fighters have been eliminated. Regain contact with the Rebel Alliance to receive the payment."
+	on complete
+		payment 250000
+		dialog "Battle of Naboo"
+
+mission "Slave I vs Ob-Wan"
+	name "Slave I vs Ob-Wan"
+	description "Slave I vs Ob-Wan"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target
+		government "Bounty Hunter"
+		system Empress
+		fleet
+			variant 50
+				"Firespray-31-class patrol craft"
+		dialog "Slave I vs Ob-Wan"
+	on complete
+		payment 250000
+		dialog "Slave I vs Ob-Wan"
+
+
+
+mission "Battle of Atollon"
+	name "Battle of Atollon"
+	description "Battle of Atollon"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc assist
+		personality heroic staying launching
+		government "Rebel Alliance"
+		system Atollon
+		fleet
+			variant 50
+				"CR90 Corvette" 7
+				"Dornean Gunship" 3
+				"Quasar Fire II-class Bulk Cruiser"
+				"EF76 Nebulon-B Frigate" 3
+				"GR-75 Transport" 2
+				"Sphyrna-class Corvette (Modified)"
+				"BTL-A4 Y-Wing" 8
+		dialog "Battle of Atollon"
+	on complete
+		payment 250000
+		dialog "Battle of Atollon"
+
+mission "Tantive IV"
+	name "Tantive IV"
+	description "Tantive IV"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target unconstrained
+		government "Galactic Empire"
+		system Prakith
+		fleet
+			variant 50
+				"Imperial I Star Destroyer"
+		dialog "Asteroid Field"
+	on complete
+		payment 250000
+		dialog "Tantive IV"
+
+mission "Battle of Scarif"
+	name "Battle of Scarif"
+	description "Battle of Scarif"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target unconstrained
+		government "Galactic Empire"
+		system Scarif
+		fleet
+			variant 50
+				"Imperial I Star Destroyer" 3
+				"TIE/LN Fighter (Fighter)" 30
+		dialog "Asteroid Field"
+	on complete
+		payment 250000
+		dialog "Tantive IV"
+
+mission "Razor Crest vs Bounty Hunter"
+	name "Razor Crest vs Bounty Hunter"
+	description "Razor Crest vs Bounty Hunter"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target
+		government "Bounty Hunter"
+		system Prakith
+		fleet
+			variant 50
+				"Kihraxz Assault Fighter"
+		dialog "Razor Crest vs Bounty Hunter"
+	on complete
+		payment 250000
+		dialog "Razor Crest vs Bounty Hunter"
+
+
+
+outfit "Cinematic Pauser"
+	category "Secondary Weapons"
+	cost 1000
+	thumbnail "outfit/concussionmissilelauncher"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	"rocket capacity" 30
+	weapon
+		sprite "projectile/concussionmissile"
+			"frame rate" 4
+		sound "rocket"
+		ammo
+		icon "icon/concussionmissile"
+		"hit effect" "heavy rocket hit"
+		"die effect" "small explosion"
+		"inaccuracy" 1
+		"velocity" 17
+		"lifetime" 10
+		"reload" 100
+		"firing energy" 1
+		"firing heat" 250
+		"acceleration" 0
+		"drag" .1
+		"shield damage" 0
+		"hull damage" 0
+		"slowing damage" 10000
+		"blast radius" 100000
+		"hit force" 0
+	description "Concussion Missile Launcher"

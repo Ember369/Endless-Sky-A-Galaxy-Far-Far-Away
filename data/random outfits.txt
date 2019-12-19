@@ -1,0 +1,115 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "YT1300 Deflector Shield Projector"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/huge shield"
+	"mass" 5
+	"outfit space" -27
+	"shield generation" 1.2
+	"shield energy" 1.75
+	description "YT1300 Deflector Shield Projector for YT1300 Freighter"
+
+outfit "Consular Deflector Shield"
+	category "Systems"
+	cost 40000
+	thumbnail "outfit/huge shield"
+	"mass" 40
+	"outfit space" -40
+	"shield generation" 1.5
+	"shield energy" 2.5
+	description "Consular Deflector Shield for Consular Cruiser"
+
+outfit "Transport Deflector Shield Projector"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/huge shield"
+	"mass" 5
+	"outfit space" -27
+	"shield generation" 1.2
+	"shield energy" 1.75
+	description "Transport Deflector Shield Projector for BT7 Thunderclap"
+
+outfit "Heavy Freighter Deflector Shield"
+	category "Systems"
+	cost 40000
+	thumbnail "outfit/huge shield"
+	"mass" 40
+	"outfit space" -40
+	"shield generation" 1.3
+	"shield energy" 2.5
+	description "Deflector Shield for Heavy Freighters"
+
+outfit "Light Hyperspace Motivator"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/hyperspacemotivator"
+	"mass" 2
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "Hyperspace Motivator"
+
+outfit "Medium Hyperspace Motivator"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hyperspacemotivator"
+	"mass" 8
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "Hyperspace Motivator"
+
+outfit "Heavy Hyperspace Motivator"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/hyperspacemotivator"
+	"mass" 20
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "Hyperspace Motivator"
+
+outfit "Capital Hyperspace Motivator"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/hyperspacemotivator"
+	"mass" 40
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "Hyperspace Motivator"
+
+outfit "Light Coolant System"
+	category "Systems"
+	cost 500
+	thumbnail "outfit/water cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 5
+	description "This system is a step up from ordinary cooling ducts; it circulates water in between an external radiator and your ship's hottest internal components to keep them from overheating."
+
+outfit "Medium Coolant System"
+	category "Systems"
+	cost 500
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 20
+	description "This system is a step up from ordinary cooling ducts; it circulates water in between an external radiator and your ship's hottest internal components to keep them from overheating."

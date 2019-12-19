@@ -1,0 +1,469 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Imperial Fighter Laser Cannon"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/l-s1lasercannon"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/greenlaser"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" 10
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" .5
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 100
+		"hull damage" 100
+		cluster
+	description "L-s1 Laser Cannon for TIE/LN"
+
+outfit "Imperial Fighter Ion Cannon"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/nk-3ioncannon"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/greenlaser"
+			"frame rate" 5
+		sound "ion"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 10
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" 0.5
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 80
+		"hull damage" 80
+		"ion damage" 1
+		cluster
+	description "Fighter Ion Cannon for Gamma-class ATR-6 Assault Transport"
+
+outfit "Imperial Fighter Laser Turret"
+	category "Turrets"
+	cost 1000
+	thumbnail "outfit/koesnayrtwinlasercannon"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 15
+		"turret turn" 6
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" .5
+		"firing heat" 1.2
+		"shield damage" 100
+		"hull damage" 100
+		cluster
+	description "Imperial Laser Turret for GAT-12 Skipray Blastboat"
+
+
+
+outfit "Imperial Fighter Laser Turret (underneath)"
+	category "Turrets"
+	cost 1000
+	thumbnail "outfit/koesnayrtwinlasercannon"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser"
+		"hardpoint sprite" "hardpoint/"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 15
+		"turret turn" 6
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" .5
+		"firing heat" 1.2
+		"shield damage" 100
+		"hull damage" 100
+		cluster
+	description "Imperial Laser Turret for GAT-12 Skipray Blastboat"
+
+
+
+outfit "Imperial Transport Laser Cannon"
+	category "Guns"
+	cost 1800
+	thumbnail "outfit/transportlasercannon"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
+	"gun ports" -1
+	weapon
+		sprite "projectile/greenlaser2"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" 15
+		"velocity" 20
+		"lifetime" 70
+		"reload" 120
+		"firing energy" .5
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 160
+		"hull damage" 160
+		cluster
+	description "Transport Laser Cannon for YT1300 Freighter"
+
+
+
+outfit "Imperial Transport Quad Turbolaser Turret"
+	category "Turrets"
+	cost 3000
+	thumbnail "outfit/yt1300quadturbolaserturret"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser2dual"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 15
+		"turret turn" 2
+		"velocity" 20
+		"lifetime" 90
+		"reload" 100
+		"firing energy" 10
+		"firing heat" 35
+		"shield damage" 170
+		"hull damage" 170
+		cluster
+	description "Transport Quad Turbolaser Turret"
+
+outfit "Imperial Transport Laser Turret"
+	category "Turrets"
+	cost 3000
+	thumbnail "outfit/transportlaserturret"
+	"mass" 3
+	"outfit space" -3
+	"weapon capacity" -3
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser2"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 15
+		"turret turn" 3
+		"velocity" 20
+		"lifetime" 70
+		"reload" 140
+		"firing energy" 10
+		"firing heat" 35
+		"shield damage" 170
+		"hull damage" 170
+		cluster
+	description "Transport Laser Turret"
+
+
+
+
+outfit "Gozanti Twin Laser Cannon"
+	category "Turrets"
+	cost 15000
+	thumbnail "outfit/gozantitwinlasercannon"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser2dual"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 25
+		"turret turn" 2
+		"velocity" 20
+		"lifetime" 80
+		"reload" 180
+		"firing energy" 10
+		"firing heat" 35
+		"shield damage" 400
+		"hull damage" 400
+		cluster
+	description "Gozanti Twin Laser Cannon for Gozanti Cruiser"
+
+outfit "Gozanti Heavy Laser Cannon"
+	category "Turrets"
+	cost 15000
+	thumbnail "outfit/corelliandualturbolaser"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser2"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 28
+		"turret turn" 2
+		"velocity" 20
+		"lifetime" 90
+		"reload" 140
+		"firing energy" 10
+		"firing heat" 35
+		"shield damage" 650
+		"hull damage" 650
+	description "Gozanti Heavy Laser Cannon"
+
+outfit "T4a Shuttle Laser Cannon"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/t4alasercannon"
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	weapon
+		sprite "projectile/greenlaser"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" 16
+		"velocity" 20
+		"lifetime" 70
+		"reload" 120
+		"firing energy" .5
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 100
+		"hull damage" 100
+		cluster
+	description "T4a Shuttle Laser Cannon for Lambda T4a Shuttle"
+
+outfit "Rendii V Quad Turbolaser Battery"
+	category "Turrets"
+	cost 50000
+	thumbnail "outfit/rendiiquadturbolaser"
+	"mass" 65
+	"outfit space" -65
+	"weapon capacity" -65
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser3quad"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 35
+		"turret turn" 0.5
+		"velocity" 20
+		"lifetime" 180
+		"reload" 320
+		"firing energy" 10
+		"firing heat" 35
+		"shield damage" 900
+		"hull damage" 900
+		stream
+	description "Rendii V Quad Turbolaser Battery for Victory I Destroyer"
+
+outfit "Rendii V Dual Turbolaser Battery"
+	category "Turrets"
+	cost 39000
+	thumbnail "outfit/rendiidualturbolaser"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser3dual"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 35
+		"turret turn" 0.7
+		"velocity" 20
+		"lifetime" 180
+		"reload" 320
+		"firing energy" 10
+		"firing heat" 35
+		"shield damage" 650
+		"hull damage" 650
+		stream
+	description "Rendii V Dual Turbolaser Battery for Victory I Destroyer"
+
+outfit "Rendii V Turbolaser Battery"
+	category "Turrets"
+	cost 35000
+	thumbnail "outfit/rendiidualturbolaser"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser3"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 35
+		"turret turn" 1
+		"velocity" 20
+		"lifetime" 180
+		"reload" 320
+		"firing energy" 10
+		"firing heat" 35
+		"shield damage" 500
+		"hull damage" 500
+		stream
+	description "Rendii V Turbolaser Battery for Victory I Destroyer"
+
+
+
+outfit "Tractor Beam"
+	category "Turrets"
+	cost 1000
+	thumbnail "outfit/tractorbeam"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 5
+		"turret turn" 20
+		"velocity" 10
+		"lifetime" 80
+		"reload" 20
+		"firing energy" 10
+		"firing heat" 5
+		"shield damage" 0
+		"hull damage" 0
+		"homing" 4
+		"hit force" -1
+	description "Tractor Beam"
+
+outfit "Raider Dual Turbolaser Cannon"
+	category "Turrets"
+	cost 15000
+	thumbnail "outfit/raiderturbolasercannon"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser2"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 15
+		"turret turn" 2
+		"velocity" 20
+		"lifetime" 120
+		"reload" 180
+		"firing energy" 10
+		"firing heat" 35
+		"shield damage" 450
+		"hull damage" 450
+		cluster
+	description "Raider Dual Turbolaser Cannon for Raider II Corvette"
+
+outfit "Raider Ion Cannon"
+	category "Guns"
+	cost 3000
+	thumbnail "outfit/raiderioncannon"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/greenlaser2"
+			"frame rate" 5
+		sound "ion"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 15
+		"velocity" 20
+		"lifetime" 130
+		"reload" 160
+		"firing energy" 120
+		"firing force" 0
+		"firing heat" 150
+		"hit force" 0
+		"shield damage" 200
+		"hull damage" 200
+		"ion damage" 2
+		cluster
+	description "Raider Ion Cannon for Raider II Corvette"
+
+outfit "Anti-starfighter Battery"
+	category "Turrets"
+	cost 30000
+	thumbnail "outfit/antistarfighterbattery"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 10
+		"turret turn" 4
+		"velocity" 20
+		"lifetime" 100
+		"reload" 110
+		"firing energy" 10
+		"firing heat" 35
+		"shield damage" 100
+		"hull damage" 100
+	description "Anti-starfighter Battery"

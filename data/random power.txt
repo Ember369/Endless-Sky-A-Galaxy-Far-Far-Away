@@ -1,0 +1,42 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Quadex Power Core"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/fusion"
+	"mass" 5
+	"outfit space" -10
+	"energy generation" 24.5
+	"heat generation" 20
+	"energy capacity" 11000
+	description "Quadex Power Core for YT1300 Freighter"
+
+outfit "Consular Power Converter"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/fusion"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 39
+	"heat generation" 25
+	"energy capacity" 19500
+	description "Consular Power Converter for Consular Cruiser"
+
+outfit "Heavy Freighter Power Converter"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/fusion"
+	"mass" 25
+	"outfit space" -25
+	"energy generation" 30
+	"heat generation" 25
+	"energy capacity" 20500
+	description "Power Converter for Heavy Freighters"

@@ -1,0 +1,113 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "l-3b Solar Ionisation Reactor"
+	category "Power"
+	cost 47000
+	thumbnail "outfit/solarionisationreactor"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 3
+	"heat generation" 1
+	description "l-3b Solar Ionisation Reactor for TIE/LN fighter"
+
+outfit "Gozanti Power Converter"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/fusion"
+	"mass" 7
+	"outfit space" -7
+	"energy generation" 41
+	"heat generation" 25
+	"energy capacity" 20500
+	description "Gozanti Power Converter for Gozanti Cruiser"
+
+outfit "Victory I Power Converter"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/fusion"
+	"mass" 50
+	"outfit space" -50
+	"energy generation" 75
+	"heat generation" 40
+	"energy capacity" 50000
+	description "Victory I Power Converter for Victory I Destroyer"
+
+outfit "Cygnus T4a Power Converter"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/fusion"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 25
+	"heat generation" 20
+	"energy capacity" 10100
+	description "Cygnus T4a Power Converter for T4a Shuttle"
+
+outfit "l-3a Solar Ionisation Reactor"
+	category "Power"
+	cost 47000
+	thumbnail "outfit/solarionisationreactor"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 3.2
+	"heat generation" 1
+	description "l-3a Solar Ionisation Reactor for TIE/IN fighter"
+
+outfit "l-s4d Solar Ionisation Reactor"
+	category "Power"
+	cost 47000
+	thumbnail "outfit/solarionisationreactor"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 3.2
+	"heat generation" 1
+	description "SFS l-s4d Solar Ionisation Reactor for TIE/D fighter"
+
+outfit "l-s3a Solar Ionisation Reactor"
+	category "Power"
+	cost 47000
+	thumbnail "outfit/solarionisationreactor"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 3.2
+	"heat generation" 1
+	description "SFS l-s3a Solar Ionisation Reactor for TIE/AD fighter"
+
+outfit "l-a2b Solar Ionisation Reactor"
+	category "Power"
+	cost 47000
+	thumbnail "outfit/solarionisationreactor"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 3.1
+	"heat generation" 1
+	description "SFS l-a2b Solar Ionisation Reactor for TIE/SA fighter"
+
+outfit "l-a2c Solar Ionisation Reactor"
+	category "Power"
+	cost 47000
+	thumbnail "outfit/solarionisationreactor"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 3.2
+	"heat generation" 1
+	description "SFS l-a2c Solar Ionisation Reactor for TIE/IT fighter"
+
+outfit "Raider Power Converter"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/fusion"
+	"mass" 25
+	"outfit space" -25
+	"energy generation" 42
+	"heat generation" 25
+	"energy capacity" 21000
+	description "Raider Power Converter for Raider II Corvette"

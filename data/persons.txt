@@ -1,0 +1,126 @@
+# Copyright (c) 2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+person "Millennium Falcon"
+	government "Rebel Alliance"
+	frequency 300
+	personality
+		surveillance
+	phrase
+		word
+			"It’s the ship that made the Kessel Run in less than twelve parsecs!"
+			"You know, sometimes I amaze even myself!"
+			"Never tell me the odds!"
+			"Let's keep a little optimism here..."
+	ship "Millennium Falcon"
+		sprite ship/yt1300freighterfalcon
+		"never disabled"
+		attributes
+			category "Transport"
+			"cost" 15200000
+			"shields" 50000
+			"hull" 30000
+			"required crew" 2
+			"bunks" 17
+			"mass" 112
+			"drag" 1.8
+			"heat dissipation" .45
+			"fuel capacity" 700
+			"cargo space" 200
+			"outfit space" 340
+			"weapon capacity" 120
+			"engine capacity" 70
+			weapon
+				"blast radius" 300
+				"shield damage" 700
+				"hull damage" 350
+				"hit force" 800
+		outfits
+			"AUTHOR Transport Laser Cannon" 2
+			"AUTHOR Proton Torpedo Launcher" 2
+			"MG9 Proton Torpedo" 6
+			"AUTHOR Transport Quad Turbolaser Turret" 2
+		
+			"Quadex Power Core"
+			"YT1300 Deflector Shield Projector"
+			"Large Radar Jammer"
+			"Water Coolant System" 3
+		
+			"Girodyne SRB42 Sublight Engine"
+			"Hyperspace Motivator"
+		
+		engine -61 186
+		engine -4 191
+		engine 49 182
+		gun -37 -162 "AUTHOR Transport Laser Cannon"
+		gun 30 -163 "AUTHOR Transport Laser Cannon"
+		gun -37 -162 "Proton Torpedo Launcher"
+		gun 30 -163 "Proton Torpedo Launcher"
+		turret -1 51 "AUTHOR Transport Quad Turbolaser Turret"
+		turret -1 51 "AUTHOR Transport Quad Turbolaser Turret"
+		explode "tiny explosion" 20
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "large explosion" 40
+		"final explode" "final explosion large" 1
+
+person "Skylight"
+	government "Rebel Alliance"
+	frequency 300
+	personality
+		surveillance
+	phrase
+		word
+			"For the Rebel Alliance!"
+	ship "T-105 X-Wing"
+		sprite ship/xwingt105
+		"never disabled"
+		attributes
+			category Interceptor
+			cost 250000
+			shields 30000
+			hull 10000
+			"required crew" 1
+			bunks 2
+			mass 22
+			drag 0.9
+			"heat dissipation" 0.8
+			"fuel capacity" 100000
+			"outfit space" 249
+			"weapon capacity" 60
+			"engine capacity" 50
+			weapon
+				"blast radius" 40
+				"shield damage" 320
+				"hull damage" 170
+				"hit force" 460
+		outfits
+			"AUTHOR Fighter Laser Cannon" 4
+			"AUTHOR Proton Torpedo Launcher" 2
+			"MG9 Proton Torpedo" 6
+			"AUTHOR Fighter Ion Cannon Turret"
+
+			"Novaldex O4-Z Power Converter"
+			"Chempat X Deflector Shield Projector"
+			"Light Coolant System"
+
+			"4L4 Fusial Thrust Engine"
+			"Light Hyperspace Motivator"
+
+		engine -25 105
+		engine 24 105
+		gun -81 -34 "AUTHOR Fighter Laser Cannon"
+		gun 80 -35 "AUTHOR Fighter Laser Cannon"
+		gun -81 20 "AUTHOR Fighter Laser Cannon"
+		gun 80 18 "AUTHOR Fighter Laser Cannon"
+		gun -12 -5 "AUTHOR Proton Torpedo Launcher"
+		gun 11 -5 "AUTHOR Proton Torpedo Launcher"
+		turret 0 84 "AUTHOR Fighter Ion Cannon Turret"
+		explode "large explosion" 3

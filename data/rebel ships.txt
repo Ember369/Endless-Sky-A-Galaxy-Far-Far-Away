@@ -1,0 +1,1960 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "RZ1 A-Wing"
+	sprite "ship/awingrz1"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 129000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 199
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 12
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -12 31
+	engine 12 30
+	gun -24 -4 "Fighter Laser Cannon"
+	gun 24 -4 "Fighter Laser Cannon"
+	gun -14 -10 "Concussion Missile Launcher"
+	gun 13 -11 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "RZ-1 A-Wing Interceptor"
+
+
+
+ship "RZ1 A-Wing (Fighter)"
+	sprite "ship/awingrz1prototype"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 129000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 179
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 12
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		
+	engine -12 31
+	engine 12 30
+	gun -24 -4 "Fighter Laser Cannon"
+	gun 24 -4 "Fighter Laser Cannon"
+	gun -14 -10 "Concussion Missile Launcher"
+	gun 13 -11 "Concussion Missile Launcher"
+	explode "tiny explosion" 20
+	explode "large explosion" 3
+	description "RZ-1 A-Wing Interceptor Prototype"
+
+
+
+ship "A/SF-01 B-Wing"
+	sprite "ship/bwing"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 520000
+		"shields" 3000
+		"hull" 2500
+		"required crew" 2
+		"bunks" 2
+		"mass" 30
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 165
+		"weapon capacity" 9
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 4
+		"Fighter Ion Cannon" 3
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 20
+
+		"JZ-5g7 Power Converter"
+		"Zr-41 Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine 21 23
+	engine 28 23
+	gun -58 -17 "Fighter Laser Cannon"
+	gun -58 -17 "Fighter Laser Cannon"
+	gun 15 -15 "Fighter Laser Cannon"
+	gun 50 -14 "Fighter Laser Cannon"
+	gun -58 -17 "Fighter Ion Cannon"
+	gun 15 -15 "Fighter Ion Cannon"
+	gun 50 -14 "Fighter Ion Cannon"
+	gun 50 -14 "Proton Torpedo Launcher"
+	gun 50 -14 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "A/SF-01 B-Wing"
+
+
+
+ship "A/SF-01 B-Wing (Fighter)"
+	sprite "ship/bwing"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 520000
+		"shields" 3000
+		"hull" 2500
+		"required crew" 2
+		"bunks" 2
+		"mass" 30
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 135
+		"weapon capacity" 90
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 4
+		"Fighter Ion Cannon" 3
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 20
+
+		"JZ-5g7 Power Converter"
+		"Zr-41 Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		
+	engine 21 23
+	engine 28 23
+	gun -58 -17 "Fighter Laser Cannon"
+	gun -58 -17 "Fighter Laser Cannon"
+	gun 15 -15 "Fighter Laser Cannon"
+	gun 50 -14 "Fighter Laser Cannon"
+	gun -58 -17 "Fighter Ion Cannon"
+	gun 15 -15 "Fighter Ion Cannon"
+	gun 50 -14 "Fighter Ion Cannon"
+	gun 50 -14 "Proton Torpedo Launcher"
+	gun 50 -14 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "A/SF-01 B-Wing"
+
+
+
+ship "A/SF-01 B-Wing B6"
+	sprite "ship/bwingb6"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 520000
+		"shields" 3000
+		"hull" 2500
+		"required crew" 2
+		"bunks" 2
+		"mass" 30
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 265
+		"weapon capacity" 80
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Composite Beam Laser" 3
+		"Fighter Ion Cannon" 3
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 20
+
+		"JZ-5g7 Power Converter"
+		"Zr-41 Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine 22 23
+	engine 27 23
+	gun -59 -13 "Composite Beam Laser"
+	gun 16 -13 "Composite Beam Laser"
+	gun 52 -13 "Composite Beam Laser"
+	gun -49 -20 "Fighter Ion Cannon"
+	gun 16 -14 "Fighter Ion Cannon"
+	gun 53 -12 "Fighter Ion Cannon"
+	gun 53 -12 "Proton Torpedo Launcher"
+	gun 53 -12 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "Prototype B6 B-Wing"
+
+
+
+ship "A/SF-01 B-Wing B6 (Fighter)"
+	sprite "ship/bwingb6"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 520000
+		"shields" 3000
+		"hull" 2500
+		"required crew" 2
+		"bunks" 2
+		"mass" 30
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 265
+		"weapon capacity" 80
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Composite Beam Laser" 3
+		"Fighter Ion Cannon" 3
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 20
+
+		"JZ-5g7 Power Converter"
+		"Zr-41 Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine 22 23
+	engine 27 23
+	gun -59 -13 "Composite Beam Laser"
+	gun 16 -13 "Composite Beam Laser"
+	gun 52 -13 "Composite Beam Laser"
+	gun -49 -20 "Fighter Ion Cannon"
+	gun 16 -14 "Fighter Ion Cannon"
+	gun 53 -12 "Fighter Ion Cannon"
+	gun 53 -12 "Proton Torpedo Launcher"
+	gun 53 -12 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "Prototype B6 B-Wing"
+
+
+
+ship "CC-7700 Interdictor Frigate"
+	sprite "ship/cc7700frigate"
+	attributes
+		category "Light Warship"
+		"cost" 26000000
+		"shields" 36000
+		"hull" 10000
+		"required crew" 200
+		"bunks" 650
+		"mass" 2200
+		"drag" 5.3
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 40
+		"outfit space" 624
+		"weapon capacity" 240
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret" 4
+		"Dual Turbolaser Turret" 2
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -73 300
+	engine -20 311
+	engine 9 311
+	engine 65 298
+	turret -84 11 "Turbolaser Turret"
+	turret 73 11 "Turbolaser Turret"
+	turret -84 96 "Turbolaser Turret"
+	turret 75 94 "Turbolaser Turret"
+	turret -49 41 "Dual Turbolaser Turret"
+	turret 40 41 "Dual Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The CC-7700 Interdictor Frigate is lightly armed, but they were not meant to be battleships. Instead, they are designed to be a platform for gravity well projectors with a mission profile similar to the Imperial Interdictor Cruiser."
+
+
+
+ship "CR90 Corvette"
+	sprite "ship/cr90corvette"
+	attributes
+		category "Light Warship"
+		"cost" 15200000
+		"shields" 35000
+		"hull" 10000
+		"required crew" 165
+		"bunks" 400
+		"mass" 2000
+		"drag" 5
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 40
+		"outfit space" 624
+		"weapon capacity" 240
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret" 4
+		"Dual Turbolaser Turret" 2
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Heavy Hyperspace Motivator"
+		
+	engine -68 283
+	engine -23 282
+	engine 23 280
+	engine 69 282
+	turret 0 -161 "Dual Turbolaser Turret"
+	turret 0 -161 "Dual Turbolaser Turret"
+	turret -38 -110 "Turbolaser Turret"
+	turret 41 -110 "Turbolaser Turret"
+	turret -39 -74 "Turbolaser Turret"
+	turret 40 -73 "Turbolaser Turret"
+	fighter -65 72 under
+	fighter 67 74 under
+	fighter 0 73
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "CR90 corvette"
+
+
+
+ship "Dornean Gunship"
+	sprite "ship/dorneangunship"
+	attributes
+		category "Light Warship"
+		"cost" 15200000
+		"shields" 31000
+		"hull" 8500
+		"required crew" 75
+		"bunks" 90
+		"mass" 1800
+		"drag" 4.7
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 30
+		"outfit space" 569
+		"weapon capacity" 180
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 32
+		
+		"Raider Power Converter"
+		"Raider Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Raider Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -25 157
+	engine 29 158
+	engine 1 185
+	gun -59 130 "Concussion Missile Launcher"
+	gun 57 131 "Concussion Missile Launcher"
+	turret -29 12 "Turbolaser Turret"
+	turret 35 10 "Turbolaser Turret"
+	turret -15 -78 "Turbolaser Turret"
+	turret 17 -79 "Turbolaser Turret"
+	fighter -36 56
+	fighter 40 56
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Dornean Gunship (Braha'tok-class Gunship)"
+
+
+
+
+ship "DP20 Frigate"
+	sprite "ship/dp20frigate"
+	attributes
+		category "Light Warship"
+		"cost" 15200000
+		"shields" 34000
+		"hull" 9500
+		"required crew" 10
+		"bunks" 100
+		"mass" 1900
+		"drag" 4.9
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 40
+		"outfit space" 784
+		"weapon capacity" 400
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret" 10
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -54 252
+	engine 2 253
+	engine 58 249
+	turret -78 -43 "Turbolaser Turret"
+	turret 82 -42 "Turbolaser Turret"
+	turret 1 -42 "Turbolaser Turret"
+	turret 1 -42 "Turbolaser Turret"
+	turret 2 44 "Turbolaser Turret"
+	turret 2 44 "Turbolaser Turret"
+	turret 2 203 "Turbolaser Turret"
+	turret 2 203 "Turbolaser Turret"
+	turret -98 172 "Turbolaser Turret"
+	turret 104 170 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "DP20 Frigate
+
+
+
+ship "E-7 E-Wing"
+	sprite "ship/ewing"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 15200000
+		"shields" 2700
+		"hull" 1500
+		"required crew" 1
+		"bunks" 1
+		"mass" 25
+		"drag" 1
+		"heat dissipation" .8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 192
+		"weapon capacity" 50
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 3
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 16	
+
+		"FreiTek Power Converter"
+		"FreiTek Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -24 38
+	engine 24 39
+	gun -29 -2 "Fighter Laser Cannon"
+	gun 29 -2 "Fighter Laser Cannon"
+	gun 0 -11 "Fighter Laser Cannon"
+	gun -5 -7 "Concussion Missile Launcher"
+	gun 4 -8 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "E7 E-Wing"
+
+
+
+ship "E-7 E-Wing (Fighter)"
+	sprite "ship/ewing"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 15200000
+		"shields" 2700
+		"hull" 1500
+		"required crew" 1
+		"bunks" 1
+		"mass" 24.5
+		"drag" 1
+		"heat dissipation" .8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 192
+		"weapon capacity" 50
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 3
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 16	
+
+		"FreiTek Power Converter"
+		"FreiTek Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -24 38
+	engine 24 39
+	gun -29 -2 "Fighter Laser Cannon"
+	gun 29 -2 "Fighter Laser Cannon"
+	gun 0 -11 "Fighter Laser Cannon"
+	gun -5 -7 "Concussion Missile Launcher"
+	gun 4 -8 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "E7 E-Wing (Fighter)"
+
+
+
+ship "GR-75 Transport"
+	sprite "ship/gr75transport"
+	attributes
+		category "Transport"
+		"cost" 15200000
+		"shields" 35000
+		"hull" 10000
+		"required crew" 6
+		"bunks" 300
+		"mass" 2500
+		"drag" 5.5
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 1000
+		"outfit space" 384
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"GR-75" 1
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -32 123
+	engine -22 148
+	engine -14 160
+	engine -6 164
+	engine 9 163
+	engine 19 148
+	engine 29 129
+	turret 1 -15 "GR-75"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "GR-75 Transport"
+
+
+
+ship "Sphyrna-class Corvette (Modified)"
+	sprite "ship/sphyrnacorvettemodified"
+	attributes
+		category "Light Warship"
+		"cost" 15200000
+		"shields" 33000
+		"hull" 9000
+		"required crew" 10
+		"bunks" 40
+		"mass" 1900
+		"drag" 4.9
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 40
+		"outfit space" 504
+		"weapon capacity" 120
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret" 3
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -38 199
+	engine 0 200
+	engine 41 200
+	turret -23 -159 "Turbolaser Turret"
+	turret 28 -159 "Turbolaser Turret"
+	turret 1 64 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Sphyrna-class corvette, also known simply as the Hammerhead corvette, was a model of corvette that saw wide use in the period leading up to, during the Galactic Civil War and during the cold war, where it would be fielded by a rebel cell as well as the Alliance to Restore the Republic and the Resistance."
+
+
+
+ship "BTL-S8 K-Wing"
+	sprite "ship/kwing"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 520000
+		"shields" 3300
+		"hull" 2800
+		"required crew" 2
+		"bunks" 4
+		"mass" 37
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"gun ports" 18
+		"cargo space" 32
+		"outfit space" 429
+		"turret mounts" 2
+		"weapon capacity" 235
+		"engine capacity" 55
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Heavy Fighter Laser Turret" 2
+		"Advanced Homing Missile" 16
+		"Advanced Homing Missile Storage Rack"
+		"Advanced Homing Missile Launcher" 4
+		"Fletchette Missile" 100
+		"Fletchette Missile Storage Rack"
+		"Fletchette Missile Launcher" 6
+		"Concussion Missile" 16
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 4
+		"Plasma Torpedo" 12
+		"Plasma Torpedo Storage Rack"
+		"Plasma Torpedo Launcher" 2
+
+		"Koensayr K-Class Power Converter"
+		"Zr-41 Deflector Shield Projector"
+		"Light Coolant System" 2
+
+		"Heavy Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -23 48
+	engine 0 55
+	engine 22 48
+	gun -46 -1 "Advanced Homing Missile Launcher"
+	gun -40 -1 "Advanced Homing Missile Launcher"
+	gun 39 -1 "Advanced Homing Missile Launcher"
+	gun 43 -1 "Advanced Homing Missile Launcher"
+	gun -37 -1 "Fletchette Missile Launcher"
+	gun -34 0 "Fletchette Missile Launcher"
+	gun -31 0 "Fletchette Missile Launcher"
+	gun 29 -1 "Fletchette Missile Launcher"
+	gun 31 -1 "Fletchette Missile Launcher"
+	gun 35 -1 "Fletchette Missile Launcher"
+	gun -54 2 "Concussion Missile Launcher"
+	gun -49 1 "Concussion Missile Launcher"
+	gun 48 2 "Concussion Missile Launcher"
+	gun 53 2 "Concussion Missile Launcher"
+	gun -84 -3 "Plasma Torpedo Launcher"
+	gun 84 -3 "Plasma Torpedo Launcher"
+	turret 0 -39 "Heavy Fighter Laser Turret"
+	turret 0 -20 "Heavy Fighter Laser Turret"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "BTL-S8 K-Wing"
+
+
+
+ship "BTL-S8 K-Wing (Fighter)"
+	sprite "ship/kwing"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 520000
+		"shields" 3300
+		"hull" 2800
+		"required crew" 2
+		"bunks" 4
+		"mass" 37
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"gun ports" 18
+		"cargo space" 32
+		"outfit space" 429
+		"turret mounts" 2
+		"weapon capacity" 235
+		"engine capacity" 55
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Heavy Fighter Laser Turret" 2
+		"Advanced Homing Missile" 16
+		"Advanced Homing Missile Storage Rack"
+		"Advanced Homing Missile Launcher" 4
+		"Fletchette Missile" 100
+		"Fletchette Missile Storage Rack"
+		"Fletchette Missile Launcher" 6
+		"Concussion Missile" 16
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 4
+		"Plasma Torpedo" 12
+		"Plasma Torpedo Storage Rack"
+		"Plasma Torpedo Launcher" 2
+
+		"Koensayr K-Class Power Converter"
+		"Zr-41 Deflector Shield Projector"
+		"Light Coolant System" 2
+
+		"Heavy Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -23 48
+	engine 0 55
+	engine 22 48
+	gun -46 -1 "Advanced Homing Missile Launcher"
+	gun -40 -1 "Advanced Homing Missile Launcher"
+	gun 39 -1 "Advanced Homing Missile Launcher"
+	gun 43 -1 "Advanced Homing Missile Launcher"
+	gun -37 -1 "Fletchette Missile Launcher"
+	gun -34 0 "Fletchette Missile Launcher"
+	gun -31 0 "Fletchette Missile Launcher"
+	gun 29 -1 "Fletchette Missile Launcher"
+	gun 31 -1 "Fletchette Missile Launcher"
+	gun 35 -1 "Fletchette Missile Launcher"
+	gun -54 2 "Concussion Missile Launcher"
+	gun -49 1 "Concussion Missile Launcher"
+	gun 48 2 "Concussion Missile Launcher"
+	gun 53 2 "Concussion Missile Launcher"
+	gun -84 -3 "Plasma Torpedo Launcher"
+	gun 84 -3 "Plasma Torpedo Launcher"
+	turret 0 -39 "Heavy Fighter Laser Turret"
+	turret 0 -20 "Heavy Fighter Laser Turret"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "BTL-S8 K-Wing (Fighter)"
+
+
+
+ship "BTL-S8 K-Wing (Ion Bombs)"
+	sprite "ship/kwing"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 520000
+		"shields" 3300
+		"hull" 2800
+		"required crew" 2
+		"bunks" 4
+		"mass" 37
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"gun ports" 18
+		"cargo space" 32
+		"outfit space" 429
+		"turret mounts" 2
+		"weapon capacity" 235
+		"engine capacity" 55
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Heavy Fighter Laser Turret" 2
+		"Advanced Homing Missile" 16
+		"Advanced Homing Missile Storage Rack"
+		"Advanced Homing Missile Launcher" 4
+		"Fletchette Missile" 100
+		"Fletchette Missile Storage Rack"
+		"Fletchette Missile Launcher" 6
+		"Concussion Missile" 16
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 4
+		"Plasma Torpedo" 12
+		"Plasma Torpedo Storage Rack"
+		"Plasma Torpedo Launcher" 2
+		"Ion Bomb Launcher" 2
+		"Ion Bomb" 2
+
+		"Koensayr K-Class Power Converter"
+		"Zr-41 Deflector Shield Projector"
+		"Light Coolant System" 2
+
+		"Heavy Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -70 156 1
+	engine 70 156 1
+	engine 0 177 1
+	gun -122 -3 "Advanced Homing Missile Launcher"
+	gun 122 -3 "Advanced Homing Missile Launcher"
+	gun -111 -4 "Advanced Homing Missile Launcher"
+	gun 111 -4 "Advanced Homing Missile Launcher"
+	gun -122 -3 "Fletchette Missile Launcher"
+	gun 122 -3 "Fletchette Missile Launcher"
+	gun -111 -4 "Fletchette Missile Launcher"
+	gun 111 -4 "Fletchette Missile Launcher"
+	gun -100 -4 "Fletchette Missile Launcher"
+	gun 100 -4 "Fletchette Missile Launcher"
+	gun -146 5 "Concussion Missile Launcher"
+	gun 146 5 "Concussion Missile Launcher"
+	gun -83 -5 "Concussion Missile Launcher"
+	gun 83 -5 "Concussion Missile Launcher"
+	gun -234 -12 "Plasma Torpedo Launcher"
+	gun 234 -12 "Plasma Torpedo Launcher"
+	gun -33 -118 "Ion Bomb Launcher"
+	gun 33 -118 "Ion Bomb Launcher"
+	turret 0 -55 "Heavy Fighter Laser Turret"
+	turret 0 -111 "Heavy Fighter Laser Turret"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "BTL-S8 K-Wing"
+
+
+
+ship "MC80A Star Cruiser"
+	sprite "ship/mc80astarcruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 15200000
+		"shields" 180000
+		"hull" 60000
+		"required crew" 5600
+		"bunks" 9000
+		"mass" 13000
+		"drag" 24.5
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 600
+		"outfit space" 2064
+		"weapon capacity" 1200
+		"engine capacity" 550
+		weapon
+			"blast radius" 300
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 900
+	outfits
+		"Mon Calamari Turbolaser Turret" 32
+		
+		"Mon Calamari Deflector Shield"
+		"Mon Calamari Power Converter"
+		"Small Radar Jammer"
+		"Water Coolant System" 5
+		
+		"Mon Calamari Ion Thruster"
+		"Capital Hyperspace Motivator"
+		
+	engine -185 857
+	engine 147 856
+	engine -114 1151
+	engine 77 1151
+	turret -102 -1155 "Mon Calamari Turbolaser Turret"
+	turret 64 -1153 "Mon Calamari Turbolaser Turret"
+	turret -102 -936 "Mon Calamari Turbolaser Turret"
+	turret 59 -931 "Mon Calamari Turbolaser Turret"
+	turret -95 -853 "Mon Calamari Turbolaser Turret"
+	turret 44 -854 "Mon Calamari Turbolaser Turret"
+	turret -127 -685 "Mon Calamari Turbolaser Turret"
+	turret 89 -688 "Mon Calamari Turbolaser Turret"
+	turret -229 -480 "Mon Calamari Turbolaser Turret"
+	turret 184 -478 "Mon Calamari Turbolaser Turret"
+	turret -205 -272 "Mon Calamari Turbolaser Turret"
+	turret 164 -256 "Mon Calamari Turbolaser Turret"
+	turret -199 -79 "Mon Calamari Turbolaser Turret"
+	turret 158 -69 "Mon Calamari Turbolaser Turret"
+	turret -273 -63 "Mon Calamari Turbolaser Turret"
+	turret 231 -59 "Mon Calamari Turbolaser Turret"
+	turret -257 237 "Mon Calamari Turbolaser Turret"
+	turret 214 236 "Mon Calamari Turbolaser Turret"
+	turret -105 284 "Mon Calamari Turbolaser Turret"
+	turret 70 263 "Mon Calamari Turbolaser Turret"
+	turret -207 402 "Mon Calamari Turbolaser Turret"
+	turret 172 410 "Mon Calamari Turbolaser Turret"
+	turret -124 445 "Mon Calamari Turbolaser Turret"
+	turret 87 438 "Mon Calamari Turbolaser Turret"
+	turret -127 605 "Mon Calamari Turbolaser Turret"
+	turret 90 600 "Mon Calamari Turbolaser Turret"
+	turret -131 963 "Mon Calamari Turbolaser Turret"
+	turret 93 956 "Mon Calamari Turbolaser Turret"
+	turret -65 938 "Mon Calamari Turbolaser Turret"
+	turret 25 936 "Mon Calamari Turbolaser Turret"
+	turret -72 1109 "Mon Calamari Turbolaser Turret"
+	turret 31 1113 "Mon Calamari Turbolaser Turret"
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	fighter -252 554
+	fighter 210 553
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large" 1
+	"final explode" "final explosion large"
+	description "MC80A Star Cruiser = 72"
+
+
+
+ship "MC80 Liberty Cruiser"
+	sprite "ship/mc80libertycruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 15200000
+		"shields" 170000
+		"hull" 57000
+		"required crew" 5400
+		"bunks" 8000
+		"mass" 12500
+		"drag" 24
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 600
+		"outfit space" 2064
+		"weapon capacity" 1200
+		"engine capacity" 550
+		weapon
+			"blast radius" 300
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 900
+	outfits
+		"Mon Calamari Turbolaser Turret" 32
+		
+		"Mon Calamari Deflector Shield"
+		"Mon Calamari Power Converter"
+		"Small Radar Jammer"
+		"Water Coolant System" 5
+		
+		"Mon Calamari Ion Thruster"
+		"Capital Hyperspace Motivator"
+		
+	turret -37 -1117 "Mon Calamari Turbolaser Turret"
+	turret -47 -1044 "Mon Calamari Turbolaser Turret"
+	turret -35 -795 "Mon Calamari Turbolaser Turret"
+	turret -37 -715 "Mon Calamari Turbolaser Turret"
+	turret -149 -707 "Mon Calamari Turbolaser Turret"
+	turret -159 -638 "Mon Calamari Turbolaser Turret"
+	turret 5 -408 "Mon Calamari Turbolaser Turret"
+	turret 8 -335 "Mon Calamari Turbolaser Turret"
+	turret -163 -322 "Mon Calamari Turbolaser Turret"
+	turret -165 -277 "Mon Calamari Turbolaser Turret"
+	turret 97 -328 "Mon Calamari Turbolaser Turret"
+	turret 95 -272 "Mon Calamari Turbolaser Turret"
+	turret 271 -270 "Mon Calamari Turbolaser Turret"
+	turret 275 -160 "Mon Calamari Turbolaser Turret"
+	turret 240 -206 "Mon Calamari Turbolaser Turret"
+	turret 243 -100 "Mon Calamari Turbolaser Turret"
+	turret -231 -211 "Mon Calamari Turbolaser Turret"
+	turret -230 -98 "Mon Calamari Turbolaser Turret"
+	turret -298 -198 "Mon Calamari Turbolaser Turret"
+	turret -299 1 "Mon Calamari Turbolaser Turret"
+	turret -267 49 "Mon Calamari Turbolaser Turret"
+	turret -268 246 "Mon Calamari Turbolaser Turret"
+	turret 331 247 "Mon Calamari Turbolaser Turret"
+	turret 337 338 "Mon Calamari Turbolaser Turret"
+	turret 419 139 "Mon Calamari Turbolaser Turret"
+	turret 421 220 "Mon Calamari Turbolaser Turret"
+	turret 448 221 "Mon Calamari Turbolaser Turret"
+	turret 449 478 "Mon Calamari Turbolaser Turret"
+	turret -444 281 "Mon Calamari Turbolaser Turret"
+	turret -442 478 "Mon Calamari Turbolaser Turret"
+	turret 80 260 "Mon Calamari Turbolaser Turret"
+	turret 79 606 "Mon Calamari Turbolaser Turret"
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	fighter 9 -216
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large" 1
+	"final explode" "final explosion large"
+	description "MC80 Liberty Cruiser = 36"
+
+
+
+ship "MC80 Heavy Cruiser"
+	sprite "ship/mc80heavycruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 15200000
+		"shields" 170000
+		"hull" 57000
+		"required crew" 5400
+		"bunks" 8000
+		"mass" 12500
+		"drag" 24
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 600
+		"outfit space" 2064
+		"weapon capacity" 1200
+		"engine capacity" 550
+		weapon
+			"blast radius" 300
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 900
+	outfits
+		"Mon Calamari Turbolaser Turret" 32
+		
+		"Mon Calamari Deflector Shield"
+		"Mon Calamari Power Converter"
+		"Small Radar Jammer"
+		"Water Coolant System" 5
+		
+		"Mon Calamari Ion Thruster"
+		"Capital Hyperspace Motivator"
+		
+	engine -421 -475
+	engine -368 -449
+	engine -332 -450
+	engine 356 -448
+	engine 383 -450
+	engine 427 -470
+	engine -183 884
+	engine 205 884
+	engine -85 993
+	engine 117 983
+	engine -48 1072
+	engine 79 1070
+	turret 17 -1175 "Mon Calamari Turbolaser Turret"
+	turret 10 -950 "Mon Calamari Turbolaser Turret"
+	turret -127 -952 "Mon Calamari Turbolaser Turret"
+	turret 163 -952 "Mon Calamari Turbolaser Turret"
+	turret -93 -868 "Mon Calamari Turbolaser Turret"
+	turret 118 -866 "Mon Calamari Turbolaser Turret"
+	turret -140 -746 "Mon Calamari Turbolaser Turret"
+	turret -89 -733 "Mon Calamari Turbolaser Turret"
+	turret 121 -730 "Mon Calamari Turbolaser Turret"
+	turret 164 -745 "Mon Calamari Turbolaser Turret"
+	turret -303 -776 "Mon Calamari Turbolaser Turret"
+	turret 329 -783 "Mon Calamari Turbolaser Turret"
+	turret -364 -620 "Mon Calamari Turbolaser Turret"
+	turret 400 -618 "Mon Calamari Turbolaser Turret"
+	turret -128 -352 "Mon Calamari Turbolaser Turret"
+	turret 12 -422 "Mon Calamari Turbolaser Turret"
+	turret 150 -344 "Mon Calamari Turbolaser Turret"
+	turret -234 -221 "Mon Calamari Turbolaser Turret"
+	turret 253 -227 "Mon Calamari Turbolaser Turret"
+	turret -229 -13 "Mon Calamari Turbolaser Turret"
+	turret -124 -75 "Mon Calamari Turbolaser Turret"
+	turret 15 -95 "Mon Calamari Turbolaser Turret"
+	turret 150 -72 "Mon Calamari Turbolaser Turret"
+	turret 255 -17 "Mon Calamari Turbolaser Turret"
+	turret -297 168 "Mon Calamari Turbolaser Turret"
+	turret 323 169 "Mon Calamari Turbolaser Turret"
+	turret -66 470 "Mon Calamari Turbolaser Turret"
+	turret 95 474 "Mon Calamari Turbolaser Turret"
+	turret -39 597 "Mon Calamari Turbolaser Turret"
+	turret 65 591 "Mon Calamari Turbolaser Turret"
+	turret -84 856 "Mon Calamari Turbolaser Turret"
+	turret 115 860 "Mon Calamari Turbolaser Turret"
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	fighter 14 -429
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large" 1
+	"final explode" "final explosion large"
+	description "MC80 Heavy Cruiser = 36"
+
+
+
+ship "MC75 Star Cruiser"
+	sprite "ship/mc75starcruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 15200000
+		"shields" 165000
+		"hull" 56000
+		"required crew" 3225
+		"bunks" 6000
+		"mass" 12000
+		"drag" 23.5
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 600
+		"outfit space" 2064
+		"weapon capacity" 1200
+		"engine capacity" 550
+		weapon
+			"blast radius" 300
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 900
+	outfits
+		"Mon Calamari Turbolaser Turret" 30
+		
+		"Mon Calamari Deflector Shield"
+		"Mon Calamari Power Converter"
+		"Small Radar Jammer"
+		"Water Coolant System" 5
+		
+		"Mon Calamari Ion Thruster"
+		"Capital Hyperspace Motivator"
+		
+	engine -65 1275
+	engine -20 1276
+	engine 42 1276
+	engine 84 1275
+	turret -100 -1126 "Mon Calamari Turbolaser Turret"
+	turret -65 -1153 "Mon Calamari Turbolaser Turret"
+	turret 93 -1148 "Mon Calamari Turbolaser Turret"
+	turret 130 -1122 "Mon Calamari Turbolaser Turret"
+	turret -150 -840 "Mon Calamari Turbolaser Turret"
+	turret 71 -864 "Mon Calamari Turbolaser Turret"
+	turret 178 -842 "Mon Calamari Turbolaser Turret"
+	turret -120 -816 "Mon Calamari Turbolaser Turret"
+	turret -102 -692 "Mon Calamari Turbolaser Turret"
+	turret 127 -693 "Mon Calamari Turbolaser Turret"
+	turret -179 -531 "Mon Calamari Turbolaser Turret"
+	turret 204 -532 "Mon Calamari Turbolaser Turret"
+	turret -67 -298 "Mon Calamari Turbolaser Turret"
+	turret 94 -299 "Mon Calamari Turbolaser Turret"
+	turret -160 -59 "Mon Calamari Turbolaser Turret"
+	turret 184 -53 "Mon Calamari Turbolaser Turret"
+	turret -134 246 "Mon Calamari Turbolaser Turret"
+	turret 160 245 "Mon Calamari Turbolaser Turret"
+	turret -90 618 "Mon Calamari Turbolaser Turret"
+	turret 119 617 "Mon Calamari Turbolaser Turret"
+	turret -96 751 "Mon Calamari Turbolaser Turret"
+	turret 121 751 "Mon Calamari Turbolaser Turret"
+	turret -76 1048 "Mon Calamari Turbolaser Turret"
+	turret 103 1050 "Mon Calamari Turbolaser Turret"
+	turret -133 265 "Mon Calamari Turbolaser Turret"
+	turret 155 265 "Mon Calamari Turbolaser Turret"
+	turret -241 -458 "Mon Calamari Turbolaser Turret"
+	turret 264 -461 "Mon Calamari Turbolaser Turret"
+	turret -68 -280 "Mon Calamari Turbolaser Turret"
+	turret 91 -280 "Mon Calamari Turbolaser Turret"
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	fighter 11 -788
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large" 1
+	"final explode" "final explosion large"
+	description "MC75 Star  Cruiser = 24"
+
+
+
+ship "EF76 Nebulon-B Frigate"
+	sprite "ship/nebulonfrigateb"
+	attributes
+		category "Medium Warship"
+		"cost" 42000000
+		"shields" 45000
+		"hull" 15000
+		"required crew" 307
+		"bunks" 1550
+		"mass" 2500
+		"drag" 5.4
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 200
+		"outfit space" 884
+		"weapon capacity" 480
+		"engine capacity" 210
+		weapon
+			"blast radius" 310
+			"shield damage" 750
+			"hull damage" 370
+			"hit force" 850
+	outfits
+		"Turbolaser Turret" 12
+		
+		"Kuat Driveyards Power Converter"
+		"Kuat Driveyards Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Kuat Driveyards Ion Drive"
+		"Heavy Hyperspace Motivator"
+		
+	engine -66 431
+	engine -45 430
+	engine -2 431
+	engine 34 430
+	engine 58 431
+	turret -34 -382 "Turbolaser Turret"
+	turret 29 -384 "Turbolaser Turret"
+	turret -45 -302 "Turbolaser Turret"
+	turret 38 -302 "Turbolaser Turret"
+	turret -50 -236 "Turbolaser Turret"
+	turret 40 -238 "Turbolaser Turret"
+	turret -50 -135 "Turbolaser Turret"
+	turret 44 -134 "Turbolaser Turret"
+	turret -52 290 "Turbolaser Turret"
+	turret 48 291 "Turbolaser Turret"
+	turret -35 -188 "Turbolaser Turret"
+	turret 29 -187 "Turbolaser Turret"
+	fighter -2 260
+	fighter -2 260
+	fighter -2 260
+	fighter -2 260
+	fighter -2 260
+	fighter -2 260
+	fighter -2 260
+	fighter -2 260
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Boasting a highly versatile design platform, the Nebulon-B frigate served in a range of capacities, although was typically utilized as an escort frigate. The Rebel Alliance deployed these frigates to protect transport convoys from Imperial attacks or pirate raids, although some were modified for long-range scouting or search-and-rescue operations."
+
+
+
+ship "EF76 Nebulon-B2 Frigate"
+	sprite "ship/nebulonfrigateb2"
+	attributes
+		category "Medium Warship"
+		"cost" 45000000
+		"shields" 45500
+		"hull" 15500
+		"required crew" 350
+		"bunks" 1600
+		"mass" 2450
+		"drag" 5.4
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 200
+		"outfit space" 884
+		"weapon capacity" 480
+		"engine capacity" 210
+		weapon
+			"blast radius" 310
+			"shield damage" 750
+			"hull damage" 370
+			"hit force" 850
+	outfits
+		"Turbolaser Turret" 14
+		"Concussion Missile Launcher"
+		"Concussion Missile" 12
+		
+		"Kuat Driveyards Power Converter"
+		"Kuat Driveyards Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Kuat Driveyards Ion Drive"
+		"Heavy Hyperspace Motivator"
+
+	engine -42 398
+	engine -6 399
+	engine 31 399
+	gun -5 -405 "Concussion Missile Launcher"
+	turret -163 -299 "Turbolaser Turret"
+	turret 153 -300 "Turbolaser Turret"
+	turret -48 -379 "Turbolaser Turret"
+	turret 37 -379 "Turbolaser Turret"
+	turret -155 -174 "Turbolaser Turret"
+	turret 145 -169 "Turbolaser Turret"
+	turret -134 -303 "Turbolaser Turret"
+	turret 125 -305 "Turbolaser Turret"
+	turret -84 -313 "Turbolaser Turret"
+	turret 62 -317 "Turbolaser Turret"
+	turret -99 -193 "Turbolaser Turret"
+	turret 92 -193 "Turbolaser Turret"
+	turret -64 257 "Turbolaser Turret"
+	turret 56 258 "Turbolaser Turret"
+	fighter -5 201
+	fighter -5 201
+	fighter -5 201
+	fighter -5 201
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Though it shared a similar profile with its predecessor, the Nebulon-B2 differed in some key ways. The forward pod split into an inverted-V shape which allowed for greater surface area to mount weaponry; furthermore the connecting spar was heavier, rendering it less vulnerable to being split open by heavy fire, and the ship was about 50 meters shorter overall."
+
+
+
+ship "Pelta Frigate (Modified)"
+	sprite "ship/peltafrigatemodified"
+	attributes
+		category "Medium Warship"
+		"cost" 47000000
+		"shields" 47500
+		"hull" 16500
+		"required crew" 900
+		"bunks" 1500
+		"mass" 2550
+		"drag" 6
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 500
+		"outfit space" 784
+		"weapon capacity" 400
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret" 6
+		"Dual Turbolaser Turret" 4
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Kuat Driveyards Ion Drive"
+		"Heavy Hyperspace Motivator"
+		
+	engine -195 325
+	engine -144 324
+	engine -98 323
+	engine -57 268
+	engine 4 458
+	engine 64 268
+	engine 104 326
+	engine 150 324
+	engine 201 325
+	turret -95 -412 "Dual Turbolaser Turret"
+	turret 99 -416 "Dual Turbolaser Turret"
+	turret 3 16 "Dual Turbolaser Turret"
+	turret 3 16 "Dual Turbolaser Turret"
+	turret -106 243 "Turbolaser Turret"
+	turret 113 244 "Turbolaser Turret"
+	turret -92 -238 "Turbolaser Turret"
+	turret 98 -238 "Turbolaser Turret"
+	turret -92 -84 "Turbolaser Turret"
+	turret 97 -83 "Turbolaser Turret"
+	fighter -99 53 under
+	fighter 104 52 under
+	fighter 3 -442
+	fighter 3 -442
+	fighter 3 -442
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Pelta Frigate"
+
+
+
+ship "T-65B X-Wing"
+	sprite ship/xwingt65
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 15200000
+		shields 2500
+		hull 1300
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -9 38
+	engine 10 39
+	gun -36 -15 "Fighter Laser Cannon"
+	gun -30 -10 "Fighter Laser Cannon"
+	gun 31 -11 "Fighter Laser Cannon"
+	gun 36 -15 "Fighter Laser Cannon"
+	gun -4 -6 "Proton Torpedo Launcher"
+	gun 3 -6 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The T-65B X-wing starfighter, was a single-seat craft manufactured by Incom Corporation and used most famously by the Alliance to Restore the Republic during the Galactic Civil War. Renowned for its speed and maneuverability in battle, it became the backbone of the Rebel Alliance Starfighter Corps being both harder hitting and tougher under fire than its main adversary."
+
+
+
+ship "T-65B X-Wing (Fighter)"
+	sprite ship/xwingt65
+	"never disabled"
+	attributes
+		category Fighter
+		cost 15200000
+		shields 2500
+		hull 1300
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 229
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -9 38
+	engine 10 39
+	gun -36 -15 "Fighter Laser Cannon"
+	gun -30 -10 "Fighter Laser Cannon"
+	gun 31 -11 "Fighter Laser Cannon"
+	gun 36 -15 "Fighter Laser Cannon"
+	gun -4 -6 "Proton Torpedo Launcher"
+	gun 3 -6 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The T-65B X-wing starfighter, was a single-seat craft manufactured by Incom Corporation and used most famously by the Alliance to Restore the Republic during the Galactic Civil War. Renowned for its speed and maneuverability in battle, it became the backbone of the Rebel Alliance Starfighter Corps being both harder hitting and tougher under fire than its main adversary"
+
+
+
+ship "UT-60D U-Wing"
+	sprite "ship/uwing"
+	"never disabled"
+	attributes
+		category Interceptor
+		"cost" 5200000
+		"shields" 3500
+		"hull" 3000
+		"required crew" 1
+		"bunks" 9
+		"mass" 34
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 5
+		"outfit space" 216
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Fighter Laser Cannon" 2
+		
+		"Novaldex O5-U Power Converter"
+		"Chempat U Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -24 83
+	engine -25 84
+	engine 25 83
+	gun -5 -26 "Fighter Laser Cannon"
+	gun 6 -27 "Fighter Laser Cannon"
+	explode "large explosion" 3
+	description "UT60D U-Wing"
+
+
+
+ship "BTL-A4 Y-Wing"
+	sprite ship/ywing
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 520000
+		shields 2700
+		hull 1700
+		"required crew" 1
+		bunks 1
+		mass 31
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 228
+		"weapon capacity" 40
+		"engine capacity" 53
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 22
+
+		"Novaldex Power Converter"
+		"Chempat Y Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -23 31
+	engine 26 31
+	gun -2 -57 "Fighter Laser Cannon"
+	gun 3 -57 "Fighter Laser Cannon"
+	gun -9 -26 "Proton Torpedo Launcher"
+	gun 10 -26 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The BTL-A4 Y-wing assault starfighter/bomber, also referred to simply as the BTL-A4 Y-wing starfighter, was a one seat assault starfighter and bomber manufactured by Koensayr Manufacturing. It was used by the Rebel Alliance Starfighter Corps and the New Republic during the Galactic Civil War. An effective marriage between speed and firepower, Y-wings served their respective causes extremely well."
+
+
+
+ship "BTL-A4 Y-Wing (Fighter)"
+	sprite ship/ywing
+	"never disabled"
+	attributes
+		category Fighter
+		cost 520000
+		shields 2700
+		hull 1700
+		"required crew" 1
+		bunks 1
+		mass 31
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 208
+		"weapon capacity" 40
+		"engine capacity" 53
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 22
+
+		"Novaldex Power Converter"
+		"Chempat Y Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -23 31
+	engine 26 31
+	gun -2 -57 "Fighter Laser Cannon"
+	gun 3 -57 "Fighter Laser Cannon"
+	gun -9 -26 "Proton Torpedo Launcher"
+	gun 10 -26 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The BTL-A4 Y-wing assault starfighter/bomber, also referred to simply as the BTL-A4 Y-wing starfighter, was a one seat assault starfighter and bomber manufactured by Koensayr Manufacturing. It was used by the Rebel Alliance Starfighter Corps and the New Republic during the Galactic Civil War. An effective marriage between speed and firepower, Y-wings served their respective causes extremely well."
+
+
+
+ship "BTL-S3 Y-Wing"
+	sprite ship/ywing
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 520000
+		shields 2700
+		hull 1700
+		"required crew" 1
+		bunks 2
+		mass 31
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 228
+		"weapon capacity" 40
+		"engine capacity" 53
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"Fighter Laser Cannon" 2
+		"Fighter Ion Cannon Turret"
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 22
+
+		"Novaldex Power Converter"
+		"Chempat Y Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -23 31
+	engine 26 31
+	gun -2 -57 "Fighter Laser Cannon"
+	gun 3 -57 "Fighter Laser Cannon"
+	gun -9 -26 "Proton Torpedo Launcher"
+	gun 10 -26 "Proton Torpedo Launcher"
+	turret 0 -28 "Fighter Ion Cannon Turret"
+	explode "large explosion" 3
+	description "The BTL-S3 was the most common Y-wing configuration. A two-man strike starfighter, the first crew member piloted the craft, while the second acted as a gunner and controlled the two swivel-mounted ion cannons, located right on top of the cockpit."
+
+
+
+ship "BTL-S3 Y-Wing (Fighter)"
+	sprite ship/ywing
+	"never disabled"
+	attributes
+		category Fighter
+		cost 520000
+		shields 2700
+		hull 1700
+		"required crew" 1
+		bunks 2
+		mass 31
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 228
+		"weapon capacity" 40
+		"engine capacity" 53
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"Fighter Laser Cannon" 2
+		"Fighter Ion Cannon Turret"
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 22
+
+		"Novaldex Power Converter"
+		"Chempat Y Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+
+	engine -23 31
+	engine 26 31
+	gun -2 -57 "Fighter Laser Cannon"
+	gun 3 -57 "Fighter Laser Cannon"
+	gun -9 -26 "Proton Torpedo Launcher"
+	gun 10 -26 "Proton Torpedo Launcher"
+	turret 0 -28 "Fighter Ion Cannon Turret"
+	explode "large explosion" 3
+	description "The BTL-S3 was the most common Y-wing configuration. A two-man strike starfighter, the first crew member piloted the craft, while the second acted as a gunner and controlled the two swivel-mounted ion cannons, located right on top of the cockpit."

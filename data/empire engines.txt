@@ -1,0 +1,147 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "TIE Fighter Twin Ion Thruster"
+	category "Engines"
+	"cost" 26000
+	thumbnail "outfit/twinionthruster"
+	"mass" 4
+	"outfit space" -4
+	"engine capacity" -4
+	"thrust" 7
+	"thrusting energy" 1
+	"thrusting heat" 1.7
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.1
+	"flare sound" "ion small"
+	"turn" 75
+	"turning energy" .6
+	"turning heat" 1
+	description "P-s4 Twin Ion Thruster and P-w401 Ion Manoeuvring Jets for TIE/LN"
+
+outfit "Gozanti Ion Drive"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/corelliandrive"
+	"mass" 210
+	"outfit space" -210
+	"engine capacity" -210
+	"thrust" 23
+	"thrusting energy" 6.3
+	"thrusting heat" 11.7
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 1800
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Gozanti Ion Turbine Drive for Gozanti Cruiser"
+
+outfit "Cygnus T4a Thrust Engine"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/cygnusthrustengine"
+	"mass" 60
+	"outfit space" -60
+	"engine capacity" -60
+	"thrust" 9
+	"thrusting energy" 6.3
+	"thrusting heat" 10
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 500
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Cygnus T4a Thrust Engine for T4a Shuttle"
+
+outfit "LF9 Ion Thruster"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/lf9ionthruster"
+	"mass" 580
+	"outfit space" -580
+	"engine capacity" -580
+	"thrust" 50
+	"thrusting energy" 20
+	"thrusting heat" 11.7
+	"reverse thrust" 33
+	"reverse thrusting energy" 20
+	"reverse thrusting heat" 11.7
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 1900
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Alderaan Royal Engineers LF9 Ion Thruster for Victory I Destroyer"
+
+outfit "Medium Imperial Ion Thruster"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/mediumimperialionthruster"
+	"mass" 580
+	"outfit space" -580
+	"engine capacity" -580
+	"thrust" 40
+	"thrusting energy" 20
+	"thrusting heat" 11.7
+	"reverse thrust" 27
+	"reverse thrusting energy" 20
+	"reverse thrusting heat" 11.7
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 1600
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Medium Imperial Ion Thruster for Immobiliser 418"
+
+outfit "Raider Corvette Ion Drive"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/corelliandrive"
+	"mass" 210
+	"outfit space" -210
+	"engine capacity" -210
+	"thrust" 24
+	"thrusting energy" 6.3
+	"thrusting heat" 11.7
+	"reverse thrust" 16
+	"reverse thrusting energy" 6.3
+	"reverse thrusting heat" 11.7
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 1800
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Raider Corvette Ion Turbine Drive for Raider II Corvette"
+
+outfit "Fulgor Frigate Ion Drive"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/corelliandrive"
+	"mass" 210
+	"outfit space" -210
+	"engine capacity" -210
+	"thrust" 26
+	"thrusting energy" 6.3
+	"thrusting heat" 11.7
+	"reverse thrust" 16
+	"reverse thrusting energy" 6.3
+	"reverse thrusting heat" 11.7
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 850
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Fulgor-class Pursuit Frigate Ion Turbine Drive"

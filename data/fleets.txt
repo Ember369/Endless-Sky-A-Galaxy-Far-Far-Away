@@ -1,0 +1,431 @@
+fleet "rebelfleet"
+	government "Rebel Alliance"
+	cargo 0
+	personality
+		opportunistic unconstrained
+	variant 60
+		"BTL-A4 Y-Wing" 3
+		"BTL-A4 Y-Wing" 3
+	variant 40
+		"T-65B X-Wing" 3
+	variant 40
+		"BTL-A4 Y-Wing" 3
+	variant 40
+		"RZ1 A-Wing" 3
+	variant 20
+		"BTL-S8 K-Wing" 2
+	variant 20
+		"A/SF-01 B-Wing" 3
+	variant 10
+		"A/SF-01 B-Wing B6" 3
+	variant 50
+		"T-65B X-Wing" 3
+		"BTL-A4 Y-Wing" 3
+		"RZ1 A-Wing" 3
+	variant 30
+		"Sphyrna-class Corvette (Modified)"
+		"T-65B X-Wing" 2
+	variant 20
+		"CR90 Corvette"
+		"T-65B X-Wing" 2
+	variant 15
+		"EF76 Nebulon-B Frigate"
+		"CR90 Corvette" 2
+		"T-65B X-Wing" 3
+	variant 10
+		"EF76 Nebulon-B Frigate"
+		"CR90 Corvette" 2
+		"Sphyrna-class Corvette (Modified)" 2
+		"T-65B X-Wing" 3
+		"BTL-A4 Y-Wing" 3
+		"RZ1 A-Wing" 3
+	variant 10
+		"EF76 Nebulon-B Frigate"
+		"CR90 Corvette" 2
+		"Sphyrna-class Corvette (Modified)" 2
+		"GR-75 Transport" 3
+		"T-65B X-Wing" 3
+		"BTL-A4 Y-Wing" 3
+		"RZ1 A-Wing" 3
+	variant 5
+		"Defender-class Corvette" 1
+		"BT7 Thunderclap"
+		"Dynamic Freighter"
+		"RZ1 A-Wing" 3
+	variant 5
+		"CR90 Corvette" 1
+		"Sphyrna-class Corvette (Modified)"
+		"D5-Mantis Patrol Craft"
+		"T-65B X-Wing" 3
+	variant 5
+		"CR90 Corvette" 1
+		"Sphyrna-class Corvette (Modified)"
+		"Lancer Pursuit Craft"
+		"T-65B X-Wing" 3
+	variant 5
+		"MC80 Liberty Cruiser"
+		"EF76 Nebulon-B Frigate" 2
+		"CR90 Corvette" 2
+		"Sphyrna-class Corvette (Modified)" 2
+		"GR-75 Transport" 5
+		"T-65B X-Wing" 5
+		"BTL-A4 Y-Wing" 5
+		"RZ1 A-Wing" 5
+
+
+fleet "rebeldefensefleet"
+	government "Rebel Alliance"
+	cargo 0
+	personality
+		heroic opportunistic unconstrained
+	variant 50
+		"T-65B X-Wing" 6
+	variant 40
+		"BTL-A4 Y-Wing" 6
+	variant 40
+		"RZ1 A-Wing" 6
+	variant 20
+		"BTL-A4 Y-Wing" 3
+		"BTL-A4 Y-Wing" 3
+	variant 20
+		"T-65B X-Wing" 2
+		"BTL-A4 Y-Wing" 2
+		"RZ1 A-Wing" 2
+
+fleet "imperialstardestroyer"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 20
+		"Quasar Fire I-class Bulk Cruiser"
+		"TIE/LN Fighter (Fighter)" 48
+	variant 20
+		"Quasar Fire II-class Bulk Cruiser"
+		"TIE/LN Fighter (Fighter)" 48
+	variant 50
+		"Victory I Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 24
+	variant 50
+		"Imperial I Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 48
+		"TIE/SA Fighter (Fighter)" 12
+		"TIE/IN Fighter (Fighter)" 24
+	variant 5
+		"Imperial II Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 48
+		"TIE/SA Fighter (Fighter)" 12
+		"TIE/IN Fighter (Fighter)" 24
+	variant 40
+		"Vindicator-class Heavy Cruiser"
+		"TIE/LN Fighter (Fighter)" 24
+	variant 30
+		"Gladiator Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 26
+	variant 30
+		"Dreadnaught Heavy Cruiser"
+		"TIE/LN Fighter (Fighter)" 16
+	variant 20
+		"Interdictor Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 16
+	variant 30
+		"Immobiliser 418 Cruiser"
+		"TIE/LN Fighter (Fighter)" 24
+	variant 40
+		"Allegiance-class Battlecruiser"
+
+fleet "imperialdefensefleetlarge"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 50
+		"Imperial I Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 40
+		"TIE/IN Fighter (Fighter)" 40
+		"TIE/AD Fighter (Fighter)" 4
+		"Victory I Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 12
+		"TIE/SA Fighter (Fighter)" 10
+		"TIE/IT Fighter (Fighter)" 2
+		"Arquitens Light Cruiser" 2
+		"Gozanti Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 8
+		"TIE/IN Fighter (Fighter)" 6
+
+fleet "imperialdefensefleetmedium"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 50
+		"Imperial I Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 40
+		"TIE/IN Fighter (Fighter)" 40
+		"TIE/AD Fighter (Fighter)" 4
+		"Victory I Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 12
+		"TIE/SA Fighter (Fighter)" 10
+		"TIE/IT Fighter (Fighter)" 2
+		"Vindicator-class Heavy Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 48
+
+fleet "imperialdefensefleetsmall"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 50
+		"Vindicator-class Heavy Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 48
+		"Arquitens Light Cruiser" 1
+		"Gozanti Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 8
+		"TIE/IN Fighter (Fighter)" 3
+		"Imperial Customs Corvette" 1
+		"Gozanti Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 8
+		"TIE/IN Fighter (Fighter)" 1
+		"Raider II Corvette"
+		"TIE/LN Fighter (Fighter)" 6
+
+fleet "imperialpatrol"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 50
+		"Gozanti Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 8
+	variant 20
+		"Arquitens Light Cruiser" 1
+		"Gozanti Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 8
+		"TIE/IN Fighter (Fighter)" 3
+	variant 10
+		"Imperial Customs Corvette" 1
+		"Gozanti Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 8
+		"TIE/IN Fighter (Fighter)" 1
+	variant 10
+		"Vigil-class Corvette" 1
+		"Gozanti Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 8
+	variant 5
+		"Raider II Corvette"
+		"TIE/LN Fighter (Fighter)" 6
+
+fleet "imperialtransport"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 50
+		"Raider II Corvette"
+		"TIE/LN Fighter (Fighter)" 6
+	variant 30
+		"Raider II Corvette"
+		"TIE/LN Fighter (Fighter)" 4
+		"TIE/IN Fighter (Fighter)" 2
+
+fleet "assertorstardreadnought"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 50
+		"Assertor Star Dreadnought"
+		"TIE/LN Fighter (Fighter)" 100
+		"Imperial I Star Destroyer" 2
+		"TIE/LN Fighter (Fighter)" 168
+		"Vindicator-class Heavy Cruiser"
+		"TIE/IN Fighter (Fighter)" 26
+		"Arquitens Light Cruiser" 4
+		"TIE/D Fighter (Fighter)" 12
+		"Dreadnaught Heavy Cruiser"
+		"TIE/SA Fighter (Fighter)" 16
+		"Gozanti Cruiser" 2
+		"TIE/AD Fighter (Fighter)" 8
+		"Raider II Corvette"
+		"TIE/PH Fighter (Fighter)" 6
+		"Immobiliser 418 Cruiser"
+		"TIE/IT Fighter (Fighter)" 24
+		"Imperial Customs Corvette"
+		"TIE/LN Fighter (Fighter)"
+		"Victory I Star Destroyer"
+		"TIE/SK Fighter (Fighter)" 24
+		"Vigil-class Corvette"
+		"TIE/IN Fighter (Royal Guard)" 3
+		"Lancer-class Frigate" 4
+
+		
+
+fleet "rebelcapitalfleet"
+	government "Rebel Alliance"
+	cargo 0
+	personality
+		heroic opportunistic unconstrained
+	variant 50
+		"MC80A Star Cruiser"
+		"MC80 Liberty Cruiser"
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 3
+		"Nebulon Frigate" 2
+		"GR-75 Transport" 6
+		"RZ1 A-Wing Prototype" 9
+		"RZ1 A-Wing" 10
+		"T-65B X-Wing" 10
+		"BTL-A4 Y-Wing" 10
+		"A/SF-01 B-Wing B6" 5
+		"A/SF-01 B-Wing B6" 5
+		"BTL-S8 K-Wing" 5
+		"E-7 E-Wing" 5
+
+fleet "heavycargotransport"
+	government "Civilian"
+	cargo 0
+	personality
+		timid appeasing unconstrained
+	variant 60
+		"Ajuur Heavy Cruiser"
+		"CloakShape Fighter" 4
+	variant 60
+		"Mobquet MB-C1 Medium Transport" 3
+		"Aurek-class Tactical Strike Fighter" 4
+	variant 60
+		"Action VI Transport" 2
+		"CloakShape Fighter" 2
+	variant 60
+		"Dragonboat-class Reugeot 905 Freighter" 2
+		"Aurek-class Tactical Strike Fighter" 2
+	variant 60
+		"YZ-2200 Heavy Transport"
+	variant 60
+		"BFF-1 Bulk Freighter"
+		"CloakShape Fighter" 3
+		"Aurek-class Tactical Strike Fighter" 3
+	variant 60
+		"C-ROC Gozanti Cruiser"
+		"CloakShape Fighter" 3
+	variant 60
+		"HWK-290 Light Freighter (Stock)" 3
+		"CloakShape Fighter" 2
+
+fleet "piratepatrol"
+	government "Scum & Villainy"
+	cargo 0
+	personality
+		disables plunders unconstrained coward
+	variant 60
+		"D5-Mantis Patrol Craft"
+		"Aggressor Assault Fighter" 2
+	variant 60
+		"G-X1 Onslaught" 3
+	variant 60
+		"Lancer Pursuit Craft"
+		"FT-6 Pike Starfighter" 2
+	variant 60
+		"Firespray-31-class patrol craft"
+
+fleet "bountyhunter"
+	government "Bounty Hunter"
+	cargo 0
+	personality
+		heroic vindictive marked mute unconstrained
+	variant 60
+		"D5-Mantis Patrol Craft"
+	variant 60
+		"Firespray-31-class patrol craft"
+
+fleet "deathstariifleet"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 50
+		"Executor-class Star Dreadnought"
+		"TIE/LN Fighter" 200
+		"Imperial II Star Destroyer" 4
+		"Imperial I Star Destroyer" 2
+		"Vindicator-class Heavy Cruiser" 4
+		"TIE/IN Fighter" 80
+		"Arquitens Light Cruiser" 4
+		"TIE/D Fighter" 12
+		"Dreadnaught Heavy Cruiser"
+		"TIE/SA Fighter" 60
+		"Gozanti Cruiser" 2
+		"TIE/AD Fighter" 8
+		"Immobiliser 418 Cruiser"
+		"TIE/IT Fighter"
+		"TIE/LN Fighter"
+		"Lancer-class Frigate" 4
+
+fleet "dqardreadnought"
+	government "First Order"
+	personality
+		heroic opportunistic vindictive unconstrained
+	cargo 0
+	variant 50
+		"Mandator IV-class Siege Dreadnought"
+		"TIE/FO Fighter" 20
+
+fleet "lucrehulkbattleship"
+	government "Separatist Alliance"
+	personality
+		heroic opportunistic vindictive unconstrained
+	cargo 0
+	variant 50
+		"Vulture-class Droid Starfighter" 90
+
+fleet "battleofatollon"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 50
+		"Imperial I Star Destroyer" 6
+		"Arquitens Light Cruiser" 2
+		"Immobiliser 418 Cruiser" 2
+		"TIE/LN Fighter" 50
+
+fleet "chopperbase"
+	government "Rebel Alliance"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 50
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 7
+		"Dornean Gunship" 3
+		"Sphyrna-class Corvette (Modified)" 3
+		"Quasar Fire II-class Bulk Cruiser"
+		"VCX-100 Light Freighter"
+		"VCX-series Auxiliary Starfighter"
+		"RZ1 A-Wing" 8
+		"BTL-A4 Y-Wing" 8
+
+fleet "scarifshieldgate"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 50
+		"TIE/LN Fighter" 225
+
+fleet "scarif"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained entering forbearing
+	variant 50
+		"Imperial I Star Destroyer" 3
+		"TIE/LN Fighter (Fighter)" 30
+
+fleet "starkillerbase"
+	government "First Order"
+	personality
+		heroic opportunistic vindictive unconstrained
+	cargo 0
+	variant 50
+		"TIE/FO Fighter" 100
+		"TIE/SF Fighter" 20

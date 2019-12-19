@@ -1,0 +1,125 @@
+government "Galactic Empire"
+	swizzle 0
+	color .99 .99 .99
+		
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" 0.04
+		"Scum & Villainy" -0.04
+		"Rebel Alliance" -0.04
+	bribe 0
+
+government "Rebel Alliance"
+	swizzle 0
+	color .91 .62 .09
+		
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" 0.04
+		"Galactic Empire" -0.04
+		"Scum & Villainy" -0.04
+	bribe 0
+
+government "Galactic Republic"
+	swizzle 0
+	color .99 .99 .99
+		
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" 0.04
+		"Scum & Villainy" -0.04
+		"Separatist Alliance" -0.04
+	bribe 0
+
+government "Separatist Alliance"
+	swizzle 0
+	color .91 .62 .09
+		
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" 0.04
+		"Galactic Republic" -0.04
+		"Scum & Villainy" -0.04
+
+government "First Order"
+	swizzle 0
+	color .99 .99 .99
+		
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" 0.04
+		"Scum & Villainy" -0.04
+		"Resistance" -0.04
+	bribe 0
+
+government "Resistance"
+	swizzle 0
+	color .91 .62 .09
+		
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" 0.04
+		"First Order" -0.04
+		"Scum & Villainy" -0.04
+
+government "Escort"
+	swizzle 0
+	"fine" 0
+
+government "Civilian"
+	swizzle 0
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Galactic Empire" 0
+		"Rebel Alliance" 0
+		"Scum & Villainy" -0.04
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+
+government "Neutral"
+	swizzle 0
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Galactic Empire" 0
+		"Rebel Alliance" 0
+		"Scum & Villainy" 0
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+
+government "Scum & Villainy"
+	swizzle 0
+	color .78 0 0
+	"player reputation" -10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" -0.04
+		"Galactic Empire" -0.04
+		"Rebel Alliance" -0.04
+	"bribe" .1
+	"fine" 0
+	"friendly hail" "friendly pirate"
+	"hostile hail" "hostile pirate"
+	raid "pirate raid"
+
+government "Bounty Hunter"
+	swizzle 0
+	"player reputation" -10
+	"attitude toward"
+		"Galactic Empire" 0
+		"Rebel Alliance" 0
+		"Civilian" 0
+		"Scum & Villainy" 0
+	"bribe" 0
+	"fine" 0

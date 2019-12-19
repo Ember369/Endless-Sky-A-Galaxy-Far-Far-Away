@@ -1,0 +1,5669 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "A-9 Vigilance Fighter (Fighter)"
+	sprite "ship/a9vigilancefighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 90000
+		"shields" 0
+		"hull" 800
+		"required crew" 1
+		"bunks" 1
+		"mass" 18
+		"drag" 0.6
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 139
+		"weapon capacity" 20
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon" 2
+		
+		"JZ-4g2 Power Converter"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		
+	engine -25 21
+	engine 0 20
+	engine 24 20
+	gun -0 -19 "Fighter Laser Cannon"
+	gun -0 -19 "Fighter Laser Cannon"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The A-9 Vigilance interceptor was a short-range starfighter used by the Galactic Empire that began production in 9 ABY."
+
+
+
+ship "AA-9 Coruscant Freighter"
+	sprite "ship/aa9coruscantfreighter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 10800000
+		"shields" 55000
+		"hull" 23000
+		"required crew" 8
+		"bunks" 50
+		"mass" 4500
+		"drag" 13
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret" 2
+		
+		"Heavy Freighter Power Converter"
+		"Heavy Freighter Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Ion Drive"
+		"Heavy Hyperspace Motivator"
+	
+	engine -213 452
+	engine -2 458
+	engine 208 451
+	turret -2 -322 "Turbolaser Turret"
+	turret -3 133 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "AA-9 Coruscant Freighter"
+
+
+
+ship "AAL Troop Transport"
+	sprite "ship/aaltrooptransport"
+	attributes
+		category "Transport"
+		"cost" 15200000
+		"shields" 6000
+		"hull" 3800
+		"required crew" 2
+		"bunks" 22
+		"mass" 70
+		"drag" 3
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 200
+		"outfit space" 255
+		"weapon capacity" 35
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Turret" 1
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Light Transport Sublight Engine"
+		"Light Hyperspace Motivator"
+		
+
+	engine -8 64
+	engine 6 64
+	turret -7 21 "Transport Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "AAL Troop Transport"
+
+
+
+ship "Action VI Transport"
+	sprite "ship/actionvitransport"
+	attributes
+		category "Heavy Freighter"
+		"cost" 10800000
+		"shields" 20000
+		"hull" 8500
+		"required crew" 8
+		"bunks" 50
+		"mass" 3500
+		"drag" 8
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 2000
+		"outfit space" 424
+		"weapon capacity" 40
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret"
+		
+		"Heavy Freighter Power Converter"
+		"Heavy Freighter Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Heavy Freighter Ion Drive"
+		"Medium Hyperspace Motivator"
+	
+	engine -12 223
+	engine 14 223
+	turret 1 -83 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Action VI Transport"
+
+
+
+ship "Aggressor Assault Fighter"
+	sprite "ship/aggressorassaultfighter"
+	"never disabled"
+	attributes
+		category Interceptor
+		"cost" 5200000
+		"shields" 3600
+		"hull" 3200
+		"required crew" 2
+		"bunks" 10
+		"mass" 33
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 216
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Fighter Laser Cannon" 2
+		"Fighter Ion Cannon" 2
+		
+		"Novaldex O5-U Power Converter"
+		"Chempat U Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -1 54
+	gun -14 -60 "Fighter Laser Cannon"
+	gun -14 -60 "Fighter Laser Cannon"
+	gun 13 -61 "Fighter Ion Cannon"
+	gun 13 -61 "Fighter Ion Cannon"
+	explode "large explosion" 3
+	description "The Aggressor assault fighter was a high-performance starship produced by Trilon, Inc. Designed and precision optimized for combat and patrol duties, the Aggressor was a fast and highly maneuverable ship that blurred the lines between starfighter and a larger system patrol craft."
+
+
+
+ship "Aggressor Assault Fighter (Fighter)"
+	sprite "ship/aggressorassaultfighter"
+	"never disabled"
+	attributes
+		category Fighter
+		"cost" 5200000
+		"shields" 3600
+		"hull" 3200
+		"required crew" 2
+		"bunks" 10
+		"mass" 33
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 216
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Fighter Laser Cannon" 2
+		"Fighter Ion Cannon" 2
+		
+		"Novaldex O5-U Power Converter"
+		"Chempat U Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		
+	engine -1 54
+	gun -14 -60 "Fighter Laser Cannon"
+	gun -14 -60 "Fighter Laser Cannon"
+	gun 13 -61 "Fighter Ion Cannon"
+	gun 13 -61 "Fighter Ion Cannon"
+	explode "large explosion" 3
+	description "The Aggressor assault fighter was a high-performance starship produced by Trilon, Inc. Designed and precision optimized for combat and patrol duties, the Aggressor was a fast and highly maneuverable ship that blurred the lines between starfighter and a larger system patrol craft."
+
+
+
+
+ship "Aggressor Star Destroyer"
+	sprite "ship/aggressorstardestroyer"
+	attributes
+		category "Heavy Warship"
+		"cost" 15200000
+		"shields" 155000
+		"hull" 55000
+		"required crew" 350
+		"bunks" 700
+		"mass" 10000
+		"drag" 23.5
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 100
+		"outfit space" 1454
+		"weapon capacity" 530
+		"engine capacity" 580
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Rendii V Quad Turbolaser Battery" 2
+		"Rendii V Dual Turbolaser Battery" 6
+		"Linked Ion/Plasma Cannon"
+		"Tractor Beam" 2
+		
+		"Victory I Power Converter"
+		"Victory I Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"LF9 Ion Thruster"
+		"Capital Hyperspace Motivator"
+		
+	engine -100.5 387.5
+	engine 89.5 387
+	gun -4 -789 "Linked Ion/Plasma Cannon"
+	turret -71 -354 "Rendii V Dual Turbolaser Battery"
+	turret 65 -352 "Rendii V Dual Turbolaser Battery"
+	turret -71 -455 "Rendii V Dual Turbolaser Battery"
+	turret 65 -454 "Rendii V Dual Turbolaser Battery"
+	turret -75 -559 "Rendii V Dual Turbolaser Battery"
+	turret 67 -560 "Rendii V Dual Turbolaser Battery"
+	turret -73 -686 "Rendii V Quad Turbolaser Battery"
+	turret 64 -687 "Rendii V Quad Turbolaser Battery"
+	turret -5 -685 "Tractor Beam"
+	turret -5 -685 "Tractor Beam"
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	fighter -5 -685
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Aggressor Battleship has a complement of fighters = 16"
+
+
+
+ship "Ajuur Heavy Cruiser"
+	sprite "ship/ajuurheavycruiser"
+	attributes
+		category "Heavy Freighter"
+		"cost" 10800000
+		"shields" 50000
+		"hull" 23500
+		"required crew" 8
+		"bunks" 50
+		"mass" 4700
+		"drag" 14
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 4000
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret" 2
+		
+		"Heavy Freighter Power Converter"
+		"Heavy Freighter Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Ion Drive"
+		"Heavy Hyperspace Motivator"
+	
+	engine -105 234
+	engine 102 233
+	turret -1 -266 "Turbolaser Turret"
+	turret 0 220 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Ajuur Heavy Cruiser"
+
+
+
+ship "Annihilator-class Starfighter"
+	sprite "ship/annihilatorstarfighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 180000
+		"shields" 2200
+		"hull" 1100
+		"required crew" 1
+		"bunks" 1
+		"mass" 19
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 199
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 12
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -10 20
+	engine 15 20
+	gun -12 -13 "Fighter Laser Cannon"
+	gun 12 -14 "Fighter Laser Cannon"
+	gun -12 -13 "Concussion Missile Launcher"
+	gun 12 -14 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Annihilator-class starfighter was a type of starfighter manufactured by the One Sith. They were triangular in shape, and according to Darth Krayt, faster and more maneuverable than any other fighter of the time. Through the dark side, the pilot and ship would become one, and the fighters carried enough fire power to breach a Star Destroyer."
+
+
+
+ship "Annihilator-class Starfighter (Fighter)"
+	sprite "ship/annihilatorstarfighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 180000
+		"shields" 2200
+		"hull" 1100
+		"required crew" 1
+		"bunks" 1
+		"mass" 19
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 199
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 12
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		
+	engine -10 20
+	engine 15 20
+	gun -12 -13 "Fighter Laser Cannon"
+	gun 12 -14 "Fighter Laser Cannon"
+	gun -12 -13 "Concussion Missile Launcher"
+	gun 12 -14 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Annihilator-class starfighter was a type of starfighter manufactured by the One Sith. They were triangular in shape, and according to Darth Krayt, faster and more maneuverable than any other fighter of the time. Through the dark side, the pilot and ship would become one, and the fighters carried enough fire power to breach a Star Destroyer."
+
+
+
+ship "Aurek-class Tactical Strike Fighter"
+	sprite "ship/aurektacticalstrikefighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 129000
+		"shields" 1700
+		"hull" 970
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 199
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -18 30
+	engine 14 29
+	gun -21 17 "Fighter Laser Cannon"
+	gun 20 16 "Fighter Laser Cannon"
+	gun -7 -7 "Concussion Missile Launcher"
+	gun 6 -6 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Aurek-class tactical strikefighter was the primary Republic starfighter, several models of which were used in the Old Sith Wars, the Great Galactic War, the New Sith Wars, and even until the final generation of the republic."
+
+ship "Aurek-class Tactical Strike Fighter (Fighter)"
+	sprite "ship/aurektacticalstrikefighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 129000
+		"shields" 1700
+		"hull" 970
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.7
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 199
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		
+	engine -18 30
+	engine 18 29
+	gun -21 17 "Fighter Laser Cannon"
+	gun 20 16 "Fighter Laser Cannon"
+	gun -7 -7 "Concussion Missile Launcher"
+	gun 6 -6 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Aurek-class tactical strikefighter was the primary Republic starfighter, several models of which were used in the Old Sith Wars, the Great Galactic War, the New Sith Wars, and even until the final generation of the republic."
+
+
+
+ship "Aurra Sing's Blockade Runner"
+	sprite "ship/aurrasingblockaderunner"
+	attributes
+		category "Light Warship"
+		"cost" 24000000
+		"shields" 35000
+		"hull" 10000
+		"required crew" 165
+		"bunks" 400
+		"mass" 2000
+		"drag" 5
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 40
+		"outfit space" 624
+		"weapon capacity" 240
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret" 4
+		"Dual Turbolaser Turret" 2
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -147 247
+	engine 145 246
+	turret -1 -123 "Dual Turbolaser Turret"
+	turret -1 -123 "Dual Turbolaser Turret"
+	turret -75 -25 "Turbolaser Turret"
+	turret 69 -27 "Turbolaser Turret"
+	turret -40 -39 "Turbolaser Turret"
+	turret 36 -40 "Turbolaser Turret"
+	fighter -3 -47
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Aurra Sing's Blockade Runner"
+
+
+
+ship "Aurra Sing's Fighter Runner"
+	sprite "ship/aurrasingfighterrunner"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 129000
+		"shields" 2200
+		"hull" 1200
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.8
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 179
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"RG-9 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 12
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		
+	engine -14 36
+	engine 13 35
+	gun -14 -7 "RG-9 Laser Cannon"
+	gun 13 -7 "RG-9 Laser Cannon"
+	gun -20 -7 "Concussion Missile Launcher"
+	gun 18 -8 "Concussion Missile Launcher"
+	explode "tiny explosion" 20
+	explode "large explosion" 3
+	description "Aurra Sing's Fighter Runner"
+
+
+
+ship "Auzituck Anti-Slaver Gunship"
+	sprite "ship/auzituckgunship"
+	"never disabled"
+	attributes
+		category Interceptor
+		"cost" 330000
+		"shields" 3700
+		"hull" 3300
+		"required crew" 2
+		"bunks" 2
+		"mass" 35
+		"drag" 1.2
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 5
+		"outfit space" 216
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Fighter Laser Cannon" 3
+		
+		"Novaldex O5-U Power Converter"
+		"Chempat U Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -36 45
+	engine 35 45
+	gun -21 -32 "Fighter Laser Cannon"
+	gun 20 -34 "Fighter Laser Cannon"
+	gun 0 -32 "Fighter Laser Cannon"
+	explode "large explosion" 3
+	description "The Auzituck anti-slaver gunship, also called the Auzituck-class gunship, was a Wookiee gunship manufactured by Appazanna Engineering Works and used to battle slavers. Auzituck roughly translated to "liberated one" in Shyriiwook, the native language of the Wookiees. The gunship was fast, well-armored and heavily armed with a narrow profile and large engines."
+
+
+
+ship "Baudo-class Star Yacht"
+	sprite "ship/baudostaryacht"
+	attributes
+		category "Transport"
+		"cost" 900000
+		"shields" 8000
+		"hull" 6000
+		"required crew" 2
+		"bunks" 17
+		"mass" 128
+		"drag" 2.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 340
+		"weapon capacity" 120
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Quad Turbolaser Turret"
+		
+		"Quadex Power Core"
+		"YT1300 Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -16.5 109
+	engine 14 109
+	turret -1 -2 "Transport Quad Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Baudo-class star yacht was a favorite ship of rich youngsters. As a sporting yacht, the ship was mostly used as a pleasure vehicle by affluent beings."
+
+
+
+
+ship "Belbullab-22 Starfighter"
+	sprite "ship/belbullab22starfighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 15200000
+		"shields" 2600
+		"hull" 1400
+		"required crew" 1
+		"bunks" 1
+		"mass" 25
+		"drag" 1
+		"heat dissipation" .8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 182
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 16	
+
+		"FreiTek Power Converter"
+		"FreiTek Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -23 14
+	engine 21 13
+	gun -19 -39 "Fighter Laser Cannon"
+	gun 18 -40 "Fighter Laser Cannon"
+	gun -7 -30 "Concussion Missile Launcher"
+	gun 6 -30 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "Belbullab-22 Starfighter"
+
+
+
+ship "Bespin Bandit"
+	sprite "ship/bespinbandit"
+	attributes
+		category "Transport"
+		"cost" 600000
+		"shields" 8700
+		"hull" 6600
+		"required crew" 2
+		"bunks" 15
+		"mass" 160
+		"drag" 2.3
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 285
+		"weapon capacity" 65
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 2
+		"Transport Quad Turbolaser Turret" 1
+		
+		"Quadex Power Core"
+		"YT1300 Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -51 107
+	engine 51 106
+	gun -64 -30 "Transport Laser Cannon"
+	gun 64 -29 "Transport Laser Cannon"
+	turret -22 -83 "Transport Quad Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Bespin Bandit was a delta-shaped smuggling freighter with an off-set cockpit. It belonged to Uz Bonearm and it fought for the New Republic in the battle of New Alderaan"
+
+
+
+ship "BFF-1 Bulk Freighter"
+	sprite "ship/bff1bulkfreighter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 21000000
+		"shields" 39000
+		"hull" 12000
+		"required crew" 4
+		"bunks" 10
+		"mass" 3500
+		"drag" 6.3
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 2800
+		"outfit space" 384
+		"weapon capacity" 0
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		
+		"Heavy Freighter Power Converter"
+		"Heavy Freighter Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Heavy Freighter Ion Drive"
+		"Heavy Hyperspace Motivator"
+	
+	engine -45 209
+	engine 41 210
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "At 120 meters in length, the BFF-1 Bulk Freighter was a standard medium-sized freighter that was common throughout the entire galaxy. It was low-cost, partly due to its lack of defensive armament, effective and capable of extremely long range bulk transport duties."
+
+
+
+ship "BT7 Thunderclap"
+	sprite "ship/bt7thunderclap"
+	attributes
+		category "Transport"
+		"cost" 15200000
+		"shields" 7500
+		"hull" 5500
+		"required crew" 3
+		"bunks" 17
+		"mass" 112
+		"drag" 2.3
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 285
+		"weapon capacity" 65
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 3
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -28 57
+	engine -15 57
+	engine -2 58
+	gun -81 -6 "Transport Laser Cannon"
+	gun -81 -6 "Transport Laser Cannon"
+	gun 73 -69 "Transport Laser Cannon"
+	gun -29 -30 "Proton Torpedo Launcher"
+	gun -1 -30 "Proton Torpedo Launcher"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "BT7 Thunderclap"
+
+
+
+
+ship "Cavith Tok Starfighter"
+	sprite "ship/cavithtokstarfighter"
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 15200000
+		shields 2300
+		hull 1400
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag .95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 229
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -19 49
+	engine 15 50
+	gun -43 21 "Fighter Laser Cannon"
+	gun 40 20 "Fighter Laser Cannon"
+	gun -8 12 "Proton Torpedo Launcher"
+	gun 5 10 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "Cavith Tok Starfighter"
+
+
+
+ship "Chu'unthor"
+	sprite "ship/chuunthor"
+	attributes
+		category "Heavy Warship"
+		"cost" 300000000
+		"shields" 200000
+		"hull" 60000
+		"required crew" 4000
+		"bunks" 10000
+		"mass" 14500
+		"drag" 25.5
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 800
+		"outfit space" 3504
+		"weapon capacity" 2580
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Tractor Beam"
+	
+		"Victory I Power Converter"
+		"Victory I Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"LF9 Ion Thruster"
+		"Capital Hyperspace Motivator"
+
+	engine -187 727
+	engine -103 707
+	engine -16 726
+	engine 64 706
+	engine 154 727
+	turret -44 -360 "Tractor Beam"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Chu'unthor (the Cerean word for "academy") was a praxeum ship designed by Cerean Jedi Fin-So-Rowan and Human Jedi Ivixa Delbaeth. The ship was built in orbit around the planet Abhean by Republic Fleet Systems circa 500 BBY. Its primary function was as a spacefaring academy for groups of Jedi apprentices, and it operated under the command of a number of Jedi Masters."
+
+
+
+ship "CloakShape Fighter"
+	sprite "ship/cloakshapefighter"
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 15200000
+		shields 2400
+		hull 1500
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 229
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -8 13
+	engine 0 17
+	engine 9 11
+	gun -24 -44 "Fighter Laser Cannon"
+	gun 24 -43 "Fighter Laser Cannon"
+	gun -24 -44 "Proton Torpedo Launcher"
+	gun 24 -43 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "CloakShape Fighter"
+
+
+
+ship "CloakShape Fighter (Fighter)"
+	sprite "ship/cloakshapefighter"
+	"never disabled"
+	attributes
+		category FIGHTER
+		cost 15200000
+		shields 2400
+		hull 1500
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 229
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+
+	engine -8 13
+	engine 0 17
+	engine 9 11
+	gun -24 -44 "Fighter Laser Cannon"
+	gun 24 -43 "Fighter Laser Cannon"
+	gun -24 -44 "Proton Torpedo Launcher"
+	gun 24 -43 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "CloakShape Fighter"
+
+
+
+ship "C-ROC Gozanti Cruiser"
+	sprite "ship/crocgozanticruiser"
+	attributes
+		category "Heavy Freighter"
+		"cost" 10800000
+		"shields" 48000
+		"hull" 21000
+		"required crew" 12
+		"bunks" 32
+		"mass" 4400
+		"drag" 12.5
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 3400
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret" 2
+		
+		"Heavy Freighter Power Converter"
+		"Heavy Freighter Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Ion Drive"
+		"Heavy Hyperspace Motivator"
+	
+	engine -97 366
+	engine 102 366
+	turret 1 -308 "Turbolaser Turret"
+	turret 1 55 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Initially offered to the Imperial Navy as an armed long-range transport, the Navy rejected the C-ROC Gozanti Cruiser as inappropriate to the order of battle, instead choosing the Imperial freighter configuration of Gozanti."
+
+
+
+ship "Crusader-class Corvette"
+	sprite "ship/crusadercorvette"
+	attributes
+		category "Medium Warship"
+		"cost" 15200000
+		"shields" 38000
+		"hull" 11000
+		"required crew" 70
+		"bunks" 80
+		"mass" 3200
+		"drag" 5.6
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 200
+		"outfit space" 849
+		"weapon capacity" 460
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Mandalorian Turbolaser Turret" 10
+		"Point-Defence Laser Cannon Battery" 2
+		
+		"Raider Power Converter"
+		"Raider Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Raider Corvette Ion Drive"
+		"Heavy Hyperspace Motivator"
+		
+	engine -63 366
+	engine 62 367
+	engine -1 395
+	turret -58 -198 "Mandalorian Turbolaser Turret"
+	turret 57 -199 "Mandalorian Turbolaser Turret"
+	turret -59 -136 "Mandalorian Turbolaser Turret"
+	turret 57 -136 "Mandalorian Turbolaser Turret"
+	turret -59 -72 "Mandalorian Turbolaser Turret"
+	turret 57 -71 "Mandalorian Turbolaser Turret"
+	turret -1 -44 "Mandalorian Turbolaser Turret"
+	turret -1 -44 "Mandalorian Turbolaser Turret"
+	turret 0 -390 "Mandalorian Turbolaser Turret"
+	turret 0 -390 "Mandalorian Turbolaser Turret"
+	turret -1 124 "Point-Defence Laser Cannon Battery"
+	turret -1 124 "Point-Defence Laser Cannon Battery"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Crusader-class Corvette"
+
+
+
+ship "CSA ChaseMaster"
+	sprite "ship/csachasemaster"
+	attributes
+		category "Medium Warship"
+		"cost" 50000000
+		"shields" 47000
+		"hull" 17000
+		"required crew" 130
+		"bunks" 250
+		"mass" 2700
+		"drag" 6
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 300
+		"outfit space" 849
+		"weapon capacity" 460
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Dual Turbolaser Turret" 6
+		
+		"Raider Power Converter"
+		"Raider Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Raider Corvette Ion Drive"
+		"Heavy Hyperspace Motivator"
+		
+	engine -230 279
+	engine -164 287
+	engine -95 296
+	engine 97 296
+	engine 159 286
+	engine 236 279
+	turret -24 -237 "Dual Turbolaser Turret"
+	turret 24 -237 "Dual Turbolaser Turret"
+	turret -23 -205 "Dual Turbolaser Turret"
+	turret 24 -205 "Dual Turbolaser Turret"
+	turret -22 -134 "Dual Turbolaser Turret"
+	turret 23 -135 "Dual Turbolaser Turret"
+	fighter 0 -457
+	fighter 0 -457
+	fighter 0 -457
+	fighter 0 -457
+	fighter 0 -457
+	fighter 0 -457
+	fighter 0 -457
+	fighter 0 -457
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "ChaseMasters were frigates produced by Corporate Sector Authority and used as capital ships in the Lost Tribe of Sith's armada around 43 ABY. (8 Fighters)"
+
+
+
+ship "D5-Mantis Patrol Craft"
+	sprite "ship/d5mantispatrolcraft"
+	attributes
+		category "Transport"
+		"cost" 15200000
+		"shields" 8500
+		"hull" 6500
+		"required crew" 3
+		"bunks" 17
+		"mass" 130
+		"drag" 2.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 65
+		"outfit space" 285
+		"weapon capacity" 65
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 3
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -69 15
+	engine 68 15
+	gun -70 -23 "Transport Laser Cannon"
+	gun 70 -23 "Transport Laser Cannon"
+	gun 0 -22 "Transport Laser Cannon"
+	gun -30 -23 "Proton Torpedo Launcher"
+	gun 30 -24 "Proton Torpedo Launcher"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "D5-Mantis Patrol Craft"
+
+
+
+ship "Dart Gunship"
+	sprite "ship/dartgunship"
+	attributes
+		category "Light Warship"
+		"cost" 14000000
+		"shields" 29000
+		"hull" 8000
+		"required crew" 65
+		"bunks" 80
+		"mass" 1700
+		"drag" 4.5
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 40
+		"outfit space" 559
+		"weapon capacity" 170
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret" 4
+		"Concussion Missile Launcher" 1
+		"Concussion Missile" 16
+		
+		"Raider Power Converter"
+		"Raider Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -28 164
+	engine 0 163
+	engine 28 163
+	gun 0 -162 "Concussion Missile Launcher"
+	turret 18 -63 "Turbolaser Turret"
+	turret -17 -22 "Turbolaser Turret"
+	turret -29 85 "Turbolaser Turret"
+	turret 29 85 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Dart Gunship"
+
+
+
+ship "Davaab-type Starfighter"
+	sprite "ship/davaabstarfighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 115000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 2
+		"bunks" 2
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 199
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Mandalorian Fighter Cannon" 2
+		"Concussion Missile Launcher" 3
+		"Concussion Missile" 12
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -7 39
+	engine 6 39
+	gun 0 -12 "Mandalorian Fighter Cannon"
+	gun 0 -12 "Mandalorian Fighter Cannon"
+	gun -4 -2 "Concussion Missile Launcher"
+	gun 4 -3 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Davaab-type starfighter was a type of starfighter used by the Mandalorians from before and during the Mandalorian Wars. Its name derived from the Mando'a word for "carrying out" and "execution," the fighter was used by the Mandalorians for capital ship protection."
+
+
+
+ship "Davaab-type Starfighter (Fighter)"
+	sprite "ship/davaabstarfighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 115000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 2
+		"bunks" 2
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 199
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Mandalorian Fighter Cannon" 2
+		"Concussion Missile Launcher" 3
+		"Concussion Missile" 12
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		
+	engine -7 39
+	engine 6 39
+	gun 0 -12 "Mandalorian Fighter Cannon"
+	gun 0 -12 "Mandalorian Fighter Cannon"
+	gun -4 -2 "Concussion Missile Launcher"
+	gun 4 -3 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Davaab-type starfighter was a type of starfighter used by the Mandalorians from before and during the Mandalorian Wars. Its name derived from the Mando'a word for "carrying out" and "execution," the fighter was used by the Mandalorians for capital ship protection."
+
+
+
+
+ship "Defender-class Corvette"
+	sprite "ship/defendercorvette"
+	attributes
+		category "Light Warship"
+		"cost" 15200000
+		"shields" 34000
+		"hull" 10000
+		"required crew" 1
+		"bunks" 20
+		"mass" 2000
+		"drag" 4.9
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 45
+		"outfit space" 504
+		"weapon capacity" 120
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret" 3
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -39 178
+	engine 49 178
+	turret -131 -133 "Turbolaser Turret"
+	turret 141 -134 "Turbolaser Turret"
+	turret 4 -92 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Defender-class Corvette"
+
+
+
+
+ship "Delta JV-7 Shuttle"
+	sprite "ship/deltajv7shuttle"
+	"never disabled"
+	attributes
+		category Transport
+		"cost" 520000
+		"shields" 5600
+		"hull" 3800
+		"required crew" 2
+		"bunks" 8
+		"mass" 37
+		"drag" 1.2
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 5
+		"outfit space" 222
+		"weapon capacity" 24
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"T4a Shuttle Laser Cannon" 3
+		
+		"Cygnus T4a Power Converter"
+		"Cygnus Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 2
+		
+		"Cygnus T4a Thrust Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -28 49
+	engine 24 48
+	gun -67 -59 "T4a Shuttle Laser Cannon"
+	gun 65 -60 "T4a Shuttle Laser Cannon"
+	gun -1 -62 "T4a Shuttle Laser Cannon"
+	explode "tiny explosion" 2
+	explode "small explosion" 4
+	explode "medium explosion" 6
+	explode "large explosion" 8
+	"final explode" "huge explosion" 3
+	description "Delta JV-7 Shuttle"
+
+
+
+ship "Dragonboat-class Reugeot 905 Freighter"
+	sprite "ship/dragonboatreugeot905freighter"
+	attributes
+		category "Medium Freighter"
+		"cost" 22000000
+		"shields" 37000
+		"hull" 10000
+		"required crew" 8
+		"bunks" 50
+		"mass" 3000
+		"drag" 5.9
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 2400
+		"outfit space" 424
+		"weapon capacity" 40
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret"
+		
+		"Heavy Freighter Power Converter"
+		"Heavy Freighter Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Heavy Freighter Ion Drive"
+		"Medium Hyperspace Motivator"
+	
+	engine -96 251
+	engine 90 251
+	turret -3 -51 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "HCT-2001 Dragonboat-class Reugeot 905 Freighter"
+
+
+
+ship "Dusty Duck"
+	sprite "ship/dustyduck"
+	attributes
+		category "Transport"
+		"cost" 500000
+		"shields" 7000
+		"hull" 7000
+		"required crew" 2
+		"bunks" 10
+		"mass" 160
+		"drag" 2.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 25
+		"outfit space" 250
+		"weapon capacity" 30
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 2
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine 1 68
+	gun -25 -28 "Transport Laser Cannon"
+	gun 22 -28 "Transport Laser Cannon"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Dusty Duck was a light freighter designed by and utilized by Neeamesh Dym, a Pa'lowick smuggler residing on Nar Shaddaa during the Republic Classic era. The craft was notoriously unreliable, would often sputter to a halt in space, and made involuntary and abrupt descents to many barren worlds."
+
+
+
+ship "Dynamic Freighter"
+	sprite "ship/dynamicfreighter"
+	attributes
+		category "Transport"
+		"cost" 660000
+		"shields" 7900
+		"hull" 5900
+		"required crew" 2
+		"bunks" 12
+		"mass" 120
+		"drag" 2.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 320
+		"weapon capacity" 100
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 2
+		"Transport Quad Turbolaser Turret" 2
+		
+		"Quadex Power Core"
+		"YT1300 Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -26 87
+	engine 23 87
+	gun -92 2 "Transport Laser Cannon"
+	gun 89 3 "Transport Laser Cannon"
+	turret -2 5 "Transport Quad Turbolaser Turret"
+	turret -2 5 "Transport Quad Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Dynamic Freighter"
+
+
+
+ship "Eternal Battlecruiser"
+	sprite "ship/eternalbattlecruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 300000000
+		"shields" 165000
+		"hull" 65000
+		"required crew" 1
+		"bunks" 800
+		"mass" 11000
+		"drag" 25
+		"heat dissipation" .45
+		"fuel capacity" 1200
+		"cargo space" 150
+		"outfit space" 1454
+		"weapon capacity" 530
+		"engine capacity" 580
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Dual Turbolaser Turret" 2
+		"Turbolaser Turret" 6
+		"Tractor Beam" 2
+		
+		"Victory I Power Converter"
+		"Victory I Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		"Mk.III Stygium Cloaking Device"
+		
+		"LF9 Ion Thruster"
+		"Capital Hyperspace Motivator"
+		
+	engine -137 861
+	engine 112 865
+	engine -53 871
+	engine 38 874
+	turret -258 -490 "Turbolaser Turret"
+	turret -203 -374 "Turbolaser Turret"
+	turret 258 -490 "Turbolaser Turret"
+	turret 197 -381 "Turbolaser Turret"
+	turret -133 437 "Turbolaser Turret"
+	turret 121 437 "Turbolaser Turret"
+	turret -458 -638 "Dual Turbolaser Turret"
+	turret 441 -639 "Dual Turbolaser Turret"
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	fighter -10 -838
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Eternal Fleet warship was the main ship of the Eternal Fleet, a fleet of ships controlled by the sentient GEMINI droid units. The Eternal Fleet was entirely composed of hundreds of warships of this class, which operated in precise patterns and were so fast in hyperspace that only ships equipped with isotope-5 could keep pace. The Cruisers were also equipped with stealth technology and Skytrooper boarding pods. (Fighters 42)"
+
+
+
+
+ship "Fang Fighter"
+	sprite "ship/fangfighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 110000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 19
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 199
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Mandalorian Fighter Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 12
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -14 29
+	engine -1 30
+	engine 13 29
+	gun -14 -29 "Mandalorian Fighter Cannon"
+	gun 12 -29 "Mandalorian Fighter Cannon"
+	gun -13 -17 "Concussion Missile Launcher"
+	gun 10 -17 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Fang fighter, also known as the Protectorate Fang Fighter, was a model of starfighter designed and used by the Mandalorian Protectors. Fang fighters were fast and highly maneuverable starship designed specifically for combat. The craft's narrow attack profile and swivel-mounted wings that provided vectored-thrust control gave the fighter unmatched agility."
+
+ship "Fang Fighter (Fighter)"
+	sprite "ship/fangfighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 129000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 19
+		"drag" 0.6
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 179
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Mandalorian Fighter Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 12
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		
+	engine -14 29
+	engine -1 30
+	engine 13 29
+	gun -14 -29 "Mandalorian Fighter Cannon"
+	gun 12 -29 "Mandalorian Fighter Cannon"
+	gun -13 -17 "Concussion Missile Launcher"
+	gun 10 -17 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Fang fighter, also known as the Protectorate Fang Fighter, was a model of starfighter designed and used by the Mandalorian Protectors. Fang fighters were fast and highly maneuverable starship designed specifically for combat. The craft's narrow attack profile and swivel-mounted wings that provided vectored-thrust control gave the fighter unmatched agility."
+
+
+
+
+ship "Firespray-31-class patrol craft"
+	sprite "ship/firespray31patrolcraft"
+	attributes
+		category "Transport"
+		"cost" 700000
+		"shields" 8300
+		"hull" 6200
+		"required crew" 1
+		"bunks" 7
+		"mass" 120
+		"drag" 2.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 305
+		"weapon capacity" 85
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"Transport Laser Turret" 1
+		"MG9 Proton Torpedo" 10
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+
+	engine -18 22
+	engine -2 21
+	engine 14 20
+	gun -41 -8 "Transport Laser Cannon"
+	gun 42 -8 "Transport Laser Cannon"
+	gun -49 -7 "Proton Torpedo Launcher"
+	gun 49 -8 "Proton Torpedo Launcher"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Firespray-31-class patrol and attack craft, was a patrol and transport starship designed by Kuat Systems Engineering initially for use by the Republic Correctional Authority. The most well known of the starships was Jango and Boba Fett's ship, the Slave I."
+
+
+
+ship "Foray-class Blockade Runner"
+	sprite "ship/forayblockaderunner"
+	attributes
+		category "Light Warship"
+		"cost" 15200000
+		"shields" 34000
+		"hull" 9500
+		"required crew" 40
+		"bunks" 100
+		"mass" 2000
+		"drag" 5
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 40
+		"outfit space" 624
+		"weapon capacity" 240
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Dual Turbolaser Turret" 2
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -86 277
+	engine 0 250
+	engine 88 281
+	turret -22 -236 "Dual Turbolaser Turret"
+	turret 25 -236 "Dual Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Foray-class's original purpose was to safeguard the Republic Navy's reach by being mass-produced to the point of filling up the trade routes, but the ship gained new mission uses during the Mandalorian Wars. It assisted Republic troops and civilians caught behind enemy lines, and aided besieged Republic worlds by supplying them while under fire."
+
+
+
+ship "FT-6 Pike Starfighter"
+	sprite ship/ft6pikestarfighter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 130000
+		shields 2500
+		hull 1350
+		"required crew" 2
+		bunks 2
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -15 45
+	engine 0 46
+	engine 15 47
+	gun -54 14 "Fighter Laser Cannon"
+	gun 52 14 "Fighter Laser Cannon"
+	gun -54 14 "Fighter Laser Cannon"
+	gun 52 14 "Fighter Laser Cannon"
+	gun -11 -17 "Proton Torpedo Launcher"
+	gun 9 -18 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The FT-6 Pike was a starfighter in the FT-series of Galactic Republic starfighters produced by Rendili StarDrive. Similar to other models of the series, the Pike had two wings and three rear engines."
+
+
+
+ship "FT-6 Pike Starfighter (Fighter)"
+	sprite ship/ft6pikestarfighter
+	"never disabled"
+	attributes
+		category Fighter
+		cost 130000
+		shields 2500
+		hull 1350
+		"required crew" 2
+		bunks 2
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+
+	engine -15 45
+	engine 0 46
+	engine 15 47
+	gun -54 14 "Fighter Laser Cannon"
+	gun 52 14 "Fighter Laser Cannon"
+	gun -54 14 "Fighter Laser Cannon"
+	gun 52 14 "Fighter Laser Cannon"
+	gun -11 -17 "Proton Torpedo Launcher"
+	gun 9 -18 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The FT-6 Pike was a starfighter in the FT-series of Galactic Republic starfighters produced by Rendili StarDrive. Similar to other models of the series, the Pike had two wings and three rear engines."
+
+
+
+ship "FT-7B Clarion Starfighter"
+	sprite ship/ft7bclarionstarfighter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 130000
+		shields 2700
+		hull 1450
+		"required crew" 2
+		bunks 2
+		mass 29
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -15 39
+	engine -10 47
+	engine 8 47
+	engine 14 39
+	gun -56 9 "Fighter Laser Cannon"
+	gun 54 9 "Fighter Laser Cannon"
+	gun -11 -21 "Proton Torpedo Launcher"
+	gun 9 -21 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The FT-7B Clarion was a starfighter in the FT-series of Galactic Republic starfighters produced by Rendili StarDrive. Similar to other models of the series, the Star Guard had two wings and four rear engines, and it featured laser cannons on each wing. The Clarion lacked the weapon capacity typical of other strike fighters, but possessed a powerful sensor suite and command-and-control systems to boost squadron effectiveness. It sacrificed some maneuverability and speed for heavier defenses, and its secondary weapons were designed for eliminating stationary and armored targets."
+
+
+
+ship "FT-7B Clarion Starfighter (Fighter)"
+	sprite ship/ft7bclarionstarfighter
+	"never disabled"
+	attributes
+		category Fighter
+		cost 130000
+		shields 2700
+		hull 1450
+		"required crew" 2
+		bunks 2
+		mass 29
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+
+	engine -15 39
+	engine -10 47
+	engine 8 47
+	engine 14 39
+	gun -56 9 "Fighter Laser Cannon"
+	gun 54 9 "Fighter Laser Cannon"
+	gun -11 -21 "Proton Torpedo Launcher"
+	gun 9 -21 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The FT-7B Clarion was a starfighter in the FT-series of Galactic Republic starfighters produced by Rendili StarDrive. Similar to other models of the series, the Star Guard had two wings and four rear engines, and it featured laser cannons on each wing. The Clarion lacked the weapon capacity typical of other strike fighters, but possessed a powerful sensor suite and command-and-control systems to boost squadron effectiveness. It sacrificed some maneuverability and speed for heavier defenses, and its secondary weapons were designed for eliminating stationary and armored targets."
+
+
+
+ship "Fury-class Sith Imperial Interceptor"
+	sprite "ship/furyimperialinterceptor"
+	attributes
+		category "Light Warship"
+		"cost" 23000000
+		"shields" 32000
+		"hull" 9500
+		"required crew" 1
+		"bunks" 15
+		"mass" 1950
+		"drag" 4.8
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 504
+		"weapon capacity" 120
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Heavy Laser Cannon" 4
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -5 183
+	gun -163 17 "Heavy Laser Cannon"
+	gun 155 17 "Heavy Laser Cannon"
+	gun -13 -33 "Heavy Laser Cannon"
+	gun 5 -33 "Heavy Laser Cannon"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Fury-class transports were commonly utilized by prominent Sith Warriors and Sith Inquisitors as their bases of operations throughout important missions on which they were assigned. For this the interior included a large communications room with a holoprojector, as well as cabins for the ship's crew and a conference room."
+
+
+
+ship "G-1A Starfighter"
+	sprite "ship/g1astarfighter"
+	"never disabled"
+	attributes
+		category Interceptor
+		"cost" 280000
+		"shields" 3400
+		"hull" 2950
+		"required crew" 1
+		"bunks" 3
+		"mass" 33
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 5
+		"outfit space" 216
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Fighter Laser Cannon" 2
+		
+		"Novaldex O5-U Power Converter"
+		"Chempat U Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -10 51
+	engine 9 51
+	gun -6 -58 "Fighter Laser Cannon"
+	gun 5 -58 "Fighter Laser Cannon"
+	explode "large explosion" 3
+	description "The G-1A starfighter, also known as the G-1A transport, was a model of starfighter. One such vessel was the Mist Hunter owned by the bounty hunter Zuckuss."
+
+
+
+ship "G1-M4-C Dunelizard Fighter"
+	sprite ship/g1m4cdunelizardfighter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 130000
+		shields 2700
+		hull 1450
+		"required crew" 1
+		bunks 1
+		mass 25
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fterigh Laser Cannon" 2
+		"Proton Torpedo Launcher"
+		"MG9 Proton Torpedo" 3
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine 0 40
+	engine -6 21
+	engine 9 20
+	gun -26 -32 "Fighter Laser Cannon"
+	gun 27 -32 "Fighter Laser Cannon"
+	gun 1 -58 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The G1-M4-C Dunelizard, also known as the Medium Hutt Fighter, was a starfighter of medium weight developed by the Hutts and produced by MandalMotors. The Dunelizard fighter was based upon the M3-A Scyk fighter, retaining that vessel's wedge-shaped wings, though the later model included a number of advanced features."
+
+
+
+ship "G1-M4-C Dunelizard Fighter (Fighter)"
+	sprite ship/g1m4cdunelizardfighter
+	"never disabled"
+	attributes
+		category Fighter
+		cost 130000
+		shields 2700
+		hull 1450
+		"required crew" 1
+		bunks 1
+		mass 25
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fterigh Laser Cannon" 2
+		"Proton Torpedo Launcher"
+		"MG9 Proton Torpedo" 3
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+
+	engine 0 40
+	engine -6 21
+	engine 9 20
+	gun -26 -32 "Fighter Laser Cannon"
+	gun 27 -32 "Fighter Laser Cannon"
+	gun 1 -58 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The G1-M4-C Dunelizard, also known as the Medium Hutt Fighter, was a starfighter of medium weight developed by the Hutts and produced by MandalMotors. The Dunelizard fighter was based upon the M3-A Scyk fighter, retaining that vessel's wedge-shaped wings, though the later model included a number of advanced features."
+
+
+
+ship "G9 Rigger-class light freighter"
+	sprite "ship/g9riggerfreighter"
+	attributes
+		category "Transport"
+		"cost" 15200000
+		"shields" 7500
+		"hull" 5500
+		"required crew" 2
+		"bunks" 5
+		"mass" 115
+		"drag" 2.3
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 285
+		"weapon capacity" 65
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 3
+		"Transport Laser Turret"
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -85 50
+	engine -28 49
+	gun -77 -21 "Transport Laser Cannon"
+	gun -44 -28 "Transport Laser Cannon"
+	gun -44 -28 "Transport Laser Cannon"
+	turret 85 9 "Transport Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The G9 Rigger-class light freighter, was a model of freighter manufactured by the Corellian Engineering Corporation and used during the Clone Wars. Its only weapons were small blaster cannons attached to the wings and top of the freighter."
+
+
+
+ship "G-400 Starfighter"
+	sprite "ship/g400starfighter"
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 150000
+		shields 2450
+		hull 1600
+		"required crew" 1
+		bunks 1
+		mass 28
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 229
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon"
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -45 13
+	engine 43 13
+	gun -6 -39 "Fighter Laser Cannon"
+	gun -11 -27 "Proton Torpedo Launcher"
+	gun 10 -26 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The G-400 starfighter was a single-seat fighter used by the Lok Revenants. It was equipped with a single laser cannon and deflector shields and also utilized a hyperdrive."
+
+
+
+ship "G-400 Starfighter (Fighter)"
+	sprite "ship/g400starfighter"
+	"never disabled"
+	attributes
+		category Fighter
+		cost 150000
+		shields 2450
+		hull 1600
+		"required crew" 1
+		bunks 1
+		mass 28
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 229
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon"
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+
+	engine -45 13
+	engine 43 13
+	gun -6 -39 "Fighter Laser Cannon"
+	gun -11 -27 "Proton Torpedo Launcher"
+	gun 10 -26 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The G-400 starfighter was a single-seat fighter used by the Lok Revenants. It was equipped with a single laser cannon and deflector shields and also utilized a hyperdrive."
+
+
+
+ship "Galactic-class Battle Carrier"
+	sprite "ship/galacticbattlecarrier"
+	attributes
+		category "Heavy Warship"
+		"cost" 280000000
+		"shields" 270000
+		"hull" 70000
+		"required crew" 10000
+		"bunks" 55000
+		"mass" 17000
+		"drag" 28
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 800
+		"outfit space" 3504
+		"weapon capacity" 2580
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Quad Turbolaser Battery" 16
+		"Dual Turbolaser Battery" 12
+		"Tractor Beam" 4
+		
+		"Victory I Power Converter"
+		"Victory I Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"LF9 Ion Thruster"
+		"Capital Hyperspace Motivator"
+
+	engine -474 1621
+	engine 478 1622
+	turret -539 823 "Quad Turbolaser Battery"
+	turret -531 800 "Quad Turbolaser Battery"
+	turret -492 683 "Quad Turbolaser Battery"
+	turret -485 657 "Quad Turbolaser Battery"
+	turret -435 533 "Quad Turbolaser Battery"
+	turret -428 511 "Quad Turbolaser Battery"
+	turret -388 394 "Quad Turbolaser Battery"
+	turret -381 371 "Quad Turbolaser Battery"
+	turret 542 819 "Quad Turbolaser Battery"
+	turret 534 795 "Quad Turbolaser Battery"
+	turret 496 679 "Quad Turbolaser Battery"
+	turret 487 657 "Quad Turbolaser Battery"
+	turret 439 533 "Quad Turbolaser Battery"
+	turret 433 511 "Quad Turbolaser Battery"
+	turret 394 393 "Quad Turbolaser Battery"
+	turret 385 369 "Quad Turbolaser Battery"
+	turret -309 -465 "Dual Turbolaser Battery"
+	turret 318 -465 "Dual Turbolaser Battery"
+	turret -236 -650 "Dual Turbolaser Battery"
+	turret 240 -648 "Dual Turbolaser Battery"
+	turret -128 -1084 "Dual Turbolaser Battery"
+	turret 132 -1081 "Dual Turbolaser Battery"
+	turret -63 -1415 "Dual Turbolaser Battery"
+	turret 68 -1413 "Dual Turbolaser Battery"
+	turret -31 -1613 "Dual Turbolaser Battery"
+	turret 33 -1614 "Dual Turbolaser Battery"
+	turret -552 1164 "Dual Turbolaser Battery"
+	turret 557 1160 "Dual Turbolaser Battery"
+	turret 2 -73 "Tractor Beam"
+	turret 2 -73 "Tractor Beam"
+	turret 2 -73 "Tractor Beam"
+	turret 2 -73 "Tractor Beam"
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	fighter 2 -73
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The galactic-class battle carrier was a capital ship in use by the Galactic Alliance Navy by 40ABY, designed after the end of the Yuuzhan Vong War. Although it was considered a new, large star destroyer, the designation 'battle carrier' was chosen to avoid reminding people of the old imperial terror symbols."
+
+
+
+ship "Kihraxz Assault Fighter"
+	sprite ship/kihraxzassaultfighter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 130000
+		shields 2400
+		hull 1300
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher"
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -22 54
+	engine 23 54
+	engine 0 43
+	gun -29 -5 "Fighter Laser Cannon"
+	gun 30 -5 "Fighter Laser Cannon"
+	gun 0 -48 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The Kihraxz assault fighter, also known as the Kihraxz light fighter, was a light starfighter developed specifically for Black Sun during the reign of the Galactic Empire. While intended for the criminal organization, many Kihraxz starfighters found their way into the hands of various independent fringers."
+
+
+
+ship "Kihraxz Assault Fighter (Fighter)"
+	sprite ship/kihraxzassaultfighter
+	"never disabled"
+	attributes
+		category Fighter
+		cost 130000
+		shields 2400
+		hull 1300
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher"
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+
+	engine -22 54
+	engine 23 54
+	engine 0 43
+	gun -29 -5 "Fighter Laser Cannon"
+	gun 30 -5 "Fighter Laser Cannon"
+	gun 0 -48 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The Kihraxz assault fighter, also known as the Kihraxz light fighter, was a light starfighter developed specifically for Black Sun during the reign of the Galactic Empire. While intended for the criminal organization, many Kihraxz starfighters found their way into the hands of various independent fringers."
+
+
+
+ship "Krayt Dragon ship"
+	sprite "ship/kraytdragonship"
+	attributes
+		category "Light Warship"
+		"cost" 780000
+		"shields" 8900
+		"hull" 6500
+		"required crew" 8
+		"bunks" 40
+		"mass" 150
+		"drag" 2.3
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 10
+		"outfit space" 309
+		"weapon capacity" 65
+		"engine capacity" 70
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Transport Laser Cannon" 2
+		"Transport Quad Turbolaser Turret"
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -126 7
+	engine -99 8
+	engine -71 8
+	engine -43 9
+	engine 44 9
+	engine 72 10
+	engine 99 10
+	engine 126 10
+	gun -69 -104 "Transport Laser Cannon"
+	gun 70 -105 "Transport Laser Cannon"
+	turret 0 -8 "Transport Quad Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Dragon ship"
+
+
+
+ship "Lancer Pursuit Craft"
+	sprite "ship/lancerpursuitcraft"
+	attributes
+		category "Transport"
+		"cost" 680000
+		"shields" 8200
+		"hull" 6100
+		"required crew" 1
+		"bunks" 4
+		"mass" 125
+		"drag" 2.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 305
+		"weapon capacity" 85
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"Transport Laser Turret" 1
+		"MG9 Proton Torpedo" 6
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+
+	engine -65 56
+	engine 64 57
+	gun -13 -60 "Transport Laser Cannon"
+	gun 13 -61 "Transport Laser Cannon"
+	gun -6 -65 "Proton Torpedo Launcher"
+	gun 4 -66 "Proton Torpedo Launcher"
+	turret 0 1 "Transport Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Lancer Pursuit Craft"
+
+
+
+ship "Mobquet MB-C1 Medium Transport"
+	sprite "ship/mobquetmediumtransport"
+	attributes
+		category "Heavy Freighter"
+		"cost" 10800000
+		"shields" 23000
+		"hull" 9000
+		"required crew" 8
+		"bunks" 40
+		"mass" 3700
+		"drag" 9
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 2200
+		"outfit space" 424
+		"weapon capacity" 40
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret"
+		
+		"Heavy Freighter Power Converter"
+		"Heavy Freighter Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Ion Drive"
+		"Medium Hyperspace Motivator"
+	
+	engine -44 274
+	engine -25 275
+	engine 20 274
+	engine 38 274
+	turret -1 66 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Although one of the slower transports, The MB-C1 medium transport had slightly reinforced hull and extra space which increased its popularity."
+
+
+
+ship "N-1 Starfighter"
+	sprite ship/n1starfighter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 140000
+		shields 2400
+		hull 1300
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Imperial Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -22 -22
+	engine 29 -21
+	gun 0 -39 "Imperial Fighter Laser Cannon"
+	gun 7 -39 "Imperial Fighter Laser Cannon"
+	gun -6 -41 "Proton Torpedo Launcher"
+	gun 13 -42 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The N-1 starfighter was a sleek single-pilot craft used by the Naboo and demonstrated the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glinted in the sun for fly-bys and parades, and represented the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stood in stark contrast to its overall yellow finish."
+
+
+
+ship "N-1 Starfighter (Fighter)"
+	sprite ship/n1starfighter
+	"never disabled"
+	attributes
+		category Fighter
+		cost 140000
+		shields 2400
+		hull 1300
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Imperial Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+
+	engine -22 -22
+	engine 29 -21
+	gun 0 -39 "Imperial Fighter Laser Cannon"
+	gun 7 -39 "Imperial Fighter Laser Cannon"
+	gun -6 -41 "Proton Torpedo Launcher"
+	gun 13 -42 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The N-1 starfighter was a sleek single-pilot craft used by the Naboo and demonstrated the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glinted in the sun for fly-bys and parades, and represented the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stood in stark contrast to its overall yellow finish."
+
+
+
+ship "Old Republic Diplomatic Transport"
+	sprite "ship/oldrepublicdiplomatictransport"
+	attributes
+		category "Transport"
+		"cost" 800000
+		"shields" 8500
+		"hull" 7000
+		"required crew" 1
+		"bunks" 30
+		"mass" 210
+		"drag" 3.4
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 290
+		"weapon capacity" 70
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Turret"
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -20 91
+	engine -8 90
+	engine 7 90
+	engine 18 89
+	turret 0 30 "Transport Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Republic Transport ship was used by the Galactic Republic during the Great Galactic War as a multi purpose vessel, though primarily for diplomatic missions."
+
+
+
+
+ship "General Freighter"
+	sprite "ship/generalfreighter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 10800000
+		"shields" 55000
+		"hull" 23000
+		"required crew" 51
+		"bunks" 200
+		"mass" 4500
+		"drag" 13
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3400
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret" 2
+		
+		"Heavy Freighter Power Converter"
+		"Heavy Freighter Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Ion Drive"
+		"Heavy Hyperspace Motivator"
+	
+	engine -189 494
+	engine -7 494
+	engine 177 495
+	turret -8 -455 "Turbolaser Turret"
+	turret -7 197 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Although the class of freighter remains unidentified, once such ship still exists. The Theoretika was a mobile research laboratory owned by Czerka Corporation that was active over a century before the Galactic War between the Galactic Republic and the Sith Empire. Crewed by a team of over fifty engineers, scientists, and researchers, the Theoretika featured advanced medical and scientific facilities on its six decks, and one of the ship's primary projects in its final years of activity was a bioengineered jurgoran specimen labeled Specimen Gamma 19. "
+
+
+
+ship "Ghtroc Class 720 Freighter"
+	sprite "ship/ghtroc720freighter"
+	attributes
+		category "Transport"
+		"cost" 65000
+		"shields" 7950
+		"hull" 5950
+		"required crew" 2
+		"bunks" 12
+		"mass" 123
+		"drag" 2.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 320
+		"weapon capacity" 100
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Quad Turbolaser Turret"
+		
+		"Quadex Power Core"
+		"YT1300 Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+
+	engine -11 83
+	engine 13 83
+	engine -100 -34
+	engine -96 -29
+	engine -90 -23
+	engine -90 -22
+	engine 101 -34
+	engine 97 -31
+	engine 90 -23
+	engine 90 -24
+	turret 0 -5 "Transport Quad Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Class 720 freighter, also known as the Ghtroc 720, was a light freighter manufactured by Ghtroc Industries. Though less popular than the competing YT-series, the Ghtroc 720 developed a following in the Outer Rim Territories, where Ghtroc Industries was located, and thousands of the freighters remained in use even after the manufacturer went out of business."
+
+
+
+ship "Ginivex-class Starfighter"
+	sprite "ship/ginivexstarfighter"
+	"never disabled"
+	attributes
+		category Interceptor
+		"cost" 200000
+		"shields" 3000
+		"hull" 2500
+		"required crew" 1
+		"bunks" 1
+		"mass" 31
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 216
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Separatist Laser Cannon" 4
+		
+		"Novaldex O5-U Power Converter"
+		"Chempat U Deflector Shield Projector"
+		"Light Coolant System" 2
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	gun 0 -42 "Separatist Laser Cannon"
+	gun 0 -42 "Separatist Laser Cannon"
+	gun 0 -42 "Separatist Laser Cannon"
+	gun 0 -42 "Separatist Laser Cannon"
+	explode "large explosion" 3
+	description "The Ginivex-class starfighters, more commonly known as the Fanblade starfighters, were six starfighters constructed by the Geonosian Huppla Pasa Tisc Shipwrights Collective for Separatist agent Asajj Ventress and her cohorts on Rattatak. They resembled aggressive Geonosian air patrol skimmers and as a result, the Ginivex-class starfighters were informally dubbed "Fanblades" for their most distinctive feature."
+
+
+
+ship "Gravestone"
+	sprite "ship/gravestone"
+	attributes
+		category "Heavy Warship"
+		"cost" 600000000
+		"shields" 350000
+		"hull" 85000
+		"required crew" 20
+		"bunks" 45000
+		"mass" 16500
+		"drag" 27
+		"heat dissipation" .45
+		"fuel capacity" 1200
+		"cargo space" 200
+		"outfit space" 1454
+		"weapon capacity" 530
+		"engine capacity" 580
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Dual Turbolaser Turret" 2
+		"Omnicannon"
+		"Omnicannon Energy" 1000
+		"Turbolaser Turret" 6
+		"Tractor Beam" 2
+		
+		"Victory I Power Converter"
+		"Victory I Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		"Mk.III Stygium Cloaking Device"
+		
+		"LF9 Ion Thruster"
+		"Capital Hyperspace Motivator"
+		
+	engine 34 909
+	engine 60 912
+	engine 92 914
+	gun 65 -933 "Omnicannon"
+	turret -327 -285 "Dual Turbolaser Turret"
+	turret 330 234 "Dual Turbolaser Turret"
+	turret -142 -803 "Turbolaser Turret"
+	turret 270 -806 "Turbolaser Turret"
+	turret -138 -521 "Turbolaser Turret"
+	turret 265 -531 "Turbolaser Turret"
+	turret -136 -151 "Turbolaser Turret"
+	turret 317 -151 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Gravestone was a massive alien combat frigate that was able to defeat the Eternal Fleet, a fleet of droid-controlled warships that was systematically destroying all life within Wild Space, with its powerful Omnicannon. The Gravestone disappeared after the battle with the fleet, scuttled in the Endless Swamp of the planet Zakuul. Centuries later, it was discovered by the crew of the Outlander, who repaired the starship and used it to escape Zakuul. The Gravestone became the mobile base of the Outlander's group prior to the establishment of the Alliance on Odessen."
+
+
+
+ship "G-Type Light Shuttle"
+	sprite "ship/gtypelightshuttle"
+	"never disabled"
+	attributes
+		category Transport
+		"cost" 220000
+		"shields" 4950
+		"hull" 3450
+		"required crew" 1
+		"bunks" 3
+		"mass" 32
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 5
+		"outfit space" 238
+		"weapon capacity" 40
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Fighter Laser Cannon" 3
+		
+		"Cygnus T4a Power Converter"
+		"Cygnus Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 2
+		
+		"Cygnus T4a Thrust Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -42 54
+	engine 33 38
+	gun 45 -3 "Fighter Laser Cannon"
+	gun 49 5 "Fighter Laser Cannon"
+	gun 53 -3 "Fighter Laser Cannon"
+	explode "tiny explosion" 2
+	explode "small explosion" 4
+	explode "medium explosion" 6
+	explode "large explosion" 8
+	"final explode" "huge explosion" 3
+	description "G-Type light shuttles were small armed transports used during the Jedi Civil War and Sith Civil Wars. They were used to ferry small parties back and forth between planets and capital ships."
+
+
+
+ship "GX1 Lantillian Short Hauler (Civilian)"
+	sprite "ship/gx1lantillianshorthauler"
+	attributes
+		category "Transport"
+		"cost" 750000
+		"shields" 8500
+		"hull" 7000
+		"required crew" 1
+		"bunks" 30
+		"mass" 210
+		"drag" 3.4
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 290
+		"weapon capacity" 70
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"GR-75"
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -12 75
+	engine 12 75
+	turret 0 5 "GR-75"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The GX1 Lantillian Short Hauler was a shuttle model manufactured by Lantillian ShipWrights. During the Clone Wars, the Galactic Republic used several top-of-the-line GX1 short haulers as diplomatic vessels. During the Age of the Empire, GX1 shuttles were used as starbuses to ferry commuters from one location to another."
+
+
+
+ship "GX1 Lantillian Short Hauler (Phoenix)"
+	sprite "ship/gx1lantillianshorthaulerphoenix"
+	attributes
+		category "Transport"
+		"cost" 800000
+		"shields" 8500
+		"hull" 7000
+		"required crew" 1
+		"bunks" 30
+		"mass" 210
+		"drag" 3.4
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 290
+		"weapon capacity" 70
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Turret"
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -11 75
+	engine 13 75
+	turret 0 11 "Transport Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The GX1 Lantillian Short Hauler was a shuttle model manufactured by Lantillian ShipWrights. During the Clone Wars, the Galactic Republic used several top-of-the-line GX1 short haulers as diplomatic vessels. During the Age of the Empire, GX1 shuttles were used as starbuses to ferry commuters from one location to another."
+
+
+
+ship "GX1 Lantillian Short Hauler (Diplomatic)"
+	sprite "ship/gx1lantillianshorthauler"
+	attributes
+		category "Transport"
+		"cost" 800000
+		"shields" 8500
+		"hull" 7000
+		"required crew" 1
+		"bunks" 30
+		"mass" 210
+		"drag" 3.4
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 290
+		"weapon capacity" 70
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Turret"
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -12 75
+	engine 12 75
+	turret 0 5 "Transport Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The GX1 Lantillian Short Hauler was a shuttle model manufactured by Lantillian ShipWrights. During the Clone Wars, the Galactic Republic used several top-of-the-line GX1 short haulers as diplomatic vessels. During the Age of the Empire, GX1 shuttles were used as starbuses to ferry commuters from one location to another."
+
+
+
+ship "G-X1 Onslaught"
+	sprite "ship/gx1onslaught"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 520000
+		"shields" 3300
+		"hull" 2900
+		"required crew" 2
+		"bunks" 2
+		"mass" 39
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 32
+		"outfit space" 429
+		"weapon capacity" 235
+		"engine capacity" 55
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Fighter Laser Cannon" 2
+		"Advanced Homing Missile" 12
+		"Advanced Homing Missile Storage Rack"
+		"Advanced Homing Missile Launcher" 2
+		"Fletchette Missile" 80
+		"Fletchette Missile Storage Rack" 2
+		"Fletchette Missile Launcher" 6
+		"Concussion Missile" 10
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 2
+
+		"Koensayr K-Class Power Converter"
+		"Zr-41 Deflector Shield Projector"
+		"Light Coolant System" 2
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -10 51
+	engine 11 50
+	gun -29 -28 "Fighter Laser Cannon"
+	gun 31 -28 "Fighter Laser Cannon"
+	gun -49 -25 "Advanced Homing Missile Launcher"
+	gun 50 -24 "Advanced Homing Missile Launcher"
+	gun -10 -17 "Fletchette Missile Launcher"
+	gun 11 -18 "Fletchette Missile Launcher"
+	gun -55 -51 "Concussion Missile Launcher"
+	gun 56 -50 "Concussion Missile Launcher"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "The G-X1 Onslaught, also known as G-X1 Firehauler, was a Bomber model produced by Galactic Solutions Industries during the Galactic War. The design has impressed many pilots within both the Galactic Republic and the reconstituted Sith Empire, the latter of whom made a bulk purchase of G-X1 to add to their starfighter complements."
+
+
+
+ship "G-X1 Onslaught (Fighter)"
+	sprite "ship/gx1onslaught"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 520000
+		"shields" 3300
+		"hull" 2900
+		"required crew" 2
+		"bunks" 2
+		"mass" 39
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 0
+		"cargo space" 32
+		"outfit space" 429
+		"weapon capacity" 235
+		"engine capacity" 55
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Fighter Laser Cannon" 2
+		"Advanced Homing Missile" 12
+		"Advanced Homing Missile Storage Rack"
+		"Advanced Homing Missile Launcher" 2
+		"Fletchette Missile" 80
+		"Fletchette Missile Storage Rack" 2
+		"Fletchette Missile Launcher" 6
+		"Concussion Missile" 10
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 2
+
+		"Koensayr K-Class Power Converter"
+		"Zr-41 Deflector Shield Projector"
+		"Light Coolant System" 2
+
+		"Fighter Engine (Pink Flare)"
+		
+	engine -10 51
+	engine 11 50
+	gun -29 -28 "Fighter Laser Cannon"
+	gun 31 -28 "Fighter Laser Cannon"
+	gun -49 -25 "Advanced Homing Missile Launcher"
+	gun 50 -24 "Advanced Homing Missile Launcher"
+	gun -10 -17 "Fletchette Missile Launcher"
+	gun 11 -18 "Fletchette Missile Launcher"
+	gun -55 -51 "Concussion Missile Launcher"
+	gun 56 -50 "Concussion Missile Launcher"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "The G-X1 Onslaught, also known as G-X1 Firehauler, was a Bomber model produced by Galactic Solutions Industries during the Galactic War. The design has impressed many pilots within both the Galactic Republic and the reconstituted Sith Empire, the latter of whom made a bulk purchase of G-X1 to add to their starfighter complements."
+
+
+
+ship "Hammerhead-class Cruiser"
+	sprite "ship/hammerheadcruiser"
+	attributes
+		category "Medium Warship"
+		"cost" 35000000
+		"shields" 38000
+		"hull" 11000
+		"required crew" 300
+		"bunks" 700
+		"mass" 3200
+		"drag" 5.6
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 200
+		"outfit space" 849
+		"weapon capacity" 460
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret" 6
+		"Point-Defence Laser Cannon Battery" 2
+		
+		"Raider Power Converter"
+		"Raider Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Raider Corvette Ion Drive"
+		"Heavy Hyperspace Motivator"
+		
+	engine -123 285
+	engine 121 285
+	turret -38 -288 "Turbolaser Turret"
+	turret 37 -288 "Turbolaser Turret"
+	turret 1 -356 "Turbolaser Turret"
+	turret 1 -356 "Turbolaser Turret"
+	turret -77 96 "Turbolaser Turret"
+	turret 76 95 "Turbolaser Turret"
+	turret -77 96 "Point-Defence Laser Cannon Battery"
+	turret 76 95 "Point-Defence Laser Cannon Battery"
+	fighter 0 -61
+	fighter 0 -61
+	fighter 0 -61
+	fighter 0 -61
+	fighter 0 -61
+	fighter 0 -61
+	fighter 0 -61
+	fighter 0 -61
+	fighter 0 -61
+	fighter 0 -61
+	fighter 0 -61
+	fighter 0 -61
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Hammerhead-class cruiser was a type of warship used by the Republic Navy during the Old Sith Wars, the Mandalorian Wars, and the New Sith Wars. One of the most successful warship designs in galactic history, the Hammerhead-class would still see use in sector defense forces millennia after its introduction and would inspire many later ship designs, such as the Thranta-class corvette and MC140 Scythe-class main battle cruiser."
+
+
+
+ship "Hammerhead-class Heavy Cruiser"
+	sprite "ship/hammerheadcruiserheavy"
+	attributes
+		category "Medium Warship"
+		"cost" 50500000
+		"shields" 48500
+		"hull" 18500
+		"required crew" 400
+		"bunks" 800
+		"mass" 3000
+		"drag" 7.3
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 200
+		"outfit space" 884
+		"weapon capacity" 480
+		"engine capacity" 210
+		weapon
+			"blast radius" 310
+			"shield damage" 750
+			"hull damage" 370
+			"hit force" 850
+	outfits
+		"Turbolaser Turret" 14
+		"Point-Defence Laser Cannon Battery" 2
+		
+		"Kuat Driveyards Power Converter"
+		"Kuat Driveyards Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Kuat Driveyards Ion Drive"
+		"Heavy Hyperspace Motivator"
+
+	engine -77 489
+	engine -3 545
+	engine 71 487
+	turret -46 -471 "Turbolaser Turret"
+	turret 39 -472 "Turbolaser Turret"
+	turret -42 -267 "Turbolaser Turret"
+	turret 37 -266 "Turbolaser Turret"
+	turret -43 -245 "Turbolaser Turret"
+	turret 37 -244 "Turbolaser Turret"
+	turret -56 22 "Turbolaser Turret"
+	turret 51 22 "Turbolaser Turret"
+	turret -56 45 "Turbolaser Turret"
+	turret 50 44 "Turbolaser Turret"
+	turret -57 68 "Turbolaser Turret"
+	turret 51 68 "Turbolaser Turret"
+	turret -57 90 "Turbolaser Turret"
+	turret 51 90 "Turbolaser Turret"
+	turret -3 -314 "Point-Defence Laser Cannon Battery"
+	turret -4 364 "Point-Defence Laser Cannon Battery"
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	fighter -3 -3
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Hammerhead-class cruiser was a type of warship used by the Republic Navy during the Old Sith Wars, the Mandalorian Wars, and the New Sith Wars. One of the most successful warship designs in galactic history, the Hammerhead-class would still see use in sector defense forces millennia after its introduction and would inspire many later ship designs, such as the Thranta-class corvette and MC140 Scythe-class main battle cruiser."
+
+
+
+ship "Harrower Star Dreadnought"
+	sprite "ship/harrowerdreadnought"
+	attributes
+		category "Heavy Warship"
+		"cost" 15200000
+		"shields" 160000
+		"hull" 75000
+		"required crew" 11000
+		"bunks" 60000
+		"mass" 20000
+		"drag" 30
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 800
+		"outfit space" 1964
+		"weapon capacity" 1040
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Rendii V Quad Turbolaser Battery" 8
+		"Rendii V Dual Turbolaser Battery" 10
+		"Tractor Beam" 2
+		
+		"Victory I Power Converter"
+		"Victory I Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"LF9 Ion Thruster"
+		"Capital Hyperspace Motivator"
+		
+	engine -218 1272
+	engine 201 1267
+	turret -319 668 "Rendii V Quad Turbolaser Battery"
+	turret 305 666 "Rendii V Quad Turbolaser Battery"
+	turret -291 541 "Rendii V Quad Turbolaser Battery"
+	turret 280 544 "Rendii V Quad Turbolaser Battery"
+	turret -266 411 "Rendii V Quad Turbolaser Battery"
+	turret 254 406 "Rendii V Quad Turbolaser Battery"
+	turret -243 305 "Rendii V Quad Turbolaser Battery"
+	turret 234 303 "Rendii V Quad Turbolaser Battery"
+	turret -551 900 "Rendii V Dual Turbolaser Battery"
+	turret 540 903 "Rendii V Dual Turbolaser Battery"
+	turret -673 473 "Rendii V Dual Turbolaser Battery"
+	turret 664 474 "Rendii V Dual Turbolaser Battery"
+	turret -641 356 "Rendii V Dual Turbolaser Battery"
+	turret 632 354 "Rendii V Dual Turbolaser Battery"
+	turret -151 31 "Rendii V Dual Turbolaser Battery"
+	turret 140 30 "Rendii V Dual Turbolaser Battery"
+	turret -140 -431 "Rendii V Dual Turbolaser Battery"
+	turret 133 -433 "Rendii V Dual Turbolaser Battery"
+	turret -24 -439 "Tractor Beam"
+	turret 12 -440 "Tractor Beam"
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	fighter -53 -440
+	fighter -24 -439
+	fighter 12 -440
+	fighter 42 -440
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Harrower Destroyer has a complement of TIE/LN(100) = 100"
+
+
+
+ship "Helot-class Medium Space Transport"
+	sprite "ship/helotmediumtransport"
+	attributes
+		category "Transport"
+		"cost" 600000
+		"shields" 0
+		"hull" 7500
+		"required crew" 2
+		"bunks" 6
+		"mass" 150
+		"drag" 2.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 250
+		"weapon capacity" 30
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 2
+		
+		"Quadex Power Core"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -29 48
+	engine 30 49
+	gun -29 -60 "Transport Laser Cannon"
+	gun 30 -59 "Transport Laser Cannon"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Cygnus Spaceworks Helot-class medium space transport was a transport that was designed in the time before the resurgence of the Empire, that had already declined in popularity by the end of the Yuuzhan Vong invasion of the galaxy. The ship was designed by engineers from both Cygnus Spaceworks and Sienar Fleet Systems, and was designed as an affordable ship. The Helot lacked shields and had low maneuverability, but was equipped with fire-linked laser cannons."
+
+
+
+
+ship "HWK-290 Light Freighter (Modified)"
+	sprite "ship/hwk290lightfreighter"
+	"never disabled"
+	attributes
+		category Interceptor
+		"cost" 350000
+		"shields" 4700
+		"hull" 3400
+		"required crew" 1
+		"bunks" 6
+		"mass" 36
+		"drag" 1.2
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 216
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Fighter Laser Cannon" 4
+		"Fighter Laser Turret (underneath)"
+		
+		"Novaldex O5-U Power Converter"
+		"Chempat U Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -52 64
+	engine -35 65
+	engine 37 65
+	engine 54 65
+	engine -22 81
+	engine 22 82
+	gun -49 38 "Fighter Laser Cannon"
+	gun -33 38 "Fighter Laser Cannon"
+	gun 34 39 "Fighter Laser Cannon"
+	gun 52 39 "Fighter Laser Cannon"
+	turret 1 -64 "Fighter Laser Turret (underneath)"
+	explode "large explosion" 3
+	description "The HWK-290 was a light freighter manufactured by the Corellian Engineering Corporation during the decades leading up to the Battle of Naboo, in an effort to break into a new market for fast, small cargo ships. Unlike YT-series of ships for tramp captains, the Hawk line was aimed at more upscale clients, like wealthy merchants and noble politicians."
+
+
+
+
+ship "HWK-290 Light Freighter (Stock)"
+	sprite "ship/hwk290lightfreighter"
+	"never disabled"
+	attributes
+		category Interceptor
+		"cost" 350000
+		"shields" 4700
+		"hull" 3400
+		"required crew" 1
+		"bunks" 6
+		"mass" 36
+		"drag" 1.2
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 216
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"GR-75"
+		
+		"Novaldex O5-U Power Converter"
+		"Chempat U Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -52 64
+	engine -35 65
+	engine 37 65
+	engine 54 65
+	engine -22 81
+	engine 22 82
+	turret 1 -64 "GR-75"
+	explode "large explosion" 3
+	description "The HWK-290 was a light freighter manufactured by the Corellian Engineering Corporation during the decades leading up to the Battle of Naboo, in an effort to break into a new market for fast, small cargo ships. Unlike YT-series of ships for tramp captains, the Hawk line was aimed at more upscale clients, like wealthy merchants and noble politicians."
+
+
+
+ship "Inexpugnable-class Tactical Command Ship"
+	sprite "ship/inexpugnablecommandship"
+	attributes
+		category "Heavy Warship"
+		"cost" 340000000
+		"shields" 400000
+		"hull" 100000
+		"required crew" 4300
+		"bunks" 6300
+		"mass" 25000
+		"drag" 30
+		"heat dissipation" .3
+		"fuel capacity" 1200
+		"cargo space" 800
+		"outfit space" 4134
+		"weapon capacity" 3210
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Dual Turbolaser Turret" 26
+		"Turbolaser Turret" 2
+		"Tractor Beam" 4
+		
+		"Victory I Power Converter"
+		"Victory I Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"LF9 Ion Thruster"
+		"Capital Hyperspace Motivator"
+
+	engine -561 1207
+	engine -362 1390
+	engine 7 1378
+	engine 384 1389
+	engine 593 1207
+	turret -442 -1183 "Dual Turbolaser Turret"
+	turret 475 -1184 "Dual Turbolaser Turret"
+	turret -342 -962 "Dual Turbolaser Turret"
+	turret 389 -968 "Dual Turbolaser Turret"
+	turret -725 -1015 "Dual Turbolaser Turret"
+	turret 762 -1022 "Dual Turbolaser Turret"
+	turret -561 -779 "Dual Turbolaser Turret"
+	turret 609 -777 "Dual Turbolaser Turret"
+	turret -1099 -513 "Dual Turbolaser Turret"
+	turret 1134 -524 "Dual Turbolaser Turret"
+	turret -1173 -232 "Dual Turbolaser Turret"
+	turret 1210 -254 "Dual Turbolaser Turret"
+	turret -1170 113 "Dual Turbolaser Turret"
+	turret 1216 87 "Dual Turbolaser Turret"
+	turret -1094 386 "Dual Turbolaser Turret"
+	turret 1145 366 "Dual Turbolaser Turret"
+	turret -931 -815 "Dual Turbolaser Turret"
+	turret 968 -817 "Dual Turbolaser Turret"
+	turret -923 690 "Dual Turbolaser Turret"
+	turret 979 668 "Dual Turbolaser Turret"
+	turret -716 890 "Dual Turbolaser Turret"
+	turret 777 871 "Dual Turbolaser Turret"
+	turret -255 926 "Dual Turbolaser Turret"
+	turret 339 925 "Dual Turbolaser Turret"
+	turret -922 -311 "Dual Turbolaser Turret"
+	turret 970 -327 "Dual Turbolaser Turret"
+	turret -922 -311 "Dual Turbolaser Turret"
+	turret 970 -327 "Dual Turbolaser Turret"
+	turret 978 178 "Dual Turbolaser Turret"
+	turret -921 196 "Dual Turbolaser Turret"
+	turret -263 -1154 "Tractor Beam"
+	turret 305 -1155 "Tractor Beam"
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	fighter -263 -1154
+	fighter 305 -1155
+	fighter -273 -1002
+	fighter 306 -1003
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Inexpugnable-class tactical command ship was a large warship class used by the Republic Navy during the Mandalorian Wars. Designed and manufactured by Rendili Hyperworks and Rendili/Vanjervalis Drive Yards, the Inexpugnable-class was used as a flagship and command ship. Often described as a mobile space station, at 3,100 meters in diameter it was one of the largest Republic spacecraft of its time. The Inexpugnable-class was renowned for its ability to lead massive Republic fleets, employing advanced command techniques such as the Vanjervalis Chain to command up to sixty-four Hammerhead-class cruisers simultaneously. Despite its usefulness as a fleet flagship, the ship had several weaknesses, and as such, only six Inexpugnable-class ships were manufactured."
+
+
+
+ship "Interdictor-class Sith Destroyer"
+	sprite "ship/interdictorcruiser"
+	attributes
+		category "Medium Warship"
+		"cost" 132000000
+		"shields" 122000
+		"hull" 45500
+		"required crew" 5224
+		"bunks" 8824
+		"mass" 8700
+		"drag" 23.5
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 300
+		"outfit space" 1834
+		"weapon capacity" 910
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Rendii V Quad Turbolaser Battery" 6
+		"Rendii V Dual Turbolaser Battery" 8
+		"Tractor Beam" 2
+		
+		"Victory I Power Converter"
+		"Victory I Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"Medium Imperial Ion Thruster"
+		"Heavy Hyperspace Motivator"
+		
+	engine -172 794
+	engine 1 817
+	engine 178 794
+	turret -60 -635 "Rendii V Dual Turbolaser Battery"
+	turret 61 -633 "Rendii V Dual Turbolaser Battery"
+	turret -68 -472 "Rendii V Dual Turbolaser Battery"
+	turret 65 -470 "Rendii V Dual Turbolaser Battery"
+	turret -162 -212 "Rendii V Dual Turbolaser Battery"
+	turret 155 -212 "Rendii V Dual Turbolaser Battery"
+	turret -189 427 "Rendii V Dual Turbolaser Battery"
+	turret 186 427 "Rendii V Dual Turbolaser Battery"
+	turret -140 -39 "Rendii V Quad Turbolaser Battery"
+	turret 138 -40 "Rendii V Quad Turbolaser Battery"
+	turret -213 144 "Rendii V Quad Turbolaser Battery"
+	turret 213 144 "Rendii V Quad Turbolaser Battery"
+	turret -206 293 "Rendii V Quad Turbolaser Battery"
+	turret 203 293 "Rendii V Quad Turbolaser Battery"
+	turret -1 -102 "Tractor Beam"
+	turret -1 -102 "Tractor Beam"
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	fighter -1 -102
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Interdictor-class cruiser, also known as the hyperspace interdiction cruiser and the Interdictor-class Sith Destroyer, was among the most numerous capital ships seen in action with the Sith armada during and after the Jedi Civil War. (Fighters = 24)"
+
+
+
+ship "Ixiyen-class Fast Attack Craft"
+	sprite ship/ixiyenfastcraft
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 150000
+		shields 2500
+		hull 1400
+		"required crew" 1
+		bunks 1
+		mass 25
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher"
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -35 24
+	engine 38 25
+	engine -19 39
+	engine 19 39
+	engine -6 38
+	engine 7 37
+	gun -23 -3 "Fighter Laser Cannon"
+	gun 24 -2 "Fighter Laser Cannon"
+	gun 1 -57 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The Ixiyen was designed to be a dominant force in the average fighter-on-fighter confrontation. It was also armed and protected well enough to be able to harry much larger ships. Although not used in large numbers by any governmental organizations, it was not for lack of quality or performance. The Ixiyen was a deadly opponent, capable of holding its own against most of its contemporaries in front-line combat craft."
+
+
+
+ship "Ixiyen-class Fast Attack Craft (Fighter)"
+	sprite ship/ixiyenfastcraft
+	"never disabled"
+	attributes
+		category Fighter
+		cost 150000
+		shields 2500
+		hull 1400
+		"required crew" 1
+		bunks 1
+		mass 25
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher"
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+
+	engine -35 24
+	engine 38 25
+	engine -19 39
+	engine 19 39
+	engine -6 38
+	engine 7 37
+	gun -23 -3 "Fighter Laser Cannon"
+	gun 24 -2 "Fighter Laser Cannon"
+	gun 1 -57 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The Ixiyen was designed to be a dominant force in the average fighter-on-fighter confrontation. It was also armed and protected well enough to be able to harry much larger ships. Although not used in large numbers by any governmental organizations, it was not for lack of quality or performance. The Ixiyen was a deadly opponent, capable of holding its own against most of its contemporaries in front-line combat craft."
+
+
+
+ship "Sphyrna-class Corvette"
+	sprite "ship/sphyrnacorvette"
+	attributes
+		category "Light Warship"
+		"cost" 15200000
+		"shields" 33000
+		"hull" 9000
+		"required crew" 10
+		"bunks" 40
+		"mass" 1900
+		"drag" 4.9
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 40
+		"outfit space" 504
+		"weapon capacity" 120
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret" 3
+		
+		"Corellian Power Converter"
+		"Corellian Deflector Shield"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corellian Corvette Ion Drive"
+		"Medium Hyperspace Motivator"
+		
+	engine -38 196
+	engine -2 196
+	engine 33 195
+	turret -24 -144 "Turbolaser Turret"
+	turret 19 -145 "Turbolaser Turret"
+	turret -2 88 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Sphyrna-class corvette, also known simply as the Hammerhead corvette, was a model of corvette that saw wide use in the period leading up to, during the Galactic Civil War and during the cold war, where it would be fielded by a rebel cell as well as the Alliance to Restore the Republic and the Resistance."
+
+
+
+ship "Razor Crest"
+	sprite "ship/razorcrestgunship"
+	attributes
+		category "Transport"
+		"cost" 520000
+		"shields" 7700
+		"hull" 5600
+		"required crew" 1
+		"bunks" 7
+		"mass" 115
+		"drag" 2.3
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 285
+		"weapon capacity" 65
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 2
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -39 40
+	engine 40 40
+	gun -12 -66 "Transport Laser Cannon"
+	gun 12 -66 "Transport Laser Cannon"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The G9 Rigger-class light freighter, was a model of freighter manufactured by the Corellian Engineering Corporation and used during the Clone Wars. Its only weapons were small blaster cannons attached to the wings and top of the freighter."
+
+
+
+ship "Vaksai Assault Fighter"
+	sprite ship/vaksaiassaultfighter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 130000
+		shields 2400
+		hull 1300
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher"
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -24 39
+	engine 23 39
+	gun -33 -6 "Fighter Laser Cannon"
+	gun 34 -6 "Fighter Laser Cannon"
+	gun 0 -54 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "A starfighter-class starship, the Vaksai model was a modified Kihraxz light fighter manufactured by TransGalMeg Industries, Incorporated that was later customized into its current state by the galactic crime syndicate known as Black Sun."
+
+
+
+
+ship "Vaksai Assault Fighter (Fighter)"
+	sprite ship/vaksaiassaultfighter
+	"never disabled"
+	attributes
+		category Fighter
+		cost 130000
+		shields 2400
+		hull 1300
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher"
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+
+	engine -24 39
+	engine 23 39
+	gun -33 -6 "Fighter Laser Cannon"
+	gun 34 -6 "Fighter Laser Cannon"
+	gun 0 -54 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "A starfighter-class starship, the Vaksai model was a modified Kihraxz light fighter manufactured by TransGalMeg Industries, Incorporated that was later customized into its current state by the galactic crime syndicate known as Black Sun."
+
+
+
+
+ship "YT-1300 Freighter"
+	sprite "ship/yt1300freighter"
+	attributes
+		category "Transport"
+		"cost" 670000
+		"shields" 8000
+		"hull" 6000
+		"required crew" 2
+		"bunks" 17
+		"mass" 125
+		"drag" 2.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 340
+		"weapon capacity" 120
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+		"Transport Quad Turbolaser Turret" 2
+		
+		"Quadex Power Core"
+		"YT1300 Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -38 86
+	engine -32 90
+	engine -21 94
+	engine -15 96
+	engine -7 97
+	engine -2 97
+	engine 5 96
+	engine 14 94
+	engine 24 92
+	engine 31 89
+	engine 37 86
+	gun -25 -70 "Transport Laser Cannon"
+	gun 25 -69 "Transport Laser Cannon"
+	gun -25 -70 "Proton Torpedo Launcher"
+	gun 25 -69 "Proton Torpedo Launcher"
+	turret 0 24 "Transport Quad Turbolaser Turret"
+	turret 0 24 "Transport Quad Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, was a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 was used as a freighter and transport, and some saw service as intermodal tugs in orbital freight yards."
+
+ship "Millennium Falcon"
+	sprite "ship/yt1300freighterfalcon"
+	attributes
+		category "Transport"
+		"cost" 15200000
+		"shields" 8000
+		"hull" 6000
+		"required crew" 2
+		"bunks" 17
+		"mass" 112
+		"drag" 2.3
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 340
+		"weapon capacity" 120
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+		"Transport Quad Turbolaser Turret" 2
+		
+		"Quadex Power Core"
+		"YT1300 Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -48 74
+	engine -44 78
+	engine -39 82
+	engine -33 86
+	engine -26 88
+	engine -20 90
+	engine -12 92
+	engine -5 93
+	engine 1 93
+	engine 8 92
+	engine 16 91
+	engine 22 89
+	engine 28 86
+	engine 34 84
+	engine 40 80
+	engine 46 75
+	gun -33 -62 "Transport Laser Cannon"
+	gun 30 -62 "Transport Laser Cannon"
+	gun -33 -62 "Proton Torpedo Launcher"
+	gun 30 -62 "Proton Torpedo Launcher"
+	turret -1 15 "Transport Quad Turbolaser Turret"
+	turret -1 15 "Transport Quad Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Millennium Falcon"
+
+
+
+
+ship "Ugly Tie Headhunter"
+	sprite ship/uglytieheadhunter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -12 14
+	engine 12 14
+	gun -37 -9 "Fighter Laser Cannon"
+	gun 38 -11 "Fighter Laser Cannon"
+	explode "large explosion" 3
+	description "Ugly Tie Headhunter"
+
+
+
+ship "Ugly Tie Headhunter (Fighter)"
+	sprite ship/uglytieheadhunter
+	"never disabled"
+	attributes
+		category Fighter
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -12 14
+	engine 12 14
+	gun -37 -9 "Fighter Laser Cannon"
+	gun 38 -11 "Fighter Laser Cannon"
+	explode "large explosion" 3
+	description "Ugly Tie Headhunter (Fighter)"
+
+
+
+ship "Ugly Tie X-Wing"
+	sprite ship/uglytiexwing
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 3
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -11 34
+	engine 8 35
+	gun -40 -28 "Fighter Laser Cannon"
+	gun 35 -27 "Fighter Laser Cannon"
+	gun 40 -30 "Fighter Laser Cannon"
+	explode "large explosion" 3
+	description "X-Ceptor (Ugly)"
+
+
+
+ship "Ugly Tie X-Wing (Fighter)"
+	sprite ship/uglytiexwing
+	"never disabled"
+	attributes
+		category Fighter
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 3
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+
+	engine -11 34
+	engine 8 35
+	gun -40 -28 "Fighter Laser Cannon"
+	gun 35 -27 "Fighter Laser Cannon"
+	gun 40 -30 "Fighter Laser Cannon"
+	explode "large explosion" 3
+	description "X-Ceptor (Ugly)"
+
+
+
+ship "Ugly Tie Y-Wing"
+	sprite ship/uglytieywing
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -27 5
+	engine 27 5
+	gun -6 -25 "Fighter Laser Cannon"
+	gun 7 -25 "Fighter Laser Cannon"
+	gun -6 -25 "Proton Torpedo Launcher"
+	gun 7 -25 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "X-Ceptor (Ugly)"
+
+
+
+ship "Ugly Tie Y-Wing (Fighter)"
+	sprite ship/uglytieywing
+	"never disabled"
+	attributes
+		category Fighter
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+
+	engine -27 5
+	engine 27 5
+	gun -6 -25 "Fighter Laser Cannon"
+	gun 7 -25 "Fighter Laser Cannon"
+	gun -6 -25 "Proton Torpedo Launcher"
+	gun 7 -25 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "X-Ceptor (Ugly)"
+
+
+
+ship "Ugly Twin Tie X-Wing"
+	sprite ship/uglytwintiexwing
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -24 42
+	engine -2 25
+	engine 9 26
+	gun -23 -15 "Fighter Laser Cannon"
+	gun -9 -11 "Fighter Laser Cannon"
+	gun -22 -4 "Proton Torpedo Launcher"
+	gun -14 -5 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "Ugly Twin Tie X-Wing"
+
+
+
+ship "Ugly Twin Tie X-Wing (Fighter)"
+	sprite ship/uglytwintiexwing
+	"never disabled"
+	attributes
+		category Fighter
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+
+	engine -24 42
+	engine -2 25
+	engine 9 26
+	gun -23 -15 "Fighter Laser Cannon"
+	gun -9 -11 "Fighter Laser Cannon"
+	gun -22 -4 "Proton Torpedo Launcher"
+	gun -14 -5 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "Ugly Twin Tie X-Wing (Fighter)"
+
+
+
+ship "Ugly X-Ceptor"
+	sprite ship/uglyxceptor
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine -12 49
+	engine 12 49
+	gun -20 -27 "Fighter Laser Cannon"
+	gun 20 -28 "Fighter Laser Cannon"
+	gun -20 -27 "Fighter Laser Cannon"
+	gun 20 -28 "Fighter Laser Cannon"
+	gun -5 -8 "Proton Torpedo Launcher"
+	gun 5 -8 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "X-Ceptor (Ugly)"
+
+
+
+ship "Ugly X-Ceptor (Fighter)"
+	sprite ship/uglyxceptor
+	"never disabled"
+	attributes
+		category Fighter
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+
+	engine -12 49
+	engine 12 49
+	gun -20 -27 "Fighter Laser Cannon"
+	gun 20 -28 "Fighter Laser Cannon"
+	gun -20 -27 "Fighter Laser Cannon"
+	gun 20 -28 "Fighter Laser Cannon"
+	gun -5 -8 "Proton Torpedo Launcher"
+	gun 5 -8 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "X-Ceptor (Ugly)"
+
+
+
+ship "Ugly X-Fighter"
+	sprite ship/uglyxfighter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+
+	engine 0 40
+	engine 2 38
+	gun -7 -10 "Fighter Laser Cannon"
+	gun 10 -10 "Fighter Laser Cannon"
+	gun -7 -10 "Fighter Laser Cannon"
+	gun 10 -10 "Fighter Laser Cannon"
+	gun -2 -5 "Proton Torpedo Launcher"
+	gun 3 -5 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description ""Ugly X-Fighter"
+
+
+
+ship "Ugly X-Fighter (Fighter)"
+	sprite ship/uglyxfighter
+	"never disabled"
+	attributes
+		category Fighter
+		cost 70000
+		shields 500
+		hull 1100
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+
+		"Novaldex O4-Z Power Converter"
+		"Chempat X Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine"
+
+	engine 0 40
+	engine 2 38
+	gun -7 -10 "Fighter Laser Cannon"
+	gun 10 -10 "Fighter Laser Cannon"
+	gun -7 -10 "Fighter Laser Cannon"
+	gun 10 -10 "Fighter Laser Cannon"
+	gun -2 -5 "Proton Torpedo Launcher"
+	gun 3 -5 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "Ugly X-Fighter (Fighter)"
+
+
+
+ship "BTL-X5 Y-Wing"
+	sprite ship/ywingx5
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 520000
+		shields 2700
+		hull 1700
+		"required crew" 1
+		bunks 2
+		mass 33
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 228
+		"weapon capacity" 40
+		"engine capacity" 53
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"Fighter Laser Cannon" 2
+		"Fighter Ion Cannon Turret"
+		"Composite Beam Laser" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 22
+
+		"Novaldex Power Converter"
+		"Chempat Y Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -25 31
+	engine 25 30
+	gun -3 -59 "Fighter Laser Cannon"
+	gun 2 -59 "Fighter Laser Cannon"
+	gun -12 -53 "Composite Beam Laser"
+	gun 11 -53 "Composite Beam Laser"
+	gun -9 -40 "Proton Torpedo Launcher"
+	gun 7 -40 "Proton Torpedo Launcher"
+	turret 0 -31 "Fighter Ion Cannon Turret"
+	explode "large explosion" 3
+	description "The BTL-X5 was developed as an effort to extend the effective service life of the venerable BTL-S3 Y-Wing (the 2-seat variant of the Y-Wing).
+The BTL-X5 was equipped with a devastating multi-weapon beam, similar to Quarrie's original B-Wing Prototype. The weapon mounts on the sides of the cockpit module were designed so that the blaster cannons could be quickly and easily removed by a maintenance crew and replaced with other large mission-specific weapons such as concussion missiles."
+
+
+
+ship "BTL-X5 Y-Wing (Fighter)"
+	sprite ship/ywingx5
+	"never disabled"
+	attributes
+		category Fighter
+		cost 520000
+		shields 2700
+		hull 1700
+		"required crew" 1
+		bunks 2
+		mass 33
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 228
+		"weapon capacity" 40
+		"engine capacity" 53
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"Fighter Laser Cannon" 2
+		"Fighter Ion Cannon Turret"
+		"Composite Beam Laser" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 22
+
+		"Novaldex Power Converter"
+		"Chempat Y Deflector Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+
+	engine -25 31
+	engine 25 30
+	gun -3 -59 "Fighter Laser Cannon"
+	gun 2 -59 "Fighter Laser Cannon"
+	gun -12 -53 "Composite Beam Laser"
+	gun 11 -53 "Composite Beam Laser"
+	gun -9 -40 "Proton Torpedo Launcher"
+	gun 7 -40 "Proton Torpedo Launcher"
+	turret 0 -31 "Fighter Ion Cannon Turret"
+	explode "large explosion" 3
+	description "The BTL-X5 was developed as an effort to extend the effective service life of the venerable BTL-S3 Y-Wing (the 2-seat variant of the Y-Wing).
+The BTL-X5 was equipped with a devastating multi-weapon beam, similar to Quarrie's original B-Wing Prototype. The weapon mounts on the sides of the cockpit module were designed so that the blaster cannons could be quickly and easily removed by a maintenance crew and replaced with other large mission-specific weapons such as concussion missiles."
+
+
+
+
+ship "VCX-100 Light Freighter"
+	sprite "ship/vcx100freighter"
+	attributes
+		category "Transport"
+		"cost" 720000
+		"shields" 8200
+		"hull" 6100
+		"required crew" 1
+		"bunks" 7
+		"mass" 128
+		"drag" 2.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 340
+		"weapon capacity" 120
+		"engine capacity" 70
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon" 2
+		"Transport Quad Turbolaser Turret" 2
+		
+		"Quadex Power Core"
+		"YT1300 Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -18 111
+	engine 16 111
+	gun -17 -104 "Transport Laser Cannon"
+	gun 14 -105 "Transport Laser Cannon"
+	turret -1 -14 "Transport Quad Turbolaser Turret"
+	turret -1 -14 "Transport Quad Turbolaser Turret"
+	fighter -1 91 over back
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The VCX-100 light freighter was one of the Corellian Engineering Corporation's freighter designs. A notable example of this model was the Ghost, a modified VCX-100 owned by Hera Syndulla."
+
+
+
+ship "VCX-series Auxiliary Starfighter"
+	sprite "ship/vcxstarfighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 129000
+		"shields" 2200
+		"hull" 1200
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.8
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 179
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon" 2
+
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -8 37
+	engine 10 37
+	gun -2 -39 "Fighter Laser Cannon"
+	gun 3 -40 "Fighter Laser Cannon"
+	explode "tiny explosion" 20
+	explode "large explosion" 3
+	description "The VCX-series auxiliary starfighter was a short-range starfighter that was attachable to the VCX-100 light freighter manufactured by Corellian Engineering Corporation."
+
+
+
+ship "VCX-series Auxiliary Starfighter (Fighter)"
+	sprite "ship/vcxstarfighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 129000
+		"shields" 2200
+		"hull" 1200
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.8
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 179
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon" 2
+
+		
+		"JZ-4g2 Power Converter"
+		"Z-9 Deflector Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		
+	engine -8 37
+	engine 10 37
+	gun -2 -39 "Fighter Laser Cannon"
+	gun 3 -40 "Fighter Laser Cannon"
+	explode "tiny explosion" 20
+	explode "large explosion" 3
+	description "The VCX-series auxiliary starfighter was a short-range starfighter that was attachable to the VCX-100 light freighter manufactured by Corellian Engineering Corporation."
+
+
+
+ship "Teroch Mandalorian Cruiser"
+	sprite "ship/terochmandaloriancruiser"
+	attributes
+		category "Light Warship"
+		"cost" 36000000
+		"shields" 40000
+		"hull" 13000
+		"required crew" 125
+		"bunks" 200
+		"mass" 2300
+		"drag" 5.4
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 180
+		"outfit space" 729
+		"weapon capacity" 340
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Mandalorian Turbolaser Turret" 8
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 20
+		
+		"Raider Power Converter"
+		"Raider Deflector Shield"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Raider Corvette Ion Drive"
+		"Heavy Hyperspace Motivator"
+		
+	engine -55 282
+	engine 59 281
+	gun -69 -195 "Concussion Missile Launcher"
+	gun 71 -197 "Concussion Missile Launcher"
+	turret 1 -139 "Mandalorian Turbolaser Turret"
+	turret 1 -139 "Mandalorian Turbolaser Turret"
+	turret -96 -89 "Mandalorian Turbolaser Turret"
+	turret 98 -90 "Mandalorian Turbolaser Turret"
+	turret 0 83 "Mandalorian Turbolaser Turret"
+	turret 0 83 "Mandalorian Turbolaser Turret"
+	turret -79 60 "Mandalorian Turbolaser Turret"
+	turret 82 60 "Mandalorian Turbolaser Turret"
+	fighter 0 -54
+	fighter 0 -54
+	fighter 0 -54
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Teroch Mandalorian Cruiser"
+
+
+
+ship "YZ-2200 Heavy Transport"
+	sprite "ship/yz2200heavytransport"
+	attributes
+		category "Light Freighter"
+		"cost" 1100000
+		"shields" 14000
+		"hull" 7600
+		"required crew" 10
+		"bunks" 22
+		"mass" 1450
+		"drag" 4.7
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 290
+		"weapon capacity" 70
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Turret" 4
+		
+		"Quadex Power Core"
+		"Transport Deflector Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -71 195
+	engine 69 196
+	engine 0 198
+	turret -72 -79 "Transport Laser Turret"
+	turret 68 -79 "Transport Laser Turret"
+	turret -1 -91 "Transport Laser Turret"
+	turret -1 158 "Transport Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "YZ-2200 Heavy Transport"

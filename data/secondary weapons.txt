@@ -1,0 +1,464 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Advanced Homing Missile"
+	category "Ammunition"
+	cost 100
+	thumbnail "outfit/advancedhomingmissile"
+	"mass" .1
+	"torpedo capacity" -1
+	description "Advanced Homing Missile"
+
+outfit "Advanced Homing Missile Storage Rack"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/advancedhomingmissilestoragerack"
+	"mass" 1
+	"outfit space" -1
+	"torpedo capacity" 30
+	ammo "Advanced Homing Missile"
+	description "The Advanced Homing Missile Storage Rack is used to store extra ammunition for Advanced Homing Missile Launchers."
+
+outfit "Advanced Homing Missile Launcher"
+	category "Secondary Weapons"
+	cost 1000
+	thumbnail "outfit/advancedhomingmissilelauncher"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	"torpedo capacity" 60
+	weapon
+		sprite "projectile/torpedo"
+			"frame rate" 2
+			"random start frame"
+		sound "torpedo"
+		ammo "Advanced Homing Missile"
+		icon "icon/torpedo"
+		"fire effect" "torpedo fire"
+		"hit effect" "large explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 15
+		"lifetime" 100
+		"reload" 120
+		"firing energy" 2
+		"firing heat" 45
+		"acceleration" 0
+		"drag" .1
+		"turn" 4
+		"homing" 3
+		"optical tracking" .8
+		"shield damage" 1000
+		"hull damage" 1000
+		"hit force" 40
+		"missile strength" 20
+	description "Advanced Homing Missile Launcher"
+
+outfit "Fletchette Missile"
+	category "Ammunition"
+	cost 10
+	thumbnail "outfit/fletchette"
+	"mass" .1
+	"meteor capacity" -1
+	description "Fletchette Missile"
+
+outfit "Fletchette Missile Storage Rack"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/fletchettemissilestoragerack"
+	"mass" 1
+	"outfit space" -1
+	"meteor capacity" 60
+	ammo "Meteor Missile"
+	description "The Fletchette Missile Box is used to store extra ammunition for Fletchette Missile Launchers."
+
+outfit "Fletchette Missile Launcher"
+	category "Secondary Weapons"
+	cost 1000
+	thumbnail "outfit/fletchettemissilelauncher"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	"fletchette capacity" 60
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "meteor"
+		ammo "Fletchette Missile"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 10
+		"velocity" 19
+		"lifetime" 80
+		"reload" 40
+		"firing energy" 1
+		"firing heat" 20
+		"acceleration" 0
+		"drag" .1
+		"turn" 2
+		"homing" 3
+		"infrared tracking" .8
+		"shield damage" 320
+		"hull damage" 220
+		"hit force" 30
+		"missile strength" 4
+	description "Fletchette Missile Launcher"
+
+outfit "Concussion Missile"
+	category "Ammunition"
+	cost 100
+	thumbnail "outfit/concussionmissile"
+	"mass" .1
+	"rocket capacity" -1
+	description "Concussion Missile"
+
+outfit "Concussion Missile Storage Rack"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/concussionmissilestoragerack"
+	"mass" 1
+	"outfit space" -1
+	"rocket capacity" 30
+	ammo "Concussion Missile"
+	description "The Concussion Missile Storage Rack is used to store extra ammunition for Concussion Missile Launchers."
+
+outfit "Concussion Missile Launcher"
+	category "Secondary Weapons"
+	cost 1000
+	thumbnail "outfit/concussionmissilelauncher"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	"rocket capacity" 30
+	weapon
+		sprite "projectile/concussionmissile"
+			"frame rate" 4
+		sound "rocket"
+		ammo "Concussion Missile"
+		icon "icon/concussionmissile"
+		"hit effect" "heavy rocket hit"
+		"die effect" "small explosion"
+		"inaccuracy" 1
+		"velocity" 17
+		"lifetime" 100
+		"reload" 100
+		"firing energy" 1
+		"firing heat" 250
+		"acceleration" 0
+		"drag" .1
+		"shield damage" 1000
+		"hull damage" 1000
+		"hit force" 80
+		"missile strength" 16
+	description "Concussion Missile Launcher"
+
+outfit "Plasma Torpedo"
+	category "Ammunition"
+	cost 100
+	thumbnail "outfit/plasmatorpedo"
+	"mass" .1
+	"rocket capacity" -1
+	description "Plasma Torpedo Missile"
+
+outfit "Plasma Torpedo Storage Rack"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/plasmatorpedostoragerack"
+	"mass" 1
+	"outfit space" -1
+	"rocket capacity" 30
+	ammo "Heavy Rocket"
+	description "The Plasma Torpedo Storage Rack is used to store extra ammunition for Plasma Torpedo Launchers."
+
+outfit "Plasma Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 1000
+	thumbnail "outfit/plasmatorpedolauncher"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	"rocket capacity" 30
+	weapon
+		sprite "projectile/plasmatorpedo"
+			"frame rate" 4
+		sound "rocket"
+		ammo "Plasma Torpedo"
+		icon "icon/plasmatorpedo"
+		"hit effect" "heavy rocket hit"
+		"die effect" "small explosion"
+		"inaccuracy" 1
+		"velocity" 16
+		"lifetime" 100
+		"reload" 100
+		"firing energy" 1
+		"firing heat" 250
+		"acceleration" 0
+		"drag" .1
+		"shield damage" 3000
+		"hull damage" 0
+		"hit force" 80
+		"missile strength" 16
+	description "Plasma Torpedo Launcher"
+
+outfit "Ion Bomb"
+	category "Ammunition"
+	cost 200
+	thumbnail "outfit/ionbomb"
+	"mass" .1
+	"minelayer capacity" -1
+	description "Ion Bomb"
+
+outfit "Ion Bomb Storage Rack"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/ionbombstoragerack"
+	"mass" 1
+	"outfit space" -1
+	ammo "Ion Bomb"
+	description "Ion Bomb Storage Rack"
+
+outfit "Ion Bomb Launcher"
+	category "Secondary Weapons"
+	cost 1000
+	thumbnail "outfit/ionbomblauncher"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	"rocket capacity" 30
+	weapon
+		sprite "projectile/ionbomb"
+			"frame rate" 4
+		sound "rocket"
+		ammo "Ion Bomb"
+		icon "icon/ionbomb"
+		"hit effect" "ionbombexplosion"
+		"die effect" "ionbombexplosion"
+		safe
+		"inaccuracy" 1
+		"velocity" 100
+		"lifetime" 10000
+		"reload" 500
+		"firing energy" 1
+		"firing heat" 250
+		"acceleration" 0.1
+		"drag" .1
+		"trigger radius" 10
+		"blast radius" 5
+		"shield damage" 10000
+		"hull damage" 0
+		"ion damage" 10000
+		"hit force" 80
+		"missile strength" 16
+	description "Ion Bomb Launcher"
+
+outfit "MG9 Proton Torpedo"
+	category "Ammunition"
+	cost 100
+	thumbnail "outfit/protontorpedo"
+	"mass" .1
+	"rocket capacity" -1
+	description "Proton Torpedo"
+
+outfit "Proton Torpedo Storage Rack"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/concussionmissilestoragerack"
+	"mass" 1
+	"outfit space" -1
+	"rocket capacity" 30
+	ammo "MG9 Proton Torpedo"
+	description "The Proton Torpedo Storage Rack is used to store extra ammunition for Proton Torpedo Launchers."
+
+outfit "Proton Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 1000
+	thumbnail "outfit/protontorpedolaunhcer"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	"rocket capacity" 30
+	weapon
+		sprite "projectile/protontorpedo"
+			"frame rate" 4
+		sound "rocket"
+		ammo "MG9 Proton Torpedo"
+		icon "icon/protontorpedo"
+		"hit effect" "heavy rocket hit"
+		"die effect" "small explosion"
+		"inaccuracy" 1
+		"velocity" 22
+		"lifetime" 100
+		"reload" 100
+		"firing energy" 1
+		"firing heat" 250
+		"acceleration" 0
+		"drag" .1
+		"shield damage" 2000
+		"hull damage" 2000
+		"hit force" 0
+		"missile strength" 16
+	description "Proton Torpedo Launcher"
+
+outfit "Proton Bomb"
+	category "Ammunition"
+	cost 100
+	thumbnail "outfit/protonbomb"
+	"mass" .2
+	"minelayer capacity" -1
+	description "Proton Bomb"
+
+outfit "Proton Bomb Storage Rack"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/protonbombstoragerack"
+	"mass" 1
+	"outfit space" -1
+	ammo "Ion Bomb"
+	description "Proton Bomb Storage Rack"
+
+outfit "Proton Bomb Launcher"
+	category "Secondary Weapons"
+	cost 1000
+	thumbnail "outfit/protonbomblauncher"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	"rocket capacity" 262
+	weapon
+		sprite "projectile/protonbomb"
+			"frame rate" 4
+		sound "rocket"
+		ammo "Proton Bomb"
+		icon "icon/protonbomb"
+		"hit effect" "large explosion"
+		"die effect" "medium explosion"
+		"inaccuracy" 1
+		"velocity" -0.1
+		"lifetime" 100000
+		"reload" 10
+		"firing energy" 1
+		"firing heat" 50
+		"acceleration" 0.01
+		"drag" 0.04
+		"trigger radius" 30
+		"blast radius" 50
+		"shield damage" 0
+		"hull damage" 10000
+		"hit force" 0
+		"missile strength" 16
+		safe
+		piercing 1
+	description "Proton Bomb Launcher"
+
+outfit "Gravity Well Energy"
+	category "Ammunition"
+	cost 3500
+	thumbnail "outfit/gravitywellenergy"
+	"mass" 0
+	description "Gravity Well Energy"
+
+outfit "Gravity Well"
+	category "Secondary Weapons"
+	cost 40000
+	thumbnail "outfit/gravitywell"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	weapon
+		sprite "projectile/protonbomb"
+			"frame rate" 4
+		sound "rocket"
+		icon "icon/gravitywell"
+		ammo "Gravity Well Energy"
+		safe
+		"inaccuracy" 0
+		"velocity" 20
+		"lifetime" 10000
+		"reload" 100
+		"firing energy" 1000
+		"firing heat" 250
+		"acceleration" 0.1
+		"drag" 0.1
+		"trigger radius" 1000
+		"blast radius" 1000
+		"shield damage" 0
+		"hull damage" 0
+		"fuel damage" 10000
+		"hit force" 0
+		"missile strength" 0
+	description "Gravity Well"
+
+outfit "Omnicannon"
+	category "Secondary Weapons"
+	cost 1000000
+	thumbnail "outfit/omnicannon"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/omnicannon"
+			"frame rate" 1
+		sound "particle"
+		"hit effect" "omnicannonhit"
+		icon "icon/torpedo"
+		"inaccuracy" 0
+		"velocity" 100
+		"lifetime" 400
+		"reload" 1
+		"firing energy" 4000
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 7000
+		"hull damage" 7000
+		"blast radius" 600
+		"missile strength" 0
+		safe
+		"no damage scaling"
+	description "The Omnicannon was a powerful weapon that was the primary weapon of the Gravestone, an ancient and alien combat frigate. Through the Omnicannon, the Gravestone was the only starship capable of battling the Eternal Fleet; the Omnicannon fired shots that propagated outward after hitting from its primary target, spreading damage to nearby ships. The Outlander's group's first use of the Omnicannon took out two dozen ships in a single shot."
+
+outfit "Linked Ion/Plasma Cannon"
+	category "Secondary Weapons"
+	cost 70000
+	thumbnail "outfit/linkedionplasmacannon"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/linkedplasmacharge"
+			"frame rate" 1
+		sound "particle"
+		"hit effect" "omnicannonhit"
+		icon "icon/torpedo"
+		"inaccuracy" 0
+		"velocity" 30
+		"lifetime" 150
+		"reload" 200
+		"firing energy" 2000
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"piercing" .7
+		"hull damage" 10000
+		"missile strength" 0
+		"no damage scaling"
+	description "The Omnicannon was a powerful weapon that was the primary weapon of the Gravestone, an ancient and alien combat frigate. Through the Omnicannon, the Gravestone was the only starship capable of battling the Eternal Fleet; the Omnicannon fired shots that propagated outward after hitting from its primary target, spreading damage to nearby ships. The Outlander's group's first use of the Omnicannon took out two dozen ships in a single shot."

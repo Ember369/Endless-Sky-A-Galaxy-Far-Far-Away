@@ -1,0 +1,172 @@
+mission "Destroy the Imperial Blockade"
+	name "Destroy the Imperial Blockade"
+	description "The Imperial Blockade in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment."
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying vindictive unconstrained target
+		government "Galactic Empire"
+		system destination
+		fleet "imperialblockade"
+		dialog "The Imperial Blockade has been eliminated. Regain contact with the Rebel Alliance to receive the payment."
+	on complete
+		payment 250000
+		dialog "The Rebel Alliance gratefully pays you 550,000 credits for eliminating the Imperial Blockade."
+
+
+
+mission "Destroy the Imperial Patrol"
+	name "Destroy the Imperial Patrol"
+	description "The Imperial Patrol in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment (<payment>)."
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying vindictive unconstrained target
+		government "Galactic Empire"
+		system destination
+		fleet "imperialpatrol"
+
+		dialog "The Imperial Patrol has been eliminated. Regain contact with the Rebel Alliance to receive the payment."
+	on complete
+		payment 100000
+		dialog "The Rebel Alliance gratefully pays you 100,000 credits for eliminating the Imperial Patrol."
+
+mission "Imperial Navy Attack"
+	name "Defend <planet>"
+	description "Defeat an imperial navy attack on <destination>."
+	minor
+	repeat
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	npc evade
+		personality heroic staying
+		government "Galactic Empire"
+		fleet "imperialpatrol"
+	npc
+		personality heroic staying
+		government "Rebel Alliance"
+		fleet "rebeldefensefleet"
+	on offer
+		conversation
+			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Empire! We need every combat-worthy ship to join in the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			choice
+				"	(Stay here until the fight is over.)"
+					decline
+				"	(Join the defense fleet.)"
+			"A few rebel pilots have gathered to help repel the imperial attack. You join them, and take off together..."
+				launch
+	on complete
+		payment 150000
+		dialog "The government of <planet> pays you <payment> for helping to drive off the imperial navy."
+
+mission "Destroy the Tie Fighters"
+	name "Destroy the Tie Fighters"
+	description "The TIE fighters in the <system> System have been blocking all rebel supply ships from passing through the sector. Destroy them and regain contact with the Rebel Alliance to receive the payment."
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying vindictive unconstrained target
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"TIE/LN Fighter" 3
+		dialog "The tie fighters have been eliminated. Regain contact with the Rebel Alliance to receive the payment."
+	on complete
+		payment 250000
+		dialog "The Rebel Alliance gratefully pays you 550,000 credits for eliminating the tie fighters."
+
+mission "Destroy the Assertor Star Dreadnought and its fleet"
+	name "Destroy the Assertor Star Dreadnought and its fleet"
+	description "The Assertor Star Destroyer in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and its fleet and regain contact with the Rebel Alliance to receive the payment."
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying vindictive unconstrained target
+		government "Galactic Empire"
+		system destination
+		fleet "assertorstardreadnought"
+		dialog "The Imperial fleet and the dreadnought have been eliminated. Regain contact with the Rebel Alliance to receive the payment."
+	on complete
+		payment 250000
+		dialog "The Rebel Alliance gratefully pays you 1,000,000 credits for eliminating the Assertor Destroyer."
+
+mission "Clear the Imperial Sector"
+	name "Clear the Imperial Sector"
+	description "Destroy all imperial forces throughout Coruscant to Kalist"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		system Empress
+	destination
+		system Kalist
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Empress
+		fleet
+			variant 50
+				"Gladiator Star Destroyer"
+				"TIE/LN Fighter (Fighter)" 24
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Prakith
+		fleet
+			variant 50
+				"Victory I Star Destroyer"
+				"TIE/LN Fighter (Fighter)" 24
+				"Victory I Star Destroyer"
+				"TIE/LN Fighter (Fighter)" 24
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Byss
+		fleet
+			variant 50
+				"Imperial I Star Destroyer"
+				"TIE/LN Fighter" 84
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Kalist
+		fleet
+			variant 50
+				"Imperial I Star Destroyer"
+				"TIE/LN Fighter (Fighter)" 84
+				"Imperial II Star Destroyer"
+				"TIE/IN Fighter (Fighter)" 21
+				"TIE/SA Fighter (Fighter)" 21
+				"TIE/LN Fighter (Fighter)" 42
+		dialog "The Imperial Sector has been cleared. Regain contact with the Rebel Alliance to receive your next mission."
+	on complete
+		payment 1000000
+		dialog "The Rebel Alliance gratefully pays you 1,000,000 credits."
