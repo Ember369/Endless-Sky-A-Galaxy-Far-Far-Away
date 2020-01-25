@@ -1,0 +1,27 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: endless-sky
+Upstream-Contact: Michael Zahniser <mzahniser@gmail.com>
+Source: https://github.com/endless-sky/endless-sky
+
+Files: *
+Copyright: Copyright Michael Zahniser <mzahniser@gmail.com>
+License: GPL-3+
+
+Files: *
+Copyright: Copyright Ember369 <ember36963@gmail.com>
+License: GPL-3+
+
+Files: images/ship*
+Copyright: Copyright Ansel Hsiao <fractalsponge@gmail.com>
+Source: Fractalsponge.net
+License: CC-BY-SA-4.0
+
+Files: images/ship*
+Copyright: Copyright Ravendeviant
+Source: https://www.deviantart.com/ravendeviant
+License: CC-BY-SA-4.0
+
+Files: images/ship*
+Copyright: Copyright Unusualsuspex
+Source: https://www.deviantart.com/unusualsuspex
+License: CC-BY-SA-4.0
