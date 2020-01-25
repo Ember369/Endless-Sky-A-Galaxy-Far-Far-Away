@@ -8,6 +8,185 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+outfit "Fighter Laser Cannon (Red)"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/fighterlasercannon"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/redlaser"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" 10
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" .5
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 100
+		"hull damage" 100
+		cluster
+	description "Fighter Laser Cannon (Red)"
+
+outfit "Fighter Ion Cannon (Red)"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/nk-3ioncannon"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/redlaser"
+			"frame rate" 5
+		sound "ion"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 10
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" 0.5
+		"firing force" 0
+		"firing heat" 150
+		"hit force" 0
+		"shield damage" 80
+		"hull damage" 80
+		"ion damage" 1
+		cluster
+	description "Fighter Ion Cannon (Red)"
+
+outfit "Fighter Laser Cannon (Green)"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/fighterlasercannongreen"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/greenlaser"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" 10
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" .5
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 100
+		"hull damage" 100
+		cluster
+	description "Fighter Laser Cannon (Green)"
+
+outfit "Fighter Ion Cannon (Green)"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/fighterioncannongreen"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/greenlaser"
+			"frame rate" 5
+		sound "ion"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 10
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" 0.5
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 80
+		"hull damage" 80
+		"ion damage" 1
+		cluster
+	description "Fighter Ion Cannon (Green)"
+
+outfit "Fighter Laser Cannon (Blue)"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/fighterlasercannonblue"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/bluelaser"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" 10
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" .5
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 100
+		"hull damage" 100
+		cluster
+	description "Fighter Laser Cannon (Blue)"
+
+outfit "Fighter Laser Cannon (Yellow)"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/fighterlasercannonyellow"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/yellowlaser"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" 10
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" .5
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 100
+		"hull damage" 100
+		cluster
+	description "Fighter Laser Cannon (Yellow)"
+
+outfit "Fighter Laser Cannon (Purple)"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/fighterlasercannonpurple"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/purplelaser"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" 10
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" .5
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 100
+		"hull damage" 100
+		cluster
+	description "Fighter Laser Cannon (Purple)"
+
 outfit "Turbolaser Turret"
 	category "Turrets"
 	cost 15000
@@ -213,65 +392,40 @@ outfit "Point-Defence Laser Cannon Battery"
 		"firing heat" 5
 	description "Point-Defence Laser Cannon Battery"
 
-outfit "Fighter Laser Cannon"
-	category "Guns"
-	cost 1000
-	thumbnail "outfit/fighterlasercannon"
+outfit "Fighter Beam Turret (Red)"
+	category "Turrets"
+	cost 140000
+	thumbnail "outfit/laser turret"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1
-	"gun ports" -1
+	"turret mounts" -1
+	"required crew" 1
 	weapon
-		sprite "projectile/redlaser"
-		sound "particle"
-		"hit effect" "particle impact"
-		"inaccuracy" 10
-		"velocity" 20
-		"lifetime" 70
-		"reload" 90
-		"firing energy" .5
-		"firing force" 0
-		"firing heat" 1.2
-		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
-		cluster
-	description "Fighter Laser Cannon"
-
-outfit "Fighter Ion Cannon"
-	category "Guns"
-	cost 1000
-	thumbnail "outfit/nk-3ioncannon"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"gun ports" -1
-	weapon
-		sprite "projectile/redlaser"
-			"frame rate" 5
-		sound "ion"
-		"hit effect" "ion impact" 2
-		"inaccuracy" 10
-		"velocity" 20
-		"lifetime" 70
-		"reload" 90
-		"firing energy" 0.5
-		"firing force" 0
-		"firing heat" 150
-		"hit force" 0
-		"shield damage" 80
-		"hull damage" 80
-		"ion damage" 1
-		cluster
-	description "Fighter Ion Cannon for Gamma-class ATR-6 Assault Transport"
+		sprite "projectile/fighterbeamturredred"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/laser turret"
+		"hardpoint offset" -0.5 8.
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 1
+		"turret turn" 0.5
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1
+		"firing heat" 2.4
+		"shield damage" 2
+		"hull damage" 2.6
+	description "Fighter Laser Turret"
 
 outfit "Fighter Laser Turret"
 	category "Turrets"
 	cost 1500
 	thumbnail "outfit/koesnayrtwinlasercannon"
-	"mass" 10
-	"outfit space" -10
-	"weapon capacity" -10
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
 	"turret mounts" -1
 	"required crew" 1
 	weapon
@@ -296,9 +450,9 @@ outfit "Fighter Laser Turret (underneath)"
 	category "Turrets"
 	cost 1500
 	thumbnail "outfit/koesnayrtwinlasercannon"
-	"mass" 10
-	"outfit space" -10
-	"weapon capacity" -10
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
 	"turret mounts" -1
 	"required crew" 1
 	weapon
@@ -349,13 +503,43 @@ outfit "Fighter Ion Cannon Turret"
 		cluster
 	description "Fighter Ion Cannon Turret"
 
+outfit "Fighter Ion Cannon Turret (underneath)"
+	category "Turrets"
+	cost 1000
+	thumbnail "outfit/fighterioncannonturret"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/redlaser"
+		"hardpoint sprite" "hardpoint/"
+		"hardpoint offset" 9.
+		sound "ion"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 15
+		"turret turn" 7
+		"velocity" 20
+		"lifetime" 70
+		"reload" 90
+		"firing energy" 120
+		"firing force" 0
+		"firing heat" 150
+		"hit force" 0
+		"shield damage" 80
+		"hull damage" 80
+		"ion damage" 1
+		cluster
+	description "Fighter Ion Cannon Turret"
+
 outfit "Heavy Fighter Laser Turret"
 	category "Turrets"
 	cost 1500
 	thumbnail "outfit/koesnayrtwinlasercannon"
-	"mass" 10
-	"outfit space" -10
-	"weapon capacity" -10
+	"mass" 3
+	"outfit space" -3
+	"weapon capacity" -3
 	"turret mounts" -1
 	"required crew" 1
 	weapon
@@ -403,30 +587,7 @@ outfit "Heavy Fighter Laser Turret (underneath)"
 		cluster
 	description "Fighter Laser Turret (underneath)"
 
-outfit "Republic Laser Cannon"
-	category "Guns"
-	cost 1000
-	thumbnail "outfit/republiclasercannon"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"gun ports" -1
-	weapon
-		sprite "projectile/bluelaser"
-		sound "particle"
-		"hit effect" "particle impact"
-		"inaccuracy" 10
-		"velocity" 20
-		"lifetime" 70
-		"reload" 90
-		"firing energy" .5
-		"firing force" 0
-		"firing heat" 1.2
-		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
-		cluster
-	description "Republic Laser Cannon for ARC170"
+
 
 outfit "Republic Transport Quad Turbolaser Turret"
 	category "Turrets"
@@ -482,31 +643,6 @@ outfit "Republic Transport Laser Turret"
 		cluster
 	description "Transport Laser Turret"
 
-outfit "Separatist Laser Cannon"
-	category "Guns"
-	cost 1000
-	thumbnail "outfit/republiclasercannon"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"gun ports" -1
-	weapon
-		sprite "projectile/redlaser"
-		sound "particle"
-		"hit effect" "particle impact"
-		"inaccuracy" 10
-		"velocity" 20
-		"lifetime" 70
-		"reload" 90
-		"firing energy" .5
-		"firing force" 0
-		"firing heat" 1.2
-		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
-		cluster
-	description "Separatist Laser Cannon for Droid Tri-fighter"
-
 outfit "Mandalorian Turbolaser Turret"
 	category "Turrets"
 	cost 15000
@@ -517,7 +653,34 @@ outfit "Mandalorian Turbolaser Turret"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/yellowlaser2"
+		sprite "projectile/yellowlaser3"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 15
+		"turret turn" 1
+		"velocity" 20
+		"lifetime" 180
+		"reload" 200
+		"firing energy" 10
+		"firing heat" 35
+		"shield damage" 450
+		"hull damage" 450
+		stream
+	description "Mandalorian Turbolaser Turret"
+
+outfit "Mandalorian Dual Turbolaser Turret"
+	category "Turrets"
+	cost 15000
+	thumbnail "outfit/mandalorianturbolaserturret"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/yellowlaser3dual"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "blaster"
@@ -534,7 +697,7 @@ outfit "Mandalorian Turbolaser Turret"
 		stream
 	description "Mandalorian Dual Turbolaser Turret"
 
-outfit "Mandalorian Fighter Cannon"
+outfit "Mandalorian Heavy Fighter Cannon"
 	category "Guns"
 	cost 1000
 	thumbnail "outfit/mandalorianfightercannon"
@@ -543,7 +706,7 @@ outfit "Mandalorian Fighter Cannon"
 	"weapon capacity" -1
 	"gun ports" -1
 	weapon
-		sprite "projectile/yellowlaser"
+		sprite "projectile/yellowlaser2"
 		sound "particle"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
@@ -554,10 +717,10 @@ outfit "Mandalorian Fighter Cannon"
 		"firing force" 0
 		"firing heat" 1.2
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 300
+		"hull damage" 300
 		cluster
-	description "Mandalorian Fighter Cannon"
+	description "Mandalorian Heavy Fighter Cannon"
 
 
 
@@ -641,6 +804,22 @@ outfit "Republic Turbolaser Turret"
 		"hull damage" 450
 		stream
 	description "Turbolaser Turret"
+
+outfit hullcollision
+	category "Guns"
+	"gun ports" -1
+	weapon
+		sound "crunch"
+		"hit effect" "void sprite chewing"
+		"inaccuracy" 180
+		"velocity" 10
+		"lifetime" 1
+		"reload" 70
+		"burst reload" 35
+		"burst count" 3
+		"cluster"
+		"shield damage" 300
+		"hull damage" 300
 
 outfit "AUTHOR Transport Laser Cannon"
 	category "Turrets"

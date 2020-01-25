@@ -33,19 +33,19 @@ ship "Droid Tri-Fighter"
 			"hit force" 460
 	outfits
 
-		"Separatist Laser Cannon" 4
+		"Fighter Laser Cannon (Red)" 4
 
-		"Novaldex O4-Z Power Converter"
+		"Fighter Power Converter"
 		"Light Coolant System" 3
 
 		"Fighter Engine"
 
 	engine -6 41
 	engine 11 41
-	gun -17 -25 "Separatist Laser Cannon"
-	gun 22 -26 "Separatist Laser Cannon"
-	gun 3 -47 "Separatist Laser Cannon"
-	gun 3 -28 "Separatist Laser Cannon"
+	gun -17 -25 "Fighter Laser Cannon (Red)"
+	gun 22 -26 "Fighter Laser Cannon (Red)"
+	gun 3 -47 "Fighter Laser Cannon (Red)"
+	gun 3 -28 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "A standard tri-fighter measured 5.4 meters in length, making it the smallest ship in both the Separatist and Republic navies. A space-faring relative of the Trade Federation's dreaded droideka, the tri-fighter was developed for intense dogfighting and close-range space battles."
 
@@ -76,19 +76,19 @@ ship "Droid Tri-Fighter (Fighter)"
 			"hit force" 460
 	outfits
 
-		"Separatist Laser Cannon" 4
+		"Fighter Laser Cannon (Red)" 4
 
-		"Novaldex O4-Z Power Converter"
+		"Fighter Power Converter"
 		"Light Coolant System" 3
 
 		"Fighter Engine"
 
 	engine -6 41
 	engine 11 41
-	gun -17 -25 "Separatist Laser Cannon"
-	gun 22 -26 "Separatist Laser Cannon"
-	gun 3 -47 "Separatist Laser Cannon"
-	gun 3 -28 "Separatist Laser Cannon"
+	gun -17 -25 "Fighter Laser Cannon (Red)"
+	gun 22 -26 "Fighter Laser Cannon (Red)"
+	gun 3 -47 "Fighter Laser Cannon (Red)"
+	gun 3 -28 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "A standard tri-fighter measured 5.4 meters in length, making it the smallest ship in both the Separatist and Republic navies. A space-faring relative of the Trade Federation's dreaded droideka, the tri-fighter was developed for intense dogfighting and close-range space battles."
 
@@ -119,15 +119,15 @@ ship "Vulture-class Droid Starfighter"
 			"hit force" 460
 	outfits
 
-		"Separatist Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 
-		"Novaldex O4-Z Power Converter"
+		"Fighter Power Converter"
 		"Light Coolant System" 3
 
 		"Fighter Engine"
 
-	gun -17 -15 "Separatist Laser Cannon"
-	gun 20 -15 "Separatist Laser Cannon"
+	gun -17 -15 "Fighter Laser Cannon (Red)"
+	gun 20 -15 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Variable Geometry Self-Propelled Battle Droid, Mark I, also known as the Vulture-class droid starfighter, was an unmanned model of droid starfighter manufactured by Haor Chall Engineering and utilized by the Trade Federation and later the Confederacy of Independent Systems. Constructed in the cathedral factories of Xi Char, their creation through precision manufacturing was considered an act of religious worship."
 
@@ -158,17 +158,55 @@ ship "Vulture-class Droid Starfighter (Fighter)"
 			"hit force" 460
 	outfits
 
-		"Separatist Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 
-		"Novaldex O4-Z Power Converter"
+		"Fighter Power Converter"
 		"Light Coolant System" 3
 
 		"Fighter Engine"
 
-	gun -17 -15 "Separatist Laser Cannon"
-	gun 20 -15 "Separatist Laser Cannon"
+	gun -17 -15 "Fighter Laser Cannon (Red)"
+	gun 20 -15 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Variable Geometry Self-Propelled Battle Droid, Mark I, also known as the Vulture-class droid starfighter, was an unmanned model of droid starfighter manufactured by Haor Chall Engineering and utilized by the Trade Federation and later the Confederacy of Independent Systems. Constructed in the cathedral factories of Xi Char, their creation through precision manufacturing was considered an act of religious worship."
+
+
+
+ship "Nantex-class Territorial Defence Starfighter"
+	sprite ship/nantexterritorialstarfighter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 127000
+		shields 2300
+		hull 1250
+		"required crew" 1
+		bunks 1
+		mass 21
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Purple)"
+
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	gun 0 14 "Fighter Laser Cannon (Purple)"
+	explode "large explosion" 3
+	description "The Nantex-class territorial defence starfighter was a needle-shaped starfighter manufactured by Huppla Pasa Tisc Shipwrights Collective and used by the natives of Geonosis. Many saw service during the Clone Wars to defend the droid factories of the Confederacy of Independent Systems."
 
 
 
@@ -197,19 +235,19 @@ ship "Hyena-class Bomber"
 			"hit force" 460
 	outfits
 
-		"Separatist Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 
-		"Novaldex O4-Z Power Converter"
+		"Fighter Power Converter"
 		"Light Coolant System" 3
 
 		"Fighter Engine"
 
-	gun -36 -49 "Separatist Laser Cannon"
-	gun 36 -50 "Separatist Laser Cannon"
+	gun -36 -49 "Fighter Laser Cannon (Red)"
+	gun 36 -50 "Fighter Laser Cannon (Red)"
 	gun -14 -13 "Concussion Missile Launcher"
 	gun 15 -14 "Concussion Missile Launcher"
 	gun -5 -14 "Proton Torpedo Launcher"
@@ -244,25 +282,123 @@ ship "Hyena-class Bomber (Fighter)"
 			"hit force" 460
 	outfits
 
-		"Separatist Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 
-		"Novaldex O4-Z Power Converter"
+		"Fighter Power Converter"
 		"Light Coolant System" 3
 
 		"Fighter Engine"
 
-	gun -36 -49 "Separatist Laser Cannon"
-	gun 36 -50 "Separatist Laser Cannon"
+	gun -36 -49 "Fighter Laser Cannon (Red)"
+	gun 36 -50 "Fighter Laser Cannon (Red)"
 	gun -14 -13 "Concussion Missile Launcher"
 	gun 15 -14 "Concussion Missile Launcher"
 	gun -5 -14 "Proton Torpedo Launcher"
 	gun 6 -14 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "Hyena-class bombers, also known as Hyena droid bombers or Hyena bombers, were droid starfighters manufactured by Baktoid Armor Workshop. They were designed for heavy ordnance bombing runs. They were used by the Confederacy of Independent Systems against the Republic forces during the Clone Wars."
+
+
+
+ship "Maxillipede-class Transport Shuttle"
+	sprite "ship/maxillipedeshuttle"
+	"never disabled"
+	attributes
+		category Transport
+		"cost" 220000
+		"shields" 4950
+		"hull" 3450
+		"required crew" 1
+		"bunks" 3
+		"mass" 32
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 5
+		"outfit space" 238
+		"weapon capacity" 40
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		
+		"Transport Power Converter"
+		"Shuttle Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 2
+		
+		"Shuttle Engine"
+		"Light Hyperspace Motivator"
+		
+	engine 0 34
+	engine 0 34
+	gun -12 -25 "Fighter Laser Cannon (Red)"
+	gun 12 -25 "Fighter Laser Cannon (Red)"
+	explode "tiny explosion" 2
+	explode "small explosion" 4
+	explode "medium explosion" 6
+	explode "large explosion" 8
+	"final explode" "huge explosion" 3
+	description "The Maxillipede shuttle, also known as the Separtist shuttle or Neimoidian shuttle, was a model of shuttle manufactured by Haor Chall Engineering and used by the Confederacy of Independent Systems during the Clone Wars. Its design was similar to the Sheathipede-class transport shuttle, but featured two large dorsal fins instead of one."
+
+
+
+ship "Mechanised Assault Flyer"
+	sprite "ship/mechanisedassaultflyer"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 240000
+		"shields" 3350
+		"hull" 2920
+		SSSSautomaton 1
+		"required crew" 0
+		"bunks" 3
+		"mass" 40
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 32
+		"outfit space" 429
+		"weapon capacity" 235
+		"engine capacity" 55
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Fighter Laser Cannon (Red)" 3
+		"Fighter Beam Turret (Red)" 2
+		"Concussion Missile" 14
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 2
+
+		"Heavy Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System" 2
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+		
+	gun -42 5 "Fighter Laser Cannon (Red)"
+	gun 42 5 "Fighter Laser Cannon (Red)"
+	gun 0 -52 "Fighter Laser Cannon (Red)"
+	gun -18 -14 "Concussion Missile Launcher"
+	gun 17 -14 "Concussion Missile Launcher"
+	turret -12 -32 "Fighter Beam Turret (Red)"
+	turret 11 -33 "Fighter Beam Turret (Red)"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "The Mechanized Assault Flyer (MAF) was a piloted, multi-purpose gunship used by the Confederacy of Independent Systems during the Clone Wars. The Mechanized Assault Flyer was used for several purposes, including close-range bombardment and aerial reconnaissance. The MAF was produced by Haor Chall Engineering, while its similarly-shaped replacement, the Heavy Missile Platform, was built by Baktoid Fleet Ordnance."
 
 
 
@@ -292,22 +428,18 @@ ship "Gozanti Cruiser CIS"
 		"Gozanti Twin Laser Cannon"
 		"Gozanti Heavy Laser Cannon"
 		
-		"Gozanti Power Converter"
-		"Gozanti Deflector Shield"
+		"Transport Power Converter"
+		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Gozanti Ion Drive"
+		"Transport Sunlight Engine"
 		"Medium Hyperspace Motivator"
 	
 	engine -46 80
 	engine 48 82
 	turret 0 82 "Gozanti Heavy Laser Cannon"
 	turret 0 82 "Gozanti Twin Laser Cannon"
-	fighter -36 -51
-	fighter 37 -51
-	fighter -35 -7
-	fighter 38 -8
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -343,11 +475,11 @@ ship "C-9979 Landing Craft"
 		"Turbolaser Turret" 4
 		
 		"Heavy Freighter Power Converter"
-		"Heavy Freighter Deflector Shield"
+		"Heavy Freighter Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Heavy Freighter Ion Drive"
+		"Heavy Freighter Sublight Engine"
 		"Heavy Hyperspace Motivator"
 	
 	engine -41 163
@@ -378,7 +510,7 @@ ship "HMP Droid Gunship"
 	"never disabled"
 	attributes
 		category "Interceptor"
-		"cost" 520000
+		"cost" 220000
 		"shields" 3300
 		"hull" 2900
 		automaton 1
@@ -398,22 +530,22 @@ ship "HMP Droid Gunship"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"Separatist Laser Cannon" 3
+		"Fighter Laser Cannon (Red)" 3
 		"Fighter Laser Turret" 2
 		"Concussion Missile" 14
 		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
 
-		"Koensayr K-Class Power Converter"
-		"Zr-41 Deflector Shield Projector"
+		"Heavy Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System" 2
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine"
 		"Light Hyperspace Motivator"
 		
-	gun -42 5 "Separatist Laser Cannon"
-	gun 42 5 "Separatist Laser Cannon"
-	gun 0 -52 "Separatist Laser Cannon"
+	gun -42 5 "Fighter Laser Cannon (Red)"
+	gun 42 5 "Fighter Laser Cannon (Red)"
+	gun 0 -52 "Fighter Laser Cannon (Red)"
 	gun -18 -14 "Concussion Missile Launcher"
 	gun 17 -14 "Concussion Missile Launcher"
 	turret -12 -32 "Fighter Laser Turret"
@@ -452,12 +584,12 @@ ship "Geonosian Corvette"
 		"Dual Turbolaser Turret" 5
 		"Tractor Beam" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 6
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine 1 799
@@ -527,12 +659,12 @@ ship "Munificent-class Star Frigate"
 		"Turbolaser Turret" 8
 		"Tractor Beam" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine -12 735
@@ -629,12 +761,12 @@ ship "Recusant-class Light Destroyer"
 		"Turbolaser Turret" 10
 		"Tractor Beam" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine -112 1079
@@ -744,12 +876,12 @@ ship "Providence-class Dreadnought"
 		"Turbolaser Turret" 12
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -117 1182
@@ -967,12 +1099,12 @@ ship "Lucrehulk-class Battleship"
 		"Turbolaser Turret" 2
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 
 	engine -400 1275
@@ -1210,19 +1342,19 @@ ship "ARC-170 Starfighter"
 	outfits
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
-		"Republic Laser Cannon" 2
+		"Fighter Laser Cannon (Blue)" 2
 
 		"Light Coolant System"
-		"Novaldex O4-Z Power Converter"
-		"Chempat X Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 
 		"Fighter Engine"
 		"Light Hyperspace Motivator"
 
 	engine -11 32
 	engine 15 31
-	gun -60 -38 "Republic Laser Cannon"
-	gun 60 -37 "Republic Laser Cannon"
+	gun -60 -38 "Fighter Laser Cannon (Blue)"
+	gun 60 -37 "Fighter Laser Cannon (Blue)"
 	gun -1 -16 "Proton Torpedo Launcher"
 	gun 7 -16 "Proton Torpedo Launcher"
 	explode "large explosion" 3
@@ -1256,18 +1388,18 @@ ship "ARC-170 Starfighter (Fighter)"
 	outfits
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
-		"Republic Laser Cannon" 2
+		"Fighter Laser Cannon (Blue)" 2
 
 		"Light Coolant System"
-		"Novaldex O4-Z Power Converter"
-		"Chempat X Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 
 		"Fighter Engine"
 
 	engine -11 32
 	engine 15 31
-	gun -60 -38 "Republic Laser Cannon"
-	gun 60 -37 "Republic Laser Cannon"
+	gun -60 -38 "Fighter Laser Cannon (Blue)"
+	gun 60 -37 "Fighter Laser Cannon (Blue)"
 	gun -1 -16 "Proton Torpedo Launcher"
 	gun 7 -16 "Proton Torpedo Launcher"
 	explode "large explosion" 3
@@ -1280,7 +1412,7 @@ ship "Delta-7 Aethersprite Interceptor"
 	"never disabled"
 	attributes
 		category "Interceptor"
-		"cost" 15200000
+		"cost" 140000
 		"shields" 2400
 		"hull" 1400
 		"required crew" 1
@@ -1299,12 +1431,12 @@ ship "Delta-7 Aethersprite Interceptor"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 16	
 
-		"FreiTek Power Converter"
-		"FreiTek Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1312,8 +1444,8 @@ ship "Delta-7 Aethersprite Interceptor"
 		
 	engine -17 21
 	engine 17 20
-	gun -9 -19 "Fighter Laser Cannon"
-	gun 11 -19 "Fighter Laser Cannon"
+	gun -9 -19 "Fighter Laser Cannon (Red)"
+	gun 11 -19 "Fighter Laser Cannon (Red)"
 	gun -9 -19 "Concussion Missile Launcher"
 	gun 11 -19 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -1322,12 +1454,59 @@ ship "Delta-7 Aethersprite Interceptor"
 
 
 
+ship "Delta-7 Aethersprite Interceptor Customised"
+	sprite "ship/delta7interceptorcustomised"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 140000
+		"shields" 2400
+		"hull" 1400
+		"required crew" 1
+		"bunks" 1
+		"mass" 23
+		"drag" 1
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 182
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 16	
+
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -17 21
+	engine 17 20
+	gun -9 -19 "Fighter Laser Cannon (Red)"
+	gun 11 -19 "Fighter Laser Cannon (Red)"
+	gun -9 -19 "Concussion Missile Launcher"
+	gun 11 -19 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "Delta-7 Aethersprite Interceptor Customised"
+
+
+
 ship "Eta-2 Actis-class Interceptor (Yellow)"
 	sprite "ship/eta2actisinterceptoryellow"
 	"never disabled"
 	attributes
 		category "Interceptor"
-		"cost" 500000
+		"cost" 140000
 		"shields" 0
 		"hull" 1400
 		"required crew" 1
@@ -1346,12 +1525,12 @@ ship "Eta-2 Actis-class Interceptor (Yellow)"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Republic Laser Cannon" 4
+		"Fighter Laser Cannon (Blue)" 4
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 
-		"FreiTek Power Converter"
-		"FreiTek Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1359,10 +1538,10 @@ ship "Eta-2 Actis-class Interceptor (Yellow)"
 		
 	engine -13 35
 	engine 14 34
-	gun -35 0 "Republic Laser Cannon"
-	gun 35 -2 "Republic Laser Cannon"
-	gun -5 -42 "Republic Laser Cannon"
-	gun 4 -42 "Republic Laser Cannon"
+	gun -35 0 "Fighter Laser Cannon (Blue)"
+	gun 35 -2 "Fighter Laser Cannon (Blue)"
+	gun -5 -42 "Fighter Laser Cannon (Blue)"
+	gun 4 -42 "Fighter Laser Cannon (Blue)"
 	gun -19 -15 "Concussion Missile Launcher"
 	gun 18 -16 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -1376,7 +1555,7 @@ ship "Eta-2 Actis-class Interceptor (Red)"
 	"never disabled"
 	attributes
 		category "Interceptor"
-		"cost" 500000
+		"cost" 140000
 		"shields" 0
 		"hull" 1400
 		"required crew" 1
@@ -1395,12 +1574,12 @@ ship "Eta-2 Actis-class Interceptor (Red)"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Republic Laser Cannon" 4
+		"Fighter Laser Cannon (Blue)" 4
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 
-		"FreiTek Power Converter"
-		"FreiTek Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1408,10 +1587,10 @@ ship "Eta-2 Actis-class Interceptor (Red)"
 		
 	engine -13 35
 	engine 14 34
-	gun -35 0 "Republic Laser Cannon"
-	gun 35 -2 "Republic Laser Cannon"
-	gun -5 -42 "Republic Laser Cannon"
-	gun 4 -42 "Republic Laser Cannon"
+	gun -35 0 "Fighter Laser Cannon (Blue)"
+	gun 35 -2 "Fighter Laser Cannon (Blue)"
+	gun -5 -42 "Fighter Laser Cannon (Blue)"
+	gun 4 -42 "Fighter Laser Cannon (Blue)"
 	gun -19 -15 "Concussion Missile Launcher"
 	gun 18 -16 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -1444,21 +1623,21 @@ ship "Eta-class Shuttle"
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Republic Laser Cannon" 3
+		"Fighter Laser Cannon (Blue)" 3
 		
-		"Cygnus T4a Power Converter"
-		"Cygnus Deflector Shield"
+		"Transport Power Converter"
+		"Shuttle Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 2
 		
-		"Cygnus T4a Thrust Engine"
+		"Shuttle Engine"
 		"Light Hyperspace Motivator"
 		
 	engine -42 44
 	engine 41 44
-	gun -41 -43 "Republic Laser Cannon"
-	gun 41 -43 "Republic Laser Cannon"
-	gun 0 -43 "Republic Laser Cannon"
+	gun -41 -43 "Fighter Laser Cannon (Blue)"
+	gun 41 -43 "Fighter Laser Cannon (Blue)"
+	gun 0 -43 "Fighter Laser Cannon (Blue)"
 	explode "tiny explosion" 2
 	explode "small explosion" 4
 	explode "medium explosion" 6
@@ -1494,11 +1673,11 @@ ship "Consular Cruiser (Aurek)"
 		"Republic Turbolaser Turret" 4
 		
 		"Consular Power Converter"
-		"Consular Deflector Shield"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Consular Cruiser Ion Drive"
+		"Corvette Sublight Engine"
 		"Medium Hyperspace Motivator"
 		
 	engine -128 281
@@ -1541,11 +1720,11 @@ ship "Consular Cruiser (Besh)"
 		"Republic Turbolaser Turret" 4
 		
 		"Consular Power Converter"
-		"Consular Deflector Shield"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Consular Cruiser Ion Drive"
+		"Corvette Sublight Engine"
 		"Medium Hyperspace Motivator"
 		
 	engine -101 288
@@ -1588,11 +1767,11 @@ ship "Consular Cruiser (Cresh)"
 		"Republic Turbolaser Turret" 4
 		
 		"Consular Power Converter"
-		"Consular Deflector Shield"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Consular Cruiser Ion Drive"
+		"Corvette Sublight Engine"
 		"Medium Hyperspace Motivator"
 		
 	engine -118 282
@@ -1615,9 +1794,9 @@ ship "CR25 Carrier"
 	sprite "ship/cr25carrier"
 	attributes
 		category "Transport"
-		"cost" 800000
-		"shields" 13000
-		"hull" 4500
+		"cost" 8000000
+		"shields" 19000
+		"hull" 8000
 		"required crew" 9
 		"bunks" 20
 		"mass" 1300
@@ -1636,8 +1815,8 @@ ship "CR25 Carrier"
 	outfits
 		"Transport Laser Turret" 2
 		
-		"Quadex Power Core"
-		"Transport Deflector Shield Projector"
+		"Transport Power Converter"
+		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
@@ -1683,12 +1862,12 @@ ship "Acclamator Assault Ship"
 	outfits
 		"Republic Turbolaser Turret" 4
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Raider Corvette Ion Drive"
+		"Corvette Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine -48 388
@@ -1730,21 +1909,21 @@ ship "JumpMaster 5000 Long Range Scout"
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Republic Laser Cannon" 2
+		"Fighter Laser Cannon (Blue)" 2
 		"Republic Transport Quad Turbolaser Turret"
 		
-		"Cygnus T4a Power Converter"
-		"Cygnus Deflector Shield"
+		"Transport Power Converter"
+		"Shuttle Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 2
 		
-		"Cygnus T4a Thrust Engine"
+		"Shuttle Engine"
 		"Light Hyperspace Motivator"
 		
 	engine 13 66
 	engine 28 66
-	gun 19 -99 "Republic Laser Cannon"
-	gun 23 -100 "Republic Laser Cannon"
+	gun 19 -99 "Fighter Laser Cannon (Blue)"
+	gun 23 -100 "Fighter Laser Cannon (Blue)"
 	turret -51 70 "Republic Transport Quad Turbolaser Turret"
 	explode "tiny explosion" 2
 	explode "small explosion" 4
@@ -1780,12 +1959,12 @@ ship "Pelta Frigate"
 	outfits
 		"Republic Turbolaser Turret" 2
 		
-		"Corellian Power Converter"
-		"Corellian Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Kuat Driveyards Ion Drive"
+		"Frigate Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine 0 465
@@ -1827,12 +2006,12 @@ ship "Venator-class Star Destroyer"
 		"Republic Turbolaser Battery" 14
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -349 1016
@@ -2042,7 +2221,7 @@ ship "Venator-class Star Destroyer"
 	description "Venator-class Star Destroyer has a complement of TIE/LN(48), TIE/SA(12), TIE/IN(24) = 160"
 
 ship "Nimbus-class V-wing starfighter"
-	sprite "ship/vwing"
+	sprite "ship/nimbusvwing"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -2065,20 +2244,20 @@ ship "Nimbus-class V-wing starfighter"
 			"hull damage" 150
 			"hit force" 450
 	outfits
-		"Republic Laser Cannon" 2
+		"Fighter Laser Cannon (Blue)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 12
 		
-		"JZ-4g2 Power Converter"
-		"Z-9 Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 		
 		"Fighter Engine (Pink Flare)"
 		"Light Hyperspace Motivator"
 		
 	engine 0 33
-	gun -12 3 "Republic Laser Cannon"
-	gun 12 3 "Republic Laser Cannon"
+	gun -12 3 "Fighter Laser Cannon (Blue)"
+	gun 12 3 "Fighter Laser Cannon (Blue)"
 	gun -12 3 "Concussion Missile Launcher"
 	gun 12 3 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -2086,7 +2265,7 @@ ship "Nimbus-class V-wing starfighter"
 	description "Alpha-3 Nimbus-class V-wing starfighter"
 
 ship "Nimbus-class V-wing starfighter (Fighter)"
-	sprite "ship/vwing"
+	sprite "ship/nimbusvwing"
 	"never disabled"
 	attributes
 		category "Fighter"
@@ -2109,19 +2288,19 @@ ship "Nimbus-class V-wing starfighter (Fighter)"
 			"hull damage" 150
 			"hit force" 450
 	outfits
-		"Republic Laser Cannon" 2
+		"Fighter Laser Cannon (Blue)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 12
 		
-		"JZ-4g2 Power Converter"
-		"Z-9 Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 		
 		"Fighter Engine (Pink Flare)"
 		
 	engine 0 33
-	gun -12 3 "Republic Laser Cannon"
-	gun 12 3 "Republic Laser Cannon"
+	gun -12 3 "Fighter Laser Cannon (Blue)"
+	gun 12 3 "Fighter Laser Cannon (Blue)"
 	gun -12 3 "Concussion Missile Launcher"
 	gun 12 3 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -2131,7 +2310,7 @@ ship "Nimbus-class V-wing starfighter (Fighter)"
 
 
 ship "BTL-B Y-Wing"
-	sprite ship/ywingrepublic
+	sprite ship/btlbywing
 	"never disabled"
 	attributes
 		category Interceptor
@@ -2154,13 +2333,13 @@ ship "BTL-B Y-Wing"
 			"hull damage" 175
 			"hit force" 465
 	outfits
-		"Republic Laser Cannon" 2
+		"Fighter Laser Cannon (Blue)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 		"Fighter Ion Cannon Turret"
 
-		"Novaldex Power Converter"
-		"Chempat Y Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -2168,8 +2347,8 @@ ship "BTL-B Y-Wing"
 
 	engine -21 53
 	engine 20 53
-	gun -2 -58 "Republic Laser Cannon"
-	gun 2 -58 "Republic Laser Cannon"
+	gun -2 -58 "Fighter Laser Cannon (Blue)"
+	gun 2 -58 "Fighter Laser Cannon (Blue)"
 	gun -8 -29 "Proton Torpedo Launcher"
 	gun 9 -29 "Proton Torpedo Launcher"
 	turret 0 -33 "Fighter Ion Cannon Turret"
@@ -2179,7 +2358,7 @@ ship "BTL-B Y-Wing"
 
 
 ship "BTL-B Y-Wing (Fighter)"
-	sprite ship/ywingrepublic
+	sprite ship/btlbywing
 	"never disabled"
 	attributes
 		category Fighter
@@ -2202,21 +2381,21 @@ ship "BTL-B Y-Wing (Fighter)"
 			"hull damage" 175
 			"hit force" 465
 	outfits
-		"Republic Laser Cannon" 2
+		"Fighter Laser Cannon (Blue)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 		"Fighter Ion Cannon Turret"
 
-		"Novaldex Power Converter"
-		"Chempat Y Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
 
 	engine -21 53
 	engine 20 53
-	gun -2 -58 "Republic Laser Cannon"
-	gun 2 -58 "Republic Laser Cannon"
+	gun -2 -58 "Fighter Laser Cannon (Blue)"
+	gun 2 -58 "Fighter Laser Cannon (Blue)"
 	gun -8 -29 "Proton Torpedo Launcher"
 	gun 9 -29 "Proton Torpedo Launcher"
 	turret 0 -33 "Fighter Ion Cannon Turret"
@@ -2226,7 +2405,7 @@ ship "BTL-B Y-Wing (Fighter)"
 
 
 ship "BTL-B Y-Wing (Custom)"
-	sprite ship/ywingrepubliccustom
+	sprite ship/btlbywingcustom
 	"never disabled"
 	attributes
 		category Interceptor
@@ -2249,13 +2428,13 @@ ship "BTL-B Y-Wing (Custom)"
 			"hull damage" 175
 			"hit force" 465
 	outfits
-		"Republic Laser Cannon" 2
+		"Fighter Laser Cannon (Blue)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 		"Fighter Ion Cannon Turret"
 
-		"Novaldex Power Converter"
-		"Chempat Y Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -2263,8 +2442,8 @@ ship "BTL-B Y-Wing (Custom)"
 
 	engine -21 56
 	engine 21 56
-	gun -2 -56 "Republic Laser Cannon"
-	gun 2 -56 "Republic Laser Cannon"
+	gun -2 -56 "Fighter Laser Cannon (Blue)"
+	gun 2 -56 "Fighter Laser Cannon (Blue)"
 	gun -8 -33 "Proton Torpedo Launcher"
 	gun 8 -34 "Proton Torpedo Launcher"
 	turret 0 -30 "Fighter Ion Cannon Turret"

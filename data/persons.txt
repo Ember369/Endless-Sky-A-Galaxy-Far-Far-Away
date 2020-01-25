@@ -79,20 +79,20 @@ person "Skylight"
 	phrase
 		word
 			"For the Rebel Alliance!"
-	ship "T-105 X-Wing"
-		sprite ship/xwingt105
+	ship "Liberator-class Fighter"
+		sprite ship/liberatorstarfighter
 		"never disabled"
 		attributes
 			category Interceptor
-			cost 250000
-			shields 30000
-			hull 10000
+			cost 130000
+			shields 2400
+			hull 1300
 			"required crew" 1
-			bunks 2
-			mass 22
-			drag 0.9
+			bunks 1
+			mass 23
+			drag 0.95
 			"heat dissipation" 0.8
-			"fuel capacity" 100000
+			"fuel capacity" 700
 			"outfit space" 249
 			"weapon capacity" 60
 			"engine capacity" 50
@@ -102,25 +102,21 @@ person "Skylight"
 				"hull damage" 170
 				"hit force" 460
 		outfits
-			"AUTHOR Fighter Laser Cannon" 4
-			"AUTHOR Proton Torpedo Launcher" 2
-			"MG9 Proton Torpedo" 6
-			"AUTHOR Fighter Ion Cannon Turret"
+			"AUTHOR Fighter Laser Cannon" 2
+			"Concussion Missile Launcher" 2
+			"Concussion Missile" 6
 
-			"Novaldex O4-Z Power Converter"
-			"Chempat X Deflector Shield Projector"
+			"Fighter Power Converter"
+			"Fighter Shield Projector"
 			"Light Coolant System"
 
-			"4L4 Fusial Thrust Engine"
+			"Fighter Engine (Pink Flare)"
 			"Light Hyperspace Motivator"
 
-		engine -25 105
-		engine 24 105
-		gun -81 -34 "AUTHOR Fighter Laser Cannon"
-		gun 80 -35 "AUTHOR Fighter Laser Cannon"
-		gun -81 20 "AUTHOR Fighter Laser Cannon"
-		gun 80 18 "AUTHOR Fighter Laser Cannon"
-		gun -12 -5 "AUTHOR Proton Torpedo Launcher"
-		gun 11 -5 "AUTHOR Proton Torpedo Launcher"
-		turret 0 84 "AUTHOR Fighter Ion Cannon Turret"
+		engine -9 32
+		engine 9 32
+		gun -37 -19 "AUTHOR Fighter Laser Cannon"
+		gun 37 -19 "AUTHOR Fighter Laser Cannon"
+		gun -7 -6 "Concussion Missile Launcher"
+		gun 6 -6 "Concussion Missile Launcher"
 		explode "large explosion" 3

@@ -8,41 +8,95 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more detailsz
 
-outfit "Consular Cruiser Ion Drive"
+outfit "Fighter Engine"
 	category "Engines"
 	"cost" 582000
-	thumbnail "outfit/consulariondrive"
-	"mass" 40
-	"outfit space" -40
-	"engine capacity" -40
-	"thrust" 28
+	thumbnail "outfit/fighterengine"
+	"mass" 5
+	"outfit space" -5
+	"engine capacity" -5
+	"thrust" 7
 	"thrusting energy" 6.3
-	"thrusting heat" 11.7
-	"flare sprite" "effect/ion flare/huge"
+	"thrusting heat" 1
+	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 850
+	"turn" 150
 	"turning energy" 3.5
-	"turning heat" 7.3
-	description "Consular Cruiser Ion Turbine Drive for Consular Cruiser"
+	"turning heat" 1
+	description "Fighter Engine"
 
-outfit "Transport Sublight Engine"
+outfit "Fighter Engine (Pink Flare)"
+	category "Engines"
+	"cost" 5000
+	thumbnail "outfit/eventhorizonengine"
+	"mass" 5
+	"outfit space" -5
+	"engine capacity" -5
+	"thrust" 7
+	"thrusting energy" 6.3
+	"thrusting heat" 1
+	"flare sprite" "effect/pink flare/tiny"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 150
+	"turning energy" 3.5
+	"turning heat" 1
+	description "Fighter Engine (Pink Flare)
+
+outfit "Fighter Engine (Blue Flare)"
+	category "Engines"
+	"cost" 26000
+	thumbnail "outfit/twinionthruster"
+	"mass" 5
+	"outfit space" -5
+	"engine capacity" -5
+	"thrust" 7
+	"thrusting energy" 6.3
+	"thrusting heat" 1
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 0.8
+	"flare sound" "ion small"
+	"turn" 150
+	"turning energy" 3.5
+	"turning heat" 1
+	description "Fighter Engine (Blue Flare)"
+
+outfit "Heavy Fighter Engine (Pink Flare)"
+	category "Engines"
+	"cost" 5000
+	thumbnail "outfit/eventhorizonengine"
+	"mass" 5
+	"outfit space" -5
+	"engine capacity" -5
+	"thrust" 10
+	"thrusting energy" 6.3
+	"thrusting heat" 1
+	"flare sprite" "effect/pink flare/tiny"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 250
+	"turning energy" 3.5
+	"turning heat" 1
+	description "Fighter Engine (Pink Flare)
+
+outfit "Shuttle Engine"
 	category "Engines"
 	"cost" 582000
-	thumbnail "outfit/4l4fusialthrustengine"
-	"mass" 10
+	thumbnail "outfit/shuttleengine"
+	"mass" 5
 	"outfit space" -20
 	"engine capacity" -20
-	"thrust" 20
+	"thrust" 7.5
 	"thrusting energy" 6.3
-	"thrusting heat" 10
+	"thrusting heat" 7
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 500
+	"turn" 160
 	"turning energy" 3.5
-	"turning heat" 8.5
-	description " Transport Sublight Engine for BT7 Thunderclap"
+	"turning heat" 6
+	description "Shuttle Engine"
 
 outfit "Light Transport Sublight Engine"
 	category "Engines"
@@ -62,7 +116,88 @@ outfit "Light Transport Sublight Engine"
 	"turning heat" 6
 	description " Light Transport Sublight Engine for DX9 Transport"
 
-outfit "Heavy Freighter Ion Drive"
+outfit "Transport Sublight Engine"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/4l4fusialthrustengine"
+	"mass" 10
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 20
+	"thrusting energy" 6.3
+	"thrusting heat" 10
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 500
+	"turning energy" 3.5
+	"turning heat" 8.5
+	description " Transport Sublight Engine for BT7 Thunderclap"
+
+outfit "Corvette Sublight Engine"
+	category "Engines"
+	"cost" 30000
+	thumbnail "outfit/corvetteiondrive"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 24
+	"thrusting energy" 6.3
+	"thrusting heat" 11.7
+	"reverse thrust" 12
+	"reverse thrusting energy" 3.1
+	"reverse thrusting heat" 5.8
+	"flare sprite" "effect/pink flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 1300
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Corvette Sublight Engine"
+
+outfit "Corvette Sublight Engine (Blue)"
+	category "Engines"
+	"cost" 30000
+	thumbnail "outfit/corvetteiondrive"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 24
+	"thrusting energy" 6.3
+	"thrusting heat" 11.7
+	"reverse thrust" 12
+	"reverse thrusting energy" 3.1
+	"reverse thrusting heat" 5.8
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 1300
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Corvette Sublight Engine"
+
+outfit "Frigate Sublight Engine"
+	category "Engines"
+	"cost" 40000
+	thumbnail "outfit/frigatesublightengine"
+	"mass" 210
+	"outfit space" -210
+	"engine capacity" -210
+	"thrust" 28
+	"thrusting energy" 6.3
+	"thrusting heat" 11.7
+	"reverse thrust" 14
+	"reverse thrusting energy" 6.3
+	"reverse thrusting heat" 11.7
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 1400
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Frigate Sublight Engine"
+
+outfit "Heavy Freighter Sublight Engine"
 	category "Engines"
 	"cost" 582000
 	thumbnail "outfit/heavyfreighteriondrive"
@@ -81,22 +216,46 @@ outfit "Heavy Freighter Ion Drive"
 	"turn" 1350
 	"turning energy" 3.5
 	"turning heat" 7.3
-	description "Ion Turbine Drive for Heavy Freighters"
+	description "Heavy Freighter Sublight Engine"
 
-outfit "Fighter Engine"
+outfit "Cruiser Sublight Engine"
 	category "Engines"
 	"cost" 582000
-	thumbnail "outfit/fighterengine"
-	"mass" 5
-	"outfit space" -5
-	"engine capacity" -5
-	"thrust" 7
-	"thrusting energy" 6.3
-	"thrusting heat" 1
-	"flare sprite" "effect/plasma flare/tiny"
+	thumbnail "outfit/cruisersublightengine"
+	"mass" 580
+	"outfit space" -580
+	"engine capacity" -580
+	"thrust" 40
+	"thrusting energy" 20
+	"thrusting heat" 11.7
+	"reverse thrust" 27
+	"reverse thrusting energy" 20
+	"reverse thrusting heat" 11.7
+	"flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 150
+	"turn" 1600
 	"turning energy" 3.5
-	"turning heat" 1
-	description "Fighter Engine"
+	"turning heat" 7.3
+	description "Cruiser Sublight Engine"
+
+outfit "Destroyer Sublight Engine"
+	category "Engines"
+	"cost" 582000
+	thumbnail "outfit/lf9ionthruster"
+	"mass" 580
+	"outfit space" -580
+	"engine capacity" -580
+	"thrust" 50
+	"thrusting energy" 20
+	"thrusting heat" 11.7
+	"reverse thrust" 33
+	"reverse thrusting energy" 20
+	"reverse thrusting heat" 11.7
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 1900
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Alderaan Royal Engineers LF9 Ion Thruster for Victory I Destroyer"

@@ -1566,8 +1566,10 @@ system Alsakan
 	fleet rebelfleet 400
 	fleet imperialpatrol 700
 	fleet imperialstardestroyer 2000
-	fleet heavycargotransport 500
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 500
 	fleet piratepatrol 1000
+	fleet purrgil 10000
 	belt 1379
 	object
 		sprite star/f5
@@ -1586,7 +1588,7 @@ system Alsakan
 		period 27.3065
 		belt 1379
 	object "Alsakan "
-		sprite planet/desert7
+		sprite planet/alsakan
 		distance 421.196
 		period 71.4791
 		belt 1379
@@ -1771,13 +1773,15 @@ system Anaxes
 	government "Galactic Empire"
 	habitable 4725
 	link Alsakan
-	link Brental
+	link Brentaal
 	asteroids "medium rock" 76 1.536
 	fleet rebelfleet 400
 	fleet imperialpatrol 700
 	fleet imperialstardestroyer 2000
-	fleet heavycargotransport 500
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 500
 	fleet piratepatrol 1000
+	fleet purrgil 10000
 	belt 1412
 	object
 		sprite star/a5
@@ -1796,8 +1800,8 @@ system Anaxes
 		period 31.6665
 		belt 1412
 	object "Anaxes "
-		sprite planet/cloud2
-		distance 689.141
+		sprite planet/anaxes
+		distance 2000
 		period 105.274
 		belt 1412
 		object
@@ -1805,9 +1809,9 @@ system Anaxes
 			distance 166
 			period 17.2042
 			belt 1412
-	object
-		sprite planet/gas7
-		distance 1312.43
+	object Axum
+		sprite planet/axum
+		distance 5000
 		period 276.678
 		belt 1412
 		object
@@ -5184,7 +5188,7 @@ system "Boz Pity"
 			minables copper 17 4.13354
 			minables uranium 16 3.93311
 
-system Brental
+system Brentaal
 	pos 5925.14 -7388.71
 	government "Galactic Empire"
 	habitable 425.92
@@ -5198,8 +5202,10 @@ system Brental
 	fleet rebelfleet 400
 	fleet imperialpatrol 700
 	fleet imperialstardestroyer 2000
-	fleet heavycargotransport 500
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 500
 	fleet piratepatrol 1000
+	fleet purrgil 10000
 	belt 1569
 	object
 		sprite star/k5
@@ -5210,7 +5216,7 @@ system Brental
 		distance 252.09
 		period 77.5764
 		belt 1569
-	object "Brental "
+	object "Brentaal "
 		sprite planet/water1
 		distance 515.45
 		period 226.817
@@ -5403,7 +5409,7 @@ system Byss
 			minables iron 8 6.2584
 			minables silver 8 3.74091
 	object "Byss "
-		sprite planet/earth
+		sprite planet/byss
 		distance 706.6
 		period 257.419
 		belt 1879
@@ -7680,11 +7686,13 @@ system Coruscant
 	link N'Zoth
 	link Pantolomin
 	asteroids "small rock" 1 7.1148
-	Sfleet rebelfleet 400
-	Sfleet imperialpatrol 700
-	Sfleet imperialstardestroyer 2000
-	Sfleet heavycargotransport 500
-	Sfleet piratepatrol 1000
+	fleet rebelfleet 400
+	fleet imperialpatrol 700
+	fleet imperialstardestroyer 2000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 500
+	fleet piratepatrol 1000
+	fleet purrgil 10000
 	belt 1407
 	minables neodymium 10 10.4787
 	object
@@ -7692,68 +7700,38 @@ system Coruscant
 		distance 37.5117
 		period 17.0024
 		offset 180
-		Sfleet rebelfleet 400
-		Sfleet imperialpatrol 700
-		Sfleet imperialstardestroyer 2000
-		Sfleet heavycargotransport 500
-		Sfleet piratepatrol 1000
 		belt 1407
 		minables neodymium 10 10.4787
 	object
 		sprite star/m4
 		distance 68.4883
 		period 17.0024
-		Sfleet rebelfleet 400
-		Sfleet imperialpatrol 700
-		Sfleet imperialstardestroyer 2000
-		Sfleet heavycargotransport 500
-		Sfleet piratepatrol 1000
 		belt 1407
 		minables neodymium 10 10.4787
 	object Coruscant
 		sprite planet/coruscant
-		distance 372.778
+		distance 600
 		period 112.131
-		Sfleet rebelfleet 400
-		Sfleet imperialpatrol 700
-		Sfleet imperialstardestroyer 2000
-		Sfleet heavycargotransport 500
-		Sfleet piratepatrol 1000
 		belt 1407
 		minables neodymium 10 10.4787
 	object "Venator-class Star Destroyer"
 		sprite planet/venatordestroyer
-		distance 4000
+		distance 5000
 		period 959.715
-		Sfleet rebelfleet 400
-		Sfleet imperialpatrol 700
-		Sfleet imperialstardestroyer 2000
-		Sfleet heavycargotransport 500
-		Sfleet piratepatrol 1000
 		belt 1407
 		minables neodymium 10 10.4787
 	object
 		sprite planet/gas17
-		distance 2113.58
+		distance 7000
 		period 1513.84
 		offset 187.349
-		Sfleet rebelfleet 400
-		Sfleet imperialpatrol 700
-		Sfleet imperialstardestroyer 2000
-		Sfleet heavycargotransport 500
-		Sfleet piratepatrol 1000
 		belt 1407
 		minables neodymium 10 10.4787
 	object
 		sprite planet/gas7
-		distance 2570.79
+		distance 7500
 		period 2030.73
 		offset 104.018
-		Sfleet rebelfleet 400
-		Sfleet imperialpatrol 700
-		Sfleet imperialstardestroyer 2000
-		Sfleet heavycargotransport 500
-		Sfleet piratepatrol 1000
 		belt 1407
 		minables neodymium 10 10.4787
 
@@ -10754,8 +10732,8 @@ system Empress
 		minables aluminum 28 6.64919
 		minables iron 17 7.43688
 		minables silver 9 7.33127
-	object Empress
-		sprite planet/desert6
+	object "Empress Teta"
+		sprite planet/empress
 		distance 447.17
 		period 151.297
 		belt 1788
@@ -11323,6 +11301,57 @@ system Exodeen
 			minables lead 10 10.3238
 			minables titanium 20 7.49733
 
+system Exogal
+	pos 4601.95 -7073.81
+	government "Last Order"
+	habitable 973.36
+	link "Wayfinder 5"
+	asteroids "large rock" 1 2.9478
+	asteroids "small metal" 3 3.8148
+	asteroids "medium metal" 13 4.1616
+	asteroids "large metal" 4 3.179
+	object
+		sprite star/k0
+		distance 59
+		period 16.4341
+		offset 180
+	object
+		sprite star/k0
+		distance 59
+		period 16.4341
+	object
+		sprite planet/gas11
+		distance 572.16
+		period 175.469
+		object "Exogal "
+			sprite planet/dust4
+			distance 247
+			period 12.8033
+		object
+			sprite planet/dust1
+			distance 377
+			period 24.1429
+	object
+		sprite planet/gas4
+		distance 1462.25
+		period 716.895
+		object
+			sprite planet/rhea
+			distance 272
+			period 15.8216
+	object
+		sprite planet/gas9
+		distance 2246.5
+		period 1365.16
+		object
+			sprite planet/dust3
+			distance 235
+			period 13.508
+		object
+			sprite planet/rock3
+			distance 370
+			period 26.6866
+
 system Falleen
 	pos 6623.64 -6418.11
 	government "Galactic Empire"
@@ -11519,8 +11548,10 @@ system Fedalle
 	fleet rebelfleet 400
 	fleet imperialpatrol 700
 	fleet imperialstardestroyer 2000
-	fleet heavycargotransport 500
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 500
 	fleet piratepatrol 1000
+	fleet purrgil 10000
 	belt 1078
 	minables gold 4 2.76865
 	minables lead 2 2.46321
@@ -18205,8 +18236,10 @@ system Kuat
 	fleet rebelfleet 400
 	fleet imperialpatrol 700
 	fleet imperialstardestroyer 2000
-	fleet heavycargotransport 500
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 500
 	fleet piratepatrol 1000
+	fleet purrgil 10000
 	belt 1637
 	minables iron 23 4.88355
 	minables titanium 16 5.18835
@@ -25639,10 +25672,12 @@ system Rago
 
 system "Rakata Prime"
 	pos 5059.18 -7018.44
+	government Resistance
 	habitable 945
 	link Jakku
 	link Jedha
 	link "Zonama Sekot"
+	link "Wayfinder 1"
 	asteroids "medium rock" 1 1.378
 	asteroids "large rock" 1 1.586
 	asteroids "small metal" 4 1.69
@@ -25670,7 +25705,7 @@ system "Rakata Prime"
 			distance 175
 			period 14.0272
 			belt 1585
-		object
+		object "Rakata Prime "
 			sprite planet/dust5
 			distance 332
 			period 36.654
@@ -28945,7 +28980,7 @@ system Skako
 	pos 5951.14 -7350.71
 	government "Galactic Empire"
 	habitable 486.68
-	link Brental
+	link Brentaal
 	link Fedalle
 	asteroids "small rock" 1 4.0848
 	asteroids "medium rock" 97 2.208
@@ -30916,7 +30951,7 @@ system Tepasi
 	pos 5973.55 -7360.26
 	government "Galactic Empire"
 	habitable 1705
-	link Brental
+	link Brentaal
 	link Caamas
 	asteroids "medium rock" 8 1.3804
 	asteroids "large rock" 1 1.428
@@ -33557,7 +33592,7 @@ system "Utegetu Nebula"
 system Uviuy
 	pos 5918.17 -7476.44
 	habitable 135
-	link Brental
+	link Brentaal
 	link Champala
 	link Palanhi
 	asteroids "medium rock" 2 7.14
@@ -35161,6 +35196,290 @@ system "Vurdon Ka"
 			minables aluminum 6 6.31358
 			minables titanium 4 5.47124
 
+system "Wayfinder 1"
+	pos 4810.95 -7076.81
+	habitable 1715
+	link "Wayfinder 2"
+	link "Rakata Prime"
+	asteroids "large metal" 1 3.842
+	haze _menu/haze-aurora
+	object
+		sprite star/f5
+		period 10
+		haze _menu/haze-aurora
+	object
+		sprite planet/lava1
+		distance 148.89
+		period 17.5479
+		haze _menu/haze-aurora
+	object
+		sprite planet/desert1
+		distance 496.73
+		period 106.932
+		haze _menu/haze-aurora
+	object
+		sprite planet/gas10
+		distance 1180.29
+		period 391.662
+		haze _menu/haze-aurora
+		object
+			sprite planet/dust3
+			distance 225
+			period 17.7652
+			haze _menu/haze-aurora
+	object
+		sprite planet/gas14
+		distance 3157.25
+		period 1713.53
+		haze _menu/haze-aurora
+		object
+			sprite planet/rock3
+			distance 222
+			period 13.4706
+			haze _menu/haze-aurora
+		object
+			sprite planet/rhea
+			distance 336
+			period 25.0823
+			haze _menu/haze-aurora
+		object
+			sprite planet/ice0
+			distance 499
+			period 45.3952
+			haze _menu/haze-aurora
+
+system "Wayfinder 2"
+	pos 4806.95 -7104.81
+	habitable 3780
+	link "Wayfinder 3"
+	link "Wayfinder 1"
+	asteroids "small rock" 15 1.584
+	asteroids "medium rock" 10 1.3552
+	asteroids "large rock" 1 2.1648
+	asteroids "small metal" 40 2.3408
+	asteroids "medium metal" 75 2.112
+	asteroids "large metal" 40 0.968
+	haze _menu/haze-aurora
+	object
+		sprite star/a5
+		distance 4.67857
+		period 9.75486
+		haze _menu/haze-aurora
+	object
+		sprite star/m8
+		distance 126.321
+		period 9.75486
+		offset 180
+		haze _menu/haze-aurora
+	object
+		sprite planet/rock13
+		distance 274.161
+		period 29.5341
+		haze _menu/haze-aurora
+	object
+		sprite planet/gas9
+		distance 596.321
+		period 94.7403
+		haze _menu/haze-aurora
+	object
+		sprite planet/gas10
+		distance 1194.61
+		period 268.63
+		haze _menu/haze-aurora
+		object
+			sprite planet/rock0
+			distance 188
+			period 13.5686
+			haze _menu/haze-aurora
+		object
+			sprite planet/rock14
+			distance 329
+			period 31.4117
+			haze _menu/haze-aurora
+	object
+		sprite planet/gas15
+		distance 2215.77
+		period 678.581
+		haze _menu/haze-aurora
+		object
+			sprite planet/ice7
+			distance 206
+			period 15.5632
+			haze _menu/haze-aurora
+		object
+			sprite planet/dust7
+			distance 322
+			period 30.4145
+			haze _menu/haze-aurora
+
+system "Wayfinder 3"
+	pos 4782.95 -7061.81
+	habitable 5000
+	link "Wayfinder 4"
+	link "Wayfinder 2"
+	asteroids "small rock" 15 6.9498
+	asteroids "medium rock" 4 6.4584
+	asteroids "large rock" 2 7.0902
+	asteroids "small metal" 7 10.0386
+	asteroids "medium metal" 8 7.4412
+	asteroids "large metal" 1 7.5816
+	haze _menu/haze-aurora
+	object
+		sprite star/a0
+		period 10
+		haze _menu/haze-aurora
+	object
+		sprite planet/rock10
+		distance 211.69
+		period 17.4231
+		haze _menu/haze-aurora
+	object
+		sprite planet/ganymede
+		distance 532.69
+		period 69.5483
+		haze _menu/haze-aurora
+	object
+		sprite planet/lava2
+		distance 1034.38
+		period 188.189
+		haze _menu/haze-aurora
+	object
+		sprite planet/gas11
+		distance 1529.63
+		period 338.419
+		haze _menu/haze-aurora
+		object
+			sprite planet/dust1
+			distance 279
+			period 15.3704
+			haze _menu/haze-aurora
+		object
+			sprite planet/tethys
+			distance 365
+			period 22.9994
+			haze _menu/haze-aurora
+	object
+		sprite planet/gas17
+		distance 2273.04
+		period 613.035
+		haze _menu/haze-aurora
+
+system "Wayfinder 4"
+	pos 4775.95 -7122.81
+	habitable 2795
+	link "Wayfinder 5"
+	link "Wayfinder 3"
+	asteroids "small rock" 70 6.16
+	asteroids "medium rock" 8 3.248
+	asteroids "large rock" 19 5.768
+	asteroids "small metal" 40 5.376
+	asteroids "medium metal" 22 3.136
+	asteroids "large metal" 12 5.264
+	haze _menu/haze-aurora
+	object
+		sprite star/f5
+		distance 46.7549
+		period 10.0704
+		haze _menu/haze-aurora
+	object
+		sprite star/g0
+		distance 74.2451
+		period 10.0704
+		offset 180
+		haze _menu/haze-aurora
+	object
+		sprite planet/desert7
+		distance 218.495
+		period 24.4361
+		haze _menu/haze-aurora
+	object
+		sprite planet/ice0
+		distance 425.745
+		period 66.4651
+		haze _menu/haze-aurora
+	object
+		sprite planet/gas1
+		distance 1188
+		period 309.807
+		haze _menu/haze-aurora
+		object
+			sprite planet/rhea
+			distance 252
+			period 15.9888
+			haze _menu/haze-aurora
+	object
+		sprite planet/gas3
+		distance 2092.69
+		period 724.311
+		haze _menu/haze-aurora
+		object
+			sprite planet/rock7
+			distance 295
+			period 12.9419
+			haze _menu/haze-aurora
+		object
+			sprite planet/europa
+			distance 401
+			period 20.5107
+			haze _menu/haze-aurora
+
+system "Wayfinder 5"
+	pos 4739.95 -7089.81
+	habitable 486.68
+	link "Wayfinder 4"
+	link Exogal
+	asteroids "small rock" 31 1.92
+	asteroids "medium rock" 28 1.328
+	asteroids "large rock" 4 1.776
+	asteroids "small metal" 29 1.168
+	asteroids "medium metal" 95 1.504
+	asteroids "large metal" 74 1.44
+	haze _menu/haze-aurora
+	object
+		sprite star/k0
+		period 10
+		haze _menu/haze-aurora
+	object
+		sprite planet/rock5
+		distance 143.24
+		period 31.0838
+		haze _menu/haze-aurora
+	object
+		sprite planet/gas16
+		distance 583.24
+		period 255.393
+		haze _menu/haze-aurora
+	object
+		sprite planet/gas14
+		distance 1152.48
+		period 709.395
+		haze _menu/haze-aurora
+		object
+			sprite planet/dust3
+			distance 251
+			period 16.1946
+			haze _menu/haze-aurora
+		object
+			sprite planet/rock7
+			distance 343
+			period 25.8702
+			haze _menu/haze-aurora
+	object
+		sprite planet/gas9
+		distance 3030.32
+		period 3024.62
+		haze _menu/haze-aurora
+		object
+			sprite planet/oberon
+			distance 248
+			period 14.6443
+			haze _menu/haze-aurora
+		object
+			sprite planet/desert4
+			distance 383
+			period 28.1053
+			haze _menu/haze-aurora
+
 system Wayland
 	pos 6282.85 -7736.41
 	habitable 425.92
@@ -35527,7 +35846,7 @@ system Xagobah
 system Yabol
 	pos 6008.35 -7436.12
 	habitable 1080
-	link Brental
+	link Brentaal
 	link Castell
 	asteroids "small rock" 19 2.34
 	asteroids "medium rock" 90 5.499
@@ -36539,20 +36858,20 @@ system Zygerria
 
 planet "Alsakan "
 	landscape ""
-	description s
-	spaceport s
+	description `Alsakan was an ecumenopolis world in the Alsakan system in the Core Worlds. A Core Founder on the Perlemian Trade Route, Alsakan was an ancient, wealthy world that had been a major political player for centuries, and was responsible for the seventeen Alsakan Conflicts that had been fought with Coruscant over the nature and shape of the early Galactic Republic.`
+	spaceport `The Alsakani were Human settlers who had arrived on the planet aboard the colony ship Kuat Explorer some twenty-six thousand years before the Battle of Yavin. As a people, they were aristocratic in their values and enthusiastic for open spaces and local independence. Consequently, they had sought a limited economic and political union when the Galactic Republic was formed, and for much of their history were inclined to see Coruscant as too powerful, resulting in the many Alsakan Conflicts.Reflecting their views, the ancient Alsakani national epic, the Archaiad, described the Perlemian Trade Route as "an arrow sent into the possible". Seeking distance from authority, Alsakan's younger sons established small colonies in the Inner Rim, and cared little for government bureaucracy or mass-produced goods beyond warships and blasters.`
 	shipyard "Imperial Navy Ships"
 
 planet "Anaxes "
-	landscape ""
-	description s
-	spaceport s
+	landscape land/anaxes
+	description `Anaxes was a fortress world located on the Perlemian Trade Route in the Axum system of the Core Worlds. Known as the "Defender of the Core", for millennia it was the site of the Republic Navy's primary fleet base and War College. It was considered the site of naval power, tradition and prestige by both the Galactic Republic and the Galactic Empire.`
+	spaceport `While not as industrialized as Axum, Anaxes was more prestigious, home to many families associated with a tradition of service in the Fleet. It was home to Azure Motorworks, a major producer of luxury vehicles. Considered an ecumenopolis, in that it was a planet-wide city, it was more reminiscent of a Green Coruscant, though, in that it was sprinkled with beautiful parks and green areas in and around the city like the Great Plain of Anaxes.`
 	shipyard "Imperial Navy Ships"
 
 planet "Another One"
 	landscape ""
-	description ss
-	spaceport s
+	description ``s
+	spaceport ``
 	government "Galactic Empire"
 	tribute 100000
 		threshold 7000
@@ -36567,21 +36886,27 @@ planet "Atollon "
 		threshold 7000
 		fleet chopperbase
 
-planet "Brental "
+planet Axum
+	landscape land/anaxes
+	description `Axum was colonized by Human settlers who arrived in a sleeper ship from Coruscant sometime after 27,500 BBY. In the millennia preceding the Galactic Republic, Axum was a military stronghold and the headquarters of the Azure Imperium, which was eventually absorbed by Coruscant's sphere of influence.`
+	spaceport `Heavily urbanised, it had far greater industrial output than its sister planet Anaxes, though less prestige. The Axumites were known to be an exceedingly-formal and well-mannered people, and extremely proud of Axum's history as a Core Founder and the legacy of the Azure Imperium.`
+	shipyard "Imperial Navy Ships"
+
+planet "Brentaal "
 	landscape ""
-	description s
-	spaceport s
+	description ``
+	spaceport ``
 	shipyard "Imperial Navy Ships"
 
 planet "Byss "
 	landscape land/rilium
-	description s
-	spaceport s
+	description `Byss was a planet in the Deep Core, near the center of the galaxy, discovered no earlier than 45 BBY. A local day lasted 31 standard hours, and a local year lasted 207 local days. It was the endpoint of the Byss Run. Byss itself was somewhat of a myth, seeming to be the perfect place to live. Its eerie blue-green glow, caused by its sun, also added to the strangeness of the world. Despite this outward appearance, however, Emperor Palpatine's dark-side energies were everywhere, corrupting not only the inhabitants, but the planet itself. Byss was the secret throne world of Palpatine and the location of his towering Imperial Citadel. He also kept his secret supply of clone bodies there.`
+	spaceport `Byss was a mythic paradise world enshrouded in the dark side of the Force, located within the isolated and nearly inaccessible Deep Galactic Core. It was situated at the end of the Byss Run, a heavily guarded artificial hyperlane kept open by hundreds of non-mass S-thread boosters, connecting the planet to the Core Worlds. The planet was otherwise nearly impossible to reach safely through hyperspace, due to the high density of stars in the Deep Core and the constantly shifting patterns of the region's natural hyperlanes.`
 	shipyard "Rebel Alliance Ships"
 
 planet "Commenor "
 	landscape ""
-	description sadwds
+	description ``adwds
 	spaceport wasd
 
 planet Coruscant
@@ -36609,22 +36934,27 @@ planet "D'Qar "
 
 planet "Death Star II "
 	landscape ""
-	description s
-	spaceport s
+	description ``
+	spaceport ``
 	tribute 100000
 		threshold 7000
 		fleet deathstariifleet
 
-planet Empress
+planet "Empress Teta"
 	landscape land/rilium
-	description s
-	spaceport s
+	description `Empress Teta was a ecumenopolis world located in the Empress Teta system, a star system in the Koros sector of the galaxy's Deep Core. Initially known as Koros or Koros Major, the planet's name was changed following Empress Teta's unification of the system in 5000 BBY. The extent to which the capital Cinnagar covered the world also caused many to refer to the world itself as Cinnagar, even in official documentation—a source of confusion at times.`
+	spaceport `A major supplier of refined carbonite, the planet was a major hub of operations for the Mining Guild. It was located on both the Koros Trunk Line and the Carbonite Run, and for a short time on the Daragon Trail. Empress Teta was the main hub of galactic civilization in the Deep Core and was also one of the few highly urbanized planets in the region to rival Coruscant itself in fashion and amenities.`
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
 	shipyard "Galactic Republic Ships"
 	shipyard "Separatist Alliance Ships"
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
+
+planet "Exogal "
+	landscape ""
+	description Exogal
+	spaceport Exogal
 
 planet "Golan 3"
 	landscape ""
@@ -36633,13 +36963,13 @@ planet "Golan 3"
 
 planet "Ixtlar "
 	landscape ""
-	description s
-	spaceport s
+	description ``
+	spaceport ``
 
 planet "Kalist "
 	landscape land/rilium
-	description s
-	spaceport s
+	description ``
+	spaceport ``
 	shipyard "Rebel Alliance Ships"
 
 planet "Lothal "
@@ -36657,8 +36987,8 @@ planet "Lucrehulk-class Battleship"
 
 planet "N'Zoth "
 	landscape land/rilium
-	description s
-	spaceport s
+	description ``
+	spaceport ``
 	shipyard "Rebel Alliance Ships"
 
 planet "Naboo "
@@ -36685,6 +37015,16 @@ planet "Prakith "
 	shipyard "Separatist Alliance Ships"
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
+
+planet "Rakata Prime "
+	landscape ""
+	description ``
+	spaceport ``
+	shipyard "Rebel Alliance Ships"
+	shipyard "Miscellaneous Ships"
+	shipyard "Galactic Republic Ships"
+	shipyard "Separatist Alliance Ships"
+	shipyard "Resistance Ships"
 
 planet "Rugosa "
 	landscape land/rugosa
@@ -36713,7 +37053,7 @@ planet "Starkiller Base (Ilum)"
 planet Test
 	landscape ""
 	description e
-	spaceport s
+	spaceport ``
 	government "First Order"
 	tribute 100000
 		threshold 7000
@@ -36726,8 +37066,8 @@ planet Testing
 
 planet "Teta "
 	landscape land/rilium
-	description s
-	spaceport s
+	description ``
+	spaceport ``
 	shipyard "Rebel Alliance Ships"
 
 planet "The Redoubt "
@@ -36745,11 +37085,11 @@ planet "Ukio "
 
 planet "Venator-class Star Destroyer"
 	landscape ""
-	description s
-	spaceport s
+	description ``
+	spaceport ``
 
 planet s
 	landscape ""
-	description s
-	spaceport s
+	description ``
+	spaceport ``
 

@@ -48,11 +48,6 @@ fleet "rebelfleet"
 		"BTL-A4 Y-Wing" 3
 		"RZ1 A-Wing" 3
 	variant 5
-		"Defender-class Corvette" 1
-		"BT7 Thunderclap"
-		"Dynamic Freighter"
-		"RZ1 A-Wing" 3
-	variant 5
 		"CR90 Corvette" 1
 		"Sphyrna-class Corvette (Modified)"
 		"D5-Mantis Patrol Craft"
@@ -281,35 +276,60 @@ fleet "rebelcapitalfleet"
 		"BTL-S8 K-Wing" 5
 		"E-7 E-Wing" 5
 
-fleet "heavycargotransport"
+fleet "civiliantransport"
+	government "Civilian"
+	cargo 0
+	personality
+		timid appeasing unconstrained
+	variant 60
+	"G9 Rigger-class light freighter"
+	variant 60
+		"HWK-290 Light Freighter (Stock)" 3
+		"CloakShape Fighter" 2
+	variant 60
+		"BT7 Thunderclap"
+	variant 60
+		"Dynamic Freighter"
+	variant 60
+		"YT-1300 Freighter"
+	variant 60
+		"Baudo-class Star Yacht"
+	variant 60
+		"Ghtroc Class 720 Freighter"
+	variant 60
+		"VCX-100 Light Freighter"
+	variant 60
+		"Helot-class Medium Space Transport"
+	variant 60
+		"Old Republic Diplomatic Transport"
+	variant 60
+		"GX1 Lantillian Short Hauler (Civilian)"
+	variant 60
+		"G-1A Starfighter"
+	variant 60
+		"Razor Crest"
+
+fleet "civilianheavycargofreighter"
 	government "Civilian"
 	cargo 0
 	personality
 		timid appeasing unconstrained
 	variant 60
 		"Ajuur Heavy Cruiser"
-		"CloakShape Fighter" 4
 	variant 60
 		"Mobquet MB-C1 Medium Transport" 3
-		"Aurek-class Tactical Strike Fighter" 4
 	variant 60
 		"Action VI Transport" 2
-		"CloakShape Fighter" 2
 	variant 60
 		"Dragonboat-class Reugeot 905 Freighter" 2
-		"Aurek-class Tactical Strike Fighter" 2
 	variant 60
 		"YZ-2200 Heavy Transport"
 	variant 60
 		"BFF-1 Bulk Freighter"
-		"CloakShape Fighter" 3
-		"Aurek-class Tactical Strike Fighter" 3
 	variant 60
 		"C-ROC Gozanti Cruiser"
-		"CloakShape Fighter" 3
 	variant 60
-		"HWK-290 Light Freighter (Stock)" 3
-		"CloakShape Fighter" 2
+		"KR-TB Doomtreader"
 
 fleet "piratepatrol"
 	government "Scum & Villainy"
@@ -322,10 +342,32 @@ fleet "piratepatrol"
 	variant 60
 		"G-X1 Onslaught" 3
 	variant 60
+		"Vaksai Assault Fighter" 3
+	variant 60
+		"Kihraxz Assault Fighter" 3
+	variant 60
+		"G1-M4-C Dunelizard Fighter" 3
+	variant 60
+		"M12-L Kimogila Heavy Fighter" 3
+	variant 60
+		"M3-A Scyk Fighter" 5
+	variant 60
+		"Ixiyen-class Fast Attack Craft" 3
+	variant 60
 		"Lancer Pursuit Craft"
 		"FT-6 Pike Starfighter" 2
 	variant 60
+		"Lok Ravenants Assault Fighter"
+	variant 60
 		"Firespray-31-class patrol craft"
+
+fleet "purrgil"
+	government "Purrgil"
+	cargo 0
+	personality
+		unconstrained swarming mining
+	variant 60
+		"Purrgil" 15
 
 fleet "bountyhunter"
 	government "Bounty Hunter"

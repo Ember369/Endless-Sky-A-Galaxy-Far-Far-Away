@@ -32,24 +32,72 @@ ship "Alpha-class Xg-1 Star Wing"
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Imperial Fighter Laser Cannon" 2
-		"Imperial Fighter Ion Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
+		"Fighter Ion Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 16
 		
 		"Novaldex O5-U Power Converter"
-		"Chempat U Deflector Shield Projector"
+		"Fighter Shield Projector"
 		"Light Coolant System" 2
 		
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		"Light Hyperspace Motivator"
 
 	engine -13 35
 	engine 11 35
-	gun -19 -9 "Imperial Fighter Laser Cannon"
-	gun 19 -8 "Imperial Fighter Laser Cannon"
-	gun -19 -9 "Imperial Fighter Ion Cannon"
-	gun 19 -8 "Imperial Fighter Ion Cannon"
+	gun -19 -9 "Fighter Laser Cannon (Green)"
+	gun 19 -8 "Fighter Laser Cannon (Green)"
+	gun -19 -9 "Fighter Ion Cannon (Green)"
+	gun 19 -8 "Fighter Ion Cannon (Green)"
+	gun -14 -9 "Concussion Missile Launcher"
+	gun 13 -9 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	description "The Cygnus Spaceworks Alpha-class Xg-1 Star Wing, also known as the Xg-1 Starwing or Assault Gunboat, was one of the Galactic Empire's first general-deployment starfighters to be equipped with deflector shields and a hyperdrive."
+
+
+
+ship "Alpha-class Xg-1 Star Wing (Fighter)"
+	sprite "ship/alphaxg1starwing"
+	"never disabled"
+	attributes
+		category Fighter
+		"cost" 210000
+		"shields" 3100
+		"hull" 2600
+		"required crew" 1
+		"bunks" 1
+		"mass" 32
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 216
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Fighter Laser Cannon (Green)" 2
+		"Fighter Ion Cannon (Green)" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 16
+		
+		"Novaldex O5-U Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System" 2
+		
+		"Fighter Engine (Blue Flare)"
+
+	engine -13 35
+	engine 11 35
+	gun -19 -9 "Fighter Laser Cannon (Green)"
+	gun 19 -8 "Fighter Laser Cannon (Green)"
+	gun -19 -9 "Fighter Ion Cannon (Green)"
+	gun 19 -8 "Fighter Ion Cannon (Green)"
 	gun -14 -9 "Concussion Missile Launcher"
 	gun 13 -9 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -84,12 +132,12 @@ ship "Arquitens Light Cruiser"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 20
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Raider Corvette Ion Drive"
+		"Corvette Sublight Engine (Blue)"
 		"Medium Hyperspace Motivator"
 		
 	engine -121 399
@@ -142,12 +190,12 @@ ship "Aiwha-class Star Corvette"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 20
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Raider Corvette Ion Drive"
+		"Corvette Sublight Engine (Blue)"
 		"Medium Hyperspace Motivator"
 		
 
@@ -200,11 +248,11 @@ ship "Carrack Light Cruiser"
 		"Turbolaser Turret" 4
 		
 		"Heavy Freighter Power Converter"
-		"Heavy Freighter Deflector Shield"
+		"Heavy Freighter Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Heavy Freighter Ion Drive"
+		"Heavy Freighter Sublight Engine"
 		"Medium Hyperspace Motivator"
 	
 	engine -26 351
@@ -252,12 +300,12 @@ ship "Contentor-class Fleet Replenishment Ship"
 		"Rendii V Dual Turbolaser Battery" 10
 		"Tractor Beam" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"Medium Imperial Ion Thruster"
+		"Cruiser Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine -152 866
@@ -298,7 +346,7 @@ ship "Delta T-3c Shuttle"
 	attributes
 		category Transport
 		"cost" 520000
-		"shields" 10000
+		"shields" 6000
 		"hull" 4000
 		"required crew" 6
 		"bunks" 36
@@ -318,12 +366,12 @@ ship "Delta T-3c Shuttle"
 	outfits
 		"T4a Shuttle Laser Cannon" 3
 		
-		"Cygnus T4a Power Converter"
-		"Cygnus Deflector Shield"
+		"Shuttle Power Converter"
+		"Shuttle Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 2
 		
-		"Cygnus T4a Thrust Engine"
+		"Shuttle Engine"
 		"Light Hyperspace Motivator"
 		
 	engine -59 42
@@ -344,9 +392,9 @@ ship "Dreadnaught Heavy Cruiser"
 	sprite "ship/dreadnaughtheavycruiser"
 	attributes
 		category "Heavy Warship"
-		"cost" 15200000
-		"shields" 110000
-		"hull" 38000
+		"cost" 130000000
+		"shields" 115000
+		"hull" 44000
 		"required crew" 9000
 		"bunks" 25000
 		"mass" 9000
@@ -367,12 +415,12 @@ ship "Dreadnaught Heavy Cruiser"
 		"Rendii V Dual Turbolaser Battery" 6
 		"Tractor Beam" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 6
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -106 871
@@ -422,13 +470,13 @@ ship "DX9 Troop Transport"
 	sprite "ship/dx9transport"
 	attributes
 		category "Transport"
-		"cost" 15200000
+		"cost" 310000
 		"shields" 3400
 		"hull" 3000
 		"required crew" 3
 		"bunks" 33
-		"mass" 70
-		"drag" 1.9
+		"mass" 33
+		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
@@ -441,20 +489,20 @@ ship "DX9 Troop Transport"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		
 		"Quadex Power Core"
-		"Transport Deflector Shield Projector"
+		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Light Transport Sublight Engine"
+		"Shuttle Engine"
 		"Light Hyperspace Motivator"
 		
 	engine -21 61
 	engine 18 61
-	gun -20 -5 "Imperial Fighter Laser Cannon"
-	gun 18 -4 "Imperial Fighter Laser Cannon"
+	gun -20 -5 "Fighter Laser Cannon (Green)"
+	gun 18 -4 "Fighter Laser Cannon (Green)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -490,11 +538,11 @@ ship "Eta-class Supply Barge"
 		"Gozanti Heavy Laser Cannon" 2
 		
 		"Heavy Freighter Power Converter"
-		"Heavy Freighter Deflector Shield"
+		"Heavy Freighter Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Heavy Freighter Ion Drive"
+		"Heavy Freighter Sublight Engine"
 		"Heavy Hyperspace Motivator"
 	
 	engine -18 423
@@ -533,13 +581,13 @@ ship "Gamma-class ATR-6 Assault Transport"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Imperial Fighter Laser Cannon" 3
-		"Imperial Fighter Ion Cannon" 3
+		"Fighter Laser Cannon (Green)" 3
+		"Fighter Ion Cannon (Green)" 3
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 8
 
 		"Quadex Power Core"
-		"Transport Deflector Shield Projector"
+		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
@@ -549,12 +597,12 @@ ship "Gamma-class ATR-6 Assault Transport"
 	engine -29 65
 	engine 0 70
 	engine 26 66
-	gun -27 -34 "Imperial Fighter Laser Cannon"
-	gun -1 -32 "Imperial Fighter Laser Cannon"
-	gun 25 -32 "Imperial Fighter Laser Cannon"
-	gun -27 -34 "Imperial Fighter Ion Cannon"
-	gun -1 -32 "Imperial Fighter Ion Cannon"
-	gun 25 -32 "Imperial Fighter Ion Cannon"
+	gun -27 -34 "Fighter Laser Cannon (Green)"
+	gun -1 -32 "Fighter Laser Cannon (Green)"
+	gun 25 -32 "Fighter Laser Cannon (Green)"
+	gun -27 -34 "Fighter Ion Cannon (Green)"
+	gun -1 -32 "Fighter Ion Cannon (Green)"
+	gun 25 -32 "Fighter Ion Cannon (Green)"
 	gun -13 -70 "Proton Torpedo Launcher"
 	gun 12 -71 "Proton Torpedo Launcher"
 	explode "tiny explosion" 20
@@ -590,8 +638,8 @@ ship "GAT-12 Skipray Blastboat"
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Imperial Fighter Laser Cannon" 2
-		"Imperial Fighter Ion Cannon" 3
+		"Fighter Laser Cannon (Green)" 2
+		"Fighter Ion Cannon (Green)" 3
 		"Imperial Fighter Laser Turret"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 12
@@ -599,18 +647,18 @@ ship "GAT-12 Skipray Blastboat"
 		"MG9 Proton Torpedo" 6
 		
 		"Novaldex O5-U Power Converter"
-		"Chempat U Deflector Shield Projector"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 		
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		"Light Hyperspace Motivator"
 		
 	engine -0.5 91
-	gun -29 -44 "Imperial Fighter Ion Cannon"
-	gun 0 -45 "Imperial Fighter Ion Cannon"
-	gun 28 -44 "Imperial Fighter Ion Cannon"
-	gun -10 -69 "Imperial Fighter Laser Cannon"
-	gun 7 -70 "Imperial Fighter Laser Cannon"
+	gun -29 -44 "Fighter Ion Cannon (Green)"
+	gun 0 -45 "Fighter Ion Cannon (Green)"
+	gun 28 -44 "Fighter Ion Cannon (Green)"
+	gun -10 -69 "Fighter Laser Cannon (Green)"
+	gun 7 -70 "Fighter Laser Cannon (Green)"
 	gun -10 -69 "Concussion Missile Launcher"
 	gun 7 -70 "Concussion Missile Launcher"
 	turret 0 -10 "Imperial Fighter Laser Turret"
@@ -624,12 +672,12 @@ ship "Gozanti Cruiser"
 	attributes
 		category "Light Warship"
 		"cost" 1200000
-		"shields" 15000
+		"shields" 13000
 		"hull" 7300
 		"required crew" 5
 		"bunks" 35
-		"mass" 1700
-		"drag" 4.8
+		"mass" 340
+		"drag" 3.2
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 10
@@ -645,12 +693,12 @@ ship "Gozanti Cruiser"
 		"Gozanti Twin Laser Cannon"
 		"Gozanti Heavy Laser Cannon"
 		
-		"Gozanti Power Converter"
-		"Gozanti Deflector Shield"
+		"Transport Power Converter"
+		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Gozanti Ion Drive"
+		"Transport Sublight Engine"
 		"Medium Hyperspace Motivator"
 	
 	engine -53 114
@@ -675,12 +723,12 @@ ship "IGV-55 Surveillance Vessel"
 	attributes
 		category "Light Warship"
 		"cost" 1400000
-		"shields" 15000
+		"shields" 13000
 		"hull" 7300
 		"required crew" 5
 		"bunks" 35
-		"mass" 1750
-		"drag" 4.9
+		"mass" 340
+		"drag" 3.2
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 10
@@ -696,12 +744,12 @@ ship "IGV-55 Surveillance Vessel"
 		"Gozanti Twin Laser Cannon"
 		"Gozanti Heavy Laser Cannon"
 		
-		"Gozanti Power Converter"
-		"Gozanti Deflector Shield"
+		"Transport Power Converter"
+		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Gozanti Ion Drive"
+		"Transport Sublight Engine"
 		"Medium Hyperspace Motivator"
 	
 	engine -63 94
@@ -745,12 +793,12 @@ ship "Lambda Shuttle"
 	outfits
 		"T4a Shuttle Laser Cannon" 5
 		
-		"Cygnus T4a Power Converter"
-		"Cygnus Deflector Shield"
+		"Shuttle Power Converter"
+		"Shuttle Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 2
 		
-		"Cygnus T4a Thrust Engine"
+		"Shuttle Engine"
 		"Light Hyperspace Motivator"
 		
 	engine -21 53
@@ -795,11 +843,11 @@ ship "Lancer-class Frigate"
 		"Anti-starfighter Battery" 11
 		
 		"Heavy Freighter Power Converter"
-		"Heavy Freighter Deflector Shield"
+		"Heavy Freighter Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Heavy Freighter Ion Drive"
+		"Heavy Freighter Sublight Engine"
 		"Medium Hyperspace Motivator"
 	
 	engine -17 338
@@ -853,12 +901,12 @@ ship "Raider II Corvette"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 20
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Raider Corvette Ion Drive"
+		"Corvette Sublight Engine (Blue)"
 		"Medium Hyperspace Motivator"
 		
 	engine -45 281
@@ -912,21 +960,21 @@ ship "TIE/AD Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 		
-		"l-s3a Solar Ionisation Reactor"
-		"Novaldex TIE/AD Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		"Light Hyperspace Motivator"
 
 	engine -7 25
 	engine 5 24
-	gun -11 -12 "Imperial Fighter Laser Cannon"
-	gun 11 -12 "Imperial Fighter Laser Cannon"
+	gun -11 -12 "Fighter Laser Cannon (Green)"
+	gun 11 -12 "Fighter Laser Cannon (Green)"
 	gun -11 -12 "Concussion Missile Launcher"
 	gun 11 -12 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -957,21 +1005,21 @@ ship "TIE/AD Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 		
-		"l-s3a Solar Ionisation Reactor"
-		"Novaldex TIE/AD Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		"Light Hyperspace Motivator"
 
 	engine -7 25
 	engine 5 24
-	gun -11 -12 "Imperial Fighter Laser Cannon"
-	gun 11 -12 "Imperial Fighter Laser Cannon"
+	gun -11 -12 "Fighter Laser Cannon (Green)"
+	gun 11 -12 "Fighter Laser Cannon (Green)"
 	gun -11 -12 "Concussion Missile Launcher"
 	gun 11 -12 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -984,9 +1032,9 @@ ship "TIE/D Fighter"
 	"never disabled"
 	attributes
 		category "Interceptor"
-		"cost" 129000
-		"shields" 2000
-		"hull" 1000
+		"cost" 300000
+		"shields" 2300
+		"hull" 1100
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -1002,26 +1050,26 @@ ship "TIE/D Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 4
-		"Imperial Fighter Ion Cannon" 2
+		"Fighter Laser Cannon (Green)" 4
+		"Fighter Ion Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 		
-		"l-s4d Solar Ionisation Reactor"
-		"Novaldex TIE/D Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		"Light Hyperspace Motivator"
 
 	engine -4 17
 	engine 6 16
-	gun -20 -24 "Imperial Fighter Laser Cannon"
-	gun -13 -22 "Imperial Fighter Laser Cannon"
-	gun 14 -23 "Imperial Fighter Laser Cannon"
-	gun 20 -24 "Imperial Fighter Laser Cannon"
-	gun -6 -30 "Imperial Fighter Ion Cannon"
-	gun 6 -30 "Imperial Fighter Ion Cannon"
+	gun -20 -24 "Fighter Laser Cannon (Green)"
+	gun -13 -22 "Fighter Laser Cannon (Green)"
+	gun 14 -23 "Fighter Laser Cannon (Green)"
+	gun 20 -24 "Fighter Laser Cannon (Green)"
+	gun -6 -30 "Fighter Ion Cannon (Green)"
+	gun 6 -30 "Fighter Ion Cannon (Green)"
 	gun -5 -4 "Concussion Missile Launcher"
 	gun 6 -4 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -1034,9 +1082,9 @@ ship "TIE/D Fighter (Fighter)"
 	"never disabled"
 	attributes
 		category "Fighter"
-		"cost" 129000
-		"shields" 2000
-		"hull" 1000
+		"cost" 300000
+		"shields" 2300
+		"hull" 1100
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -1052,29 +1100,105 @@ ship "TIE/D Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 4
-		"Imperial Fighter Ion Cannon" 2
+		"Fighter Laser Cannon (Green)" 4
+		"Fighter Ion Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 		
-		"l-s4d Solar Ionisation Reactor"
-		"Novaldex TIE/D Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 
 	engine -4 17
 	engine 6 16
-	gun -20 -24 "Imperial Fighter Laser Cannon"
-	gun -13 -22 "Imperial Fighter Laser Cannon"
-	gun 14 -23 "Imperial Fighter Laser Cannon"
-	gun 20 -24 "Imperial Fighter Laser Cannon"
-	gun -6 -30 "Imperial Fighter Ion Cannon"
-	gun 6 -30 "Imperial Fighter Ion Cannon"
+	gun -20 -24 "Fighter Laser Cannon (Green)"
+	gun -13 -22 "Fighter Laser Cannon (Green)"
+	gun 14 -23 "Fighter Laser Cannon (Green)"
+	gun 20 -24 "Fighter Laser Cannon (Green)"
+	gun -6 -30 "Fighter Ion Cannon (Green)"
+	gun 6 -30 "Fighter Ion Cannon (Green)"
 	gun -5 -4 "Concussion Missile Launcher"
 	gun 6 -4 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "TIE/D Fighter"
+
+
+
+ship "TIE/DG Fighter"
+	sprite "ship/tiedgfighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 129000
+		"shields" 0
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 107
+		"weapon capacity" 32
+		"engine capacity" 45
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Fighter Laser Cannon (Green)" 2
+		
+		"Fighter Power Converter"	
+		"Light Coolant System"
+
+		"Fighter Engine (Blue Flare)"
+
+	engine -6 22
+	engine 6 22
+	gun -28 -30 "Fighter Laser Cannon (Green)"
+	gun 29 -30 "Fighter Laser Cannon (Green)"
+	explode "large explosion" 3
+	description "TIE/DG Fighter"
+
+
+
+ship "TIE/DG Fighter (Fighter)"
+	sprite "ship/tiedgfighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 129000
+		"shields" 0
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 107
+		"weapon capacity" 32
+		"engine capacity" 45
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Fighter Laser Cannon (Green)" 2
+		
+		"Fighter Power Converter"	
+		"Light Coolant System"
+
+		"Fighter Engine (Blue Flare)"
+
+	engine -6 22
+	engine 6 22
+	gun -28 -30 "Fighter Laser Cannon (Green)"
+	gun 29 -30 "Fighter Laser Cannon (Green)"
+	explode "large explosion" 3
+	description "TIE/DG Fighter"
 
 
 
@@ -1100,19 +1224,19 @@ ship "TIE/IN Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 4
+		"Fighter Laser Cannon (Green)" 4
 		
-		"l-3a Solar Ionisation Reactor"	
+		"Fighter Power Converter"	
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 
 	engine -7 28
 	engine 6 29
-	gun -27 -36 "Imperial Fighter Laser Cannon"
-	gun 27 -38 "Imperial Fighter Laser Cannon"
-	gun -27 -36 "Imperial Fighter Laser Cannon"
-	gun 27 -38 "Imperial Fighter Laser Cannon"
+	gun -27 -36 "Fighter Laser Cannon (Green)"
+	gun 27 -38 "Fighter Laser Cannon (Green)"
+	gun -27 -36 "Fighter Laser Cannon (Green)"
+	gun 27 -38 "Fighter Laser Cannon (Green)"
 	explode "large explosion" 3
 	description "TIE/IN Fighter"
 
@@ -1140,19 +1264,19 @@ ship "TIE/IN Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 4
+		"Fighter Laser Cannon (Green)" 4
 		
-		"l-3a Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 
 	engine -7 28
 	engine 6 29
-	gun -27 -36 "Imperial Fighter Laser Cannon"
-	gun 27 -38 "Imperial Fighter Laser Cannon"
-	gun -27 -36 "Imperial Fighter Laser Cannon"
-	gun 27 -38 "Imperial Fighter Laser Cannon"
+	gun -27 -36 "Fighter Laser Cannon (Green)"
+	gun 27 -38 "Fighter Laser Cannon (Green)"
+	gun -27 -36 "Fighter Laser Cannon (Green)"
+	gun 27 -38 "Fighter Laser Cannon (Green)"
 	explode "large explosion" 3
 	description "TIE/IN Fighter"
 
@@ -1180,19 +1304,19 @@ ship "TIE/IN Fighter (Royal Guard)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 4
+		"Fighter Laser Cannon (Green)" 4
 		
-		"l-3a Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 
 	engine -8 28
 	engine 6 28
-	gun -29 -34 "Imperial Fighter Laser Cannon"
-	gun 28 -34 "Imperial Fighter Laser Cannon"
-	gun -29 -34 "Imperial Fighter Laser Cannon"
-	gun 28 -34 "Imperial Fighter Laser Cannon"
+	gun -29 -34 "Fighter Laser Cannon (Green)"
+	gun 28 -34 "Fighter Laser Cannon (Green)"
+	gun -29 -34 "Fighter Laser Cannon (Green)"
+	gun 28 -34 "Fighter Laser Cannon (Green)"
 	explode "large explosion" 3
 	description "TIE/IN Fighter"
 
@@ -1220,19 +1344,19 @@ ship "TIE/IN Fighter (Royal Guard) (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 4
+		"Fighter Laser Cannon (Green)" 4
 		
-		"l-3a Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 
 	engine -8 28
 	engine 6 28
-	gun -29 -34 "Imperial Fighter Laser Cannon"
-	gun 28 -34 "Imperial Fighter Laser Cannon"
-	gun -29 -34 "Imperial Fighter Laser Cannon"
-	gun 28 -34 "Imperial Fighter Laser Cannon"
+	gun -29 -34 "Fighter Laser Cannon (Green)"
+	gun 28 -34 "Fighter Laser Cannon (Green)"
+	gun -29 -34 "Fighter Laser Cannon (Green)"
+	gun 28 -34 "Fighter Laser Cannon (Green)"
 	explode "large explosion" 3
 	description "TIE/IN Fighter (Royal Guard)"
 
@@ -1261,7 +1385,7 @@ ship "TIE/IT Fighter"
 			"hull damage" 100
 			"hit force" 220
 	outfits
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 12
 		"Plasma Torpedo Launcher" 2
@@ -1271,16 +1395,16 @@ ship "TIE/IT Fighter"
 		"Advanced Homing Missile Launcher" 2
 		"Advanced Homing Missile" 12
 		
-		"l-a2c Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
-		Novaldex TIE/IT Deflector Shield Projector"
+		"Fighter Engine (Blue Flare)"
+		"Fighter Shield Projector"
 
 	engine -14 6
 	engine 14 6
-	gun -8 -17 "Imperial Fighter Laser Cannon"
-	gun 6 -16 "Imperial Fighter Laser Cannon"
+	gun -8 -17 "Fighter Laser Cannon (Green)"
+	gun 6 -16 "Fighter Laser Cannon (Green)"
 	gun -15 -15 "Concussion Missile Launcher"
 	gun 14 -16 "Concussion Missile Launcher"
 	gun -15 -15 "Plasma Torpedo Launcher"
@@ -1317,7 +1441,7 @@ ship "TIE/IT Fighter (Fighter)"
 			"hull damage" 100
 			"hit force" 220
 	outfits
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 12
 		"Plasma Torpedo Launcher" 2
@@ -1327,16 +1451,16 @@ ship "TIE/IT Fighter (Fighter)"
 		"Advanced Homing Missile Launcher" 2
 		"Advanced Homing Missile" 12
 		
-		"l-a2c Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
-		Novaldex TIE/IT Deflector Shield Projector"
+		"Fighter Engine (Blue Flare)"
+		"Fighter Shield Projector"
 
 	engine -14 6
 	engine 14 6
-	gun -8 -17 "Imperial Fighter Laser Cannon"
-	gun 6 -16 "Imperial Fighter Laser Cannon"
+	gun -8 -17 "Fighter Laser Cannon (Green)"
+	gun 6 -16 "Fighter Laser Cannon (Green)"
 	gun -15 -15 "Concussion Missile Launcher"
 	gun 14 -16 "Concussion Missile Launcher"
 	gun -15 -15 "Plasma Torpedo Launcher"
@@ -1372,17 +1496,17 @@ ship "TIE/LN Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		
-		"l-3b Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		
 	engine -8 8
 	engine 5 8
-	gun -12 -5 "Imperial Fighter Laser Cannon"
-	gun 7 -6 "Imperial Fighter Laser Cannon"
+	gun -12 -5 "Fighter Laser Cannon (Green)"
+	gun 7 -6 "Fighter Laser Cannon (Green)"
 	explode "large explosion" 3
 	description "TIE/LN Fighter"
 
@@ -1410,17 +1534,17 @@ ship "TIE/LN Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		
-		"l-3b Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		
 	engine -8 8
 	engine 5 8
-	gun -12 -5 "Imperial Fighter Laser Cannon"
-	gun 7 -6 "Imperial Fighter Laser Cannon"
+	gun -12 -5 "Fighter Laser Cannon (Green)"
+	gun 7 -6 "Fighter Laser Cannon (Green)"
 	explode "large explosion" 3
 	description "TIE/LN Fighter"
 
@@ -1449,23 +1573,23 @@ ship "TIE/PH Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 5
+		"Fighter Laser Cannon (Green)" 5
 		
-		"l-3b Solar Ionisation Reactor"	
-		"Mk.III Stygium Cloaking Device"
-		"Novaldex TIE/PH Deflector Shield Projector"
+		"Fighter Power Converter"	
+		"Cloaking Device"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		"Light Hyperspace Motivator"
 		
 	engine -5 41
 	engine 5 40
-	gun -9 -35 "Imperial Fighter Laser Cannon"
-	gun -1 -36 "Imperial Fighter Laser Cannon"
-	gun 9 -36 "Imperial Fighter Laser Cannon"
-	gun -6 8 "Imperial Fighter Laser Cannon"
-	gun 5 8 "Imperial Fighter Laser Cannon"
+	gun -9 -35 "Fighter Laser Cannon (Green)"
+	gun -1 -36 "Fighter Laser Cannon (Green)"
+	gun 9 -36 "Fighter Laser Cannon (Green)"
+	gun -6 8 "Fighter Laser Cannon (Green)"
+	gun 5 8 "Fighter Laser Cannon (Green)"
 	explode "large explosion" 3
 	description "TIE/PH Fighter"
 
@@ -1494,22 +1618,22 @@ ship "TIE/PH Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 5
+		"Fighter Laser Cannon (Green)" 5
 		
-		"l-3b Solar Ionisation Reactor"	
-		"Mk.III Stygium Cloaking Device"
-		"Novaldex TIE/PH Deflector Shield Projector"
+		"Fighter Power Converter"	
+		"Cloaking Device"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		
 	engine -5 41
 	engine 5 40
-	gun -9 -35 "Imperial Fighter Laser Cannon"
-	gun -1 -36 "Imperial Fighter Laser Cannon"
-	gun 9 -36 "Imperial Fighter Laser Cannon"
-	gun -6 8 "Imperial Fighter Laser Cannon"
-	gun 5 8 "Imperial Fighter Laser Cannon"
+	gun -9 -35 "Fighter Laser Cannon (Green)"
+	gun -1 -36 "Fighter Laser Cannon (Green)"
+	gun 9 -36 "Fighter Laser Cannon (Green)"
+	gun -6 8 "Fighter Laser Cannon (Green)"
+	gun 5 8 "Fighter Laser Cannon (Green)"
 	explode "large explosion" 3
 	description "TIE/PH Fighter"
 
@@ -1538,21 +1662,21 @@ ship "TIE/SA Fighter"
 			"hull damage" 80
 			"hit force" 200
 	outfits
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 10
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 		
-		"l-a2b Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 
 	engine -11 16
 	engine 12 16
-	gun 7 -22 "Imperial Fighter Laser Cannon"
-	gun 16 -21 "Imperial Fighter Laser Cannon"
+	gun 7 -22 "Fighter Laser Cannon (Green)"
+	gun 16 -21 "Fighter Laser Cannon (Green)"
 	gun -11 -15 "Concussion Missile Launcher"
 	gun -11 -15 "Concussion Missile Launcher"
 	gun -11 -15 "Proton Torpedo Launcher"
@@ -1584,21 +1708,21 @@ ship "TIE/SA Fighter (Fighter)"
 			"hull damage" 80
 			"hit force" 200
 	outfits
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 10
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 		
-		"l-a2b Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 
 	engine -11 16
 	engine 12 16
-	gun 7 -22 "Imperial Fighter Laser Cannon"
-	gun 16 -21 "Imperial Fighter Laser Cannon"
+	gun 7 -22 "Fighter Laser Cannon (Green)"
+	gun 16 -21 "Fighter Laser Cannon (Green)"
 	gun -11 -15 "Concussion Missile Launcher"
 	gun -11 -15 "Concussion Missile Launcher"
 	gun -11 -15 "Proton Torpedo Launcher"
@@ -1629,21 +1753,21 @@ ship "TIE/SK Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 6
+		"Fighter Laser Cannon (Green)" 6
 		
-		"l-3a Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 
 	engine -3 30
 	engine 4 30
-	gun -5 -37 "Imperial Fighter Laser Cannon"
-	gun 6 -37 "Imperial Fighter Laser Cannon"
-	gun -5 -37 "Imperial Fighter Laser Cannon"
-	gun 6 -37 "Imperial Fighter Laser Cannon"
-	gun -3 5 "Imperial Fighter Laser Cannon"
-	gun 4 5 "Imperial Fighter Laser Cannon"
+	gun -5 -37 "Fighter Laser Cannon (Green)"
+	gun 6 -37 "Fighter Laser Cannon (Green)"
+	gun -5 -37 "Fighter Laser Cannon (Green)"
+	gun 6 -37 "Fighter Laser Cannon (Green)"
+	gun -3 5 "Fighter Laser Cannon (Green)"
+	gun 4 5 "Fighter Laser Cannon (Green)"
 	explode "large explosion" 3
 	description "TIE/SK Fighter"
 
@@ -1671,21 +1795,21 @@ ship "TIE/SK Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Imperial Fighter Laser Cannon" 6
+		"Fighter Laser Cannon (Green)" 6
 		
-		"l-3a Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 
 	engine -3 30
 	engine 4 30
-	gun -5 -37 "Imperial Fighter Laser Cannon"
-	gun 6 -37 "Imperial Fighter Laser Cannon"
-	gun -5 -37 "Imperial Fighter Laser Cannon"
-	gun 6 -37 "Imperial Fighter Laser Cannon"
-	gun -3 5 "Imperial Fighter Laser Cannon"
-	gun 4 5 "Imperial Fighter Laser Cannon"
+	gun -5 -37 "Fighter Laser Cannon (Green)"
+	gun 6 -37 "Fighter Laser Cannon (Green)"
+	gun -5 -37 "Fighter Laser Cannon (Green)"
+	gun 6 -37 "Fighter Laser Cannon (Green)"
+	gun -3 5 "Fighter Laser Cannon (Green)"
+	gun 4 5 "Fighter Laser Cannon (Green)"
 	explode "large explosion" 3
 	description "TIE/SK Fighter"
 
@@ -1718,12 +1842,12 @@ ship "Immobiliser 418 Cruiser"
 		"Rendii V Dual Turbolaser Battery" 8
 		"Tractor Beam" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"Medium Imperial Ion Thruster"
+		"Cruiser Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine -207 800
@@ -1807,12 +1931,12 @@ ship "Imperial Customs Corvette"
 	outfits
 		"Raider Dual Turbolaser Cannon" 6
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Raider Corvette Ion Drive"
+		"Corvette Sublight Engine (Blue)"
 		"Medium Hyperspace Motivator"
 		
 	engine -54 226
@@ -1859,12 +1983,12 @@ ship "Imperial Customs Corvette (Military)"
 	outfits
 		"Raider Dual Turbolaser Cannon" 9
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Raider Corvette Ion Drive"
+		"Corvette Sublight Engine (Blue)"
 		"Medium Hyperspace Motivator"
 		
 	engine -51 216
@@ -1916,12 +2040,12 @@ ship "Imperial I Star Destroyer"
 		"Rendii V Dual Turbolaser Battery" 12
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 
 	engine -422 1475
@@ -2077,12 +2201,12 @@ ship "Imperial II Star Destroyer"
 		"Rendii V Dual Turbolaser Battery" 12
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -422 1475
@@ -2220,10 +2344,10 @@ ship "Imperial Tanker"
 		"cost" 15200000
 		"shields" 37000
 		"hull" 10000
-		"required crew" 115
-		"bunks" 180
-		"mass" 2100
-		"drag" 5.2
+		"required crew" 50
+		"bunks" 160
+		"mass" 2550
+		"drag" 5.5
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 50
@@ -2238,12 +2362,12 @@ ship "Imperial Tanker"
 	outfits
 		"GR-75"
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Raider Corvette Ion Drive"
+		"Corvette Sublight Engine (Blue)"
 		"Medium Hyperspace Motivator"
 		
 	engine -34 278
@@ -2281,10 +2405,10 @@ ship "Imperial LAAT/le"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		
 		"Quadex Power Core"
-		"Transport Deflector Shield Projector"
+		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
@@ -2293,8 +2417,8 @@ ship "Imperial LAAT/le"
 		
 	engine -21 61
 	engine 18 61
-	gun -20 -5 "Imperial Fighter Laser Cannon"
-	gun 18 -4 "Imperial Fighter Laser Cannon"
+	gun -20 -5 "Fighter Laser Cannon (Green)"
+	gun 18 -4 "Fighter Laser Cannon (Green)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2331,12 +2455,12 @@ ship "Victory I Star Destroyer"
 		"Rendii V Dual Turbolaser Battery" 17
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -312 1020
@@ -2433,12 +2557,12 @@ ship "Interdictor Star Destroyer"
 		"Rendii V Dual Turbolaser Battery" 14
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 
 	engine -395 1336
@@ -2570,12 +2694,12 @@ ship "Vigil-class Corvette"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 20
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Raider Corvette Ion Drive"
+		"Corvette Sublight Engine (Blue)"
 		"Medium Hyperspace Motivator"
 		
 	engine -114 279
@@ -2629,12 +2753,12 @@ ship "Indictor-class Electronic Warfare Star Corvette"
 	outfits
 		"Raider Dual Turbolaser Cannon" 3
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Raider Corvette Ion Drive"
+		"Corvette Sublight Engine (Blue)"
 		"Medium Hyperspace Motivator"
 		
 	engine -1 338
@@ -2679,7 +2803,7 @@ ship "Intersector-class Sloop"
 		"Imperial Transport Quad Turbolaser Turret" 2
 		
 		"Quadex Power Core"
-		"YT1300 Deflector Shield Projector"
+		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
@@ -2714,12 +2838,12 @@ ship "IPV-1 System Patrol Craft"
 	attributes
 		category "Light Warship"
 		"cost" 1400000
-		"shields" 18000
+		"shields" 14000
 		"hull" 7600
 		"required crew" 3
 		"bunks" 12
-		"mass" 1600
-		"drag" 4.7
+		"mass" 320
+		"drag" 3.2
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 10
@@ -2735,12 +2859,12 @@ ship "IPV-1 System Patrol Craft"
 		"Imperial Transport Laser Cannon" 3
 		"Imperial Transport Laser Turret"
 		
-		"Gozanti Power Converter"
-		"Gozanti Deflector Shield"
+		"Transport Power Converter"
+		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Gozanti Ion Drive"
+		"Transport Sublight Engine"
 		"Medium Hyperspace Motivator"
 	
 	engine -25 182
@@ -2787,12 +2911,12 @@ ship "Fulgor-class Pursuit Frigate"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 20
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Fulgor Frigate Ion Drive"
+		"Corvette Sublight Engine (Blue)"
 		"Medium Hyperspace Motivator"
 		
 	engine -112 593
@@ -2858,12 +2982,12 @@ ship "Executor-class Star Dreadnought"
 		"Rendii V Dual Turbolaser Battery" 20
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -213 892 1
@@ -3267,12 +3391,12 @@ ship "Gladiator Star Destroyer"
 		"Rendii V Dual Turbolaser Battery" 8
 		"Tractor Beam" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -202 737
@@ -3356,12 +3480,12 @@ ship "Consolidator-class Corps Assault Ship"
 		"Rendii V Dual Turbolaser Battery" 6
 		"Tractor Beam" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -106 607
@@ -3405,6 +3529,249 @@ ship "Consolidator-class Corps Assault Ship"
 
 
 
+ship "Kontos-class Star Frigate"
+	sprite "ship/kontosstarfrigate"
+	attributes
+		category "Heavy Warship"
+		"cost" 110000000
+		"shields" 117500
+		"hull" 40500
+		"required crew" 2200
+		"bunks" 4000
+		"mass" 8200
+		"drag" 23
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 300
+		"outfit space" 1834
+		"weapon capacity" 910
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Rendii V Quad Turbolaser Battery" 6
+		"Rendii V Dual Turbolaser Battery" 9
+		"Tractor Beam" 2
+		
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"Destroyer Sublight Engine"
+		"Heavy Hyperspace Motivator"
+		
+	engine -201 397
+	engine 201 397
+	engine 0 504
+	turret -205 116 "Rendii V Quad Turbolaser Battery"
+	turret 203 117 "Rendii V Quad Turbolaser Battery"
+	turret -94 -71 "Rendii V Quad Turbolaser Battery"
+	turret 93 -71 "Rendii V Quad Turbolaser Battery"
+	turret -106 -262 "Rendii V Quad Turbolaser Battery"
+	turret 105 -263 "Rendii V Quad Turbolaser Battery"
+	turret -80 540 "Rendii V Dual Turbolaser Battery"
+	turret 79 540 "Rendii V Dual Turbolaser Battery"
+	turret -190 -137 "Rendii V Dual Turbolaser Battery"
+	turret 189 -136 "Rendii V Dual Turbolaser Battery"
+	turret -164 -240 "Rendii V Dual Turbolaser Battery"
+	turret 162 -241 "Rendii V Dual Turbolaser Battery"
+	turret 0 -750 "Rendii V Dual Turbolaser Battery"
+	turret -1 729 "Rendii V Dual Turbolaser Battery"
+	turret -1 -275 "Rendii V Dual Turbolaser Battery"
+	turret 0 -25 "Tractor Beam"
+	turret 0 -25 "Tractor Beam"
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	fighter 0 -25
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description  "Kontos-class Star Frigate (Fighters 16)"
+
+
+
+ship "I-7 Howlrunner"
+	sprite "ship/i7howlrunnerstarfighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 165000
+		"shields" 500
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .9
+		"fuel capacity" 700
+		"heat dissipation" .9
+		"outfit space" 167
+		"weapon capacity" 62
+		"engine capacity" 45
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Fighter Laser Cannon (Green)" 2
+		
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Blue Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -5 34
+	engine 6 34
+	gun -10 -39 "Fighter Laser Cannon (Green)"
+	gun 10 -40 "Fighter Laser Cannon (Green)"
+	explode "large explosion" 3
+	description "The Incom Corporation I-7 Howlrunner was a short range attack starfighter employed by the Galactic Empire during the Galactic Civil War. The Howlrunner was constructed around an aerodynamic fixed-wing structure. Two fins jutted out of the sides of the craft, meant to function as rudimentary maneuvering flaps. Though this design was rather simple it gave the Howlrunner superior performance to the TIE/LN starfighter in both space and atmosphere. The controls had a small learning curve, ensuring that nearly any pilot with basic skills could control the craft—although only the most experienced could discover the true power of this starfighter."
+
+
+
+ship "I-7 Howlrunner (Fighter)"
+	sprite "ship/i7howlrunnerstarfighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 165000
+		"shields" 500
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .9
+		"fuel capacity" 0
+		"heat dissipation" .9
+		"outfit space" 167
+		"weapon capacity" 62
+		"engine capacity" 45
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Fighter Laser Cannon (Green)" 2
+		
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Blue Flare)"
+
+	engine -5 34
+	engine 6 34
+	gun -10 -39 "Fighter Laser Cannon (Green)"
+	gun 10 -40 "Fighter Laser Cannon (Green)"
+	explode "large explosion" 3
+	description "The Incom Corporation I-7 Howlrunner was a short range attack starfighter employed by the Galactic Empire during the Galactic Civil War. The Howlrunner was constructed around an aerodynamic fixed-wing structure. Two fins jutted out of the sides of the craft, meant to function as rudimentary maneuvering flaps. Though this design was rather simple it gave the Howlrunner superior performance to the TIE/LN starfighter in both space and atmosphere. The controls had a small learning curve, ensuring that nearly any pilot with basic skills could control the craft—although only the most experienced could discover the true power of this starfighter."
+
+
+
+ship "Strike-class Medium Cruiser"
+	sprite "ship/strikemediumcruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 105000000
+		"shields" 114500
+		"hull" 39500
+		"required crew" 1972
+		"bunks" 3000
+		"mass" 8100
+		"drag" 23
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 300
+		"outfit space" 1834
+		"weapon capacity" 910
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Rendii V Quad Turbolaser Battery" 6
+		"Rendii V Dual Turbolaser Battery" 8
+		"Tractor Beam" 2
+		
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"Destroyer Sublight Engine"
+		"Heavy Hyperspace Motivator"
+		
+	engine -34 419
+	engine 36 417
+	turret -93 196 "Rendii V Quad Turbolaser Battery"
+	turret 94 198 "Rendii V Quad Turbolaser Battery"
+	turret -106 130 "Rendii V Quad Turbolaser Battery"
+	turret 106 131 "Rendii V Quad Turbolaser Battery"
+	turret -84 84 "Rendii V Quad Turbolaser Battery"
+	turret 85 84 "Rendii V Quad Turbolaser Battery"
+	turret -33 -369 "Rendii V Dual Turbolaser Battery"
+	turret 35 -370 "Rendii V Dual Turbolaser Battery"
+	turret -45 -287 "Rendii V Dual Turbolaser Battery"
+	turret 46 -286 "Rendii V Dual Turbolaser Battery"
+	turret -53 -143 "Rendii V Dual Turbolaser Battery"
+	turret 56 -145 "Rendii V Dual Turbolaser Battery"
+	turret -54 362 "Rendii V Dual Turbolaser Battery"
+	turret 53 362 "Rendii V Dual Turbolaser Battery"
+	turret 0 -31 "Tractor Beam"
+	turret 0 -31 "Tractor Beam"
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	fighter 0 -31
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description  "The Strike-class medium cruiser was a medium star cruiser designed by the Loronar Corporation during the Galactic Civil War for the Imperial Navy as a general-purpose vessel capable of modular modifications to allow it to fit many mission profiles, yet cheap enough to be produced in large quantities. A departure from the Navy's trend towards increasingly large warships, the Strike-class cruiser was an admission to diminished ability to defend space superiority against the Rebel Alliance and other forces as the conflict wore on. (Fighters 18)"
+
+
+
 ship "Quasar Fire I-class Bulk Cruiser"
 	sprite "ship/quasarcarrierold"
 	attributes
@@ -3430,12 +3797,12 @@ ship "Quasar Fire I-class Bulk Cruiser"
 	outfits
 		"Rendii V Dual Turbolaser Battery" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"Medium Imperial Ion Thruster"
+		"Cruiser Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine -285 518
@@ -3446,54 +3813,54 @@ ship "Quasar Fire I-class Bulk Cruiser"
 	engine 49 517
 	turret -57 -462 "Rendii V Dual Turbolaser Battery"
 	turret 38 -462 "Rendii V Dual Turbolaser Battery"
-	gun -287 146
-	gun 268 146
-	gun -192 145
+	fighter -287 146
+	fighter 268 146
+	fighter -192 145
+	fighter 175 145
+	fighter -100 146
+	fighter 30 143
+	fighter -287 146
+	fighter 268 146
+	fighter -192 145
+	fighter 175 145
+	fighter -100 146
+	fighter 30 143
+	fighter -287 146
+	fighter 268 146
+	fighter -192 145
+	fighter 175 145
+	fighter -100 146
+	fighter 30 143
+	fighter -287 146
+	fighter 268 146
+	fighter -192 145
+	fighter 175 145
+	fighter -100 146
+	fighter 30 143
+	fighter -287 146
+	fighter 268 146
+	fighter -192 145
 	gun 175 145
-	gun -100 146
-	gun 30 143
-	gun -287 146
-	gun 268 146
-	gun -192 145
-	gun 175 145
-	gun -100 146
-	gun 30 143
-	gun -287 146
-	gun 268 146
-	gun -192 145
-	gun 175 145
-	gun -100 146
-	gun 30 143
-	gun -287 146
-	gun 268 146
-	gun -192 145
-	gun 175 145
-	gun -100 146
-	gun 30 143
-	gun -287 146
-	gun 268 146
-	gun -192 145
-	gun 175 145
-	gun -100 146
-	gun 30 143
-	gun -287 146
-	gun 268 146
-	gun -192 145
-	gun 175 145
-	gun -100 146
-	gun 30 143
-	gun -287 146
-	gun 268 146
-	gun -192 145
-	gun 175 145
-	gun -100 146
-	gun 30 143
-	gun -287 146
-	gun 268 146
-	gun -192 145
-	gun 175 145
-	gun -100 146
-	gun 30 143
+	fighter -100 146
+	fighter 30 143
+	fighter -287 146
+	fighter 268 146
+	fighter -192 145
+	fighter 175 145
+	fighter -100 146
+	fighter 30 143
+	fighter -287 146
+	fighter 268 146
+	fighter -192 145
+	fighter 175 145
+	fighter -100 146
+	fighter 30 143
+	fighter -287 146
+	fighter 268 146
+	fighter -192 145
+	fighter 175 145
+	fighter -100 146
+	fighter 30 143
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3529,12 +3896,12 @@ ship "Quasar Fire II-class Bulk Cruiser"
 	outfits
 		"Rendii V Dual Turbolaser Battery" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"Medium Imperial Ion Thruster"
+		"Cruiser Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine -347 486
@@ -3631,34 +3998,34 @@ ship "Vindicator-class Heavy Cruiser"
 		"Rendii V Dual Turbolaser Battery" 9
 		"Tractor Beam" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
-	engine -216 798
-	engine -119 798
-	engine 0 814
-	engine 124 799
-	engine 218 799
-	turret -253 700 "Rendii V Quad Turbolaser Battery"
-	turret 256 699 "Rendii V Quad Turbolaser Battery"
-	turret -294 438 "Rendii V Quad Turbolaser Battery"
-	turret 295 438 "Rendii V Quad Turbolaser Battery"
-	turret -84 350 "Rendii V Quad Turbolaser Battery"
-	turret 87 350 "Rendii V Quad Turbolaser Battery"
-	turret 0 -731 "Rendii V Dual Turbolaser Battery"
-	turret 0 -375 "Rendii V Dual Turbolaser Battery"
-	turret 0 -5 "Rendii V Dual Turbolaser Battery"
-	turret -170 194 "Rendii V Dual Turbolaser Battery"
-	turret 172 194 "Rendii V Dual Turbolaser Battery"
-	turret -385 582 "Rendii V Dual Turbolaser Battery"
-	turret 385 583 "Rendii V Dual Turbolaser Battery"
-	turret -172 586 "Rendii V Dual Turbolaser Battery"
-	turret 174 585 "Rendii V Dual Turbolaser Battery"
+	engine -216 815
+	engine -118 814
+	engine 1 829
+	engine 124 815
+	engine 222 815
+	turret -254 715 "Rendii V Quad Turbolaser Battery"
+	turret 257 714 "Rendii V Quad Turbolaser Battery"
+	turret -294 454 "Rendii V Quad Turbolaser Battery"
+	turret 294 454 "Rendii V Quad Turbolaser Battery"
+	turret -85 366 "Rendii V Quad Turbolaser Battery"
+	turret 87 366 "Rendii V Quad Turbolaser Battery"
+	turret -171 210 "Rendii V Dual Turbolaser Battery"
+	turret 172 209 "Rendii V Dual Turbolaser Battery"
+	turret 1 -361 "Rendii V Dual Turbolaser Battery"
+	turret 0 -713 "Rendii V Dual Turbolaser Battery"
+	turret -385 598 "Rendii V Dual Turbolaser Battery"
+	turret 386 598 "Rendii V Dual Turbolaser Battery"
+	turret -173 601 "Rendii V Dual Turbolaser Battery"
+	turret 174 600 "Rendii V Dual Turbolaser Battery"
+	turret 0 -361 "Rendii V Dual Turbolaser Battery"
 	turret 0 151 "Tractor Beam"
 	turret 0 151 "Tractor Beam"
 	fighter 0 151
@@ -3722,12 +4089,12 @@ ship "Altor-class Replenishment Ship"
 	outfits
 		"Rendii V Dual Turbolaser Battery" 2
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 6
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -190 1531
@@ -3775,12 +4142,12 @@ ship "Impellor-class Fleet Carrier"
 		"Rendii V Turbolaser Battery" 10
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 
 	engine -720 1186
@@ -3983,12 +4350,12 @@ ship "Allegiance-class Battlecruiser"
 		"Rendii V Turbolaser Battery" 10
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 
 	engine -800 2367
@@ -4066,12 +4433,12 @@ ship "Assertor Star Dreadnought"
 		"Rendii V Dual Turbolaser Battery" 20
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -213 892 1
@@ -4446,7 +4813,7 @@ ship "Assertor Star Dreadnought"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Assertor Star Dreadnought has a complement of TIE/ = 320"
+	description "The Assertor-class Star Dreadnought was a class of Imperial Star Dreadnought. The Assertor-class Star Dreadnought was 15 kilometers long and had a hull-shape similar to the Executor-class Star Dreadnought, being primarily shaped like an arrowhead. It was considered the second largest of the standard Star Dreadnought line (with only the Executor-class being larger), as well as the largest in the Imperial Navy in a family that included the Mandator- and Bellator-class ships. (Fighters 320)"
 
 ship "Bellator Star Dreadnought"
 	sprite "ship/bellatorstardreadnought"
@@ -4475,12 +4842,12 @@ ship "Bellator Star Dreadnought"
 		"Rendii V Dual Turbolaser Battery" 20
 		"Tractor Beam" 4
 		
-		"Victory I Power Converter"
-		"Victory I Deflector Shield"
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
-		"LF9 Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -213 892 1
@@ -4670,7 +5037,232 @@ ship "Bellator Star Dreadnought"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Bellator Star Dreadnought has a complement of TIE/ = 140"
+	description "The Bellator-class dreadnought was a warship in the Imperial Navy, as well as a divergent design in the Mandator-series of Star Dreadnought. During the class's service period, several Bellator-class dreadnoughts were known to have docked at Naval Station Validusia for refueling and maintenance alongside other heavy warships. In addition, ships of both this class and that of its cousin, the Mandator-class, often flanked the Assertor-class Star Dreadnought in fleet formations during the Galactic Civil War since prior to the Battle of Yavin, largely due to that ship's role as a sector command and control ship. (Fighters 140)"
+
+ship "Legator Star Dreadnought"
+	sprite "ship/legatorstardreadnought"
+	attributes
+		category "Heavy Warship"
+		"cost" 850000000
+		"shields" 900000
+		"hull" 350000
+		"required crew" 220000
+		"bunks" 300000
+		"mass" 45000
+		"drag" 39
+		"heat dissipation" .2
+		"fuel capacity" 2000
+		"cargo space" 700
+		"outfit space" 2494
+		"weapon capacity" 1570
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Rendii V Quad Turbolaser Battery" 20
+		"Rendii V Dual Turbolaser Battery" 20
+		"Tractor Beam" 4
+		
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"Destroyer Sublight Engine"
+		"Capital Hyperspace Motivator"
+		
+	engine -213 892 1
+	engine 213 892 1
+	turret -500 573 "Rendii V Quad Turbolaser Battery"
+	turret -500 703 "Rendii V Quad Turbolaser Battery"
+	turret -500 848 "Rendii V Quad Turbolaser Battery"
+	turret -500 985 "Rendii V Quad Turbolaser Battery"
+	turret -500 1090 "Rendii V Quad Turbolaser Battery"
+	turret 515 573 "Rendii V Quad Turbolaser Battery"
+	turret 515 703 "Rendii V Quad Turbolaser Battery"
+	turret 515 848 "Rendii V Quad Turbolaser Battery"
+	turret 515 985 "Rendii V Quad Turbolaser Battery"
+	turret 515 1090 "Rendii V Quad Turbolaser Battery"
+	turret -500 573 "Rendii V Quad Turbolaser Battery"
+	turret -500 703 "Rendii V Quad Turbolaser Battery"
+	turret -500 848 "Rendii V Quad Turbolaser Battery"
+	turret -500 985 "Rendii V Quad Turbolaser Battery"
+	turret -500 1090 "Rendii V Quad Turbolaser Battery"
+	turret 515 573 "Rendii V Quad Turbolaser Battery"
+	turret 515 703 "Rendii V Quad Turbolaser Battery"
+	turret 515 848 "Rendii V Quad Turbolaser Battery"
+	turret 515 985 "Rendii V Quad Turbolaser Battery"
+	turret 515 1090 "Rendii V Quad Turbolaser Battery"
+	turret -500 573 "Rendii V Dual Turbolaser Battery"
+	turret -500 703 "Rendii V Dual Turbolaser Battery"
+	turret -500 848 "Rendii V Dual Turbolaser Battery"
+	turret -500 985 "Rendii V Dual Turbolaser Battery"
+	turret -500 1090 "Rendii V Dual Turbolaser Battery"
+	turret 515 573 "Rendii V Dual Turbolaser Battery"
+	turret 515 703 "Rendii V Dual Turbolaser Battery"
+	turret 515 848 "Rendii V Dual Turbolaser Battery"
+	turret 515 985 "Rendii V Dual Turbolaser Battery"
+	turret 515 1090 "Rendii V Dual Turbolaser Battery"
+	turret 515 703 "Rendii V Dual Turbolaser Battery"
+	turret 515 848 "Rendii V Dual Turbolaser Battery"
+	turret 515 985 "Rendii V Dual Turbolaser Battery"
+	turret 515 1090 "Rendii V Dual Turbolaser Battery"
+	turret 515 985 "Rendii V Dual Turbolaser Battery"
+	turret 515 1090 "Rendii V Dual Turbolaser Battery"
+	turret 515 985 "Rendii V Dual Turbolaser Battery"
+	turret 515 1090 "Rendii V Dual Turbolaser Battery"
+	turret 515 985 "Rendii V Dual Turbolaser Battery"
+	turret 515 1090 "Rendii V Dual Turbolaser Battery"
+	turret 515 703 "Tractor Beam"
+	turret 515 848 "Tractor Beam"
+	turret 515 985 "Tractor Beam"
+	turret 515 1090 "Tractor Beam"
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	fighter 72 -46
+	fighter -101 57
+	fighter 101 57
+	fighter -74 57
+	fighter 74 57
+	fighter -37 -65
+	fighter 37 -65
+	fighter -46 40
+	fighter 46 40
+	fighter -72 -46
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Legator-class Star Dreadnought is a massively powerful warship deployed by the Sith Empire and commanded by Admiral Zahori Denko of the Sith-Imperial Armada. The 10,000 meter dreadnought is yet another addition to the many star dreadnoughts under the Sith Empire. (Fighters 140)"
+
 
 ship "Zeta-class Cargo Shuttle"
 	sprite "ship/zetacargoshuttle"
@@ -4696,10 +5288,10 @@ ship "Zeta-class Cargo Shuttle"
 			"hit force" 800
 	outfits
 		"Gozanti Heavy Laser Cannon" 2
-		"Imperial Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Green)" 2
 		
 		"Quadex Power Core"
-		"Transport Deflector Shield Projector"
+		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
@@ -4708,8 +5300,8 @@ ship "Zeta-class Cargo Shuttle"
 		
 	engine -31 73
 	engine 28 73
-	gun -19 -84 "Imperial Fighter Laser Cannon"
-	gun 16 -84 "Imperial Fighter Laser Cannon"
+	gun -19 -84 "Fighter Laser Cannon (Green)"
+	gun 16 -84 "Fighter Laser Cannon (Green)"
 	turret -54 -64 "Gozanti Heavy Laser Cannon"
 	turret 52 -65 "Gozanti Heavy Laser Cannon"
 	explode "tiny explosion" 20

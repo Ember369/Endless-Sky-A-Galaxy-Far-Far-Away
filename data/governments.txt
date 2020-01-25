@@ -54,6 +54,20 @@ government "First Order"
 		"Bounty Hunter" 0
 		"Civilian" 0.04
 		"Scum & Villainy" -0.04
+		"Last Order" 0.04
+		"Resistance" -0.04
+	bribe 0
+
+government "Last Order"
+	swizzle 0
+	color .99 .99 .99
+		
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" 0.04
+		"Scum & Villainy" -0.04
+		"First Order" 0.04
 		"Resistance" -0.04
 	bribe 0
 
@@ -66,6 +80,7 @@ government "Resistance"
 		"Bounty Hunter" 0
 		"Civilian" 0.04
 		"First Order" -0.04
+		"Last Order" -0.04
 		"Scum & Villainy" -0.04
 
 government "Escort"
@@ -84,6 +99,15 @@ government "Civilian"
 	"fine" 0
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
+
+government "Purrgil"
+	swizzle 0
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Galactic Empire" 0
+		"Rebel Alliance" 0
+		"Scum & Villainy" 0
 
 government "Neutral"
 	swizzle 0

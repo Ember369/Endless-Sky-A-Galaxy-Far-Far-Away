@@ -9,7 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 ship "RZ1 A-Wing"
-	sprite "ship/awingrz1"
+	sprite "ship/rz1awing"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -32,12 +32,12 @@ ship "RZ1 A-Wing"
 			"hull damage" 150
 			"hit force" 450
 	outfits
-		"Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 12
 		
-		"JZ-4g2 Power Converter"
-		"Z-9 Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 		
 		"Fighter Engine (Pink Flare)"
@@ -45,8 +45,8 @@ ship "RZ1 A-Wing"
 		
 	engine -12 31
 	engine 12 30
-	gun -24 -4 "Fighter Laser Cannon"
-	gun 24 -4 "Fighter Laser Cannon"
+	gun -24 -4 "Fighter Laser Cannon (Red)"
+	gun 24 -4 "Fighter Laser Cannon (Red)"
 	gun -14 -10 "Concussion Missile Launcher"
 	gun 13 -11 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -56,7 +56,7 @@ ship "RZ1 A-Wing"
 
 
 ship "RZ1 A-Wing (Fighter)"
-	sprite "ship/awingrz1prototype"
+	sprite "ship/rz1awingprototype"
 	"never disabled"
 	attributes
 		category "Fighter"
@@ -79,20 +79,20 @@ ship "RZ1 A-Wing (Fighter)"
 			"hull damage" 150
 			"hit force" 450
 	outfits
-		"Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 12
 		
-		"JZ-4g2 Power Converter"
-		"Z-9 Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 		
 		"Fighter Engine (Pink Flare)"
 		
 	engine -12 31
 	engine 12 30
-	gun -24 -4 "Fighter Laser Cannon"
-	gun 24 -4 "Fighter Laser Cannon"
+	gun -24 -4 "Fighter Laser Cannon (Red)"
+	gun 24 -4 "Fighter Laser Cannon (Red)"
 	gun -14 -10 "Concussion Missile Launcher"
 	gun 13 -11 "Concussion Missile Launcher"
 	explode "tiny explosion" 20
@@ -101,8 +101,57 @@ ship "RZ1 A-Wing (Fighter)"
 
 
 
+ship "Bussard-class Tanker"
+	sprite "ship/bussardtanker"
+	attributes
+		category "Heavy Freighter"
+		"cost" 34000000
+		"shields" 34000
+		"hull" 10500
+		"required crew" 60
+		"bunks" 190
+		"mass" 2600
+		"drag" 5.6
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 50
+		"outfit space" 729
+		"weapon capacity" 340
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"GR-75"
+		
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Corvette Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine 2 304
+	engine -26 253
+	engine 28 253
+	engine -52 45
+	engine 56 45
+	turret 0 -199 "GR-75"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Bussard primarily carried liquid fuels, but could be converted to carry water or Tibanna gas if needed. It features a door right below the canopy, and a ladder along the side."
+
+
+
+
 ship "A/SF-01 B-Wing"
-	sprite "ship/bwing"
+	sprite "ship/asf01bwing"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -125,13 +174,13 @@ ship "A/SF-01 B-Wing"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Laser Cannon" 4
+		"Fighter Laser Cannon (Red)" 4
 		"Fighter Ion Cannon" 3
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 20
 
-		"JZ-5g7 Power Converter"
-		"Zr-41 Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -139,10 +188,10 @@ ship "A/SF-01 B-Wing"
 		
 	engine 21 23
 	engine 28 23
-	gun -58 -17 "Fighter Laser Cannon"
-	gun -58 -17 "Fighter Laser Cannon"
-	gun 15 -15 "Fighter Laser Cannon"
-	gun 50 -14 "Fighter Laser Cannon"
+	gun -58 -17 "Fighter Laser Cannon (Red)"
+	gun -58 -17 "Fighter Laser Cannon (Red)"
+	gun 15 -15 "Fighter Laser Cannon (Red)"
+	gun 50 -14 "Fighter Laser Cannon (Red)"
 	gun -58 -17 "Fighter Ion Cannon"
 	gun 15 -15 "Fighter Ion Cannon"
 	gun 50 -14 "Fighter Ion Cannon"
@@ -154,7 +203,7 @@ ship "A/SF-01 B-Wing"
 
 
 ship "A/SF-01 B-Wing (Fighter)"
-	sprite "ship/bwing"
+	sprite "ship/asf01bwing"
 	"never disabled"
 	attributes
 		category "Fighter"
@@ -177,23 +226,23 @@ ship "A/SF-01 B-Wing (Fighter)"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Laser Cannon" 4
+		"Fighter Laser Cannon (Red)" 4
 		"Fighter Ion Cannon" 3
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 20
 
-		"JZ-5g7 Power Converter"
-		"Zr-41 Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
 		
 	engine 21 23
 	engine 28 23
-	gun -58 -17 "Fighter Laser Cannon"
-	gun -58 -17 "Fighter Laser Cannon"
-	gun 15 -15 "Fighter Laser Cannon"
-	gun 50 -14 "Fighter Laser Cannon"
+	gun -58 -17 "Fighter Laser Cannon (Red)"
+	gun -58 -17 "Fighter Laser Cannon (Red)"
+	gun 15 -15 "Fighter Laser Cannon (Red)"
+	gun 50 -14 "Fighter Laser Cannon (Red)"
 	gun -58 -17 "Fighter Ion Cannon"
 	gun 15 -15 "Fighter Ion Cannon"
 	gun 50 -14 "Fighter Ion Cannon"
@@ -205,7 +254,7 @@ ship "A/SF-01 B-Wing (Fighter)"
 
 
 ship "A/SF-01 B-Wing B6"
-	sprite "ship/bwingb6"
+	sprite "ship/asf01bwingb6"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -233,8 +282,8 @@ ship "A/SF-01 B-Wing B6"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 20
 
-		"JZ-5g7 Power Converter"
-		"Zr-41 Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -256,7 +305,7 @@ ship "A/SF-01 B-Wing B6"
 
 
 ship "A/SF-01 B-Wing B6 (Fighter)"
-	sprite "ship/bwingb6"
+	sprite "ship/asf01bwingb6"
 	"never disabled"
 	attributes
 		category "Fighter"
@@ -284,8 +333,8 @@ ship "A/SF-01 B-Wing B6 (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 20
 
-		"JZ-5g7 Power Converter"
-		"Zr-41 Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -332,12 +381,12 @@ ship "CC-7700 Interdictor Frigate"
 		"Turbolaser Turret" 4
 		"Dual Turbolaser Turret" 2
 		
-		"Corellian Power Converter"
-		"Corellian Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Corellian Corvette Ion Drive"
+		"Corvette Sublight Engine"
 		"Medium Hyperspace Motivator"
 		
 	engine -73 300
@@ -385,12 +434,12 @@ ship "CR90 Corvette"
 		"Turbolaser Turret" 4
 		"Dual Turbolaser Turret" 2
 		
-		"Corellian Power Converter"
-		"Corellian Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Corellian Corvette Ion Drive"
+		"Corvette Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine -68 283
@@ -442,12 +491,12 @@ ship "Dornean Gunship"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 32
 		
-		"Raider Power Converter"
-		"Raider Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Raider Corvette Ion Drive"
+		"Corvette Sublight Engine"
 		"Medium Hyperspace Motivator"
 		
 	engine -25 157
@@ -496,12 +545,12 @@ ship "DP20 Frigate"
 	outfits
 		"Turbolaser Turret" 10
 		
-		"Corellian Power Converter"
-		"Corellian Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Corellian Corvette Ion Drive"
+		"Corvette Sublight Engine"
 		"Medium Hyperspace Motivator"
 		
 	engine -54 252
@@ -527,7 +576,7 @@ ship "DP20 Frigate"
 
 
 ship "E-7 E-Wing"
-	sprite "ship/ewing"
+	sprite "ship/e7ewing"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -550,12 +599,12 @@ ship "E-7 E-Wing"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Laser Cannon" 3
+		"Fighter Laser Cannon (Red)" 3
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 16	
 
-		"FreiTek Power Converter"
-		"FreiTek Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -563,9 +612,9 @@ ship "E-7 E-Wing"
 		
 	engine -24 38
 	engine 24 39
-	gun -29 -2 "Fighter Laser Cannon"
-	gun 29 -2 "Fighter Laser Cannon"
-	gun 0 -11 "Fighter Laser Cannon"
+	gun -29 -2 "Fighter Laser Cannon (Red)"
+	gun 29 -2 "Fighter Laser Cannon (Red)"
+	gun 0 -11 "Fighter Laser Cannon (Red)"
 	gun -5 -7 "Concussion Missile Launcher"
 	gun 4 -8 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -575,7 +624,7 @@ ship "E-7 E-Wing"
 
 
 ship "E-7 E-Wing (Fighter)"
-	sprite "ship/ewing"
+	sprite "ship/e7ewing"
 	"never disabled"
 	attributes
 		category "Fighter"
@@ -598,12 +647,12 @@ ship "E-7 E-Wing (Fighter)"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Laser Cannon" 3
+		"Fighter Laser Cannon (Red)" 3
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 16	
 
-		"FreiTek Power Converter"
-		"FreiTek Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -611,9 +660,9 @@ ship "E-7 E-Wing (Fighter)"
 		
 	engine -24 38
 	engine 24 39
-	gun -29 -2 "Fighter Laser Cannon"
-	gun 29 -2 "Fighter Laser Cannon"
-	gun 0 -11 "Fighter Laser Cannon"
+	gun -29 -2 "Fighter Laser Cannon (Red)"
+	gun 29 -2 "Fighter Laser Cannon (Red)"
+	gun 0 -11 "Fighter Laser Cannon (Red)"
 	gun -5 -7 "Concussion Missile Launcher"
 	gun 4 -8 "Concussion Missile Launcher"
 	explode "large explosion" 3
@@ -626,7 +675,7 @@ ship "GR-75 Transport"
 	sprite "ship/gr75transport"
 	attributes
 		category "Transport"
-		"cost" 15200000
+		"cost" 15000000
 		"shields" 35000
 		"hull" 10000
 		"required crew" 6
@@ -646,12 +695,12 @@ ship "GR-75 Transport"
 	outfits
 		"GR-75" 1
 		
-		"Corellian Power Converter"
-		"Corellian Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Corellian Corvette Ion Drive"
+		"Corvette Sublight Engine"
 		"Medium Hyperspace Motivator"
 		
 	engine -32 123
@@ -662,6 +711,51 @@ ship "GR-75 Transport"
 	engine 19 148
 	engine 29 129
 	turret 1 -15 "GR-75"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "GR-75 Transport"
+
+
+
+ship "Unknown Rebel Transport"
+	sprite "ship/unknownrebeltransport"
+	attributes
+		category "Transport"
+		"cost" 20000000
+		"shields" 37000
+		"hull" 10000
+		"required crew" 10
+		"bunks" 500
+		"mass" 3000
+		"drag" 5.9
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 1000
+		"outfit space" 384
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"GR-75" 1
+		
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corvette Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -54 493
+	engine 51 492
+	engine 0 458
+	turret 0 -170 "GR-75"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -696,12 +790,12 @@ ship "Sphyrna-class Corvette (Modified)"
 	outfits
 		"Turbolaser Turret" 3
 		
-		"Corellian Power Converter"
-		"Corellian Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Corellian Corvette Ion Drive"
+		"Corvette Sublight Engine"
 		"Medium Hyperspace Motivator"
 		
 	engine -38 199
@@ -720,7 +814,7 @@ ship "Sphyrna-class Corvette (Modified)"
 
 
 ship "BTL-S8 K-Wing"
-	sprite "ship/kwing"
+	sprite "ship/btls8kwing"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -759,8 +853,8 @@ ship "BTL-S8 K-Wing"
 		"Plasma Torpedo Storage Rack"
 		"Plasma Torpedo Launcher" 2
 
-		"Koensayr K-Class Power Converter"
-		"Zr-41 Deflector Shield Projector"
+		"Heavy Fighter Power Converter"
+		"Heavy Fighter Shield Projector"
 		"Light Coolant System" 2
 
 		"Heavy Fighter Engine (Pink Flare)"
@@ -794,7 +888,7 @@ ship "BTL-S8 K-Wing"
 
 
 ship "BTL-S8 K-Wing (Fighter)"
-	sprite "ship/kwing"
+	sprite "ship/btls8kwing"
 	"never disabled"
 	attributes
 		category "Fighter"
@@ -833,8 +927,8 @@ ship "BTL-S8 K-Wing (Fighter)"
 		"Plasma Torpedo Storage Rack"
 		"Plasma Torpedo Launcher" 2
 
-		"Koensayr K-Class Power Converter"
-		"Zr-41 Deflector Shield Projector"
+		"Heavy Fighter Power Converter"
+		"Heavy Fighter Shield Projector"
 		"Light Coolant System" 2
 
 		"Heavy Fighter Engine (Pink Flare)"
@@ -909,8 +1003,8 @@ ship "BTL-S8 K-Wing (Ion Bombs)"
 		"Ion Bomb Launcher" 2
 		"Ion Bomb" 2
 
-		"Koensayr K-Class Power Converter"
-		"Zr-41 Deflector Shield Projector"
+		"Heavy Fighter Power Converter"
+		"Heavy Fighter Shield Projector"
 		"Light Coolant System" 2
 
 		"Heavy Fighter Engine (Pink Flare)"
@@ -945,6 +1039,151 @@ ship "BTL-S8 K-Wing (Ion Bombs)"
 
 
 
+ship "MC20 Escort Corvette"
+	sprite "ship/mc20starcorvette"
+	attributes
+		category "Medium Warship"
+		"cost" 45000000
+		"shields" 60000
+		"hull" 27000
+		"required crew" 500
+		"bunks" 1800
+		"mass" 3400
+		"drag" 8.4
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 200
+		"outfit space" 884
+		"weapon capacity" 480
+		"engine capacity" 210
+		weapon
+			"blast radius" 310
+			"shield damage" 750
+			"hull damage" 370
+			"hit force" 850
+	outfits
+		"Mon Calamari Turbolaser Turret" 12
+		
+		"Frigate Power Converter"
+		"Frigate Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Frigate Sublight Engine"
+		"Heavy Hyperspace Motivator"
+
+	engine -129 390
+	engine -92 389
+	engine 89 388
+	engine 126 388
+	engine -60 767
+	engine 57 766
+	turret -54 -674 "Mon Calamari Turbolaser Turret"
+	turret 44 -675 "Mon Calamari Turbolaser Turret"
+	turret -60 -553 "Mon Calamari Turbolaser Turret"
+	turret 50 -556 "Mon Calamari Turbolaser Turret"
+	turret -51 -427 "Mon Calamari Turbolaser Turret"
+	turret 50 -427 "Mon Calamari Turbolaser Turret"
+	turret -67 42 "Mon Calamari Turbolaser Turret"
+	turret 61 40 "Mon Calamari Turbolaser Turret"
+	turret -49 145 "Mon Calamari Turbolaser Turret"
+	turret 45 145 "Mon Calamari Turbolaser Turret"
+	turret -3 -376 "Mon Calamari Turbolaser Turret"
+	turret -3 407 "Mon Calamari Turbolaser Turret"
+	fighter -2 149
+	fighter -2 149
+	fighter -2 149
+	fighter -2 149
+	fighter -2 149
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "MC20 Star Corvette"
+
+
+
+ship "MC30c Escort Frigate"
+	sprite "ship/mc30cfrigate"
+	attributes
+		category "Medium Warship"
+		"cost" 75000000
+		"shields" 90000
+		"hull" 34000
+		"required crew" 820
+		"bunks" 1800
+		"mass" 8000
+		"drag" 20
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 400
+		"outfit space" 1574
+		"weapon capacity" 660
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Mon Calamari Turbolaser Turret" 21
+		"Proton Torpedo Launcher" 3
+		"MG9 Proton Torpedo" 36
+		
+		"Destroyer Shield Projector"
+		"Destroyer Power Converter"
+		"Small Radar Jammer"
+		"Water Coolant System" 5
+		
+		"Destroyer Sublight Engine"
+		"Capital Hyperspace Motivator"
+		
+	engine -51 293
+	engine 54 290
+	gun -14 -746 "Proton Torpedo Launcher"
+	gun 19 -747 "Proton Torpedo Launcher"
+	gun 2 -747 "Proton Torpedo Launcher"
+	turret -53 -895 "Mon Calamari Turbolaser Turret"
+	turret 48 -896 "Mon Calamari Turbolaser Turret"
+	turret -66 -807 "Mon Calamari Turbolaser Turret"
+	turret 64 -809 "Mon Calamari Turbolaser Turret"
+	turret -78 -713 "Mon Calamari Turbolaser Turret"
+	turret 77 -716 "Mon Calamari Turbolaser Turret"
+	turret -83 -614 "Mon Calamari Turbolaser Turret"
+	turret 84 -614 "Mon Calamari Turbolaser Turret"
+	turret -66 -506 "Mon Calamari Turbolaser Turret"
+	turret 72 -512 "Mon Calamari Turbolaser Turret"
+	turret -94 -395 "Mon Calamari Turbolaser Turret"
+	turret 101 -397 "Mon Calamari Turbolaser Turret"
+	turret -93 -348 "Mon Calamari Turbolaser Turret"
+	turret 100 -360 "Mon Calamari Turbolaser Turret"
+	turret -96 -241 "Mon Calamari Turbolaser Turret"
+	turret 102 -244 "Mon Calamari Turbolaser Turret"
+	turret -92 -59 "Mon Calamari Turbolaser Turret"
+	turret 102 -58 "Mon Calamari Turbolaser Turret"
+	turret 5 234 "Mon Calamari Turbolaser Turret"
+	turret -80 545 "Mon Calamari Turbolaser Turret"
+	turret 90 545 "Mon Calamari Turbolaser Turret"
+	fighter 5 51
+	fighter 5 51
+	fighter 5 51
+	fighter 5 51
+	fighter 5 51
+	fighter 5 51
+	fighter 5 51
+	fighter 5 51
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The MC30c frigate was a class of Mon Calamari-designed warship, utilised by the Rebel Alliance during the Galactic Civil War. Considered one of the most powerful mid-level frigates used in the war, the MC30c frigates utilised proton torpedoes as well as turbolaser batteries to bombard larger enemy starships in combat. In addition to this, it was also one of the fastest ships of its type. (8 Fighters)"
+
+
+
 ship "MC80A Star Cruiser"
 	sprite "ship/mc80astarcruiser"
 	attributes
@@ -970,18 +1209,18 @@ ship "MC80A Star Cruiser"
 	outfits
 		"Mon Calamari Turbolaser Turret" 32
 		
-		"Mon Calamari Deflector Shield"
-		"Mon Calamari Power Converter"
+		"Destroyer Shield Projector"
+		"Destroyer Power Converter"
 		"Small Radar Jammer"
 		"Water Coolant System" 5
 		
-		"Mon Calamari Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
-	engine -185 857
-	engine 147 856
-	engine -114 1151
-	engine 77 1151
+	engine -247 1114
+	engine 196 1111
+	engine -159 1496
+	engine 105 1497
 	turret -102 -1155 "Mon Calamari Turbolaser Turret"
 	turret 64 -1153 "Mon Calamari Turbolaser Turret"
 	turret -102 -936 "Mon Calamari Turbolaser Turret"
@@ -1122,12 +1361,12 @@ ship "MC80 Liberty Cruiser"
 	outfits
 		"Mon Calamari Turbolaser Turret" 32
 		
-		"Mon Calamari Deflector Shield"
-		"Mon Calamari Power Converter"
+		"Destroyer Shield Projector"
+		"Destroyer Power Converter"
 		"Small Radar Jammer"
 		"Water Coolant System" 5
 		
-		"Mon Calamari Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	turret -37 -1117 "Mon Calamari Turbolaser Turret"
@@ -1234,26 +1473,22 @@ ship "MC80 Heavy Cruiser"
 	outfits
 		"Mon Calamari Turbolaser Turret" 32
 		
-		"Mon Calamari Deflector Shield"
-		"Mon Calamari Power Converter"
+		"Destroyer Shield Projector"
+		"Destroyer Power Converter"
 		"Small Radar Jammer"
 		"Water Coolant System" 5
 		
-		"Mon Calamari Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
-	engine -421 -475
-	engine -368 -449
-	engine -332 -450
-	engine 356 -448
-	engine 383 -450
-	engine 427 -470
-	engine -183 884
-	engine 205 884
-	engine -85 993
-	engine 117 983
-	engine -48 1072
-	engine 79 1070
+	engine -517 -576
+	engine -446 -548
+	engine -416 -548
+	engine 434 -550
+	engine 470 -550
+	engine 584 -592
+	engine -215 1091
+	engine 242 1095
 	turret 17 -1175 "Mon Calamari Turbolaser Turret"
 	turret 10 -950 "Mon Calamari Turbolaser Turret"
 	turret -127 -952 "Mon Calamari Turbolaser Turret"
@@ -1358,12 +1593,12 @@ ship "MC75 Star Cruiser"
 	outfits
 		"Mon Calamari Turbolaser Turret" 30
 		
-		"Mon Calamari Deflector Shield"
-		"Mon Calamari Power Converter"
+		"Destroyer Shield Projector"
+		"Destroyer Power Converter"
 		"Small Radar Jammer"
 		"Water Coolant System" 5
 		
-		"Mon Calamari Ion Thruster"
+		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
 	engine -65 1275
@@ -1460,12 +1695,12 @@ ship "EF76 Nebulon-B Frigate"
 	outfits
 		"Turbolaser Turret" 12
 		
-		"Kuat Driveyards Power Converter"
-		"Kuat Driveyards Deflector Shield"
+		"Frigate Power Converter"
+		"Frigate Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Kuat Driveyards Ion Drive"
+		"Frigate Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine -66 431
@@ -1530,12 +1765,12 @@ ship "EF76 Nebulon-B2 Frigate"
 		"Concussion Missile Launcher"
 		"Concussion Missile" 12
 		
-		"Kuat Driveyards Power Converter"
-		"Kuat Driveyards Deflector Shield"
+		"Frigate Power Converter"
+		"Frigate Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Kuat Driveyards Ion Drive"
+		"Frigate Sublight Engine"
 		"Heavy Hyperspace Motivator"
 
 	engine -42 398
@@ -1596,12 +1831,12 @@ ship "Pelta Frigate (Modified)"
 		"Turbolaser Turret" 6
 		"Dual Turbolaser Turret" 4
 		
-		"Corellian Power Converter"
-		"Corellian Deflector Shield"
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Kuat Driveyards Ion Drive"
+		"Frigate Sublight Engine"
 		"Heavy Hyperspace Motivator"
 		
 	engine -195 325
@@ -1638,7 +1873,7 @@ ship "Pelta Frigate (Modified)"
 
 
 ship "T-65B X-Wing"
-	sprite ship/xwingt65
+	sprite ship/t65bxwing
 	"never disabled"
 	attributes
 		category Interceptor
@@ -1660,12 +1895,12 @@ ship "T-65B X-Wing"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Laser Cannon" 4
+		"Fighter Laser Cannon (Red)" 4
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 
-		"Novaldex O4-Z Power Converter"
-		"Chempat X Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1673,10 +1908,10 @@ ship "T-65B X-Wing"
 
 	engine -9 38
 	engine 10 39
-	gun -36 -15 "Fighter Laser Cannon"
-	gun -30 -10 "Fighter Laser Cannon"
-	gun 31 -11 "Fighter Laser Cannon"
-	gun 36 -15 "Fighter Laser Cannon"
+	gun -36 -15 "Fighter Laser Cannon (Red)"
+	gun -30 -10 "Fighter Laser Cannon (Red)"
+	gun 31 -11 "Fighter Laser Cannon (Red)"
+	gun 36 -15 "Fighter Laser Cannon (Red)"
 	gun -4 -6 "Proton Torpedo Launcher"
 	gun 3 -6 "Proton Torpedo Launcher"
 	explode "large explosion" 3
@@ -1685,7 +1920,7 @@ ship "T-65B X-Wing"
 
 
 ship "T-65B X-Wing (Fighter)"
-	sprite ship/xwingt65
+	sprite ship/t65bxwing
 	"never disabled"
 	attributes
 		category Fighter
@@ -1707,12 +1942,12 @@ ship "T-65B X-Wing (Fighter)"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Laser Cannon" 4
+		"Fighter Laser Cannon (Red)" 4
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 
-		"Novaldex O4-Z Power Converter"
-		"Chempat X Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1720,10 +1955,10 @@ ship "T-65B X-Wing (Fighter)"
 
 	engine -9 38
 	engine 10 39
-	gun -36 -15 "Fighter Laser Cannon"
-	gun -30 -10 "Fighter Laser Cannon"
-	gun 31 -11 "Fighter Laser Cannon"
-	gun 36 -15 "Fighter Laser Cannon"
+	gun -36 -15 "Fighter Laser Cannon (Red)"
+	gun -30 -10 "Fighter Laser Cannon (Red)"
+	gun 31 -11 "Fighter Laser Cannon (Red)"
+	gun 36 -15 "Fighter Laser Cannon (Red)"
 	gun -4 -6 "Proton Torpedo Launcher"
 	gun 3 -6 "Proton Torpedo Launcher"
 	explode "large explosion" 3
@@ -1732,7 +1967,7 @@ ship "T-65B X-Wing (Fighter)"
 
 
 ship "UT-60D U-Wing"
-	sprite "ship/uwing"
+	sprite "ship/ut60duwing"
 	"never disabled"
 	attributes
 		category Interceptor
@@ -1755,10 +1990,10 @@ ship "UT-60D U-Wing"
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 		
-		"Novaldex O5-U Power Converter"
-		"Chempat U Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 		
 		"Fighter Engine (Pink Flare)"
@@ -1767,15 +2002,15 @@ ship "UT-60D U-Wing"
 	engine -24 83
 	engine -25 84
 	engine 25 83
-	gun -5 -26 "Fighter Laser Cannon"
-	gun 6 -27 "Fighter Laser Cannon"
+	gun -5 -26 "Fighter Laser Cannon (Red)"
+	gun 6 -27 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "UT60D U-Wing"
 
 
 
 ship "BTL-A4 Y-Wing"
-	sprite ship/ywing
+	sprite ship/btla4ywing
 	"never disabled"
 	attributes
 		category Interceptor
@@ -1798,12 +2033,12 @@ ship "BTL-A4 Y-Wing"
 			"hull damage" 175
 			"hit force" 465
 	outfits
-		"Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 
-		"Novaldex Power Converter"
-		"Chempat Y Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1811,8 +2046,8 @@ ship "BTL-A4 Y-Wing"
 
 	engine -23 31
 	engine 26 31
-	gun -2 -57 "Fighter Laser Cannon"
-	gun 3 -57 "Fighter Laser Cannon"
+	gun -2 -57 "Fighter Laser Cannon (Red)"
+	gun 3 -57 "Fighter Laser Cannon (Red)"
 	gun -9 -26 "Proton Torpedo Launcher"
 	gun 10 -26 "Proton Torpedo Launcher"
 	explode "large explosion" 3
@@ -1821,7 +2056,7 @@ ship "BTL-A4 Y-Wing"
 
 
 ship "BTL-A4 Y-Wing (Fighter)"
-	sprite ship/ywing
+	sprite ship/btla4ywing
 	"never disabled"
 	attributes
 		category Fighter
@@ -1844,12 +2079,12 @@ ship "BTL-A4 Y-Wing (Fighter)"
 			"hull damage" 175
 			"hit force" 465
 	outfits
-		"Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 
-		"Novaldex Power Converter"
-		"Chempat Y Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1857,8 +2092,8 @@ ship "BTL-A4 Y-Wing (Fighter)"
 
 	engine -23 31
 	engine 26 31
-	gun -2 -57 "Fighter Laser Cannon"
-	gun 3 -57 "Fighter Laser Cannon"
+	gun -2 -57 "Fighter Laser Cannon (Red)"
+	gun 3 -57 "Fighter Laser Cannon (Red)"
 	gun -9 -26 "Proton Torpedo Launcher"
 	gun 10 -26 "Proton Torpedo Launcher"
 	explode "large explosion" 3
@@ -1867,7 +2102,7 @@ ship "BTL-A4 Y-Wing (Fighter)"
 
 
 ship "BTL-S3 Y-Wing"
-	sprite ship/ywing
+	sprite ship/btla4ywing
 	"never disabled"
 	attributes
 		category Interceptor
@@ -1890,13 +2125,13 @@ ship "BTL-S3 Y-Wing"
 			"hull damage" 175
 			"hit force" 465
 	outfits
-		"Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 		"Fighter Ion Cannon Turret"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 
-		"Novaldex Power Converter"
-		"Chempat Y Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1904,8 +2139,8 @@ ship "BTL-S3 Y-Wing"
 
 	engine -23 31
 	engine 26 31
-	gun -2 -57 "Fighter Laser Cannon"
-	gun 3 -57 "Fighter Laser Cannon"
+	gun -2 -57 "Fighter Laser Cannon (Red)"
+	gun 3 -57 "Fighter Laser Cannon (Red)"
 	gun -9 -26 "Proton Torpedo Launcher"
 	gun 10 -26 "Proton Torpedo Launcher"
 	turret 0 -28 "Fighter Ion Cannon Turret"
@@ -1915,7 +2150,7 @@ ship "BTL-S3 Y-Wing"
 
 
 ship "BTL-S3 Y-Wing (Fighter)"
-	sprite ship/ywing
+	sprite ship/btla4ywing
 	"never disabled"
 	attributes
 		category Fighter
@@ -1938,21 +2173,21 @@ ship "BTL-S3 Y-Wing (Fighter)"
 			"hull damage" 175
 			"hit force" 465
 	outfits
-		"Fighter Laser Cannon" 2
+		"Fighter Laser Cannon (Red)" 2
 		"Fighter Ion Cannon Turret"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 
-		"Novaldex Power Converter"
-		"Chempat Y Deflector Shield Projector"
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
 
 	engine -23 31
 	engine 26 31
-	gun -2 -57 "Fighter Laser Cannon"
-	gun 3 -57 "Fighter Laser Cannon"
+	gun -2 -57 "Fighter Laser Cannon (Red)"
+	gun 3 -57 "Fighter Laser Cannon (Red)"
 	gun -9 -26 "Proton Torpedo Launcher"
 	gun 10 -26 "Proton Torpedo Launcher"
 	turret 0 -28 "Fighter Ion Cannon Turret"

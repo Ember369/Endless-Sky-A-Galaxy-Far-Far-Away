@@ -8,58 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-outfit "Imperial Fighter Laser Cannon"
-	category "Guns"
-	cost 1000
-	thumbnail "outfit/l-s1lasercannon"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"gun ports" -1
-	weapon
-		sprite "projectile/greenlaser"
-		sound "particle"
-		"hit effect" "particle impact"
-		"inaccuracy" 10
-		"velocity" 20
-		"lifetime" 70
-		"reload" 90
-		"firing energy" .5
-		"firing force" 0
-		"firing heat" 1.2
-		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
-		cluster
-	description "L-s1 Laser Cannon for TIE/LN"
-
-outfit "Imperial Fighter Ion Cannon"
-	category "Guns"
-	cost 1000
-	thumbnail "outfit/nk-3ioncannon"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"gun ports" -1
-	weapon
-		sprite "projectile/greenlaser"
-			"frame rate" 5
-		sound "ion"
-		"hit effect" "ion impact" 2
-		"inaccuracy" 10
-		"velocity" 20
-		"lifetime" 70
-		"reload" 90
-		"firing energy" 0.5
-		"firing force" 0
-		"firing heat" 1.2
-		"hit force" 0
-		"shield damage" 80
-		"hull damage" 80
-		"ion damage" 1
-		cluster
-	description "Fighter Ion Cannon for Gamma-class ATR-6 Assault Transport"
-
 outfit "Imperial Fighter Laser Turret"
 	category "Turrets"
 	cost 1000
