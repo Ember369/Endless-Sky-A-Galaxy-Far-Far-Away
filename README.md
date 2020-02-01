@@ -10,7 +10,12 @@ Currently, the plugin is unbalanced, buggy and overall frustrating at times, and
 
 "May the Force be with you!"
 __________________________________________________________________________________________________
+Useful Links:
+- https://www.moddb.com/mods/endless-sky-star-wars-edition-a-galaxy-far-far-away
+- https://www.youtube.com/watch?v=X0iwpfe96mc
+- https://github.com/Ember369/Endless-Sky-Star-Wars-Edition
 
+__________________________________________________________________________________________________
 Notes:
 The "images/ship" folder contains many ships that have been yet to be added to the plugin. If you wish to add them to the game, follow the steps below:
 1) Scale the png. file down to a size that is comparable to the rest of the other ships (just estimate)
