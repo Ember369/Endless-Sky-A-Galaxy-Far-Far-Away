@@ -13,7 +13,7 @@ ________________________________________________________________________________
 Useful Links:
 - https://www.moddb.com/mods/endless-sky-a-galaxy-far-far-away
 - https://www.youtube.com/watch?v=X0iwpfe96mc
-- https://github.com/Ember369/Endless-Sky-Star-Wars-Edition
+- https://github.com/Ember369/Endless-Sky-A-Galaxy-Far-Far-Away
 
 __________________________________________________________________________________________________
 Notes:
