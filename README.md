@@ -11,7 +11,7 @@ Currently, the plugin is unbalanced, buggy and overall frustrating at times, and
 "May the Force be with you!"
 __________________________________________________________________________________________________
 Useful Links:
-- https://www.moddb.com/mods/endless-sky-star-wars-edition-a-galaxy-far-far-away
+- https://www.moddb.com/mods/endless-sky-a-galaxy-far-far-away
 - https://www.youtube.com/watch?v=X0iwpfe96mc
 - https://github.com/Ember369/Endless-Sky-Star-Wars-Edition
 
