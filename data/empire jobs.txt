@@ -1,4 +1,4 @@
-mission "Destroy the Rebel Fleet"
+Dmission "Destroy the Rebel Fleet"
 	name "Destroy the Rebel Fleet"
 	description "The Rebel Fleet is passing through near <system> System. Destroy it and regain contact with the Imperial Navy for your next mission."
 	repeat

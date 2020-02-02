@@ -8,6 +8,105 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+ship "A/SF-03 B-Wing"
+	sprite "ship/asf03bwing"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 190000
+		"shields" 3100
+		"hull" 2600
+		"required crew" 2
+		"bunks" 2
+		"mass" 30
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 165
+		"weapon capacity" 9
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 4
+		"Fighter Ion Cannon" 3
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 20
+
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine 21 23
+	engine 28 23
+	gun -58 -17 "Fighter Laser Cannon (Red)"
+	gun -58 -17 "Fighter Laser Cannon (Red)"
+	gun 15 -15 "Fighter Laser Cannon (Red)"
+	gun 50 -14 "Fighter Laser Cannon (Red)"
+	gun -58 -17 "Fighter Ion Cannon"
+	gun 15 -15 "Fighter Ion Cannon"
+	gun 50 -14 "Fighter Ion Cannon"
+	gun 50 -14 "Proton Torpedo Launcher"
+	gun 50 -14 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "A/SF-03 B-Wing"
+
+ship "A/SF-03 B-Wing (Fighter)"
+	sprite "ship/asf03bwing"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 190000
+		"shields" 3100
+		"hull" 2600
+		"required crew" 2
+		"bunks" 2
+		"mass" 30
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 165
+		"weapon capacity" 9
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 4
+		"Fighter Ion Cannon" 3
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 20
+
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		
+	engine 21 23
+	engine 28 23
+	gun -58 -17 "Fighter Laser Cannon (Red)"
+	gun -58 -17 "Fighter Laser Cannon (Red)"
+	gun 15 -15 "Fighter Laser Cannon (Red)"
+	gun 50 -14 "Fighter Laser Cannon (Red)"
+	gun -58 -17 "Fighter Ion Cannon"
+	gun 15 -15 "Fighter Ion Cannon"
+	gun 50 -14 "Fighter Ion Cannon"
+	gun 50 -14 "Proton Torpedo Launcher"
+	gun 50 -14 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "A/SF-03 B-Wing"
+
 ship "BTA-NR2 Y-Wing"
 	sprite ship/btanr2ywing
 	"never disabled"

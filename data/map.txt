@@ -11301,7 +11301,7 @@ system Exodeen
 			minables lead 10 10.3238
 			minables titanium 20 7.49733
 
-system Exogal
+system Exegol
 	pos 4601.95 -7073.81
 	government "Last Order"
 	habitable 973.36
@@ -11321,24 +11321,16 @@ system Exogal
 		period 16.4341
 	object
 		sprite planet/gas11
-		distance 572.16
+		distance 6000
 		period 175.469
-		object "Exogal "
-			sprite planet/dust4
-			distance 247
-			period 12.8033
+	object "Exegol "
+		sprite planet/exegol
+		distance 10000
+		period 700
 		object
 			sprite planet/dust1
 			distance 377
 			period 24.1429
-	object
-		sprite planet/gas4
-		distance 1462.25
-		period 716.895
-		object
-			sprite planet/rhea
-			distance 272
-			period 15.8216
 	object
 		sprite planet/gas9
 		distance 2246.5
@@ -35425,9 +35417,10 @@ system "Wayfinder 4"
 
 system "Wayfinder 5"
 	pos 4739.95 -7089.81
+	government Neutral
 	habitable 486.68
 	link "Wayfinder 4"
-	link Exogal
+	link Exegol
 	asteroids "small rock" 31 1.92
 	asteroids "medium rock" 28 1.328
 	asteroids "large rock" 4 1.776
@@ -35439,7 +35432,7 @@ system "Wayfinder 5"
 		sprite star/k0
 		period 10
 		haze _menu/haze-aurora
-	object
+	object Wayfinder
 		sprite planet/rock5
 		distance 143.24
 		period 31.0838
@@ -36870,8 +36863,6 @@ planet "Anaxes "
 
 planet "Another One"
 	landscape ""
-	description ``s
-	spaceport ``
 	government "Galactic Empire"
 	tribute 100000
 		threshold 7000
@@ -36894,8 +36885,6 @@ planet Axum
 
 planet "Brentaal "
 	landscape ""
-	description ``
-	spaceport ``
 	shipyard "Imperial Navy Ships"
 
 planet "Byss "
@@ -36906,7 +36895,6 @@ planet "Byss "
 
 planet "Commenor "
 	landscape ""
-	description ``adwds
 	spaceport wasd
 
 planet Coruscant
@@ -36934,8 +36922,6 @@ planet "D'Qar "
 
 planet "Death Star II "
 	landscape ""
-	description ``
-	spaceport ``
 	tribute 100000
 		threshold 7000
 		fleet deathstariifleet
@@ -36951,10 +36937,13 @@ planet "Empress Teta"
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
 
-planet "Exogal "
+planet "Exegol "
 	landscape ""
-	description Exogal
-	spaceport Exogal
+	description Exegol
+	spaceport Exegol
+	tribute 100000
+		threshold 7000
+		fleet lastorder 32
 
 planet "Golan 3"
 	landscape ""
@@ -36963,13 +36952,9 @@ planet "Golan 3"
 
 planet "Ixtlar "
 	landscape ""
-	description ``
-	spaceport ``
 
 planet "Kalist "
 	landscape land/rilium
-	description ``
-	spaceport ``
 	shipyard "Rebel Alliance Ships"
 
 planet "Lothal "
@@ -36987,8 +36972,6 @@ planet "Lucrehulk-class Battleship"
 
 planet "N'Zoth "
 	landscape land/rilium
-	description ``
-	spaceport ``
 	shipyard "Rebel Alliance Ships"
 
 planet "Naboo "
@@ -37018,8 +37001,6 @@ planet "Prakith "
 
 planet "Rakata Prime "
 	landscape ""
-	description ``
-	spaceport ``
 	shipyard "Rebel Alliance Ships"
 	shipyard "Miscellaneous Ships"
 	shipyard "Galactic Republic Ships"
@@ -37053,7 +37034,6 @@ planet "Starkiller Base (Ilum)"
 planet Test
 	landscape ""
 	description e
-	spaceport ``
 	government "First Order"
 	tribute 100000
 		threshold 7000
@@ -37066,8 +37046,6 @@ planet Testing
 
 planet "Teta "
 	landscape land/rilium
-	description ``
-	spaceport ``
 	shipyard "Rebel Alliance Ships"
 
 planet "The Redoubt "
@@ -37085,11 +37063,12 @@ planet "Ukio "
 
 planet "Venator-class Star Destroyer"
 	landscape ""
-	description ``
-	spaceport ``
+
+planet Wayfinder
+	landscape ""
+	description s
+	spaceport s
 
 planet s
 	landscape ""
-	description ``
-	spaceport ``
 

@@ -37,7 +37,7 @@ ship "Alpha-class Xg-1 Star Wing"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 16
 		
-		"Novaldex O5-U Power Converter"
+		"Heavy Fighter Power Converter"
 		"Fighter Shield Projector"
 		"Light Coolant System" 2
 		
@@ -86,7 +86,7 @@ ship "Alpha-class Xg-1 Star Wing (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 16
 		
-		"Novaldex O5-U Power Converter"
+		"Heavy Fighter Power Converter"
 		"Fighter Shield Projector"
 		"Light Coolant System" 2
 		
@@ -491,7 +491,7 @@ ship "DX9 Troop Transport"
 	outfits
 		"Fighter Laser Cannon (Green)" 2
 		
-		"Quadex Power Core"
+		"Transport Power Converter"
 		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
@@ -586,7 +586,7 @@ ship "Gamma-class ATR-6 Assault Transport"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 8
 
-		"Quadex Power Core"
+		"Transport Power Converter"
 		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
@@ -646,7 +646,7 @@ ship "GAT-12 Skipray Blastboat"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 		
-		"Novaldex O5-U Power Converter"
+		"Heavy Fighter Power Converter"
 		"Fighter Shield Projector"
 		"Light Coolant System"
 		
@@ -2407,7 +2407,7 @@ ship "Imperial LAAT/le"
 	outfits
 		"Fighter Laser Cannon (Green)" 2
 		
-		"Quadex Power Core"
+		"Transport Power Converter"
 		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
@@ -2802,7 +2802,7 @@ ship "Intersector-class Sloop"
 		"MG9 Proton Torpedo" 6
 		"Imperial Transport Quad Turbolaser Turret" 2
 		
-		"Quadex Power Core"
+		"Transport Power Converter"
 		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
@@ -5290,7 +5290,7 @@ ship "Zeta-class Cargo Shuttle"
 		"Gozanti Heavy Laser Cannon" 2
 		"Fighter Laser Cannon (Green)" 2
 		
-		"Quadex Power Core"
+		"Transport Power Converter"
 		"Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3

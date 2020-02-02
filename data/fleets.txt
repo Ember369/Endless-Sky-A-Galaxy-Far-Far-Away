@@ -411,6 +411,18 @@ fleet "dqardreadnought"
 		"Mandator IV-class Siege Dreadnought"
 		"TIE/FO Fighter" 20
 
+fleet "lastorder"
+	government "Last Order"
+	personality
+		heroic opportunistic vindictive unconstrained
+	cargo 0
+	variant 40
+		"Imperial I Star Destroyer" 1
+		"TIE/DG Fighter" 20
+	variant 50
+		"TIE/DG Fighter" 25
+
+
 fleet "lucrehulkbattleship"
 	government "Separatist Alliance"
 	personality

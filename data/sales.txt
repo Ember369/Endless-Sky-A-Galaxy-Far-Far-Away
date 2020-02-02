@@ -289,6 +289,8 @@ shipyard "Separatist Alliance Ships"
 	"Vulture-class Droid Starfighter (Fighter)"
 
 shipyard "Resistance Ships"
+	"A/SF-03 B-Wing"
+	"A/SF-03 B-Wing (Fighter)"
 	"BTA-NR2 Y-Wing"
 	"BTA-NR2 Y-Wing (Fighter)"
 	"Eta-5 Actis-class Interceptor"

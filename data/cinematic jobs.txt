@@ -6,9 +6,9 @@ mission "Battle for Coruscant"
 	to offer
 		random 99
 	source
-		government "Galactic Republic"
+		government "Rebel Alliance"
 	destination
-		government "Galactic Republic"
+		government "Rebel Alliance"
 	npc assist
 		personality heroic staying harvests swarming surveillance
 		government "Civilian"

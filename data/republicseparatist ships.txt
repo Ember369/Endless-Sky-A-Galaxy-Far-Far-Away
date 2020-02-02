@@ -433,7 +433,7 @@ ship "Gozanti Cruiser CIS"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Transport Sunlight Engine"
+		"Transport Sublight Engine"
 		"Medium Hyperspace Motivator"
 	
 	engine -46 80
@@ -1672,7 +1672,7 @@ ship "Consular Cruiser (Aurek)"
 	outfits
 		"Republic Turbolaser Turret" 4
 		
-		"Consular Power Converter"
+		"Corvette Power Converter"
 		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
@@ -1719,7 +1719,7 @@ ship "Consular Cruiser (Besh)"
 	outfits
 		"Republic Turbolaser Turret" 4
 		
-		"Consular Power Converter"
+		"Corvette Power Converter"
 		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
@@ -1766,7 +1766,7 @@ ship "Consular Cruiser (Cresh)"
 	outfits
 		"Republic Turbolaser Turret" 4
 		
-		"Consular Power Converter"
+		"Corvette Power Converter"
 		"Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
