@@ -812,7 +812,7 @@ ship "Basilisk War Droid"
 			"hit force" 490
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Fighter Laser Turret" 
+		"Fighter Laser Turret (Red)" 
 		"Concussion Missile" 14
 		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
@@ -839,7 +839,7 @@ ship "Basilisk War Droid"
 	gun 7 44 hullcollision
 	gun -5 -45 hullcollision
 	gun 4 -45 hullcollision
-	turret 0 -49 "Fighter Laser Turret"
+	turret 0 -49 "Fighter Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Basilisk war droid was a powerful, semi-sentient combat droid, designed by the Basiliskan race native to the planet Basilisk, located in the Core Worlds. Following the Mandalorian Crusaders' conquest of Basilisk in 4017 BBY, the Mandalorian warriors pillaged the powerful war droids for themselves. To the Mandalorians, the Basilisk droid was known as the Bes'uliik—the "iron beast" in the Mandalorian language of Mando'a—and came to be valued as animal-like companions."
@@ -1641,7 +1641,7 @@ ship "Defender-class Corvette"
 		"cost" 15200000
 		"shields" 34000
 		"hull" 10000
-		"required crew" 1
+		"required crew" 5
 		"bunks" 20
 		"mass" 2000
 		"drag" 4.9
@@ -2109,6 +2109,99 @@ ship "Fang Fighter (Fighter)"
 
 
 
+ship "Fang Fighter Black"
+	sprite "ship/fangfighterblack"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 110000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 19
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 199
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon (Yellow)" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 12
+		
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+		
+	engine -14 29
+	engine -1 30
+	engine 13 29
+	gun -14 -29 "Fighter Laser Cannon (Yellow)"
+	gun 12 -29 "Fighter Laser Cannon (Yellow)"
+	gun -13 -17 "Concussion Missile Launcher"
+	gun 10 -17 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Fang fighter, also known as the Protectorate Fang Fighter, was a model of starfighter designed and used by the Mandalorian Protectors. Fang fighters were fast and highly maneuverable starship designed specifically for combat. The craft's narrow attack profile and swivel-mounted wings that provided vectored-thrust control gave the fighter unmatched agility."
+
+ship "Fang Fighter Black (Fighter)"
+	sprite "ship/fangfighterblack"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 129000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 19
+		"drag" 0.6
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 179
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Fighter Laser Cannon (Yellow)" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 12
+		
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+		
+		"Fighter Engine (Pink Flare)"
+		
+	engine -14 29
+	engine -1 30
+	engine 13 29
+	gun -14 -29 "Fighter Laser Cannon (Yellow)"
+	gun 12 -29 "Fighter Laser Cannon (Yellow)"
+	gun -13 -17 "Concussion Missile Launcher"
+	gun 10 -17 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Fang fighter, also known as the Protectorate Fang Fighter, was a model of starfighter designed and used by the Mandalorian Protectors. Fang fighters were fast and highly maneuverable starship designed specifically for combat. The craft's narrow attack profile and swivel-mounted wings that provided vectored-thrust control gave the fighter unmatched agility."
+
+
+
 ship "Firespray-31-class patrol craft"
 	sprite "ship/firespray31patrolcraft"
 	attributes
@@ -2158,6 +2251,50 @@ ship "Firespray-31-class patrol craft"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Firespray-31-class patrol and attack craft, was a patrol and transport starship designed by Kuat Systems Engineering initially for use by the Republic Correctional Authority. The most well known of the starships was Jango and Boba Fett's ship, the Slave I."
+
+
+
+ship "Flarestar-class Attack Shuttle"
+	sprite "ship/flarestarattackshuttle"
+	"never disabled"
+	attributes
+		category Interceptor
+		"cost" 210000
+		"shields" 3200
+		"hull" 2800
+		"required crew" 1
+		"bunks" 3
+		"mass" 33
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 216
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 12
+		
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System" 2
+		
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	gun -14 -14 "Fighter Laser Cannon (Red)"
+	gun 14 -14 "Fighter Laser Cannon (Red)"
+	gun -14 -14 "Proton Torpedo Launcher"
+	gun 14 -14 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The Flarestar-class attack shuttle, was a small saucer-shaped shuttle used by the Weequay pirates of Florrum. The Flarestar-class attack shuttle could be launched from the Surronian cruiser-based Corona-class armed frigate and land on surfaces too small for the mothership."
 
 
 
@@ -2980,7 +3117,57 @@ ship "Kihraxz Assault Fighter (Fighter)"
 
 
 
-ship "Krayt Dragon ship"
+ship "Krayt Lav"
+	sprite "ship/kraytlav"
+	attributes
+		category "Light Warship"
+		"cost" 1000000
+		"shields" 12000
+		"hull" 7300
+		"required crew" 2
+		"bunks" 8
+		"mass" 300
+		"drag" 3.0
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 10
+		"outfit space" 469
+		"weapon capacity" 85
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Transport Laser Turret" 2
+		
+		"Transport Power Converter"
+		"Transport Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Transport Sublight Engine"
+		"Medium Hyperspace Motivator"
+	
+	engine -11 128
+	engine -4 128
+	engine 1 128
+	engine 8 128
+	engine 10 128
+	turret 0 -99 "Transport Laser Turret"
+	turret -1 -12 "Transport Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Krayt Lav (DESCRIPTION)"
+
+
+
+
+ship "Krayt Dragon Ship"
 	sprite "ship/kraytdragonship"
 	attributes
 		category "Light Warship"
@@ -3108,7 +3295,7 @@ ship "KT-400 Military Droid Carrier"
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Fighter Laser Turret" 4
+		"Fighter Laser Turret (Red)" 4
 		
 		"Fighter Power Converter"
 		"Fighter Shield Projector"
@@ -3118,10 +3305,10 @@ ship "KT-400 Military Droid Carrier"
 		"Light Hyperspace Motivator"
 		
 	engine 0 65
-	turret -64 -66 "Fighter Laser Turret"
-	turret 62 -66 "Fighter Laser Turret"
-	turret -64 -66 "Fighter Laser Turret"
-	turret 62 -66 "Fighter Laser Turret"
+	turret -64 -66 "Fighter Laser Turret (Red)"
+	turret 62 -66 "Fighter Laser Turret (Red)"
+	turret -64 -66 "Fighter Laser Turret (Red)"
+	turret 62 -66 "Fighter Laser Turret (Red)"
 	explode "large explosion" 3
 	description "The KT-400 military droid carrier was a light freighter, and a common sight throughout the galaxy both before and after the Jedi Civil War. Originally designed by Kellenech Technologies, a droid manufacturer, this ship was supposed to carry its military and construction droids. But when it bankrupted, the Galactic Republic took the design and began production of the ships through Republic Fleet Systems. However, after the Great Sith War the funding stopped and a variety of manufacturers was contracted to finish the vessels for military and commercial use."
 
@@ -3416,8 +3603,8 @@ ship "MX-220/Z Knighthawk"
 		"Fighter Laser Cannon (Red)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
-		"Fighter Ion Cannon Turret"
-		"Fighter Ion Cannon Turret (underneath)"
+		"Fighter Ion Cannon Turret (Red)"
+		"Fighter Ion Cannon Turret Underneath (Red)"
 
 		"Fighter Power Converter"
 		"Fighter Shield Projector"
@@ -3434,8 +3621,8 @@ ship "MX-220/Z Knighthawk"
 	gun 20 -18 "Fighter Laser Cannon (Red)"
 	gun -34 10 "Proton Torpedo Launcher"
 	gun 34 10 "Proton Torpedo Launcher"
-	turret 0 -39 "Fighter Ion Cannon Turret (underneath)"
-	turret 0 35 "Fighter Ion Cannon Turret"
+	turret 0 -39 "Fighter Ion Cannon Turret Underneath (Red)"
+	turret 0 35 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "Originally conceived as “Mandalore’s answer to the X-Wing,” the MX-220/Z Knighthawk, or “M-Wing” represents the pinnacle of modern starfighter design.  Called the "M-Wing" due to the shape of it's S-Foils when viewed from the front, rear, or above; the M-Wing should not be confused with the much older "M-class" fighter. Designed and manufactured by Mandal Motors for use by the Mandalorian Knights, the M-Wing offers a number of compelling and innovative design features, namely Beskar and lightweight Z-type Zillo-armour. (Ravendeviant)"
 
@@ -3465,8 +3652,8 @@ ship "MX-220/Z Knighthawk (Fighter)"
 		"Fighter Laser Cannon (Red)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
-		"Fighter Ion Cannon Turret"
-		"Fighter Ion Cannon Turret (underneath)"
+		"Fighter Ion Cannon Turret (Red)"
+		"Fighter Ion Cannon Turret Underneath (Red)"
 
 		"Fighter Power Converter"
 		"Fighter Shield Projector"
@@ -3482,8 +3669,8 @@ ship "MX-220/Z Knighthawk (Fighter)"
 	gun 20 -18 "Fighter Laser Cannon (Red)"
 	gun -34 10 "Proton Torpedo Launcher"
 	gun 34 10 "Proton Torpedo Launcher"
-	turret 0 -39 "Fighter Ion Cannon Turret (underneath)"
-	turret 0 35 "Fighter Ion Cannon Turret"
+	turret 0 -39 "Fighter Ion Cannon Turret Underneath (Red)"
+	turret 0 35 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "Originally conceived as “Mandalore’s answer to the X-Wing,” the MX-220/Z Knighthawk, or “M-Wing” represents the pinnacle of modern starfighter design.  Called the "M-Wing" due to the shape of it's S-Foils when viewed from the front, rear, or above; the M-Wing should not be confused with the much older "M-class" fighter. Designed and manufactured by Mandal Motors for use by the Mandalorian Knights, the M-Wing offers a number of compelling and innovative design features, namely Beskar and lightweight Z-type Zillo-armour. (Ravendeviant)"
 
@@ -4427,6 +4614,106 @@ ship "Praetorian-class Frigate"
 
 
 
+ship "Hapan Battle Dragon"
+	sprite "ship/hapanbattledragon"
+	attributes
+		category "Heavy Warship"
+		"cost" 129000000
+		"shields" 125000
+		"hull" 43000
+		"required crew" 2551
+		"bunks" 5000
+		"mass" 8800
+		"drag" 23
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 400
+		"outfit space" 1834
+		"weapon capacity" 910
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Dual Turbolaser Turret" 6
+		"Turbolaser Turret" 10
+		"Tractor Beam" 2
+		
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"Destroyer Sublight Engine"
+		"Heavy Hyperspace Motivator"
+		
+	engine -34 755
+	engine 29 755
+	turret -3 -353 "Turbolaser Turret"
+	turret -156 -238 "Turbolaser Turret"
+	turret 148 -233 "Turbolaser Turret"
+	turret -245 30 "Turbolaser Turret"
+	turret 237 33 "Turbolaser Turret"
+	turret -127 42 "Turbolaser Turret"
+	turret 121 40 "Turbolaser Turret"
+	turret -141 222 "Dual Turbolaser Turret"
+	turret -2 173 "Dual Turbolaser Turret"
+	turret 141 224 "Dual Turbolaser Turret"
+	turret -138 403 "Dual Turbolaser Turret"
+	turret 137 401 "Dual Turbolaser Turret"
+	turret -108 -481 "Dual Turbolaser Turret"
+	turret -100 630 "Turbolaser Turret"
+	turret 94 634 "Turbolaser Turret"
+	turret -3 -129 "Tractor Beam"
+	turret -3 -129 "Tractor Beam"
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	fighter -3 -129
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Hapan Battle Dragons were the premier warships used by the Hapes Consortium. Battle Dragons featured a unique dual saucer-shaped hull 500 meters in diameter with a central core connected by sixteen rotation support struts."
+
+
+
 ship "Harrower Star Dreadnought"
 	sprite "ship/harrowerdreadnought"
 	attributes
@@ -4665,7 +4952,7 @@ ship "HWK-290 Light Freighter (Modified)"
 			"hit force" 470
 	outfits
 		"Fighter Laser Cannon (Red)" 4
-		"Fighter Laser Turret (underneath)"
+		"Fighter Laser Turret Underneath (Red)"
 		
 		"Fighter Power Converter"
 		"Fighter Shield Projector"
@@ -4684,7 +4971,7 @@ ship "HWK-290 Light Freighter (Modified)"
 	gun -33 38 "Fighter Laser Cannon (Red)"
 	gun 34 39 "Fighter Laser Cannon (Red)"
 	gun 52 39 "Fighter Laser Cannon (Red)"
-	turret 1 -64 "Fighter Laser Turret (underneath)"
+	turret 1 -64 "Fighter Laser Turret Underneath (Red)"
 	explode "large explosion" 3
 	description "The HWK-290 was a light freighter manufactured by the Corellian Engineering Corporation during the decades leading up to the Battle of Naboo, in an effort to break into a new market for fast, small cargo ships. Unlike YT-series of ships for tramp captains, the Hawk line was aimed at more upscale clients, like wealthy merchants and noble politicians."
 
@@ -6265,6 +6552,58 @@ ship "Sphyrna-class Corvette"
 
 
 
+ship "Ranger Gunboat"
+	sprite "ship/rangergunboat"
+	attributes
+		category "Light Warship"
+		"cost" 14500000
+		"shields" 22000
+		"hull" 9200
+		"required crew" 70
+		"bunks" 80
+		"mass" 1800
+		"drag" 4.5
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 40
+		"outfit space" 559
+		"weapon capacity" 170
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 24
+		
+		"Corvette Power Converter"
+		"Corvette Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Corvette Sublight Engine"
+		"Medium Hyperspace Motivator"
+		
+	engine -28 49
+	engine 30 46
+	gun -28 -98 "Concussion Missile Launcher"
+	gun 29 -97 "Concussion Missile Launcher"
+	turret -16 -92 "Turbolaser Turret"
+	turret 17 -92 "Turbolaser Turret"
+	turret -18 -7 "Turbolaser Turret"
+	turret 18 -7 "Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Ranger Gunboat (DESCRIPTION)"
+
+
+
 ship "Razor Crest"
 	sprite "ship/razorcrestgunship"
 	attributes
@@ -7144,7 +7483,7 @@ ship "BTL-X5 Y-Wing"
 			"hit force" 465
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Fighter Ion Cannon Turret"
+		"Fighter Ion Cannon Turret (Red)"
 		"Composite Beam Laser" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
@@ -7164,7 +7503,7 @@ ship "BTL-X5 Y-Wing"
 	gun 11 -53 "Composite Beam Laser"
 	gun -9 -40 "Proton Torpedo Launcher"
 	gun 7 -40 "Proton Torpedo Launcher"
-	turret 0 -31 "Fighter Ion Cannon Turret"
+	turret 0 -31 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "The BTL-X5 was developed as an effort to extend the effective service life of the venerable BTL-S3 Y-Wing (the 2-seat variant of the Y-Wing).
 The BTL-X5 was equipped with a devastating multi-weapon beam, similar to Quarrie's original B-Wing Prototype. The weapon mounts on the sides of the cockpit module were designed so that the blaster cannons could be quickly and easily removed by a maintenance crew and replaced with other large mission-specific weapons such as concussion missiles."
@@ -7196,7 +7535,7 @@ ship "BTL-X5 Y-Wing (Fighter)"
 			"hit force" 465
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Fighter Ion Cannon Turret"
+		"Fighter Ion Cannon Turret (Red)"
 		"Composite Beam Laser" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
@@ -7215,7 +7554,7 @@ ship "BTL-X5 Y-Wing (Fighter)"
 	gun 11 -53 "Composite Beam Laser"
 	gun -9 -40 "Proton Torpedo Launcher"
 	gun 7 -40 "Proton Torpedo Launcher"
-	turret 0 -31 "Fighter Ion Cannon Turret"
+	turret 0 -31 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "The BTL-X5 was developed as an effort to extend the effective service life of the venerable BTL-S3 Y-Wing (the 2-seat variant of the Y-Wing).
 The BTL-X5 was equipped with a devastating multi-weapon beam, similar to Quarrie's original B-Wing Prototype. The weapon mounts on the sides of the cockpit module were designed so that the blaster cannons could be quickly and easily removed by a maintenance crew and replaced with other large mission-specific weapons such as concussion missiles."

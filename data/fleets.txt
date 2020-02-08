@@ -1,4 +1,4 @@
-fleet "rebelfleet"
+ fleet "rebelfleet"
 	government "Rebel Alliance"
 	cargo 0
 	personality
@@ -416,11 +416,19 @@ fleet "lastorder"
 	personality
 		heroic opportunistic vindictive unconstrained
 	cargo 0
-	variant 40
-		"Imperial I Star Destroyer" 1
-		"TIE/DG Fighter" 20
-	variant 50
-		"TIE/DG Fighter" 25
+	variant 10
+		"Mandator IV-class Siege Dreadnought" 2
+		"TIE/FO Fighter" 400
+		"TIE/SF Fighter" 200
+	variant 10
+		"Resurgent-class Star Destroyer" 5
+		"TIE/FO Fighter" 400
+		"TIE/SF Fighter" 200
+	variant 80
+		"Imperial I Star Destroyer" 12
+		"TIE/DG Fighter" 600
+	variant 60
+		"TIE/DG Fighter" 800
 
 
 fleet "lucrehulkbattleship"

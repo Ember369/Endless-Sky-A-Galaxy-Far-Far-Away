@@ -11212,6 +11212,18 @@ system Excarga
 			period 46.1359
 			belt 1434
 
+system Exegol
+	pos 4738.95 -7140.81
+	government "Last Order"
+	habitable 973.36
+	link "Wayfinder 5"
+	object .
+		sprite planet/
+		distance 2246.5
+	object "Exegol "
+		sprite planet/exegol
+		distance 5000
+
 system Exodeen
 	pos 6156.14 -6987.71
 	government "Galactic Empire"
@@ -11300,49 +11312,6 @@ system Exodeen
 			minables iron 6 8.85667
 			minables lead 10 10.3238
 			minables titanium 20 7.49733
-
-system Exegol
-	pos 4601.95 -7073.81
-	government "Last Order"
-	habitable 973.36
-	link "Wayfinder 5"
-	asteroids "large rock" 1 2.9478
-	asteroids "small metal" 3 3.8148
-	asteroids "medium metal" 13 4.1616
-	asteroids "large metal" 4 3.179
-	object
-		sprite star/k0
-		distance 59
-		period 16.4341
-		offset 180
-	object
-		sprite star/k0
-		distance 59
-		period 16.4341
-	object
-		sprite planet/gas11
-		distance 6000
-		period 175.469
-	object "Exegol "
-		sprite planet/exegol
-		distance 10000
-		period 700
-		object
-			sprite planet/dust1
-			distance 377
-			period 24.1429
-	object
-		sprite planet/gas9
-		distance 2246.5
-		period 1365.16
-		object
-			sprite planet/dust3
-			distance 235
-			period 13.508
-		object
-			sprite planet/rock3
-			distance 370
-			period 26.6866
 
 system Falleen
 	pos 6623.64 -6418.11
@@ -15270,7 +15239,7 @@ system Jakku
 	pos 5368.33 -6801.24
 	government "Galactic Empire"
 	habitable 486.68
-	link "Kiiro "
+	link Kiiro
 	link "Rakata Prime"
 	asteroids "small rock" 47 3.6984
 	asteroids "medium rock" 170 3.5052
@@ -17051,7 +17020,7 @@ system Kiffu
 			minables lead 7 3.91966
 			minables titanium 12 3.83458
 
-system "Kiiro "
+system Kiiro
 	pos 5459.78 -6923.26
 	government "Galactic Empire"
 	habitable 135
@@ -17089,8 +17058,8 @@ system "Kiiro "
 		minables iron 8 5.56049
 		minables lead 68 6.15414
 		minables tungsten 7 9.68634
-	object
-		sprite planet/desert1
+	object "Kiiro "
+		sprite planet/kiiro
 		distance 775.99
 		period 744.179
 		belt 1229
@@ -17502,7 +17471,7 @@ system "Kitel Phard"
 	habitable 486.68
 	link Bardotta
 	link Giju
-	link "Kiiro "
+	link Kiiro
 	asteroids "large rock" 1 6.3294
 	asteroids "small metal" 13 3.1416
 	asteroids "medium metal" 21 6.468
@@ -35433,7 +35402,7 @@ system "Wayfinder 5"
 		period 10
 		haze _menu/haze-aurora
 	object Wayfinder
-		sprite planet/rock5
+		sprite planet/template
 		distance 143.24
 		period 31.0838
 		haze _menu/haze-aurora
@@ -36849,6 +36818,12 @@ system Zygerria
 			distance 406
 			period 28.8527
 
+planet .
+	attributes .
+	landscape ""
+	description .
+	spaceport .
+
 planet "Alsakan "
 	landscape ""
 	description `Alsakan was an ecumenopolis world in the Alsakan system in the Core Worlds. A Core Founder on the Perlemian Trade Route, Alsakan was an ancient, wealthy world that had been a major political player for centuries, and was responsible for the seventeen Alsakan Conflicts that had been fought with Coruscant over the nature and shape of the early Galactic Republic.`
@@ -36898,7 +36873,7 @@ planet "Commenor "
 	spaceport wasd
 
 planet Coruscant
-	landscape land/space7
+	landscape land/coruscant
 	description `A city-covered planet, Coruscant is the vibrant heart and capital of the galaxy, featuring a diverse mix of citizens and culture. It features towering skyscrapers, streams of speeder-filled air traffic, and inner levels that stretch far below the world’s surface. Coruscant was the seat of government for the Galactic Republic and the Empire that followed, and was the site of numerous historic events during the Clone Wars. It also housed the Jedi Temple and Archives, which hosted Jedi training and learning for over a thousand generations -- traditions that ended when the planet bore witness to Order 66.`
 	spaceport Coruscant
 	shipyard "Rebel Alliance Ships"
@@ -36943,7 +36918,7 @@ planet "Exegol "
 	spaceport Exegol
 	tribute 100000
 		threshold 7000
-		fleet lastorder 32
+		fleet lastorder 15
 
 planet "Golan 3"
 	landscape ""
@@ -36955,6 +36930,12 @@ planet "Ixtlar "
 
 planet "Kalist "
 	landscape land/rilium
+	shipyard "Rebel Alliance Ships"
+
+planet "Kiiro "
+	landscape land/kiiro
+	description `Kiiro simply translates to "yellow" in the ancient language of the planet's inhabitants, and its namesake is quite clear. The entire surface of the planet is a shockingly bright yellow, due to the large powdery sulphur deposits covering it. This makes the planet rather unpleasant to live on and many who do so find themselves in a place of little opportunity and poor living conditions. One of the planet's only uses is as a giant geothermal powerplant, due to its bubbling sulphur reservoirs found relatively close to its surface. Other prominent industries include the mining of copper and uranium.`
+	spaceport `The spaceport smells heavily of rotten egg, yet the locals seem oblivious to this. The air and all surfaces seem to be saturated with a chalky yellow substance, and visitors to the planet seem eager to leave as soon as possible.`
 	shipyard "Rebel Alliance Ships"
 
 planet "Lothal "

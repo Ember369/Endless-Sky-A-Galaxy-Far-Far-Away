@@ -8,61 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-outfit "Imperial Fighter Laser Turret"
-	category "Turrets"
-	cost 1000
-	thumbnail "outfit/koesnayrtwinlasercannon"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/greenlaser"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
-		"hardpoint offset" 9.
-		sound "blaster"
-		"hit effect" "blaster impact"
-		"inaccuracy" 15
-		"turret turn" 6
-		"velocity" 20
-		"lifetime" 70
-		"reload" 90
-		"firing energy" .5
-		"firing heat" 1.2
-		"shield damage" 100
-		"hull damage" 100
-		cluster
-	description "Imperial Laser Turret for GAT-12 Skipray Blastboat"
-
-
-
-outfit "Imperial Fighter Laser Turret (underneath)"
-	category "Turrets"
-	cost 1000
-	thumbnail "outfit/koesnayrtwinlasercannon"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/greenlaser"
-		"hardpoint sprite" "hardpoint/"
-		"hardpoint offset" 9.
-		sound "blaster"
-		"hit effect" "blaster impact"
-		"inaccuracy" 15
-		"turret turn" 6
-		"velocity" 20
-		"lifetime" 70
-		"reload" 90
-		"firing energy" .5
-		"firing heat" 1.2
-		"shield damage" 100
-		"hull damage" 100
-		cluster
-	description "Imperial Laser Turret for GAT-12 Skipray Blastboat"
 
 
 
@@ -75,7 +20,7 @@ outfit "Imperial Transport Laser Cannon"
 	"weapon capacity" -2
 	"gun ports" -1
 	weapon
-		sprite "projectile/greenlaser2"
+		sprite "projectile/greenlaser/greenlaser2"
 		sound "particle"
 		"hit effect" "particle impact"
 		"inaccuracy" 15
@@ -103,7 +48,7 @@ outfit "Imperial Transport Quad Turbolaser Turret"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/greenlaser2dual"
+		sprite "projectile/greenlaser/greenlaser2dual"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "blaster"
@@ -130,7 +75,7 @@ outfit "Imperial Transport Laser Turret"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/greenlaser2"
+		sprite "projectile/greenlaser/greenlaser2"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "blaster"
@@ -160,7 +105,7 @@ outfit "Gozanti Twin Laser Cannon"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/greenlaser2dual"
+		sprite "projectile/greenlaser/greenlaser2dual"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "blaster"
@@ -187,7 +132,7 @@ outfit "Gozanti Heavy Laser Cannon"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/greenlaser2"
+		sprite "projectile/greenlaser/greenlaser2"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "blaster"
@@ -212,7 +157,7 @@ outfit "T4a Shuttle Laser Cannon"
 	"weapon capacity" -8
 	"gun ports" -1
 	weapon
-		sprite "projectile/greenlaser"
+		sprite "projectile/greenlaser/greenlaser"
 		sound "particle"
 		"hit effect" "particle impact"
 		"inaccuracy" 16
@@ -238,7 +183,7 @@ outfit "Rendii V Quad Turbolaser Battery"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/greenlaser3quad"
+		sprite "projectile/greenlaser/greenlaser3quad"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "blaster"
@@ -265,7 +210,7 @@ outfit "Rendii V Dual Turbolaser Battery"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/greenlaser3dual"
+		sprite "projectile/greenlaser/greenlaser3dual"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "blaster"
@@ -292,7 +237,7 @@ outfit "Rendii V Turbolaser Battery"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/greenlaser3"
+		sprite "projectile/greenlaser/greenlaser3"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "blaster"
@@ -346,7 +291,7 @@ outfit "Raider Dual Turbolaser Cannon"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/greenlaser2"
+		sprite "projectile/greenlaser/greenlaser2"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "blaster"
@@ -372,7 +317,7 @@ outfit "Raider Ion Cannon"
 	"weapon capacity" -20
 	"gun ports" -1
 	weapon
-		sprite "projectile/greenlaser2"
+		sprite "projectile/greenlaser/greenlaser2"
 			"frame rate" 5
 		sound "ion"
 		"hit effect" "ion impact" 2
@@ -400,7 +345,7 @@ outfit "Anti-starfighter Battery"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/greenlaser"
+		sprite "projectile/greenlaser/greenlaser"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "blaster"

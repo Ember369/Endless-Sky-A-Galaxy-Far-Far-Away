@@ -132,7 +132,7 @@ ship "BTA-NR2 Y-Wing"
 			"hit force" 465
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Fighter Ion Cannon Turret"
+		"Fighter Ion Cannon Turret (Red)"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 
@@ -149,7 +149,7 @@ ship "BTA-NR2 Y-Wing"
 	gun 3 -57 "Fighter Laser Cannon (Red)"
 	gun -8 -35 "Proton Torpedo Launcher"
 	gun 8 -35 "Proton Torpedo Launcher"
-	turret -0 -24 "Fighter Ion Cannon Turret"
+	turret -0 -24 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "The BTA-NR2 Y-wing starfighter was a variant of the Y-wing starfighter produced by Koensayr Manufacturing that was used by the New Republic and the Resistance. The BTA-NR2 Y-wing was marketed as "the starfighter that broke the Empire's back" and was sold to the New Republic, all while keeping in line with treaty restrictions. With the rise of the First Order, however, the Resistance was created to counter it and obtained BTA-NR2 Y-wings, modifying them past prohibitions to be more effective."
 
@@ -180,7 +180,7 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 			"hit force" 465
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Fighter Ion Cannon Turret"
+		"Fighter Ion Cannon Turret (Red)"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 
@@ -196,9 +196,104 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 	gun 3 -57 "Fighter Laser Cannon (Red)"
 	gun -8 -35 "Proton Torpedo Launcher"
 	gun 8 -35 "Proton Torpedo Launcher"
-	turret -0 -24 "Fighter Ion Cannon Turret"
+	turret -0 -24 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "The BTA-NR2 Y-wing starfighter was a variant of the Y-wing starfighter produced by Koensayr Manufacturing that was used by the New Republic and the Resistance. The BTA-NR2 Y-wing was marketed as "the starfighter that broke the Empire's back" and was sold to the New Republic, all while keeping in line with treaty restrictions. With the rise of the First Order, however, the Resistance was created to counter it and obtained BTA-NR2 Y-wings, modifying them past prohibitions to be more effective."
+
+
+
+ship "BTL-C Y-Wing"
+	sprite ship/btlcywing
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 165000
+		shields 2750
+		hull 1850
+		"required crew" 1
+		bunks 2
+		mass 33
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 243
+		"weapon capacity" 55
+		"engine capacity" 53
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 22
+		"Fighter Ion Cannon Turret (Red)"
+
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -28 28
+	engine 28 29
+	gun -2 -55 "Fighter Laser Cannon (Red)"
+	gun 2 -55 "Fighter Laser Cannon (Red)"
+	gun -7 -32 "Proton Torpedo Launcher"
+	gun 7 -32 "Proton Torpedo Launcher"
+	turret 0 -12 "Fighter Ion Cannon Turret (Red)"
+	explode "large explosion" 3
+	description "BTL-C Y-Wing"
+
+
+
+ship "BTL-C Y-Wing (Fighter)"
+	sprite ship/btlcywing
+	"never disabled"
+	attributes
+		category Fighter
+		cost 165000
+		shields 2750
+		hull 1850
+		"required crew" 1
+		bunks 2
+		mass 33
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 223
+		"weapon capacity" 55
+		"engine capacity" 53
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 22
+		"Fighter Ion Cannon Turret (Red)"
+
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+
+	engine -28 28
+	engine 28 29
+	gun -2 -55 "Fighter Laser Cannon (Red)"
+	gun 2 -55 "Fighter Laser Cannon (Red)"
+	gun -7 -32 "Proton Torpedo Launcher"
+	gun 7 -32 "Proton Torpedo Launcher"
+	turret 0 -12 "Fighter Ion Cannon Turret (Red)"
+	explode "large explosion" 3
+	description "BTL-C Y-Wing"
 
 
 
@@ -599,7 +694,7 @@ ship "T-105 X-Wing"
 		"Fighter Laser Cannon (Red)" 4
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
-		"Fighter Ion Cannon Turret"
+		"Fighter Ion Cannon Turret (Red)"
 
 		"Fighter Power Converter"
 		"Fighter Shield Projector"
@@ -616,7 +711,7 @@ ship "T-105 X-Wing"
 	gun 30 8 "Fighter Laser Cannon (Red)"
 	gun -5 -1 "Proton Torpedo Launcher"
 	gun 4 -1 "Proton Torpedo Launcher"
-	turret 0 34 "Fighter Ion Cannon Turret"
+	turret 0 34 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "The T-105 "Super X-Wing" is the latest in the long and storied lineage of X-Wing Starfighters.  Unlike its predecessors, the T-105 was developed as a joint venture between Incom-FreiTek and Mandal Motors, combining the best of New Republic and Mandalorian technologies.  This partnership has led to the creation of a craft that is widely regarded as the preeminent fighter in the galaxy.  Its dominance in this role is expected to continue well into the foreseeable future. (Ravendeviant)"
 
@@ -645,8 +740,8 @@ ship "MG-100 Starfortress SF-17"
 			"hull damage" 800
 			"hit force" 600
 	outfits
-		"Heavy Fighter Laser Turret" 2
-		"Heavy Fighter Laser Turret (underneath)"
+		"Heavy Fighter Laser Turret (Red)" 2
+		"Heavy Fighter Laser Turret Underneath (Red)"
 		"Fighter Laser Cannon (Red)" 6
 		"Proton Bomb" 1048
 		"Proton Bomb Launcher" 4
@@ -670,9 +765,9 @@ ship "MG-100 Starfortress SF-17"
 	gun 0 -33 "Proton Bomb Launcher"
 	gun 0 -29 "Proton Bomb Launcher"
 	gun 0 -24 "Proton Bomb Launcher"
-	turret 0 64 "Heavy Fighter Laser Turret"
-	turret 0 10 "Heavy Fighter Laser Turret"
-	turret 0 -60 "Heavy Fighter Laser Turret (underneath)"
+	turret 0 64 "Heavy Fighter Laser Turret (Red)"
+	turret 0 10 "Heavy Fighter Laser Turret (Red)"
+	turret 0 -60 "Heavy Fighter Laser Turret Underneath (Red)"
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
@@ -705,8 +800,8 @@ ship "MG-100 Starfortress SF-17 (w/out)"
 			"hull damage" 800
 			"hit force" 600
 	outfits
-		"Heavy Fighter Laser Turret" 2
-		"Heavy Fighter Laser Turret (underneath)"
+		"Heavy Fighter Laser Turret (Red)" 2
+		"Heavy Fighter Laser Turret Underneath (Red)"
 		"Proton Bomb Launcher" 4
 		
 		"Heavy Fighter Power Converter"
@@ -722,9 +817,9 @@ ship "MG-100 Starfortress SF-17 (w/out)"
 	gun 0 -33 "Proton Bomb Launcher"
 	gun 0 -29 "Proton Bomb Launcher"
 	gun 0 -24 "Proton Bomb Launcher"
-	turret 0 64 "Heavy Fighter Laser Turret"
-	turret 0 10 "Heavy Fighter Laser Turret"
-	turret 0 -60 "Heavy Fighter Laser Turret (underneath)"
+	turret 0 64 "Heavy Fighter Laser Turret (Red)"
+	turret 0 10 "Heavy Fighter Laser Turret (Red)"
+	turret 0 -60 "Heavy Fighter Laser Turret Underneath (Red)"
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
@@ -1156,10 +1251,10 @@ ship "TIE/FO Fighter"
 		"Fighter Laser Cannon (Green)" 2
 		
 		"Fighter Shield Projector"
-		"l-3b Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		
 	engine -7 10
 	engine 7 9
@@ -1195,10 +1290,10 @@ ship "TIE/FO Fighter (Fighter)"
 		"Fighter Laser Cannon (Green)" 2
 		
 		"Fighter Shield Projector"
-		"l-3b Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		
 	engine -7 10
 	engine 7 9
@@ -1234,13 +1329,13 @@ ship "TIE/SF Fighter"
 		"Fighter Laser Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
-		"Imperial Fighter Laser Turret (underneath)"
+		"Fighter Laser Turret Underneath (Green)"
 		
 		"Fighter Shield Projector"
-		"l-3b Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		
 	engine -10 10
 	engine 10 10
@@ -1248,7 +1343,7 @@ ship "TIE/SF Fighter"
 	gun 6 -14 "Fighter Laser Cannon (Green)"
 	gun -8 -8 "Concussion Missile Launcher"
 	gun 9 -8 "Concussion Missile Launcher"
-	turret 0 0 "Imperial Fighter Laser Turret (underneath)"
+	turret 0 0 "Imperial Fighter Laser Turret Underneath (Red)"
 	explode "large explosion" 3
 	description "The TIE/fo space superiority fighter was a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carried the appearance of its predecessor, the TIE/ln space superiority starfighter, though it featured internal advancements that provided it with greater defensive capabilities."
 
@@ -1279,13 +1374,13 @@ ship "TIE/SF Fighter (Fighter)"
 		"Fighter Laser Cannon (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
-		"Imperial Fighter Laser Turret (underneath)"
+		"Imperial Fighter Laser Turret Underneath (Red)"
 		
 		"Fighter Shield Projector"
-		"l-3b Solar Ionisation Reactor"
+		"Fighter Power Converter"
 		"Light Coolant System"
 
-		"TIE Fighter Twin Ion Thruster"
+		"Fighter Engine (Blue Flare)"
 		
 	engine -10 10
 	engine 10 10
@@ -1293,9 +1388,193 @@ ship "TIE/SF Fighter (Fighter)"
 	gun 6 -14 "Fighter Laser Cannon (Green)"
 	gun -8 -8 "Concussion Missile Launcher"
 	gun 9 -8 "Concussion Missile Launcher"
-	turret 0 0 "Imperial Fighter Laser Turret (underneath)"
+	turret 0 0 "Imperial Fighter Laser Turret Underneath (Red)"
 	explode "large explosion" 3
 	description "The TIE/fo space superiority fighter was a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carried the appearance of its predecessor, the TIE/ln space superiority starfighter, though it featured internal advancements that provided it with greater defensive capabilities."
+
+
+
+ship "Resurgent-class Star Destroyer"
+	sprite "ship/resurgentdestroyer"
+	attributes
+		category "Heavy Warship"
+		"cost" 360000000
+		"shields" 430000
+		"hull" 112000
+		"required crew" 19000
+		"bunks" 82000
+		"mass" 20000
+		"drag" 31
+		"heat dissipation" .3
+		"fuel capacity" 1200
+		"cargo space" 800
+		"outfit space" 4134
+		"weapon capacity" 3210
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Rendii V Quad Turbolaser Battery" 12
+		"Rendii V Dual Turbolaser Battery" 10
+		"Rendii V Turbolaser Battery" 10
+		"Tractor Beam" 4
+		
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"Destroyer Sublight Engine"
+		"Capital Hyperspace Motivator"
+
+	engine -222 3112
+	engine 220 3109
+	turret -1138 1738 "Rendii V Quad Turbolaser Battery"
+	turret -1088 1593 "Rendii V Quad Turbolaser Battery"
+	turret -1041 1447 "Rendii V Quad Turbolaser Battery"
+	turret -993 1301 "Rendii V Quad Turbolaser Battery"
+	turret -943 1152 "Rendii V Quad Turbolaser Battery"
+	turret -894 1006 "Rendii V Quad Turbolaser Battery"
+	turret 1141 1739 "Rendii V Quad Turbolaser Battery"
+	turret 1094 1591 "Rendii V Quad Turbolaser Battery"
+	turret 1044 1445 "Rendii V Quad Turbolaser Battery"
+	turret 995 1300 "Rendii V Quad Turbolaser Battery"
+	turret 946 1151 "Rendii V Quad Turbolaser Battery"
+	turret 897 1007 "Rendii V Quad Turbolaser Battery"
+	turret -401 -1190 "Rendii V Dual Turbolaser Battery"
+	turret 400 -1189 "Rendii V Dual Turbolaser Battery"
+	turret 1 -518 "Rendii V Dual Turbolaser Battery"
+	turret 2 -321 "Rendii V Dual Turbolaser Battery"
+	turret 2 -136 "Rendii V Dual Turbolaser Battery"
+	turret -753 -74 "Rendii V Dual Turbolaser Battery"
+	turret 755 -71 "Rendii V Dual Turbolaser Battery"
+	turret -805 1518 "Rendii V Dual Turbolaser Battery"
+	turret 798 1522 "Rendii V Dual Turbolaser Battery"
+	turret 2 418 "Rendii V Dual Turbolaser Battery"
+	turret -238 137 "Rendii V Turbolaser Battery"
+	turret 238 139 "Rendii V Turbolaser Battery"
+	turret -608 409 "Rendii V Turbolaser Battery"
+	turret 602 409 "Rendii V Turbolaser Battery"
+	turret -604 558 "Rendii V Turbolaser Battery"
+	turret 602 557 "Rendii V Turbolaser Battery"
+	turret -364 902 "Rendii V Turbolaser Battery"
+	turret 358 904 "Rendii V Turbolaser Battery"
+	turret -230 2000 "Rendii V Turbolaser Battery"
+	turret 230 2004 "Rendii V Turbolaser Battery"
+	turret 2 70 "Tractor Beam"
+	turret 2 70 "Tractor Beam"
+	turret 2 70 "Tractor Beam"
+	turret 2 70 "Tractor Beam"
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Resurgent-class Star Destroyer was an iconic model of battlecruiser and Star Destroyer built by Kuat-Entralla Engineering. It saw service in the First Order Navy during its conquest of the Unknown Regions after the signing of the Galactic Concordance. Based on the Imperial-class Star Destroyers of the Old Empire, it featured advanced weaponry and extreme size and represented the might of the emergent First Order throughout the galaxy"
 
 
 

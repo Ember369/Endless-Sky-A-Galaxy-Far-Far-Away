@@ -527,7 +527,7 @@ ship "DP20 Frigate"
 		"cost" 15200000
 		"shields" 34000
 		"hull" 9500
-		"required crew" 10
+		"required crew" 91
 		"bunks" 100
 		"mass" 1900
 		"drag" 4.9

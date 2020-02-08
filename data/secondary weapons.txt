@@ -45,7 +45,7 @@ outfit "Advanced Homing Missile Launcher"
 		"fire effect" "torpedo fire"
 		"hit effect" "large explosion"
 		"die effect" "tiny explosion"
-		"inaccuracy" 5
+		"inaccuracy" 15
 		"velocity" 15
 		"lifetime" 100
 		"reload" 120
@@ -99,7 +99,7 @@ outfit "Fletchette Missile Launcher"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
-		"inaccuracy" 10
+		"inaccuracy" 15
 		"velocity" 19
 		"lifetime" 80
 		"reload" 40
@@ -151,7 +151,7 @@ outfit "Concussion Missile Launcher"
 		icon "icon/concussionmissile"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 1
+		"inaccuracy" 15
 		"velocity" 17
 		"lifetime" 100
 		"reload" 100
@@ -200,7 +200,7 @@ outfit "Plasma Torpedo Launcher"
 		icon "icon/plasmatorpedo"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 1
+		"inaccuracy" 15
 		"velocity" 16
 		"lifetime" 100
 		"reload" 100
@@ -301,7 +301,7 @@ outfit "Proton Torpedo Launcher"
 		icon "icon/protontorpedo"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 1
+		"inaccuracy" 15
 		"velocity" 22
 		"lifetime" 100
 		"reload" 100

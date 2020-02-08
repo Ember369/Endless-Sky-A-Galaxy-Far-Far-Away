@@ -275,31 +275,26 @@ mission "Razor Crest vs Bounty Hunter"
 		payment 250000
 		dialog "Razor Crest vs Bounty Hunter"
 
-mission "Battle of Exogal"
-	name "Battle of Exogal"
-	description "Battle of Exogal"
+mission "Battle of Exegol"
+	name "Battle of Exegol"
+	description "Battle of Exegol"
 	repeat
 	job
 	to offer
 		random 99
 	source
-		government "Resistance"
+		government "Neutral"
 	destination
 		government "Resistance"
 	npc kill
 		personality heroic staying target unconstrained
 		government "Last Order"
-		system Exogal
+		system Exegol
 		fleet
 			variant 50
-				"Imperial I Star Destroyer" 30
-	npc kill
-		personality heroic staying target unconstrained
-		government "Last Order"
-		system Exogal
-		fleet
-			variant 50
-				"TIE/LN Fighter" 500
+				"Imperial I Star Destroyer" 20
+				"Resurgent-class Star Destroyer"
+				"TIE/DG Fighter" 500
 		dialog "Asteroid Field"
 	on complete
 		payment 250000

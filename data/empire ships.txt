@@ -565,7 +565,7 @@ ship "Gamma-class ATR-6 Assault Transport"
 		"cost" 900000
 		"shields" 8600
 		"hull" 7200
-		"required crew" 15
+		"required crew" 2
 		"bunks" 40
 		"mass" 70
 		"drag" 2.3
@@ -640,7 +640,7 @@ ship "GAT-12 Skipray Blastboat"
 	outfits
 		"Fighter Laser Cannon (Green)" 2
 		"Fighter Ion Cannon (Green)" 3
-		"Imperial Fighter Laser Turret"
+		"Fighter Laser Turret Underneath (Green)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 12
 		"Proton Torpedo Launcher" 2
@@ -661,7 +661,7 @@ ship "GAT-12 Skipray Blastboat"
 	gun 7 -70 "Fighter Laser Cannon (Green)"
 	gun -10 -69 "Concussion Missile Launcher"
 	gun 7 -70 "Concussion Missile Launcher"
-	turret 0 -10 "Imperial Fighter Laser Turret"
+	turret 0 -10 "Fighter Laser Turret Underneath (Green)"
 	explode "large explosion" 3
 	description "The Sienar Fleet Systems GAT-12 Skipray Blastboat was, early in the Galactic Civil War, the smallest hyperspace-capable combat starship in use by the Imperial Navy. It was sold primarily to the Empire; the first GAT-12h Skipray Blastboats were released prior to the Battle of Yavin, being the smallest hyperspace-capable combat starship in use by the Imperial Navy."
 
@@ -764,6 +764,52 @@ ship "IGV-55 Surveillance Vessel"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The IGV-55 surveillance vessel, or Imperial listener ship, was a starship model used by the Galactic Empire for surveillance, intel, and recon. Utilized by Imperial Intelligence's Information Office, these vessels monitored communications and scanned data, looking for signs of seditious activities. They were similar to Gozanti-class cruisers, although extensively modified with additional sensors and transmitter dishes."
+
+
+
+ship "LAAT/le Gunship"
+	sprite "ship/laatlegunship"
+	attributes
+		category "Transport"
+		"cost" 15200000
+		"shields" 3400
+		"hull" 3000
+		"required crew" 3
+		"bunks" 33
+		"mass" 70
+		"drag" 1.9
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 5
+		"outfit space" 404
+		"weapon capacity" 20
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Fighter Laser Cannon (Green)" 2
+		
+		"Transport Power Converter"
+		"Transport Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Light Transport Sublight Engine"
+		"Light Hyperspace Motivator"
+		
+	engine -21 61
+	engine 18 61
+	gun -20 -5 "Fighter Laser Cannon (Green)"
+	gun 18 -4 "Fighter Laser Cannon (Green)"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The LAAT/le gunship was a gunship introduced during the Clone Wars to perform law enforcement functions on the Republic capital of Coruscant. Designed to be sleeker and smaller as well as less heavily armed than the Republic attack gunship, the patrol transport was better suited for policing the dense, planet-wide city while reducing the risks of collateral damage."
 
 
 
@@ -2379,52 +2425,6 @@ ship "Imperial Tanker"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "Imperial tankers were long, tube-shaped transports in use by the Galactic Empire during the Galactic Civil War. One of their uses was transporting tibanna gas."
-
-
-
-ship "Imperial LAAT/le"
-	sprite "ship/imperiallaatle"
-	attributes
-		category "Transport"
-		"cost" 15200000
-		"shields" 3400
-		"hull" 3000
-		"required crew" 3
-		"bunks" 33
-		"mass" 70
-		"drag" 1.9
-		"heat dissipation" .7
-		"fuel capacity" 700
-		"cargo space" 5
-		"outfit space" 404
-		"weapon capacity" 20
-		"engine capacity" 210
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"Fighter Laser Cannon (Green)" 2
-		
-		"Transport Power Converter"
-		"Transport Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
-		
-		"Light Transport Sublight Engine"
-		"Light Hyperspace Motivator"
-		
-	engine -21 61
-	engine 18 61
-	gun -20 -5 "Fighter Laser Cannon (Green)"
-	gun 18 -4 "Fighter Laser Cannon (Green)"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "Imperial LAAT/le"
 
 
 

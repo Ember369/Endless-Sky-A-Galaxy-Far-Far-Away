@@ -505,58 +505,6 @@ ship "C-9979 Landing Craft"
 
 
 
-ship "HMP Droid Gunship"
-	sprite "ship/hmpdroidgunship"
-	"never disabled"
-	attributes
-		category "Interceptor"
-		"cost" 220000
-		"shields" 3300
-		"hull" 2900
-		automaton 1
-		"required crew" 0
-		"bunks" 0
-		"mass" 40
-		"drag" 1.1
-		"heat dissipation" .7
-		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
-		weapon
-			"blast radius" 45
-			"shield damage" 340
-			"hull damage" 190
-			"hit force" 490
-	outfits
-		"Fighter Laser Cannon (Red)" 3
-		"Fighter Laser Turret" 2
-		"Concussion Missile" 14
-		"Concussion Missile Storage Rack"
-		"Concussion Missile Launcher" 2
-
-		"Heavy Fighter Power Converter"
-		"Fighter Shield Projector"
-		"Light Coolant System" 2
-
-		"Fighter Engine"
-		"Light Hyperspace Motivator"
-		
-	gun -42 5 "Fighter Laser Cannon (Red)"
-	gun 42 5 "Fighter Laser Cannon (Red)"
-	gun 0 -52 "Fighter Laser Cannon (Red)"
-	gun -18 -14 "Concussion Missile Launcher"
-	gun 17 -14 "Concussion Missile Launcher"
-	turret -12 -32 "Fighter Laser Turret"
-	turret 11 -33 "Fighter Laser Turret"
-	explode "medium explosion" 5
-	explode "large explosion" 3
-	description "The HMP (Heavy Missile Platform) droid gunship, also known as the HMP Predator or droid gunship, was a model of repulsorlift airspeeder created by Geonosians and manufactured by Baktoid Fleet Ordnance. Operated by an advanced droid brain, they were used by the Confederacy of Independent Systems during the Clone Wars. They were heavily armed with missile pods, and seven laser cannons. Droid gunships were also used to transport B1 battle droids, B2 super battle droids, and BX-series droid commandos by use of racks and could deploy them into battle."
-
-
-
-
 ship "Geonosian Corvette"
 	sprite "ship/geonosiancorvette"
 	attributes
@@ -629,6 +577,108 @@ ship "Geonosian Corvette"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "A type of corvette was built by the Geonosian species that was bronze-skinned with a pointed prow which split into a pair of mandibles. Two of the corvettes were used in an ambush upon the forces of the Galactic Republic on Pengalan IV, during the battle there between the Republic and the Confederacy of Independent Systems in the Clone Wars. (16 Fighters)"
+
+
+
+ship "HMP Droid Gunship"
+	sprite "ship/hmpdroidgunship"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 220000
+		"shields" 3300
+		"hull" 2900
+		automaton 1
+		"required crew" 0
+		"bunks" 0
+		"mass" 40
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 32
+		"outfit space" 429
+		"weapon capacity" 235
+		"engine capacity" 55
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Fighter Laser Cannon (Red)" 3
+		"Fighter Laser Turret (Red)" 2
+		"Concussion Missile" 14
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 2
+
+		"Heavy Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System" 2
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+		
+	gun -42 5 "Fighter Laser Cannon (Red)"
+	gun 42 5 "Fighter Laser Cannon (Red)"
+	gun 0 -52 "Fighter Laser Cannon (Red)"
+	gun -18 -14 "Concussion Missile Launcher"
+	gun 17 -14 "Concussion Missile Launcher"
+	turret -12 -32 "Fighter Laser Turret (Red)"
+	turret 11 -33 "Fighter Laser Turret (Red)"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "The HMP (Heavy Missile Platform) droid gunship, also known as the HMP Predator or droid gunship, was a model of repulsorlift airspeeder created by Geonosians and manufactured by Baktoid Fleet Ordnance. Operated by an advanced droid brain, they were used by the Confederacy of Independent Systems during the Clone Wars. They were heavily armed with missile pods, and seven laser cannons. Droid gunships were also used to transport B1 battle droids, B2 super battle droids, and BX-series droid commandos by use of racks and could deploy them into battle."
+
+
+
+
+ship "Hoersch-Kessel Drive Core Ship"
+	sprite "ship/hoerschkesseldrivecoreship"
+	attributes
+		category "Heavy Warship"
+		"cost" 200000000
+		"shields" 250000
+		"hull" 65000
+		"required crew" 300
+		"bunks" 80000
+		"mass" 15000
+		"drag" 26
+		"heat dissipation" .3
+		"fuel capacity" 1200
+		"cargo space" 800
+		"outfit space" 4134
+		"weapon capacity" 3210
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Turbolaser Turret" 2
+		"Tractor Beam" 2
+		
+		"Destroyer Power Converter"
+		"Destroyer Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 7
+		
+		"Destroyer Sublight Engine"
+		"Capital Hyperspace Motivator"
+
+
+	turret 36 -67 "Turbolaser Turret"
+	turret 36 -67 "Turbolaser Turret"
+	turret -263 -1154 "Tractor Beam"
+	turret 305 -1155 "Tractor Beam"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Core ships were modified Lucrehulk-class modular control cores that were used as an autonomous transport by the Trade Federation and later the Confederacy of Independent Systems during the Clone Wars as well as the Separatist holdouts during the Imperial Period."
+
 
 
 
@@ -1079,8 +1129,8 @@ ship "Lucrehulk-class Battleship"
 		"cost" 340000000
 		"shields" 400000
 		"hull" 100000
-		"required crew" 11000
-		"bunks" 52000
+		"required crew" 350
+		"bunks" 100000
 		"mass" 25000
 		"drag" 30
 		"heat dissipation" .3
@@ -1097,7 +1147,7 @@ ship "Lucrehulk-class Battleship"
 	outfits
 		"Dual Turbolaser Turret" 26
 		"Turbolaser Turret" 2
-		"Tractor Beam" 4
+		"Tractor Beam" 2
 		
 		"Destroyer Power Converter"
 		"Destroyer Shield Projector"
@@ -2220,6 +2270,57 @@ ship "Venator-class Star Destroyer"
 	"final explode" "final explosion large"
 	description "Venator-class Star Destroyer has a complement of TIE/LN(48), TIE/SA(12), TIE/IN(24) = 160"
 
+ship "LAAT/i Gunship"
+	sprite "ship/laatigunship"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 240000
+		"shields" 3350
+		"hull" 2920
+		SSSSautomaton 1
+		"required crew" 0
+		"bunks" 3
+		"mass" 40
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 32
+		"outfit space" 429
+		"weapon capacity" 235
+		"engine capacity" 55
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Fighter Laser Cannon (Red)" 3
+		"Fighter Beam Turret (Green)" 2
+		"Concussion Missile" 14
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 2
+
+		"Heavy Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System" 2
+
+		"Fighter Engine"
+		"Light Hyperspace Motivator"
+		
+	gun -42 5 "Fighter Laser Cannon (Red)"
+	gun 42 5 "Fighter Laser Cannon (Red)"
+	gun 0 -52 "Fighter Laser Cannon (Red)"
+	gun -18 -14 "Concussion Missile Launcher"
+	gun 17 -14 "Concussion Missile Launcher"
+	turret -12 -32 "Fighter Beam Turret (Green)"
+	turret 11 -33 "Fighter Beam Turret (Green)"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "The Low Altitude Assault Transport/infantry (LAAT/i) mainly served as gunships and troop transports for the Grand Army of the Republic during the Clone Wars. Its role was to transport Clone trooper as well as offering air-to-ground and air-to-air support for the Galactic Republic against the Confederacy of Independent Systems. The LAAT/i gunship saw extensive use in numerous battles and campaigns of the Clone Wars."
+
+
+
 ship "Nimbus-class V-wing starfighter"
 	sprite "ship/nimbusvwing"
 	"never disabled"
@@ -2336,7 +2437,7 @@ ship "BTL-B Y-Wing"
 		"Fighter Laser Cannon (Blue)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
-		"Fighter Ion Cannon Turret"
+		"Fighter Ion Cannon Turret (Red)"
 
 		"Fighter Power Converter"
 		"Fighter Shield Projector"
@@ -2351,7 +2452,7 @@ ship "BTL-B Y-Wing"
 	gun 2 -58 "Fighter Laser Cannon (Blue)"
 	gun -8 -29 "Proton Torpedo Launcher"
 	gun 9 -29 "Proton Torpedo Launcher"
-	turret 0 -33 "Fighter Ion Cannon Turret"
+	turret 0 -33 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "BTL-B Y-Wing"
 
@@ -2384,7 +2485,7 @@ ship "BTL-B Y-Wing (Fighter)"
 		"Fighter Laser Cannon (Blue)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
-		"Fighter Ion Cannon Turret"
+		"Fighter Ion Cannon Turret (Red)"
 
 		"Fighter Power Converter"
 		"Fighter Shield Projector"
@@ -2398,13 +2499,13 @@ ship "BTL-B Y-Wing (Fighter)"
 	gun 2 -58 "Fighter Laser Cannon (Blue)"
 	gun -8 -29 "Proton Torpedo Launcher"
 	gun 9 -29 "Proton Torpedo Launcher"
-	turret 0 -33 "Fighter Ion Cannon Turret"
+	turret 0 -33 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "BTL-B Y-Wing"
 
 
 
-ship "BTL-B Y-Wing (Custom)"
+ship "BTL-B Y-Wing Custom"
 	sprite ship/btlbywingcustom
 	"never disabled"
 	attributes
@@ -2431,7 +2532,7 @@ ship "BTL-B Y-Wing (Custom)"
 		"Fighter Laser Cannon (Blue)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
-		"Fighter Ion Cannon Turret"
+		"Fighter Ion Cannon Turret (Red)"
 
 		"Fighter Power Converter"
 		"Fighter Shield Projector"
@@ -2446,6 +2547,53 @@ ship "BTL-B Y-Wing (Custom)"
 	gun 2 -56 "Fighter Laser Cannon (Blue)"
 	gun -8 -33 "Proton Torpedo Launcher"
 	gun 8 -34 "Proton Torpedo Launcher"
-	turret 0 -30 "Fighter Ion Cannon Turret"
+	turret 0 -30 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
-	description "BTL-B Y-Wing (Custom)"
+	description "BTL-B Y-Wing Custom"
+
+
+
+ship "BTL-B Y-Wing Custom (Fighter)"
+	sprite ship/btlbywingcustom
+	"never disabled"
+	attributes
+		category Fighter
+		cost 520000
+		shields 2600
+		hull 1800
+		"required crew" 1
+		bunks 2
+		mass 33
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 243
+		"weapon capacity" 55
+		"engine capacity" 53
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"Fighter Laser Cannon (Blue)" 2
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 22
+		"Fighter Ion Cannon Turret (Red)"
+
+		"Fighter Power Converter"
+		"Fighter Shield Projector"
+		"Light Coolant System"
+
+		"Fighter Engine (Pink Flare)"
+
+	engine -21 56
+	engine 21 56
+	gun -2 -56 "Fighter Laser Cannon (Blue)"
+	gun 2 -56 "Fighter Laser Cannon (Blue)"
+	gun -8 -33 "Proton Torpedo Launcher"
+	gun 8 -34 "Proton Torpedo Launcher"
+	turret 0 -30 "Fighter Ion Cannon Turret (Red)"
+	explode "large explosion" 3
+	description "BTL-B Y-Wing Custom (Fighter)"
