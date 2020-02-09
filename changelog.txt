@@ -1,3 +1,27 @@
+## Version: 0.2-alpha
+* Changelog
+	* Ships
+		* Fang Fighter Black
+		* Fang Fighter Black (Fighter)
+		* Resurgent-class Star Destroyer
+		* Hoersch Kessel Drive Core Ship
+		* Hapan Battle Dragon
+		* Krayt Lav
+		* LAAT/i Gunship
+		* Flarestar-class Attack Shuttle
+		* BTL-C Y-Wing
+		* BTL-C Y-Wing (Fighter)
+			* Reached 300 ships!
+	* Miscellaneous
+		* Added a start.txt file so that players start at Coruscant
+	* Map
+		* Descriptions and land for a few systems
+		* Added Kiiro (fan-made Planet, eventually the storyline will start here)
+	* Outfits
+		* Standardised all weapons (rather than having individual outfits for 			different ships)
+		* Adjusted the hull and shield damages of multiple weapons
+		* Lowered the shield recharge rate for all shield projector
+
 ## Version: 0.1-alpha
 * Changelog
 	* Ships

@@ -36875,7 +36875,7 @@ planet "Commenor "
 planet Coruscant
 	landscape land/coruscant
 	description `A city-covered planet, Coruscant is the vibrant heart and capital of the galaxy, featuring a diverse mix of citizens and culture. It features towering skyscrapers, streams of speeder-filled air traffic, and inner levels that stretch far below the world’s surface. Coruscant was the seat of government for the Galactic Republic and the Empire that followed, and was the site of numerous historic events during the Clone Wars. It also housed the Jedi Temple and Archives, which hosted Jedi training and learning for over a thousand generations -- traditions that ended when the planet bore witness to Order 66.`
-	spaceport Coruscant
+	spaceport `Coruscant's surface was defined by its urban sprawl, which collectively was called Galactic City. The dense city blocks were built on top of each other, with lowest being Level 1 and the highest reaching to Level 5127. The lowest known habitable level was Level 5. At its highest level, Galactic City's skyscrapers were built with many reaching 6,000 meters into the atmosphere, with sleek, transparisteel edifices standing next to older duracrete structures.`
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
 	shipyard "Galactic Republic Ships"

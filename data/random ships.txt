@@ -73,7 +73,7 @@ ship "AA-9 Coruscant Freighter"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret" 2
+		"Turbolaser Turret (Red)" 2
 		
 		"Heavy Freighter Power Converter"
 		"Heavy Freighter Shield Projector"
@@ -86,8 +86,8 @@ ship "AA-9 Coruscant Freighter"
 	engine -213 452
 	engine -2 458
 	engine 208 451
-	turret -2 -322 "Turbolaser Turret"
-	turret -3 133 "Turbolaser Turret"
+	turret -2 -322 "Turbolaser Turret (Red)"
+	turret -3 133 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -120,7 +120,7 @@ ship "Action VI Transport"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret"
+		"Turbolaser Turret (Red)"
 		
 		"Heavy Freighter Power Converter"
 		"Heavy Freighter Shield Projector"
@@ -132,7 +132,7 @@ ship "Action VI Transport"
 	
 	engine -12 223
 	engine 14 223
-	turret 1 -83 "Turbolaser Turret"
+	turret 1 -83 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -253,8 +253,8 @@ ship "Aggressor Star Destroyer"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Dual Turbolaser Turret" 12
-		"Turbolaser Turret" 14
+		"Dual Turbolaser Turret (Red)" 12
+		"Turbolaser Turret (Red)" 14
 		"Linked Ion/Plasma Cannon"
 		"Tractor Beam" 2
 		
@@ -269,32 +269,32 @@ ship "Aggressor Star Destroyer"
 	engine -191 755
 	engine 178 752
 	gun -10 -1532 "Linked Ion/Plasma Cannon"
-	turret -133 -1466 "Turbolaser Turret"
-	turret 124 -1471 "Turbolaser Turret"
-	turret -133 -1420 "Turbolaser Turret"
-	turret 122 -1422 "Turbolaser Turret"
-	turret -130 -1360 "Turbolaser Turret"
-	turret 115 -1359 "Turbolaser Turret"
-	turret -130 -1304 "Turbolaser Turret"
-	turret 113 -1306 "Turbolaser Turret"
-	turret -127 -1249 "Dual Turbolaser Turret"
-	turret 114 -1249 "Dual Turbolaser Turret"
-	turret -128 -1177 "Turbolaser Turret"
-	turret 114 -1172 "Turbolaser Turret"
-	turret -128 -1080 "Dual Turbolaser Turret"
-	turret 112 -1083 "Dual Turbolaser Turret"
-	turret -118 -924 "Turbolaser Turret"
-	turret 102 -923 "Turbolaser Turret"
-	turret -119 -824 "Dual Turbolaser Turret"
-	turret 105 -825 "Dual Turbolaser Turret"
-	turret -119 -681 "Dual Turbolaser Turret"
-	turret 104 -681 "Dual Turbolaser Turret"
-	turret -118 -434 "Dual Turbolaser Turret"
-	turret 97 -436 "Dual Turbolaser Turret"
-	turret -125 -283 "Turbolaser Turret"
-	turret 108 -28 "Turbolaser Turret"
-	turret -323 -2 "Dual Turbolaser Turret"
-	turret 306 -5 "Dual Turbolaser Turret"
+	turret -133 -1466 "Turbolaser Turret (Red)"
+	turret 124 -1471 "Turbolaser Turret (Red)"
+	turret -133 -1420 "Turbolaser Turret (Red)"
+	turret 122 -1422 "Turbolaser Turret (Red)"
+	turret -130 -1360 "Turbolaser Turret (Red)"
+	turret 115 -1359 "Turbolaser Turret (Red)"
+	turret -130 -1304 "Turbolaser Turret (Red)"
+	turret 113 -1306 "Turbolaser Turret (Red)"
+	turret -127 -1249 "Dual Turbolaser Turret (Red)"
+	turret 114 -1249 "Dual Turbolaser Turret (Red)"
+	turret -128 -1177 "Turbolaser Turret (Red)"
+	turret 114 -1172 "Turbolaser Turret (Red)"
+	turret -128 -1080 "Dual Turbolaser Turret (Red)"
+	turret 112 -1083 "Dual Turbolaser Turret (Red)"
+	turret -118 -924 "Turbolaser Turret (Red)"
+	turret 102 -923 "Turbolaser Turret (Red)"
+	turret -119 -824 "Dual Turbolaser Turret (Red)"
+	turret 105 -825 "Dual Turbolaser Turret (Red)"
+	turret -119 -681 "Dual Turbolaser Turret (Red)"
+	turret 104 -681 "Dual Turbolaser Turret (Red)"
+	turret -118 -434 "Dual Turbolaser Turret (Red)"
+	turret 97 -436 "Dual Turbolaser Turret (Red)"
+	turret -125 -283 "Turbolaser Turret (Red)"
+	turret 108 -28 "Turbolaser Turret (Red)"
+	turret -323 -2 "Dual Turbolaser Turret (Red)"
+	turret 306 -5 "Dual Turbolaser Turret (Red)"
 	turret -10 -1532 "Tractor Beam"
 	turret -10 -1532 "Tractor Beam"
 	fighter -10 -1532
@@ -346,7 +346,7 @@ ship "Ajuur Heavy Cruiser"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret" 2
+		"Turbolaser Turret (Red)" 2
 		
 		"Heavy Freighter Power Converter"
 		"Heavy Freighter Shield Projector"
@@ -358,8 +358,8 @@ ship "Ajuur Heavy Cruiser"
 	
 	engine -105 234
 	engine 102 233
-	turret -1 -266 "Turbolaser Turret"
-	turret 0 220 "Turbolaser Turret"
+	turret -1 -266 "Turbolaser Turret (Red)"
+	turret 0 220 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -669,8 +669,8 @@ ship "Aurra Sing's Blockade Runner"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Turbolaser Turret" 4
-		"Dual Turbolaser Turret" 2
+		"Turbolaser Turret (Red)" 4
+		"Dual Turbolaser Turret (Red)" 2
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -682,12 +682,12 @@ ship "Aurra Sing's Blockade Runner"
 		
 	engine -147 247
 	engine 145 246
-	turret -1 -123 "Dual Turbolaser Turret"
-	turret -1 -123 "Dual Turbolaser Turret"
-	turret -75 -25 "Turbolaser Turret"
-	turret 69 -27 "Turbolaser Turret"
-	turret -40 -39 "Turbolaser Turret"
-	turret 36 -40 "Turbolaser Turret"
+	turret -1 -123 "Dual Turbolaser Turret (Red)"
+	turret -1 -123 "Dual Turbolaser Turret (Red)"
+	turret -75 -25 "Turbolaser Turret (Red)"
+	turret 69 -27 "Turbolaser Turret (Red)"
+	turret -40 -39 "Turbolaser Turret (Red)"
+	turret 36 -40 "Turbolaser Turret (Red)"
 	fighter -3 -47
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -869,7 +869,7 @@ ship "Baudo-class Star Yacht"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Quad Turbolaser Turret"
+		"Transport Dual Laser Turret (Red)"
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -881,7 +881,7 @@ ship "Baudo-class Star Yacht"
 		
 	engine -16.5 109
 	engine 14 109
-	turret -1 -2 "Transport Quad Turbolaser Turret"
+	turret -1 -2 "Transport Dual Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -962,8 +962,8 @@ ship "Bespin Bandit"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
-		"Transport Quad Turbolaser Turret" 1
+		"Transport Laser Cannon (Red)" 2
+		"Transport Dual Laser Turret (Red)" 1
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -975,9 +975,9 @@ ship "Bespin Bandit"
 		
 	engine -51 107
 	engine 51 106
-	gun -64 -30 "Transport Laser Cannon"
-	gun 64 -29 "Transport Laser Cannon"
-	turret -22 -83 "Transport Quad Turbolaser Turret"
+	gun -64 -30 "Transport Laser Cannon (Red)"
+	gun 64 -29 "Transport Laser Cannon (Red)"
+	turret -22 -83 "Transport Dual Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1053,7 +1053,7 @@ ship "BT7 Thunderclap"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 3
+		"Transport Laser Cannon (Red)" 3
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 		
@@ -1068,9 +1068,9 @@ ship "BT7 Thunderclap"
 	engine -28 57
 	engine -15 57
 	engine -2 58
-	gun -81 -6 "Transport Laser Cannon"
-	gun -81 -6 "Transport Laser Cannon"
-	gun 73 -69 "Transport Laser Cannon"
+	gun -81 -6 "Transport Laser Cannon (Red)"
+	gun -81 -6 "Transport Laser Cannon (Red)"
+	gun 73 -69 "Transport Laser Cannon (Red)"
 	gun -29 -30 "Proton Torpedo Launcher"
 	gun -1 -30 "Proton Torpedo Launcher"
 	explode "tiny explosion" 20
@@ -1294,7 +1294,7 @@ ship "C-ROC Gozanti Cruiser"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret" 2
+		"Turbolaser Turret (Red)" 2
 		
 		"Heavy Freighter Power Converter"
 		"Heavy Freighter Shield Projector"
@@ -1306,8 +1306,8 @@ ship "C-ROC Gozanti Cruiser"
 	
 	engine -97 366
 	engine 102 366
-	turret 1 -308 "Turbolaser Turret"
-	turret 1 55 "Turbolaser Turret"
+	turret 1 -308 "Turbolaser Turret (Red)"
+	turret 1 55 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1340,7 +1340,7 @@ ship "Crusader-class Corvette"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Mandalorian Turbolaser Turret" 10
+		"Turbolaser Turret (Yellow)" 10
 		"Point-Defence Laser Cannon Battery" 2
 		
 		"Corvette Power Converter"
@@ -1354,16 +1354,16 @@ ship "Crusader-class Corvette"
 	engine -63 366
 	engine 62 367
 	engine -1 395
-	turret -58 -198 "Mandalorian Turbolaser Turret"
-	turret 57 -199 "Mandalorian Turbolaser Turret"
-	turret -59 -136 "Mandalorian Turbolaser Turret"
-	turret 57 -136 "Mandalorian Turbolaser Turret"
-	turret -59 -72 "Mandalorian Turbolaser Turret"
-	turret 57 -71 "Mandalorian Turbolaser Turret"
-	turret -1 -44 "Mandalorian Turbolaser Turret"
-	turret -1 -44 "Mandalorian Turbolaser Turret"
-	turret 0 -390 "Mandalorian Turbolaser Turret"
-	turret 0 -390 "Mandalorian Turbolaser Turret"
+	turret -58 -198 "Turbolaser Turret (Yellow)"
+	turret 57 -199 "Turbolaser Turret (Yellow)"
+	turret -59 -136 "Turbolaser Turret (Yellow)"
+	turret 57 -136 "Turbolaser Turret (Yellow)"
+	turret -59 -72 "Turbolaser Turret (Yellow)"
+	turret 57 -71 "Turbolaser Turret (Yellow)"
+	turret -1 -44 "Turbolaser Turret (Yellow)"
+	turret -1 -44 "Turbolaser Turret (Yellow)"
+	turret 0 -390 "Turbolaser Turret (Yellow)"
+	turret 0 -390 "Turbolaser Turret (Yellow)"
 	turret -1 124 "Point-Defence Laser Cannon Battery"
 	turret -1 124 "Point-Defence Laser Cannon Battery"
 	explode "tiny explosion" 20
@@ -1398,7 +1398,7 @@ ship "CSA ChaseMaster"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Dual Turbolaser Turret" 6
+		"Dual Turbolaser Turret (Red)" 6
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -1414,12 +1414,12 @@ ship "CSA ChaseMaster"
 	engine 97 296
 	engine 159 286
 	engine 236 279
-	turret -24 -237 "Dual Turbolaser Turret"
-	turret 24 -237 "Dual Turbolaser Turret"
-	turret -23 -205 "Dual Turbolaser Turret"
-	turret 24 -205 "Dual Turbolaser Turret"
-	turret -22 -134 "Dual Turbolaser Turret"
-	turret 23 -135 "Dual Turbolaser Turret"
+	turret -24 -237 "Dual Turbolaser Turret (Red)"
+	turret 24 -237 "Dual Turbolaser Turret (Red)"
+	turret -23 -205 "Dual Turbolaser Turret (Red)"
+	turret 24 -205 "Dual Turbolaser Turret (Red)"
+	turret -22 -134 "Dual Turbolaser Turret (Red)"
+	turret 23 -135 "Dual Turbolaser Turret (Red)"
 	fighter 0 -457
 	fighter 0 -457
 	fighter 0 -457
@@ -1460,7 +1460,7 @@ ship "D5-Mantis Patrol Craft"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 3
+		"Transport Laser Cannon (Red)" 3
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 		
@@ -1474,9 +1474,9 @@ ship "D5-Mantis Patrol Craft"
 		
 	engine -69 15
 	engine 68 15
-	gun -70 -23 "Transport Laser Cannon"
-	gun 70 -23 "Transport Laser Cannon"
-	gun 0 -22 "Transport Laser Cannon"
+	gun -70 -23 "Transport Laser Cannon (Red)"
+	gun 70 -23 "Transport Laser Cannon (Red)"
+	gun 0 -22 "Transport Laser Cannon (Red)"
 	gun -30 -23 "Proton Torpedo Launcher"
 	gun 30 -24 "Proton Torpedo Launcher"
 	explode "tiny explosion" 20
@@ -1511,7 +1511,7 @@ ship "Dart Gunship"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Turbolaser Turret" 4
+		"Turbolaser Turret (Red)" 4
 		"Concussion Missile Launcher" 1
 		"Concussion Missile" 16
 		
@@ -1527,10 +1527,10 @@ ship "Dart Gunship"
 	engine 0 163
 	engine 28 163
 	gun 0 -162 "Concussion Missile Launcher"
-	turret 18 -63 "Turbolaser Turret"
-	turret -17 -22 "Turbolaser Turret"
-	turret -29 85 "Turbolaser Turret"
-	turret 29 85 "Turbolaser Turret"
+	turret 18 -63 "Turbolaser Turret (Red)"
+	turret -17 -22 "Turbolaser Turret (Red)"
+	turret -29 85 "Turbolaser Turret (Red)"
+	turret 29 85 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1657,7 +1657,7 @@ ship "Defender-class Corvette"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret" 3
+		"Turbolaser Turret (Red)" 3
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -1669,9 +1669,9 @@ ship "Defender-class Corvette"
 		
 	engine -39 178
 	engine 49 178
-	turret -131 -133 "Turbolaser Turret"
-	turret 141 -134 "Turbolaser Turret"
-	turret 4 -92 "Turbolaser Turret"
+	turret -131 -133 "Turbolaser Turret (Red)"
+	turret 141 -134 "Turbolaser Turret (Red)"
+	turret 4 -92 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1706,7 +1706,7 @@ ship "Delta JV-7 Shuttle"
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"T4a Shuttle Laser Cannon" 3
+		"Fighter Laser Cannon (Green)" 3
 		
 		"Transport Power Converter"
 		"Shuttle Shield Projector"
@@ -1718,9 +1718,9 @@ ship "Delta JV-7 Shuttle"
 		
 	engine -28 49
 	engine 24 48
-	gun -67 -59 "T4a Shuttle Laser Cannon"
-	gun 65 -60 "T4a Shuttle Laser Cannon"
-	gun -1 -62 "T4a Shuttle Laser Cannon"
+	gun -67 -59 "Fighter Laser Cannon (Green)"
+	gun 65 -60 "Fighter Laser Cannon (Green)"
+	gun -1 -62 "Fighter Laser Cannon (Green)"
 	explode "tiny explosion" 2
 	explode "small explosion" 4
 	explode "medium explosion" 6
@@ -1753,7 +1753,7 @@ ship "Dragonboat-class Reugeot 905 Freighter"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret"
+		"Turbolaser Turret (Red)"
 		
 		"Heavy Freighter Power Converter"
 		"Heavy Freighter Shield Projector"
@@ -1765,7 +1765,7 @@ ship "Dragonboat-class Reugeot 905 Freighter"
 	
 	engine -96 251
 	engine 90 251
-	turret -3 -51 "Turbolaser Turret"
+	turret -3 -51 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1798,7 +1798,7 @@ ship "Dusty Duck"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
+		"Transport Laser Cannon (Red)" 2
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -1809,8 +1809,8 @@ ship "Dusty Duck"
 		"Medium Hyperspace Motivator"
 		
 	engine 1 68
-	gun -25 -28 "Transport Laser Cannon"
-	gun 22 -28 "Transport Laser Cannon"
+	gun -25 -28 "Transport Laser Cannon (Red)"
+	gun 22 -28 "Transport Laser Cannon (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1843,8 +1843,8 @@ ship "Dynamic Freighter"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
-		"Transport Quad Turbolaser Turret" 2
+		"Transport Laser Cannon (Red)" 2
+		"Transport Dual Laser Turret (Red)" 2
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -1856,10 +1856,10 @@ ship "Dynamic Freighter"
 		
 	engine -26 87
 	engine 23 87
-	gun -92 2 "Transport Laser Cannon"
-	gun 89 3 "Transport Laser Cannon"
-	turret -2 5 "Transport Quad Turbolaser Turret"
-	turret -2 5 "Transport Quad Turbolaser Turret"
+	gun -92 2 "Transport Laser Cannon (Red)"
+	gun 89 3 "Transport Laser Cannon (Red)"
+	turret -2 5 "Transport Dual Laser Turret (Red)"
+	turret -2 5 "Transport Dual Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1892,7 +1892,7 @@ ship "Empress-class Super Freighter"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret"
+		"Turbolaser Turret (Red)"
 		
 		"Heavy Freighter Power Converter"
 		"Heavy Freighter Shield Projector"
@@ -1904,7 +1904,7 @@ ship "Empress-class Super Freighter"
 	
 	engine -12 237
 	engine 16 237
-	turret 1 -154 "Turbolaser Turret"
+	turret 1 -154 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1937,8 +1937,8 @@ ship "Eternal Battlecruiser"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"Dual Turbolaser Turret" 2
-		"Turbolaser Turret" 6
+		"Dual Turbolaser Turret (Red)" 2
+		"Turbolaser Turret (Red)" 6
 		"Tractor Beam" 2
 		
 		"Destroyer Power Converter"
@@ -1954,14 +1954,14 @@ ship "Eternal Battlecruiser"
 	engine 112 865
 	engine -53 871
 	engine 38 874
-	turret -258 -490 "Turbolaser Turret"
-	turret -203 -374 "Turbolaser Turret"
-	turret 258 -490 "Turbolaser Turret"
-	turret 197 -381 "Turbolaser Turret"
-	turret -133 437 "Turbolaser Turret"
-	turret 121 437 "Turbolaser Turret"
-	turret -458 -638 "Dual Turbolaser Turret"
-	turret 441 -639 "Dual Turbolaser Turret"
+	turret -258 -490 "Turbolaser Turret (Red)"
+	turret -203 -374 "Turbolaser Turret (Red)"
+	turret 258 -490 "Turbolaser Turret (Red)"
+	turret 197 -381 "Turbolaser Turret (Red)"
+	turret -133 437 "Turbolaser Turret (Red)"
+	turret 121 437 "Turbolaser Turret (Red)"
+	turret -458 -638 "Dual Turbolaser Turret (Red)"
+	turret 441 -639 "Dual Turbolaser Turret (Red)"
 	fighter -10 -838
 	fighter -10 -838
 	fighter -10 -838
@@ -2225,9 +2225,9 @@ ship "Firespray-31-class patrol craft"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
+		"Transport Laser Cannon (Red)" 2
 		"Proton Torpedo Launcher" 2
-		"Transport Laser Turret" 1
+		"Transport Laser Turret (Red)" 1
 		"MG9 Proton Torpedo" 10
 		
 		"Transport Power Converter"
@@ -2241,8 +2241,8 @@ ship "Firespray-31-class patrol craft"
 	engine -18 22
 	engine -2 21
 	engine 14 20
-	gun -41 -8 "Transport Laser Cannon"
-	gun 42 -8 "Transport Laser Cannon"
+	gun -41 -8 "Transport Laser Cannon (Red)"
+	gun 42 -8 "Transport Laser Cannon (Red)"
 	gun -49 -7 "Proton Torpedo Launcher"
 	gun 49 -8 "Proton Torpedo Launcher"
 	explode "tiny explosion" 20
@@ -2321,7 +2321,7 @@ ship "Foray-class Blockade Runner"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Dual Turbolaser Turret" 2
+		"Dual Turbolaser Turret (Red)" 2
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -2334,8 +2334,8 @@ ship "Foray-class Blockade Runner"
 	engine -86 277
 	engine 0 250
 	engine 88 281
-	turret -22 -236 "Dual Turbolaser Turret"
-	turret 25 -236 "Dual Turbolaser Turret"
+	turret -22 -236 "Dual Turbolaser Turret (Red)"
+	turret 25 -236 "Dual Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2556,7 +2556,7 @@ ship "Fury-class Sith Imperial Interceptor"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Heavy Laser Cannon" 4
+		"Transport Laser Cannon (Red)" 4
 		
 		"Transport Power Converter"
 		"Shuttle Shield Projector"
@@ -2567,10 +2567,10 @@ ship "Fury-class Sith Imperial Interceptor"
 		"Light Hyperspace Motivator"
 		
 	engine -2 91
-	gun -6 -16 "Heavy Laser Cannon"
-	gun 3 -15 "Heavy Laser Cannon"
-	gun -82 8 "Heavy Laser Cannon"
-	gun 78 8 "Heavy Laser Cannon"
+	gun -6 -16 "Transport Laser Cannon (Red)"
+	gun 3 -15 "Transport Laser Cannon (Red)"
+	gun -82 8 "Transport Laser Cannon (Red)"
+	gun 78 8 "Transport Laser Cannon (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2734,8 +2734,8 @@ ship "G9 Rigger-class light freighter"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 3
-		"Transport Laser Turret"
+		"Transport Laser Cannon (Red)" 3
+		"Transport Laser Turret (Red)"
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -2747,10 +2747,10 @@ ship "G9 Rigger-class light freighter"
 		
 	engine -85 50
 	engine -28 49
-	gun -77 -21 "Transport Laser Cannon"
-	gun -44 -28 "Transport Laser Cannon"
-	gun -44 -28 "Transport Laser Cannon"
-	turret 85 9 "Transport Laser Turret"
+	gun -77 -21 "Transport Laser Cannon (Red)"
+	gun -44 -28 "Transport Laser Cannon (Red)"
+	gun -44 -28 "Transport Laser Cannon (Red)"
+	turret 85 9 "Transport Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2872,8 +2872,8 @@ ship "Galactic-class Battle Carrier"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Battery" 16
-		"Dual Turbolaser Turret" 12
+		"Quad Turbolaser Turret (Red)" 16
+		"Dual Turbolaser Turret (Red)" 12
 		"Tractor Beam" 4
 		
 		"Destroyer Power Converter"
@@ -2886,34 +2886,34 @@ ship "Galactic-class Battle Carrier"
 
 	engine -474 1621
 	engine 478 1622
-	turret -539 823 "Quad Turbolaser Battery"
-	turret -531 800 "Quad Turbolaser Battery"
-	turret -492 683 "Quad Turbolaser Battery"
-	turret -485 657 "Quad Turbolaser Battery"
-	turret -435 533 "Quad Turbolaser Battery"
-	turret -428 511 "Quad Turbolaser Battery"
-	turret -388 394 "Quad Turbolaser Battery"
-	turret -381 371 "Quad Turbolaser Battery"
-	turret 542 819 "Quad Turbolaser Battery"
-	turret 534 795 "Quad Turbolaser Battery"
-	turret 496 679 "Quad Turbolaser Battery"
-	turret 487 657 "Quad Turbolaser Battery"
-	turret 439 533 "Quad Turbolaser Battery"
-	turret 433 511 "Quad Turbolaser Battery"
-	turret 394 393 "Quad Turbolaser Battery"
-	turret 385 369 "Quad Turbolaser Battery"
-	turret -309 -465 "Dual Turbolaser Turret"
-	turret 318 -465 "Dual Turbolaser Turret"
-	turret -236 -650 "Dual Turbolaser Turret"
-	turret 240 -648 "Dual Turbolaser Turret"
-	turret -128 -1084 "Dual Turbolaser Turret"
-	turret 132 -1081 "Dual Turbolaser Turret"
-	turret -63 -1415 "Dual Turbolaser Turret"
-	turret 68 -1413 "Dual Turbolaser Turret"
-	turret -31 -1613 "Dual Turbolaser Turret"
-	turret 33 -1614 "Dual Turbolaser Turret"
-	turret -552 1164 "Dual Turbolaser Turret"
-	turret 557 1160 "Dual Turbolaser Turret"
+	turret -539 823 "Quad Turbolaser Turret (Red)"
+	turret -531 800 "Quad Turbolaser Turret (Red)"
+	turret -492 683 "Quad Turbolaser Turret (Red)"
+	turret -485 657 "Quad Turbolaser Turret (Red)"
+	turret -435 533 "Quad Turbolaser Turret (Red)"
+	turret -428 511 "Quad Turbolaser Turret (Red)"
+	turret -388 394 "Quad Turbolaser Turret (Red)"
+	turret -381 371 "Quad Turbolaser Turret (Red)"
+	turret 542 819 "Quad Turbolaser Turret (Red)"
+	turret 534 795 "Quad Turbolaser Turret (Red)"
+	turret 496 679 "Quad Turbolaser Turret (Red)"
+	turret 487 657 "Quad Turbolaser Turret (Red)"
+	turret 439 533 "Quad Turbolaser Turret (Red)"
+	turret 433 511 "Quad Turbolaser Turret (Red)"
+	turret 394 393 "Quad Turbolaser Turret (Red)"
+	turret 385 369 "Quad Turbolaser Turret (Red)"
+	turret -309 -465 "Dual Turbolaser Turret (Red)"
+	turret 318 -465 "Dual Turbolaser Turret (Red)"
+	turret -236 -650 "Dual Turbolaser Turret (Red)"
+	turret 240 -648 "Dual Turbolaser Turret (Red)"
+	turret -128 -1084 "Dual Turbolaser Turret (Red)"
+	turret 132 -1081 "Dual Turbolaser Turret (Red)"
+	turret -63 -1415 "Dual Turbolaser Turret (Red)"
+	turret 68 -1413 "Dual Turbolaser Turret (Red)"
+	turret -31 -1613 "Dual Turbolaser Turret (Red)"
+	turret 33 -1614 "Dual Turbolaser Turret (Red)"
+	turret -552 1164 "Dual Turbolaser Turret (Red)"
+	turret 557 1160 "Dual Turbolaser Turret (Red)"
 	turret 2 -73 "Tractor Beam"
 	turret 2 -73 "Tractor Beam"
 	turret 2 -73 "Tractor Beam"
@@ -3140,7 +3140,7 @@ ship "Krayt Lav"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Transport Laser Turret" 2
+		"Transport Laser Turret (Red)" 2
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -3155,8 +3155,8 @@ ship "Krayt Lav"
 	engine 1 128
 	engine 8 128
 	engine 10 128
-	turret 0 -99 "Transport Laser Turret"
-	turret -1 -12 "Transport Laser Turret"
+	turret 0 -99 "Transport Laser Turret (Red)"
+	turret -1 -12 "Transport Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3190,8 +3190,8 @@ ship "Krayt Dragon Ship"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Transport Laser Cannon" 2
-		"Transport Quad Turbolaser Turret"
+		"Transport Laser Cannon (Red)" 2
+		"Transport Dual Laser Turret (Red)"
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -3209,9 +3209,9 @@ ship "Krayt Dragon Ship"
 	engine 72 10
 	engine 99 10
 	engine 126 10
-	gun -69 -104 "Transport Laser Cannon"
-	gun 70 -105 "Transport Laser Cannon"
-	turret 0 -8 "Transport Quad Turbolaser Turret"
+	gun -69 -104 "Transport Laser Cannon (Red)"
+	gun 70 -105 "Transport Laser Cannon (Red)"
+	turret 0 -8 "Transport Dual Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3244,7 +3244,7 @@ ship "KR-TB Doomtreader"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Turret" 4
+		"Transport Laser Turret (Red)" 4
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -3258,10 +3258,10 @@ ship "KR-TB Doomtreader"
 	engine 253 14
 	engine -40 118
 	engine 39 118
-	turret -31 -86 "Transport Laser Turret"
-	turret 32 -85 "Transport Laser Turret"
-	turret -35 65 "Transport Laser Turret"
-	turret 36 65 "Transport Laser Turret"
+	turret -31 -86 "Transport Laser Turret (Red)"
+	turret 32 -85 "Transport Laser Turret (Red)"
+	turret -35 65 "Transport Laser Turret (Red)"
+	turret 36 65 "Transport Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3337,9 +3337,9 @@ ship "Lancer Pursuit Craft"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
+		"Transport Laser Cannon (Red)" 2
 		"Proton Torpedo Launcher" 2
-		"Transport Laser Turret" 1
+		"Transport Laser Turret (Red)" 1
 		"MG9 Proton Torpedo" 6
 		
 		"Transport Power Converter"
@@ -3352,11 +3352,11 @@ ship "Lancer Pursuit Craft"
 
 	engine -65 56
 	engine 64 57
-	gun -13 -60 "Transport Laser Cannon"
-	gun 13 -61 "Transport Laser Cannon"
+	gun -13 -60 "Transport Laser Cannon (Red)"
+	gun 13 -61 "Transport Laser Cannon (Red)"
 	gun -6 -65 "Proton Torpedo Launcher"
 	gun 4 -66 "Proton Torpedo Launcher"
-	turret 0 1 "Transport Laser Turret"
+	turret 0 1 "Transport Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3553,7 +3553,7 @@ ship "Mobquet MB-C1 Medium Transport"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret"
+		"Turbolaser Turret (Red)"
 		
 		"Heavy Freighter Power Converter"
 		"Heavy Freighter Shield Projector"
@@ -3567,7 +3567,7 @@ ship "Mobquet MB-C1 Medium Transport"
 	engine -25 275
 	engine 20 274
 	engine 38 274
-	turret -1 66 "Turbolaser Turret"
+	turret -1 66 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3877,7 +3877,7 @@ ship "Nova-class Battle Cruiser"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Dual Turbolaser Turret" 8
+		"Dual Turbolaser Turret (Red)" 8
 		
 		"Frigate Power Converter"
 		"Frigate Shield Projector"
@@ -3889,14 +3889,14 @@ ship "Nova-class Battle Cruiser"
 		
 	engine -26 484
 	engine 28 484
-	turret -61 -332 "Dual Turbolaser Turret"
-	turret 62 -332 "Dual Turbolaser Turret"
-	turret -23 -80 "Dual Turbolaser Turret"
-	turret 23 -81 "Dual Turbolaser Turret"
-	turret -41 79 "Dual Turbolaser Turret"
-	turret 44 79 "Dual Turbolaser Turret"
-	turret -164 171 "Dual Turbolaser Turret"
-	turret 165 171 "Dual Turbolaser Turret"
+	turret -61 -332 "Dual Turbolaser Turret (Red)"
+	turret 62 -332 "Dual Turbolaser Turret (Red)"
+	turret -23 -80 "Dual Turbolaser Turret (Red)"
+	turret 23 -81 "Dual Turbolaser Turret (Red)"
+	turret -41 79 "Dual Turbolaser Turret (Red)"
+	turret 44 79 "Dual Turbolaser Turret (Red)"
+	turret -164 171 "Dual Turbolaser Turret (Red)"
+	turret 165 171 "Dual Turbolaser Turret (Red)"
 	fighter -90 80
 	fighter 91 81
 	fighter -90 80
@@ -3953,7 +3953,7 @@ ship "Old Republic Diplomatic Transport"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Turret"
+		"Transport Laser Turret (Red)"
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -3967,7 +3967,7 @@ ship "Old Republic Diplomatic Transport"
 	engine -8 90
 	engine 7 90
 	engine 18 89
-	turret 0 30 "Transport Laser Turret"
+	turret 0 30 "Transport Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -4001,7 +4001,7 @@ ship "General Freighter"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret" 2
+		"Turbolaser Turret (Red)" 2
 		
 		"Heavy Freighter Power Converter"
 		"Heavy Freighter Shield Projector"
@@ -4014,8 +4014,8 @@ ship "General Freighter"
 	engine -189 494
 	engine -7 494
 	engine 177 495
-	turret -8 -455 "Turbolaser Turret"
-	turret -7 197 "Turbolaser Turret"
+	turret -8 -455 "Turbolaser Turret (Red)"
+	turret -7 197 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -4048,7 +4048,7 @@ ship "Ghtroc Class 720 Freighter"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Quad Turbolaser Turret"
+		"Transport Dual Laser Turret (Red)"
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -4060,7 +4060,7 @@ ship "Ghtroc Class 720 Freighter"
 
 	engine -11 83
 	engine 13 83
-	turret 0 -5 "Transport Quad Turbolaser Turret"
+	turret 0 -5 "Transport Dual Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -4135,10 +4135,10 @@ ship "Gravestone"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"Dual Turbolaser Turret" 2
+		"Dual Turbolaser Turret (Red)" 2
 		"Omnicannon"
 		"Omnicannon Energy" 1000
-		"Turbolaser Turret" 6
+		"Turbolaser Turret (Red)" 6
 		"Tractor Beam" 2
 		
 		"Destroyer Power Converter"
@@ -4154,14 +4154,14 @@ ship "Gravestone"
 	engine 60 912
 	engine 92 914
 	gun 65 -933 "Omnicannon"
-	turret -327 -285 "Dual Turbolaser Turret"
-	turret 330 234 "Dual Turbolaser Turret"
-	turret -142 -803 "Turbolaser Turret"
-	turret 270 -806 "Turbolaser Turret"
-	turret -138 -521 "Turbolaser Turret"
-	turret 265 -531 "Turbolaser Turret"
-	turret -136 -151 "Turbolaser Turret"
-	turret 317 -151 "Turbolaser Turret"
+	turret -327 -285 "Dual Turbolaser Turret (Red)"
+	turret 330 234 "Dual Turbolaser Turret (Red)"
+	turret -142 -803 "Turbolaser Turret (Red)"
+	turret 270 -806 "Turbolaser Turret (Red)"
+	turret -138 -521 "Turbolaser Turret (Red)"
+	turret 265 -531 "Turbolaser Turret (Red)"
+	turret -136 -151 "Turbolaser Turret (Red)"
+	turret 317 -151 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -4288,7 +4288,7 @@ ship "GX1 Lantillian Short Hauler (Phoenix)"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Turret"
+		"Transport Laser Turret (Red)"
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -4300,7 +4300,7 @@ ship "GX1 Lantillian Short Hauler (Phoenix)"
 		
 	engine -11 75
 	engine 13 75
-	turret 0 11 "Transport Laser Turret"
+	turret 0 11 "Transport Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -4333,7 +4333,7 @@ ship "GX1 Lantillian Short Hauler (Diplomatic)"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Turret"
+		"Transport Laser Turret (Red)"
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -4345,7 +4345,7 @@ ship "GX1 Lantillian Short Hauler (Diplomatic)"
 		
 	engine -12 75
 	engine 12 75
-	turret 0 5 "Transport Laser Turret"
+	turret 0 5 "Transport Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -4493,7 +4493,7 @@ ship "Hammerhead-class Cruiser"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Turbolaser Turret" 6
+		"Turbolaser Turret (Red)" 6
 		"Point-Defence Laser Cannon Battery" 2
 		
 		"Corvette Power Converter"
@@ -4506,12 +4506,12 @@ ship "Hammerhead-class Cruiser"
 		
 	engine -123 285
 	engine 121 285
-	turret -38 -288 "Turbolaser Turret"
-	turret 37 -288 "Turbolaser Turret"
-	turret 1 -356 "Turbolaser Turret"
-	turret 1 -356 "Turbolaser Turret"
-	turret -77 96 "Turbolaser Turret"
-	turret 76 95 "Turbolaser Turret"
+	turret -38 -288 "Turbolaser Turret (Red)"
+	turret 37 -288 "Turbolaser Turret (Red)"
+	turret 1 -356 "Turbolaser Turret (Red)"
+	turret 1 -356 "Turbolaser Turret (Red)"
+	turret -77 96 "Turbolaser Turret (Red)"
+	turret 76 95 "Turbolaser Turret (Red)"
 	turret -77 96 "Point-Defence Laser Cannon Battery"
 	turret 76 95 "Point-Defence Laser Cannon Battery"
 	fighter 0 -61
@@ -4558,7 +4558,7 @@ ship "Praetorian-class Frigate"
 			"hull damage" 370
 			"hit force" 850
 	outfits
-		"Turbolaser Turret" 14
+		"Turbolaser Turret (Red)" 14
 		"Point-Defence Laser Cannon Battery" 2
 		
 		"Frigate Power Converter"
@@ -4572,20 +4572,20 @@ ship "Praetorian-class Frigate"
 	engine -77 489
 	engine -3 545
 	engine 71 487
-	turret -46 -471 "Turbolaser Turret"
-	turret 39 -472 "Turbolaser Turret"
-	turret -42 -267 "Turbolaser Turret"
-	turret 37 -266 "Turbolaser Turret"
-	turret -43 -245 "Turbolaser Turret"
-	turret 37 -244 "Turbolaser Turret"
-	turret -56 22 "Turbolaser Turret"
-	turret 51 22 "Turbolaser Turret"
-	turret -56 45 "Turbolaser Turret"
-	turret 50 44 "Turbolaser Turret"
-	turret -57 68 "Turbolaser Turret"
-	turret 51 68 "Turbolaser Turret"
-	turret -57 90 "Turbolaser Turret"
-	turret 51 90 "Turbolaser Turret"
+	turret -46 -471 "Turbolaser Turret (Red)"
+	turret 39 -472 "Turbolaser Turret (Red)"
+	turret -42 -267 "Turbolaser Turret (Red)"
+	turret 37 -266 "Turbolaser Turret (Red)"
+	turret -43 -245 "Turbolaser Turret (Red)"
+	turret 37 -244 "Turbolaser Turret (Red)"
+	turret -56 22 "Turbolaser Turret (Red)"
+	turret 51 22 "Turbolaser Turret (Red)"
+	turret -56 45 "Turbolaser Turret (Red)"
+	turret 50 44 "Turbolaser Turret (Red)"
+	turret -57 68 "Turbolaser Turret (Red)"
+	turret 51 68 "Turbolaser Turret (Red)"
+	turret -57 90 "Turbolaser Turret (Red)"
+	turret 51 90 "Turbolaser Turret (Red)"
 	turret -3 -314 "Point-Defence Laser Cannon Battery"
 	turret -4 364 "Point-Defence Laser Cannon Battery"
 	fighter -3 -3
@@ -4637,8 +4637,8 @@ ship "Hapan Battle Dragon"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Dual Turbolaser Turret" 6
-		"Turbolaser Turret" 10
+		"Dual Turbolaser Turret (Red)" 6
+		"Turbolaser Turret (Red)" 10
 		"Tractor Beam" 2
 		
 		"Destroyer Power Converter"
@@ -4651,21 +4651,21 @@ ship "Hapan Battle Dragon"
 		
 	engine -34 755
 	engine 29 755
-	turret -3 -353 "Turbolaser Turret"
-	turret -156 -238 "Turbolaser Turret"
-	turret 148 -233 "Turbolaser Turret"
-	turret -245 30 "Turbolaser Turret"
-	turret 237 33 "Turbolaser Turret"
-	turret -127 42 "Turbolaser Turret"
-	turret 121 40 "Turbolaser Turret"
-	turret -141 222 "Dual Turbolaser Turret"
-	turret -2 173 "Dual Turbolaser Turret"
-	turret 141 224 "Dual Turbolaser Turret"
-	turret -138 403 "Dual Turbolaser Turret"
-	turret 137 401 "Dual Turbolaser Turret"
-	turret -108 -481 "Dual Turbolaser Turret"
-	turret -100 630 "Turbolaser Turret"
-	turret 94 634 "Turbolaser Turret"
+	turret -3 -353 "Turbolaser Turret (Red)"
+	turret -156 -238 "Turbolaser Turret (Red)"
+	turret 148 -233 "Turbolaser Turret (Red)"
+	turret -245 30 "Turbolaser Turret (Red)"
+	turret 237 33 "Turbolaser Turret (Red)"
+	turret -127 42 "Turbolaser Turret (Red)"
+	turret 121 40 "Turbolaser Turret (Red)"
+	turret -141 222 "Dual Turbolaser Turret (Red)"
+	turret -2 173 "Dual Turbolaser Turret (Red)"
+	turret 141 224 "Dual Turbolaser Turret (Red)"
+	turret -138 403 "Dual Turbolaser Turret (Red)"
+	turret 137 401 "Dual Turbolaser Turret (Red)"
+	turret -108 -481 "Dual Turbolaser Turret (Red)"
+	turret -100 630 "Turbolaser Turret (Red)"
+	turret 94 634 "Turbolaser Turret (Red)"
 	turret -3 -129 "Tractor Beam"
 	turret -3 -129 "Tractor Beam"
 	fighter -3 -129
@@ -4737,8 +4737,8 @@ ship "Harrower Star Dreadnought"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Rendii V Quad Turbolaser Battery" 8
-		"Rendii V Dual Turbolaser Battery" 10
+		"Quad Turbolaser Turret (Green)" 8
+		"Dual Turbolaser Turret (Green)" 10
 		"Tractor Beam" 2
 		
 		"Destroyer Power Converter"
@@ -4751,24 +4751,24 @@ ship "Harrower Star Dreadnought"
 		
 	engine -218 1272
 	engine 201 1267
-	turret -319 668 "Rendii V Quad Turbolaser Battery"
-	turret 305 666 "Rendii V Quad Turbolaser Battery"
-	turret -291 541 "Rendii V Quad Turbolaser Battery"
-	turret 280 544 "Rendii V Quad Turbolaser Battery"
-	turret -266 411 "Rendii V Quad Turbolaser Battery"
-	turret 254 406 "Rendii V Quad Turbolaser Battery"
-	turret -243 305 "Rendii V Quad Turbolaser Battery"
-	turret 234 303 "Rendii V Quad Turbolaser Battery"
-	turret -551 900 "Rendii V Dual Turbolaser Battery"
-	turret 540 903 "Rendii V Dual Turbolaser Battery"
-	turret -673 473 "Rendii V Dual Turbolaser Battery"
-	turret 664 474 "Rendii V Dual Turbolaser Battery"
-	turret -641 356 "Rendii V Dual Turbolaser Battery"
-	turret 632 354 "Rendii V Dual Turbolaser Battery"
-	turret -151 31 "Rendii V Dual Turbolaser Battery"
-	turret 140 30 "Rendii V Dual Turbolaser Battery"
-	turret -140 -431 "Rendii V Dual Turbolaser Battery"
-	turret 133 -433 "Rendii V Dual Turbolaser Battery"
+	turret -319 668 "Quad Turbolaser Turret (Green)"
+	turret 305 666 "Quad Turbolaser Turret (Green)"
+	turret -291 541 "Quad Turbolaser Turret (Green)"
+	turret 280 544 "Quad Turbolaser Turret (Green)"
+	turret -266 411 "Quad Turbolaser Turret (Green)"
+	turret 254 406 "Quad Turbolaser Turret (Green)"
+	turret -243 305 "Quad Turbolaser Turret (Green)"
+	turret 234 303 "Quad Turbolaser Turret (Green)"
+	turret -551 900 "Dual Turbolaser Turret (Green)"
+	turret 540 903 "Dual Turbolaser Turret (Green)"
+	turret -673 473 "Dual Turbolaser Turret (Green)"
+	turret 664 474 "Dual Turbolaser Turret (Green)"
+	turret -641 356 "Dual Turbolaser Turret (Green)"
+	turret 632 354 "Dual Turbolaser Turret (Green)"
+	turret -151 31 "Dual Turbolaser Turret (Green)"
+	turret 140 30 "Dual Turbolaser Turret (Green)"
+	turret -140 -431 "Dual Turbolaser Turret (Green)"
+	turret 133 -433 "Dual Turbolaser Turret (Green)"
 	turret -24 -439 "Tractor Beam"
 	turret 12 -440 "Tractor Beam"
 	fighter -53 -440
@@ -4904,7 +4904,7 @@ ship "Helot-class Medium Space Transport"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
+		"Transport Laser Cannon (Red)" 2
 		
 		"Transport Power Converter"
 		"Small Radar Jammer"
@@ -4915,8 +4915,8 @@ ship "Helot-class Medium Space Transport"
 		
 	engine -29 48
 	engine 30 49
-	gun -29 -60 "Transport Laser Cannon"
-	gun 30 -59 "Transport Laser Cannon"
+	gun -29 -60 "Transport Laser Cannon (Red)"
+	gun 30 -59 "Transport Laser Cannon (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5046,8 +5046,8 @@ ship "Inexpugnable-class Tactical Command Ship"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Dual Turbolaser Turret" 26
-		"Turbolaser Turret" 2
+		"Dual Turbolaser Turret (Red)" 26
+		"Turbolaser Turret (Red)" 2
 		"Tractor Beam" 4
 		
 		"Destroyer Power Converter"
@@ -5063,36 +5063,36 @@ ship "Inexpugnable-class Tactical Command Ship"
 	engine 7 1378
 	engine 384 1389
 	engine 593 1207
-	turret -442 -1183 "Dual Turbolaser Turret"
-	turret 475 -1184 "Dual Turbolaser Turret"
-	turret -342 -962 "Dual Turbolaser Turret"
-	turret 389 -968 "Dual Turbolaser Turret"
-	turret -725 -1015 "Dual Turbolaser Turret"
-	turret 762 -1022 "Dual Turbolaser Turret"
-	turret -561 -779 "Dual Turbolaser Turret"
-	turret 609 -777 "Dual Turbolaser Turret"
-	turret -1099 -513 "Dual Turbolaser Turret"
-	turret 1134 -524 "Dual Turbolaser Turret"
-	turret -1173 -232 "Dual Turbolaser Turret"
-	turret 1210 -254 "Dual Turbolaser Turret"
-	turret -1170 113 "Dual Turbolaser Turret"
-	turret 1216 87 "Dual Turbolaser Turret"
-	turret -1094 386 "Dual Turbolaser Turret"
-	turret 1145 366 "Dual Turbolaser Turret"
-	turret -931 -815 "Dual Turbolaser Turret"
-	turret 968 -817 "Dual Turbolaser Turret"
-	turret -923 690 "Dual Turbolaser Turret"
-	turret 979 668 "Dual Turbolaser Turret"
-	turret -716 890 "Dual Turbolaser Turret"
-	turret 777 871 "Dual Turbolaser Turret"
-	turret -255 926 "Dual Turbolaser Turret"
-	turret 339 925 "Dual Turbolaser Turret"
-	turret -922 -311 "Dual Turbolaser Turret"
-	turret 970 -327 "Dual Turbolaser Turret"
-	turret -922 -311 "Dual Turbolaser Turret"
-	turret 970 -327 "Dual Turbolaser Turret"
-	turret 978 178 "Dual Turbolaser Turret"
-	turret -921 196 "Dual Turbolaser Turret"
+	turret -442 -1183 "Dual Turbolaser Turret (Red)"
+	turret 475 -1184 "Dual Turbolaser Turret (Red)"
+	turret -342 -962 "Dual Turbolaser Turret (Red)"
+	turret 389 -968 "Dual Turbolaser Turret (Red)"
+	turret -725 -1015 "Dual Turbolaser Turret (Red)"
+	turret 762 -1022 "Dual Turbolaser Turret (Red)"
+	turret -561 -779 "Dual Turbolaser Turret (Red)"
+	turret 609 -777 "Dual Turbolaser Turret (Red)"
+	turret -1099 -513 "Dual Turbolaser Turret (Red)"
+	turret 1134 -524 "Dual Turbolaser Turret (Red)"
+	turret -1173 -232 "Dual Turbolaser Turret (Red)"
+	turret 1210 -254 "Dual Turbolaser Turret (Red)"
+	turret -1170 113 "Dual Turbolaser Turret (Red)"
+	turret 1216 87 "Dual Turbolaser Turret (Red)"
+	turret -1094 386 "Dual Turbolaser Turret (Red)"
+	turret 1145 366 "Dual Turbolaser Turret (Red)"
+	turret -931 -815 "Dual Turbolaser Turret (Red)"
+	turret 968 -817 "Dual Turbolaser Turret (Red)"
+	turret -923 690 "Dual Turbolaser Turret (Red)"
+	turret 979 668 "Dual Turbolaser Turret (Red)"
+	turret -716 890 "Dual Turbolaser Turret (Red)"
+	turret 777 871 "Dual Turbolaser Turret (Red)"
+	turret -255 926 "Dual Turbolaser Turret (Red)"
+	turret 339 925 "Dual Turbolaser Turret (Red)"
+	turret -922 -311 "Dual Turbolaser Turret (Red)"
+	turret 970 -327 "Dual Turbolaser Turret (Red)"
+	turret -922 -311 "Dual Turbolaser Turret (Red)"
+	turret 970 -327 "Dual Turbolaser Turret (Red)"
+	turret 978 178 "Dual Turbolaser Turret (Red)"
+	turret -921 196 "Dual Turbolaser Turret (Red)"
 	turret -263 -1154 "Tractor Beam"
 	turret 305 -1155 "Tractor Beam"
 	fighter -263 -1154
@@ -5288,8 +5288,8 @@ ship "Interdictor-class Sith Destroyer"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Rendii V Quad Turbolaser Battery" 6
-		"Rendii V Dual Turbolaser Battery" 8
+		"Quad Turbolaser Turret (Green)" 6
+		"Dual Turbolaser Turret (Green)" 8
 		"Tractor Beam" 2
 		
 		"Destroyer Power Converter"
@@ -5303,20 +5303,20 @@ ship "Interdictor-class Sith Destroyer"
 	engine -172 794
 	engine 1 817
 	engine 178 794
-	turret -60 -635 "Rendii V Dual Turbolaser Battery"
-	turret 61 -633 "Rendii V Dual Turbolaser Battery"
-	turret -68 -472 "Rendii V Dual Turbolaser Battery"
-	turret 65 -470 "Rendii V Dual Turbolaser Battery"
-	turret -162 -212 "Rendii V Dual Turbolaser Battery"
-	turret 155 -212 "Rendii V Dual Turbolaser Battery"
-	turret -189 427 "Rendii V Dual Turbolaser Battery"
-	turret 186 427 "Rendii V Dual Turbolaser Battery"
-	turret -140 -39 "Rendii V Quad Turbolaser Battery"
-	turret 138 -40 "Rendii V Quad Turbolaser Battery"
-	turret -213 144 "Rendii V Quad Turbolaser Battery"
-	turret 213 144 "Rendii V Quad Turbolaser Battery"
-	turret -206 293 "Rendii V Quad Turbolaser Battery"
-	turret 203 293 "Rendii V Quad Turbolaser Battery"
+	turret -60 -635 "Dual Turbolaser Turret (Green)"
+	turret 61 -633 "Dual Turbolaser Turret (Green)"
+	turret -68 -472 "Dual Turbolaser Turret (Green)"
+	turret 65 -470 "Dual Turbolaser Turret (Green)"
+	turret -162 -212 "Dual Turbolaser Turret (Green)"
+	turret 155 -212 "Dual Turbolaser Turret (Green)"
+	turret -189 427 "Dual Turbolaser Turret (Green)"
+	turret 186 427 "Dual Turbolaser Turret (Green)"
+	turret -140 -39 "Quad Turbolaser Turret (Green)"
+	turret 138 -40 "Quad Turbolaser Turret (Green)"
+	turret -213 144 "Quad Turbolaser Turret (Green)"
+	turret 213 144 "Quad Turbolaser Turret (Green)"
+	turret -206 293 "Quad Turbolaser Turret (Green)"
+	turret 203 293 "Quad Turbolaser Turret (Green)"
 	turret -1 -102 "Tractor Beam"
 	turret -1 -102 "Tractor Beam"
 	fighter -1 -102
@@ -5471,7 +5471,7 @@ ship "K-52 Strongarm Demolisher"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
+		"Transport Laser Cannon (Red)" 2
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -5483,8 +5483,8 @@ ship "K-52 Strongarm Demolisher"
 		
 	engine -61 49
 	engine 60 49
-	gun -20 -74 "Transport Laser Cannon"
-	gun 21 -75 "Transport Laser Cannon"
+	gun -20 -74 "Transport Laser Cannon (Red)"
+	gun 21 -75 "Transport Laser Cannon (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5517,8 +5517,8 @@ ship "Kandosii-type Dreadnought"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Mandalorian Dual Turbolaser Turret" 12
-		"Mandalorian Turbolaser Turret" 14
+		"Dual Turbolaser Turret (Yellow)" 12
+		"Turbolaser Turret (Yellow)" 14
 		"Tractor Beam" 2
 		
 		"Destroyer Power Converter"
@@ -5543,32 +5543,32 @@ ship "Kandosii-type Dreadnought"
 	engine 278 987
 	engine 318 988
 	engine 358 988
-	turret -112 -299 "Mandalorian Dual Turbolaser Turret"
-	turret 113 -300 "Mandalorian Dual Turbolaser Turret"
-	turret -114 -163 Mandalorian"Dual Turbolaser Turret"
-	turret 113 -164 "Mandalorian Dual Turbolaser Turret"
-	turret 0 -100 "Mandalorian Dual Turbolaser Turret"
-	turret 0 -100 "Mandalorian Dual Turbolaser Turret"
-	turret -115 -27 "Mandalorian Dual Turbolaser Turret"
-	turret 112 -27 "Mandalorian Dual Turbolaser Turret"
-	turret -115 110 "Mandalorian Dual Turbolaser Turret"
-	turret 114 109 "Mandalorian Dual Turbolaser Turret"
-	turret 0 342 "Mandalorian Dual Turbolaser Turret"
-	turret 0 342 "Mandalorian Dual Turbolaser Turret"
-	turret -54 -1441 "Mandalorian Turbolaser Turret"
-	turret 54 -1441 "Mandalorian Turbolaser Turret"
-	turret -72 -1287 "Mandalorian Turbolaser Turret"
-	turret 73 -1284 "Mandalorian Turbolaser Turret"
-	turret -135 -815 "Mandalorian Turbolaser Turret"
-	turret 136 -814 "Mandalorian Turbolaser Turret"
-	turret -135 -818 "Mandalorian Turbolaser Turret"
-	turret 134 -817 "Mandalorian Turbolaser Turret"
-	turret -171 541 "Mandalorian Turbolaser Turret"
-	turret 171 541 "Mandalorian Turbolaser Turret"
-	turret -36 1260 "Mandalorian Turbolaser Turret"
-	turret 35 1262 "Mandalorian Turbolaser Turret"
-	turret 0 802 "Mandalorian Turbolaser Turret"
-	turret 0 1104 "Mandalorian Turbolaser Turret"
+	turret -112 -299 "Dual Turbolaser Turret (Yellow)"
+	turret 113 -300 "Dual Turbolaser Turret (Yellow)"
+	turret -114 -163 Mandalorian"Dual Turbolaser Turret (Red)"
+	turret 113 -164 "Dual Turbolaser Turret (Yellow)"
+	turret 0 -100 "Dual Turbolaser Turret (Yellow)"
+	turret 0 -100 "Dual Turbolaser Turret (Yellow)"
+	turret -115 -27 "Dual Turbolaser Turret (Yellow)"
+	turret 112 -27 "Dual Turbolaser Turret (Yellow)"
+	turret -115 110 "Dual Turbolaser Turret (Yellow)"
+	turret 114 109 "Dual Turbolaser Turret (Yellow)"
+	turret 0 342 "Dual Turbolaser Turret (Yellow)"
+	turret 0 342 "Dual Turbolaser Turret (Yellow)"
+	turret -54 -1441 "Turbolaser Turret (Yellow)"
+	turret 54 -1441 "Turbolaser Turret (Yellow)"
+	turret -72 -1287 "Turbolaser Turret (Yellow)"
+	turret 73 -1284 "Turbolaser Turret (Yellow)"
+	turret -135 -815 "Turbolaser Turret (Yellow)"
+	turret 136 -814 "Turbolaser Turret (Yellow)"
+	turret -135 -818 "Turbolaser Turret (Yellow)"
+	turret 134 -817 "Turbolaser Turret (Yellow)"
+	turret -171 541 "Turbolaser Turret (Yellow)"
+	turret 171 541 "Turbolaser Turret (Yellow)"
+	turret -36 1260 "Turbolaser Turret (Yellow)"
+	turret 35 1262 "Turbolaser Turret (Yellow)"
+	turret 0 802 "Turbolaser Turret (Yellow)"
+	turret 0 1104 "Turbolaser Turret (Yellow)"
 	turret 0 -328 "Tractor Beam"
 	turret 0 93 "Tractor Beam"
 	fighter 0 -328
@@ -5732,8 +5732,8 @@ ship "Keldabe-class Battleship"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Mandalorian Dual Turbolaser Turret" 16
-		"Mandalorian Turbolaser Turret" 14
+		"Dual Turbolaser Turret (Yellow)" 16
+		"Turbolaser Turret (Yellow)" 14
 		"Tractor Beam" 2
 		
 		"Destroyer Power Converter"
@@ -5746,36 +5746,36 @@ ship "Keldabe-class Battleship"
 
 	engine -397 1589
 	engine 405 1576
-	turret -136 -1568 "Mandalorian Turbolaser Turret"
-	turret 108 -1567 "Mandalorian Turbolaser Turret"
-	turret -138 -1445 "Mandalorian Dual Turbolaser Turret"
-	turret 104 -1448 "Mandalorian Dual Turbolaser Turret"
-	turret -140 -1361 "Mandalorian Dual Turbolaser Turret"
-	turret 103 -1360 "Mandalorian Dual Turbolaser Turret"
-	turret -143 -1285 "Mandalorian Dual Turbolaser Turret"
-	turret 103 -1281 "Mandalorian Dual Turbolaser Turret"
-	turret -142 -1149 "Mandalorian Dual Turbolaser Turret"
-	turret 100 -1145 "Mandalorian Dual Turbolaser Turret"
-	turret -146 -978 "Mandalorian Dual Turbolaser Turret"
-	turret 122 -976 "Mandalorian Dual Turbolaser Turret"
-	turret -150 -890 "Mandalorian Dual Turbolaser Turret"
-	turret 124 -888 "Mandalorian Dual Turbolaser Turret"
-	turret -135 -715 "Mandalorian Dual Turbolaser Turret"
-	turret 117 -714 "Mandalorian Dual Turbolaser Turret"
-	turret -134 -547 "Mandalorian Dual Turbolaser Turret"
-	turret 117 -543 "Mandalorian Dual Turbolaser Turret"
-	turret -131 -390 "Mandalorian Turbolaser Turret"
-	turret 119 -389 "Mandalorian Turbolaser Turret"
-	turret -153 162 "Mandalorian Turbolaser Turret"
-	turret 145 158 "Mandalorian Turbolaser Turret"
-	turret -693 611 "Mandalorian Turbolaser Turret"
-	turret 687 600 "Mandalorian Turbolaser Turret"
-	turret -227 949 "Mandalorian Turbolaser Turret"
-	turret 214 944 "Mandalorian Turbolaser Turret"
-	turret -382 -418 "Mandalorian Turbolaser Turret"
-	turret 366 -420 "Mandalorian Turbolaser Turret"
-	turret -397 1427 "Mandalorian Turbolaser Turret"
-	turret 403 1419 "Mandalorian Turbolaser Turret"
+	turret -136 -1568 "Turbolaser Turret (Yellow)"
+	turret 108 -1567 "Turbolaser Turret (Yellow)"
+	turret -138 -1445 "Dual Turbolaser Turret (Yellow)"
+	turret 104 -1448 "Dual Turbolaser Turret (Yellow)"
+	turret -140 -1361 "Dual Turbolaser Turret (Yellow)"
+	turret 103 -1360 "Dual Turbolaser Turret (Yellow)"
+	turret -143 -1285 "Dual Turbolaser Turret (Yellow)"
+	turret 103 -1281 "Dual Turbolaser Turret (Yellow)"
+	turret -142 -1149 "Dual Turbolaser Turret (Yellow)"
+	turret 100 -1145 "Dual Turbolaser Turret (Yellow)"
+	turret -146 -978 "Dual Turbolaser Turret (Yellow)"
+	turret 122 -976 "Dual Turbolaser Turret (Yellow)"
+	turret -150 -890 "Dual Turbolaser Turret (Yellow)"
+	turret 124 -888 "Dual Turbolaser Turret (Yellow)"
+	turret -135 -715 "Dual Turbolaser Turret (Yellow)"
+	turret 117 -714 "Dual Turbolaser Turret (Yellow)"
+	turret -134 -547 "Dual Turbolaser Turret (Yellow)"
+	turret 117 -543 "Dual Turbolaser Turret (Yellow)"
+	turret -131 -390 "Turbolaser Turret (Yellow)"
+	turret 119 -389 "Turbolaser Turret (Yellow)"
+	turret -153 162 "Turbolaser Turret (Yellow)"
+	turret 145 158 "Turbolaser Turret (Yellow)"
+	turret -693 611 "Turbolaser Turret (Yellow)"
+	turret 687 600 "Turbolaser Turret (Yellow)"
+	turret -227 949 "Turbolaser Turret (Yellow)"
+	turret 214 944 "Turbolaser Turret (Yellow)"
+	turret -382 -418 "Turbolaser Turret (Yellow)"
+	turret 366 -420 "Turbolaser Turret (Yellow)"
+	turret -397 1427 "Turbolaser Turret (Yellow)"
+	turret 403 1419 "Turbolaser Turret (Yellow)"
 	turret -10 -328 "Tractor Beam"
 	turret -10 -328 "Tractor Beam"
 	fighter -10 -328
@@ -5847,7 +5847,7 @@ ship "Kom'rk-class Gauntlet Transport"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Mandalorian Heavy Fighter Cannon" 4
+		"Transport Laser Cannon (Yellow)" 4
 		
 		"Transport Power Converter"
 		"Shuttle Shield Projector"
@@ -5862,10 +5862,10 @@ ship "Kom'rk-class Gauntlet Transport"
 	engine 46 89
 	engine 63 89
 	engine 0 94
-	gun -2 -55 "Mandalorian Heavy Fighter Cannon"
-	gun 2 -55 "Mandalorian Heavy Fighter Cannon"
-	gun -23 -94 "Mandalorian Heavy Fighter Cannon"
-	gun 24 -96 "Mandalorian Heavy Fighter Cannon"
+	gun -2 -55 "Transport Laser Cannon (Yellow)"
+	gun 2 -55 "Transport Laser Cannon (Yellow)"
+	gun -23 -94 "Transport Laser Cannon (Yellow)"
+	gun 24 -96 "Transport Laser Cannon (Yellow)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5898,7 +5898,7 @@ ship "Lethisk-class Armed Freighter"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Turret" 4
+		"Transport Laser Turret (Red)" 4
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -5911,10 +5911,10 @@ ship "Lethisk-class Armed Freighter"
 	engine -100 154
 	engine 0 207
 	engine 101 153
-	turret 32 -194 "Transport Laser Turret"
-	turret 0 -10 "Transport Laser Turret"
-	turret 0 -10 "Transport Laser Turret"
-	turret 0 123 "Transport Laser Turret"
+	turret 32 -194 "Transport Laser Turret (Red)"
+	turret 0 -10 "Transport Laser Turret (Red)"
+	turret 0 -10 "Transport Laser Turret (Red)"
+	turret 0 123 "Transport Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5947,8 +5947,8 @@ ship "Liberator-class Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Dual Turbolaser Turret" 8
-		"Turbolaser Turret" 10
+		"Dual Turbolaser Turret (Red)" 8
+		"Turbolaser Turret (Red)" 10
 		
 		"Destroyer Power Converter"
 		"Destroyer Shield Projector"
@@ -5964,24 +5964,24 @@ ship "Liberator-class Cruiser"
 	engine 15 556
 	engine 54 556
 	engine 91 555
-	turret -130 452 "Dual Turbolaser Turret"
-	turret 126 453 "Dual Turbolaser Turret"
-	turret -134 383 "Dual Turbolaser Turret"
-	turret 128 384 "Dual Turbolaser Turret"
-	turret -133 313 "Dual Turbolaser Turret"
-	turret 127 311 "Dual Turbolaser Turret"
-	turret -260 -21 "Dual Turbolaser Turret"
-	turret 257 -25 "Dual Turbolaser Turret"
-	turret -57 183 "Turbolaser Turret"
-	turret 48 183 "Turbolaser Turret"
-	turret -56 157 "Turbolaser Turret"
-	turret 49 158 "Turbolaser Turret"
-	turret -55 134 "Turbolaser Turret"
-	turret 49 134 "Turbolaser Turret"
-	turret -56 112 "Turbolaser Turret"
-	turret 48 110 "Turbolaser Turret"
-	turret -208 -346 "Turbolaser Turret"
-	turret 205 -345 "Turbolaser Turret"
+	turret -130 452 "Dual Turbolaser Turret (Red)"
+	turret 126 453 "Dual Turbolaser Turret (Red)"
+	turret -134 383 "Dual Turbolaser Turret (Red)"
+	turret 128 384 "Dual Turbolaser Turret (Red)"
+	turret -133 313 "Dual Turbolaser Turret (Red)"
+	turret 127 311 "Dual Turbolaser Turret (Red)"
+	turret -260 -21 "Dual Turbolaser Turret (Red)"
+	turret 257 -25 "Dual Turbolaser Turret (Red)"
+	turret -57 183 "Turbolaser Turret (Red)"
+	turret 48 183 "Turbolaser Turret (Red)"
+	turret -56 157 "Turbolaser Turret (Red)"
+	turret 49 158 "Turbolaser Turret (Red)"
+	turret -55 134 "Turbolaser Turret (Red)"
+	turret 49 134 "Turbolaser Turret (Red)"
+	turret -56 112 "Turbolaser Turret (Red)"
+	turret 48 110 "Turbolaser Turret (Red)"
+	turret -208 -346 "Turbolaser Turret (Red)"
+	turret 205 -345 "Turbolaser Turret (Red)"
 	fighter -112 -204
 	fighter -84 -203
 	fighter -56 -203
@@ -6382,7 +6382,7 @@ ship "SCT Scout Craft"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Imperial Transport Laser Turret" 3
+		"Transport Laser Turret (Green)" 3
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -6397,9 +6397,9 @@ ship "SCT Scout Craft"
 	engine 36 110
 	engine -16 103
 	engine 19 102
-	turret 0 -90 "Imperial Transport Laser Turret"
-	turret -34 14 "Imperial Transport Laser Turret"
-	turret 34 14 "Imperial Transport Laser Turret"
+	turret 0 -90 "Transport Laser Turret (Green)"
+	turret -34 14 "Transport Laser Turret (Green)"
+	turret 34 14 "Transport Laser Turret (Green)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -6527,7 +6527,7 @@ ship "Sphyrna-class Corvette"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret" 3
+		"Turbolaser Turret (Red)" 3
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -6540,9 +6540,9 @@ ship "Sphyrna-class Corvette"
 	engine -38 196
 	engine -2 196
 	engine 33 195
-	turret -24 -144 "Turbolaser Turret"
-	turret 19 -145 "Turbolaser Turret"
-	turret -2 88 "Turbolaser Turret"
+	turret -24 -144 "Turbolaser Turret (Red)"
+	turret 19 -145 "Turbolaser Turret (Red)"
+	turret -2 88 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -6575,7 +6575,7 @@ ship "Ranger Gunboat"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Turbolaser Turret" 4
+		"Turbolaser Turret (Red)" 4
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 24
 		
@@ -6591,10 +6591,10 @@ ship "Ranger Gunboat"
 	engine 30 46
 	gun -28 -98 "Concussion Missile Launcher"
 	gun 29 -97 "Concussion Missile Launcher"
-	turret -16 -92 "Turbolaser Turret"
-	turret 17 -92 "Turbolaser Turret"
-	turret -18 -7 "Turbolaser Turret"
-	turret 18 -7 "Turbolaser Turret"
+	turret -16 -92 "Turbolaser Turret (Red)"
+	turret 17 -92 "Turbolaser Turret (Red)"
+	turret -18 -7 "Turbolaser Turret (Red)"
+	turret 18 -7 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -6627,7 +6627,7 @@ ship "Razor Crest"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
+		"Transport Laser Cannon (Red)" 2
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -6639,8 +6639,8 @@ ship "Razor Crest"
 		
 	engine -39 40
 	engine 40 40
-	gun -12 -66 "Transport Laser Cannon"
-	gun 12 -66 "Transport Laser Cannon"
+	gun -12 -66 "Transport Laser Cannon (Red)"
+	gun 12 -66 "Transport Laser Cannon (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -6762,10 +6762,10 @@ ship "YT-1300 Freighter"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
+		"Transport Laser Cannon (Red)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
-		"Transport Quad Turbolaser Turret" 2
+		"Transport Dual Laser Turret (Red)" 2
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -6786,12 +6786,12 @@ ship "YT-1300 Freighter"
 	engine 24 92
 	engine 31 89
 	engine 37 86
-	gun -25 -70 "Transport Laser Cannon"
-	gun 25 -69 "Transport Laser Cannon"
+	gun -25 -70 "Transport Laser Cannon (Red)"
+	gun 25 -69 "Transport Laser Cannon (Red)"
 	gun -25 -70 "Proton Torpedo Launcher"
 	gun 25 -69 "Proton Torpedo Launcher"
-	turret 0 24 "Transport Quad Turbolaser Turret"
-	turret 0 24 "Transport Quad Turbolaser Turret"
+	turret 0 24 "Transport Dual Laser Turret (Red)"
+	turret 0 24 "Transport Dual Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -6822,10 +6822,10 @@ ship "YT-1300 Freighter (Quantum Destiny)"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
+		"Transport Laser Cannon (Red)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
-		"Transport Quad Turbolaser Turret" 2
+		"Transport Dual Laser Turret (Red)" 2
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -6846,12 +6846,12 @@ ship "YT-1300 Freighter (Quantum Destiny)"
 	engine 24 92
 	engine 31 89
 	engine 37 86
-	gun -25 -70 "Transport Laser Cannon"
-	gun 25 -69 "Transport Laser Cannon"
+	gun -25 -70 "Transport Laser Cannon (Red)"
+	gun 25 -69 "Transport Laser Cannon (Red)"
 	gun -25 -70 "Proton Torpedo Launcher"
 	gun 25 -69 "Proton Torpedo Launcher"
-	turret 0 24 "Transport Quad Turbolaser Turret"
-	turret 0 24 "Transport Quad Turbolaser Turret"
+	turret 0 24 "Transport Dual Laser Turret (Red)"
+	turret 0 24 "Transport Dual Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -6882,10 +6882,10 @@ ship "Millennium Falcon"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
+		"Transport Laser Cannon (Red)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
-		"Transport Quad Turbolaser Turret" 2
+		"Transport Dual Laser Turret (Red)" 2
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -6911,12 +6911,12 @@ ship "Millennium Falcon"
 	engine 34 84
 	engine 40 80
 	engine 46 75
-	gun -33 -62 "Transport Laser Cannon"
-	gun 30 -62 "Transport Laser Cannon"
+	gun -33 -62 "Transport Laser Cannon (Red)"
+	gun 30 -62 "Transport Laser Cannon (Red)"
 	gun -33 -62 "Proton Torpedo Launcher"
 	gun 30 -62 "Proton Torpedo Launcher"
-	turret -1 15 "Transport Quad Turbolaser Turret"
-	turret -1 15 "Transport Quad Turbolaser Turret"
+	turret -1 15 "Transport Dual Laser Turret (Red)"
+	turret -1 15 "Transport Dual Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -7484,7 +7484,7 @@ ship "BTL-X5 Y-Wing"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Ion Cannon Turret (Red)"
-		"Composite Beam Laser" 2
+		"Composite Beam Laser (Red)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 
@@ -7499,8 +7499,8 @@ ship "BTL-X5 Y-Wing"
 	engine 25 30
 	gun -3 -59 "Fighter Laser Cannon (Red)"
 	gun 2 -59 "Fighter Laser Cannon (Red)"
-	gun -12 -53 "Composite Beam Laser"
-	gun 11 -53 "Composite Beam Laser"
+	gun -12 -53 "Composite Beam Laser (Red)"
+	gun 11 -53 "Composite Beam Laser (Red)"
 	gun -9 -40 "Proton Torpedo Launcher"
 	gun 7 -40 "Proton Torpedo Launcher"
 	turret 0 -31 "Fighter Ion Cannon Turret (Red)"
@@ -7536,7 +7536,7 @@ ship "BTL-X5 Y-Wing (Fighter)"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Ion Cannon Turret (Red)"
-		"Composite Beam Laser" 2
+		"Composite Beam Laser (Red)" 2
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 
@@ -7550,8 +7550,8 @@ ship "BTL-X5 Y-Wing (Fighter)"
 	engine 25 30
 	gun -3 -59 "Fighter Laser Cannon (Red)"
 	gun 2 -59 "Fighter Laser Cannon (Red)"
-	gun -12 -53 "Composite Beam Laser"
-	gun 11 -53 "Composite Beam Laser"
+	gun -12 -53 "Composite Beam Laser (Red)"
+	gun 11 -53 "Composite Beam Laser (Red)"
 	gun -9 -40 "Proton Torpedo Launcher"
 	gun 7 -40 "Proton Torpedo Launcher"
 	turret 0 -31 "Fighter Ion Cannon Turret (Red)"
@@ -7585,8 +7585,8 @@ ship "VCX-100 Light Freighter"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Cannon" 2
-		"Transport Quad Turbolaser Turret" 2
+		"Transport Laser Cannon (Red)" 2
+		"Transport Dual Laser Turret (Red)" 2
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -7598,10 +7598,10 @@ ship "VCX-100 Light Freighter"
 		
 	engine -18 111
 	engine 16 111
-	gun -17 -104 "Transport Laser Cannon"
-	gun 14 -105 "Transport Laser Cannon"
-	turret -1 -14 "Transport Quad Turbolaser Turret"
-	turret -1 -14 "Transport Quad Turbolaser Turret"
+	gun -17 -104 "Transport Laser Cannon (Red)"
+	gun 14 -105 "Transport Laser Cannon (Red)"
+	turret -1 -14 "Transport Dual Laser Turret (Red)"
+	turret -1 -14 "Transport Dual Laser Turret (Red)"
 	fighter -1 91 over back
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -7722,7 +7722,7 @@ ship "Teroch Mandalorian Cruiser"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Mandalorian Turbolaser Turret" 8
+		"Turbolaser Turret (Yellow)" 8
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 20
 		
@@ -7738,14 +7738,14 @@ ship "Teroch Mandalorian Cruiser"
 	engine 59 281
 	gun -69 -195 "Concussion Missile Launcher"
 	gun 71 -197 "Concussion Missile Launcher"
-	turret 1 -139 "Mandalorian Turbolaser Turret"
-	turret 1 -139 "Mandalorian Turbolaser Turret"
-	turret -96 -89 "Mandalorian Turbolaser Turret"
-	turret 98 -90 "Mandalorian Turbolaser Turret"
-	turret 0 83 "Mandalorian Turbolaser Turret"
-	turret 0 83 "Mandalorian Turbolaser Turret"
-	turret -79 60 "Mandalorian Turbolaser Turret"
-	turret 82 60 "Mandalorian Turbolaser Turret"
+	turret 1 -139 "Turbolaser Turret (Yellow)"
+	turret 1 -139 "Turbolaser Turret (Yellow)"
+	turret -96 -89 "Turbolaser Turret (Yellow)"
+	turret 98 -90 "Turbolaser Turret (Yellow)"
+	turret 0 83 "Turbolaser Turret (Yellow)"
+	turret 0 83 "Turbolaser Turret (Yellow)"
+	turret -79 60 "Turbolaser Turret (Yellow)"
+	turret 82 60 "Turbolaser Turret (Yellow)"
 	fighter 0 -54
 	fighter 0 -54
 	fighter 0 -54
@@ -7781,7 +7781,7 @@ ship "YZ-2200 Heavy Transport"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Turret" 4
+		"Transport Laser Turret (Red)" 4
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -7794,10 +7794,10 @@ ship "YZ-2200 Heavy Transport"
 	engine -71 195
 	engine 69 196
 	engine 0 198
-	turret -72 -79 "Transport Laser Turret"
-	turret 68 -79 "Transport Laser Turret"
-	turret -1 -91 "Transport Laser Turret"
-	turret -1 158 "Transport Laser Turret"
+	turret -72 -79 "Transport Laser Turret (Red)"
+	turret 68 -79 "Transport Laser Turret (Red)"
+	turret -1 -91 "Transport Laser Turret (Red)"
+	turret -1 158 "Transport Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50

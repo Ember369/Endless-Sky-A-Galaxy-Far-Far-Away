@@ -277,7 +277,7 @@ ship "A/SF-01 B-Wing B6"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Composite Beam Laser" 3
+		"Composite Beam Laser (Red)" 3
 		"Fighter Ion Cannon" 3
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 20
@@ -291,9 +291,9 @@ ship "A/SF-01 B-Wing B6"
 		
 	engine 22 23
 	engine 27 23
-	gun -59 -13 "Composite Beam Laser"
-	gun 16 -13 "Composite Beam Laser"
-	gun 52 -13 "Composite Beam Laser"
+	gun -59 -13 "Composite Beam Laser (Red)"
+	gun 16 -13 "Composite Beam Laser (Red)"
+	gun 52 -13 "Composite Beam Laser (Red)"
 	gun -49 -20 "Fighter Ion Cannon"
 	gun 16 -14 "Fighter Ion Cannon"
 	gun 53 -12 "Fighter Ion Cannon"
@@ -328,7 +328,7 @@ ship "A/SF-01 B-Wing B6 (Fighter)"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Composite Beam Laser" 3
+		"Composite Beam Laser (Red)" 3
 		"Fighter Ion Cannon" 3
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 20
@@ -342,9 +342,9 @@ ship "A/SF-01 B-Wing B6 (Fighter)"
 		
 	engine 22 23
 	engine 27 23
-	gun -59 -13 "Composite Beam Laser"
-	gun 16 -13 "Composite Beam Laser"
-	gun 52 -13 "Composite Beam Laser"
+	gun -59 -13 "Composite Beam Laser (Red)"
+	gun 16 -13 "Composite Beam Laser (Red)"
+	gun 52 -13 "Composite Beam Laser (Red)"
 	gun -49 -20 "Fighter Ion Cannon"
 	gun 16 -14 "Fighter Ion Cannon"
 	gun 53 -12 "Fighter Ion Cannon"
@@ -378,8 +378,8 @@ ship "CC-7700 Interdictor Frigate"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Turbolaser Turret" 4
-		"Dual Turbolaser Turret" 2
+		"Turbolaser Turret (Red)" 4
+		"Dual Turbolaser Turret (Red)" 2
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -393,12 +393,12 @@ ship "CC-7700 Interdictor Frigate"
 	engine -20 311
 	engine 9 311
 	engine 65 298
-	turret -84 11 "Turbolaser Turret"
-	turret 73 11 "Turbolaser Turret"
-	turret -84 96 "Turbolaser Turret"
-	turret 75 94 "Turbolaser Turret"
-	turret -49 41 "Dual Turbolaser Turret"
-	turret 40 41 "Dual Turbolaser Turret"
+	turret -84 11 "Turbolaser Turret (Red)"
+	turret 73 11 "Turbolaser Turret (Red)"
+	turret -84 96 "Turbolaser Turret (Red)"
+	turret 75 94 "Turbolaser Turret (Red)"
+	turret -49 41 "Dual Turbolaser Turret (Red)"
+	turret 40 41 "Dual Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -431,8 +431,8 @@ ship "CR90 Corvette"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Turbolaser Turret" 4
-		"Dual Turbolaser Turret" 2
+		"Turbolaser Turret (Red)" 4
+		"Dual Turbolaser Turret (Red)" 2
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -446,12 +446,12 @@ ship "CR90 Corvette"
 	engine -23 282
 	engine 23 280
 	engine 69 282
-	turret 0 -161 "Dual Turbolaser Turret"
-	turret 0 -161 "Dual Turbolaser Turret"
-	turret -38 -110 "Turbolaser Turret"
-	turret 41 -110 "Turbolaser Turret"
-	turret -39 -74 "Turbolaser Turret"
-	turret 40 -73 "Turbolaser Turret"
+	turret 0 -161 "Dual Turbolaser Turret (Red)"
+	turret 0 -161 "Dual Turbolaser Turret (Red)"
+	turret -38 -110 "Turbolaser Turret (Red)"
+	turret 41 -110 "Turbolaser Turret (Red)"
+	turret -39 -74 "Turbolaser Turret (Red)"
+	turret 40 -73 "Turbolaser Turret (Red)"
 	fighter -65 72 under
 	fighter 67 74 under
 	fighter 0 73
@@ -487,7 +487,7 @@ ship "Dornean Gunship"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Turbolaser Turret" 4
+		"Turbolaser Turret (Red)" 4
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 32
 		
@@ -504,10 +504,10 @@ ship "Dornean Gunship"
 	engine 1 185
 	gun -59 130 "Concussion Missile Launcher"
 	gun 57 131 "Concussion Missile Launcher"
-	turret -29 12 "Turbolaser Turret"
-	turret 35 10 "Turbolaser Turret"
-	turret -15 -78 "Turbolaser Turret"
-	turret 17 -79 "Turbolaser Turret"
+	turret -29 12 "Turbolaser Turret (Red)"
+	turret 35 10 "Turbolaser Turret (Red)"
+	turret -15 -78 "Turbolaser Turret (Red)"
+	turret 17 -79 "Turbolaser Turret (Red)"
 	fighter -36 56
 	fighter 40 56
 	explode "tiny explosion" 20
@@ -543,7 +543,7 @@ ship "DP20 Frigate"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret" 10
+		"Turbolaser Turret (Red)" 10
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -556,16 +556,16 @@ ship "DP20 Frigate"
 	engine -54 252
 	engine 2 253
 	engine 58 249
-	turret -78 -43 "Turbolaser Turret"
-	turret 82 -42 "Turbolaser Turret"
-	turret 1 -42 "Turbolaser Turret"
-	turret 1 -42 "Turbolaser Turret"
-	turret 2 44 "Turbolaser Turret"
-	turret 2 44 "Turbolaser Turret"
-	turret 2 203 "Turbolaser Turret"
-	turret 2 203 "Turbolaser Turret"
-	turret -98 172 "Turbolaser Turret"
-	turret 104 170 "Turbolaser Turret"
+	turret -78 -43 "Turbolaser Turret (Red)"
+	turret 82 -42 "Turbolaser Turret (Red)"
+	turret 1 -42 "Turbolaser Turret (Red)"
+	turret 1 -42 "Turbolaser Turret (Red)"
+	turret 2 44 "Turbolaser Turret (Red)"
+	turret 2 44 "Turbolaser Turret (Red)"
+	turret 2 203 "Turbolaser Turret (Red)"
+	turret 2 203 "Turbolaser Turret (Red)"
+	turret -98 172 "Turbolaser Turret (Red)"
+	turret 104 170 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -788,7 +788,7 @@ ship "Sphyrna-class Corvette (Modified)"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret" 3
+		"Turbolaser Turret (Red)" 3
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -801,9 +801,9 @@ ship "Sphyrna-class Corvette (Modified)"
 	engine -38 199
 	engine 0 200
 	engine 41 200
-	turret -23 -159 "Turbolaser Turret"
-	turret 28 -159 "Turbolaser Turret"
-	turret 1 64 "Turbolaser Turret"
+	turret -23 -159 "Turbolaser Turret (Red)"
+	turret 28 -159 "Turbolaser Turret (Red)"
+	turret 1 64 "Turbolaser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -839,7 +839,7 @@ ship "BTL-S8 K-Wing"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"Heavy Fighter Laser Turret" 2
+		"Fighter Laser Turret Heavy (Red)" 2
 		"Advanced Homing Missile" 16
 		"Advanced Homing Missile Storage Rack"
 		"Advanced Homing Missile Launcher" 4
@@ -879,8 +879,8 @@ ship "BTL-S8 K-Wing"
 	gun 53 2 "Concussion Missile Launcher"
 	gun -84 -3 "Plasma Torpedo Launcher"
 	gun 84 -3 "Plasma Torpedo Launcher"
-	turret 0 -39 "Heavy Fighter Laser Turret"
-	turret 0 -20 "Heavy Fighter Laser Turret"
+	turret 0 -39 "Fighter Laser Turret Heavy (Red)"
+	turret 0 -20 "Fighter Laser Turret Heavy (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "BTL-S8 K-Wing"
@@ -913,7 +913,7 @@ ship "BTL-S8 K-Wing (Fighter)"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"Heavy Fighter Laser Turret" 2
+		"Fighter Laser Turret Heavy (Red)" 2
 		"Advanced Homing Missile" 16
 		"Advanced Homing Missile Storage Rack"
 		"Advanced Homing Missile Launcher" 4
@@ -953,8 +953,8 @@ ship "BTL-S8 K-Wing (Fighter)"
 	gun 53 2 "Concussion Missile Launcher"
 	gun -84 -3 "Plasma Torpedo Launcher"
 	gun 84 -3 "Plasma Torpedo Launcher"
-	turret 0 -39 "Heavy Fighter Laser Turret"
-	turret 0 -20 "Heavy Fighter Laser Turret"
+	turret 0 -39 "Fighter Laser Turret Heavy (Red)"
+	turret 0 -20 "Fighter Laser Turret Heavy (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "BTL-S8 K-Wing (Fighter)"
@@ -987,7 +987,7 @@ ship "BTL-S8 K-Wing (Ion Bombs)"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"Heavy Fighter Laser Turret" 2
+		"Fighter Laser Turret Heavy (Red)" 2
 		"Advanced Homing Missile" 16
 		"Advanced Homing Missile Storage Rack"
 		"Advanced Homing Missile Launcher" 4
@@ -1031,8 +1031,8 @@ ship "BTL-S8 K-Wing (Ion Bombs)"
 	gun 234 -12 "Plasma Torpedo Launcher"
 	gun -33 -118 "Ion Bomb Launcher"
 	gun 33 -118 "Ion Bomb Launcher"
-	turret 0 -55 "Heavy Fighter Laser Turret"
-	turret 0 -111 "Heavy Fighter Laser Turret"
+	turret 0 -55 "Fighter Laser Turret Heavy (Red)"
+	turret 0 -111 "Fighter Laser Turret Heavy (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "BTL-S8 K-Wing"
@@ -1062,7 +1062,7 @@ ship "MC20 Escort Corvette"
 			"hull damage" 370
 			"hit force" 850
 	outfits
-		"Mon Calamari Turbolaser Turret" 12
+		"Quad Turbolaser Turret (Red)" 12
 		
 		"Frigate Power Converter"
 		"Frigate Shield Projector"
@@ -1078,18 +1078,18 @@ ship "MC20 Escort Corvette"
 	engine 126 388
 	engine -60 767
 	engine 57 766
-	turret -54 -674 "Mon Calamari Turbolaser Turret"
-	turret 44 -675 "Mon Calamari Turbolaser Turret"
-	turret -60 -553 "Mon Calamari Turbolaser Turret"
-	turret 50 -556 "Mon Calamari Turbolaser Turret"
-	turret -51 -427 "Mon Calamari Turbolaser Turret"
-	turret 50 -427 "Mon Calamari Turbolaser Turret"
-	turret -67 42 "Mon Calamari Turbolaser Turret"
-	turret 61 40 "Mon Calamari Turbolaser Turret"
-	turret -49 145 "Mon Calamari Turbolaser Turret"
-	turret 45 145 "Mon Calamari Turbolaser Turret"
-	turret -3 -376 "Mon Calamari Turbolaser Turret"
-	turret -3 407 "Mon Calamari Turbolaser Turret"
+	turret -54 -674 "Quad Turbolaser Turret (Red)"
+	turret 44 -675 "Quad Turbolaser Turret (Red)"
+	turret -60 -553 "Quad Turbolaser Turret (Red)"
+	turret 50 -556 "Quad Turbolaser Turret (Red)"
+	turret -51 -427 "Quad Turbolaser Turret (Red)"
+	turret 50 -427 "Quad Turbolaser Turret (Red)"
+	turret -67 42 "Quad Turbolaser Turret (Red)"
+	turret 61 40 "Quad Turbolaser Turret (Red)"
+	turret -49 145 "Quad Turbolaser Turret (Red)"
+	turret 45 145 "Quad Turbolaser Turret (Red)"
+	turret -3 -376 "Quad Turbolaser Turret (Red)"
+	turret -3 407 "Quad Turbolaser Turret (Red)"
 	fighter -2 149
 	fighter -2 149
 	fighter -2 149
@@ -1128,7 +1128,7 @@ ship "MC30c Escort Frigate"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Mon Calamari Turbolaser Turret" 21
+		"Quad Turbolaser Turret (Red)" 21
 		"Proton Torpedo Launcher" 3
 		"MG9 Proton Torpedo" 36
 		
@@ -1145,27 +1145,27 @@ ship "MC30c Escort Frigate"
 	gun -14 -746 "Proton Torpedo Launcher"
 	gun 19 -747 "Proton Torpedo Launcher"
 	gun 2 -747 "Proton Torpedo Launcher"
-	turret -53 -895 "Mon Calamari Turbolaser Turret"
-	turret 48 -896 "Mon Calamari Turbolaser Turret"
-	turret -66 -807 "Mon Calamari Turbolaser Turret"
-	turret 64 -809 "Mon Calamari Turbolaser Turret"
-	turret -78 -713 "Mon Calamari Turbolaser Turret"
-	turret 77 -716 "Mon Calamari Turbolaser Turret"
-	turret -83 -614 "Mon Calamari Turbolaser Turret"
-	turret 84 -614 "Mon Calamari Turbolaser Turret"
-	turret -66 -506 "Mon Calamari Turbolaser Turret"
-	turret 72 -512 "Mon Calamari Turbolaser Turret"
-	turret -94 -395 "Mon Calamari Turbolaser Turret"
-	turret 101 -397 "Mon Calamari Turbolaser Turret"
-	turret -93 -348 "Mon Calamari Turbolaser Turret"
-	turret 100 -360 "Mon Calamari Turbolaser Turret"
-	turret -96 -241 "Mon Calamari Turbolaser Turret"
-	turret 102 -244 "Mon Calamari Turbolaser Turret"
-	turret -92 -59 "Mon Calamari Turbolaser Turret"
-	turret 102 -58 "Mon Calamari Turbolaser Turret"
-	turret 5 234 "Mon Calamari Turbolaser Turret"
-	turret -80 545 "Mon Calamari Turbolaser Turret"
-	turret 90 545 "Mon Calamari Turbolaser Turret"
+	turret -53 -895 "Quad Turbolaser Turret (Red)"
+	turret 48 -896 "Quad Turbolaser Turret (Red)"
+	turret -66 -807 "Quad Turbolaser Turret (Red)"
+	turret 64 -809 "Quad Turbolaser Turret (Red)"
+	turret -78 -713 "Quad Turbolaser Turret (Red)"
+	turret 77 -716 "Quad Turbolaser Turret (Red)"
+	turret -83 -614 "Quad Turbolaser Turret (Red)"
+	turret 84 -614 "Quad Turbolaser Turret (Red)"
+	turret -66 -506 "Quad Turbolaser Turret (Red)"
+	turret 72 -512 "Quad Turbolaser Turret (Red)"
+	turret -94 -395 "Quad Turbolaser Turret (Red)"
+	turret 101 -397 "Quad Turbolaser Turret (Red)"
+	turret -93 -348 "Quad Turbolaser Turret (Red)"
+	turret 100 -360 "Quad Turbolaser Turret (Red)"
+	turret -96 -241 "Quad Turbolaser Turret (Red)"
+	turret 102 -244 "Quad Turbolaser Turret (Red)"
+	turret -92 -59 "Quad Turbolaser Turret (Red)"
+	turret 102 -58 "Quad Turbolaser Turret (Red)"
+	turret 5 234 "Quad Turbolaser Turret (Red)"
+	turret -80 545 "Quad Turbolaser Turret (Red)"
+	turret 90 545 "Quad Turbolaser Turret (Red)"
 	fighter 5 51
 	fighter 5 51
 	fighter 5 51
@@ -1207,7 +1207,7 @@ ship "MC80A Star Cruiser"
 			"hull damage" 500
 			"hit force" 900
 	outfits
-		"Mon Calamari Turbolaser Turret" 32
+		"Quad Turbolaser Turret (Red)" 32
 		
 		"Destroyer Shield Projector"
 		"Destroyer Power Converter"
@@ -1221,38 +1221,38 @@ ship "MC80A Star Cruiser"
 	engine 196 1111
 	engine -159 1496
 	engine 105 1497
-	turret -102 -1155 "Mon Calamari Turbolaser Turret"
-	turret 64 -1153 "Mon Calamari Turbolaser Turret"
-	turret -102 -936 "Mon Calamari Turbolaser Turret"
-	turret 59 -931 "Mon Calamari Turbolaser Turret"
-	turret -95 -853 "Mon Calamari Turbolaser Turret"
-	turret 44 -854 "Mon Calamari Turbolaser Turret"
-	turret -127 -685 "Mon Calamari Turbolaser Turret"
-	turret 89 -688 "Mon Calamari Turbolaser Turret"
-	turret -229 -480 "Mon Calamari Turbolaser Turret"
-	turret 184 -478 "Mon Calamari Turbolaser Turret"
-	turret -205 -272 "Mon Calamari Turbolaser Turret"
-	turret 164 -256 "Mon Calamari Turbolaser Turret"
-	turret -199 -79 "Mon Calamari Turbolaser Turret"
-	turret 158 -69 "Mon Calamari Turbolaser Turret"
-	turret -273 -63 "Mon Calamari Turbolaser Turret"
-	turret 231 -59 "Mon Calamari Turbolaser Turret"
-	turret -257 237 "Mon Calamari Turbolaser Turret"
-	turret 214 236 "Mon Calamari Turbolaser Turret"
-	turret -105 284 "Mon Calamari Turbolaser Turret"
-	turret 70 263 "Mon Calamari Turbolaser Turret"
-	turret -207 402 "Mon Calamari Turbolaser Turret"
-	turret 172 410 "Mon Calamari Turbolaser Turret"
-	turret -124 445 "Mon Calamari Turbolaser Turret"
-	turret 87 438 "Mon Calamari Turbolaser Turret"
-	turret -127 605 "Mon Calamari Turbolaser Turret"
-	turret 90 600 "Mon Calamari Turbolaser Turret"
-	turret -131 963 "Mon Calamari Turbolaser Turret"
-	turret 93 956 "Mon Calamari Turbolaser Turret"
-	turret -65 938 "Mon Calamari Turbolaser Turret"
-	turret 25 936 "Mon Calamari Turbolaser Turret"
-	turret -72 1109 "Mon Calamari Turbolaser Turret"
-	turret 31 1113 "Mon Calamari Turbolaser Turret"
+	turret -102 -1155 "Quad Turbolaser Turret (Red)"
+	turret 64 -1153 "Quad Turbolaser Turret (Red)"
+	turret -102 -936 "Quad Turbolaser Turret (Red)"
+	turret 59 -931 "Quad Turbolaser Turret (Red)"
+	turret -95 -853 "Quad Turbolaser Turret (Red)"
+	turret 44 -854 "Quad Turbolaser Turret (Red)"
+	turret -127 -685 "Quad Turbolaser Turret (Red)"
+	turret 89 -688 "Quad Turbolaser Turret (Red)"
+	turret -229 -480 "Quad Turbolaser Turret (Red)"
+	turret 184 -478 "Quad Turbolaser Turret (Red)"
+	turret -205 -272 "Quad Turbolaser Turret (Red)"
+	turret 164 -256 "Quad Turbolaser Turret (Red)"
+	turret -199 -79 "Quad Turbolaser Turret (Red)"
+	turret 158 -69 "Quad Turbolaser Turret (Red)"
+	turret -273 -63 "Quad Turbolaser Turret (Red)"
+	turret 231 -59 "Quad Turbolaser Turret (Red)"
+	turret -257 237 "Quad Turbolaser Turret (Red)"
+	turret 214 236 "Quad Turbolaser Turret (Red)"
+	turret -105 284 "Quad Turbolaser Turret (Red)"
+	turret 70 263 "Quad Turbolaser Turret (Red)"
+	turret -207 402 "Quad Turbolaser Turret (Red)"
+	turret 172 410 "Quad Turbolaser Turret (Red)"
+	turret -124 445 "Quad Turbolaser Turret (Red)"
+	turret 87 438 "Quad Turbolaser Turret (Red)"
+	turret -127 605 "Quad Turbolaser Turret (Red)"
+	turret 90 600 "Quad Turbolaser Turret (Red)"
+	turret -131 963 "Quad Turbolaser Turret (Red)"
+	turret 93 956 "Quad Turbolaser Turret (Red)"
+	turret -65 938 "Quad Turbolaser Turret (Red)"
+	turret 25 936 "Quad Turbolaser Turret (Red)"
+	turret -72 1109 "Quad Turbolaser Turret (Red)"
+	turret 31 1113 "Quad Turbolaser Turret (Red)"
 	fighter -252 554
 	fighter 210 553
 	fighter -252 554
@@ -1359,7 +1359,7 @@ ship "MC80 Liberty Cruiser"
 			"hull damage" 500
 			"hit force" 900
 	outfits
-		"Mon Calamari Turbolaser Turret" 32
+		"Quad Turbolaser Turret (Red)" 32
 		
 		"Destroyer Shield Projector"
 		"Destroyer Power Converter"
@@ -1369,38 +1369,38 @@ ship "MC80 Liberty Cruiser"
 		"Destroyer Sublight Engine"
 		"Capital Hyperspace Motivator"
 		
-	turret -37 -1117 "Mon Calamari Turbolaser Turret"
-	turret -47 -1044 "Mon Calamari Turbolaser Turret"
-	turret -35 -795 "Mon Calamari Turbolaser Turret"
-	turret -37 -715 "Mon Calamari Turbolaser Turret"
-	turret -149 -707 "Mon Calamari Turbolaser Turret"
-	turret -159 -638 "Mon Calamari Turbolaser Turret"
-	turret 5 -408 "Mon Calamari Turbolaser Turret"
-	turret 8 -335 "Mon Calamari Turbolaser Turret"
-	turret -163 -322 "Mon Calamari Turbolaser Turret"
-	turret -165 -277 "Mon Calamari Turbolaser Turret"
-	turret 97 -328 "Mon Calamari Turbolaser Turret"
-	turret 95 -272 "Mon Calamari Turbolaser Turret"
-	turret 271 -270 "Mon Calamari Turbolaser Turret"
-	turret 275 -160 "Mon Calamari Turbolaser Turret"
-	turret 240 -206 "Mon Calamari Turbolaser Turret"
-	turret 243 -100 "Mon Calamari Turbolaser Turret"
-	turret -231 -211 "Mon Calamari Turbolaser Turret"
-	turret -230 -98 "Mon Calamari Turbolaser Turret"
-	turret -298 -198 "Mon Calamari Turbolaser Turret"
-	turret -299 1 "Mon Calamari Turbolaser Turret"
-	turret -267 49 "Mon Calamari Turbolaser Turret"
-	turret -268 246 "Mon Calamari Turbolaser Turret"
-	turret 331 247 "Mon Calamari Turbolaser Turret"
-	turret 337 338 "Mon Calamari Turbolaser Turret"
-	turret 419 139 "Mon Calamari Turbolaser Turret"
-	turret 421 220 "Mon Calamari Turbolaser Turret"
-	turret 448 221 "Mon Calamari Turbolaser Turret"
-	turret 449 478 "Mon Calamari Turbolaser Turret"
-	turret -444 281 "Mon Calamari Turbolaser Turret"
-	turret -442 478 "Mon Calamari Turbolaser Turret"
-	turret 80 260 "Mon Calamari Turbolaser Turret"
-	turret 79 606 "Mon Calamari Turbolaser Turret"
+	turret -37 -1117 "Quad Turbolaser Turret (Red)"
+	turret -47 -1044 "Quad Turbolaser Turret (Red)"
+	turret -35 -795 "Quad Turbolaser Turret (Red)"
+	turret -37 -715 "Quad Turbolaser Turret (Red)"
+	turret -149 -707 "Quad Turbolaser Turret (Red)"
+	turret -159 -638 "Quad Turbolaser Turret (Red)"
+	turret 5 -408 "Quad Turbolaser Turret (Red)"
+	turret 8 -335 "Quad Turbolaser Turret (Red)"
+	turret -163 -322 "Quad Turbolaser Turret (Red)"
+	turret -165 -277 "Quad Turbolaser Turret (Red)"
+	turret 97 -328 "Quad Turbolaser Turret (Red)"
+	turret 95 -272 "Quad Turbolaser Turret (Red)"
+	turret 271 -270 "Quad Turbolaser Turret (Red)"
+	turret 275 -160 "Quad Turbolaser Turret (Red)"
+	turret 240 -206 "Quad Turbolaser Turret (Red)"
+	turret 243 -100 "Quad Turbolaser Turret (Red)"
+	turret -231 -211 "Quad Turbolaser Turret (Red)"
+	turret -230 -98 "Quad Turbolaser Turret (Red)"
+	turret -298 -198 "Quad Turbolaser Turret (Red)"
+	turret -299 1 "Quad Turbolaser Turret (Red)"
+	turret -267 49 "Quad Turbolaser Turret (Red)"
+	turret -268 246 "Quad Turbolaser Turret (Red)"
+	turret 331 247 "Quad Turbolaser Turret (Red)"
+	turret 337 338 "Quad Turbolaser Turret (Red)"
+	turret 419 139 "Quad Turbolaser Turret (Red)"
+	turret 421 220 "Quad Turbolaser Turret (Red)"
+	turret 448 221 "Quad Turbolaser Turret (Red)"
+	turret 449 478 "Quad Turbolaser Turret (Red)"
+	turret -444 281 "Quad Turbolaser Turret (Red)"
+	turret -442 478 "Quad Turbolaser Turret (Red)"
+	turret 80 260 "Quad Turbolaser Turret (Red)"
+	turret 79 606 "Quad Turbolaser Turret (Red)"
 	fighter 9 -216
 	fighter 9 -216
 	fighter 9 -216
@@ -1471,7 +1471,7 @@ ship "MC80 Heavy Cruiser"
 			"hull damage" 500
 			"hit force" 900
 	outfits
-		"Mon Calamari Turbolaser Turret" 32
+		"Quad Turbolaser Turret (Red)" 32
 		
 		"Destroyer Shield Projector"
 		"Destroyer Power Converter"
@@ -1489,38 +1489,38 @@ ship "MC80 Heavy Cruiser"
 	engine 584 -592
 	engine -215 1091
 	engine 242 1095
-	turret 17 -1175 "Mon Calamari Turbolaser Turret"
-	turret 10 -950 "Mon Calamari Turbolaser Turret"
-	turret -127 -952 "Mon Calamari Turbolaser Turret"
-	turret 163 -952 "Mon Calamari Turbolaser Turret"
-	turret -93 -868 "Mon Calamari Turbolaser Turret"
-	turret 118 -866 "Mon Calamari Turbolaser Turret"
-	turret -140 -746 "Mon Calamari Turbolaser Turret"
-	turret -89 -733 "Mon Calamari Turbolaser Turret"
-	turret 121 -730 "Mon Calamari Turbolaser Turret"
-	turret 164 -745 "Mon Calamari Turbolaser Turret"
-	turret -303 -776 "Mon Calamari Turbolaser Turret"
-	turret 329 -783 "Mon Calamari Turbolaser Turret"
-	turret -364 -620 "Mon Calamari Turbolaser Turret"
-	turret 400 -618 "Mon Calamari Turbolaser Turret"
-	turret -128 -352 "Mon Calamari Turbolaser Turret"
-	turret 12 -422 "Mon Calamari Turbolaser Turret"
-	turret 150 -344 "Mon Calamari Turbolaser Turret"
-	turret -234 -221 "Mon Calamari Turbolaser Turret"
-	turret 253 -227 "Mon Calamari Turbolaser Turret"
-	turret -229 -13 "Mon Calamari Turbolaser Turret"
-	turret -124 -75 "Mon Calamari Turbolaser Turret"
-	turret 15 -95 "Mon Calamari Turbolaser Turret"
-	turret 150 -72 "Mon Calamari Turbolaser Turret"
-	turret 255 -17 "Mon Calamari Turbolaser Turret"
-	turret -297 168 "Mon Calamari Turbolaser Turret"
-	turret 323 169 "Mon Calamari Turbolaser Turret"
-	turret -66 470 "Mon Calamari Turbolaser Turret"
-	turret 95 474 "Mon Calamari Turbolaser Turret"
-	turret -39 597 "Mon Calamari Turbolaser Turret"
-	turret 65 591 "Mon Calamari Turbolaser Turret"
-	turret -84 856 "Mon Calamari Turbolaser Turret"
-	turret 115 860 "Mon Calamari Turbolaser Turret"
+	turret 17 -1175 "Quad Turbolaser Turret (Red)"
+	turret 10 -950 "Quad Turbolaser Turret (Red)"
+	turret -127 -952 "Quad Turbolaser Turret (Red)"
+	turret 163 -952 "Quad Turbolaser Turret (Red)"
+	turret -93 -868 "Quad Turbolaser Turret (Red)"
+	turret 118 -866 "Quad Turbolaser Turret (Red)"
+	turret -140 -746 "Quad Turbolaser Turret (Red)"
+	turret -89 -733 "Quad Turbolaser Turret (Red)"
+	turret 121 -730 "Quad Turbolaser Turret (Red)"
+	turret 164 -745 "Quad Turbolaser Turret (Red)"
+	turret -303 -776 "Quad Turbolaser Turret (Red)"
+	turret 329 -783 "Quad Turbolaser Turret (Red)"
+	turret -364 -620 "Quad Turbolaser Turret (Red)"
+	turret 400 -618 "Quad Turbolaser Turret (Red)"
+	turret -128 -352 "Quad Turbolaser Turret (Red)"
+	turret 12 -422 "Quad Turbolaser Turret (Red)"
+	turret 150 -344 "Quad Turbolaser Turret (Red)"
+	turret -234 -221 "Quad Turbolaser Turret (Red)"
+	turret 253 -227 "Quad Turbolaser Turret (Red)"
+	turret -229 -13 "Quad Turbolaser Turret (Red)"
+	turret -124 -75 "Quad Turbolaser Turret (Red)"
+	turret 15 -95 "Quad Turbolaser Turret (Red)"
+	turret 150 -72 "Quad Turbolaser Turret (Red)"
+	turret 255 -17 "Quad Turbolaser Turret (Red)"
+	turret -297 168 "Quad Turbolaser Turret (Red)"
+	turret 323 169 "Quad Turbolaser Turret (Red)"
+	turret -66 470 "Quad Turbolaser Turret (Red)"
+	turret 95 474 "Quad Turbolaser Turret (Red)"
+	turret -39 597 "Quad Turbolaser Turret (Red)"
+	turret 65 591 "Quad Turbolaser Turret (Red)"
+	turret -84 856 "Quad Turbolaser Turret (Red)"
+	turret 115 860 "Quad Turbolaser Turret (Red)"
 	fighter 14 -429
 	fighter 14 -429
 	fighter 14 -429
@@ -1591,7 +1591,7 @@ ship "MC75 Star Cruiser"
 			"hull damage" 500
 			"hit force" 900
 	outfits
-		"Mon Calamari Turbolaser Turret" 30
+		"Quad Turbolaser Turret (Red)" 30
 		
 		"Destroyer Shield Projector"
 		"Destroyer Power Converter"
@@ -1605,36 +1605,36 @@ ship "MC75 Star Cruiser"
 	engine -20 1276
 	engine 42 1276
 	engine 84 1275
-	turret -100 -1126 "Mon Calamari Turbolaser Turret"
-	turret -65 -1153 "Mon Calamari Turbolaser Turret"
-	turret 93 -1148 "Mon Calamari Turbolaser Turret"
-	turret 130 -1122 "Mon Calamari Turbolaser Turret"
-	turret -150 -840 "Mon Calamari Turbolaser Turret"
-	turret 71 -864 "Mon Calamari Turbolaser Turret"
-	turret 178 -842 "Mon Calamari Turbolaser Turret"
-	turret -120 -816 "Mon Calamari Turbolaser Turret"
-	turret -102 -692 "Mon Calamari Turbolaser Turret"
-	turret 127 -693 "Mon Calamari Turbolaser Turret"
-	turret -179 -531 "Mon Calamari Turbolaser Turret"
-	turret 204 -532 "Mon Calamari Turbolaser Turret"
-	turret -67 -298 "Mon Calamari Turbolaser Turret"
-	turret 94 -299 "Mon Calamari Turbolaser Turret"
-	turret -160 -59 "Mon Calamari Turbolaser Turret"
-	turret 184 -53 "Mon Calamari Turbolaser Turret"
-	turret -134 246 "Mon Calamari Turbolaser Turret"
-	turret 160 245 "Mon Calamari Turbolaser Turret"
-	turret -90 618 "Mon Calamari Turbolaser Turret"
-	turret 119 617 "Mon Calamari Turbolaser Turret"
-	turret -96 751 "Mon Calamari Turbolaser Turret"
-	turret 121 751 "Mon Calamari Turbolaser Turret"
-	turret -76 1048 "Mon Calamari Turbolaser Turret"
-	turret 103 1050 "Mon Calamari Turbolaser Turret"
-	turret -133 265 "Mon Calamari Turbolaser Turret"
-	turret 155 265 "Mon Calamari Turbolaser Turret"
-	turret -241 -458 "Mon Calamari Turbolaser Turret"
-	turret 264 -461 "Mon Calamari Turbolaser Turret"
-	turret -68 -280 "Mon Calamari Turbolaser Turret"
-	turret 91 -280 "Mon Calamari Turbolaser Turret"
+	turret -100 -1126 "Quad Turbolaser Turret (Red)"
+	turret -65 -1153 "Quad Turbolaser Turret (Red)"
+	turret 93 -1148 "Quad Turbolaser Turret (Red)"
+	turret 130 -1122 "Quad Turbolaser Turret (Red)"
+	turret -150 -840 "Quad Turbolaser Turret (Red)"
+	turret 71 -864 "Quad Turbolaser Turret (Red)"
+	turret 178 -842 "Quad Turbolaser Turret (Red)"
+	turret -120 -816 "Quad Turbolaser Turret (Red)"
+	turret -102 -692 "Quad Turbolaser Turret (Red)"
+	turret 127 -693 "Quad Turbolaser Turret (Red)"
+	turret -179 -531 "Quad Turbolaser Turret (Red)"
+	turret 204 -532 "Quad Turbolaser Turret (Red)"
+	turret -67 -298 "Quad Turbolaser Turret (Red)"
+	turret 94 -299 "Quad Turbolaser Turret (Red)"
+	turret -160 -59 "Quad Turbolaser Turret (Red)"
+	turret 184 -53 "Quad Turbolaser Turret (Red)"
+	turret -134 246 "Quad Turbolaser Turret (Red)"
+	turret 160 245 "Quad Turbolaser Turret (Red)"
+	turret -90 618 "Quad Turbolaser Turret (Red)"
+	turret 119 617 "Quad Turbolaser Turret (Red)"
+	turret -96 751 "Quad Turbolaser Turret (Red)"
+	turret 121 751 "Quad Turbolaser Turret (Red)"
+	turret -76 1048 "Quad Turbolaser Turret (Red)"
+	turret 103 1050 "Quad Turbolaser Turret (Red)"
+	turret -133 265 "Quad Turbolaser Turret (Red)"
+	turret 155 265 "Quad Turbolaser Turret (Red)"
+	turret -241 -458 "Quad Turbolaser Turret (Red)"
+	turret 264 -461 "Quad Turbolaser Turret (Red)"
+	turret -68 -280 "Quad Turbolaser Turret (Red)"
+	turret 91 -280 "Quad Turbolaser Turret (Red)"
 	fighter 11 -788
 	fighter 11 -788
 	fighter 11 -788
@@ -1693,7 +1693,7 @@ ship "EF76 Nebulon-B Frigate"
 			"hull damage" 370
 			"hit force" 850
 	outfits
-		"Turbolaser Turret" 12
+		"Turbolaser Turret (Red)" 12
 		
 		"Frigate Power Converter"
 		"Frigate Shield Projector"
@@ -1708,18 +1708,18 @@ ship "EF76 Nebulon-B Frigate"
 	engine -2 431
 	engine 34 430
 	engine 58 431
-	turret -34 -382 "Turbolaser Turret"
-	turret 29 -384 "Turbolaser Turret"
-	turret -45 -302 "Turbolaser Turret"
-	turret 38 -302 "Turbolaser Turret"
-	turret -50 -236 "Turbolaser Turret"
-	turret 40 -238 "Turbolaser Turret"
-	turret -50 -135 "Turbolaser Turret"
-	turret 44 -134 "Turbolaser Turret"
-	turret -52 290 "Turbolaser Turret"
-	turret 48 291 "Turbolaser Turret"
-	turret -35 -188 "Turbolaser Turret"
-	turret 29 -187 "Turbolaser Turret"
+	turret -34 -382 "Turbolaser Turret (Red)"
+	turret 29 -384 "Turbolaser Turret (Red)"
+	turret -45 -302 "Turbolaser Turret (Red)"
+	turret 38 -302 "Turbolaser Turret (Red)"
+	turret -50 -236 "Turbolaser Turret (Red)"
+	turret 40 -238 "Turbolaser Turret (Red)"
+	turret -50 -135 "Turbolaser Turret (Red)"
+	turret 44 -134 "Turbolaser Turret (Red)"
+	turret -52 290 "Turbolaser Turret (Red)"
+	turret 48 291 "Turbolaser Turret (Red)"
+	turret -35 -188 "Turbolaser Turret (Red)"
+	turret 29 -187 "Turbolaser Turret (Red)"
 	fighter -2 260
 	fighter -2 260
 	fighter -2 260
@@ -1761,7 +1761,7 @@ ship "EF76 Nebulon-B2 Frigate"
 			"hull damage" 370
 			"hit force" 850
 	outfits
-		"Turbolaser Turret" 14
+		"Turbolaser Turret (Red)" 14
 		"Concussion Missile Launcher"
 		"Concussion Missile" 12
 		
@@ -1777,20 +1777,20 @@ ship "EF76 Nebulon-B2 Frigate"
 	engine -6 399
 	engine 31 399
 	gun -5 -405 "Concussion Missile Launcher"
-	turret -163 -299 "Turbolaser Turret"
-	turret 153 -300 "Turbolaser Turret"
-	turret -48 -379 "Turbolaser Turret"
-	turret 37 -379 "Turbolaser Turret"
-	turret -155 -174 "Turbolaser Turret"
-	turret 145 -169 "Turbolaser Turret"
-	turret -134 -303 "Turbolaser Turret"
-	turret 125 -305 "Turbolaser Turret"
-	turret -84 -313 "Turbolaser Turret"
-	turret 62 -317 "Turbolaser Turret"
-	turret -99 -193 "Turbolaser Turret"
-	turret 92 -193 "Turbolaser Turret"
-	turret -64 257 "Turbolaser Turret"
-	turret 56 258 "Turbolaser Turret"
+	turret -163 -299 "Turbolaser Turret (Red)"
+	turret 153 -300 "Turbolaser Turret (Red)"
+	turret -48 -379 "Turbolaser Turret (Red)"
+	turret 37 -379 "Turbolaser Turret (Red)"
+	turret -155 -174 "Turbolaser Turret (Red)"
+	turret 145 -169 "Turbolaser Turret (Red)"
+	turret -134 -303 "Turbolaser Turret (Red)"
+	turret 125 -305 "Turbolaser Turret (Red)"
+	turret -84 -313 "Turbolaser Turret (Red)"
+	turret 62 -317 "Turbolaser Turret (Red)"
+	turret -99 -193 "Turbolaser Turret (Red)"
+	turret 92 -193 "Turbolaser Turret (Red)"
+	turret -64 257 "Turbolaser Turret (Red)"
+	turret 56 258 "Turbolaser Turret (Red)"
 	fighter -5 201
 	fighter -5 201
 	fighter -5 201
@@ -1828,8 +1828,8 @@ ship "Pelta Frigate (Modified)"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Turbolaser Turret" 6
-		"Dual Turbolaser Turret" 4
+		"Turbolaser Turret (Red)" 6
+		"Dual Turbolaser Turret (Red)" 4
 		
 		"Corvette Power Converter"
 		"Corvette Shield Projector"
@@ -1848,16 +1848,16 @@ ship "Pelta Frigate (Modified)"
 	engine 104 326
 	engine 150 324
 	engine 201 325
-	turret -95 -412 "Dual Turbolaser Turret"
-	turret 99 -416 "Dual Turbolaser Turret"
-	turret 3 16 "Dual Turbolaser Turret"
-	turret 3 16 "Dual Turbolaser Turret"
-	turret -106 243 "Turbolaser Turret"
-	turret 113 244 "Turbolaser Turret"
-	turret -92 -238 "Turbolaser Turret"
-	turret 98 -238 "Turbolaser Turret"
-	turret -92 -84 "Turbolaser Turret"
-	turret 97 -83 "Turbolaser Turret"
+	turret -95 -412 "Dual Turbolaser Turret (Red)"
+	turret 99 -416 "Dual Turbolaser Turret (Red)"
+	turret 3 16 "Dual Turbolaser Turret (Red)"
+	turret 3 16 "Dual Turbolaser Turret (Red)"
+	turret -106 243 "Turbolaser Turret (Red)"
+	turret 113 244 "Turbolaser Turret (Red)"
+	turret -92 -238 "Turbolaser Turret (Red)"
+	turret 98 -238 "Turbolaser Turret (Red)"
+	turret -92 -84 "Turbolaser Turret (Red)"
+	turret 97 -83 "Turbolaser Turret (Red)"
 	fighter -99 53 under
 	fighter 104 52 under
 	fighter 3 -442
@@ -2126,7 +2126,7 @@ ship "BTL-S3 Y-Wing"
 			"hit force" 465
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Fighter Ion Cannon Turret"
+		"Fighter Ion Cannon Turret (Red)"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 
@@ -2143,7 +2143,7 @@ ship "BTL-S3 Y-Wing"
 	gun 3 -57 "Fighter Laser Cannon (Red)"
 	gun -9 -26 "Proton Torpedo Launcher"
 	gun 10 -26 "Proton Torpedo Launcher"
-	turret 0 -28 "Fighter Ion Cannon Turret"
+	turret 0 -28 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "The BTL-S3 was the most common Y-wing configuration. A two-man strike starfighter, the first crew member piloted the craft, while the second acted as a gunner and controlled the two swivel-mounted ion cannons, located right on top of the cockpit."
 
@@ -2174,7 +2174,7 @@ ship "BTL-S3 Y-Wing (Fighter)"
 			"hit force" 465
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Fighter Ion Cannon Turret"
+		"Fighter Ion Cannon Turret (Red)"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 22
 
@@ -2190,6 +2190,6 @@ ship "BTL-S3 Y-Wing (Fighter)"
 	gun 3 -57 "Fighter Laser Cannon (Red)"
 	gun -9 -26 "Proton Torpedo Launcher"
 	gun 10 -26 "Proton Torpedo Launcher"
-	turret 0 -28 "Fighter Ion Cannon Turret"
+	turret 0 -28 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
 	description "The BTL-S3 was the most common Y-wing configuration. A two-man strike starfighter, the first crew member piloted the craft, while the second acted as a gunner and controlled the two swivel-mounted ion cannons, located right on top of the cockpit."

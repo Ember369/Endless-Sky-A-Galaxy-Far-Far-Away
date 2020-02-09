@@ -949,8 +949,8 @@ ship "Free Virgillia-class Bunkerbuster"
 			"hull damage" 370
 			"hit force" 850
 	outfits
-		"Turbolaser Turret" 10
-		"Dual Turbolaser Turret" 2
+		"Turbolaser Turret (Red)" 10
+		"Dual Turbolaser Turret (Red)" 2
 		"Plasma Torpedo Launcher" 3
 		"Plasma Torpedo" 30
 		
@@ -971,18 +971,18 @@ ship "Free Virgillia-class Bunkerbuster"
 	gun -94 -98 "Plasma Torpedo Launcher"
 	gun -59 -99 "Plasma Torpedo Launcher"
 	gun 61 -100 "Plasma Torpedo Launcher"
-	turret 0 -216 "Dual Turbolaser Turret"
-	turret 0 -216 "Dual Turbolaser Turret"
-	turret -293 -299 "Turbolaser Turret"
-	turret -248 -302 "Turbolaser Turret"
-	turret 247 -302 "Turbolaser Turret"
-	turret 294 -298 "Turbolaser Turret"
-	turret -218 323 "Turbolaser Turret"
-	turret -179 323 "Turbolaser Turret"
-	turret -136 324 "Turbolaser Turret"
-	turret 136 324 "Turbolaser Turret"
-	turret 180 324 "Turbolaser Turret"
-	turret 218 324 "Turbolaser Turret"
+	turret 0 -216 "Dual Turbolaser Turret (Red)"
+	turret 0 -216 "Dual Turbolaser Turret (Red)"
+	turret -293 -299 "Turbolaser Turret (Red)"
+	turret -248 -302 "Turbolaser Turret (Red)"
+	turret 247 -302 "Turbolaser Turret (Red)"
+	turret 294 -298 "Turbolaser Turret (Red)"
+	turret -218 323 "Turbolaser Turret (Red)"
+	turret -179 323 "Turbolaser Turret (Red)"
+	turret -136 324 "Turbolaser Turret (Red)"
+	turret 136 324 "Turbolaser Turret (Red)"
+	turret 180 324 "Turbolaser Turret (Red)"
+	turret 218 324 "Turbolaser Turret (Red)"
 	fighter 0 30
 	fighter 0 30
 	fighter 0 30
@@ -1023,7 +1023,7 @@ ship "Viscount-class Star Defender"
 			"hull damage" 500
 			"hit force" 900
 	outfits
-		"Mon Calamari Turbolaser Turret" 32
+		"Quad Turbolaser Turret (Red)" 32
 		
 		"Destroyer Shield Projector"
 		"Destroyer Power Converter"
@@ -1037,38 +1037,38 @@ ship "Viscount-class Star Defender"
 	engine 171 1528
 	engine -50 1718
 	engine 97 1739
-	turret -145 -1473 "Mon Calamari Turbolaser Turret"
-	turret 122 -1489 "Mon Calamari Turbolaser Turret"
-	turret 178 -1368 "Mon Calamari Turbolaser Turret"
-	turret -239 -1293 "Mon Calamari Turbolaser Turret"
-	turret -47 -1205 "Mon Calamari Turbolaser Turret"
-	turret -132 -1109 "Mon Calamari Turbolaser Turret"
-	turret -317 -1116 "Mon Calamari Turbolaser Turret"
-	turret 322 -1073 "Mon Calamari Turbolaser Turret"
-	turret 282 -988 "Mon Calamari Turbolaser Turret"
-	turret 359 -938 "Mon Calamari Turbolaser Turret"
-	turret 445 -826 "Mon Calamari Turbolaser Turret"
-	turret -70 -837 "Mon Calamari Turbolaser Turret"
-	turret -202 -853 "Mon Calamari Turbolaser Turret"
-	turret 124 -766 "Mon Calamari Turbolaser Turret"
-	turret 311 -608 "Mon Calamari Turbolaser Turret"
-	turret -473 -640 "Mon Calamari Turbolaser Turret"
-	turret -145 -455 "Mon Calamari Turbolaser Turret"
-	turret -255 -313 "Mon Calamari Turbolaser Turret"
-	turret 65 -332 "Mon Calamari Turbolaser Turret"
-	turret 299 5 "Mon Calamari Turbolaser Turret"
-	turret -315 -126 "Mon Calamari Turbolaser Turret"
-	turret -239 351 "Mon Calamari Turbolaser Turret"
-	turret 17 278 "Mon Calamari Turbolaser Turret"
-	turret 325 295 "Mon Calamari Turbolaser Turret"
-	turret 277 374 "Mon Calamari Turbolaser Turret"
-	turret -180 594 "Mon Calamari Turbolaser Turret"
-	turret -309 638 "Mon Calamari Turbolaser Turret"
-	turret -75 514 "Mon Calamari Turbolaser Turret"
-	turret -36 809 "Mon Calamari Turbolaser Turret"
-	turret -100 1402 "Mon Calamari Turbolaser Turret"
-	turret 213 1079 "Mon Calamari Turbolaser Turret"
-	turret -333 -558 "Mon Calamari Turbolaser Turret"
+	turret -145 -1473 "Quad Turbolaser Turret (Red)"
+	turret 122 -1489 "Quad Turbolaser Turret (Red)"
+	turret 178 -1368 "Quad Turbolaser Turret (Red)"
+	turret -239 -1293 "Quad Turbolaser Turret (Red)"
+	turret -47 -1205 "Quad Turbolaser Turret (Red)"
+	turret -132 -1109 "Quad Turbolaser Turret (Red)"
+	turret -317 -1116 "Quad Turbolaser Turret (Red)"
+	turret 322 -1073 "Quad Turbolaser Turret (Red)"
+	turret 282 -988 "Quad Turbolaser Turret (Red)"
+	turret 359 -938 "Quad Turbolaser Turret (Red)"
+	turret 445 -826 "Quad Turbolaser Turret (Red)"
+	turret -70 -837 "Quad Turbolaser Turret (Red)"
+	turret -202 -853 "Quad Turbolaser Turret (Red)"
+	turret 124 -766 "Quad Turbolaser Turret (Red)"
+	turret 311 -608 "Quad Turbolaser Turret (Red)"
+	turret -473 -640 "Quad Turbolaser Turret (Red)"
+	turret -145 -455 "Quad Turbolaser Turret (Red)"
+	turret -255 -313 "Quad Turbolaser Turret (Red)"
+	turret 65 -332 "Quad Turbolaser Turret (Red)"
+	turret 299 5 "Quad Turbolaser Turret (Red)"
+	turret -315 -126 "Quad Turbolaser Turret (Red)"
+	turret -239 351 "Quad Turbolaser Turret (Red)"
+	turret 17 278 "Quad Turbolaser Turret (Red)"
+	turret 325 295 "Quad Turbolaser Turret (Red)"
+	turret 277 374 "Quad Turbolaser Turret (Red)"
+	turret -180 594 "Quad Turbolaser Turret (Red)"
+	turret -309 638 "Quad Turbolaser Turret (Red)"
+	turret -75 514 "Quad Turbolaser Turret (Red)"
+	turret -36 809 "Quad Turbolaser Turret (Red)"
+	turret -100 1402 "Quad Turbolaser Turret (Red)"
+	turret 213 1079 "Quad Turbolaser Turret (Red)"
+	turret -333 -558 "Quad Turbolaser Turret (Red)"
 	fighter -492 -636
 	fighter 540 -654
 	fighter -492 -636
@@ -1203,7 +1203,7 @@ ship "AAL Troop Transport"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Turret" 1
+		"Transport Laser Turret (Red)" 1
 		
 		"Transport Power Converter"
 		"Transport Shield Projector"
@@ -1216,7 +1216,7 @@ ship "AAL Troop Transport"
 
 	engine -8 64
 	engine 6 64
-	turret -7 21 "Transport Laser Turret"
+	turret -7 21 "Transport Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1417,9 +1417,9 @@ ship "Resurgent-class Star Destroyer"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Rendii V Quad Turbolaser Battery" 12
-		"Rendii V Dual Turbolaser Battery" 10
-		"Rendii V Turbolaser Battery" 10
+		"Quad Turbolaser Turret (Green)" 12
+		"Dual Turbolaser Turret (Green)" 10
+		"Turbolaser Turret (Green)" 10
 		"Tractor Beam" 4
 		
 		"Destroyer Power Converter"
@@ -1432,38 +1432,38 @@ ship "Resurgent-class Star Destroyer"
 
 	engine -222 3112
 	engine 220 3109
-	turret -1138 1738 "Rendii V Quad Turbolaser Battery"
-	turret -1088 1593 "Rendii V Quad Turbolaser Battery"
-	turret -1041 1447 "Rendii V Quad Turbolaser Battery"
-	turret -993 1301 "Rendii V Quad Turbolaser Battery"
-	turret -943 1152 "Rendii V Quad Turbolaser Battery"
-	turret -894 1006 "Rendii V Quad Turbolaser Battery"
-	turret 1141 1739 "Rendii V Quad Turbolaser Battery"
-	turret 1094 1591 "Rendii V Quad Turbolaser Battery"
-	turret 1044 1445 "Rendii V Quad Turbolaser Battery"
-	turret 995 1300 "Rendii V Quad Turbolaser Battery"
-	turret 946 1151 "Rendii V Quad Turbolaser Battery"
-	turret 897 1007 "Rendii V Quad Turbolaser Battery"
-	turret -401 -1190 "Rendii V Dual Turbolaser Battery"
-	turret 400 -1189 "Rendii V Dual Turbolaser Battery"
-	turret 1 -518 "Rendii V Dual Turbolaser Battery"
-	turret 2 -321 "Rendii V Dual Turbolaser Battery"
-	turret 2 -136 "Rendii V Dual Turbolaser Battery"
-	turret -753 -74 "Rendii V Dual Turbolaser Battery"
-	turret 755 -71 "Rendii V Dual Turbolaser Battery"
-	turret -805 1518 "Rendii V Dual Turbolaser Battery"
-	turret 798 1522 "Rendii V Dual Turbolaser Battery"
-	turret 2 418 "Rendii V Dual Turbolaser Battery"
-	turret -238 137 "Rendii V Turbolaser Battery"
-	turret 238 139 "Rendii V Turbolaser Battery"
-	turret -608 409 "Rendii V Turbolaser Battery"
-	turret 602 409 "Rendii V Turbolaser Battery"
-	turret -604 558 "Rendii V Turbolaser Battery"
-	turret 602 557 "Rendii V Turbolaser Battery"
-	turret -364 902 "Rendii V Turbolaser Battery"
-	turret 358 904 "Rendii V Turbolaser Battery"
-	turret -230 2000 "Rendii V Turbolaser Battery"
-	turret 230 2004 "Rendii V Turbolaser Battery"
+	turret -1138 1738 "Quad Turbolaser Turret (Green)"
+	turret -1088 1593 "Quad Turbolaser Turret (Green)"
+	turret -1041 1447 "Quad Turbolaser Turret (Green)"
+	turret -993 1301 "Quad Turbolaser Turret (Green)"
+	turret -943 1152 "Quad Turbolaser Turret (Green)"
+	turret -894 1006 "Quad Turbolaser Turret (Green)"
+	turret 1141 1739 "Quad Turbolaser Turret (Green)"
+	turret 1094 1591 "Quad Turbolaser Turret (Green)"
+	turret 1044 1445 "Quad Turbolaser Turret (Green)"
+	turret 995 1300 "Quad Turbolaser Turret (Green)"
+	turret 946 1151 "Quad Turbolaser Turret (Green)"
+	turret 897 1007 "Quad Turbolaser Turret (Green)"
+	turret -401 -1190 "Dual Turbolaser Turret (Green)"
+	turret 400 -1189 "Dual Turbolaser Turret (Green)"
+	turret 1 -518 "Dual Turbolaser Turret (Green)"
+	turret 2 -321 "Dual Turbolaser Turret (Green)"
+	turret 2 -136 "Dual Turbolaser Turret (Green)"
+	turret -753 -74 "Dual Turbolaser Turret (Green)"
+	turret 755 -71 "Dual Turbolaser Turret (Green)"
+	turret -805 1518 "Dual Turbolaser Turret (Green)"
+	turret 798 1522 "Dual Turbolaser Turret (Green)"
+	turret 2 418 "Dual Turbolaser Turret (Green)"
+	turret -238 137 "Turbolaser Turret (Green)"
+	turret 238 139 "Turbolaser Turret (Green)"
+	turret -608 409 "Turbolaser Turret (Green)"
+	turret 602 409 "Turbolaser Turret (Green)"
+	turret -604 558 "Turbolaser Turret (Green)"
+	turret 602 557 "Turbolaser Turret (Green)"
+	turret -364 902 "Turbolaser Turret (Green)"
+	turret 358 904 "Turbolaser Turret (Green)"
+	turret -230 2000 "Turbolaser Turret (Green)"
+	turret 230 2004 "Turbolaser Turret (Green)"
 	turret 2 70 "Tractor Beam"
 	turret 2 70 "Tractor Beam"
 	turret 2 70 "Tractor Beam"
@@ -1601,9 +1601,9 @@ ship "Criterion-class Destroyer"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Rendii V Quad Turbolaser Battery" 14
-		"Rendii V Dual Turbolaser Battery" 10
-		"Rendii V Turbolaser Battery" 8
+		"Quad Turbolaser Turret (Green)" 14
+		"Dual Turbolaser Turret (Green)" 10
+		"Turbolaser Turret (Green)" 8
 		"Tractor Beam" 4
 		
 		"Destroyer Power Converter"
@@ -1618,38 +1618,38 @@ ship "Criterion-class Destroyer"
 	engine -436 1794
 	engine 447 1793.5
 	engine 740 1794
-	turret -410 861 "Rendii V Quad Turbolaser Battery"
-	turret 400 866 "Rendii V Quad Turbolaser Battery"
-	turret -379 734 "Rendii V Quad Turbolaser Battery"
-	turret 374 736 "Rendii V Quad Turbolaser Battery"
-	turret -343 611 "Rendii V Quad Turbolaser Battery"
-	turret 345 613 "Rendii V Quad Turbolaser Battery"
-	turret -315 483 "Rendii V Quad Turbolaser Battery"
-	turret 297 481 "Rendii V Quad Turbolaser Battery"
-	turret -273 344 "Rendii V Quad Turbolaser Battery"
-	turret 278 346 "Rendii V Quad Turbolaser Battery"
-	turret -258 229 "Rendii V Quad Turbolaser Battery"
-	turret 249 232 "Rendii V Quad Turbolaser Battery"
-	turret -533 1312 "Rendii V Dual Turbolaser Battery"
-	turret 523 1319 "Rendii V Dual Turbolaser Battery"
-	turret -936 1103 "Rendii V Dual Turbolaser Battery"
-	turret 931 1113 "Rendii V Dual Turbolaser Battery"
-	turret -778 791 "Rendii V Dual Turbolaser Battery"
-	turret 764 812 "Rendii V Dual Turbolaser Battery"
-	turret -597 579 "Rendii V Dual Turbolaser Battery"
-	turret 593 577 "Rendii V Dual Turbolaser Battery"
-	turret -593 141 "Rendii V Dual Turbolaser Battery"
-	turret 595 136 "Rendii V Dual Turbolaser Battery"
+	turret -410 861 "Quad Turbolaser Turret (Green)"
+	turret 400 866 "Quad Turbolaser Turret (Green)"
+	turret -379 734 "Quad Turbolaser Turret (Green)"
+	turret 374 736 "Quad Turbolaser Turret (Green)"
+	turret -343 611 "Quad Turbolaser Turret (Green)"
+	turret 345 613 "Quad Turbolaser Turret (Green)"
+	turret -315 483 "Quad Turbolaser Turret (Green)"
+	turret 297 481 "Quad Turbolaser Turret (Green)"
+	turret -273 344 "Quad Turbolaser Turret (Green)"
+	turret 278 346 "Quad Turbolaser Turret (Green)"
+	turret -258 229 "Quad Turbolaser Turret (Green)"
+	turret 249 232 "Quad Turbolaser Turret (Green)"
+	turret -533 1312 "Dual Turbolaser Turret (Green)"
+	turret 523 1319 "Dual Turbolaser Turret (Green)"
+	turret -936 1103 "Dual Turbolaser Turret (Green)"
+	turret 931 1113 "Dual Turbolaser Turret (Green)"
+	turret -778 791 "Dual Turbolaser Turret (Green)"
+	turret 764 812 "Dual Turbolaser Turret (Green)"
+	turret -597 579 "Dual Turbolaser Turret (Green)"
+	turret 593 577 "Dual Turbolaser Turret (Green)"
+	turret -593 141 "Dual Turbolaser Turret (Green)"
+	turret 595 136 "Dual Turbolaser Turret (Green)"
 	turret -225 -523 "Rendii Dual V Turbolaser Battery"
 	turret 226 -523 "Rendii Dual V Turbolaser Battery"
-	turret -139 -1889 "Rendii V Turbolaser Battery"
-	turret 139 -1887 "Rendii V Turbolaser Battery"
-	turret -169 -1530 "Rendii V Turbolaser Battery"
-	turret 168 -1531 "Rendii V Turbolaser Battery"
-	turret -165 -1185 "Rendii V Turbolaser Battery"
-	turret 166 -1184 "Rendii V Turbolaser Battery"
-	turret -298 -910 "Rendii V Turbolaser Battery"
-	turret 298 -911 "Rendii V Turbolaser Battery"
+	turret -139 -1889 "Turbolaser Turret (Green)"
+	turret 139 -1887 "Turbolaser Turret (Green)"
+	turret -169 -1530 "Turbolaser Turret (Green)"
+	turret 168 -1531 "Turbolaser Turret (Green)"
+	turret -165 -1185 "Turbolaser Turret (Green)"
+	turret 166 -1184 "Turbolaser Turret (Green)"
+	turret -298 -910 "Turbolaser Turret (Green)"
+	turret 298 -911 "Turbolaser Turret (Green)"
 	turret -89 -593 "Tractor Beam"
 	turret 73 -594 "Tractor Beam"
 	turret -47 -594 "Tractor Beam"
@@ -1777,7 +1777,7 @@ ship "Mandator IV-class Siege Dreadnought"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Rendii V Quad Turbolaser Battery" 32
+		"Quad Turbolaser Turret (Green)" 32
 		
 		"Destroyer Power Converter"
 		"Destroyer Shield Projector"
@@ -1789,38 +1789,38 @@ ship "Mandator IV-class Siege Dreadnought"
 		
 	engine -213 892 1
 	engine 213 892 1
-	turret 100 -5000 "Rendii V Quad Turbolaser Battery"
-	turret -100 -5000 "Rendii V Quad Turbolaser Battery"
-	turret 200 -4000 "Rendii V Quad Turbolaser Battery"
-	turret -200 -4000 "Rendii V Quad Turbolaser Battery"
-	turret 400 -3000 "Rendii V Quad Turbolaser Battery"
-	turret -400 -3000 "Rendii V Quad Turbolaser Battery"
-	turret 600 -2000 "Rendii V Quad Turbolaser Battery"
-	turret -600 -2000 "Rendii V Quad Turbolaser Battery"
-	turret 800 -1000 "Rendii V Quad Turbolaser Battery"
-	turret -800 -1000 "Rendii V Quad Turbolaser Battery"
-	turret 1100 0 "Rendii V Quad Turbolaser Battery"
-	turret -1100 0 "Rendii V Quad Turbolaser Battery"
-	turret 1300 1000 "Rendii V Quad Turbolaser Battery"
-	turret -1300 1000 "Rendii V Quad Turbolaser Battery"
-	turret 1600 2000 "Rendii V Quad Turbolaser Battery"
-	turret -1600 2000 "Rendii V Quad Turbolaser Battery"
-	turret 2100 3000 "Rendii V Quad Turbolaser Battery"
-	turret -2100 3000 "Rendii V Quad Turbolaser Battery"
-	turret 1700 3000 "Rendii V Quad Turbolaser Battery"
-	turret -1700 3000 "Rendii V Quad Turbolaser Battery"
-	turret 1300 3000 "Rendii V Quad Turbolaser Battery"
-	turret -1300 3000 "Rendii V Quad Turbolaser Battery"
-	turret 2500 4000 "Rendii V Quad Turbolaser Battery"
-	turret -2500 4000 "Rendii V Quad Turbolaser Battery"
-	turret 2000 4000 "Rendii V Quad Turbolaser Battery"
-	turret -2000 4000 "Rendii V Quad Turbolaser Battery"
-	turret 1500 4000 "Rendii V Quad Turbolaser Battery"
-	turret -1500 4000 "Rendii V Quad Turbolaser Battery"
-	turret 1000 4000 "Rendii V Quad Turbolaser Battery"
-	turret -1000 4000 "Rendii V Quad Turbolaser Battery"
-	turret 500 4000 "Rendii V Quad Turbolaser Battery"
-	turret -500 4000 "Rendii V Quad Turbolaser Battery"
+	turret 100 -5000 "Quad Turbolaser Turret (Green)"
+	turret -100 -5000 "Quad Turbolaser Turret (Green)"
+	turret 200 -4000 "Quad Turbolaser Turret (Green)"
+	turret -200 -4000 "Quad Turbolaser Turret (Green)"
+	turret 400 -3000 "Quad Turbolaser Turret (Green)"
+	turret -400 -3000 "Quad Turbolaser Turret (Green)"
+	turret 600 -2000 "Quad Turbolaser Turret (Green)"
+	turret -600 -2000 "Quad Turbolaser Turret (Green)"
+	turret 800 -1000 "Quad Turbolaser Turret (Green)"
+	turret -800 -1000 "Quad Turbolaser Turret (Green)"
+	turret 1100 0 "Quad Turbolaser Turret (Green)"
+	turret -1100 0 "Quad Turbolaser Turret (Green)"
+	turret 1300 1000 "Quad Turbolaser Turret (Green)"
+	turret -1300 1000 "Quad Turbolaser Turret (Green)"
+	turret 1600 2000 "Quad Turbolaser Turret (Green)"
+	turret -1600 2000 "Quad Turbolaser Turret (Green)"
+	turret 2100 3000 "Quad Turbolaser Turret (Green)"
+	turret -2100 3000 "Quad Turbolaser Turret (Green)"
+	turret 1700 3000 "Quad Turbolaser Turret (Green)"
+	turret -1700 3000 "Quad Turbolaser Turret (Green)"
+	turret 1300 3000 "Quad Turbolaser Turret (Green)"
+	turret -1300 3000 "Quad Turbolaser Turret (Green)"
+	turret 2500 4000 "Quad Turbolaser Turret (Green)"
+	turret -2500 4000 "Quad Turbolaser Turret (Green)"
+	turret 2000 4000 "Quad Turbolaser Turret (Green)"
+	turret -2000 4000 "Quad Turbolaser Turret (Green)"
+	turret 1500 4000 "Quad Turbolaser Turret (Green)"
+	turret -1500 4000 "Quad Turbolaser Turret (Green)"
+	turret 1000 4000 "Quad Turbolaser Turret (Green)"
+	turret -1000 4000 "Quad Turbolaser Turret (Green)"
+	turret 500 4000 "Quad Turbolaser Turret (Green)"
+	turret -500 4000 "Quad Turbolaser Turret (Green)"
 	fighter 0 0
 	fighter 0 0
 	fighter 0 0
