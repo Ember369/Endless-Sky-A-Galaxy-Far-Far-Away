@@ -1,16 +1,20 @@
 ## Version: 0.2-alpha
 * Changelog
 	* Ships
-		* Fang Fighter Black
-		* Fang Fighter Black (Fighter)
-		* Resurgent-class Star Destroyer
-		* Hoersch Kessel Drive Core Ship
-		* Hapan Battle Dragon
-		* Krayt Lav
-		* LAAT/i Gunship
-		* Flarestar-class Attack Shuttle
+		* A/SF-03 B-Wing
+		* A/SF-03 B-Wing (Fighter)
 		* BTL-C Y-Wing
 		* BTL-C Y-Wing (Fighter)
+		* Fang Fighter Black
+		* Fang Fighter Black (Fighter)
+		* Flarestar-class Attack Shuttle
+		* Hapan Battle Dragon
+		* Hoersch Kessel Drive Core Ship
+		* Krayt Lav
+		* LAAT/i Gunship
+		* Ranger Gunboat
+		* Resurgent-class Star Destroyer
+		* YT-1300 Freighter (Quantum Destiny)
 			* Reached 300 ships!
 	* Miscellaneous
 		* Added a start.txt file so that players start at Coruscant
@@ -310,7 +314,7 @@
 		* Vindicator-class Heavy Cruiser
 		* Vulture-class Droid Starfighter
 		* Vulture-class Droid Starfighter (Fighter)
-		* YT1300 Freighter
+		* YT-1300 Freighter
 		* YZ-2200 Heavy Transport
 		* Zeta-class Cargo Shuttle
 	* Other Entities/Persons
