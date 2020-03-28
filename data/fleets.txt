@@ -1,71 +1,163 @@
- fleet "rebelfleet"
+fleet "rebelfleet"
 	government "Rebel Alliance"
 	cargo 0
 	personality
 		opportunistic unconstrained
-	variant 60
-		"BTL-A4 Y-Wing" 3
-		"BTL-A4 Y-Wing" 3
 	variant 40
-		"T-65B X-Wing" 3
+		"BTL-A4 Y-Wing" 4
+		"BTL-A4 Y-Wing" 4
 	variant 40
-		"BTL-A4 Y-Wing" 3
+		"T-65B X-Wing" 8
 	variant 40
-		"RZ1 A-Wing" 3
+		"BTL-A4 Y-Wing" 8
+	variant 40
+		"RZ1 A-Wing (Red)" 8
 	variant 20
-		"BTL-S8 K-Wing" 2
+		"BTL-S8 K-Wing" 5
 	variant 20
-		"A/SF-01 B-Wing" 3
+		"A/SF-01 B-Wing (Grey)" 5
 	variant 10
 		"A/SF-01 B-Wing B6" 3
-	variant 50
+	variant 10
+		"UT-60D U-Wing" 2
+		"RZ1 A-Wing (Red)" 4
+	variant 40
 		"T-65B X-Wing" 3
 		"BTL-A4 Y-Wing" 3
-		"RZ1 A-Wing" 3
+		"RZ1 A-Wing (Red)" 3
 	variant 30
-		"Sphyrna-class Corvette (Modified)"
-		"T-65B X-Wing" 2
+		"Sphyrna-class Corvette (Modified)" 3
+		"T-65B X-Wing" 8
 	variant 20
 		"CR90 Corvette"
-		"T-65B X-Wing" 2
+		"T-65B X-Wing" 6
+	variant 20
+		"CR90 Corvette"
+		"BTL-A4 Y-Wing" 6
+	variant 20
+		"CR90 Corvette"
+		"E-7 E-Wing" 5
+	variant 20
+		"DP20 Frigate"
+		"T-65B X-Wing" 6
+	variant 20
+		"DP20 Frigate"
+		"BTL-A4 Y-Wing" 6
+	variant 20
+		"GR-75 Transport" 4
+		"T-65B X-Wing" 8
+	variant 20
+		"GR-75 Transport" 4
+		"RZ1 A-Wing (Blue)" 8
+	variant 20
+		"GR-75 Transport" 3
+		"Unknown Rebel Transport"
+		"RZ1 A-Wing (Red)" 8
+	variant 20
+		"Dornean Gunship" 3
+		"RZ1 A-Wing (Blue)" 8
+	variant 20
+		"CC-7700 Interdictor Frigate"
+		"T-65B X-Wing" 6
 	variant 15
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette" 2
-		"T-65B X-Wing" 3
+		"T-65B X-Wing" 12
+	variant 15
+		"EF76 Nebulon-B Frigate"
+		"CR90 Corvette" 2
+		"BTL-A4 Y-Wing" 12
+	variant 15
+		"EF76 Nebulon-B Frigate"
+		"CR90 Corvette" 2
+		"RZ1 A-Wing (Red)" 12
+	variant 10
+		"EF76 Nebulon-B2 Frigate"
+		"CR90 Corvette" 2
+		"T-65B X-Wing" 12
 	variant 10
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette" 2
 		"Sphyrna-class Corvette (Modified)" 2
-		"T-65B X-Wing" 3
-		"BTL-A4 Y-Wing" 3
-		"RZ1 A-Wing" 3
+		"T-65B X-Wing" 6
+		"BTL-A4 Y-Wing" 6
+		"RZ1 A-Wing (Blue)" 6
 	variant 10
-		"EF76 Nebulon-B Frigate"
+		"Pelta Frigate (Modified)"
 		"CR90 Corvette" 2
 		"Sphyrna-class Corvette (Modified)" 2
-		"GR-75 Transport" 3
-		"T-65B X-Wing" 3
-		"BTL-A4 Y-Wing" 3
-		"RZ1 A-Wing" 3
+		"T-65B X-Wing" 6
+		"BTL-A4 Y-Wing" 6
+		"RZ1 A-Wing (Red)" 6
 	variant 5
-		"CR90 Corvette" 1
-		"Sphyrna-class Corvette (Modified)"
+		"CR90 Corvette"
+		"Sphyrna-class Corvette (Modified)" 2
 		"D5-Mantis Patrol Craft"
-		"T-65B X-Wing" 3
+		"T-65B X-Wing" 8
 	variant 5
 		"CR90 Corvette" 1
-		"Sphyrna-class Corvette (Modified)"
+		"Sphyrna-class Corvette (Modified)" 2
 		"Lancer Pursuit Craft"
-		"T-65B X-Wing" 3
+		"T-65B X-Wing" 8
 	variant 5
-		"MC80 Liberty Cruiser"
+		"MC20 Escort Corvette"
 		"EF76 Nebulon-B Frigate" 2
 		"CR90 Corvette" 2
 		"Sphyrna-class Corvette (Modified)" 2
-		"GR-75 Transport" 5
-		"T-65B X-Wing" 5
-		"BTL-A4 Y-Wing" 5
-		"RZ1 A-Wing" 5
+		"T-65B X-Wing" 8
+		"RZ1 A-Wing (Blue)" 4
+	variant 5
+		"MC30c Escort Frigate"
+		"EF76 Nebulon-B Frigate" 2
+		"CR90 Corvette" 2
+		"Sphyrna-class Corvette (Modified)" 2
+		"T-65B X-Wing" 8
+		"RZ1 A-Wing (Red)" 4
+	variant 5
+		"MC80 Liberty Cruiser"
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 5
+		"GR-75 Transport" 8
+		"T-65B X-Wing" 8
+		"BTL-A4 Y-Wing" 8
+		"RZ1 A-Wing (Blue)" 8
+	variant 5
+		"MC80A Star Cruiser"
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 5
+		"GR-75 Transport" 8
+		"T-65B X-Wing" 8
+		"BTL-A4 Y-Wing" 8
+		"RZ1 A-Wing (Red)" 8
+	variant 5
+		"MC80 Heavy Cruiser"
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 5
+		"GR-75 Transport" 8
+		"T-65B X-Wing" 8
+		"BTL-A4 Y-Wing" 8
+		"RZ1 A-Wing (Blue)" 8
+	variant 5
+		"MC75 Star Cruiser"
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 5
+		"GR-75 Transport" 8
+		"T-65B X-Wing" 8
+		"BTL-A4 Y-Wing" 8
+		"RZ1 A-Wing (Red)" 8
+	variant 3
+		"Starhawk-class Battlecruiser Mark I"
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 5
+		"GR-75 Transport" 8
+		"T-65B X-Wing" 8
+		"BTL-A4 Y-Wing" 8
+		"RZ1 A-Wing (Blue)" 8
 
 
 fleet "rebeldefensefleet"
@@ -73,20 +165,294 @@ fleet "rebeldefensefleet"
 	cargo 0
 	personality
 		heroic opportunistic unconstrained
+	variant 80
+		"T-65B X-Wing" 7
+	variant 75
+		"BTL-A4 Y-Wing" 7
+	variant 80
+		"RZ1 A-Wing (Red)" 7
+	variant 75
+		"BTL-A4 Y-Wing" 3
+		"RZ1 A-Wing (Blue)" 4
+	variant 75
+		"T-65B X-Wing" 3
+		"BTL-A4 Y-Wing" 2
+		"RZ1 A-Wing (Red)" 2
+	variant 75
+		"T-65B X-Wing" 5
+		"BTL-A4 Y-Wing" 5
+		"RZ1 A-Wing (Blue)" 5
 	variant 50
+		"T-65B X-Wing" 5
+		"BTL-A4 Y-Wing" 5
+		"RZ1 A-Wing (Red)" 5
+		"CR90 Corvette"
+	variant 50
+		"CR90 Corvette"
+		"T-65B X-Wing" 6
+	variant 50
+		"CR90 Corvette"
+		"BTL-A4 Y-Wing" 6
+	variant 55
+		"GR-75 Transport" 4
+		"RZ1 A-Wing (Blue)" 8
+	variant 50
+		"GR-75 Transport" 4
+		"T-65B X-Wing" 8
+	variant 40
+		"CR90 Corvette"
+		"E-7 E-Wing" 5
+	variant 40
+		"DP20 Frigate"
 		"T-65B X-Wing" 6
 	variant 40
+		"DP20 Frigate"
 		"BTL-A4 Y-Wing" 6
 	variant 40
-		"RZ1 A-Wing" 6
+		"GR-75 Transport" 3
+		"Unknown Rebel Transport"
+		"RZ1 A-Wing (Red)" 8
+	variant 40
+		"Dornean Gunship" 3
+		"RZ1 A-Wing (Blue)" 8
+	variant 40
+		"CC-7700 Interdictor Frigate"
+		"T-65B X-Wing" 6
+	variant 35
+		"EF76 Nebulon-B Frigate"
+		"CR90 Corvette" 2
+		"T-65B X-Wing" 12
+	variant 35
+		"EF76 Nebulon-B Frigate"
+		"CR90 Corvette" 2
+		"BTL-A4 Y-Wing" 12
+	variant 35
+		"EF76 Nebulon-B Frigate"
+		"CR90 Corvette" 2
+		"RZ1 A-Wing (Red)" 12
+	variant 30
+		"EF76 Nebulon-B2 Frigate"
+		"CR90 Corvette" 2
+		"T-65B X-Wing" 12
+	variant 25
+		"EF76 Nebulon-B Frigate"
+		"CR90 Corvette" 2
+		"Sphyrna-class Corvette (Modified)" 2
+		"T-65B X-Wing" 6
+		"BTL-A4 Y-Wing" 6
+		"RZ1 A-Wing (Blue)" 6
 	variant 20
-		"BTL-A4 Y-Wing" 3
-		"BTL-A4 Y-Wing" 3
+		"Pelta Frigate (Modified)"
+		"CR90 Corvette" 2
+		"Sphyrna-class Corvette (Modified)" 2
+		"T-65B X-Wing" 6
+		"BTL-A4 Y-Wing" 6
+		"RZ1 A-Wing (Red)" 6
 	variant 20
-		"T-65B X-Wing" 2
-		"BTL-A4 Y-Wing" 2
-		"RZ1 A-Wing" 2
+		"CR90 Corvette"
+		"Sphyrna-class Corvette (Modified)" 2
+		"D5-Mantis Patrol Craft"
+		"T-65B X-Wing" 8
+	variant 20
+		"CR90 Corvette" 1
+		"Sphyrna-class Corvette (Modified)" 2
+		"Lancer Pursuit Craft"
+		"T-65B X-Wing" 8
+	variant 15
+		"MC20 Escort Corvette"
+		"EF76 Nebulon-B Frigate" 2
+		"CR90 Corvette" 2
+		"Sphyrna-class Corvette (Modified)" 2
+		"T-65B X-Wing" 8
+		"RZ1 A-Wing (Blue)" 4
+	variant 10
+		"MC30c Escort Frigate"
+		"EF76 Nebulon-B Frigate" 2
+		"CR90 Corvette" 2
+		"Sphyrna-class Corvette (Modified)" 2
+		"T-65B X-Wing" 8
+		"RZ1 A-Wing (Red)" 4
+	variant 5
+		"MC80 Liberty Cruiser"
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 5
+		"GR-75 Transport" 8
+		"T-65B X-Wing" 8
+		"BTL-A4 Y-Wing" 8
+		"RZ1 A-Wing (Blue)" 8
+	variant 5
+		"MC80A Star Cruiser"
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 5
+		"GR-75 Transport" 8
+		"T-65B X-Wing" 8
+		"BTL-A4 Y-Wing" 8
+		"RZ1 A-Wing (Red)" 8
+	variant 5
+		"MC80 Heavy Cruiser"
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 5
+		"GR-75 Transport" 8
+		"T-65B X-Wing" 8
+		"BTL-A4 Y-Wing" 8
+		"RZ1 A-Wing (Blue)" 8
+	variant 5
+		"MC75 Star Cruiser"
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 5
+		"GR-75 Transport" 8
+		"T-65B X-Wing" 8
+		"BTL-A4 Y-Wing" 8
+		"RZ1 A-Wing (Red)" 8
+	variant 3
+		"Starhawk-class Battlecruiser Mark I"
+		"EF76 Nebulon-B Frigate" 3
+		"CR90 Corvette" 3
+		"Sphyrna-class Corvette (Modified)" 5
+		"GR-75 Transport" 8
+		"T-65B X-Wing" 8
+		"BTL-A4 Y-Wing" 8
+		"RZ1 A-Wing (Blue)" 8
 
+fleet "missionimperialnavyattack"
+	government "Galactic Empire"
+	cargo 0
+	personality
+		heroic opportunistic vindictive unconstrained
+	variant 80
+		"Gozanti-class Assault Cruiser" 10
+		"TIE/LN Fighter (Fighter)" 40
+	variant 60
+		"Arquitens Light Cruiser" 3
+		"Gozanti-class Assault Cruiser" 8
+		"TIE/LN Fighter (Fighter)" 32
+		"TIE/IN Fighter (Fighter)" 9
+	variant 55
+		"Imperial Customs Corvette" 2
+		"TIE/D Fighter (Fighter)" 2
+		"Imperial Customs Corvette (Military)" 2
+		"Gozanti-class Assault Cruiser" 8
+		"TIE/LN Fighter (Fighter)" 32
+	variant 50
+		"Vigil-class Corvette"
+		"TIE/IN Fighter (Royal Guard) (Fighter)" 3
+		"Arquitens Light Cruiser" 2
+		"TIE/D Fighter (Fighter)" 3
+		"Gozanti-class Assault Cruiser" 7
+		"TIE/LN Fighter (Fighter)" 28
+	variant 45
+		"Raider II Corvette"
+		"TIE/LN Fighter (Fighter)" 6
+		"Arquitens Light Cruiser" 2
+		"TIE/D Fighter (Fighter)" 3
+		"Gozanti-class Assault Cruiser" 8
+		"TIE/LN Fighter (Fighter)" 32
+	variant 45
+		"Kontos-class Star Frigate" 1
+		"Arquitens Light Cruiser" 2
+		"TIE/D Fighter (Fighter)" 3
+		"Gozanti-class Assault Cruiser" 8
+		"TIE/LN Fighter (Fighter)" 32
+	variant 45
+		"Aiwha-class Star Corvette" 1
+		"Arquitens Light Cruiser" 2
+		"TIE/D Fighter (Fighter)" 3
+		"Gozanti-class Assault Cruiser" 8
+		"TIE/LN Fighter (Fighter)" 32
+	variant 45
+		"Fulgor-class Pursuit Frigate" 1
+		"Arquitens Light Cruiser" 2
+		"TIE/D Fighter (Fighter)" 3
+		"Gozanti-class Assault Cruiser" 8
+		"TIE/LN Fighter (Fighter)" 32
+	variant 30
+		"Gozanti-class Assault Cruiser" 6
+		"TIE/LN Fighter (Fighter)" 24
+		"GAT-12 Skipray Blastboat" 15
+	variant 25
+		"Lancer-class Frigate" 2
+		"Arquitens Light Cruiser" 2
+		"TIE/D Fighter (Fighter)" 3
+		"Gozanti-class Assault Cruiser" 8
+		"TIE/LN Fighter (Fighter)" 32
+	variant 20
+		"Vindicator-class Heavy Cruiser"
+		"TIE/LN Fighter (Fighter)" 16
+		"Arquitens Light Cruiser" 2
+		"TIE/D Fighter (Fighter)" 3
+		"Gozanti-class Assault Cruiser" 8
+		"TIE/LN Fighter (Fighter)" 32
+	variant 20
+		"Imperial Tanker"
+		"Arquitens Light Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 6
+	variant 20
+		"Carrack Light Cruiser"
+		"Arquitens Light Cruiser" 2
+		"TIE/LN Fighter (Fighter)" 6
+	variant 15
+		"TIE/D Fighter" 20
+	variant 15
+		"I-7 Howlrunner" 20
+	variant 15
+		"Alpha-class Xg-1 Star Wing"
+	variant 10
+		"Immobiliser 418 Cruiser"
+		"TIE/LN Fighter (Fighter)" 16
+		"Arquitens Light Cruiser" 2
+		"TIE/D Fighter (Fighter)" 3
+		"Gozanti-class Assault Cruiser" 9
+		"TIE/LN Fighter (Fighter)" 36
+	variant 15
+		"Quasar Fire I-class Bulk Cruiser"
+		"TIE/LN Fighter (Fighter)" 30
+	variant 15
+		"Quasar Fire II-class Bulk Cruiser"
+		"TIE/LN Fighter (Fighter)" 30
+	variant 10
+		"Victory I Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 24
+	variant 10
+		"Imperial I Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 24
+		"TIE/SA Fighter (Fighter)" 12
+		"TIE/IN Fighter (Fighter)" 12
+	variant 10
+		"Imperial II Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 24
+		"TIE/SA Fighter (Fighter)" 12
+		"TIE/IN Fighter (Fighter)" 12
+	variant 10
+		"Immobiliser 418 Cruiser"
+		"TIE/LN Fighter (Fighter)" 24
+	variant 10
+		"Gladiator Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 26
+	variant 5
+		"Allegiance-class Battlecruiser"
+	variant 5
+		"Dreadnaught Heavy Cruiser"
+		"TIE/LN Fighter (Fighter)" 16
+	variant 5
+		"Strike-class Medium Cruiser"
+		"TIE/LN Fighter (Fighter)" 16
+	variant 5
+		"Interdictor Star Destroyer"
+		"TIE/LN Fighter (Fighter)" 16
+	variant 5
+		"Indictor-class Electronic Warfare Star Corvette"
+		"Gozanti-class Assault Cruiser" 3
+		"TIE/LN Fighter (Fighter)" 12
+	variant 5
+		"Altor-class Replenishment Ship"
+		"Arquitens Light Cruiser" 3
+		"Gozanti-class Assault Cruiser" 8
+		"TIE/LN Fighter (Fighter)" 32
+		"TIE/IN Fighter (Fighter)" 9
 fleet "imperialstardestroyer"
 	government "Galactic Empire"
 	cargo 0
@@ -144,7 +510,7 @@ fleet "imperialdefensefleetlarge"
 		"TIE/SA Fighter (Fighter)" 10
 		"TIE/IT Fighter (Fighter)" 2
 		"Arquitens Light Cruiser" 2
-		"Gozanti Cruiser" 2
+		"Gozanti-class Assault Cruiser" 2
 		"TIE/LN Fighter (Fighter)" 8
 		"TIE/IN Fighter (Fighter)" 6
 
@@ -174,11 +540,11 @@ fleet "imperialdefensefleetsmall"
 		"Vindicator-class Heavy Cruiser" 2
 		"TIE/LN Fighter (Fighter)" 48
 		"Arquitens Light Cruiser" 1
-		"Gozanti Cruiser" 2
+		"Gozanti-class Assault Cruiser" 2
 		"TIE/LN Fighter (Fighter)" 8
 		"TIE/IN Fighter (Fighter)" 3
 		"Imperial Customs Corvette" 1
-		"Gozanti Cruiser" 2
+		"Gozanti-class Assault Cruiser" 2
 		"TIE/LN Fighter (Fighter)" 8
 		"TIE/IN Fighter (Fighter)" 1
 		"Raider II Corvette"
@@ -190,21 +556,21 @@ fleet "imperialpatrol"
 	personality
 		heroic opportunistic vindictive unconstrained
 	variant 50
-		"Gozanti Cruiser" 2
+		"Gozanti-class Assault Cruiser" 2
 		"TIE/LN Fighter (Fighter)" 8
 	variant 20
 		"Arquitens Light Cruiser" 1
-		"Gozanti Cruiser" 2
+		"Gozanti-class Assault Cruiser" 2
 		"TIE/LN Fighter (Fighter)" 8
 		"TIE/IN Fighter (Fighter)" 3
 	variant 10
 		"Imperial Customs Corvette" 1
-		"Gozanti Cruiser" 2
+		"Gozanti-class Assault Cruiser" 2
 		"TIE/LN Fighter (Fighter)" 8
 		"TIE/IN Fighter (Fighter)" 1
 	variant 10
 		"Vigil-class Corvette" 1
-		"Gozanti Cruiser" 2
+		"Gozanti-class Assault Cruiser" 2
 		"TIE/LN Fighter (Fighter)" 8
 	variant 5
 		"Raider II Corvette"
@@ -229,7 +595,7 @@ fleet "assertorstardreadnought"
 	personality
 		heroic opportunistic vindictive unconstrained
 	variant 50
-		"Assertor Star Dreadnought"
+		"Assertor-class Star Dreadnought"
 		"TIE/LN Fighter (Fighter)" 100
 		"Imperial I Star Destroyer" 2
 		"TIE/LN Fighter (Fighter)" 168
@@ -239,7 +605,7 @@ fleet "assertorstardreadnought"
 		"TIE/D Fighter (Fighter)" 12
 		"Dreadnaught Heavy Cruiser"
 		"TIE/SA Fighter (Fighter)" 16
-		"Gozanti Cruiser" 2
+		"Gozanti-class Assault Cruiser" 2
 		"TIE/AD Fighter (Fighter)" 8
 		"Raider II Corvette"
 		"TIE/PH Fighter (Fighter)" 6
@@ -268,7 +634,7 @@ fleet "rebelcapitalfleet"
 		"Nebulon Frigate" 2
 		"GR-75 Transport" 6
 		"RZ1 A-Wing Prototype" 9
-		"RZ1 A-Wing" 10
+		"RZ1 A-Wing (Red)" 10
 		"T-65B X-Wing" 10
 		"BTL-A4 Y-Wing" 10
 		"A/SF-01 B-Wing B6" 5
@@ -315,13 +681,15 @@ fleet "civilianheavycargofreighter"
 	personality
 		timid appeasing unconstrained
 	variant 60
-		"Ajuur Heavy Cruiser"
-	variant 60
 		"Mobquet MB-C1 Medium Transport" 3
 	variant 60
-		"Action VI Transport" 2
+		"Action VI Transport Grey" 2
 	variant 60
-		"Dragonboat-class Reugeot 905 Freighter" 2
+		"Action VI Transport Maroon" 2
+	variant 60
+		"Action VI Transport Stripe" 2
+	variant 60
+		"HCT-2001 Dragonboat-class Reugeot 905 Freighter" 2
 	variant 60
 		"YZ-2200 Heavy Transport"
 	variant 60
@@ -365,9 +733,51 @@ fleet "purrgil"
 	government "Purrgil"
 	cargo 0
 	personality
-		unconstrained swarming mining
+		unconstrained
 	variant 60
 		"Purrgil" 15
+	variant 60
+		"Purrgil" 10
+	variant 70
+		"Purrgil" 5
+
+fleet "Wreckage"
+	government "Wreckage"
+	cargo 0
+	personality
+		derelict waiting staying
+	variant 40
+		"Wreckage1" 15
+	variant 40
+		"Wreckage2" 15
+	variant 40
+		"Wreckage3" 15
+	variant 40
+		"Wreckage4" 15
+	variant 40
+		"Wreckage5" 15
+	variant 40
+		"Wreckage6" 15
+	variant 40
+		"Wreckage7" 15
+	variant 40
+		"Wreckage8" 15
+	variant 40
+		"Wreckage9" 15
+	variant 40
+		"Wreckage10" 15
+	variant 40
+		"Wreckage11" 15
+	variant 40
+		"Wreckage12" 15
+	variant 40
+		"Wreckage13" 15
+	variant 40
+		"Wreckage14" 15
+	variant 40
+		"Wreckage15" 15
+	variant 40
+		"Wreckage16" 15
 
 fleet "bountyhunter"
 	government "Bounty Hunter"
@@ -386,21 +796,55 @@ fleet "deathstariifleet"
 		heroic opportunistic vindictive unconstrained
 	variant 50
 		"Executor-class Star Dreadnought"
-		"TIE/LN Fighter" 200
-		"Imperial II Star Destroyer" 4
-		"Imperial I Star Destroyer" 2
-		"Vindicator-class Heavy Cruiser" 4
-		"TIE/IN Fighter" 80
-		"Arquitens Light Cruiser" 4
-		"TIE/D Fighter" 12
-		"Dreadnaught Heavy Cruiser"
-		"TIE/SA Fighter" 60
-		"Gozanti Cruiser" 2
-		"TIE/AD Fighter" 8
-		"Immobiliser 418 Cruiser"
-		"TIE/IT Fighter"
-		"TIE/LN Fighter"
-		"Lancer-class Frigate" 4
+		"Allegiance-class Battlecruiser" 3
+		"Altor-class Replenishment Ship" 2
+		"Imperial II Star Destroyer" 8
+		"Imperial I Star Destroyer" 4
+		"Interdictor Star Destroyer" 2
+		"Dreadnaught Heavy Cruiser" 2
+		"Immobiliser 418 Cruiser" 4
+		"Gladiator Star Destroyer" 2
+		"Victory I Star Destroyer"
+		"Quasar Fire I-class Bulk Cruiser"
+		"Quasar Fire II-class Bulk Cruiser"
+		"Vindicator-class Heavy Cruiser" 12
+		"Strike-class Medium Cruiser" 2
+		"Arquitens Light Cruiser" 20
+		"Aiwha-class Star Corvette" 2
+		"Fulgor-class Pursuit Frigate" 2
+		"Kontos-class Star Frigate" 2
+		"Raider II Corvette" 3
+		"Vigil-class Corvette" 3
+		"Indictor-class Electronic Warfare Star Corvette" 2
+		"Consolidator-class Corps Assault Ship"
+		"Contentor-class Fleet Replenishment Ship"
+		"Imperial Tanker" 2
+		"Lancer-class Frigate" 25
+		"Eta-class Supply Barge" 8
+		"Zeta-class Cargo Shuttle" 15
+		"Carrack Light Cruiser" 3
+		"Imperial Customs Corvette" 5
+		"Imperial Customs Corvette (Military)" 5
+		"Intersector-class Sloop" 5
+		"IPV-1 System Patrol Craft" 5
+		"LAAT/le Gunship" 5
+		"Lambda Shuttle" 5
+		"Delta T-3c Shuttle"
+		"Gozanti-class Assault Cruiser" 10
+		"IGV-55 Surveillance Vessel" 2
+		"Alpha-class Xg-1 Star Wing" 20
+		"DX9 Troop Transport" 10
+		"GAT-12 Skipray Blastboat" 20
+		"TIE/LN Fighter" 500
+		"TIE/SA Fighter" 300
+		"TIE/IN Fighter" 150
+		"TIE/D Fighter" 50
+		"TIE/AD Fighter" 20
+		"TIE/IT Fighter" 30
+		"TIE/IN Fighter (Royal Guard)" 10
+		"TIE/PH Fighter" 2
+		"TIE/SK Fighter" 10
+
 
 fleet "dqardreadnought"
 	government "First Order"
@@ -416,16 +860,16 @@ fleet "lastorder"
 	personality
 		heroic opportunistic vindictive unconstrained
 	cargo 0
-	variant 10
-		"Mandator IV-class Siege Dreadnought" 2
-		"TIE/FO Fighter" 400
+	variant 1
+		"Mandator IV-class Siege Dreadnought"
+		"TIE/FO Fighter" 200
 		"TIE/SF Fighter" 200
 	variant 10
-		"Resurgent-class Star Destroyer" 5
+		"Resurgent-class Star Destroyer"
 		"TIE/FO Fighter" 400
 		"TIE/SF Fighter" 200
 	variant 80
-		"Imperial I Star Destroyer" 12
+		"Imperial I Star Destroyer" 7
 		"TIE/DG Fighter" 600
 	variant 60
 		"TIE/DG Fighter" 800
@@ -463,7 +907,7 @@ fleet "chopperbase"
 		"Quasar Fire II-class Bulk Cruiser"
 		"VCX-100 Light Freighter"
 		"VCX-series Auxiliary Starfighter"
-		"RZ1 A-Wing" 8
+		"RZ1 A-Wing (Blue)" 8
 		"BTL-A4 Y-Wing" 8
 
 fleet "scarifshieldgate"

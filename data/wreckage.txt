@@ -1,0 +1,697 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Wreckage1"
+	sprite "ship/wreckage1"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage1"
+
+ship "Wreckage2"
+	sprite "ship/wreckage2"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage2"
+
+
+
+ship "Wreckage3"
+	sprite "ship/wreckage3"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage3"
+
+
+
+ship "Wreckage4"
+	sprite "ship/wreckage4"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage4"
+
+
+
+ship "Wreckage5"
+	sprite "ship/wreckage5"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage5"
+
+
+
+ship "Wreckage6"
+	sprite "ship/wreckage6"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage6"
+
+
+
+ship "Wreckage7"
+	sprite "ship/wreckage7"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage7"
+
+
+
+ship "Wreckage8"
+	sprite "ship/wreckage8"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage8"
+
+
+
+
+ship "Wreckage9"
+	sprite "ship/wreckage9"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage9"
+
+
+
+
+ship "Wreckage10"
+	sprite "ship/wreckage10"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage10"
+
+
+
+
+ship "Wreckage11"
+	sprite "ship/wreckage11"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage11"
+
+
+
+ship "Wreckage12"
+	sprite "ship/wreckage12"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage12"
+
+
+
+ship "Wreckage13"
+	sprite "ship/wreckage13"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage13"
+
+
+
+ship "Wreckage14"
+	sprite "ship/wreckage14"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage14"
+
+
+
+ship "Wreckage15"
+	sprite "ship/wreckage15"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage15"
+
+
+
+
+ship "Wreckage16"
+	sprite "ship/wreckage16"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000
+		"shields" 0
+		"hull" 50000
+		"required crew" 0
+		"bunks" 0
+		"mass" 15000
+		"drag" 50
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbolaser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Water Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Wreckage16"

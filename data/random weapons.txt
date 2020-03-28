@@ -819,7 +819,6 @@ outfit "Turbolaser Turret (Red)"
 		"firing heat" 35
 		"shield damage" 500
 		"hull damage" 500
-		stream
 	description "Turbolaser Turret (Red)"
 
 outfit "Turbolaser Turret (Green)"
@@ -846,7 +845,6 @@ outfit "Turbolaser Turret (Green)"
 		"firing heat" 35
 		"shield damage" 500
 		"hull damage" 500
-		stream
 	description "Turbolaser Turret (Green)"
 
 outfit "Turbolaser Turret (Blue)"
@@ -873,7 +871,6 @@ outfit "Turbolaser Turret (Blue)"
 		"firing heat" 35
 		"shield damage" 500
 		"hull damage" 500
-		stream
 	description "Turbolaser Turret (Blue)"
 
 outfit "Turbolaser Turret (Yellow)"
@@ -900,7 +897,6 @@ outfit "Turbolaser Turret (Yellow)"
 		"firing heat" 35
 		"shield damage" 500
 		"hull damage" 500
-		stream
 	description "Turbolaser Turret (Yellow)"
 
 
@@ -933,7 +929,6 @@ outfit "Dual Turbolaser Turret (Red)"
 		"firing heat" 35
 		"shield damage" 650
 		"hull damage" 650
-		stream
 	description "Dual Turbolaser Turret (Red)"
 
 outfit "Dual Turbolaser Turret (Green)"
@@ -960,7 +955,6 @@ outfit "Dual Turbolaser Turret (Green)"
 		"firing heat" 35
 		"shield damage" 650
 		"hull damage" 650
-		stream
 	description "Dual Turbolaser Turret (Green)"
 
 outfit "Dual Turbolaser Turret (Blue)"
@@ -987,7 +981,6 @@ outfit "Dual Turbolaser Turret (Blue)"
 		"firing heat" 35
 		"shield damage" 650
 		"hull damage" 650
-		stream
 	description "Dual Turbolaser Turret (Blue)"
 
 outfit "Dual Turbolaser Turret (Yellow)"
@@ -1014,7 +1007,6 @@ outfit "Dual Turbolaser Turret (Yellow)"
 		"firing heat" 35
 		"shield damage" 650
 		"hull damage" 650
-		stream
 	description "Dual Turbolaser Turret (Yellow)"
 
 
@@ -1045,7 +1037,6 @@ outfit "Quad Turbolaser Turret (Red)"
 		"firing heat" 35
 		"shield damage" 900
 		"hull damage" 900
-		stream
 	description "Quad Turbolaser Turret (Red)"
 
 outfit "Quad Turbolaser Turret (Green)"
@@ -1072,7 +1063,6 @@ outfit "Quad Turbolaser Turret (Green)"
 		"firing heat" 35
 		"shield damage" 900
 		"hull damage" 900
-		stream
 	description "Quad Turbolaser Turret (Green)"
 
 
@@ -1136,7 +1126,7 @@ outfit "Composite Beam Laser (Red)"
 		"lifetime" 1.5
 		"reload" 1
 		"firing energy" 1
-		"firing heat" 1.5
+		"firing heat" 0.2
 		"shield damage" 20
 		"hull damage" 20
 		cluster

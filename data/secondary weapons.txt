@@ -12,7 +12,7 @@ outfit "Advanced Homing Missile"
 	category "Ammunition"
 	cost 100
 	thumbnail "outfit/advancedhomingmissile"
-	"mass" .1
+	"mass" .01
 	"torpedo capacity" -1
 	description "Advanced Homing Missile"
 
@@ -45,28 +45,28 @@ outfit "Advanced Homing Missile Launcher"
 		"fire effect" "torpedo fire"
 		"hit effect" "large explosion"
 		"die effect" "tiny explosion"
-		"inaccuracy" 15
-		"velocity" 15
-		"lifetime" 100
+		"inaccuracy" 10
+		"velocity" 7
+		"lifetime" 700
 		"reload" 120
 		"firing energy" 2
 		"firing heat" 45
-		"acceleration" 0
-		"drag" .1
+		"acceleration" .15
+		"drag" .025
 		"turn" 4
 		"homing" 3
 		"optical tracking" .8
 		"shield damage" 1000
 		"hull damage" 1000
 		"hit force" 40
-		"missile strength" 20
+		"missile strength" 30
 	description "Advanced Homing Missile Launcher"
 
 outfit "Fletchette Missile"
 	category "Ammunition"
 	cost 10
 	thumbnail "outfit/fletchette"
-	"mass" .1
+	"mass" .01
 	"meteor capacity" -1
 	description "Fletchette Missile"
 
@@ -99,14 +99,14 @@ outfit "Fletchette Missile Launcher"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
-		"inaccuracy" 15
-		"velocity" 19
-		"lifetime" 80
-		"reload" 40
+		"inaccuracy" 10
+		"velocity" 9
+		"lifetime" 500
+		"reload" 30
 		"firing energy" 1
 		"firing heat" 20
-		"acceleration" 0
-		"drag" .1
+		"acceleration" .15
+		"drag" .025
 		"turn" 2
 		"homing" 3
 		"infrared tracking" .8
@@ -120,7 +120,7 @@ outfit "Concussion Missile"
 	category "Ammunition"
 	cost 100
 	thumbnail "outfit/concussionmissile"
-	"mass" .1
+	"mass" .01
 	"rocket capacity" -1
 	description "Concussion Missile"
 
@@ -152,13 +152,13 @@ outfit "Concussion Missile Launcher"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
 		"inaccuracy" 15
-		"velocity" 17
-		"lifetime" 100
+		"velocity" 9
+		"lifetime" 500
 		"reload" 100
 		"firing energy" 1
 		"firing heat" 250
 		"acceleration" 0
-		"drag" .1
+		"drag" .025
 		"shield damage" 1000
 		"hull damage" 1000
 		"hit force" 80
@@ -169,7 +169,7 @@ outfit "Plasma Torpedo"
 	category "Ammunition"
 	cost 100
 	thumbnail "outfit/plasmatorpedo"
-	"mass" .1
+	"mass" .01
 	"rocket capacity" -1
 	description "Plasma Torpedo Missile"
 
@@ -201,13 +201,13 @@ outfit "Plasma Torpedo Launcher"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
 		"inaccuracy" 15
-		"velocity" 16
+		"velocity" 9
 		"lifetime" 100
 		"reload" 100
 		"firing energy" 1
 		"firing heat" 250
-		"acceleration" 0
-		"drag" .1
+		"acceleration" .15
+		"drag" .025
 		"shield damage" 3000
 		"hull damage" 0
 		"hit force" 80
@@ -218,7 +218,7 @@ outfit "Ion Bomb"
 	category "Ammunition"
 	cost 200
 	thumbnail "outfit/ionbomb"
-	"mass" .1
+	"mass" .01
 	"minelayer capacity" -1
 	description "Ion Bomb"
 
@@ -266,11 +266,30 @@ outfit "Ion Bomb Launcher"
 		"missile strength" 16
 	description "Ion Bomb Launcher"
 
+outfit "Korath Mine Submunition"
+	weapon
+		sprite "projectile/korath mine"
+			"frame rate" 1
+			"no repeat"
+		"hit effect" "large explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 360
+		"velocity" 2
+		"random velocity" 5
+		"lifetime" 1000
+		"random lifetime" 60
+		"acceleration" .00001
+		"drag" .05
+		"shield damage" 350
+		"hull damage" 280
+		"hit force" 200
+		"missile strength" 22
+
 outfit "MG9 Proton Torpedo"
 	category "Ammunition"
 	cost 100
 	thumbnail "outfit/protontorpedo"
-	"mass" .1
+	"mass" .01
 	"rocket capacity" -1
 	description "Proton Torpedo"
 
@@ -301,14 +320,14 @@ outfit "Proton Torpedo Launcher"
 		icon "icon/protontorpedo"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 15
-		"velocity" 22
-		"lifetime" 100
+		"inaccuracy" 10
+		"velocity" 10
+		"lifetime" 500
 		"reload" 100
 		"firing energy" 1
 		"firing heat" 250
-		"acceleration" 0
-		"drag" .1
+		"acceleration" .15
+		"drag" .025
 		"shield damage" 2000
 		"hull damage" 2000
 		"hit force" 0
@@ -334,38 +353,57 @@ outfit "Proton Bomb Storage Rack"
 
 outfit "Proton Bomb Launcher"
 	category "Secondary Weapons"
-	cost 1000
+	cost 1073000
 	thumbnail "outfit/protonbomblauncher"
-	"mass" 20
-	"outfit space" -20
-	"weapon capacity" -20
+	"mass" 36
+	"outfit space" -48
+	"weapon capacity" -48
+	"energy capacity" 50
 	"gun ports" -1
-	"rocket capacity" 262
+	"minelayer capacity" 17
 	weapon
 		sprite "projectile/protonbomb"
-			"frame rate" 4
-		sound "rocket"
+		sound "minelayer"
 		ammo "Proton Bomb"
 		icon "icon/protonbomb"
+		"fire effect" "minelayer fire"
+		"hit effect" "huge explosion"
+		"die effect" "minelayer split" 5
+		"submunition" "Proton Bomb Submunition" 5
+		"inaccuracy" 10
+		"velocity" 3
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 36
+		"firing heat" 36
+		"acceleration" .16
+		"drag" .04
+		"turn" 2
+		"homing" 4
+		"infrared tracking" .9
+		"missile strength" 35
+		"shield damage" -3200
+		"hull damage" -2400
+		"hit force" -150
+		"stream"
+	description "This launcher fires cluster munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
+
+outfit "Proton Bomb Submunition"
+	weapon
+		sprite "projectile/protonbomb"
 		"hit effect" "large explosion"
-		"die effect" "medium explosion"
-		"inaccuracy" 1
-		"velocity" -0.1
-		"lifetime" 100000
-		"reload" 10
-		"firing energy" 1
-		"firing heat" 50
-		"acceleration" 0.01
-		"drag" 0.04
-		"trigger radius" 30
-		"blast radius" 50
-		"shield damage" 0
-		"hull damage" 10000
+		"die effect" "tiny explosion"
+		"inaccuracy" 40
+		"velocity" 2
+		"random velocity" 5
+		"lifetime" 1000
+		"random lifetime" 60
+		"acceleration" .00001
+		"drag" .05
+		"shield damage" 3000
+		"hull damage" 3000
 		"hit force" 0
-		"missile strength" 16
-		safe
-		piercing 1
-	description "Proton Bomb Launcher"
+		"missile strength" 22
 
 outfit "Gravity Well Energy"
 	category "Ammunition"

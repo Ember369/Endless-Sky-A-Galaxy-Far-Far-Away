@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more detailsz
 
-outfit "Fighter Engine"
+outfit "Fighter Engine (Orange Flare)"
 	category "Engines"
 	"cost" 582000
 	thumbnail "outfit/fighterengine"
@@ -18,7 +18,7 @@ outfit "Fighter Engine"
 	"thrust" 7
 	"thrusting energy" 6.3
 	"thrusting heat" 1
-	"flare sprite" "effect/plasma flare/tiny"
+	"flare sprite" "effect/orange flare/tiny"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
 	"turn" 150
@@ -54,7 +54,7 @@ outfit "Fighter Engine (Blue Flare)"
 	"thrust" 7
 	"thrusting energy" 6.3
 	"thrusting heat" 1
-	"flare sprite" "effect/ion flare/small"
+	"flare sprite" "effect/blue flare/small"
 		"frame rate" 0.8
 	"flare sound" "ion small"
 	"turn" 150
@@ -90,7 +90,7 @@ outfit "Shuttle Engine"
 	"thrust" 7.5
 	"thrusting energy" 6.3
 	"thrusting heat" 7
-	"flare sprite" "effect/ion flare/huge"
+	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
 	"turn" 160
@@ -108,7 +108,7 @@ outfit "Light Transport Sublight Engine"
 	"thrust" 16
 	"thrusting energy" 6.3
 	"thrusting heat" 7
-	"flare sprite" "effect/ion flare/huge"
+	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
 	"turn" 300
@@ -126,7 +126,7 @@ outfit "Transport Sublight Engine"
 	"thrust" 20
 	"thrusting energy" 6.3
 	"thrusting heat" 10
-	"flare sprite" "effect/ion flare/huge"
+	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
 	"turn" 500
@@ -134,7 +134,7 @@ outfit "Transport Sublight Engine"
 	"turning heat" 8.5
 	description " Transport Sublight Engine for BT7 Thunderclap"
 
-outfit "Corvette Sublight Engine"
+outfit "Corvette Sublight Engine (Pink)"
 	category "Engines"
 	"cost" 30000
 	thumbnail "outfit/corvetteiondrive"
@@ -155,6 +155,27 @@ outfit "Corvette Sublight Engine"
 	"turning heat" 7.3
 	description "Corvette Sublight Engine"
 
+outfit "Corvette Sublight Engine (Green)"
+	category "Engines"
+	"cost" 30000
+	thumbnail "outfit/corvetteiondrive"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 24
+	"thrusting energy" 6.3
+	"thrusting heat" 11.7
+	"reverse thrust" 12
+	"reverse thrusting energy" 3.1
+	"reverse thrusting heat" 5.8
+	"flare sprite" "effect/green flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 1300
+	"turning energy" 3.5
+	"turning heat" 7.3
+	description "Corvette Sublight Engine"
+
 outfit "Corvette Sublight Engine (Blue)"
 	category "Engines"
 	"cost" 30000
@@ -168,7 +189,7 @@ outfit "Corvette Sublight Engine (Blue)"
 	"reverse thrust" 12
 	"reverse thrusting energy" 3.1
 	"reverse thrusting heat" 5.8
-	"flare sprite" "effect/ion flare/huge"
+	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
 	"turn" 1300
@@ -189,7 +210,7 @@ outfit "Frigate Sublight Engine"
 	"reverse thrust" 14
 	"reverse thrusting energy" 6.3
 	"reverse thrusting heat" 11.7
-	"flare sprite" "effect/ion flare/huge"
+	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
 	"turn" 1400
@@ -210,7 +231,7 @@ outfit "Heavy Freighter Sublight Engine"
 	"reverse thrust" 18
 	"reverse thrusting energy" 6.3
 	"reverse thrusting heat" 11.7
-	"flare sprite" "effect/ion flare/huge"
+	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
 	"turn" 1350
@@ -231,7 +252,7 @@ outfit "Cruiser Sublight Engine"
 	"reverse thrust" 27
 	"reverse thrusting energy" 20
 	"reverse thrusting heat" 11.7
-	"flare sprite" "effect/ion flare/huge"
+	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
 	"turn" 1600
@@ -252,7 +273,7 @@ outfit "Destroyer Sublight Engine"
 	"reverse thrust" 33
 	"reverse thrusting energy" 20
 	"reverse thrusting heat" 11.7
-	"flare sprite" "effect/ion flare/huge"
+	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
 	"turn" 1900

@@ -45,6 +45,36 @@ mission "Destroy the Imperial Patrol"
 
 mission "Imperial Navy Attack"
 	name "Defend <planet>"
+	description "Defeat an Imperial Navy attack on <destination>."
+	minor
+	repeat
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	npc evade
+		personality heroic staying
+		government "Galactic Empire"
+		fleet "missionimperialnavyattack" 3
+	npc
+		personality heroic staying
+		government "Rebel Alliance"
+		fleet "rebeldefensefleet" 8
+	on offer
+		conversation
+			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Empire! We need every combat-worthy ship to join in the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			choice
+				"	(Stay here until the fight is over.)"
+					decline
+				"	(Join the defense fleet.)"
+			"A few rebel pilots and local defense members have gathered to help repel the Imperial attack. You join them, and take off together..."
+				launch
+	on complete
+		payment 150000
+		dialog "The government of <planet> pays you <payment> for helping to drive off the Imperial Navy."
+
+mission "Imperial Navy Attack"
+	name "Defend <planet>"
 	description "Defeat an imperial navy attack on <destination>."
 	minor
 	repeat
@@ -67,11 +97,12 @@ mission "Imperial Navy Attack"
 				"	(Stay here until the fight is over.)"
 					decline
 				"	(Join the defense fleet.)"
-			"A few rebel pilots have gathered to help repel the imperial attack. You join them, and take off together..."
+			"A few rebel pilots and local defense members have gathered to help repel the Imperial attack. You join them, and take off together..."
 				launch
 	on complete
 		payment 150000
-		dialog "The government of <planet> pays you <payment> for helping to drive off the imperial navy."
+		dialog "The government of <planet> pays you <payment> for helping to drive off the Imperial Navy."
+
 
 mission "Destroy the Tie Fighters"
 	name "Destroy the Tie Fighters"

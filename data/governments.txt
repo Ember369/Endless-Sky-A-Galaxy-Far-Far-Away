@@ -147,3 +147,18 @@ government "Bounty Hunter"
 		"Scum & Villainy" 0
 	"bribe" 0
 	"fine" 0
+
+government "Wreckage"
+	swizzle 0
+	color .99 .99 .99
+		
+	"player reputation" -0.04
+	"attitude toward"
+		"Bounty Hunter" -0.04
+		"Civilian" -0.04
+		"Galactic Empire" -0.04
+		"Scum & Villainy" -0.04
+		"Rebel Alliance" -0.04
+		"Separatist Alliance" -0.04
+		"Galactic Republic" -0.04
+	bribe 0

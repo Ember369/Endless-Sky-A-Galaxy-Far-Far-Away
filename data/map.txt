@@ -1569,7 +1569,7 @@ system Alsakan
 	fleet civilianheavycargofreighter 500
 	fleet civiliantransport 500
 	fleet piratepatrol 1000
-	fleet purrgil 10000
+	fleet purrgil 1000000
 	belt 1379
 	object
 		sprite star/f5
@@ -1781,7 +1781,7 @@ system Anaxes
 	fleet civilianheavycargofreighter 500
 	fleet civiliantransport 500
 	fleet piratepatrol 1000
-	fleet purrgil 10000
+	fleet purrgil 1000000
 	belt 1412
 	object
 		sprite star/a5
@@ -5205,7 +5205,7 @@ system Brentaal
 	fleet civilianheavycargofreighter 500
 	fleet civiliantransport 500
 	fleet piratepatrol 1000
-	fleet purrgil 10000
+	fleet purrgil 1000000
 	belt 1569
 	object
 		sprite star/k5
@@ -7686,13 +7686,23 @@ system Coruscant
 	link N'Zoth
 	link Pantolomin
 	asteroids "small rock" 1 7.1148
-	fleet rebelfleet 400
-	fleet imperialpatrol 700
-	fleet imperialstardestroyer 2000
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet rebelfleet 150
+	fleet imperialpatrol 300
+	fleet imperialstardestroyer 350
 	fleet civilianheavycargofreighter 500
 	fleet civiliantransport 500
 	fleet piratepatrol 1000
-	fleet purrgil 10000
+	fleet purrgil 1000000
 	belt 1407
 	minables neodymium 10 10.4787
 	object
@@ -8967,7 +8977,7 @@ system "Death Star II"
 		sprite star/f5
 		period 10
 	object s
-		sprite planet/gas4
+		sprite planet/coruscant
 		distance 5635.74
 		period 4086.53
 		offset 49.8744
@@ -10510,7 +10520,7 @@ system Eadu
 		period 2595.34
 		belt 1420
 
-system Edusa
+system "Edusa "
 	pos 6429.04 -8135.13
 	habitable 233.28
 	link Vandyne
@@ -10706,13 +10716,24 @@ system Empress
 	link Coruscant
 	link Prakith
 	link Teta
-	asteroids "small rock" 5 4.272
-	asteroids "medium rock" 260 4.032
-	asteroids "large rock" 20 7.152
-	asteroids "small metal" 5 4.608
-	asteroids "medium metal" 7 7.2
-	asteroids "large metal" 10 6.48
-	asteroids "larger rock" 50 6.48
+	fleet Wreckage 50
+	asteroids "small rock" 5 0.5
+	asteroids "medium rock" 130 0.8
+	asteroids "large rock" 20 1.2
+	asteroids "small metal" 5 1.3
+	asteroids "medium metal" 7 1
+	asteroids "large metal" 10 1
+	asteroids "larger rock" 75 0.5
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
 	belt 1788
 	minables aluminum 28 6.64919
 	minables iron 17 7.43688
@@ -11512,7 +11533,7 @@ system Fedalle
 	fleet civilianheavycargofreighter 500
 	fleet civiliantransport 500
 	fleet piratepatrol 1000
-	fleet purrgil 10000
+	fleet purrgil 1000000
 	belt 1078
 	minables gold 4 2.76865
 	minables lead 2 2.46321
@@ -18200,7 +18221,7 @@ system Kuat
 	fleet civilianheavycargofreighter 500
 	fleet civiliantransport 500
 	fleet piratepatrol 1000
-	fleet purrgil 10000
+	fleet purrgil 1000000
 	belt 1637
 	minables iron 23 4.88355
 	minables titanium 16 5.18835
@@ -24445,6 +24466,121 @@ system Pardror
 			minables copper 30 7.36788
 			minables titanium 16 5.48088
 
+system Mintaka
+	pos -304 -462
+	government Republic
+	habitable 775.625
+	belt 1753
+	link Almaaz
+	link Alnitak
+	link Tortor
+	link Gorvi
+	asteroids "small rock" 34 6.935
+	asteroids "medium rock" 1 4.6075
+	asteroids "large rock" 23 5.985
+	asteroids "small metal" 46 6.6025
+	asteroids "large metal" 5 3.61
+	minables aluminum 11 9.8728
+	minables titanium 3 11.7992
+	minables uranium 9 6.96883
+	trade Clothing 265
+	trade Electronics 851
+	trade Equipment 501
+	trade Food 314
+	trade "Heavy Metals" 1107
+	trade Industrial 747
+	trade "Luxury Goods" 1164
+	trade Medical 826
+	trade Metal 432
+	trade Plastic 370
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 2000
+	fleet "Large Republic" 5000
+	fleet "Small Northern Merchants" 4000
+	fleet "Human Miners" 2000
+	object
+		sprite star/k0
+		distance 34.4496
+		period 10.9588
+		offset 180
+	object
+		sprite star/k5
+		distance 49.0504
+		period 10.9588
+	object
+		sprite planet/rock11-b
+		distance 296.29
+		period 73.2505
+	object
+		sprite planet/cloud0-b
+		distance 511.78
+		period 166.287
+	object
+		sprite planet/ice3-b
+		distance 938.02
+		period 412.622
+	object
+		sprite planet/gas8-b
+		distance 1798.98
+		period 1095.91
+	object
+		sprite planet/gas5
+		distance 4566.87
+		period 4432.64
+
+system Pathway
+	pos -1000000 -1000000
+	government Uninhabited
+	habitable 2140.92
+	belt 1695
+	asteroids "small rock" 71 7.4037
+	asteroids "large rock" 54 8.8044
+	asteroids "small metal" 2 10.005
+	asteroids "medium metal" 4 4.9358
+	asteroids "large metal" 20 6.2698
+	minables silver 8 8.17919
+	minables titanium 16 14.6515
+	trade Clothing 265
+	trade Electronics 851
+	trade Equipment 501
+	trade Food 314
+	trade "Heavy Metals" 1107
+	trade Industrial 747
+	trade "Luxury Goods" 1164
+	trade Medical 826
+	trade Metal 432
+	trade Plastic 370
+	object
+		sprite star/f5
+		distance 19.2974
+		period 8.25881
+		offset 180
+	object
+		sprite star/k5
+		distance 77.7026
+		period 8.25881
+	object
+		sprite planet/gas7
+		distance 5994
+		period 4011.76
+		offset 249.931
+		object "Colony"
+			sprite planet/station2
+			distance 240.671
+			period 13.2821
+			offset 151.193
+		object "Star Wars Wormhole"
+			sprite planet/wormhole
+			distance 2000.671
+			period 39.7335
+			offset 268.621
+		object
+			sprite planet/dust1
+			distance 1167
+			period 1572.02
+			offset 29.5295
+
+
 system Pax
 	pos 6190.09 -6292.99
 	government "Galactic Empire"
@@ -25107,6 +25243,16 @@ system Prakith
 	asteroids "small metal" 4 7.02
 	asteroids "medium metal" 24 4.374
 	asteroids "large metal" 7 4.482
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
 	belt 1397
 	minables aluminum 8 4.65842
 	object
@@ -30390,7 +30536,7 @@ system Tammuz-an
 system Tangrene
 	pos 6410.04 -8174.13
 	habitable 233.28
-	link Edusa
+	link "Edusa "
 	asteroids "small rock" 21 7.0644
 	asteroids "medium rock" 112 3.4104
 	asteroids "large rock" 36 6.09
@@ -33976,7 +34122,7 @@ system Vandyne
 	pos 6415.04 -8067.13
 	habitable 486.68
 	link Axxila
-	link Edusa
+	link "Edusa "
 	asteroids "small rock" 52 1.344
 	asteroids "medium rock" 38 1.236
 	asteroids "large rock" 5 0.912
@@ -36868,6 +37014,11 @@ planet "Byss "
 	spaceport `Byss was a mythic paradise world enshrouded in the dark side of the Force, located within the isolated and nearly inaccessible Deep Galactic Core. It was situated at the end of the Byss Run, a heavily guarded artificial hyperlane kept open by hundreds of non-mass S-thread boosters, connecting the planet to the Core Worlds. The planet was otherwise nearly impossible to reach safely through hyperspace, due to the high density of stars in the Deep Core and the constantly shifting patterns of the region's natural hyperlanes.`
 	shipyard "Rebel Alliance Ships"
 
+planet "Colony"
+	landscape ""
+	description `Colony`
+	spaceport `The Colony.`
+
 planet "Commenor "
 	landscape ""
 	spaceport wasd
@@ -36905,8 +37056,11 @@ planet "Empress Teta"
 	landscape land/rilium
 	description `Empress Teta was a ecumenopolis world located in the Empress Teta system, a star system in the Koros sector of the galaxy's Deep Core. Initially known as Koros or Koros Major, the planet's name was changed following Empress Teta's unification of the system in 5000 BBY. The extent to which the capital Cinnagar covered the world also caused many to refer to the world itself as Cinnagar, even in official documentation—a source of confusion at times.`
 	spaceport `A major supplier of refined carbonite, the planet was a major hub of operations for the Mining Guild. It was located on both the Koros Trunk Line and the Carbonite Run, and for a short time on the Daragon Trail. Empress Teta was the main hub of galactic civilization in the Deep Core and was also one of the few highly urbanized planets in the region to rival Coruscant itself in fashion and amenities.`
+	outfitter "Miscellaneous Outfits"
+	outfitter "Secondary Weapons Outfits"
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
+	shipyard "Miscellaneous Ships"
 	shipyard "Galactic Republic Ships"
 	shipyard "Separatist Alliance Ships"
 	shipyard "Resistance Ships"
@@ -36972,6 +37126,8 @@ planet "Prakith "
 	landscape land/rilium
 	description `Prakith was a mountainous fortress world located in the Prakith system of the Deep Core that, thanks to its unstable terrain and its isolation, was a difficult location to conquer by force. The planet was a powerful Sector 5 fortress world during the Galactic Civil War and later the personal empire of Moff Foga Brill.`
 	spaceport `Prakith's major cities (such as Prak City) were built atop the planet's large plateaus, surrounded on all sides by great caverns and crevasses. Since ground travel across such terrain proved difficult, natives often used cloud cars and airspeeders for transportation. The natives were, under Imperial rule, a relatively subdued and businesslike population.`
+	outfitter "Miscellaneous Outfits"
+	outfitter "Secondary Weapons Outfits"
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
 	shipyard "Miscellaneous Ships"
@@ -36983,10 +37139,13 @@ planet "Prakith "
 planet "Rakata Prime "
 	landscape ""
 	shipyard "Rebel Alliance Ships"
+	shipyard "Imperial Navy Ships"
 	shipyard "Miscellaneous Ships"
+	shipyard "Other Ships"
 	shipyard "Galactic Republic Ships"
 	shipyard "Separatist Alliance Ships"
 	shipyard "Resistance Ships"
+	shipyard "First Order Ships"
 
 planet "Rugosa "
 	landscape land/rugosa
@@ -37002,6 +37161,7 @@ planet "Scarif "
 		fleet scarifshieldgate
 
 planet "Star Wars Wormhole"
+	attributes "requires: quantum keystone"
 	landscape ""
 
 planet "Starkiller Base (Ilum)"
@@ -37049,6 +37209,14 @@ planet Wayfinder
 	landscape ""
 	description s
 	spaceport s
+	shipyard "Rebel Alliance Ships"
+	shipyard "Imperial Navy Ships"
+	shipyard "Miscellaneous Ships"
+	shipyard "Other Ships"
+	shipyard "Galactic Republic Ships"
+	shipyard "Separatist Alliance Ships"
+	shipyard "Resistance Ships"
+	shipyard "First Order Ships"
 
 planet s
 	landscape ""

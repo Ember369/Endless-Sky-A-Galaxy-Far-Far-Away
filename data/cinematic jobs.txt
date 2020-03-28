@@ -176,6 +176,30 @@ mission "Slave I vs Ob-Wan"
 
 
 
+mission "SHIP TESTING (K-Wing)"
+	name "SHIP TESTING (K-Wing)"
+	description "SHIP TESTING (K-Wing)"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target
+		government "Bounty Hunter"
+		system Empress
+		fleet
+			variant 50
+				"BTL-S8 K-Wing"
+		dialog "Slave I vs Ob-Wan"
+	on complete
+		payment 250000
+		dialog "SHIP TESTING (K-Wing)"
+
+
 mission "Battle of Atollon"
 	name "Battle of Atollon"
 	description "Battle of Atollon"
@@ -274,6 +298,29 @@ mission "Razor Crest vs Bounty Hunter"
 	on complete
 		payment 250000
 		dialog "Razor Crest vs Bounty Hunter"
+
+mission "Destroy the Imperial I Star Destroyer"
+	name "Destroy the Imperial I Star Destroyer"
+	description "Destroy the Imperial I Star Destroyer"
+	repeat
+	job
+	to offer
+		random 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Prakith
+		fleet
+			variant 50
+				"Imperial I Star Destroyer"
+		dialog "Razor Crest vs Bounty Hunter"
+	on complete
+		payment 250000
+		dialog "Destroy the Imperial I Star Destroyer"
 
 mission "Battle of Exegol"
 	name "Battle of Exegol"

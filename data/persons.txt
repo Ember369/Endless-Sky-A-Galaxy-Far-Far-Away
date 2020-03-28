@@ -19,8 +19,8 @@ person "Millennium Falcon"
 			"You know, sometimes I amaze even myself!"
 			"Never tell me the odds!"
 			"Let's keep a little optimism here..."
-	ship "Millennium Falcon"
-		sprite ship/yt1300freighterfalcon
+	ship "YT-1300 Freighter (Millennium Falcon)"
+		sprite ship/yt1300freightermillenniumfalcon
 		"never disabled"
 		attributes
 			category "Transport"

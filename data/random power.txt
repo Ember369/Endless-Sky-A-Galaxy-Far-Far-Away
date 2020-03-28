@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-outfit "Fighter Power Converter"
+outfit "T1 Fighter Power Converter"
 	category "Power"
 	cost 5000
 	thumbnail "outfit/fusion"
@@ -19,7 +19,7 @@ outfit "Fighter Power Converter"
 	"energy capacity" 10000
 	description "Fighter Power Converter"
 
-outfit "Heavy Fighter Power Converter"
+outfit "T1.5 Heavy Fighter Power Converter"
 	category "Power"
 	cost 5000
 	thumbnail "outfit/fusion"
@@ -30,7 +30,7 @@ outfit "Heavy Fighter Power Converter"
 	"energy capacity" 12000
 	description "Heavy Fighter Power Converter"
 
-outfit "Shuttle Power Converter"
+outfit "T1.6 Shuttle Power Converter"
 	category "Power"
 	cost 5000
 	thumbnail "outfit/fusion"
@@ -41,7 +41,7 @@ outfit "Shuttle Power Converter"
 	"energy capacity" 12000
 	description "Shuttle Power Converter"
 
-outfit "Transport Power Converter"
+outfit "T2 Transport Power Converter"
 	category "Power"
 	cost 5000000
 	thumbnail "outfit/fusion"
@@ -52,18 +52,7 @@ outfit "Transport Power Converter"
 	"energy capacity" 11000
 	description "Transport Power Converter"
 
-outfit "Heavy Freighter Power Converter"
-	category "Power"
-	cost 5000000
-	thumbnail "outfit/fusion"
-	"mass" 25
-	"outfit space" -25
-	"energy generation" 30
-	"heat generation" 25
-	"energy capacity" 20500
-	description "Heavy Freighter Power Converter"
-
-outfit "Corvette Power Converter"
+outfit "T3 Corvette Power Converter"
 	category "Power"
 	cost 5000000
 	thumbnail "outfit/fusion"
@@ -74,7 +63,18 @@ outfit "Corvette Power Converter"
 	"energy capacity" 20000
 	description "Corvette Power Converter"
 
-outfit "Frigate Power Converter"
+outfit "T3.5 Heavy Freighter Power Converter"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/fusion"
+	"mass" 25
+	"outfit space" -25
+	"energy generation" 30
+	"heat generation" 25
+	"energy capacity" 20500
+	description "Heavy Freighter Power Converter"
+
+outfit "T4 Frigate Power Converter"
 	category "Power"
 	cost 40000
 	thumbnail "outfit/fusion"
@@ -85,7 +85,7 @@ outfit "Frigate Power Converter"
 	"energy capacity" 21000
 	description "Frigate Power Converter"
 
-outfit "Destroyer Power Converter"
+outfit "T5 Destroyer Power Converter"
 	category "Power"
 	cost 70000
 	thumbnail "outfit/fusion"

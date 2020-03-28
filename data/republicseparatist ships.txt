@@ -8,8 +8,9 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-ship "Droid Tri-Fighter"
-	sprite "ship/droidtrifighter"
+ship "Droid Tri-Fighter" "Droid Tri-Fighter (Blue)"
+	sprite "ship/droidtrifighterblue"
+	thumbnail "thumbnail/droidtrifighterblue"
 	"never disabled"
 	attributes
 		category Interceptor
@@ -35,10 +36,10 @@ ship "Droid Tri-Fighter"
 
 		"Fighter Laser Cannon (Red)" 4
 
-		"Fighter Power Converter"
+		"T1 Fighter Power Converter"
 		"Light Coolant System" 3
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
 
 	engine -6 41
 	engine 11 41
@@ -51,8 +52,9 @@ ship "Droid Tri-Fighter"
 
 
 
-ship "Droid Tri-Fighter (Fighter)"
-	sprite "ship/droidtrifighter"
+ship "Droid Tri-Fighter (Fighter)" "Droid Tri-Fighter (Blue) (Fighter)"
+	sprite "ship/droidtrifighterblue"
+	thumbnail "thumbnail/droidtrifighterblue"
 	"never disabled"
 	attributes
 		category Fighter
@@ -78,10 +80,10 @@ ship "Droid Tri-Fighter (Fighter)"
 
 		"Fighter Laser Cannon (Red)" 4
 
-		"Fighter Power Converter"
+		"T1 Fighter Power Converter"
 		"Light Coolant System" 3
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
 
 	engine -6 41
 	engine 11 41
@@ -94,8 +96,98 @@ ship "Droid Tri-Fighter (Fighter)"
 
 
 
+ship "Droid Tri-Fighter" "Droid Tri-Fighter (Yellow)"
+	sprite "ship/droidtrifighteryellow"
+	thumbnail "thumbnail/droidtrifighteryellow"
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 30000
+		shields 0
+		hull 800
+		automaton 1
+		"required crew" 0
+		bunks 0
+		mass 24
+		drag 1
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"outfit space" 187
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+
+		"Fighter Laser Cannon (Red)" 4
+
+		"T1 Fighter Power Converter"
+		"Light Coolant System" 3
+
+		"Fighter Engine (Orange Flare)"
+
+	engine -6 41
+	engine 11 41
+	gun -17 -25 "Fighter Laser Cannon (Red)"
+	gun 22 -26 "Fighter Laser Cannon (Red)"
+	gun 3 -47 "Fighter Laser Cannon (Red)"
+	gun 3 -28 "Fighter Laser Cannon (Red)"
+	explode "large explosion" 3
+	description "A standard tri-fighter measured 5.4 meters in length, making it the smallest ship in both the Separatist and Republic navies. A space-faring relative of the Trade Federation's dreaded droideka, the tri-fighter was developed for intense dogfighting and close-range space battles."
+
+
+
+ship "Droid Tri-Fighter (Fighter)" "Droid Tri-Fighter (Yellow) (Fighter)"
+	sprite "ship/droidtrifighteryellow"
+	thumbnail "thumbnail/droidtrifighteryellow"
+	"never disabled"
+	attributes
+		category Fighter
+		cost 30000
+		shields 0
+		hull 800
+		automaton 1
+		"required crew" 0
+		bunks 0
+		mass 24
+		drag 1
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"outfit space" 187
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+
+		"Fighter Laser Cannon (Red)" 4
+
+		"T1 Fighter Power Converter"
+		"Light Coolant System" 3
+
+		"Fighter Engine (Orange Flare)"
+
+	engine -6 41
+	engine 11 41
+	gun -17 -25 "Fighter Laser Cannon (Red)"
+	gun 22 -26 "Fighter Laser Cannon (Red)"
+	gun 3 -47 "Fighter Laser Cannon (Red)"
+	gun 3 -28 "Fighter Laser Cannon (Red)"
+	explode "large explosion" 3
+	description "A standard tri-fighter measured 5.4 meters in length, making it the smallest ship in both the Separatist and Republic navies. A space-faring relative of the Trade Federation's dreaded droideka, the tri-fighter was developed for intense dogfighting and close-range space battles."
+
+
+
+
 ship "Vulture-class Droid Starfighter"
 	sprite "ship/vulturedroid"
+	thumbnail "thumbnail/vulturedroid"
 	"never disabled"
 	attributes
 		category Interceptor
@@ -121,10 +213,10 @@ ship "Vulture-class Droid Starfighter"
 
 		"Fighter Laser Cannon (Red)" 2
 
-		"Fighter Power Converter"
+		"T1 Fighter Power Converter"
 		"Light Coolant System" 3
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
 
 	gun -17 -15 "Fighter Laser Cannon (Red)"
 	gun 20 -15 "Fighter Laser Cannon (Red)"
@@ -135,6 +227,7 @@ ship "Vulture-class Droid Starfighter"
 
 ship "Vulture-class Droid Starfighter (Fighter)"
 	sprite "ship/vulturedroid"
+	thumbnail "thumbnail/vulturedroid"
 	"never disabled"
 	attributes
 		category Fighter
@@ -160,10 +253,10 @@ ship "Vulture-class Droid Starfighter (Fighter)"
 
 		"Fighter Laser Cannon (Red)" 2
 
-		"Fighter Power Converter"
+		"T1 Fighter Power Converter"
 		"Light Coolant System" 3
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
 
 	gun -17 -15 "Fighter Laser Cannon (Red)"
 	gun 20 -15 "Fighter Laser Cannon (Red)"
@@ -174,6 +267,7 @@ ship "Vulture-class Droid Starfighter (Fighter)"
 
 ship "Nantex-class Territorial Defence Starfighter"
 	sprite ship/nantexterritorialstarfighter
+	thumbnail thumbnail/nantexterritorialstarfighter
 	"never disabled"
 	attributes
 		category Interceptor
@@ -197,8 +291,8 @@ ship "Nantex-class Territorial Defence Starfighter"
 	outfits
 		"Fighter Laser Cannon (Purple)"
 
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -212,6 +306,7 @@ ship "Nantex-class Territorial Defence Starfighter"
 
 ship "Hyena-class Bomber"
 	sprite "ship/hyenabomber"
+	thumbnail "thumbnail/hyenabomber"
 	"never disabled"
 	attributes
 		category Interceptor
@@ -241,10 +336,10 @@ ship "Hyena-class Bomber"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 
-		"Fighter Power Converter"
+		"T1 Fighter Power Converter"
 		"Light Coolant System" 3
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
 
 	gun -36 -49 "Fighter Laser Cannon (Red)"
 	gun 36 -50 "Fighter Laser Cannon (Red)"
@@ -259,6 +354,7 @@ ship "Hyena-class Bomber"
 
 ship "Hyena-class Bomber (Fighter)"
 	sprite "ship/hyenabomber"
+	thumbnail "thumbnail/hyenabomber"
 	"never disabled"
 	attributes
 		category Fighter
@@ -288,10 +384,10 @@ ship "Hyena-class Bomber (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"MG9 Proton Torpedo" 6
 
-		"Fighter Power Converter"
+		"T1 Fighter Power Converter"
 		"Light Coolant System" 3
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
 
 	gun -36 -49 "Fighter Laser Cannon (Red)"
 	gun 36 -50 "Fighter Laser Cannon (Red)"
@@ -306,6 +402,7 @@ ship "Hyena-class Bomber (Fighter)"
 
 ship "Maxillipede-class Transport Shuttle"
 	sprite "ship/maxillipedeshuttle"
+	thumbnail "thumbnail/maxillipedeshuttle"
 	"never disabled"
 	attributes
 		category Transport
@@ -330,8 +427,8 @@ ship "Maxillipede-class Transport Shuttle"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		
-		"Transport Power Converter"
-		"Shuttle Shield Projector"
+		"T2 Transport Power Converter"
+		"T1.6 Shuttle Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 2
 		
@@ -353,6 +450,7 @@ ship "Maxillipede-class Transport Shuttle"
 
 ship "Mechanised Assault Flyer"
 	sprite "ship/mechanisedassaultflyer"
+	thumbnail "thumbnail/mechanisedassaultflyer"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -382,11 +480,11 @@ ship "Mechanised Assault Flyer"
 		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
 
-		"Heavy Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1.5 Heavy Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System" 2
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
 		"Light Hyperspace Motivator"
 		
 	gun -42 5 "Fighter Laser Cannon (Red)"
@@ -402,8 +500,9 @@ ship "Mechanised Assault Flyer"
 
 
 
-ship "Gozanti Cruiser CIS"
+ship "Gozanti-class Cruiser" "Gozanti-class Cruiser (CIS)"
 	sprite "ship/gozanticruisercis"
+	thumbnail "thumbnail/gozanticruisercis"
 	attributes
 		category "Light Warship"
 		"cost" 1200000
@@ -428,8 +527,8 @@ ship "Gozanti Cruiser CIS"
 		"Transport Dual Laser Turret (Red)"
 		"Transport Heavy Laser Turret (Red)"
 		
-		"Transport Power Converter"
-		"Transport Shield Projector"
+		"T2 Transport Power Converter"
+		"T2 Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
@@ -445,12 +544,13 @@ ship "Gozanti Cruiser CIS"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Gozanti Class Cruiser CIS"
+	description "The Gozanti-class cruiser was a 64-meter long starship that could act as a freighter and cruiser. It sported a twin laser turret in a dorsal mount and a heavy laser cannon on its ventral side."
 
 
 
 ship "C-9979 Landing Craft"
 	sprite "ship/c9979landingcraft"
+	thumbnail "thumbnail/c9979landingcraft"
 	attributes
 		category "Heavy Freighter"
 		"cost" 27000000
@@ -474,8 +574,8 @@ ship "C-9979 Landing Craft"
 	outfits
 		"Turbolaser Turret (Red)" 4
 		
-		"Heavy Freighter Power Converter"
-		"Heavy Freighter Shield Projector"
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
@@ -507,6 +607,7 @@ ship "C-9979 Landing Craft"
 
 ship "Geonosian Corvette"
 	sprite "ship/geonosiancorvette"
+	thumbnail "thumbnail/geonosiancorvette"
 	attributes
 		category "Heavy Warship"
 		"cost" 15200000
@@ -532,8 +633,8 @@ ship "Geonosian Corvette"
 		"Dual Turbolaser Turret (Red)" 5
 		"Tractor Beam" 2
 		
-		"Destroyer Power Converter"
-		"Destroyer Shield Projector"
+		"T5 Destroyer Power Converter"
+		"T5 Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 6
 		
@@ -580,8 +681,58 @@ ship "Geonosian Corvette"
 
 
 
+ship "Hardcell-class Interstellar Transport"
+	sprite "ship/hardcellinterstellartransport"
+	thumbnail "thumbnail/hardcellinterstellartransport"
+	attributes
+		category "Heavy Freighter"
+		"cost" 27500000
+		"shields" 49000
+		"hull" 22500
+		"required crew" 190
+		"bunks" 1207
+		"mass" 4600
+		"drag" 12.9
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 3500
+		"outfit space" 464
+		"weapon capacity" 80
+		"engine capacity" 210
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Transport Heavy Laser Turret (Red)" 2
+		
+		"T3.5 Heavy Freighter Power Converter"
+		"T3.5 Heavy Freighter Shield Projector"
+		"Small Radar Jammer"
+		"Medium Coolant System" 3
+		
+		"Heavy Freighter Sublight Engine"
+		"Heavy Hyperspace Motivator"
+	
+	engine -103 301
+	engine -75 302
+	engine 80 302
+	engine 102 302
+	turret -1 -45 "Transport Heavy Laser Turret (Red)"
+	turret 0 143 "Transport Heavy Laser Turret (Red)"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Hardcell-class interstellar transport, or colloquially known as the Techno Union ship, was a light capital transport produced by the Techno Union prior to the onset of the Clone Wars. The Hardcell-class transport was used by both the Techno Union and the InterGalactic Banking Clan. It was known as something of a status symbol among Techno Union officials."
+
+
+
 ship "HMP Droid Gunship"
 	sprite "ship/hmpdroidgunship"
+	thumbnail "thumbnail/hmpdroidgunship"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -611,11 +762,11 @@ ship "HMP Droid Gunship"
 		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
 
-		"Heavy Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1.5 Heavy Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System" 2
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
 		"Light Hyperspace Motivator"
 		
 	gun -42 5 "Fighter Laser Cannon (Red)"
@@ -634,6 +785,7 @@ ship "HMP Droid Gunship"
 
 ship "Hoersch-Kessel Drive Core Ship"
 	sprite "ship/hoerschkesseldrivecoreship"
+	thumbnail "thumbnail/hoerschkesseldrivecoreship"
 	attributes
 		category "Heavy Warship"
 		"cost" 200000000
@@ -658,8 +810,8 @@ ship "Hoersch-Kessel Drive Core Ship"
 		"Turbolaser Turret (Red)" 2
 		"Tractor Beam" 2
 		
-		"Destroyer Power Converter"
-		"Destroyer Shield Projector"
+		"T5 Destroyer Power Converter"
+		"T5 Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
@@ -684,6 +836,7 @@ ship "Hoersch-Kessel Drive Core Ship"
 
 ship "Munificent-class Star Frigate"
 	sprite "ship/munificentfrigate"
+	thumbnail "thumbnail/munificentfrigate"
 	attributes
 		category "Heavy Warship"
 		"cost" 132000000
@@ -709,8 +862,8 @@ ship "Munificent-class Star Frigate"
 		"Turbolaser Turret (Red)" 8
 		"Tractor Beam" 2
 		
-		"Destroyer Power Converter"
-		"Destroyer Shield Projector"
+		"T5 Destroyer Power Converter"
+		"T5 Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
@@ -786,6 +939,7 @@ ship "Munificent-class Star Frigate"
 
 ship "Recusant-class Light Destroyer"
 	sprite "ship/recusantlightdestroyer"
+	thumbnail "thumbnail/recusantlightdestroyer"
 	attributes
 		category "Heavy Warship"
 		"cost" 132000000
@@ -811,8 +965,8 @@ ship "Recusant-class Light Destroyer"
 		"Turbolaser Turret (Red)" 10
 		"Tractor Beam" 2
 		
-		"Destroyer Power Converter"
-		"Destroyer Shield Projector"
+		"T5 Destroyer Power Converter"
+		"T5 Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
@@ -901,6 +1055,7 @@ ship "Recusant-class Light Destroyer"
 
 ship "Providence-class Dreadnought"
 	sprite "ship/providencedreadnought"
+	thumbnail "thumbnail/providencedreadnought"
 	attributes
 		category "Heavy Warship"
 		"cost" 270000000
@@ -926,8 +1081,8 @@ ship "Providence-class Dreadnought"
 		"Turbolaser Turret (Red)" 12
 		"Tractor Beam" 4
 		
-		"Destroyer Power Converter"
-		"Destroyer Shield Projector"
+		"T5 Destroyer Power Converter"
+		"T5 Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
@@ -1124,6 +1279,7 @@ ship "Providence-class Dreadnought"
 
 ship "Lucrehulk-class Battleship"
 	sprite "ship/lucrehulkbattleship"
+	thumbnail "thumbnail/lucrehulkbattleship"
 	attributes
 		category "Heavy Warship"
 		"cost" 340000000
@@ -1149,8 +1305,8 @@ ship "Lucrehulk-class Battleship"
 		"Turbolaser Turret (Red)" 2
 		"Tractor Beam" 2
 		
-		"Destroyer Power Converter"
-		"Destroyer Shield Projector"
+		"T5 Destroyer Power Converter"
+		"T5 Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
@@ -1366,8 +1522,9 @@ ship "Lucrehulk-class Battleship"
 
 
 
-ship "ARC-170 Starfighter"
-	sprite "ship/arc170fighter"
+ship "ARC-170 Starfighter" "ARC-170 Starfighter (Blue)"
+	sprite "ship/arc170fighterblue"
+	thumbnail "thumbnail/arc170fighterblue"
 	"never disabled"
 	attributes
 		category Interceptor
@@ -1395,10 +1552,10 @@ ship "ARC-170 Starfighter"
 		"Fighter Laser Cannon (Blue)" 2
 
 		"Light Coolant System"
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
 		"Light Hyperspace Motivator"
 
 	engine -11 32
@@ -1412,8 +1569,9 @@ ship "ARC-170 Starfighter"
 
 
 
-ship "ARC-170 Starfighter (Fighter)"
-	sprite "ship/arc170fighter"
+ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (Blue) (Fighter)"
+	sprite "ship/arc170fighterblue"
+	thumbnail "thumbnail/arc170fighterblue"
 	"never disabled"
 	attributes
 		category Fighter
@@ -1441,10 +1599,103 @@ ship "ARC-170 Starfighter (Fighter)"
 		"Fighter Laser Cannon (Blue)" 2
 
 		"Light Coolant System"
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
+
+	engine -11 32
+	engine 15 31
+	gun -60 -38 "Fighter Laser Cannon (Blue)"
+	gun 60 -37 "Fighter Laser Cannon (Blue)"
+	gun -1 -16 "Proton Torpedo Launcher"
+	gun 7 -16 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "ARC-170 Starfighter"
+
+
+
+ship "ARC-170 Starfighter" "ARC-170 Starfighter (Red)"
+	sprite "ship/arc170fighterred"
+	thumbnail "thumbnail/arc170fighterred"
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 15200000
+		shields 2300
+		hull 1400
+		"required crew" 3
+		bunks 3
+		mass 24
+		drag 1
+		"heat dissipation" 0.9
+		"fuel capacity" 700
+		"outfit space" 0
+		"outfit space" 219
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+		"Fighter Laser Cannon (Blue)" 2
+
+		"Light Coolant System"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
+
+		"Fighter Engine (Orange Flare)"
+		"Light Hyperspace Motivator"
+
+	engine -11 32
+	engine 15 31
+	gun -60 -38 "Fighter Laser Cannon (Blue)"
+	gun 60 -37 "Fighter Laser Cannon (Blue)"
+	gun -1 -16 "Proton Torpedo Launcher"
+	gun 7 -16 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "ARC-170 Starfighter"
+
+
+
+ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (Red) (Fighter)"
+	sprite "ship/arc170fighterred"
+	thumbnail "thumbnail/arc170fighterred"
+	"never disabled"
+	attributes
+		category Fighter
+		cost 15200000
+		shields 2300
+		hull 1400
+		"required crew" 3
+		bunks 3
+		mass 24
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 0
+		"outfit space" 0
+		"outfit space" 219
+		"weapon capacity" 40
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Proton Torpedo Launcher" 2
+		"MG9 Proton Torpedo" 6
+		"Fighter Laser Cannon (Blue)" 2
+
+		"Light Coolant System"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
+
+		"Fighter Engine (Orange Flare)"
 
 	engine -11 32
 	engine 15 31
@@ -1459,6 +1710,7 @@ ship "ARC-170 Starfighter (Fighter)"
 
 ship "Delta-7 Aethersprite Interceptor"
 	sprite "ship/delta7interceptor"
+	thumbnail "thumbnail/delta7interceptor"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -1485,8 +1737,8 @@ ship "Delta-7 Aethersprite Interceptor"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 16	
 
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1504,8 +1756,9 @@ ship "Delta-7 Aethersprite Interceptor"
 
 
 
-ship "Delta-7 Aethersprite Interceptor Customised"
+ship "Delta-7 Aethersprite Interceptor" "Delta-7 Aethersprite Interceptor (Customised)"
 	sprite "ship/delta7interceptorcustomised"
+	thumbnail "thumbnail/delta7interceptorcustomised"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -1532,8 +1785,8 @@ ship "Delta-7 Aethersprite Interceptor Customised"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 16	
 
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1551,8 +1804,9 @@ ship "Delta-7 Aethersprite Interceptor Customised"
 
 
 
-ship "Eta-2 Actis-class Interceptor (Yellow)"
+ship "Eta-2 Actis-class Interceptor" "Eta-2 Actis-class Interceptor Yellow"
 	sprite "ship/eta2actisinterceptoryellow"
+	thumbnail "thumbnail/eta2actisinterceptoryellow"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -1579,8 +1833,8 @@ ship "Eta-2 Actis-class Interceptor (Yellow)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1600,8 +1854,8 @@ ship "Eta-2 Actis-class Interceptor (Yellow)"
 
 
 
-ship "Eta-2 Actis-class Interceptor (Red)"
-	sprite "ship/eta2actisinterceptorred"
+ship "Eta-2 Actis-class Interceptor" "Eta-2 Actis-class Interceptor Red"
+	thumbnail "thumbnail/eta2actisinterceptorred"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -1628,8 +1882,8 @@ ship "Eta-2 Actis-class Interceptor (Red)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -1651,6 +1905,7 @@ ship "Eta-2 Actis-class Interceptor (Red)"
 
 ship "Eta-class Shuttle"
 	sprite "ship/etashuttle"
+	thumbnail "thumbnail/etashuttle"
 	"never disabled"
 	attributes
 		category Transport
@@ -1675,8 +1930,8 @@ ship "Eta-class Shuttle"
 	outfits
 		"Fighter Laser Cannon (Blue)" 3
 		
-		"Transport Power Converter"
-		"Shuttle Shield Projector"
+		"T2 Transport Power Converter"
+		"T1.6 Shuttle Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 2
 		
@@ -1699,6 +1954,7 @@ ship "Eta-class Shuttle"
 
 ship "Consular Cruiser (Aurek)"
 	sprite "ship/consularcruiseraurek"
+	thumbnail "thumbnail/consularcruiseraurek"
 	attributes
 		category "Light Warship"
 		"cost" 15200000
@@ -1722,12 +1978,12 @@ ship "Consular Cruiser (Aurek)"
 	outfits
 		"Turbolaser Turret (Blue)" 4
 		
-		"Corvette Power Converter"
-		"Corvette Shield Projector"
+		"T3 Corvette Power Converter"
+		"T3 Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Corvette Sublight Engine"
+		"Corvette Sublight Engine (Pink)"
 		"Medium Hyperspace Motivator"
 		
 	engine -128 281
@@ -1742,10 +1998,11 @@ ship "Consular Cruiser (Aurek)"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Consular Cruiser (Aurek)"
+	description "Consular Cruiser (Aurek) (DESCRIPTION)"
 
 ship "Consular Cruiser (Besh)"
 	sprite "ship/consularcruiserbesh"
+	thumbnail "thumbnail/consularcruiserbesh"
 	attributes
 		category "Light Warship"
 		"cost" 15200000
@@ -1769,12 +2026,12 @@ ship "Consular Cruiser (Besh)"
 	outfits
 		"Turbolaser Turret (Blue)" 4
 		
-		"Corvette Power Converter"
-		"Corvette Shield Projector"
+		"T3 Corvette Power Converter"
+		"T3 Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Corvette Sublight Engine"
+		"Corvette Sublight Engine (Pink)"
 		"Medium Hyperspace Motivator"
 		
 	engine -101 288
@@ -1789,10 +2046,11 @@ ship "Consular Cruiser (Besh)"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Consular Cruiser (Besh)"
+	description "Consular Cruiser (Besh) (DESCRIPTION)"
 
 ship "Consular Cruiser (Cresh)"
 	sprite "ship/consularcruisercresh"
+	thumbnail "thumbnail/consularcruisercresh"
 	attributes
 		category "Light Warship"
 		"cost" 15200000
@@ -1816,12 +2074,12 @@ ship "Consular Cruiser (Cresh)"
 	outfits
 		"Turbolaser Turret (Blue)" 4
 		
-		"Corvette Power Converter"
-		"Corvette Shield Projector"
+		"T3 Corvette Power Converter"
+		"T3 Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
-		"Corvette Sublight Engine"
+		"Corvette Sublight Engine (Pink)"
 		"Medium Hyperspace Motivator"
 		
 	engine -118 282
@@ -1842,6 +2100,7 @@ ship "Consular Cruiser (Cresh)"
 
 ship "CR25 Carrier"
 	sprite "ship/cr25carrier"
+	thumbnail "thumbnail/cr25carrier"
 	attributes
 		category "Transport"
 		"cost" 8000000
@@ -1865,8 +2124,8 @@ ship "CR25 Carrier"
 	outfits
 		"Transport Laser Turret (Red)" 2
 		
-		"Transport Power Converter"
-		"Transport Shield Projector"
+		"T2 Transport Power Converter"
+		"T2 Transport Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 3
 		
@@ -1889,6 +2148,7 @@ ship "CR25 Carrier"
 
 ship "Acclamator Assault Ship"
 	sprite "ship/acclamatorassaultship"
+	thumbnail "thumbnail/acclamatorassaultship"
 	attributes
 		category "Medium Warship"
 		"cost" 15200000
@@ -1912,12 +2172,12 @@ ship "Acclamator Assault Ship"
 	outfits
 		"Turbolaser Turret (Blue)" 4
 		
-		"Corvette Power Converter"
-		"Corvette Shield Projector"
+		"T3 Corvette Power Converter"
+		"T3 Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
-		"Corvette Sublight Engine"
+		"Corvette Sublight Engine (Pink)"
 		"Heavy Hyperspace Motivator"
 		
 	engine -48 388
@@ -1937,6 +2197,7 @@ ship "Acclamator Assault Ship"
 
 ship "JumpMaster 5000 Long Range Scout"
 	sprite "ship/jumpmaster5000"
+	thumbnail "thumbnail/jumpmaster5000"
 	"never disabled"
 	attributes
 		category Transport
@@ -1962,8 +2223,8 @@ ship "JumpMaster 5000 Long Range Scout"
 		"Fighter Laser Cannon (Blue)" 2
 		"Transport Dual Laser Turret (Blue)"
 		
-		"Transport Power Converter"
-		"Shuttle Shield Projector"
+		"T2 Transport Power Converter"
+		"T1.6 Shuttle Shield Projector"
 		"Small Radar Jammer"
 		"Medium Coolant System" 2
 		
@@ -1986,6 +2247,7 @@ ship "JumpMaster 5000 Long Range Scout"
 
 ship "Pelta Frigate"
 	sprite "ship/peltafrigate"
+	thumbnail "thumbnail/peltafrigate"
 	attributes
 		category "Light Freighter"
 		"cost" 40000000
@@ -2009,8 +2271,8 @@ ship "Pelta Frigate"
 	outfits
 		"Turbolaser Turret (Blue)" 2
 		
-		"Corvette Power Converter"
-		"Corvette Shield Projector"
+		"T3 Corvette Power Converter"
+		"T3 Corvette Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 3
 		
@@ -2031,6 +2293,7 @@ ship "Pelta Frigate"
 
 ship "Venator-class Star Destroyer"
 	sprite "ship/venatordestroyer"
+	thumbnail "thumbnail/venatordestroyer"
 	attributes
 		category "Heavy Warship"
 		"cost" 260000000
@@ -2056,8 +2319,8 @@ ship "Venator-class Star Destroyer"
 		"Turbolaser Turret (Blue)" 14
 		"Tractor Beam" 4
 		
-		"Destroyer Power Converter"
-		"Destroyer Shield Projector"
+		"T5 Destroyer Power Converter"
+		"T5 Destroyer Shield Projector"
 		"Small Radar Jammer"
 		"Water Coolant System" 7
 		
@@ -2272,14 +2535,14 @@ ship "Venator-class Star Destroyer"
 
 ship "LAAT/i Gunship"
 	sprite "ship/laatigunship"
+	thumbnail "thumbnail/laatigunship"
 	"never disabled"
 	attributes
-		category "Interceptor"
+		category "Transport"
 		"cost" 240000
 		"shields" 3350
 		"hull" 2920
-		SSSSautomaton 1
-		"required crew" 0
+		"required crew" 1
 		"bunks" 3
 		"mass" 40
 		"drag" 1.1
@@ -2301,11 +2564,11 @@ ship "LAAT/i Gunship"
 		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
 
-		"Heavy Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1.5 Heavy Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System" 2
 
-		"Fighter Engine"
+		"Fighter Engine (Orange Flare)"
 		"Light Hyperspace Motivator"
 		
 	gun -42 5 "Fighter Laser Cannon (Red)"
@@ -2321,8 +2584,60 @@ ship "LAAT/i Gunship"
 
 
 
+ship "Mechanised Assault Flyer"
+	sprite "ship/mechanisedassaultflyer"
+	"never disabled"
+	attributes
+		category "Transport"
+		"cost" 240000
+		"shields" 3350
+		"hull" 2920
+		SSSSautomaton 1
+		"required crew" 0
+		"bunks" 3
+		"mass" 40
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 32
+		"outfit space" 429
+		"weapon capacity" 235
+		"engine capacity" 55
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Fighter Laser Cannon (Red)" 3
+		"Fighter Beam Turret (Red)" 2
+		"Concussion Missile" 14
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 2
+
+		"T1.5 Heavy Fighter Power Converter"
+		"T1 Fighter Shield Projector"
+		"Light Coolant System" 2
+
+		"Fighter Engine (Orange Flare)"
+		"Light Hyperspace Motivator"
+		
+	gun -42 5 "Fighter Laser Cannon (Red)"
+	gun 42 5 "Fighter Laser Cannon (Red)"
+	gun 0 -52 "Fighter Laser Cannon (Red)"
+	gun -18 -14 "Concussion Missile Launcher"
+	gun 17 -14 "Concussion Missile Launcher"
+	turret -12 -32 "Fighter Beam Turret (Red)"
+	turret 11 -33 "Fighter Beam Turret (Red)"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "The Mechanized Assault Flyer (MAF) was a piloted, multi-purpose gunship used by the Confederacy of Independent Systems during the Clone Wars. The Mechanized Assault Flyer was used for several purposes, including close-range bombardment and aerial reconnaissance. The MAF was produced by Haor Chall Engineering, while its similarly-shaped replacement, the Heavy Missile Platform, was built by Baktoid Fleet Ordnance."
+
+
+
 ship "Nimbus-class V-wing starfighter"
 	sprite "ship/nimbusvwing"
+	thumbnail "thumbnail/nimbusvwing"
 	"never disabled"
 	attributes
 		category "Interceptor"
@@ -2349,8 +2664,8 @@ ship "Nimbus-class V-wing starfighter"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 12
 		
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System"
 		
 		"Fighter Engine (Pink Flare)"
@@ -2367,6 +2682,7 @@ ship "Nimbus-class V-wing starfighter"
 
 ship "Nimbus-class V-wing starfighter (Fighter)"
 	sprite "ship/nimbusvwing"
+	thumbnail "thumbnail/nimbusvwing"
 	"never disabled"
 	attributes
 		category "Fighter"
@@ -2393,8 +2709,8 @@ ship "Nimbus-class V-wing starfighter (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 12
 		
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System"
 		
 		"Fighter Engine (Pink Flare)"
@@ -2412,6 +2728,7 @@ ship "Nimbus-class V-wing starfighter (Fighter)"
 
 ship "BTL-B Y-Wing"
 	sprite ship/btlbywing
+	thumbnail thumbnail/btlbywing
 	"never disabled"
 	attributes
 		category Interceptor
@@ -2439,8 +2756,8 @@ ship "BTL-B Y-Wing"
 		"MG9 Proton Torpedo" 22
 		"Fighter Ion Cannon Turret (Red)"
 
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -2454,12 +2771,13 @@ ship "BTL-B Y-Wing"
 	gun 9 -29 "Proton Torpedo Launcher"
 	turret 0 -33 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
-	description "BTL-B Y-Wing"
+	description "The BTL-B Y-wing starfighter was an assault starfighter/bomber that flew combat missions for the Galactic Republic during the Clone Wars. The ship was designed to operate mainly as a bomber and the Republic used them well in this capacity. On later models, this bubble feature was replaced with a turret operated from within the main cockpit."
 
 
 
 ship "BTL-B Y-Wing (Fighter)"
 	sprite ship/btlbywing
+	thumbnail thumbnail/btlbywing
 	"never disabled"
 	attributes
 		category Fighter
@@ -2487,8 +2805,8 @@ ship "BTL-B Y-Wing (Fighter)"
 		"MG9 Proton Torpedo" 22
 		"Fighter Ion Cannon Turret (Red)"
 
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
 		"Light Coolant System"
 
 		"Fighter Engine (Pink Flare)"
@@ -2501,99 +2819,4 @@ ship "BTL-B Y-Wing (Fighter)"
 	gun 9 -29 "Proton Torpedo Launcher"
 	turret 0 -33 "Fighter Ion Cannon Turret (Red)"
 	explode "large explosion" 3
-	description "BTL-B Y-Wing"
-
-
-
-ship "BTL-B Y-Wing Custom"
-	sprite ship/btlbywingcustom
-	"never disabled"
-	attributes
-		category Interceptor
-		cost 520000
-		shields 2600
-		hull 1800
-		"required crew" 1
-		bunks 2
-		mass 33
-		drag 1
-		"heat dissipation" 0.7
-		"fuel capacity" 700
-		"cargo space" 0
-		"outfit space" 243
-		"weapon capacity" 55
-		"engine capacity" 53
-		weapon
-			"blast radius" 42
-			"shield damage" 325
-			"hull damage" 175
-			"hit force" 465
-	outfits
-		"Fighter Laser Cannon (Blue)" 2
-		"Proton Torpedo Launcher" 2
-		"MG9 Proton Torpedo" 22
-		"Fighter Ion Cannon Turret (Red)"
-
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
-		"Light Coolant System"
-
-		"Fighter Engine (Pink Flare)"
-		"Light Hyperspace Motivator"
-
-	engine -21 56
-	engine 21 56
-	gun -2 -56 "Fighter Laser Cannon (Blue)"
-	gun 2 -56 "Fighter Laser Cannon (Blue)"
-	gun -8 -33 "Proton Torpedo Launcher"
-	gun 8 -34 "Proton Torpedo Launcher"
-	turret 0 -30 "Fighter Ion Cannon Turret (Red)"
-	explode "large explosion" 3
-	description "BTL-B Y-Wing Custom"
-
-
-
-ship "BTL-B Y-Wing Custom (Fighter)"
-	sprite ship/btlbywingcustom
-	"never disabled"
-	attributes
-		category Fighter
-		cost 520000
-		shields 2600
-		hull 1800
-		"required crew" 1
-		bunks 2
-		mass 33
-		drag 1
-		"heat dissipation" 0.7
-		"fuel capacity" 0
-		"cargo space" 0
-		"outfit space" 243
-		"weapon capacity" 55
-		"engine capacity" 53
-		weapon
-			"blast radius" 42
-			"shield damage" 325
-			"hull damage" 175
-			"hit force" 465
-	outfits
-		"Fighter Laser Cannon (Blue)" 2
-		"Proton Torpedo Launcher" 2
-		"MG9 Proton Torpedo" 22
-		"Fighter Ion Cannon Turret (Red)"
-
-		"Fighter Power Converter"
-		"Fighter Shield Projector"
-		"Light Coolant System"
-
-		"Fighter Engine (Pink Flare)"
-
-	engine -21 56
-	engine 21 56
-	gun -2 -56 "Fighter Laser Cannon (Blue)"
-	gun 2 -56 "Fighter Laser Cannon (Blue)"
-	gun -8 -33 "Proton Torpedo Launcher"
-	gun 8 -34 "Proton Torpedo Launcher"
-	turret 0 -30 "Fighter Ion Cannon Turret (Red)"
-	explode "large explosion" 3
-	description "BTL-B Y-Wing Custom (Fighter)"
+	description "The BTL-B Y-wing starfighter was an assault starfighter/bomber that flew combat missions for the Galactic Republic during the Clone Wars. The ship was designed to operate mainly as a bomber and the Republic used them well in this capacity. On later models, this bubble feature was replaced with a turret operated from within the main cockpit."

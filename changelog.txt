@@ -1,20 +1,64 @@
-## Version: 0.2-alpha
+
+## Version: v0.3-alpha – The Thumbnail Update
+* Changelog
+	* Ships (Added)
+		* A/SF-01 B-Wing variants (Grey, Stripe)
+		* Bothan Light Cruiser
+		* Brute-class Hutt Support Corvette
+		* C-ROC Gozanti Cruiser variants (Green, Orange)
+		* CR90 Corvette variant (Liberator & Modified)
+		* Crusader-class Corvette variant (Mandalorian)
+		* D5-Mantis Patrol Craft variant (Gold)
+		* Fireball
+		* Flarestar-class Attack Shuttle (Fighter)
+		* Hardcell-class Interstellar Transport
+		* Iraida-class Corvette
+		* KT-600 Military Transport
+		* Nar Shadda Destroyer
+		* Scurrg H-6 Prototype Bomber (Red, Black Sun Orange, Black Sun Red & 			Maroon variants)
+		* YT-1300 Freighter (Blue & Red variants)
+	* Ships (Altered)
+		* Renamed Praetorian-class Cruiser –> Zenith-class Cruiser
+		* Renamed Lethisk-class Armed Freighter –> YG-4210 Freighter
+		* Renamed Dragonboat-class Reugeot 905 Freighter –> HCT-2001 Dragonboat-		class Reugeot 905 Freighter –> (Turns out I had the model facing the 			opposite direction, with the cockpit where the engines should be)  :)
+		* Replaced 50+ ship sprites (due to an artist's request)
+	* Ships (Removed)
+		* Arrowhead-class Sith Fighter –> It's neither canon nor Legends, so I 			deleted it
+		* Arrowhead-class Sith Fighter (Fighter) –> It's not canon nor Legends, so 		I deleted it
+		* BTL-B Y-Wing Custom –>  Artist's request
+		* BTL-B Y-Wing Custom (Fighter) –>  Artist's request
+		* BTL-C Y-Wing –> It's neither canon nor Legends, so I deleted it
+		* BTL-C Y-Wing (Fighter) –> It's neither canon nor Legends, so I deleted 		it
+		* BTL-X5 Y-Wing –> Artist's request
+		* BTL-X5 Y-Wing (Fighter) –> Artist's request
+		* Criterion-class Destroyer –> Artist's request
+		* MX-220/Z Knighthawk –> Artist's request
+		* MX-220/Z Knighthawk (Fighter) –> Artist's request
+		* T-105 X-Wing –> Artist's request
+		* YT-1300 Freighter (Quantum Destiny) –> Artist's request
+	* Miscellaneous
+		* Added ship thumbnails!
+		* Made the map background slightly darker (better contrast between text 		and background)
+		* Fixed the map! (the Star Wars Galaxy is now connected to the Vanilla 			one)
+		* Added a ship graveyard (still a prototype for now)
+		* Menu background changed (now has Coruscant and the Death Star II)
+		* Altered the characteristics of most of the secondary weapons (reduced 		velocity)
+
+__________________________________________________________________________________
+
+## Version: v0.2-alpha – The Standardisation Update
 * Changelog
 	* Ships
-		* A/SF-03 B-Wing
-		* A/SF-03 B-Wing (Fighter)
-		* BTL-C Y-Wing
-		* BTL-C Y-Wing (Fighter)
 		* Fang Fighter Black
 		* Fang Fighter Black (Fighter)
-		* Flarestar-class Attack Shuttle
-		* Hapan Battle Dragon
+		* Resurgent-class Star Destroyer
 		* Hoersch Kessel Drive Core Ship
+		* Hapan Battle Dragon
 		* Krayt Lav
 		* LAAT/i Gunship
-		* Ranger Gunboat
-		* Resurgent-class Star Destroyer
-		* YT-1300 Freighter (Quantum Destiny)
+		* Flarestar-class Attack Shuttle
+		* BTL-C Y-Wing
+		* BTL-C Y-Wing (Fighter)
 			* Reached 300 ships!
 	* Miscellaneous
 		* Added a start.txt file so that players start at Coruscant
@@ -25,8 +69,9 @@
 		* Standardised all weapons (rather than having individual outfits for 			different ships)
 		* Adjusted the hull and shield damages of multiple weapons
 		* Lowered the shield recharge rate for all shield projector
+__________________________________________________________________________________
 
-## Version: 0.1-alpha
+## Version: v0.1-alpha – The Original
 * Changelog
 	* Ships
 		* A-9 Vigilance Interceptor
@@ -314,7 +359,7 @@
 		* Vindicator-class Heavy Cruiser
 		* Vulture-class Droid Starfighter
 		* Vulture-class Droid Starfighter (Fighter)
-		* YT-1300 Freighter
+		* YT1300 Freighter
 		* YZ-2200 Heavy Transport
 		* Zeta-class Cargo Shuttle
 	* Other Entities/Persons
