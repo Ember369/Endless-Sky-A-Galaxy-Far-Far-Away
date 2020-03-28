@@ -37161,7 +37161,6 @@ planet "Scarif "
 		fleet scarifshieldgate
 
 planet "Star Wars Wormhole"
-	attributes "requires: quantum keystone"
 	landscape ""
 
 planet "Starkiller Base (Ilum)"
