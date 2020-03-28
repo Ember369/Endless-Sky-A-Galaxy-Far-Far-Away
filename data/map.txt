@@ -24475,6 +24475,7 @@ system Mintaka
 	link Alnitak
 	link Tortor
 	link Gorvi
+	link Pathway
 	asteroids "small rock" 34 6.935
 	asteroids "medium rock" 1 4.6075
 	asteroids "large rock" 23 5.985
@@ -24529,9 +24530,10 @@ system Mintaka
 		period 4432.64
 
 system Pathway
-	pos -1000000 -1000000
+	pos -367.082 -458.021
 	government Uninhabited
 	habitable 2140.92
+	link Mintaka
 	belt 1695
 	asteroids "small rock" 71 7.4037
 	asteroids "large rock" 54 8.8044
