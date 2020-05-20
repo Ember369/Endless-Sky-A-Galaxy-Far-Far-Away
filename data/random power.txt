@@ -11,87 +11,98 @@
 outfit "T1 Fighter Power Converter"
 	category "Power"
 	cost 5000
-	thumbnail "outfit/fusion"
+	thumbnail "outfit/powert1"
 	"mass" 1
 	"outfit space" -1
-	"energy generation" 8
+	"energy generation" 2.2
 	"heat generation" 2
-	"energy capacity" 10000
+	"energy capacity" 800
 	description "Fighter Power Converter"
+
+outfit "T1.3 Shuttle Power Converter"
+	category "Power"
+	cost 6000
+	thumbnail "outfit/powert1_3"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 2.3
+	"heat generation" 2.5
+	"energy capacity" 1000
+	description "Shuttle Power Converter"
 
 outfit "T1.5 Heavy Fighter Power Converter"
 	category "Power"
-	cost 5000
-	thumbnail "outfit/fusion"
+	cost 7000
+	thumbnail "outfit/powert1_5"
 	"mass" 1
 	"outfit space" -1
-	"energy generation" 13
+	"energy generation" 2.4
 	"heat generation" 3
-	"energy capacity" 12000
+	"energy capacity" 1100
 	description "Heavy Fighter Power Converter"
-
-outfit "T1.6 Shuttle Power Converter"
-	category "Power"
-	cost 5000
-	thumbnail "outfit/fusion"
-	"mass" 1
-	"outfit space" -1
-	"energy generation" 14
-	"heat generation" 3
-	"energy capacity" 12000
-	description "Shuttle Power Converter"
 
 outfit "T2 Transport Power Converter"
 	category "Power"
-	cost 5000000
-	thumbnail "outfit/fusion"
+	cost 40000
+	thumbnail "outfit/powert2"
 	"mass" 5
 	"outfit space" -5
-	"energy generation" 25
-	"heat generation" 20
-	"energy capacity" 11000
+	"energy generation" 6
+	"heat generation" 5
+	"energy capacity" 1400
 	description "Transport Power Converter"
 
 outfit "T3 Corvette Power Converter"
 	category "Power"
-	cost 5000000
-	thumbnail "outfit/fusion"
-	"mass" 25
-	"outfit space" -25
-	"energy generation" 40
-	"heat generation" 25
-	"energy capacity" 20000
+	cost 130000
+	thumbnail "outfit/powert3"
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 20
+	"heat generation" 15
+	"energy capacity" 3500
 	description "Corvette Power Converter"
 
 outfit "T3.5 Heavy Freighter Power Converter"
 	category "Power"
-	cost 5000000
-	thumbnail "outfit/fusion"
-	"mass" 25
-	"outfit space" -25
+	cost 180000
+	thumbnail "outfit/powert3_5"
+	"mass" 18
+	"outfit space" -18
 	"energy generation" 30
-	"heat generation" 25
-	"energy capacity" 20500
+	"heat generation" 17
+	"energy capacity" 4000
 	description "Heavy Freighter Power Converter"
 
 outfit "T4 Frigate Power Converter"
 	category "Power"
-	cost 40000
-	thumbnail "outfit/fusion"
-	"mass" 30
-	"outfit space" -30
-	"energy generation" 45
-	"heat generation" 25
-	"energy capacity" 21000
+	cost 400000
+	thumbnail "outfit/powert4"
+	"mass" 25
+	"outfit space" -25
+	"energy generation" 75
+	"heat generation" 18
+	"energy capacity" 4500
 	description "Frigate Power Converter"
+
+outfit "T4.5 Cruiser Power Converter"
+	category "Power"
+	cost 600000
+	thumbnail "outfit/powert4_5"
+	"mass" 34
+	"outfit space" -34
+	"energy generation" 90
+	"heat generation" 24
+	"energy capacity" 6000
+	description "Cruiser Power Converter"
 
 outfit "T5 Destroyer Power Converter"
 	category "Power"
-	cost 70000
-	thumbnail "outfit/fusion"
-	"mass" 50
-	"outfit space" -50
-	"energy generation" 70
-	"heat generation" 40
-	"energy capacity" 50000
+	cost 800000
+	thumbnail "outfit/powert5"
+	"mass" 47
+	"outfit space" -47
+	"energy generation" 120
+	"heat generation" 28
+	"energy capacity" 6800
 	description "Destroyer Power Converter"

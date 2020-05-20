@@ -4,8 +4,9 @@ mission "Battle for Coruscant"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
+		government "Galactic Republic"
 		government "Rebel Alliance"
 	destination
 		government "Rebel Alliance"
@@ -15,11 +16,11 @@ mission "Battle for Coruscant"
 		system Coruscant
 		fleet
 			variant 50
-				"Nimbus-class V-wing starfighter" 10
-				"ARC-170 Starfighter" 20
-				"BTL-B Y-Wing" 20
-				"Vulture-class Droid Starfighter" 20
-				"Droid Tri-Fighter" 20
+				"Nimbus-class V-wing Starfighter" 10
+				"ARC-170 Starfighter" 10
+				"BTL-B Y-Wing" 10
+				"Vulture-class Droid Starfighter" 10
+				"Droid Tri-Fighter" 10
 				"Hyena-class Bomber" 10
 	npc assist
 		personality heroic staying
@@ -27,12 +28,19 @@ mission "Battle for Coruscant"
 		system Coruscant
 		fleet
 			variant 50
-				"Nimbus-class V-wing starfighter"
-				"Venator-class Star Destroyer" 15
+				"Venator-class Star Destroyer" 28
+				"Acclamator Assault Ship" 12
+				"Consular Cruiser (Cresh)"
 				"ARC-170 Starfighter" 60
-				"BTL-B Y-Wing" 40
-				"Nimbus-class V-wing starfighter" 20
-				"Acclamator Assault Ship" 6
+				"ARC-170 Starfighter (Fighter)" 5
+				"ARC-170 Starfighter (Red)" 60
+				"ARC-170 Starfighter (Red) (Fighter)" 5
+				"BTL-B Y-Wing" 60
+				"BTL-B Y-Wing (Fighter)" 5
+				"Nimbus-class V-wing Starfighter" 60
+				"Nimbus-class V-wing Starfighter (Fighter)" 5
+				"JumpMaster 5000 Long Range Scout"
+				"Pelta Frigate" 2
 
 	npc kill
 		personality heroic staying target
@@ -40,12 +48,26 @@ mission "Battle for Coruscant"
 		system Coruscant
 		fleet
 			variant 50
-				"Munificent-class Star Frigate" 16
+				"Lucrehulk-class Battleship" 4
+				"Providence-class Cruiser (Dreadnought)"
+				"Providence-class Cruiser (Stock)" 2
+				"Recusant-class Light Destroyer" 8
+				"Munificent-class Star Frigate" 15
+				"Recusant-class Light Destroyer" 8
 				"Vulture-class Droid Starfighter" 60
 				"Droid Tri-Fighter" 60
-				"Hyena-class Bomber" 32
-				"Providence-class Dreadnought" 3
-				"Lucrehulk-class Battleship" 2
+				"Droid Tri-Fighter (Fighter)" 5
+				"Droid Tri-Fighter (Yellow)" 60
+				"Droid Tri-Fighter (Yellow) (Fighter)" 5
+				"Vulture-class Droid Starfighter" 60
+				"Vulture-class Droid Starfighter (Fighter)" 5
+				"Hyena-class Bomber" 50
+				"Hyena-class Bomber (Fighter)" 5
+				"Nantex-class Territorial Defence Starfighter" 5
+				"HMP Droid Gunship" 5
+				"Ginivex-class Starfighter" 5
+				"C-9979 Landing Craft" 5
+				"Geonosian Corvette"
 		dialog "Battle for Coruscant"
 	on complete
 		payment 250000
@@ -57,7 +79,7 @@ mission "Asteroid Field"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -68,7 +90,7 @@ mission "Asteroid Field"
 		system Empress
 		fleet
 			variant 50
-				"Imperial I Star Destroyer"
+				"Imperial I-class Star Destroyer"
 				"TIE/LN Fighter" 4
 	
 		dialog "Asteroid Field"
@@ -82,7 +104,7 @@ mission "Dummy"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -106,7 +128,7 @@ mission "Evacuation of D'Qar"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Neutral"
 	destination
@@ -131,7 +153,7 @@ mission "Battle of Naboo"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Galactic Republic"
 	destination
@@ -157,7 +179,7 @@ mission "Slave I vs Ob-Wan"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -182,7 +204,7 @@ mission "SHIP TESTING (K-Wing)"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -206,7 +228,7 @@ mission "Battle of Atollon"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -235,7 +257,7 @@ mission "Tantive IV"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -246,7 +268,7 @@ mission "Tantive IV"
 		system Prakith
 		fleet
 			variant 50
-				"Imperial I Star Destroyer"
+				"Imperial I-class Star Destroyer"
 		dialog "Asteroid Field"
 	on complete
 		payment 250000
@@ -258,7 +280,7 @@ mission "Battle of Scarif"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -269,7 +291,7 @@ mission "Battle of Scarif"
 		system Scarif
 		fleet
 			variant 50
-				"Imperial I Star Destroyer" 3
+				"Imperial I-class Star Destroyer" 3
 				"TIE/LN Fighter (Fighter)" 30
 		dialog "Asteroid Field"
 	on complete
@@ -282,7 +304,7 @@ mission "Razor Crest vs Bounty Hunter"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -299,36 +321,13 @@ mission "Razor Crest vs Bounty Hunter"
 		payment 250000
 		dialog "Razor Crest vs Bounty Hunter"
 
-mission "Destroy the Imperial I Star Destroyer"
-	name "Destroy the Imperial I Star Destroyer"
-	description "Destroy the Imperial I Star Destroyer"
-	repeat
-	job
-	to offer
-		random 99
-	source
-		government "Rebel Alliance"
-	destination
-		government "Rebel Alliance"
-	npc kill
-		personality heroic staying target
-		government "Galactic Empire"
-		system Prakith
-		fleet
-			variant 50
-				"Imperial I Star Destroyer"
-		dialog "Razor Crest vs Bounty Hunter"
-	on complete
-		payment 250000
-		dialog "Destroy the Imperial I Star Destroyer"
-
 mission "Battle of Exegol"
 	name "Battle of Exegol"
 	description "Battle of Exegol"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Neutral"
 	destination
@@ -339,7 +338,7 @@ mission "Battle of Exegol"
 		system Exegol
 		fleet
 			variant 50
-				"Imperial I Star Destroyer" 20
+				"Imperial I-class Star Destroyer" 20
 				"Resurgent-class Star Destroyer"
 				"TIE/DG Fighter" 500
 		dialog "Asteroid Field"
@@ -361,7 +360,6 @@ outfit "Cinematic Pauser"
 		sprite "projectile/concussionmissile"
 			"frame rate" 4
 		sound "rocket"
-		ammo
 		icon "icon/concussionmissile"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"

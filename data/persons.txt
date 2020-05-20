@@ -21,7 +21,7 @@ person "Millennium Falcon"
 			"Let's keep a little optimism here..."
 	ship "YT-1300 Freighter (Millennium Falcon)"
 		sprite ship/yt1300freightermillenniumfalcon
-		"never disabled"
+		thumbnail "thumbnail/yt1300freightermillenniumfalcon"
 		attributes
 			category "Transport"
 			"cost" 15200000
@@ -30,41 +30,54 @@ person "Millennium Falcon"
 			"required crew" 2
 			"bunks" 17
 			"mass" 112
-			"drag" 1.8
+			"drag" 3.3
 			"heat dissipation" .45
 			"fuel capacity" 700
-			"cargo space" 200
-			"outfit space" 340
-			"weapon capacity" 120
-			"engine capacity" 70
+			"cargo space" 30
+			"outfit space" 73
+			"weapon capacity" 16
+			"engine capacity" 20
 			weapon
 				"blast radius" 300
 				"shield damage" 700
 				"hull damage" 350
 				"hit force" 800
 		outfits
-			"AUTHOR Transport Laser Cannon" 2
-			"AUTHOR Proton Torpedo Launcher" 2
-			"MG9 Proton Torpedo" 6
-			"AUTHOR Transport Quad Turbolaser Turret" 2
-		
-			"Quadex Power Core"
-			"YT1300 Deflector Shield Projector"
-			"Large Radar Jammer"
-			"Water Coolant System" 3
-		
-			"Girodyne SRB42 Sublight Engine"
-			"Hyperspace Motivator"
-		
-		engine -61 186
-		engine -4 191
-		engine 49 182
-		gun -37 -162 "AUTHOR Transport Laser Cannon"
-		gun 30 -163 "AUTHOR Transport Laser Cannon"
-		gun -37 -162 "Proton Torpedo Launcher"
-		gun 30 -163 "Proton Torpedo Launcher"
-		turret -1 51 "AUTHOR Transport Quad Turbolaser Turret"
-		turret -1 51 "AUTHOR Transport Quad Turbolaser Turret"
+			"Transport Laser Cannon (Red)" 2
+			"Proton Torpedo Launcher" 2
+			"Proton Torpedo" 6
+			"Transport Dual Laser Turret (Red)" 2
+			
+			"T2 Transport Power Converter"
+			"T2 Transport Shield Projector"
+			"Small Radar Jammer"
+			"Medium Coolant System" 3
+			
+			"T2 Transport Sublight Engine"
+			"T2 Transport Hyperspace Motivator"
+			
+		engine -48 74
+		engine -44 78
+		engine -39 82
+		engine -33 86
+		engine -26 88
+		engine -20 90
+		engine -12 92
+		engine -5 93
+		engine 1 93
+		engine 8 92
+		engine 16 91
+		engine 22 89
+		engine 28 86
+		engine 34 84
+		engine 40 80
+		engine 46 75
+		gun -33 -62 "Transport Laser Cannon (Red)"
+		gun 30 -62 "Transport Laser Cannon (Red)"
+		gun -33 -62 "Proton Torpedo Launcher"
+		gun 30 -62 "Proton Torpedo Launcher"
+		turret -1 15 "Transport Dual Laser Turret (Red)"
+		turret -1 15 "Transport Dual Laser Turret (Red)"
 		explode "tiny explosion" 20
 		explode "small explosion" 45
 		explode "medium explosion" 50
@@ -79,14 +92,15 @@ person "Skylight"
 	phrase
 		word
 			"For the Rebel Alliance!"
-	ship "Liberator-class Fighter"
-		sprite ship/liberatorstarfighter
+	ship "T-65 XJ-3 Stealth X-Wing"
+		sprite ship/t65xj3stealthxwing
+		thumbnail thumbnail/t65xj3stealthxwing
 		"never disabled"
 		attributes
 			category Interceptor
-			cost 130000
-			shields 2400
-			hull 1300
+			cost 150000
+			shields 16000
+			hull 30000
 			"required crew" 1
 			bunks 1
 			mass 23
@@ -102,21 +116,24 @@ person "Skylight"
 				"hull damage" 170
 				"hit force" 460
 		outfits
-			"AUTHOR Fighter Laser Cannon" 2
-			"Concussion Missile Launcher" 2
-			"Concussion Missile" 6
-
-			"Fighter Power Converter"
-			"Fighter Shield Projector"
-			"Light Coolant System"
-
-			"Fighter Engine (Pink Flare)"
-			"Light Hyperspace Motivator"
-
-		engine -9 32
-		engine 9 32
-		gun -37 -19 "AUTHOR Fighter Laser Cannon"
-		gun 37 -19 "AUTHOR Fighter Laser Cannon"
-		gun -7 -6 "Concussion Missile Launcher"
-		gun 6 -6 "Concussion Missile Launcher"
+			"Fighter Laser Cannon (Red)" 4
+			"Proton Torpedo Launcher" 2
+			"Proton Torpedo" 6
+	
+			"T1 Fighter Power Converter"
+			"T1 Fighter Shield Projector"
+			"T1 Fighter Coolant System"
+			"Stygium Cloaking Device"
+	
+			"T1 Fighter Engine (Pink)"
+			"T1 Fighter Hyperspace Motivator"
+	
+		engine -9 38
+		engine 10 39
+		gun -36 -15 "Fighter Laser Cannon (Red)"
+		gun -30 -10 "Fighter Laser Cannon (Red)"
+		gun 31 -11 "Fighter Laser Cannon (Red)"
+		gun 36 -15 "Fighter Laser Cannon (Red)"
+		gun -4 -6 "Proton Torpedo Launcher"
+		gun 3 -6 "Proton Torpedo Launcher"
 		explode "large explosion" 3

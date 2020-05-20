@@ -18,7 +18,7 @@ mission "Wormhole Investigation 1: Scientists"
 	blocked `You're about to take off towards Pathway, but you don't have enough bunks for the scientists.`
 
 	to offer
-		random 99
+		random < 99
 
 	on offer
 		conversation

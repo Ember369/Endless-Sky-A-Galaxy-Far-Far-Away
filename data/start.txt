@@ -10,19 +10,15 @@
 
 start
 	date 16 11 3013
-	system "Coruscant"
-	planet "Coruscant"
+	system "N'zoth"
+	planet "N'zoth "
 	account
-		credits 1000000000
+		credits 1000000000000
 		score 400
-		mortgage Mortgage
-			principal 1000000000
-			interest 0.01
-			term 365
 	set "license: Pilot's"
-	ship "RZ1 A-Wing"
+	ship "RZ1 A-Wing (Red)"
 		name "Northwest Passage"
-		sprite ship/rz1awing
+		sprite ship/rz1awingred
 		"never disabled"
 		attributes
 			category Interceptor
@@ -41,13 +37,13 @@ start
 			"weapon capacity" 40
 		outfits
 			"Fighter Laser Cannon (Red)" 2
-			"Fighter Shield Projector"
-			"Light Hyperspace Motivator"
-			"Light Coolant System"
-			"Fighter Power Converter"
-			"Fighter Engine (Pink Flare)"
 			"Concussion Missile Launcher" 2
-			"Concussion Missile" 12
+			"Concussion Missile" 12		
+			"T1 Fighter Power Converter"
+			"T1 Fighter Shield Projector"
+			"Light Coolant System"	
+			"T1 Fighter Engine (Pink Flare)"
+			"T1 Fighter Hyperspace Motivator"
 		crew 1
 		fuel 700
 		shields 2000
@@ -61,5 +57,5 @@ start
 		gun 13 -11 "Concussion Missile Launcher"
 		explode "large explosion" 3
 		"final explode" "final explosion large" 1
-		system "Coruscant"
-		planet Coruscant
+		system "N'zoth"
+		planet "N'zoth "

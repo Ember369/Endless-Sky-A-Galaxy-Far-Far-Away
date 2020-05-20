@@ -4,7 +4,7 @@ mission "Destroy the Imperial Blockade"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -21,13 +21,83 @@ mission "Destroy the Imperial Blockade"
 
 
 
+mission "Ion Cannon Test"
+	name "Ion Cannon Test"
+	description "Ion Cannon Test"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Prakith
+		fleet
+			variant 50
+				"BTL-S3 Y-Wing"
+		dialog "Destroy the Imperial I Destroyer"
+	on complete
+		payment 250000
+		dialog "Ion Cannon Test"
+
+mission "Destroy the Imperial I Star Destroyer"
+	name "Destroy the Imperial I Star Destroyer"
+	description "Destroy the Imperial I Star Destroyer"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Prakith
+		fleet
+			variant 50
+				"Imperial I-class Star Destroyer"
+		dialog "Destroy the Imperial I Destroyer"
+	on complete
+		payment 250000
+		dialog "Destroy the Imperial I Star Destroyer"
+
+mission "Destroy the Imperial I Star Destroyer (w/ fighters)"
+	name "Destroy the Imperial I Star Destroyer (w/ fighters)"
+	description "Destroy the Imperial I Star Destroyer (w/ fighters)"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Rebel Alliance"
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Prakith
+		fleet
+			variant 50
+				"Imperial I-class Star Destroyer"
+				"TIE/LN Fighter (Fighter)" 16
+		dialog "Destroy the Imperial I Destroyer"
+	on complete
+		payment 250000
+		dialog "Destroy the Imperial I Star Destroyer (w/ fighters)"
+
 mission "Destroy the Imperial Patrol"
 	name "Destroy the Imperial Patrol"
 	description "The Imperial Patrol in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment (<payment>)."
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -49,17 +119,17 @@ mission "Imperial Navy Attack"
 	minor
 	repeat
 	to offer
-		random 99
+		random < 70
 	source
 		government "Rebel Alliance"
 	npc evade
 		personality heroic staying
 		government "Galactic Empire"
-		fleet "missionimperialnavyattack" 3
+		fleet "missionimperialnavyattack" 2
 	npc
 		personality heroic staying
 		government "Rebel Alliance"
-		fleet "rebeldefensefleet" 8
+		fleet "rebeldefensefleet" 4
 	on offer
 		conversation
 			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Empire! We need every combat-worthy ship to join in the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
@@ -73,35 +143,6 @@ mission "Imperial Navy Attack"
 		payment 150000
 		dialog "The government of <planet> pays you <payment> for helping to drive off the Imperial Navy."
 
-mission "Imperial Navy Attack"
-	name "Defend <planet>"
-	description "Defeat an imperial navy attack on <destination>."
-	minor
-	repeat
-	to offer
-		random 99
-	source
-		government "Rebel Alliance"
-	npc evade
-		personality heroic staying
-		government "Galactic Empire"
-		fleet "imperialpatrol"
-	npc
-		personality heroic staying
-		government "Rebel Alliance"
-		fleet "rebeldefensefleet"
-	on offer
-		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Empire! We need every combat-worthy ship to join in the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
-			choice
-				"	(Stay here until the fight is over.)"
-					decline
-				"	(Join the defense fleet.)"
-			"A few rebel pilots and local defense members have gathered to help repel the Imperial attack. You join them, and take off together..."
-				launch
-	on complete
-		payment 150000
-		dialog "The government of <planet> pays you <payment> for helping to drive off the Imperial Navy."
 
 
 mission "Destroy the Tie Fighters"
@@ -110,7 +151,7 @@ mission "Destroy the Tie Fighters"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -133,7 +174,7 @@ mission "Destroy the Assertor Star Dreadnought and its fleet"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Rebel Alliance"
 	destination
@@ -154,7 +195,7 @@ mission "Clear the Imperial Sector"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		system Empress
 	destination
@@ -173,9 +214,9 @@ mission "Clear the Imperial Sector"
 		system Prakith
 		fleet
 			variant 50
-				"Victory I Star Destroyer"
+				"Victory I-class Star Destroyer"
 				"TIE/LN Fighter (Fighter)" 24
-				"Victory I Star Destroyer"
+				"Victory I-class Star Destroyer"
 				"TIE/LN Fighter (Fighter)" 24
 	npc kill
 		personality heroic staying target
@@ -183,7 +224,7 @@ mission "Clear the Imperial Sector"
 		system Byss
 		fleet
 			variant 50
-				"Imperial I Star Destroyer"
+				"Imperial I-class Star Destroyer"
 				"TIE/LN Fighter" 84
 	npc kill
 		personality heroic staying target
@@ -191,9 +232,9 @@ mission "Clear the Imperial Sector"
 		system Kalist
 		fleet
 			variant 50
-				"Imperial I Star Destroyer"
+				"Imperial I-class Star Destroyer"
 				"TIE/LN Fighter (Fighter)" 84
-				"Imperial II Star Destroyer"
+				"Imperial II-class Star Destroyer"
 				"TIE/IN Fighter (Fighter)" 21
 				"TIE/SA Fighter (Fighter)" 21
 				"TIE/LN Fighter (Fighter)" 42
@@ -201,3 +242,26 @@ mission "Clear the Imperial Sector"
 	on complete
 		payment 1000000
 		dialog "The Rebel Alliance gratefully pays you 1,000,000 credits."
+
+mission "Wingman for Hire (Rebels)"
+	name "Wingman for Hire (Rebels)"
+	description "An ace pilot is offering their services as a wingman for $1000 credits."
+	repeat
+	job
+	deadline 5
+	to offer
+		random < 99
+	on offer
+		payment -1000
+	source
+		government "Rebel Alliance"
+	npc accompany
+		government "Escort"
+		personality escort
+		ship "T-65B X-Wing"
+		dialog "Wingman for Hire"
+	to complete
+		never
+	on complete
+		payment 0
+		dialog "Wingman for Hire"

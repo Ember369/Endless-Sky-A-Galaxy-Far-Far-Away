@@ -1,7 +1,10 @@
 # Endless-Sky-(A-Galaxy-Far-Far-Away)
 Just a plugin that I made that aims to replicate Star Wars (or at least tries to) in Endless Sky. During the past year or so, I've managed to create around 280 ships, ranging from one-man fighters to capital ships, all from a variety of eras and factions (The Old Republic, the Republic & CIS, the Empire & Rebels, the First Order & Resistance, and even some from Legends). Currently, there is no existing storyline or a functioning galaxy map, though I intend to finish another 100 ships before I develop other aspects of the plugin (their sprites can be found in the plugin already).
 
-An important note:
+### Documentation 
+(https://www.moddb.com/mods/endless-sky-a-galaxy-far-far-away)
+
+### An important note:
 I really don't know if this project will ever be completed (it's not a high priority for me), but I thought I might as well make it available for other people. If anybody would like to update the plugin for themselves, please feel free! I have no idea how Github works, so maybe duplicate the plugin into your own repositories so that I don't have to deal with any of the "pull request" stuff.
 
 Currently, the plugin is unbalanced, buggy and overall frustrating at times, and I honestly don't know if any of these issues will ever be solved. (also please don't bombard me with questions)
@@ -10,13 +13,13 @@ Currently, the plugin is unbalanced, buggy and overall frustrating at times, and
 
 "May the Force be with you!"
 __________________________________________________________________________________________________
-Useful Links:
+## Useful Links:
 - https://www.moddb.com/mods/endless-sky-a-galaxy-far-far-away
 - https://www.youtube.com/watch?v=X0iwpfe96mc
 - https://github.com/Ember369/Endless-Sky-A-Galaxy-Far-Far-Away
 
 __________________________________________________________________________________________________
-Notes:
+## Notes:
 The "images/ship" folder contains many ships that have been yet to be added to the plugin. If you wish to add them to the game, follow the steps below:
 1) Scale the png. file down to a size that is comparable to the rest of the other ships (just estimate)
 2) Use the website (endless-sky.github.io/ship_builder.html) to place engines, turrets and guns.

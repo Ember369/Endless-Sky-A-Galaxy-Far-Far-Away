@@ -1,10 +1,10 @@
-Dmission "Destroy the Rebel Fleet"
+mission "Destroy the Rebel Fleet"
 	name "Destroy the Rebel Fleet"
 	description "The Rebel Fleet is passing through near <system> System. Destroy it and regain contact with the Imperial Navy for your next mission."
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Galactic Empire"
 	destination
@@ -36,7 +36,7 @@ mission "Intercept the Rebel Command Fleet"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		government "Galactic Empire"
 	destination
@@ -72,7 +72,7 @@ mission "Clear the Rebel Sector"
 	repeat
 	job
 	to offer
-		random 99
+		random < 99
 	source
 		system Coruscant
 	destination

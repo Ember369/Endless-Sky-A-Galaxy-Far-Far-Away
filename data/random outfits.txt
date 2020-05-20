@@ -8,6 +8,57 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+outfit "Hyperspace Docking Ring"
+	category "Systems"
+	cost 1500
+	thumbnail "outfit/hyperspacedockingring"
+	"mass" 5
+	"gun ports" -1
+	"hyperspacedockingring capacity" -1
+	"required crew" 0
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.1
+	"fuel capacity" 700
+	weapon
+		"hardpoint sprite" "ship/hyperspacedockingring"
+
+outfit "Holomap"
+	category "Special"
+	cost 1000
+	thumbnail "outfit/holomap"
+	"map" 800
+	description "A holo-map was a holographically projected map used to view a geographic or astrographic area in three dimensions."
+
+outfit "Imperial License"
+	category "Special"
+	thumbnail "outfit/imperiallicense"
+	description "Officially an officer of the Imperial Navy. Received permission to purchase their ships."
+
+outfit "Astromech Socket"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/astromechsocket"
+	"mass" 1
+	"outfit space" -1
+	"astromechsocket capacity" -1
+	"astromech capacity" 1
+	unplunderable 1
+	description "The astromech socket or astromech slot was a component of starships into which an astromech droid could be loaded."
+
+outfit "R3-series Astromech Droid"
+	category "Hand to Hand"
+	cost 5000
+	thumbnail "outfit/r3astromechdroid"
+	"mass" 0
+	"outfit space" 0
+	"hull repair rate" 0.1
+	"hull energy" .2
+	"astromech capacity" -1
+	"required crew" -1
+	description "The R3-series astromech droid was an astromech model developed and sold by the droidmaker Industrial Automaton (IA). The R3 came at the heels of IA's blockbuster launch of the R2-series astromech droid as the company rushed to capitalize on their new dominance of the maintenance and repair droid market."
+
 outfit "Sith Wayfinder"
 	category "Systems"
 	cost 12000
@@ -16,159 +67,309 @@ outfit "Sith Wayfinder"
 	"outfit space" -1
 	"quantum keystone" 1
 	unplunderable 1
-	description "This chunk of rock from the mountains on the Hai homeworld is apparently nothing more than a good luck charm, but the Hai have decorated their ships with them since the height of their empire. More superstitious Hai claim that the stones somehow reduce the nausea induced by hyperspace jumps by making travel between star systems easier, and many wealthy Hai refuse to book passage on a ship without one."
+	description "Sith wayfinders were shaped like Sith holocrons and were made from Kathol resin. The astronavigation systems of starships could be adapted to accept the binary signals emitted by the wayfinders and interpret them as hyperspace jump coordinates."
 
 outfit "T1 Fighter Shield Projector"
 	category "Systems"
 	cost 5000
-	thumbnail "outfit/huge shield"
+	thumbnail "outfit/shieldt1"
 	"mass" 1
 	"outfit space" -1
-	"shield generation" 0.3
-	"shield energy" 1.5
-	description "Fighter Shield Projector"
+	"shield generation" 0.1
+	"shield energy" .2
+	description "T1 Fighter Shield Projector"
+
+outfit "T1.3 Shuttle Shield Projector"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/shieldt1_3"
+	"mass" 1
+	"outfit space" -1
+	"shield generation" 0.15
+	"shield energy" .25
+	description "T1.3 Shuttle Shield Projector"
 
 outfit "T1.5 Heavy Fighter Shield Projector"
 	category "Systems"
-	cost 5000
-	thumbnail "outfit/huge shield"
+	cost 7000
+	thumbnail "outfit/shieldt1_5"
 	"mass" 1
 	"outfit space" -1
-	"shield generation" 0.4
-	"shield energy" 1.7
-	description "Heavy Fighter Shield Projector"
-
-outfit "T1.6 Shuttle Shield Projector"
-	category "Systems"
-	cost 200000
-	thumbnail "outfit/huge shield"
-	"mass" 1
-	"outfit space" -1
-	"shield generation" 0.4
-	"shield energy" 1.8
-	description "Shuttle Shield Projector"
+	"shield generation" 0.15
+	"shield energy" .3
+	description "T1.5 Heavy Fighter Shield Projector"
 
 outfit "T2 Transport Shield Projector"
 	category "Systems"
-	cost 15000
-	thumbnail "outfit/huge shield"
+	cost 40000
+	thumbnail "outfit/shieldt2"
 	"mass" 5
-	"outfit space" -27
-	"shield generation" 0.7
-	"shield energy" 1.75
-	description "Transport Shield Projector"
+	"outfit space" -5
+	"shield generation" 0.2
+	"shield energy" 1.8
+	description "T2 Transport Shield Projector"
 
 outfit "T3 Corvette Shield Projector"
 	category "Systems"
-	cost 30000
-	thumbnail "outfit/huge shield"
-	"mass" 40
-	"outfit space" -40
+	cost 130000
+	thumbnail "outfit/shieldt3"
+	"mass" 15
+	"outfit space" -15
 	"shield generation" 1.0
-	"shield energy" 2.5
-	description "Corvette Shield Projector"
+	"shield energy" 3
+	description "T3 Corvette Shield Projector"
 
 outfit "T3.5 Heavy Freighter Shield Projector"
 	category "Systems"
-	cost 40000
-	thumbnail "outfit/huge shield"
-	"mass" 40
-	"outfit space" -40
-	"shield generation" 1.1
-	"shield energy" 2.5
-	description "Heavy Freighter Shield Projector"
+	cost 180000
+	thumbnail "outfit/shieldt3_5"
+	"mass" 18
+	"outfit space" -18
+	"shield generation" 1.2
+	"shield energy" 5
+	description "T3.5 Heavy Freighter Shield Projector"
 
 outfit "T4 Frigate Shield Projector"
 	category "Systems"
-	cost 40000
-	thumbnail "outfit/huge shield"
-	"mass" 50
-	"outfit space" -50
-	"shield generation" 1.3
-	"shield energy" 3
-	description "Frigate Shield Projector"
+	cost 400000
+	thumbnail "outfit/shieldt4"
+	"mass" 25
+	"outfit space" -25
+	"shield generation" 1.5
+	"shield energy" 6
+	description "T4 Frigate Shield Projector"
+
+outfit "T4.5 Cruiser Shield Projector"
+	category "Systems"
+	cost 400000
+	thumbnail "outfit/shieldt4.5"
+	"mass" 34
+	"outfit space" -34
+	"shield generation" 1.8
+	"shield energy" 9
+	description "T4.5 Cruiser Shield Projector"
 
 outfit "T5 Destroyer Shield Projector"
 	category "Systems"
-	cost 80000
-	thumbnail "outfit/huge shield"
+	cost 800000
+	thumbnail "outfit/shieldt5"
 	"mass" 80
 	"outfit space" -80
-	"shield generation" 1.8
-	"shield energy" 3
-	description "Mon Calamari Deflector Shield for Liberty class Cruiser"
+	"shield generation" 2
+	"shield energy" 12
+	description "T5 Destroyer Shield Projector"
 
-outfit "Light Hyperspace Motivator"
+outfit "T1 Fighter Hyperspace Motivator"
 	category "Systems"
 	cost 5000
-	thumbnail "outfit/hyperspacemotivator"
-	"mass" 2
-	"outfit space" -20
+	thumbnail "outfit/hyperdrivet1"
+	"mass" 1
+	"outfit space" -1
 	"jump speed" .3
 	"jump fuel" 10
 	"hyperdrive" 1
-	"scram drive" 0.3
-	description "Hyperspace Motivator"
+	"scram drive" 0.1
+	description "T1 Fighter Hyperspace Motivator"
 
-outfit "Medium Hyperspace Motivator"
+outfit "T2 Transport Hyperspace Motivator"
 	category "Systems"
 	cost 8000
-	thumbnail "outfit/hyperspacemotivator"
+	thumbnail "outfit/hyperdrivet2"
 	"mass" 8
 	"outfit space" -20
 	"jump speed" .3
 	"jump fuel" 10
 	"hyperdrive" 1
 	"scram drive" 0.3
-	description "Hyperspace Motivator"
+	description "T2 Transport Hyperspace Motivator"
 
-outfit "Heavy Hyperspace Motivator"
+outfit "T3 Corvette Hyperspace Motivator"
 	category "Systems"
-	cost 15000
-	thumbnail "outfit/hyperspacemotivator"
-	"mass" 20
+	cost 8000
+	thumbnail "outfit/hyperdrivet3"
+	"mass" 8
 	"outfit space" -20
 	"jump speed" .3
 	"jump fuel" 10
 	"hyperdrive" 1
 	"scram drive" 0.3
-	description "Hyperspace Motivator"
+	description "T3 Corvette Hyperspace Motivator"
 
-outfit "Capital Hyperspace Motivator"
+outfit "T3.5 Heavy Freighter Hyperspace Motivator"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hyperdrivet3_5"
+	"mass" 8
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "T3.5 Heavy Freighter Hyperspace Motivator"
+
+outfit "T4 Frigate Hyperspace Motivator"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hyperdrivet4"
+	"mass" 8
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "T4 Frigate Hyperspace Motivator"
+
+outfit "T4.5 Cruiser Hyperspace Motivator"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hyperdrivet4_5"
+	"mass" 8
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "T4.5 Cruiser Hyperspace Motivator"
+
+outfit "T5 Destroyer Hyperspace Motivator"
 	category "Systems"
 	cost 30000
-	thumbnail "outfit/hyperspacemotivator"
+	thumbnail "outfit/hyperdrivet5"
 	"mass" 40
-	"outfit space" -20
+	"outfit space" -40
 	"jump speed" .3
 	"jump fuel" 10
 	"hyperdrive" 1
 	"scram drive" 0.3
-	description "Hyperspace Motivator"
+	description "T5 Destroyer Hyperspace Motivator"
 
-outfit "Light Coolant System"
+outfit "T1 Fighter Coolant System"
 	category "Systems"
 	cost 500
 	thumbnail "outfit/water cooling"
 	"mass" 1
 	"outfit space" -1
-	"cooling" 5
-	description "This system is a step up from ordinary cooling ducts; it circulates water in between an external radiator and your ship's hottest internal components to keep them from overheating."
+	"cooling" 4
+	description "T1 Fighter Coolant System"
 
-outfit "Medium Coolant System"
+outfit "T2 Transport Coolant System"
 	category "Systems"
 	cost 500
 	thumbnail "outfit/water cooling"
-	"mass" 5
-	"outfit space" -5
-	"cooling" 20
-	description "This system is a step up from ordinary cooling ducts; it circulates water in between an external radiator and your ship's hottest internal components to keep them from overheating."
+	"mass" 1
+	"outfit space" -1
+	"cooling" 8
+	description "T2 Transport Coolant System"
+
+outfit "T3 Corvette Coolant System"
+	category "Systems"
+	cost 500
+	thumbnail "outfit/water cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 8
+	description "T3 Corvette Coolant System"
+
+outfit "T4 Frigate Coolant System"
+	category "Systems"
+	cost 500
+	thumbnail "outfit/water cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 8
+	description "T4 Frigate Coolant System"
+
+outfit "T4.5 Cruiser Coolant System"
+	category "Systems"
+	cost 500
+	thumbnail "outfit/water cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 8
+	description "T4.5 Cruiser Coolant System"
+
+outfit "T5 Destroyer Coolant System"
+	category "Systems"
+	cost 500
+	thumbnail "outfit/water cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 8
+	description "T5 Destroyer Coolant System"
 
 outfit "Stygium Cloaking Device"
 	category "Systems"
-	cost 1200000
+	cost 1000000
 	"mass" 1
 	"outfit space" -1
 	"cloak" .01
 	"cloaking energy" 1
 	description "Mk.III Stygium Cloaking Device for TIE/PH"
+
+outfit "T1 Sensor Array"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/sensorarrayt1"
+	"mass" 1
+	"outfit space" -1
+	"outfit scan power" 15
+	"outfit scan speed" 0.3
+	"cargo scan power" 15
+	"cargo scan speed" 0.3
+	"radar jamming" 0.1
+	description "One of the most important systems on any starship were the starship sensor arrays, also called sensor suites. Without sensors, ships would be unable to navigate, spot approaching obstacles, detect incoming ships or projectiles, or chart interstellar phenomena. Sensor arrays gathered information about the surrounding space or environment using a variety of sensors and then an advanced computer would process and analyse the data for the crew to use."
+
+outfit "T2 Sensor Array"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/sensorarrayt2"
+	"mass" 5
+	"outfit space" -5
+	"outfit scan power" 100
+	"outfit scan speed" 0.7
+	"cargo scan power" 100
+	"cargo scan speed" 0.7
+	"radar jamming" 1
+	description "One of the most important systems on any starship were the starship sensor arrays, also called sensor suites. Without sensors, ships would be unable to navigate, spot approaching obstacles, detect incoming ships or projectiles, or chart interstellar phenomena. Sensor arrays gathered information about the surrounding space or environment using a variety of sensors and then an advanced computer would process and analyse the data for the crew to use."
+
+outfit "T3 Sensor Array"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/sensorarrayt3"
+	"mass" 15
+	"outfit space" -15
+	"outfit scan power" 400
+	"outfit scan speed" 1
+	"cargo scan power" 400
+	"cargo scan speed" 1
+	"tactical scan power" 400
+	"radar jamming" 5
+	description "One of the most important systems on any starship were the starship sensor arrays, also called sensor suites. Without sensors, ships would be unable to navigate, spot approaching obstacles, detect incoming ships or projectiles, or chart interstellar phenomena. Sensor arrays gathered information about the surrounding space or environment using a variety of sensors and then an advanced computer would process and analyse the data for the crew to use."
+
+outfit "T4 Sensor Array"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/sensorarrayt4"
+	"mass" 25
+	"outfit space" -25
+	"outfit scan power" 700
+	"outfit scan speed" 1.5
+	"cargo scan power" 700
+	"cargo scan speed" 1.5
+	"tactical scan power" 700
+	"radar jamming" 10
+	description "One of the most important systems on any starship were the starship sensor arrays, also called sensor suites. Without sensors, ships would be unable to navigate, spot approaching obstacles, detect incoming ships or projectiles, or chart interstellar phenomena. Sensor arrays gathered information about the surrounding space or environment using a variety of sensors and then an advanced computer would process and analyse the data for the crew to use."
+
+outfit "T5 Sensor Array"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/sensorarrayt5"
+	"mass" 40
+	"outfit space" -40
+	"outfit scan power" 1300
+	"outfit scan speed" 2
+	"cargo scan power" 1300
+	"cargo scan speed" 2
+	"tactical scan power" 1300
+	"radar jamming" 20
+	description "One of the most important systems on any starship were the starship sensor arrays, also called sensor suites. Without sensors, ships would be unable to navigate, spot approaching obstacles, detect incoming ships or projectiles, or chart interstellar phenomena. Sensor arrays gathered information about the surrounding space or environment using a variety of sensors and then an advanced computer would process and analyse the data for the crew to use."

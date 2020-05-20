@@ -8,12 +8,76 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+ship "Aiwha-class Star Corvette"
+	sprite "ship/aiwhastarcorvette"
+	thumbnail "thumbnail/aiwhastarcorvette"
+	attributes
+		licenses
+			Imperial
+		category "Light Warship"
+		"cost" 4600000
+		"shields" 38000
+		"hull" 9500
+		"required crew" 34
+		"bunks" 110
+		"mass" 2200
+		"drag" 5
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 170
+		"outfit space" 266
+		"weapon capacity" 122
+		"engine capacity" 78
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret (Green)" 6
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 20
+		
+		"T3 Corvette Power Converter"
+		"T3 Corvette Shield Projector"
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
+		
+		"T3 Corvette Sublight Engine (Blue)"
+		"T3 Corvette Hyperspace Motivator"
+		
+
+	engine -56 146
+	engine 56 144
+	gun 1 -263 "Concussion Missile Launcher"
+	gun 1 -263 "Concussion Missile Launcher"
+	turret -79 -179 "Turbolaser Turret (Green)"
+	turret 83 -179 "Turbolaser Turret (Green)"
+	turret 135 -56 "Turbolaser Turret (Green)"
+	turret -133 -58 "Turbolaser Turret (Green)"
+	turret 0.5 -59 "Turbolaser Turret (Green)"
+	turret -0 -222 "Turbolaser Turret (Green)"
+	fighter 1 -227
+	fighter 1 -227
+	fighter 1 -227
+	fighter 1 -227
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Aiwha-class star corvette is a small and extremely fast vessel made by Kuat Drive Yards for the Imperial Navy. Designed for the pursuit of small crafts, the Aiwha is usually deployed near common smuggling routes."
+
+
+
 ship "Allegiance-class Battlecruiser"
 	sprite "ship/allegiancestardestroyer"
 	thumbnail "thumbnail/allegiancestardestroyer"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 320000000
+		"cost" 480000000
 		"shields" 400000
 		"hull" 100000
 		"required crew" 11000
@@ -23,73 +87,247 @@ ship "Allegiance-class Battlecruiser"
 		"heat dissipation" .3
 		"fuel capacity" 1200
 		"cargo space" 800
-		"outfit space" 4134
-		"weapon capacity" 3210
-		"engine capacity" 580
+		"outfit space" 2502
+		"weapon capacity" 1830
+		"engine capacity" 500
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 12
-		"Dual Turbolaser Turret (Green)" 10
-		"Turbolaser Turret (Green)" 10
-		"Tractor Beam" 4
+		"Turbolaser Quad Turret (Green)" 22
+		"Turbolaser Dual Turret (Green)" 10
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 
 	engine -800 2367
 	engine 799 2371
-	turret -1138 1738 "Quad Turbolaser Turret (Green)"
-	turret -1088 1593 "Quad Turbolaser Turret (Green)"
-	turret -1041 1447 "Quad Turbolaser Turret (Green)"
-	turret -993 1301 "Quad Turbolaser Turret (Green)"
-	turret -943 1152 "Quad Turbolaser Turret (Green)"
-	turret -894 1006 "Quad Turbolaser Turret (Green)"
-	turret 1141 1739 "Quad Turbolaser Turret (Green)"
-	turret 1094 1591 "Quad Turbolaser Turret (Green)"
-	turret 1044 1445 "Quad Turbolaser Turret (Green)"
-	turret 995 1300 "Quad Turbolaser Turret (Green)"
-	turret 946 1151 "Quad Turbolaser Turret (Green)"
-	turret 897 1007 "Quad Turbolaser Turret (Green)"
-	turret -401 -1190 "Dual Turbolaser Turret (Green)"
-	turret 400 -1189 "Dual Turbolaser Turret (Green)"
-	turret 1 -518 "Dual Turbolaser Turret (Green)"
-	turret 2 -321 "Dual Turbolaser Turret (Green)"
-	turret 2 -136 "Dual Turbolaser Turret (Green)"
-	turret -753 -74 "Dual Turbolaser Turret (Green)"
-	turret 755 -71 "Dual Turbolaser Turret (Green)"
-	turret -805 1518 "Dual Turbolaser Turret (Green)"
-	turret 798 1522 "Dual Turbolaser Turret (Green)"
-	turret 2 418 "Dual Turbolaser Turret (Green)"
-	turret -238 137 "Turbolaser Turret (Green)"
-	turret 238 139 "Turbolaser Turret (Green)"
-	turret -608 409 "Turbolaser Turret (Green)"
-	turret 602 409 "Turbolaser Turret (Green)"
-	turret -604 558 "Turbolaser Turret (Green)"
-	turret 602 557 "Turbolaser Turret (Green)"
-	turret -364 902 "Turbolaser Turret (Green)"
-	turret 358 904 "Turbolaser Turret (Green)"
-	turret -230 2000 "Turbolaser Turret (Green)"
-	turret 230 2004 "Turbolaser Turret (Green)"
-	turret 2 70 "Tractor Beam"
-	turret 2 70 "Tractor Beam"
-	turret 2 70 "Tractor Beam"
-	turret 2 70 "Tractor Beam"
+	turret -1138 1738 "Turbolaser Quad Turret (Green)"
+	turret -1088 1593 "Turbolaser Quad Turret (Green)"
+	turret -1041 1447 "Turbolaser Quad Turret (Green)"
+	turret -993 1301 "Turbolaser Quad Turret (Green)"
+	turret -943 1152 "Turbolaser Quad Turret (Green)"
+	turret -894 1006 "Turbolaser Quad Turret (Green)"
+	turret 1141 1739 "Turbolaser Quad Turret (Green)"
+	turret 1094 1591 "Turbolaser Quad Turret (Green)"
+	turret 1044 1445 "Turbolaser Quad Turret (Green)"
+	turret 995 1300 "Turbolaser Quad Turret (Green)"
+	turret 946 1151 "Turbolaser Quad Turret (Green)"
+	turret 897 1007 "Turbolaser Quad Turret (Green)"
+	turret -401 -1190 "Turbolaser Dual Turret (Green)"
+	turret 400 -1189 "Turbolaser Dual Turret (Green)"
+	turret 1 -518 "Turbolaser Dual Turret (Green)"
+	turret 2 -321 "Turbolaser Dual Turret (Green)"
+	turret 2 -136 "Turbolaser Dual Turret (Green)"
+	turret -753 -74 "Turbolaser Dual Turret (Green)"
+	turret 755 -71 "Turbolaser Dual Turret (Green)"
+	turret -805 1518 "Turbolaser Dual Turret (Green)"
+	turret 798 1522 "Turbolaser Dual Turret (Green)"
+	turret 2 418 "Turbolaser Dual Turret (Green)"
+	turret -238 137 "Turbolaser Quad Turret (Green)"
+	turret 238 139 "Turbolaser Quad Turret (Green)"
+	turret -608 409 "Turbolaser Quad Turret (Green)"
+	turret 602 409 "Turbolaser Quad Turret (Green)"
+	turret -604 558 "Turbolaser Quad Turret (Green)"
+	turret 602 557 "Turbolaser Quad Turret (Green)"
+	turret -364 902 "Turbolaser Quad Turret (Green)"
+	turret 358 904 "Turbolaser Quad Turret (Green)"
+	turret -230 2000 "Turbolaser Quad Turret (Green)"
+	turret 230 2004 "Turbolaser Quad Turret (Green)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Allegiance-class battlecruiser was similar in appearance to both the Victory, Procursator and Imperial-class Star Destroyers, but was larger than all of them, reaching a length of 2,200 meters. Unlike the Victory and the Imperial, the Allegiance-class lacked ventral hangar bays. Like fellow hangarless models such as the Procursator and Tector-class, the model could seemingly only rely on its own exterior ordnance, as the Allegiance appeared to be unable to carry any starfighters or ground vehicles internally.
+	description "The Allegiance-class battlecruiser is similar in appearance to both the Victory, Procursator and Imperial-class Star Destroyers, but is larger than all of them, reaching a length of 2,200 meters. Unlike the Victory and the Imperial, the Allegiance-class lacks ventral hangar bays. Like fellow hangarless models such as the Procursator and Tector-class, the model seems to rely on its own exterior ordnance, as the Allegiance was unable to carry any starfighters or ground vehicles internally."
+
+
+
+ship "Arc Hammer"
+	sprite "ship/archammer"
+	thumbnail "thumbnail/archammer"
+	attributes
+		licenses
+			Imperial
+		category "Heavy Freighter"
+		"cost" 445000000
+		"shields" 285000
+		"hull" 85000
+		"required crew" 10500
+		"bunks" 52000
+		"mass" 17500
+		"drag" 28
+		"heat dissipation" .3
+		"fuel capacity" 1200
+		"cargo space" 1400
+		"outfit space" 1952
+		"weapon capacity" 1280
+		"engine capacity" 500
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Turbolaser Dual Turret (Green)" 32
+		
+		"T5 Destroyer Power Converter"
+		"T5 Destroyer Shield Projector"
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
+		
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
+
+	engine -141 3267
+	engine 136 3270
+	turret -4 -3450 "Turbolaser Dual Turret (Green)"
+	turret -1 -3026 "Turbolaser Dual Turret (Green)"
+	turret -1 -2781 "Turbolaser Dual Turret (Green)"
+	turret -26 -2409 "Turbolaser Dual Turret (Green)"
+	turret 13 -2195 "Turbolaser Dual Turret (Green)"
+	turret -34 -1918 "Turbolaser Dual Turret (Green)"
+	turret 22 -1673 "Turbolaser Dual Turret (Green)"
+	turret -71 -1280 "Turbolaser Dual Turret (Green)"
+	turret 53 -1285 "Turbolaser Dual Turret (Green)"
+	turret -81 -970 "Turbolaser Dual Turret (Green)"
+	turret 55 -823 "Turbolaser Dual Turret (Green)"
+	turret -80 -540 "Turbolaser Dual Turret (Green)"
+	turret 63 -537 "Turbolaser Dual Turret (Green)"
+	turret -101 -348 "Turbolaser Dual Turret (Green)"
+	turret 102 -351 "Turbolaser Dual Turret (Green)"
+	turret -128 86 "Turbolaser Dual Turret (Green)"
+	turret 114 1 "Turbolaser Dual Turret (Green)"
+	turret -123 331 "Turbolaser Dual Turret (Green)"
+	turret 116 312 "Turbolaser Dual Turret (Green)"
+	turret 115 730 "Turbolaser Dual Turret (Green)"
+	turret -118 1041 "Turbolaser Dual Turret (Green)"
+	turret 134 1034 "Turbolaser Dual Turret (Green)"
+	turret -114 1348 "Turbolaser Dual Turret (Green)"
+	turret 135 1340 "Turbolaser Dual Turret (Green)"
+	turret -133 1606 "Turbolaser Dual Turret (Green)"
+	turret 138 1592 "Turbolaser Dual Turret (Green)"
+	turret -135 1943 "Turbolaser Dual Turret (Green)"
+	turret 115 1935 "Turbolaser Dual Turret (Green)"
+	turret -69 2294 "Turbolaser Dual Turret (Green)"
+	turret 61 2291 "Turbolaser Dual Turret (Green)"
+	turret -273 2531 "Turbolaser Dual Turret (Green)"
+	turret 266 2532 "Turbolaser Dual Turret (Green)"
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	fighter -4 2277
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Arc Hammer is a factory ship of unique design. Like many other Imperial starships, the Arc Hammer has a long, narrow, dagger-shaped hull; however, it also has four large columns surrounding a central one that protruded from below and a small, flat bridge structure in front of the columns on its dorsal side."
 
 
 
@@ -97,8 +335,10 @@ ship "Assertor-class Star Dreadnought"
 	sprite "ship/assertorstardreadnought"
 	thumbnail "thumbnail/assertorstardreadnought"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 15200000
+		"cost" 1100000000
 		"shields" 1000000
 		"hull" 400000
 		"required crew" 280000
@@ -108,73 +348,59 @@ ship "Assertor-class Star Dreadnought"
 		"heat dissipation" .2
 		"fuel capacity" 2000
 		"cargo space" 800
-		"outfit space" 3504
-		"weapon capacity" 2580
-		"engine capacity" 580
+		"outfit space" 2932
+		"weapon capacity" 2260
+		"engine capacity" 500
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 20
-		"Dual Turbolaser Turret (Green)" 20
-		"Tractor Beam" 4
+		"Turbolaser Quad Turret (Green)" 32
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -213 892 1
 	engine 213 892 1
-	turret -500 573 "Quad Turbolaser Turret (Green)"
-	turret -500 703 "Quad Turbolaser Turret (Green)"
-	turret -500 848 "Quad Turbolaser Turret (Green)"
-	turret -500 985 "Quad Turbolaser Turret (Green)"
-	turret -500 1090 "Quad Turbolaser Turret (Green)"
-	turret 515 573 "Quad Turbolaser Turret (Green)"
-	turret 515 703 "Quad Turbolaser Turret (Green)"
-	turret 515 848 "Quad Turbolaser Turret (Green)"
-	turret 515 985 "Quad Turbolaser Turret (Green)"
-	turret 515 1090 "Quad Turbolaser Turret (Green)"
-	turret -500 573 "Quad Turbolaser Turret (Green)"
-	turret -500 703 "Quad Turbolaser Turret (Green)"
-	turret -500 848 "Quad Turbolaser Turret (Green)"
-	turret -500 985 "Quad Turbolaser Turret (Green)"
-	turret -500 1090 "Quad Turbolaser Turret (Green)"
-	turret 515 573 "Quad Turbolaser Turret (Green)"
-	turret 515 703 "Quad Turbolaser Turret (Green)"
-	turret 515 848 "Quad Turbolaser Turret (Green)"
-	turret 515 985 "Quad Turbolaser Turret (Green)"
-	turret 515 1090 "Quad Turbolaser Turret (Green)"
-	turret -500 573 "Dual Turbolaser Turret (Green)"
-	turret -500 703 "Dual Turbolaser Turret (Green)"
-	turret -500 848 "Dual Turbolaser Turret (Green)"
-	turret -500 985 "Dual Turbolaser Turret (Green)"
-	turret -500 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 573 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Dual Turbolaser Turret (Green)"
-	turret 515 848 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Dual Turbolaser Turret (Green)"
-	turret 515 848 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Tractor Beam"
-	turret 515 848 "Tractor Beam"
-	turret 515 985 "Tractor Beam"
-	turret 515 1090 "Tractor Beam"
+	turret -500 573 "Turbolaser Quad Turret (Green)"
+	turret -500 703 "Turbolaser Quad Turret (Green)"
+	turret -500 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 573 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret -500 573 "Turbolaser Quad Turret (Green)"
+	turret -500 703 "Turbolaser Quad Turret (Green)"
+	turret -500 848 "Turbolaser Quad Turret (Green)"
+	turret -500 985 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret -500 573 "Turbolaser Quad Turret (Green)"
+	turret -500 703 "Turbolaser Quad Turret (Green)"
+	turret -500 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 573 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
 	fighter -37 -65
 	fighter 37 -65
 	fighter -46 40
@@ -501,7 +727,7 @@ ship "Assertor-class Star Dreadnought"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Assertor-class Star Dreadnought was a class of Imperial Star Dreadnought. The Assertor-class Star Dreadnought was 15 kilometers long and had a hull-shape similar to the Executor-class Star Dreadnought, being primarily shaped like an arrowhead. It was considered the second largest of the standard Star Dreadnought line (with only the Executor-class being larger), as well as the largest in the Imperial Navy in a family that included the Mandator- and Bellator-class ships. (Fighters 320)"
+	description "The Assertor-class Star Dreadnought is a class of Imperial Star Dreadnought. The Assertor-class Star Dreadnought is 15 kilometers long and has a hull-shape similar to the Executor-class Star Dreadnought, being primarily shaped like an arrowhead. It is considered the second largest of the standard Star Dreadnought line (with only the Executor-class being larger), as well as the largest in the Imperial Navy in a family that included the Mandator- and Bellator-class ships."
 
 
 
@@ -511,10 +737,12 @@ ship "Alpha-class Xg-1 Star Wing"
 	thumbnail "thumbnail/alphaxg1starwing"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category Interceptor
-		"cost" 210000
-		"shields" 3100
-		"hull" 2600
+		"cost" 135000
+		"shields" 2400
+		"hull" 3200
 		"required crew" 1
 		"bunks" 1
 		"mass" 32
@@ -522,37 +750,38 @@ ship "Alpha-class Xg-1 Star Wing"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 16
+		"weapon capacity" 6
+		"engine capacity" 5
 		weapon
 			"blast radius" 45
 			"shield damage" 340
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Fighter Laser Cannon (Green)" 2
-		"Fighter Ion Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
+		"Fighter Ion Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 16
+		"Concussion Missile" 6
 		
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System" 2
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System" 2
 		
-		"Fighter Engine (Blue Flare)"
-		"Light Hyperspace Motivator"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -13 35
 	engine 11 35
-	gun -19 -9 "Fighter Laser Cannon (Green)"
-	gun 19 -8 "Fighter Laser Cannon (Green)"
-	gun -19 -9 "Fighter Ion Cannon (Green)"
-	gun 19 -8 "Fighter Ion Cannon (Green)"
+	gun -19 -9 "Fighter Laser Cannon Imperial (Green)"
+	gun 19 -8 "Fighter Laser Cannon Imperial (Green)"
+	gun -19 -9 "Fighter Ion Cannon Imperial (Green)"
+	gun 19 -8 "Fighter Ion Cannon Imperial (Green)"
 	gun -14 -9 "Concussion Missile Launcher"
 	gun 13 -9 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "The Cygnus Spaceworks Alpha-class Xg-1 Star Wing, also known as the Xg-1 Starwing or Assault Gunboat, was one of the Galactic Empire's first general-deployment starfighters to be equipped with deflector shields and a hyperdrive."
+	description "The Cygnus Spaceworks Alpha-class Xg-1 Star Wing, also known as the Xg-1 Starwing or Assault Gunboat, is one of the Galactic Empire's first general-deployment starfighters, equipped with deflector shields and a hyperdrive."
 
 
 
@@ -561,47 +790,51 @@ ship "Alpha-class Xg-1 Star Wing (Fighter)"
 	thumbnail "thumbnail/alphaxg1starwing"
 	"never disabled"
 	attributes
-		category Fighter
-		"cost" 210000
-		"shields" 3100
-		"hull" 2600
+		licenses
+			Imperial
+		category "Fighter"
+		"cost" 135000
+		"shields" 2400
+		"hull" 3200
 		"required crew" 1
 		"bunks" 1
 		"mass" 32
 		"drag" 1.1
 		"heat dissipation" .7
-		"fuel capacity" 0
+		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 16
+		"weapon capacity" 6
+		"engine capacity" 5
 		weapon
 			"blast radius" 45
 			"shield damage" 340
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Fighter Laser Cannon (Green)" 2
-		"Fighter Ion Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
+		"Fighter Ion Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 16
+		"Concussion Missile" 6
 		
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System" 2
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System" 2
 		
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -13 35
 	engine 11 35
-	gun -19 -9 "Fighter Laser Cannon (Green)"
-	gun 19 -8 "Fighter Laser Cannon (Green)"
-	gun -19 -9 "Fighter Ion Cannon (Green)"
-	gun 19 -8 "Fighter Ion Cannon (Green)"
+	gun -19 -9 "Fighter Laser Cannon Imperial (Green)"
+	gun 19 -8 "Fighter Laser Cannon Imperial (Green)"
+	gun -19 -9 "Fighter Ion Cannon Imperial (Green)"
+	gun 19 -8 "Fighter Ion Cannon Imperial (Green)"
 	gun -14 -9 "Concussion Missile Launcher"
 	gun 13 -9 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "The Cygnus Spaceworks Alpha-class Xg-1 Star Wing, also known as the Xg-1 Starwing or Assault Gunboat, was one of the Galactic Empire's first general-deployment starfighters to be equipped with deflector shields and a hyperdrive."
+	description "The Cygnus Spaceworks Alpha-class Xg-1 Star Wing, also known as the Xg-1 Starwing or Assault Gunboat, is one of the Galactic Empire's first general-deployment starfighters, equipped with deflector shields and a hyperdrive."
 
 
 
@@ -609,50 +842,52 @@ ship "Altor-class Replenishment Ship"
 	sprite "ship/altorship"
 	thumbnail "thumbnail/altorship"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
 		"cost" 100000000
 		"shields" 170000
-		"hull" 50000
+		"hull" 57000
 		"required crew" 3000
 		"bunks" 10000
-		"mass" 9500
+		"mass" 13000
 		"drag" 25.5
 		"heat dissipation" .45
 		"fuel capacity" 50000
 		"cargo space" 600
-		"outfit space" 1074
-		"weapon capacity" 160
-		"engine capacity" 580
+		"outfit space" 752
+		"weapon capacity" 80
+		"engine capacity" 500
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Dual Turbolaser Turret (Green)" 2
+		"Turbolaser Dual Turret (Green)" 2
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 6
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -190 1531
 	engine -87 1531
 	engine 1 1528
 	engine 99 1529
 	engine 196 1530
-	turret 5 -1462 "Dual Turbolaser Turret (Green)"
-	turret -1 1355 "Dual Turbolaser Turret (Green)"
+	turret 5 -1462 "Turbolaser Dual Turret (Green)"
+	turret -1 1355 "Turbolaser Dual Turret (Green)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Altor-class Replenishment Ship"
+	description "The Altor-class replenishment ship is an Imperial support ship class that carries fuel for other vessels in the Imperial Navy. The Altor-class has six pill-shaped fuel containers and in addition, contains at least four arm nozzles to refuel capital ships."
 
 
 
@@ -660,8 +895,10 @@ ship "Arquitens Light Cruiser"
 	sprite "ship/arquitenscruiser"
 	thumbnail "thumbnail/arquitenscruiser"
 	attributes
+		licenses
+			Imperial
 		category "Light Warship"
-		"cost" 15200000
+		"cost" 33000000
 		"shields" 37000
 		"hull" 10000
 		"required crew" 115
@@ -686,11 +923,11 @@ ship "Arquitens Light Cruiser"
 		
 		"T3 Corvette Power Converter"
 		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"Corvette Sublight Engine (Blue)"
-		"Medium Hyperspace Motivator"
+		"T3 Corvette Sublight Engine (Blue)"
+		"T3 Corvette Hyperspace Motivator"
 		
 	engine -121 399
 	engine -5 400
@@ -713,65 +950,7 @@ ship "Arquitens Light Cruiser"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Arquitens-class light cruiser was often used as an escort for larger ships."
-
-ship "Aiwha-class Star Corvette"
-	sprite "ship/aiwhastarcorvette"
-	thumbnail "thumbnail/aiwhastarcorvette"
-	attributes
-		category "Light Warship"
-		"cost" 34000000
-		"shields" 36000
-		"hull" 9500
-		"required crew" 34
-		"bunks" 110
-		"mass" 2200
-		"drag" 5
-		"heat dissipation" .45
-		"fuel capacity" 800
-		"cargo space" 170
-		"outfit space" 649
-		"weapon capacity" 260
-		"engine capacity" 210
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"Turbolaser Turret (Green)" 6
-		"Concussion Missile Launcher" 2
-		"Concussion Missile" 20
-		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Corvette Sublight Engine (Blue)"
-		"Medium Hyperspace Motivator"
-		
-
-	engine -56 146
-	engine 56 144
-	gun 1 -263 "Concussion Missile Launcher"
-	gun 1 -263 "Concussion Missile Launcher"
-	turret -79 -179 "Turbolaser Turret (Green)"
-	turret 83 -179 "Turbolaser Turret (Green)"
-	turret 135 -56 "Turbolaser Turret (Green)"
-	turret -133 -58 "Turbolaser Turret (Green)"
-	turret 0.5 -59 "Turbolaser Turret (Green)"
-	turret -0 -222 "Turbolaser Turret (Green)"
-	fighter 1 -227
-	fighter 1 -227
-	fighter 1 -227
-	fighter 1 -227
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "Aiwha-class Star Corvette = 4"
+	description "The Arquitens-class light cruiser, also known as the Imperial light cruiser, is a line of light cruisers designed by Kuat Drive Yards that saw extensive service with the Republic Navy during the Clone Wars."
 
 
 
@@ -779,6 +958,8 @@ ship "Bellator-class Star Dreadnought"
 	sprite "ship/bellatorstardreadnought"
 	thumbnail "thumbnail/bellatorstardreadnought"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
 		"cost" 850000000
 		"shields" 900000
@@ -799,64 +980,50 @@ ship "Bellator-class Star Dreadnought"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 20
-		"Dual Turbolaser Turret (Green)" 20
-		"Tractor Beam" 4
+		"Turbolaser Quad Turret (Green)" 32
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -213 892 1
 	engine 213 892 1
-	turret -500 573 "Quad Turbolaser Turret (Green)"
-	turret -500 703 "Quad Turbolaser Turret (Green)"
-	turret -500 848 "Quad Turbolaser Turret (Green)"
-	turret -500 985 "Quad Turbolaser Turret (Green)"
-	turret -500 1090 "Quad Turbolaser Turret (Green)"
-	turret 515 573 "Quad Turbolaser Turret (Green)"
-	turret 515 703 "Quad Turbolaser Turret (Green)"
-	turret 515 848 "Quad Turbolaser Turret (Green)"
-	turret 515 985 "Quad Turbolaser Turret (Green)"
-	turret 515 1090 "Quad Turbolaser Turret (Green)"
-	turret -500 573 "Quad Turbolaser Turret (Green)"
-	turret -500 703 "Quad Turbolaser Turret (Green)"
-	turret -500 848 "Quad Turbolaser Turret (Green)"
-	turret -500 985 "Quad Turbolaser Turret (Green)"
-	turret -500 1090 "Quad Turbolaser Turret (Green)"
-	turret 515 573 "Quad Turbolaser Turret (Green)"
-	turret 515 703 "Quad Turbolaser Turret (Green)"
-	turret 515 848 "Quad Turbolaser Turret (Green)"
-	turret 515 985 "Quad Turbolaser Turret (Green)"
-	turret 515 1090 "Quad Turbolaser Turret (Green)"
-	turret -500 573 "Dual Turbolaser Turret (Green)"
-	turret -500 703 "Dual Turbolaser Turret (Green)"
-	turret -500 848 "Dual Turbolaser Turret (Green)"
-	turret -500 985 "Dual Turbolaser Turret (Green)"
-	turret -500 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 573 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Dual Turbolaser Turret (Green)"
-	turret 515 848 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Dual Turbolaser Turret (Green)"
-	turret 515 848 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Tractor Beam"
-	turret 515 848 "Tractor Beam"
-	turret 515 985 "Tractor Beam"
-	turret 515 1090 "Tractor Beam"
+	turret -500 573 "Turbolaser Quad Turret (Green)"
+	turret -500 703 "Turbolaser Quad Turret (Green)"
+	turret -500 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 573 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret -500 848 "Turbolaser Quad Turret (Green)"
+	turret -500 985 "Turbolaser Quad Turret (Green)"
+	turret -500 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 573 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret -500 848 "Turbolaser Quad Turret (Green)"
+	turret -500 985 "Turbolaser Quad Turret (Green)"
+	turret -500 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 573 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
 	fighter -37 -65
 	fighter 37 -65
 	fighter -46 40
@@ -1002,13 +1169,15 @@ ship "Bellator-class Star Dreadnought"
 
 
 
-ship "Carrack Light Cruiser"
+ship "Carrack-class Light Cruiser"
 	sprite "ship/carracklightcruiser"
 	thumbnail "thumbnail/carracklightcruiser"
 	attributes
+		licenses
+			Imperial
 		category "Light Warship"
-		"cost" 10800000
-		"shields" 45000
+		"cost" 5000000
+		"shields" 44000
 		"hull" 12000
 		"required crew" 500
 		"bunks" 1734
@@ -1030,11 +1199,11 @@ ship "Carrack Light Cruiser"
 		
 		"T3.5 Heavy Freighter Power Converter"
 		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"Heavy Freighter Sublight Engine"
-		"Medium Hyperspace Motivator"
+		"T3.5 Heavy Freighter Sublight Engine"
+		"T3 Corvette Hyperspace Motivator"
 	
 	engine -26 351
 	engine 19 352
@@ -1051,7 +1220,7 @@ ship "Carrack Light Cruiser"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Carrack Light Transport"
+	description "The Carrack-class light cruiser is a cruiser that was deployed by the Republic Navy throughout the final era of the Galactic Republic and was prominent in the Clone Wars. The Carrack-class is a cheap replacement for expensive capital ships and is not designed to operate as ships of the line, despite being capable of trading fire with larger adversaries. It remained in use by the Galactic Empire."
 
 
 
@@ -1059,9 +1228,11 @@ ship "Consolidator-class Corps Assault Ship"
 	sprite "ship/consolidatorassaultship"
 	thumbnail "thumbnail/consolidatorassaultship"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 15200000
-		"shields" 128000
+		"cost" 38000000
+		"shields" 118000
 		"hull" 44500
 		"required crew" 6000
 		"bunks" 15000
@@ -1079,33 +1250,32 @@ ship "Consolidator-class Corps Assault Ship"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 4
-		"Dual Turbolaser Turret (Green)" 6
-		"Tractor Beam" 2
+		"Turbolaser Quad Turret (Green)" 4
+		"Turbolaser Dual Turret (Green)" 8
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -106 607
 	engine -10 715
 	engine 87 608
-	turret -360 -135 "Quad Turbolaser Turret (Green)"
-	turret 339 -135 "Quad Turbolaser Turret (Green)"
-	turret 429 149 "Quad Turbolaser Turret (Green)"
-	turret -450 151 "Quad Turbolaser Turret (Green)"
-	turret -276 177 "Dual Turbolaser Turret (Green)"
-	turret -275 123 "Dual Turbolaser Turret (Green)"
-	turret 254 177 "Dual Turbolaser Turret (Green)"
-	turret 254 124 "Dual Turbolaser Turret (Green)"
-	turret -103 -774 "Dual Turbolaser Turret (Green)"
-	turret 83 -773 "Dual Turbolaser Turret (Green)"
-	turret -11 -468 "Tractor Beam"
-	turret -11 -468 "Tractor Beam"
+	turret -360 -135 "Turbolaser Quad Turret (Green)"
+	turret 339 -135 "Turbolaser Quad Turret (Green)"
+	turret 429 149 "Turbolaser Quad Turret (Green)"
+	turret -450 151 "Turbolaser Quad Turret (Green)"
+	turret -276 177 "Turbolaser Dual Turret (Green)"
+	turret -275 123 "Turbolaser Dual Turret (Green)"
+	turret 254 177 "Turbolaser Dual Turret (Green)"
+	turret 254 124 "Turbolaser Dual Turret (Green)"
+	turret -103 -774 "Turbolaser Dual Turret (Green)"
+	turret 83 -773 "Turbolaser Dual Turret (Green)"
+	turret -11 -468 "Turbolaser Dual Turret (Green)"
+	turret -11 -468 "Turbolaser Dual Turret (Green)"
 	fighter -11 -468
 	fighter -10 -364
 	fighter -10 -275
@@ -1128,7 +1298,7 @@ ship "Consolidator-class Corps Assault Ship"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Consolidator-class Corps Assault Ship has a complement of TIE/LN(16) = 16"
+	description "Recognising the need for a dedicated carrier vessel that could assist in planetary assaults, the Galactic Empire designed the Consolidator-class Corps Assault Ship. The carrier was is lined with hangar bays, effectively making the vessel a 'flying fortress' that could quickly deploy fighters."
 
 
 
@@ -1136,8 +1306,10 @@ ship "Contentor-class Fleet Replenishment Ship"
 	sprite "ship/contentorfleetreplenishmentship"
 	thumbnail "thumbnail/contentorfleetreplenishmentship"
 	attributes
-		category "Medium Warship"
-		"cost" 135000000
+		licenses
+			Imperial
+		category "Heavy Warship"
+		"cost" 31000000
 		"shields" 110000
 		"hull" 43000
 		"required crew" 4000
@@ -1156,31 +1328,30 @@ ship "Contentor-class Fleet Replenishment Ship"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Dual Turbolaser Turret (Green)" 10
-		"Tractor Beam" 2
+		"Turbolaser Dual Turret (Green)" 12
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T4.5 Cruiser Power Converter"
+		"T4.5 Cruiser Shield Projector"
+		"T4 Sensor Array"
+		"T4.5 Cruiser Coolant System"
 		
-		"Cruiser Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"T4.5 Cruiser Sublight Engine"
+		"T4.5 Cruiser Hyperspace Motivator"
 		
 	engine -152 866
 	engine 152 865
-	turret -216 -712 "Dual Turbolaser Turret (Green)"
-	turret 216 -713 "Dual Turbolaser Turret (Green)"
-	turret -84 -483 "Dual Turbolaser Turret (Green)"
-	turret 83 -484 "Dual Turbolaser Turret (Green)"
-	turret -81 -73 "Dual Turbolaser Turret (Green)"
-	turret 80 -74 "Dual Turbolaser Turret (Green)"
-	turret -216 724 "Dual Turbolaser Turret (Green)"
-	turret 216 725 "Dual Turbolaser Turret (Green)"
-	turret 0 827 "Dual Turbolaser Turret (Green)"
-	turret 0 -827 "Dual Turbolaser Turret (Green)"
-	turret 0 -611 "Tractor Beam"
-	turret 0 -611 "Tractor Beam"
+	turret -216 -712 "Turbolaser Dual Turret (Green)"
+	turret 216 -713 "Turbolaser Dual Turret (Green)"
+	turret -84 -483 "Turbolaser Dual Turret (Green)"
+	turret 83 -484 "Turbolaser Dual Turret (Green)"
+	turret -81 -73 "Turbolaser Dual Turret (Green)"
+	turret 80 -74 "Turbolaser Dual Turret (Green)"
+	turret -216 724 "Turbolaser Dual Turret (Green)"
+	turret 216 725 "Turbolaser Dual Turret (Green)"
+	turret 0 827 "Turbolaser Dual Turret (Green)"
+	turret 0 -827 "Turbolaser Dual Turret (Green)"
+	turret 0 -611 "Turbolaser Dual Turret (Green)"
+	turret 0 -611 "Turbolaser Dual Turret (Green)"
 	fighter 0 -611
 	fighter 0 -611
 	fighter 0 -611
@@ -1195,56 +1366,58 @@ ship "Contentor-class Fleet Replenishment Ship"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Contentor-class Fleet Replenishment Ship = 8"
+	description "The Contentor-class Fleet Replenishment Ship is an Imperial support ship class designed to carry fuel for other vessels in the Imperial Navy. Smaller than the Altor-class replenishment ship, the Contentor is also comparatively much more defendable, having a sufficient number of turbolasers and often not requiring as much support from escorts."
 
 
 
-ship "Delta T-3c Shuttle"
+ship "Delta-class T-3c Shuttle"
 	sprite "ship/deltat3cshuttle"
 	thumbnail "thumbnail/deltat3cshuttle"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category Transport
-		"cost" 520000
-		"shields" 6000
-		"hull" 4000
+		"cost" 80000
+		"shields" 3300
+		"hull" 5000
 		"required crew" 6
 		"bunks" 36
 		"mass" 40
-		"drag" 1.5
+		"drag" 1.2
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 222
-		"weapon capacity" 24
-		"engine capacity" 60
+		"outfit space" 18
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Fighter Laser Cannon (Green)" 3
+		"Fighter Laser Cannon Imperial (Green)" 3
 		
-		"T1.6 Shuttle Power Converter"
-		"T1.6 Shuttle Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 2
+		"T1.3 Shuttle Power Converter"
+		"T1.3 Shuttle Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 		
-		"Shuttle Engine"
-		"Light Hyperspace Motivator"
+		"T1.3 Shuttle Engine"
+		"T1 Fighter Hyperspace Motivator"
 		
 	engine -59 42
 	engine 62 41
-	gun -270 -1 "Fighter Laser Cannon (Green)"
-	gun 275 -1 "Fighter Laser Cannon (Green)"
-	gun 2 12 "Fighter Laser Cannon (Green)"
+	gun -270 -1 "Fighter Laser Cannon Imperial (Green)"
+	gun 275 -1 "Fighter Laser Cannon Imperial (Green)"
+	gun 2 12 "Fighter Laser Cannon Imperial (Green)"
 	explode "tiny explosion" 2
 	explode "small explosion" 4
 	explode "medium explosion" 6
 	explode "large explosion" 8
 	"final explode" "huge explosion" 3
-	description "Delta T-3c Shuttle"
+	description "The Delta-class T-3c shuttle is a type of shuttle used by the Galactic Empire. Originally designed as a side project by Sienar Fleet Systems and not intended for production, the ship is optimised for stealth, with a dark, sloped hull and composite skin."
 
 
 
@@ -1252,8 +1425,10 @@ ship "Dreadnaught Heavy Cruiser"
 	sprite "ship/dreadnaughtheavycruiser"
 	thumbnail "thumbnail/dreadnaughtheavycruiser"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 130000000
+		"cost" 35555000
 		"shields" 115000
 		"hull" 44000
 		"required crew" 9000
@@ -1272,35 +1447,34 @@ ship "Dreadnaught Heavy Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 4
-		"Dual Turbolaser Turret (Green)" 6
-		"Tractor Beam" 2
+		"Turbolaser Quad Turret (Green)" 4
+		"Turbolaser Dual Turret (Green)" 8
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 6
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -106 871
 	engine 97 870
 	engine -4 858
 	engine -74 839
 	engine 64 840
-	turret -166 189 "Quad Turbolaser Turret (Green)"
-	turret 159 189 "Quad Turbolaser Turret (Green)"
-	turret -196 -31 "Quad Turbolaser Turret (Green)"
-	turret 190 -34 "Quad Turbolaser Turret (Green)"
-	turret -163 508 "Dual Turbolaser Turret (Green)"
-	turret 153 506 "Dual Turbolaser Turret (Green)"
-	turret -163 -185 "Dual Turbolaser Turret (Green)"
-	turret 152 -186 "Dual Turbolaser Turret (Green)"
-	turret -148 -511 "Dual Turbolaser Turret (Green)"
-	turret 136 -517 "Dual Turbolaser Turret (Green)"
-	turret 0 -247 "Tractor Beam"
-	turret 0 -247 "Tractor Beam"
+	turret -166 189 "Turbolaser Quad Turret (Green)"
+	turret 159 189 "Turbolaser Quad Turret (Green)"
+	turret -196 -31 "Turbolaser Quad Turret (Green)"
+	turret 190 -34 "Turbolaser Quad Turret (Green)"
+	turret -163 508 "Turbolaser Dual Turret (Green)"
+	turret 153 506 "Turbolaser Dual Turret (Green)"
+	turret -163 -185 "Turbolaser Dual Turret (Green)"
+	turret 152 -186 "Turbolaser Dual Turret (Green)"
+	turret -148 -511 "Turbolaser Dual Turret (Green)"
+	turret 136 -517 "Turbolaser Dual Turret (Green)"
+	turret 0 -247 "Turbolaser Dual Turret (Green)"
+	turret 0 -247 "Turbolaser Dual Turret (Green)"
 	fighter 0 -247
 	fighter 0 -247
 	fighter 0 -247
@@ -1323,7 +1497,7 @@ ship "Dreadnaught Heavy Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Dreadnaught Heavy Cruiser has a complement of TIE/LN(16) = 16"
+	description "The Dreadnaught-class heavy cruiser is a type of capital ship built for planetary occupation and space combat, formerly used by the Galactic Republic and now by the Galactic Empire. It is one of the most ubiquitous ship designs in all of the galaxy."
 
 
 
@@ -1331,46 +1505,48 @@ ship "DX9 Troop Transport"
 	sprite "ship/dx9transport"
 	thumbnail "thumbnail/dx9transport"
 	attributes
+		licenses
+			Imperial
 		category "Transport"
-		"cost" 310000
-		"shields" 3400
-		"hull" 3000
+		"cost" 90000
+		"shields" 1350
+		"hull" 6250
 		"required crew" 3
 		"bunks" 33
 		"mass" 33
-		"drag" 1.1
+		"drag" 1.4
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 404
-		"weapon capacity" 20
-		"engine capacity" 210
+		"outfit space" 18
+		"weapon capacity" 2
+		"engine capacity" 7
 		weapon
 			"blast radius" 300
 			"shield damage" 700
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T1.5 Heavy Fighter Power Converter"
+		"T1.5 Heavy Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System" 2
 		
-		"Shuttle Engine"
-		"Light Hyperspace Motivator"
+		"T1.5 Heavy Fighter Engine (Blue Flare)"
+		"T1 Fighter Hyperspace Motivator"
 		
 	engine -21 61
 	engine 18 61
-	gun -20 -5 "Fighter Laser Cannon (Green)"
-	gun 18 -4 "Fighter Laser Cannon (Green)"
+	gun -20 -5 "Fighter Laser Cannon Imperial (Green)"
+	gun 18 -4 "Fighter Laser Cannon Imperial (Green)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "DX9 Troop Transport"
+	description "The Delta-class DX-9 stormtrooper transport is an assault vehicle designed to carry Imperial stormtroopers into battle. Built by Telgorn Corporation, the ship had a surprisingly large armament and strong shielding for its size."
 
 
 
@@ -1378,9 +1554,11 @@ ship "Eta-class Supply Barge"
 	sprite "ship/etasupplybarge"
 	thumbnail "thumbnail/etasupplybarge"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Freighter"
-		"cost" 27000000
-		"shields" 48000
+		"cost" 16250000
+		"shields" 51000
 		"hull" 22000
 		"required crew" 15
 		"bunks" 35
@@ -1402,11 +1580,11 @@ ship "Eta-class Supply Barge"
 		
 		"T3.5 Heavy Freighter Power Converter"
 		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"T3.5 Heavy Freighter Sublight Engine"
+		"T3.5 Heavy Freighter Hyperspace Motivator"
 	
 	engine -18 423
 	engine 24 423
@@ -1417,7 +1595,7 @@ ship "Eta-class Supply Barge"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Eta-class supply barge was a type of supply barge used by the Galactic Empire during the Imperial occupation of Jedha to transport kyber crystals that powered the Death Star's superlaser. Larger than the Zeta-class cargo shuttle, the Eta-class could hold multiple pods aloft on a dorsal cargo bed."
+	description "The Eta-class supply barge is a type of supply barge used by the Galactic Empire. Larger than the Zeta-class cargo shuttle, the Eta-class can hold multiple pods aloft on a dorsal cargo bed."
 
 
 
@@ -1425,8 +1603,10 @@ ship "Executor-class Star Dreadnought"
 	sprite "ship/executordestroyer"
 	thumbnail "thumbnail/executordestroyer"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 15200000
+		"cost" 1143350000
 		"shields" 1000000
 		"hull" 400000
 		"required crew" 280000
@@ -1445,64 +1625,50 @@ ship "Executor-class Star Dreadnought"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 20
-		"Dual Turbolaser Turret (Green)" 20
-		"Tractor Beam" 4
+		"Turbolaser Quad Turret (Green)" 32
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -213 892 1
 	engine 213 892 1
-	turret -500 573 "Quad Turbolaser Turret (Green)"
-	turret -500 703 "Quad Turbolaser Turret (Green)"
-	turret -500 848 "Quad Turbolaser Turret (Green)"
-	turret -500 985 "Quad Turbolaser Turret (Green)"
-	turret -500 1090 "Quad Turbolaser Turret (Green)"
-	turret 515 573 "Quad Turbolaser Turret (Green)"
-	turret 515 703 "Quad Turbolaser Turret (Green)"
-	turret 515 848 "Quad Turbolaser Turret (Green)"
-	turret 515 985 "Quad Turbolaser Turret (Green)"
-	turret 515 1090 "Quad Turbolaser Turret (Green)"
-	turret -500 573 "Quad Turbolaser Turret (Green)"
-	turret -500 703 "Quad Turbolaser Turret (Green)"
-	turret -500 848 "Quad Turbolaser Turret (Green)"
-	turret -500 985 "Quad Turbolaser Turret (Green)"
-	turret -500 1090 "Quad Turbolaser Turret (Green)"
-	turret 515 573 "Quad Turbolaser Turret (Green)"
-	turret 515 703 "Quad Turbolaser Turret (Green)"
-	turret 515 848 "Quad Turbolaser Turret (Green)"
-	turret 515 985 "Quad Turbolaser Turret (Green)"
-	turret 515 1090 "Quad Turbolaser Turret (Green)"
-	turret -500 573 "Dual Turbolaser Turret (Green)"
-	turret -500 703 "Dual Turbolaser Turret (Green)"
-	turret -500 848 "Dual Turbolaser Turret (Green)"
-	turret -500 985 "Dual Turbolaser Turret (Green)"
-	turret -500 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 573 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Dual Turbolaser Turret (Green)"
-	turret 515 848 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Dual Turbolaser Turret (Green)"
-	turret 515 848 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Tractor Beam"
-	turret 515 848 "Tractor Beam"
-	turret 515 985 "Tractor Beam"
-	turret 515 1090 "Tractor Beam"
+	turret -500 573 "Turbolaser Quad Turret (Green)"
+	turret -500 703 "Turbolaser Quad Turret (Green)"
+	turret -500 848 "Turbolaser Quad Turret (Green)"
+	turret -500 985 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret -500 848 "Turbolaser Quad Turret (Green)"
+	turret -500 985 "Turbolaser Quad Turret (Green)"
+	turret -500 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 573 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret -500 573 "Turbolaser Quad Turret (Green)"
+	turret -500 703 "Turbolaser Quad Turret (Green)"
+	turret -500 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 573 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
 	fighter -37 -65
 	fighter 37 -65
 	fighter -46 40
@@ -1829,7 +1995,7 @@ ship "Executor-class Star Dreadnought"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Executor Destroyer has a complement of TIE/ = 320"
+	description "The Executor-class Star Dreadnought is a heavy warship class in the Star Dreadnought league, often used as command ships and flagships in the Imperial Navy. They are among the largest vessels in the galaxy, and were almost invincible in combat, although are costly to operate."
 
 
 
@@ -1837,9 +2003,11 @@ ship "Fulgor-class Pursuit Frigate"
 	sprite "ship/fulgorpursuitfrigate"
 	thumbnail "thumbnail/fulgorpursuitfrigate"
 	attributes
-		category "Light Warship"
-		"cost" 48000000
-		"shields" 46000
+		licenses
+			Imperial
+		category "Medium Warship"
+		"cost" 8500000
+		"shields" 45000
 		"hull" 15000
 		"required crew" 600
 		"bunks" 1000
@@ -1858,25 +2026,25 @@ ship "Fulgor-class Pursuit Frigate"
 			"hit force" 800
 	outfits
 		"Turbolaser Turret (Green)" 8
-		"Dual Turbolaser Turret (Green)" 3
+		"Turbolaser Dual Turret (Green)" 3
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 20
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
+		"T4 Frigate Power Converter"
+		"T4 Frigate Shield Projector"
+		"T4 Sensor Array"
+		"T4 Frigate Coolant System"
 		
-		"Corvette Sublight Engine (Blue)"
-		"Medium Hyperspace Motivator"
+		"T4 Frigate Sublight Engine"
+		"T4 Frigate Hyperspace Motivator"
 		
 	engine -112 593
 	engine 124 592
 	gun -24 -576 "Concussion Missile Launcher"
 	gun 24 -577 "Concussion Missile Launcher"
-	turret 1 -322 "Dual Turbolaser Turret (Green)"
-	turret -317 134 "Dual Turbolaser Turret (Green)"
-	turret 318 133 "Dual Turbolaser Turret (Green)"
+	turret 1 -322 "Turbolaser Dual Turret (Green)"
+	turret -317 134 "Turbolaser Dual Turret (Green)"
+	turret 318 133 "Turbolaser Dual Turret (Green)"
 	turret -100 -456 "Turbolaser Turret (Green)"
 	turret 101 -457 "Turbolaser Turret (Green)"
 	turret -166 205 "Turbolaser Turret (Green)"
@@ -1902,7 +2070,7 @@ ship "Fulgor-class Pursuit Frigate"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Produced by Kuat Drive Yards for the Imperial Navy, the Fulgor-class Pursuit Frigate is a 620 meter long warship designed as an escort or fast picket, able to chase down, catch and maul other frigates. It was designed to have fast sublight speeds and high imperial grade sensors. (12 Fighters)"
+	description "Produced by Kuat Drive Yards for the Imperial Navy, the Fulgor-class Pursuit Frigate is a 620 meter long warship designed as an escort or fast picket, able to chase down, catch and maul other frigates. It is designed to have fast sublight speeds and high imperial grade sensors."
 
 
 
@@ -1910,48 +2078,50 @@ ship "Gamma-class ATR-6 Assault Transport"
 	sprite "ship/gammaatr6assaulttransport"
 	thumbnail "thumbnail/gammaatr6assaulttransport"
 	attributes
+		licenses
+			Imperial
 		category "Transport"
-		"cost" 900000
-		"shields" 8600
-		"hull" 7200
+		"cost" 95000
+		"shields" 1350
+		"hull" 6300
 		"required crew" 2
 		"bunks" 40
 		"mass" 70
-		"drag" 2.3
+		"drag" 1.4
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 290
-		"weapon capacity" 70
-		"engine capacity" 210
+		"outfit space" 25
+		"weapon capacity" 18
+		"engine capacity" 7
 		weapon
 			"blast radius" 300
 			"shield damage" 700
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Fighter Laser Cannon (Green)" 3
-		"Fighter Ion Cannon (Green)" 3
+		"Fighter Laser Cannon Imperial (Green)" 3
+		"Fighter Ion Cannon Imperial (Green)" 3
 		"Proton Torpedo Launcher" 2
-		"MG9 Proton Torpedo" 8
+		"Proton Torpedo" 8
 
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T1.5 Heavy Fighter Power Converter"
+		"T1.5 Heavy Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System" 2
 		
-		"Light Transport Sublight Engine"
-		"Light Hyperspace Motivator"
+		"T1.5 Heavy Fighter Engine (Pink Flare)"
+		"T1 Fighter Hyperspace Motivator"
 		
 	engine -29 65
 	engine 0 70
 	engine 26 66
-	gun -27 -34 "Fighter Laser Cannon (Green)"
-	gun -1 -32 "Fighter Laser Cannon (Green)"
-	gun 25 -32 "Fighter Laser Cannon (Green)"
-	gun -27 -34 "Fighter Ion Cannon (Green)"
-	gun -1 -32 "Fighter Ion Cannon (Green)"
-	gun 25 -32 "Fighter Ion Cannon (Green)"
+	gun -27 -34 "Fighter Laser Cannon Imperial (Green)"
+	gun -1 -32 "Fighter Laser Cannon Imperial (Green)"
+	gun 25 -32 "Fighter Laser Cannon Imperial (Green)"
+	gun -27 -34 "Fighter Ion Cannon Imperial (Green)"
+	gun -1 -32 "Fighter Ion Cannon Imperial (Green)"
+	gun 25 -32 "Fighter Ion Cannon Imperial (Green)"
 	gun -13 -70 "Proton Torpedo Launcher"
 	gun 12 -71 "Proton Torpedo Launcher"
 	explode "tiny explosion" 20
@@ -1959,7 +2129,7 @@ ship "Gamma-class ATR-6 Assault Transport"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Gamma-class ATR-6 assault transport was a heavily armed and shielded vessel produced by KonGar Ship Works for transporting stormtroopers and conducting boarding actions against starships and space stations. The Rebel Alliance and various pirate factions also made wide usage of the craft."
+	description "The Gamma-class ATR-6 assault transport is a heavily armed and shielded vessel produced by KonGar Ship Works for transporting stormtroopers and conducting boarding actions against starships and space stations. The Rebel Alliance and various pirate factions also makes wide usage of the craft."
 
 
 
@@ -1968,10 +2138,12 @@ ship "GAT-12 Skipray Blastboat"
 	thumbnail "thumbnail/gat12skiprayblastboat"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category Interceptor
-		"cost" 370000
-		"shields" 4850
-		"hull" 3400
+		"cost" 285000
+		"shields" 1700
+		"hull" 4900
 		"required crew" 1
 		"bunks" 4
 		"mass" 38
@@ -1988,32 +2160,34 @@ ship "GAT-12 Skipray Blastboat"
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Fighter Laser Cannon (Green)" 2
-		"Fighter Ion Cannon (Green)" 3
+		"Fighter Laser Cannon Imperial (Green)" 2
+		"Fighter Ion Cannon Imperial (Green)" 3
 		"Fighter Laser Turret Underneath (Green)"
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 12
+		"Concussion Missile" 6
 		"Proton Torpedo Launcher" 2
-		"MG9 Proton Torpedo" 6
+		"Proton Torpedo" 6
 		
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Fighter Coolant System"
 		
-		"Fighter Engine (Blue Flare)"
-		"Light Hyperspace Motivator"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 		
 	engine -0.5 91
-	gun -29 -44 "Fighter Ion Cannon (Green)"
-	gun 0 -45 "Fighter Ion Cannon (Green)"
-	gun 28 -44 "Fighter Ion Cannon (Green)"
-	gun -10 -69 "Fighter Laser Cannon (Green)"
-	gun 7 -70 "Fighter Laser Cannon (Green)"
+	gun -29 -44 "Fighter Ion Cannon Imperial (Green)"
+	gun 0 -45 "Fighter Ion Cannon Imperial (Green)"
+	gun 28 -44 "Fighter Ion Cannon Imperial (Green)"
+	gun -10 -69 "Fighter Laser Cannon Imperial (Green)"
+	gun 7 -70 "Fighter Laser Cannon Imperial (Green)"
 	gun -10 -69 "Concussion Missile Launcher"
 	gun 7 -70 "Concussion Missile Launcher"
+	gun -10 -69 "Proton Torpedo Launcher"
+	gun 7 -70 "Proton Torpedo Launcher"
 	turret 0 -10 "Fighter Laser Turret Underneath (Green)"
 	explode "large explosion" 3
-	description "The Sienar Fleet Systems GAT-12 Skipray Blastboat was, early in the Galactic Civil War, the smallest hyperspace-capable combat starship in use by the Imperial Navy. It was sold primarily to the Empire; the first GAT-12h Skipray Blastboats were released prior to the Battle of Yavin, being the smallest hyperspace-capable combat starship in use by the Imperial Navy."
+	description "The Sienar Fleet Systems GAT-12 Skipray Blastboat is one of the smallest hyperspace-capable combat starship in use by the Imperial Navy. Sold primarily to the Empire. While small enough to be carried aboard capital ships as a starfighter, its immense power output, weaponry, and shielding caused some registries to designate it as a capital ship itself."
 
 
 
@@ -2021,14 +2195,16 @@ ship "Gladiator Star Destroyer"
 	sprite "ship/gladiatordestroyer"
 	thumbnail "thumbnail/gladiatordestroyer"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 15200000
-		"shields" 130000
-		"hull" 48000
+		"cost" 34000000
+		"shields" 113000
+		"hull" 43500
 		"required crew" 6000
 		"bunks" 15000
-		"mass" 9700
-		"drag" 24
+		"mass" 8900
+		"drag" 23
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
@@ -2041,36 +2217,35 @@ ship "Gladiator Star Destroyer"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 6
-		"Dual Turbolaser Turret (Green)" 8
-		"Tractor Beam" 2
+		"Turbolaser Quad Turret (Green)" 6
+		"Turbolaser Dual Turret (Green)" 10
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -202 737
 	engine 198 738
-	turret -224 286 "Quad Turbolaser Turret (Green)"
-	turret 213 285 "Quad Turbolaser Turret (Green)"
-	turret -231 130 "Quad Turbolaser Turret (Green)"
-	turret 221 132 "Quad Turbolaser Turret (Green)"
-	turret -240 -24 "Quad Turbolaser Turret (Green)"
-	turret 233 -21 "Quad Turbolaser Turret (Green)"
-	turret -395 561 "Dual Turbolaser Turret (Green)"
-	turret 389 564 "Dual Turbolaser Turret (Green)"
-	turret -333 372 "Dual Turbolaser Turret (Green)"
-	turret 333 374 "Dual Turbolaser Turret (Green)"
-	turret -210 -184 "Dual Turbolaser Turret (Green)"
-	turret 208 -181 "Dual Turbolaser Turret (Green)"
-	turret -115 -432 "Dual Turbolaser Turret (Green)"
-	turret 110 -433 "Dual Turbolaser Turret (Green)"
-	turret -116 -490 "Tractor Beam"
-	turret 101 -492 "Tractor Beam"
+	turret -224 286 "Turbolaser Quad Turret (Green)"
+	turret 213 285 "Turbolaser Quad Turret (Green)"
+	turret -231 130 "Turbolaser Quad Turret (Green)"
+	turret 221 132 "Turbolaser Quad Turret (Green)"
+	turret -240 -24 "Turbolaser Quad Turret (Green)"
+	turret 233 -21 "Turbolaser Quad Turret (Green)"
+	turret -395 561 "Turbolaser Dual Turret (Green)"
+	turret 389 564 "Turbolaser Dual Turret (Green)"
+	turret -333 372 "Turbolaser Dual Turret (Green)"
+	turret 333 374 "Turbolaser Dual Turret (Green)"
+	turret -210 -184 "Turbolaser Dual Turret (Green)"
+	turret 208 -181 "Turbolaser Dual Turret (Green)"
+	turret -115 -432 "Turbolaser Dual Turret (Green)"
+	turret 110 -433 "Turbolaser Dual Turret (Green)"
+	turret -116 -490 "Turbolaser Dual Turret (Green)"
+	turret 101 -492 "Turbolaser Dual Turret (Green)"
 	fighter -117 -490
 	fighter -75 -490
 	fighter -26 -491
@@ -2103,7 +2278,7 @@ ship "Gladiator Star Destroyer"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Gladiator Destroyer has a complement of TIE/LN(26) = 26"
+	description "The Gladiator-class Star Destroyer is a class of Star Destroyer that is manufactured by Kuat Drive Yards, designed by the legendary Walex Blissex. Considered to be the smallest of the Star Destroyers at 600 meters, the Gladiator is very powerful for its size, serving as a dedicated Star Destroyer escort in heavy battle lines and later as a primarily independent, long-range patrol vessel."
 
 
 
@@ -2111,8 +2286,10 @@ ship "Gozanti-class Assault Cruiser"
 	sprite "ship/gozantiassaultcruiser"
 	thumbnail "thumbnail/gozantiassaultcruiser"
 	attributes
+		licenses
+			Imperial
 		category "Light Warship"
-		"cost" 1200000
+		"cost" 500000
 		"shields" 13000
 		"hull" 7300
 		"required crew" 5
@@ -2136,11 +2313,11 @@ ship "Gozanti-class Assault Cruiser"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T2 Sensor Array"
+		"T2 Transport Coolant System"
 		
-		"Transport Sublight Engine"
-		"Medium Hyperspace Motivator"
+		"T2 Transport Sublight Engine"
+		"T2 Transport Hyperspace Motivator"
 	
 	engine -53 114
 	engine 55 114
@@ -2155,7 +2332,7 @@ ship "Gozanti-class Assault Cruiser"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Gozanti Class Cruiser"
+	description "The Gozanti-class cruiser is a class of heavily armoured starship used by various factions. In its use with the Galactic Empire, it is known generally as the Imperial freighter, being utilised as both a freighter and a carrier."
 
 
 
@@ -2164,10 +2341,12 @@ ship "I-7 Howlrunner"
 	thumbnail "thumbnail/i7howlrunnerstarfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
-		"cost" 165000
-		"shields" 500
-		"hull" 1000
+		"cost" 65000
+		"shields" 720
+		"hull" 1600
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -2183,21 +2362,22 @@ ship "I-7 Howlrunner"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
-		"Light Hyperspace Motivator"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -5 34
 	engine 6 34
-	gun -10 -39 "Fighter Laser Cannon (Green)"
-	gun 10 -40 "Fighter Laser Cannon (Green)"
+	gun -10 -39 "Fighter Laser Cannon Imperial (Green)"
+	gun 10 -40 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "The Incom Corporation I-7 Howlrunner was a short range attack starfighter employed by the Galactic Empire during the Galactic Civil War. The Howlrunner was constructed around an aerodynamic fixed-wing structure. Two fins jutted out of the sides of the craft, meant to function as rudimentary maneuvering flaps. Though this design was rather simple it gave the Howlrunner superior performance to the TIE/LN starfighter in both space and atmosphere. The controls had a small learning curve, ensuring that nearly any pilot with basic skills could control the craft—although only the most experienced could discover the true power of this starfighter."
+	description "The Incom Corporation I-7 Howlrunner is a short range attack starfighter, constructed around an aerodynamic fixed-wing structure. Two fins jut out of the sides of the craft, functioning as rudimentary maneuvering flaps. Despite the simplicity of its design, this gives the Howlrunner superior performance to the TIE/LN starfighter in both space and atmosphere. The controls have a small learning curve, ensuring that nearly any pilot with basic skills can control the craft, although only the most experienced could discover the true power of this starfighter."
 
 
 
@@ -2206,14 +2386,17 @@ ship "I-7 Howlrunner (Fighter)"
 	thumbnail "thumbnail/i7howlrunnerstarfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
-		"cost" 165000
-		"shields" 500
-		"hull" 1000
+		"cost" 65000
+		"shields" 720
+		"hull" 1600
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
 		"drag" .9
+		"fuel capacity" 700
 		"fuel capacity" 0
 		"heat dissipation" .9
 		"outfit space" 167
@@ -2225,20 +2408,22 @@ ship "I-7 Howlrunner (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -5 34
 	engine 6 34
-	gun -10 -39 "Fighter Laser Cannon (Green)"
-	gun 10 -40 "Fighter Laser Cannon (Green)"
+	gun -10 -39 "Fighter Laser Cannon Imperial (Green)"
+	gun 10 -40 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "The Incom Corporation I-7 Howlrunner was a short range attack starfighter employed by the Galactic Empire during the Galactic Civil War. The Howlrunner was constructed around an aerodynamic fixed-wing structure. Two fins jutted out of the sides of the craft, meant to function as rudimentary maneuvering flaps. Though this design was rather simple it gave the Howlrunner superior performance to the TIE/LN starfighter in both space and atmosphere. The controls had a small learning curve, ensuring that nearly any pilot with basic skills could control the craft—although only the most experienced could discover the true power of this starfighter."
+	description "The Incom Corporation I-7 Howlrunner is a short range attack starfighter, constructed around an aerodynamic fixed-wing structure. Two fins jut out of the sides of the craft, functioning as rudimentary maneuvering flaps. Despite the simplicity of its design, this gives the Howlrunner superior performance to the TIE/LN starfighter in both space and atmosphere. The controls have a small learning curve, ensuring that nearly any pilot with basic skills can control the craft, although only the most experienced could discover the true power of this starfighter."
 
 
 
@@ -2246,8 +2431,10 @@ ship "IGV-55 Surveillance Vessel"
 	sprite "ship/igv55surveillancevessel"
 	thumbnail "thumbnail/igv55surveillancevessel"
 	attributes
+		licenses
+			Imperial
 		category "Light Warship"
-		"cost" 1400000
+		"cost" 550000
 		"shields" 13000
 		"hull" 7300
 		"required crew" 5
@@ -2271,11 +2458,11 @@ ship "IGV-55 Surveillance Vessel"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T5 Sensor Array"
+		"T2 Transport Coolant System"
 		
-		"Transport Sublight Engine"
-		"Medium Hyperspace Motivator"
+		"T2 Transport Sublight Engine"
+		"T2 Transport Hyperspace Motivator"
 	
 	engine -63 94
 	engine -32 97
@@ -2288,7 +2475,7 @@ ship "IGV-55 Surveillance Vessel"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The IGV-55 surveillance vessel, or Imperial listener ship, was a starship model used by the Galactic Empire for surveillance, intel, and recon. Utilized by Imperial Intelligence's Information Office, these vessels monitored communications and scanned data, looking for signs of seditious activities. They were similar to Gozanti-class cruisers, although extensively modified with additional sensors and transmitter dishes."
+	description "The IGV-55 surveillance vessel, or Imperial listener ship, is a starship model used by the Galactic Empire for surveillance, intel, and recon. Utilised by Imperial Intelligence's Information Office, these vessels monitor communications and scanned data, looking for signs of seditious activities. They are similar to Gozanti-class cruisers, although extensively modified with additional sensors and transmitter dishes."
 
 
 
@@ -2296,97 +2483,101 @@ ship "LAAT/le Gunship"
 	sprite "ship/laatlegunship"
 	thumbnail "thumbnail/laatlegunship"
 	attributes
+		licenses
+			Imperial
 		category "Transport"
-		"cost" 15200000
-		"shields" 3350
-		"hull" 2920
+		"cost" 80000
+		"shields" 1400
+		"hull" 6300
 		"required crew" 3
 		"bunks" 33
 		"mass" 70
-		"drag" 1.9
+		"drag" 1.4
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 404
-		"weapon capacity" 20
-		"engine capacity" 210
+		"outfit space" 18
+		"weapon capacity" 2
+		"engine capacity" 7
 		weapon
 			"blast radius" 300
 			"shield damage" 700
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T1.5 Heavy Fighter Power Converter"
+		"T1.5 Heavy Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System" 2
 		
-		"Light Transport Sublight Engine"
-		"Light Hyperspace Motivator"
+		"T1.5 Heavy Fighter Engine (Pink Flare)"
+		"T1 Fighter Hyperspace Motivator"
 		
 	engine -21 61
 	engine 18 61
-	gun -20 -5 "Fighter Laser Cannon (Green)"
-	gun 18 -4 "Fighter Laser Cannon (Green)"
+	gun -20 -5 "Fighter Laser Cannon Imperial (Green)"
+	gun 18 -4 "Fighter Laser Cannon Imperial (Green)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The LAAT/le gunship was a gunship introduced during the Clone Wars to perform law enforcement functions on the Republic capital of Coruscant. Designed to be sleeker and smaller as well as less heavily armed than the Republic attack gunship, the patrol transport was better suited for policing the dense, planet-wide city while reducing the risks of collateral damage."
+	description "The LAAT/le gunship is a gunship that was introduced during the Clone Wars to perform law enforcement functions on the Republic capital of Coruscant. Designed to be sleeker and smaller as well as less heavily armed than the Republic attack gunship, the patrol transport is better suited for policing the dense, planet-wide city while reducing the risks of collateral damage."
 
 
 
-ship "Lambda Shuttle"
+ship "Lambda-class T-4a Shuttle"
 	sprite "ship/lambdashuttle"
 	thumbnail "thumbnail/lambdashuttle"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category Transport
-		"cost" 520000
-		"shields" 5000
-		"hull" 3500
+		"cost" 75000
+		"shields" 3200
+		"hull" 4800
 		"required crew" 2
 		"bunks" 22
 		"mass" 34
-		"drag" 1.1
+		"drag" 1.2
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 238
-		"weapon capacity" 40
-		"engine capacity" 60
+		"outfit space" 20
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
 			"hull damage" 180
 			"hit force" 470
 	outfits
-		"Fighter Laser Cannon (Green)" 5
+		"Fighter Laser Cannon Imperial (Green)" 5
 		
-		"T1.6 Shuttle Power Converter"
-		"T1.6 Shuttle Shield Projector"
+		"T1.3 Shuttle Power Converter"
+		"T1.3 Shuttle Shield Projector"
 		"Small Radar Jammer"
-		"Medium Coolant System" 2
+		"T1 Fighter Coolant System"
 		
-		"Shuttle Engine"
-		"Light Hyperspace Motivator"
+		"T1.3 Shuttle Engine"
+		"T1 Fighter Hyperspace Motivator"
 		
 	engine -21 53
 	engine 23 53
-	gun -35 -25 "Fighter Laser Cannon (Green)"
-	gun -32 -26 "Fighter Laser Cannon (Green)"
-	gun 32 -26 "Fighter Laser Cannon (Green)"
-	gun 35 -26 "Fighter Laser Cannon (Green)"
-	gun 0 -27 "Fighter Laser Cannon (Green)"
+	gun -35 -25 "Fighter Laser Cannon Imperial (Green)"
+	gun -32 -26 "Fighter Laser Cannon Imperial (Green)"
+	gun 32 -26 "Fighter Laser Cannon Imperial (Green)"
+	gun 35 -26 "Fighter Laser Cannon Imperial (Green)"
+	gun 0 -27 "Fighter Laser Cannon Imperial (Green)"
 	explode "tiny explosion" 2
 	explode "small explosion" 4
 	explode "medium explosion" 6
 	explode "large explosion" 8
 	"final explode" "huge explosion" 3
-	description "Lambda T4A Shuttle"
+	description "The Lambda-class T-4a shuttle is a multi-purpose transport with a trihedral foil design. Used by the Galactic Empire during the Galactic Civil War, shuttle is considered to be an elegant departure from the standards of brutish Imperial engineering."
 
 
 
@@ -2394,8 +2585,10 @@ ship "Lancer-class Frigate"
 	sprite "ship/lancerfrigate"
 	thumbnail "thumbnail/lancerfrigate"
 	attributes
+		licenses
+			Imperial
 		category "Light Warship"
-		"cost" 42000000
+		"cost" 4760000
 		"shields" 43000
 		"hull" 11000
 		"required crew" 375
@@ -2418,11 +2611,11 @@ ship "Lancer-class Frigate"
 		
 		"T3.5 Heavy Freighter Power Converter"
 		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"Heavy Freighter Sublight Engine"
-		"Medium Hyperspace Motivator"
+		"T3.5 Heavy Freighter Sublight Engine"
+		"T3 Corvette Hyperspace Motivator"
 	
 	engine -17 338
 	engine -1 338
@@ -2443,7 +2636,7 @@ ship "Lancer-class Frigate"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Lancer-class Frigate"
+	description "The Lancer-class frigate is a capital ship used for anti-starfighter operations in the Imperial Navy. Armed with 20 AG-2G quad laser cannons, the Lancer is designed to combat the major weaknesses of Star Destroyers, commonly called 'Trench Run Disease'."
 
 
 
@@ -2451,6 +2644,8 @@ ship "Legator Star Dreadnought"
 	sprite "ship/legatorstardreadnought"
 	thumbnail "thumbnail/legatorstardreadnought"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
 		"cost" 850000000
 		"shields" 900000
@@ -2471,64 +2666,50 @@ ship "Legator Star Dreadnought"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 20
-		"Dual Turbolaser Turret (Green)" 20
-		"Tractor Beam" 4
+		"Turbolaser Quad Turret (Green)" 32
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -213 892 1
 	engine 213 892 1
-	turret -500 573 "Quad Turbolaser Turret (Green)"
-	turret -500 703 "Quad Turbolaser Turret (Green)"
-	turret -500 848 "Quad Turbolaser Turret (Green)"
-	turret -500 985 "Quad Turbolaser Turret (Green)"
-	turret -500 1090 "Quad Turbolaser Turret (Green)"
-	turret 515 573 "Quad Turbolaser Turret (Green)"
-	turret 515 703 "Quad Turbolaser Turret (Green)"
-	turret 515 848 "Quad Turbolaser Turret (Green)"
-	turret 515 985 "Quad Turbolaser Turret (Green)"
-	turret 515 1090 "Quad Turbolaser Turret (Green)"
-	turret -500 573 "Quad Turbolaser Turret (Green)"
-	turret -500 703 "Quad Turbolaser Turret (Green)"
-	turret -500 848 "Quad Turbolaser Turret (Green)"
-	turret -500 985 "Quad Turbolaser Turret (Green)"
-	turret -500 1090 "Quad Turbolaser Turret (Green)"
-	turret 515 573 "Quad Turbolaser Turret (Green)"
-	turret 515 703 "Quad Turbolaser Turret (Green)"
-	turret 515 848 "Quad Turbolaser Turret (Green)"
-	turret 515 985 "Quad Turbolaser Turret (Green)"
-	turret 515 1090 "Quad Turbolaser Turret (Green)"
-	turret -500 573 "Dual Turbolaser Turret (Green)"
-	turret -500 703 "Dual Turbolaser Turret (Green)"
-	turret -500 848 "Dual Turbolaser Turret (Green)"
-	turret -500 985 "Dual Turbolaser Turret (Green)"
-	turret -500 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 573 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Dual Turbolaser Turret (Green)"
-	turret 515 848 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Dual Turbolaser Turret (Green)"
-	turret 515 848 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 985 "Dual Turbolaser Turret (Green)"
-	turret 515 1090 "Dual Turbolaser Turret (Green)"
-	turret 515 703 "Tractor Beam"
-	turret 515 848 "Tractor Beam"
-	turret 515 985 "Tractor Beam"
-	turret 515 1090 "Tractor Beam"
+	turret -500 573 "Turbolaser Quad Turret (Green)"
+	turret -500 703 "Turbolaser Quad Turret (Green)"
+	turret -500 848 "Turbolaser Quad Turret (Green)"
+	turret -500 985 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret -500 848 "Turbolaser Quad Turret (Green)"
+	turret -500 985 "Turbolaser Quad Turret (Green)"
+	turret -500 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 573 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret -500 573 "Turbolaser Quad Turret (Green)"
+	turret -500 703 "Turbolaser Quad Turret (Green)"
+	turret -500 848 "Turbolaser Quad Turret (Green)"
+	turret -500 985 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
+	turret 515 703 "Turbolaser Quad Turret (Green)"
+	turret 515 848 "Turbolaser Quad Turret (Green)"
+	turret 515 985 "Turbolaser Quad Turret (Green)"
+	turret 515 1090 "Turbolaser Quad Turret (Green)"
 	fighter -37 -65
 	fighter 37 -65
 	fighter -46 40
@@ -2670,7 +2851,7 @@ ship "Legator Star Dreadnought"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Legator-class Star Dreadnought is a massively powerful warship deployed by the Sith Empire and commanded by Admiral Zahori Denko of the Sith-Imperial Armada. The 10,000 meter dreadnought is yet another addition to the many star dreadnoughts under the Sith Empire. (Fighters 140)"
+	description "The Legator-class Star Dreadnought is a 15,000m long ship that utilises the iconic Kuat style wedged shaped hull. Perhaps most frightening feature of the Legator is not its armament, but its fighter complement, in which its fighters alone carried an extreme amount of firepower."
 
 
 
@@ -2678,8 +2859,10 @@ ship "Immobiliser 418 Cruiser"
 	sprite "ship/immobiliser418"
 	thumbnail "thumbnail/immobiliser418"
 	attributes
+		licenses
+			Imperial
 		category "Medium Warship"
-		"cost" 130000000
+		"cost" 52240000
 		"shields" 120000
 		"hull" 45000
 		"required crew" 3000
@@ -2698,39 +2881,38 @@ ship "Immobiliser 418 Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 6
-		"Dual Turbolaser Turret (Green)" 8
-		"Tractor Beam" 2
+		"Turbolaser Quad Turret (Green)" 6
+		"Turbolaser Dual Turret (Green)" 10
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T4.5 Cruiser Power Converter"
+		"T4.5 Cruiser Shield Projector"
+		"T5 Sensor Array"
+		"T4.5 Cruiser Coolant System"
 		
-		"Cruiser Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"T4.5 Cruiser Sublight Engine"
+		"T4.5 Cruiser Hyperspace Motivator"
 		
 	engine -207 800
 	engine -114 800
 	engine -1 813
 	engine 113 801
 	engine 204 800
-	turret -98 498 "Quad Turbolaser Turret (Green)"
-	turret 96 498 "Quad Turbolaser Turret (Green)"
-	turret -83 446 "Quad Turbolaser Turret (Green)"
-	turret 81 446 "Quad Turbolaser Turret (Green)"
-	turret -74 403 "Quad Turbolaser Turret (Green)"
-	turret 71 402 "Quad Turbolaser Turret (Green)"
-	turret -296 614 "Dual Turbolaser Turret (Green)"
-	turret 295 613 "Dual Turbolaser Turret (Green)"
-	turret -260 471 "Dual Turbolaser Turret (Green)"
-	turret 258 470 "Dual Turbolaser Turret (Green)"
-	turret -152 153 "Dual Turbolaser Turret (Green)"
-	turret 151 154 "Dual Turbolaser Turret (Green)"
-	turret -112 -68 "Dual Turbolaser Turret (Green)"
-	turret 111 -68 "Dual Turbolaser Turret (Green)"
-	turret -1 -324 "Tractor Beam"
-	turret -1 -324 "Tractor Beam"
+	turret -98 498 "Turbolaser Quad Turret (Green)"
+	turret 96 498 "Turbolaser Quad Turret (Green)"
+	turret -83 446 "Turbolaser Quad Turret (Green)"
+	turret 81 446 "Turbolaser Quad Turret (Green)"
+	turret -74 403 "Turbolaser Quad Turret (Green)"
+	turret 71 402 "Turbolaser Quad Turret (Green)"
+	turret -296 614 "Turbolaser Dual Turret (Green)"
+	turret 295 613 "Turbolaser Dual Turret (Green)"
+	turret -260 471 "Turbolaser Dual Turret (Green)"
+	turret 258 470 "Turbolaser Dual Turret (Green)"
+	turret -152 153 "Turbolaser Dual Turret (Green)"
+	turret 151 154 "Turbolaser Dual Turret (Green)"
+	turret -112 -68 "Turbolaser Dual Turret (Green)"
+	turret 111 -68 "Turbolaser Dual Turret (Green)"
+	turret -1 -324 "Turbolaser Dual Turret (Green)"
+	turret -1 -324 "Turbolaser Dual Turret (Green)"
 	fighter -1 -324
 	fighter -1 -324
 	fighter -1 -324
@@ -2761,7 +2943,7 @@ ship "Immobiliser 418 Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Immobiliser 418 Cruiser = 24"
+	description "The Immobiliser 418 Cruiser is an Interdictor vessel and cruiser used by the Galactic Empire that is capable of emitting an interdiction field to pull passing ships out of hyperspace. Considered state-of-the-art in 14 BBY, the vessel is built upon a Vindicator-class Heavy Cruiser hull."
 
 
 
@@ -2770,8 +2952,10 @@ ship "Impellor-class Fleet Carrier"
 	sprite "ship/impellorfleetcarrier"
 	thumbnail "thumbnail/impellorfleetcarrier"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 360000000
+		"cost" 520000000
 		"shields" 420000
 		"hull" 1050000
 		"required crew" 12000
@@ -2790,39 +2974,38 @@ ship "Impellor-class Fleet Carrier"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 8
-		"Dual Turbolaser Turret (Green)" 10
-		"Turbolaser Turret (Green)" 10
-		"Tractor Beam" 4
+		"Turbolaser Quad Turret (Green)" 8
+		"Turbolaser Dual Turret (Green)" 10
+		"Turbolaser Turret (Green)" 14
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 
 	engine -720 1186
 	engine 733 1189
-	turret -860 913 "Quad Turbolaser Turret (Green)"
-	turret 867 918 "Quad Turbolaser Turret (Green)"
-	turret -838 823 "Quad Turbolaser Turret (Green)"
-	turret 843 820 "Quad Turbolaser Turret (Green)"
-	turret -813 728 "Quad Turbolaser Turret (Green)"
-	turret 820 726 "Quad Turbolaser Turret (Green)"
-	turret -788 629 "Quad Turbolaser Turret (Green)"
-	turret 795 629 "Quad Turbolaser Turret (Green)"
-	turret -485 -148 "Dual Turbolaser Turret (Green)"
-	turret 489 -149 "Dual Turbolaser Turret (Green)"
-	turret -458 -247 "Dual Turbolaser Turret (Green)"
-	turret 467 -244 "Dual Turbolaser Turret (Green)"
-	turret -437 -341 "Dual Turbolaser Turret (Green)"
-	turret 442 -340 "Dual Turbolaser Turret (Green)"
-	turret -411 -438 "Dual Turbolaser Turret (Green)"
-	turret 417 -440 "Dual Turbolaser Turret (Green)"
-	turret -441 -1509 "Dual Turbolaser Turret (Green)"
-	turret 449 -1510 "Dual Turbolaser Turret (Green)"
+	turret -860 913 "Turbolaser Quad Turret (Green)"
+	turret 867 918 "Turbolaser Quad Turret (Green)"
+	turret -838 823 "Turbolaser Quad Turret (Green)"
+	turret 843 820 "Turbolaser Quad Turret (Green)"
+	turret -813 728 "Turbolaser Quad Turret (Green)"
+	turret 820 726 "Turbolaser Quad Turret (Green)"
+	turret -788 629 "Turbolaser Quad Turret (Green)"
+	turret 795 629 "Turbolaser Quad Turret (Green)"
+	turret -485 -148 "Turbolaser Dual Turret (Green)"
+	turret 489 -149 "Turbolaser Dual Turret (Green)"
+	turret -458 -247 "Turbolaser Dual Turret (Green)"
+	turret 467 -244 "Turbolaser Dual Turret (Green)"
+	turret -437 -341 "Turbolaser Dual Turret (Green)"
+	turret 442 -340 "Turbolaser Dual Turret (Green)"
+	turret -411 -438 "Turbolaser Dual Turret (Green)"
+	turret 417 -440 "Turbolaser Dual Turret (Green)"
+	turret -441 -1509 "Turbolaser Dual Turret (Green)"
+	turret 449 -1510 "Turbolaser Dual Turret (Green)"
 	turret -585 -947 "Turbolaser Turret (Green)"
 	turret 597 -950 "Turbolaser Turret (Green)"
 	turret -722 -410 "Turbolaser Turret (Green)"
@@ -2833,8 +3016,8 @@ ship "Impellor-class Fleet Carrier"
 	turret 1098 963 "Turbolaser Turret (Green)"
 	turret -167 -725 "Turbolaser Turret (Green)"
 	turret -62 -729 "Turbolaser Turret (Green)"
-	turret 66 -729 "Tractor Beam"
-	turret 172 -725 "Tractor Beam"
+	turret 66 -729 "Turbolaser Turret (Green)"
+	turret 172 -725 "Turbolaser Turret (Green)"
 	fighter 66 -729
 	fighter 172 -725
 	fighter -60 -732
@@ -2971,7 +3154,7 @@ ship "Impellor-class Fleet Carrier"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Impellor-class Fleet Carrier was a ship designed to be used as a massive fleet carrier, but improved upon most prior carrier designs with its heavy armament, heavy armour and shielding."
+	description "The Impellor-class Fleet Carrier is a ship designed to be used as a massive fleet carrier, improving upon most prior carrier designs with its balance of heavy armament, heavy armour and shielding."
 
 
 
@@ -2979,8 +3162,10 @@ ship "Imperial Customs Corvette"
 	sprite "ship/imperialcustomscorvette"
 	thumbnail "thumbnail/imperialcustomscorvette"
 	attributes
+		licenses
+			Imperial
 		category "Light Warship"
-		"cost" 15200000
+		"cost" 1000000
 		"shields" 21000
 		"hull" 8200
 		"required crew" 36
@@ -3003,11 +3188,11 @@ ship "Imperial Customs Corvette"
 		
 		"T3 Corvette Power Converter"
 		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"Corvette Sublight Engine (Blue)"
-		"Medium Hyperspace Motivator"
+		"T3 Corvette Sublight Engine (Blue)"
+		"T3 Corvette Hyperspace Motivator"
 		
 	engine -54 226
 	engine 0 226.5
@@ -3024,7 +3209,7 @@ ship "Imperial Customs Corvette"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Rendili StarDrive light corvette, commonly known as the Imperial Customs corvette, was a light starship commonly used by the Imperial Customs Office for patrol and inspection actions."
+	description "The Rendili StarDrive light corvette, commonly known as the Imperial Customs corvette, is a light starship commonly used by the Imperial Customs Office for patrol and inspection actions."
 
 
 
@@ -3032,8 +3217,10 @@ ship "Imperial Customs Corvette (Military)"
 	sprite "ship/imperialcustomscorvettemilitary"
 	thumbnail "thumbnail/imperialcustomscorvettemilitary"
 	attributes
+		licenses
+			Imperial
 		category "Light Warship"
-		"cost" 12000000
+		"cost" 1050000
 		"shields" 23000
 		"hull" 8500
 		"required crew" 36
@@ -3056,11 +3243,11 @@ ship "Imperial Customs Corvette (Military)"
 		
 		"T3 Corvette Power Converter"
 		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"Corvette Sublight Engine (Blue)"
-		"Medium Hyperspace Motivator"
+		"T3 Corvette Sublight Engine (Blue)"
+		"T3 Corvette Hyperspace Motivator"
 		
 	engine -51 216
 	engine 0 217
@@ -3084,18 +3271,20 @@ ship "Imperial Customs Corvette (Military)"
 
 
 
-ship "Imperial I Star Destroyer"
+ship "Imperial I-class Star Destroyer"
 	sprite "ship/imperialidestroyer"
 	thumbnail "thumbnail/imperialidestroyer"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 15200000
+		"cost" 150000000
 		"shields" 200000
-		"hull" 60000
+		"hull" 62500
 		"required crew" 37035
 		"bunks" 47000
-		"mass" 14000
-		"drag" 25
+		"mass" 15000
+		"drag" 26
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
@@ -3108,52 +3297,51 @@ ship "Imperial I Star Destroyer"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 16
-		"Dual Turbolaser Turret (Green)" 12
-		"Tractor Beam" 4
+		"Turbolaser Quad Turret (Green)" 16
+		"Turbolaser Dual Turret (Green)" 16
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 
 	engine -422 1475
 	engine 431 1476
-	turret -474 926 "Quad Turbolaser Turret (Green)"
-	turret -441 926 "Quad Turbolaser Turret (Green)"
-	turret 449 930 "Quad Turbolaser Turret (Green)"
-	turret 482 928 "Quad Turbolaser Turret (Green)"
-	turret -474 836 "Quad Turbolaser Turret (Green)"
-	turret -442 836 "Quad Turbolaser Turret (Green)"
-	turret 449 840 "Quad Turbolaser Turret (Green)"
-	turret 482 838 "Quad Turbolaser Turret (Green)"
-	turret -474 747 "Quad Turbolaser Turret (Green)"
-	turret -442 747 "Quad Turbolaser Turret (Green)"
-	turret 450 748 "Quad Turbolaser Turret (Green)"
-	turret 482 748 "Quad Turbolaser Turret (Green)"
-	turret -474 658 "Quad Turbolaser Turret (Green)"
-	turret -442 657 "Quad Turbolaser Turret (Green)"
-	turret 449 659 "Quad Turbolaser Turret (Green)"
-	turret 482 658 "Quad Turbolaser Turret (Green)"
-	turret -94 -1183 "Dual Turbolaser Turret (Green)"
-	turret 94 -1181 "Dual Turbolaser Turret (Green)"
-	turret -405 -301 "Dual Turbolaser Turret (Green)"
-	turret 411 -302 "Dual Turbolaser Turret (Green)"
-	turret 3 -58 "Dual Turbolaser Turret (Green)"
-	turret 4 -15 "Dual Turbolaser Turret (Green)"
-	turret 4 31 "Dual Turbolaser Turret (Green)"
-	turret -644 360 "Dual Turbolaser Turret (Green)"
-	turret 650 360 "Dual Turbolaser Turret (Green)"
-	turret 4 513 "Dual Turbolaser Turret (Green)"
-	turret -652 979 "Dual Turbolaser Turret (Green)"
-	turret 662 980 "Dual Turbolaser Turret (Green)"
-	turret 4 -264 "Tractor Beam"
-	turret 4 -264 "Tractor Beam"
-	turret 4 -264 "Tractor Beam"
-	turret 4 -264 "Tractor Beam"
+	turret -474 926 "Turbolaser Quad Turret (Green)"
+	turret -441 926 "Turbolaser Quad Turret (Green)"
+	turret 449 930 "Turbolaser Quad Turret (Green)"
+	turret 482 928 "Turbolaser Quad Turret (Green)"
+	turret -474 836 "Turbolaser Quad Turret (Green)"
+	turret -442 836 "Turbolaser Quad Turret (Green)"
+	turret 449 840 "Turbolaser Quad Turret (Green)"
+	turret 482 838 "Turbolaser Quad Turret (Green)"
+	turret -474 747 "Turbolaser Quad Turret (Green)"
+	turret -442 747 "Turbolaser Quad Turret (Green)"
+	turret 450 748 "Turbolaser Quad Turret (Green)"
+	turret 482 748 "Turbolaser Quad Turret (Green)"
+	turret -474 658 "Turbolaser Quad Turret (Green)"
+	turret -442 657 "Turbolaser Quad Turret (Green)"
+	turret 449 659 "Turbolaser Quad Turret (Green)"
+	turret 482 658 "Turbolaser Quad Turret (Green)"
+	turret -94 -1183 "Turbolaser Dual Turret (Green)"
+	turret 94 -1181 "Turbolaser Dual Turret (Green)"
+	turret -405 -301 "Turbolaser Dual Turret (Green)"
+	turret 411 -302 "Turbolaser Dual Turret (Green)"
+	turret 3 -58 "Turbolaser Dual Turret (Green)"
+	turret 4 -15 "Turbolaser Dual Turret (Green)"
+	turret 4 31 "Turbolaser Dual Turret (Green)"
+	turret -644 360 "Turbolaser Dual Turret (Green)"
+	turret 650 360 "Turbolaser Dual Turret (Green)"
+	turret 4 513 "Turbolaser Dual Turret (Green)"
+	turret -652 979 "Turbolaser Dual Turret (Green)"
+	turret 662 980 "Turbolaser Dual Turret (Green)"
+	turret 4 -264 "Turbolaser Dual Turret (Green)"
+	turret 4 -264 "Turbolaser Dual Turret (Green)"
+	turret 4 -264 "Turbolaser Dual Turret (Green)"
+	turret 4 -264 "Turbolaser Dual Turret (Green)"
 	fighter 4 -264
 	fighter 4 -264
 	fighter 4 -264
@@ -3244,14 +3432,16 @@ ship "Imperial I Star Destroyer"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Imperial I Destroyer has a complement of TIE/LN(48), TIE/SA(12), TIE/IN(24) = 84"
+	description "The Imperial I-class Star Destroyer is perhaps the most iconic model in the service of the Imperial Navy. As a wedge-shaped capital ship, it is bristled with weapons emplacements, assault troops, boarding craft, and TIE line starfighters. Easily becoming the most recognisable symbol of Imperial power, the Imperial-class demonstrated its tactical versatility by protecting galactic commerce and bolstering Imperial-backed governments."
 
-ship "Imperial II Star Destroyer"
+ship "Imperial II-class Star Destroyer"
 	sprite "ship/imperialiidestroyer"
 	thumbnail "thumbnail/imperialiidestroyer"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 15200000
+		"cost" 150000000
 		"shields" 210000
 		"hull" 63000
 		"required crew" 37035
@@ -3270,52 +3460,51 @@ ship "Imperial II Star Destroyer"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 16
-		"Dual Turbolaser Turret (Green)" 12
-		"Tractor Beam" 4
+		"Turbolaser Quad Turret (Green)" 16
+		"Turbolaser Dual Turret (Green)" 16
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -422 1475
 	engine 431 1476
-	turret -474 926 "Quad Turbolaser Turret (Green)"
-	turret -441 926 "Quad Turbolaser Turret (Green)"
-	turret 449 930 "Quad Turbolaser Turret (Green)"
-	turret 482 928 "Quad Turbolaser Turret (Green)"
-	turret -474 836 "Quad Turbolaser Turret (Green)"
-	turret -442 836 "Quad Turbolaser Turret (Green)"
-	turret 449 840 "Quad Turbolaser Turret (Green)"
-	turret 482 838 "Quad Turbolaser Turret (Green)"
-	turret -474 747 "Quad Turbolaser Turret (Green)"
-	turret -442 747 "Quad Turbolaser Turret (Green)"
-	turret 450 748 "Quad Turbolaser Turret (Green)"
-	turret 482 748 "Quad Turbolaser Turret (Green)"
-	turret -474 658 "Quad Turbolaser Turret (Green)"
-	turret -442 657 "Quad Turbolaser Turret (Green)"
-	turret 449 659 "Quad Turbolaser Turret (Green)"
-	turret 482 658 "Quad Turbolaser Turret (Green)"
-	turret -94 -1183 "Dual Turbolaser Turret (Green)"
-	turret 94 -1181 "Dual Turbolaser Turret (Green)"
-	turret -405 -301 "Dual Turbolaser Turret (Green)"
-	turret 411 -302 "Dual Turbolaser Turret (Green)"
-	turret 3 -58 "Dual Turbolaser Turret (Green)"
-	turret 4 -15 "Dual Turbolaser Turret (Green)"
-	turret 4 31 "Dual Turbolaser Turret (Green)"
-	turret -644 360 "Dual Turbolaser Turret (Green)"
-	turret 650 360 "Dual Turbolaser Turret (Green)"
-	turret 4 513 "Dual Turbolaser Turret (Green)"
-	turret -652 979 "Dual Turbolaser Turret (Green)"
-	turret 662 980 "Dual Turbolaser Turret (Green)"
-	turret 4 -264 "Tractor Beam"
-	turret 4 -264 "Tractor Beam"
-	turret 4 -264 "Tractor Beam"
-	turret 4 -264 "Tractor Beam"
+	turret -474 926 "Turbolaser Quad Turret (Green)"
+	turret -441 926 "Turbolaser Quad Turret (Green)"
+	turret 449 930 "Turbolaser Quad Turret (Green)"
+	turret 482 928 "Turbolaser Quad Turret (Green)"
+	turret -474 836 "Turbolaser Quad Turret (Green)"
+	turret -442 836 "Turbolaser Quad Turret (Green)"
+	turret 449 840 "Turbolaser Quad Turret (Green)"
+	turret 482 838 "Turbolaser Quad Turret (Green)"
+	turret -474 747 "Turbolaser Quad Turret (Green)"
+	turret -442 747 "Turbolaser Quad Turret (Green)"
+	turret 450 748 "Turbolaser Quad Turret (Green)"
+	turret 482 748 "Turbolaser Quad Turret (Green)"
+	turret -474 658 "Turbolaser Quad Turret (Green)"
+	turret -442 657 "Turbolaser Quad Turret (Green)"
+	turret 449 659 "Turbolaser Quad Turret (Green)"
+	turret 482 658 "Turbolaser Quad Turret (Green)"
+	turret -94 -1183 "Turbolaser Dual Turret (Green)"
+	turret 94 -1181 "Turbolaser Dual Turret (Green)"
+	turret -405 -301 "Turbolaser Dual Turret (Green)"
+	turret 411 -302 "Turbolaser Dual Turret (Green)"
+	turret 3 -58 "Turbolaser Dual Turret (Green)"
+	turret 4 -15 "Turbolaser Dual Turret (Green)"
+	turret 4 31 "Turbolaser Dual Turret (Green)"
+	turret -644 360 "Turbolaser Dual Turret (Green)"
+	turret 650 360 "Turbolaser Dual Turret (Green)"
+	turret 4 513 "Turbolaser Dual Turret (Green)"
+	turret -652 979 "Turbolaser Dual Turret (Green)"
+	turret 662 980 "Turbolaser Dual Turret (Green)"
+	turret 4 -264 "Turbolaser Dual Turret (Green)"
+	turret 4 -264 "Turbolaser Dual Turret (Green)"
+	turret 4 -264 "Turbolaser Dual Turret (Green)"
+	turret 4 -264 "Turbolaser Dual Turret (Green)"
 	fighter 4 -264
 	fighter 4 -264
 	fighter 4 -264
@@ -3406,7 +3595,7 @@ ship "Imperial II Star Destroyer"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Imperial II Destroyer has a complement of TIE/LN(48), TIE/SA(12), TIE/IN(24) = 84"
+	description "The Imperial II-class Star Destroyer is a Star Destroyer model manufactured by Kuat Drive Yards for use by the Imperial Navy. Part of the Imperial-class line, the class served as successor to the Imperial I-class Star Destroyer."
 
 
 
@@ -3414,8 +3603,10 @@ ship "Imperial Tanker"
 	sprite "ship/imperialtanker"
 	thumbnail "thumbnail/imperialtanker"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Freighter"
-		"cost" 15200000
+		"cost" 3900000
 		"shields" 37000
 		"hull" 10000
 		"required crew" 50
@@ -3428,31 +3619,32 @@ ship "Imperial Tanker"
 		"outfit space" 729
 		"weapon capacity" 340
 		"engine capacity" 210
+		"defenceless capacity" -1
 		weapon
 			"blast radius" 300
 			"shield damage" 700
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"GR-75"
+		"Defenceless"
 		
 		"T3 Corvette Power Converter"
 		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"Corvette Sublight Engine (Blue)"
-		"Medium Hyperspace Motivator"
+		"T3 Corvette Sublight Engine (Blue)"
+		"T3 Corvette Hyperspace Motivator"
 		
 	engine -34 278
 	engine 28 278
-	turret -2 -149 "GR-75"
+	turret -2 -149 "Defenceless"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Imperial tankers were long, tube-shaped transports in use by the Galactic Empire during the Galactic Civil War. One of their uses was transporting tibanna gas."
+	description "Imperial tankers are long, tube-shaped transports in use by the Galactic Empire during the Galactic Civil War. One of their uses is transporting tibanna gas."
 
 
 
@@ -3460,8 +3652,10 @@ ship "Interdictor Star Destroyer"
 	sprite "ship/interdictordestroyer"
 	thumbnail "thumbnail/interdictordestroyer"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 15200000
+		"cost" 175000000
 		"shields" 190000
 		"hull" 60000
 		"required crew" 9300
@@ -3480,52 +3674,51 @@ ship "Interdictor Star Destroyer"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"Quad Turbolaser Turret (Green)" 14
-		"Dual Turbolaser Turret (Green)" 14
-		"Tractor Beam" 4
+		"Turbolaser Quad Turret (Green)" 14
+		"Turbolaser Dual Turret (Green)" 18
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 
 	engine -395 1336
 	engine 384 1335
-	turret -440 932 "Quad Turbolaser Turret (Green)"
-	turret -441 906 "Quad Turbolaser Turret (Green)"
-	turret 441 933 "Quad Turbolaser Turret (Green)"
-	turret 442 905 "Quad Turbolaser Turret (Green)"
-	turret -448 805 "Quad Turbolaser Turret (Green)"
-	turret 450 805 "Quad Turbolaser Turret (Green)"
-	turret -126 388 "Quad Turbolaser Turret (Green)"
-	turret 125 388 "Quad Turbolaser Turret (Green)"
-	turret 1 293 "Quad Turbolaser Turret (Green)"
-	turret 1 250 "Quad Turbolaser Turret (Green)"
-	turret -598 325 "Quad Turbolaser Turret (Green)"
-	turret 598 324 "Quad Turbolaser Turret (Green)"
-	turret -311 895 "Quad Turbolaser Turret (Green)"
-	turret 320 897 "Quad Turbolaser Turret (Green)"
-	turret -93 -1099 "Dual Turbolaser Turret (Green)"
-	turret 81 -1100 "Dual Turbolaser Turret (Green)"
-	turret -171 -755 "Dual Turbolaser Turret (Green)"
-	turret 173 -756 "Dual Turbolaser Turret (Green)"
-	turret -376 -289 "Dual Turbolaser Turret (Green)"
-	turret 371 -291 "Dual Turbolaser Turret (Green)"
-	turret -250 306 "Dual Turbolaser Turret (Green)"
-	turret 248 307 "Dual Turbolaser Turret (Green)"
-	turret -289 714 "Dual Turbolaser Turret (Green)"
-	turret 279 725 "Dual Turbolaser Turret (Green)"
-	turret -336 1107 "Dual Turbolaser Turret (Green)"
-	turret 338 1108 "Dual Turbolaser Turret (Green)"
-	turret -202 478 "Dual Turbolaser Turret (Green)"
-	turret 207 476 "Dual Turbolaser Turret (Green)"
-	turret -1 -253 "Tractor Beam"
-	turret -1 -253 "Tractor Beam"
-	turret -1 -253 "Tractor Beam"
-	turret -1 -253 "Tractor Beam"
+	turret -440 932 "Turbolaser Quad Turret (Green)"
+	turret -441 906 "Turbolaser Quad Turret (Green)"
+	turret 441 933 "Turbolaser Quad Turret (Green)"
+	turret 442 905 "Turbolaser Quad Turret (Green)"
+	turret -448 805 "Turbolaser Quad Turret (Green)"
+	turret 450 805 "Turbolaser Quad Turret (Green)"
+	turret -126 388 "Turbolaser Quad Turret (Green)"
+	turret 125 388 "Turbolaser Quad Turret (Green)"
+	turret 1 293 "Turbolaser Quad Turret (Green)"
+	turret 1 250 "Turbolaser Quad Turret (Green)"
+	turret -598 325 "Turbolaser Quad Turret (Green)"
+	turret 598 324 "Turbolaser Quad Turret (Green)"
+	turret -311 895 "Turbolaser Quad Turret (Green)"
+	turret 320 897 "Turbolaser Quad Turret (Green)"
+	turret -93 -1099 "Turbolaser Dual Turret (Green)"
+	turret 81 -1100 "Turbolaser Dual Turret (Green)"
+	turret -171 -755 "Turbolaser Dual Turret (Green)"
+	turret 173 -756 "Turbolaser Dual Turret (Green)"
+	turret -376 -289 "Turbolaser Dual Turret (Green)"
+	turret 371 -291 "Turbolaser Dual Turret (Green)"
+	turret -250 306 "Turbolaser Dual Turret (Green)"
+	turret 248 307 "Turbolaser Dual Turret (Green)"
+	turret -289 714 "Turbolaser Dual Turret (Green)"
+	turret 279 725 "Turbolaser Dual Turret (Green)"
+	turret -336 1107 "Turbolaser Dual Turret (Green)"
+	turret 338 1108 "Turbolaser Dual Turret (Green)"
+	turret -202 478 "Turbolaser Dual Turret (Green)"
+	turret 207 476 "Turbolaser Dual Turret (Green)"
+	turret -1 -253 "Turbolaser Dual Turret (Green)"
+	turret -1 -253 "Turbolaser Dual Turret (Green)"
+	turret -1 -253 "Turbolaser Dual Turret (Green)"
+	turret -1 -253 "Turbolaser Dual Turret (Green)"
 	fighter -1 -253
 	fighter -1 -253
 	fighter -1 -253
@@ -3592,7 +3785,7 @@ ship "Interdictor Star Destroyer"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Interdictor Destroyer has a complement of TIE/LN(60) = 60"
+	description "The Interdictor-class Star Destroyer is a variant of the Imperial I-class Star Destroyer equipped with gravity well projectors. Improving upon the Sienar Fleet Systems' Immobiliser 418 Cruiser, Kuat Drive Yards designed the Interdictor-class Star Destroyer to be capable of holding its own without escorts."
 
 
 
@@ -3600,9 +3793,11 @@ ship "Indictor-class Electronic Warfare Star Corvette"
 	sprite "ship/indictorstarcorvette"
 	thumbnail "thumbnail/indictorstarcorvette"
 	attributes
+		licenses
+			Imperial
 		category "Light Warship"
-		"cost" 34000000
-		"shields" 36000
+		"cost" 4300000
+		"shields" 37000
 		"hull" 10000
 		"required crew" 200
 		"bunks" 400
@@ -3624,11 +3819,11 @@ ship "Indictor-class Electronic Warfare Star Corvette"
 		
 		"T3 Corvette Power Converter"
 		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
+		"T5 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"Corvette Sublight Engine (Blue)"
-		"Medium Hyperspace Motivator"
+		"T3 Corvette Sublight Engine (Blue)"
+		"T3 Corvette Hyperspace Motivator"
 		
 	engine -1 338
 	turret 0 -83 "Turbolaser Turret (Green)"
@@ -3639,7 +3834,7 @@ ship "Indictor-class Electronic Warfare Star Corvette"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Created for the ISB as well as other lesser known and more shadowed agencies, the Indictor class corvette was the most specialized warship serving in the Imperial Navy as well as one of the rarest. The ships sensors were powerful, able to log, track and identify thousands of targets at the same time, recording data all the time."
+	description "Created for the ISB as well as other lesser known and more shadowed agencies, the Indictor class corvette is the most specialised warship serving in the Imperial Navy as well as one of the rarest. The ships sensors are powerful, able to log, track and identify thousands of targets at the same time, recording data all the time."
 
 
 
@@ -3647,20 +3842,22 @@ ship "Intersector-class Sloop"
 	sprite "ship/intersectorsloop"
 	thumbnail "thumbnail/intersectorsloop"
 	attributes
+		licenses
+			Imperial
 		category "Transport"
-		"cost" 670000
-		"shields" 8000
-		"hull" 6000
+		"cost" 100000
+		"shields" 4000
+		"hull" 6400
 		"required crew" 2
 		"bunks" 17
 		"mass" 125
-		"drag" 2.3
+		"drag" 3.3
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 340
-		"weapon capacity" 120
-		"engine capacity" 70
+		"outfit space" 71
+		"weapon capacity" 14
+		"engine capacity" 20
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -3669,16 +3866,16 @@ ship "Intersector-class Sloop"
 	outfits
 		"Transport Laser Cannon (Green)" 2
 		"Proton Torpedo Launcher" 2
-		"MG9 Proton Torpedo" 6
+		"Proton Torpedo" 6
 		"Transport Dual Laser Turret (Green)" 2
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T2 Sensor Array"
+		"T2 Transport Coolant System"
 		
-		"Transport Sublight Engine"
-		"Medium Hyperspace Motivator"
+		"T2 Transport Sublight Engine"
+		"T2 Transport Hyperspace Motivator"
 		
 	engine -27 76
 	engine -19 75
@@ -3698,7 +3895,7 @@ ship "Intersector-class Sloop"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, was a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 was used as a freighter and transport, and some saw service as intermodal tugs in orbital freight yards."
+	description "The Intersector-class Sloop is a type of light freighter utilised by the Galactic Empire. Used as a freighter and transport, they are often serve as intermodal tugs in orbital freight yards."
 
 
 
@@ -3707,8 +3904,10 @@ ship "IPV-1 System Patrol Craft"
 	sprite "ship/ipv1systempatrolcraft"
 	thumbnail "thumbnail/ipv1systempatrolcraft"
 	attributes
+		licenses
+			Imperial
 		category "Light Warship"
-		"cost" 1400000
+		"cost" 650000
 		"shields" 14000
 		"hull" 7600
 		"required crew" 3
@@ -3732,11 +3931,11 @@ ship "IPV-1 System Patrol Craft"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T2 Sensor Array"
+		"T2 Transport Coolant System"
 		
-		"Transport Sublight Engine"
-		"Medium Hyperspace Motivator"
+		"T2 Transport Sublight Engine"
+		"T2 Transport Hyperspace Motivator"
 	
 	engine -25 182
 	engine 0 185
@@ -3750,7 +3949,7 @@ ship "IPV-1 System Patrol Craft"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The IPV-1 System Patrol Craft, also known as the Imperial patrol vessel,[4] Imperial patrol vehicle or IPV-1-class corvette, was a standard system security and customs vessel commonly used near planets to interdict smugglers and protect against piracy. It was produced by Republic Sienar Systems. Being very fast and manoeuvrable, they patrolled Republic and later Imperial sectors when larger ships were unavailable. They were regarded as the first line of defence against purveyors of contraband and various organisations attempting insurrection against a system, and relied on their speed to catch and disable or destroy enemy craft."
+	description "The IPV-1 System Patrol Craft is a standard system security and customs vessel commonly used near planets to interdict smugglers and protect against piracy. Produced by Republic Sienar Systems, the craft is very fast and manoeuvrable for its size, patrolling Imperial sectors when larger ships are unavailable. They are regarded as the first line of defence against purveyors of contraband and various organisations attempting insurrection against a system, and rely on their speed to catch and disable or destroy enemy craft."
 
 
 
@@ -3759,9 +3958,11 @@ ship "Kontos-class Star Frigate"
 	sprite "ship/kontosstarfrigate"
 	thumbnail "thumbnail/kontosstarfrigate"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 110000000
-		"shields" 117500
+		"cost" 26500000
+		"shields" 109000
 		"hull" 40500
 		"required crew" 2200
 		"bunks" 4000
@@ -3779,38 +3980,37 @@ ship "Kontos-class Star Frigate"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 6
-		"Dual Turbolaser Turret (Green)" 9
-		"Tractor Beam" 2
+		"Turbolaser Quad Turret (Green)" 6
+		"Turbolaser Dual Turret (Green)" 11
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -201 397
 	engine 201 397
 	engine 0 504
-	turret -205 116 "Quad Turbolaser Turret (Green)"
-	turret 203 117 "Quad Turbolaser Turret (Green)"
-	turret -94 -71 "Quad Turbolaser Turret (Green)"
-	turret 93 -71 "Quad Turbolaser Turret (Green)"
-	turret -106 -262 "Quad Turbolaser Turret (Green)"
-	turret 105 -263 "Quad Turbolaser Turret (Green)"
-	turret -80 540 "Dual Turbolaser Turret (Green)"
-	turret 79 540 "Dual Turbolaser Turret (Green)"
-	turret -190 -137 "Dual Turbolaser Turret (Green)"
-	turret 189 -136 "Dual Turbolaser Turret (Green)"
-	turret -164 -240 "Dual Turbolaser Turret (Green)"
-	turret 162 -241 "Dual Turbolaser Turret (Green)"
-	turret 0 -750 "Dual Turbolaser Turret (Green)"
-	turret -1 729 "Dual Turbolaser Turret (Green)"
-	turret -1 -275 "Dual Turbolaser Turret (Green)"
-	turret 0 -25 "Tractor Beam"
-	turret 0 -25 "Tractor Beam"
+	turret -205 116 "Turbolaser Quad Turret (Green)"
+	turret 203 117 "Turbolaser Quad Turret (Green)"
+	turret -94 -71 "Turbolaser Quad Turret (Green)"
+	turret 93 -71 "Turbolaser Quad Turret (Green)"
+	turret -106 -262 "Turbolaser Quad Turret (Green)"
+	turret 105 -263 "Turbolaser Quad Turret (Green)"
+	turret -80 540 "Turbolaser Dual Turret (Green)"
+	turret 79 540 "Turbolaser Dual Turret (Green)"
+	turret -190 -137 "Turbolaser Dual Turret (Green)"
+	turret 189 -136 "Turbolaser Dual Turret (Green)"
+	turret -164 -240 "Turbolaser Dual Turret (Green)"
+	turret 162 -241 "Turbolaser Dual Turret (Green)"
+	turret 0 -750 "Turbolaser Dual Turret (Green)"
+	turret -1 729 "Turbolaser Dual Turret (Green)"
+	turret -1 -275 "Turbolaser Dual Turret (Green)"
+	turret 0 -25 "Turbolaser Dual Turret (Green)"
+	turret 0 -25 "Turbolaser Dual Turret (Green)"
 	fighter 0 -25
 	fighter 0 -25
 	fighter 0 -25
@@ -3833,20 +4033,22 @@ ship "Kontos-class Star Frigate"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description  "Kontos-class Star Frigate (Fighters 16)"
+	description  "The Kontos-class Star Frigate is one of the more uncommon picket-line frigate and support ship used by the Imperial Navy. Following the arrowhead shape of many Kuat Drive Yards designs, the vessel is capable of holding its own against smaller capital ships, even having its own TIE fighter complement."
 
 
 
 
-ship "TIE/AD Fighter"
-	sprite "ship/tieadfighter"
-	thumbnail "thumbnail/tieadfighter"
+ship "TIE/AD x1 Fighter"
+	sprite "ship/tieadx1fighter"
+	thumbnail "thumbnail/tieadx1fighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
-		"cost" 129000
-		"shields" 2000
-		"hull" 1000
+		"cost" 168000
+		"shields" 1650
+		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -3862,37 +4064,40 @@ ship "TIE/AD Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
-		"Light Hyperspace Motivator"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -7 25
 	engine 5 24
-	gun -11 -12 "Fighter Laser Cannon (Green)"
-	gun 11 -12 "Fighter Laser Cannon (Green)"
+	gun -11 -12 "Fighter Laser Cannon Imperial (Green)"
+	gun 11 -12 "Fighter Laser Cannon Imperial (Green)"
 	gun -11 -12 "Concussion Missile Launcher"
 	gun 11 -12 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "TIE/AD Fighter"
+	description "The TIE Advanced x1, also known as "TIE/x1", is an advanced prototype starfighter touted as a replacement for the standard TIE Fighter. While not intended for production, many of its best design features have been incorporated into the TIE/SA Bomber and TIE/IN Interceptor."
 
 
 
-ship "TIE/AD Fighter (Fighter)"
-	sprite "ship/tieadfighter"
-	thumbnail "thumbnail/tieadfighter"
+ship "TIE/AD x1 Fighter (Fighter)"
+	sprite "ship/tieadx1fighter"
+	thumbnail "thumbnail/tieadx1fighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
-		"cost" 129000
-		"shields" 2000
-		"hull" 1000
+		"cost" 168000
+		"shields" 1650
+		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -3908,25 +4113,26 @@ ship "TIE/AD Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
-		"Light Hyperspace Motivator"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -7 25
 	engine 5 24
-	gun -11 -12 "Fighter Laser Cannon (Green)"
-	gun 11 -12 "Fighter Laser Cannon (Green)"
+	gun -11 -12 "Fighter Laser Cannon Imperial (Green)"
+	gun 11 -12 "Fighter Laser Cannon Imperial (Green)"
 	gun -11 -12 "Concussion Missile Launcher"
 	gun 11 -12 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "TIE/AD Fighter"
+	description "The TIE Advanced x1, also known as "TIE/x1", is an advanced prototype starfighter touted as a replacement for the standard TIE Fighter. While not intended for production, many of its best design features have been incorporated into the TIE/SA Bomber and TIE/IN Interceptor."
 
 
 
@@ -3935,10 +4141,12 @@ ship "TIE/D Fighter"
 	thumbnail "thumbnail/tiedfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
 		"cost" 300000
-		"shields" 2300
-		"hull" 1100
+		"shields" 3100
+		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -3954,30 +4162,31 @@ ship "TIE/D Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 4
-		"Fighter Ion Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 4
+		"Fighter Ion Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
-		"Light Hyperspace Motivator"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -4 17
 	engine 6 16
-	gun -20 -24 "Fighter Laser Cannon (Green)"
-	gun -13 -22 "Fighter Laser Cannon (Green)"
-	gun 14 -23 "Fighter Laser Cannon (Green)"
-	gun 20 -24 "Fighter Laser Cannon (Green)"
-	gun -6 -30 "Fighter Ion Cannon (Green)"
-	gun 6 -30 "Fighter Ion Cannon (Green)"
+	gun -20 -24 "Fighter Laser Cannon Imperial (Green)"
+	gun -13 -22 "Fighter Laser Cannon Imperial (Green)"
+	gun 14 -23 "Fighter Laser Cannon Imperial (Green)"
+	gun 20 -24 "Fighter Laser Cannon Imperial (Green)"
+	gun -6 -30 "Fighter Ion Cannon Imperial (Green)"
+	gun 6 -30 "Fighter Ion Cannon Imperial (Green)"
 	gun -5 -4 "Concussion Missile Launcher"
 	gun 6 -4 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "TIE/D Fighter"
+	description "The TIE/D Defender is a high-performance TIE Series starfighter developed for the Imperial Navy by Sienar Fleet Systems. Representing a shift in starfighter design from previous TIE models, the ship features a hyperdrive as well as deflector shields to allow it to operate independently of Imperial capital ships. The ship's speed and agility, combined with its arsenal of four laser cannons, two ion cannons, two warhead launchers and an optional tractor beam projector make it arguably the most advanced starfighter available."
 
 
 
@@ -3986,10 +4195,12 @@ ship "TIE/D Fighter (Fighter)"
 	thumbnail "thumbnail/tiedfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
 		"cost" 300000
-		"shields" 2300
-		"hull" 1100
+		"shields" 3100
+		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -4005,29 +4216,31 @@ ship "TIE/D Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 4
-		"Fighter Ion Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 4
+		"Fighter Ion Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -4 17
 	engine 6 16
-	gun -20 -24 "Fighter Laser Cannon (Green)"
-	gun -13 -22 "Fighter Laser Cannon (Green)"
-	gun 14 -23 "Fighter Laser Cannon (Green)"
-	gun 20 -24 "Fighter Laser Cannon (Green)"
-	gun -6 -30 "Fighter Ion Cannon (Green)"
-	gun 6 -30 "Fighter Ion Cannon (Green)"
+	gun -20 -24 "Fighter Laser Cannon Imperial (Green)"
+	gun -13 -22 "Fighter Laser Cannon Imperial (Green)"
+	gun 14 -23 "Fighter Laser Cannon Imperial (Green)"
+	gun 20 -24 "Fighter Laser Cannon Imperial (Green)"
+	gun -6 -30 "Fighter Ion Cannon Imperial (Green)"
+	gun 6 -30 "Fighter Ion Cannon Imperial (Green)"
 	gun -5 -4 "Concussion Missile Launcher"
 	gun 6 -4 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "TIE/D Fighter"
+	description "The TIE/D Defender is a high-performance TIE Series starfighter developed for the Imperial Navy by Sienar Fleet Systems. Representing a shift in starfighter design from previous TIE models, the ship features a hyperdrive as well as deflector shields to allow it to operate independently of Imperial capital ships. The ship's speed and agility, combined with its arsenal of four laser cannons, two ion cannons, two warhead launchers and an optional tractor beam projector make it arguably the most advanced starfighter available."
 
 
 
@@ -4036,6 +4249,8 @@ ship "TIE/D Fighter (Red)"
 	thumbnail "thumbnail/tiedfighterred"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
 		"cost" 300000
 		"shields" 2300
@@ -4055,30 +4270,31 @@ ship "TIE/D Fighter (Red)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 4
-		"Fighter Ion Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 4
+		"Fighter Ion Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
-		"Light Hyperspace Motivator"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -4 17
 	engine 6 16
-	gun -20 -24 "Fighter Laser Cannon (Green)"
-	gun -13 -22 "Fighter Laser Cannon (Green)"
-	gun 14 -23 "Fighter Laser Cannon (Green)"
-	gun 20 -24 "Fighter Laser Cannon (Green)"
-	gun -6 -30 "Fighter Ion Cannon (Green)"
-	gun 6 -30 "Fighter Ion Cannon (Green)"
+	gun -20 -24 "Fighter Laser Cannon Imperial (Green)"
+	gun -13 -22 "Fighter Laser Cannon Imperial (Green)"
+	gun 14 -23 "Fighter Laser Cannon Imperial (Green)"
+	gun 20 -24 "Fighter Laser Cannon Imperial (Green)"
+	gun -6 -30 "Fighter Ion Cannon Imperial (Green)"
+	gun 6 -30 "Fighter Ion Cannon Imperial (Green)"
 	gun -5 -4 "Concussion Missile Launcher"
 	gun 6 -4 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "TIE/D Fighter"
+	description "The TIE/D Defender is a high-performance TIE Series starfighter developed for the Imperial Navy by Sienar Fleet Systems. Representing a shift in starfighter design from previous TIE models, the ship features a hyperdrive as well as deflector shields to allow it to operate independently of Imperial capital ships. The ship's speed and agility, combined with its arsenal of four laser cannons, two ion cannons, two warhead launchers and an optional tractor beam projector make it arguably the most advanced starfighter available."
 
 
 
@@ -4087,6 +4303,8 @@ ship "TIE/D Fighter (Red) (Fighter)"
 	thumbnail "thumbnail/tiedfighterred"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
 		"cost" 300000
 		"shields" 2300
@@ -4106,29 +4324,31 @@ ship "TIE/D Fighter (Red) (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 4
-		"Fighter Ion Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 4
+		"Fighter Ion Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -4 17
 	engine 6 16
-	gun -20 -24 "Fighter Laser Cannon (Green)"
-	gun -13 -22 "Fighter Laser Cannon (Green)"
-	gun 14 -23 "Fighter Laser Cannon (Green)"
-	gun 20 -24 "Fighter Laser Cannon (Green)"
-	gun -6 -30 "Fighter Ion Cannon (Green)"
-	gun 6 -30 "Fighter Ion Cannon (Green)"
+	gun -20 -24 "Fighter Laser Cannon Imperial (Green)"
+	gun -13 -22 "Fighter Laser Cannon Imperial (Green)"
+	gun 14 -23 "Fighter Laser Cannon Imperial (Green)"
+	gun 20 -24 "Fighter Laser Cannon Imperial (Green)"
+	gun -6 -30 "Fighter Ion Cannon Imperial (Green)"
+	gun 6 -30 "Fighter Ion Cannon Imperial (Green)"
 	gun -5 -4 "Concussion Missile Launcher"
 	gun 6 -4 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "TIE/D Fighter"
+	description "The TIE/D Defender is a high-performance TIE Series starfighter developed for the Imperial Navy by Sienar Fleet Systems. Representing a shift in starfighter design from previous TIE models, the ship features a hyperdrive as well as deflector shields to allow it to operate independently of Imperial capital ships. The ship's speed and agility, combined with its arsenal of four laser cannons, two ion cannons, two warhead launchers and an optional tractor beam projector make it arguably the most advanced starfighter available."
 
 
 
@@ -4137,10 +4357,12 @@ ship "TIE/DG Fighter"
 	thumbnail "thumbnail/tiedgfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
-		"cost" 129000
+		"cost" 80000
 		"shields" 0
-		"hull" 1000
+		"hull" 2450
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -4155,19 +4377,20 @@ ship "TIE/DG Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		
-		"T1 Fighter Power Converter"	
-		"Light Coolant System"
+		"T1 Fighter Power Converter"
+		"T1 Sensor Array"	
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 
 	engine -6 22
 	engine 6 22
-	gun -28 -30 "Fighter Laser Cannon (Green)"
-	gun 29 -30 "Fighter Laser Cannon (Green)"
+	gun -28 -30 "Fighter Laser Cannon Imperial (Green)"
+	gun 29 -30 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "TIE/DG Fighter"
+	description "The TIE/DG Fighter, also known as the TIE dagger or the Sith TIE fighter, is a type of Sith affiliated TIE line starship that was forged in secret by forces under the command of the reborn Emperor Palpatine, along with the Xyston-class Star Destroyer and other new technology created by the Final Order."
 
 
 
@@ -4176,10 +4399,12 @@ ship "TIE/DG Fighter (Fighter)"
 	thumbnail "thumbnail/tiedgfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
-		"cost" 129000
+		"cost" 80000
 		"shields" 0
-		"hull" 1000
+		"hull" 2450
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -4194,19 +4419,20 @@ ship "TIE/DG Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		
-		"T1 Fighter Power Converter"	
-		"Light Coolant System"
+		"T1 Fighter Power Converter"
+		"T1 Sensor Array"	
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 
 	engine -6 22
 	engine 6 22
-	gun -28 -30 "Fighter Laser Cannon (Green)"
-	gun 29 -30 "Fighter Laser Cannon (Green)"
+	gun -28 -30 "Fighter Laser Cannon Imperial (Green)"
+	gun 29 -30 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "TIE/DG Fighter"
+	description "The TIE/DG Fighter, also known as the TIE dagger or the Sith TIE fighter, is a type of Sith affiliated TIE line starship that was forged in secret by forces under the command of the reborn Emperor Palpatine, along with the Xyston-class Star Destroyer and other new technology created by the Final Order."
 
 
 
@@ -4215,10 +4441,12 @@ ship "TIE/IN Fighter"
 	thumbnail "thumbnail/tieinfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
-		"cost" 129000
+		"cost" 80000
 		"shields" 0
-		"hull" 1000
+		"hull" 2450
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -4233,21 +4461,22 @@ ship "TIE/IN Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 4
+		"Fighter Laser Cannon Imperial (Green)" 4
 		
-		"T1 Fighter Power Converter"	
-		"Light Coolant System"
+		"T1 Fighter Power Converter"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 
 	engine -7 28
 	engine 6 29
-	gun -27 -36 "Fighter Laser Cannon (Green)"
-	gun 27 -38 "Fighter Laser Cannon (Green)"
-	gun -27 -36 "Fighter Laser Cannon (Green)"
-	gun 27 -38 "Fighter Laser Cannon (Green)"
+	gun -27 -36 "Fighter Laser Cannon Imperial (Green)"
+	gun 27 -38 "Fighter Laser Cannon Imperial (Green)"
+	gun -27 -36 "Fighter Laser Cannon Imperial (Green)"
+	gun 27 -38 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "TIE/IN Fighter"
+	description "The TIE/IN interceptor, also known as the TIE Interceptor, is a type of TIE fighter used by the Galactic Empire. The interceptor is identifiable by its addition of four arrow-shaped panels tipped with laser cannons. The TIE/IN interceptor is a far deadlier opponent than the standard TIE/ln space superiority starfighter and features four very recognizable pointed solar panels."
 
 
 
@@ -4256,10 +4485,12 @@ ship "TIE/IN Fighter (Fighter)"
 	thumbnail "thumbnail/tieinfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
-		"cost" 129000
+		"cost" 80000
 		"shields" 0
-		"hull" 1000
+		"hull" 2450
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -4274,21 +4505,22 @@ ship "TIE/IN Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 4
+		"Fighter Laser Cannon Imperial (Green)" 4
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 
 	engine -7 28
 	engine 6 29
-	gun -27 -36 "Fighter Laser Cannon (Green)"
-	gun 27 -38 "Fighter Laser Cannon (Green)"
-	gun -27 -36 "Fighter Laser Cannon (Green)"
-	gun 27 -38 "Fighter Laser Cannon (Green)"
+	gun -27 -36 "Fighter Laser Cannon Imperial (Green)"
+	gun 27 -38 "Fighter Laser Cannon Imperial (Green)"
+	gun -27 -36 "Fighter Laser Cannon Imperial (Green)"
+	gun 27 -38 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "TIE/IN Fighter"
+	description "The TIE/IN interceptor, also known as the TIE Interceptor, is a type of TIE fighter used by the Galactic Empire. The interceptor is identifiable by its addition of four arrow-shaped panels tipped with laser cannons. The TIE/IN interceptor is a far deadlier opponent than the standard TIE/ln space superiority starfighter and features four very recognizable pointed solar panels."
 
 
 
@@ -4297,14 +4529,17 @@ ship "TIE/IN Fighter (Royal Guard)"
 	thumbnail "thumbnail/tieinfighterroyalguard"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
-		"cost" 129000
-		"shields" 0
-		"hull" 1000
+		"cost" 140000
+		"shields" 800
+		"hull" 2450
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
 		"drag" .9
+		"fuel capacity" 700
 		"heat dissipation" .9
 		"outfit space" 107
 		"weapon capacity" 32
@@ -4315,21 +4550,28 @@ ship "TIE/IN Fighter (Royal Guard)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 4
+		"Fighter Laser Cannon Imperial (Green)" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 4
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -8 28
 	engine 6 28
-	gun -29 -34 "Fighter Laser Cannon (Green)"
-	gun 28 -34 "Fighter Laser Cannon (Green)"
-	gun -29 -34 "Fighter Laser Cannon (Green)"
-	gun 28 -34 "Fighter Laser Cannon (Green)"
+	gun -29 -34 "Fighter Laser Cannon Imperial (Green)"
+	gun 28 -34 "Fighter Laser Cannon Imperial (Green)"
+	gun -29 -34 "Fighter Laser Cannon Imperial (Green)"
+	gun 28 -34 "Fighter Laser Cannon Imperial (Green)"
+	gun -7 11 "Concussion Missile Launcher"
+	gun 7 11 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "TIE/IN Fighter"
+	description "The Emperor's Royal Guard TIE/IN starfighter is a specially modified version of the TIE/IN interceptor. These TIE Interceptors are flown only by Emperor Palpatine's Royal Guard.The TIE/IN interceptor, also known as the TIE Interceptor, is a type of TIE fighter used by the Galactic Empire. The interceptor is identifiable by its addition of four arrow-shaped panels tipped with laser cannons. The TIE/IN interceptor is a far deadlier opponent than the standard TIE/ln space superiority starfighter and features four very recognizable pointed solar panels."
 
 
 
@@ -4338,14 +4580,17 @@ ship "TIE/IN Fighter (Royal Guard) (Fighter)"
 	thumbnail "thumbnail/tieinfighterroyalguard"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
-		"cost" 129000
-		"shields" 0
-		"hull" 1000
+		"cost" 140000
+		"shields" 800
+		"hull" 2450
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
 		"drag" .9
+		"fuel capacity" 700
 		"heat dissipation" .9
 		"outfit space" 107
 		"weapon capacity" 32
@@ -4356,21 +4601,28 @@ ship "TIE/IN Fighter (Royal Guard) (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 4
+		"Fighter Laser Cannon Imperial (Green)" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 4
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 
 	engine -8 28
 	engine 6 28
-	gun -29 -34 "Fighter Laser Cannon (Green)"
-	gun 28 -34 "Fighter Laser Cannon (Green)"
-	gun -29 -34 "Fighter Laser Cannon (Green)"
-	gun 28 -34 "Fighter Laser Cannon (Green)"
+	gun -29 -34 "Fighter Laser Cannon Imperial (Green)"
+	gun 28 -34 "Fighter Laser Cannon Imperial (Green)"
+	gun -29 -34 "Fighter Laser Cannon Imperial (Green)"
+	gun 28 -34 "Fighter Laser Cannon Imperial (Green)"
+	gun -7 11 "Concussion Missile Launcher"
+	gun 7 11 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "TIE/IN Fighter (Royal Guard)"
+	description "The Emperor's Royal Guard TIE/IN starfighter is a specially modified version of the TIE/IN interceptor. These TIE Interceptors are flown only by Emperor Palpatine's Royal Guard.The TIE/IN interceptor, also known as the TIE Interceptor, is a type of TIE fighter used by the Galactic Empire. The interceptor is identifiable by its addition of four arrow-shaped panels tipped with laser cannons. The TIE/IN interceptor is a far deadlier opponent than the standard TIE/ln space superiority starfighter and features four very recognizable pointed solar panels."
 
 
 
@@ -4379,10 +4631,12 @@ ship "TIE/IT Fighter"
 	thumbnail "thumbnail/tieitfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
-		"cost" 129000
+		"cost" 253000
 		"shields" 1800
-		"hull" 1600
+		"hull" 4800
 		"required crew" 1
 		"bunks" 1
 		"mass" 37
@@ -4398,26 +4652,29 @@ ship "TIE/IT Fighter"
 			"hull damage" 100
 			"hit force" 220
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 12
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
 		"Plasma Torpedo Launcher" 2
-		"Plasma Torpedo" 12
+		"Plasma Torpedo" 6
 		"Fletchette Missile Launcher" 2
-		"Fletchette Missile" 100
+		"Fletchette Missile Storage Rack" 2
+		"Fletchette Missile" 76
 		"Advanced Homing Missile Launcher" 2
-		"Advanced Homing Missile" 12
+		"Advanced Homing Missile" 6
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 		"T1 Fighter Shield Projector"
 
 	engine -14 6
 	engine 14 6
-	gun -8 -17 "Fighter Laser Cannon (Green)"
-	gun 6 -16 "Fighter Laser Cannon (Green)"
+	gun -8 -17 "Fighter Laser Cannon Imperial (Green)"
+	gun 6 -16 "Fighter Laser Cannon Imperial (Green)"
 	gun -15 -15 "Concussion Missile Launcher"
 	gun 14 -16 "Concussion Missile Launcher"
 	gun -15 -15 "Plasma Torpedo Launcher"
@@ -4427,7 +4684,7 @@ ship "TIE/IT Fighter"
 	gun -15 -15 "Advanced Homing Missile Launcher"
 	gun 14 -16 "Advanced Homing Missile Launcher"
 	explode "large explosion" 3
-	description "TIE/IT Fighter"
+	description "The TIE/IT Interdictor starfighter, also known as the TIE Punisher, is a heavy bomber in service to the Galactic Empire. The Galactic Empire's TIE Interdictor bomber have wings and a command module which are nearly identical to those found on a TIE/sa bomber and TIE Heavy Bomber. However, the command module is flanked on both sides by a pair of ordnance pods, for a total of four. They can also include enhanced sensors."
 
 
 
@@ -4436,10 +4693,12 @@ ship "TIE/IT Fighter (Fighter)"
 	thumbnail "thumbnail/tieitfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
-		"cost" 129000
+		"cost" 253000
 		"shields" 1000
-		"hull" 1600
+		"hull" 4800
 		"required crew" 1
 		"bunks" 1
 		"mass" 37
@@ -4455,26 +4714,29 @@ ship "TIE/IT Fighter (Fighter)"
 			"hull damage" 100
 			"hit force" 220
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 12
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
 		"Plasma Torpedo Launcher" 2
-		"Plasma Torpedo" 12
+		"Plasma Torpedo" 6
 		"Fletchette Missile Launcher" 2
-		"Fletchette Missile" 100
+		"Fletchette Missile Storage Rack" 2
+		"Fletchette Missile" 76
 		"Advanced Homing Missile Launcher" 2
-		"Advanced Homing Missile" 12
+		"Advanced Homing Missile" 6
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 		"T1 Fighter Shield Projector"
 
 	engine -14 6
 	engine 14 6
-	gun -8 -17 "Fighter Laser Cannon (Green)"
-	gun 6 -16 "Fighter Laser Cannon (Green)"
+	gun -8 -17 "Fighter Laser Cannon Imperial (Green)"
+	gun 6 -16 "Fighter Laser Cannon Imperial (Green)"
 	gun -15 -15 "Concussion Missile Launcher"
 	gun 14 -16 "Concussion Missile Launcher"
 	gun -15 -15 "Plasma Torpedo Launcher"
@@ -4484,7 +4746,7 @@ ship "TIE/IT Fighter (Fighter)"
 	gun -15 -15 "Advanced Homing Missile Launcher"
 	gun 14 -16 "Advanced Homing Missile Launcher"
 	explode "large explosion" 3
-	description "TIE/IT Fighter"
+	description "The TIE/IT Interdictor starfighter, also known as the TIE Punisher, is a heavy bomber in service to the Galactic Empire. The Galactic Empire's TIE Interdictor bomber have wings and a command module which are nearly identical to those found on a TIE/sa bomber and TIE Heavy Bomber. However, the command module is flanked on both sides by a pair of ordnance pods, for a total of four. They can also include enhanced sensors."
 
 
 
@@ -4493,10 +4755,12 @@ ship "TIE/LN Fighter"
 	thumbnail "thumbnail/tielnfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
-		"cost" 129000
+		"cost" 60000
 		"shields" 0
-		"hull" 900
+		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -4511,19 +4775,20 @@ ship "TIE/LN Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 		
 	engine -8 8
 	engine 5 8
-	gun -12 -5 "Fighter Laser Cannon (Green)"
-	gun 7 -6 "Fighter Laser Cannon (Green)"
+	gun -12 -5 "Fighter Laser Cannon Imperial (Green)"
+	gun 7 -6 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "TIE/LN Fighter"
+	description "The TIE/LN space superiority starfighter, also known as the TIE/LN starfighter and commonly called the TIE fighter, is the signature starfighter of the Galactic Empire and de facto symbol of Imperial space superiority. Its official production name was the Twin Ion Engine "line edition" space superiority starfighter. Instantly recognizable from the roar of its engines, the TIE/LN exuded Imperial power and prestige across the galaxy, seeing use all throughout the Galactic Empire."
 
 
 
@@ -4532,10 +4797,12 @@ ship "TIE/LN Fighter (Fighter)"
 	thumbnail "thumbnail/tielnfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
-		"cost" 129000
+		"cost" 60000
 		"shields" 0
-		"hull" 900
+		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -4550,19 +4817,20 @@ ship "TIE/LN Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 		
 	engine -8 8
 	engine 5 8
-	gun -12 -5 "Fighter Laser Cannon (Green)"
-	gun 7 -6 "Fighter Laser Cannon (Green)"
+	gun -12 -5 "Fighter Laser Cannon Imperial (Green)"
+	gun 7 -6 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "TIE/LN Fighter"
+	description "The TIE/LN space superiority starfighter, also known as the TIE/LN starfighter and commonly called the TIE fighter, is the signature starfighter of the Galactic Empire and de facto symbol of Imperial space superiority. Its official production name was the Twin Ion Engine "line edition" space superiority starfighter. Instantly recognizable from the roar of its engines, the TIE/LN exuded Imperial power and prestige across the galaxy, seeing use all throughout the Galactic Empire."
 
 
 
@@ -4571,10 +4839,12 @@ ship "TIE/PH Fighter"
 	thumbnail "thumbnail/tiephfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
-		"cost" 129000
-		"shields" 1000
-		"hull" 1000
+		"cost" 175000
+		"shields" 1680
+		"hull" 1520
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
@@ -4590,25 +4860,26 @@ ship "TIE/PH Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 5
+		"Fighter Laser Cannon Imperial (Green)" 5
 		
 		"T1 Fighter Power Converter"	
 		"Stygium Cloaking Device"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
-		"Light Hyperspace Motivator"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 		
 	engine -5 41
 	engine 5 40
-	gun -9 -35 "Fighter Laser Cannon (Green)"
-	gun -1 -36 "Fighter Laser Cannon (Green)"
-	gun 9 -36 "Fighter Laser Cannon (Green)"
-	gun -6 8 "Fighter Laser Cannon (Green)"
-	gun 5 8 "Fighter Laser Cannon (Green)"
+	gun -9 -35 "Fighter Laser Cannon Imperial (Green)"
+	gun -1 -36 "Fighter Laser Cannon Imperial (Green)"
+	gun 9 -36 "Fighter Laser Cannon Imperial (Green)"
+	gun -6 8 "Fighter Laser Cannon Imperial (Green)"
+	gun 5 8 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "TIE/PH Fighter"
+	description "The TIE/ph phantom, also referred to as a Phantom V38, is a prototype TIE Series starfighter developed by the Galactic Empire. A modified V38 assault fighter, the TIE phantom was the result of a development project led by Grand Admiral Martio Batch and is equipped with both deflector shields and a hyperdrive, along with a technology not seen for decades — a stygium cloaking device."
 
 
 
@@ -4617,15 +4888,18 @@ ship "TIE/PH Fighter (Fighter)"
 	thumbnail "thumbnail/tiephfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
-		"cost" 129000
-		"shields" 1000
-		"hull" 1000
+		"cost" 175000
+		"shields" 1680
+		"hull" 1520
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
 		"drag" .9
 		"heat dissipation" .9
+		"fuel capacity" 700
 		"fuel capacity" 700
 		"outfit space" 165
 		"weapon capacity" 50
@@ -4636,24 +4910,26 @@ ship "TIE/PH Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 5
+		"Fighter Laser Cannon Imperial (Green)" 5
 		
 		"T1 Fighter Power Converter"	
 		"Stygium Cloaking Device"
 		"T1 Fighter Shield Projector"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
+		"T1 Fighter Hyperspace Motivator"
 		
 	engine -5 41
 	engine 5 40
-	gun -9 -35 "Fighter Laser Cannon (Green)"
-	gun -1 -36 "Fighter Laser Cannon (Green)"
-	gun 9 -36 "Fighter Laser Cannon (Green)"
-	gun -6 8 "Fighter Laser Cannon (Green)"
-	gun 5 8 "Fighter Laser Cannon (Green)"
+	gun -9 -35 "Fighter Laser Cannon Imperial (Green)"
+	gun -1 -36 "Fighter Laser Cannon Imperial (Green)"
+	gun 9 -36 "Fighter Laser Cannon Imperial (Green)"
+	gun -6 8 "Fighter Laser Cannon Imperial (Green)"
+	gun 5 8 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "TIE/PH Fighter"
+	description "The TIE/ph phantom, also referred to as a Phantom V38, is a prototype TIE Series starfighter developed by the Galactic Empire. A modified V38 assault fighter, the TIE phantom was the result of a development project led by Grand Admiral Martio Batch and is equipped with both deflector shields and a hyperdrive, along with a technology not seen for decades — a stygium cloaking device."
 
 
 
@@ -4662,10 +4938,12 @@ ship "TIE/SA Fighter"
 	thumbnail "thumbnail/tiesafighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
-		"cost" 129000
+		"cost" 150000
 		"shields" 0
-		"hull" 1500
+		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
@@ -4681,26 +4959,28 @@ ship "TIE/SA Fighter"
 			"hull damage" 80
 			"hit force" 200
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 10
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
 		"Proton Torpedo Launcher" 2
-		"MG9 Proton Torpedo" 6
+		"Proton Torpedo" 6
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 
 	engine -11 16
 	engine 12 16
-	gun 7 -22 "Fighter Laser Cannon (Green)"
-	gun 16 -21 "Fighter Laser Cannon (Green)"
+	gun 7 -22 "Fighter Laser Cannon Imperial (Green)"
+	gun 16 -21 "Fighter Laser Cannon Imperial (Green)"
 	gun -11 -15 "Concussion Missile Launcher"
 	gun -11 -15 "Concussion Missile Launcher"
 	gun -11 -15 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "TIE/SA Fighter"
+	description "The TIE/SA bomber, formally known as the TIE Surface Assault Bomber and TIE bomber, is a bombing variant of the TIE line used by the Galactic Empire, and is their main source of anti-emplacement air-support. Like the TIE Advanced x1 prototype, the TIE/SA bomber has inclined wings, which maximises its speed and manoeuvrability while carrying mass of heavy ordnance."
 
 
 
@@ -4709,13 +4989,15 @@ ship "TIE/SA Fighter (Fighter)"
 	thumbnail "thumbnail/tiesafighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
-		"cost" 129000
+		"cost" 150000
 		"shields" 0
-		"hull" 1500
+		"hull" 2400
 		"required crew" 1
 		"bunks" 1
-		"mass" 25
+		"mass" 30
 		"drag" .95
 		"fuel capacity" 0
 		"heat dissipation" .9
@@ -4728,26 +5010,28 @@ ship "TIE/SA Fighter (Fighter)"
 			"hull damage" 80
 			"hit force" 200
 	outfits
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 10
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
 		"Proton Torpedo Launcher" 2
-		"MG9 Proton Torpedo" 6
+		"Proton Torpedo" 6
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 
 	engine -11 16
 	engine 12 16
-	gun 7 -22 "Fighter Laser Cannon (Green)"
-	gun 16 -21 "Fighter Laser Cannon (Green)"
+	gun 7 -22 "Fighter Laser Cannon Imperial (Green)"
+	gun 16 -21 "Fighter Laser Cannon Imperial (Green)"
 	gun -11 -15 "Concussion Missile Launcher"
 	gun -11 -15 "Concussion Missile Launcher"
 	gun -11 -15 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "TIE/SA Fighter"
+	description "The TIE/SA bomber, formally known as the TIE Surface Assault Bomber and TIE bomber, is a bombing variant of the TIE line used by the Galactic Empire, and is their main source of anti-emplacement air-support. Like the TIE Advanced x1 prototype, the TIE/SA bomber has inclined wings, which maximises its speed and manoeuvrability while carrying mass of heavy ordnance."
 
 
 
@@ -4756,10 +5040,12 @@ ship "TIE/SK Fighter"
 	thumbnail "thumbnail/tieskfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Interceptor"
-		"cost" 129000
+		"cost" 70000
 		"shields" 0
-		"hull" 1000
+		"hull" 2400
 		"required crew" 1
 		"bunks" 2
 		"mass" 23
@@ -4774,23 +5060,24 @@ ship "TIE/SK Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 6
+		"Fighter Laser Cannon Imperial (Green)" 6
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 
 	engine -3 30
 	engine 4 30
-	gun -5 -37 "Fighter Laser Cannon (Green)"
-	gun 6 -37 "Fighter Laser Cannon (Green)"
-	gun -5 -37 "Fighter Laser Cannon (Green)"
-	gun 6 -37 "Fighter Laser Cannon (Green)"
-	gun -3 5 "Fighter Laser Cannon (Green)"
-	gun 4 5 "Fighter Laser Cannon (Green)"
+	gun -5 -37 "Fighter Laser Cannon Imperial (Green)"
+	gun 6 -37 "Fighter Laser Cannon Imperial (Green)"
+	gun -5 -37 "Fighter Laser Cannon Imperial (Green)"
+	gun 6 -37 "Fighter Laser Cannon Imperial (Green)"
+	gun -3 5 "Fighter Laser Cannon Imperial (Green)"
+	gun 4 5 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "TIE/SK Fighter"
+	description "The TIE/sk x1 experimental air superiority fighter, also known simply as the TIE striker, is a streamlined variant of the TIE line starfighters used by the Galactic Empire. Specialised for in-atmosphere missions, the atmospheric fighter is identifiable by its horizontal high-speed wings and large central pod. Largely because of its specialisation for such missions, it is one of the few TIE models to be used by the Imperial Army as well as the Imperial Navy."
 
 
 
@@ -4799,10 +5086,12 @@ ship "TIE/SK Fighter (Fighter)"
 	thumbnail "thumbnail/tieskfighter"
 	"never disabled"
 	attributes
+		licenses
+			Imperial
 		category "Fighter"
-		"cost" 129000
+		"cost" 70000
 		"shields" 0
-		"hull" 1000
+		"hull" 2400
 		"required crew" 1
 		"bunks" 2
 		"mass" 20
@@ -4817,24 +5106,160 @@ ship "TIE/SK Fighter (Fighter)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Fighter Laser Cannon (Green)" 6
+		"Fighter Laser Cannon Imperial (Green)" 6
 		
 		"T1 Fighter Power Converter"
-		"Light Coolant System"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
 
-		"Fighter Engine (Blue Flare)"
+		"T1 Fighter Engine Imperial (Blue)"
 
 	engine -3 30
 	engine 4 30
-	gun -5 -37 "Fighter Laser Cannon (Green)"
-	gun 6 -37 "Fighter Laser Cannon (Green)"
-	gun -5 -37 "Fighter Laser Cannon (Green)"
-	gun 6 -37 "Fighter Laser Cannon (Green)"
-	gun -3 5 "Fighter Laser Cannon (Green)"
-	gun 4 5 "Fighter Laser Cannon (Green)"
+	gun -5 -37 "Fighter Laser Cannon Imperial (Green)"
+	gun 6 -37 "Fighter Laser Cannon Imperial (Green)"
+	gun -5 -37 "Fighter Laser Cannon Imperial (Green)"
+	gun 6 -37 "Fighter Laser Cannon Imperial (Green)"
+	gun -3 5 "Fighter Laser Cannon Imperial (Green)"
+	gun 4 5 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
-	description "TIE/SK Fighter"
+	description "The TIE/sk x1 experimental air superiority fighter, also known simply as the TIE striker, is a streamlined variant of the TIE line starfighters used by the Galactic Empire. Specialised for in-atmosphere missions, the atmospheric fighter is identifiable by its horizontal high-speed wings and large central pod. Largely because of its specialisation for such missions, it is one of the few TIE models to be used by the Imperial Army as well as the Imperial Navy."
 
+
+
+
+ship "Procursator-class Star Destroyer"
+	sprite "ship/procursatordestroyer"
+	thumbnail "thumbnail/procursatordestroyer"
+	attributes
+		licenses
+			Imperial
+		category "Heavy Warship"
+		"cost" 100000000
+		"shields" 175000
+		"hull" 57500
+		"required crew" 15000
+		"bunks" 23000
+		"mass" 12500
+		"drag" 24.2
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 800
+		"outfit space" 2494
+		"weapon capacity" 1570
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Turbolaser Quad Turret (Green)" 13
+		"Turbolaser Dual Turret (Green)" 19
+		
+		"T5 Destroyer Power Converter"
+		"T5 Destroyer Shield Projector"
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
+		
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
+		
+	engine -272 1296
+	engine 273 1296
+	turret -308 1034 "Turbolaser Quad Turret (Green)"
+	turret 322 1036 "Turbolaser Quad Turret (Green)"
+	turret -311 941 "Turbolaser Quad Turret (Green)"
+	turret 322 944 "Turbolaser Quad Turret (Green)"
+	turret -335 575 "Turbolaser Quad Turret (Green)"
+	turret 348 578 "Turbolaser Quad Turret (Green)"
+	turret -583 714 "Turbolaser Quad Turret (Green)"
+	turret 588 728 "Turbolaser Quad Turret (Green)"
+	turret -336 324 "Turbolaser Quad Turret (Green)"
+	turret 344 326 "Turbolaser Quad Turret (Green)"
+	turret 2 100 "Turbolaser Quad Turret (Green)"
+	turret 4 -101 "Turbolaser Quad Turret (Green)"
+	turret 2 -299 "Turbolaser Quad Turret (Green)"
+	turret -658 989 "Turbolaser Dual Turret (Green)"
+	turret 661 989 "Turbolaser Dual Turret (Green)"
+	turret -609 811 "Turbolaser Dual Turret (Green)"
+	turret 614 813 "Turbolaser Dual Turret (Green)"
+	turret -533 519 "Turbolaser Dual Turret (Green)"
+	turret 538 520 "Turbolaser Dual Turret (Green)"
+	turret -502 404 "Turbolaser Dual Turret (Green)"
+	turret 506 405 "Turbolaser Dual Turret (Green)"
+	turret -450 212 "Turbolaser Dual Turret (Green)"
+	turret 453 210 "Turbolaser Dual Turret (Green)"
+	turret -371 -84 "Turbolaser Dual Turret (Green)"
+	turret 374 -84 "Turbolaser Dual Turret (Green)"
+	turret -318 -285 "Turbolaser Dual Turret (Green)"
+	turret 322 -285 "Turbolaser Dual Turret (Green)"
+	turret -136 -954 "Turbolaser Dual Turret (Green)"
+	turret 142 -953 "Turbolaser Dual Turret (Green)"
+	turret -77 -1178 "Turbolaser Dual Turret (Green)"
+	turret 82 -1178 "Turbolaser Dual Turret (Green)"
+	turret 0 727 "Turbolaser Dual Turret (Green)"
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	fighter 0 727
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Procursator-class Star Destroyer is an Imperial warship in the Star Destroyer design family. Similar in appearance to the Imperial-class Star Destroyer, the Procursator is slightly shorter, at 1200 meters in length."
 
 
 
@@ -4842,13 +5267,15 @@ ship "Quasar Fire I-class Bulk Cruiser"
 	sprite "ship/quasarcarrier"
 	thumbnail "thumbnail/quasarcarrier"
 	attributes
+		licenses
+			Imperial
 		category "Medium Warship"
-		"cost" 15200000
+		"cost" 20000000
 		"shields" 100000
 		"hull" 38000
 		"required crew" 100
 		"bunks" 350
-		"mass" 8500
+		"mass" 8100
 		"drag" 23
 		"heat dissipation" .45
 		"fuel capacity" 1000
@@ -4862,15 +5289,15 @@ ship "Quasar Fire I-class Bulk Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Dual Turbolaser Turret (Green)" 2
+		"Turbolaser Dual Turret (Green)" 2
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T4.5 Cruiser Power Converter"
+		"T4.5 Cruiser Shield Projector"
+		"T4 Sensor Array"
+		"T4.5 Cruiser Coolant System"
 		
-		"Cruiser Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"T4.5 Cruiser Sublight Engine"
+		"T4.5 Cruiser Hyperspace Motivator"
 		
 	engine -285 518
 	engine 268 516
@@ -4878,8 +5305,8 @@ ship "Quasar Fire I-class Bulk Cruiser"
 	engine 159 515
 	engine -67 515
 	engine 49 517
-	turret -57 -462 "Dual Turbolaser Turret (Green)"
-	turret 38 -462 "Dual Turbolaser Turret (Green)"
+	turret -57 -462 "Turbolaser Dual Turret (Green)"
+	turret 38 -462 "Turbolaser Dual Turret (Green)"
 	fighter -287 146
 	fighter 268 146
 	fighter -192 145
@@ -4934,7 +5361,7 @@ ship "Quasar Fire I-class Bulk Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Quasar Fire-class cruiser-carrier, also known as the Quasar Fire-class bulk cruiser, or simply, the Imperial light carrier, was a starship line built by the SoroSuub Corporation. It saw service in the Galactic Empire's Imperial Navy, both as a starfighter carrier and a mobile base of operations. (48 Fighters)"
+	description "The Quasar Fire-class cruiser-carrier, also known as the Quasar Fire-class bulk cruiser, is a starship line built by the SoroSuub Corporation. In service in the Galactic Empire's Imperial Navy, the vessel acts as a starfighter carrier and a mobile base of operations. The Quasar Fire I is wedge-shaped, with four hangar bays protruding from its rear ventral hull. At the front of the carrier is its bridge, which are flanked by turbolasers on its port and starboard sides."
 
 
 
@@ -4942,13 +5369,15 @@ ship "Quasar Fire II-class Bulk Cruiser"
 	sprite "ship/quasarcarrier"
 	thumbnail "thumbnail/quasarcarrier"
 	attributes
+		licenses
+			Imperial
 		category "Medium Warship"
-		"cost" 15200000
+		"cost" 20000000
 		"shields" 100000
 		"hull" 38000
 		"required crew" 100
 		"bunks" 350
-		"mass" 8500
+		"mass" 8100
 		"drag" 23
 		"heat dissipation" .45
 		"fuel capacity" 1000
@@ -4962,15 +5391,15 @@ ship "Quasar Fire II-class Bulk Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Dual Turbolaser Turret (Green)" 2
+		"Turbolaser Dual Turret (Green)" 2
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T4.5 Cruiser Power Converter"
+		"T4.5 Cruiser Shield Projector"
+		"T4 Sensor Array"
+		"T4.5 Cruiser Coolant System"
 		
-		"Cruiser Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"T4.5 Cruiser Sublight Engine"
+		"T4.5 Cruiser Hyperspace Motivator"
 		
 	engine -285 518
 	engine 268 516
@@ -4978,8 +5407,8 @@ ship "Quasar Fire II-class Bulk Cruiser"
 	engine 159 515
 	engine -67 515
 	engine 49 517
-	turret -57 -462 "Dual Turbolaser Turret (Green)"
-	turret 38 -462 "Dual Turbolaser Turret (Green)"
+	turret -57 -462 "Turbolaser Dual Turret (Green)"
+	turret 38 -462 "Turbolaser Dual Turret (Green)"
 	fighter -287 146
 	fighter 268 146
 	fighter -192 145
@@ -5034,7 +5463,7 @@ ship "Quasar Fire II-class Bulk Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Quasar Fire-class cruiser-carrier, also known as the Quasar Fire-class bulk cruiser, or simply, the Imperial light carrier, was a starship line built by the SoroSuub Corporation. It saw service in the Galactic Empire's Imperial Navy, both as a starfighter carrier and a mobile base of operations. (48 Fighters)"
+	description "The Quasar Fire-class cruiser-carrier, also known as the Quasar Fire-class bulk cruiser, is a starship line built by the SoroSuub Corporation. In service in the Galactic Empire's Imperial Navy, the vessel acts as a starfighter carrier and a mobile base of operations. The Quasar Fire II is wedge-shaped, with four hangar bays protruding from its rear ventral hull. At the front of the carrier is its bridge, which are flanked by turbolasers on its port and starboard sides."
 
 
 
@@ -5042,8 +5471,10 @@ ship "Raider II Corvette"
 	sprite "ship/raidercorvette"
 	thumbnail "thumbnail/raidercorvette"
 	attributes
-		category "Medium Warship"
-		"cost" 15200000
+		licenses
+			Imperial
+		category "Light Warship"
+		"cost" 3700000
 		"shields" 35000
 		"hull" 10000
 		"required crew" 92
@@ -5069,11 +5500,11 @@ ship "Raider II Corvette"
 		
 		"T3 Corvette Power Converter"
 		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"Corvette Sublight Engine (Blue)"
-		"Medium Hyperspace Motivator"
+		"T3 Corvette Sublight Engine (Blue)"
+		"T3 Corvette Hyperspace Motivator"
 		
 	engine -45 281
 	engine 43 281
@@ -5099,7 +5530,7 @@ ship "Raider II Corvette"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Raider-class corvette was a sleek and roomy vessel at 150 meters for a sizeable crew and featured 3 engines and a hyperdrive. These ships could be operated with a pilot and a co-pilot and were armed with ion cannons, dual heavy laser cannons, concussion missiles, and turbolasers. The ships also had a small hangar on the starboard side, that could hold at least 2 TIE fighters."
+	description "The Raider-class corvette is a starship manufactured by Kuat Drive Yards in 6 BBY. The 150 meter-long corvette is used by the Galactic Empire to support the TIE fighters used to engage the fleet of the Alliance to Restore the Republic during the Galactic Civil War. Lira Wessex, chief designer of both the Venator-class and Imperial-class Star Destroyers, designed the Raider-class corvette to fill a tactical void the Empire had against the Rebel Alliance's starfighter-oriented strategies."
 
 
 
@@ -5107,9 +5538,11 @@ ship "Strike-class Medium Cruiser"
 	sprite "ship/strikemediumcruiser"
 	thumbnail "thumbnail/strikemediumcruiser"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 105000000
-		"shields" 114500
+		"cost" 23000000
+		"shields" 107000
 		"hull" 39500
 		"required crew" 1972
 		"bunks" 3000
@@ -5127,36 +5560,35 @@ ship "Strike-class Medium Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 6
-		"Dual Turbolaser Turret (Green)" 8
-		"Tractor Beam" 2
+		"Turbolaser Quad Turret (Green)" 6
+		"Turbolaser Dual Turret (Green)" 10
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -34 419
 	engine 36 417
-	turret -93 196 "Quad Turbolaser Turret (Green)"
-	turret 94 198 "Quad Turbolaser Turret (Green)"
-	turret -106 130 "Quad Turbolaser Turret (Green)"
-	turret 106 131 "Quad Turbolaser Turret (Green)"
-	turret -84 84 "Quad Turbolaser Turret (Green)"
-	turret 85 84 "Quad Turbolaser Turret (Green)"
-	turret -33 -369 "Dual Turbolaser Turret (Green)"
-	turret 35 -370 "Dual Turbolaser Turret (Green)"
-	turret -45 -287 "Dual Turbolaser Turret (Green)"
-	turret 46 -286 "Dual Turbolaser Turret (Green)"
-	turret -53 -143 "Dual Turbolaser Turret (Green)"
-	turret 56 -145 "Dual Turbolaser Turret (Green)"
-	turret -54 362 "Dual Turbolaser Turret (Green)"
-	turret 53 362 "Dual Turbolaser Turret (Green)"
-	turret 0 -31 "Tractor Beam"
-	turret 0 -31 "Tractor Beam"
+	turret -93 196 "Turbolaser Quad Turret (Green)"
+	turret 94 198 "Turbolaser Quad Turret (Green)"
+	turret -106 130 "Turbolaser Quad Turret (Green)"
+	turret 106 131 "Turbolaser Quad Turret (Green)"
+	turret -84 84 "Turbolaser Quad Turret (Green)"
+	turret 85 84 "Turbolaser Quad Turret (Green)"
+	turret -33 -369 "Turbolaser Dual Turret (Green)"
+	turret 35 -370 "Turbolaser Dual Turret (Green)"
+	turret -45 -287 "Turbolaser Dual Turret (Green)"
+	turret 46 -286 "Turbolaser Dual Turret (Green)"
+	turret -53 -143 "Turbolaser Dual Turret (Green)"
+	turret 56 -145 "Turbolaser Dual Turret (Green)"
+	turret -54 362 "Turbolaser Dual Turret (Green)"
+	turret 53 362 "Turbolaser Dual Turret (Green)"
+	turret 0 -31 "Turbolaser Dual Turret (Green)"
+	turret 0 -31 "Turbolaser Dual Turret (Green)"
 	fighter 0 -31
 	fighter 0 -31
 	fighter 0 -31
@@ -5181,16 +5613,18 @@ ship "Strike-class Medium Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description  "The Strike-class medium cruiser was a medium star cruiser designed by the Loronar Corporation during the Galactic Civil War for the Imperial Navy as a general-purpose vessel capable of modular modifications to allow it to fit many mission profiles, yet cheap enough to be produced in large quantities. A departure from the Navy's trend towards increasingly large warships, the Strike-class cruiser was an admission to diminished ability to defend space superiority against the Rebel Alliance and other forces as the conflict wore on. (Fighters 18)"
+	description  "The Strike-class medium cruiser is a medium star cruiser designed by the Loronar Corporation during the Galactic Civil War for the Imperial Navy. As a general-purpose vessel capable of modular modifications, the vessel is suitable for many mission profiles, yet cheap enough to be produced in large quantities. A departure from the Navy's trend towards increasingly large warships, the Strike-class cruiser is an admission to diminished ability to defend space superiority against the Rebel Alliance and other forces as the conflict wore on."
 
 
 
-ship "Victory I Star Destroyer"
+ship "Victory I-class Star Destroyer"
 	sprite "ship/victoryidestroyer"
 	thumbnail "thumbnail/victoryidestroyer"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 15200000
+		"cost" 57000000
 		"shields" 150000
 		"hull" 52000
 		"required crew" 5200
@@ -5209,83 +5643,82 @@ ship "Victory I Star Destroyer"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 10
-		"Dual Turbolaser Turret (Green)" 17
-		"Tractor Beam" 4
+		"Turbolaser Quad Turret (Green)" 9
+		"Turbolaser Dual Turret (Green)" 22
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Capital Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
-	engine -312 1020
-	engine 2 1021
-	engine 315 1022
-	turret -384 607 "Quad Turbolaser Turret (Green)"
-	turret 387 607 "Quad Turbolaser Turret (Green)"
-	turret -384 496 "Quad Turbolaser Turret (Green)"
-	turret 384 497 "Quad Turbolaser Turret (Green)"
-	turret -380 384 "Quad Turbolaser Turret (Green)"
-	turret 382 383 "Quad Turbolaser Turret (Green)"
-	turret -173 332 "Quad Turbolaser Turret (Green)"
-	turret 176 331 "Quad Turbolaser Turret (Green)"
-	turret -172 443 "Quad Turbolaser Turret (Green)"
-	turret 173 442 "Quad Turbolaser Turret (Green)"
-	turret -24 -1056 "Dual Turbolaser Turret (Green)"
-	turret 25 -1056 "Dual Turbolaser Turret (Green)"
-	turret -160 -582 "Dual Turbolaser Turret (Green)"
-	turret 162 -583 "Dual Turbolaser Turret (Green)"
-	turret -155 -468 "Dual Turbolaser Turret (Green)"
-	turret 156 -468 "Dual Turbolaser Turret (Green)"
-	turret -295 -243 "Dual Turbolaser Turret (Green)"
-	turret 296 -244 "Dual Turbolaser Turret (Green)"
-	turret -252 145 "Dual Turbolaser Turret (Green)"
-	turret 252 146 "Dual Turbolaser Turret (Green)"
-	turret 0 -62 "Dual Turbolaser Turret (Green)"
-	turret 0 55 "Dual Turbolaser Turret (Green)"
-	turret 0 200 "Dual Turbolaser Turret (Green)"
-	turret -359 764 "Dual Turbolaser Turret (Green)"
-	turret 360 764 "Dual Turbolaser Turret (Green)"
-	turret -790 945 "Dual Turbolaser Turret (Green)"
-	turret 792 946 "Dual Turbolaser Turret (Green)"
-	turret 0 -24 "Tractor Beam"
-	turret 0 -24 "Tractor Beam"
-	turret 0 -24 "Tractor Beam"
-	turret 0 -24 "Tractor Beam"
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
-	fighter 0 -24
+	engine -259 852
+	engine 0 856
+	engine 257 853
+	turret -312 541 "Turbolaser Quad Turret (Green)"
+	turret 308 541 "Turbolaser Quad Turret (Green)"
+	turret -311 448 "Turbolaser Quad Turret (Green)"
+	turret 306 449 "Turbolaser Quad Turret (Green)"
+	turret -307 357 "Turbolaser Quad Turret (Green)"
+	turret 312 356 "Turbolaser Quad Turret (Green)"
+	turret -2 202 "Turbolaser Quad Turret (Green)"
+	turret -1 84 "Turbolaser Quad Turret (Green)"
+	turret -1 -15 "Turbolaser Quad Turret (Green)"
+	turret -653 818 "Turbolaser Dual Turret (Green)"
+	turret 650 818 "Turbolaser Dual Turret (Green)"
+	turret -298 751 "Turbolaser Dual Turret (Green)"
+	turret 297 752 "Turbolaser Dual Turret (Green)"
+	turret -297 670 "Turbolaser Dual Turret (Green)"
+	turret 294 669 "Turbolaser Dual Turret (Green)"
+	turret -139 314 "Turbolaser Dual Turret (Green)"
+	turret 135 313 "Turbolaser Dual Turret (Green)"
+	turret -91 305 "Turbolaser Dual Turret (Green)"
+	turret 87 305 "Turbolaser Dual Turret (Green)"
+	turret -208 159 "Turbolaser Dual Turret (Green)"
+	turret 207 161 "Turbolaser Dual Turret (Green)"
+	turret -185 -71 "Turbolaser Dual Turret (Green)"
+	turret 183 -75 "Turbolaser Dual Turret (Green)"
+	turret -245 -161 "Turbolaser Dual Turret (Green)"
+	turret 242 -161 "Turbolaser Dual Turret (Green)"
+	turret -129 -346 "Turbolaser Dual Turret (Green)"
+	turret 128 -347 "Turbolaser Dual Turret (Green)"
+	turret -133 -439 "Turbolaser Dual Turret (Green)"
+	turret 133 -439 "Turbolaser Dual Turret (Green)"
+	turret -21 -829 "Turbolaser Dual Turret (Green)"
+	turret 21 -829 "Turbolaser Dual Turret (Green)"
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
+	fighter 0 269
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Victory I Destroyer has a complement of TIE/LN(24) = 24"
+	description "The Victory I-class Star Destroyer is a warship designed for planetary defence, planetary assault, ground troop support, and ship-to-ship combat. Used by the Galactic Republic during the mid-Clone Wars, the ship continues to see service in the Imperial Navy, though is slowly being phased out by more modern designs."
 
 
 
@@ -5294,9 +5727,11 @@ ship "Vigil-class Corvette"
 	sprite "ship/vigilcorvette"
 	thumbnail "thumbnail/vigilcorvette"
 	attributes
+		licenses
+			Imperial
 		category "Light Warship"
-		"cost" 34000000
-		"shields" 39000
+		"cost" 4900000
+		"shields" 44000
 		"hull" 12000
 		"required crew" 200
 		"bunks" 400
@@ -5320,11 +5755,11 @@ ship "Vigil-class Corvette"
 		
 		"T3 Corvette Power Converter"
 		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"Corvette Sublight Engine (Blue)"
-		"Medium Hyperspace Motivator"
+		"T3 Corvette Sublight Engine (Blue)"
+		"T3 Corvette Hyperspace Motivator"
 		
 	engine -114 279
 	engine -38 324
@@ -5348,7 +5783,7 @@ ship "Vigil-class Corvette"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Produced by Kuat Drive Yards for the Imperial Navy, the Vigil class was considered the smallest vessel in the iconic Star Destroyer line of ships. With a dagger-shaped hull, heavy armament, and relatively large crew complement for its class, the Vigil class shared many iconic design features of a true destroyer."
+	description "Produced by Kuat Drive Yards for the Imperial Navy, the Vigil class is considered the smallest vessel in the iconic Star Destroyer line of ships. With a dagger-shaped hull, heavy armament, and relatively large crew complement for its class, the Vigil class shares many iconic design features of a true destroyer."
 
 
 
@@ -5356,14 +5791,16 @@ ship "Vindicator-class Heavy Cruiser"
 	sprite "ship/vindicatorstarfrigate"
 	thumbnail "thumbnail/vindicatorstarfrigate"
 	attributes
+		licenses
+			Imperial
 		category "Heavy Warship"
-		"cost" 129000000
-		"shields" 125000
-		"hull" 43000
+		"cost" 43000000
+		"shields" 119000
+		"hull" 44600
 		"required crew" 2551
 		"bunks" 5000
-		"mass" 8800
-		"drag" 23
+		"mass" 8860
+		"drag" 23.6
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 400
@@ -5376,40 +5813,39 @@ ship "Vindicator-class Heavy Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Quad Turbolaser Turret (Green)" 6
-		"Dual Turbolaser Turret (Green)" 9
-		"Tractor Beam" 2
+		"Turbolaser Quad Turret (Green)" 6
+		"Turbolaser Dual Turret (Green)" 11
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 7
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
 		
-		"Destroyer Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
 		
 	engine -216 815
 	engine -118 814
 	engine 1 829
 	engine 124 815
 	engine 222 815
-	turret -254 715 "Quad Turbolaser Turret (Green)"
-	turret 257 714 "Quad Turbolaser Turret (Green)"
-	turret -294 454 "Quad Turbolaser Turret (Green)"
-	turret 294 454 "Quad Turbolaser Turret (Green)"
-	turret -85 366 "Quad Turbolaser Turret (Green)"
-	turret 87 366 "Quad Turbolaser Turret (Green)"
-	turret -171 210 "Dual Turbolaser Turret (Green)"
-	turret 172 209 "Dual Turbolaser Turret (Green)"
-	turret 1 -361 "Dual Turbolaser Turret (Green)"
-	turret 0 -713 "Dual Turbolaser Turret (Green)"
-	turret -385 598 "Dual Turbolaser Turret (Green)"
-	turret 386 598 "Dual Turbolaser Turret (Green)"
-	turret -173 601 "Dual Turbolaser Turret (Green)"
-	turret 174 600 "Dual Turbolaser Turret (Green)"
-	turret 0 -361 "Dual Turbolaser Turret (Green)"
-	turret 0 151 "Tractor Beam"
-	turret 0 151 "Tractor Beam"
+	turret -254 715 "Turbolaser Quad Turret (Green)"
+	turret 257 714 "Turbolaser Quad Turret (Green)"
+	turret -294 454 "Turbolaser Quad Turret (Green)"
+	turret 294 454 "Turbolaser Quad Turret (Green)"
+	turret -85 366 "Turbolaser Quad Turret (Green)"
+	turret 87 366 "Turbolaser Quad Turret (Green)"
+	turret -171 210 "Turbolaser Dual Turret (Green)"
+	turret 172 209 "Turbolaser Dual Turret (Green)"
+	turret 1 -361 "Turbolaser Dual Turret (Green)"
+	turret 0 -713 "Turbolaser Dual Turret (Green)"
+	turret -385 598 "Turbolaser Dual Turret (Green)"
+	turret 386 598 "Turbolaser Dual Turret (Green)"
+	turret -173 601 "Turbolaser Dual Turret (Green)"
+	turret 174 600 "Turbolaser Dual Turret (Green)"
+	turret 0 -361 "Turbolaser Dual Turret (Green)"
+	turret 0 151 "Turbolaser Dual Turret (Green)"
+	turret 0 151 "Turbolaser Dual Turret (Green)"
 	fighter 0 151
 	fighter 0 151
 	fighter 0 151
@@ -5442,7 +5878,7 @@ ship "Vindicator-class Heavy Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Vindicator-class Heavy Cruiser has a complement of TIE/LN(26) = 26"
+	description "The Vindicator-class heavy cruiser is the standard 600-meter-long heavy cruiser design of the Imperial Navy. Manufactured by Sienar Fleet Systems, it is intended for use in situations in which Imperial-class Star Destroyers are unavailable, and smaller ships were not powerful enough."
 
 
 
@@ -5450,8 +5886,10 @@ ship "Zeta-class Cargo Shuttle"
 	sprite "ship/zetacargoshuttle"
 	thumbnail "thumbnail/zetacargoshuttle"
 	attributes
+		licenses
+			Imperial
 		category "Light Freighter"
-		"cost" 1700000
+		"cost" 95000
 		"shields" 16000
 		"hull" 7800
 		"required crew" 15
@@ -5471,20 +5909,20 @@ ship "Zeta-class Cargo Shuttle"
 			"hit force" 800
 	outfits
 		"Transport Heavy Laser Turret (Green)" 2
-		"Fighter Laser Cannon (Green)" 2
+		"Fighter Laser Cannon Imperial (Green)" 2
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
-		"Medium Coolant System" 3
+		"T2 Sensor Array"
+		"T2 Transport Coolant System"
 		
-		"Transport Sublight Engine"
-		"Medium Hyperspace Motivator"
+		"T2 Transport Sublight Engine"
+		"T2 Transport Hyperspace Motivator"
 		
 	engine -31 73
 	engine 28 73
-	gun -19 -84 "Fighter Laser Cannon (Green)"
-	gun 16 -84 "Fighter Laser Cannon (Green)"
+	gun -19 -84 "Fighter Laser Cannon Imperial (Green)"
+	gun 16 -84 "Fighter Laser Cannon Imperial (Green)"
 	turret -54 -64 "Transport Heavy Laser Turret (Green)"
 	turret 52 -65 "Transport Heavy Laser Turret (Green)"
 	explode "tiny explosion" 20
@@ -5492,4 +5930,4 @@ ship "Zeta-class Cargo Shuttle"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Zeta-class cargo shuttle, also known as the Zeta-class Heavy Cargo Shuttle was a type of shuttle used by the Galactic Empire in its fight against the Alliance to Restore the Republic. They were instrumental in carrying Kyber crystals during the construction of the Death Star."
+	description "The Zeta-class cargo shuttle, also known as the Zeta-class Heavy Cargo Shuttle, is a type of shuttle used by the Galactic Empire in its fight against the Alliance to Restore the Republic. They were instrumental in carrying Kyber crystals during the construction of the Death Star."
