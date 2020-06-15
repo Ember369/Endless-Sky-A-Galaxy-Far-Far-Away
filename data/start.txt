@@ -38,11 +38,12 @@ start
 		outfits
 			"Fighter Laser Cannon (Red)" 2
 			"Concussion Missile Launcher" 2
-			"Concussion Missile" 12		
+			"Concussion Missile" 6		
 			"T1 Fighter Power Converter"
 			"T1 Fighter Shield Projector"
-			"Light Coolant System"	
-			"T1 Fighter Engine (Pink Flare)"
+			"T1 Sensor Array"
+			"T1 Fighter Coolant System"
+			"T1 Fighter Engine (Pink)"
 			"T1 Fighter Hyperspace Motivator"
 		crew 1
 		fuel 700

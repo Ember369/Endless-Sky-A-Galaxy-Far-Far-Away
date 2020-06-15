@@ -21,3 +21,11 @@ effect "ionbombexplosion"
 	"random spin" 5
 	"random velocity" 1
 	"velocity scale" 0
+
+effect "pointdefence"
+	sprite "effect/pointdefence"
+		"no repeat"
+		"frame rate" 2
+	sound "heavy anti-missile"
+	"lifetime" 31
+	"velocity scale" 1

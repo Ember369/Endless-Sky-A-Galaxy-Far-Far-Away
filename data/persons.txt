@@ -50,8 +50,8 @@ person "Millennium Falcon"
 			
 			"T2 Transport Power Converter"
 			"T2 Transport Shield Projector"
-			"Small Radar Jammer"
-			"Medium Coolant System" 3
+			"T2 Sensor Array"
+			"T2 Transport Coolant System"
 			
 			"T2 Transport Sublight Engine"
 			"T2 Transport Hyperspace Motivator"

@@ -284,9 +284,9 @@ ship "AA-9 Coruscant Freighter"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 3600
-		"outfit space" 464
-		"weapon capacity" 80
-		"engine capacity" 210
+		"outfit space" 272
+		"weapon capacity" 40
+		"engine capacity" 140
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -332,9 +332,9 @@ ship "AA-9 Coruscant Freighter" "AA-9 Coruscant Freighter (Refugee)"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 464
-		"weapon capacity" 80
-		"engine capacity" 210
+		"outfit space" 272
+		"weapon capacity" 40
+		"engine capacity" 140
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -380,9 +380,9 @@ ship "Action VI Transport"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 2000
-		"outfit space" 295
-		"weapon capacity" 20
-		"engine capacity" 190
+		"outfit space" 222
+		"weapon capacity" 0
+		"engine capacity" 140
 		"defenceless capacity" -1
 		weapon
 			"blast radius" 290
@@ -427,9 +427,9 @@ ship "Action VI Transport" "Action VI Transport (Maroon)"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 2000
-		"outfit space" 295
-		"weapon capacity" 20
-		"engine capacity" 190
+		"outfit space" 222
+		"weapon capacity" 0
+		"engine capacity" 140
 		"defenceless capacity" -1
 		weapon
 			"blast radius" 290
@@ -474,9 +474,9 @@ ship "Action VI Transport" "Action VI Transport (Stripe)"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 2000
-		"outfit space" 295
-		"weapon capacity" 20
-		"engine capacity" 190
+		"outfit space" 222
+		"weapon capacity" 0
+		"engine capacity" 140
 		"defenceless capacity" -1
 		weapon
 			"blast radius" 290
@@ -967,6 +967,7 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (Jsec)"
 		"outfit space" 219
 		"weapon capacity" 40
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -981,6 +982,7 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (Jsec)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -1015,6 +1017,7 @@ ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (Jsec) (Fighter)"
 		"outfit space" 219
 		"weapon capacity" 40
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -1029,6 +1032,7 @@ ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (Jsec) (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -1260,9 +1264,9 @@ ship "Auzituck Anti-Slaver Gunship"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 16
+		"weapon capacity" 3
+		"engine capacity" 5
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -1550,7 +1554,7 @@ ship "Baudo-class Star Yacht"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 62
+		"outfit space" 68
 		"weapon capacity" 5
 		"engine capacity" 20
 		weapon
@@ -1695,9 +1699,9 @@ ship "BFF-1 Bulk Freighter"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 2800
-		"outfit space" 384
+		"outfit space" 232
 		"weapon capacity" 0
-		"engine capacity" 210
+		"engine capacity" 140
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -1867,7 +1871,7 @@ ship "BT7 Thunderclap"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 50
-		"outfit space" 65
+		"outfit space" 67
 		"weapon capacity" 8
 		"engine capacity" 20
 		weapon
@@ -2024,6 +2028,7 @@ ship "CloakShape Fighter"
 		"outfit space" 229
 		"weapon capacity" 40
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -2038,6 +2043,7 @@ ship "CloakShape Fighter"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"astromechsocket capacity" 1
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -2073,6 +2079,7 @@ ship "CloakShape Fighter (Fighter)"
 		"outfit space" 229
 		"weapon capacity" 40
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -2087,6 +2094,7 @@ ship "CloakShape Fighter (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"astromechsocket capacity" 1
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -2118,7 +2126,7 @@ ship "C-ROC Gozanti Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 300
-		"outfit space" 63
+		"outfit space" 67
 		"weapon capacity" 6
 		"engine capacity" 20
 		weapon
@@ -2165,7 +2173,7 @@ ship "C-ROC Gozanti Cruiser" "C-ROC Gozanti Cruiser (Orange)"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 300
-		"outfit space" 63
+		"outfit space" 67
 		"weapon capacity" 6
 		"engine capacity" 20
 		weapon
@@ -2396,6 +2404,7 @@ ship "Cyclone-class R-Wing Starfighter"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -2410,6 +2419,7 @@ ship "Cyclone-class R-Wing Starfighter"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -2445,6 +2455,7 @@ ship "Cyclone-class R-Wing Starfighter (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -2459,6 +2470,7 @@ ship "Cyclone-class R-Wing Starfighter (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -2491,7 +2503,7 @@ ship "D5-Mantis Patrol Craft"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 65
-		"outfit space" 65
+		"outfit space" 67
 		"weapon capacity" 8
 		"engine capacity" 20
 		weapon
@@ -2543,7 +2555,7 @@ ship "D5-Mantis Patrol Craft" "D5-Mantis Patrol Craft (Gold)"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 65
-		"outfit space" 65
+		"outfit space" 67
 		"weapon capacity" 8
 		"engine capacity" 20
 		weapon
@@ -2845,7 +2857,7 @@ ship "Dusty Duck"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 25
-		"outfit space" 61
+		"outfit space" 63
 		"weapon capacity" 4
 		"engine capacity" 20
 		weapon
@@ -2891,7 +2903,7 @@ ship "Dynamic Freighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 71
+		"outfit space" 73
 		"weapon capacity" 14
 		"engine capacity" 20
 		weapon
@@ -3010,9 +3022,9 @@ ship "Empress-class Super Freighter"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 2100
-		"outfit space" 424
-		"weapon capacity" 40
-		"engine capacity" 210
+		"outfit space" 242
+		"weapon capacity" 20
+		"engine capacity" 140
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -3352,7 +3364,7 @@ ship "Firespray-31-class Patrol Craft" "Firespray-31-class Patrol Craft (Black)"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 63
+		"outfit space" 65
 		"weapon capacity" 6
 		"engine capacity" 20
 		weapon
@@ -3404,8 +3416,8 @@ ship "Firespray-31-class Patrol Craft"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 66
-		"weapon capacity" 9
+		"outfit space" 65
+		"weapon capacity" 6
 		"engine capacity" 20
 		weapon
 			"blast radius" 300
@@ -3450,8 +3462,8 @@ ship "Flarestar-class Attack Shuttle"
 		"cost" 250000
 		"shields" 2300
 		"hull" 3300
-		"required crew" 1
-		"bunks" 3
+		"required crew" 3
+		"bunks" 13
 		"mass" 33
 		"drag" 1.1
 		"heat dissipation" .7
@@ -3497,8 +3509,8 @@ ship "Flarestar-class Attack Shuttle (Fighter)"
 		"cost" 250000
 		"shields" 2300
 		"hull" 3300
-		"required crew" 1
-		"bunks" 3
+		"required crew" 3
+		"bunks" 13
 		"mass" 33
 		"drag" 1.1
 		"heat dissipation" .7
@@ -3795,7 +3807,7 @@ ship "Fury-class Sith Imperial Interceptor"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 23
+		"outfit space" 22
 		"weapon capacity" 8
 		"engine capacity" 6
 		weapon
@@ -3890,6 +3902,7 @@ ship "G1-M4-C Dunelizard Fighter"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -3904,6 +3917,7 @@ ship "G1-M4-C Dunelizard Fighter"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -3937,6 +3951,7 @@ ship "G1-M4-C Dunelizard Fighter (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -3951,6 +3966,7 @@ ship "G1-M4-C Dunelizard Fighter (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -3984,6 +4000,7 @@ ship "G1-M4-C Dunelizard Fighter" "G1-M4-C Dunelizard Fighter 2"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -3998,6 +4015,7 @@ ship "G1-M4-C Dunelizard Fighter" "G1-M4-C Dunelizard Fighter 2"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -4031,6 +4049,7 @@ ship "G1-M4-C Dunelizard Fighter (Fighter)" "G1-M4-C Dunelizard Fighter 2 (Fight
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -4045,6 +4064,7 @@ ship "G1-M4-C Dunelizard Fighter (Fighter)" "G1-M4-C Dunelizard Fighter 2 (Fight
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -4075,7 +4095,7 @@ ship "G9 Rigger-class light freighter"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 46
+		"outfit space" 68
 		"weapon capacity" 9
 		"engine capacity" 20
 		weapon
@@ -4446,7 +4466,7 @@ ship "Ghtroc Class 720 Freighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 62
+		"outfit space" 64
 		"weapon capacity" 5
 		"engine capacity" 20
 		weapon
@@ -4488,7 +4508,7 @@ ship "Ginivex-class Starfighter"
 		"hull" 1680
 		"required crew" 1
 		"bunks" 1
-		"mass" 31
+		"mass" 20
 		"drag" 1
 		"heat dissipation" .7
 		"fuel capacity" 700
@@ -4521,54 +4541,6 @@ ship "Ginivex-class Starfighter"
 
 
 
-ship "Gozanti-class Cruiser" "Gozanti-class Cruiser (Black Sun)"
-	sprite "ship/gozanticruiserblacksun"
-	thumbnail "thumbnail/gozanticruiserblacksun"
-	attributes
-		category "Light Freighter"
-		"cost" 450000
-		"shields" 15000
-		"hull" 7300
-		"required crew" 5
-		"bunks" 35
-		"mass" 1700
-		"drag" 4.8
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 10
-		"outfit space" 469
-		"weapon capacity" 85
-		"engine capacity" 210
-		weapon
-			"blast radius" 290
-			"shield damage" 680
-			"hull damage" 340
-			"hit force" 750
-	outfits
-		"Transport Dual Laser Turret (Red)"
-		"Transport Heavy Laser Turret (Red)"
-		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
-		"T2 Sensor Array"
-		"T2 Transport Coolant System"
-		
-		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
-	
-	engine -46 80
-	engine 48 82
-	turret 0 82 "Transport Heavy Laser Turret (Red)"
-	turret 0 82 "Transport Dual Laser Turret (Red)"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The Gozanti-class cruiser is a 64-meter long starship that can act as a freighter and cruiser. It sports a twin laser turret in a dorsal mount and a heavy laser cannon on its ventral side. The Black Sun frigate was a modified Gozanti-class cruiser that was repurposed to be used as a frigate by the Black Sun criminal syndicate during the Clone Wars."
-
-
-
 ship "Gozanti-class Cruiser"
 	sprite "ship/gozanticruisermerchant"
 	thumbnail "thumbnail/gozanticruisermerchant"
@@ -4584,9 +4556,9 @@ ship "Gozanti-class Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 10
-		"outfit space" 469
-		"weapon capacity" 85
-		"engine capacity" 210
+		"outfit space" 75
+		"weapon capacity" 9
+		"engine capacity" 20
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -4617,6 +4589,54 @@ ship "Gozanti-class Cruiser"
 
 
 
+ship "Gozanti-class Cruiser" "Gozanti-class Cruiser (Black Sun)"
+	sprite "ship/gozanticruiserblacksun"
+	thumbnail "thumbnail/gozanticruiserblacksun"
+	attributes
+		category "Light Freighter"
+		"cost" 450000
+		"shields" 15000
+		"hull" 7300
+		"required crew" 5
+		"bunks" 35
+		"mass" 1700
+		"drag" 4.8
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 10
+		"outfit space" 75
+		"weapon capacity" 9
+		"engine capacity" 20
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Transport Dual Laser Turret (Red)"
+		"Transport Heavy Laser Turret (Red)"
+		
+		"T2 Transport Power Converter"
+		"T2 Transport Shield Projector"
+		"T2 Sensor Array"
+		"T2 Transport Coolant System"
+		
+		"T2 Transport Sublight Engine"
+		"T2 Transport Hyperspace Motivator"
+	
+	engine -46 80
+	engine 48 82
+	turret 0 82 "Transport Heavy Laser Turret (Red)"
+	turret 0 82 "Transport Dual Laser Turret (Red)"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Gozanti-class cruiser is a 64-meter long starship that can act as a freighter and cruiser. It sports a twin laser turret in a dorsal mount and a heavy laser cannon on its ventral side. The Black Sun frigate was a modified Gozanti-class cruiser that was repurposed to be used as a frigate by the Black Sun criminal syndicate during the Clone Wars."
+
+
+
 ship "GR-75 Transport" "GR-75 Transport (Jsec)"
 	sprite "ship/gr75transportjsec"
 	thumbnail "thumbnail/gr75transportjsec"
@@ -4632,8 +4652,9 @@ ship "GR-75 Transport" "GR-75 Transport (Jsec)"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 1000
-		"outfit space" 384
-		"engine capacity" 210
+		"outfit space" 154
+		"weapon capacity" 0
+		"engine capacity" 78
 		"defenceless capacity" -1
 		weapon
 			"blast radius" 290
@@ -4745,7 +4766,7 @@ ship "G-Type Light Shuttle"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 18
+		"outfit space" 17
 		"weapon capacity" 3
 		"engine capacity" 6
 		weapon
@@ -4793,7 +4814,7 @@ ship "GX1 Lantillian Short Hauler"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 57
+		"outfit space" 59
 		"weapon capacity" 0
 		"engine capacity" 20
 		"defenceless capacity" -1
@@ -4840,7 +4861,7 @@ ship "GX1 Lantillian Short Hauler" "GX1 Lantillian Short Hauler (Phoenix)"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 60
+		"outfit space" 62
 		"weapon capacity" 3
 		"engine capacity" 20
 		weapon
@@ -4886,7 +4907,7 @@ ship "GX1 Lantillian Short Hauler" "GX1 Lantillian Short Hauler (Diplomatic)"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 60
+		"outfit space" 62
 		"weapon capacity" 3
 		"engine capacity" 20
 		weapon
@@ -5105,7 +5126,7 @@ ship "Hammerhead-class Cruiser"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Hammerhead-class cruiser was a type of warship used by the Republic Navy during the Old Sith Wars, the Mandalorian Wars, and the New Sith Wars. One of the most successful warship designs in galactic history, the Hammerhead-class is still  used in sector defence forces millennia after its introduction, inspiring many later ship designs, such as the Thranta-class corvette and MC140 Scythe-class main battle cruiser."
+	description "The Hammerhead-class cruiser was a type of warship used by the Republic Navy during the Old Sith Wars, the Mandalorian Wars, and the New Sith Wars. One of the most successful warship designs in galactic history, the Hammerhead-class is still used in sector defence forces millennia after its introduction, inspiring many later ship designs, such as the Thranta-class corvette and MC140 Scythe-class main battle cruiser."
 
 
 
@@ -5311,9 +5332,9 @@ ship "HCT-2001 Dragonboat-class Reugeot 905 Freighter"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 2400
-		"outfit space" 424
-		"weapon capacity" 40
-		"engine capacity" 210
+		"outfit space" 242
+		"weapon capacity" 20
+		"engine capacity" 140
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -5358,7 +5379,7 @@ ship "Helot-class Medium Space Transport"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 56
+		"outfit space" 58
 		"weapon capacity" 4
 		"engine capacity" 20
 		weapon
@@ -6164,7 +6185,7 @@ ship "K-52 Strongarm Demolisher"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 61
+		"outfit space" 63
 		"weapon capacity" 4
 		"engine capacity" 20
 		weapon
@@ -6177,7 +6198,7 @@ ship "K-52 Strongarm Demolisher"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -6192,7 +6213,7 @@ ship "K-52 Strongarm Demolisher"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The G9 Rigger-class light freighter, was a model of freighter manufactured by the Corellian Engineering Corporation and used during the Clone Wars. Its only weapons were small blaster cannons attached to the wings and top of the freighter."
+	description "The K-52 Strongarm, also known as K-52 Demolisher, was a gunship model produced by Hyrotii Corporation during the Galactic War. The ship was sold to customers all over the galaxy without question. It was also popular with privateers, mercenaries and other non-military sources that lend their services to the Republic Navy of the Galactic Republic."
 
 
 
@@ -6225,7 +6246,7 @@ ship "Kandosii-type Dreadnought"
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
+		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
@@ -6407,7 +6428,7 @@ ship "Kandosii-type Dreadnought"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Kandosii-type dreadnaught, named after the Mando'a word for "ruthless", was the largest capital ship used by the Mandalorians during the Mandalorian Wars.Originally designed and built by the Fenelar, the Mandalorians stole the Kandosii-type design, during their conquest and destruction of the species. These dreadnaughts were later used by the Mandalorian Neo-Crusaders during the Mandalorian Wars against the Galactic Republic. (Fighters 128)"
+	description "The Kandosii-type dreadnaught, named after the Mando'a word for "ruthless", was the largest capital ship used by the Mandalorians during the Mandalorian Wars. Originally designed and built by the Fenelar, the Mandalorians stole the Kandosii-type design, during their conquest and destruction of the species. These dreadnoughts were later used by the Mandalorian Neo-Crusaders during the Mandalorian Wars against the Galactic Republic."
 
 
 
@@ -6441,7 +6462,7 @@ ship "Keldabe-class Battleship"
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
+		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
@@ -6557,6 +6578,7 @@ ship "Kihraxz Assault Fighter"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
@@ -6569,7 +6591,7 @@ ship "Kihraxz Assault Fighter"
 	gun 30 -5 "Fighter Laser Cannon (Red)"
 	gun 0 -48 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "The Kihraxz assault fighter, also known as the Kihraxz light fighter, was a light starfighter developed specifically for Black Sun during the reign of the Galactic Empire. While intended for the criminal organization, many Kihraxz starfighters found their way into the hands of various independent fringers."
+	description "The Kihraxz assault fighter, also known as the Kihraxz light fighter, is a light starfighter developed specifically for Black Sun. While intended for the criminal organisation, many Kihraxz starfighters have found their way into the hands of various independent fringers."
 
 
 
@@ -6603,6 +6625,7 @@ ship "Kihraxz Assault Fighter (Fighter)"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
@@ -6615,7 +6638,7 @@ ship "Kihraxz Assault Fighter (Fighter)"
 	gun 30 -5 "Fighter Laser Cannon (Red)"
 	gun 0 -48 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "The Kihraxz assault fighter, also known as the Kihraxz light fighter, was a light starfighter developed specifically for Black Sun during the reign of the Galactic Empire. While intended for the criminal organization, many Kihraxz starfighters found their way into the hands of various independent fringers."
+	description "The Kihraxz assault fighter, also known as the Kihraxz light fighter, is a light starfighter developed specifically for Black Sun. While intended for the criminal organisation, many Kihraxz starfighters have found their way into the hands of various independent fringers."
 
 
 
@@ -6635,7 +6658,7 @@ ship "Kom'rk-class Fighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 61
+		"outfit space" 63
 		"weapon capacity" 4
 		"engine capacity" 20
 		weapon
@@ -6648,7 +6671,7 @@ ship "Kom'rk-class Fighter"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -6668,7 +6691,7 @@ ship "Kom'rk-class Fighter"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Kom'rk-class fighter, also known as the Gauntlet starfighter, was a type of starfighter and troop transport used by the Mandalorian splinter faction known as Death Watch during the Clone Wars. The fighters were utilised as part of a move by Death Watch leader Pre Vizsla to end Satine Kryze's pacifist rule of Mandalore and restore the Mandalorians to their former warrior past."
+	description "The Kom'rk-class fighter, also known as the Gauntlet starfighter, is a type of starfighter and troop transport used by the Mandalorian splinter faction known as Death Watch during the Clone Wars. The fighters were utilised as part of a move by Death Watch leader Pre Vizsla to end Satine Kryze's pacifist rule of Mandalore and restore the Mandalorians to their former warrior past."
 
 
 
@@ -6701,7 +6724,7 @@ ship "Krayt Dragon Ship"
 		
 		"T3 Corvette Power Converter"
 		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
+		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Blue)"
@@ -6723,57 +6746,7 @@ ship "Krayt Dragon Ship"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Krayt Dragon ship"
-
-
-
-ship "Krayt Lav"
-	sprite "ship/kraytlav"
-	thumbnail "thumbnail/kraytlav"
-	attributes
-		category "Light Warship"
-		"cost" 420000
-		"shields" 12000
-		"hull" 7300
-		"required crew" 2
-		"bunks" 8
-		"mass" 300
-		"drag" 3.0
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 10
-		"outfit space" 469
-		"weapon capacity" 85
-		"engine capacity" 210
-		weapon
-			"blast radius" 290
-			"shield damage" 680
-			"hull damage" 340
-			"hit force" 750
-	outfits
-		"Transport Laser Turret (Red)" 2
-		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
-		"T2 Transport Coolant System"
-		
-		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
-	
-	engine -11 128
-	engine -4 128
-	engine 1 128
-	engine 8 128
-	engine 10 128
-	turret 0 -99 "Transport Laser Turret (Red)"
-	turret -1 -12 "Transport Laser Turret (Red)"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "Krayt Lav (DESCRIPTION)"
+	description "A Krayt Dragon ship is a capital ship that served in the One Sith. Manufactured in secret alongside Emperor Krayt's Annihilator-class starfighters, these ships were unveiled in 138 ABY, when the deposed Krayt returned to Coruscant to reclaim his throne from his "most trusted" servant."
 
 
 
@@ -6792,9 +6765,9 @@ ship "KR-TB Doomtreader"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 80
-		"outfit space" 290
-		"weapon capacity" 70
-		"engine capacity" 210
+		"outfit space" 78
+		"weapon capacity" 12
+		"engine capacity" 20
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -6805,7 +6778,7 @@ ship "KR-TB Doomtreader"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -6824,7 +6797,7 @@ ship "KR-TB Doomtreader"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The KR-TB Doomtreader was a freighter produced by Corellian Engineering Corporation. It had expansive cargo holds, heavy deflector shields and dual laser cannons, but came at a relatively high price."
+	description "The KR-TB Doomtreader is a freighter produced by Corellian Engineering Corporation. It has expansive cargo holds, heavy deflector shields and dual laser cannons, but comes at a relatively high price."
 
 
 
@@ -6844,9 +6817,9 @@ ship "KT-400 Military Droid Carrier"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 78
+		"weapon capacity" 12
+		"engine capacity" 20
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -6857,7 +6830,7 @@ ship "KT-400 Military Droid Carrier"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -6888,7 +6861,7 @@ ship "KT-600 Military Transport"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 66
+		"outfit space" 68
 		"weapon capacity" 9
 		"engine capacity" 20
 		weapon
@@ -6904,7 +6877,7 @@ ship "KT-600 Military Transport"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -6922,7 +6895,7 @@ ship "KT-600 Military Transport"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "KT-600 Military Transport"
+	description "The KT-600 Military Transport was a type of transport used by the Republic during the Cold War and the Second Great Galactic War. KT-600's were used extensively by the Republic Navy along with the smaller Fortitude-class Assault Shuttle."
 
 
 
@@ -6941,7 +6914,7 @@ ship "Lancer Pursuit Craft"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 66
+		"outfit space" 68
 		"weapon capacity" 9
 		"engine capacity" 20
 		weapon
@@ -6957,7 +6930,7 @@ ship "Lancer Pursuit Craft"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -6975,7 +6948,7 @@ ship "Lancer Pursuit Craft"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Lancer Pursuit Craft"
+	description "The Lancer-class pursuit craft is a patrol ship produced by MandalMotors at the behest of the Black Sun crime syndicate. Blurring the line between civilian freighter and warship, the Lancer is more interdiction and patrol vessel than workaday cargo hauler. Created on special commission for Black Sun by MandalMotors, the Lancer is designed to chase down fleeing cargo vessels and outrun other patrol ships."
 
 
 
@@ -6994,9 +6967,9 @@ ship "Lancer Pursuit Craft" "Lancer Pursuit Craft (Black)"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 305
-		"weapon capacity" 85
-		"engine capacity" 70
+		"outfit space" 68
+		"weapon capacity" 9
+		"engine capacity" 20
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -7010,7 +6983,7 @@ ship "Lancer Pursuit Craft" "Lancer Pursuit Craft (Black)"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -7028,7 +7001,7 @@ ship "Lancer Pursuit Craft" "Lancer Pursuit Craft (Black)"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Lancer Pursuit Craft"
+	description "The Lancer-class pursuit craft is a patrol ship produced by MandalMotors at the behest of the Black Sun crime syndicate. Blurring the line between civilian freighter and warship, the Lancer is more interdiction and patrol vessel than workaday cargo hauler. Created on special commission for Black Sun by MandalMotors, the Lancer is designed to chase down fleeing cargo vessels and outrun other patrol ships."
 
 
 
@@ -7051,6 +7024,7 @@ ship "Miy'til Starfighter"
 		"outfit space" 199
 		"weapon capacity" 40
 		"engine capacity" 45
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -7063,7 +7037,9 @@ ship "Miy'til Starfighter"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 		
 		"T1 Fighter Engine (Blue)"
 		"T1 Fighter Hyperspace Motivator"
@@ -7076,7 +7052,7 @@ ship "Miy'til Starfighter"
 	gun -3 -3 "Concussion Missile Launcher"
 	gun 3 -3 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "The Miy'til starfighter was a fighter unique to the Hapes Consortium, where it served as the primary superiority fighter. Following their defeat in the Clone Wars, several Separatist starfighter engineers fled into the Hapes Cluster, seeking refuge. There, they lent their services to the Consortium, helping to develop new fighter designs."
+	description "The Miy'til starfighter is a fighter unique to the Hapes Consortium,  serving as the primary superiority fighter. Following their defeat in the Clone Wars, several Separatist starfighter engineers fled into the Hapes Cluster, seeking refuge. There, they lent their services to the Consortium, helping to develop new fighter designs."
 
 
 
@@ -7099,6 +7075,7 @@ ship "Miy'til Starfighter (Fighter)"
 		"outfit space" 199
 		"weapon capacity" 40
 		"engine capacity" 45
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -7111,7 +7088,9 @@ ship "Miy'til Starfighter (Fighter)"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 		
 		"T1 Fighter Engine (Blue)"
 		"T1 Fighter Hyperspace Motivator"
@@ -7124,7 +7103,7 @@ ship "Miy'til Starfighter (Fighter)"
 	gun -3 -3 "Concussion Missile Launcher"
 	gun 3 -3 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "The Miy'til starfighter was a fighter unique to the Hapes Consortium, where it served as the primary superiority fighter. Following their defeat in the Clone Wars, several Separatist starfighter engineers fled into the Hapes Cluster, seeking refuge. There, they lent their services to the Consortium, helping to develop new fighter designs."
+	description "The Miy'til starfighter is a fighter unique to the Hapes Consortium,  serving as the primary superiority fighter. Following their defeat in the Clone Wars, several Separatist starfighter engineers fled into the Hapes Cluster, seeking refuge. There, they lent their services to the Consortium, helping to develop new fighter designs."
 
 
 ship "Pulsar-class Destroyer"
@@ -7157,7 +7136,7 @@ ship "Pulsar-class Destroyer"
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
+		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
@@ -7216,7 +7195,8 @@ ship "Pulsar-class Destroyer"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Pulsar-class Destroyer has a complement of fighters = 16"
+	description "Often considered to be a twin to the more infamous Aggressor-class Star Destroyer, the Pulsar-class Destroyer is one of several different warship classes utilised by Tyber Zann's faction. Ships of the class were comparable in terms of size to the Galactic Empire's Imperial-class Star Destroyers and were armed with two powerful fire-linked guns fixed to the forward hull which fired a large ion pulse followed by an enormous, spiralling plasma shot."
+
 
 
 
@@ -7252,7 +7232,6 @@ ship "Purrgil"
 		hullcollision 32
 		
 		"T3.5 Heavy Freighter Power Converter"
-		"Small Radar Jammer"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
@@ -7292,7 +7271,9 @@ ship "Purrgil"
 	gun 49 359.5
 	leak "blood" 40 40
 	explode "blood" 200
-	description "Purrgil"
+	description "Purrgil are a species of massive, whale-like creatures that live in deep space, traveling from star system to star system. It is their natural ability to fly through hyperspace that inspired sentients to develop hyperdrive technology. However, most spacers consider purrgil to be pests due to their habit of approaching and flying into starships near their flight paths. Numerous spacer deaths can be attributed to purrgil-related incidents, leading most spacers to fire upon them on sight."
+
+
 
 ship "Mobquet MB-C1 Medium Transport"
 	sprite "ship/mobquetmediumtransport"
@@ -7309,9 +7290,9 @@ ship "Mobquet MB-C1 Medium Transport"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 2200
-		"outfit space" 424
-		"weapon capacity" 40
-		"engine capacity" 210
+		"outfit space" 242
+		"weapon capacity" 20
+		"engine capacity" 140
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -7357,9 +7338,9 @@ ship "Mobquet MB-C1 Medium Transport (Starhook Ten)"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 2200
-		"outfit space" 424
-		"weapon capacity" 40
-		"engine capacity" 210
+		"outfit space" 242
+		"weapon capacity" 20
+		"engine capacity" 140
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -7405,9 +7386,9 @@ ship "Modular Conveyor"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 2300
-		"outfit space" 424
-		"weapon capacity" 40
-		"engine capacity" 210
+		"outfit space" 282
+		"weapon capacity" 60
+		"engine capacity" 140
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -7455,6 +7436,7 @@ ship "N-1 Starfighter"  "N-1 Starfighter (Jsec)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -7467,7 +7449,9 @@ ship "N-1 Starfighter"  "N-1 Starfighter (Jsec)"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -7479,7 +7463,7 @@ ship "N-1 Starfighter"  "N-1 Starfighter (Jsec)"
 	gun -10 -41 "Proton Torpedo Launcher"
 	gun 10 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "The N-1 starfighter was a sleek single-pilot craft used by the Naboo and demonstrated the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glinted in the sun for fly-bys and parades, and represented the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stood in stark contrast to its overall yellow finish."
+	description "The N-1 starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glint in the sun for fly-bys and parades, and represent the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stands in stark contrast to its overall yellow finish."
 
 
 
@@ -7501,6 +7485,7 @@ ship "N-1 Starfighter (Fighter)" "N-1 Starfighter (Jsec) (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -7513,7 +7498,9 @@ ship "N-1 Starfighter (Fighter)" "N-1 Starfighter (Jsec) (Fighter)"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -7525,7 +7512,7 @@ ship "N-1 Starfighter (Fighter)" "N-1 Starfighter (Jsec) (Fighter)"
 	gun -10 -41 "Proton Torpedo Launcher"
 	gun 10 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "The N-1 starfighter was a sleek single-pilot craft used by the Naboo and demonstrated the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glinted in the sun for fly-bys and parades, and represented the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stood in stark contrast to its overall yellow finish."
+	description "The N-1 starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glint in the sun for fly-bys and parades, and represent the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stands in stark contrast to its overall yellow finish."
 
 
 
@@ -7547,6 +7534,7 @@ ship "N-1 Starfighter"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -7559,7 +7547,9 @@ ship "N-1 Starfighter"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -7571,7 +7561,7 @@ ship "N-1 Starfighter"
 	gun -10 -41 "Proton Torpedo Launcher"
 	gun 10 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "The N-1 starfighter was a sleek single-pilot craft used by the Naboo and demonstrated the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glinted in the sun for fly-bys and parades, and represented the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stood in stark contrast to its overall yellow finish."
+	description "The N-1 starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glint in the sun for fly-bys and parades, and represent the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stands in stark contrast to its overall yellow finish."
 
 
 
@@ -7593,6 +7583,7 @@ ship "N-1 Starfighter (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -7605,7 +7596,9 @@ ship "N-1 Starfighter (Fighter)"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -7617,7 +7610,7 @@ ship "N-1 Starfighter (Fighter)"
 	gun -10 -41 "Proton Torpedo Launcher"
 	gun 10 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "The N-1 starfighter was a sleek single-pilot craft used by the Naboo and demonstrated the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glinted in the sun for fly-bys and parades, and represented the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stood in stark contrast to its overall yellow finish."
+	description "The N-1 starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glint in the sun for fly-bys and parades, and represent the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stands in stark contrast to its overall yellow finish."
 
 
 
@@ -7639,6 +7632,7 @@ ship "N-22 Starfighter"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -7651,7 +7645,9 @@ ship "N-22 Starfighter"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -7663,7 +7659,7 @@ ship "N-22 Starfighter"
 	gun -2 -41 "Proton Torpedo Launcher"
 	gun -1 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "N-22 Ravenous Starfighter"
+	description "The N-22 Ravenous starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. A more combat focused variant of the N-1 starfighter, N-22s can normally be found in system patrols near Naboo."
 
 
 
@@ -7685,6 +7681,7 @@ ship "N-22 Starfighter (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -7697,7 +7694,9 @@ ship "N-22 Starfighter (Fighter)"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -7709,7 +7708,7 @@ ship "N-22 Starfighter (Fighter)"
 	gun -2 -41 "Proton Torpedo Launcher"
 	gun -1 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "N-22 Ravenous Starfighter"
+	description "The N-22 Ravenous starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. A more combat focused variant of the N-1 starfighter, N-22s can normally be found in system patrols near Naboo."
 
 
 
@@ -7742,7 +7741,7 @@ ship "Nar Shadda Destroyer"
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
+		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
@@ -7813,7 +7812,7 @@ ship "Nar Shadda Destroyer"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Nar Shadda Destroyer appeared to be a hybrid of the Venator-class and the Imperial-class Star Destroyers, but was smaller than both and had a visual protrusion at the bow. The design had armour that could extend and retract around the vessel itself. Most models were used around the system Nar Hutta, homeworld of the Hutt species."
+	description "The Nar Shadda Destroyer appears to be a hybrid of the Venator-class and the Imperial-class Star Destroyers, but is smaller than both and has a visual protrusion at the bow. The design has armour that could extend and retract around the vessel itself. Most models are used around the system Nar Hutta, homeworld of the Hutt species."
 
 
 
@@ -7836,6 +7835,7 @@ ship "Nimbus-class V-wing Starfighter" "Nimbus-class V-wing Starfighter (Jsec)"
 		"outfit space" 199
 		"weapon capacity" 40
 		"engine capacity" 45
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -7850,6 +7850,7 @@ ship "Nimbus-class V-wing Starfighter" "Nimbus-class V-wing Starfighter (Jsec)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 		
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -7861,7 +7862,7 @@ ship "Nimbus-class V-wing Starfighter" "Nimbus-class V-wing Starfighter (Jsec)"
 	gun 12 3 "Concussion Missile Launcher"
 	explode "large explosion"
 	"final explode" "final explosion large"
-	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, was a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
+	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, is a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
 
 
 
@@ -7884,6 +7885,7 @@ ship "Nimbus-class V-wing Starfighter (Fighter)" "Nimbus-class V-wing Starfighte
 		"outfit space" 179
 		"weapon capacity" 40
 		"engine capacity" 45
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -7898,6 +7900,7 @@ ship "Nimbus-class V-wing Starfighter (Fighter)" "Nimbus-class V-wing Starfighte
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 		
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -7909,7 +7912,7 @@ ship "Nimbus-class V-wing Starfighter (Fighter)" "Nimbus-class V-wing Starfighte
 	gun 12 3 "Concussion Missile Launcher"
 	explode "large explosion"
 	"final explode" "final explosion large"
-	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, was a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
+	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, is a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
 
 
 ship "Nova-class Battle Cruiser"
@@ -7940,7 +7943,7 @@ ship "Nova-class Battle Cruiser"
 		
 		"T4 Frigate Power Converter"
 		"T4 Frigate Shield Projector"
-		"Small Radar Jammer"
+		"T4 Sensor Array"
 		"T4 Frigate Coolant System"
 		
 		"T4 Frigate Sublight Engine"
@@ -7985,7 +7988,7 @@ ship "Nova-class Battle Cruiser"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Nova-class battle cruiser was a capital ship that formed a large portion of the Hapan fleet. The Hapes Consortium had several different warships at their disposal. The backbone of their fleet was the distinctive Battle Dragon, but Nova-class battle cruisers were regularly used to supplement the Dragons."
+	description "The Nova-class battle cruiser is a capital ship that forms a large portion of the Hapan fleet. The Hapes Consortium has several different warships at their disposal. The backbone of their fleet is the distinctive Battle Dragon, but Nova-class battle cruisers are regularly used to supplement the Dragons."
 
 
 
@@ -8004,7 +8007,7 @@ ship "Old Republic Diplomatic Transport"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 60
+		"outfit space" 62
 		"weapon capacity" 3
 		"engine capacity" 20
 		weapon
@@ -8017,7 +8020,7 @@ ship "Old Republic Diplomatic Transport"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -8033,7 +8036,7 @@ ship "Old Republic Diplomatic Transport"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Republic Transport ship was used by the Galactic Republic during the Great Galactic War as a multi purpose vessel, though primarily for diplomatic missions."
+	description "The Old Republic Transport ship was used by the Galactic Republic during the Great Galactic War as a multi purpose vessel, though primarily for diplomatic missions."
 
 
 
@@ -8140,6 +8143,7 @@ ship "Planetary Defender"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -8152,7 +8156,9 @@ ship "Planetary Defender"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -8186,6 +8192,7 @@ ship "Planetary Defender (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -8198,7 +8205,9 @@ ship "Planetary Defender (Fighter)"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -8211,56 +8220,6 @@ ship "Planetary Defender (Fighter)"
 	gun 9 -9 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Planetary Defender starfighter, also known simply as the Planetary Fighter, is one of the countless products of SoroSuub Corporation. Although the Planetary Starfighter is able to travel through space, it is not a space superiority fighter for military use. Rather, it is used for corporate security by customs forces. While the craft's roll was limited, it has excellent pitch, speed, and acceleration."
-
-
-
-ship "YG-4210 Freighter"
-	sprite "ship/yg4210freighter"
-	thumbnail "thumbnail/yg4210freighter"
-	attributes
-		category "Light Freighter"
-		"cost" 700000
-		"shields" 14500
-		"hull" 7650
-		"required crew" 3
-		"bunks" 8
-		"mass" 1470
-		"drag" 4.7
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 60
-		"outfit space" 290
-		"weapon capacity" 70
-		"engine capacity" 210
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"Transport Laser Turret (Red)" 4
-		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
-		"T2 Transport Coolant System"
-		
-		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
-		
-	engine -100 154
-	engine 0 207
-	engine 101 153
-	turret 32 -194 "Transport Laser Turret (Red)"
-	turret 0 -10 "Transport Laser Turret (Red)"
-	turret 0 -10 "Transport Laser Turret (Red)"
-	turret 0 123 "Transport Laser Turret (Red)"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The YG-4210, built by the Corellian Engineering Corporation, was considered to be an ancient ship model, first constructed more than two centuries prior to the Galactic Civil War, and even predated the venrable YT-series by several decades. Designed specifically for space exploration rather than combat, the freighter was originally unarmed. However, after centuries of serving, most likely none of them matched the original specifications. Weapons such as blasters, ion cannons and concussion missiles were common in these modified vehicles."
 
 
 
@@ -8293,7 +8252,7 @@ ship "Liberator-class Cruiser"
 		
 		"T4.5 Cruiser Power Converter"
 		"T4.5 Cruiser Shield Projector"
-		"Small Radar Jammer"
+		"T4 Sensor Array"
 		"T4.5 Cruiser Coolant System"
 		
 		"T4.5 Cruiser Sublight Engine"
@@ -8377,7 +8336,7 @@ ship "Liberator-class Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Liberator-class cruiser, also Liberator Cruiser, was a powerful frontline capital ship designed by the SoroSuub Corporation to combat piracy. Although slender and small in size, the cruiser boasted a formidable array of weaponry comprising more than four hundred combined turbolaser and ion cannon batteries, and could carry a complement of six starfighter squadrons and three troop regiments. Utilised by both the Sullustan Home Guard and the Rebel Alliance during the Galactic Civil War, the Liberator featured cutting-edge armour plating, shielding, and drive unit technology that made it one of the galaxy's most advanced warships. (48 Fighters)"
+	description "The Liberator-class cruiser, also Liberator Cruiser, is a powerful frontline capital ship designed by the SoroSuub Corporation to combat piracy. Although slender and small in size, the cruiser boasts a formidable array of weaponry comprising more than four hundred combined turbolaser and ion cannon batteries, and can carry a complement of six starfighter squadrons and three troop regiments. Utilised by both the Sullustan Home Guard and the Rebel Alliance during the Galactic Civil War, the Liberator features cutting-edge armour plating, shielding, and drive unit technology, making it one of the galaxy's most advanced warships."
 
 
 
@@ -8412,6 +8371,7 @@ ship "Liberator-class Fighter"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
@@ -8458,7 +8418,106 @@ ship "Liberator-class Fighter (Fighter)"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+
+		"T1 Fighter Engine (Pink)"
+		"T1 Fighter Hyperspace Motivator"
+
+	engine -9 32
+	engine 9 32
+	gun -37 -19 "Fighter Laser Cannon (Red)"
+	gun 37 -19 "Fighter Laser Cannon (Red)"
+	gun -7 -6 "Concussion Missile Launcher"
+	gun 6 -6 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	description "The Liberator-class starfighter, known by the reconstituted Sith Empire as the Talon fighter, was a model of fighter used by the Galactic Republic prior to and during the Great Galactic War. One of the ship's variants was the Striker-class, mostly used by Jedi Master Satele Shan."
+
+
+
+ship "Liberator-class Fighter (Modified)"
+	sprite ship/liberatorstarfighter
+	thumbnail thumbnail/liberatorstarfighter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 135000
+		shields 1500
+		hull 1500
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+		"Astromech Socket"
+
+		"T1 Fighter Engine (Pink)"
+		"T1 Fighter Hyperspace Motivator"
+
+	engine -9 32
+	engine 9 32
+	gun -37 -19 "Fighter Laser Cannon (Red)"
+	gun 37 -19 "Fighter Laser Cannon (Red)"
+	gun -7 -6 "Concussion Missile Launcher"
+	gun 6 -6 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	description "The Liberator-class starfighter, known by the reconstituted Sith Empire as the Talon fighter, was a model of fighter used by the Galactic Republic prior to and during the Great Galactic War. One of the ship's variants was the Striker-class, mostly used by Jedi Master Satele Shan."
+
+
+
+ship "Liberator-class Fighter (Modified) (Fighter)"
+	sprite ship/liberatorstarfighter
+	thumbnail thumbnail/liberatorstarfighter
+	"never disabled"
+	attributes
+		category "Fighter"
+		cost 135000
+		shields 1500
+		hull 1500
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 249
+		"weapon capacity" 60
+		"engine capacity" 50
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -8505,6 +8564,7 @@ ship "Lok Revenants Assault Fighter"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1 Fighter Engine (Pink)"
@@ -8519,85 +8579,7 @@ ship "Lok Revenants Assault Fighter"
 	gun -30 2 "Proton Torpedo Launcher"
 	gun 31 2 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "Lok Revenants Assault Fighter"
-
-
-
-ship "M3-A Scyk Fighter" "M3-A Scyk Fighter (Black)"
-	sprite "ship/m3ascykfighterblack"
-	thumbnail "thumbnail/m3ascykfighterblack"
-	"never disabled"
-	attributes
-		category "Interceptor"
-		"cost" 55000
-		"shields" 640
-		"hull" 1600
-		"required crew" 1
-		"bunks" 1
-		"mass" 20
-		"drag" .9
-		"heat dissipation" .9
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 45
-		weapon
-			"blast radius" 12
-			"shield damage" 120
-			"hull damage" 60
-			"hit force" 180
-	outfits
-		"Fighter Laser Cannon (Red)" 2
-		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
-		"T1 Fighter Coolant System"
-
-		"T1 Fighter Engine (Orange)"
-		
-	engine 0 11
-	gun -6 -32 "Fighter Laser Cannon (Red)"
-	gun 5 -32 "Fighter Laser Cannon (Red)"
-	explode "large explosion" 3
-	description "The M3-A Scyk fighter was a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It was named after the Scyk lizard of Tatooine. Although the Scyk barely provided more amenities to its pilot than a TIE/LN starfighter did, it had two strong points - it was cheap and its weapon mount was designed to handle nearly anything."
-
-
-
-ship "M3-A Scyk Fighter (Fighter)" "M3-A Scyk Fighter (Black) (Fighter)"
-	sprite "ship/m3ascykfighterblack"
-	thumbnail "thumbnail/m3ascykfighterblack"
-	"never disabled"
-	attributes
-		category "Fighter"
-		"cost" 55000
-		"shields" 640
-		"hull" 1600
-		"required crew" 1
-		"bunks" 1
-		"mass" 20
-		"drag" .9
-		"heat dissipation" .9
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 45
-		weapon
-			"blast radius" 12
-			"shield damage" 120
-			"hull damage" 60
-			"hit force" 180
-	outfits
-		"Fighter Laser Cannon (Red)" 2
-		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
-		"T1 Fighter Coolant System"
-
-		"T1 Fighter Engine (Orange)"
-		
-	engine 0 11
-	gun -6 -32 "Fighter Laser Cannon (Red)"
-	gun 5 -32 "Fighter Laser Cannon (Red)"
-	explode "large explosion" 3
-	description "The M3-A Scyk fighter was a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It was named after the Scyk lizard of Tatooine. Although the Scyk barely provided more amenities to its pilot than a TIE/LN starfighter did, it had two strong points - it was cheap and its weapon mount was designed to handle nearly anything."
+	description "The Lok Revenants Assault Fighter is a heavy fighter used by the Lok Revenants. It has a much higher firepower than the G-400 starfighter, having four laser cannons rather than a single cannon."
 
 
 
@@ -8628,6 +8610,7 @@ ship "M3-A Scyk Fighter"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
@@ -8636,7 +8619,7 @@ ship "M3-A Scyk Fighter"
 	gun -6 -32 "Fighter Laser Cannon (Red)"
 	gun 5 -32 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
-	description "The M3-A Scyk fighter was a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It was named after the Scyk lizard of Tatooine. Although the Scyk barely provided more amenities to its pilot than a TIE/LN starfighter did, it had two strong points - it was cheap and its weapon mount was designed to handle nearly anything."
+	description "The M3-A Scyk fighter is a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It is named after the Scyk lizard of Tatooine. Although the Scyk barely provides more amenities to its pilot than a TIE/LN starfighter, it has two strong points - it is cheap and its weapon mount is designed to handle nearly anything."
 
 
 
@@ -8667,6 +8650,7 @@ ship "M3-A Scyk Fighter (Fighter)"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
@@ -8675,7 +8659,88 @@ ship "M3-A Scyk Fighter (Fighter)"
 	gun -6 -32 "Fighter Laser Cannon (Red)"
 	gun 5 -32 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
-	description "The M3-A Scyk fighter was a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It was named after the Scyk lizard of Tatooine. Although the Scyk barely provided more amenities to its pilot than a TIE/LN starfighter did, it had two strong points - it was cheap and its weapon mount was designed to handle nearly anything."
+	description "The M3-A Scyk fighter is a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It is named after the Scyk lizard of Tatooine. Although the Scyk barely provides more amenities to its pilot than a TIE/LN starfighter, it has two strong points - it is cheap and its weapon mount is designed to handle nearly anything."
+
+
+
+ship "M3-A Scyk Fighter" "M3-A Scyk Fighter (Black)"
+	sprite "ship/m3ascykfighterblack"
+	thumbnail "thumbnail/m3ascykfighterblack"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 55000
+		"shields" 640
+		"hull" 1600
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 95
+		"weapon capacity" 20
+		"engine capacity" 45
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+
+		"T1 Fighter Engine (Orange)"
+		
+	engine 0 11
+	gun -6 -32 "Fighter Laser Cannon (Red)"
+	gun 5 -32 "Fighter Laser Cannon (Red)"
+	explode "large explosion" 3
+	description "The M3-A Scyk fighter is a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It is named after the Scyk lizard of Tatooine. Although the Scyk barely provides more amenities to its pilot than a TIE/LN starfighter, it has two strong points - it is cheap and its weapon mount is designed to handle nearly anything."
+
+
+
+ship "M3-A Scyk Fighter (Fighter)" "M3-A Scyk Fighter (Black) (Fighter)"
+	sprite "ship/m3ascykfighterblack"
+	thumbnail "thumbnail/m3ascykfighterblack"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 55000
+		"shields" 640
+		"hull" 1600
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 95
+		"weapon capacity" 20
+		"engine capacity" 45
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		
+		"T1 Fighter Power Converter"
+		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+
+		"T1 Fighter Engine (Orange)"
+		
+	engine 0 11
+	gun -6 -32 "Fighter Laser Cannon (Red)"
+	gun 5 -32 "Fighter Laser Cannon (Red)"
+	explode "large explosion" 3
+	description "The M3-A Scyk fighter is a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It is named after the Scyk lizard of Tatooine. Although the Scyk barely provides more amenities to its pilot than a TIE/LN starfighter, it has two strong points - it is cheap and its weapon mount is designed to handle nearly anything."
+
 
 
 
@@ -8713,6 +8778,7 @@ ship "M12-L Kimogila Heavy Fighter"
 
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Pink)"
@@ -8729,7 +8795,7 @@ ship "M12-L Kimogila Heavy Fighter"
 	gun 4 -51 "Proton Torpedo Launcher"
 	explode "medium explosion" 5
 	explode "large explosion" 3
-	description "The M12-L Kimogila heavy fighter was the heaviest in MandalMotors line of snubfighters. The M12 was used by the Hutt crime organisations to protect their 'interests' and were often crewed by mercenary pilots. Its numerous gun emplacements classified the ship as a heavy fighter, and its torpedo capabilities allowed it to function as a bomber in special circumstances. This flexibility made it quite popular among free mercenaries. Though it lacked the speed and manoeuvring capabilities of its predecessors, its ability to cause wanton slaughter could outweigh these factors."
+	description "The M12-L Kimogila heavy fighter is the heaviest in MandalMotors line of snubfighters. The M12 is used by the Hutt crime organisations to protect their 'interests' and are often crewed by mercenary pilots. Its numerous gun emplacements classify the ship as a heavy fighter, and its torpedo capabilities allow it to function as a bomber in special circumstances. This flexibility makes it quite popular among free mercenaries. Though it lacks the speed and manoeuvring capabilities of its predecessors, its ability to cause wanton slaughter may outweigh these factors."
 
 
 
@@ -8767,6 +8833,7 @@ ship "M12-L Kimogila Heavy Fighter (Fighter)"
 
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Pink)"
@@ -8783,7 +8850,7 @@ ship "M12-L Kimogila Heavy Fighter (Fighter)"
 	gun 4 -51 "Proton Torpedo Launcher"
 	explode "medium explosion" 5
 	explode "large explosion" 3
-	description "The M12-L Kimogila heavy fighter was the heaviest in MandalMotors line of snubfighters. The M12 was used by the Hutt crime organisations to protect their 'interests' and were often crewed by mercenary pilots. Its numerous gun emplacements classified the ship as a heavy fighter, and its torpedo capabilities allowed it to function as a bomber in special circumstances. This flexibility made it quite popular among free mercenaries. Though it lacked the speed and manoeuvring capabilities of its predecessors, its ability to cause wanton slaughter could outweigh these factors."
+	description "The M12-L Kimogila heavy fighter is the heaviest in MandalMotors line of snubfighters. The M12 is used by the Hutt crime organisations to protect their 'interests' and are often crewed by mercenary pilots. Its numerous gun emplacements classify the ship as a heavy fighter, and its torpedo capabilities allow it to function as a bomber in special circumstances. This flexibility makes it quite popular among free mercenaries. Though it lacks the speed and manoeuvring capabilities of its predecessors, its ability to cause wanton slaughter may outweigh these factors."
 
 
 
@@ -8817,7 +8884,7 @@ ship "Ranger Gunboat"
 		
 		"T3 Corvette Power Converter"
 		"T3 Corvette Shield Projector"
-		"Small Radar Jammer"
+		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
@@ -8836,7 +8903,7 @@ ship "Ranger Gunboat"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Ranger Gunboat (DESCRIPTION)"
+	description "The Ranger Gunboat is a rather uncommon ship most widely used as a patrol ships for smaller, less frequented hyperplanes. The vessel is capable of holding its own, not requiring the support of smaller patrol ships. The Ranger sometimes cleans hyperlanes from debris or smaller asteroids with its added tractor beam projector."
 
 
 
@@ -8859,6 +8926,7 @@ ship "R60 T-Wing"
 		"outfit space" 199
 		"weapon capacity" 40
 		"engine capacity" 45
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -8871,7 +8939,9 @@ ship "R60 T-Wing"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 		
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -8885,7 +8955,7 @@ ship "R60 T-Wing"
 	gun 10 -5 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing was a light fast-response starfighter. The ship's speed was similar to a TIE Interceptor, but it also included hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
+	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing is a light fast-response starfighter. The ship's speed is similar to a TIE Interceptor, but it also includes hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
 
 
 
@@ -8908,6 +8978,7 @@ ship "R60 T-Wing (Fighter)"
 		"outfit space" 179
 		"weapon capacity" 40
 		"engine capacity" 45
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -8920,7 +8991,9 @@ ship "R60 T-Wing (Fighter)"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 		
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -8934,7 +9007,7 @@ ship "R60 T-Wing (Fighter)"
 	gun 10 -5 "Concussion Missile Launcher"
 	explode "tiny explosion" 20
 	explode "large explosion" 3
-	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing was a light fast-response starfighter. The ship's speed was similar to a TIE Interceptor, but it also included hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
+	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing is a light fast-response starfighter. The ship's speed is similar to a TIE Interceptor, but it also includes hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
 
 
 
@@ -8969,6 +9042,7 @@ ship "R60 T-Wing (Prototype)"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
@@ -8982,7 +9056,7 @@ ship "R60 T-Wing (Prototype)"
 	gun 6 -3 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing was a light fast-response starfighter. The ship's speed was similar to a TIE Interceptor, but it also included hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
+	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing is a light fast-response starfighter. The ship's speed is similar to a TIE Interceptor, but it also includes hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
 
 
 
@@ -9017,6 +9091,7 @@ ship "R60 T-Wing (Prototype) (Fighter)"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
@@ -9030,7 +9105,7 @@ ship "R60 T-Wing (Prototype) (Fighter)"
 	gun 6 -3 "Concussion Missile Launcher"
 	explode "tiny explosion" 20
 	explode "large explosion" 3
-	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing was a light fast-response starfighter. The ship's speed was similar to a TIE Interceptor, but it also included hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
+	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing is a light fast-response starfighter. The ship's speed is similar to a TIE Interceptor, but it also includes hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
 
 
 
@@ -9049,7 +9124,7 @@ ship "Razor Crest Gunship"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 61
+		"outfit space" 63
 		"weapon capacity" 4
 		"engine capacity" 20
 		weapon
@@ -9062,7 +9137,7 @@ ship "Razor Crest Gunship"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -9077,7 +9152,7 @@ ship "Razor Crest Gunship"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Razor Crest was a gunship used by the Mandalorian bounty hunter Din Djarin. It was once a military craft used to patrol local territories prior to the Galactic Empire. Djarin utilized the vessel as his transport and living quarters while hunting fugitives in the Outer Rim Territories."
+	description "The Razor Crest is a gunship used by the Mandalorian bounty hunter Din Djarin. It was once a military craft used to patrol local territories prior to the Galactic Empire. Djarin utilises the vessel as his transport and living quarters while hunting fugitives in the Outer Rim Territories."
 
 
 
@@ -9109,7 +9184,7 @@ ship "SCT Scout Craft"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T3 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -9128,7 +9203,7 @@ ship "SCT Scout Craft"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Mesens Corporation SCT Scout Craft were long range reconnaissance vessels, commonly used for deep space patrols on the far edges of planetary systems. The vessel's most notable feature, however, was its prominent sensor dish, located beneath the bridge. This was the key component that enabled the Scout Craft to fulfil its function admirably. The craft were not commonly seen, however this was probably due to the predominantly clandestine nature of their missions. Popular with various groups throughout the galaxy, the SCT scout craft was observed in the employ of both legitimate authorities and outlaw groups."
+	description "The Mesens Corporation SCT Scout Craft is a long range reconnaissance vessel, commonly used for deep space patrols on the far edges of planetary systems. The vessel's most notable feature, however, is its prominent sensor dish, located beneath the bridge. This is the key component that enabled the Scout Craft to fulfil its function admirably. The craft is not commonly seen, however this was probably due to the predominantly clandestine nature of their missions. Popular with various groups throughout the galaxy, the SCT scout craft is observed in the employ of both legitimate authorities and outlaw groups."
 
 
 
@@ -9164,6 +9239,7 @@ ship "Scurrg H-6 Prototype Bomber"
 
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
@@ -9180,7 +9256,7 @@ ship "Scurrg H-6 Prototype Bomber"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
-	description "The Scurrg H-6 prototype bomber was an experimental bomber, created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo."
+	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
 
 
 
@@ -9216,6 +9292,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)"
 
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
@@ -9232,7 +9309,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
-	description "The Scurrg H-6 prototype bomber was an experimental bomber, created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo."
+	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
 
 
 
@@ -9268,6 +9345,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Orang
 
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
@@ -9284,7 +9362,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Orang
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
-	description "The Scurrg H-6 prototype bomber was an experimental bomber, created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo."
+	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
 
 
 
@@ -9320,6 +9398,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
@@ -9336,7 +9415,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
-	description "The Scurrg H-6 prototype bomber was an experimental bomber, created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo."
+	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
 
 
 
@@ -9372,6 +9451,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Red)"
 
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
@@ -9388,7 +9468,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Red)"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
-	description "The Scurrg H-6 prototype bomber was an experimental bomber, created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo."
+	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
 
 
 
@@ -9424,6 +9504,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
@@ -9440,7 +9521,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
-	description "The Scurrg H-6 prototype bomber was an experimental bomber, created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo."
+	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
 
 
 
@@ -9476,6 +9557,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Maroon)"
 
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
@@ -9492,7 +9574,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Maroon)"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
-	description "The Scurrg H-6 prototype bomber was an experimental bomber, created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo."
+	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
 
 
 
@@ -9528,6 +9610,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Maroo
 
 		"T1.5 Heavy Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
@@ -9544,7 +9627,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Maroo
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
-	description "The Scurrg H-6 prototype bomber was an experimental bomber, created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo."
+	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
 
 
 
@@ -9579,6 +9662,7 @@ ship "StarViper-class Attack Platform"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1 Fighter Engine (Blue)"
@@ -9627,6 +9711,7 @@ ship "StarViper-class Attack Platform (Fighter)"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1 Fighter Engine (Blue)"
@@ -9709,7 +9794,7 @@ ship "Taylander Shuttle"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 57
+		"outfit space" 59
 		"weapon capacity" 0
 		"engine capacity" 20
 		"defenceless capacity" -1
@@ -9723,7 +9808,7 @@ ship "Taylander Shuttle"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -9738,7 +9823,7 @@ ship "Taylander Shuttle"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Taylander shuttle was a model of civilian transport shuttle manufactured by Gallofree Yards, Inc. and found throughout the galaxy. They were used throughout the galaxy, and were common and innocuous sights everywhere from Coruscant's bustling cargo lanes to Tatooine's docking bays."
+	description "The Taylander shuttle is a model of civilian transport shuttle manufactured by Gallofree Yards, Inc. and can be found throughout the galaxy. They are used throughout the galaxy, and are common and innocuous sights everywhere from Coruscant's bustling cargo lanes to Tatooine's docking bays."
 
 
 
@@ -9772,7 +9857,7 @@ ship "Teroch Mandalorian Cruiser"
 		
 		"T4 Frigate Power Converter"
 		"T4 Frigate Shield Projector"
-		"Small Radar Jammer"
+		"T4 Sensor Array"
 		"T4 Frigate Coolant System"
 		
 		"T4 Frigate Sublight Engine"
@@ -9798,7 +9883,7 @@ ship "Teroch Mandalorian Cruiser"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Teroch Mandalorian Cruiser"
+	description "The Teroch Mandalorian Cruiser was a warship design used by the Mandalorian warrior clans during the Great Galactic War. The vessel can still be found throughout the galaxy, often acting as part of planetary defence fleets."
 
 
 
@@ -9933,7 +10018,7 @@ ship "Ugly Tie Headhunter"
 	gun -37 -9 "Fighter Laser Cannon (Red)"
 	gun 38 -11 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
-	description "Ugly Tie Headhunter"
+	description "The Ugly Tie Headhunter is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -9964,6 +10049,7 @@ ship "Ugly Tie Headhunter (Fighter)"
 		"Fighter Laser Cannon (Red)" 2
 
 		"T1 Fighter Power Converter"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
@@ -9974,7 +10060,7 @@ ship "Ugly Tie Headhunter (Fighter)"
 	gun -37 -9 "Fighter Laser Cannon (Red)"
 	gun 38 -11 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
-	description "Ugly Tie Headhunter (Fighter)"
+	description "The Ugly Tie Headhunter is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10005,6 +10091,7 @@ ship "Ugly Tie X-Wing"
 		"Fighter Laser Cannon (Red)" 3
 
 		"T1 Fighter Power Converter"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
@@ -10016,7 +10103,7 @@ ship "Ugly Tie X-Wing"
 	gun 35 -27 "Fighter Laser Cannon (Red)"
 	gun 40 -30 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
-	description "X-Ceptor (Ugly)"
+	description "The Ugly Tie X-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10047,6 +10134,7 @@ ship "Ugly Tie X-Wing (Fighter)"
 		"Fighter Laser Cannon (Red)" 3
 
 		"T1 Fighter Power Converter"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
@@ -10058,7 +10146,7 @@ ship "Ugly Tie X-Wing (Fighter)"
 	gun 35 -27 "Fighter Laser Cannon (Red)"
 	gun 40 -30 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
-	description "X-Ceptor (Ugly)"
+	description "The Ugly Tie X-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10091,6 +10179,7 @@ ship "Ugly Tie Y-Wing"
 		"Proton Torpedo" 6
 
 		"T1 Fighter Power Converter"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
@@ -10103,7 +10192,8 @@ ship "Ugly Tie Y-Wing"
 	gun -6 -25 "Proton Torpedo Launcher"
 	gun 7 -25 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "X-Ceptor (Ugly)"
+	description "The Ugly Tie Y-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "The TYE-wing essentially combined the key weaknesses of both the TIE fighter and the Y-wing, yet had the strengths of neither. Many pilots dubbed them "DIE-wings", because with combined low firepower and fragility of a TIE and the sluggishness and ungainliness of a Y-Wing, its battle performance, alongside its survivability, was almost non-existent."
 
 
 
@@ -10136,6 +10226,7 @@ ship "Ugly Tie Y-Wing (Fighter)"
 		"Proton Torpedo" 6
 
 		"T1 Fighter Power Converter"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
@@ -10148,7 +10239,8 @@ ship "Ugly Tie Y-Wing (Fighter)"
 	gun -6 -25 "Proton Torpedo Launcher"
 	gun 7 -25 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "X-Ceptor (Ugly)"
+	description "The Ugly Tie Y-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "The TYE-wing essentially combined the key weaknesses of both the TIE fighter and the Y-wing, yet had the strengths of neither. Many pilots dubbed them "DIE-wings", because with combined low firepower and fragility of a TIE and the sluggishness and ungainliness of a Y-Wing, its battle performance, alongside its survivability, was almost non-existent."
 
 
 
@@ -10170,6 +10262,7 @@ ship "Ugly Twin Tie X-Wing"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10181,7 +10274,9 @@ ship "Ugly Twin Tie X-Wing"
 		"Proton Torpedo" 6
 
 		"T1 Fighter Power Converter"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -10194,7 +10289,7 @@ ship "Ugly Twin Tie X-Wing"
 	gun -22 -4 "Proton Torpedo Launcher"
 	gun -14 -5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "Ugly Twin Tie X-Wing"
+	description "The Ugly Twin Tie X-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10216,6 +10311,7 @@ ship "Ugly Twin Tie X-Wing (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10227,7 +10323,9 @@ ship "Ugly Twin Tie X-Wing (Fighter)"
 		"Proton Torpedo" 6
 
 		"T1 Fighter Power Converter"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -10240,7 +10338,7 @@ ship "Ugly Twin Tie X-Wing (Fighter)"
 	gun -22 -4 "Proton Torpedo Launcher"
 	gun -14 -5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "Ugly Twin Tie X-Wing (Fighter)"
+	description "The Ugly Twin Tie X-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10262,6 +10360,7 @@ ship "Ugly X-Ceptor"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10274,7 +10373,9 @@ ship "Ugly X-Ceptor"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -10288,7 +10389,7 @@ ship "Ugly X-Ceptor"
 	gun -5 -8 "Proton Torpedo Launcher"
 	gun 5 -8 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "X-Ceptor (Ugly)"
+	description "The Ugly X-Ceptor is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10310,6 +10411,7 @@ ship "Ugly X-Ceptor (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10322,7 +10424,9 @@ ship "Ugly X-Ceptor (Fighter)"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -10336,7 +10440,7 @@ ship "Ugly X-Ceptor (Fighter)"
 	gun -5 -8 "Proton Torpedo Launcher"
 	gun 5 -8 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "X-Ceptor (Ugly)"
+	description "The Ugly X-Ceptor is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10358,6 +10462,7 @@ ship "Ugly X-Fighter"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10370,7 +10475,9 @@ ship "Ugly X-Fighter"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -10384,7 +10491,7 @@ ship "Ugly X-Fighter"
 	gun -2 -5 "Proton Torpedo Launcher"
 	gun 3 -5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "Ugly X-Fighter"
+	description "The Ugly X-Fighter is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10406,6 +10513,8 @@ ship "Ugly X-Fighter (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
+
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10418,7 +10527,9 @@ ship "Ugly X-Fighter (Fighter)"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -10432,7 +10543,7 @@ ship "Ugly X-Fighter (Fighter)"
 	gun -2 -5 "Proton Torpedo Launcher"
 	gun 3 -5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "Ugly X-Fighter (Fighter)"
+	description "The Ugly X-Fighter is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10454,6 +10565,7 @@ ship "Ugly Y-Interceptor"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10466,7 +10578,9 @@ ship "Ugly Y-Interceptor"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -10480,7 +10594,7 @@ ship "Ugly Y-Interceptor"
 	gun -7 -29 "Proton Torpedo Launcher"
 	gun 7 -29 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "Ugly Y Interceptor"
+	description "The Ugly Y-Interceptor is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10502,6 +10616,7 @@ ship "Ugly Y-Interceptor (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10514,7 +10629,9 @@ ship "Ugly Y-Interceptor (Fighter)"
 
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -10528,7 +10645,7 @@ ship "Ugly Y-Interceptor (Fighter)"
 	gun -7 -29 "Proton Torpedo Launcher"
 	gun 7 -29 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "Ugly Y Interceptor (Fighter)"
+	description "The Ugly Y-Interceptor is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
 
 
@@ -10641,7 +10758,7 @@ ship "VCX-100 Light Freighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 71
+		"outfit space" 73
 		"weapon capacity" 14
 		"engine capacity" 20
 		weapon
@@ -10703,7 +10820,7 @@ ship "VCX-series Auxiliary Starfighter"
 			"hit force" 450
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-
+		"Fighter Laser Turret (Red)"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
@@ -10717,6 +10834,7 @@ ship "VCX-series Auxiliary Starfighter"
 	engine 10 37
 	gun -2 -39 "Fighter Laser Cannon (Red)"
 	gun 3 -40 "Fighter Laser Cannon (Red)"
+	turret 0 22 "Fighter Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "large explosion" 3
 	description "The VCX-series auxiliary starfighter is a short-range starfighter that can be attached to the VCX-100 light freighter, manufactured by Corellian Engineering Corporation."
@@ -10749,7 +10867,7 @@ ship "VCX-series Auxiliary Starfighter (Fighter)"
 			"hit force" 450
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-
+		"Fighter Laser Turret (Red)"
 		
 		"T1 Fighter Power Converter"
 		"T1 Fighter Shield Projector"
@@ -10763,6 +10881,7 @@ ship "VCX-series Auxiliary Starfighter (Fighter)"
 	engine 10 37
 	gun -2 -39 "Fighter Laser Cannon (Red)"
 	gun 3 -40 "Fighter Laser Cannon (Red)"
+	turret 0 22 "Fighter Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "large explosion" 3
 	description "The VCX-series auxiliary starfighter is a short-range starfighter that can be attached to the VCX-100 light freighter, manufactured by Corellian Engineering Corporation."
@@ -10798,7 +10917,7 @@ ship "Venator-class Star Destroyer" "Venator-class Star Destroyer (Black)"
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
-		"Small Radar Jammer"
+		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
@@ -11000,9 +11119,58 @@ ship "Venator-class Star Destroyer" "Venator-class Star Destroyer (Black)"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Venator-class Star Destroyer has a complement of TIE/LN(48), TIE/SA(12), TIE/IN(24) = 160"
+	description "The Venator-class Destroyer, also known as the Republic attack cruiser, was one of the capital ships used extensively by the Galactic Republic during the later parts of the Clone Wars, as well as by the Galactic Empire. It was designed and constructed by Kuat Drive Yards and Allanteen Six shipyards. While designed primarily for ship-to-ship combat, the Venator had secondary roles ranging from starfighter carrier, to military transport and battleship escort. The expanded carrier role made the Venator-class popular amongst Jedi starfighter aces."
 
 
+
+
+ship "YG-4210 Freighter"
+	sprite "ship/yg4210freighter"
+	thumbnail "thumbnail/yg4210freighter"
+	attributes
+		category "Light Freighter"
+		"cost" 700000
+		"shields" 14500
+		"hull" 7650
+		"required crew" 3
+		"bunks" 8
+		"mass" 1470
+		"drag" 4.7
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 60
+		"outfit space" 78
+		"weapon capacity" 12
+		"engine capacity" 20
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Turret (Red)" 4
+		
+		"T2 Transport Power Converter"
+		"T2 Transport Shield Projector"
+		"T2 Sensor Array"
+		"T2 Transport Coolant System"
+		
+		"T2 Transport Sublight Engine"
+		"T2 Transport Hyperspace Motivator"
+		
+	engine -100 154
+	engine 0 207
+	engine 101 153
+	turret 32 -194 "Transport Laser Turret (Red)"
+	turret 0 -10 "Transport Laser Turret (Red)"
+	turret 0 -10 "Transport Laser Turret (Red)"
+	turret 0 123 "Transport Laser Turret (Red)"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The YG-4210, built by the Corellian Engineering Corporation, is considered to be an ancient ship model, first constructed more than two centuries prior to the Galactic Civil War, even predating the venrable YT-series by several decades. Designed specifically for space exploration rather than combat, the freighter was originally unarmed. However, after centuries of serving, most likely none of them match the original specifications. Weapons such as blasters, ion cannons and concussion missiles are common in these modified vehicles."
 
 
 ship "YT-1300 Freighter"
@@ -11020,7 +11188,7 @@ ship "YT-1300 Freighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 73
+		"outfit space" 75
 		"weapon capacity" 16
 		"engine capacity" 20
 		weapon
@@ -11036,7 +11204,7 @@ ship "YT-1300 Freighter"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -11064,7 +11232,7 @@ ship "YT-1300 Freighter"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, was a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 was used as a freighter and transport, and some saw service as intermodal tugs in orbital freight yards."
+	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, is a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 is used as a freighter and transport, and some see service as intermodal tugs in orbital freight yards."
 
 ship "YT-1300 Freighter" "YT-1300 Freighter (Millennium Falcon)"
 	sprite "ship/yt1300freightermillenniumfalcon"
@@ -11081,7 +11249,7 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Millennium Falcon)"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 73
+		"outfit space" 75
 		"weapon capacity" 16
 		"engine capacity" 20
 		weapon
@@ -11097,7 +11265,7 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Millennium Falcon)"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -11130,7 +11298,8 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Millennium Falcon)"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Millennium Falcon"
+	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, is a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 is used as a freighter and transport, and some see service as intermodal tugs in orbital freight yards."
+	description "The Millennium Falcon, original designation YT 492727ZED and formerly known as the Stellar Envoy, is a Corellian YT-1300f light freighter most famously used by the smugglers Han Solo and Chewbacca, who affectionately dubbed it the fastest hunk of junk in the galaxy, during the Galactic Civil War."
 
 
 
@@ -11149,7 +11318,7 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Red)"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 73
+		"outfit space" 75
 		"weapon capacity" 16
 		"engine capacity" 20
 		weapon
@@ -11165,7 +11334,7 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Red)"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -11193,7 +11362,7 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Red)"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, was a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 was used as a freighter and transport, and some saw service as intermodal tugs in orbital freight yards."
+	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, is a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 is used as a freighter and transport, and some see service as intermodal tugs in orbital freight yards."
 
 
 
@@ -11212,7 +11381,7 @@ ship "YT-1350XT Freighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 73
+		"outfit space" 75
 		"weapon capacity" 16
 		"engine capacity" 20
 		weapon
@@ -11228,7 +11397,7 @@ ship "YT-1350XT Freighter"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -11256,7 +11425,7 @@ ship "YT-1350XT Freighter"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, was a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 was used as a freighter and transport, and some saw service as intermodal tugs in orbital freight yards."
+	description "The YT-1350XT light freighter, also known as the YT-1350XT Corellian freighter, is a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1350XT is used as a freighter and transport, and some see service as intermodal tugs in orbital freight yards."
 
 
 
@@ -11275,9 +11444,9 @@ ship "YZ-2200 Heavy Transport"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 50
-		"outfit space" 290
-		"weapon capacity" 70
-		"engine capacity" 210
+		"outfit space" 78
+		"weapon capacity" 12
+		"engine capacity" 20
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -11288,7 +11457,7 @@ ship "YZ-2200 Heavy Transport"
 		
 		"T2 Transport Power Converter"
 		"T2 Transport Shield Projector"
-		"Small Radar Jammer"
+		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
@@ -11306,7 +11475,7 @@ ship "YZ-2200 Heavy Transport"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "YZ-2200 Heavy Transport"
+	description "The Corellian Engineering Corporation YZ-2200 Heavy Transport isa capital-scale transport that is sometimes used as a military vessel in the Galactic Alliance. It is one of the largest space transports available on the market, and is mainly used by corporations that want to move large amounts of goods with a minimum amount of ships."
 
 ship "Zakuul Shuttle"
 	sprite "ship/zakuulshuttle"
@@ -11325,7 +11494,7 @@ ship "Zakuul Shuttle"
 		"cargo space" 5
 		"outfit space" 18
 		"weapon capacity" 2
-		"engine capacity" 6
+		"engine capacity" 7
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -11336,7 +11505,7 @@ ship "Zakuul Shuttle"
 		
 		"T1.5 Heavy Fighter Power Converter"
 		"T1.5 Heavy Fighter Shield Projector"
-		"Small Radar Jammer"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1.5 Heavy Fighter Engine (Blue Flare)"
@@ -11385,7 +11554,7 @@ ship "Zenith-class Cruiser"
 		
 		"T4 Frigate Power Converter"
 		"T4 Frigate Shield Projector"
-		"Small Radar Jammer"
+		"T4 Sensor Array"
 		"T4 Frigate Coolant System"
 		
 		"T4 Frigate Sublight Engine"
@@ -11432,4 +11601,39 @@ ship "Zenith-class Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Hammerhead-class cruiser was a type of warship used by the Republic Navy during the Old Sith Wars, the Mandalorian Wars, and the New Sith Wars. One of the most successful warship designs in galactic history, the Hammerhead-class would still see use in sector defense forces millennia after its introduction and would inspire many later ship designs, such as the Thranta-class corvette and MC140 Scythe-class main battle cruiser."
+	description "The Zenith-class cruiser was a type of warship used by the Republic Navy during the Old Sith Wars, the Mandalorian Wars, and the New Sith Wars. Based on the famous Hammerhead-class cruiser, the Zenith is still used in sector defence forces millennia after its introduction."
+
+ship "42"
+	sprite "ship/42"
+	thumbnail "outfit/unknown"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 129000
+		"shields" 1000
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"outfit space" 165
+		"weapon capacity" 50
+		"engine capacity" 45
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"T1 Fighter Power Converter"	
+		"Stygium Cloaking Device"
+		"T1 Fighter Shield Projector"
+		"T1 Fighter Coolant System"
+
+		"T1 Fighter Engine (Blue)"
+		"T1 Fighter Hyperspace Motivator"
+		
+	explode "large explosion" 3
+	description "42"

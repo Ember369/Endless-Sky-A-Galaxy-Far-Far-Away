@@ -131,6 +131,7 @@ ship "BTA-NR2 Y-Wing"
 		"outfit space" 228
 		"weapon capacity" 40
 		"engine capacity" 53
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
 			"shield damage" 325
@@ -146,6 +147,7 @@ ship "BTA-NR2 Y-Wing"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -181,6 +183,7 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 		"outfit space" 228
 		"weapon capacity" 40
 		"engine capacity" 53
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
 			"shield damage" 325
@@ -196,6 +199,7 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -231,6 +235,7 @@ ship "Fireball"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -244,6 +249,7 @@ ship "Fireball"
 		"T1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -574,6 +580,7 @@ ship "T-70 X-Wing"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -588,6 +595,7 @@ ship "T-70 X-Wing"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -623,6 +631,7 @@ ship "T-70 X-Wing (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -637,6 +646,7 @@ ship "T-70 X-Wing (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -672,6 +682,7 @@ ship  "T-70 X-Wing" "T-70 X-Wing (Black)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -686,6 +697,7 @@ ship  "T-70 X-Wing" "T-70 X-Wing (Black)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -721,6 +733,7 @@ ship "T-70 X-Wing" "T-70 X-Wing (Black) (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -735,6 +748,7 @@ ship "T-70 X-Wing" "T-70 X-Wing (Black) (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -770,6 +784,7 @@ ship "T-85 X-Wing"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -784,6 +799,7 @@ ship "T-85 X-Wing"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -819,6 +835,7 @@ ship "T-85 X-Wing (Fighter)"
 		"outfit space" 249
 		"weapon capacity" 60
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -833,6 +850,7 @@ ship "T-85 X-Wing (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -1265,15 +1283,15 @@ ship "Viscount-class Star Defender"
 	thumbnail "thumbnail/mcviscountcruiser"
 	attributes
 		category "Heavy Warship"
-		"cost" 450000000
-		"shields" 270000
-		"hull" 70000
+		"cost" 1200000000
+		"shields" 1050000
+		"hull" 410000
 		"required crew" 68174
 		"bunks" 280674
-		"mass" 19000
-		"drag" 29
+		"mass" 50000
+		"drag" 40
 		"heat dissipation" .45
-		"fuel capacity" 1000
+		"fuel capacity" 2000
 		"cargo space" 900
 		"outfit space" 2044
 		"weapon capacity" 1200
@@ -1294,142 +1312,200 @@ ship "Viscount-class Star Defender"
 		"T5 Destroyer Sublight Engine"
 		"T5 Destroyer Hyperspace Motivator"
 		
-	engine -114 1509
-	engine 171 1528
-	engine -50 1718
-	engine 97 1739
-	turret -145 -1473 "Turbolaser Quad Turret (Red)"
-	turret 122 -1489 "Turbolaser Quad Turret (Red)"
-	turret 178 -1368 "Turbolaser Quad Turret (Red)"
-	turret -239 -1293 "Turbolaser Quad Turret (Red)"
-	turret -47 -1205 "Turbolaser Quad Turret (Red)"
-	turret -132 -1109 "Turbolaser Quad Turret (Red)"
-	turret -317 -1116 "Turbolaser Quad Turret (Red)"
-	turret 322 -1073 "Turbolaser Quad Turret (Red)"
-	turret 282 -988 "Turbolaser Quad Turret (Red)"
-	turret 359 -938 "Turbolaser Quad Turret (Red)"
-	turret 445 -826 "Turbolaser Quad Turret (Red)"
-	turret -70 -837 "Turbolaser Quad Turret (Red)"
-	turret -202 -853 "Turbolaser Quad Turret (Red)"
-	turret 124 -766 "Turbolaser Quad Turret (Red)"
-	turret 311 -608 "Turbolaser Quad Turret (Red)"
-	turret -473 -640 "Turbolaser Quad Turret (Red)"
-	turret -145 -455 "Turbolaser Quad Turret (Red)"
-	turret -255 -313 "Turbolaser Quad Turret (Red)"
-	turret 65 -332 "Turbolaser Quad Turret (Red)"
-	turret 299 5 "Turbolaser Quad Turret (Red)"
-	turret -315 -126 "Turbolaser Quad Turret (Red)"
-	turret -239 351 "Turbolaser Quad Turret (Red)"
-	turret 17 278 "Turbolaser Quad Turret (Red)"
-	turret 325 295 "Turbolaser Quad Turret (Red)"
-	turret 277 374 "Turbolaser Quad Turret (Red)"
-	turret -180 594 "Turbolaser Quad Turret (Red)"
-	turret -309 638 "Turbolaser Quad Turret (Red)"
-	turret -75 514 "Turbolaser Quad Turret (Red)"
-	turret -36 809 "Turbolaser Quad Turret (Red)"
-	turret -100 1402 "Turbolaser Quad Turret (Red)"
-	turret 213 1079 "Turbolaser Quad Turret (Red)"
-	turret -333 -558 "Turbolaser Quad Turret (Red)"
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
-	fighter -492 -636
-	fighter 540 -654
+	engine -290 6306
+	engine 290 6306
+	turret -303 5863 "Turbolaser Quad Turret (Red)"
+	turret 303 5863 "Turbolaser Quad Turret (Red)"
+	turret -312 5246 "Turbolaser Quad Turret (Red)"
+	turret 312 5246 "Turbolaser Quad Turret (Red)"
+	turret -613 4800 "Turbolaser Quad Turret (Red)"
+	turret 613 4800 "Turbolaser Quad Turret (Red)"
+	turret -745 4199 "Turbolaser Quad Turret (Red)"
+	turret 745 4199 "Turbolaser Quad Turret (Red)"
+	turret -844 3601 "Turbolaser Quad Turret (Red)"
+	turret 844 3601 "Turbolaser Quad Turret (Red)"
+	turret -959 1257 "Turbolaser Quad Turret (Red)"
+	turret 959 1257 "Turbolaser Quad Turret (Red)"
+	turret -1338 488 "Turbolaser Quad Turret (Red)"
+	turret 1338 488 "Turbolaser Quad Turret (Red)"
+	turret -1287 -391 "Turbolaser Quad Turret (Red)"
+	turret 1287 -391 "Turbolaser Quad Turret (Red)"
+	turret -732 -903 "Turbolaser Quad Turret (Red)"
+	turret 732 -903 "Turbolaser Quad Turret (Red)"
+	turret -639 -1727 "Turbolaser Quad Turret (Red)"
+	turret 639 -1727 "Turbolaser Quad Turret (Red)"
+	turret -1884 -2154 "Turbolaser Quad Turret (Red)"
+	turret 1884 -2154 "Turbolaser Quad Turret (Red)"
+	turret -936 -2927 "Turbolaser Quad Turret (Red)"
+	turret 936 -2927 "Turbolaser Quad Turret (Red)"
+	turret -1379 -3811 "Turbolaser Quad Turret (Red)"
+	turret 1379 -3811 "Turbolaser Quad Turret (Red)"
+	turret -773 -4978 "Turbolaser Quad Turret (Red)"
+	turret 773 -4978 "Turbolaser Quad Turret (Red)"
+	turret -403 -5630 "Turbolaser Quad Turret (Red)"
+	turret 403 -5630 "Turbolaser Quad Turret (Red)"
+	turret -193 -6419 "Turbolaser Quad Turret (Red)"
+	turret 193 -6419 "Turbolaser Quad Turret (Red)"
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1458,14 +1534,14 @@ ship "AAL Troop Transport"
 		"cargo space" 200
 		"outfit space" 19
 		"weapon capacity" 3
-		"engine capacity" 6
+		"engine capacity" 7
 		weapon
 			"blast radius" 300
 			"shield damage" 700
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Transport Laser Turret (Red)" 1
+		"Transport Laser Turret (Red)"
 		
 		"T1.5 Heavy Fighter Power Converter"
 		"T1.5 Heavy Fighter Shield Projector"
@@ -1643,7 +1719,7 @@ ship "TIE/SF Fighter (Fighter)"
 		"Fighter Laser Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
-		"Imperial Fighter Laser Turret Underneath (Green)"
+		"Fighter Laser Turret Underneath Imperial (Green)"
 		
 		"T1 Fighter Shield Projector"
 		"T1 Fighter Power Converter"

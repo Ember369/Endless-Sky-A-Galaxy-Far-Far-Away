@@ -1,0 +1,38 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "AstromechSocket Capacity"
+	category "Systems"
+	"astromechsocket capacity" 1
+	unplunderable 1
+	description "NOT AN OUTFIT, JUST NEEDED TO REMOVE AN ERROR."
+
+outfit "Astromech Socket"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/astromechsocket"
+	"mass" 1
+	"outfit space" -1
+	"astromechsocket capacity" -1
+	"astromech capacity" 1
+	unplunderable 1
+	description "The astromech socket or astromech slot was a component of starships into which an astromech droid could be loaded."
+
+outfit "R3-series Astromech Droid"
+	category "Hand to Hand"
+	cost 5000
+	thumbnail "outfit/r3astromechdroid"
+	"mass" 0
+	"outfit space" 0
+	"hull repair rate" 0.1
+	"hull energy" .2
+	"astromech capacity" -1
+	"required crew" -1
+	description "The R3-series astromech droid was an astromech model developed and sold by the droidmaker Industrial Automaton (IA). The R3 came at the heels of IA's blockbuster launch of the R2-series astromech droid as the company rushed to capitalize on their new dominance of the maintenance and repair droid market."

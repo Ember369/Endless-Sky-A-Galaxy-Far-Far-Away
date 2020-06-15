@@ -32,15 +32,11 @@ ship "Wreckage1"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -73,15 +69,11 @@ ship "Wreckage2"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -116,15 +108,11 @@ ship "Wreckage3"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -159,15 +147,11 @@ ship "Wreckage4"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -202,15 +186,11 @@ ship "Wreckage5"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -245,15 +225,11 @@ ship "Wreckage6"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -288,15 +264,11 @@ ship "Wreckage7"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -331,15 +303,11 @@ ship "Wreckage8"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -375,15 +343,11 @@ ship "Wreckage9"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -419,15 +383,11 @@ ship "Wreckage10"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -463,15 +423,11 @@ ship "Wreckage11"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -506,15 +462,11 @@ ship "Wreckage12"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -549,15 +501,11 @@ ship "Wreckage13"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -592,15 +540,11 @@ ship "Wreckage14"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -635,15 +579,11 @@ ship "Wreckage15"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -679,15 +619,11 @@ ship "Wreckage16"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbolaser Turret (Red)" 2
-		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
-		"Small Radar Jammer"
-		"Water Coolant System" 3
-		
-		"Heavy Freighter Sublight Engine"
-		"Heavy Hyperspace Motivator"
+		"Wreckage (Tiny)" 10
+		"Wreckage (Small)" 6
+		"Wreckage (Medium)" 3
+		"Wreckage (Large)" 2
+		"Wreckage (Huge)"
 	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -695,3 +631,43 @@ ship "Wreckage16"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "Wreckage16"
+
+outfit "Wreckage (Tiny)"
+	category "Systems"
+	cost 1000
+	thumbnail "outfit/wreckagetiny"
+	"mass" 1
+	"outfit space" -1
+	description "Wreckage (Tiny)"
+
+outfit "Wreckage (Small)"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/wreckagesmall"
+	"mass" 5
+	"outfit space" -5
+	description "Wreckage (Small)"
+
+outfit "Wreckage (Medium)"
+	category "Systems"
+	cost 26000
+	thumbnail "outfit/wreckagemedium"
+	"mass" 20
+	"outfit space" -20
+	description "Wreckage (Medium)"
+
+outfit "Wreckage (Large)"
+	category "Systems"
+	cost 56000
+	thumbnail "outfit/wreckagelarge"
+	"mass" 40
+	"outfit space" -40
+	description "Wreckage (Large)"
+
+outfit "Wreckage (Huge)"
+	category "Systems"
+	cost 160000
+	thumbnail "outfit/wreckagehuge"
+	"mass" 80
+	"outfit space" -80
+	description "Wreckage (Huge)"

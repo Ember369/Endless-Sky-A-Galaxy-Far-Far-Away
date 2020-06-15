@@ -617,7 +617,7 @@ ship "Maxillipede-class Transport Shuttle"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 17
+		"outfit space" 16
 		"weapon capacity" 2
 		"engine capacity" 6
 		weapon
@@ -658,7 +658,7 @@ ship "Mechanised Assault Flyer"
 		"cost" 85000
 		"shields" 1400
 		"hull" 6350
-		SSSSautomaton 1
+		automaton 1
 		"required crew" 0
 		"bunks" 3
 		"mass" 40
@@ -666,9 +666,9 @@ ship "Mechanised Assault Flyer"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 32
-		"outfit space" 17
+		"outfit space" 24
 		"weapon capacity" 7
-		"engine capacity" 5
+		"engine capacity" 7
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -717,9 +717,9 @@ ship "Gozanti-class Cruiser" "Gozanti-class Cruiser (CIS)"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 10
-		"outfit space" 469
-		"weapon capacity" 85
-		"engine capacity" 210
+		"outfit space" 75
+		"weapon capacity" 9
+		"engine capacity" 20
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -1200,13 +1200,13 @@ ship "Providence-class Cruiser (Dreadnought)"
 	thumbnail "thumbnail/providencecruiserdreadnought"
 	attributes
 		category "Heavy Warship"
-		"cost" 200000000
-		"shields" 225000
-		"hull" 63500
+		"cost" 440000000
+		"shields" 380000
+		"hull" 100000
 		"required crew" 1100
 		"bunks" 60000
-		"mass" 16000
-		"drag" 26.0
+		"mass" 17500
+		"drag" 28.5
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 900
@@ -1219,8 +1219,8 @@ ship "Providence-class Cruiser (Dreadnought)"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Turbolaser Dual Turret (Red)" 22
-		"Turbolaser Turret (Red)" 10
+		"Turbolaser Quad Turret (Red)" 22
+		"Turbolaser Dual Turret (Red)" 10
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
@@ -1230,220 +1230,200 @@ ship "Providence-class Cruiser (Dreadnought)"
 		"T5 Destroyer Sublight Engine"
 		"T5 Destroyer Hyperspace Motivator"
 		
-	engine -140 1458
-	engine 153 1448
-	turret -92 -1333 "Turbolaser Dual Turret (Red)"
-	turret 93 -1335 "Turbolaser Dual Turret (Red)"
-	turret -165 -1045 "Turbolaser Dual Turret (Red)"
-	turret 164 -1040 "Turbolaser Dual Turret (Red)"
-	turret -166 -884 "Turbolaser Dual Turret (Red)"
-	turret 167 -880 "Turbolaser Dual Turret (Red)"
-	turret -166 -670 "Turbolaser Dual Turret (Red)"
-	turret 168 -666 "Turbolaser Dual Turret (Red)"
-	turret -155 -372 "Turbolaser Dual Turret (Red)"
-	turret 159 -378 "Turbolaser Dual Turret (Red)"
-	turret -143 -97 "Turbolaser Dual Turret (Red)"
-	turret 147 -99 "Turbolaser Dual Turret (Red)"
-	turret -209 176 "Turbolaser Dual Turret (Red)"
-	turret 211 170 "Turbolaser Dual Turret (Red)"
-	turret -232 388 "Turbolaser Dual Turret (Red)"
-	turret 235 379 "Turbolaser Dual Turret (Red)"
-	turret -233 598 "Turbolaser Dual Turret (Red)"
-	turret 240 588 "Turbolaser Dual Turret (Red)"
-	turret -223 879 "Turbolaser Dual Turret (Red)"
-	turret 230 868 "Turbolaser Dual Turret (Red)"
-	turret -160 1102 "Turbolaser Dual Turret (Red)"
-	turret 166 1093 "Turbolaser Dual Turret (Red)"
-	turret -96 1307 "Turbolaser Turret (Red)"
-	turret 106 1303 "Turbolaser Turret (Red)"
-	turret -108 910 "Turbolaser Turret (Red)"
-	turret 112 906 "Turbolaser Turret (Red)"
-	turret -121 494 "Turbolaser Turret (Red)"
-	turret 130 490 "Turbolaser Turret (Red)"
-	turret -77 -192 "Turbolaser Turret (Red)"
-	turret 78 -197 "Turbolaser Turret (Red)"
-	turret -87 -684 "Turbolaser Turret (Red)"
-	turret 87 -683 "Turbolaser Turret (Red)"
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
-	fighter -278 505
-	fighter 289 493
-	fighter -283 578
-	fighter 294 560
-	fighter -277 642
-	fighter 282 639
+	engine -207 2143
+	engine 229 2130
+	turret -172 1918 "Turbolaser Quad Turret (Red)"
+	turret 192 1912 "Turbolaser Quad Turret (Red)"
+	turret -198 1730 "Turbolaser Quad Turret (Red)"
+	turret 209 1724 "Turbolaser Quad Turret (Red)"
+	turret -213 1588 "Turbolaser Quad Turret (Red)"
+	turret 223 1582 "Turbolaser Quad Turret (Red)"
+	turret -199 1395 "Turbolaser Quad Turret (Red)"
+	turret 209 1386 "Turbolaser Quad Turret (Red)"
+	turret -245 1147 "Turbolaser Quad Turret (Red)"
+	turret 252 1139 "Turbolaser Quad Turret (Red)"
+	turret -228 899 "Turbolaser Quad Turret (Red)"
+	turret 237 891 "Turbolaser Quad Turret (Red)"
+	turret -269 587 "Turbolaser Quad Turret (Red)"
+	turret 275 582 "Turbolaser Quad Turret (Red)"
+	turret -226 267 "Turbolaser Quad Turret (Red)"
+	turret 230 259 "Turbolaser Quad Turret (Red)"
+	turret -178 -27 "Turbolaser Dual Turret (Red)"
+	turret 187 -35 "Turbolaser Dual Turret (Red)"
+	turret -218 -278 "Turbolaser Quad Turret (Red)"
+	turret 226 -281 "Turbolaser Quad Turret (Red)"
+	turret -230 -548 "Turbolaser Dual Turret (Red)"
+	turret 233 -550 "Turbolaser Dual Turret (Red)"
+	turret -236 -841 "Turbolaser Quad Turret (Red)"
+	turret 235 -839 "Turbolaser Quad Turret (Red)"
+	turret -245 -1097 "Turbolaser Dual Turret (Red)"
+	turret 247 -1092 "Turbolaser Dual Turret (Red)"
+	turret -240 -1326 "Turbolaser Quad Turret (Red)"
+	turret 239 -1326 "Turbolaser Quad Turret (Red)"
+	turret -243 -1679 "Turbolaser Dual Turret (Red)"
+	turret 241 -1678 "Turbolaser Dual Turret (Red)"
+	turret -49 -2158 "Turbolaser Quad Turret (Red)"
+	turret 40 -2159 "Turbolaser Quad Turret (Red)"
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
+	fighter -399 623
+	fighter 399 623
+	fighter -399 676
+	fighter 399 676
+	fighter -397 739
+	fighter 397 739
+	fighter -395 821
+	fighter 395 821
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1690,6 +1670,248 @@ ship "Providence-class Cruiser (Stock)"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Providence-class dreadnought was a capital ship that the Confederacy of Independent Systems utilised during the Clone Wars. High-ranking Separatist commanders like Count Dooku, Admiral Trench, and General Grievous used Providence-class dreadnoughts as their flagships throughout the Clone Wars."
+
+
+
+ship "Subjugator-class Heavy Cruiser"
+	sprite "ship/subjugatorheavycruiser"
+	thumbnail "thumbnail/subjugatorheavycruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 800000000
+		"shields" 650000
+		"hull" 200000
+		"required crew" 1400
+		"bunks" 70000
+		"mass" 32500
+		"drag" 35.0
+		"heat dissipation" .45
+		"fuel capacity" 1100
+		"cargo space" 1000
+		"outfit space" 2124
+		"weapon capacity" 1200
+		"engine capacity" 580
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Turbolaser Quad Turret (Red)" 32
+		
+		"T5 Destroyer Power Converter"
+		"T5 Destroyer Shield Projector"
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
+		
+		"T5 Destroyer Sublight Engine"
+		"T5 Destroyer Hyperspace Motivator"
+		
+	engine -200 2976
+	engine 200 2976
+	engine -127 3375
+	engine 127 3375
+	engine -50 3543
+	engine 50 3543
+	turret -287 1848 "Turbolaser Quad Turret (Red)"
+	turret 287 1848 "Turbolaser Quad Turret (Red)"
+	turret -288 1557 "Turbolaser Quad Turret (Red)"
+	turret 288 1557 "Turbolaser Quad Turret (Red)"
+	turret -285 1147 "Turbolaser Quad Turret (Red)"
+	turret 285 1147 "Turbolaser Quad Turret (Red)"
+	turret -286 754 "Turbolaser Quad Turret (Red)"
+	turret 286 754 "Turbolaser Quad Turret (Red)"
+	turret -284 477 "Turbolaser Quad Turret (Red)"
+	turret 284 477 "Turbolaser Quad Turret (Red)"
+	turret -281 190 "Turbolaser Quad Turret (Red)"
+	turret 281 190 "Turbolaser Quad Turret (Red)"
+	turret -283 -167 "Turbolaser Quad Turret (Red)"
+	turret 283 -167 "Turbolaser Quad Turret (Red)"
+	turret -283 -502 "Turbolaser Quad Turret (Red)"
+	turret 283 -502 "Turbolaser Quad Turret (Red)"
+	turret -300 -731 "Turbolaser Quad Turret (Red)"
+	turret 300 -731 "Turbolaser Quad Turret (Red)"
+	turret -318 -1067 "Turbolaser Quad Turret (Red)"
+	turret 318 -1067 "Turbolaser Quad Turret (Red)"
+	turret -14 -1349 "Turbolaser Quad Turret (Red)"
+	turret -20 -1766 "Turbolaser Quad Turret (Red)"
+	turret -316 -2037 "Turbolaser Quad Turret (Red)"
+	turret 316 -2037 "Turbolaser Quad Turret (Red)"
+	turret -306 -2457 "Turbolaser Quad Turret (Red)"
+	turret 306 -2457 "Turbolaser Quad Turret (Red)"
+	turret -175 -2767 "Turbolaser Quad Turret (Red)"
+	turret 175 -2767 "Turbolaser Quad Turret (Red)"
+	turret -144 -3360 "Turbolaser Quad Turret (Red)"
+	turret 144 -3360 "Turbolaser Quad Turret (Red)"
+	turret -27 -4053 "Turbolaser Quad Turret (Red)"
+	turret 27 -4053 "Turbolaser Quad Turret (Red)"
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	fighter -20 -3378
+	fighter 20 -3378
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Subjugator-class heavy cruiser was a model of heavy cruiser used by the Confederacy of Independent Systems during the Clone Wars. They were equipped with two mega-ion cannons on either side. The Malevolence was a member of this class. Throughout the war, the Separatists maintained a small number of ships of the class."
 
 
 
@@ -1956,6 +2178,7 @@ ship "ARC-170 Starfighter"
 		"outfit space" 219
 		"weapon capacity" 40
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -1970,6 +2193,7 @@ ship "ARC-170 Starfighter"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -2004,6 +2228,7 @@ ship "ARC-170 Starfighter (Fighter)"
 		"outfit space" 219
 		"weapon capacity" 40
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -2018,6 +2243,7 @@ ship "ARC-170 Starfighter (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -2052,6 +2278,7 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (Red)"
 		"outfit space" 219
 		"weapon capacity" 40
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -2066,6 +2293,7 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (Red)"
 		"T1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Shield Projector"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -2100,6 +2328,7 @@ ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (Red) (Fighter)"
 		"outfit space" 219
 		"weapon capacity" 40
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -2114,6 +2343,7 @@ ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (Red) (Fighter)"
 		"T1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Shield Projector"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
 		"T1 Fighter Hyperspace Motivator"
@@ -2148,8 +2378,9 @@ ship "Delta-7 Aethersprite Interceptor"
 		"outfit space" 182
 		"weapon capacity" 40
 		"engine capacity" 50
-		"hyperspacedockingring capacity" 1
 		"gun capacity" 4
+		"hyperspacedockingring capacity" 1
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -2164,6 +2395,7 @@ ship "Delta-7 Aethersprite Interceptor"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		
@@ -2199,6 +2431,8 @@ ship "Delta-7 Aethersprite Interceptor" "Delta-7 Aethersprite Interceptor (Custo
 		"outfit space" 182
 		"weapon capacity" 40
 		"engine capacity" 50
+		"hyperspacedockingring capacity" 1
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -2213,6 +2447,7 @@ ship "Delta-7 Aethersprite Interceptor" "Delta-7 Aethersprite Interceptor (Custo
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -2449,7 +2684,7 @@ ship "Eta-class Shuttle"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 18
+		"outfit space" 17
 		"weapon capacity" 3
 		"engine capacity" 6
 		weapon
@@ -2647,9 +2882,9 @@ ship "CR25 Carrier"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 300
-		"outfit space" 290
-		"weapon capacity" 70
-		"engine capacity" 210
+		"outfit space" 72
+		"weapon capacity" 6
+		"engine capacity" 20
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -2762,7 +2997,7 @@ ship "JumpMaster 5000 Long Range Scout"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 22
+		"outfit space" 21
 		"weapon capacity" 7
 		"engine capacity" 6
 		weapon
@@ -2811,8 +3046,8 @@ ship "Pelta Frigate"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 700
-		"outfit space" 784
-		"weapon capacity" 400
+		"outfit space" 366
+		"weapon capacity" 40
 		"engine capacity" 210
 		weapon
 			"blast radius" 300
@@ -3091,7 +3326,7 @@ ship "LAAT/i Gunship"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 32
-		"outfit space" 20
+		"outfit space" 24
 		"weapon capacity" 7
 		"engine capacity" 7
 		weapon
@@ -3146,6 +3381,7 @@ ship "Nimbus-class V-wing Starfighter"
 		"outfit space" 199
 		"weapon capacity" 40
 		"engine capacity" 45
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -3160,6 +3396,7 @@ ship "Nimbus-class V-wing Starfighter"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 		
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -3171,7 +3408,7 @@ ship "Nimbus-class V-wing Starfighter"
 	gun 12 3 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, was a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
+	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, is a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
 
 ship "Nimbus-class V-wing Starfighter (Fighter)"
 	sprite "ship/nimbusvwing"
@@ -3192,6 +3429,7 @@ ship "Nimbus-class V-wing Starfighter (Fighter)"
 		"outfit space" 179
 		"weapon capacity" 40
 		"engine capacity" 45
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -3206,6 +3444,7 @@ ship "Nimbus-class V-wing Starfighter (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 		
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -3217,7 +3456,7 @@ ship "Nimbus-class V-wing Starfighter (Fighter)"
 	gun 12 3 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, was a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
+	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, is a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
 
 
 
@@ -3240,6 +3479,7 @@ ship "BTL-B Y-Wing"
 		"outfit space" 243
 		"weapon capacity" 55
 		"engine capacity" 53
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
 			"shield damage" 325
@@ -3255,6 +3495,7 @@ ship "BTL-B Y-Wing"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -3290,6 +3531,7 @@ ship "BTL-B Y-Wing (Fighter)"
 		"outfit space" 223
 		"weapon capacity" 55
 		"engine capacity" 53
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
 			"shield damage" 325
@@ -3305,6 +3547,7 @@ ship "BTL-B Y-Wing (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"

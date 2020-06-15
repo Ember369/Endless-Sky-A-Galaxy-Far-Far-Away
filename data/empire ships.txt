@@ -96,8 +96,8 @@ ship "Allegiance-class Battlecruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Turbolaser Quad Turret (Green)" 22
-		"Turbolaser Dual Turret (Green)" 10
+		"Turbolaser Quad Turret (Green)" 23
+		"Turbolaser Dual Turret (Green)" 9
 		
 		"T5 Destroyer Power Converter"
 		"T5 Destroyer Shield Projector"
@@ -107,40 +107,40 @@ ship "Allegiance-class Battlecruiser"
 		"T5 Destroyer Sublight Engine"
 		"T5 Destroyer Hyperspace Motivator"
 
-	engine -800 2367
-	engine 799 2371
-	turret -1138 1738 "Turbolaser Quad Turret (Green)"
-	turret -1088 1593 "Turbolaser Quad Turret (Green)"
-	turret -1041 1447 "Turbolaser Quad Turret (Green)"
-	turret -993 1301 "Turbolaser Quad Turret (Green)"
-	turret -943 1152 "Turbolaser Quad Turret (Green)"
-	turret -894 1006 "Turbolaser Quad Turret (Green)"
-	turret 1141 1739 "Turbolaser Quad Turret (Green)"
-	turret 1094 1591 "Turbolaser Quad Turret (Green)"
-	turret 1044 1445 "Turbolaser Quad Turret (Green)"
-	turret 995 1300 "Turbolaser Quad Turret (Green)"
-	turret 946 1151 "Turbolaser Quad Turret (Green)"
-	turret 897 1007 "Turbolaser Quad Turret (Green)"
-	turret -401 -1190 "Turbolaser Dual Turret (Green)"
-	turret 400 -1189 "Turbolaser Dual Turret (Green)"
-	turret 1 -518 "Turbolaser Dual Turret (Green)"
-	turret 2 -321 "Turbolaser Dual Turret (Green)"
-	turret 2 -136 "Turbolaser Dual Turret (Green)"
-	turret -753 -74 "Turbolaser Dual Turret (Green)"
-	turret 755 -71 "Turbolaser Dual Turret (Green)"
-	turret -805 1518 "Turbolaser Dual Turret (Green)"
-	turret 798 1522 "Turbolaser Dual Turret (Green)"
-	turret 2 418 "Turbolaser Dual Turret (Green)"
-	turret -238 137 "Turbolaser Quad Turret (Green)"
-	turret 238 139 "Turbolaser Quad Turret (Green)"
-	turret -608 409 "Turbolaser Quad Turret (Green)"
-	turret 602 409 "Turbolaser Quad Turret (Green)"
-	turret -604 558 "Turbolaser Quad Turret (Green)"
-	turret 602 557 "Turbolaser Quad Turret (Green)"
-	turret -364 902 "Turbolaser Quad Turret (Green)"
-	turret 358 904 "Turbolaser Quad Turret (Green)"
-	turret -230 2000 "Turbolaser Quad Turret (Green)"
-	turret 230 2004 "Turbolaser Quad Turret (Green)"
+	engine -734 2080
+	engine 734 2080
+	turret -1038 1501 "Turbolaser Quad Turret (Green)"
+	turret 1038 1501 "Turbolaser Quad Turret (Green)"
+	turret -994 1367 "Turbolaser Quad Turret (Green)"
+	turret 994 1367 "Turbolaser Quad Turret (Green)"
+	turret -950 1229 "Turbolaser Quad Turret (Green)"
+	turret 950 1229 "Turbolaser Quad Turret (Green)"
+	turret -906 1096 "Turbolaser Quad Turret (Green)"
+	turret 906 1096 "Turbolaser Quad Turret (Green)"
+	turret -860 960 "Turbolaser Quad Turret (Green)"
+	turret 860 960 "Turbolaser Quad Turret (Green)"
+	turret -817 827 "Turbolaser Quad Turret (Green)"
+	turret 817 827 "Turbolaser Quad Turret (Green)"
+	turret -1025 852 "Turbolaser Quad Turret (Green)"
+	turret 1025 852 "Turbolaser Quad Turret (Green)"
+	turret -691 -166 "Turbolaser Quad Turret (Green)"
+	turret 691 -166 "Turbolaser Quad Turret (Green)"
+	turret 0 -224 "Turbolaser Quad Turret (Green)"
+	turret 0 -389 "Turbolaser Quad Turret (Green)"
+	turret 1 -591 "Turbolaser Quad Turret (Green)"
+	turret -361 -1188 "Turbolaser Quad Turret (Green)"
+	turret 361 -1188 "Turbolaser Quad Turret (Green)"
+	turret -46 -2049 "Turbolaser Quad Turret (Green)"
+	turret 46 -2049 "Turbolaser Quad Turret (Green)"
+	turret -211 1815 "Turbolaser Dual Turret (Green)"
+	turret 211 1815 "Turbolaser Dual Turret (Green)"
+	turret -299 1539 "Turbolaser Dual Turret (Green)"
+	turret 299 1539 "Turbolaser Dual Turret (Green)"
+	turret -337 736 "Turbolaser Dual Turret (Green)"
+	turret 337 736 "Turbolaser Dual Turret (Green)"
+	turret -558 282 "Turbolaser Dual Turret (Green)"
+	turret 558 282 "Turbolaser Dual Turret (Green)"
+	turret 2 288 "Turbolaser Dual Turret (Green)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -168,7 +168,7 @@ ship "Arc Hammer"
 		"heat dissipation" .3
 		"fuel capacity" 1200
 		"cargo space" 1400
-		"outfit space" 1952
+		"outfit space" 2038
 		"weapon capacity" 1280
 		"engine capacity" 500
 		weapon
@@ -338,7 +338,7 @@ ship "Assertor-class Star Dreadnought"
 		licenses
 			Imperial
 		category "Heavy Warship"
-		"cost" 1100000000
+		"cost" 1143350000
 		"shields" 1000000
 		"hull" 400000
 		"required crew" 280000
@@ -1388,7 +1388,7 @@ ship "Delta-class T-3c Shuttle"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 18
+		"outfit space" 17
 		"weapon capacity" 3
 		"engine capacity" 6
 		weapon
@@ -2091,8 +2091,8 @@ ship "Gamma-class ATR-6 Assault Transport"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 25
-		"weapon capacity" 18
+		"outfit space" 24
+		"weapon capacity" 8
 		"engine capacity" 7
 		weapon
 			"blast radius" 300
@@ -2546,7 +2546,7 @@ ship "Lambda-class T-4a Shuttle"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 20
+		"outfit space" 19
 		"weapon capacity" 5
 		"engine capacity" 6
 		weapon
@@ -2559,7 +2559,7 @@ ship "Lambda-class T-4a Shuttle"
 		
 		"T1.3 Shuttle Power Converter"
 		"T1.3 Shuttle Shield Projector"
-		"Small Radar Jammer"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1.3 Shuttle Engine"
@@ -3855,7 +3855,7 @@ ship "Intersector-class Sloop"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 71
+		"outfit space" 73
 		"weapon capacity" 14
 		"engine capacity" 20
 		weapon
@@ -5899,9 +5899,9 @@ ship "Zeta-class Cargo Shuttle"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 400
-		"outfit space" 290
-		"weapon capacity" 70
-		"engine capacity" 210
+		"outfit space" 76
+		"weapon capacity" 10
+		"engine capacity" 20
 		weapon
 			"blast radius" 300
 			"shield damage" 700

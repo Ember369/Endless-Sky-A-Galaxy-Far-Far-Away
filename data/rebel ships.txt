@@ -454,9 +454,9 @@ ship "Bussard-class Tanker"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 50
-		"outfit space" 729
-		"weapon capacity" 340
-		"engine capacity" 210
+		"outfit space" 164
+		"weapon capacity" 0
+		"engine capacity" 78
 		"defenceless capacity" -1
 		weapon
 			"blast radius" 300
@@ -509,6 +509,7 @@ ship "BTL-A4 Y-Wing"
 		"outfit space" 228
 		"weapon capacity" 40
 		"engine capacity" 53
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
 			"shield damage" 325
@@ -523,6 +524,7 @@ ship "BTL-A4 Y-Wing"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -557,6 +559,7 @@ ship "BTL-A4 Y-Wing (Fighter)"
 		"outfit space" 208
 		"weapon capacity" 40
 		"engine capacity" 53
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
 			"shield damage" 325
@@ -571,6 +574,7 @@ ship "BTL-A4 Y-Wing (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -605,6 +609,7 @@ ship "BTL-S3 Y-Wing"
 		"outfit space" 228
 		"weapon capacity" 40
 		"engine capacity" 53
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
 			"shield damage" 325
@@ -620,6 +625,7 @@ ship "BTL-S3 Y-Wing"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -655,6 +661,7 @@ ship "BTL-S3 Y-Wing (Fighter)"
 		"outfit space" 228
 		"weapon capacity" 40
 		"engine capacity" 53
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
 			"shield damage" 325
@@ -670,6 +677,7 @@ ship "BTL-S3 Y-Wing (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -1100,6 +1108,7 @@ ship "E-7 E-Wing"
 		"outfit space" 192
 		"weapon capacity" 50
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -1114,6 +1123,7 @@ ship "E-7 E-Wing"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -1150,6 +1160,7 @@ ship "E-7 E-Wing (Fighter)"
 		"outfit space" 192
 		"weapon capacity" 50
 		"engine capacity" 50
+		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -1164,6 +1175,7 @@ ship "E-7 E-Wing (Fighter)"
 		"T1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
 		"T1 Fighter Hyperspace Motivator"
@@ -1333,8 +1345,9 @@ ship "GR-75 Transport"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 1000
-		"outfit space" 384
-		"engine capacity" 210
+		"outfit space" 154
+		"weapon capacity" 0
+		"engine capacity" 78
 		"defenceless capacity" -1
 		weapon
 			"blast radius" 290
@@ -1384,8 +1397,9 @@ ship "U-22 Orbital Loadlifter"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 1000
-		"outfit space" 384
-		"engine capacity" 210
+		"outfit space" 154
+		"weapon capacity" 0
+		"engine capacity" 78
 		"defenceless capacity" -1
 		weapon
 			"blast radius" 290
@@ -3194,9 +3208,9 @@ ship "UT-60D U-Wing"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 15
+		"weapon capacity" 2
+		"engine capacity" 5
 		weapon
 			"blast radius" 45
 			"shield damage" 340

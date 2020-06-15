@@ -13,7 +13,7 @@ mission "Destroy the Imperial Blockade"
 		personality heroic staying vindictive unconstrained target
 		government "Galactic Empire"
 		system destination
-		fleet "imperialblockade"
+		fleet "missionimperialnavyattack"
 		dialog "The Imperial Blockade has been eliminated. Regain contact with the Rebel Alliance to receive the payment."
 	on complete
 		payment 250000
@@ -197,13 +197,13 @@ mission "Clear the Imperial Sector"
 	to offer
 		random < 99
 	source
-		system Empress
+		system "Empress Teta"
 	destination
 		system Kalist
 	npc kill
 		personality heroic staying target
 		government "Galactic Empire"
-		system Empress
+		system "Empress Teta"
 		fleet
 			variant 50
 				"Gladiator Star Destroyer"

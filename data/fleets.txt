@@ -4,13 +4,13 @@ fleet "rebelfleet"
 	personality
 		opportunistic
 	variant 55
-		"T-65B X-Wing" 6
+		"T-65B X-Wing" 5
 	variant 50
-		"BTL-A4 Y-Wing" 6
+		"BTL-A4 Y-Wing" 5
 	variant 50
-		"RZ1 A-Wing (Red)" 8
+		"RZ1 A-Wing (Red)" 5
 	variant 50
-		"RZ1 A-Wing" 8
+		"RZ1 A-Wing" 5
 	variant 40
 		"A/SF-01 B-Wing" 5
 	variant 40
@@ -787,8 +787,6 @@ fleet "civiliantransport"
 		"Razor Crest Gunship"
 	variant 10
 		"Delta-class JV-7 Shuttle"
-	variant 10
-		"Krayt Lav" 2
 	variant 5
 		"Dusty Duck"
 
@@ -1040,7 +1038,7 @@ fleet "purrgil"
 	variant 70
 		"Purrgil" 5
 
-fSSSleet "Wreckage"
+fleet "Wreckage"
 	government "Wreckage"
 	cargo 0
 	personality
@@ -1086,7 +1084,7 @@ fleet "bountyhunter"
 	variant 60
 		"D5-Mantis Patrol Craft"
 	variant 60
-		"Firespray-31-class patrol craft"
+		"Firespray-31-class Patrol Craft"
 
 fleet "deathstariifleet"
 	government "Galactic Empire"
@@ -1186,15 +1184,6 @@ fleet "deathstariifleet"
 		"Bellator-class Star Dreadnought"
 		"Executor-class Star Dreadnought"
 
-fleet "dqardreadnought"
-	government "First Order"
-	personality
-		heroic opportunistic vindictive unconstrained
-	cargo 0
-	variant 50
-		"Mandator IV-class Siege Dreadnought"
-		"TIE/FO Fighter" 20
-
 fleet "sitheternal"
 	government "Sith Eternal"
 	personality
@@ -1266,12 +1255,3 @@ fleet "scarif"
 	variant 50
 		"Imperial I-class Star Destroyer" 3
 		"TIE/LN Fighter (Fighter)" 30
-
-fleet "starkillerbase"
-	government "First Order"
-	personality
-		heroic opportunistic vindictive unconstrained
-	cargo 0
-	variant 50
-		"TIE/FO Fighter" 100
-		"TIE/SF Fighter" 20
