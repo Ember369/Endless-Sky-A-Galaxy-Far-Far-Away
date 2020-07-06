@@ -1,3 +1,99 @@
+## Version: v0.4-alpha – The Consistency Update
+* Changelog
+	* Ships (Added)
+		* A-6 Interceptor
+		* A-6 Interceptor (Fighter)
+		* A519 Invader Close Support Starfighter
+		* A519 Invader Close Support Starfighter (Fighter)
+		* ARC-170 Starfighter (Jsec)
+		* ARC-170 Starfighter (Jsec) (Fighter)
+		* Arc Hammer
+		* A/SF-01 Dual B-Wing
+		* A/SF-01 Dual B-Wing (Fighter)
+		* BB-2 Starfire Fighter-Bomber
+		* BB-2 Starfire Fighter-Bomber (Fighter)
+		* BTL-S8 K-Wing (Blue)
+		* BTL-S8 K-Wing (Blue) (Fighter)
+		* BTL-S8 K-Wing (Blue) (Ion Bombs)
+		* Cyclone-class R-Wing Starfighter
+		* Cyclone-class R-Wing Starfighter (Fighter)
+		* Diamond-class Cruiser
+		* DP20 Frigate (Modified)
+		* EF76 Nebulon-B Frigate (Jsec)
+		* G1-M4-C Dunelizard Fighter 2
+		* G1-M4-C Dunelizard Fighter 2 (Fighter)
+		* GR-75 Transport (Jsec)
+		* IRD Starfighter
+		* IRD Starfighter (Fighter)
+		* Mobquet MB-C1 Medium Transport (Starhook Ten) 
+		* Modular Conveyor
+		* N-1 Starfighter (Jsec)
+		* N-1 Starfighter (Jsec) (Fighter)
+		* Nimbus-class V-wing Starfighter (Jsec)
+		* Nimbus-class V-wing Starfighter (Jsec) (Fighter)
+		* Pinook Fighter
+		* Pinook Fighter (Fighter)
+		* Planetary Defender
+		* Planetary Defender (Fighter)
+		* Procursator-class Star Destroyer
+		* Providence-class Cruiser (Dreadnought)
+		* Recusant-class Light Destroyer (Dreadnought)
+		* Subjugator-class Heavy Cruiser
+		* T-65 XJ-3 Stealth X-Wing
+		* T-65 XJ-3 Stealth X-Wing (Fighter)
+		* Toscan 8-Q Starfighter
+		* Toscan 8-Q Starfighter (Fighter)
+		* Taylor Shuttle
+		* Umbaran Starfighter
+		* Umbaran Starfighter (Fighter)
+		* Viscount-class Star Defender
+		* YT-1350XT Freighter
+	* Ships (Miscellaneous)
+		* Messed with all of the ship stats and costs
+		* Removed Krayt Lav
+		* Messed with the sizes of the larger capital ships
+		* Messed with the outfit/weapon/engine capacities
+	* Miscellaneous
+		* Decreased the size of planets (the plugin size was getting too large)
+		* All Imperial ships now require an Imperial License
+		* Changed the sprite for the Star Wars Wormhole (just for fun)
+		* A lot of bug fixing
+		* I mean it: a LOT of bug fixing (my errors.txt file was enormous)
+	* Outfits (Added)
+		* Imperial License (currently purchasable in outfitter)
+		* Holomap
+		* Astromech Socket (required to install an astromech)
+		* R2-series Astromech Droid
+		* R3-series Astromech Droid
+		* R4-series Astromech Droid
+		* R5-series Astromech Droid
+		* Hyperdrive Docking Ring
+		* T1 Slave Circuit
+	* Outfits (Miscellaneous)
+		* Renamed a large number of outfits
+	* Map (Added)
+		* Brental IV
+		* Kuat
+		* N'zoth
+		* Tatooine
+		* Geonosis
+		* Pantora
+		* Ring of Kafrene
+		* The Redoubt
+		* Rakata Prime
+		* Fedalle
+		* Commenor
+		* Lola Sayu
+		* Wellspring of Life
+		* Rodia
+		* Corellia
+		* Ojom
+	* Weapons
+		* Gave the "Linked Ion/Plasma Cannon" a new projectile sprite
+		* Messed with all of the values (reload, hull damage, etc.)
+		* Added "Intruder Missile"
+		* Added "Diamond Boron Missile"
+__________________________________________________________________________________
 
 ## Version: v0.3-alpha – The Thumbnail Update
 * Changelog

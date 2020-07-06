@@ -7273,8 +7273,8 @@ system Corellia
 		distance 85.75
 		period 10.4648
 		offset 180
-	object
-		sprite planet/rock8
+	object "Corellia "
+		sprite planet/corellia
 		distance 317.91
 		period 46.8714
 	object
@@ -23569,12 +23569,10 @@ system Ojom
 		sprite planet/rock11
 		distance 127.16
 		period 27.7921
-	object
+	object "Ojom "
 		sprite planet/rock2
 		distance 468.4
 		period 196.481
-
-
 		object
 			sprite planet/rock7
 			distance 158
@@ -38905,6 +38903,11 @@ planet "Commenor "
 	description `A trading outpost and spaceport, Commenor was considered as prestigious as the Core planets. It was known for its chrysopaz gemstones and local brandy.`
 	spaceport `Following the Declaration of a New Order, there were a number of anti-Imperial pros across the planet. A resistance movement later appeared on the planet.[14] During the Galactic Civil War, the Alliance to Restore the Republic established a secret base on Commenor's largest moon, Folor.`
 
+planet "Corellia "
+	landscape land/corellia
+	description `Corellia is a planet located in the galaxy's Core Worlds known for its ace pilots and large starships. Corellia is located in the Corellian sector in the Core Worlds. It has a temperate climate and is covered in forests, jungles, and urban centers. One major city is Coronet City (also the planet's capital), which is home to shipyards used to build TIE fighters and Star Destroyers for the Galactic Empire.`
+	spaceport `When the Galactic Empire came to power, Corellia's shipyards were transformed into Imperial facilities, and though Corellia is a faded industrial world, it is used to build TIE fighters and Star Destroyers for the Imperial Navy. Many impoverished Corellian commoners seek to escape their homeworld for a better life.`
+
 planet "Corulag "
 	landscape ""
 	description `Corulag is a populated terrestrial world located on the Perlemian Trade Route in the Bormea sector, part of the Ringali Shell. It is the endpoint of the Corulag-Jatir Hyperroute. The planet boasts urban sprawls with the underdeveloped areas filled with bamboo forests. Originally a colony of Coruscant, Corulag is a Core World with a mostly Human population with a few Wookiees, Aqualish, Ithorians and Selkath as well.`
@@ -39082,6 +39085,11 @@ planet "Naboo "
 	shipyard "Naboo Ships"
 	shipyard "Separatist Alliance Ships"
 	shipyard "Galactic Republic Ships"
+
+planet "Ojom "
+	landscape ""
+	description `Ojom was a frozen ocean planet located within the Deep Core and the homeworld of the Besalisk. Largely inhospitable, several space stations hung in orbit so as to accommodate other species less acclimated to the cold. Content to let galactic affairs continue without their involvement, Ojom avoided Imperial occupation by means of the Besalisks' underworld contacts with the Hutts, though these bargains ended with Ojom becoming woefully indebted.`
+	spaceport `A frozen ocean world in the Deep Core, Ojom was the homeworld of the Besalisk, a four-armed species. Because of the oceanic nature of the planet, Besalisks survived by creating a commune upon the many glaciers adrift on the world's oceans. Despite the several separate communities, the planet was sparsely populated. Many space stations orbited the world, and the populations on these stations actually exceeded that of those communities planetside. The stations filled the role of starports for the planet, and accommodations were much more hospitable than those on Ojom.`
 
 planet "Orto Plutonia"
 	landscape land/ortoplutonia

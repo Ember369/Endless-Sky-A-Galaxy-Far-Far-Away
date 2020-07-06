@@ -118,6 +118,20 @@ government "Unaffiliated"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 
+government "InterGalactic Banking Clan"
+	swizzle 0
+	color .84 .61 .37
+	"player reputation" 10
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Galactic Empire" 0
+		"Rebel Alliance" 0
+		"Scum & Villainy" -0.03
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+
 government "Hutt"
 	swizzle 0
 	color .5 .5 0
