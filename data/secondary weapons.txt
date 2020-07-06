@@ -582,12 +582,10 @@ outfit "Linked Ion/Plasma Cannon"
 		"reload" 600
 		"firing energy" 2000
 		"firing force" 0
-		"firing heat" 1.2
+		"firing heat" 70
 		"hit force" 0
-		"piercing" .1
-		"shield damage" 3000
-		"hull damage" 6000
-		"ion damage" 100
-		"missile strength" 0
-		"no damage scaling"
+		"piercing" .3
+		"shield damage" 7000
+		"hull damage" 7000
+		"ion damage" 5000
 	description "The Linked Ion/Plasma Cannon fired a large ion pulse followed by an enormous, spiraling plasma shot, a combination that disabled the shields and allowed the plasma shot to do maximum damage. "

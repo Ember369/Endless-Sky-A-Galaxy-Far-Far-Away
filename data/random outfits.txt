@@ -46,7 +46,7 @@ outfit "Sith Wayfinder"
 	unplunderable 1
 	description "Sith wayfinders were shaped like Sith holocrons and were made from Kathol resin. The astronavigation systems of starships could be adapted to accept the binary signals emitted by the wayfinders and interpret them as hyperspace jump coordinates."
 
-outfit "T1 Fighter Shield Projector"
+outfit "S1 Fighter Shield Projector"
 	category "Systems"
 	cost 5000
 	thumbnail "outfit/shieldt1"
@@ -54,9 +54,9 @@ outfit "T1 Fighter Shield Projector"
 	"outfit space" -1
 	"shield generation" 0.1
 	"shield energy" .2
-	description "T1 Fighter Shield Projector"
+	description "S1 Fighter Shield Projector"
 
-outfit "T1.3 Shuttle Shield Projector"
+outfit "S1.3 Shuttle Shield Projector"
 	category "Systems"
 	cost 6000
 	thumbnail "outfit/shieldt1_3"
@@ -64,9 +64,9 @@ outfit "T1.3 Shuttle Shield Projector"
 	"outfit space" -1
 	"shield generation" 0.15
 	"shield energy" .25
-	description "T1.3 Shuttle Shield Projector"
+	description "S1.3 Shuttle Shield Projector"
 
-outfit "T1.5 Heavy Fighter Shield Projector"
+outfit "S1.5 Heavy Fighter Shield Projector"
 	category "Systems"
 	cost 7000
 	thumbnail "outfit/shieldt1_5"
@@ -74,9 +74,9 @@ outfit "T1.5 Heavy Fighter Shield Projector"
 	"outfit space" -1
 	"shield generation" 0.15
 	"shield energy" .3
-	description "T1.5 Heavy Fighter Shield Projector"
+	description "S1.5 Heavy Fighter Shield Projector"
 
-outfit "T2 Transport Shield Projector"
+outfit "S2 Transport Shield Projector"
 	category "Systems"
 	cost 40000
 	thumbnail "outfit/shieldt2"
@@ -84,9 +84,9 @@ outfit "T2 Transport Shield Projector"
 	"outfit space" -5
 	"shield generation" 0.2
 	"shield energy" 1.8
-	description "T2 Transport Shield Projector"
+	description "S2 Transport Shield Projector"
 
-outfit "T3 Corvette Shield Projector"
+outfit "S3 Corvette Shield Projector"
 	category "Systems"
 	cost 130000
 	thumbnail "outfit/shieldt3"
@@ -94,9 +94,9 @@ outfit "T3 Corvette Shield Projector"
 	"outfit space" -15
 	"shield generation" 1.0
 	"shield energy" 3
-	description "T3 Corvette Shield Projector"
+	description "S3 Corvette Shield Projector"
 
-outfit "T3.5 Heavy Freighter Shield Projector"
+outfit "S3.5 Heavy Freighter Shield Projector"
 	category "Systems"
 	cost 180000
 	thumbnail "outfit/shieldt3_5"
@@ -104,9 +104,9 @@ outfit "T3.5 Heavy Freighter Shield Projector"
 	"outfit space" -18
 	"shield generation" 1.2
 	"shield energy" 5
-	description "T3.5 Heavy Freighter Shield Projector"
+	description "S3.5 Heavy Freighter Shield Projector"
 
-outfit "T4 Frigate Shield Projector"
+outfit "S4 Frigate Shield Projector"
 	category "Systems"
 	cost 400000
 	thumbnail "outfit/shieldt4"
@@ -114,9 +114,9 @@ outfit "T4 Frigate Shield Projector"
 	"outfit space" -25
 	"shield generation" 1.5
 	"shield energy" 6
-	description "T4 Frigate Shield Projector"
+	description "S4 Frigate Shield Projector"
 
-outfit "T4.5 Cruiser Shield Projector"
+outfit "S4.5 Cruiser Shield Projector"
 	category "Systems"
 	cost 400000
 	thumbnail "outfit/shieldt4.5"
@@ -124,9 +124,9 @@ outfit "T4.5 Cruiser Shield Projector"
 	"outfit space" -34
 	"shield generation" 1.8
 	"shield energy" 9
-	description "T4.5 Cruiser Shield Projector"
+	description "S4.5 Cruiser Shield Projector"
 
-outfit "T5 Destroyer Shield Projector"
+outfit "S5 Destroyer Shield Projector"
 	category "Systems"
 	cost 800000
 	thumbnail "outfit/shieldt5"
@@ -134,9 +134,9 @@ outfit "T5 Destroyer Shield Projector"
 	"outfit space" -80
 	"shield generation" 2
 	"shield energy" 12
-	description "T5 Destroyer Shield Projector"
+	description "S5 Destroyer Shield Projector"
 
-outfit "T1 Fighter Hyperspace Motivator"
+outfit "H1 Fighter Hyperspace Motivator"
 	category "Systems"
 	cost 5000
 	thumbnail "outfit/hyperdrivet1"
@@ -146,9 +146,9 @@ outfit "T1 Fighter Hyperspace Motivator"
 	"jump fuel" 10
 	"hyperdrive" 1
 	"scram drive" 0.1
-	description "T1 Fighter Hyperspace Motivator"
+	description "H1 Fighter Hyperspace Motivator"
 
-outfit "T2 Transport Hyperspace Motivator"
+outfit "H2 Transport Hyperspace Motivator"
 	category "Systems"
 	cost 8000
 	thumbnail "outfit/hyperdrivet2"
@@ -158,9 +158,9 @@ outfit "T2 Transport Hyperspace Motivator"
 	"jump fuel" 10
 	"hyperdrive" 1
 	"scram drive" 0.3
-	description "T2 Transport Hyperspace Motivator"
+	description "H2 Transport Hyperspace Motivator"
 
-outfit "T3 Corvette Hyperspace Motivator"
+outfit "H3 Corvette Hyperspace Motivator"
 	category "Systems"
 	cost 8000
 	thumbnail "outfit/hyperdrivet3"
@@ -170,9 +170,9 @@ outfit "T3 Corvette Hyperspace Motivator"
 	"jump fuel" 10
 	"hyperdrive" 1
 	"scram drive" 0.3
-	description "T3 Corvette Hyperspace Motivator"
+	description "H3 Corvette Hyperspace Motivator"
 
-outfit "T3.5 Heavy Freighter Hyperspace Motivator"
+outfit "H3.5 Heavy Freighter Hyperspace Motivator"
 	category "Systems"
 	cost 8000
 	thumbnail "outfit/hyperdrivet3_5"
@@ -182,9 +182,9 @@ outfit "T3.5 Heavy Freighter Hyperspace Motivator"
 	"jump fuel" 10
 	"hyperdrive" 1
 	"scram drive" 0.3
-	description "T3.5 Heavy Freighter Hyperspace Motivator"
+	description "H3.5 Heavy Freighter Hyperspace Motivator"
 
-outfit "T4 Frigate Hyperspace Motivator"
+outfit "H4 Frigate Hyperspace Motivator"
 	category "Systems"
 	cost 8000
 	thumbnail "outfit/hyperdrivet4"
@@ -194,9 +194,9 @@ outfit "T4 Frigate Hyperspace Motivator"
 	"jump fuel" 10
 	"hyperdrive" 1
 	"scram drive" 0.3
-	description "T4 Frigate Hyperspace Motivator"
+	description "H4 Frigate Hyperspace Motivator"
 
-outfit "T4.5 Cruiser Hyperspace Motivator"
+outfit "H4.5 Cruiser Hyperspace Motivator"
 	category "Systems"
 	cost 8000
 	thumbnail "outfit/hyperdrivet4_5"
@@ -206,9 +206,9 @@ outfit "T4.5 Cruiser Hyperspace Motivator"
 	"jump fuel" 10
 	"hyperdrive" 1
 	"scram drive" 0.3
-	description "T4.5 Cruiser Hyperspace Motivator"
+	description "H4.5 Cruiser Hyperspace Motivator"
 
-outfit "T5 Destroyer Hyperspace Motivator"
+outfit "H5 Destroyer Hyperspace Motivator"
 	category "Systems"
 	cost 30000
 	thumbnail "outfit/hyperdrivet5"
@@ -218,7 +218,7 @@ outfit "T5 Destroyer Hyperspace Motivator"
 	"jump fuel" 10
 	"hyperdrive" 1
 	"scram drive" 0.3
-	description "T5 Destroyer Hyperspace Motivator"
+	description "H5 Destroyer Hyperspace Motivator"
 
 outfit "T1 Fighter Coolant System"
 	category "Systems"

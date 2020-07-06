@@ -8,6 +8,20 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more detailsz
 
+outfit "T1 Fighter Afterburner"
+	category "Engines"
+	"cost" 1000
+	thumbnail "outfit/ionic afterburner"
+	"mass" 1
+	"outfit space" -1
+	"engine capacity" -1
+	"afterburner thrust" 5
+	"afterburner energy" 5
+	"afterburner heat" 1
+	"afterburner effect" "ionic afterburner"
+	description "T1 Fighter Afterburner"
+
+
 outfit "T1 Fighter Engine (Orange)"
 	category "Engines"
 	"cost" 5000

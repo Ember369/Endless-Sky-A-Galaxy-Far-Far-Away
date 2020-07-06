@@ -48,13 +48,13 @@ person "Millennium Falcon"
 			"Proton Torpedo" 6
 			"Transport Dual Laser Turret (Red)" 2
 			
-			"T2 Transport Power Converter"
-			"T2 Transport Shield Projector"
+			"P2 Transport Power Converter"
+			"S2 Transport Shield Projector"
 			"T2 Sensor Array"
 			"T2 Transport Coolant System"
 			
 			"T2 Transport Sublight Engine"
-			"T2 Transport Hyperspace Motivator"
+			"H2 Transport Hyperspace Motivator"
 			
 		engine -48 74
 		engine -44 78
@@ -120,13 +120,13 @@ person "Skylight"
 			"Proton Torpedo Launcher" 2
 			"Proton Torpedo" 6
 	
-			"T1 Fighter Power Converter"
-			"T1 Fighter Shield Projector"
+			"P1 Fighter Power Converter"
+			"S1 Fighter Shield Projector"
 			"T1 Fighter Coolant System"
 			"Stygium Cloaking Device"
 	
 			"T1 Fighter Engine (Pink)"
-			"T1 Fighter Hyperspace Motivator"
+			"H1 Fighter Hyperspace Motivator"
 	
 		engine -9 38
 		engine 10 39

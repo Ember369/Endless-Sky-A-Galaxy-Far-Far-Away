@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-outfit "T1 Fighter Power Converter"
+outfit "P1 Fighter Power Converter"
 	category "Power"
 	cost 5000
 	thumbnail "outfit/powert1"
@@ -19,7 +19,7 @@ outfit "T1 Fighter Power Converter"
 	"energy capacity" 800
 	description "Fighter Power Converter"
 
-outfit "T1.3 Shuttle Power Converter"
+outfit "P1.3 Shuttle Power Converter"
 	category "Power"
 	cost 6000
 	thumbnail "outfit/powert1_3"
@@ -30,7 +30,7 @@ outfit "T1.3 Shuttle Power Converter"
 	"energy capacity" 1000
 	description "Shuttle Power Converter"
 
-outfit "T1.5 Heavy Fighter Power Converter"
+outfit "P1.5 Heavy Fighter Power Converter"
 	category "Power"
 	cost 7000
 	thumbnail "outfit/powert1_5"
@@ -41,7 +41,7 @@ outfit "T1.5 Heavy Fighter Power Converter"
 	"energy capacity" 1100
 	description "Heavy Fighter Power Converter"
 
-outfit "T2 Transport Power Converter"
+outfit "P2 Transport Power Converter"
 	category "Power"
 	cost 40000
 	thumbnail "outfit/powert2"
@@ -52,7 +52,7 @@ outfit "T2 Transport Power Converter"
 	"energy capacity" 1400
 	description "Transport Power Converter"
 
-outfit "T3 Corvette Power Converter"
+outfit "P3 Corvette Power Converter"
 	category "Power"
 	cost 130000
 	thumbnail "outfit/powert3"
@@ -63,7 +63,7 @@ outfit "T3 Corvette Power Converter"
 	"energy capacity" 3500
 	description "Corvette Power Converter"
 
-outfit "T3.5 Heavy Freighter Power Converter"
+outfit "P3.5 Heavy Freighter Power Converter"
 	category "Power"
 	cost 180000
 	thumbnail "outfit/powert3_5"
@@ -72,9 +72,9 @@ outfit "T3.5 Heavy Freighter Power Converter"
 	"energy generation" 30
 	"heat generation" 17
 	"energy capacity" 4000
-	description "Heavy Freighter Power Converter"
+	description "P3.5 Heavy Freighter Power Converter"
 
-outfit "T4 Frigate Power Converter"
+outfit "P4 Frigate Power Converter"
 	category "Power"
 	cost 400000
 	thumbnail "outfit/powert4"
@@ -85,7 +85,7 @@ outfit "T4 Frigate Power Converter"
 	"energy capacity" 4500
 	description "Frigate Power Converter"
 
-outfit "T4.5 Cruiser Power Converter"
+outfit "P4.5 Cruiser Power Converter"
 	category "Power"
 	cost 600000
 	thumbnail "outfit/powert4_5"
@@ -96,7 +96,7 @@ outfit "T4.5 Cruiser Power Converter"
 	"energy capacity" 6000
 	description "Cruiser Power Converter"
 
-outfit "T5 Destroyer Power Converter"
+outfit "P5 Destroyer Power Converter"
 	category "Power"
 	cost 800000
 	thumbnail "outfit/powert5"

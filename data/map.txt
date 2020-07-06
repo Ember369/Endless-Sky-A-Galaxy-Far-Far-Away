@@ -7466,6 +7466,7 @@ system Coruscant
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
 	fleet civilianfleet 9000
+	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
 	fleet purrgil 30000
@@ -8729,11 +8730,6 @@ system "Death Star II"
 		distance 5635.74
 		period 4333
 		offset 4
-	object s
-		sprite planet/oberon
-		distance 5635.74
-		period 4333
-		offset 6
 	object
 		sprite planet/oberon
 		distance 5635.74
@@ -11098,9 +11094,6 @@ system Exegol
 	government "Sith Eternal"
 	habitable 973.36
 	link "Wayfinder 5"
-	object .
-		sprite planet/
-		distance 2246.5
 	object "Exegol "
 		sprite planet/exegol
 		distance 5000
@@ -11360,6 +11353,7 @@ system Fedalle
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
 	fleet civilianfleet 9000
+	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
 	fleet purrgil 30000
@@ -18156,6 +18150,7 @@ system Kuat
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
 	fleet civilianfleet 9000
+	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
 	fleet purrgil 30000
@@ -21909,11 +21904,6 @@ system Naboo
 		distance 734.677
 		period 318.614
 		offset 287.839
-	object "Lucrehulk-class Battleship"
-		sprite planet/lucrehulkbattleship
-		distance 4000
-		period 1432.9
-		offset 52.3595
 	object
 		sprite planet/lava7
 		distance 2669.7
@@ -25970,6 +25960,7 @@ system Pyria
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
 	fleet civilianfleet 9000
+	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
 	fleet purrgil 30000
@@ -28025,6 +28016,7 @@ system Rodia
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
 	fleet civilianfleet 9000
+	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
 	fleet purrgil 30000
@@ -32039,6 +32031,7 @@ system Tatooine
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
 	fleet civilianfleet 9000
+	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
 	fleet purrgil 30000
@@ -38844,9 +38837,6 @@ planet Axum
 	spaceport `Heavily urbanised, it had far greater industrial output than its sister planet Anaxes, though less prestige. The Axumites were known to be an exceedingly-formal and well-mannered people, and extremely proud of Axum's history as a Core Founder and the legacy of the Azure Imperium.`
 	shipyard "Imperial Navy Ships"
 
-planet B
-	landscape ""
-
 planet "Berchest "
 	landscape ""
 	description `Berchest is a major tourist destination and a trading planet, in the Anthos sector of the Inner Rim. It is an extremely beautiful world whose highly saline seas and strong tides resulted in immense crystal deposits on the planet's shores that the native Berchestians sculpted into entire cities. One of these cities is Calius saj Leeloo, or the City of Glowing Crystal. It was carved entirely from one massive crystal that was created over the centuries from salt deposits from the adjacent Leefari Sea and is considered one of the Twenty Wonders of the Galaxy.`
@@ -39071,13 +39061,6 @@ planet "Lothal "
 	spaceport `The planet Lothal itself was primarily terrestrial, known for its grassy plains, spine tree forests, farmland, long, low mountains, and shallow freshwater seas. The planet also had marshes, which were said to house will-o'-the-wisps. Some notable fauna included the loth-cats and the loth-wolves. By the Imperial Era, loth-wolves were widely believed to be extinct but could manifest themselves to Force-sensitive individuals. They were connected to the planet through the Force and Kanan regarded them as messengers warning them that the Empire was doing something "malevolent" to the planet.`
 	shipyard "Imperial Navy Ships"
 
-planet "Lucrehulk-class Battleship"
-	landscape ""
-	government "Separatist Alliance"
-	tribute 100000
-		threshold 7000
-		fleet lucrehulkbattleship
-
 planet "N'zoth "
 	landscape land/nzoth
 	description `N'zoth was an arid planet with standard gravity and an atmosphere breathable by most sentient creatures. The brutal, xenophobic Yevetha were the planet's only sentient species, although other native species such as the siringana were equally merciless and brutal. Giat Nor was the capital city of both N'zoth and later the Duskhan League. The planet was the headquarters of Nazfar Metalworks.`
@@ -39168,9 +39151,6 @@ planet "Rugosa "
 	landscape land/rugosa
 	description `The remote moon Rugosa was located in the galaxy's Outer Rim Territories close to the planet Toydaria, a world in Hutt Space, which was the homeworld of the Toydarian species. The moon had a temperate climate, and parts of its surface area were covered by large regions of coral forests, with the corals varying hugely in size and some being large enough to support small starships. Cavernous valley areas also existed on the moon.`
 	description `	The remote moon Rugosa was located in the galaxy's Outer Rim Territories close to the planet Toydaria, a world in Hutt Space, which was the homeworld of the Toydarian species. The moon had a temperate climate, and parts of its surface area were covered by large regions of coral forests, with the corals varying hugely in size and some being large enough to support small starships. Cavernous valley areas also existed on the moon.`
-
-planet S
-	landscape ""
 
 planet "Salliche "
 	landscape ""

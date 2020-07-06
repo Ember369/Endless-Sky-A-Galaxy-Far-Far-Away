@@ -24,9 +24,9 @@ ship "A/SF-03 B-Wing"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 165
+		"outfit space" 21
 		"weapon capacity" 9
-		"engine capacity" 50
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -38,13 +38,13 @@ ship "A/SF-03 B-Wing"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 20
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine 21 23
 	engine 28 23
@@ -76,9 +76,9 @@ ship "A/SF-03 B-Wing (Fighter)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 165
+		"outfit space" 21
 		"weapon capacity" 9
-		"engine capacity" 50
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -90,13 +90,13 @@ ship "A/SF-03 B-Wing (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 20
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine 21 23
 	engine 28 23
@@ -128,9 +128,9 @@ ship "BTA-NR2 Y-Wing"
 		"heat dissipation" 0.7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 228
-		"weapon capacity" 40
-		"engine capacity" 53
+		"outfit space" 19
+		"weapon capacity" 7
+		"engine capacity" 7
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
@@ -143,14 +143,14 @@ ship "BTA-NR2 Y-Wing"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 22
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -22 17
 	engine 21 16
@@ -180,9 +180,9 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 		"heat dissipation" 0.7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 228
-		"weapon capacity" 40
-		"engine capacity" 53
+		"outfit space" 19
+		"weapon capacity" 7
+		"engine capacity" 7
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
@@ -195,14 +195,14 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 22
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -22 17
 	engine 21 16
@@ -232,9 +232,9 @@ ship "Fireball"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -246,13 +246,13 @@ ship "Fireball"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -15 20
 	engine 15 20
@@ -282,9 +282,9 @@ ship "RZ2 A-Wing"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -294,14 +294,15 @@ ship "RZ2 A-Wing"
 		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
+		"Fighter Laser Turret (Red) (AI)"
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -9 33
 	engine 9 33
@@ -309,6 +310,7 @@ ship "RZ2 A-Wing"
 	gun 19 -5 "Fighter Laser Cannon (Red)"
 	gun -11 -16 "Concussion Missile Launcher"
 	gun 9 -17 "Concussion Missile Launcher"
+	turret 0 10 "Fighter Laser Turret (Red) (AI)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
@@ -331,9 +333,9 @@ ship "RZ2 A-Wing (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -343,14 +345,15 @@ ship "RZ2 A-Wing (Fighter)"
 		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
+		"Fighter Laser Turret (Red) (AI)"
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -10 34
 	engine 9 33
@@ -358,6 +361,7 @@ ship "RZ2 A-Wing (Fighter)"
 	gun 20 -5 "Fighter Laser Cannon (Red)"
 	gun -11 -14 "Concussion Missile Launcher"
 	gun 10 -15 "Concussion Missile Launcher"
+	turret 0 10 "Fighter Laser Turret (Red) (AI)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
@@ -380,9 +384,9 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (Red)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -392,14 +396,15 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (Red)"
 		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
+		"Fighter Laser Turret (Red) (AI)"
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -9 33
 	engine 9 33
@@ -407,6 +412,7 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (Red)"
 	gun 19 -5 "Fighter Laser Cannon (Red)"
 	gun -11 -16 "Concussion Missile Launcher"
 	gun 9 -17 "Concussion Missile Launcher"
+	turret 0 10 "Fighter Laser Turret (Red) (AI)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
@@ -430,9 +436,9 @@ ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (Red) (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -442,14 +448,15 @@ ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (Red) (Fighter)"
 		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
+		"Fighter Laser Turret (Red) (AI)"
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -10 34
 	engine 9 33
@@ -457,6 +464,7 @@ ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (Red) (Fighter)"
 	gun 20 -5 "Fighter Laser Cannon (Red)"
 	gun -11 -14 "Concussion Missile Launcher"
 	gun 10 -15 "Concussion Missile Launcher"
+	turret 0 10 "Fighter Laser Turret (Red) (AI)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
@@ -479,9 +487,9 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (Green)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -491,14 +499,15 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (Green)"
 		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
+		"Fighter Laser Turret (Red) (AI)"
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -9 33
 	engine 9 33
@@ -506,6 +515,7 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (Green)"
 	gun 19 -5 "Fighter Laser Cannon (Red)"
 	gun -11 -16 "Concussion Missile Launcher"
 	gun 9 -17 "Concussion Missile Launcher"
+	turret 0 10 "Fighter Laser Turret (Red) (AI)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
@@ -528,9 +538,9 @@ ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (Green) (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -540,14 +550,15 @@ ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (Green) (Fighter)"
 		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
+		"Fighter Laser Turret (Red) (AI)"
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -10 34
 	engine 9 33
@@ -555,6 +566,7 @@ ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (Green) (Fighter)"
 	gun 20 -5 "Fighter Laser Cannon (Red)"
 	gun -11 -14 "Concussion Missile Launcher"
 	gun 10 -15 "Concussion Missile Launcher"
+	turret 0 10 "Fighter Laser Turret (Red) (AI)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
@@ -577,9 +589,9 @@ ship "T-70 X-Wing"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -591,14 +603,14 @@ ship "T-70 X-Wing"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -11 41
 	engine 11 41
@@ -628,9 +640,9 @@ ship "T-70 X-Wing (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -642,14 +654,14 @@ ship "T-70 X-Wing (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -11 41
 	engine 11 41
@@ -679,9 +691,9 @@ ship  "T-70 X-Wing" "T-70 X-Wing (Black)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -693,14 +705,14 @@ ship  "T-70 X-Wing" "T-70 X-Wing (Black)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -11 41
 	engine 11 41
@@ -730,9 +742,9 @@ ship "T-70 X-Wing" "T-70 X-Wing (Black) (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -744,14 +756,14 @@ ship "T-70 X-Wing" "T-70 X-Wing (Black) (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -11 41
 	engine 11 41
@@ -781,9 +793,9 @@ ship "T-85 X-Wing"
 		drag 0.9
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -795,14 +807,14 @@ ship "T-85 X-Wing"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -9 41
 	engine 10 41
@@ -832,9 +844,9 @@ ship "T-85 X-Wing (Fighter)"
 		drag 0.9
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -846,14 +858,14 @@ ship "T-85 X-Wing (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -9 41
 	engine 10 41
@@ -885,9 +897,9 @@ ship "MG-100 Starfortress SF-17"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 427
-		"weapon capacity" 230
-		"engine capacity" 60
+		"outfit space" 225
+		"weapon capacity" 210
+		"engine capacity" 8
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -900,13 +912,13 @@ ship "MG-100 Starfortress SF-17"
 		"Proton Bomb" 50
 		"Proton Bomb Bay" 4
 		
-		"T1.5 Heavy Fighter Power Converter"
-		"T1.5 Heavy Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 3
 		
 		"T1.5 Heavy Fighter Engine (Pink Flare)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -14 -9
 	engine 14 -8
@@ -947,9 +959,9 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (w/out)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 427
-		"weapon capacity" 230
-		"engine capacity" 60
+		"outfit space" 225
+		"weapon capacity" 210
+		"engine capacity" 8
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -960,13 +972,13 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (w/out)"
 		"Fighter Laser Turret Underneath (Red)"
 		"Proton Bomb Bay" 4
 		
-		"T1.5 Heavy Fighter Power Converter"
-		"T1.5 Heavy Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 3
 		
 		"T1.5 Heavy Fighter Engine (Pink Flare)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -14 -9
 	engine 14 -8
@@ -1001,9 +1013,9 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (Red)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 427
-		"weapon capacity" 230
-		"engine capacity" 60
+		"outfit space" 225
+		"weapon capacity" 210
+		"engine capacity" 8
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -1016,13 +1028,13 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (Red)"
 		"Proton Bomb" 50
 		"Proton Bomb Bay" 4
 		
-		"T1.5 Heavy Fighter Power Converter"
-		"T1.5 Heavy Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 3
 		
 		"T1.5 Heavy Fighter Engine (Pink Flare)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -14 -9
 	engine 14 -8
@@ -1063,9 +1075,9 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (Red) (w/out)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 427
-		"weapon capacity" 230
-		"engine capacity" 60
+		"outfit space" 225
+		"weapon capacity" 210
+		"engine capacity" 8
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -1076,13 +1088,13 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (Red) (w/out)"
 		"Fighter Laser Turret Underneath (Red)"
 		"Proton Bomb Bay" 4
 		
-		"T1.5 Heavy Fighter Power Converter"
-		"T1.5 Heavy Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 3
 		
 		"T1.5 Heavy Fighter Engine (Pink Flare)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -14 -9
 	engine 14 -8
@@ -1117,9 +1129,9 @@ ship "Eta-5 Actis-class Interceptor"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 182
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -1130,13 +1142,13 @@ ship "Eta-5 Actis-class Interceptor"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -9 36
 	engine 9 36
@@ -1168,9 +1180,9 @@ ship "Eta-5 Actis-class Interceptor (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 182
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -1181,13 +1193,13 @@ ship "Eta-5 Actis-class Interceptor (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 4
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -9 36
 	engine 9 36
@@ -1218,9 +1230,9 @@ ship "Free Virgillia-class Bunkerbuster"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 250
-		"outfit space" 914
-		"weapon capacity" 510
-		"engine capacity" 210
+		"outfit space" 619
+		"weapon capacity" 298
+		"engine capacity" 230
 		weapon
 			"blast radius" 310
 			"shield damage" 750
@@ -1232,13 +1244,13 @@ ship "Free Virgillia-class Bunkerbuster"
 		"Plasma Torpedo Launcher" 3
 		"Plasma Torpedo" 30
 		
-		"T4 Frigate Power Converter"
-		"T4 Frigate Shield Projector"
+		"P4 Frigate Power Converter"
+		"S4 Frigate Shield Projector"
 		"T4 Sensor Array"
 		"T4 Frigate Coolant System"
 		
 		"T4 Frigate Sublight Engine"
-		"T4 Frigate Hyperspace Motivator"
+		"H4 Frigate Hyperspace Motivator"
 		
 	engine -221 451
 	engine -180 450
@@ -1293,8 +1305,8 @@ ship "Viscount-class Star Defender"
 		"heat dissipation" .45
 		"fuel capacity" 2000
 		"cargo space" 900
-		"outfit space" 2044
-		"weapon capacity" 1200
+		"outfit space" 2988
+		"weapon capacity" 2180
 		"engine capacity" 550
 		weapon
 			"blast radius" 300
@@ -1304,13 +1316,13 @@ ship "Viscount-class Star Defender"
 	outfits
 		"Turbolaser Quad Turret (Red)" 32
 		
-		"T5 Destroyer Shield Projector"
-		"T5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 		
 	engine -290 6306
 	engine 290 6306
@@ -1532,7 +1544,7 @@ ship "AAL Troop Transport"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 200
-		"outfit space" 19
+		"outfit space" 20
 		"weapon capacity" 3
 		"engine capacity" 7
 		weapon
@@ -1543,13 +1555,13 @@ ship "AAL Troop Transport"
 	outfits
 		"Transport Laser Turret (Red)"
 		
-		"T1.5 Heavy Fighter Power Converter"
-		"T1.5 Heavy Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1.5 Heavy Fighter Engine (Blue Flare)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 
 	engine -8 64
@@ -1578,9 +1590,9 @@ ship "TIE/FO Fighter"
 		"mass" 20
 		"drag" .9
 		"heat dissipation" .9
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 45
+		"outfit space" 13
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -1589,8 +1601,8 @@ ship "TIE/FO Fighter"
 	outfits
 		"Fighter Laser Cannon Imperial (Green)" 2
 		
-		"T1 Fighter Shield Projector"
-		"T1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
@@ -1619,9 +1631,9 @@ ship "TIE/FO Fighter (Fighter)"
 		"mass" 20
 		"drag" .9
 		"heat dissipation" .9
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 45
+		"outfit space" 13
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -1630,8 +1642,8 @@ ship "TIE/FO Fighter (Fighter)"
 	outfits
 		"Fighter Laser Cannon Imperial (Green)" 2
 		
-		"T1 Fighter Shield Projector"
-		"T1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
@@ -1660,9 +1672,9 @@ ship "TIE/SF Fighter"
 		"mass" 20
 		"drag" .9
 		"heat dissipation" .9
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -1674,8 +1686,8 @@ ship "TIE/SF Fighter"
 		"Concussion Missile" 6
 		"Fighter Laser Turret Underneath (Green)"
 		
-		"T1 Fighter Shield Projector"
-		"T1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
@@ -1707,9 +1719,9 @@ ship "TIE/SF Fighter (Fighter)"
 		"mass" 20
 		"drag" .9
 		"heat dissipation" .9
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -1719,10 +1731,10 @@ ship "TIE/SF Fighter (Fighter)"
 		"Fighter Laser Cannon Imperial (Green)" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
-		"Fighter Laser Turret Underneath Imperial (Green)"
+		"Fighter Laser Turret Underneath (Green)"
 		
-		"T1 Fighter Shield Projector"
-		"T1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
@@ -1755,9 +1767,9 @@ ship "Resurgent-class Star Destroyer"
 		"heat dissipation" .3
 		"fuel capacity" 1200
 		"cargo space" 800
-		"outfit space" 4134
-		"weapon capacity" 3210
-		"engine capacity" 580
+		"outfit space" 2208
+		"weapon capacity" 1430
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1768,13 +1780,13 @@ ship "Resurgent-class Star Destroyer"
 		"Turbolaser Dual Turret (Green)" 10
 		"Turbolaser Turret (Green)" 10
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 
 	engine -222 3112
 	engine 220 3109
@@ -1936,9 +1948,9 @@ ship "Mandator IV-class Siege Dreadnought"
 		"heat dissipation" .2
 		"fuel capacity" 2000
 		"cargo space" 700
-		"outfit space" 2494
-		"weapon capacity" 1570
-		"engine capacity" 580
+		"outfit space" 2938
+		"weapon capacity" 2130
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1947,13 +1959,13 @@ ship "Mandator IV-class Siege Dreadnought"
 	outfits
 		"Turbolaser Quad Turret (Green)" 32
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 		
 	engine -213 892 1
 	engine 213 892 1

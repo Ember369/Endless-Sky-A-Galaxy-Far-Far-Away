@@ -23,9 +23,9 @@ ship "A-6 Interceptor"
 		"drag" 0.9
 		"heat dissipation" .9
 		"cargo space" 0
-		"outfit space" 139
-		"weapon capacity" 20
-		"engine capacity" 45
+		"outfit space" 12
+		"weapon capacity" 3
+		"engine capacity" 5
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -34,7 +34,7 @@ ship "A-6 Interceptor"
 	outfits
 		"Fighter Laser Cannon (Red)" 3
 		
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
@@ -66,9 +66,9 @@ ship "A-6 Interceptor (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 0
 		"cargo space" 0
-		"outfit space" 139
-		"weapon capacity" 20
-		"engine capacity" 45
+		"outfit space" 12
+		"weapon capacity" 3
+		"engine capacity" 5
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -77,7 +77,7 @@ ship "A-6 Interceptor (Fighter)"
 	outfits
 		"Fighter Laser Cannon (Red)" 3
 		
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
@@ -108,9 +108,9 @@ ship "A-9 Vigilance Fighter"
 		"drag" 0.9
 		"heat dissipation" .9
 		"cargo space" 0
-		"outfit space" 139
-		"weapon capacity" 20
-		"engine capacity" 45
+		"outfit space" 11
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -119,7 +119,7 @@ ship "A-9 Vigilance Fighter"
 	outfits
 		"Fighter Laser Turret (Red) (AI)" 2
 		
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
@@ -152,9 +152,9 @@ ship "A-9 Vigilance Fighter (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 0
 		"cargo space" 0
-		"outfit space" 139
-		"weapon capacity" 20
-		"engine capacity" 45
+		"outfit space" 11
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -163,7 +163,7 @@ ship "A-9 Vigilance Fighter (Fighter)"
 	outfits
 		"Fighter Laser Turret (Red) (AI)" 2
 		
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
@@ -207,13 +207,13 @@ ship "A519 Invader Close Support Starfighter"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -18 36
 	engine 18 36
@@ -251,13 +251,13 @@ ship "A519 Invader Close Support Starfighter (Fighter)"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -18 36
 	engine 18 36
@@ -284,9 +284,9 @@ ship "AA-9 Coruscant Freighter"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 3600
-		"outfit space" 272
-		"weapon capacity" 40
-		"engine capacity" 140
+		"outfit space" 277
+		"weapon capacity" 50
+		"engine capacity" 160
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -295,13 +295,13 @@ ship "AA-9 Coruscant Freighter"
 	outfits
 		"Turbolaser Turret (Red)" 2
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3.5 Heavy Freighter Hyperspace Motivator"
+		"H3.5 Heavy Freighter Hyperspace Motivator"
 	
 	engine -213 452
 	engine -2 458
@@ -332,9 +332,9 @@ ship "AA-9 Coruscant Freighter" "AA-9 Coruscant Freighter (Refugee)"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 272
-		"weapon capacity" 40
-		"engine capacity" 140
+		"outfit space" 277
+		"weapon capacity" 50
+		"engine capacity" 160
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -343,13 +343,13 @@ ship "AA-9 Coruscant Freighter" "AA-9 Coruscant Freighter (Refugee)"
 	outfits
 		"Turbolaser Turret (Red)" 2
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3.5 Heavy Freighter Hyperspace Motivator"
+		"H3.5 Heavy Freighter Hyperspace Motivator"
 	
 	engine -213 452
 	engine -2 458
@@ -392,13 +392,13 @@ ship "Action VI Transport"
 	outfits
 		"Defenceless"
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 	
 	engine -12 223
 	engine 14 223
@@ -439,13 +439,13 @@ ship "Action VI Transport" "Action VI Transport (Maroon)"
 	outfits
 		"Defenceless"
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 	
 	engine -12 223
 	engine 14 223
@@ -486,13 +486,13 @@ ship "Action VI Transport" "Action VI Transport (Stripe)"
 	outfits
 		"Defenceless"
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 	
 	engine -12 223
 	engine 14 223
@@ -522,9 +522,9 @@ ship "Aggressor Assault Fighter"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -534,13 +534,13 @@ ship "Aggressor Assault Fighter"
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Ion Cannon (Red)" 2
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -1 54
 	gun -14 -60 "Fighter Laser Cannon (Red)"
@@ -568,9 +568,9 @@ ship "Aggressor Assault Fighter (Fighter)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -580,13 +580,13 @@ ship "Aggressor Assault Fighter (Fighter)"
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Ion Cannon (Red)" 2
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -1 54
 	gun -14 -60 "Fighter Laser Cannon (Red)"
@@ -614,9 +614,9 @@ ship "Aggressor Star Destroyer"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 3504
-		"weapon capacity" 2580
-		"engine capacity" 580
+		"outfit space" 1648
+		"weapon capacity" 890
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -627,13 +627,13 @@ ship "Aggressor Star Destroyer"
 		"Turbolaser Turret (Red)" 16
 		"Linked Ion/Plasma Cannon"
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 
 	engine -191 755
 	engine 178 752
@@ -707,9 +707,9 @@ ship "Aggressor Star Destroyer" "Aggressor Star Destroyer (Mandalorian)"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 3504
-		"weapon capacity" 2580
-		"engine capacity" 580
+		"outfit space" 1648
+		"weapon capacity" 890
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -720,13 +720,13 @@ ship "Aggressor Star Destroyer" "Aggressor Star Destroyer (Mandalorian)"
 		"Turbolaser Turret (Red)" 16
 		"Linked Ion/Plasma Cannon"
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 
 	engine -129 1283
 	engine 136 1284
@@ -800,9 +800,9 @@ ship "Ajuur-class Heavy Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 200
-		"outfit space" 849
-		"weapon capacity" 460
-		"engine capacity" 210
+		"outfit space" 349
+		"weapon capacity" 190
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -812,13 +812,13 @@ ship "Ajuur-class Heavy Cruiser"
 		"Turbolaser Turret (Red)" 6
 		"Point-Defence Laser Cannon Battery" 2
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -105 234
 	engine 102 233
@@ -867,9 +867,9 @@ ship "Annihilator-class Starfighter"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -880,13 +880,13 @@ ship "Annihilator-class Starfighter"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -10 20
 	engine 15 20
@@ -916,9 +916,9 @@ ship "Annihilator-class Starfighter (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 0
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -929,8 +929,8 @@ ship "Annihilator-class Starfighter (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
@@ -963,10 +963,9 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (Jsec)"
 		drag 1
 		"heat dissipation" 0.9
 		"fuel capacity" 700
-		"outfit space" 0
-		"outfit space" 219
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -978,14 +977,14 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (Jsec)"
 		"Proton Torpedo" 6
 		"Fighter Laser Cannon (Blue)" 2
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -11 32
 	engine 15 31
@@ -1013,10 +1012,9 @@ ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (Jsec) (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 0
-		"outfit space" 219
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -1028,14 +1026,14 @@ ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (Jsec) (Fighter)"
 		"Proton Torpedo" 6
 		"Fighter Laser Cannon (Blue)" 2
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -11 32
 	engine 15 31
@@ -1064,9 +1062,9 @@ ship "Aurek-class Tactical Strike Fighter"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -1077,13 +1075,13 @@ ship "Aurek-class Tactical Strike Fighter"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -18 30
 	engine 14 29
@@ -1111,9 +1109,9 @@ ship "Aurek-class Tactical Strike Fighter (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -1124,13 +1122,13 @@ ship "Aurek-class Tactical Strike Fighter (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -18 30
 	engine 18 29
@@ -1159,9 +1157,9 @@ ship "Aurra Sing's Blockade Runner"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 40
-		"outfit space" 624
-		"weapon capacity" 240
-		"engine capacity" 210
+		"outfit space" 322
+		"weapon capacity" 170
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -1171,13 +1169,13 @@ ship "Aurra Sing's Blockade Runner"
 		"Turbolaser Turret (Red)" 4
 		"Turbolaser Dual Turret (Red)" 2
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -147 247
 	engine 145 246
@@ -1213,9 +1211,9 @@ ship "Aurra Sing's Fighter Runner"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -1226,13 +1224,13 @@ ship "Aurra Sing's Fighter Runner"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -14 36
 	engine 13 35
@@ -1266,7 +1264,7 @@ ship "Auzituck Anti-Slaver Gunship"
 		"cargo space" 5
 		"outfit space" 16
 		"weapon capacity" 3
-		"engine capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -1275,13 +1273,13 @@ ship "Auzituck Anti-Slaver Gunship"
 	outfits
 		"Fighter Laser Cannon (Red)" 3
 		
-		"T1.5 Heavy Fighter Power Converter"
-		"T1.5 Heavy Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -36 45
 	engine 35 45
@@ -1308,9 +1306,9 @@ ship "Azalus-class Hutt Dreadnought"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 400
-		"outfit space" 1574
-		"weapon capacity" 660
-		"engine capacity" 580
+		"outfit space" 1473
+		"weapon capacity" 735
+		"engine capacity" 520
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1320,13 +1318,13 @@ ship "Azalus-class Hutt Dreadnought"
 		"Turbolaser Turret (Red)" 12
 		"Turbolaser Dual Turret (Red)" 12
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 		
 	engine -92 1060
 	engine 86 1058
@@ -1403,9 +1401,9 @@ ship "B28 Extinction-class Bomber"
 		"drag" 1
 		"fuel capacity" 0
 		"heat dissipation" .9
-		"outfit space" 135
-		"weapon capacity" 60
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 14
 			"shield damage" 160
@@ -1417,7 +1415,7 @@ ship "B28 Extinction-class Bomber"
 		"Concussion Missile Storage Rack" 2
 		"Concussion Missile" 16
 		
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
@@ -1448,9 +1446,9 @@ ship "B28 Extinction-class Bomber (Fighter)"
 		"drag" .95
 		"fuel capacity" 0
 		"heat dissipation" .9
-		"outfit space" 135
-		"weapon capacity" 60
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 14
 			"shield damage" 160
@@ -1462,7 +1460,7 @@ ship "B28 Extinction-class Bomber (Fighter)"
 		"Concussion Missile Storage Rack" 2
 		"Concussion Missile" 16
 		
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
@@ -1493,10 +1491,10 @@ ship "Basilisk War Droid"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 19
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -1510,13 +1508,13 @@ ship "Basilisk War Droid"
 		"Concussion Missile Launcher" 2
 		hullcollision 10
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1.5 Heavy Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	gun -5 -49 "Fighter Laser Cannon (Red)"
 	gun 4 -49 "Fighter Laser Cannon (Red)"
@@ -1554,7 +1552,7 @@ ship "Baudo-class Star Yacht"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 68
+		"outfit space" 67
 		"weapon capacity" 5
 		"engine capacity" 20
 		weapon
@@ -1565,13 +1563,13 @@ ship "Baudo-class Star Yacht"
 	outfits
 		"Transport Dual Laser Turret (Red)"
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -16.5 109
 	engine 14 109
@@ -1586,6 +1584,118 @@ ship "Baudo-class Star Yacht"
 
 
 
+ship "BB-2 Starfire Fighter-Bomber"
+	sprite "ship/bb2starfirefighterbomber"
+	thumbnail "thumbnail/bb2starfirefighterbomber"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 200000
+		"shields" 1500
+		"hull" 5500
+		"required crew" 2
+		"bunks" 3
+		"mass" 39
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 32
+		"outfit space" 21
+		"weapon capacity" 8
+		"engine capacity" 6
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Fighter Laser Turret Underneath (Red)"
+		"Concussion Missile" 10
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 2
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System" 2
+
+		"T1 Fighter Engine (Pink)"
+		"H1 Fighter Hyperspace Motivator"
+
+	engine -6 33
+	engine 6 33
+	gun -21 10 "Fighter Laser Cannon (Red)"
+	gun 21 10 "Fighter Laser Cannon (Red)"
+	gun -30 -4 "Concussion Missile Launcher"
+	gun -30 -4 "Concussion Missile Launcher"
+	gun -20 -11 "Proton Torpedo Launcher"
+	gun -20 -11 "Proton Torpedo Launcher"
+	turret 0 -11 "Fighter Laser Turret Underneath (Red)"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "The BB-2 Starfire fighter-bomber from SoroSuub Corporation is a sleek, gently curved, hyperdrive-capable starfighter. Incredibly well armed, the starship's primary weapons are multiple warhead launchers. The BB-2's payload includes ten interceptor missiles, multiple proton torpedoes capable of being launched in two massive rapid-fire salvos, and three ion bombs. It can also carry proton bombs and other ordnance."
+
+
+
+ship "BB-2 Starfire Fighter-Bomber (Fighter)"
+	sprite "ship/bb2starfirefighterbomber"
+	thumbnail "thumbnail/bb2starfirefighterbomber"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 200000
+		"shields" 1500
+		"hull" 5500
+		"required crew" 2
+		"bunks" 3
+		"mass" 39
+		"drag" 1.1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 32
+		"outfit space" 21
+		"weapon capacity" 8
+		"engine capacity" 6
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 190
+			"hit force" 490
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Fighter Laser Turret Underneath (Red)"
+		"Concussion Missile" 10
+		"Concussion Missile Storage Rack"
+		"Concussion Missile Launcher" 2
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System" 2
+
+		"T1 Fighter Engine (Pink)"
+		"H1 Fighter Hyperspace Motivator"
+		
+	engine -6 33
+	engine 6 33
+	gun -21 10 "Fighter Laser Cannon (Red)"
+	gun 21 10 "Fighter Laser Cannon (Red)"
+	gun -30 -4 "Concussion Missile Launcher"
+	gun -30 -4 "Concussion Missile Launcher"
+	gun -20 -11 "Proton Torpedo Launcher"
+	gun -20 -11 "Proton Torpedo Launcher"
+	turret 0 -11 "Fighter Laser Turret Underneath (Red)"
+	explode "medium explosion" 5
+	explode "large explosion" 3
+	description "The BB-2 Starfire fighter-bomber from SoroSuub Corporation is a sleek, gently curved, hyperdrive-capable starfighter. Incredibly well armed, the starship's primary weapons are multiple warhead launchers. The BB-2's payload includes ten interceptor missiles, multiple proton torpedoes capable of being launched in two massive rapid-fire salvos, and three ion bombs. It can also carry proton bombs and other ordnance."
+
+
+
 ship "Belbullab-22 Starfighter"
 	sprite "ship/belbullab22starfighter"
 	thumbnail "thumbnail/belbullab22starfighter"
@@ -1597,14 +1707,14 @@ ship "Belbullab-22 Starfighter"
 		"hull" 2500
 		"required crew" 1
 		"bunks" 1
-		"mass" 25
+		"mass" 23
 		"drag" 1
 		"heat dissipation" .8
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 182
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -1613,15 +1723,15 @@ ship "Belbullab-22 Starfighter"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 16	
+		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -23 14
 	engine 21 13
@@ -1632,6 +1742,100 @@ ship "Belbullab-22 Starfighter"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Belbullab-22 starfighter is a heavy starfighter constructed by Feethan Ottraw Scalable Assemblies for the Confederacy of Independent Systems. The starfighter is bulkier and hardier than the droid starfighters employed by the Confederacy of Independent Systems, with two rapid-fire triple laser cannons capable of inflicting damage equal to that dealt by a V-wing starfighter."
+
+
+
+ship "Besh-type Personal Starfighter"
+	sprite "ship/beshpersonalstarfighter"
+	thumbnail "thumbnail/beshpersonalstarfighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 230000
+		"shields" 3200
+		"hull" 3300
+		"required crew" 1
+		"bunks" 2
+		"mass" 32
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Concussion Missile Launcher"
+		"Concussion Missile" 3
+
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+
+		"T1 Fighter Engine (Pink)"
+		"H1 Fighter Hyperspace Motivator"
+
+	engine -44 24
+	engine 45 39
+	gun 17 -37 "Fighter Laser Cannon (Red)"
+	gun 17 -37 "Fighter Laser Cannon (Red)"
+	gun 21 -23 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	description "The Besh-type personal starfighter is a craft whose design was based heavily upon that of the B-wing starfighter. The Besh is tough and has excellent structural characteristics. It has decent speed, but is outmatched by most military or state-of-the-art vehicles. Compared to the earlier B-wings, the Besh-type has significantly scaled down armaments, along with numerous other modifications, to make the starfighter more suitable for private ownership."
+
+
+
+ship "Besh-type Personal Starfighter (Fighter)"
+	sprite "ship/beshpersonalstarfighter"
+	thumbnail "thumbnail/beshpersonalstarfighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 230000
+		"shields" 3200
+		"hull" 3300
+		"required crew" 1
+		"bunks" 2
+		"mass" 32
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Concussion Missile Launcher"
+		"Concussion Missile" 3
+
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+
+		"T1 Fighter Engine (Pink)"
+		"H1 Fighter Hyperspace Motivator"
+
+	engine -44 24
+	engine 45 39
+	gun 17 -37 "Fighter Laser Cannon (Red)"
+	gun 17 -37 "Fighter Laser Cannon (Red)"
+	gun 21 -23 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	description "The Besh-type personal starfighter is a craft whose design was based heavily upon that of the B-wing starfighter. The Besh is tough and has excellent structural characteristics. It has decent speed, but is outmatched by most military or state-of-the-art vehicles. Compared to the earlier B-wings, the Besh-type has significantly scaled down armaments, along with numerous other modifications, to make the starfighter more suitable for private ownership."
 
 
 
@@ -1650,7 +1854,7 @@ ship "Bespin Bandit"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 66
+		"outfit space" 70
 		"weapon capacity" 9
 		"engine capacity" 20
 		weapon
@@ -1662,13 +1866,13 @@ ship "Bespin Bandit"
 		"Transport Laser Cannon (Red)" 2
 		"Transport Dual Laser Turret (Red)" 1
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -51 107
 	engine 51 106
@@ -1701,24 +1905,26 @@ ship "BFF-1 Bulk Freighter"
 		"cargo space" 2800
 		"outfit space" 232
 		"weapon capacity" 0
-		"engine capacity" 140
+		"engine capacity" 150
 		weapon
 			"blast radius" 290
 			"shield damage" 680
 			"hull damage" 340
 			"hit force" 750
 	outfits
+		"Defenceless"
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3.5 Heavy Freighter Hyperspace Motivator"
+		"H3.5 Heavy Freighter Hyperspace Motivator"
 	
 	engine -45 209
 	engine 41 210
+	turret 0 -34 "Defenceless"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1743,9 +1949,9 @@ ship "Bothan Frigate"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 200
-		"outfit space" 849
-		"weapon capacity" 460
-		"engine capacity" 210
+		"outfit space" 342
+		"weapon capacity" 190
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -1755,13 +1961,13 @@ ship "Bothan Frigate"
 		"Turbolaser Turret (Red)" 6
 		"Point-Defence Laser Cannon Battery" 2
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Blue)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -33 393
 	engine 31 392
@@ -1809,9 +2015,9 @@ ship "Brute-class Hutt Support Corvette"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 40
-		"outfit space" 624
-		"weapon capacity" 240
-		"engine capacity" 210
+		"outfit space" 282
+		"weapon capacity" 130
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -1820,13 +2026,13 @@ ship "Brute-class Hutt Support Corvette"
 	outfits
 		"Turbolaser Dual Turret (Red)" 3
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Green)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -122 -158
 	engine -111 -158
@@ -1871,7 +2077,7 @@ ship "BT7 Thunderclap"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 50
-		"outfit space" 67
+		"outfit space" 69
 		"weapon capacity" 8
 		"engine capacity" 20
 		weapon
@@ -1884,13 +2090,13 @@ ship "BT7 Thunderclap"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -28 57
 	engine -15 57
@@ -1926,9 +2132,9 @@ ship "Sabaoth Cavik Toth's Starfighter"
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 229
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -1939,13 +2145,13 @@ ship "Sabaoth Cavik Toth's Starfighter"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -19 49
 	engine 15 50
@@ -1973,9 +2179,9 @@ ship "Chu'unthor"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 3504
-		"weapon capacity" 2580
-		"engine capacity" 580
+		"outfit space" 808
+		"weapon capacity" 0
+		"engine capacity" 550
 		"defenceless capacity" -1
 		weapon
 			"blast radius" 320
@@ -1985,13 +2191,13 @@ ship "Chu'unthor"
 	outfits
 		"Defenceless"
 	
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 
 	engine -187 727
 	engine -103 707
@@ -2025,9 +2231,9 @@ ship "CloakShape Fighter"
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 229
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -2039,14 +2245,14 @@ ship "CloakShape Fighter"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
-		"astromechsocket capacity" 1
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -8 13
 	engine 0 17
@@ -2076,9 +2282,9 @@ ship "CloakShape Fighter (Fighter)"
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 229
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -2090,14 +2296,14 @@ ship "CloakShape Fighter (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
-		"astromechsocket capacity" 1
+		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -8 13
 	engine 0 17
@@ -2126,7 +2332,7 @@ ship "C-ROC Gozanti Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 300
-		"outfit space" 67
+		"outfit space" 70
 		"weapon capacity" 6
 		"engine capacity" 20
 		weapon
@@ -2137,13 +2343,13 @@ ship "C-ROC Gozanti Cruiser"
 	outfits
 		"Transport Laser Turret (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 	
 	engine -45 162
 	engine 45 162
@@ -2173,7 +2379,7 @@ ship "C-ROC Gozanti Cruiser" "C-ROC Gozanti Cruiser (Orange)"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 300
-		"outfit space" 67
+		"outfit space" 70
 		"weapon capacity" 6
 		"engine capacity" 20
 		weapon
@@ -2184,13 +2390,13 @@ ship "C-ROC Gozanti Cruiser" "C-ROC Gozanti Cruiser (Orange)"
 	outfits
 		"Transport Laser Turret (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 	
 	engine -45 162
 	engine 45 162
@@ -2220,9 +2426,9 @@ ship "Crusader-class Corvette"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 200
-		"outfit space" 849
-		"weapon capacity" 460
-		"engine capacity" 210
+		"outfit space" 429
+		"weapon capacity" 270
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -2232,13 +2438,13 @@ ship "Crusader-class Corvette"
 		"Turbolaser Turret (Yellow)" 10
 		"Point-Defence Laser Cannon Battery" 2
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -63 366
 	engine 62 367
@@ -2279,9 +2485,9 @@ ship "Crusader-class Corvette" "Crusader-class Corvette (Mandalorian)"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 200
-		"outfit space" 849
-		"weapon capacity" 460
-		"engine capacity" 210
+		"outfit space" 429
+		"weapon capacity" 270
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -2291,13 +2497,13 @@ ship "Crusader-class Corvette" "Crusader-class Corvette (Mandalorian)"
 		"Turbolaser Turret (Yellow)" 10
 		"Point-Defence Laser Cannon Battery" 2
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -63 366
 	engine 62 367
@@ -2338,9 +2544,9 @@ ship "CSA ChaseMaster"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 300
-		"outfit space" 849
-		"weapon capacity" 460
-		"engine capacity" 210
+		"outfit space" 576
+		"weapon capacity" 255
+		"engine capacity" 230
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -2349,13 +2555,13 @@ ship "CSA ChaseMaster"
 	outfits
 		"Turbolaser Dual Turret (Red)" 6
 		
-		"T4 Frigate Power Converter"
-		"T4 Frigate Shield Projector"
+		"P4 Frigate Power Converter"
+		"S4 Frigate Shield Projector"
 		"T4 Sensor Array"
 		"T4 Frigate Coolant System"
 		
 		"T4 Frigate Sublight Engine"
-		"T4 Frigate Hyperspace Motivator"
+		"H4 Frigate Hyperspace Motivator"
 		
 	engine -230 279
 	engine -164 287
@@ -2401,9 +2607,9 @@ ship "Cyclone-class R-Wing Starfighter"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -2415,14 +2621,14 @@ ship "Cyclone-class R-Wing Starfighter"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -8 25
 	engine 8 25
@@ -2452,9 +2658,9 @@ ship "Cyclone-class R-Wing Starfighter (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -2466,14 +2672,14 @@ ship "Cyclone-class R-Wing Starfighter (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -8 25
 	engine 8 25
@@ -2503,7 +2709,7 @@ ship "D5-Mantis Patrol Craft"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 65
-		"outfit space" 67
+		"outfit space" 69
 		"weapon capacity" 8
 		"engine capacity" 20
 		weapon
@@ -2516,13 +2722,13 @@ ship "D5-Mantis Patrol Craft"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -69 15
 	engine 68 15
@@ -2555,7 +2761,7 @@ ship "D5-Mantis Patrol Craft" "D5-Mantis Patrol Craft (Gold)"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 65
-		"outfit space" 67
+		"outfit space" 69
 		"weapon capacity" 8
 		"engine capacity" 20
 		weapon
@@ -2568,13 +2774,13 @@ ship "D5-Mantis Patrol Craft" "D5-Mantis Patrol Craft (Gold)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -69 29
 	engine 69 29
@@ -2607,9 +2813,9 @@ ship "Dart Gunship"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 40
-		"outfit space" 559
-		"weapon capacity" 170
-		"engine capacity" 210
+		"outfit space" 243
+		"weapon capacity" 91
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -2620,13 +2826,13 @@ ship "Dart Gunship"
 		"Concussion Missile Launcher" 1
 		"Concussion Missile" 16
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -28 164
 	engine 0 163
@@ -2661,9 +2867,9 @@ ship "Davaab-type Starfighter"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -2671,16 +2877,16 @@ ship "Davaab-type Starfighter"
 			"hit force" 450
 	outfits
 		"Fighter Laser Cannon (Yellow)" 2
-		"Concussion Missile Launcher" 3
+		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -7 39
 	engine 6 39
@@ -2710,9 +2916,9 @@ ship "Davaab-type Starfighter (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -2720,16 +2926,16 @@ ship "Davaab-type Starfighter (Fighter)"
 			"hit force" 450
 	outfits
 		"Fighter Laser Cannon (Yellow)" 2
-		"Concussion Missile Launcher" 3
+		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -7 39
 	engine 6 39
@@ -2759,9 +2965,9 @@ ship "Defender-class Corvette"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 45
-		"outfit space" 504
-		"weapon capacity" 120
-		"engine capacity" 210
+		"outfit space" 222
+		"weapon capacity" 70
+		"engine capacity" 88
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -2770,13 +2976,13 @@ ship "Defender-class Corvette"
 	outfits
 		"Turbolaser Turret (Red)" 3
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -39 178
 	engine 49 178
@@ -2809,7 +3015,7 @@ ship "Delta-class JV-7 Shuttle"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 17
+		"outfit space" 18
 		"weapon capacity" 3
 		"engine capacity" 6
 		weapon
@@ -2820,13 +3026,13 @@ ship "Delta-class JV-7 Shuttle"
 	outfits
 		"Fighter Laser Cannon (Green)" 3
 		
-		"T1.3 Shuttle Power Converter"
-		"T1.3 Shuttle Shield Projector"
+		"P1.3 Shuttle Power Converter"
+		"S1.3 Shuttle Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1.3 Shuttle Engine"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -28 49
 	engine 24 48
@@ -2857,7 +3063,7 @@ ship "Dusty Duck"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 25
-		"outfit space" 63
+		"outfit space" 65
 		"weapon capacity" 4
 		"engine capacity" 20
 		weapon
@@ -2868,13 +3074,13 @@ ship "Dusty Duck"
 	outfits
 		"Transport Laser Cannon (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine 1 68
 	gun -25 -28 "Transport Laser Cannon (Red)"
@@ -2903,7 +3109,7 @@ ship "Dynamic Freighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 73
+		"outfit space" 75
 		"weapon capacity" 14
 		"engine capacity" 20
 		weapon
@@ -2915,13 +3121,13 @@ ship "Dynamic Freighter"
 		"Transport Laser Cannon (Red)" 2
 		"Transport Dual Laser Turret (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -26 87
 	engine 23 87
@@ -2953,9 +3159,9 @@ ship "EF76 Nebulon-B Frigate (Jsec)"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 200
-		"outfit space" 884
-		"weapon capacity" 480
-		"engine capacity" 210
+		"outfit space" 571
+		"weapon capacity" 250
+		"engine capacity" 220
 		weapon
 			"blast radius" 310
 			"shield damage" 750
@@ -2964,13 +3170,13 @@ ship "EF76 Nebulon-B Frigate (Jsec)"
 	outfits
 		"Turbolaser Turret (Red)" 12
 		
-		"T4 Frigate Power Converter"
-		"T4 Frigate Shield Projector"
+		"P4 Frigate Power Converter"
+		"S4 Frigate Shield Projector"
 		"T4 Sensor Array"
 		"T4 Frigate Coolant System"
 		
 		"T4 Frigate Sublight Engine"
-		"T4 Frigate Hyperspace Motivator"
+		"H4 Frigate Hyperspace Motivator"
 		
 	engine -66 431
 	engine -45 430
@@ -3033,13 +3239,13 @@ ship "Empress-class Super Freighter"
 	outfits
 		"Turbolaser Turret (Red)"
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 	
 	engine -12 237
 	engine 16 237
@@ -3068,9 +3274,9 @@ ship "Eternal Battlecruiser"
 		"heat dissipation" .45
 		"fuel capacity" 1200
 		"cargo space" 150
-		"outfit space" 1454
-		"weapon capacity" 530
-		"engine capacity" 580
+		"outfit space" 1049
+		"weapon capacity" 290
+		"engine capacity" 550
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -3080,14 +3286,14 @@ ship "Eternal Battlecruiser"
 		"Turbolaser Dual Turret (Red)" 2
 		"Turbolaser Turret (Red)" 8
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		"Stygium Cloaking Device"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 		
 	engine -137 861
 	engine 112 865
@@ -3172,9 +3378,9 @@ ship "Fang Fighter"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 15
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -3185,12 +3391,12 @@ ship "Fang Fighter"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -14 29
 	engine -1 30
@@ -3219,9 +3425,9 @@ ship "Fang Fighter (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 15
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -3232,12 +3438,12 @@ ship "Fang Fighter (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -14 29
 	engine -1 30
@@ -3269,9 +3475,9 @@ ship "Fang Fighter" "Fang Fighter Black"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 15
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -3282,12 +3488,12 @@ ship "Fang Fighter" "Fang Fighter Black"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -14 29
 	engine -1 30
@@ -3316,9 +3522,9 @@ ship "Fang Fighter (Fighter)" "Fang Fighter Black (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 15
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -3329,12 +3535,12 @@ ship "Fang Fighter (Fighter)" "Fang Fighter Black (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -14 29
 	engine -1 30
@@ -3364,7 +3570,7 @@ ship "Firespray-31-class Patrol Craft" "Firespray-31-class Patrol Craft (Black)"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 65
+		"outfit space" 67
 		"weapon capacity" 6
 		"engine capacity" 20
 		weapon
@@ -3377,13 +3583,13 @@ ship "Firespray-31-class Patrol Craft" "Firespray-31-class Patrol Craft (Black)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 10
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 
 	engine -18 22
 	engine -2 21
@@ -3416,7 +3622,7 @@ ship "Firespray-31-class Patrol Craft"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 65
+		"outfit space" 67
 		"weapon capacity" 6
 		"engine capacity" 20
 		weapon
@@ -3429,13 +3635,13 @@ ship "Firespray-31-class Patrol Craft"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 10
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 
 	engine -18 22
 	engine -2 21
@@ -3469,9 +3675,9 @@ ship "Flarestar-class Attack Shuttle"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -3482,13 +3688,13 @@ ship "Flarestar-class Attack Shuttle"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	gun -14 -14 "Fighter Laser Cannon (Red)"
 	gun 14 -14 "Fighter Laser Cannon (Red)"
@@ -3516,9 +3722,9 @@ ship "Flarestar-class Attack Shuttle (Fighter)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -3529,13 +3735,13 @@ ship "Flarestar-class Attack Shuttle (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	gun -14 -14 "Fighter Laser Cannon (Red)"
 	gun 14 -14 "Fighter Laser Cannon (Red)"
@@ -3561,9 +3767,9 @@ ship "Foray-class Blockade Runner"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 40
-		"outfit space" 624
-		"weapon capacity" 240
-		"engine capacity" 210
+		"outfit space" 242
+		"weapon capacity" 90
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -3572,13 +3778,13 @@ ship "Foray-class Blockade Runner"
 	outfits
 		"Turbolaser Dual Turret (Red)" 2
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -86 277
 	engine 0 250
@@ -3609,9 +3815,9 @@ ship "FT-6 Pike Starfighter"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -3622,13 +3828,13 @@ ship "FT-6 Pike Starfighter"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -15 45
 	engine 0 46
@@ -3659,9 +3865,9 @@ ship "FT-6 Pike Starfighter (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -3672,13 +3878,13 @@ ship "FT-6 Pike Starfighter (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -15 45
 	engine 0 46
@@ -3709,9 +3915,9 @@ ship "FT-7B Clarion Starfighter"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -3722,13 +3928,13 @@ ship "FT-7B Clarion Starfighter"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -15 39
 	engine -10 47
@@ -3758,9 +3964,9 @@ ship "FT-7B Clarion Starfighter (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -3771,13 +3977,13 @@ ship "FT-7B Clarion Starfighter (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -15 39
 	engine -10 47
@@ -3807,7 +4013,7 @@ ship "Fury-class Sith Imperial Interceptor"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 22
+		"outfit space" 23
 		"weapon capacity" 8
 		"engine capacity" 6
 		weapon
@@ -3818,13 +4024,13 @@ ship "Fury-class Sith Imperial Interceptor"
 	outfits
 		"Transport Laser Cannon (Red)" 4
 		
-		"T1.3 Shuttle Power Converter"
-		"T1.3 Shuttle Shield Projector"
+		"P1.3 Shuttle Power Converter"
+		"S1.3 Shuttle Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1.3 Shuttle Engine"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -2 91
 	gun -6 -16 "Transport Laser Cannon (Red)"
@@ -3856,9 +4062,9 @@ ship "G-1A Starfighter"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -3867,13 +4073,13 @@ ship "G-1A Starfighter"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -10 51
 	engine 9 51
@@ -3899,9 +4105,9 @@ ship "G1-M4-C Dunelizard Fighter"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 3
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -3913,14 +4119,14 @@ ship "G1-M4-C Dunelizard Fighter"
 		"Proton Torpedo Launcher"
 		"Proton Torpedo" 3
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine 0 40
 	engine -6 21
@@ -3948,9 +4154,9 @@ ship "G1-M4-C Dunelizard Fighter (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 3
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -3962,14 +4168,14 @@ ship "G1-M4-C Dunelizard Fighter (Fighter)"
 		"Proton Torpedo Launcher"
 		"Proton Torpedo" 3
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine 0 40
 	engine -6 21
@@ -3997,9 +4203,9 @@ ship "G1-M4-C Dunelizard Fighter" "G1-M4-C Dunelizard Fighter 2"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 3
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -4011,14 +4217,14 @@ ship "G1-M4-C Dunelizard Fighter" "G1-M4-C Dunelizard Fighter 2"
 		"Proton Torpedo Launcher"
 		"Proton Torpedo" 3
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine 0 56
 	engine -8 54
@@ -4046,9 +4252,9 @@ ship "G1-M4-C Dunelizard Fighter (Fighter)" "G1-M4-C Dunelizard Fighter 2 (Fight
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 3
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -4060,14 +4266,14 @@ ship "G1-M4-C Dunelizard Fighter (Fighter)" "G1-M4-C Dunelizard Fighter 2 (Fight
 		"Proton Torpedo Launcher"
 		"Proton Torpedo" 3
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine 0 56
 	engine -8 54
@@ -4095,7 +4301,7 @@ ship "G9 Rigger-class light freighter"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 68
+		"outfit space" 70
 		"weapon capacity" 9
 		"engine capacity" 20
 		weapon
@@ -4107,13 +4313,13 @@ ship "G9 Rigger-class light freighter"
 		"Transport Laser Cannon (Red)" 3
 		"Transport Laser Turret (Red)"
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -85 50
 	engine -28 49
@@ -4146,9 +4352,9 @@ ship "G-400 Starfighter"
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 229
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -4159,13 +4365,13 @@ ship "G-400 Starfighter"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -45 13
 	engine 43 13
@@ -4193,9 +4399,9 @@ ship "G-400 Starfighter (Fighter)"
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 229
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -4206,13 +4412,13 @@ ship "G-400 Starfighter (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -45 13
 	engine 43 13
@@ -4239,9 +4445,9 @@ ship "Galactic-class Battle Carrier"
 		"heat dissipation" .45
 		"fuel capacity" 1200
 		"cargo space" 800
-		"outfit space" 3504
-		"weapon capacity" 2580
-		"engine capacity" 580
+		"outfit space" 2488
+		"weapon capacity" 1730
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -4251,13 +4457,13 @@ ship "Galactic-class Battle Carrier"
 		"Turbolaser Quad Turret (Red)" 16
 		"Turbolaser Dual Turret (Red)" 16
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 
 	engine -474 1621
 	engine 478 1622
@@ -4418,9 +4624,9 @@ ship "General Freighter"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 3400
-		"outfit space" 464
-		"weapon capacity" 80
-		"engine capacity" 210
+		"outfit space" 277
+		"weapon capacity" 50
+		"engine capacity" 160
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -4429,13 +4635,13 @@ ship "General Freighter"
 	outfits
 		"Turbolaser Turret (Red)" 2
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3.5 Heavy Freighter Hyperspace Motivator"
+		"H3.5 Heavy Freighter Hyperspace Motivator"
 	
 	engine -189 494
 	engine -7 494
@@ -4466,7 +4672,7 @@ ship "Ghtroc Class 720 Freighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 64
+		"outfit space" 66
 		"weapon capacity" 5
 		"engine capacity" 20
 		weapon
@@ -4477,13 +4683,13 @@ ship "Ghtroc Class 720 Freighter"
 	outfits
 		"Transport Dual Laser Turret (Red)"
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 
 	engine -11 83
 	engine 13 83
@@ -4513,9 +4719,9 @@ ship "Ginivex-class Starfighter"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -4524,13 +4730,13 @@ ship "Ginivex-class Starfighter"
 	outfits
 		"Fighter Laser Cannon (Red)" 4
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	gun 0 -42 "Fighter Laser Cannon (Red)"
 	gun 0 -42 "Fighter Laser Cannon (Red)"
@@ -4568,13 +4774,13 @@ ship "Gozanti-class Cruiser"
 		"Transport Dual Laser Turret (Red)"
 		"Transport Heavy Laser Turret (Red)"
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 	
 	engine -46 80
 	engine 48 82
@@ -4616,13 +4822,13 @@ ship "Gozanti-class Cruiser" "Gozanti-class Cruiser (Black Sun)"
 		"Transport Dual Laser Turret (Red)"
 		"Transport Heavy Laser Turret (Red)"
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 	
 	engine -46 80
 	engine 48 82
@@ -4664,13 +4870,13 @@ ship "GR-75 Transport" "GR-75 Transport (Jsec)"
 	outfits
 		"Defenceless" 1
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -32 123
 	engine -22 148
@@ -4704,9 +4910,9 @@ ship "Gravestone"
 		"heat dissipation" .45
 		"fuel capacity" 1200
 		"cargo space" 200
-		"outfit space" 1454
-		"weapon capacity" 530
-		"engine capacity" 580
+		"outfit space" 1089
+		"weapon capacity" 330
+		"engine capacity" 550
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -4717,14 +4923,14 @@ ship "Gravestone"
 		"Omnicannon"
 		"Turbolaser Turret (Red)" 8
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		"Stygium Cloaking Device"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 		
 	engine 34 909
 	engine 60 912
@@ -4766,7 +4972,7 @@ ship "G-Type Light Shuttle"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 17
+		"outfit space" 18
 		"weapon capacity" 3
 		"engine capacity" 6
 		weapon
@@ -4777,13 +4983,13 @@ ship "G-Type Light Shuttle"
 	outfits
 		"Fighter Laser Cannon (Red)" 3
 		
-		"T1.3 Shuttle Power Converter"
-		"T1.3 Shuttle Shield Projector"
+		"P1.3 Shuttle Power Converter"
+		"S1.3 Shuttle Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1.3 Shuttle Engine"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -42 54
 	engine 33 38
@@ -4814,7 +5020,7 @@ ship "GX1 Lantillian Short Hauler"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 59
+		"outfit space" 60
 		"weapon capacity" 0
 		"engine capacity" 20
 		"defenceless capacity" -1
@@ -4826,13 +5032,13 @@ ship "GX1 Lantillian Short Hauler"
 	outfits
 		"Defenceless"
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -12 75
 	engine 12 75
@@ -4861,7 +5067,7 @@ ship "GX1 Lantillian Short Hauler" "GX1 Lantillian Short Hauler (Phoenix)"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 62
+		"outfit space" 63
 		"weapon capacity" 3
 		"engine capacity" 20
 		weapon
@@ -4872,13 +5078,13 @@ ship "GX1 Lantillian Short Hauler" "GX1 Lantillian Short Hauler (Phoenix)"
 	outfits
 		"Transport Laser Turret (Red)"
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -11 75
 	engine 13 75
@@ -4907,7 +5113,7 @@ ship "GX1 Lantillian Short Hauler" "GX1 Lantillian Short Hauler (Diplomatic)"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 62
+		"outfit space" 63
 		"weapon capacity" 3
 		"engine capacity" 20
 		weapon
@@ -4918,13 +5124,13 @@ ship "GX1 Lantillian Short Hauler" "GX1 Lantillian Short Hauler (Diplomatic)"
 	outfits
 		"Transport Laser Turret (Red)"
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -12 75
 	engine 12 75
@@ -4953,10 +5159,10 @@ ship "G-X1 Onslaught"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 28
+		"weapon capacity" 9
+		"engine capacity" 8
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -4969,18 +5175,18 @@ ship "G-X1 Onslaught"
 		"Advanced Homing Missile Launcher" 2
 		"Fletchette Missile" 80
 		"Fletchette Missile Storage Rack" 2
-		"Fletchette Missile Launcher" 6
+		"Fletchette Missile Launcher" 2
 		"Concussion Missile" 10
 		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1.5 Heavy Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1.5 Heavy Fighter Engine (Pink Flare)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -10 51
 	engine 11 50
@@ -5013,10 +5219,10 @@ ship "G-X1 Onslaught (Fighter)"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 28
+		"weapon capacity" 9
+		"engine capacity" 8
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -5029,18 +5235,18 @@ ship "G-X1 Onslaught (Fighter)"
 		"Advanced Homing Missile Launcher" 2
 		"Fletchette Missile" 80
 		"Fletchette Missile Storage Rack" 2
-		"Fletchette Missile Launcher" 6
+		"Fletchette Missile Launcher" 2
 		"Concussion Missile" 10
 		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1.5 Heavy Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1.5 Heavy Fighter Engine (Pink Flare)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -10 51
 	engine 11 50
@@ -5073,9 +5279,9 @@ ship "Hammerhead-class Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 200
-		"outfit space" 849
-		"weapon capacity" 460
-		"engine capacity" 210
+		"outfit space" 616
+		"weapon capacity" 295
+		"engine capacity" 230
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -5086,13 +5292,13 @@ ship "Hammerhead-class Cruiser"
 		"Turbolaser Dual Turret (Red)" 2
 		"Point-Defence Laser Cannon Battery" 2
 		
-		"T4 Frigate Power Converter"
-		"T4 Frigate Shield Projector"
+		"P4 Frigate Power Converter"
+		"S4 Frigate Shield Projector"
 		"T4 Sensor Array"
 		"T4 Frigate Coolant System"
 		
 		"T4 Frigate Sublight Engine"
-		"T4 Frigate Hyperspace Motivator"
+		"H4 Frigate Hyperspace Motivator"
 		
 	engine -165 379
 	engine 164 380
@@ -5145,9 +5351,9 @@ ship "Hapan Battle Dragon"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 400
-		"outfit space" 1834
-		"weapon capacity" 910
-		"engine capacity" 580
+		"outfit space" 1288
+		"weapon capacity" 530
+		"engine capacity" 530
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -5157,17 +5363,18 @@ ship "Hapan Battle Dragon"
 		"Turbolaser Dual Turret (Red)" 6
 		"Turbolaser Turret (Red)" 12
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 		
 	engine -34 755
 	engine 29 755
 	turret -3 -353 "Turbolaser Turret (Red)"
+	turret 3 -353 "Turbolaser Turret (Red)"
 	turret -156 -238 "Turbolaser Turret (Red)"
 	turret 148 -233 "Turbolaser Turret (Red)"
 	turret -245 30 "Turbolaser Turret (Red)"
@@ -5245,9 +5452,9 @@ ship "Harrower Star Dreadnought"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 1834
-		"weapon capacity" 910
-		"engine capacity" 580
+		"outfit space" 1598
+		"weapon capacity" 840
+		"engine capacity" 530
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -5257,13 +5464,13 @@ ship "Harrower Star Dreadnought"
 		"Turbolaser Quad Turret (Green)" 6
 		"Turbolaser Dual Turret (Green)" 10
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 		
 	engine -107 595
 	engine 98 595
@@ -5343,13 +5550,13 @@ ship "HCT-2001 Dragonboat-class Reugeot 905 Freighter"
 	outfits
 		"Turbolaser Turret (Red)"
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 	
 	engine 1 268
 	engine -92 -167
@@ -5379,7 +5586,7 @@ ship "Helot-class Medium Space Transport"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 58
+		"outfit space" 60
 		"weapon capacity" 4
 		"engine capacity" 20
 		weapon
@@ -5390,12 +5597,12 @@ ship "Helot-class Medium Space Transport"
 	outfits
 		"Transport Laser Cannon (Red)" 2
 		
-		"T2 Transport Power Converter"
+		"P2 Transport Power Converter"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -29 48
 	engine 30 49
@@ -5427,9 +5634,9 @@ ship "HWK-290 Light Freighter (Modified)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -5439,13 +5646,13 @@ ship "HWK-290 Light Freighter (Modified)"
 		"Fighter Laser Cannon (Red)" 4
 		"Fighter Laser Turret Underneath (Red)"
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -52 64
 	engine -35 65
@@ -5480,9 +5687,9 @@ ship "HWK-290 Light Freighter (Stock)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 17
+		"weapon capacity" 0
+		"engine capacity" 6
 		"defenceless capacity" -1
 		weapon
 			"blast radius" 45
@@ -5492,13 +5699,13 @@ ship "HWK-290 Light Freighter (Stock)"
 	outfits
 		"Defenceless"
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -52 64
 	engine -35 65
@@ -5528,9 +5735,9 @@ ship "IL-5 Ocula Starfighter"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -5541,13 +5748,13 @@ ship "IL-5 Ocula Starfighter"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine 0 19
 	gun -53 3 "Fighter Laser Cannon (Red)"
@@ -5576,9 +5783,9 @@ ship "IL-5 Ocula Starfighter (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -5589,13 +5796,13 @@ ship "IL-5 Ocula Starfighter (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine 0 19
 	gun -53 3 "Fighter Laser Cannon (Red)"
@@ -5623,25 +5830,25 @@ ship "Inexpugnable-class Tactical Command Ship"
 		"heat dissipation" .3
 		"fuel capacity" 1200
 		"cargo space" 800
-		"outfit space" 4134
-		"weapon capacity" 3210
-		"engine capacity" 580
+		"outfit space" 2068
+		"weapon capacity" 1290
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Turbolaser Dual Turret (Red)" 26
-		"Turbolaser Turret (Red)" 6
+		"Turbolaser Dual Turret (Red)" 30
+		"Turbolaser Turret (Red)" 2
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 
 	engine -561 1207
 	engine -362 1390
@@ -5865,9 +6072,9 @@ ship "Interdictor-class Sith Destroyer"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 300
-		"outfit space" 1834
-		"weapon capacity" 910
-		"engine capacity" 580
+		"outfit space" 1349
+		"weapon capacity" 805
+		"engine capacity" 420
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -5877,13 +6084,13 @@ ship "Interdictor-class Sith Destroyer"
 		"Turbolaser Quad Turret (Green)" 6
 		"Turbolaser Dual Turret (Green)" 10
 		
-		"T4.5 Cruiser Power Converter"
-		"T4.5 Cruiser Shield Projector"
+		"P4.5 Cruiser Power Converter"
+		"S4.5 Cruiser Shield Projector"
 		"T4 Sensor Array"
 		"T4.5 Cruiser Coolant System"
 		
 		"T4.5 Cruiser Sublight Engine"
-		"T4.5 Cruiser Hyperspace Motivator"
+		"H4.5 Cruiser Hyperspace Motivator"
 		
 	engine -172 794
 	engine 1 817
@@ -5953,9 +6160,9 @@ ship "Iradia-class Corvette"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 40
-		"outfit space" 624
-		"weapon capacity" 240
-		"engine capacity" 210
+		"outfit space" 282
+		"weapon capacity" 130
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -5965,13 +6172,13 @@ ship "Iradia-class Corvette"
 		"Turbolaser Turret (Red)" 2
 		"Turbolaser Dual Turret (Red)" 2
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -31 255
 	engine 31 254
@@ -6003,9 +6210,9 @@ ship "IRD Starfighter"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 0
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 12
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -6014,7 +6221,7 @@ ship "IRD Starfighter"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
@@ -6044,9 +6251,9 @@ ship "IRD Starfighter (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 0
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 12
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -6055,7 +6262,7 @@ ship "IRD Starfighter (Fighter)"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
@@ -6085,9 +6292,9 @@ ship "Ixiyen-class Fast Attack Craft"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -6098,13 +6305,13 @@ ship "Ixiyen-class Fast Attack Craft"
 		"Proton Torpedo Launcher"
 		"Proton Torpedo" 3
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -28 17
 	engine 29 18
@@ -6135,9 +6342,9 @@ ship "Ixiyen-class Fast Attack Craft (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -6148,13 +6355,13 @@ ship "Ixiyen-class Fast Attack Craft (Fighter)"
 		"Proton Torpedo Launcher"
 		"Proton Torpedo" 3
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -28 17
 	engine 29 18
@@ -6185,7 +6392,7 @@ ship "K-52 Strongarm Demolisher"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 63
+		"outfit space" 65
 		"weapon capacity" 4
 		"engine capacity" 20
 		weapon
@@ -6196,13 +6403,13 @@ ship "K-52 Strongarm Demolisher"
 	outfits
 		"Transport Laser Cannon (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -61 49
 	engine 60 49
@@ -6232,9 +6439,9 @@ ship "Kandosii-type Dreadnought"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 3504
-		"weapon capacity" 2580
-		"engine capacity" 580
+		"outfit space" 2228
+		"weapon capacity" 1470
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -6244,13 +6451,13 @@ ship "Kandosii-type Dreadnought"
 		"Turbolaser Quad Turret (Yellow)" 12
 		"Turbolaser Dual Turret (Yellow)" 16
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 
 	engine -353 988
 	engine -310 987
@@ -6447,9 +6654,9 @@ ship "Keldabe-class Battleship"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 3504
-		"weapon capacity" 2580
-		"engine capacity" 580
+		"outfit space" 2488
+		"weapon capacity" 1730
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -6460,13 +6667,13 @@ ship "Keldabe-class Battleship"
 		"Turbolaser Dual Turret (Yellow)" 10
 		"Mass-Driver Battery" 6
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 
 	engine -397 1589
 	engine 405 1576
@@ -6563,9 +6770,9 @@ ship "Kihraxz Assault Fighter"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -6576,13 +6783,13 @@ ship "Kihraxz Assault Fighter"
 		"Proton Torpedo Launcher"
 		"Proton Torpedo" 3
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -22 54
 	engine 23 54
@@ -6610,9 +6817,9 @@ ship "Kihraxz Assault Fighter (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -6623,13 +6830,13 @@ ship "Kihraxz Assault Fighter (Fighter)"
 		"Proton Torpedo Launcher"
 		"Proton Torpedo" 3
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -22 54
 	engine 23 54
@@ -6658,7 +6865,7 @@ ship "Kom'rk-class Fighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 63
+		"outfit space" 65
 		"weapon capacity" 4
 		"engine capacity" 20
 		weapon
@@ -6669,13 +6876,13 @@ ship "Kom'rk-class Fighter"
 	outfits
 		"Transport Laser Cannon (Yellow)" 4
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 
 	engine -58 89
 	engine -45 89
@@ -6710,9 +6917,9 @@ ship "Krayt Dragon Ship"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 10
-		"outfit space" 309
-		"weapon capacity" 65
-		"engine capacity" 70
+		"outfit space" 171
+		"weapon capacity" 14
+		"engine capacity" 88
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -6722,13 +6929,13 @@ ship "Krayt Dragon Ship"
 		"Transport Laser Cannon (Red)" 2
 		"Transport Dual Laser Turret (Red)"
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Blue)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -126 7
 	engine -99 8
@@ -6776,13 +6983,13 @@ ship "KR-TB Doomtreader"
 	outfits
 		"Transport Laser Turret (Red)" 4
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -252 14
 	engine 253 14
@@ -6828,13 +7035,13 @@ ship "KT-400 Military Droid Carrier"
 	outfits
 		"Transport Laser Turret (Red)" 4
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine 0 65
 	turret -64 -66 "Transport Laser Turret (Red)"
@@ -6861,7 +7068,7 @@ ship "KT-600 Military Transport"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 68
+		"outfit space" 70
 		"weapon capacity" 9
 		"engine capacity" 20
 		weapon
@@ -6875,13 +7082,13 @@ ship "KT-600 Military Transport"
 		"Transport Laser Turret (Red)" 1
 		"Proton Torpedo" 6
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 
 	engine -48 3
 	engine 47 2
@@ -6914,7 +7121,7 @@ ship "Lancer Pursuit Craft"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 68
+		"outfit space" 70
 		"weapon capacity" 9
 		"engine capacity" 20
 		weapon
@@ -6928,13 +7135,13 @@ ship "Lancer Pursuit Craft"
 		"Transport Laser Turret (Red)" 1
 		"Proton Torpedo" 6
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 
 	engine -65 56
 	engine 64 57
@@ -6967,7 +7174,7 @@ ship "Lancer Pursuit Craft" "Lancer Pursuit Craft (Black)"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 68
+		"outfit space" 70
 		"weapon capacity" 9
 		"engine capacity" 20
 		weapon
@@ -6981,13 +7188,13 @@ ship "Lancer Pursuit Craft" "Lancer Pursuit Craft (Black)"
 		"Transport Laser Turret (Red)" 1
 		"Proton Torpedo" 6
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 
 	engine -65 56
 	engine 64 57
@@ -7021,9 +7228,9 @@ ship "Miy'til Starfighter"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
@@ -7035,14 +7242,14 @@ ship "Miy'til Starfighter"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 		
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -3 28
 	engine 3 28
@@ -7072,9 +7279,9 @@ ship "Miy'til Starfighter (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
@@ -7086,14 +7293,14 @@ ship "Miy'til Starfighter (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 		
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -3 28
 	engine 3 28
@@ -7121,9 +7328,9 @@ ship "Pulsar-class Destroyer"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 3504
-		"weapon capacity" 2580
-		"engine capacity" 580
+		"outfit space" 1648
+		"weapon capacity" 890
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -7134,13 +7341,13 @@ ship "Pulsar-class Destroyer"
 		"Turbolaser Turret (Red)" 16
 		"Linked Ion/Plasma Cannon"
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 
 	engine -129 1283
 	engine 136 1284
@@ -7208,18 +7415,18 @@ ship "Purrgil"
 	"never disabled"
 	attributes
 		category "Heavy Freighter"
-		"cost" 10800000
+		"cost" 1000000
 		"hull" 20000
-		"required crew" 8
-		"bunks" 40
+		"required crew" 1
+		"bunks" 1
 		"mass" 3700
 		"drag" 9
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 2200
-		"outfit space" 424
-		"weapon capacity" 40
-		"engine capacity" 210
+		"outfit space" 179
+		"weapon capacity" 0
+		"engine capacity" 140
 		"hull repair rate" 1
 		"inscrutable" 1
 		"gaslining" 1
@@ -7231,11 +7438,11 @@ ship "Purrgil"
 	outfits
 		hullcollision 32
 		
-		"T3.5 Heavy Freighter Power Converter"
+		"P3.5 Heavy Freighter Power Converter"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 
 	gun -17.5 -358
 	gun 2.5 -368
@@ -7301,13 +7508,13 @@ ship "Mobquet MB-C1 Medium Transport"
 	outfits
 		"Turbolaser Turret (Red)"
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 	
 	engine -44 274
 	engine -25 275
@@ -7349,13 +7556,13 @@ ship "Mobquet MB-C1 Medium Transport (Starhook Ten)"
 	outfits
 		"Turbolaser Turret (Red)"
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 	
 	engine -22.5 277
 	engine -9 277
@@ -7397,13 +7604,13 @@ ship "Modular Conveyor"
 	outfits
 		"Turbolaser Turret (Red)" 3
 		
-		"T3.5 Heavy Freighter Power Converter"
-		"T3.5 Heavy Freighter Shield Projector"
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3.5 Heavy Freighter Sublight Engine"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 	
 	engine 0 191
 	turret 0 -147 "Turbolaser Turret (Red)"
@@ -7433,9 +7640,9 @@ ship "N-1 Starfighter"  "N-1 Starfighter (Jsec)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -7447,14 +7654,14 @@ ship "N-1 Starfighter"  "N-1 Starfighter (Jsec)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -26 -22
 	engine 26 -22
@@ -7482,9 +7689,9 @@ ship "N-1 Starfighter (Fighter)" "N-1 Starfighter (Jsec) (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -7496,14 +7703,14 @@ ship "N-1 Starfighter (Fighter)" "N-1 Starfighter (Jsec) (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -26 -22
 	engine 26 -22
@@ -7531,9 +7738,9 @@ ship "N-1 Starfighter"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -7545,14 +7752,14 @@ ship "N-1 Starfighter"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -26 -22
 	engine 26 -22
@@ -7580,9 +7787,9 @@ ship "N-1 Starfighter (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -7594,14 +7801,14 @@ ship "N-1 Starfighter (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -26 -22
 	engine 26 -22
@@ -7629,9 +7836,9 @@ ship "N-22 Starfighter"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -7643,14 +7850,14 @@ ship "N-22 Starfighter"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -24 -22
 	engine 21 -22
@@ -7678,9 +7885,9 @@ ship "N-22 Starfighter (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -7692,14 +7899,14 @@ ship "N-22 Starfighter (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -24 -22
 	engine 21 -22
@@ -7727,9 +7934,9 @@ ship "Nar Shadda Destroyer"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 2494
-		"weapon capacity" 1570
-		"engine capacity" 580
+		"outfit space" 2298
+		"weapon capacity" 1540
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -7739,13 +7946,13 @@ ship "Nar Shadda Destroyer"
 		"Turbolaser Quad Turret (Red)" 10
 		"Turbolaser Dual Turret (Red)" 21
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 		
 	engine -347 1164
 	engine -171 1162
@@ -7832,9 +8039,9 @@ ship "Nimbus-class V-wing Starfighter" "Nimbus-class V-wing Starfighter (Jsec)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
@@ -7846,14 +8053,14 @@ ship "Nimbus-class V-wing Starfighter" "Nimbus-class V-wing Starfighter (Jsec)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine 0 33
 	gun -12 3 "Fighter Laser Cannon (Blue)"
@@ -7882,9 +8089,9 @@ ship "Nimbus-class V-wing Starfighter (Fighter)" "Nimbus-class V-wing Starfighte
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
@@ -7896,14 +8103,14 @@ ship "Nimbus-class V-wing Starfighter (Fighter)" "Nimbus-class V-wing Starfighte
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine 0 33
 	gun -12 3 "Fighter Laser Cannon (Blue)"
@@ -7930,9 +8137,9 @@ ship "Nova-class Battle Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 300
-		"outfit space" 849
-		"weapon capacity" 460
-		"engine capacity" 210
+		"outfit space" 656
+		"weapon capacity" 335
+		"engine capacity" 230
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -7941,13 +8148,13 @@ ship "Nova-class Battle Cruiser"
 	outfits
 		"Turbolaser Dual Turret (Red)" 8
 		
-		"T4 Frigate Power Converter"
-		"T4 Frigate Shield Projector"
+		"P4 Frigate Power Converter"
+		"S4 Frigate Shield Projector"
 		"T4 Sensor Array"
 		"T4 Frigate Coolant System"
 		
 		"T4 Frigate Sublight Engine"
-		"T4 Frigate Hyperspace Motivator"
+		"H4 Frigate Hyperspace Motivator"
 		
 	engine -26 484
 	engine 28 484
@@ -8007,7 +8214,7 @@ ship "Old Republic Diplomatic Transport"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 62
+		"outfit space" 63
 		"weapon capacity" 3
 		"engine capacity" 20
 		weapon
@@ -8018,13 +8225,13 @@ ship "Old Republic Diplomatic Transport"
 	outfits
 		"Transport Laser Turret (Red)"
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -20 91
 	engine -8 90
@@ -8052,13 +8259,13 @@ ship "Pinook Fighter"
 		hull 2000
 		"required crew" 1
 		bunks 1
-		mass 27
+		mass 25
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -8067,13 +8274,13 @@ ship "Pinook Fighter"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine 0 34
 	gun -10 8 "Fighter Laser Cannon (Red)"
@@ -8094,13 +8301,13 @@ ship "Pinook Fighter (Fighter)"
 		hull 2000
 		"required crew" 1
 		bunks 1
-		mass 27
+		mass 25
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -8109,13 +8316,13 @@ ship "Pinook Fighter (Fighter)"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine 0 34
 	gun -10 8 "Fighter Laser Cannon (Red)"
@@ -8140,9 +8347,9 @@ ship "Planetary Defender"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 18
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -8154,14 +8361,14 @@ ship "Planetary Defender"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -5 48
 	engine 5 48
@@ -8189,9 +8396,9 @@ ship "Planetary Defender (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 18
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -8203,14 +8410,14 @@ ship "Planetary Defender (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -5 48
 	engine 5 48
@@ -8238,9 +8445,9 @@ ship "Liberator-class Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 1084
-		"weapon capacity" 160
-		"engine capacity" 580
+		"outfit space" 1074
+		"weapon capacity" 535
+		"engine capacity" 420
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -8250,13 +8457,13 @@ ship "Liberator-class Cruiser"
 		"Turbolaser Dual Turret (Red)" 8
 		"Turbolaser Turret (Red)" 10
 		
-		"T4.5 Cruiser Power Converter"
-		"T4.5 Cruiser Shield Projector"
+		"P4.5 Cruiser Power Converter"
+		"S4.5 Cruiser Shield Projector"
 		"T4 Sensor Array"
 		"T4.5 Cruiser Coolant System"
 		
 		"T4.5 Cruiser Sublight Engine"
-		"T4.5 Cruiser Hyperspace Motivator"
+		"H4.5 Cruiser Hyperspace Motivator"
 		
 	engine -97 555
 	engine -59 554
@@ -8356,9 +8563,9 @@ ship "Liberator-class Fighter"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -8369,13 +8576,13 @@ ship "Liberator-class Fighter"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -9 32
 	engine 9 32
@@ -8403,9 +8610,9 @@ ship "Liberator-class Fighter (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -8416,13 +8623,13 @@ ship "Liberator-class Fighter (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -9 32
 	engine 9 32
@@ -8450,9 +8657,9 @@ ship "Liberator-class Fighter (Modified)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -8464,14 +8671,14 @@ ship "Liberator-class Fighter (Modified)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -9 32
 	engine 9 32
@@ -8499,9 +8706,9 @@ ship "Liberator-class Fighter (Modified) (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -8513,14 +8720,14 @@ ship "Liberator-class Fighter (Modified) (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -9 32
 	engine 9 32
@@ -8549,9 +8756,9 @@ ship "Lok Revenants Assault Fighter"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 20
+		"weapon capacity" 6
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -8562,13 +8769,13 @@ ship "Lok Revenants Assault Fighter"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -11 31
 	engine 12 31
@@ -8597,9 +8804,10 @@ ship "M3-A Scyk Fighter"
 		"mass" 20
 		"drag" .9
 		"heat dissipation" .9
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 45
+		"fuel capacity" 700
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -8608,12 +8816,13 @@ ship "M3-A Scyk Fighter"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine 0 11
 	gun -6 -32 "Fighter Laser Cannon (Red)"
@@ -8637,9 +8846,10 @@ ship "M3-A Scyk Fighter (Fighter)"
 		"mass" 20
 		"drag" .9
 		"heat dissipation" .9
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 45
+		"fuel capacity" 700
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -8648,12 +8858,13 @@ ship "M3-A Scyk Fighter (Fighter)"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine 0 11
 	gun -6 -32 "Fighter Laser Cannon (Red)"
@@ -8677,9 +8888,10 @@ ship "M3-A Scyk Fighter" "M3-A Scyk Fighter (Black)"
 		"mass" 20
 		"drag" .9
 		"heat dissipation" .9
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 45
+		"fuel capacity" 700
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -8688,12 +8900,13 @@ ship "M3-A Scyk Fighter" "M3-A Scyk Fighter (Black)"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine 0 11
 	gun -6 -32 "Fighter Laser Cannon (Red)"
@@ -8717,9 +8930,10 @@ ship "M3-A Scyk Fighter (Fighter)" "M3-A Scyk Fighter (Black) (Fighter)"
 		"mass" 20
 		"drag" .9
 		"heat dissipation" .9
-		"outfit space" 95
-		"weapon capacity" 20
-		"engine capacity" 45
+		"fuel capacity" 700
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -8728,12 +8942,13 @@ ship "M3-A Scyk Fighter (Fighter)" "M3-A Scyk Fighter (Black) (Fighter)"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine 0 11
 	gun -6 -32 "Fighter Laser Cannon (Red)"
@@ -8759,10 +8974,10 @@ ship "M12-L Kimogila Heavy Fighter"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 21
+		"weapon capacity" 7
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -8776,13 +8991,13 @@ ship "M12-L Kimogila Heavy Fighter"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -13 36
 	engine 14 36
@@ -8814,10 +9029,10 @@ ship "M12-L Kimogila Heavy Fighter (Fighter)"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 21
+		"weapon capacity" 7
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -8831,13 +9046,13 @@ ship "M12-L Kimogila Heavy Fighter (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -13 36
 	engine 14 36
@@ -8869,9 +9084,9 @@ ship "Ranger Gunboat"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 40
-		"outfit space" 559
-		"weapon capacity" 170
-		"engine capacity" 210
+		"outfit space" 244
+		"weapon capacity" 92
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -8882,13 +9097,13 @@ ship "Ranger Gunboat"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 24
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -28 49
 	engine 30 46
@@ -8923,9 +9138,9 @@ ship "R60 T-Wing"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
@@ -8937,14 +9152,14 @@ ship "R60 T-Wing"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -19 25
 	engine 19 25
@@ -8975,9 +9190,9 @@ ship "R60 T-Wing (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 30
@@ -8989,14 +9204,14 @@ ship "R60 T-Wing (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -19 25
 	engine 19 25
@@ -9027,9 +9242,9 @@ ship "R60 T-Wing (Prototype)"
 		"heat dissipation" .9
 		"fuel capacity" 0
 		"cargo space" 0
-		"outfit space" 199
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 14
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -9040,8 +9255,8 @@ ship "R60 T-Wing (Prototype)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
@@ -9076,9 +9291,9 @@ ship "R60 T-Wing (Prototype) (Fighter)"
 		"heat dissipation" .9
 		"fuel capacity" 0
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 14
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -9089,8 +9304,8 @@ ship "R60 T-Wing (Prototype) (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
@@ -9124,7 +9339,7 @@ ship "Razor Crest Gunship"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 63
+		"outfit space" 65
 		"weapon capacity" 4
 		"engine capacity" 20
 		weapon
@@ -9135,13 +9350,13 @@ ship "Razor Crest Gunship"
 	outfits
 		"Transport Laser Cannon (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -39 40
 	engine 40 40
@@ -9171,9 +9386,9 @@ ship "SCT Scout Craft"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 10
-		"outfit space" 469
-		"weapon capacity" 85
-		"engine capacity" 210
+		"outfit space" 93
+		"weapon capacity" 19
+		"engine capacity" 30
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -9182,13 +9397,13 @@ ship "SCT Scout Craft"
 	outfits
 		"Transport Laser Turret (Red)" 3
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T3 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 	
 	engine -34 110
 	engine 0 110
@@ -9222,10 +9437,10 @@ ship "Scurrg H-6 Prototype Bomber"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 24
+		"weapon capacity" 10
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -9237,13 +9452,13 @@ ship "Scurrg H-6 Prototype Bomber"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -6 34
 	engine 6 34
@@ -9253,6 +9468,8 @@ ship "Scurrg H-6 Prototype Bomber"
 	gun 59 -33 "Fighter Laser Cannon (Red)"
 	gun -14 -31 "Fighter Laser Cannon (Red)"
 	gun 16 -31 "Fighter Laser Cannon (Red)"
+	gun -14 -31 "Proton Torpedo Launcher"
+	gun 16 -31 "Proton Torpedo Launcher"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
@@ -9275,10 +9492,10 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 24
+		"weapon capacity" 10
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -9290,13 +9507,13 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -6 34
 	engine 6 34
@@ -9306,6 +9523,8 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)"
 	gun 59 -33 "Fighter Laser Cannon (Red)"
 	gun -14 -31 "Fighter Laser Cannon (Red)"
 	gun 16 -31 "Fighter Laser Cannon (Red)"
+	gun -14 -31 "Proton Torpedo Launcher"
+	gun 16 -31 "Proton Torpedo Launcher"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
@@ -9328,10 +9547,10 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Orang
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 24
+		"weapon capacity" 10
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -9343,13 +9562,13 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Orang
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -6 34
 	engine 6 34
@@ -9359,6 +9578,8 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Orang
 	gun 59 -33 "Fighter Laser Cannon (Red)"
 	gun -14 -31 "Fighter Laser Cannon (Red)"
 	gun 16 -31 "Fighter Laser Cannon (Red)"
+	gun -14 -31 "Proton Torpedo Launcher"
+	gun 16 -31 "Proton Torpedo Launcher"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
@@ -9381,10 +9602,10 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 24
+		"weapon capacity" 10
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -9396,13 +9617,13 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -6 34
 	engine 6 34
@@ -9412,6 +9633,8 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 	gun 59 -33 "Fighter Laser Cannon (Red)"
 	gun -14 -31 "Fighter Laser Cannon (Red)"
 	gun 16 -31 "Fighter Laser Cannon (Red)"
+	gun -14 -31 "Proton Torpedo Launcher"
+	gun 16 -31 "Proton Torpedo Launcher"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
@@ -9434,10 +9657,10 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Red)"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 24
+		"weapon capacity" 10
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -9449,13 +9672,13 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Red)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -6 34
 	engine 6 34
@@ -9465,6 +9688,8 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Red)"
 	gun 59 -33 "Fighter Laser Cannon (Red)"
 	gun -14 -31 "Fighter Laser Cannon (Red)"
 	gun 16 -31 "Fighter Laser Cannon (Red)"
+	gun -14 -31 "Proton Torpedo Launcher"
+	gun 16 -31 "Proton Torpedo Launcher"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
@@ -9487,10 +9712,10 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 24
+		"weapon capacity" 10
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -9502,13 +9727,13 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -6 34
 	engine 6 34
@@ -9518,6 +9743,8 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 	gun 59 -33 "Fighter Laser Cannon (Red)"
 	gun -14 -31 "Fighter Laser Cannon (Red)"
 	gun 16 -31 "Fighter Laser Cannon (Red)"
+	gun -14 -31 "Proton Torpedo Launcher"
+	gun 16 -31 "Proton Torpedo Launcher"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
@@ -9540,10 +9767,10 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Maroon)"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 24
+		"weapon capacity" 10
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -9555,13 +9782,13 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Maroon)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -6 34
 	engine 6 34
@@ -9571,6 +9798,8 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Maroon)"
 	gun 59 -33 "Fighter Laser Cannon (Red)"
 	gun -14 -31 "Fighter Laser Cannon (Red)"
 	gun 16 -31 "Fighter Laser Cannon (Red)"
+	gun -14 -31 "Proton Torpedo Launcher"
+	gun 16 -31 "Proton Torpedo Launcher"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
@@ -9593,10 +9822,10 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Maroo
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 429
-		"weapon capacity" 235
-		"engine capacity" 55
+		"cargo space" 0
+		"outfit space" 24
+		"weapon capacity" 10
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -9608,13 +9837,13 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Maroo
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1.5 Heavy Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -6 34
 	engine 6 34
@@ -9624,6 +9853,8 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Maroo
 	gun 59 -33 "Fighter Laser Cannon (Red)"
 	gun -14 -31 "Fighter Laser Cannon (Red)"
 	gun 16 -31 "Fighter Laser Cannon (Red)"
+	gun -14 -31 "Proton Torpedo Launcher"
+	gun 16 -31 "Proton Torpedo Launcher"
 	turret 0 2 "Fighter Heavy Laser Turret (Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
@@ -9647,9 +9878,9 @@ ship "StarViper-class Attack Platform"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -9660,13 +9891,13 @@ ship "StarViper-class Attack Platform"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -13 19
 	engine 14 19
@@ -9696,9 +9927,9 @@ ship "StarViper-class Attack Platform (Fighter)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 216
-		"weapon capacity" 20
-		"engine capacity" 60
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		weapon
 			"blast radius" 45
 			"shield damage" 340
@@ -9709,13 +9940,13 @@ ship "StarViper-class Attack Platform (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -13 19
 	engine 14 19
@@ -9745,9 +9976,9 @@ ship "Sphyrna-class Corvette"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 40
-		"outfit space" 504
-		"weapon capacity" 120
-		"engine capacity" 210
+		"outfit space" 222
+		"weapon capacity" 70
+		"engine capacity" 88
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -9756,13 +9987,13 @@ ship "Sphyrna-class Corvette"
 	outfits
 		"Turbolaser Turret (Red)" 3
 		
-		"T3 Corvette Power Converter"
-		"T3 Corvette Shield Projector"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
 		"T3 Sensor Array"
 		"T3 Corvette Coolant System"
 		
 		"T3 Corvette Sublight Engine (Pink)"
-		"T3 Corvette Hyperspace Motivator"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -38 196
 	engine -2 196
@@ -9794,7 +10025,7 @@ ship "Taylander Shuttle"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
-		"outfit space" 59
+		"outfit space" 61
 		"weapon capacity" 0
 		"engine capacity" 20
 		"defenceless capacity" -1
@@ -9806,13 +10037,13 @@ ship "Taylander Shuttle"
 	outfits
 		"Defenceless"
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -12 104
 	engine 12 104
@@ -9842,9 +10073,9 @@ ship "Teroch Mandalorian Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 180
-		"outfit space" 729
-		"weapon capacity" 340
-		"engine capacity" 210
+		"outfit space" 486
+		"weapon capacity" 172
+		"engine capacity" 220
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -9855,13 +10086,13 @@ ship "Teroch Mandalorian Cruiser"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 20
 		
-		"T4 Frigate Power Converter"
-		"T4 Frigate Shield Projector"
+		"P4 Frigate Power Converter"
+		"S4 Frigate Shield Projector"
 		"T4 Sensor Array"
 		"T4 Frigate Coolant System"
 		
 		"T4 Frigate Sublight Engine"
-		"T4 Frigate Hyperspace Motivator"
+		"H4 Frigate Hyperspace Motivator"
 		
 	engine -55 282
 	engine 59 281
@@ -9902,9 +10133,9 @@ ship "Toscan 8-Q Starfighter"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -9915,13 +10146,13 @@ ship "Toscan 8-Q Starfighter"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -11 33
 	engine 11 33
@@ -9949,9 +10180,9 @@ ship "Toscan 8-Q Starfighter (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -9962,13 +10193,13 @@ ship "Toscan 8-Q Starfighter (Fighter)"
 		"Concussion Missile Launcher" 2
 		"Concussion Missile" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -11 33
 	engine 11 33
@@ -9996,9 +10227,9 @@ ship "Ugly Tie Headhunter"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 13
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10007,11 +10238,12 @@ ship "Ugly Tie Headhunter"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
+		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -12 14
 	engine 12 14
@@ -10037,9 +10269,9 @@ ship "Ugly Tie Headhunter (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 13
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10048,12 +10280,12 @@ ship "Ugly Tie Headhunter (Fighter)"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -12 14
 	engine 12 14
@@ -10079,29 +10311,30 @@ ship "Ugly Tie X-Wing"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Laser Cannon (Red)" 3
+		"Fighter Laser Cannon (Red)" 4
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
-	engine -11 34
-	engine 8 35
+	engine -9 34
+	engine 9 34
 	gun -40 -28 "Fighter Laser Cannon (Red)"
 	gun 35 -27 "Fighter Laser Cannon (Red)"
-	gun 40 -30 "Fighter Laser Cannon (Red)"
+	gun 35 -27 "Fighter Laser Cannon (Red)"
+	gun 40 -28 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Ugly Tie X-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
@@ -10122,29 +10355,30 @@ ship "Ugly Tie X-Wing (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Laser Cannon (Red)" 3
+		"Fighter Laser Cannon (Red)" 4
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
-	engine -11 34
-	engine 8 35
+	engine -9 34
+	engine 9 34
 	gun -40 -28 "Fighter Laser Cannon (Red)"
 	gun 35 -27 "Fighter Laser Cannon (Red)"
-	gun 40 -30 "Fighter Laser Cannon (Red)"
+	gun 35 -27 "Fighter Laser Cannon (Red)"
+	gun 40 -28 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Ugly Tie X-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 
@@ -10165,9 +10399,9 @@ ship "Ugly Tie Y-Wing"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10178,12 +10412,12 @@ ship "Ugly Tie Y-Wing"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -27 5
 	engine 27 5
@@ -10193,7 +10427,7 @@ ship "Ugly Tie Y-Wing"
 	gun 7 -25 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ugly Tie Y-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
-	description "The TYE-wing essentially combined the key weaknesses of both the TIE fighter and the Y-wing, yet had the strengths of neither. Many pilots dubbed them "DIE-wings", because with combined low firepower and fragility of a TIE and the sluggishness and ungainliness of a Y-Wing, its battle performance, alongside its survivability, was almost non-existent."
+	description "The TYE-wing essentially combined the key weaknesses of both the TIE fighter and the Y-wing, yet had the strengths of neither. Many pilots dubbed them 'DIE-wings', because with combined low firepower and fragility of a TIE and the sluggishness and ungainliness of a Y-Wing, its battle performance, alongside its survivability, was almost non-existent."
 
 
 
@@ -10212,9 +10446,9 @@ ship "Ugly Tie Y-Wing (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 4
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10225,12 +10459,12 @@ ship "Ugly Tie Y-Wing (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -27 5
 	engine 27 5
@@ -10240,7 +10474,7 @@ ship "Ugly Tie Y-Wing (Fighter)"
 	gun 7 -25 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ugly Tie Y-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
-	description "The TYE-wing essentially combined the key weaknesses of both the TIE fighter and the Y-wing, yet had the strengths of neither. Many pilots dubbed them "DIE-wings", because with combined low firepower and fragility of a TIE and the sluggishness and ungainliness of a Y-Wing, its battle performance, alongside its survivability, was almost non-existent."
+	description "The TYE-wing essentially combined the key weaknesses of both the TIE fighter and the Y-wing, yet had the strengths of neither. Many pilots dubbed them 'DIE-wings', because with combined low firepower and fragility of a TIE and the sluggishness and ungainliness of a Y-Wing, its battle performance, alongside its survivability, was almost non-existent."
 
 
 
@@ -10259,9 +10493,9 @@ ship "Ugly Twin Tie X-Wing"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -10273,13 +10507,13 @@ ship "Ugly Twin Tie X-Wing"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -24 42
 	engine -2 25
@@ -10308,9 +10542,9 @@ ship "Ugly Twin Tie X-Wing (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -10322,13 +10556,13 @@ ship "Ugly Twin Tie X-Wing (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
+		"P1 Fighter Power Converter"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -24 42
 	engine -2 25
@@ -10357,9 +10591,9 @@ ship "Ugly X-Ceptor"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -10371,14 +10605,14 @@ ship "Ugly X-Ceptor"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -12 49
 	engine 12 49
@@ -10408,9 +10642,9 @@ ship "Ugly X-Ceptor (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -10422,14 +10656,14 @@ ship "Ugly X-Ceptor (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -12 49
 	engine 12 49
@@ -10459,9 +10693,9 @@ ship "Ugly X-Fighter"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -10473,14 +10707,14 @@ ship "Ugly X-Fighter"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine 0 40
 	engine 2 38
@@ -10510,9 +10744,9 @@ ship "Ugly X-Fighter (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 
 		weapon
@@ -10525,14 +10759,14 @@ ship "Ugly X-Fighter (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine 0 40
 	engine 2 38
@@ -10562,9 +10796,9 @@ ship "Ugly Y-Interceptor"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -10576,14 +10810,14 @@ ship "Ugly Y-Interceptor"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -6 40
 	engine 6 40
@@ -10613,9 +10847,9 @@ ship "Ugly Y-Interceptor (Fighter)"
 		drag 1
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 40
@@ -10627,14 +10861,14 @@ ship "Ugly Y-Interceptor (Fighter)"
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		"Astromech Socket"
 
 		"T1 Fighter Engine (Orange)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -6 40
 	engine 6 40
@@ -10664,9 +10898,9 @@ ship "Vaksai Assault Fighter"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10677,13 +10911,13 @@ ship "Vaksai Assault Fighter"
 		"Proton Torpedo Launcher"
 		"Proton Torpedo" 3
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -24 39
 	engine 23 39
@@ -10711,9 +10945,9 @@ ship "Vaksai Assault Fighter (Fighter)"
 		drag 0.95
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 249
-		"weapon capacity" 60
-		"engine capacity" 50
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -10724,13 +10958,13 @@ ship "Vaksai Assault Fighter (Fighter)"
 		"Proton Torpedo Launcher"
 		"Proton Torpedo" 3
 
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 
 	engine -24 39
 	engine 23 39
@@ -10758,7 +10992,7 @@ ship "VCX-100 Light Freighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 73
+		"outfit space" 75
 		"weapon capacity" 14
 		"engine capacity" 20
 		weapon
@@ -10770,13 +11004,13 @@ ship "VCX-100 Light Freighter"
 		"Transport Laser Cannon (Red)" 2
 		"Transport Dual Laser Turret (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -18 111
 	engine 16 111
@@ -10804,15 +11038,15 @@ ship "VCX-series Auxiliary Starfighter"
 		"shields" 1600
 		"hull" 1600
 		"required crew" 1
-		"bunks" 1
+		"bunks" 2
 		"mass" 20
 		"drag" 0.8
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -10822,13 +11056,13 @@ ship "VCX-series Auxiliary Starfighter"
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Laser Turret (Red)"
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -8 37
 	engine 10 37
@@ -10851,15 +11085,15 @@ ship "VCX-series Auxiliary Starfighter (Fighter)"
 		"shields" 1600
 		"hull" 1600
 		"required crew" 1
-		"bunks" 1
+		"bunks" 2
 		"mass" 20
 		"drag" 0.8
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 179
-		"weapon capacity" 40
-		"engine capacity" 45
+		"outfit space" 15
+		"weapon capacity" 3
+		"engine capacity" 6
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -10869,13 +11103,13 @@ ship "VCX-series Auxiliary Starfighter (Fighter)"
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Laser Turret (Red)"
 		
-		"T1 Fighter Power Converter"
-		"T1 Fighter Shield Projector"
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System"
 		
 		"T1 Fighter Engine (Pink)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	engine -8 37
 	engine 10 37
@@ -10903,9 +11137,9 @@ ship "Venator-class Star Destroyer" "Venator-class Star Destroyer (Black)"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 2124
-		"weapon capacity" 1200
-		"engine capacity" 580
+		"outfit space" 1488
+		"weapon capacity" 730
+		"engine capacity" 550
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -10915,13 +11149,13 @@ ship "Venator-class Star Destroyer" "Venator-class Star Destroyer (Black)"
 		"Turbolaser Dual Turret (Blue)" 8
 		"Turbolaser Turret (Blue)" 18
 		
-		"T5 Destroyer Power Converter"
-		"T5 Destroyer Shield Projector"
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
 		"T5 Sensor Array"
 		"T5 Destroyer Coolant System"
 		
 		"T5 Destroyer Sublight Engine"
-		"T5 Destroyer Hyperspace Motivator"
+		"H5 Destroyer Hyperspace Motivator"
 		
 	engine -288 1096
 	engine -144 1363
@@ -11150,13 +11384,13 @@ ship "YG-4210 Freighter"
 	outfits
 		"Transport Laser Turret (Red)" 4
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -100 154
 	engine 0 207
@@ -11188,7 +11422,7 @@ ship "YT-1300 Freighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 75
+		"outfit space" 77
 		"weapon capacity" 16
 		"engine capacity" 20
 		weapon
@@ -11202,13 +11436,13 @@ ship "YT-1300 Freighter"
 		"Proton Torpedo" 6
 		"Transport Dual Laser Turret (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -38 86
 	engine -32 90
@@ -11249,7 +11483,7 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Millennium Falcon)"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 75
+		"outfit space" 77
 		"weapon capacity" 16
 		"engine capacity" 20
 		weapon
@@ -11263,13 +11497,13 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Millennium Falcon)"
 		"Proton Torpedo" 6
 		"Transport Dual Laser Turret (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -48 74
 	engine -44 78
@@ -11318,7 +11552,7 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Red)"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 75
+		"outfit space" 77
 		"weapon capacity" 16
 		"engine capacity" 20
 		weapon
@@ -11332,13 +11566,13 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Red)"
 		"Proton Torpedo" 6
 		"Transport Dual Laser Turret (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -38 86
 	engine -32 90
@@ -11381,7 +11615,7 @@ ship "YT-1350XT Freighter"
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 30
-		"outfit space" 75
+		"outfit space" 77
 		"weapon capacity" 16
 		"engine capacity" 20
 		weapon
@@ -11395,13 +11629,13 @@ ship "YT-1350XT Freighter"
 		"Proton Torpedo" 6
 		"Transport Dual Laser Turret (Red)" 2
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -38 86
 	engine -32 90
@@ -11455,13 +11689,13 @@ ship "YZ-2200 Heavy Transport"
 	outfits
 		"Transport Laser Turret (Red)" 4
 		
-		"T2 Transport Power Converter"
-		"T2 Transport Shield Projector"
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
 		"T2 Sensor Array"
 		"T2 Transport Coolant System"
 		
 		"T2 Transport Sublight Engine"
-		"T2 Transport Hyperspace Motivator"
+		"H2 Transport Hyperspace Motivator"
 		
 	engine -71 195
 	engine 69 196
@@ -11490,7 +11724,7 @@ ship "Zakuul Shuttle"
 		"mass" 70
 		"drag" 1.4
 		"heat dissipation" .7
-		"fuel capacity" 700
+		"fuel capacity" 0
 		"cargo space" 5
 		"outfit space" 18
 		"weapon capacity" 2
@@ -11503,13 +11737,12 @@ ship "Zakuul Shuttle"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		
-		"T1.5 Heavy Fighter Power Converter"
-		"T1.5 Heavy Fighter Shield Projector"
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
 		"T1 Sensor Array"
 		"T1 Fighter Coolant System" 2
 		
 		"T1.5 Heavy Fighter Engine (Blue Flare)"
-		"T1 Fighter Hyperspace Motivator"
 		
 	engine -14 39
 	engine 13 39
@@ -11540,9 +11773,9 @@ ship "Zenith-class Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 200
-		"outfit space" 884
-		"weapon capacity" 480
-		"engine capacity" 210
+		"outfit space" 676
+		"weapon capacity" 355
+		"engine capacity" 230
 		weapon
 			"blast radius" 310
 			"shield damage" 750
@@ -11552,13 +11785,13 @@ ship "Zenith-class Cruiser"
 		"Turbolaser Turret (Red)" 14
 		"Point-Defence Laser Cannon Battery" 2
 		
-		"T4 Frigate Power Converter"
-		"T4 Frigate Shield Projector"
+		"P4 Frigate Power Converter"
+		"S4 Frigate Shield Projector"
 		"T4 Sensor Array"
 		"T4 Frigate Coolant System"
 		
 		"T4 Frigate Sublight Engine"
-		"T4 Frigate Hyperspace Motivator"
+		"H4 Frigate Hyperspace Motivator"
 
 	engine -77 489
 	engine -3 545
@@ -11618,22 +11851,22 @@ ship "42"
 		"drag" .9
 		"heat dissipation" .9
 		"fuel capacity" 700
-		"outfit space" 165
-		"weapon capacity" 50
-		"engine capacity" 45
+		"outfit space" 10
+		"weapon capacity" 0
+		"engine capacity" 5
 		weapon
 			"blast radius" 12
 			"shield damage" 120
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"T1 Fighter Power Converter"	
+		"P1 Fighter Power Converter"	
 		"Stygium Cloaking Device"
-		"T1 Fighter Shield Projector"
+		"S1 Fighter Shield Projector"
 		"T1 Fighter Coolant System"
 
 		"T1 Fighter Engine (Blue)"
-		"T1 Fighter Hyperspace Motivator"
+		"H1 Fighter Hyperspace Motivator"
 		
 	explode "large explosion" 3
 	description "42"

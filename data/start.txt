@@ -39,12 +39,12 @@ start
 			"Fighter Laser Cannon (Red)" 2
 			"Concussion Missile Launcher" 2
 			"Concussion Missile" 6		
-			"T1 Fighter Power Converter"
-			"T1 Fighter Shield Projector"
+			"P1 Fighter Power Converter"
+			"S1 Fighter Shield Projector"
 			"T1 Sensor Array"
 			"T1 Fighter Coolant System"
 			"T1 Fighter Engine (Pink)"
-			"T1 Fighter Hyperspace Motivator"
+			"H1 Fighter Hyperspace Motivator"
 		crew 1
 		fuel 700
 		shields 2000

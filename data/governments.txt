@@ -7,21 +7,6 @@ government "Galactic Empire"
 		"Civilian" 0.04
 		"Scum & Villainy" -0.04
 		"Rebel Alliance" -0.04
-		"Separatist Alliance" -0.04
-	"bribe" .05
-	"fine" 0
-	"friendly hail" "friendly galacticempire"
-	"hostile hail" "hostile galacticempire"
-
-government "Galactic Republic"
-	swizzle 0
-	color 1.5 1.5 1.5
-	"player reputation" 10
-	"attitude toward"
-		"Bounty Hunter" 0
-		"Civilian" 0.04
-		"Scum & Villainy" -0.04
-		"Rebel Alliance" -0.04
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly galacticempire"
@@ -71,17 +56,6 @@ government "Chiss Ascendancy"
 		"Scum & Villainy" -0.04
 	bribe 0
 
-government "Separatist Alliance"
-	swizzle 0
-	color .91 .62 .09
-		
-	"player reputation" 10
-	"attitude toward"
-		"Bounty Hunter" 0
-		"Civilian" 0.04
-		"Galactic Republic" -0.04
-		"Scum & Villainy" -0.04
-
 government "Separatist Holdouts"
 	swizzle 0
 	color .91 .62 .09
@@ -90,7 +64,7 @@ government "Separatist Holdouts"
 	"attitude toward"
 		"Bounty Hunter" 0
 		"Civilian" 0.04
-		"Galactic Republic" -0.04
+		"Galactic Empire" -0.04
 		"Scum & Villainy" -0.04
 
 government "Sith Eternal"
@@ -195,6 +169,4 @@ government "Wreckage"
 		"Galactic Empire" -0.04
 		"Scum & Villainy" -0.04
 		"Rebel Alliance" -0.04
-		"Separatist Alliance" -0.04
-		"Galactic Republic" -0.04
 	bribe 0
