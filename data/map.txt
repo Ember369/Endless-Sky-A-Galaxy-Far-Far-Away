@@ -11095,7 +11095,7 @@ system Exegol
 	habitable 973.36
 	link "Wayfinder 5"
 	object "Exegol "
-		sprite planet/exegol
+		sprite planet/template
 		distance 5000
 
 system Exodeen
@@ -38971,7 +38971,7 @@ planet "Exegol "
 	description `Exegol was a dark, barren, and rocky planet with desert flats. Its dry conditions, combined with the rubbing of dust particles in its atmosphere, created enormous static discharges that appeared as lightning strikes from the planet surface. The desolate world was covered with enormous fissures that reached deep into its crust. These were excavated by Sith loyalists who were attempting to reach a vergence they believed to lie beneath the surface.`
 	spaceport `Exegol was one of the oldest Sith bastions, dating back to about a thousand years prior to the fall of the Galactic Republic. Under the Sith, the Sith Citadel was built on Exegol for meetings and rituals to be conducted within, and Sith loyalists excavated the world's large and deep planetary fissures in hopes of reaching a vergence believed to lie beneath the planet surface.`
 	tribute 100000
-		threshold 7000
+		threshold 0
 		fleet sitheternal 15
 
 planet "Fedalle "

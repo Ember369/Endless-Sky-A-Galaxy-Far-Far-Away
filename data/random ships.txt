@@ -506,6 +506,109 @@ ship "Action VI Transport" "Action VI Transport (Stripe)"
 
 
 
+ship "AEG-77 Vigo"
+	sprite "ship/aeg77vigo"
+	thumbnail "thumbnail/aeg77vigo"
+	attributes
+		category "Transport"
+		"cost" 100000
+		"shields" 4000
+		"hull" 6400
+		"required crew" 2
+		"bunks" 10
+		"mass" 160
+		"drag" 3.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 25
+		"outfit space" 61
+		"weapon capacity" 0
+		"engine capacity" 20
+		"defenceless capacity" -1
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Defenceless"
+		
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
+		"T2 Sensor Array"
+		"T2 Transport Coolant System"
+		
+		"T2 Transport Sublight Engine"
+		"H2 Transport Hyperspace Motivator"
+		
+	engine -13 97
+	engine 13 97
+	turret 0 -17 "Defenceless"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The AEG-77 Vigo is a transport vessel of the criminal Black Sun organisation that is also used by Xizor Transport Systems and other organisations and individuals at the time of the Galactic Civil War. Some ships are heavily modified for use as convoy escorts. The ship provide lots of space for passengers and cargo. Its interior includes three decks connected by two elevators, an observation room, a large bridge, a recreation room, an engineering room, and a cargo hold."
+
+
+
+ship "AEG-77 Vigo (Modified)"
+	sprite "ship/aeg77vigo"
+	thumbnail "thumbnail/aeg77vigo"
+	attributes
+		category "Transport"
+		"cost" 100000
+		"shields" 4000
+		"hull" 6400
+		"required crew" 2
+		"bunks" 10
+		"mass" 160
+		"drag" 3.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 25
+		"outfit space" 83
+		"weapon capacity" 22
+		"engine capacity" 20
+		"defenceless capacity" -1
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon (Red)" 2
+		"Transport Laser Turret (Red)" 6
+		
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
+		"T2 Sensor Array"
+		"T2 Transport Coolant System"
+		
+		"T2 Transport Sublight Engine"
+		"H2 Transport Hyperspace Motivator"
+		
+	engine -12 97
+	engine 13 97
+	gun -20 -52 "Transport Laser Cannon (Red)"
+	gun 21 -52 "Transport Laser Cannon (Red)"
+	turret -20 -19 "Transport Laser Turret (Red)"
+	turret 20 -19 "Transport Laser Turret (Red)"
+	turret -41 10 "Transport Laser Turret (Red)"
+	turret 41 10 "Transport Laser Turret (Red)"
+	turret -41 45 "Transport Laser Turret (Red)"
+	turret 41 45 "Transport Laser Turret (Red)"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The AEG-77 Vigo is a transport vessel of the criminal Black Sun organisation that is also used by Xizor Transport Systems and other organisations and individuals at the time of the Galactic Civil War. Some ships are heavily modified for use as convoy escorts. The ship provide lots of space for passengers and cargo. Its interior includes three decks connected by two elevators, an observation room, a large bridge, a recreation room, an engineering room, and a cargo hold."
+	description "As they became known for their light weaponry, more and more transports were attacked and captured by pirate gangs, especially those smuggling valuable cargo for Black Sun. To counter this threat to its profits, Black Sun decided to modify some of their cargo transports into heavily defended gunships that would act as escorts for the rest of their convoys."
+
+
+
 ship "Aggressor Assault Fighter"
 	sprite "ship/aggressorassaultfighter"
 	thumbnail "thumbnail/aggressorassaultfighter"
@@ -1839,6 +1942,123 @@ ship "Besh-type Personal Starfighter (Fighter)"
 
 
 
+ship "Beskad Cruiser MkII"
+	sprite "ship/beskadcruisermkii"
+	thumbnail "thumbnail/beskadcruisermkii"
+	attributes
+		category "Medium Warship"
+		"cost" 21500000
+		"shields" 104000
+		"hull" 38000
+		"required crew" 400
+		"bunks" 1000
+		"mass" 8100
+		"drag" 23
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 800
+		"outfit space" 1074
+		"weapon capacity" 535
+		"engine capacity" 420
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Turbolaser Dual Turret (Red)" 8
+		"Turbolaser Turret (Red)" 10
+		
+		"P4.5 Cruiser Power Converter"
+		"S4.5 Cruiser Shield Projector"
+		"T4 Sensor Array"
+		"T4.5 Cruiser Coolant System"
+		
+		"T4.5 Cruiser Sublight Engine"
+		"H4.5 Cruiser Hyperspace Motivator"
+		
+	engine -97 555
+	engine -59 554
+	engine -21 556
+	engine 15 556
+	engine 54 556
+	engine 91 555
+	turret -130 452 "Turbolaser Dual Turret (Red)"
+	turret 126 453 "Turbolaser Dual Turret (Red)"
+	turret -134 383 "Turbolaser Dual Turret (Red)"
+	turret 128 384 "Turbolaser Dual Turret (Red)"
+	turret -133 313 "Turbolaser Dual Turret (Red)"
+	turret 127 311 "Turbolaser Dual Turret (Red)"
+	turret -260 -21 "Turbolaser Dual Turret (Red)"
+	turret 257 -25 "Turbolaser Dual Turret (Red)"
+	turret -57 183 "Turbolaser Turret (Red)"
+	turret 48 183 "Turbolaser Turret (Red)"
+	turret -56 157 "Turbolaser Turret (Red)"
+	turret 49 158 "Turbolaser Turret (Red)"
+	turret -55 134 "Turbolaser Turret (Red)"
+	turret 49 134 "Turbolaser Turret (Red)"
+	turret -56 112 "Turbolaser Turret (Red)"
+	turret 48 110 "Turbolaser Turret (Red)"
+	turret -208 -346 "Turbolaser Turret (Red)"
+	turret 205 -345 "Turbolaser Turret (Red)"
+	fighter -112 -204
+	fighter -84 -203
+	fighter -56 -203
+	fighter -27 -202
+	fighter 23 -202
+	fighter 52 -204
+	fighter 80 -203
+	fighter 108 -204
+	fighter -112 -204
+	fighter -84 -203
+	fighter -56 -203
+	fighter -27 -202
+	fighter 23 -202
+	fighter 52 -204
+	fighter 80 -203
+	fighter 108 -204
+	fighter -112 -204
+	fighter -84 -203
+	fighter -56 -203
+	fighter -27 -202
+	fighter 23 -202
+	fighter 52 -204
+	fighter 80 -203
+	fighter 108 -204
+	fighter -112 -204
+	fighter -84 -203
+	fighter -56 -203
+	fighter -27 -202
+	fighter 23 -202
+	fighter 52 -204
+	fighter 80 -203
+	fighter 108 -204
+	fighter -112 -204
+	fighter -84 -203
+	fighter -56 -203
+	fighter -27 -202
+	fighter 23 -202
+	fighter 52 -204
+	fighter 80 -203
+	fighter 108 -204
+	fighter -112 -204
+	fighter -84 -203
+	fighter -56 -203
+	fighter -27 -202
+	fighter 23 -202
+	fighter 52 -204
+	fighter 80 -203
+	fighter 108 -204
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Beskad Cruiser MkII was a warship design used by the Mandalorian warrior clans during the Great Galactic War. These cruisers took part in the blockade of the Hydian Way, which resulted in a major military and economic crisis for the Galactic Republic over 1000 years ago."
+
+
+
 ship "Bespin Bandit"
 	sprite "ship/bespinbandit"
 	thumbnail "thumbnail/bespinbandit"
@@ -1931,6 +2151,56 @@ ship "BFF-1 Bulk Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "At 120 meters in length, the BFF-1 Bulk Freighter is a standard medium-sized freighter that is common throughout the entire galaxy. It is low-cost, partly due to its lack of defensive armament, effective and capable of extremely long range bulk transport duties."
+
+
+
+ship "Blitz Assault Bomber"
+	sprite "ship/blitzassaultbomber"
+	thumbnail "thumbnail/blitzassaultbomber"
+	attributes
+		category "Transport"
+		"cost" 82500
+		"shields" 1400
+		"hull" 6350
+		"required crew" 3
+		"bunks" 33
+		"mass" 70
+		"drag" 1.4
+		"heat dissipation" .7
+		"fuel capacity" 0
+		"cargo space" 5
+		"outfit space" 20
+		"weapon capacity" 4
+		"engine capacity" 7
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 8
+		
+		"P1.5 Heavy Fighter Power Converter"
+		"S1.5 Heavy Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System" 2
+		
+		"T1.5 Heavy Fighter Engine (Blue Flare)"
+		
+	engine 0 41
+	gun -47 11 "Fighter Laser Cannon (Red)"
+	gun 47 11 "Fighter Laser Cannon (Red)"
+	gun -25 20 "Proton Torpedo Launcher"
+	gun 25 20 "Proton Torpedo Launcher"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Blitz Assault Bomber is equipped with an ordnance bay on the ventral hull, from which clusters of bombs can be released. Each has four wings and two laser cannons."
+
 
 
 
@@ -11716,7 +11986,7 @@ ship "Zakuul Shuttle"
 	thumbnail "thumbnail/zakuulshuttle"
 	attributes
 		category "Transport"
-		"cost" 75000
+		"cost" 80000
 		"shields" 1400
 		"hull" 6350
 		"required crew" 3
