@@ -7462,6 +7462,8 @@ system Coruscant
 	fleet rebelfleet 5000
 	fleet imperialpatrol 5000
 	fleet imperialstardestroyer 8000
+	fleet imperialtransport 10000
+	fleet imperialsuperstardestroyer 60000
 	fleet civilianpatrol 4000
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
@@ -8736,7 +8738,7 @@ system "Death Star II"
 		period 4333
 		offset 8
 	object "Death Star II "
-		sprite planet/template
+		sprite planet/deathstarii
 		distance 8000
 		period 4333
 		offset 180
@@ -11095,7 +11097,7 @@ system Exegol
 	habitable 973.36
 	link "Wayfinder 5"
 	object "Exegol "
-		sprite planet/template
+		sprite planet/template2
 		distance 5000
 
 system Exodeen
@@ -11349,6 +11351,8 @@ system Fedalle
 	fleet rebelfleet 5000
 	fleet imperialpatrol 5000
 	fleet imperialstardestroyer 8000
+	fleet imperialtransport 10000
+	fleet imperialsuperstardestroyer 60000
 	fleet civilianpatrol 4000
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
@@ -18146,6 +18150,8 @@ system Kuat
 	fleet rebelfleet 5000
 	fleet imperialpatrol 5000
 	fleet imperialstardestroyer 8000
+	fleet imperialtransport 10000
+	fleet imperialsuperstardestroyer 60000
 	fleet civilianpatrol 4000
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
@@ -25022,7 +25028,6 @@ system Pathway
 			distance 1167
 			period 1572.02
 			offset 29.5295
-	object
 
 
 system Pax
@@ -25954,6 +25959,8 @@ system Pyria
 	fleet rebelfleet 5000
 	fleet imperialpatrol 5000
 	fleet imperialstardestroyer 8000
+	fleet imperialtransport 10000
+	fleet imperialsuperstardestroyer 60000
 	fleet civilianpatrol 4000
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
@@ -28010,6 +28017,8 @@ system Rodia
 	fleet rebelfleet 5000
 	fleet imperialpatrol 5000
 	fleet imperialstardestroyer 8000
+	fleet imperialtransport 10000
+	fleet imperialsuperstardestroyer 60000
 	fleet civilianpatrol 4000
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
@@ -29360,9 +29369,10 @@ system Scarif
 	asteroids "small metal" 9 9.1287
 	asteroids "medium metal" 13 3.9744
 	asteroids "large metal" 5 6.8931
-	fleet scarif 2000
 	belt 1844
 	minables aluminum 31 6.91075
+	fleet imperialpatrol 5000
+	fleet imperialstardestroyer 8000
 	object
 		sprite star/k0
 		period 10
@@ -32025,6 +32035,8 @@ system Tatooine
 	fleet rebelfleet 5000
 	fleet imperialpatrol 5000
 	fleet imperialstardestroyer 8000
+	fleet imperialtransport 10000
+	fleet imperialsuperstardestroyer 60000
 	fleet civilianpatrol 4000
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
@@ -37315,6 +37327,7 @@ system "Wellspring of Life"
 	pos 5906.15 -7075.52
 	government Uninhabited
 	habitable 851.84
+	music ambient/buryingthedead
 	link Kalist
 	asteroids "small rock" 13 3.015
 	asteroids "medium rock" 70 4.995
@@ -38922,8 +38935,10 @@ planet Coruscant
 	shipyard "Miscellaneous Ships"
 	shipyard "Galactic Republic Ships"
 	shipyard "Separatist Alliance Ships"
+	shipyard "New Republic Ships"
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
+	shipyard "Legacy Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
 	security 0.7
@@ -38954,11 +38969,12 @@ planet "Empress Teta "
 	shipyard "Miscellaneous Ships"
 	shipyard "Galactic Republic Ships"
 	shipyard "Separatist Alliance Ships"
+	shipyard "New Republic Ships"
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
+	shipyard "Legacy Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
-
 planet "Esseles "
 	landscape ""
 	description `Esseles has a population of 24 billion and is covered in many high, steep, rugged, volcanic mountain chains. The atmosphere is heavy, and so it has a warm, wet climate. It is a large planet, with a diameter of 9,186 mi (14,783 km). `
@@ -38973,6 +38989,13 @@ planet "Exegol "
 	tribute 100000
 		threshold 0
 		fleet sitheternal 15
+	shipyard "Rebel Alliance Ships"
+	shipyard "Imperial Navy Ships"
+	shipyard "Miscellaneous Ships"
+	shipyard "Galactic Republic Ships"
+	shipyard "Separatist Alliance Ships"
+	shipyard "Resistance Ships"
+	shipyard "First Order Ships"
 
 planet "Fedalle "
 	landscape land/fedalle
@@ -38983,8 +39006,10 @@ planet "Fedalle "
 	shipyard "Miscellaneous Ships"
 	shipyard "Galactic Republic Ships"
 	shipyard "Separatist Alliance Ships"
+	shipyard "New Republic Ships"
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
+	shipyard "Legacy Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
 
@@ -39073,8 +39098,10 @@ planet "N'zoth "
 	shipyard "Miscellaneous Ships"
 	shipyard "Galactic Republic Ships"
 	shipyard "Separatist Alliance Ships"
+	shipyard "New Republic Ships"
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
+	shipyard "Legacy Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
 
@@ -39126,8 +39153,10 @@ planet "Prakith "
 	shipyard "Miscellaneous Ships"
 	shipyard "Galactic Republic Ships"
 	shipyard "Separatist Alliance Ships"
+	shipyard "New Republic Ships"
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
+	shipyard "Legacy Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
 
@@ -39170,8 +39199,9 @@ planet "Scarif "
 	description `Scarif was a remote, tropical planet in the Abrion sector of the Outer Rim Territories. Although a small and idyllic world, Scarif played an important part in the Galactic Empire's military-industrial complex, becoming a center for top-secret research beyond inspection distance of the prying eyes of the Imperial Senate. Among the projects developed here was the Death Star battle station, a construction so important the entire planet was covered by a planetary deflector shield that could only be entered via a Shield Gate.`
 	spaceport `The Imperial security complex, commonly known as Scarif base, was an Imperial research and development installation located on the tropical Outer Rim planet of Scarif. The facility was the center for research, structural engineering, munitions and manufacturing for the Death Star project. Shortly before the Battle of Yavin, the Rebel Alliance managed to penetrate Scarif's deflector shield and launch an attack on the security complex as part of their mission to steal the plans to the Death Star.`
 	tribute 100000
-		threshold 7000
+		threshold 0
 		fleet scarifshieldgate
+	shipyard "Imperial Navy Ships"
 
 planet "Skako Minor"
 	landscape land/skakominor
@@ -39225,6 +39255,16 @@ planet "Ukio "
 	description `Ukio was a well-known agriworld in the Ukio system of the Abrion sector and the homeworld of the Ukians. It served as one of the top producers of foodstuffs for the Core Worlds. Ukio was located within a star system of the same name in the Abrion sector of the Outer Rim Territories region of the galaxy. It was situated on the Manda Merchant Route, a hyperlane that connected it to Rishi and Molavar. Ukio itself was a large, terrestrial planet with gentle winds, calm weather, and a mild climate, which featured virtually no seasonal variation due to the world's slow rotation and low axial tilt. It had a breathable atmosphere and light gravity. Ukio's land consisted of three major continents cut through by hundreds of rivers. An Ukian day lasted 22 standard hours and an Ukian year lasted 357 local days.`
 	spaceport `Ukio was one of the best-known and most efficient agricultural planets in its sector, featuring a growing season which lasted most of its year and ideal conditions for the production of grain and other foodstuffs. Ukio's surface, originally dominated by rolling hills and wild grasses, was almost entirely given over to food production, but still contained ample fallow land for future expansion of the industry. Hundreds of rivers provided natural irrigation, which was expanded through the use of technology which harnessed and diverted them. Ukian farmland was carefully cultivated and painstakingly maintained for maximum output, and crop rotation was required by law to prevent the destruction of arable land. The world was governed by the Overliege, a hereditary monarch, and was defended by planetary shields, which were operated by the Ukian Defense Service.`
 	shipyard "Rebel Alliance Ships"
+	shipyard "Imperial Navy Ships"
+	shipyard "Miscellaneous Ships"
+	shipyard "Galactic Republic Ships"
+	shipyard "Separatist Alliance Ships"
+	shipyard "New Republic Ships"
+	shipyard "Resistance Ships"
+	shipyard "First Order Ships"
+	shipyard "Legacy Ships"
+	outfitter "Miscellaneous Outfits"
+	outfitter "Secondary Weapons Outfits"
 
 planet "Vandelhelm "
 	landscape land/vandelhelm

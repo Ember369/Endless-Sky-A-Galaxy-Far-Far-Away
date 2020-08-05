@@ -308,12 +308,12 @@ outfit "T4.5 Cruiser Sublight Engine"
 	"turn" 1600
 	"turning energy" 30
 	"turning heat" 19
-	description "Cruiser Sublight Engine"
+	description "T4.5 Cruiser Sublight Engine"
 
 outfit "T5 Destroyer Sublight Engine"
 	category "Engines"
 	"cost" 810000
-	thumbnail "outfit/lf9ionthruster"
+	thumbnail "outfit/t5destroyersublightengine"
 	"mass" 500
 	"outfit space" -500
 	"engine capacity" -500
@@ -329,4 +329,4 @@ outfit "T5 Destroyer Sublight Engine"
 	"turn" 1900
 	"turning energy" 40
 	"turning heat" 25
-	description "Alderaan Royal Engineers LF9 Ion Thruster for Victory I Destroyer"
+	description "T5 Destroyer Sunlight Engine"

@@ -31,6 +31,7 @@ outfit "Fighter Laser Cannon (Red)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Cannon (Red)"
 
 outfit "Fighter Laser Cannon (Green)"
@@ -56,6 +57,7 @@ outfit "Fighter Laser Cannon (Green)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Cannon (Green)"
 
 outfit "Fighter Laser Cannon Imperial (Green)"
@@ -81,6 +83,7 @@ outfit "Fighter Laser Cannon Imperial (Green)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Cannon Imperial (Green)"
 
 outfit "Fighter Laser Cannon (Blue)"
@@ -106,6 +109,7 @@ outfit "Fighter Laser Cannon (Blue)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Cannon (Blue)"
 
 outfit "Fighter Laser Cannon (Yellow)"
@@ -131,6 +135,7 @@ outfit "Fighter Laser Cannon (Yellow)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Cannon (Yellow)"
 
 outfit "Fighter Laser Cannon (Purple)"
@@ -156,6 +161,7 @@ outfit "Fighter Laser Cannon (Purple)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Cannon (Purple)"
 
 
@@ -188,6 +194,7 @@ outfit "Fighter Ion Cannon (Red)"
 		"hull damage" 80
 		"ion damage" 3
 		cluster
+		phasing
 	description "Fighter Ion Cannon (Red)"
 
 outfit "Fighter Ion Cannon (Green)"
@@ -215,6 +222,7 @@ outfit "Fighter Ion Cannon (Green)"
 		"hull damage" 80
 		"ion damage" 1
 		cluster
+		phasing
 	description "Fighter Ion Cannon (Green)"
 
 outfit "Fighter Ion Cannon Imperial (Green)"
@@ -242,6 +250,7 @@ outfit "Fighter Ion Cannon Imperial (Green)"
 		"hull damage" 80
 		"ion damage" 1
 		cluster
+		phasing
 	description "Fighter Ion Cannon Imperial (Green)"
 
 
@@ -332,6 +341,7 @@ outfit "Fighter Laser Turret (Red)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Turret"
 
 outfit "Fighter Laser Turret (Green)"
@@ -359,6 +369,7 @@ outfit "Fighter Laser Turret (Green)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Turret (Green)"
 
 outfit "Fighter Laser Turret Imperial (Green)"
@@ -386,6 +397,7 @@ outfit "Fighter Laser Turret Imperial (Green)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Turret Imperial (Green)"
 
 outfit "Fighter Laser Turret Underneath (Red)"
@@ -413,6 +425,7 @@ outfit "Fighter Laser Turret Underneath (Red)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Turret Underneath (Red)"
 
 outfit "Fighter Laser Turret Underneath (Green)"
@@ -439,6 +452,7 @@ outfit "Fighter Laser Turret Underneath (Green)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Turret Underneath (Green)"
 
 outfit "Fighter Laser Turret Underneath (Green) (AI)"
@@ -464,6 +478,7 @@ outfit "Fighter Laser Turret Underneath (Green) (AI)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Turret Underneath (Green)"
 
 outfit "Fighter Laser Turret Underneath Imperial (Green)"
@@ -491,6 +506,7 @@ outfit "Fighter Laser Turret Underneath Imperial (Green)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Turret Underneath Imperial (Green)"
 
 outfit "Fighter Laser Turret (Red) (AI)"
@@ -517,6 +533,7 @@ outfit "Fighter Laser Turret (Red) (AI)"
 		"shield damage" 100
 		"hull damage" 100
 		cluster
+		phasing
 	description "Fighter Laser Turret"
 
 
@@ -550,6 +567,7 @@ outfit "Fighter Ion Turret (Red)"
 		"hull damage" 80
 		"ion damage" 3
 		cluster
+		phasing
 	description "Fighter Ion Turret (Red)"
 
 outfit "Fighter Ion Turret Underneath (Red)"
@@ -578,6 +596,7 @@ outfit "Fighter Ion Turret Underneath (Red)"
 		"hull damage" 80
 		"ion damage" 3
 		cluster
+		phasing
 	description "Fighter Ion Cannon Turret"
 
 outfit "Fighter Ion Turret Underneath (Green)"
@@ -606,6 +625,7 @@ outfit "Fighter Ion Turret Underneath (Green)"
 		"hull damage" 80
 		"ion damage" 3
 		cluster
+		phasing
 	description "Fighter Ion Turret (Green)"
 
 outfit "Fighter Ion Turret Underneath Imperial (Green)"
@@ -634,6 +654,7 @@ outfit "Fighter Ion Turret Underneath Imperial (Green)"
 		"hull damage" 80
 		"ion damage" 3
 		cluster
+		phasing
 	description "Fighter Ion Turret Imperial (Green)"
 
 
@@ -663,6 +684,7 @@ outfit "Fighter Heavy Laser Turret (Red)"
 		"shield damage" 140
 		"hull damage" 140
 		cluster
+		phasing
 	description "Fighter Heavy Laser Turret (Red)"
 
 
@@ -695,6 +717,7 @@ outfit "Transport Laser Cannon (Red)"
 		"shield damage" 170
 		"hull damage" 170
 		cluster
+		phasing
 	description "Transport Laser Cannon (Red)"
 
 outfit "Transport Laser Cannon (Green)"
@@ -720,6 +743,7 @@ outfit "Transport Laser Cannon (Green)"
 		"shield damage" 170
 		"hull damage" 170
 		cluster
+		phasing
 	description "Transport Laser Cannon (Green)"
 
 outfit "Transport Laser Cannon (Blue)"
@@ -745,6 +769,7 @@ outfit "Transport Laser Cannon (Blue)"
 		"shield damage" 170
 		"hull damage" 170
 		cluster
+		phasing
 	description "Transport Laser Cannon (Blue)"
 
 outfit "Transport Laser Cannon (Yellow)"
@@ -770,6 +795,7 @@ outfit "Transport Laser Cannon (Yellow)"
 		"shield damage" 170
 		"hull damage" 170
 		cluster
+		phasing
 	description "Transport Laser Cannon (Yellow)"
 
 
@@ -801,6 +827,7 @@ outfit "Transport Laser Turret (Red)"
 		"shield damage" 170
 		"hull damage" 170
 		cluster
+		phasing
 	description "Transport Laser Turret (Red)"
 
 outfit "Transport Laser Turret (Green)"
@@ -828,6 +855,7 @@ outfit "Transport Laser Turret (Green)"
 		"shield damage" 170
 		"hull damage" 170
 		cluster
+		phasing
 	description "Transport Laser Turret (Green)"
 
 outfit "Transport Laser Turret (Blue)"
@@ -855,6 +883,7 @@ outfit "Transport Laser Turret (Blue)"
 		"shield damage" 170
 		"hull damage" 170
 		cluster
+		phasing
 	description "Transport Laser Turret (Blue)"
 
 outfit "Transport Laser Turret (Yellow)"
@@ -882,6 +911,7 @@ outfit "Transport Laser Turret (Yellow)"
 		"shield damage" 170
 		"hull damage" 170
 		cluster
+		phasing
 	description "Transport Laser Turret (Yellow)"
 
 
@@ -912,6 +942,7 @@ outfit "Transport Dual Laser Turret (Red)"
 		"shield damage" 250
 		"hull damage" 250
 		cluster
+		phasing
 	description "Transport Dual Laser Turret (Red)"
 
 outfit "Transport Dual Laser Turret (Green)"
@@ -939,6 +970,7 @@ outfit "Transport Dual Laser Turret (Green)"
 		"shield damage" 250
 		"hull damage" 250
 		cluster
+		phasing
 	description "Transport Dual Laser Turret (Green)"
 
 outfit "Transport Dual Laser Turret (Blue)"
@@ -966,6 +998,7 @@ outfit "Transport Dual Laser Turret (Blue)"
 		"shield damage" 250
 		"hull damage" 250
 		cluster
+		phasing
 	description "Transport Dual Laser Turret (Blue)"
 
 
@@ -998,6 +1031,7 @@ outfit "Transport Heavy Laser Turret (Red)"
 		"shield damage" 210
 		"hull damage" 210
 		cluster
+		phasing
 	description "Transport Heavy Laser Turret (Red)"
 
 outfit "Transport Heavy Laser Turret (Green)"
@@ -1025,6 +1059,7 @@ outfit "Transport Heavy Laser Turret (Green)"
 		"shield damage" 210
 		"hull damage" 210
 		cluster
+		phasing
 	description "Transport Heavy Laser Turret (Green)"
 
 
@@ -1046,7 +1081,7 @@ outfit "Ion Turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 0.7
 		"velocity" 20
 		"lifetime" 170
@@ -1074,7 +1109,7 @@ outfit "Mass-Driver Battery"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 0.7
 		"velocity" 20
 		"lifetime" 170
@@ -1105,7 +1140,7 @@ outfit "Turbolaser Turret (Red)"
 		"hardpoint offset" 9.
 		sound "turbolaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 1
 		"velocity" 20
 		"lifetime" 160
@@ -1114,6 +1149,7 @@ outfit "Turbolaser Turret (Red)"
 		"firing heat" 4
 		"shield damage" 500
 		"hull damage" 500
+		phasing
 	description "Turbolaser Turret (Red)"
 
 outfit "Turbolaser Turret (Green)"
@@ -1131,7 +1167,7 @@ outfit "Turbolaser Turret (Green)"
 		"hardpoint offset" 9.
 		sound "turbolaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 1
 		"velocity" 20
 		"lifetime" 160
@@ -1140,6 +1176,7 @@ outfit "Turbolaser Turret (Green)"
 		"firing heat" 4
 		"shield damage" 500
 		"hull damage" 500
+		phasing
 	description "Turbolaser Turret (Green)"
 
 outfit "Turbolaser Turret (Blue)"
@@ -1157,7 +1194,7 @@ outfit "Turbolaser Turret (Blue)"
 		"hardpoint offset" 9.
 		sound "turbolaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 1
 		"velocity" 20
 		"lifetime" 160
@@ -1166,6 +1203,7 @@ outfit "Turbolaser Turret (Blue)"
 		"firing heat" 4
 		"shield damage" 500
 		"hull damage" 500
+		phasing
 	description "Turbolaser Turret (Blue)"
 
 outfit "Turbolaser Turret (Yellow)"
@@ -1183,7 +1221,7 @@ outfit "Turbolaser Turret (Yellow)"
 		"hardpoint offset" 9.
 		sound "turbolaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 1
 		"velocity" 20
 		"lifetime" 160
@@ -1192,6 +1230,7 @@ outfit "Turbolaser Turret (Yellow)"
 		"firing heat" 4
 		"shield damage" 500
 		"hull damage" 500
+		phasing
 	description "Turbolaser Turret (Yellow)"
 
 
@@ -1214,7 +1253,7 @@ outfit "Turbolaser Dual Turret (Red)"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 0.7
 		"velocity" 20
 		"lifetime" 170
@@ -1240,7 +1279,7 @@ outfit "Turbolaser Dual Turret (Green)"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 0.7
 		"velocity" 20
 		"lifetime" 170
@@ -1266,7 +1305,7 @@ outfit "Turbolaser Dual Turret (Blue)"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 0.7
 		"velocity" 20
 		"lifetime" 170
@@ -1292,7 +1331,7 @@ outfit "Turbolaser Dual Turret (Yellow)"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 0.7
 		"velocity" 20
 		"lifetime" 170
@@ -1309,7 +1348,7 @@ outfit "Turbolaser Dual Turret (Yellow)"
 
 outfit "Turbolaser Quad Turret (Red)"
 	category "Turrets"
-	cost 800003
+	cost 800000
 	thumbnail "outfit/turbolaserquadturret"
 	"mass" 65
 	"outfit space" -65
@@ -1322,7 +1361,7 @@ outfit "Turbolaser Quad Turret (Red)"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 0.5
 		"velocity" 20
 		"lifetime" 180
@@ -1335,7 +1374,7 @@ outfit "Turbolaser Quad Turret (Red)"
 
 outfit "Turbolaser Quad Turret (Green)"
 	category "Turrets"
-	cost 40000
+	cost 80000
 	thumbnail "outfit/turbolaserquadturret"
 	"mass" 65
 	"outfit space" -65
@@ -1348,7 +1387,7 @@ outfit "Turbolaser Quad Turret (Green)"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 0.5
 		"velocity" 20
 		"lifetime" 180
@@ -1361,7 +1400,7 @@ outfit "Turbolaser Quad Turret (Green)"
 
 outfit "Turbolaser Quad Turret (Yellow)"
 	category "Turrets"
-	cost 800003
+	cost 800000
 	thumbnail "outfit/turbolaserquadturret"
 	"mass" 65
 	"outfit space" -65
@@ -1374,7 +1413,7 @@ outfit "Turbolaser Quad Turret (Yellow)"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 35
+		"inaccuracy" 17
 		"turret turn" 0.5
 		"velocity" 20
 		"lifetime" 180
@@ -1384,6 +1423,35 @@ outfit "Turbolaser Quad Turret (Yellow)"
 		"shield damage" 1500
 		"hull damage" 1500
 	description "Quad Turbolaser Turret (Yellow)"
+
+
+
+outfit "Turbolaser Octuple Turret (Green)"
+	category "Turrets"
+	cost 160000
+	thumbnail "outfit/turbolaserquadturret"
+	"mass" 130
+	"outfit space" -130
+	"weapon capacity" -130
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/greenlaser/greenlaser4quad"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "turbolaserloud"
+		"hit effect" "blaster impact"
+		"inaccuracy" 17
+		"turret turn" 0.5
+		"velocity" 20
+		"lifetime" 260
+		"reload" 320
+		"firing energy" 300
+		"firing heat" 20
+		"shield damage" 3000
+		"hull damage" 3000
+	description "Quad Turbolaser Turret (Green)"
+
 
 
 
@@ -1453,6 +1521,7 @@ outfit hullcollision
 		"cluster"
 		"shield damage" 300
 		"hull damage" 300
+		phasing
 
 outfit "Composite Beam Laser (Red)"
 	category "Secondary Weapons"
@@ -1477,6 +1546,7 @@ outfit "Composite Beam Laser (Red)"
 		"shield damage" 20
 		"hull damage" 20
 		cluster
+		phasing
 	description "Composite Beam Laser Prototype developed on Shantipole"
 
 outfit "Anti-Starfighter Battery (Green)"
@@ -1503,6 +1573,7 @@ outfit "Anti-Starfighter Battery (Green)"
 		"firing heat" 4
 		"shield damage" 100
 		"hull damage" 100
+		phasing
 	description "Anti-Starfighter Battery (Green)"
 
 outfit "Defenceless"
@@ -1553,6 +1624,7 @@ outfit "AUTHOR Transport Laser Cannon"
 		"shield damage" 500
 		"hull damage" 500
 		cluster
+		phasing
 	description "Transport Laser Turret"
 
 outfit "AUTHOR Transport Quad Turbolaser Turret"
@@ -1580,6 +1652,7 @@ outfit "AUTHOR Transport Quad Turbolaser Turret"
 		"shield damage" 500
 		"hull damage" 500
 		cluster
+		phasing
 	description "AUTHOR Transport Quad Turbolaser Turret"
 
 outfit "AUTHOR Fighter Laser Cannon"
@@ -1605,6 +1678,7 @@ outfit "AUTHOR Fighter Laser Cannon"
 		"shield damage" 400
 		"hull damage" 400
 		cluster
+		phasing
 	description "Fighter Laser Cannon"
 
 outfit "AUTHOR Fighter Ion Cannon Turret"
@@ -1635,6 +1709,7 @@ outfit "AUTHOR Fighter Ion Cannon Turret"
 		"hull damage" 400
 		"ion damage" 1
 		cluster
+		phasing
 	description "ArMek SW-4 Ion Cannon Turret for Y-Wing"
 
 outfit "AUTHOR Proton Torpedo Launcher"
@@ -1666,4 +1741,5 @@ outfit "AUTHOR Proton Torpedo Launcher"
 		"hull damage" 2000
 		"hit force" 50
 		"missile strength" 16
+		phasing
 	description "Proton Torpedo Launcher"

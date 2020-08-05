@@ -28,7 +28,7 @@ outfit "T1 Tractor Beam"
 		"shield damage" 0
 		"hull damage" 0
 		"hit force" 0
-		"slowing damage" 5
+		"slowing damage" 1
 	description "T1 Tractor Beam"
 
 outfit "T2 Tractor Beam"
@@ -51,7 +51,7 @@ outfit "T2 Tractor Beam"
 		"shield damage" 0
 		"hull damage" 0
 		"hit force" 0
-		"slowing damage" 10
+		"slowing damage" 2
 	description "T2 Tractor Beam"
 
 outfit "T3 Tractor Beam"
@@ -74,7 +74,7 @@ outfit "T3 Tractor Beam"
 		"shield damage" 0
 		"hull damage" 0
 		"hit force" 0
-		"slowing damage" 15
+		"slowing damage" 3
 	description "T3 Tractor Beam"
 
 outfit "T4 Tractor Beam"
@@ -97,7 +97,7 @@ outfit "T4 Tractor Beam"
 		"shield damage" 0
 		"hull damage" 0
 		"hit force" 0
-		"slowing damage" 20
+		"slowing damage" 4
 	description "T4 Tractor Beam"
 
 outfit "T5 Tractor Beam"
@@ -120,5 +120,83 @@ outfit "T5 Tractor Beam"
 		"shield damage" 0
 		"hull damage" 0
 		"hit force" 0
-		"slowing damage" 25
+		"slowing damage" 5
 	description "T5 Tractor Beam"
+
+outfit "Mega-Ion Cannon (L)"
+	category "Secondary Weapons"
+	cost 50000
+	thumbnail "outfit/megaioncannon"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "torpedo"
+		icon "icon/assaultconcussionmissile"
+		"fire effect" "torpedo fire"
+		"inaccuracy" 1
+		"velocity" 300
+		"lifetime" 1
+		"reload" 130
+		"firing energy" 200
+		"firing heat" 15
+		"submunition" "Mega-Ion Cannon Hit (L1)"
+	description "Mega-Ion Cannon"
+
+outfit "Mega-Ion Cannon Hit (L1)"
+	weapon
+		sprite "projectile/blaster"
+		"lifetime" 2
+		"velocity" -300
+		"turn" 90
+		"submunition" "Mega-Ion Cannon Hit (L2)"
+
+outfit "Mega-Ion Cannon Hit (L2)"
+	weapon
+		sprite "projectile/megaioncannonhit/megaioncannonhit"
+			"frame rate" 10
+			"random start frame"
+		"velocity" -20
+		"lifetime" 800
+		"ion damage" 1000
+
+outfit "Mega-Ion Cannon (R)"
+	category "Secondary Weapons"
+	cost 50000
+	thumbnail "outfit/megaioncannon"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "torpedo"
+		icon "icon/assaultconcussionmissile"
+		"fire effect" "torpedo fire"
+		"inaccuracy" 1
+		"velocity" 300
+		"lifetime" 1
+		"reload" 130
+		"firing energy" 200
+		"firing heat" 15
+		"submunition" "Mega-Ion Cannon Hit (R1)"
+	description "Mega-Ion Cannon"
+
+outfit "Mega-Ion Cannon Hit (R1)"
+	weapon
+		sprite "projectile/blaster"
+		"lifetime" 2
+		"velocity" -300
+		"turn" 90
+		"submunition" "Mega-Ion Cannon Hit (R2)"
+
+outfit "Mega-Ion Cannon Hit (R2)"
+	weapon
+		sprite "projectile/megaioncannonhit/megaioncannonhit"
+			"frame rate" 10
+			"random start frame"
+		"velocity" 20
+		"lifetime" 800
+		"ion damage" 1000

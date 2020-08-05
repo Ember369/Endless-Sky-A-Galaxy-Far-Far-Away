@@ -59,6 +59,9 @@ ship "A/SF-03 B-Wing"
 	gun 50 -14 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "A/SF-03 B-Wing (DESCRIPTION)"
+	description "Artwork/model by (INSERT)"
+
+
 
 ship "A/SF-03 B-Wing (Fighter)"
 	sprite "ship/asf03bwing"
@@ -111,6 +114,9 @@ ship "A/SF-03 B-Wing (Fighter)"
 	gun 50 -14 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "A/SF-03 B-Wing (DESCRIPTION)"
+	description "Artwork/model by (INSERT)"
+
+
 
 ship "BTA-NR2 Y-Wing"
 	sprite ship/btanr2ywing
@@ -128,9 +134,9 @@ ship "BTA-NR2 Y-Wing"
 		"heat dissipation" 0.7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 19
-		"weapon capacity" 7
-		"engine capacity" 7
+		"outfit space" 20
+		"weapon capacity" 8
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
@@ -141,7 +147,8 @@ ship "BTA-NR2 Y-Wing"
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Ion Turret (Red)"
 		"Proton Torpedo Launcher" 2
-		"Proton Torpedo" 22
+		"Proton Torpedo Storage Rack" 2
+		"Proton Torpedo" 16
 
 		"P1 Fighter Power Converter"
 		"S1 Fighter Shield Projector"
@@ -161,6 +168,7 @@ ship "BTA-NR2 Y-Wing"
 	turret -0 -24 "Fighter Ion Turret (Red)"
 	explode "large explosion" 3
 	description "The BTA-NR2 Y-wing starfighter is a variant of the Y-wing starfighter produced by Koensayr Manufacturing, used by the New Republic and the Resistance. The BTA-NR2 Y-wing is marketed as 'the starfighter that broke the Empire's back' and is sold to the New Republic, all while keeping in line with treaty restrictions. With the rise of the First Order, however, the Resistance has obtained BTA-NR2 Y-wings, modifying them past prohibitions to be more effective."
+	description "Artwork/model by (INSERT)"
 
 
 
@@ -180,9 +188,9 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 		"heat dissipation" 0.7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 19
-		"weapon capacity" 7
-		"engine capacity" 7
+		"outfit space" 20
+		"weapon capacity" 8
+		"engine capacity" 6
 		"astromechsocket capacity" 1
 		weapon
 			"blast radius" 42
@@ -193,7 +201,8 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Ion Turret (Red)"
 		"Proton Torpedo Launcher" 2
-		"Proton Torpedo" 22
+		"Proton Torpedo Storage Rack" 2
+		"Proton Torpedo" 16
 
 		"P1 Fighter Power Converter"
 		"S1 Fighter Shield Projector"
@@ -213,7 +222,7 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 	turret -0 -24 "Fighter Ion Turret (Red)"
 	explode "large explosion" 3
 	description "The BTA-NR2 Y-wing starfighter is a variant of the Y-wing starfighter produced by Koensayr Manufacturing, used by the New Republic and the Resistance. The BTA-NR2 Y-wing is marketed as 'the starfighter that broke the Empire's back' and is sold to the New Republic, all while keeping in line with treaty restrictions. With the rise of the First Order, however, the Resistance has obtained BTA-NR2 Y-wings, modifying them past prohibitions to be more effective."
-
+	description "Artwork/model by (INSERT)"
 
 
 
@@ -262,7 +271,7 @@ ship "Fireball"
 	gun 6 0 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Fireball was an old racer that Team Fireball tried to restore in their repair shop on the Colossus, a refueling station on the planet Castilon. It was given its name because of its tendency to burst into flames and/or explode."
-
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -314,6 +323,7 @@ ship "RZ2 A-Wing"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -365,6 +375,7 @@ ship "RZ2 A-Wing (Fighter)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -416,7 +427,7 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (Red)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
-
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -468,6 +479,7 @@ ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (Red) (Fighter)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -519,6 +531,7 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (Green)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -570,7 +583,7 @@ ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (Green) (Fighter)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
-
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -622,6 +635,7 @@ ship "T-70 X-Wing"
 	gun 3 0 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -673,6 +687,7 @@ ship "T-70 X-Wing (Fighter)"
 	gun 3 0 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -724,6 +739,7 @@ ship  "T-70 X-Wing" "T-70 X-Wing (Black)"
 	gun 3 0 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -775,6 +791,7 @@ ship "T-70 X-Wing" "T-70 X-Wing (Black) (Fighter)"
 	gun 3 0 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -826,6 +843,7 @@ ship "T-85 X-Wing"
 	gun 5 -3 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The T-85 X-wing is a next-generation model of the X-wing starfighter utilised by the New Republic Defence Fleet three decades after the Battle of Endor."
+	description "Artwork/model by EC Henry"
 
 
 
@@ -877,7 +895,7 @@ ship "T-85 X-Wing (Fighter)"
 	gun 5 -3 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The T-85 X-wing is a next-generation model of the X-wing starfighter utilised by the New Republic Defence Fleet three decades after the Battle of Endor."
-
+	description "Artwork/model by EC Henry"
 
 
 
@@ -940,6 +958,7 @@ ship "MG-100 Starfortress SF-17"
 	explode "large explosion" 40
 	explode "large explosion" 30
 	description "The MG-100 StarFortress SF-17, also known as the B/SF-17 heavy bomber, is a model of heavy bomber manufactured by Slayn & Korpil for use by the New Republic during the late stages of the Galactic Civil War. Following the Galactic Concordance and New Republic disarmament, the ship has been primarily used in civilian applications. Several ships have used by the Resistance during its war with the First Order around 34 ABY, earning it the name Resistance Bomber."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -994,6 +1013,7 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (w/out)"
 	explode "large explosion" 40
 	explode "large explosion" 30
 	description "The MG-100 StarFortress SF-17, also known as the B/SF-17 heavy bomber, is a model of heavy bomber manufactured by Slayn & Korpil for use by the New Republic during the late stages of the Galactic Civil War. Following the Galactic Concordance and New Republic disarmament, the ship has been primarily used in civilian applications. Several ships have used by the Resistance during its war with the First Order around 34 ABY, earning it the name Resistance Bomber."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -1056,6 +1076,7 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (Red)"
 	explode "large explosion" 40
 	explode "large explosion" 30
 	description "The MG-100 StarFortress SF-17, also known as the B/SF-17 heavy bomber, is a model of heavy bomber manufactured by Slayn & Korpil for use by the New Republic during the late stages of the Galactic Civil War. Following the Galactic Concordance and New Republic disarmament, the ship has been primarily used in civilian applications. Several ships have used by the Resistance during its war with the First Order around 34 ABY, earning it the name Resistance Bomber."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -1110,6 +1131,7 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (Red) (w/out)"
 	explode "large explosion" 40
 	explode "large explosion" 30
 	description "The MG-100 StarFortress SF-17, also known as the B/SF-17 heavy bomber, is a model of heavy bomber manufactured by Slayn & Korpil for use by the New Republic during the late stages of the Galactic Civil War. Following the Galactic Concordance and New Republic disarmament, the ship has been primarily used in civilian applications. Several ships have used by the Resistance during its war with the First Order around 34 ABY, earning it the name Resistance Bomber."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -1161,6 +1183,7 @@ ship "Eta-5 Actis-class Interceptor"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The Eta-5 interceptor is a type of interceptor in use by the New Jedi Order and the Galactic Alliance Navy as of 40 ABY. Developed by Kuat Drive Yards, it is a descendant of the Eta-2 interceptor, but it is also regarded to be a type of A-wing."
+	description "Artwork/model by Mobius13"
 
 
 
@@ -1212,6 +1235,7 @@ ship "Eta-5 Actis-class Interceptor (Fighter)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The Eta-5 interceptor is a type of interceptor in use by the New Jedi Order and the Galactic Alliance Navy as of 40 ABY. Developed by Kuat Drive Yards, it is a descendant of the Eta-2 interceptor, but it is also regarded to be a type of A-wing."
+	description "Artwork/model by Mobius13"
 
 
 
@@ -1230,8 +1254,8 @@ ship "Free Virgillia-class Bunkerbuster"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 250
-		"outfit space" 619
-		"weapon capacity" 298
+		"outfit space" 623
+		"weapon capacity" 302
 		"engine capacity" 230
 		weapon
 			"blast radius" 310
@@ -1242,7 +1266,8 @@ ship "Free Virgillia-class Bunkerbuster"
 		"Turbolaser Turret (Red)" 10
 		"Turbolaser Dual Turret (Red)" 2
 		"Plasma Torpedo Launcher" 3
-		"Plasma Torpedo" 30
+		"Plasma Torpedo Storage Rack" 4
+		"Plasma Torpedo" 29
 		
 		"P4 Frigate Power Converter"
 		"S4 Frigate Shield Projector"
@@ -1286,7 +1311,7 @@ ship "Free Virgillia-class Bunkerbuster"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Free Virgillia-class Bunkerbuster, also known as the Bunker Buster, is a type of corvette model constructed by the Corellian Engineering Corporation, used during the First Order–Resistance war by the Resistance. Vice Admiral Amilyn Holdo commanded a Bunker Buster known as the Ninka for the Resistance."
-
+	description "Artwork/model by Nomada_Firefox"
 
 
 
@@ -1526,7 +1551,7 @@ ship "Viscount-class Star Defender"
 	"final explode" "final explosion large" 1
 	"final explode" "final explosion large"
 	description "The Viscount-class Star Defender was envisioned as the New Republic equivalent of an Executor-class Star Dreadnought. The first prototype was a 3 km long battlecruiser, and the full production model was a 17 km long dreadnought. Although slightly shorter in length than the Executor-class, the superior construction skills of the Mon Calamari have enabled the vessel to carry more starfighters, as well as having a substantially smaller crew. Its shape is also more compact than the Executor-class and it has heavier and more extensive armour. Dozens of docking clamps allow the vessel to directly dock with many other capital ships at the same time."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 ship "AAL Troop Transport"
@@ -1573,6 +1598,7 @@ ship "AAL Troop Transport"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The AAL-1971/9.1 Troop Transport, also known as an Atmospheric Assault Lander (AAL) or First Order Transporter, is an armoured troop carrier operated by the First Order designed to ferry up to twenty stormtroopers from orbital vessels to planetary surfaces."
+	description "Artwork/model by SQUIR"
 
 
 
@@ -1614,6 +1640,7 @@ ship "TIE/FO Fighter"
 	gun 4 -11 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
 	description "The TIE/fo space superiority fighter is a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carries the appearance of its predecessor, the TIE/ln space superiority starfighter, though it features internal advancements that provide it with greater defensive capabilities."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1655,6 +1682,7 @@ ship "TIE/FO Fighter (Fighter)"
 	gun 4 -11 "Fighter Laser Cannon Imperial (Green)"
 	explode "large explosion" 3
 	description "The TIE/fo space superiority fighter is a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carries the appearance of its predecessor, the TIE/ln space superiority starfighter, though it features internal advancements that provide it with greater defensive capabilities."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1702,6 +1730,7 @@ ship "TIE/SF Fighter"
 	turret 0 0 "Fighter Laser Turret Underneath (Green)"
 	explode "large explosion" 3
 	description "The TIE/sf space superiority fighter is a starfighter model used by the First Order, a specialised version of the TIE/fo space superiority fighter. It is a two-seater unlike the previous TIE models, and is outfitted with enhanced weapons and sensor systems as well as hyperdrives and deflector shields. The TIE/sf is reserved for members of the First Order's elite Special Forces. On the lower side of the vehicle, directly below the primary fuel tank, is a turret containing a pair of heavy laser cannons and a mag-pulse warhead launcher."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1749,6 +1778,7 @@ ship "TIE/SF Fighter (Fighter)"
 	turret 0 0 "Fighter Laser Turret Underneath (Green)"
 	explode "large explosion" 3
 	description "The TIE/sf space superiority fighter is a starfighter model used by the First Order, a specialised version of the TIE/fo space superiority fighter. It is a two-seater unlike the previous TIE models, and is outfitted with enhanced weapons and sensor systems as well as hyperdrives and deflector shields. The TIE/sf is reserved for members of the First Order's elite Special Forces. On the lower side of the vehicle, directly below the primary fuel tank, is a turret containing a pair of heavy laser cannons and a mag-pulse warhead launcher."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1929,7 +1959,7 @@ ship "Resurgent-class Star Destroyer"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Resurgent-class Star Destroyer is an iconic model of battlecruiser and Star Destroyer built by Kuat-Entralla Engineering. It saw service in the First Order Navy during its conquest of the Unknown Regions after the signing of the Galactic Concordance. Based on the Imperial-class Star Destroyers of the Old Empire, it featured advanced weaponry and extreme size and represented the might of the emergent First Order throughout the galaxy."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -2148,3 +2178,4 @@ ship "Mandator IV-class Siege Dreadnought"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Mandator IV-class Siege Dreadnought is a model of Siege Dreadnought used by the First Order during their conflict with the Resistance. The Mandator IV-class is armed with two orbital autocannons that could fire a salvo of two rounds each in quick succession before a recharge was needed."
+	description "Artwork/model by Nomada_Firefox"

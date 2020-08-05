@@ -1,0 +1,108 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "CF9 Crossfire Starfighter"
+	sprite ship/cf9crossfirestarfighter
+	thumbnail thumbnail/cf9crossfirestarfighter
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 170000
+		shields 1700
+		hull 3100
+		"required crew" 1
+		bunks 2
+		mass 24
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 20
+		"weapon capacity" 6
+		"engine capacity" 6
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 4
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+		"Stygium Cloaking Device"
+		"Astromech Socket"
+
+		"T1 Fighter Engine (Pink)"
+		"H1 Fighter Hyperspace Motivator"
+
+	engine 0 41
+	gun -25 -38 "Fighter Laser Cannon (Red)"
+	gun 25 -38 "Fighter Laser Cannon (Red)"
+	gun -1 -33 "Fighter Laser Cannon (Red)"
+	gun 1 -33 "Fighter Laser Cannon (Red)"
+	gun -4 -4 "Proton Torpedo Launcher"
+	gun 4 -4 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The StealthX is smaller than the XJ-series X-wing. It features equipment that hides the craft both visually and tactically, though the craft's position is given away if proton torpedoes are used or if the pilot broadcasts over the commlink. The StealthX is used exclusively by Jedi, as the restrictions on comm usage makes it nearly impossible for anyone other than a Jedi to coordinate with other forces."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "CF9 Crossfire Starfighter (Fighter)"
+	sprite ship/cf9crossfirestarfighter
+	thumbnail thumbnail/cf9crossfirestarfighter
+	"never disabled"
+	attributes
+		category Fighter
+		cost 170000
+		shields 1700
+		hull 3100
+		"required crew" 1
+		bunks 2
+		mass 24
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 20
+		"weapon capacity" 6
+		"engine capacity" 6
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 4
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+
+		"T1 Fighter Engine (Pink)"
+		"H1 Fighter Hyperspace Motivator"
+
+	engine 0 41
+	gun -25 -38 "Fighter Laser Cannon (Red)"
+	gun 25 -38 "Fighter Laser Cannon (Red)"
+	gun -1 -33 "Fighter Laser Cannon (Red)"
+	gun 1 -33 "Fighter Laser Cannon (Red)"
+	gun -4 -4 "Proton Torpedo Launcher"
+	gun 4 -4 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The StealthX is smaller than the XJ-series X-wing. It features equipment that hides the craft both visually and tactically, though the craft's position is given away if proton torpedoes are used or if the pilot broadcasts over the commlink. The StealthX is used exclusively by Jedi, as the restrictions on comm usage makes it nearly impossible for anyone other than a Jedi to coordinate with other forces."
+	description "Artwork/model by Unusualsuspex"

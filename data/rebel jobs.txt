@@ -125,11 +125,11 @@ mission "Imperial Navy Attack"
 	npc evade
 		personality heroic staying
 		government "Galactic Empire"
-		fleet "missionimperialnavyattack" 2
+		fleet "missionimperialnavyattack" 3
 	npc
 		personality heroic staying
 		government "Rebel Alliance"
-		fleet "rebeldefensefleet" 4
+		fleet "rebeldefensefleet" 2
 	on offer
 		conversation
 			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Empire! We need every combat-worthy ship to join in the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
@@ -189,6 +189,7 @@ mission "Destroy the Assertor Star Dreadnought and its fleet"
 		payment 250000
 		dialog "The Rebel Alliance gratefully pays you 1,000,000 credits for eliminating the Assertor Destroyer."
 
+
 mission "Clear the Imperial Sector"
 	name "Clear the Imperial Sector"
 	description "Destroy all imperial forces throughout Coruscant to Kalist"
@@ -197,47 +198,81 @@ mission "Clear the Imperial Sector"
 	to offer
 		random < 99
 	source
-		system "Empress Teta"
+		government "Rebel Alliance"
 	destination
-		system Kalist
+		government "Rebel Alliance"
 	npc kill
 		personality heroic staying target
 		government "Galactic Empire"
-		system "Empress Teta"
-		fleet
-			variant 50
-				"Gladiator Star Destroyer"
-				"TIE/LN Fighter (Fighter)" 24
+		system Coruscant
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
 	npc kill
 		personality heroic staying target
 		government "Galactic Empire"
-		system Prakith
-		fleet
-			variant 50
-				"Victory I-class Star Destroyer"
-				"TIE/LN Fighter (Fighter)" 24
-				"Victory I-class Star Destroyer"
-				"TIE/LN Fighter (Fighter)" 24
+		system Alsakan
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
 	npc kill
 		personality heroic staying target
 		government "Galactic Empire"
-		system Byss
-		fleet
-			variant 50
-				"Imperial I-class Star Destroyer"
-				"TIE/LN Fighter" 84
+		system Grizmallt
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
 	npc kill
 		personality heroic staying target
 		government "Galactic Empire"
-		system Kalist
-		fleet
-			variant 50
-				"Imperial I-class Star Destroyer"
-				"TIE/LN Fighter (Fighter)" 84
-				"Imperial II-class Star Destroyer"
-				"TIE/IN Fighter (Fighter)" 21
-				"TIE/SA Fighter (Fighter)" 21
-				"TIE/LN Fighter (Fighter)" 42
+		system Anaxes
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Corulus
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Chandrila
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Brentaal
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Skako
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Aldraig
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Demophon
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Fedalle
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system Kuat
+		fleet "missionimperialblockade" 3
+		dialog "This system has been cleared."
 		dialog "The Imperial Sector has been cleared. Regain contact with the Rebel Alliance to receive your next mission."
 	on complete
 		payment 1000000

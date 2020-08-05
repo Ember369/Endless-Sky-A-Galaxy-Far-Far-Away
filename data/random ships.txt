@@ -47,6 +47,7 @@ ship "A-6 Interceptor"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The A-6 Interceptor is a small fighter, manufactured by Kuat Drive Yards during the waning days of the Galactic Republic. It is equipped with triple laser cannons."
+	description "Artwork/model by Warb_Null"
 
 
 
@@ -90,6 +91,7 @@ ship "A-6 Interceptor (Fighter)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The A-6 Interceptor is a small fighter, manufactured by Kuat Drive Yards during the waning days of the Galactic Republic. It is equipped with triple laser cannons."
+	description "Artwork/model by Warb_Null"
 
 
 
@@ -133,6 +135,7 @@ ship "A-9 Vigilance Fighter"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The A-9 Vigilance interceptor is a short-range starfighter used by the Galactic Empire, beginning production in 9 ABY. Simple cockpit controls makes the A-9 an easy fighter to learn. While faster than the TIE Interceptor, it has a weaker hull due to deliberate design choices made to reduce mass."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -177,6 +180,7 @@ ship "A-9 Vigilance Fighter (Fighter)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The A-9 Vigilance interceptor is a short-range starfighter used by the Galactic Empire, beginning production in 9 ABY. Simple cockpit controls makes the A-9 an easy fighter to learn. While faster than the TIE Interceptor, it has a weaker hull due to deliberate design choices made to reduce mass."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -196,9 +200,9 @@ ship "A519 Invader Close Support Starfighter"
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 229
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -221,6 +225,7 @@ ship "A519 Invader Close Support Starfighter"
 	gun 17 -42 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The A519 Invader close support starfighter is a starfighter manufactured by Kuat Drive Yards. The A519 is designed for close support during planetary invasion, space station or capital ship boarding, also used for escorting dropships and assault shuttles."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -240,9 +245,9 @@ ship "A519 Invader Close Support Starfighter (Fighter)"
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 229
-		"weapon capacity" 40
-		"engine capacity" 50
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 6
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -265,6 +270,7 @@ ship "A519 Invader Close Support Starfighter (Fighter)"
 	gun 17 -42 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The A519 Invader close support starfighter is a starfighter manufactured by Kuat Drive Yards. The A519 is designed for close support during planetary invasion, space station or capital ship boarding, also used for escorting dropships and assault shuttles."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -314,6 +320,7 @@ ship "AA-9 Coruscant Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The AA-9 Coruscant freighter, also known as the Botajef Freighter-Liner, is a massive freighter-model used to transport large groups of people to and from Coruscant. During the Clone Wars, ships of this kind were used as cargo transports for the Grand Army of the Republic and were often gathered into convoys, with added protection given by dedicated Republic warships. They were also used as troop transports by the Clone Army itself."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -362,6 +369,7 @@ ship "AA-9 Coruscant Freighter" "AA-9 Coruscant Freighter (Refugee)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The AA-9 Coruscant freighter, also known as the Botajef Freighter-Liner, is a massive freighter-model used to transport large groups of people to and from Coruscant. During the Clone Wars, ships of this kind were used as cargo transports for the Grand Army of the Republic and were often gathered into convoys, with added protection given by dedicated Republic warships. They were also used as troop transports by the Clone Army itself."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -409,6 +417,7 @@ ship "Action VI Transport"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Action VI transport, sometimes referred to as the bulk transport or the modified action transport, is a popular freighter built by Corellian Engineering Corporation. Action VI transports typically operate in convoys or in well patrolled areas of space. Since they lack even the most basic forms of self-defensive measures, such as armour or weaponry, they are often prime targets for pirates and so rely on protection from other capital ships and starfighter escorts."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -456,6 +465,7 @@ ship "Action VI Transport" "Action VI Transport (Maroon)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Action VI transport, sometimes referred to as the bulk transport or the modified action transport, is a popular freighter built by Corellian Engineering Corporation. Action VI transports typically operate in convoys or in well patrolled areas of space. Since they lack even the most basic forms of self-defensive measures, such as armour or weaponry, they are often prime targets for pirates and so rely on protection from other capital ships and starfighter escorts."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -503,6 +513,7 @@ ship "Action VI Transport" "Action VI Transport (Stripe)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Action VI transport, sometimes referred to as the bulk transport or the modified action transport, is a popular freighter built by Corellian Engineering Corporation. Action VI transports typically operate in convoys or in well patrolled areas of space. Since they lack even the most basic forms of self-defensive measures, such as armour or weaponry, they are often prime targets for pirates and so rely on protection from other capital ships and starfighter escorts."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -550,6 +561,7 @@ ship "AEG-77 Vigo"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The AEG-77 Vigo is a transport vessel of the criminal Black Sun organisation that is also used by Xizor Transport Systems and other organisations and individuals at the time of the Galactic Civil War. Some ships are heavily modified for use as convoy escorts. The ship provide lots of space for passengers and cargo. Its interior includes three decks connected by two elevators, an observation room, a large bridge, a recreation room, an engineering room, and a cargo hold."
+	description "Artwork/model by doclusifer"
 
 
 
@@ -606,6 +618,7 @@ ship "AEG-77 Vigo (Modified)"
 	"final explode" "final explosion large" 1
 	description "The AEG-77 Vigo is a transport vessel of the criminal Black Sun organisation that is also used by Xizor Transport Systems and other organisations and individuals at the time of the Galactic Civil War. Some ships are heavily modified for use as convoy escorts. The ship provide lots of space for passengers and cargo. Its interior includes three decks connected by two elevators, an observation room, a large bridge, a recreation room, an engineering room, and a cargo hold."
 	description "As they became known for their light weaponry, more and more transports were attacked and captured by pirate gangs, especially those smuggling valuable cargo for Black Sun. To counter this threat to its profits, Black Sun decided to modify some of their cargo transports into heavily defended gunships that would act as escorts for the rest of their convoys."
+	description "Artwork/model by doclusifer"
 
 
 
@@ -625,7 +638,7 @@ ship "Aggressor Assault Fighter"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 17
+		"outfit space" 16
 		"weapon capacity" 4
 		"engine capacity" 6
 		weapon
@@ -652,6 +665,7 @@ ship "Aggressor Assault Fighter"
 	gun 13 -61 "Fighter Ion Cannon (Red)"
 	explode "large explosion" 3
 	description "The Aggressor assault fighter is a high-performance starship produced by Trilon, Inc. Designed and precision optimised for combat and patrol duties, the Aggressor is a fast and highly manoeuvrable ship that blurs the lines between starfighter and a larger system patrol craft."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -671,7 +685,7 @@ ship "Aggressor Assault Fighter (Fighter)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 17
+		"outfit space" 16
 		"weapon capacity" 4
 		"engine capacity" 6
 		weapon
@@ -698,6 +712,7 @@ ship "Aggressor Assault Fighter (Fighter)"
 	gun 13 -61 "Fighter Ion Cannon (Red)"
 	explode "large explosion" 3
 	description "The Aggressor assault fighter is a high-performance starship produced by Trilon, Inc. Designed and precision optimised for combat and patrol duties, the Aggressor is a fast and highly manoeuvrable ship that blurs the lines between starfighter and a larger system patrol craft."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -792,6 +807,7 @@ ship "Aggressor Star Destroyer"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Aggressor-class Star Destroyer is one of several different warship classes utilised by Tyber Zann's faction. Ships of the class were comparable in terms of size to the Galactic Empire's Imperial-class Star Destroyers and were armed with two powerful fire-linked guns fixed to the forward hull which fired a large ion pulse followed by an enormous, spiralling plasma shot."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -885,6 +901,7 @@ ship "Aggressor Star Destroyer" "Aggressor Star Destroyer (Mandalorian)"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Aggressor-class Star Destroyer is one of several different warship classes utilised by Tyber Zann's faction. Ships of the class were comparable in terms of size to the Galactic Empire's Imperial-class Star Destroyers and were armed with two powerful fire-linked guns fixed to the forward hull which fired a large ion pulse followed by an enormous, spiralling plasma shot."
+	description "Artwork/model by Daniel T."
 
 
 
@@ -903,8 +920,8 @@ ship "Ajuur-class Heavy Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 200
-		"outfit space" 349
-		"weapon capacity" 190
+		"outfit space" 429
+		"weapon capacity" 270
 		"engine capacity" 88
 		weapon
 			"blast radius" 300
@@ -912,7 +929,8 @@ ship "Ajuur-class Heavy Cruiser"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Turbolaser Turret (Red)" 6
+		"Turbolaser Dual Turret (Red)" 4
+		"Turbolaser Turret (Red)" 2
 		"Point-Defence Laser Cannon Battery" 2
 		
 		"P3 Corvette Power Converter"
@@ -925,12 +943,12 @@ ship "Ajuur-class Heavy Cruiser"
 		
 	engine -105 234
 	engine 102 233
-	turret -156 -104 "Turbolaser Turret (Red)"
-	turret 152 -104 "Turbolaser Turret (Red)"
+	turret -156 -104 "Turbolaser Dual Turret (Red)"
+	turret 152 -104 "Turbolaser Dual Turret (Red)"
 	turret -156 39 "Turbolaser Turret (Red)"
 	turret 152 37 "Turbolaser Turret (Red)"
-	turret -155 179 "Turbolaser Turret (Red)"
-	turret 152 179 "Turbolaser Turret (Red)"
+	turret -155 179 "Turbolaser Dual Turret (Red)"
+	turret 152 179 "Turbolaser Dual Turret (Red)"
 	turret -1 -115 "Point-Defence Laser Cannon Battery"
 	turret -1 171 "Point-Defence Laser Cannon Battery"
 	fighter 0 -61
@@ -951,6 +969,7 @@ ship "Ajuur-class Heavy Cruiser"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Ajuur-class heavy cruiser is a model of cruiser that was used during the Cold War between the Galactic Republic and the Sith Empire. Ajuur-class cruisers are a favoured starship of the Hutt Cartel, and dozens of the transports have been used during the Cartel's annexation of neutral star systems."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1000,6 +1019,7 @@ ship "Annihilator-class Starfighter"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Annihilator-class starfighter is a type of starfighter manufactured by the One Sith. They are triangular in shape, and according to Darth Krayt, are faster and more manoeuverable than any other fighter. Through the dark side, the pilot and ship becomes one, and the fighters carries enough fire power to breach a Star Destroyer."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1048,6 +1068,7 @@ ship "Annihilator-class Starfighter (Fighter)"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Annihilator-class starfighter is a type of starfighter manufactured by the One Sith. They are triangular in shape, and according to Darth Krayt, are faster and more manoeuverable than any other fighter. Through the dark side, the pilot and ship becomes one, and the fighters carries enough fire power to breach a Star Destroyer."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1097,6 +1118,7 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (Jsec)"
 	gun 7 -16 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Aggressive ReConnaissance-170 starfighter, also known simply as the ARC-170 starfighter, was a heavy-duty model of starfighter used by the Galactic Republic during the Clone Wars and was considered the latest in fighter technology. Jointly manufactured by Incom Corporation and Subpro, it continued to see usage into the reign of the Galactic Empire, but was eventually phased out by the newer TIE line."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1146,6 +1168,7 @@ ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (Jsec) (Fighter)"
 	gun 7 -16 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Aggressive ReConnaissance-170 starfighter, also known simply as the ARC-170 starfighter, was a heavy-duty model of starfighter used by the Galactic Republic during the Clone Wars and was considered the latest in fighter technology. Jointly manufactured by Incom Corporation and Subpro, it continued to see usage into the reign of the Galactic Empire, but was eventually phased out by the newer TIE line."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1195,6 +1218,9 @@ ship "Aurek-class Tactical Strike Fighter"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Aurek-class tactical strikefighter was the primary Republic starfighter, several models of which were used in the Old Sith Wars, the Great Galactic War, the New Sith Wars, and even until the final generation of the Republic."
+	description "Artwork/model by Unusualsuspex"
+
+
 
 ship "Aurek-class Tactical Strike Fighter (Fighter)"
 	sprite "ship/aurektacticalstrikefighter"
@@ -1242,6 +1268,7 @@ ship "Aurek-class Tactical Strike Fighter (Fighter)"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Aurek-class tactical strikefighter was the primary Republic starfighter, several models of which were used in the Old Sith Wars, the Great Galactic War, the New Sith Wars, and even until the final generation of the Republic."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1294,7 +1321,8 @@ ship "Aurra Sing's Blockade Runner"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "Aurra Sing's Blockade Runner is a small capital ship that had once belonged to the Senex pirates who kidnapped Sing as a young girl. It is comparable in size to a Consular-class space cruiser and has a Corellian Engineering Corporation design aesthetic. "
+	description "Aurra Sing's Blockade Runner is a small capital ship that had once belonged to the Senex pirates who kidnapped Sing as a young girl. It is comparable in size to a Consular-class space cruiser and has a Corellian Engineering Corporation design aesthetic."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1346,6 +1374,7 @@ ship "Aurra Sing's Fighter Runner"
 	explode "tiny explosion" 20
 	explode "large explosion" 3
 	description "The bounty hunter Aurra Sing had a starfighter. It was carried by the bounty hunter aboard her cruiser. Sing would leave her cruiser drifting and seemingly helpless to distract her pursuers, then surprise-attack them in her fighter. The craft had four powerful laser cannons."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1391,6 +1420,7 @@ ship "Auzituck Anti-Slaver Gunship"
 	gun 0 -32 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Auzituck anti-slaver gunship, also called the Auzituck-class gunship, is a Wookiee gunship manufactured by Appazanna Engineering Works. Used to battle slavers, Auzituck roughly translates to "liberated one" in Shyriiwook, the native language of the Wookiees. The gunship is fast, well-armoured and heavily armed with a narrow profile and large engines."
+	description "Artwork/model by FlyCasual"
 
 
 
@@ -1486,6 +1516,7 @@ ship "Azalus-class Hutt Dreadnought"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Azalus-class was designed and built by the Hutt Cartel as an enforcement ship, commissioned by the Hutts centuries ago. It can still be found in use by various crime syndicates."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1501,11 +1532,11 @@ ship "B28 Extinction-class Bomber"
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
-		"drag" 1
+		"drag" 1.1
 		"fuel capacity" 0
 		"heat dissipation" .9
 		"outfit space" 16
-		"weapon capacity" 5
+		"weapon capacity" 7
 		"engine capacity" 6
 		weapon
 			"blast radius" 14
@@ -1531,6 +1562,7 @@ ship "B28 Extinction-class Bomber"
 	gun 17 -12 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The B28 Extinction-class bomber, also referred to as the B-28, was a starfighter class used by the reconstituted Sith Empire in the Great Galactic War and during the Cold War. The bomber saw extensive use during the Sacking of Coruscant, wherein squadrons of the vessel devastated much of the Coruscant cityscape."
+	description "Artwork/model by Tuna42"
 
 
 
@@ -1546,11 +1578,11 @@ ship "B28 Extinction-class Bomber (Fighter)"
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
-		"drag" .95
+		"drag" 1.1
 		"fuel capacity" 0
 		"heat dissipation" .9
 		"outfit space" 16
-		"weapon capacity" 5
+		"weapon capacity" 7
 		"engine capacity" 6
 		weapon
 			"blast radius" 14
@@ -1576,6 +1608,7 @@ ship "B28 Extinction-class Bomber (Fighter)"
 	gun 17 -12 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The B28 Extinction-class bomber, also referred to as the B-28, was a starfighter class used by the reconstituted Sith Empire in the Great Galactic War and during the Cold War. The bomber saw extensive use during the Sacking of Coruscant, wherein squadrons of the vessel devastated much of the Coruscant cityscape."
+	description "Artwork/model by Tuna42"
 
 
 
@@ -1596,7 +1629,7 @@ ship "Basilisk War Droid"
 		"fuel capacity" 700
 		"cargo space" 0
 		"outfit space" 19
-		"weapon capacity" 5
+		"weapon capacity" 7
 		"engine capacity" 6
 		weapon
 			"blast radius" 45
@@ -1606,7 +1639,7 @@ ship "Basilisk War Droid"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Laser Turret (Red)" 
-		"Concussion Missile" 14
+		"Concussion Missile" 11
 		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
 		hullcollision 10
@@ -1637,6 +1670,7 @@ ship "Basilisk War Droid"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Basilisk war droid is a powerful, semi-sentient combat droid, designed by the Basiliskan race native to the planet Basilisk, located in the Core Worlds. Following the Mandalorian Crusaders' conquest of Basilisk in 4017 BBY, the Mandalorian warriors pillaged the powerful war droids for themselves. To the Mandalorians, the Basilisk droid is known as the Bes'uliik (the 'iron beast' in the Mandalorian language of Mando'a) and are valued as animal-like companions."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1683,7 +1717,7 @@ ship "Baudo-class Star Yacht"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Baudo-class star yacht is the favourite ship of rich youngsters. As a sporting yacht, the ship is mostly used as a pleasure vehicle by affluent beings."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1704,7 +1738,7 @@ ship "BB-2 Starfire Fighter-Bomber"
 		"fuel capacity" 700
 		"cargo space" 32
 		"outfit space" 21
-		"weapon capacity" 8
+		"weapon capacity" 9
 		"engine capacity" 6
 		weapon
 			"blast radius" 45
@@ -1714,7 +1748,7 @@ ship "BB-2 Starfire Fighter-Bomber"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Laser Turret Underneath (Red)"
-		"Concussion Missile" 10
+		"Concussion Missile" 11
 		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
 		"Proton Torpedo Launcher" 2
@@ -1740,6 +1774,7 @@ ship "BB-2 Starfire Fighter-Bomber"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The BB-2 Starfire fighter-bomber from SoroSuub Corporation is a sleek, gently curved, hyperdrive-capable starfighter. Incredibly well armed, the starship's primary weapons are multiple warhead launchers. The BB-2's payload includes ten interceptor missiles, multiple proton torpedoes capable of being launched in two massive rapid-fire salvos, and three ion bombs. It can also carry proton bombs and other ordnance."
+	description "Artwork/model by Nomada_Firefox"
 
 
 
@@ -1760,7 +1795,7 @@ ship "BB-2 Starfire Fighter-Bomber (Fighter)"
 		"fuel capacity" 700
 		"cargo space" 32
 		"outfit space" 21
-		"weapon capacity" 8
+		"weapon capacity" 9
 		"engine capacity" 6
 		weapon
 			"blast radius" 45
@@ -1770,7 +1805,7 @@ ship "BB-2 Starfire Fighter-Bomber (Fighter)"
 	outfits
 		"Fighter Laser Cannon (Red)" 2
 		"Fighter Laser Turret Underneath (Red)"
-		"Concussion Missile" 10
+		"Concussion Missile" 11
 		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
 		"Proton Torpedo Launcher" 2
@@ -1796,6 +1831,7 @@ ship "BB-2 Starfire Fighter-Bomber (Fighter)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The BB-2 Starfire fighter-bomber from SoroSuub Corporation is a sleek, gently curved, hyperdrive-capable starfighter. Incredibly well armed, the starship's primary weapons are multiple warhead launchers. The BB-2's payload includes ten interceptor missiles, multiple proton torpedoes capable of being launched in two massive rapid-fire salvos, and three ion bombs. It can also carry proton bombs and other ordnance."
+	description "Artwork/model by Nomada_Firefox"
 
 
 
@@ -1845,6 +1881,7 @@ ship "Belbullab-22 Starfighter"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Belbullab-22 starfighter is a heavy starfighter constructed by Feethan Ottraw Scalable Assemblies for the Confederacy of Independent Systems. The starfighter is bulkier and hardier than the droid starfighters employed by the Confederacy of Independent Systems, with two rapid-fire triple laser cannons capable of inflicting damage equal to that dealt by a V-wing starfighter."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1892,6 +1929,7 @@ ship "Besh-type Personal Starfighter"
 	gun 21 -23 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Besh-type personal starfighter is a craft whose design was based heavily upon that of the B-wing starfighter. The Besh is tough and has excellent structural characteristics. It has decent speed, but is outmatched by most military or state-of-the-art vehicles. Compared to the earlier B-wings, the Besh-type has significantly scaled down armaments, along with numerous other modifications, to make the starfighter more suitable for private ownership."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1939,6 +1977,7 @@ ship "Besh-type Personal Starfighter (Fighter)"
 	gun 21 -23 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Besh-type personal starfighter is a craft whose design was based heavily upon that of the B-wing starfighter. The Besh is tough and has excellent structural characteristics. It has decent speed, but is outmatched by most military or state-of-the-art vehicles. Compared to the earlier B-wings, the Besh-type has significantly scaled down armaments, along with numerous other modifications, to make the starfighter more suitable for private ownership."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -1952,8 +1991,8 @@ ship "Beskad Cruiser MkII"
 		"hull" 38000
 		"required crew" 400
 		"bunks" 1000
-		"mass" 8100
-		"drag" 23
+		"mass" 6500
+		"drag" 19
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
@@ -1977,78 +2016,42 @@ ship "Beskad Cruiser MkII"
 		"T4.5 Cruiser Sublight Engine"
 		"H4.5 Cruiser Hyperspace Motivator"
 		
-	engine -97 555
-	engine -59 554
-	engine -21 556
-	engine 15 556
-	engine 54 556
-	engine 91 555
-	turret -130 452 "Turbolaser Dual Turret (Red)"
-	turret 126 453 "Turbolaser Dual Turret (Red)"
-	turret -134 383 "Turbolaser Dual Turret (Red)"
-	turret 128 384 "Turbolaser Dual Turret (Red)"
-	turret -133 313 "Turbolaser Dual Turret (Red)"
-	turret 127 311 "Turbolaser Dual Turret (Red)"
-	turret -260 -21 "Turbolaser Dual Turret (Red)"
-	turret 257 -25 "Turbolaser Dual Turret (Red)"
-	turret -57 183 "Turbolaser Turret (Red)"
-	turret 48 183 "Turbolaser Turret (Red)"
-	turret -56 157 "Turbolaser Turret (Red)"
-	turret 49 158 "Turbolaser Turret (Red)"
-	turret -55 134 "Turbolaser Turret (Red)"
-	turret 49 134 "Turbolaser Turret (Red)"
-	turret -56 112 "Turbolaser Turret (Red)"
-	turret 48 110 "Turbolaser Turret (Red)"
-	turret -208 -346 "Turbolaser Turret (Red)"
-	turret 205 -345 "Turbolaser Turret (Red)"
-	fighter -112 -204
-	fighter -84 -203
-	fighter -56 -203
-	fighter -27 -202
-	fighter 23 -202
-	fighter 52 -204
-	fighter 80 -203
-	fighter 108 -204
-	fighter -112 -204
-	fighter -84 -203
-	fighter -56 -203
-	fighter -27 -202
-	fighter 23 -202
-	fighter 52 -204
-	fighter 80 -203
-	fighter 108 -204
-	fighter -112 -204
-	fighter -84 -203
-	fighter -56 -203
-	fighter -27 -202
-	fighter 23 -202
-	fighter 52 -204
-	fighter 80 -203
-	fighter 108 -204
-	fighter -112 -204
-	fighter -84 -203
-	fighter -56 -203
-	fighter -27 -202
-	fighter 23 -202
-	fighter 52 -204
-	fighter 80 -203
-	fighter 108 -204
-	fighter -112 -204
-	fighter -84 -203
-	fighter -56 -203
-	fighter -27 -202
-	fighter 23 -202
-	fighter 52 -204
-	fighter 80 -203
-	fighter 108 -204
-	fighter -112 -204
-	fighter -84 -203
-	fighter -56 -203
-	fighter -27 -202
-	fighter 23 -202
-	fighter 52 -204
-	fighter 80 -203
-	fighter 108 -204
+	engine -47 451
+	engine 47 451
+	turret -98 249 "Turbolaser Dual Turret (Red)"
+	turret 98 249 "Turbolaser Dual Turret (Red)"
+	turret -89 -5 "Turbolaser Dual Turret (Red)"
+	turret 89 -5 "Turbolaser Dual Turret (Red)"
+	turret -88 -233 "Turbolaser Dual Turret (Red)"
+	turret 88 -233 "Turbolaser Dual Turret (Red)"
+	turret -50 -396 "Turbolaser Dual Turret (Red)"
+	turret 50 -396 "Turbolaser Dual Turret (Red)"
+	turret -228 148 "Turbolaser Turret (Red)"
+	turret 228 148 "Turbolaser Turret (Red)"
+	turret -145 -45 "Turbolaser Turret (Red)"
+	turret 145 -45 "Turbolaser Turret (Red)"
+	turret -149 -235 "Turbolaser Turret (Red)"
+	turret 149 -235 "Turbolaser Turret (Red)"
+	turret -149 -376 "Turbolaser Turret (Red)"
+	turret 149 -376 "Turbolaser Turret (Red)"
+	turret -109 -520 "Turbolaser Turret (Red)"
+	turret 109 -520 "Turbolaser Turret (Red)"
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
+	fighter 2 -498
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2056,6 +2059,7 @@ ship "Beskad Cruiser MkII"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Beskad Cruiser MkII was a warship design used by the Mandalorian warrior clans during the Great Galactic War. These cruisers took part in the blockade of the Hydian Way, which resulted in a major military and economic crisis for the Galactic Republic over 1000 years ago."
+	description "Artwork/model by Warb_Null"
 
 
 
@@ -2105,6 +2109,130 @@ ship "Bespin Bandit"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Bespin Bandit is a delta-shaped smuggling freighter with an off-set cockpit. It belonged to Uz Bonearm and it fought for the New Republic in the battle of New Alderaan."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Beta-class Battle Cruiser"
+	sprite "ship/betabattlecruiser"
+	thumbnail "thumbnail/betabattlecruiser"
+	attributes
+		category "Medium Warship"
+		"cost" 5500000
+		"shields" 44000
+		"hull" 12500
+		"required crew" 250
+		"bunks" 600
+		"mass" 2750
+		"drag" 5.5
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 200
+		"outfit space" 389
+		"weapon capacity" 230
+		"engine capacity" 88
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret (Red)" 4
+		"Turbolaser Dual Turret (Red)" 2
+		"Point-Defence Laser Cannon Battery" 2
+		
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
+		
+		"T3 Corvette Sublight Engine (Pink)"
+		"H3 Corvette Hyperspace Motivator"
+		
+	engine -74 362
+	engine 74 362
+	engine -12 384
+	engine 12 384
+	turret -129 218 "Turbolaser Dual Turret (Red)"
+	turret 129 218 "Turbolaser Dual Turret (Red)"
+	turret -50 -123 "Turbolaser Turret (Red)"
+	turret 50 -123 "Turbolaser Turret (Red)"
+	turret -26 -332 "Turbolaser Turret (Red)"
+	turret 26 -332 "Turbolaser Turret (Red)"
+	turret 0 236 "Point-Defence Laser Cannon Battery"
+	turret 0 152 "Point-Defence Laser Cannon Battery"
+	fighter 0 -120
+	fighter 0 -120
+	fighter 0 -120
+	fighter 0 -120
+	fighter 0 -120
+	fighter 0 -120
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Beta-class Battle Cruiser is a type of battleship used by the Hapan Royal Navy. It is much smaller than the Nova-class battle cruiser, but also more manoeuvrable."
+	description "Artwork/model by The Shapers"
+
+
+
+ship "Beviin-class Cruiser"
+	sprite "ship/beviincruiser"
+	thumbnail "thumbnail/beviincruiser"
+	attributes
+		category "Medium Warship"
+		"cost" 5250000
+		"shields" 44000
+		"hull" 12500
+		"required crew" 230
+		"bunks" 580
+		"mass" 2500
+		"drag" 5.45
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 200
+		"outfit space" 359
+		"weapon capacity" 200
+		"engine capacity" 88
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Turbolaser Turret (Red)" 4
+		"Turbolaser Dual Turret (Red)" 2
+		"Point-Defence Laser Cannon Battery"
+		
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
+		
+		"T3 Corvette Sublight Engine (Pink)"
+		"H3 Corvette Hyperspace Motivator"
+		
+	engine -33 431
+	engine 33 431
+	turret -89 298 "Turbolaser Dual Turret (Red)"
+	turret 89 298 "Turbolaser Dual Turret (Red)"
+	turret 0 58 "Turbolaser Turret (Red)"
+	turret 0 25 "Turbolaser Turret (Red)"
+	fighter 0 -119 "Turbolaser Turret (Red)"
+	turret 0 -119 "Turbolaser Turret (Red)"
+	turret 0 253 "Point-Defence Laser Cannon Battery"
+	fighter 0 -406
+	fighter 0 -406
+	fighter 0 -406
+	fighter 0 -406
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "A fast attack craft, the Beviin-class cruiser is an advanced and relentless hunter that prowls space like a Mandalorian strill prowling the northern forests of Mandalore. With powerful engines designed by the best and brightest of MandalMotors, the Beviin-class is able to rapidly respond to enemy fleet deployments and engage them with its mass-driver cannons, missle emplacements, and complement of Fang fighters."
+	description "Artwork/model by Daniel T."
 
 
 
@@ -2151,6 +2279,7 @@ ship "BFF-1 Bulk Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "At 120 meters in length, the BFF-1 Bulk Freighter is a standard medium-sized freighter that is common throughout the entire galaxy. It is low-cost, partly due to its lack of defensive armament, effective and capable of extremely long range bulk transport duties."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -2200,7 +2329,7 @@ ship "Blitz Assault Bomber"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Blitz Assault Bomber is equipped with an ordnance bay on the ventral hull, from which clusters of bombs can be released. Each has four wings and two laser cannons."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -2267,6 +2396,7 @@ ship "Bothan Frigate"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Bothan frigate was a warship deployed by the Bothans for use by the Confederation Fleet. It is still produced by the Tallaani Shipyards. Despite an early attempt at maintaining fleets of larger capital ships, like the venerable Bothan Assault Cruiser, the Bothan government opted in the aftermath of the Battle of Gilatter VIII to maintain a larger fleet of small, agile vessels. The result was the Tallani-built Bothan frigate, which was noted for heavier than normal armour plating and an impressive array of weaponry."
+	description "Artwork/model by Warb_Null"
 
 
 
@@ -2329,6 +2459,7 @@ ship "Brute-class Hutt Support Corvette"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Brute-class Hutt Support Corvette is a small corvette armed with three turbolasers for anti-capital ship duties. Utilised in high numbers, they be quite effective against larger ships, acting as target saturation whilst protecting their flagships."
+	description "Artwork/model by Tuna42"
 
 
 
@@ -2382,55 +2513,390 @@ ship "BT7 Thunderclap"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The BT-7 Thunderclap was an assault ship model in the Republic Military, commonly used over 3000 years ago. The BT-7 was state of the art for its era, the armour plating, heavy laser cannons and modular shield systems were the best available. It had lodgings for several troops and contained a command center, a briefing room, a very spacious cargo bay, a medical bay and an armoury. There was also room for recreational activities."
+	description "Artwork/model by Unusualsuspex"
 
 
 
 
-ship "Sabaoth Cavik Toth's Starfighter"
-	sprite "ship/sabaothcaviktothfighter"
-	thumbnail "thumbnail/sabaothcaviktothfighter"
-	"never disabled"
+ship "Bulwark-class Support Frigate"
+	sprite "ship/bulwarksupportfrigate"
+	thumbnail "thumbnail/bulwarksupportfrigate"
 	attributes
-		category Interceptor
-		cost 150000
-		shields 1600
-		hull 3000
-		"required crew" 1
-		bunks 1
-		mass 23
-		drag .95
-		"heat dissipation" 0.8
+		category "Medium Warship"
+		"cost" 5500000
+		"shields" 44000
+		"hull" 12500
+		"required crew" 250
+		"bunks" 600
+		"mass" 2750
+		"drag" 5.5
+		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 0
-		"outfit space" 16
-		"weapon capacity" 4
-		"engine capacity" 6
+		"cargo space" 200
+		"outfit space" 389
+		"weapon capacity" 230
+		"engine capacity" 88
 		weapon
-			"blast radius" 40
-			"shield damage" 320
-			"hull damage" 170
-			"hit force" 460
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
 	outfits
-		"Fighter Laser Cannon (Red)" 2
-		"Proton Torpedo Launcher" 2
-		"Proton Torpedo" 6
+		"Turbolaser Dual Turret (Red)" 2
+		"Turbolaser Turret (Red)" 4
+		"Point-Defence Laser Cannon Battery" 2
+		
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
+		
+		"T3 Corvette Sublight Engine (Pink)"
+		"H3 Corvette Hyperspace Motivator"
+		
+	engine -107 473
+	engine 107 473
+	turret -129 218 "Turbolaser Dual Turret (Red)"
+	turret 129 218 "Turbolaser Dual Turret (Red)"
+	turret -50 -123 "Turbolaser Turret (Red)"
+	turret 50 -123 "Turbolaser Turret (Red)"
+	turret -26 -332 "Turbolaser Turret (Red)"
+	turret 26 -332 "Turbolaser Turret (Red)"
+	turret 0 236 "Point-Defence Laser Cannon Battery"
+	turret 0 152 "Point-Defence Laser Cannon Battery"
+	fighter 0 -403
+	fighter 0 -403
+	fighter 0 -403
+	fighter 0 -403
+	fighter 0 -403
+	fighter 0 -403
+	fighter 0 -403
+	fighter 0 -403
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Bulwark-class Frigate is a medium sized ship popular with crime syndicates and defence fleets. Having no relation to the well-known Bulwark Mark I Battleship, the Bulwark-class Frigate was coincidentally given the same name, while being designed far away in Hutt Space during the same period of time."
+	description "Artwork/model by Tuna42"
 
-		"P1 Fighter Power Converter"
-		"S1 Fighter Shield Projector"
-		"T1 Sensor Array"
-		"T1 Fighter Coolant System"
 
-		"T1 Fighter Engine (Orange)"
-		"H1 Fighter Hyperspace Motivator"
 
-	engine -19 49
-	engine 15 50
-	gun -43 21 "Fighter Laser Cannon (Red)"
-	gun 40 20 "Fighter Laser Cannon (Red)"
-	gun -8 12 "Proton Torpedo Launcher"
-	gun 5 10 "Proton Torpedo Launcher"
-	explode "large explosion" 3
-	description "Captain Cavik Toth's personal starfighter was a small, one man attack fighter launched from the hangar bay of his flagship. It was armed with heavy laser cannons and concussion missile launchers. It also possessed phenomenal speed and agility, and a powerful shield to defend it from enemy fire."
+ship "C-3 Passenger Liner"
+	sprite "ship/c3passengerliner"
+	thumbnail "thumbnail/c3passengerliner"
+	attributes
+		category "Heavy Freighter"
+		"cost" 16500000
+		"shields" 55000
+		"hull" 23000
+		"required crew" 8
+		"bunks" 50
+		"mass" 4500
+		"drag" 13
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 3600
+		"outfit space" 237
+		"weapon capacity" 0
+		"engine capacity" 160
+		"defenceless capacity" -1
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Defenceless"
+		
+		"P3.5 Heavy Freighter Power Converter"
+		"S3.5 Heavy Freighter Shield Projector"
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
+		
+		"T3.5 Heavy Freighter Sublight Engine"
+		"H3.5 Heavy Freighter Hyperspace Motivator"
+	
+	engine -79 463
+	engine 79 463
+	engine -54 481
+	engine 54 481
+	turret 0 -94 "Defenceless"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The C-3 passenger liner is a luxurious craft often spotted in park near space facilities. Acting as a passenger vessel for the wealthy, the liners were unarmed and required escorts."
+	description "Artwork/model by X-wing Alliance Upgrade"
+
+
+ship "Cargo Ferry"
+	sprite "ship/cargoferry"
+	thumbnail "thumbnail/cargoferry"
+	attributes
+		category "Light Freighter"
+		"cost" 3300000
+		"shields" 34000
+		"hull" 10000
+		"required crew" 6
+		"bunks" 10
+		"mass" 2600
+		"drag" 5.6
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 2400
+		"outfit space" 160
+		"weapon capacity" 6
+		"engine capacity" 78
+		"defenceless capacity" -1
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Transport Laser Cannon (Red)" 3
+		
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
+		
+		"T3 Corvette Sublight Engine (Pink)"
+		"H3 Corvette Hyperspace Motivator"
+		
+	engine -45 166
+	engine 45 166
+	engine 0 166
+	gun -48 -40 "Transport Laser Cannon (Red)"
+	gun 48 -40 "Transport Laser Cannon (Red)"
+	gun 0 -153 "Transport Laser Cannon (Red)"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The cargo ferry is a transport manufactured by Kiara Cargo Corporation. It is a freighter with six engines. The ferry can carry cargo both internally and externally in attached containers, or externally carry captured spacecraft. The Galactic Empire and the Alliance to Restore the Republic both employ such ferries, as do various space pirates and civilians. A cargo ferry is 90 meters long, and requires a crew of six to operate."
+	description "Artwork/model from Picaro Star Shipyards"
+
+
+
+ship "CD-710 Heavy Destroyer"
+	sprite "ship/cd710heavydestroyer"
+	thumbnail "thumbnail/cd710heavydestroyer"
+	attributes
+		category "Heavy Warship"
+		"cost" 54500000
+		"shields" 131000
+		"hull" 46000
+		"required crew" 1580
+		"bunks" 2980
+		"mass" 8870
+		"drag" 23.7
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 400
+		"outfit space" 1828
+		"weapon capacity" 1120
+		"engine capacity" 550
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Turbolaser Dual Turret (Red)" 12
+		"Turbolaser Turret (Red)" 14
+		"Ion Turret" 2
+		"Assault Concussion Missile Launcher" 4
+		"Assault Concussion Missile Storage Rack" 2
+		"Assault Concussion Missile" 120
+		
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
+		
+		"T5 Destroyer Sublight Engine"
+		"H5 Destroyer Hyperspace Motivator"
+		
+	engine -121 1362
+	engine 121 1362
+	engine 0 1362
+	turret -116 1091 "Turbolaser Turret (Red)"
+	turret 116 1091 "Turbolaser Turret (Red)"
+	turret -120 948 "Turbolaser Dual Turret (Red)"
+	turret 120 948 "Turbolaser Dual Turret (Red)"
+	turret -127 783 "Turbolaser Turret (Red)"
+	turret 127 783 "Turbolaser Turret (Red)"
+	turret -60 801 "Turbolaser Dual Turret (Red)"
+	turret 60 801 "Turbolaser Dual Turret (Red)"
+	turret -65 640 "Turbolaser Turret (Red)"
+	turret 65 640 "Turbolaser Turret (Red)"
+	turret -61 487 "Turbolaser Turret (Red)"
+	turret 61 487 "Turbolaser Turret (Red)"
+	turret -60 377 "Ion Turret"
+	turret 60 377 "Ion Turret"
+	turret -58 207 "Turbolaser Dual Turret (Red)"
+	turret 58 207 "Turbolaser Dual Turret (Red)"
+	gun -68 13 "Assault Concussion Missile Launcher"
+	gun 68 13 "Assault Concussion Missile Launcher"
+	turret -0 753 "Turbolaser Dual Turret (Red)"
+	turret -0 125 "Turbolaser Dual Turret (Red)"
+	turret -58 9 "Turbolaser Turret (Red)"
+	turret 58 9 "Turbolaser Turret (Red)"
+	gun -62 -132 "Assault Concussion Missile Launcher"
+	gun 62 -132 "Assault Concussion Missile Launcher"
+	turret 0 -168 "Turbolaser Dual Turret (Red)"
+	turret 0 -699 "Turbolaser Dual Turret (Red)"
+	turret -102 -462 "Turbolaser Turret (Red)"
+	turret 102 -462 "Turbolaser Turret (Red)"
+	turret -88 -70 "Turbolaser Dual Turret (Red)"5
+	turret 88 -705 "Turbolaser Dual Turret (Red)"
+	turret -43 -1126 "Turbolaser Turret (Red)"
+	turret 43 -1126 "Turbolaser Turret (Red)"
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	fighter -114 633
+	fighter 114 633
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The CD-710-class Heavy Destroyer, sometimes referred to as the Corellian Destroyer, is a medium sized combat vessel used by the Corellian Navy for defence of the Corellian Sector. One of the mainstays of CorNav Defense Fleet, the CD-710 Heavy Destroyers is intended only for the protection of the Corellian Sector. Production of the CD-710 destroyer began throughout the Clone Wars, though orders for the ships are beginning to dry up in favour of newer designs by more Imperial-friendly corporations."
+	description "Artwork/model by Fractalsponge"
+
+
+
+ship "Centurion-class Battlecruiser"
+	sprite "ship/centurionbattlecruiser"
+	thumbnail "thumbnail/centurionbattlecruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 70000000
+		"shields" 170000
+		"hull" 57500
+		"required crew" 15000
+		"bunks" 23000
+		"mass" 12500
+		"drag" 24.2
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 800
+		"outfit space" 2228
+		"weapon capacity" 1470
+		"engine capacity" 550
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"Turbolaser Quad Turret (Red)" 12
+		"Turbolaser Dual Turret (Red)" 16
+		
+		"P5 Destroyer Power Converter"
+		"S5 Destroyer Shield Projector"
+		"T5 Sensor Array"
+		"T5 Destroyer Coolant System"
+		
+		"T5 Destroyer Sublight Engine"
+		"H5 Destroyer Hyperspace Motivator"
+		
+	engine -272 1272
+	engine 272 1272
+	engine 0 1309
+	turret -357 1022 "Turbolaser Dual Turret (Red)"
+	turret 357 1022 "Turbolaser Dual Turret (Red)"
+	turret -339 931 "Turbolaser Quad Turret (Red)"
+	turret 339 931 "Turbolaser Quad Turret (Red)"
+	turret -167 842 "Turbolaser Dual Turret (Red)"
+	turret 167 842 "Turbolaser Dual Turret (Red)"
+	turret -283 839 "Turbolaser Quad Turret (Red)"
+	turret 283 839 "Turbolaser Quad Turret (Red)"
+	turret -257 714 "Turbolaser Quad Turret (Red)"
+	turret 257 714 "Turbolaser Quad Turret (Red)"
+	turret -216 589 "Turbolaser Quad Turret (Red)"
+	turret 216 589 "Turbolaser Quad Turret (Red)"
+	turret -199 499 "Turbolaser Dual Turret (Red)"
+	turret 199 499 "Turbolaser Dual Turret (Red)"
+	turret -201 31 "Turbolaser Dual Turret (Red)"
+	turret 201 31 "Turbolaser Dual Turret (Red)"
+	turret -218 -116 "Turbolaser Quad Turret (Red)"
+	turret 218 -116 "Turbolaser Quad Turret (Red)"
+	turret -138 -270 "Turbolaser Dual Turret (Red)"
+	turret 138 -270 "Turbolaser Dual Turret (Red)"
+	turret -152 -383 "Turbolaser Dual Turret (Red)"
+	turret 152 -383 "Turbolaser Dual Turret (Red)"
+	turret -135 -616 "Turbolaser Dual Turret (Red)"
+	turret 135 -616 "Turbolaser Dual Turret (Red)"
+	turret -101 -758 "Turbolaser Quad Turret (Red)"
+	turret 101 -758 "Turbolaser Quad Turret (Red)"
+	turret -36 -1140 "Turbolaser Dual Turret (Red)"
+	turret 36 -1140 "Turbolaser Dual Turret (Red)"
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	fighter 0 355
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Centurion-class battlecruiser was a capital ship used by the Galactic Republic and the Sith Triumvirate thousands of years ago. Designed as the successor to the Inexpugnable-class command ship in the Republic Navy, the ship proved to be incredibly successful, its class being used for over 300 years."
+	description "Artwork/model by Daniel T."
 
 
 
@@ -2482,6 +2948,7 @@ ship "Chu'unthor"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Chu'unthor (the Cerean word for academy) was a praxeum ship designed by Cerean Jedi Fin-So-Rowan and Human Jedi Ivixa Delbaeth. The ship was built in orbit around the planet Abhean by Republic Fleet Systems circa 500 BBY. Its primary function was as a spacefaring academy for groups of Jedi apprentices, and it operated under the command of a number of Jedi Masters."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -2533,6 +3000,7 @@ ship "CloakShape Fighter"
 	gun 24 -43 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The CloakShape fighter is a space and atmospheric fighter built by Kuat Systems Engineering decades before the Clone Wars. These starfighters are not considered particularly agile or powerful, but the reinforced hull make the vessel quite durable, making them overall adequate for their class."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -2584,6 +3052,111 @@ ship "CloakShape Fighter (Fighter)"
 	gun 24 -43 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The CloakShape fighter is a space and atmospheric fighter built by Kuat Systems Engineering decades before the Clone Wars. These starfighters are not considered particularly agile or powerful, but the reinforced hull make the vessel quite durable, making them overall adequate for their class."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "CloakShape Fighter" "CloakShape Fighter (New)"
+	sprite "ship/cloakshapefighter2"
+	thumbnail "thumbnail/cloakshapefighter2"
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 135000
+		shields 900
+		hull 3600
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+		"Astromech Socket"
+
+		"T1 Fighter Engine (Orange)"
+		"H1 Fighter Hyperspace Motivator"
+
+	engine 0 17
+	engine -11 12
+	engine 11 12
+	gun -7 -47 "Fighter Laser Cannon (Red)"
+	gun 7 -47 "Fighter Laser Cannon (Red)"
+	gun -16 -45 "Proton Torpedo Launcher"
+	gun 16 -45 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The CloakShape fighter is a space and atmospheric fighter built by Kuat Systems Engineering decades before the Clone Wars. These starfighters are not considered particularly agile or powerful, but the reinforced hull make the vessel quite durable, making them overall adequate for their class."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "CloakShape Fighter (Fighter)" "CloakShape Fighter (New) (Fighter)"
+	sprite "ship/cloakshapefighter2"
+	thumbnail "thumbnail/cloakshapefighter2"
+	"never disabled"
+	attributes
+		category "Fighter"
+		cost 135000
+		shields 900
+		hull 3600
+		"required crew" 1
+		bunks 1
+		mass 26
+		drag 1
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 6
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+		"Astromech Socket"
+
+		"T1 Fighter Engine (Orange)"
+		"H1 Fighter Hyperspace Motivator"
+
+	engine 0 17
+	engine -11 12
+	engine 11 12
+	gun -7 -47 "Fighter Laser Cannon (Red)"
+	gun 7 -47 "Fighter Laser Cannon (Red)"
+	gun -16 -45 "Proton Torpedo Launcher"
+	gun 16 -45 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The CloakShape fighter is a space and atmospheric fighter built by Kuat Systems Engineering decades before the Clone Wars. These starfighters are not considered particularly agile or powerful, but the reinforced hull make the vessel quite durable, making them overall adequate for their class."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -2631,6 +3204,7 @@ ship "C-ROC Gozanti Cruiser"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The C-ROC Gozanti-class cruiser is a shipyard custom configuration for the Gozanti-class cruiser, manufactured by the Corellian Engineering Corporation. Initially offered to the Imperial Navy as an armed long-range transport, the Navy rejected the C-ROC Gozanti Cruiser as inappropriate to the order of battle, instead choosing the Imperial freighter configuration of Gozanti."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -2678,6 +3252,7 @@ ship "C-ROC Gozanti Cruiser" "C-ROC Gozanti Cruiser (Orange)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The C-ROC Gozanti-class cruiser is a shipyard custom configuration for the Gozanti-class cruiser, manufactured by the Corellian Engineering Corporation. Initially offered to the Imperial Navy as an armed long-range transport, the Navy rejected the C-ROC Gozanti Cruiser as inappropriate to the order of battle, instead choosing the Imperial freighter configuration of Gozanti."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -2687,8 +3262,8 @@ ship "Crusader-class Corvette"
 	attributes
 		category "Medium Warship"
 		"cost" 4600000
-		"shields" 38000
-		"hull" 11000
+		"shields" 36000
+		"hull" 10000
 		"required crew" 30
 		"bunks" 80
 		"mass" 3200
@@ -2716,27 +3291,28 @@ ship "Crusader-class Corvette"
 		"T3 Corvette Sublight Engine (Pink)"
 		"H3 Corvette Hyperspace Motivator"
 		
-	engine -63 366
-	engine 62 367
-	engine -1 395
-	turret -58 -198 "Turbolaser Turret (Yellow)"
-	turret 57 -199 "Turbolaser Turret (Yellow)"
-	turret -59 -136 "Turbolaser Turret (Yellow)"
-	turret 57 -136 "Turbolaser Turret (Yellow)"
-	turret -59 -72 "Turbolaser Turret (Yellow)"
-	turret 57 -71 "Turbolaser Turret (Yellow)"
-	turret -1 -44 "Turbolaser Turret (Yellow)"
-	turret -1 -44 "Turbolaser Turret (Yellow)"
-	turret 0 -390 "Turbolaser Turret (Yellow)"
-	turret 0 -390 "Turbolaser Turret (Yellow)"
-	turret -1 124 "Point-Defence Laser Cannon Battery"
-	turret -1 124 "Point-Defence Laser Cannon Battery"
+	engine -52 293
+	engine 52 293
+	engine 0 293
+	turret -122 106 "Turbolaser Turret (Yellow)"
+	turret 122 106 "Turbolaser Turret (Yellow)"
+	turret -47 -56 "Turbolaser Turret (Yellow)"
+	turret 47 -56 "Turbolaser Turret (Yellow)"
+	turret -47 -108 "Turbolaser Turret (Yellow)"
+	turret 47 -108 "Turbolaser Turret (Yellow)"
+	turret -47 -157 "Turbolaser Turret (Yellow)"
+	turret 47 -157 "Turbolaser Turret (Yellow)"
+	turret 0 -34 "Turbolaser Turret (Yellow)"
+	turret -1 -316 "Turbolaser Turret (Yellow)"
+	turret -85 136 "Point-Defence Laser Cannon Battery"
+	turret 85 136 "Point-Defence Laser Cannon Battery"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Crusader-class corvette, also referred to as the Crusader-class gunship, is a warship in use during the Galactic Civil War. It is produced by Mandal Hypernautics and named after the ancient Mandalorian Crusaders. The Mandalorian corvette is similar in appearance to the Kandosii-type dreadnaught of earlier millennia, complete with sharp edges marking the superstructure."
+	description "The Crusader-class corvette is a warship produced by Mandal Hypernautics. Named after the ancient Mandalorian Crusaders, the corvette is similar in appearance to the Kandosii-type dreadnaught of earlier millennia, complete with sharp edges marking the superstructure. The corvette is faster than any other similar ship, an attribute along with its large weapons-complement, makes the Crusader an extremely pricey vessel."
+	description "Artwork/model by Fractalsponge"
 
 
 
@@ -2746,8 +3322,8 @@ ship "Crusader-class Corvette" "Crusader-class Corvette (Mandalorian)"
 	attributes
 		category "Medium Warship"
 		"cost" 4600000
-		"shields" 38000
-		"hull" 11000
+		"shields" 36000
+		"hull" 10000
 		"required crew" 30
 		"bunks" 80
 		"mass" 3200
@@ -2775,27 +3351,28 @@ ship "Crusader-class Corvette" "Crusader-class Corvette (Mandalorian)"
 		"T3 Corvette Sublight Engine (Pink)"
 		"H3 Corvette Hyperspace Motivator"
 		
-	engine -63 366
-	engine 62 367
-	engine -1 395
-	turret -58 -198 "Turbolaser Turret (Yellow)"
-	turret 57 -199 "Turbolaser Turret (Yellow)"
-	turret -59 -136 "Turbolaser Turret (Yellow)"
-	turret 57 -136 "Turbolaser Turret (Yellow)"
-	turret -59 -72 "Turbolaser Turret (Yellow)"
-	turret 57 -71 "Turbolaser Turret (Yellow)"
-	turret -1 -44 "Turbolaser Turret (Yellow)"
-	turret -1 -44 "Turbolaser Turret (Yellow)"
-	turret 0 -390 "Turbolaser Turret (Yellow)"
-	turret 0 -390 "Turbolaser Turret (Yellow)"
-	turret -1 124 "Point-Defence Laser Cannon Battery"
-	turret -1 124 "Point-Defence Laser Cannon Battery"
+	engine -56 282
+	engine 56 282
+	engine 0 282
+	turret -109 124 "Turbolaser Turret (Yellow)"
+	turret 109 124 "Turbolaser Turret (Yellow)"
+	turret -45 -59 "Turbolaser Turret (Yellow)"
+	turret 45 -59 "Turbolaser Turret (Yellow)"
+	turret -45 -108 "Turbolaser Turret (Yellow)"
+	turret 45 -108 "Turbolaser Turret (Yellow)"
+	turret -43 -157 "Turbolaser Turret (Yellow)"
+	turret 43 -157 "Turbolaser Turret (Yellow)"
+	turret 0 -35 "Turbolaser Turret (Yellow)"
+	turret 0 -315 "Turbolaser Turret (Yellow)"
+	turret -80 120 "Point-Defence Laser Cannon Battery"
+	turret 80 120 "Point-Defence Laser Cannon Battery"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Crusader-class corvette, also referred to as the Crusader-class gunship, is a warship in use during the Galactic Civil War. It is produced by Mandal Hypernautics and named after the ancient Mandalorian Crusaders. The Mandalorian corvette is similar in appearance to the Kandosii-type dreadnaught of earlier millennia, complete with sharp edges marking the superstructure."
+	description "The Crusader-class corvette is a warship produced by Mandal Hypernautics. Named after the ancient Mandalorian Crusaders, the corvette is similar in appearance to the Kandosii-type dreadnaught of earlier millennia, complete with sharp edges marking the superstructure. The corvette is faster than any other similar ship, an attribute along with its large weapons-complement, makes the Crusader an extremely pricey vessel."
+	description "Artwork/model by Daniel T."
 
 
 
@@ -2859,6 +3436,7 @@ ship "CSA ChaseMaster"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "ChaseMasters are frigates produced by the Corporate Sector Authority. Used as capital ships, they are prevalent in the Lost Tribe of Sith's armada."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -2910,6 +3488,7 @@ ship "Cyclone-class R-Wing Starfighter"
 	gun 4 -4 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Sigma-5 Cyclone-class starfighter, also called the R-wing, is an advanced starfighter built by Kuat Systems Engineering for the New Republic and open market. The design features advanced manoeuvring systems that enable it to exceed the performance of contemporary X-wing models and similar fighters. Perhaps its two most distinctive features are its swing-wing s-foils and swivel-mounted laser cannons."
+	description "Artwork/model by calamitySi"
 
 
 
@@ -2961,6 +3540,7 @@ ship "Cyclone-class R-Wing Starfighter (Fighter)"
 	gun 4 -4 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Sigma-5 Cyclone-class starfighter, also called the R-wing, is an advanced starfighter built by Kuat Systems Engineering for the New Republic and open market. The design features advanced manoeuvring systems that enable it to exceed the performance of contemporary X-wing models and similar fighters. Perhaps its two most distinctive features are its swing-wing s-foils and swivel-mounted laser cannons."
+	description "Artwork/model by calamitySi"
 
 
 
@@ -3013,6 +3593,7 @@ ship "D5-Mantis Patrol Craft"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The D5-Mantis Patrol Craft is a rare, top-of-the-line starship that was used during the Cold War. Built for combat, the compact-framed D5-Mantis was a best-in-class patrol craft, designed to meet the demands of larger capital ships."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3065,6 +3646,7 @@ ship "D5-Mantis Patrol Craft" "D5-Mantis Patrol Craft (Gold)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The D5-Mantis Patrol Craft is a rare, top-of-the-line starship that was used during the Cold War. Built for combat, the compact-framed D5-Mantis was a best-in-class patrol craft, designed to meet the demands of larger capital ships."
+	description "Artwork/model by Fractalsponge"
 
 
 
@@ -3083,8 +3665,8 @@ ship "Dart Gunship"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 40
-		"outfit space" 243
-		"weapon capacity" 91
+		"outfit space" 245
+		"weapon capacity" 93
 		"engine capacity" 88
 		weapon
 			"blast radius" 300
@@ -3094,7 +3676,8 @@ ship "Dart Gunship"
 	outfits
 		"Turbolaser Turret (Red)" 4
 		"Concussion Missile Launcher" 1
-		"Concussion Missile" 16
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 13
 		
 		"P3 Corvette Power Converter"
 		"S3 Corvette Shield Projector"
@@ -3118,6 +3701,7 @@ ship "Dart Gunship"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "A rather uncommon ship, the Dart-class gunship can be found patrolling smaller, less frequented hyperlanes (alongside other vessels), sometimes cleaning them from debris or smaller asteroids with its added tractor beam projector."
+	description "Artwork/model by Fractalsponge"
 
 
 
@@ -3167,6 +3751,7 @@ ship "Davaab-type Starfighter"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Davaab-type starfighter is a type of starfighter that was used by the Mandalorians from before and during the Mandalorian Wars. Its name derived from the Mando'a word for 'carrying out' and 'execution'. The fighter was used by the Mandalorians for capital ship protection."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3216,6 +3801,7 @@ ship "Davaab-type Starfighter (Fighter)"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Davaab-type starfighter is a type of starfighter that was used by the Mandalorians from before and during the Mandalorian Wars. Its name derived from the Mando'a word for 'carrying out' and 'execution'. The fighter was used by the Mandalorians for capital ship protection."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3264,7 +3850,8 @@ ship "Defender-class Corvette"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Defender-class light corvette was produced by the Rendili Vehicle Corporation for the Jedi Order during the Great Galactic War between the Galactic Republic and the Sith Empire. Manufactured on Corellia, the Defender-class light corvette was modified specifically for use by Jedi as a mobile operations base. It is a capable starfighter in its own right. "
+	description "The Defender-class light corvette was produced by the Rendili Vehicle Corporation for the Jedi Order during the Great Galactic War between the Galactic Republic and the Sith Empire. Manufactured on Corellia, the Defender-class light corvette was modified specifically for use by Jedi as a mobile operations base. It is a capable starfighter in its own right."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3315,6 +3902,7 @@ ship "Delta-class JV-7 Shuttle"
 	explode "large explosion" 8
 	"final explode" "huge explosion" 3
 	description "The Delta-class JV-7 escort shuttle, simply known as the escort shuttle, is an armed personnel transport manufactured by Cygnus Spaceworks. Derivative of the Lambda-class family, the JV-7 was designed to correct some weaknesses in the original Lambda design. The craft boasts a higher top speed, and manoeuvrability was also improved. It has 20% more shield power and a significantly stronger hull than the Lambda-class."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3361,6 +3949,7 @@ ship "Dusty Duck"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Dusty Duck was a light freighter designed by and utilised by Neeamesh Dym, a Pa'lowick smuggler residing on Nar Shaddaa during the Republic Classic era. The craft was notoriously unreliable, would often sputter to a halt in space, and made involuntary and abrupt descents to many barren worlds."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3399,18 +3988,70 @@ ship "Dynamic Freighter"
 		"T2 Transport Sublight Engine"
 		"H2 Transport Hyperspace Motivator"
 		
-	engine -26 87
-	engine 23 87
-	gun -92 2 "Transport Laser Cannon (Red)"
-	gun 89 3 "Transport Laser Cannon (Red)"
-	turret -2 5 "Transport Dual Laser Turret (Red)"
-	turret -2 5 "Transport Dual Laser Turret (Red)"
+	engine -20 82
+	engine 20 82
+	gun -84 1 "Transport Laser Cannon (Red)"
+	gun 84 1 "Transport Laser Cannon (Red)"
+	turret 0 3 "Transport Dual Laser Turret (Red)"
+	turret 0 3 "Transport Dual Laser Turret (Red)"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Dynamic-class freighter is a light freighter built by a subsidiary of Core Galaxy Systems on the remote Republic world of Transel around the period of the Mandalorian Wars. A stock Dynamic-class freighter was only modestly armed and shielded; however, the ship was designed to accept modifications without compromising existing systems and most ships were therefore heavily customised by their owners. Though prized for its ability to be modified with ease—a trait advertised by the class's name—Dynamic-class starships were rare throughout the galaxy as only one ship was produced at a time."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Dynamic Freighter" "Dynamic Freighter (Old)"
+	sprite "ship/dynamicfreighter2"
+	thumbnail "thumbnail/dynamicfreighter2"
+	attributes
+		category "Transport"
+		"cost" 100000
+		"shields" 3950
+		"hull" 6450
+		"required crew" 2
+		"bunks" 12
+		"mass" 120
+		"drag" 3.3
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 75
+		"weapon capacity" 14
+		"engine capacity" 20
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"Transport Laser Cannon (Red)" 2
+		"Transport Dual Laser Turret (Red)" 2
+		
+		"P2 Transport Power Converter"
+		"S2 Transport Shield Projector"
+		"T2 Sensor Array"
+		"T2 Transport Coolant System"
+		
+		"T2 Transport Sublight Engine"
+		"H2 Transport Hyperspace Motivator"
+		
+	engine -23 81
+	engine 23 81
+	gun -86 2 "Transport Laser Cannon (Red)"
+	gun 86 2 "Transport Laser Cannon (Red)"
+	turret 0 3 "Transport Dual Laser Turret (Red)"
+	turret 0 3 "Transport Dual Laser Turret (Red)"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Dynamic-class freighter is a light freighter built by a subsidiary of Core Galaxy Systems on the remote Republic world of Transel around the period of the Mandalorian Wars. A stock Dynamic-class freighter was only modestly armed and shielded; however, the ship was designed to accept modifications without compromising existing systems and most ships were therefore heavily customised by their owners. Though prized for its ability to be modified with ease—a trait advertised by the class's name—Dynamic-class starships were rare throughout the galaxy as only one ship was produced at a time."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3480,6 +4121,7 @@ ship "EF76 Nebulon-B Frigate (Jsec)"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The EF76 Nebulon-B escort frigate is a frigate manufactured by Kuat Drive Yards. Despite being intended for Imperial Navy service, it is more famous for its role as a Rebel Cruiser, used by the Alliance to Restore the Republic. Boasting a highly versatile design platform, the Nebulon-B frigate serves in a range of capacities, although is typically utilised as an escort frigate. The Rebel Alliance deploys these frigates to protect transport convoys from Imperial attacks or pirate raids, although some are modified for long-range scouting or search-and-rescue operations."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3526,6 +4168,7 @@ ship "Empress-class Super Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Cargo Empress-class super freighter is a 110-meter long ship built by Ghtroc Industries. The Cargo Empress was produced shortly after the introduction of the Class 720 freighter and was an attempt to capitalise on the smaller ship's modest success. However, the Cargo Empress sold poorly and was a major contributing factor to Ghtroc's bankruptcy. In a desperate attempt to pay off the company's debts, all remaining Cargo Empress-class ships were dumped on the market at very low prices. As a result, ships of the class can be found throughout the galaxy, despite their commercial failure."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3533,14 +4176,14 @@ ship "Eternal Battlecruiser"
 	sprite "ship/eternalbattlecruiser"
 	thumbnail "thumbnail/eternalbattlecruiser"
 	attributes
-		category "Heavy Warship"
-		"cost" 300000000
-		"shields" 260000
-		"hull" 65000
+		category "Medium Warship"
+		"cost" 52800000
+		"shields" 125000
+		"hull" 45600
 		"required crew" 1
 		"bunks" 800
-		"mass" 11000
-		"drag" 25
+		"mass" 8800
+		"drag" 23.6
 		"heat dissipation" .45
 		"fuel capacity" 1200
 		"cargo space" 150
@@ -3628,6 +4271,7 @@ ship "Eternal Battlecruiser"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Eternal Fleet warship was the main ship of the Eternal Fleet, a fleet of ships controlled by the sentient GEMINI droid units. The Eternal Fleet was entirely composed of hundreds of warships of this class, which operated in precise patterns and were so fast in hyperspace that only ships equipped with isotope-5 could keep pace. The Cruisers were also equipped with stealth technology and Skytrooper boarding pods."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3678,6 +4322,9 @@ ship "Fang Fighter"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Fang fighter, also known as the Protectorate Fang Fighter, is a model of starfighter designed and used by the Mandalorian Protectors. Fang fighters are fast and highly manoeuvrable starships designed specifically for combat. The craft's narrow attack profile and swivel-mounted wings provide vectored-thrust control, giving the fighter unmatched agility."
+	description "Artwork/model by FlyCasual"
+
+
 
 ship "Fang Fighter (Fighter)"
 	sprite "ship/fangfighter"
@@ -3725,6 +4372,7 @@ ship "Fang Fighter (Fighter)"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Fang fighter, also known as the Protectorate Fang Fighter, is a model of starfighter designed and used by the Mandalorian Protectors. Fang fighters are fast and highly manoeuvrable starships designed specifically for combat. The craft's narrow attack profile and swivel-mounted wings provide vectored-thrust control, giving the fighter unmatched agility."
+	description "Artwork/model by FlyCasual"
 
 
 
@@ -3775,6 +4423,9 @@ ship "Fang Fighter" "Fang Fighter Black"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Fang fighter, also known as the Protectorate Fang Fighter, is a model of starfighter designed and used by the Mandalorian Protectors. Fang fighters are fast and highly manoeuvrable starships designed specifically for combat. The craft's narrow attack profile and swivel-mounted wings provide vectored-thrust control, giving the fighter unmatched agility."
+	description "Artwork/model by FlyCasual"
+
+
 
 ship "Fang Fighter (Fighter)" "Fang Fighter Black (Fighter)"
 	sprite "ship/fangfighterblack"
@@ -3822,6 +4473,7 @@ ship "Fang Fighter (Fighter)" "Fang Fighter Black (Fighter)"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Fang fighter, also known as the Protectorate Fang Fighter, is a model of starfighter designed and used by the Mandalorian Protectors. Fang fighters are fast and highly manoeuvrable starships designed specifically for combat. The craft's narrow attack profile and swivel-mounted wings provide vectored-thrust control, giving the fighter unmatched agility."
+	description "Artwork/model by FlyCasual"
 
 
 
@@ -3874,6 +4526,7 @@ ship "Firespray-31-class Patrol Craft" "Firespray-31-class Patrol Craft (Black)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Firespray-31-class patrol and attack craft is a patrol and transport starship designed by Kuat Systems Engineering initially for use by the Republic Correctional Authority. The most well known of the starships is Jango and Boba Fett's ship, the Slave I."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3926,6 +4579,7 @@ ship "Firespray-31-class Patrol Craft"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Firespray-31-class patrol and attack craft is a patrol and transport starship designed by Kuat Systems Engineering initially for use by the Republic Correctional Authority. The most well known of the starships is Jango and Boba Fett's ship, the Slave I."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -3972,7 +4626,7 @@ ship "Flarestar-class Attack Shuttle"
 	gun 14 -14 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Flarestar-class attack shuttle is a small saucer-shaped shuttle used by the Weequay pirates of Florrum. The Flarestar-class attack shuttle can be launched from the Surronian cruiser-based Corona-class armed frigate and can land on surfaces too small for the mothership."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4019,6 +4673,7 @@ ship "Flarestar-class Attack Shuttle (Fighter)"
 	gun 14 -14 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Flarestar-class attack shuttle is a small saucer-shaped shuttle used by the Weequay pirates of Florrum. The Flarestar-class attack shuttle can be launched from the Surronian cruiser-based Corona-class armed frigate and can land on surfaces too small for the mothership."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4067,6 +4722,7 @@ ship "Foray-class Blockade Runner"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Foray-class's original purpose was to safeguard the Republic Navy's reach by being mass-produced to the point of filling up the trade routes, but the ship gained new mission uses during the Mandalorian Wars. It assisted Republic troops and civilians caught behind enemy lines, and aided besieged Republic worlds by supplying them while under fire."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4117,6 +4773,7 @@ ship "FT-6 Pike Starfighter"
 	gun 9 -18 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The FT-6 Pike was a starfighter in the FT-series of Galactic Republic starfighters produced by Rendili StarDrive. Similar to other models of the series, the Pike had two wings and three rear engines."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4167,6 +4824,7 @@ ship "FT-6 Pike Starfighter (Fighter)"
 	gun 9 -18 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The FT-6 Pike was a starfighter in the FT-series of Galactic Republic starfighters produced by Rendili StarDrive. Similar to other models of the series, the Pike had two wings and three rear engines."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4216,6 +4874,7 @@ ship "FT-7B Clarion Starfighter"
 	gun 9 -21 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The FT-7B Clarion was a starfighter in the FT-series of Galactic Republic starfighters produced by Rendili StarDrive. Similar to other models of the series, the Star Guard had two wings and four rear engines, and it featured laser cannons on each wing. The Clarion lacked the weapon capacity typical of other strike fighters, but possessed a powerful sensor suite and command-and-control systems to boost squadron effectiveness. It sacrificed some manoeuvrability and speed for heavier defences, and its secondary weapons were designed for eliminating stationary and armoured targets."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4265,6 +4924,7 @@ ship "FT-7B Clarion Starfighter (Fighter)"
 	gun 9 -21 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The FT-7B Clarion was a starfighter in the FT-series of Galactic Republic starfighters produced by Rendili StarDrive. Similar to other models of the series, the Star Guard had two wings and four rear engines, and it featured laser cannons on each wing. The Clarion lacked the weapon capacity typical of other strike fighters, but possessed a powerful sensor suite and command-and-control systems to boost squadron effectiveness. It sacrificed some manoeuvrability and speed for heavier defences, and its secondary weapons were designed for eliminating stationary and armoured targets."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4313,6 +4973,7 @@ ship "Fury-class Sith Imperial Interceptor"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Fury-class Imperial Interceptor was a starship used by the reconstituted Sith Empire during the Great Galactic War and its resultant Cold War. Fury-class transports were commonly utilised by prominent Sith Warriors and Sith Inquisitors as their bases of operations throughout important missions on which they were assigned. For this the interior included a large communications room with a holoprojector, as well as cabins for the ship's crew and a conference room."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4357,6 +5018,7 @@ ship "G-1A Starfighter"
 	gun 5 -58 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The G-1A starfighter, also known as the G-1A transport, is a model of starfighter. One such vessel was the Mist Hunter owned by the bounty hunter Zuckuss. Produced by Byblos Drive Yards, the ship is 15 meters long."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4406,6 +5068,7 @@ ship "G1-M4-C Dunelizard Fighter"
 	gun 1 -58 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The G1-M4-C Dunelizard, also known as the Medium Hutt Fighter, is a starfighter of medium weight developed by the Hutts and produced by MandalMotors. The Dunelizard fighter was based upon the M3-A Scyk fighter, retaining that vessel's wedge-shaped wings, though the later model included a number of advanced features."
+	description "Artwork/model from Wookiepedia"
 
 
 
@@ -4455,6 +5118,7 @@ ship "G1-M4-C Dunelizard Fighter (Fighter)"
 	gun 1 -58 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The G1-M4-C Dunelizard, also known as the Medium Hutt Fighter, is a starfighter of medium weight developed by the Hutts and produced by MandalMotors. The Dunelizard fighter was based upon the M3-A Scyk fighter, retaining that vessel's wedge-shaped wings, though the later model included a number of advanced features."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -4504,6 +5168,7 @@ ship "G1-M4-C Dunelizard Fighter" "G1-M4-C Dunelizard Fighter 2"
 	gun 0 -59 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The G1-M4-C Dunelizard, also known as the Medium Hutt Fighter, is a starfighter of medium weight developed by the Hutts and produced by MandalMotors. The Dunelizard fighter was based upon the M3-A Scyk fighter, retaining that vessel's wedge-shaped wings, though the later model included a number of advanced features."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -4553,6 +5218,7 @@ ship "G1-M4-C Dunelizard Fighter (Fighter)" "G1-M4-C Dunelizard Fighter 2 (Fight
 	gun 0 -59 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The G1-M4-C Dunelizard, also known as the Medium Hutt Fighter, is a starfighter of medium weight developed by the Hutts and produced by MandalMotors. The Dunelizard fighter was based upon the M3-A Scyk fighter, retaining that vessel's wedge-shaped wings, though the later model included a number of advanced features."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -4603,6 +5269,7 @@ ship "G9 Rigger-class light freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The G9 Rigger-class light freighter is a model of freighter manufactured by the Corellian Engineering Corporation and used during the Clone Wars. Its only weapons are small blaster cannons attached to the wings and top of the freighter."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4650,6 +5317,7 @@ ship "G-400 Starfighter"
 	gun 10 -26 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The G-400 starfighter is a single-seat fighter used by the Lok Revenants. It is equipped with a single laser cannon and deflector shields and also utilises a hyperdrive."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4697,6 +5365,7 @@ ship "G-400 Starfighter (Fighter)"
 	gun 10 -26 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The G-400 starfighter is a single-seat fighter used by the Lok Revenants. It is equipped with a single laser cannon and deflector shields and also utilises a hyperdrive."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4876,6 +5545,7 @@ ship "Galactic-class Battle Carrier"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Galactic-class Battle Carrier is a capital ship in use by the Galactic Alliance Navy, designed after the end of the Yuuzhan Vong War. Although it is considered a new, large star destroyer, the designation 'battle carrier' was chosen to avoid reminding people of the old imperial terror symbols."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4924,6 +5594,7 @@ ship "General Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "Although the class of freighter remains unidentified, once such ship still exists. The Theoretika was a mobile research laboratory owned by Czerka Corporation that was active over a century before the Galactic War between the Galactic Republic and the Sith Empire. Crewed by a team of over fifty engineers, scientists, and researchers, the Theoretika featured advanced medical and scientific facilities on its six decks, and one of the ship's primary projects in its final years of activity was a bioengineered jurgoran specimen labeled Specimen Gamma 19."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -4970,6 +5641,7 @@ ship "Ghtroc Class 720 Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Class 720 freighter, also known as the Ghtroc 720, is a light freighter manufactured by Ghtroc Industries. Though less popular than the competing YT-series, the Ghtroc 720 developed a following in the Outer Rim Territories, where Ghtroc Industries was located, and thousands of the freighters remained in use even after the manufacturer went out of business."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5014,6 +5686,7 @@ ship "Ginivex-class Starfighter"
 	gun 0 -42 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Ginivex-class starfighters, more commonly known as Fanblade starfighters, were starfighters constructed by the Geonosian Huppla Pasa Tisc Shipwrights Collective for Separatist agent Asajj Ventress and her cohorts on Rattatak. They resembled aggressive Geonosian air patrol skimmers and as a result, the Ginivex-class starfighters were informally dubbed 'Fanblades' for their most distinctive feature."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5062,6 +5735,7 @@ ship "Gozanti-class Cruiser"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Gozanti-class cruiser is a 64-meter long starship that can act as a freighter and cruiser. It sports a twin laser turret in a dorsal mount and a heavy laser cannon on its ventral side."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5110,6 +5784,7 @@ ship "Gozanti-class Cruiser" "Gozanti-class Cruiser (Black Sun)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Gozanti-class cruiser is a 64-meter long starship that can act as a freighter and cruiser. It sports a twin laser turret in a dorsal mount and a heavy laser cannon on its ventral side. The Black Sun frigate was a modified Gozanti-class cruiser that was repurposed to be used as a frigate by the Black Sun criminal syndicate during the Clone Wars."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5162,6 +5837,7 @@ ship "GR-75 Transport" "GR-75 Transport (Jsec)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The GR-75 medium transport, sometimes referred to as the Gallofree transport, is a transport designed and constructed by Gallofree Yards, Inc. They are lightly armed with a clamshell-like hull to protect the cargo pods it carries. A sister design to the civilian GR-45 model, the GR-75 is used by freight drivers and shipping firms to haul cargo."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5170,12 +5846,12 @@ ship "Gravestone"
 	thumbnail "thumbnail/gravestone"
 	attributes
 		category "Heavy Warship"
-		"cost" 600000000
-		"shields" 350000
-		"hull" 85000
+		"cost" 58300000
+		"shields" 157000
+		"hull" 54000
 		"required crew" 20
 		"bunks" 45000
-		"mass" 16500
+		"mass" 10600
 		"drag" 27
 		"heat dissipation" .45
 		"fuel capacity" 1200
@@ -5223,6 +5899,7 @@ ship "Gravestone"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Gravestone was a massive alien combat frigate that was able to defeat the Eternal Fleet, a fleet of droid-controlled warships that was systematically destroying all life within Wild Space, with its powerful Omnicannon. The Gravestone disappeared after the battle with the fleet, scuttled in the Endless Swamp of the planet Zakuul. Centuries later, it was discovered by the crew of the Outlander, who repaired the starship and used it to escape Zakuul. The Gravestone became the mobile base of the Outlander's group prior to the establishment of the Alliance on Odessen."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5272,6 +5949,7 @@ ship "G-Type Light Shuttle"
 	explode "large explosion" 8
 	"final explode" "huge explosion" 3
 	description "G-Type light shuttles were small armed transports used during the Jedi Civil War and Sith Civil Wars. They were used to ferry small parties back and forth between planets and capital ships."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5319,6 +5997,7 @@ ship "GX1 Lantillian Short Hauler"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The GX1 Lantillian Short Hauler is a shuttle model manufactured by Lantillian ShipWrights. During the Clone Wars, the Galactic Republic used several top-of-the-line GX1 short haulers as diplomatic vessels. During the Age of the Empire, GX1 shuttles are still used as starbuses to ferry commuters from one location to another."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5365,6 +6044,7 @@ ship "GX1 Lantillian Short Hauler" "GX1 Lantillian Short Hauler (Phoenix)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The GX1 Lantillian Short Hauler is a shuttle model manufactured by Lantillian ShipWrights. During the Clone Wars, the Galactic Republic used several top-of-the-line GX1 short haulers as diplomatic vessels. During the Age of the Empire, GX1 shuttles are still used as starbuses to ferry commuters from one location to another."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5411,6 +6091,7 @@ ship "GX1 Lantillian Short Hauler" "GX1 Lantillian Short Hauler (Diplomatic)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The GX1 Lantillian Short Hauler is a shuttle model manufactured by Lantillian ShipWrights. During the Clone Wars, the Galactic Republic used several top-of-the-line GX1 short haulers as diplomatic vessels. During the Age of the Empire, GX1 shuttles are still used as starbuses to ferry commuters from one location to another."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5431,7 +6112,7 @@ ship "G-X1 Onslaught"
 		"fuel capacity" 700
 		"cargo space" 0
 		"outfit space" 28
-		"weapon capacity" 9
+		"weapon capacity" 13
 		"engine capacity" 8
 		weapon
 			"blast radius" 45
@@ -5440,15 +6121,15 @@ ship "G-X1 Onslaught"
 			"hit force" 490
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Advanced Homing Missile" 12
-		"Advanced Homing Missile Storage Rack"
 		"Advanced Homing Missile Launcher" 2
-		"Fletchette Missile" 80
-		"Fletchette Missile Storage Rack" 2
+		"Advanced Homing Missile Storage Rack"
+		"Advanced Homing Missile" 11
 		"Fletchette Missile Launcher" 2
-		"Concussion Missile" 10
-		"Concussion Missile Storage Rack"
+		"Fletchette Missile Storage Rack" 2
+		"Fletchette Missile" 80
 		"Concussion Missile Launcher" 2
+		"Concussion Missile Storage Rack"
+		"Concussion Missile" 11
 
 		"P1.5 Heavy Fighter Power Converter"
 		"S1.5 Heavy Fighter Shield Projector"
@@ -5471,6 +6152,7 @@ ship "G-X1 Onslaught"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The G-X1 Onslaught, also known as G-X1 Firehauler, was a Bomber model produced by Galactic Solutions Industries during the Galactic War. The design has impressed many pilots within both the Galactic Republic and the reconstituted Sith Empire, the latter of whom made a bulk purchase of G-X1 to add to their starfighter complements."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5491,7 +6173,7 @@ ship "G-X1 Onslaught (Fighter)"
 		"fuel capacity" 700
 		"cargo space" 0
 		"outfit space" 28
-		"weapon capacity" 9
+		"weapon capacity" 13
 		"engine capacity" 8
 		weapon
 			"blast radius" 45
@@ -5500,15 +6182,15 @@ ship "G-X1 Onslaught (Fighter)"
 			"hit force" 490
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Advanced Homing Missile" 12
-		"Advanced Homing Missile Storage Rack"
 		"Advanced Homing Missile Launcher" 2
-		"Fletchette Missile" 80
-		"Fletchette Missile Storage Rack" 2
+		"Advanced Homing Missile Storage Rack"
+		"Advanced Homing Missile" 11
 		"Fletchette Missile Launcher" 2
-		"Concussion Missile" 10
-		"Concussion Missile Storage Rack"
+		"Fletchette Missile Storage Rack" 2
+		"Fletchette Missile" 80
 		"Concussion Missile Launcher" 2
+		"Concussion Missile Storage Rack"
+		"Concussion Missile" 11
 
 		"P1.5 Heavy Fighter Power Converter"
 		"S1.5 Heavy Fighter Shield Projector"
@@ -5531,6 +6213,7 @@ ship "G-X1 Onslaught (Fighter)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The G-X1 Onslaught, also known as G-X1 Firehauler, was a Bomber model produced by Galactic Solutions Industries during the Galactic War. The design has impressed many pilots within both the Galactic Republic and the reconstituted Sith Empire, the latter of whom made a bulk purchase of G-X1 to add to their starfighter complements."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5558,8 +6241,8 @@ ship "Hammerhead-class Cruiser"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"Turbolaser Turret (Red)" 7
 		"Turbolaser Dual Turret (Red)" 2
+		"Turbolaser Turret (Red)" 7
 		"Point-Defence Laser Cannon Battery" 2
 		
 		"P4 Frigate Power Converter"
@@ -5603,6 +6286,7 @@ ship "Hammerhead-class Cruiser"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Hammerhead-class cruiser was a type of warship used by the Republic Navy during the Old Sith Wars, the Mandalorian Wars, and the New Sith Wars. One of the most successful warship designs in galactic history, the Hammerhead-class is still used in sector defence forces millennia after its introduction, inspiring many later ship designs, such as the Thranta-class corvette and MC140 Scythe-class main battle cruiser."
+	description "Artwork/model by Tuna42"
 
 
 
@@ -5621,8 +6305,8 @@ ship "Hapan Battle Dragon"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 400
-		"outfit space" 1288
-		"weapon capacity" 530
+		"outfit space" 1528
+		"weapon capacity" 770
 		"engine capacity" 530
 		weapon
 			"blast radius" 320
@@ -5630,8 +6314,8 @@ ship "Hapan Battle Dragon"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"Turbolaser Dual Turret (Red)" 6
-		"Turbolaser Turret (Red)" 12
+		"Ion Turret" 8
+		"Turbolaser Turret (Red)" 20
 		
 		"P5 Destroyer Power Converter"
 		"S5 Destroyer Shield Projector"
@@ -5641,26 +6325,36 @@ ship "Hapan Battle Dragon"
 		"T5 Destroyer Sublight Engine"
 		"H5 Destroyer Hyperspace Motivator"
 		
-	engine -34 755
-	engine 29 755
-	turret -3 -353 "Turbolaser Turret (Red)"
-	turret 3 -353 "Turbolaser Turret (Red)"
-	turret -156 -238 "Turbolaser Turret (Red)"
-	turret 148 -233 "Turbolaser Turret (Red)"
-	turret -245 30 "Turbolaser Turret (Red)"
-	turret 237 33 "Turbolaser Turret (Red)"
-	turret -127 42 "Turbolaser Turret (Red)"
-	turret 121 40 "Turbolaser Turret (Red)"
-	turret -141 222 "Turbolaser Dual Turret (Red)"
-	turret -2 173 "Turbolaser Dual Turret (Red)"
-	turret 141 224 "Turbolaser Dual Turret (Red)"
-	turret -138 403 "Turbolaser Dual Turret (Red)"
-	turret 137 401 "Turbolaser Dual Turret (Red)"
-	turret -108 -481 "Turbolaser Dual Turret (Red)"
-	turret -100 630 "Turbolaser Turret (Red)"
-	turret 94 634 "Turbolaser Turret (Red)"
-	turret -3 -129 "Turbolaser Turret (Red)"
-	turret -3 -129 "Turbolaser Turret (Red)"
+	engine -23 778
+	engine 23 778
+	turret -100 649 "Ion Turret"
+	turret 100 649 "Ion Turret"
+	turret -191 603 "Turbolaser Turret (Red)"
+	turret 191 603 "Turbolaser Turret (Red)"
+	turret -256 523 "Turbolaser Turret (Red)"
+	turret 256 523 "Turbolaser Turret (Red)"
+	turret -293 427 "Turbolaser Turret (Red)"
+	turret 293 427 "Turbolaser Turret (Red)"
+	turret -291 325 "Ion Turret"
+	turret 291 325 "Ion Turret"
+	turret -260 228 "Turbolaser Turret (Red)"
+	turret 260 228 "Turbolaser Turret (Red)"
+	turret -193 147 "Turbolaser Turret (Red)"
+	turret 193 147 "Turbolaser Turret (Red)"
+	turret -101 95 "Turbolaser Turret (Red)"
+	turret 101 95 "Turbolaser Turret (Red)"
+	turret -346 203 "Ion Turret"
+	turret 346 203 "Ion Turret"
+	turret -340 0 "Turbolaser Turret (Red)"
+	turret 340 0 "Turbolaser Turret (Red)"
+	turret -292 -201 "Turbolaser Turret (Red)"
+	turret 292 -201 "Turbolaser Turret (Red)"
+	turret -212 -382 "Turbolaser Turret (Red)"
+	turret 212 -382 "Turbolaser Turret (Red)"
+	turret -114 -499 "Ion Turret"
+	turret 114 -499 "Ion Turret"
+	turret -3 -541 "Turbolaser Turret (Red)"
+	turret 0 23 "Turbolaser Turret (Red)"
 	fighter -3 -129
 	fighter -3 -129
 	fighter -3 -129
@@ -5704,6 +6398,7 @@ ship "Hapan Battle Dragon"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Hapan Battle Dragon is the premier warship used by the Hapes Consortium. Battle Dragons feature a unique dual saucer-shaped hull 500 meters in diameter with a central core connected by sixteen rotation support struts."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5791,6 +6486,7 @@ ship "Harrower Star Dreadnought"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Harrower-class dreadnought, known more infrequently as the Harrower-class battle cruiser, was a heavily-armed class of wedge-shaped capital ship that was the backbone of the Imperial Navy of the reconstituted Sith Empire during the Great Galactic War, the Cold War, and the Galactic War with the Galactic Republic. Produced by Taerab Starship Manufacturing and measuring around eight hundred meters long with heavily-reinforced hull plating and shield generators, the ship is the inspiration of the Empire's Imperial I-class Destroyer."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5838,6 +6534,7 @@ ship "HCT-2001 Dragonboat-class Reugeot 905 Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "HCT-2001 Dragonboat-class Reugeot 905 Freighter was used by Trandoshan hunters during the Clone Wars. The slave ship had two braking thrusters facing forward, to aid in landing procedures. At least 12 cargo modules were located towards the stern of the ship and it was armed with a laser turret."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5884,7 +6581,7 @@ ship "Helot-class Medium Space Transport"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Cygnus Spaceworks Helot-class medium space transport is a transport that was designed in the time before the resurgence of the Empire. The ship had already declined in popularity by the end of the Yuuzhan Vong invasion of the galaxy. The ship was designed by engineers from both Cygnus Spaceworks and Sienar Fleet Systems, and was designed as an affordable ship. The Helot lacked shields and had low manoeuvrability, but was equipped with fire-linked laser cannons."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -5937,7 +6634,7 @@ ship "HWK-290 Light Freighter (Modified)"
 	turret 1 -64 "Fighter Laser Turret Underneath (Red)"
 	explode "large explosion" 3
 	description "The HWK-290 is a light freighter manufactured by the Corellian Engineering Corporation during the decades leading up to the Battle of Naboo, in an effort to break into a new market for fast, small cargo ships. Unlike YT-series of ships for tramp captains, the Hawk line is aimed at more upscale clients, like wealthy merchants and noble politicians."
-
+	description "Artwork/model by FlyCasual"
 
 
 
@@ -5986,6 +6683,7 @@ ship "HWK-290 Light Freighter (Stock)"
 	turret 1 -64 "Defenceless"
 	explode "large explosion" 3
 	description "The HWK-290 is a light freighter manufactured by the Corellian Engineering Corporation during the decades leading up to the Battle of Naboo, in an effort to break into a new market for fast, small cargo ships. Unlike YT-series of ships for tramp captains, the Hawk line is aimed at more upscale clients, like wealthy merchants and noble politicians."
+	description "Artwork/model by FlyCasual"
 
 
 
@@ -6034,6 +6732,7 @@ ship "IL-5 Ocula Starfighter"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The IL-5 Ocula, also known to the Galactic Republic as the IL-5 Skybolt, was a starfighter produced by Czerka Corporation. The Republic Military chose to forgo purchasing the Ocula in favour of Corellia StarDrive's designs, but a number of Oculas—redesignated the Skybolt—were utilised by regional governors and admirals."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -6082,6 +6781,7 @@ ship "IL-5 Ocula Starfighter (Fighter)"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The IL-5 Ocula, also known to the Galactic Republic as the IL-5 Skybolt, was a starfighter produced by Czerka Corporation. The Republic Military chose to forgo purchasing the Ocula in favour of Corellia StarDrive's designs, but a number of Oculas—redesignated the Skybolt—were utilised by regional governors and admirals."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -6324,6 +7024,7 @@ ship "Inexpugnable-class Tactical Command Ship"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Inexpugnable-class tactical command ship was a large warship class used by the Republic Navy during the Mandalorian Wars. Designed and manufactured by Rendili Hyperworks and Rendili/Vanjervalis Drive Yards, the Inexpugnable-class was used as a flagship and command ship. Often described as a mobile space station, at 3,100 meters in diameter it was one of the largest Republic spacecraft of its time. The Inexpugnable-class was renowned for its ability to lead massive Republic fleets, employing advanced command techniques such as the Vanjervalis Chain to command up to sixty-four Hammerhead-class cruisers simultaneously. Despite its usefulness as a fleet flagship, the ship had several weaknesses, and as such, only six Inexpugnable-class ships were manufactured."
+	description "Artwork/model by Fractalsponge"
 
 
 
@@ -6412,6 +7113,7 @@ ship "Interdictor-class Sith Destroyer"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Interdictor-class cruiser, also known as the hyperspace interdiction cruiser and the Interdictor-class Sith Destroyer, was among the most numerous capital ships seen in action with the Sith armada during and after the Jedi Civil War. Some of these ships can still be found use."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -6462,6 +7164,7 @@ ship "Iradia-class Corvette"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Iradia-class Corvette was a multipurpose vessel used extensively by the Republic Navy. Designed to efficiently carry troops and combat enemies, the Iradia was armed with laser cannons used for anti-starfighter and anti-corvette duties, as well as swift engines and a decent shielding system."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -6503,6 +7206,7 @@ ship "IRD Starfighter"
 	gun 38 -11 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The IRD starfighters, short for Intercept Reconnaissance Defense, is a swift and heavily armed starfighter used by the Corporate Sector's Picket Fleet. The IRD featured powerful engines, twin laser cannons, and the best pilot ejection mechanism of any contemporary fighter, but lacks a hyperdrive."
+	description "Artwork/model from WorldWar2Ships"
 
 
 
@@ -6544,6 +7248,7 @@ ship "IRD Starfighter (Fighter)"
 	gun 38 -11 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The IRD starfighters, short for Intercept Reconnaissance Defense, is a swift and heavily armed starfighter used by the Corporate Sector's Picket Fleet. The IRD featured powerful engines, twin laser cannons, and the best pilot ejection mechanism of any contemporary fighter, but lacks a hyperdrive."
+	description "Artwork/model from WorldWar2Ships"
 
 
 
@@ -6594,6 +7299,7 @@ ship "Ixiyen-class Fast Attack Craft"
 	gun 0 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ixiyen was designed to be a dominant force in the average fighter-on-fighter confrontation. It is well-armed and protected enough to be able to harry much larger ships. Although not used in large numbers by any governmental organisations, it is not for lack of quality or performance. The Ixiyen is a deadly opponent, capable of holding its own against most of its contemporaries in front-line combat craft."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -6644,6 +7350,7 @@ ship "Ixiyen-class Fast Attack Craft (Fighter)"
 	gun 0 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ixiyen was designed to be a dominant force in the average fighter-on-fighter confrontation. It is well-armed and protected enough to be able to harry much larger ships. Although not used in large numbers by any governmental organisations, it is not for lack of quality or performance. The Ixiyen is a deadly opponent, capable of holding its own against most of its contemporaries in front-line combat craft."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -6691,6 +7398,7 @@ ship "K-52 Strongarm Demolisher"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The K-52 Strongarm, also known as K-52 Demolisher, was a gunship model produced by Hyrotii Corporation during the Galactic War. The ship was sold to customers all over the galaxy without question. It was also popular with privateers, mercenaries and other non-military sources that lend their services to the Republic Navy of the Galactic Republic."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -6906,6 +7614,7 @@ ship "Kandosii-type Dreadnought"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Kandosii-type dreadnaught, named after the Mando'a word for "ruthless", was the largest capital ship used by the Mandalorians during the Mandalorian Wars. Originally designed and built by the Fenelar, the Mandalorians stole the Kandosii-type design, during their conquest and destruction of the species. These dreadnoughts were later used by the Mandalorian Neo-Crusaders during the Mandalorian Wars against the Galactic Republic."
+	description "Artwork/model by Fractalsponge"
 
 
 
@@ -7022,6 +7731,7 @@ ship "Keldabe-class Battleship"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Keldabe-class battleship, also known as the Keldabe-class cruiser, was one of several different warship classes utilized by Tyber Zann's faction and others in the Galactic Civil War. Like the Crusader-class corvette, the Keldabe-class battleship was a Mandal Hypernautics design. It was named after Mandalore's capital, Keldabe. Like the Mandalorian corvette, the battleship design was marked by sharp edges similar to the ancient Mandalorian Kandosii-type dreadnaught. (Fighters 36)"
+	description "Artwork/model by Jeroenimo"
 
 
 
@@ -7069,6 +7779,7 @@ ship "Kihraxz Assault Fighter"
 	gun 0 -48 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Kihraxz assault fighter, also known as the Kihraxz light fighter, is a light starfighter developed specifically for Black Sun. While intended for the criminal organisation, many Kihraxz starfighters have found their way into the hands of various independent fringers."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -7116,7 +7827,7 @@ ship "Kihraxz Assault Fighter (Fighter)"
 	gun 0 -48 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Kihraxz assault fighter, also known as the Kihraxz light fighter, is a light starfighter developed specifically for Black Sun. While intended for the criminal organisation, many Kihraxz starfighters have found their way into the hands of various independent fringers."
-
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -7169,6 +7880,7 @@ ship "Kom'rk-class Fighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Kom'rk-class fighter, also known as the Gauntlet starfighter, is a type of starfighter and troop transport used by the Mandalorian splinter faction known as Death Watch during the Clone Wars. The fighters were utilised as part of a move by Death Watch leader Pre Vizsla to end Satine Kryze's pacifist rule of Mandalore and restore the Mandalorians to their former warrior past."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -7224,6 +7936,7 @@ ship "Krayt Dragon Ship"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "A Krayt Dragon ship is a capital ship that served in the One Sith. Manufactured in secret alongside Emperor Krayt's Annihilator-class starfighters, these ships were unveiled in 138 ABY, when the deposed Krayt returned to Coruscant to reclaim his throne from his "most trusted" servant."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -7275,6 +7988,7 @@ ship "KR-TB Doomtreader"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The KR-TB Doomtreader is a freighter produced by Corellian Engineering Corporation. It has expansive cargo holds, heavy deflector shields and dual laser cannons, but comes at a relatively high price."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -7320,6 +8034,7 @@ ship "KT-400 Military Droid Carrier"
 	turret 62 -66 "Transport Laser Turret (Red)"
 	explode "large explosion" 3
 	description "The KT-400 military droid carrier was a light freighter, and a common sight throughout the galaxy both before and after the Jedi Civil War. Originally designed by Kellenech Technologies, a droid manufacturer, this ship was supposed to carry its military and construction droids. But when it bankrupted, the Galactic Republic took the design and began production of the ships through Republic Fleet Systems. However, after the Great Sith War the funding stopped and a variety of manufacturers was contracted to finish the vessels for military and commercial use."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -7373,6 +8088,7 @@ ship "KT-600 Military Transport"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The KT-600 Military Transport was a type of transport used by the Republic during the Cold War and the Second Great Galactic War. KT-600's were used extensively by the Republic Navy along with the smaller Fortitude-class Assault Shuttle."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -7426,7 +8142,7 @@ ship "Lancer Pursuit Craft"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Lancer-class pursuit craft is a patrol ship produced by MandalMotors at the behest of the Black Sun crime syndicate. Blurring the line between civilian freighter and warship, the Lancer is more interdiction and patrol vessel than workaday cargo hauler. Created on special commission for Black Sun by MandalMotors, the Lancer is designed to chase down fleeing cargo vessels and outrun other patrol ships."
-
+	description "Artwork/model by FlyCasual"
 
 
 ship "Lancer Pursuit Craft" "Lancer Pursuit Craft (Black)"
@@ -7479,6 +8195,7 @@ ship "Lancer Pursuit Craft" "Lancer Pursuit Craft (Black)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Lancer-class pursuit craft is a patrol ship produced by MandalMotors at the behest of the Black Sun crime syndicate. Blurring the line between civilian freighter and warship, the Lancer is more interdiction and patrol vessel than workaday cargo hauler. Created on special commission for Black Sun by MandalMotors, the Lancer is designed to chase down fleeing cargo vessels and outrun other patrol ships."
+	description "Artwork/model by FlyCasual"
 
 
 
@@ -7530,6 +8247,7 @@ ship "Miy'til Starfighter"
 	gun 3 -3 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Miy'til starfighter is a fighter unique to the Hapes Consortium,  serving as the primary superiority fighter. Following their defeat in the Clone Wars, several Separatist starfighter engineers fled into the Hapes Cluster, seeking refuge. There, they lent their services to the Consortium, helping to develop new fighter designs."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -7581,6 +8299,8 @@ ship "Miy'til Starfighter (Fighter)"
 	gun 3 -3 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Miy'til starfighter is a fighter unique to the Hapes Consortium,  serving as the primary superiority fighter. Following their defeat in the Clone Wars, several Separatist starfighter engineers fled into the Hapes Cluster, seeking refuge. There, they lent their services to the Consortium, helping to develop new fighter designs."
+	description "Artwork/model by Unusualsuspex"
+
 
 
 ship "Pulsar-class Destroyer"
@@ -7673,7 +8393,7 @@ ship "Pulsar-class Destroyer"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "Often considered to be a twin to the more infamous Aggressor-class Star Destroyer, the Pulsar-class Destroyer is one of several different warship classes utilised by Tyber Zann's faction. Ships of the class were comparable in terms of size to the Galactic Empire's Imperial-class Star Destroyers and were armed with two powerful fire-linked guns fixed to the forward hull which fired a large ion pulse followed by an enormous, spiralling plasma shot."
-
+	description "Artwork/model by Mobius13"
 
 
 
@@ -7749,6 +8469,7 @@ ship "Purrgil"
 	leak "blood" 40 40
 	explode "blood" 200
 	description "Purrgil are a species of massive, whale-like creatures that live in deep space, traveling from star system to star system. It is their natural ability to fly through hyperspace that inspired sentients to develop hyperdrive technology. However, most spacers consider purrgil to be pests due to their habit of approaching and flying into starships near their flight paths. Numerous spacer deaths can be attributed to purrgil-related incidents, leading most spacers to fire upon them on sight."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -7797,6 +8518,7 @@ ship "Mobquet MB-C1 Medium Transport"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The MB-C1 medium transport, also known as the Mobquet Medium Transport or Mobquet Medium Cargo Hauler, is a transport ship produced by Mobquet Swoops and Speeders. Although one of the slower transports, The MB-C1 medium transport has slightly reinforced hull and extra space which increases its popularity."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -7845,6 +8567,7 @@ ship "Mobquet MB-C1 Medium Transport (Starhook Ten)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The MB-C1 medium transport, also known as the Mobquet Medium Transport or Mobquet Medium Cargo Hauler, is a transport ship produced by Mobquet Swoops and Speeders. Although one of the slower transports, The MB-C1 medium transport has slightly reinforced hull and extra space which increases its popularity."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -7892,6 +8615,7 @@ ship "Modular Conveyor"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Modular Conveyor is a freighter built by Allegra Enterprise Systems. The Modular Conveyor is specially designed to transport four Class-E cargo containers. These containers are affixed in pairs on the port and starboard surfaces of the vessel's fuselage. One Class-A cargo container can also be attached beneath the cockpit module. The craft only requires a crew of six, and is armed with three, turret mounted, dual laser cannons."
+	description "Artwork/model from Picaro Star Shipyards"
 
 
 
@@ -7941,6 +8665,7 @@ ship "N-1 Starfighter"  "N-1 Starfighter (Jsec)"
 	gun 10 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The N-1 starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glint in the sun for fly-bys and parades, and represent the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stands in stark contrast to its overall yellow finish."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -7990,6 +8715,7 @@ ship "N-1 Starfighter (Fighter)" "N-1 Starfighter (Jsec) (Fighter)"
 	gun 10 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The N-1 starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glint in the sun for fly-bys and parades, and represent the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stands in stark contrast to its overall yellow finish."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -8039,6 +8765,7 @@ ship "N-1 Starfighter"
 	gun 10 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The N-1 starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glint in the sun for fly-bys and parades, and represent the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stands in stark contrast to its overall yellow finish."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -8088,7 +8815,7 @@ ship "N-1 Starfighter (Fighter)"
 	gun 10 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The N-1 starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. Buffed chromium finishes on the craft's forward surfaces glint in the sun for fly-bys and parades, and represent the royalty of Naboo, complementing the Royal Starship. The N-1's chromium stands in stark contrast to its overall yellow finish."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 ship "N-22 Starfighter"
@@ -8137,6 +8864,7 @@ ship "N-22 Starfighter"
 	gun -1 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The N-22 Ravenous starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. A more combat focused variant of the N-1 starfighter, N-22s can normally be found in system patrols near Naboo."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -8186,21 +8914,22 @@ ship "N-22 Starfighter (Fighter)"
 	gun -1 -41 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The N-22 Ravenous starfighter is a sleek single-pilot craft used by the Naboo, demonstrating the marriage of art and function present in Naboo technology. A more combat focused variant of the N-1 starfighter, N-22s can normally be found in system patrols near Naboo."
+	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Nar Shadda Destroyer"
+ship "Nar Shaddaa Destroyer"
 	sprite "ship/narshaddaadestroyer"
 	thumbnail "thumbnail/narshaddaadestroyer"
 	attributes
 		category "Heavy Warship"
 		"cost" 58000000
-		"shields" 150000
-		"hull" 52000
+		"shields" 155000
+		"hull" 53500
 		"required crew" 5200
-		"bunks" 14000
+		"bunks" 14200
 		"mass" 9500
-		"drag" 23
+		"drag" 23.7
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
@@ -8289,7 +9018,8 @@ ship "Nar Shadda Destroyer"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Nar Shadda Destroyer appears to be a hybrid of the Venator-class and the Imperial-class Star Destroyers, but is smaller than both and has a visual protrusion at the bow. The design has armour that could extend and retract around the vessel itself. Most models are used around the system Nar Hutta, homeworld of the Hutt species."
+	description "The Nar Shaddaa Destroyer appears to be a hybrid of the Venator-class and the Imperial-class Star Destroyers, but is smaller than both and has a visual protrusion at the bow. The design has armour that could extend and retract around the vessel itself. Most models are used around the system Nar Hutta, homeworld of the Hutt species."
+	description "Artwork/model by Nomada_Firefox"
 
 
 
@@ -8340,6 +9070,7 @@ ship "Nimbus-class V-wing Starfighter" "Nimbus-class V-wing Starfighter (Jsec)"
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, is a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -8390,6 +9121,8 @@ ship "Nimbus-class V-wing Starfighter (Fighter)" "Nimbus-class V-wing Starfighte
 	explode "large explosion"
 	"final explode" "final explosion large"
 	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, is a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
+	description "Artwork/model by Unusualsuspex"
+
 
 
 ship "Nova-class Battle Cruiser"
@@ -8466,6 +9199,7 @@ ship "Nova-class Battle Cruiser"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Nova-class battle cruiser is a capital ship that forms a large portion of the Hapan fleet. The Hapes Consortium has several different warships at their disposal. The backbone of their fleet is the distinctive Battle Dragon, but Nova-class battle cruisers are regularly used to supplement the Dragons."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -8514,7 +9248,7 @@ ship "Old Republic Diplomatic Transport"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Old Republic Transport ship was used by the Galactic Republic during the Great Galactic War as a multi purpose vessel, though primarily for diplomatic missions."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -8557,6 +9291,7 @@ ship "Pinook Fighter"
 	gun 10 8 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Pinook fighter is a starfighter manufactured by Joraan Drive Systems. Compared to other starfighters in service, the Pinook is underpowered, undergunned, poorly shielded, and inadequately armoured. A worse than average craft all around, its only favourable quality is its better-than-average manoeuvrability."
+	description "Artwork/model form WorldWar2Ships"
 
 
 
@@ -8599,6 +9334,7 @@ ship "Pinook Fighter (Fighter)"
 	gun 10 8 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Pinook fighter is a starfighter manufactured by Joraan Drive Systems. Compared to other starfighters in service, the Pinook is underpowered, undergunned, poorly shielded, and inadequately armoured. A worse than average craft all around, its only favourable quality is its better-than-average manoeuvrability."
+	description "Artwork/model from WorldWar2Ships"
 
 
 
@@ -8648,6 +9384,7 @@ ship "Planetary Defender"
 	gun 9 -9 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Planetary Defender starfighter, also known simply as the Planetary Fighter, is one of the countless products of SoroSuub Corporation. Although the Planetary Starfighter is able to travel through space, it is not a space superiority fighter for military use. Rather, it is used for corporate security by customs forces. While the craft's roll was limited, it has excellent pitch, speed, and acceleration."
+	description "Artwork/model from WorldWar2Ships"
 
 
 
@@ -8697,6 +9434,7 @@ ship "Planetary Defender (Fighter)"
 	gun 9 -9 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Planetary Defender starfighter, also known simply as the Planetary Fighter, is one of the countless products of SoroSuub Corporation. Although the Planetary Starfighter is able to travel through space, it is not a space superiority fighter for military use. Rather, it is used for corporate security by customs forces. While the craft's roll was limited, it has excellent pitch, speed, and acceleration."
+	description "Artwork/model from WorldWar2Ships"
 
 
 
@@ -8710,8 +9448,8 @@ ship "Liberator-class Cruiser"
 		"hull" 38000
 		"required crew" 300
 		"bunks" 700
-		"mass" 8100
-		"drag" 23
+		"mass" 6500
+		"drag" 19
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
@@ -8814,7 +9552,7 @@ ship "Liberator-class Cruiser"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Liberator-class cruiser, also Liberator Cruiser, is a powerful frontline capital ship designed by the SoroSuub Corporation to combat piracy. Although slender and small in size, the cruiser boasts a formidable array of weaponry comprising more than four hundred combined turbolaser and ion cannon batteries, and can carry a complement of six starfighter squadrons and three troop regiments. Utilised by both the Sullustan Home Guard and the Rebel Alliance during the Galactic Civil War, the Liberator features cutting-edge armour plating, shielding, and drive unit technology, making it one of the galaxy's most advanced warships."
-
+	description "Artwork/model from Picaro Star Shipyards"
 
 
 
@@ -8862,7 +9600,7 @@ ship "Liberator-class Fighter"
 	gun 6 -6 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Liberator-class starfighter, known by the reconstituted Sith Empire as the Talon fighter, was a model of fighter used by the Galactic Republic prior to and during the Great Galactic War. One of the ship's variants was the Striker-class, mostly used by Jedi Master Satele Shan."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 ship "Liberator-class Fighter (Fighter)"
@@ -8909,6 +9647,7 @@ ship "Liberator-class Fighter (Fighter)"
 	gun 6 -6 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Liberator-class starfighter, known by the reconstituted Sith Empire as the Talon fighter, was a model of fighter used by the Galactic Republic prior to and during the Great Galactic War. One of the ship's variants was the Striker-class, mostly used by Jedi Master Satele Shan."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -8958,6 +9697,7 @@ ship "Liberator-class Fighter (Modified)"
 	gun 6 -6 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Liberator-class starfighter, known by the reconstituted Sith Empire as the Talon fighter, was a model of fighter used by the Galactic Republic prior to and during the Great Galactic War. One of the ship's variants was the Striker-class, mostly used by Jedi Master Satele Shan."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -9007,6 +9747,7 @@ ship "Liberator-class Fighter (Modified) (Fighter)"
 	gun 6 -6 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Liberator-class starfighter, known by the reconstituted Sith Empire as the Talon fighter, was a model of fighter used by the Galactic Republic prior to and during the Great Galactic War. One of the ship's variants was the Striker-class, mostly used by Jedi Master Satele Shan."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -9057,6 +9798,7 @@ ship "Lok Revenants Assault Fighter"
 	gun 31 2 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Lok Revenants Assault Fighter is a heavy fighter used by the Lok Revenants. It has a much higher firepower than the G-400 starfighter, having four laser cannons rather than a single cannon."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -9099,6 +9841,7 @@ ship "M3-A Scyk Fighter"
 	gun 5 -32 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The M3-A Scyk fighter is a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It is named after the Scyk lizard of Tatooine. Although the Scyk barely provides more amenities to its pilot than a TIE/LN starfighter, it has two strong points - it is cheap and its weapon mount is designed to handle nearly anything."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -9141,6 +9884,7 @@ ship "M3-A Scyk Fighter (Fighter)"
 	gun 5 -32 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The M3-A Scyk fighter is a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It is named after the Scyk lizard of Tatooine. Although the Scyk barely provides more amenities to its pilot than a TIE/LN starfighter, it has two strong points - it is cheap and its weapon mount is designed to handle nearly anything."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -9183,6 +9927,7 @@ ship "M3-A Scyk Fighter" "M3-A Scyk Fighter (Black)"
 	gun 5 -32 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The M3-A Scyk fighter is a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It is named after the Scyk lizard of Tatooine. Although the Scyk barely provides more amenities to its pilot than a TIE/LN starfighter, it has two strong points - it is cheap and its weapon mount is designed to handle nearly anything."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -9225,7 +9970,7 @@ ship "M3-A Scyk Fighter (Fighter)" "M3-A Scyk Fighter (Black) (Fighter)"
 	gun 5 -32 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The M3-A Scyk fighter is a light interceptor, the lightest of all the starfighter designs produced by its Mandalorian manufacturer, MandalMotors. It is named after the Scyk lizard of Tatooine. Although the Scyk barely provides more amenities to its pilot than a TIE/LN starfighter, it has two strong points - it is cheap and its weapon mount is designed to handle nearly anything."
-
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -9246,7 +9991,7 @@ ship "M12-L Kimogila Heavy Fighter"
 		"fuel capacity" 700
 		"cargo space" 0
 		"outfit space" 21
-		"weapon capacity" 7
+		"weapon capacity" 8
 		"engine capacity" 6
 		weapon
 			"blast radius" 45
@@ -9255,9 +10000,9 @@ ship "M12-L Kimogila Heavy Fighter"
 			"hit force" 490
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Concussion Missile" 10
-		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
+		"Concussion Missile Storage Rack"
+		"Concussion Missile" 11
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
@@ -9281,6 +10026,7 @@ ship "M12-L Kimogila Heavy Fighter"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The M12-L Kimogila heavy fighter is the heaviest in MandalMotors line of snubfighters. The M12 is used by the Hutt crime organisations to protect their 'interests' and are often crewed by mercenary pilots. Its numerous gun emplacements classify the ship as a heavy fighter, and its torpedo capabilities allow it to function as a bomber in special circumstances. This flexibility makes it quite popular among free mercenaries. Though it lacks the speed and manoeuvring capabilities of its predecessors, its ability to cause wanton slaughter may outweigh these factors."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -9301,7 +10047,7 @@ ship "M12-L Kimogila Heavy Fighter (Fighter)"
 		"fuel capacity" 700
 		"cargo space" 0
 		"outfit space" 21
-		"weapon capacity" 7
+		"weapon capacity" 8
 		"engine capacity" 6
 		weapon
 			"blast radius" 45
@@ -9310,9 +10056,9 @@ ship "M12-L Kimogila Heavy Fighter (Fighter)"
 			"hit force" 490
 	outfits
 		"Fighter Laser Cannon (Red)" 2
-		"Concussion Missile" 10
-		"Concussion Missile Storage Rack"
 		"Concussion Missile Launcher" 2
+		"Concussion Missile Storage Rack"
+		"Concussion Missile" 11
 		"Proton Torpedo Launcher" 2
 		"Proton Torpedo" 6
 
@@ -9336,6 +10082,7 @@ ship "M12-L Kimogila Heavy Fighter (Fighter)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The M12-L Kimogila heavy fighter is the heaviest in MandalMotors line of snubfighters. The M12 is used by the Hutt crime organisations to protect their 'interests' and are often crewed by mercenary pilots. Its numerous gun emplacements classify the ship as a heavy fighter, and its torpedo capabilities allow it to function as a bomber in special circumstances. This flexibility makes it quite popular among free mercenaries. Though it lacks the speed and manoeuvring capabilities of its predecessors, its ability to cause wanton slaughter may outweigh these factors."
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -9354,8 +10101,8 @@ ship "Ranger Gunboat"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 40
-		"outfit space" 244
-		"weapon capacity" 92
+		"outfit space" 246
+		"weapon capacity" 94
 		"engine capacity" 88
 		weapon
 			"blast radius" 300
@@ -9365,7 +10112,8 @@ ship "Ranger Gunboat"
 	outfits
 		"Turbolaser Turret (Red)" 4
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 24
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
 		
 		"P3 Corvette Power Converter"
 		"S3 Corvette Shield Projector"
@@ -9389,6 +10137,7 @@ ship "Ranger Gunboat"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Ranger Gunboat is a rather uncommon ship most widely used as a patrol ships for smaller, less frequented hyperplanes. The vessel is capable of holding its own, not requiring the support of smaller patrol ships. The Ranger sometimes cleans hyperlanes from debris or smaller asteroids with its added tractor beam projector."
+	description "Artwork/model from Firefoxccmods"
 
 
 
@@ -9441,6 +10190,7 @@ ship "R60 T-Wing"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing is a light fast-response starfighter. The ship's speed is similar to a TIE Interceptor, but it also includes hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -9493,6 +10243,7 @@ ship "R60 T-Wing (Fighter)"
 	explode "tiny explosion" 20
 	explode "large explosion" 3
 	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing is a light fast-response starfighter. The ship's speed is similar to a TIE Interceptor, but it also includes hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -9542,6 +10293,7 @@ ship "R60 T-Wing (Prototype)"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
 	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing is a light fast-response starfighter. The ship's speed is similar to a TIE Interceptor, but it also includes hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
+	description "Artwork/model from WorldWar2Ships"
 
 
 
@@ -9591,6 +10343,7 @@ ship "R60 T-Wing (Prototype) (Fighter)"
 	explode "tiny explosion" 20
 	explode "large explosion" 3
 	description "The R60 T-wing interceptor was an interceptor originally designed to replace the A-wing. Unfortunately, the end result turned out to be a poor replacement for the craft. Like the A-wing, the T-wing is a light fast-response starfighter. The ship's speed is similar to a TIE Interceptor, but it also includes hyperdrive capability. With shield and hull strength similar to that of the Z-95 Headhunter, this craft would not last long if it was hit accurately by even a medium-power salvo."
+	description "Artwork/model from WorldWar2Ships"
 
 
 
@@ -9638,6 +10391,56 @@ ship "Razor Crest Gunship"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Razor Crest is a gunship used by the Mandalorian bounty hunter Din Djarin. It was once a military craft used to patrol local territories prior to the Galactic Empire. Djarin utilises the vessel as his transport and living quarters while hunting fugitives in the Outer Rim Territories."
+	description "Artwork/model by Binkley-Spacetrucker"
+
+
+
+ship "Sabaoth Cavik Toth's Starfighter"
+	sprite "ship/sabaothcaviktothfighter"
+	thumbnail "thumbnail/sabaothcaviktothfighter"
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 150000
+		shields 1600
+		hull 3000
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag .95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 6
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Laser Cannon (Red)" 2
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Fighter Power Converter"
+		"S1 Fighter Shield Projector"
+		"T1 Sensor Array"
+		"T1 Fighter Coolant System"
+
+		"T1 Fighter Engine (Orange)"
+		"H1 Fighter Hyperspace Motivator"
+
+	engine -19 49
+	engine 15 50
+	gun -43 21 "Fighter Laser Cannon (Red)"
+	gun 40 20 "Fighter Laser Cannon (Red)"
+	gun -8 12 "Proton Torpedo Launcher"
+	gun 5 10 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "Captain Cavik Toth's personal starfighter was a small, one man attack fighter launched from the hangar bay of his flagship. It was armed with heavy laser cannons and concussion missile launchers. It also possessed phenomenal speed and agility, and a powerful shield to defend it from enemy fire."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -9689,6 +10492,7 @@ ship "SCT Scout Craft"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Mesens Corporation SCT Scout Craft is a long range reconnaissance vessel, commonly used for deep space patrols on the far edges of planetary systems. The vessel's most notable feature, however, is its prominent sensor dish, located beneath the bridge. This is the key component that enabled the Scout Craft to fulfil its function admirably. The craft is not commonly seen, however this was probably due to the predominantly clandestine nature of their missions. Popular with various groups throughout the galaxy, the SCT scout craft is observed in the employ of both legitimate authorities and outlaw groups."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -9708,7 +10512,7 @@ ship "Scurrg H-6 Prototype Bomber"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 24
+		"outfit space" 23
 		"weapon capacity" 10
 		"engine capacity" 6
 		weapon
@@ -9744,6 +10548,7 @@ ship "Scurrg H-6 Prototype Bomber"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -9763,7 +10568,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 24
+		"outfit space" 23
 		"weapon capacity" 10
 		"engine capacity" 6
 		weapon
@@ -9799,6 +10604,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -9818,7 +10624,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Orang
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 24
+		"outfit space" 23
 		"weapon capacity" 10
 		"engine capacity" 6
 		weapon
@@ -9854,6 +10660,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Orang
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -9873,7 +10680,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 24
+		"outfit space" 23
 		"weapon capacity" 10
 		"engine capacity" 6
 		weapon
@@ -9909,6 +10716,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -9928,7 +10736,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Red)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 24
+		"outfit space" 23
 		"weapon capacity" 10
 		"engine capacity" 6
 		weapon
@@ -9964,6 +10772,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Black Sun Red)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -9983,7 +10792,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 24
+		"outfit space" 23
 		"weapon capacity" 10
 		"engine capacity" 6
 		weapon
@@ -10019,6 +10828,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Black
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -10038,7 +10848,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Maroon)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 24
+		"outfit space" 23
 		"weapon capacity" 10
 		"engine capacity" 6
 		weapon
@@ -10074,6 +10884,7 @@ ship "Scurrg H-6 Prototype Bomber" "Scurrg H-6 Prototype Bomber (Maroon)"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -10093,7 +10904,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Maroo
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 24
+		"outfit space" 23
 		"weapon capacity" 10
 		"engine capacity" 6
 		weapon
@@ -10129,6 +10940,7 @@ ship "Scurrg H-6 Prototype Bomber (Fighter)" "Scurrg H-6 Prototype Bomber (Maroo
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Scurrg H-6 prototype bomber is an experimental bomber created five years before the Battle of Naboo by the Nubian Design Collective, who hoped to sell the design to the Naboo. However, the Naboo had no need for such a bomber, and the original prototype was stolen by the Feeorin pirate Nym, who later named it Havoc. Several other prototypes have been produced with only minor improvements, but the price tag on the starfighter has dissuaded a number of potential buyers from investing in it."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -10179,7 +10991,7 @@ ship "StarViper-class Attack Platform"
 	gun 13 -17 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The StarViper-class attack platform is a heavy starfighter that was based on Prince Xizor's Virago. It is used extensively in the criminal underworld. Unlike other starfighters, it is short in length but tall, lacking a fuselage. It has decent armour, is fairly quick, but is also expensive, meaning that it is not deployed in large squadrons. The StarViper is also able to release buzz droids to harm nearby craft."
-
+	description "Artwork/model by UnusualSuspex"
 
 
 ship "StarViper-class Attack Platform (Fighter)"
@@ -10228,6 +11040,7 @@ ship "StarViper-class Attack Platform (Fighter)"
 	gun 13 -17 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The StarViper-class attack platform is a heavy starfighter that was based on Prince Xizor's Virago. It is used extensively in the criminal underworld. Unlike other starfighters, it is short in length but tall, lacking a fuselage. It has decent armour, is fairly quick, but is also expensive, meaning that it is not deployed in large squadrons. The StarViper is also able to release buzz droids to harm nearby craft."
+	description "Artwork/model by UnusualSuspex"
 
 
 
@@ -10277,6 +11090,7 @@ ship "Sphyrna-class Corvette"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Sphyrna-class corvette, also known simply as the Hammerhead corvette, is a model of corvette that saw wide use in the period leading up to and during the Galactic Civil War. The vessel was inspired by a starship design that dated back centuries prior to the Imperial Era, designed by the Corellian Engineering Corporation."
+	description "Artwork/model by UnusualSuspex"
 
 
 
@@ -10325,6 +11139,7 @@ ship "Taylander Shuttle"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Taylander shuttle is a model of civilian transport shuttle manufactured by Gallofree Yards, Inc. and can be found throughout the galaxy. They are used throughout the galaxy, and are common and innocuous sights everywhere from Coruscant's bustling cargo lanes to Tatooine's docking bays."
+	description "Artwork/model by Mechanic333"
 
 
 
@@ -10332,10 +11147,10 @@ ship "Teroch Mandalorian Cruiser"
 	sprite "ship/terochmandaloriancruiser"
 	thumbnail "thumbnail/terochmandaloriancruiser"
 	attributes
-		category "Light Warship"
-		"cost" 7000000
+		category "Medium Warship"
+		"cost" 5000000
 		"shields" 44000
-		"hull" 14500
+		"hull" 12100
 		"required crew" 125
 		"bunks" 200
 		"mass" 2300
@@ -10343,9 +11158,9 @@ ship "Teroch Mandalorian Cruiser"
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 180
-		"outfit space" 486
-		"weapon capacity" 172
-		"engine capacity" 220
+		"outfit space" 320
+		"weapon capacity" 176
+		"engine capacity" 88
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -10354,15 +11169,16 @@ ship "Teroch Mandalorian Cruiser"
 	outfits
 		"Turbolaser Turret (Yellow)" 8
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 20
+		"Concussion Missile Storage Rack" 4
+		"Concussion Missile" 26
 		
-		"P4 Frigate Power Converter"
-		"S4 Frigate Shield Projector"
-		"T4 Sensor Array"
-		"T4 Frigate Coolant System"
+		"P3 Corvette Power Converter"
+		"S3 Corvette Shield Projector"
+		"T3 Sensor Array"
+		"T3 Corvette Coolant System"
 		
-		"T4 Frigate Sublight Engine"
-		"H4 Frigate Hyperspace Motivator"
+		"T3 Corvette Sublight Engine (Blue)"
+		"H3 Corvette Hyperspace Motivator"
 		
 	engine -55 282
 	engine 59 281
@@ -10385,6 +11201,7 @@ ship "Teroch Mandalorian Cruiser"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Teroch Mandalorian Cruiser was a warship design used by the Mandalorian warrior clans during the Great Galactic War. The vessel can still be found throughout the galaxy, often acting as part of planetary defence fleets."
+	description "Artwork/model by Fractalsponge"
 
 
 
@@ -10432,7 +11249,7 @@ ship "Toscan 8-Q Starfighter"
 	gun 11 0 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Toscan 8-Q starfighter is the base model of the Toscan Multipurpose Fighter (or Toscan MPF), a starfighter manufactured by Shobquix Yards long before the Clone Wars. Currently, it is almost obsolete."
-
+	description "Artwork/model from WorldWar2Ships"
 
 
 ship "Toscan 8-Q Starfighter (Fighter)"
@@ -10479,6 +11296,7 @@ ship "Toscan 8-Q Starfighter (Fighter)"
 	gun 11 0 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The Toscan 8-Q starfighter is the base model of the Toscan Multipurpose Fighter (or Toscan MPF), a starfighter manufactured by Shobquix Yards long before the Clone Wars. Currently, it is almost obsolete."
+	description "Artwork/model from WorldWar2Ships"
 
 
 
@@ -10521,7 +11339,7 @@ ship "Ugly Tie Headhunter"
 	gun 38 -11 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Ugly Tie Headhunter is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 ship "Ugly Tie Headhunter (Fighter)"
@@ -10563,6 +11381,7 @@ ship "Ugly Tie Headhunter (Fighter)"
 	gun 38 -11 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Ugly Tie Headhunter is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -10607,6 +11426,7 @@ ship "Ugly Tie X-Wing"
 	gun 40 -28 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Ugly Tie X-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -10651,6 +11471,7 @@ ship "Ugly Tie X-Wing (Fighter)"
 	gun 40 -28 "Fighter Laser Cannon (Red)"
 	explode "large explosion" 3
 	description "The Ugly Tie X-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -10698,6 +11519,7 @@ ship "Ugly Tie Y-Wing"
 	explode "large explosion" 3
 	description "The Ugly Tie Y-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 	description "The TYE-wing essentially combined the key weaknesses of both the TIE fighter and the Y-wing, yet had the strengths of neither. Many pilots dubbed them 'DIE-wings', because with combined low firepower and fragility of a TIE and the sluggishness and ungainliness of a Y-Wing, its battle performance, alongside its survivability, was almost non-existent."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -10745,6 +11567,7 @@ ship "Ugly Tie Y-Wing (Fighter)"
 	explode "large explosion" 3
 	description "The Ugly Tie Y-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
 	description "The TYE-wing essentially combined the key weaknesses of both the TIE fighter and the Y-wing, yet had the strengths of neither. Many pilots dubbed them 'DIE-wings', because with combined low firepower and fragility of a TIE and the sluggishness and ungainliness of a Y-Wing, its battle performance, alongside its survivability, was almost non-existent."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -10794,6 +11617,7 @@ ship "Ugly Twin Tie X-Wing"
 	gun -14 -5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ugly Twin Tie X-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -10843,6 +11667,7 @@ ship "Ugly Twin Tie X-Wing (Fighter)"
 	gun -14 -5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ugly Twin Tie X-Wing is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -10894,6 +11719,7 @@ ship "Ugly X-Ceptor"
 	gun 5 -8 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ugly X-Ceptor is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -10945,6 +11771,7 @@ ship "Ugly X-Ceptor (Fighter)"
 	gun 5 -8 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ugly X-Ceptor is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -10996,6 +11823,7 @@ ship "Ugly X-Fighter"
 	gun 3 -5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ugly X-Fighter is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -11048,6 +11876,7 @@ ship "Ugly X-Fighter (Fighter)"
 	gun 3 -5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ugly X-Fighter is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -11099,6 +11928,7 @@ ship "Ugly Y-Interceptor"
 	gun 7 -29 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ugly Y-Interceptor is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -11150,6 +11980,7 @@ ship "Ugly Y-Interceptor (Fighter)"
 	gun 7 -29 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Ugly Y-Interceptor is a type of Ugly. An Ugly is any type of starfighter that has been cobbled together out of parts that have been salvaged from varying origins, including crashed starfighters and ex-military surplus. The term itself seemed to be of Corellian origin."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -11196,7 +12027,7 @@ ship "Vaksai Assault Fighter"
 	gun 0 -54 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "A starfighter-class starship, the Vaksai model is a modified Kihraxz light fighter manufactured by TransGalMeg Industries. Incorporated The vessel has been customised into its current state by the galactic crime syndicate known as Black Sun."
-
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -11243,7 +12074,7 @@ ship "Vaksai Assault Fighter (Fighter)"
 	gun 0 -54 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "A starfighter-class starship, the Vaksai model is a modified Kihraxz light fighter manufactured by TransGalMeg Industries. Incorporated The vessel has been customised into its current state by the galactic crime syndicate known as Black Sun."
-
+	description "Artwork/model from Wookieepedia"
 
 
 
@@ -11295,6 +12126,7 @@ ship "VCX-100 Light Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The VCX-100 light freighter is one of the Corellian Engineering Corporation's freighter designs. A notable example of this model is the Ghost, a modified VCX-100 owned by Hera Syndulla."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -11342,6 +12174,7 @@ ship "VCX-series Auxiliary Starfighter"
 	explode "tiny explosion" 20
 	explode "large explosion" 3
 	description "The VCX-series auxiliary starfighter is a short-range starfighter that can be attached to the VCX-100 light freighter, manufactured by Corellian Engineering Corporation."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -11389,6 +12222,7 @@ ship "VCX-series Auxiliary Starfighter (Fighter)"
 	explode "tiny explosion" 20
 	explode "large explosion" 3
 	description "The VCX-series auxiliary starfighter is a short-range starfighter that can be attached to the VCX-100 light freighter, manufactured by Corellian Engineering Corporation."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -11624,7 +12458,7 @@ ship "Venator-class Star Destroyer" "Venator-class Star Destroyer (Black)"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Venator-class Destroyer, also known as the Republic attack cruiser, was one of the capital ships used extensively by the Galactic Republic during the later parts of the Clone Wars, as well as by the Galactic Empire. It was designed and constructed by Kuat Drive Yards and Allanteen Six shipyards. While designed primarily for ship-to-ship combat, the Venator had secondary roles ranging from starfighter carrier, to military transport and battleship escort. The expanded carrier role made the Venator-class popular amongst Jedi starfighter aces."
-
+	description "Artwork/model by Malte Ullrich"
 
 
 
@@ -11675,6 +12509,8 @@ ship "YG-4210 Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The YG-4210, built by the Corellian Engineering Corporation, is considered to be an ancient ship model, first constructed more than two centuries prior to the Galactic Civil War, even predating the venrable YT-series by several decades. Designed specifically for space exploration rather than combat, the freighter was originally unarmed. However, after centuries of serving, most likely none of them match the original specifications. Weapons such as blasters, ion cannons and concussion missiles are common in these modified vehicles."
+	description "Artwork/model from SeekPNG"
+
 
 
 ship "YT-1300 Freighter"
@@ -11737,6 +12573,9 @@ ship "YT-1300 Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, is a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 is used as a freighter and transport, and some see service as intermodal tugs in orbital freight yards."
+	description "Artwork/model from FlyCasual"
+
+
 
 ship "YT-1300 Freighter" "YT-1300 Freighter (Millennium Falcon)"
 	sprite "ship/yt1300freightermillenniumfalcon"
@@ -11804,6 +12643,7 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Millennium Falcon)"
 	"final explode" "final explosion large" 1
 	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, is a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 is used as a freighter and transport, and some see service as intermodal tugs in orbital freight yards."
 	description "The Millennium Falcon, original designation YT 492727ZED and formerly known as the Stellar Envoy, is a Corellian YT-1300f light freighter most famously used by the smugglers Han Solo and Chewbacca, who affectionately dubbed it the fastest hunk of junk in the galaxy, during the Galactic Civil War."
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -11867,6 +12707,7 @@ ship "YT-1300 Freighter" "YT-1300 Freighter (Red)"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The YT-1300 light freighter, also known as the YT-1300 Corellian freighter, is a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1300 is used as a freighter and transport, and some see service as intermodal tugs in orbital freight yards."
+	description "Artwork/model from FlyCasual"
 
 
 
@@ -11930,7 +12771,7 @@ ship "YT-1350XT Freighter"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The YT-1350XT light freighter, also known as the YT-1350XT Corellian freighter, is a type of light freighter manufactured by the Corellian Engineering Corporation that saw operation in the galaxy during the final days of the Galactic Republic and the reign of the Galactic Empire. The Corellian YT-1350XT is used as a freighter and transport, and some see service as intermodal tugs in orbital freight yards."
-
+	description "Artwork/model by Alaris"
 
 
 ship "YZ-2200 Heavy Transport"
@@ -11980,6 +12821,9 @@ ship "YZ-2200 Heavy Transport"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Corellian Engineering Corporation YZ-2200 Heavy Transport isa capital-scale transport that is sometimes used as a military vessel in the Galactic Alliance. It is one of the largest space transports available on the market, and is mainly used by corporations that want to move large amounts of goods with a minimum amount of ships."
+	description "Artwork/model by Fractalsponge"
+
+
 
 ship "Zakuul Shuttle"
 	sprite "ship/zakuulshuttle"
@@ -12024,7 +12868,7 @@ ship "Zakuul Shuttle"
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Zakuul Shuttle was a shuttlecraft used by the Eternal Empire of Zakuul more than 3500 years ago. The dropship was used to deploy troops to the surface of planets and as a transport for officials."
-
+	description "Artwork/model by Unusualsuspex"
 
 
 
@@ -12105,6 +12949,9 @@ ship "Zenith-class Cruiser"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Zenith-class cruiser was a type of warship used by the Republic Navy during the Old Sith Wars, the Mandalorian Wars, and the New Sith Wars. Based on the famous Hammerhead-class cruiser, the Zenith is still used in sector defence forces millennia after its introduction."
+	description "Artwork/model by Jeroenimo"
+
+
 
 ship "42"
 	sprite "ship/42"

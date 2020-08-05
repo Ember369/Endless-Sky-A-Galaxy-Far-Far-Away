@@ -22,6 +22,7 @@ outfit "Advanced Homing Missile Storage Rack"
 	thumbnail "outfit/advancedhomingmissilestoragerack"
 	"mass" 1
 	"outfit space" -1
+	"weapon capacity" -1
 	"advancedhomingmissile capacity" 5
 	ammo "Advanced Homing Missile"
 	description "The Advanced Homing Missile Storage Rack is used to store extra ammunition for Advanced Homing Missile Launchers."
@@ -56,11 +57,70 @@ outfit "Advanced Homing Missile Launcher"
 		"turn" 1.2
 		"homing" 4
 		"optical tracking" .8
+		"infrared tracking" .8
 		"shield damage" 500
 		"hull damage" 500
 		"hit force" 0
 		"missile strength" 30
+		phasing
 	description "Advanced Homing Missile Launcher"
+
+outfit "Assault Concussion Missile"
+	category "Ammunition"
+	cost 5000
+	thumbnail "outfit/assaultconcussionmissile"
+	"mass" .2
+	"assaultconcussionmissile capacity" -1
+	description "Assault Concussion Missile"
+
+outfit "Assault Concussion Missile Storage Rack"
+	category "Ammunition"
+	cost 15000
+	thumbnail "outfit/assaultconcussionmissile"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"assaultconcussionmissile capacity" 20
+	ammo "Advanced Homing Missile"
+	description "The Assault Concussion Missile Storage Rack is used to store extra ammunition for Assault Concussion Missile Launchers."
+
+outfit "Assault Concussion Missile Launcher"
+	category "Secondary Weapons"
+	cost 50000
+	thumbnail "outfit/assaultconcussionmissile"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"assaultconcussionmissile capacity" 20
+	weapon
+		sprite "projectile/assaultconcussionmissile/assaultconcussionmissile"
+			"frame rate" 10
+			"random start frame"
+		sound "torpedo"
+		ammo "Assault Concussion Missile"
+		icon "icon/assaultconcussionmissile"
+		"fire effect" "torpedo fire"
+		"hit effect" "large explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 60
+		"velocity" 10
+		"lifetime" 800
+		"reload" 130
+		"firing energy" 200
+		"firing heat" 15
+		"acceleration" 2
+		"drag" .1
+		"turn" 1
+		"homing" 2
+		"optical tracking" 1
+		"infrared tracking" 1
+		"shield damage" 1700
+		"hull damage" 1700
+		"hit force" 0
+		"missile strength" 30
+	description "Assault Concussion Missile Launcher"
+
 
 outfit "Fletchette Missile"
 	category "Ammunition"
@@ -76,6 +136,7 @@ outfit "Fletchette Missile Storage Rack"
 	thumbnail "outfit/fletchettemissilestoragerack"
 	"mass" 1
 	"outfit space" -1
+	"weapon capacity" -1
 	"fletchette capacity" 35
 	ammo "Meteor Missile"
 	description "The Fletchette Missile Box is used to store extra ammunition for Fletchette Missile Launchers."
@@ -107,18 +168,83 @@ outfit "Fletchette Missile Launcher"
 		"firing heat" 1
 		"acceleration" .6
 		"drag" .04
-		"turn" 2
+		"turn" 1
 		"homing" 3
-		"infrared tracking" .8
+		"optical tracking" .5
+		"infrared tracking" .5
 		"shield damage" 320
 		"hull damage" 220
 		"hit force" 0
 		"missile strength" 4
+		phasing
 	description "Fletchette Missile Launcher"
+
+outfit "Advanced Concussion Missile"
+	category "Ammunition"
+	cost 150
+	thumbnail "outfit/advancedconcussionmissile"
+	"mass" .01
+	"advancedconcussion capacity" -1
+	description "Advanced Concussion Missile"
+	description "Compared to standard concussion missiles, advanced concussion missiles have a higher blast rating and exit velocity, and they are capable of tracking a target for a longer period of time. A pair is enough to eliminate a fully-shielded TIE Defender or Delta-class DX-9 stormtrooper transport. They also carry a green shield around the warheads."
+
+
+
+outfit "Advanced Concussion Missile Storage Rack"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/advancedconcussionmissile"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"advancedconcussion capacity" 5
+	ammo "Advanced Concussion Missile"
+	description "The Advanced Concussion Missile Storage Rack is used to store extra ammunition for Advanced Concussion Missile Launchers."
+	description "Compared to standard concussion missiles, advanced concussion missiles have a higher blast rating and exit velocity, and they are capable of tracking a target for a longer period of time. A pair is enough to eliminate a fully-shielded TIE Defender or Delta-class DX-9 stormtrooper transport. They also carry a green shield around the warheads."
+
+
+outfit "Advanced Concussion Missile Launcher"
+	category "Secondary Weapons"
+	cost 1500
+	thumbnail "outfit/advancedconcussionmissile"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	"advancedconcussion capacity" 3
+	weapon
+		sprite "projectile/advancedconcussionmissile"
+			"frame rate" 4
+		sound "rocket"
+		ammo "Advanced Concussion Missile"
+		icon "icon/advancedconcussionmissile"
+		"hit effect" "heavy rocket hit"
+		"die effect" "small explosion"
+		"inaccuracy" 15
+		"velocity" 15
+		"lifetime" 100
+		"reload" 200
+		"firing energy" 25
+		"firing heat" 1
+		"acceleration" 0.7
+		"drag" .05
+		"turn" .6
+		"homing" 1
+		"optical tracking" .4
+		"infrared tracking" .4
+		"shield damage" 900
+		"hull damage" 900
+		"hit force" 0
+		"missile strength" 18
+		phasing
+	description "Advanced Concussion Missile Launcher"
+	description "Compared to standard concussion missiles, advanced concussion missiles have a higher blast rating and exit velocity, and they are capable of tracking a target for a longer period of time. A pair is enough to eliminate a fully-shielded TIE Defender or Delta-class DX-9 stormtrooper transport. They also carry a green shield around the warheads."
+
+
 
 outfit "Concussion Missile"
 	category "Ammunition"
-	cost 100
+	cost 750
 	thumbnail "outfit/concussionmissile"
 	"mass" .01
 	"concussion capacity" -1
@@ -130,6 +256,7 @@ outfit "Concussion Missile Storage Rack"
 	thumbnail "outfit/concussionmissile"
 	"mass" 1
 	"outfit space" -1
+	"weapon capacity" -1
 	"concussion capacity" 5
 	ammo "Concussion Missile"
 	description "The Concussion Missile Storage Rack is used to store extra ammunition for Concussion Missile Launchers."
@@ -159,10 +286,15 @@ outfit "Concussion Missile Launcher"
 		"firing heat" 1
 		"acceleration" 0.7
 		"drag" .05
+		"turn" .5
+		"homing" 1
+		"optical tracking" .3
+		"infrared tracking" .3
 		"shield damage" 800
 		"hull damage" 800
 		"hit force" 0
 		"missile strength" 16
+		phasing
 	description "Concussion Missile Launcher"
 
 outfit "Plasma Torpedo"
@@ -179,6 +311,7 @@ outfit "Plasma Torpedo Storage Rack"
 	thumbnail "outfit/plasmatorpedo"
 	"mass" 1
 	"outfit space" -1
+	"weapon capacity" -1
 	"plasma capacity" 5
 	ammo "Heavy Rocket"
 	description "The Plasma Torpedo Storage Rack is used to store extra ammunition for Plasma Torpedo Launchers."
@@ -212,6 +345,7 @@ outfit "Plasma Torpedo Launcher"
 		"hull damage" 30
 		"hit force" 0
 		"missile strength" 20
+		phasing
 	description "Plasma torpedoes, also known among pilots as shieldbuster torpedo or rotten eggs, were a special type of weapon specifically configured to overwhelm a vehicle's shields. They were plasma-based and upon impact they released a burst of radiation that was designed to interfere with shields. They were considerably less effective against armor and other protection."
 
 outfit "Ion Bomb"
@@ -228,6 +362,7 @@ outfit "Ion Bomb Storage Rack"
 	thumbnail "outfit/ionbomb"
 	"mass" 1
 	"outfit space" -1
+	"weapon capacity" -1
 	"ionbomb capacity" 2
 	ammo "Ion Bomb"
 	description "Ion Bomb Storage Rack"
@@ -266,6 +401,7 @@ outfit "Ion Bomb Launcher"
 		"ion damage" 50000
 		"hit force" 0
 		"missile strength" 20
+		phasing
 	description "Ion Bomb Launcher"
 
 outfit "Diamond Boron Missile"
@@ -282,6 +418,7 @@ outfit "Diamond Boron Missile Storage Rack"
 	thumbnail "outfit/diamondboronmissile"
 	"mass" 1
 	"outfit space" -1
+	"weapon capacity" -1
 	"diamondboron capacity" 2
 	ammo "Diamond Boron Missile"
 	description "Ion Bomb Storage Rack"
@@ -335,6 +472,7 @@ outfit "Intruder Missile Storage Rack"
 	thumbnail "outfit/intrudermissile"
 	"mass" 1
 	"outfit space" -1
+	"weapon capacity" -1
 	"intruder capacity" 5
 	ammo "Heavy Rocket"
 	description "The Intruder Missile Storage Rack is used to store extra ammunition for Intruder Missile Launchers."
@@ -369,6 +507,7 @@ outfit "Intruder Missile Launcher"
 		"ion damage" 5000
 		"hit force" 0
 		"missile strength" 20
+		phasing
 	description "The Intruder Missile was a special type of ordinance with a very strong ionising effect used during the Galactic Civil War. The missile is armed with an ionising warhead designed specifically to overload the shield generators on capital ships, causing them to explode and destroy the rest of the ship in the process."
 
 
@@ -387,6 +526,7 @@ outfit "Proton Torpedo Storage Rack"
 	thumbnail "outfit/protontorpedo"
 	"mass" 1
 	"outfit space" -1
+	"weapon capacity" -1
 	"protontorpedo capacity" 5
 	ammo "Proton Torpedo"
 	description "The Proton Torpedo Storage Rack is used to store extra ammunition for Proton Torpedo Launchers."
@@ -420,6 +560,7 @@ outfit "Proton Torpedo Launcher"
 		"hull damage" 900
 		"hit force" 0
 		"missile strength" 20
+		phasing
 	description "Proton torpedoes were a type of explosive ordnance used throughout the galaxy. Upon impact with a target, the energy warhead would release clouds of high-velocity proton particles."
 
 outfit "Proton Bomb"
@@ -436,6 +577,7 @@ outfit "Proton Bomb Storage Rack"
 	thumbnail "outfit/protonbomb"
 	"mass" 1
 	"outfit space" -1
+	"weapon capacity" -1
 	"protonbomb capacity" 0
 	ammo "Proton Bomb"
 	description "Proton Bomb Storage Rack"
@@ -549,8 +691,10 @@ outfit "Omnicannon"
 		"inaccuracy" 0
 		"velocity" 100
 		"lifetime" 400
-		"reload" 1
-		"firing energy" 4000
+		"reload" 0.1
+		"burst count" 1000
+		"burst reload" 5
+		"firing energy" 200
 		"firing force" 0
 		"firing heat" 1.2
 		"hit force" 0
@@ -558,8 +702,8 @@ outfit "Omnicannon"
 		"hull damage" 7000
 		"blast radius" 600
 		"missile strength" 0
-		safe
 		"no damage scaling"
+		safe
 	description "The Omnicannon was a powerful weapon that was the primary weapon of the Gravestone, an ancient and alien combat frigate. Through the Omnicannon, the Gravestone was the only starship capable of battling the Eternal Fleet; the Omnicannon fired shots that propagated outward after hitting from its primary target, spreading damage to nearby ships. The Outlander's group's first use of the Omnicannon took out two dozen ships in a single shot."
 
 outfit "Linked Ion/Plasma Cannon"
