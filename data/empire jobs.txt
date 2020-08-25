@@ -17,7 +17,7 @@ mission "Destroy the Rebel Fleet"
 			variant 50
 				"CR90 Corvette"
 				"GR-75 Transport" 2
-				"RZ1 A-Wing (Red)" 3
+				"RZ1 A-Wing (R)" 3
 				"RZ1 A-Wing" 2
 				"T-65B X-Wing" 5
 				"BTL-A4 Y-Wing" 5
@@ -52,7 +52,7 @@ mission "Intercept the Rebel Command Fleet"
 				"Sphyrna-class Corvette (Modified)" 2
 				"EF76 Nebulon-B Frigate"
 				"GR-75 Transport" 4
-				"RZ1 A-Wing (Red)" 3
+				"RZ1 A-Wing (R)" 3
 				"RZ1 A-Wing" 3
 				"T-65B X-Wing" 5
 				"BTL-A4 Y-Wing" 5
@@ -84,7 +84,7 @@ mission "Clear the Rebel Sector"
 			variant 50
 				"CR90 Corvette"
 				"GR-75 Transport" 2
-				"RZ1 A-Wing (Red)" 3
+				"RZ1 A-Wing (R)" 3
 				"RZ1 A-Wing" 2
 				"T-65B X-Wing" 2
 				"BTL-A4 Y-Wing" 3
@@ -155,9 +155,9 @@ mission "Clear the Rebel Sector"
 				"MC80A Star Cruiser"
 				"CR90 Corvette" 2
 				"Sphyrna-class Corvette (Modified)" 3
-				"EF76 Nebulon-B Frigate"3
+				"EF76 Nebulon-B Frigate" 3
 				"GR-75 Transport" 8
-				"RZ1 A-Wing (Red)" 6
+				"RZ1 A-Wing (R)" 6
 				"RZ1 A-Wing" 15
 				"T-65B X-Wing" 15
 				"BTL-A4 Y-Wing" 15

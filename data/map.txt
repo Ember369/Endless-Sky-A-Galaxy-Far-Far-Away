@@ -7467,11 +7467,13 @@ system Coruscant
 	fleet civilianpatrol 4000
 	fleet civiliantransport 1300
 	fleet civilianheavycargofreighter 1700
+	fleet civilianutilitytug 2000
 	fleet civilianfleet 9000
 	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
-	fleet purrgil 30000
+	fleet purrgil 50000
+	fleet vongscoutfleet 80000
 	belt 1407
 	minables neodymium 10 10.4787
 	object
@@ -11360,7 +11362,8 @@ system Fedalle
 	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
-	fleet purrgil 30000
+	fleet purrgil 50000
+	fleet vongscoutfleet 80000
 	belt 1078
 	minables gold 4 2.76865
 	minables lead 2 2.46321
@@ -11842,8 +11845,8 @@ system Foerost
 		sprite planet/desert9
 		distance 262.744
 		period 36.8178
-	object "Foerost  "
-		sprite planet/gas17
+	object "Foerost "
+		sprite planet/corellia
 		distance 1346.31
 		period 427.049
 		offset 120.602
@@ -18159,7 +18162,8 @@ system Kuat
 	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
-	fleet purrgil 30000
+	fleet purrgil 50000
+	fleet vongscoutfleet 80000
 	belt 1637
 	minables iron 23 4.88355
 	minables titanium 16 5.18835
@@ -25968,7 +25972,8 @@ system Pyria
 	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
-	fleet purrgil 30000
+	fleet purrgil 50000
+	fleet vongscoutfleet 80000
 	belt 1040
 	minables silver 2 5.86562
 	object
@@ -28026,7 +28031,8 @@ system Rodia
 	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
-	fleet purrgil 30000
+	fleet purrgil 50000
+	fleet vongscoutfleet 80000
 	belt 1796
 	minables silicon 5 3.21915
 	object
@@ -29053,7 +29059,7 @@ system Salliche
 		distance 262.274
 		period 63.3198
 	object "Salliche "
-		sprite planet/cloud8
+		sprite planet/salliche
 		distance 503.964
 		period 168.657
 	object
@@ -32044,7 +32050,8 @@ system Tatooine
 	fleet civilianfleetrepublic 15000
 	fleet piratepatrol 2400
 	fleet piratefleet 7000
-	fleet purrgil 30000
+	fleet purrgil 50000
+	fleet vongscoutfleet 80000
 	belt 1313
 	minables copper 6 5.91061
 	minables gold 2 5.01936
@@ -38802,41 +38809,41 @@ system Zygerria
 			period 28.8527
 
 planet "Aargau "
-	landscape ""
+	landscape land/unknown
 	description `Aargau is run by and served as the headquarters for the Bank of Aargau, which is part of the InterGalactic Banking Clan. Numerous other banks and corporations are also based on Aargau, including the Z-Gomot Ternbuell Guppat Corporation. Aargau is an exceptionally wealthy world, due both to its status as a financial center, as well as the planet's vast reserves of rare and precious metals.`
 
 planet "Alderaan "
-	landscape ""
+	landscape land/unknown
 
 planet "Alsakan "
-	landscape ""
+	landscape land/unknown
 	description `Alsakan was an ecumenopolis world in the Alsakan system in the Core Worlds. A Core Founder on the Perlemian Trade Route, Alsakan was an ancient, wealthy world that had been a major political player for centuries, and was responsible for the seventeen Alsakan Conflicts that had been fought with Coruscant over the nature and shape of the early Galactic Republic.`
-	spaceport `The Alsakani were Human settlers who had arrived on the planet aboard the colony ship Kuat Explorer some twenty-six thousand years before the Battle of Yavin. As a people, they were aristocratic in their values and enthusiastic for open spaces and local independence. Consequently, they had sought a limited economic and political union when the Galactic Republic was formed, and for much of their history were inclined to see Coruscant as too powerful, resulting in the many Alsakan Conflicts.Reflecting their views, the ancient Alsakani national epic, the Archaiad, described the Perlemian Trade Route as "an arrow sent into the possible". Seeking distance from authority, Alsakan's younger sons established small colonies in the Inner Rim, and cared little for government bureaucracy or mass-produced goods beyond warships and blasters. The Alsakan Mosaics are tile mosaics found in the city of Rucapar on the planet Alsakan. The center of the mosaic is at the city square and extends as five lanes of tile to five equidistant mountains. Most of the original mosaic was destroyed during the Third Alsakan Conflict, only remnants have survived. However, it is included in the Twenty Wonders of the Galaxy by Vicendi in 10,000 BBY.`
+	spaceport `	The Alsakani were Human settlers who had arrived on the planet aboard the colony ship Kuat Explorer some twenty-six thousand years before the Battle of Yavin. As a people, they were aristocratic in their values and enthusiastic for open spaces and local independence. Consequently, they had sought a limited economic and political union when the Galactic Republic was formed, and for much of their history were inclined to see Coruscant as too powerful, resulting in the many Alsakan Conflicts.Reflecting their views, the ancient Alsakani national epic, the Archaiad, described the Perlemian Trade Route as "an arrow sent into the possible". Seeking distance from authority, Alsakan's younger sons established small colonies in the Inner Rim, and cared little for government bureaucracy or mass-produced goods beyond warships and blasters. The Alsakan Mosaics are tile mosaics found in the city of Rucapar on the planet Alsakan. The center of the mosaic is at the city square and extends as five lanes of tile to five equidistant mountains. Most of the original mosaic was destroyed during the Third Alsakan Conflict, only remnants have survived. However, it is included in the Twenty Wonders of the Galaxy by Vicendi in 10,000 BBY.`
 	shipyard "Imperial Navy Ships"
 
 planet "Anaxes "
 	landscape land/anaxes
 	description `Anaxes was a fortress world located on the Perlemian Trade Route in the Axum system of the Core Worlds. Known as the "Defender of the Core", for millennia it was the site of the Republic Navy's primary fleet base and War College. It was considered the site of naval power, tradition and prestige by both the Galactic Republic and the Galactic Empire.`
-	spaceport `While not as industrialized as Axum, Anaxes was more prestigious, home to many families associated with a tradition of service in the Fleet. It was home to Azure Motorworks, a major producer of luxury vehicles. Considered an ecumenopolis, in that it was a planet-wide city, it was more reminiscent of a Green Coruscant, though, in that it was sprinkled with beautiful parks and green areas in and around the city like the Great Plain of Anaxes.`
+	spaceport `	While not as industrialized as Axum, Anaxes was more prestigious, home to many families associated with a tradition of service in the Fleet. It was home to Azure Motorworks, a major producer of luxury vehicles. Considered an ecumenopolis, in that it was a planet-wide city, it was more reminiscent of a Green Coruscant, though, in that it was sprinkled with beautiful parks and green areas in and around the city like the Great Plain of Anaxes.`
 	shipyard "Imperial Navy Ships"
 
 planet "Another One"
-	landscape ""
+	landscape land/unknown
 	government "Galactic Empire"
 	tribute 100000
 		threshold 7000
 		fleet battleofatollon
 
 planet "Arkania "
-	landscape ""
+	landscape land/unknown
 	description `Arkania is the adopted homeworld of the Arkanians, a near human speces. It is covered with tundra and is rich in diamonds and other precious minerals, which the Arkanians mined to further their offworld connections and master their technology. Arkanian cities are designed to keep the cold out and are almost completely enclosed. Off-world visitors rarely have to deal with the frigid conditions of the planet. Many citizens are miners.`
-	spaceport `A harsh world of tundra and ice, Arkania is able to sustain life and civilization despite the harsh climate. Deep underground, the planet is filled with diamond stores considered extremely valuable by those on the surface, that has resulted in the excavation of extensive mines across the world.`
+	spaceport `	A harsh world of tundra and ice, Arkania is able to sustain life and civilization despite the harsh climate. Deep underground, the planet is filled with diamond stores considered extremely valuable by those on the surface, that has resulted in the excavation of extensive mines across the world.`
 	spaceport `	Stories of the legendary Arkanian dragons are popular throughout the galaxy.`
 
 planet "Atollon "
 	landscape land/atollon
 	description `Atollon was a remote planet in the Lothal sector of the Outer Rim Territories. It was known to the ancient peoples of the sector and was depicted in their artwork. The only known inhabitant was the Bendu, a mysterious Force wielder. In the third year before the Battle of Yavin, the rebels of Phoenix Cell established a base there after receiving intel from rebel astromech Chopper and AP-5, an inventory droid formerly in service to the Empire. Eventually, the rebels were forced to flee the planet after Grand Admiral Thrawn located their base and launched an attack which destroyed Chopper Base and killed many of the rebels.`
-	spaceport `Atollon was located in an uncharted region in the Lothal sector of the galaxy's Outer Rim Territories, off a major hyperspace route. The planet had a breathable atmosphere, but a hot climate. Despite the dry weather on the rocky surface, which was covered in plated tree corals, the planet featured a freshwater source deep underground.`
+	spaceport `	Atollon was located in an uncharted region in the Lothal sector of the galaxy's Outer Rim Territories, off a major hyperspace route. The planet had a breathable atmosphere, but a hot climate. Despite the dry weather on the rocky surface, which was covered in plated tree corals, the planet featured a freshwater source deep underground.`
 	shipyard "Rebel Alliance Ships"
 	tribute 100000
 		threshold 7000
@@ -38845,91 +38852,91 @@ planet "Atollon "
 planet Axum
 	landscape land/anaxes
 	description `Axum was colonized by Human settlers who arrived in a sleeper ship from Coruscant sometime after 27,500 BBY. In the millennia preceding the Galactic Republic, Axum was a military stronghold and the headquarters of the Azure Imperium, which was eventually absorbed by Coruscant's sphere of influence.`
-	spaceport `Heavily urbanised, it had far greater industrial output than its sister planet Anaxes, though less prestige. The Axumites were known to be an exceedingly-formal and well-mannered people, and extremely proud of Axum's history as a Core Founder and the legacy of the Azure Imperium.`
+	spaceport `	Heavily urbanised, it had far greater industrial output than its sister planet Anaxes, though less prestige. The Axumites were known to be an exceedingly-formal and well-mannered people, and extremely proud of Axum's history as a Core Founder and the legacy of the Azure Imperium.`
 	shipyard "Imperial Navy Ships"
 
 planet "Berchest "
-	landscape ""
+	landscape land/unknown
 	description `Berchest is a major tourist destination and a trading planet, in the Anthos sector of the Inner Rim. It is an extremely beautiful world whose highly saline seas and strong tides resulted in immense crystal deposits on the planet's shores that the native Berchestians sculpted into entire cities. One of these cities is Calius saj Leeloo, or the City of Glowing Crystal. It was carved entirely from one massive crystal that was created over the centuries from salt deposits from the adjacent Leefari Sea and is considered one of the Twenty Wonders of the Galaxy.`
 
 planet Borleias
-	landscape UNKNOWN
+	landscape land/unknown
 	description `Borleias was the fourth and only inhabited planet in the Pyria system. It was located in the Colonies, at the edge of the Galactic Core and along the Namadii Corridor. Every year it went through a meteor shower. A jungle planet with beautiful beaches and seas, it was poor in natural resources.`
-	spaceport `The world was  left largely alone. To prevent a potential Rebel incursion to the world (a possible stepping-stone to the Core Worlds), the Empire expanded its military base, including four ion cannons and two TIE Fighter squadrons.`
+	spaceport `	The world was  left largely alone. To prevent a potential Rebel incursion to the world (a possible stepping-stone to the Core Worlds), the Empire expanded its military base, including four ion cannons and two TIE Fighter squadrons.`
 
 planet "Brentaal IV"
-	landscape ""
+	landscape land/unknown
 	description `Brentaal IV, known more commonly as Brentaal, was a planet in the Brentaal system of the Core Worlds's Bormea sector and one that occupied what was arguably the most valuable location in the entire galaxy: the intersection of the Hydian Way and the Perlemian Trade Route, two of the galaxy's major hyperlanes. The fourth planet in orbit around the star Brenta, Brentaal had two moons and was located in the Ringali Shell, a string of star systems along the Perlemian that were near the Ringali Nebula.`
-	spaceport `An arid world with warm and temperate weather, Brentaal featured two large polar caps and an equator marked by deserts and steaming oceans; most of the planet's available land was dominated by warehouses, cargo holding facilities, commerce exchanges, and other trade-related structures.`
+	spaceport `	An arid world with warm and temperate weather, Brentaal featured two large polar caps and an equator marked by deserts and steaming oceans; most of the planet's available land was dominated by warehouses, cargo holding facilities, commerce exchanges, and other trade-related structures.`
 	shipyard "Imperial Navy Ships"
 
 planet "Broest "
-	landscape ""
+	landscape land/unknown
 	description `Broest is an agriworld, controlled by Salliche Ag Corporation. Broest is a world from which ruica seeds are transported across the galaxy to the planet Alderaan for farmers to grow.`
 
 planet "Byss "
-	landscape UNKNOWN
+	landscape land/unknown
 	description `Byss was a planet in the Deep Core, near the center of the galaxy, discovered no earlier than 45 BBY. A local day lasted 31 standard hours, and a local year lasted 207 local days. It was the endpoint of the Byss Run. Byss itself was somewhat of a myth, seeming to be the perfect place to live. Its eerie blue-green glow, caused by its sun, also added to the strangeness of the world. Despite this outward appearance, however, Emperor Palpatine's dark-side energies were everywhere, corrupting not only the inhabitants, but the planet itself. Byss was the secret throne world of Palpatine and the location of his towering Imperial Citadel. He also kept his secret supply of clone bodies there.`
-	spaceport `Byss was a mythic paradise world enshrouded in the dark side of the Force, located within the isolated and nearly inaccessible Deep Galactic Core. It was situated at the end of the Byss Run, a heavily guarded artificial hyperlane kept open by hundreds of non-mass S-thread boosters, connecting the planet to the Core Worlds. The planet was otherwise nearly impossible to reach safely through hyperspace, due to the high density of stars in the Deep Core and the constantly shifting patterns of the region's natural hyperlanes.`
+	spaceport `	Byss was a mythic paradise world enshrouded in the dark side of the Force, located within the isolated and nearly inaccessible Deep Galactic Core. It was situated at the end of the Byss Run, a heavily guarded artificial hyperlane kept open by hundreds of non-mass S-thread boosters, connecting the planet to the Core Worlds. The planet was otherwise nearly impossible to reach safely through hyperspace, due to the high density of stars in the Deep Core and the constantly shifting patterns of the region's natural hyperlanes.`
 	shipyard "Imperial Navy Ships"
 
 planet "Carida "
-	landscape ""
+	landscape land/unknown
 	description `This large, high-gravity world is covered in everything from rocky mountains and frozen ice fields, to rain forests full of carnivorous plants, and deserts. As such, this planet is the perfect training ground for combat in difficult terrain. A prestigious Imperial Academy is located here.`
-	spaceport `The planet also has a numerous rancor population that has been transplanted from other worlds. They are often used for training exercises, pitting stormtroopers or Imperial vehicles against them.`
+	spaceport `	The planet also has a numerous rancor population that has been transplanted from other worlds. They are often used for training exercises, pitting stormtroopers or Imperial vehicles against them.`
 
 planet "Castell "
-	landscape ""
+	landscape land/unknown
 	description `The Commerce Guild had "interests" on Castell and their Presidente Shu Mai, a member of the native Gossam species, hailed from the planet. Castell sided with the Confederacy of Independent Systems during the Clone Wars during which it was defended by Diamond-class cruisers, Recusant-class Commerce Guild destroyers, as well as Commerce Guild Bombers and Commerce Guild corvettes.`
-	spaceport `The Commerce Guild was a trade conglomerate made up of major commercial entities including their Punitive Security Forces, the Mining Guild and the SoroSuub Corporation. The Guild was known for pressuring smaller companies to join and had both the power and wealth to buy entire planets. Consequently the Commerce Guild enslaved the entire population of Gossams on Castell.`
+	spaceport `	The Commerce Guild was a trade conglomerate made up of major commercial entities including their Punitive Security Forces, the Mining Guild and the SoroSuub Corporation. The Guild was known for pressuring smaller companies to join and had both the power and wealth to buy entire planets. Consequently the Commerce Guild enslaved the entire population of Gossams on Castell.`
 	spaceport `	The guild was dissolved into its subsidiaries following the execution of Presidente Shu Mai and was imperialized by the Galactic Empire in 19 BBY.`
 
 planet "Chandrila "
-	landscape ""
+	landscape land/unknown
 	description `Chandrila is a small blue-green planet with calm seas and rolling hills. It has mild seasonal weather and rarely experiences dangerous weather conditions.`
 	description `	Some notable locations on Chandrila include the capitol of Hanna City, the Old Gather-House, the Senate Plaza, and the Silver Sea.`
-	spaceport `In ancient times, Chandrila was settled by settlers who built the Old Gather House. Chandrila was a member of the Galactic Republic and during the Clone Wars, Mon Mothma served as Chandrila's senator in the Galactic Senate.`
+	spaceport `	In ancient times, Chandrila was settled by settlers who built the Old Gather House. Chandrila was a member of the Galactic Republic and during the Clone Wars, Mon Mothma served as Chandrila's senator in the Galactic Senate.`
 
 planet "Chazwa "
-	landscape ""
+	landscape land/unknown
 	description `Chazwa is a cold planet orbiting a white dwarf star in the Chazwa system of the Orus sector, located in the Inner Rim. Its location along a popular freighter traffic route makes it an ideal shipping center for all sorts of goods. As such, heavy freighter traffic within the system is not an uncommon sight. However, the abundance of valuable merchandise moving through the system lends itself to strong influence by smugglers.`
-	spaceport `It is a medium-sized terrestrial planet whose terrain includes plains. The world possesses a moderate amount of natural resources and features a breathable atmosphere, standard gravity, a temperate climate, a moderate hydrosphere, and mild weather. Chazwa boasts a thriving shipping industry due to its favorable location, and the world's local economy receives income from a combination of manufacturing and agriculture. The planet exports information, agricultural products, and technology while importing foodstuffs and medicine.`
+	spaceport `	It is a medium-sized terrestrial planet whose terrain includes plains. The world possesses a moderate amount of natural resources and features a breathable atmosphere, standard gravity, a temperate climate, a moderate hydrosphere, and mild weather. Chazwa boasts a thriving shipping industry due to its favorable location, and the world's local economy receives income from a combination of manufacturing and agriculture. The planet exports information, agricultural products, and technology while importing foodstuffs and medicine.`
 
 planet "Christophsis "
 	landscape land/christophsis
 	description `Christophsis was a crystalline world in the Outer Rim Territories' Savareen sector. Orbited by a single moon amongst the mineral-rich asteroids of the Christoph system, Christophsis was for a time a target for stray rocks because of its closeness to various asteroid belts, but the planet was refined by Tepasi nobles around 600 BBY, and later by the world's native Christophsian inhabitants, who originated as Humans from the Core. Christophsis was eventually protected from the asteroids and transformed into the center of a mining hub. `
-	spaceport `Christophsis was ruled by a mercantile oligarchy, and for milennia, the planet's asteroid belts proved beautiful to observers and dangerous to those that tried to profit from mining them. The belts were chaotic, and stray rocks regularly found their way to Christophsis, often with abrupt and destructive entrances.`
+	spaceport `	Christophsis was ruled by a mercantile oligarchy, and for milennia, the planet's asteroid belts proved beautiful to observers and dangerous to those that tried to profit from mining them. The belts were chaotic, and stray rocks regularly found their way to Christophsis, often with abrupt and destructive entrances.`
 	shipyard "Miscellaneous Ships"
 
 planet "Colla IV "
-	landscape ""
+	landscape land/unknown
 	description `Colla IV, or simply Colla, is the home planet of the insectoid Colicoid species, makers of the droideka, Annihilator droid, buzz droid, and the droid tri-fighter which mimicked the skull features of one of its ferocious predators. `
-	spaceport `It is governed by the Colicoid Sovereign Nest and its starship engineers are known for ingenuity rather than style.`
+	spaceport `	It is governed by the Colicoid Sovereign Nest and its starship engineers are known for ingenuity rather than style.`
 
 planet Colony
-	landscape ""
+	landscape land/unknown
 	description Colony
-	spaceport `The Colony.`
+	spaceport `	The Colony.`
 
 planet "Commenor "
 	landscape land/commenor
 	description `A trading outpost and spaceport, Commenor was considered as prestigious as the Core planets. It was known for its chrysopaz gemstones and local brandy.`
-	spaceport `Following the Declaration of a New Order, there were a number of anti-Imperial pros across the planet. A resistance movement later appeared on the planet.[14] During the Galactic Civil War, the Alliance to Restore the Republic established a secret base on Commenor's largest moon, Folor.`
+	spaceport `	Following the Declaration of a New Order, there were a number of anti-Imperial pros across the planet. A resistance movement later appeared on the planet.[14] During the Galactic Civil War, the Alliance to Restore the Republic established a secret base on Commenor's largest moon, Folor.`
 
 planet "Corellia "
 	landscape land/corellia
 	description `Corellia is a planet located in the galaxy's Core Worlds known for its ace pilots and large starships. Corellia is located in the Corellian sector in the Core Worlds. It has a temperate climate and is covered in forests, jungles, and urban centers. One major city is Coronet City (also the planet's capital), which is home to shipyards used to build TIE fighters and Star Destroyers for the Galactic Empire.`
-	spaceport `When the Galactic Empire came to power, Corellia's shipyards were transformed into Imperial facilities, and though Corellia is a faded industrial world, it is used to build TIE fighters and Star Destroyers for the Imperial Navy. Many impoverished Corellian commoners seek to escape their homeworld for a better life.`
+	spaceport `	When the Galactic Empire came to power, Corellia's shipyards were transformed into Imperial facilities, and though Corellia is a faded industrial world, it is used to build TIE fighters and Star Destroyers for the Imperial Navy. Many impoverished Corellian commoners seek to escape their homeworld for a better life.`
 
 planet "Corulag "
-	landscape ""
+	landscape land/unknown
 	description `Corulag is a populated terrestrial world located on the Perlemian Trade Route in the Bormea sector, part of the Ringali Shell. It is the endpoint of the Corulag-Jatir Hyperroute. The planet boasts urban sprawls with the underdeveloped areas filled with bamboo forests. Originally a colony of Coruscant, Corulag is a Core World with a mostly Human population with a few Wookiees, Aqualish, Ithorians and Selkath as well.`
-	spaceport `The planet's population is extremely loyal to Palpatine, and its behavior is pointed out as model Imperial behavior. The capital city of Curamelle is also home to the Corulag Academy, an Imperial military academy, as well as numerous prisons which hold enemies of the Galactic Empire. `
+	spaceport `	The planet's population is extremely loyal to Palpatine, and its behavior is pointed out as model Imperial behavior. The capital city of Curamelle is also home to the Corulag Academy, an Imperial military academy, as well as numerous prisons which hold enemies of the Galactic Empire. `
 
 planet Coruscant
 	landscape land/coruscant
 	description `A city-covered planet, Coruscant is the vibrant heart and capital of the galaxy, featuring a diverse mix of citizens and culture. It features towering skyscrapers, streams of speeder-filled air traffic, and inner levels that stretch far below the world’s surface. Coruscant was the seat of government for the Galactic Republic and the Empire that followed, and was the site of numerous historic events during the Clone Wars. It also housed the Jedi Temple and Archives, which hosted Jedi training and learning for over a thousand generations -- traditions that ended when the planet bore witness to Order 66.`
-	spaceport `Coruscant's surface was defined by its urban sprawl, which collectively was called Galactic City. The dense city blocks were built on top of each other, with lowest being Level 1 and the highest reaching to Level 5127. The lowest known habitable level was Level 5. At its highest level, Galactic City's skyscrapers were built with many reaching 6,000 meters into the atmosphere, with sleek, transparisteel edifices standing next to older duracrete structures.`
+	spaceport `	Coruscant's surface was defined by its urban sprawl, which collectively was called Galactic City. The dense city blocks were built on top of each other, with lowest being Level 1 and the highest reaching to Level 5127. The lowest known habitable level was Level 5. At its highest level, Galactic City's skyscrapers were built with many reaching 6,000 meters into the atmosphere, with sleek, transparisteel edifices standing next to older duracrete structures.`
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
 	shipyard "Miscellaneous Ships"
@@ -38939,6 +38946,7 @@ planet Coruscant
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
 	shipyard "Legacy Ships"
+	shipyard "Vong Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
 	security 0.7
@@ -38950,12 +38958,12 @@ planet Coruscant
 planet "D'Qar "
 	landscape land/dqar
 	description `D'Qar was a verdant planet located in the Ileenium system of the Outer Rim Territories. By the thirtieth year after the formation of the New Republic, the planet was the location of the headquarters of the Resistance, a small military force formed by Senator Leia Organa to combat the growing threat of the First Order, a successor state to the Galactic Empire.`
-	spaceport `The Resistance base was located mostly underneath the surface of D'Qar, with only the facility's landing areas and antenna arrays exposed. Inside the base was a command center, as well as as multiple hangars, both above and underground, used to store T-70 X-wing starfighters. Underneath the hangars was an area known as the maintenance level, where damaged vehicles could go to be repaired. Surrounding the base was thick jungle foliage, which helped hide the facility from air and ground sensors and conceal potential power leaks.`
+	spaceport `	The Resistance base was located mostly underneath the surface of D'Qar, with only the facility's landing areas and antenna arrays exposed. Inside the base was a command center, as well as as multiple hangars, both above and underground, used to store T-70 X-wing starfighters. Underneath the hangars was an area known as the maintenance level, where damaged vehicles could go to be repaired. Surrounding the base was thick jungle foliage, which helped hide the facility from air and ground sensors and conceal potential power leaks.`
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
 
 planet "Death Star II "
-	landscape ""
+	landscape land/unknown
 	tribute 100000
 		threshold 7000
 		fleet deathstariifleet
@@ -38963,7 +38971,7 @@ planet "Death Star II "
 planet "Empress Teta "
 	landscape land/rilium
 	description `Empress Teta was a ecumenopolis world located in the Empress Teta system, a star system in the Koros sector of the galaxy's Deep Core. Initially known as Koros or Koros Major, the planet's name was changed following Empress Teta's unification of the system in 5000 BBY. The extent to which the capital Cinnagar covered the world also caused many to refer to the world itself as Cinnagar, even in official documentation—a source of confusion at times.`
-	spaceport `A major supplier of refined carbonite, the planet was a major hub of operations for the Mining Guild. It was located on both the Koros Trunk Line and the Carbonite Run, and for a short time on the Daragon Trail. Empress Teta was the main hub of galactic civilization in the Deep Core and was also one of the few highly urbanized planets in the region to rival Coruscant itself in fashion and amenities.`
+	spaceport `	A major supplier of refined carbonite, the planet was a major hub of operations for the Mining Guild. It was located on both the Koros Trunk Line and the Carbonite Run, and for a short time on the Daragon Trail. Empress Teta was the main hub of galactic civilization in the Deep Core and was also one of the few highly urbanized planets in the region to rival Coruscant itself in fashion and amenities.`
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
 	shipyard "Miscellaneous Ships"
@@ -38973,19 +38981,20 @@ planet "Empress Teta "
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
 	shipyard "Legacy Ships"
+	shipyard "Vong Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
 planet "Esseles "
-	landscape ""
+	landscape land/unknown
 	description `Esseles has a population of 24 billion and is covered in many high, steep, rugged, volcanic mountain chains. The atmosphere is heavy, and so it has a warm, wet climate. It is a large planet, with a diameter of 9,186 mi (14,783 km). `
 	description `	Its capital city is Calamar, a cultured city that serves as a center for education, art, recreation, and holoproduction. Esseles is known for its beautiful architecture.`
 	description `	It serves as headquarters for Caldrahlsen Mechanicals, DynaCorp, Trinkatta Starships, and Damorian Manufacturing Corporation. Esseles is also the site of one of the Core Worlds' few podracing courses, the Togatto Speedway.`
-	spaceport `For millennia, Esseles was the hub of a once grand empire known as the Esselian Empire that at one point contained nineteen planets spanning the Darpa Sector. However it collapsed following the Clone Wars after they failed to meet certain financial obligations.`
+	spaceport `	For millennia, Esseles was the hub of a once grand empire known as the Esselian Empire that at one point contained nineteen planets spanning the Darpa Sector. However it collapsed following the Clone Wars after they failed to meet certain financial obligations.`
 
 planet "Exegol "
-	landscape ""
+	landscape land/unknown
 	description `Exegol was a dark, barren, and rocky planet with desert flats. Its dry conditions, combined with the rubbing of dust particles in its atmosphere, created enormous static discharges that appeared as lightning strikes from the planet surface. The desolate world was covered with enormous fissures that reached deep into its crust. These were excavated by Sith loyalists who were attempting to reach a vergence they believed to lie beneath the surface.`
-	spaceport `Exegol was one of the oldest Sith bastions, dating back to about a thousand years prior to the fall of the Galactic Republic. Under the Sith, the Sith Citadel was built on Exegol for meetings and rituals to be conducted within, and Sith loyalists excavated the world's large and deep planetary fissures in hopes of reaching a vergence believed to lie beneath the planet surface.`
+	spaceport `	Exegol was one of the oldest Sith bastions, dating back to about a thousand years prior to the fall of the Galactic Republic. Under the Sith, the Sith Citadel was built on Exegol for meetings and rituals to be conducted within, and Sith loyalists excavated the world's large and deep planetary fissures in hopes of reaching a vergence believed to lie beneath the planet surface.`
 	tribute 100000
 		threshold 0
 		fleet sitheternal 15
@@ -39000,7 +39009,7 @@ planet "Exegol "
 planet "Fedalle "
 	landscape land/fedalle
 	description `Fedalle was a wealthy and industrious world of the Core. Fedalle was an astronomical object within the galaxy's Core Worlds. It was connected via the Hydian Way hyperspace route to the planets Skako and Bellassa. A separate hyperspace lane connected it to the planet Kuat.`
-	spaceport `Fedalle joined the Galactic Republic early in its history, sometime between 25,000 BBY and 22,000 BBY. The planet didn't secede during the Clone Wars. It would later align with the Galactic Empire at its formation in 19 BBY. Hrekin Thorm represented Fedalle in both the Imperial Senate.`
+	spaceport `	Fedalle joined the Galactic Republic early in its history, sometime between 25,000 BBY and 22,000 BBY. The planet didn't secede during the Clone Wars. It would later align with the Galactic Empire at its formation in 19 BBY. Hrekin Thorm represented Fedalle in both the Imperial Senate.`
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
 	shipyard "Miscellaneous Ships"
@@ -39010,89 +39019,89 @@ planet "Fedalle "
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
 	shipyard "Legacy Ships"
+	shipyard "Vong Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
 
 planet "Filordis "
-	landscape ""
+	landscape land/unknown
 	description `Filordis is a planet in the Inner Rim, orbiting a red star. It is a wasteland of thunderstorms and fierce winds. `
-	spaceport `Its people, the Filordi, constantly seek ways to either improve their homeworld, or leave it. Some of them terraformed part of the planet. Filordis is also one of the head offices of the Metatheran Cartel, a Filordi-dominated trade organization.`
+	spaceport `	Its people, the Filordi, constantly seek ways to either improve their homeworld, or leave it. Some of them terraformed part of the planet. Filordis is also one of the head offices of the Metatheran Cartel, a Filordi-dominated trade organization.`
 
 planet "Foerost "
-	landscape UNKNOWN
-
-planet "Foerost  "
-	landscape ""
-	description `Foerost has an Imperial communications tower similar to the one on Scarif.`
+	landscape land/unknown
+	description `Foerost is a Core planet on the Koros Trunk Line. It is orbited by the Foerost Shipyards, which is one of the Republic's largest and oldest shipyards. It even held the title of largest, and highest quality ships in the galaxy till Kuat later usurped the title in the Clone Wars.`
+	spaceport ` The shipyards' engineers remove raw materials from the planet and transported them to the shipyards in high orbit. Foerost has an Imperial communications tower similar to the one on Scarif.`
+	shipyard "Imperial Navy Ships"
 
 planet Folor
 	landscape land/folor
-	description `Folor was an airless moon of the planet Commenor, and was the larger of the planet's two satellites. It was barren, mountainous, and frost-coated. The Commenorians once mined the moon.`
+	description `Folor is an airless moon of the planet Commenor, and is the larger of the planet's two satellites. It is barren, mountainous, and frost-coated. The Commenorians once mined the moon.`
 	government Uninhabited
 
 planet "Geonosis "
 	landscape land/geonosis
-	description `Geonosis, referred to as Geonosia by some natives, was the desert home planet of the Geonosians. It was the Confederacy of Independent Systems' first capital and hosted its major battle droid foundries. At least five years after the Clone Wars, the Empire s sterilized the planet as a security measure, an act which resulted in the virtual elimination of the planet's native population.`
+	description `Geonosis, referred to as Geonosia by some natives, was the desert home planet of the Geonosians. It was the Confederacy of Independent Systems' first capital and hosted its major battle droid foundries. The Empire has sterilised the planet, an act which resulted in the virtual elimination of the planet's native population.`
 	description `	During the time of the Geonosian rule, much of the planet's architecture was similar in appearance to termite mounds, consisting of domes and buildings built into caverns and rock spires. Therefore, one could easily mistake Geonosian buildings for natural formations and the planet to be uninhabited, a great asset during war.`
 
 planet "Golan 3"
-	landscape ""
-	description `Golan III platforms were assigned to the most valuable locations in the galaxy. One notable use of Golan III platforms was their deployment as scanner stations in the Byss Security Zone, working in concert with Allegiance-class battlecruisers. The Golan III Space Defense NovaGun, also known simply as the Golan III, was the third space station in Golan Arms' series of space defense platforms.`
-	spaceport `Golan III`
+	landscape land/unknown
+	description `Golan III platforms are assigned to the most valuable locations in the galaxy. One notable use of Golan III platforms was their deployment as scanner stations in the Byss Security Zone, working in concert with Allegiance-class battlecruisers. The Golan III Space Defense NovaGun, also known simply as the Golan III, is the third space station in Golan Arms' series of space defense platforms.`
+	spaceport `	Golan III`
 
 planet "Grizmallt "
-	landscape ""
+	landscape land/unknown
 	description `Grizmallt is a war-torn ecumenopolis planet and the origin of the humans who crash-landed on and colonized Naboo long before the Clone Wars.`
-	spaceport `In the ancient Alsakan Conflicts from 17 000 BBY, fought between Coruscant and Alsakan over the governance of the early Republic, Grizmallt sided with the Alsakan-led Axis coalition.`
+	spaceport `	In the ancient Alsakan Conflicts from 17 000 BBY, fought between Coruscant and Alsakan over the governance of the early Republic, Grizmallt sided with the Alsakan-led Axis coalition.`
 
 planet "Hok "
-	landscape ""
+	landscape land/unknown
 	description `Hok is a planet split into two sides. It is tidally locked meaning the same hemisphere is always facing the star it orbits. The closer side is a desert wasteland that looks like Tatooine, while the other half is surrounded by pure darkness. This area also has a rich supply of crystals on which the people mined and traded.`
-	spaceport `It was established as a Gran colony in 1000 BBY during an expansion period. However, the emigrating colonists left a significant imbalance in Gran society on their homeworld of Kinyen. Feeling they were destroying too many families, and diluting the Gran race, the government reacted with isolationist policies and prohibited unauthorized emigration from Kinyen and limited offworlders both Gran and other species to special "alien" quarters in their cities.`
+	spaceport `	It was established as a Gran colony in 1000 BBY during an expansion period. However, the emigrating colonists left a significant imbalance in Gran society on their homeworld of Kinyen. Feeling they were destroying too many families, and diluting the Gran race, the government reacted with isolationist policies and prohibited unauthorized emigration from Kinyen and limited offworlders both Gran and other species to special "alien" quarters in their cities.`
 	spaceport `	This protected the Gran society, but it also isolated the Gran on Hok and Malastare who had begun to form strong bonds to their new homes. The Gran colonies continue independently, continuing the strong social bonds of Gran society but with loosened social codes. Unfortunately, the looser social codes allow for more corruption in the upper levels of colonial Gran society.`
 
 planet "Ixtlar "
-	landscape ""
+	landscape land/unknown
 
 planet "Kalist VI"
-	landscape UNKNOWN
+	landscape land/unknown
 	description `Kalist VI is a bleak, mountainous, desert planet, home to an Imperial base and labor colony. The planet is drier than Jabiim, but not as unpleasantly acrid as Tatooine.`
-	spaceport `The labor colony is home to many prisoners of the Empire, including political prisoners and prisoners of war. The complex itself consists of a massive transparisteel dome, with a landing pad and several power fences around the perimeter.`
+	spaceport `	The labor colony is home to many prisoners of the Empire, including political prisoners and prisoners of war. The complex itself consists of a massive transparisteel dome, with a landing pad and several power fences around the perimeter.`
 	shipyard "Miscellaneous Ships"
 
 planet "Kiiro "
 	landscape land/kiiro
 	description `Kiiro simply translates to "yellow" in the ancient language of the planet's inhabitants, and its namesake is quite clear. The entire surface of the planet is a shockingly bright yellow, due to the large powdery sulphur deposits covering it. This makes the planet rather unpleasant to live on and many who do so find themselves in a place of little opportunity and poor living conditions. One of the planet's only uses is as a giant geothermal powerplant, due to its bubbling sulphur reservoirs found relatively close to its surface. Other prominent industries include the mining of copper and uranium.`
-	spaceport `The spaceport smells heavily of rotten egg, yet the locals seem oblivious to this. The air and all surfaces seem to be saturated with a chalky yellow substance, and visitors to the planet seem eager to leave as soon as possible.`
+	spaceport `	The spaceport smells heavily of rotten egg, yet the locals seem oblivious to this. The air and all surfaces seem to be saturated with a chalky yellow substance, and visitors to the planet seem eager to leave as soon as possible.`
 	shipyard "Rebel Alliance Ships"
 
 planet "Kuat "
 	landscape land/kuat
-	description `Kuat was a planet located in the Core Worlds and one of the earliest members of the Galactic Republic. It was best known as the home of Kuat Drive Yards. These famous shipyards, used to build ships for both the Galactic Republic and later the Galactic Empire, circled the planet for thousands of kilometers.`
-	spaceport `An industrial world and center of manufacturing that played a significant role in galactic shipbuilding, Kuat was the home of Kuat Drive Yards, whose shipyards and construction facilities were the most prominent feature of Kuat, encircling the planet in the shape of a large ring. Kuat was considered one of the most efficient shipyards in the galaxy, and its defenses were formidable, with protection provided by the Kuati Sector Forces and designs used for self-defense by Kuat Drive Yards.`
+	description `Kuat is a planet located in the Core Worlds and is one of the earliest members of the Galactic Republic. It is best known as the home of Kuat Drive Yards. These famous shipyards, used to build ships for both the Galactic Republic and later the Galactic Empire, circled the planet for thousands of kilometers.`
+	spaceport `	An industrial world and center of manufacturing that played a significant role in galactic shipbuilding, Kuat is the home of Kuat Drive Yards, whose shipyards and construction facilities are the most prominent feature of Kuat, encircling the planet in the shape of a large ring. Kuat is considered one of the most efficient shipyards in the galaxy, and its defenses are formidable, with protection provided by the Kuati Sector Forces and designs used for self-defense by Kuat Drive Yards.`
 	shipyard "Imperial Navy Ships"
 
 planet Lehon
 	landscape land/lehon
 	description `Lehon, also referred to as Rakata, Rakata Prime, and the Unknown World, was the homeworld of the Rakata species and the secret capital of their Infinite Empire. Lehon was a tropical world in a remote and relatively unknown corner of the galaxy known as the Tempered Wastes, a largely void area of space.`
-	description `	Its surface was largely covered by oceans dotted by numerous clusters of islands and archipelagos. It was the only habitable planet in the Lehon system, but it shared an orbit around its primary star with the Star Forge, an ancient Rakatan space station and factory which drew its fuel directly from the system's primary star.`
+	description `	Its surface is largely covered by oceans dotted by numerous clusters of islands and archipelagos. It is the only habitable planet in the Lehon system, but it shares an orbit around its primary star with the Star Forge, an ancient Rakatan space station and factory which draws its fuel directly from the system's primary star.`
 
 planet "Lola Sayu "
 	landscape land/lolasayu
-	description `Lola Sayu was a sulfurous, cracked planet that was home to the Citadel, a prison engineered to hold Jedi, during the Clone Wars.`
-	spaceport `During 522 BBY, the Jedi Order built the Citadel somewhere on Lola Sayu in order to imprison rogue Jedi. Lola Sayu was conquered by the Confederacy of Independent Systems early in the Clone Wars, placing the Citadel under Separatist control.`
+	description `Lola Sayu is a sulfurous, cracked planet that is home to the Citadel, a prison engineered to hold Jedi, during the Clone Wars.`
+	spaceport `	During 522 BBY, the Jedi Order built the Citadel somewhere on Lola Sayu in order to imprison rogue Jedi. Lola Sayu was conquered by the Confederacy of Independent Systems early in the Clone Wars, placing the Citadel under Separatist control.`
 	shipyard "Separatist Alliance Ships"
 
 planet "Lothal "
-	landscape ""
-	description `Lothal was a planet in the Outer Rim Territories. During the early years of the Galactic Empire, Lothal was in a state of economic disrepair and invited the Empire to take over the planet's industries, with the promise of prosperity and security. Although many people said the Empire would bring doom, the ones preaching new jobs and prosperity were vindicated.`
-	spaceport `The planet Lothal itself was primarily terrestrial, known for its grassy plains, spine tree forests, farmland, long, low mountains, and shallow freshwater seas. The planet also had marshes, which were said to house will-o'-the-wisps. Some notable fauna included the loth-cats and the loth-wolves. By the Imperial Era, loth-wolves were widely believed to be extinct but could manifest themselves to Force-sensitive individuals. They were connected to the planet through the Force and Kanan regarded them as messengers warning them that the Empire was doing something "malevolent" to the planet.`
+	landscape land/unknown
+	description `Lothal is a planet in the Outer Rim Territories. During the early years of the Galactic Empire, Lothal was in a state of economic disrepair and invited the Empire to take over the planet's industries, with the promise of prosperity and security. Although many people said the Empire would bring doom, the ones preaching new jobs and prosperity were vindicated.`
+	spaceport `	The planet Lothal itself is primarily terrestrial, known for its grassy plains, spine tree forests, farmland, long, low mountains, and shallow freshwater seas. The planet also has marshes, which are said to house will-o'-the-wisps. Some notable fauna included the loth-cats and the loth-wolves. Loth-wolves are widely believed to be extinct, but rumours say that they can still be found infrequently.`
 	shipyard "Imperial Navy Ships"
 
 planet "N'zoth "
 	landscape land/nzoth
-	description `N'zoth was an arid planet with standard gravity and an atmosphere breathable by most sentient creatures. The brutal, xenophobic Yevetha were the planet's only sentient species, although other native species such as the siringana were equally merciless and brutal. Giat Nor was the capital city of both N'zoth and later the Duskhan League. The planet was the headquarters of Nazfar Metalworks.`
-	spaceport `N'zoth was the fifth planet in the N'zoth system, located in the Farlax sector in the Koornacht Cluster, near the Core Worlds. It was most well known for being the home world of the Yevetha.`
+	description `N'zoth is an arid planet with standard gravity and an atmosphere breathable by most sentient creatures. The brutal, xenophobic Yevetha are the planet's only sentient species, although other native species such as the siringana are equally merciless and brutal. Giat Nor is the capital city of both N'zoth. The planet is the headquarters of Nazfar Metalworks.`
+	spaceport `	N'zoth is the fifth planet in the N'zoth system, located in the Farlax sector in the Koornacht Cluster, near the Core Worlds. It is most well known for being the home world of the Yevetha.`
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
 	shipyard "Miscellaneous Ships"
@@ -39102,52 +39111,53 @@ planet "N'zoth "
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
 	shipyard "Legacy Ships"
+	shipyard "Vong Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
 
 planet "Naboo "
 	landscape land/naboo
-	description `Naboo was a planet that was the sector capital of the Chommell sector in the Mid Rim, near the border with the Outer Rim Territories. The planet had an unusual plasma core, and its surface was a largely unspoiled world with large plains, swamps and seas.`
-	spaceport `Naboo was a small pastoral world[37] in the Mid Rim,[1] located near the border of the Outer Rim Territories.[9] Unlike most other worlds, the ancient planet lacked a molten core, and instead comprised a conglomerate of large, rocky bodies that made up a network of tunnels and flooded caves. The native Gungans, who built their homes in the waters of Naboo, rarely ventured into the core, fearing the ravenous sea beasts which resided in areas such as the Caves of Eleuabad. Despite this, certain Gungan navigators utilized time-honored trade routes through the planet's structure, which served as the most expedient avenues to reach other areas of the planet. Naboo's interior was rich with plasma, a naturally-occurring energy unique to the planet, and this coupled with its lack of molten core gave Naboo a reputation as an enigma to astrophysicists, who regarded the world's structure as an extremely rare phenomenon in the galaxy.`
+	description `Naboo is a planet that is the sector capital of the Chommell sector in the Mid Rim, near the border with the Outer Rim Territories. The planet has an unusual plasma core, and its surface is a largely unspoiled world with large plains, swamps and seas.`
+	spaceport `	Naboo is a small pastoral world in the Mid Rim, located near the border of the Outer Rim Territories. Unlike most other worlds, the ancient planet lacks a molten core, and instead comprises a conglomerate of large, rocky bodies that make up a network of tunnels and flooded caves. The native Gungans, who built their homes in the waters of Naboo, rarely venture into the core, fearing the ravenous sea beasts which reside in areas such as the Caves of Eleuabad. Despite this, certain Gungan navigators utilize time-honored trade routes through the planet's structure, which serve as the most expedient avenues to reach other areas of the planet. Naboo's interior is rich with plasma, a naturally-occurring energy unique to the planet, and this coupled with its lack of molten core gives Naboo a reputation as an enigma to astrophysicists, who regard the world's structure as an extremely rare phenomenon in the galaxy.`
 	shipyard "Naboo Ships"
 	shipyard "Separatist Alliance Ships"
 	shipyard "Galactic Republic Ships"
 
 planet "Ojom "
-	landscape ""
-	description `Ojom was a frozen ocean planet located within the Deep Core and the homeworld of the Besalisk. Largely inhospitable, several space stations hung in orbit so as to accommodate other species less acclimated to the cold. Content to let galactic affairs continue without their involvement, Ojom avoided Imperial occupation by means of the Besalisks' underworld contacts with the Hutts, though these bargains ended with Ojom becoming woefully indebted.`
-	spaceport `A frozen ocean world in the Deep Core, Ojom was the homeworld of the Besalisk, a four-armed species. Because of the oceanic nature of the planet, Besalisks survived by creating a commune upon the many glaciers adrift on the world's oceans. Despite the several separate communities, the planet was sparsely populated. Many space stations orbited the world, and the populations on these stations actually exceeded that of those communities planetside. The stations filled the role of starports for the planet, and accommodations were much more hospitable than those on Ojom.`
+	landscape land/unknown
+	description `Ojom is a frozen ocean planet located within the Deep Core and the homeworld of the Besalisk. Largely inhospitable, several space stations hung in orbit so as to accommodate other species less acclimated to the cold. Content to let galactic affairs continue without their involvement, Ojom avoid Imperial occupation by means of the Besalisks' underworld contacts with the Hutts, though these bargains end with Ojom becoming woefully indebted.`
+	spaceport `	A frozen ocean world in the Deep Core, Ojom is the homeworld of the Besalisk, a four-armed species. Because of the oceanic nature of the planet, Besalisks survive by creating a commune upon the many glaciers adrift on the world's oceans. Despite the several separate communities, the planet is sparsely populated. Many space stations orbit the world, and the populations on these stations actually exceeding that of those communities planetside. The stations fill the role of starports for the planet, and accommodations are much more hospitable than those on Ojom.`
 
 planet "Orto Plutonia"
 	landscape land/ortoplutonia
-	description `Orto Plutonia was a desolate icy planet in the Pantora system, home to the native Talz and a number of narglatches. It was considered a protectorate of the orbiting moon Pantora until the Clone Wars, when the Talz inhabitants were granted political supremacy by the Pantoran Assembly following a brief conflict with Galactic Republic forces.`
+	description `Orto Plutonia is a desolate icy planet in the Pantora system, home to the native Talz and a number of narglatches. It was considered a protectorate of the orbiting moon Pantora until the Clone Wars, when the Talz inhabitants were granted political supremacy by the Pantoran Assembly following a brief conflict with Galactic Republic forces.`
 	government Uninhabited
 
 planet Pantolomin
 	landscape land/pantolomin
-	description `Pantolomin, also known as Panto Prime, was the primary planet of the Panto system, in the Dolomar sector of the Core Worlds. It was an aquatic world known as one of the grea tourist places of the galaxy.`
-	spaceport `Pantolomin was an oceanic planet, famous for the intricate coral reefs found in the waters of its northern continent. The entire system, including Pantolomin specifically, operated as a resort world for galactic travelers. It offered visitors casino submarines, such as the Coral Vanda, a submersible cruiser that operated in the famous oceans of Pantolomin.`
+	description `Pantolomin, also known as Panto Prime, is the primary planet of the Panto system, in the Dolomar sector of the Core Worlds. It is an aquatic world known as one of the grea tourist places of the galaxy.`
+	spaceport `	Pantolomin is an oceanic planet, famous for the intricate coral reefs found in the waters of its northern continent. The entire system, including Pantolomin specifically, operate as a resort world for galactic travelers. It offers visitors casino submarines, such as the Coral Vanda, a submersible cruiser that operates in the famous oceans of Pantolomin.`
 	shipyard "Miscellaneous Ships"
 
 planet "Pantora "
 	landscape land/pantora
-	description `Pantora was the principal moon of the Outer Rim Territories' Pantora system, orbiting the ice planet Orto Plutonia. Pantora was covered by terrestrial land, with marshes on the outskirts of its cities. It was a member of the Galactic Republic and had full senatorial representation on Coruscant.`
-	spaceport `When the Republic collapsed and the Galactic Empire seized control of the galaxy, Pantora was cut off from the rest of the galaxy. Struggling to come to grips with their new predicament, the Pantoran Assembly split into three factions: the Appeasers, the Republicans, and the Expansionists. The dominant faction, the traditionalist Republicans, believed the Empire stood in stark opposition to the core principles and values of the Pantoran culture.`
+	description `Pantora is the principal moon of the Outer Rim Territories' Pantora system, orbiting the ice planet Orto Plutonia. Pantora is covered by terrestrial land, with marshes on the outskirts of its cities. It is a member of the Galactic Republic and has full senatorial representation on Coruscant.`
+	spaceport `	When the Republic collapsed and the Galactic Empire seized control of the galaxy, Pantora was cut off from the rest of the galaxy. Struggling to come to grips with their new predicament, the Pantoran Assembly split into three factions: the Appeasers, the Republicans, and the Expansionists. The dominant faction, the traditionalist Republicans, believed the Empire stood in stark opposition to the core principles and values of the Pantoran culture.`
 
 planet "Penumbria I"
-	landscape ""
+	landscape land/unknown
 	description `Penumbria I`
-	spaceport `Penumbria I`
+	spaceport `	Penumbria I`
 
 planet Pollillus
-	landscape UNKNOWN
-	description `Pollillus was a planet located within the Vannell system. It was situated within the Core Worlds' Vannell sector, beyond the Koornacht Cluster. Homeworld of the two-headed sentient Troigs, the planet had only recently been discovered by the galactic community by 32BBY.`
-	spaceport `Pollillus' surface featured several landmasses, which appeared green-colored when viewed from space, and numerous interconnected bodies of water. There were no predatory creatures on Pollillus that could have sprung surprise attacks on the evolutionary ancestors of Troigs, the planet's native sentient species.`
+	landscape land/unknown
+	description `Pollillus is a planet located within the Vannell system. It is situated within the Core Worlds' Vannell sector, beyond the Koornacht Cluster. Homeworld of the two-headed sentient Troigs, the planet has only recently been discovered by the galactic community.`
+	spaceport `	Pollillus' surface features several landmasses, which appear green-colored when viewed from space, and numerous interconnected bodies of water. There are no predatory creatures on Pollillus that could have sprung surprise attacks on the evolutionary ancestors of Troigs, the planet's native sentient species.`
 
 planet "Prakith "
 	landscape land/rilium
-	description `Prakith was a mountainous fortress world located in the Prakith system of the Deep Core that, thanks to its unstable terrain and its isolation, was a difficult location to conquer by force. The planet was a powerful Sector 5 fortress world during the Galactic Civil War and later the personal empire of Moff Foga Brill.`
-	spaceport `Prakith's major cities (such as Prak City) were built atop the planet's large plateaus, surrounded on all sides by great caverns and crevasses. Since ground travel across such terrain proved difficult, natives often used cloud cars and airspeeders for transportation. The natives were, under Imperial rule, a relatively subdued and businesslike population.`
+	description `Prakith is a mountainous fortress world located in the Prakith system of the Deep Core that, thanks to its unstable terrain and its isolation, is a difficult location to conquer by force. The planet is a powerful Sector 5 fortress world.`
+	spaceport `	Prakith's major cities (such as Prak City) are built atop the planet's large plateaus, surrounded on all sides by great caverns and crevasses. Since ground travel across such terrain prove difficult, natives often use cloud cars and airspeeders for transportation. The natives are, under Imperial rule, a relatively subdued and businesslike population.`
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
 	shipyard "Miscellaneous Ships"
@@ -39157,31 +39167,32 @@ planet "Prakith "
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
 	shipyard "Legacy Ships"
+	shipyard "Vong Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
 
 planet "Raithal "
-	landscape ""
+	landscape land/unknown
 	description `Raithal is a planet of icy oceans, plains, mesas and canyons.`
-	spaceport `Under the Galactic Republic, Raithal produced officers for the Republic Navy. In the final decades of the Republic, there were so many students at the Raithal Academy that applicants had to be turned away. To counter this situation, Corulag Academy was created on Corulag as a branch of Raithal Academy.`
+	spaceport `	Under the Galactic Republic, Raithal produced officers for the Republic Navy. In the final decades of the Republic, there were so many students at the Raithal Academy that applicants had to be turned away. To counter this situation, Corulag Academy was created on Corulag as a branch of Raithal Academy.`
 	spaceport `	The Raithal Academy, of all the Imperial Army Officer Training Academies, is considered to be the foremost school. It is renowned for producing the best officers in the Imperial Army.`
 
 planet "Ralltiir "
-	landscape ""
-	description `Ralltiir is the second planet in orbit around the star Rallt, with twenty-eight moons and three continents that wrapp around the planet. A major financial center in the galactic economy, Ralltiir was a member world of the Galactic Republic but remained largely "Unaffiliated" in galactic politics to ensure that the finances of its inhabitants remained safe from political influences and war.`
-	description `	Besides its financial services, Ralltiir is also a major source of marble, as the planet's mountain ranges feature large deposits of marble and are riddled with quarries. Its population of 10 billion sentients are almost entirely Humans.`
-	spaceport `Located in the Ringali Shell, a string of planets along the Perlemian Trade Route that lay near the Ringali Nebula, Ralltiir was one of the only planets in the Darpa sector to remain independent from the Esselian Empire. The Empire, based on the planet Esseles, once contained nineteen worlds but collapsed following the Clone Wars after they failed to meet certain financial obligations.`
+	landscape land/unknown
+	description `Ralltiir is the second planet in orbit around the star Rallt, with twenty-eight moons and three continents that wrap around the planet. A major financial center in the galactic economy, Ralltiir was a member world of the Galactic Republic but remained largely "Unaffiliated" in galactic politics to ensure that the finances of its inhabitants remained safe from political influences and war.`
+	description `Besides its financial services, Ralltiir is also a major source of marble, as the planet's mountain ranges feature large deposits of marble and are riddled with quarries. Its population of 10 billion sentients are almost entirely Humans.`
+	spaceport `	Located in the Ringali Shell, a string of planets along the Perlemian Trade Route that lay near the Ringali Nebula, Ralltiir is one of the only planets in the Darpa sector to remain independent from the Esselian Empire. The Esselian Empire, based on the planet Esseles, once contained nineteen worlds but collapsed following the Clone Wars after they failed to meet certain financial obligations.`
 
 planet "Ring of Kafrene "
 	landscape land/ringofkafrene
-	description `The Ring of Kafrene was a monumental construction which served as both a mining colony and a deep-space trading post. Its structures, made from durasteel and plastoid, were slung between a pair of malformed planetoids in the Kafrene asteroid belt. Areas such as its aft docking bay were covered in lurid, phosphorescent graffiti. Roads led out from the docking bays towards the distant rock warrens of the planetoids, and the outpost itself was a labyrinthine sprawl of shacks, prefabricated housing, and countless maze-like corridors.`
-	spaceport `Although there was some structure to the buildings around the main throughways, beyond these areas the layout of the Ring changed almost daily; shacks were made of sheet metal, and shelters utilized housing units recycled from foreign colonies. Alien housing complexes and tenements featured ventilation shafts that sent wafts of ammonia into the streets. The Ring acted as a junction between the Corellian Trade Spine—which connected it to the planets Coruscant and Anoat—and the Biox Detour, which connected it to the planets Takodana and Malastare.`
+	description `The Ring of Kafrene is a monumental construction which serves as both a mining colony and a deep-space trading post. Its structures, made from durasteel and plastoid, are slung between a pair of malformed planetoids in the Kafrene asteroid belt. Areas such as its aft docking bay are covered in lurid, phosphorescent graffiti. Roads lead out from the docking bays towards the distant rock warrens of the planetoids, and the outpost itself is a labyrinthine sprawl of shacks, prefabricated housing, and countless maze-like corridors.`
+	spaceport `	Although there is some structure to the buildings around the main throughways, beyond these areas the layout of the Ring changes almost daily; shacks are made of sheet metal, and shelters utilise housing units recycled from foreign colonies. Alien housing complexes and tenements feature ventilation shafts that sent wafts of ammonia into the streets. The Ring acts as a junction between the Corellian Trade Spine—which connects it to the planets Coruscant and Anoat—and the Biox Detour, which connects it to the planets Takodana and Malastare.`
 	shipyard "Miscellaneous Ships"
 
 planet "Rodia "
 	landscape land/rodia
 	description `Rodia was a remote swampy, jungle planet and the homeworld of the Rodian species. Cities on Rodia were encased with domed environmental shields that allowed entry and exit for vehicles and vessels.`
-	spaceport `By the time of the Galactic Civil War, Rodia had fallen under Imperial control and many Rodians were recruited by the Alliance to Restore the Republic as they opposed the occupation of their homeworld.`
+	spaceport `	By the time of the Galactic Civil War, Rodia had fallen under Imperial control and many Rodians were recruited by the Alliance to Restore the Republic as they opposed the occupation of their homeworld.`
 	shipyard "Miscellaneous Ships"
 
 planet "Rugosa "
@@ -39190,14 +39201,14 @@ planet "Rugosa "
 	description `	The remote moon Rugosa was located in the galaxy's Outer Rim Territories close to the planet Toydaria, a world in Hutt Space, which was the homeworld of the Toydarian species. The moon had a temperate climate, and parts of its surface area were covered by large regions of coral forests, with the corals varying hugely in size and some being large enough to support small starships. Cavernous valley areas also existed on the moon.`
 
 planet "Salliche "
-	landscape ""
+	landscape land/salliche
 	description `Salliche is an agricultural world, the headquarters of the Salliche Agricultural Corporation. The planet is one of 18 planets on the Agricultural Circuit.`
-	spaceport `Coruscant is Salliche Ag Corp's primary customer, due to the proximity of many of its agriworlds to the capitol. However, it has many other customers in the Inner Core due to the high population density of the region, especially along the first part of the Corellian Run.`
+	spaceport `	Coruscant is Salliche Ag Corp's primary customer, due to the proximity of many of its agriworlds to the capitol. However, it has many other customers in the Inner Core due to the high population density of the region, especially along the first part of the Corellian Run.`
 
 planet "Scarif "
 	landscape land/scarif
 	description `Scarif was a remote, tropical planet in the Abrion sector of the Outer Rim Territories. Although a small and idyllic world, Scarif played an important part in the Galactic Empire's military-industrial complex, becoming a center for top-secret research beyond inspection distance of the prying eyes of the Imperial Senate. Among the projects developed here was the Death Star battle station, a construction so important the entire planet was covered by a planetary deflector shield that could only be entered via a Shield Gate.`
-	spaceport `The Imperial security complex, commonly known as Scarif base, was an Imperial research and development installation located on the tropical Outer Rim planet of Scarif. The facility was the center for research, structural engineering, munitions and manufacturing for the Death Star project. Shortly before the Battle of Yavin, the Rebel Alliance managed to penetrate Scarif's deflector shield and launch an attack on the security complex as part of their mission to steal the plans to the Death Star.`
+	spaceport `	The Imperial security complex, commonly known as Scarif base, was an Imperial research and development installation located on the tropical Outer Rim planet of Scarif. The facility was the center for research, structural engineering, munitions and manufacturing for the Death Star project. Shortly before the Battle of Yavin, the Rebel Alliance managed to penetrate Scarif's deflector shield and launch an attack on the security complex as part of their mission to steal the plans to the Death Star.`
 	tribute 100000
 		threshold 0
 		fleet scarifshieldgate
@@ -39206,7 +39217,7 @@ planet "Scarif "
 planet "Skako Minor"
 	landscape land/skakominor
 	description `Skako Minor, or simply Skako, was a planet located in the galaxy's Core Worlds that was the homeworld of the Skakoan and Poletec species. It was controlled by the Techno Union, whose headquarters was the city of Purkoll. Despite the Techno Union's ostensible "Unaffiliated"ity, Skako Minor was captured by the Galactic Republic during the Clone Wars, and its successor, the Galactic Empire, maintained the occupation into the Galactic Civil War.`
-	spaceport `A temperate world, Skako Minor's misty surface featured canyons, mountains, caverns, craters, and fungal forests. It had an atmosphere of hydrogen sulphide, which had a unique pressure. Native fauna included eight-eyed, gasbag-headed vine walkers known as octuptarras and large, flying reptiles known as keeradaks.`
+	spaceport `	A temperate world, Skako Minor's misty surface featured canyons, mountains, caverns, craters, and fungal forests. It had an atmosphere of hydrogen sulphide, which had a unique pressure. Native fauna included eight-eyed, gasbag-headed vine walkers known as octuptarras and large, flying reptiles known as keeradaks.`
 	shipyard "Miscellaneous Ships"
 
 planet "Star Forge"
@@ -39215,45 +39226,45 @@ planet "Star Forge"
 	description `	After its destruction, the Star Forge fell into obscurity within the galactic community. The Republic, at the urging of the Jedi, felt it was unnecessary and detrimental to the rebuilding of the Republic to have the knowledge of the previously unknown Rakata surface. In their opinion, a reemergence of a culture that had once enslaved much of the known Galaxy would incite panic or fear. As a result, the Lehon system—with the wreckage from the final battle of Jedi Civil War, including the remains of the Star Forge—were quarantined.`
 
 planet "Star Wars Wormhole"
-	landscape ""
+	landscape land/unknown
 
 planet "Starkiller Base (Ilum)"
-	landscape ""
+	landscape land/unknown
 	description `Starkiller Base was a mobile forested ice planet rich in kyber crystals[5] that was located in the Unknown Regions. The First Order, a regime that believed themselves to be the successors to the ideals of the Galactic Empire, converted the planet into a base of operations owing to its unique energy-transmitting crystalline deposits, and used it to house a superweapon capable of destroying entire star systems. The superweapon consumed suns as a power source. Its mobility was provided by rocket ports on the far side of the base.`
-	spaceport `Ilum was a snow-covered planet located in the 7G sector of the Unknown Regions, within the Ilum system. In the system, Ilum was fifth from its parent star Asar, a blue dwarf, located roughly equidistant from Asar and the system's cometary cloud. Ilum had been utilized by the Jedi Order for the Gathering, a rite of passage in which Jedi younglings must find and harvest kyber crystals for their lightsabers, for thousands of standard years.`
+	spaceport `	Ilum was a snow-covered planet located in the 7G sector of the Unknown Regions, within the Ilum system. In the system, Ilum was fifth from its parent star Asar, a blue dwarf, located roughly equidistant from Asar and the system's cometary cloud. Ilum had been utilized by the Jedi Order for the Gathering, a rite of passage in which Jedi younglings must find and harvest kyber crystals for their lightsabers, for thousands of standard years.`
 
 planet "Tatooine "
 	landscape land/tatooine
 	description `Tatooine was a sparsely inhabited circumbinary desert planet located in the galaxy's Outer Rim Territories. Part of a binary star system, the planet was oppressed by scorching suns, resulting in the world lacking the necessary surface water to sustain large populations. As a result, many residents of the planet instead drew water from the atmosphere via moisture farms. The planet also had no natural surface vegetation.`
-	spaceport `Initially inhabited by native Jawa and Tusken Raider species, it saw a population explosion following the search for valuable mining deposits on the planet's silicate surface. The Hutt Clan also maintained a presence on Tatooine, with Jabba the Hutt owning a palace in the desert at least by the time of the Clone Wars.`
+	spaceport `	Initially inhabited by native Jawa and Tusken Raider species, it saw a population explosion following the search for valuable mining deposits on the planet's silicate surface. The Hutt Clan also maintained a presence on Tatooine, with Jabba the Hutt owning a palace in the desert at least by the time of the Clone Wars.`
 	shipyard "Miscellaneous Ships"
 
 planet "The Redoubt "
-	landscape ""
+	landscape land/unknown
 	description `The Redoubt, formally the Chiss Redoubt, was a remote star cluster that was located in Chiss space, near the Utegetu Nebula, and that contained at least ten habitable planets and hundreds of stars. Discovered over 200 years prior to 22 ABY and claimed by the CEDF, the cluster was to be used as the site of a last stand in the event that Chiss space was overrun by any foreign invader. Exploration of the Redoubt by the Chiss only began in earnest around 27 BBY.`
-	spaceport `The Redoubt contained high radiation levels, and the close proximity of stars to each other made navigation difficult. There were only a few safe routes into The Redoubt, and they were all guarded by Chiss fortifications, which prevented foreign intrusions. A planetoid in The Redoubt was the resting place of the ill-fated Outbound Flight Project, which crashed there in 27 BBY.`
+	spaceport `	The Redoubt contained high radiation levels, and the close proximity of stars to each other made navigation difficult. There were only a few safe routes into The Redoubt, and they were all guarded by Chiss fortifications, which prevented foreign intrusions. A planetoid in The Redoubt was the resting place of the ill-fated Outbound Flight Project, which crashed there in 27 BBY.`
 	shipyard "Resistance Ships"
 
 planet "Tirahnn "
-	landscape ""
+	landscape land/unknown
 	description `The planet is famous across the galaxy for its bazaars. The Great Fair is frequented by the S'kytri people, dramatizing Initiation Hunts and selling trinkets from the distant world of Skye.`
-	spaceport `The Republic took back Tirahnn from the Confederacy of Independent Systems near the end of the Clone Wars.`
+	spaceport `	The Republic took back Tirahnn from the Confederacy of Independent Systems near the end of the Clone Wars.`
 
 planet "Tregillis "
-	landscape ""
+	landscape land/unknown
 	description `The planet after which the star system and sector was named.`
 
 planet "Tython "
 	landscape land/rilium
 	description `Tython is a planet located in the galaxy's Deep Core and shrouded in myth. Some Jedi scholars made a case for Tython as the location of the Jedi Order's first temple alongside other candidate worlds, such as Ahch-To, Coruscant, Jedha, and Ossus.`
-	spaceport `Tython contains an ancient Jedi temple, which may have been the Order's very first. `
+	spaceport `	Tython contains an ancient Jedi temple, which may have been the Order's very first. `
 	spaceport `	The Meridional Ice Cap contains the underground Martyrium of Frozen Tears, which has a Force-sensitive confessional made of solid kyberite. The ice cap is also dotted with ancient statues of robed figures near the Martyrium's entrance.`
 
 planet "Ukio "
 	attributes "Rebel Alliance"
-	landscape ""
+	landscape land/unknown
 	description `Ukio was a well-known agriworld in the Ukio system of the Abrion sector and the homeworld of the Ukians. It served as one of the top producers of foodstuffs for the Core Worlds. Ukio was located within a star system of the same name in the Abrion sector of the Outer Rim Territories region of the galaxy. It was situated on the Manda Merchant Route, a hyperlane that connected it to Rishi and Molavar. Ukio itself was a large, terrestrial planet with gentle winds, calm weather, and a mild climate, which featured virtually no seasonal variation due to the world's slow rotation and low axial tilt. It had a breathable atmosphere and light gravity. Ukio's land consisted of three major continents cut through by hundreds of rivers. An Ukian day lasted 22 standard hours and an Ukian year lasted 357 local days.`
-	spaceport `Ukio was one of the best-known and most efficient agricultural planets in its sector, featuring a growing season which lasted most of its year and ideal conditions for the production of grain and other foodstuffs. Ukio's surface, originally dominated by rolling hills and wild grasses, was almost entirely given over to food production, but still contained ample fallow land for future expansion of the industry. Hundreds of rivers provided natural irrigation, which was expanded through the use of technology which harnessed and diverted them. Ukian farmland was carefully cultivated and painstakingly maintained for maximum output, and crop rotation was required by law to prevent the destruction of arable land. The world was governed by the Overliege, a hereditary monarch, and was defended by planetary shields, which were operated by the Ukian Defense Service.`
+	spaceport `	Ukio was one of the best-known and most efficient agricultural planets in its sector, featuring a growing season which lasted most of its year and ideal conditions for the production of grain and other foodstuffs. Ukio's surface, originally dominated by rolling hills and wild grasses, was almost entirely given over to food production, but still contained ample fallow land for future expansion of the industry. Hundreds of rivers provided natural irrigation, which was expanded through the use of technology which harnessed and diverted them. Ukian farmland was carefully cultivated and painstakingly maintained for maximum output, and crop rotation was required by law to prevent the destruction of arable land. The world was governed by the Overliege, a hereditary monarch, and was defended by planetary shields, which were operated by the Ukian Defense Service.`
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
 	shipyard "Miscellaneous Ships"
@@ -39263,28 +39274,29 @@ planet "Ukio "
 	shipyard "Resistance Ships"
 	shipyard "First Order Ships"
 	shipyard "Legacy Ships"
+	shipyard "Vong Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
 
 planet "Vandelhelm "
 	landscape land/vandelhelm
 	description `Vandelhelm is a planet located in the Vandelhelm system, inside of the Vandelhelm Cloud within the Expansion Region. It is known for its starshipwrights, and manufacturing capabilities. During the Clone Wars the planet lay within Separatist space.`
-	spaceport `Even though it is located along the Rimma Trade Route, it was not discovered by the Republic until 3053 BBY due to the planet being obscured from sensors by the Vandelhelm Cloud. Eventually two independent prospectors Vandel and Helm braved the cloud looking for rich minerals and metals. Having found the planet to be rich in ores, Vandel and Helm settled the planet with their families, now named "Vandelhelm", and after making finds on its surface, they used the profits to form the first Metalsmiths Guild.`
+	spaceport `	Even though it is located along the Rimma Trade Route, it was not discovered by the Republic until 3053 BBY due to the planet being obscured from sensors by the Vandelhelm Cloud. Eventually two independent prospectors Vandel and Helm braved the cloud looking for rich minerals and metals. Having found the planet to be rich in ores, Vandel and Helm settled the planet with their families, now named "Vandelhelm", and after making finds on its surface, they used the profits to form the first Metalsmiths Guild.`
 	shipyard Vandelhelm
 	outfitter "Miscellaneous Outfits"
 
 planet "Vulpter "
-	landscape ""
+	landscape land/unknown
 	description `Vulpter is the homeworld of the sentient Vulptereen species. Originally an unspoiled world with a wide array of flora and fauna, Vulpter was transformed over the millennia into a massively polluted globe covered in waste and factories. The planet is now unable to sustain itself in terms of agriculture, and is thus entirely reliant on importing foodstuffs from other worlds. `
-	spaceport `Vulpter was a noted producer of starships, and was home to one of the galaxy's largest podracer factories. Several corporations, such as Viper Sensor Intelligence Systems and Arakyd Industries, operated facilities on the planet.`
+	spaceport `	Vulpter was a noted producer of starships, and was home to one of the galaxy's largest podracer factories. Several corporations, such as Viper Sensor Intelligence Systems and Arakyd Industries, operated facilities on the planet.`
 	spaceport `	Following the establishment of the Galactic Empire, Vulpter is now blockaded and cut off from all interplanetary trade, that has led to widespread famine on the planet.`
 
 planet "Vurdon Ka "
-	landscape ""
+	landscape land/unknown
 	description `Vurdon Ka is an idyllic world of mosses, inhabited by the peaceful Vuvrians.`
 
 planet Wayfinder
-	landscape ""
+	landscape land/unknown
 	description s
 	spaceport s
 	shipyard "Rebel Alliance Ships"
@@ -39300,11 +39312,11 @@ planet "Wellspring of Life "
 	description `The Wellspring of Life, also known simply as the Force planet, was one of many such nexuses of power that manifested in the depths of the galaxy. The Wellspring was powerful in the light side of the Force and were speculated to be the source of all life. It was not marked on any star map and had no official name. The planet was surrounded by a bright nebula. Upon reaching the surface, it appeared barren, save for luminescent geysers that shot out energy from inside the planet. Below the surface were floating islands, covered in plant life and immersed in the Force.`
 
 planet "Yabol Opa "
-	landscape ""
+	landscape land/unknown
 	description `The small planet is almost entirely covered by a large university.`
-	spaceport `It is headed by the Grand Warden.`
+	spaceport `	It is headed by the Grand Warden.`
 
 planet Zonama
 	landscape land/zonama
 	description `Zonama Sekot (Ferroan for 'World of Body and Mind') is a living, sentient world capable of traveling through space. Zonama was the planet itself, while Sekot was the living intelligence of Zonama. It is also the seed of the original Yuuzhan Vong homeworld, Yuuzhan'tar, which had been destroyed during the Cremlevian War.`
-	spaceport `Zonama Sekot is a unique world. Its north polar region, a spot of pearl white is surrounded by an entire hemisphere of tropical jungles. Its southern hemisphere is covered with impenetrable silvery clouds. Along the equator there are several rivers, lakes, and small seas. The edge of the southern hemisphere is also covered by elegant wisps of wind which frequently brake free to form spinning storms.`
+	spaceport `	Zonama Sekot is a unique world. Its north polar region, a spot of pearl white is surrounded by an entire hemisphere of tropical jungles. Its southern hemisphere is covered with impenetrable silvery clouds. Along the equator there are several rivers, lakes, and small seas. The edge of the southern hemisphere is also covered by elegant wisps of wind which frequently brake free to form spinning storms.`

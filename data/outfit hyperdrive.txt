@@ -1,0 +1,125 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "H0 Hyperdrive Capacity"
+	category "Systems"
+	"hyperdrive capacity" 1
+	unplunderable 1
+	description "NOT AN OUTFIT, JUST NEEDED TO REMOVE AN ERROR."
+
+outfit "H0 Hyperdrive Slot"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/hyperdrive/hyperdrive slot"
+	"mass" 0
+	"outfit space" 0
+	"hyperdrive capacity" -1
+	unplunderable 1
+	description "H0 Hyperdrive Slot"
+
+outfit "Hyperspace Docking Ring"
+	category "Systems"
+	cost 1500
+	thumbnail "outfit/hyperdrive/hyperspacedockingring"
+	"mass" 5
+	"gun ports" -1
+	"hyperspacedockingring capacity" -1
+	"required crew" 0
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.1
+	"fuel capacity" 700
+	weapon
+		"hardpoint sprite" "ship/hyperspacedockingring"
+
+outfit "H1 Hyperspace Motivator"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/hyperdrive/hyperdrivet1"
+	"mass" 1
+	"outfit space" -1
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.1
+	description "H1 Hyperspace Motivator"
+
+outfit "H2 Hyperspace Motivator"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hyperdrive/hyperdrivet2"
+	"mass" 8
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "H2 Hyperspace Motivator"
+
+outfit "H3 Hyperspace Motivator"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hyperdrive/hyperdrivet3"
+	"mass" 8
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "H3 Hyperspace Motivator"
+
+outfit "H3.5 Hyperspace Motivator"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hyperdrive/hyperdrivet3_5"
+	"mass" 8
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "H3.5 Hyperspace Motivator"
+
+outfit "H4 Hyperspace Motivator"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hyperdrive/hyperdrivet4"
+	"mass" 8
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "H4 Hyperspace Motivator"
+
+outfit "H4.5 Hyperspace Motivator"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hyperdrive/hyperdrivet4_5"
+	"mass" 8
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "H4.5 Hyperspace Motivator"
+
+outfit "H5 Hyperspace Motivator"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/hyperdrive/hyperdrivet5"
+	"mass" 40
+	"outfit space" -40
+	"jump speed" .3
+	"jump fuel" 10
+	"hyperdrive" 1
+	"scram drive" 0.3
+	description "H5 Hyperspace Motivator"

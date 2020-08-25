@@ -1,0 +1,149 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Chaokhinh Advance Scout Ship"
+	sprite "ship/chaokhinhadvancescoutship"
+	thumbnail "thumbnail/chaokhinhadvancescoutship"
+	attributes
+		category "Light Warship"
+		"cost" 3450000
+		"shields" 34500
+		"hull" 10000
+		"required crew" 10
+		"bunks" 40
+		"mass" 2000
+		"drag" 4.9
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 45
+		"outfit space" 293
+		"weapon capacity" 91
+		"engine capacity" 88
+		inscrutable 1
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Turbo Yaret-kor Turret" 4
+		"Turbo Heavy Yaret-kor Cannon"
+		
+		"P3 Corvette Power Converter (Dovin Basal)"
+		"S3 Corvette Shield Projector (Dovin Basal)"
+		"T3 Sensor Array (Dovin Basal)"
+		"T3 Corvette Coolant System (Dovin Basal)"
+		"Cloaking Device (Dovin Basal)"
+		
+		"T3 Corvette Sublight Engine (Dovin Basal)"
+		"H3 Corvette Hyperspace Motivator (Dovin Basal)"
+		
+	gun 1 -240 "Turbo Heavy Yaret-kor Cannon"
+	turret 16 88 "Turbo Yaret-kor Turret"
+	turret -26 -23 "Turbo Yaret-kor Turret"
+	turret 43 -125 "Turbo Yaret-kor Turret"
+	turret -29 -173 "Turbo Yaret-kor Turret"
+	fighter 1 -240
+	fighter 1 -240
+	fighter 1 -240
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Yuuzhan Vong advance scout ship is a vessel in the Yuuzhan Vong fleet. It is dark in colour, with several tendril-shaped structures hanging to each side of the vessel, and also had a large, forward-facing hangar which could carry several Yorik-et-sized vessels."
+	description "Artwork/model by The Shapers"
+
+
+
+ship "Yorik-et"
+	sprite ship/yoriket
+	thumbnail thumbnail/yoriket
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 140000
+		shields 1500
+		hull 3000
+		"required crew" 1
+		bunks 1
+		mass 22
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 13
+		"weapon capacity" 2
+		"engine capacity" 6
+		inscrutable 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Yaret-kor Cannon" 2
+
+		"P1 Fighter Power Converter (Dovin Basal)"
+		"S1 Fighter Shield Projector (Dovin Basal)"
+		"T1 Sensor Array (Dovin Basal)"
+		"T1 Fighter Coolant System (Dovin Basal)"
+
+		"T1 Fighter Engine (Dovin Basal)"
+
+	gun -3 -30 "Fighter Yaret-kor Cannon"
+	gun 3 -30 "Fighter Yaret-kor Cannon"
+	explode "large explosion" 3
+	description "The Yorik-et, referred to as a coralskipper or skip by New Republic forces, is the Yuuzhan Vong version of a starfighter. The Yorik-et is a bioship made from yorik coral, since the Yuuzhan Vong despise mechanical technology as an abomination. It is grown instead of manufactured so no two coralskippers look alike. Despite this, every coralskipper share some basic features, such as a dark canopy, and a triangular body."
+	description "Artwork/model by The Shapers"
+
+
+
+ship "Yorik-et (Fighter)"
+	sprite ship/yoriket
+	thumbnail thumbnail/yoriket
+	"never disabled"
+	attributes
+		category Fighter
+		cost 140000
+		shields 1500
+		hull 3000
+		"required crew" 1
+		bunks 1
+		mass 22
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 13
+		"weapon capacity" 2
+		"engine capacity" 6
+		inscrutable 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"Fighter Yaret-kor Cannon" 2
+
+		"P1 Fighter Power Converter (Dovin Basal)"
+		"S1 Fighter Shield Projector (Dovin Basal)"
+		"T1 Sensor Array (Dovin Basal)"
+		"T1 Fighter Coolant System (Dovin Basal)"
+
+		"T1 Fighter Engine (Dovin Basal)"
+
+	gun -3 -30 "Fighter Yaret-kor Cannon"
+	gun 3 -30 "Fighter Yaret-kor Cannon"
+	explode "large explosion" 3
+	description "The Yorik-et, referred to as a coralskipper or skip by New Republic forces, is the Yuuzhan Vong version of a starfighter. The Yorik-et is a bioship made from yorik coral, since the Yuuzhan Vong despise mechanical technology as an abomination. It is grown instead of manufactured so no two coralskippers look alike. Despite this, every coralskipper share some basic features, such as a dark canopy, and a triangular body."
+	description "Artwork/model by The Shapers"
+
+
+

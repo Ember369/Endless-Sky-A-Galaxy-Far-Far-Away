@@ -1,0 +1,667 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "E-7 E-Wing"
+	sprite "ship/e7ewing"
+	thumbnail "thumbnail/e7ewing"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 200000
+		"shields" 2400
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 25
+		"drag" 1
+		"heat dissipation" .8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 18
+		"weapon capacity" 5
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 3
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6	
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -24 38
+	engine 24 39
+	gun -29 -2 "R1 Laser Cannon"
+	gun 29 -2 "R1 Laser Cannon"
+	gun 0 -11 "R1 Laser Cannon"
+	gun -5 -7 "Concussion Missile Launcher"
+	gun 4 -8 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The E-7 E-wing multi-role starfighter, also called E-wing escort starfighter, are a single-pilot starfighter developed by FreiTek Inc. It is notable for being the first fighter designed entirely under the support of the New Republic."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "E-7 E-Wing (Fighter)"
+	sprite "ship/e7ewing"
+	thumbnail "thumbnail/e7ewing"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 200000
+		"shields" 2400
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 24.5
+		"drag" 1
+		"heat dissipation" .8
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 18
+		"weapon capacity" 5
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 3
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6	
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -24 38
+	engine 24 39
+	gun -29 -2 "R1 Laser Cannon"
+	gun 29 -2 "R1 Laser Cannon"
+	gun 0 -11 "R1 Laser Cannon"
+	gun -5 -7 "Concussion Missile Launcher"
+	gun 4 -8 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The E-7 E-wing multi-role starfighter, also called E-wing escort starfighter, are a single-pilot starfighter developed by FreiTek Inc. It is notable for being the first fighter designed entirely under the support of the New Republic."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "MC80B Star Cruiser"
+	sprite "ship/mc80bstarcruiser"
+	thumbnail "thumbnail/mc80bstarcruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 175000000
+		"shields" 211000
+		"hull" 63000
+		"required crew" 5800
+		"bunks" 9500
+		"mass" 15000
+		"drag" 26
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 600
+		"outfit space" 2538
+		"weapon capacity" 1780
+		"engine capacity" 550
+		weapon
+			"blast radius" 300
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 900
+	outfits
+		"R5Quad Turbolaser Turret" 18
+		"R4Dual Turbolaser Turret" 10
+		"I3 Ion Turret" 4
+		
+		"D5 Deflector Shield"
+		"P5 Power Converter"
+		"C5 Coolant System"
+		
+		"B5 Sublight Engine"
+		"H5 Hyperspace Motivator"
+		
+	turret -42 1267 "R4Dual Turbolaser Turret"
+	turret 42 1267 "R4Dual Turbolaser Turret"
+	turret -117 756 "R5Quad Turbolaser Turret"
+	turret 117 756 "R5Quad Turbolaser Turret"
+	turret -220 464 "R4Dual Turbolaser Turret"
+	turret 220 464 "R4Dual Turbolaser Turret"
+	turret -236 211 "R4Dual Turbolaser Turret"
+	turret 236 211 "R4Dual Turbolaser Turret"
+	turret -618 183 "R4Dual Turbolaser Turret"
+	turret 618 183 "R4Dual Turbolaser Turret"
+	turret -641 -130 "R4Dual Turbolaser Turret"
+	turret 641 -130 "I3 Ion Turret"
+	turret -117 -117 "I3 Ion Turret"
+	turret 117 -117 "R4Dual Turbolaser Turret"
+	turret -96 -204 "R5Quad Turbolaser Turret"
+	turret 96 -204 "R5Quad Turbolaser Turret"
+	turret -277 -356 "R5Quad Turbolaser Turret"
+	turret 277 -356 "R5Quad Turbolaser Turret"
+	turret -371 -507 "R5Quad Turbolaser Turret"
+	turret 371 -507 "I3 Ion Turret"
+	turret -137 -506 "I3 Ion Turret"
+	turret 137 -506 "R5Quad Turbolaser Turret"
+	turret -403 -689 "R5Quad Turbolaser Turret"
+	turret 403 -689 "R5Quad Turbolaser Turret"
+	turret -100 -692 "R5Quad Turbolaser Turret"
+	turret 100 -692 "R5Quad Turbolaser Turret"
+	turret -130 -984 "R5Quad Turbolaser Turret"
+	turret 130 -984 "R5Quad Turbolaser Turret"
+	turret -161 -1133 "R5Quad Turbolaser Turret"
+	turret 161 -1133 "R5Quad Turbolaser Turret"
+	turret -98 -1308 "R5Quad Turbolaser Turret"
+	turret 98 -1308 "R5Quad Turbolaser Turret"
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	fighter 0 242
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large" 1
+	"final explode" "final explosion large"
+	description "The MC80B Star Cruiser is a Mon Calamari warship produced for the fledgling New Republic fleet. The MC80B has a roughly similar look to earlier models, but has optimised the amount of guns available for a frontal assault by positioning them in forward-facing clusters around the ship. The class has its main reactor located on the ventral side of the vessel, while its bridge is located on the dorsal side, amidship. Hangar bays are located on the flanks of the ship."
+	description "Artwork/model from Picaro Star Shipyards"
+
+
+
+ship "Starhawk-class Battlecruiser Mark I"
+	sprite "ship/starhawkbattlecruisermarki"
+	thumbnail "thumbnail/starhawkbattlecruisermarki"
+	attributes
+		category "Heavy Warship"
+		"cost" 490000000
+		"shields" 400000
+		"hull" 100000
+		"required crew" 33650
+		"bunks" 42000
+		"mass" 20000
+		"drag" 29
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 800
+		"outfit space" 2698
+		"weapon capacity" 1940
+		"engine capacity" 550
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"R5Quad Turbolaser Turret" 26
+		"I3 Ion Turret" 4
+		"T5 Tractor Beam" 2
+		
+		"P5 Power Converter"
+		"D5 Deflector Shield"
+		"C5 Coolant System"
+		
+		"B5 Sublight Engine"
+		"H5 Hyperspace Motivator"
+
+	engine -454 1778
+	engine 454 1778
+	engine -287 1991
+	engine 287 1991
+	engine -106 2222
+	engine 106 2222
+	gun -24 -2154 "T5 Tractor Beam"
+	gun 24 -2154 "T5 Tractor Beam"
+	turret -300 1637 "R5Quad Turbolaser Turret"
+	turret 300 1637 "R5Quad Turbolaser Turret"
+	turret -409 1169 "R5Quad Turbolaser Turret"
+	turret 409 1169 "R5Quad Turbolaser Turret"
+	turret -196 1406 "R5Quad Turbolaser Turret"
+	turret 196 1406 "R5Quad Turbolaser Turret"
+	turret -103 940 "R5Quad Turbolaser Turret"
+	turret 103 940 "R5Quad Turbolaser Turret"
+	turret -178 545 "R5Quad Turbolaser Turret"
+	turret 178 545 "R5Quad Turbolaser Turret"
+	turret -180 267 "R5Quad Turbolaser Turret"
+	turret 180 267 "R5Quad Turbolaser Turret"
+	turret -168 -67 "R5Quad Turbolaser Turret"
+	turret 168 -67 "R5Quad Turbolaser Turret"
+	turret -172 -317 "R5Quad Turbolaser Turret"
+	turret 172 -317 "R5Quad Turbolaser Turret"
+	turret -187 -623 "R5Quad Turbolaser Turret"
+	turret 187 -623 "R5Quad Turbolaser Turret"
+	turret -617 -743 "R5Quad Turbolaser Turret"
+	turret 617 -743 "R5Quad Turbolaser Turret"
+	turret -601 -1140 "R5Quad Turbolaser Turret"
+	turret 601 -1140 "R5Quad Turbolaser Turret"
+	turret -467 -1397 "R5Quad Turbolaser Turret"
+	turret 467 -1397 "R5Quad Turbolaser Turret"
+	turret -338 -1829 "R5Quad Turbolaser Turret"
+	turret 338 -1829 "R5Quad Turbolaser Turret"
+	turret -475 -1003 "I3 Ion Turret"
+	turret 475 -1003 "I3 Ion Turret"
+	turret -473 -1295 "I3 Ion Turret"
+	turret 473 -1295 "I3 Ion Turret"
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	fighter -24 -2154
+	fighter 24 -2154
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Starhawk-class Battleship Mark I is a type of battleship in service with the New Republic Defense Fleet. Like all the ships constructed at the Nadiri Dockyards, they have been constructed from disassembled captured Imperial spacecraft. It is notable for being one of the first class of ships built by the New Republic, through military contract, after the Battle of Endor."
+	description "Artwork/model from Fantasy Flight Games"
+
+
+
+ship "Viscount-class Star Defender"
+	sprite "ship/mcviscountcruiser"
+	thumbnail "thumbnail/mcviscountcruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 1200000000
+		"shields" 1050000
+		"hull" 410000
+		"required crew" 68174
+		"bunks" 280674
+		"mass" 50000
+		"drag" 40
+		"heat dissipation" .45
+		"fuel capacity" 2000
+		"cargo space" 900
+		"outfit space" 2988
+		"weapon capacity" 2180
+		"engine capacity" 550
+		weapon
+			"blast radius" 300
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 900
+	outfits
+		"R5Quad Turbolaser Turret" 32
+		
+		"D5 Deflector Shield"
+		"P5 Power Converter"
+		"C5 Coolant System"
+		
+		"B5 Sublight Engine"
+		"H5 Hyperspace Motivator"
+		
+	engine -290 6306
+	engine 290 6306
+	turret -303 5863 "R5Quad Turbolaser Turret"
+	turret 303 5863 "R5Quad Turbolaser Turret"
+	turret -312 5246 "R5Quad Turbolaser Turret"
+	turret 312 5246 "R5Quad Turbolaser Turret"
+	turret -613 4800 "R5Quad Turbolaser Turret"
+	turret 613 4800 "R5Quad Turbolaser Turret"
+	turret -745 4199 "R5Quad Turbolaser Turret"
+	turret 745 4199 "R5Quad Turbolaser Turret"
+	turret -844 3601 "R5Quad Turbolaser Turret"
+	turret 844 3601 "R5Quad Turbolaser Turret"
+	turret -959 1257 "R5Quad Turbolaser Turret"
+	turret 959 1257 "R5Quad Turbolaser Turret"
+	turret -1338 488 "R5Quad Turbolaser Turret"
+	turret 1338 488 "R5Quad Turbolaser Turret"
+	turret -1287 -391 "R5Quad Turbolaser Turret"
+	turret 1287 -391 "R5Quad Turbolaser Turret"
+	turret -732 -903 "R5Quad Turbolaser Turret"
+	turret 732 -903 "R5Quad Turbolaser Turret"
+	turret -639 -1727 "R5Quad Turbolaser Turret"
+	turret 639 -1727 "R5Quad Turbolaser Turret"
+	turret -1884 -2154 "R5Quad Turbolaser Turret"
+	turret 1884 -2154 "R5Quad Turbolaser Turret"
+	turret -936 -2927 "R5Quad Turbolaser Turret"
+	turret 936 -2927 "R5Quad Turbolaser Turret"
+	turret -1379 -3811 "R5Quad Turbolaser Turret"
+	turret 1379 -3811 "R5Quad Turbolaser Turret"
+	turret -773 -4978 "R5Quad Turbolaser Turret"
+	turret 773 -4978 "R5Quad Turbolaser Turret"
+	turret -403 -5630 "R5Quad Turbolaser Turret"
+	turret 403 -5630 "R5Quad Turbolaser Turret"
+	turret -193 -6419 "R5Quad Turbolaser Turret"
+	turret 193 -6419 "R5Quad Turbolaser Turret"
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	fighter 2 -1818
+	fighter -2 -1818
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large" 1
+	"final explode" "final explosion large"
+	description "The Viscount-class Star Defender was envisioned as the New Republic equivalent of an Executor-class Star Dreadnought. The first prototype was a 3 km long battlecruiser, and the full production model was a 17 km long dreadnought. Although slightly shorter in length than the Executor-class, the superior construction skills of the Mon Calamari have enabled the vessel to carry more starfighters, as well as having a substantially smaller crew. Its shape is also more compact than the Executor-class and it has heavier and more extensive armour. Dozens of docking clamps allow the vessel to directly dock with many other capital ships at the same time."
+	description "Artwork/model by Unusualsuspex"

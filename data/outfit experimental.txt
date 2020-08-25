@@ -1,0 +1,202 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "T1 Tractor Beam"
+	category "Secondary Weapons"
+	cost 1000
+	thumbnail "outfit/tractor beam/tractorbeam 1"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	weapon
+		sprite "projectile/tractorbeam"
+		icon "icon/tractorbeam"
+		"inaccuracy" 0
+		"velocity" 20
+		"lifetime" 70
+		"reload" 1
+		"firing energy" 1
+		"firing heat" 1
+		"shield damage" 0
+		"hull damage" 0
+		"hit force" 0
+		"slowing damage" 1
+	description "T1 Tractor Beam"
+
+outfit "T2 Tractor Beam"
+	category "Secondary Weapons"
+	cost 2000
+	thumbnail "outfit/tractor beam/tractorbeam 2"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
+	"gun ports" -1
+	weapon
+		sprite "projectile/tractorbeam"
+		icon "icon/tractorbeam"
+		"inaccuracy" 0
+		"velocity" 20
+		"lifetime" 85
+		"reload" 1
+		"firing energy" 1
+		"firing heat" 1
+		"shield damage" 0
+		"hull damage" 0
+		"hit force" 0
+		"slowing damage" 2
+	description "T2 Tractor Beam"
+
+outfit "T3 Tractor Beam"
+	category "Secondary Weapons"
+	cost 5000
+	thumbnail "outfit/tractor beam/tractorbeam 3"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		sprite "projectile/tractorbeam"
+		icon "icon/tractorbeam"
+		"inaccuracy" 0
+		"velocity" 20
+		"lifetime" 100
+		"reload" 1
+		"firing energy" 1
+		"firing heat" 1
+		"shield damage" 0
+		"hull damage" 0
+		"hit force" 0
+		"slowing damage" 3
+	description "T3 Tractor Beam"
+
+outfit "T4 Tractor Beam"
+	category "Secondary Weapons"
+	cost 10000
+	thumbnail "outfit/tractor beam/tractorbeam 4"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/tractorbeam"
+		icon "icon/tractorbeam"
+		"inaccuracy" 0
+		"velocity" 20
+		"lifetime" 115
+		"reload" 1
+		"firing energy" 1
+		"firing heat" 1
+		"shield damage" 0
+		"hull damage" 0
+		"hit force" 0
+		"slowing damage" 4
+	description "T4 Tractor Beam"
+
+outfit "T5 Tractor Beam"
+	category "Secondary Weapons"
+	cost 20000
+	thumbnail "outfit/tractor beam/tractorbeam 5"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/tractorbeam"
+		icon "icon/tractorbeam"
+		"inaccuracy" 0
+		"velocity" 20
+		"lifetime" 130
+		"reload" 1
+		"firing energy" 1
+		"firing heat" 1
+		"shield damage" 0
+		"hull damage" 0
+		"hit force" 0
+		"slowing damage" 5
+	description "T5 Tractor Beam"
+
+outfit "Mega-Ion Cannon (L)"
+	category "Secondary Weapons"
+	cost 50000
+	thumbnail "outfit/megaioncannon"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "torpedo"
+		icon "icon/assaultconcussionmissile"
+		"fire effect" "torpedo fire"
+		"inaccuracy" 1
+		"velocity" 300
+		"lifetime" 1
+		"reload" 130
+		"firing energy" 200
+		"firing heat" 15
+		"submunition" "Mega-Ion Cannon Hit (L1)"
+	description "Mega-Ion Cannon"
+
+outfit "Mega-Ion Cannon Hit (L1)"
+	weapon
+		sprite "projectile/blaster"
+		"lifetime" 2
+		"velocity" -300
+		"turn" 90
+		"submunition" "Mega-Ion Cannon Hit (L2)"
+
+outfit "Mega-Ion Cannon Hit (L2)"
+	weapon
+		sprite "projectile/megaioncannonhit/megaioncannonhit"
+			"frame rate" 10
+			"random start frame"
+		"velocity" -20
+		"lifetime" 800
+		"ion damage" 1000
+
+outfit "Mega-Ion Cannon (R)"
+	category "Secondary Weapons"
+	cost 50000
+	thumbnail "outfit/megaioncannon"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "torpedo"
+		icon "icon/assaultconcussionmissile"
+		"fire effect" "torpedo fire"
+		"inaccuracy" 1
+		"velocity" 300
+		"lifetime" 1
+		"reload" 130
+		"firing energy" 200
+		"firing heat" 15
+		"submunition" "Mega-Ion Cannon Hit (R1)"
+	description "Mega-Ion Cannon"
+
+outfit "Mega-Ion Cannon Hit (R1)"
+	weapon
+		sprite "projectile/blaster"
+		"lifetime" 2
+		"velocity" -300
+		"turn" 90
+		"submunition" "Mega-Ion Cannon Hit (R2)"
+
+outfit "Mega-Ion Cannon Hit (R2)"
+	weapon
+		sprite "projectile/megaioncannonhit/megaioncannonhit"
+			"frame rate" 10
+			"random start frame"
+		"velocity" 20
+		"lifetime" 800
+		"ion damage" 1000

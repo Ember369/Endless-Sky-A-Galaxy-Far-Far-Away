@@ -1,3 +1,33 @@
+mission "Lead an Alliance Assault on Salliche"
+	name "Lead an Alliance Assault on Salliche"
+	description "The Imperial Blockade in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment."
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		system "N'zoth"
+	destination
+		system "Salliche"
+	clearance "After a moment of deliberation, the Moff in control of <system> allows you to land, reluctantly agreeing to unconditional terms of surrender."
+	npc kill
+		personality heroic staying vindictive unconstrained target
+		government "Galactic Empire"
+		system destination
+		fleet "missionimperialnavyattack" 3
+		dialog "The Imperial Blockade has been cleared. Hail the Imperial planet in this system and demand authorities to denounce Imperial control."
+	npc kill
+		personality escort heroic disables
+		government "Rebel Alliance"
+		system "N'zoth"
+		fleet "rebeldefensefleet" 4
+		dialog "Your fleet has been destroyed."
+	on complete
+		payment 250000
+		dialog "Blah blah blah."
+
+
+
 mission "Destroy the Imperial Blockade"
 	name "Destroy the Imperial Blockade"
 	description "The Imperial Blockade in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment."
@@ -21,6 +51,28 @@ mission "Destroy the Imperial Blockade"
 
 
 
+mission "Destroy the Imperial Blockade (Imp)"
+	name "Destroy the Imperial Blockade (Imp)"
+	description "The Imperial Blockade in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment."
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		government "Rebel Alliance"
+	destination
+		government "Galactic Empire"
+	clearance "After a moment of deliberation, the Moff in control of <system> allows you to land, reluctantly agreeing to unconditional terms of surrender."
+	npc kill
+		personality heroic staying vindictive unconstrained target
+		government "Galactic Empire"
+		system destination
+		fleet "missionimperialnavyattack" 2
+		dialog "The Imperial Blockade has been cleared. Hail the Imperial planet in this system and demand authorities to denounce Imperial control."
+	on complete
+		payment 250000
+		dialog "Blah blah blah."
+
 mission "Ion Cannon Test"
 	name "Ion Cannon Test"
 	description "Ion Cannon Test"
@@ -39,7 +91,7 @@ mission "Ion Cannon Test"
 		fleet
 			variant 50
 				"BTL-S3 Y-Wing"
-		dialog "Destroy the Imperial I Destroyer"
+		dialog "Ion Cannon Test"
 	on complete
 		payment 250000
 		dialog "Ion Cannon Test"
@@ -113,6 +165,8 @@ mission "Destroy the Imperial Patrol"
 		payment 100000
 		dialog "The Rebel Alliance gratefully pays you 100,000 credits for eliminating the Imperial Patrol."
 
+
+
 mission "Imperial Navy Attack"
 	name "Defend <planet>"
 	description "Defeat an Imperial Navy attack on <destination>."
@@ -122,8 +176,8 @@ mission "Imperial Navy Attack"
 		random < 70
 	source
 		government "Rebel Alliance"
-	npc evade
-		personality heroic staying
+	npc kill
+		personality heroic staying vindictive unconstrained target
 		government "Galactic Empire"
 		fleet "missionimperialnavyattack" 3
 	npc
@@ -200,7 +254,8 @@ mission "Clear the Imperial Sector"
 	source
 		government "Rebel Alliance"
 	destination
-		government "Rebel Alliance"
+		system "Kuat"
+	clearance "After a moment of deliberation, the Moff in control of Kuat Drive Yards allows you to land, reluctantly agreeing to unconditional terms of surrender."
 	npc kill
 		personality heroic staying target
 		government "Galactic Empire"
@@ -273,7 +328,7 @@ mission "Clear the Imperial Sector"
 		system Kuat
 		fleet "missionimperialblockade" 3
 		dialog "This system has been cleared."
-		dialog "The Imperial Sector has been cleared. Regain contact with the Rebel Alliance to receive your next mission."
+		dialog "The Imperial Sector has been cleared. Hail the Imperial planet Kuat and demand authorities to denounce Imperial control over the shipyards."
 	on complete
 		payment 1000000
 		dialog "The Rebel Alliance gratefully pays you 1,000,000 credits."

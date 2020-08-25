@@ -43,18 +43,18 @@ person "Millennium Falcon"
 				"hull damage" 350
 				"hit force" 800
 		outfits
-			"Transport Laser Cannon (Red)" 2
+			"R2 Laser Cannon" 2
 			"Proton Torpedo Launcher" 2
 			"Proton Torpedo" 6
-			"Transport Dual Laser Turret (Red)" 2
+			"R2Dual Laser Turret" 2
 			
-			"P2 Transport Power Converter"
-			"S2 Transport Shield Projector"
-			"T2 Sensor Array"
-			"T2 Transport Coolant System"
+			"P2 Power Converter"
+			"D2 Deflector Shield"
+			"S2 Sensor Array"
+			"C2 Coolant System"
 			
-			"T2 Transport Sublight Engine"
-			"H2 Transport Hyperspace Motivator"
+			"B2 Sublight Engine"
+			"H2 Hyperspace Motivator"
 			
 		engine -48 74
 		engine -44 78
@@ -72,12 +72,12 @@ person "Millennium Falcon"
 		engine 34 84
 		engine 40 80
 		engine 46 75
-		gun -33 -62 "Transport Laser Cannon (Red)"
-		gun 30 -62 "Transport Laser Cannon (Red)"
+		gun -33 -62 "R2 Laser Cannon"
+		gun 30 -62 "R2 Laser Cannon"
 		gun -33 -62 "Proton Torpedo Launcher"
 		gun 30 -62 "Proton Torpedo Launcher"
-		turret -1 15 "Transport Dual Laser Turret (Red)"
-		turret -1 15 "Transport Dual Laser Turret (Red)"
+		turret -1 15 "R2Dual Laser Turret"
+		turret -1 15 "R2Dual Laser Turret"
 		explode "tiny explosion" 20
 		explode "small explosion" 45
 		explode "medium explosion" 50
@@ -107,33 +107,38 @@ person "Skylight"
 			drag 0.95
 			"heat dissipation" 0.8
 			"fuel capacity" 700
-			"outfit space" 249
-			"weapon capacity" 60
-			"engine capacity" 50
+			"outfit space" 20
+			"weapon capacity" 6
+			"engine capacity" 5
+			"hullslot capacity" 1
+			"shieldslot capacity" 1
 			weapon
 				"blast radius" 40
 				"shield damage" 320
 				"hull damage" 170
 				"hit force" 460
 		outfits
-			"Fighter Laser Cannon (Red)" 4
+			"R1 Laser Cannon" 4
 			"Proton Torpedo Launcher" 2
 			"Proton Torpedo" 6
 	
-			"P1 Fighter Power Converter"
-			"S1 Fighter Shield Projector"
-			"T1 Fighter Coolant System"
+			"P1 Power Converter"
+			"D0 Shield Slot"
+			"D1 Deflector Shield"
+			"C1 Coolant System"
+			"HH0 Hull Slot"
+			"HH1 Ferroceramic Hull"
 			"Stygium Cloaking Device"
 	
-			"T1 Fighter Engine (Pink)"
-			"H1 Fighter Hyperspace Motivator"
+			"P1 Sublight Engine"
+			"H1 Hyperspace Motivator"
 	
 		engine -9 38
 		engine 10 39
-		gun -36 -15 "Fighter Laser Cannon (Red)"
-		gun -30 -10 "Fighter Laser Cannon (Red)"
-		gun 31 -11 "Fighter Laser Cannon (Red)"
-		gun 36 -15 "Fighter Laser Cannon (Red)"
+		gun -36 -15 "R1 Laser Cannon"
+		gun -30 -10 "R1 Laser Cannon"
+		gun 31 -11 "R1 Laser Cannon"
+		gun 36 -15 "R1 Laser Cannon"
 		gun -4 -6 "Proton Torpedo Launcher"
 		gun 3 -6 "Proton Torpedo Launcher"
 		explode "large explosion" 3

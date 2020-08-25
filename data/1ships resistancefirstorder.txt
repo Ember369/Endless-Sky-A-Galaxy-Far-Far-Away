@@ -1,0 +1,2034 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "A/SF-03 B-Wing"
+	sprite "outfit/asf03bwing"
+	thumbnail "outfit/unknown"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 240000
+		"shields" 3280
+		"hull" 3280
+		"required crew" 1
+		"bunks" 1
+		"mass" 30
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 21
+		"weapon capacity" 9
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"I1 Ion Cannon" 3
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 20
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine 21 23
+	engine 28 23
+	gun -58 -17 "R1 Laser Cannon"
+	gun -58 -17 "R1 Laser Cannon"
+	gun 15 -15 "R1 Laser Cannon"
+	gun 50 -14 "R1 Laser Cannon"
+	gun -58 -17 "I1 Ion Cannon"
+	gun 15 -15 "I1 Ion Cannon"
+	gun 50 -14 "I1 Ion Cannon"
+	gun 50 -14 "Proton Torpedo Launcher"
+	gun 50 -14 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "A/SF-03 B-Wing (DESCRIPTION)"
+	description "Artwork/model by (INSERT)"
+
+
+
+ship "A/SF-03 B-Wing (Fighter)"
+	sprite "ship/asf03bwing"
+	thumbnail "outfit/unknown"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 240000
+		"shields" 3280
+		"hull" 3280
+		"required crew" 1
+		"bunks" 1
+		"mass" 30
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 21
+		"weapon capacity" 9
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"I1 Ion Cannon" 3
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 20
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine 21 23
+	engine 28 23
+	gun -58 -17 "R1 Laser Cannon"
+	gun -58 -17 "R1 Laser Cannon"
+	gun 15 -15 "R1 Laser Cannon"
+	gun 50 -14 "R1 Laser Cannon"
+	gun -58 -17 "I1 Ion Cannon"
+	gun 15 -15 "I1 Ion Cannon"
+	gun 50 -14 "I1 Ion Cannon"
+	gun 50 -14 "Proton Torpedo Launcher"
+	gun 50 -14 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "A/SF-03 B-Wing (DESCRIPTION)"
+	description "Artwork/model by (INSERT)"
+
+
+
+ship "BTA-NR2 Y-Wing"
+	sprite ship/btanr2ywing
+	thumbnail outfit/unknown
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 155000
+		shields 1680
+		hull 4880
+		"required crew" 1
+		bunks 2
+		mass 30
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 20
+		"weapon capacity" 8
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"R1 Laser Cannon" 2
+		"I1 Ion Turret"
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo Storage Rack" 2
+		"Proton Torpedo" 16
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -22 17
+	engine 21 16
+	gun -3 -57 "R1 Laser Cannon"
+	gun 3 -57 "R1 Laser Cannon"
+	gun -8 -35 "Proton Torpedo Launcher"
+	gun 8 -35 "Proton Torpedo Launcher"
+	turret -0 -24 "I1 Ion Turret"
+	explode "large explosion" 3
+	description "The BTA-NR2 Y-wing starfighter is a variant of the Y-wing starfighter produced by Koensayr Manufacturing, used by the New Republic and the Resistance. The BTA-NR2 Y-wing is marketed as 'the starfighter that broke the Empire's back' and is sold to the New Republic, all while keeping in line with treaty restrictions. With the rise of the First Order, however, the Resistance has obtained BTA-NR2 Y-wings, modifying them past prohibitions to be more effective."
+	description "Artwork/model by (INSERT)"
+
+
+
+ship "BTA-NR2 Y-Wing (Fighter)"
+	sprite ship/btanr2ywing
+	thumbnail outfit/unknown
+	"never disabled"
+	attributes
+		category "Fighter"
+		cost 155000
+		shields 1680
+		hull 4880
+		"required crew" 1
+		bunks 2
+		mass 30
+		drag 1
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 20
+		"weapon capacity" 8
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"R1 Laser Cannon" 2
+		"I1 Ion Turret"
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo Storage Rack" 2
+		"Proton Torpedo" 16
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -22 17
+	engine 21 16
+	gun -3 -57 "R1 Laser Cannon"
+	gun 3 -57 "R1 Laser Cannon"
+	gun -8 -35 "Proton Torpedo Launcher"
+	gun 8 -35 "Proton Torpedo Launcher"
+	turret -0 -24 "I1 Ion Turret"
+	explode "large explosion" 3
+	description "The BTA-NR2 Y-wing starfighter is a variant of the Y-wing starfighter produced by Koensayr Manufacturing, used by the New Republic and the Resistance. The BTA-NR2 Y-wing is marketed as 'the starfighter that broke the Empire's back' and is sold to the New Republic, all while keeping in line with treaty restrictions. With the rise of the First Order, however, the Resistance has obtained BTA-NR2 Y-wings, modifying them past prohibitions to be more effective."
+	description "Artwork/model by (INSERT)"
+
+
+
+ship "Fireball"
+	sprite ship/fireball
+	thumbnail thumbnail/fireball
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 170000
+		shields 0
+		hull 4800
+		"required crew" 1
+		bunks 1
+		mass 23
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 2
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -15 20
+	engine 15 20
+	gun -33 -19 "R1 Laser Cannon"
+	gun 33 -20 "R1 Laser Cannon"
+	gun -6 0 "Proton Torpedo Launcher"
+	gun 6 0 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The Fireball was an old racer that Team Fireball tried to restore in their repair shop on the Colossus, a refueling station on the planet Castilon. It was given its name because of its tendency to burst into flames and/or explode."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "RZ2 A-Wing"
+	sprite "ship/rz2awingblue"
+	thumbnail "thumbnail/rz2awingblue"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 185000
+		"shields" 1680
+		"hull" 1680
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		"R1 Laser Turret (AI)"
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -9 33
+	engine 9 33
+	gun -19 -4 "R1 Laser Cannon"
+	gun 19 -5 "R1 Laser Cannon"
+	gun -11 -16 "Concussion Missile Launcher"
+	gun 9 -17 "Concussion Missile Launcher"
+	turret 0 10 "R1 Laser Turret (AI)"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "RZ2 A-Wing (Fighter)"
+	sprite "ship/rz2awingblue"
+	thumbnail "thumbnail/rz2awingblue"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 185000
+		"shields" 1680
+		"hull" 1680
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		"R1 Laser Turret (AI)"
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -10 34
+	engine 9 33
+	gun -20 -4 "R1 Laser Cannon"
+	gun 20 -5 "R1 Laser Cannon"
+	gun -11 -14 "Concussion Missile Launcher"
+	gun 10 -15 "Concussion Missile Launcher"
+	turret 0 10 "R1 Laser Turret (AI)"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "RZ2 A-Wing" "RZ2 A-Wing (R)"
+	sprite "ship/rz2awingred"
+	thumbnail "thumbnail/rz2awingred"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 185000
+		"shields" 1680
+		"hull" 1680
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		"R1 Laser Turret (AI)"
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -9 33
+	engine 9 33
+	gun -19 -4 "R1 Laser Cannon"
+	gun 19 -5 "R1 Laser Cannon"
+	gun -11 -16 "Concussion Missile Launcher"
+	gun 9 -17 "Concussion Missile Launcher"
+	turret 0 10 "R1 Laser Turret (AI)"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (R) (Fighter)"
+	sprite "ship/rz2awingred"
+	thumbnail "thumbnail/rz2awingred"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 185000
+		"shields" 1680
+		"hull" 1680
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		"R1 Laser Turret (AI)"
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -10 34
+	engine 9 33
+	gun -20 -4 "R1 Laser Cannon"
+	gun 20 -5 "R1 Laser Cannon"
+	gun -11 -14 "Concussion Missile Launcher"
+	gun 10 -15 "Concussion Missile Launcher"
+	turret 0 10 "R1 Laser Turret (AI)"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "RZ2 A-Wing" "RZ2 A-Wing (G)"
+	sprite "ship/rz2awinggreen"
+	thumbnail "thumbnail/rz2awinggreen"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 185000
+		"shields" 1680
+		"hull" 1680
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		"R1 Laser Turret (AI)"
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -9 33
+	engine 9 33
+	gun -19 -4 "R1 Laser Cannon"
+	gun 19 -5 "R1 Laser Cannon"
+	gun -11 -16 "Concussion Missile Launcher"
+	gun 9 -17 "Concussion Missile Launcher"
+	turret 0 10 "R1 Laser Turret (AI)"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (G) (Fighter)"
+	sprite "ship/rz2awinggreen"
+	thumbnail "thumbnail/rz2awinggreen"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 185000
+		"shields" 1680
+		"hull" 1680
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.9
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 17
+		"weapon capacity" 5
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		"R1 Laser Turret (AI)"
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -10 34
+	engine 9 33
+	gun -20 -4 "R1 Laser Cannon"
+	gun 20 -5 "R1 Laser Cannon"
+	gun -11 -14 "Concussion Missile Launcher"
+	gun 10 -15 "Concussion Missile Launcher"
+	turret 0 10 "R1 Laser Turret (AI)"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The RZ-2 A-wing interceptor is a wedge-shaped starfighter that began production by Kuat Systems Engineering after the success of the former RZ-1 A-wing interceptor used by the Alliance during the Galactic Civil War. The RZ-2 incorporates and standardises years of RZ-1 field modifications by the Rebellion, along with making the chassis slimmer and longer to yield even more speed. As such, piloting the ultra-fast yet temperamental starfighter is a matter of pride for various Resistance pilots regarding their skills and daring."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "T-70 X-Wing"
+	sprite ship/t70xwingblue
+	thumbnail thumbnail/t70xwingblue
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 170000
+		shields 1680
+		hull 3080
+		"required crew" 1
+		bunks 1
+		mass 22
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -11 41
+	engine 11 41
+	gun -35 -4 "R1 Laser Cannon"
+	gun 35 -4 "R1 Laser Cannon"
+	gun -31 -4 "R1 Laser Cannon"
+	gun 31 -4 "R1 Laser Cannon"
+	gun -4 0 "Proton Torpedo Launcher"
+	gun 3 0 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "T-70 X-Wing (Fighter)"
+	sprite ship/t70xwingblue
+	thumbnail thumbnail/t70xwingblue
+	"never disabled"
+	attributes
+		category "Fighter"
+		cost 170000
+		shields 1680
+		hull 3080
+		"required crew" 1
+		bunks 1
+		mass 22
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -11 41
+	engine 11 41
+	gun -35 -4 "R1 Laser Cannon"
+	gun 35 -4 "R1 Laser Cannon"
+	gun -31 -4 "R1 Laser Cannon"
+	gun 31 -4 "R1 Laser Cannon"
+	gun -4 0 "Proton Torpedo Launcher"
+	gun 3 0 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship  "T-70 X-Wing" "T-70 X-Wing (Bl)"
+	sprite ship/t70xwingblack
+	thumbnail thumbnail/t70xwingblack
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 170000
+		shields 1680
+		hull 3080
+		"required crew" 1
+		bunks 1
+		mass 22
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -11 41
+	engine 11 41
+	gun -35 -4 "R1 Laser Cannon"
+	gun 35 -4 "R1 Laser Cannon"
+	gun -31 -4 "R1 Laser Cannon"
+	gun 31 -4 "R1 Laser Cannon"
+	gun -4 0 "Proton Torpedo Launcher"
+	gun 3 0 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "T-70 X-Wing" "T-70 X-Wing (Bl) (Fighter)"
+	sprite ship/t70xwingblack
+	thumbnail thumbnail/t70xwingblack
+	"never disabled"
+	attributes
+		category "Fighter"
+		cost 170000
+		shields 1680
+		hull 3080
+		"required crew" 1
+		bunks 1
+		mass 22
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -11 41
+	engine 11 41
+	gun -35 -4 "R1 Laser Cannon"
+	gun 35 -4 "R1 Laser Cannon"
+	gun -31 -4 "R1 Laser Cannon"
+	gun 31 -4 "R1 Laser Cannon"
+	gun -4 0 "Proton Torpedo Launcher"
+	gun 3 0 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "T-85 X-Wing"
+	sprite ship/t85xwing
+	thumbnail thumbnail/t85xwing
+	"never disabled"
+	attributes
+		category Interceptor
+		cost 190000
+		shields 1720
+		hull 3120
+		"required crew" 1
+		bunks 1
+		mass 22
+		drag 0.9
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -9 41
+	engine 10 41
+	gun -31 6 "R1 Laser Cannon"
+	gun -25 9 "R1 Laser Cannon"
+	gun 26 9 "R1 Laser Cannon"
+	gun 32 7 "R1 Laser Cannon"
+	gun -5 -3 "Proton Torpedo Launcher"
+	gun 5 -3 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The T-85 X-wing is a next-generation model of the X-wing starfighter utilised by the New Republic Defence Fleet three decades after the Battle of Endor."
+	description "Artwork/model by EC Henry"
+
+
+
+ship "T-85 X-Wing (Fighter)"
+	sprite ship/t85xwing
+	thumbnail thumbnail/t85xwing
+	"never disabled"
+	attributes
+		category "Fighter"
+		cost 190000
+		shields 1720
+		hull 3120
+		"required crew" 1
+		bunks 1
+		mass 22
+		drag 0.9
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -9 41
+	engine 10 41
+	gun -31 6 "R1 Laser Cannon"
+	gun -25 9 "R1 Laser Cannon"
+	gun 26 9 "R1 Laser Cannon"
+	gun 32 7 "R1 Laser Cannon"
+	gun -5 -3 "Proton Torpedo Launcher"
+	gun 5 -3 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The T-85 X-wing is a next-generation model of the X-wing starfighter utilised by the New Republic Defence Fleet three decades after the Battle of Endor."
+	description "Artwork/model by EC Henry"
+
+
+
+ship "MG-100 Starfortress SF-17"
+	sprite "ship/mg100starfortressblue"
+	thumbnail "thumbnail/mg100starfortressblue"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 350000
+		"shields" 2400
+		"hull" 7200
+		"required crew" 2
+		"bunks" 5
+		"mass" 65
+		"drag" 3
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 225
+		"weapon capacity" 210
+		"engine capacity" 5
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 800
+			"hit force" 600
+	outfits
+		"R1 Laser Turret" 2
+		"R1U Laser Turret"
+		"R1 Laser Cannon" 6
+		"Proton Bomb" 50
+		"Proton Bomb Bay" 4
+		
+		"P1 Power Converter"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull" 3
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -14 -9
+	engine 14 -8
+	gun -34 -63 "R1 Laser Cannon"
+	gun 34 -64 "R1 Laser Cannon"
+	gun -7 -73 "R1 Laser Cannon"
+	gun 6 -73 "R1 Laser Cannon"
+	gun -15 57 "R1 Laser Cannon"
+	gun 15 55 "R1 Laser Cannon"
+	gun 0 -38 "Proton Bomb Bay"
+	gun 0 -33 "Proton Bomb Bay"
+	gun 0 -29 "Proton Bomb Bay"
+	gun 0 -24 "Proton Bomb Bay"
+	turret 0 64 "R1 Laser Turret"
+	turret 0 10 "R1 Laser Turret"
+	turret 0 -60 "R1U Laser Turret"
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "large explosion" 30
+	description "The MG-100 StarFortress SF-17, also known as the B/SF-17 heavy bomber, is a model of heavy bomber manufactured by Slayn & Korpil for use by the New Republic during the late stages of the Galactic Civil War. Following the Galactic Concordance and New Republic disarmament, the ship has been primarily used in civilian applications. Several ships have used by the Resistance during its war with the First Order around 34 ABY, earning it the name Resistance Bomber."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (w/out)"
+	sprite "ship/mg100starfortressblue"
+	thumbnail "thumbnail/mg100starfortressblue"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 350000
+		"shields" 2400
+		"hull" 7200
+		"required crew" 2
+		"bunks" 5
+		"mass" 65
+		"drag" 3
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 225
+		"weapon capacity" 210
+		"engine capacity" 5
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 800
+			"hit force" 600
+	outfits
+		"R1 Laser Turret" 2
+		"R1U Laser Turret"
+		"Proton Bomb Bay" 4
+		
+		"P1 Power Converter"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull" 3
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -14 -9
+	engine 14 -8
+	gun 0 -38 "Proton Bomb Bay"
+	gun 0 -33 "Proton Bomb Bay"
+	gun 0 -29 "Proton Bomb Bay"
+	gun 0 -24 "Proton Bomb Bay"
+	turret 0 64 "R1 Laser Turret"
+	turret 0 10 "R1 Laser Turret"
+	turret 0 -60 "R1U Laser Turret"
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "large explosion" 30
+	description "The MG-100 StarFortress SF-17, also known as the B/SF-17 heavy bomber, is a model of heavy bomber manufactured by Slayn & Korpil for use by the New Republic during the late stages of the Galactic Civil War. Following the Galactic Concordance and New Republic disarmament, the ship has been primarily used in civilian applications. Several ships have used by the Resistance during its war with the First Order around 34 ABY, earning it the name Resistance Bomber."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (R)"
+	sprite "ship/mg100starfortressred"
+	thumbnail "thumbnail/mg100starfortressred"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 350000
+		"shields" 2400
+		"hull" 7200
+		"required crew" 2
+		"bunks" 5
+		"mass" 65
+		"drag" 3
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 225
+		"weapon capacity" 210
+		"engine capacity" 5
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 800
+			"hit force" 600
+	outfits
+		"R1 Laser Turret" 2
+		"R1U Laser Turret"
+		"R1 Laser Cannon" 6
+		"Proton Bomb" 50
+		"Proton Bomb Bay" 4
+		
+		"P1 Power Converter"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull" 3
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -14 -9
+	engine 14 -8
+	gun -34 -63 "R1 Laser Cannon"
+	gun 34 -64 "R1 Laser Cannon"
+	gun -7 -73 "R1 Laser Cannon"
+	gun 6 -73 "R1 Laser Cannon"
+	gun -15 57 "R1 Laser Cannon"
+	gun 15 55 "R1 Laser Cannon"
+	gun 0 -38 "Proton Bomb Bay"
+	gun 0 -33 "Proton Bomb Bay"
+	gun 0 -29 "Proton Bomb Bay"
+	gun 0 -24 "Proton Bomb Bay"
+	turret 0 64 "R1 Laser Turret"
+	turret 0 10 "R1 Laser Turret"
+	turret 0 -60 "R1U Laser Turret"
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "large explosion" 30
+	description "The MG-100 StarFortress SF-17, also known as the B/SF-17 heavy bomber, is a model of heavy bomber manufactured by Slayn & Korpil for use by the New Republic during the late stages of the Galactic Civil War. Following the Galactic Concordance and New Republic disarmament, the ship has been primarily used in civilian applications. Several ships have used by the Resistance during its war with the First Order around 34 ABY, earning it the name Resistance Bomber."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (R) (w/out)"
+	sprite "ship/mg100starfortressred"
+	thumbnail "thumbnail/mg100starfortressred"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 350000
+		"shields" 2400
+		"hull" 7200
+		"required crew" 2
+		"bunks" 5
+		"mass" 65
+		"drag" 3
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 225
+		"weapon capacity" 210
+		"engine capacity" 5
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 800
+			"hit force" 600
+	outfits
+		"R1 Laser Turret" 2
+		"R1U Laser Turret"
+		"Proton Bomb Bay" 4
+		
+		"P1 Power Converter"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull" 3
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -14 -9
+	engine 14 -8
+	gun 0 -38 "Proton Bomb Bay"
+	gun 0 -33 "Proton Bomb Bay"
+	gun 0 -29 "Proton Bomb Bay"
+	gun 0 -24 "Proton Bomb Bay"
+	turret 0 64 "R1 Laser Turret"
+	turret 0 10 "R1 Laser Turret"
+	turret 0 -60 "R1U Laser Turret"
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "large explosion" 30
+	description "The MG-100 StarFortress SF-17, also known as the B/SF-17 heavy bomber, is a model of heavy bomber manufactured by Slayn & Korpil for use by the New Republic during the late stages of the Galactic Civil War. Following the Galactic Concordance and New Republic disarmament, the ship has been primarily used in civilian applications. Several ships have used by the Resistance during its war with the First Order around 34 ABY, earning it the name Resistance Bomber."
+	description "Artwork/model from FlyCasual"
+
+
+
+ship "Eta-5 Actis-class Interceptor"
+	sprite "ship/eta5interceptor"
+	thumbnail "thumbnail/eta5interceptor"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 140000
+		"shields" 0
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 1
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 4
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -9 36
+	engine 9 36
+	gun -31 -4 "R1 Laser Cannon"
+	gun 33 -4 "R1 Laser Cannon"
+	gun -7 -10 "R1 Laser Cannon"
+	gun 7 -10 "R1 Laser Cannon"
+	gun -7 -10 "Concussion Missile Launcher"
+	gun 7 -10 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Eta-5 interceptor is a type of interceptor in use by the New Jedi Order and the Galactic Alliance Navy as of 40 ABY. Developed by Kuat Drive Yards, it is a descendant of the Eta-2 interceptor, but it is also regarded to be a type of A-wing."
+	description "Artwork/model by Mobius13"
+
+
+
+ship "Eta-5 Actis-class Interceptor (Fighter)"
+	sprite "ship/eta5interceptor"
+	thumbnail "thumbnail/eta5interceptor"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 140000
+		"shields" 0
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 1
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 4
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -9 36
+	engine 9 36
+	gun -31 -4 "R1 Laser Cannon"
+	gun 33 -4 "R1 Laser Cannon"
+	gun -7 -10 "R1 Laser Cannon"
+	gun 7 -10 "R1 Laser Cannon"
+	gun -7 -10 "Concussion Missile Launcher"
+	gun 7 -10 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Eta-5 interceptor is a type of interceptor in use by the New Jedi Order and the Galactic Alliance Navy as of 40 ABY. Developed by Kuat Drive Yards, it is a descendant of the Eta-2 interceptor, but it is also regarded to be a type of A-wing."
+	description "Artwork/model by Mobius13"
+
+
+
+ship "Free Virgillia-class Bunkerbuster"
+	sprite "ship/freevirgilliabunkerbuster"
+	thumbnail "thumbnail/freevirgilliabunkerbuster"
+	attributes
+		category "Medium Warship"
+		"cost" 16200000
+		"shields" 50000
+		"hull" 20000
+		"required crew" 23
+		"bunks" 200
+		"mass" 3500
+		"drag" 8.5
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 250
+		"outfit space" 623
+		"weapon capacity" 302
+		"engine capacity" 230
+		weapon
+			"blast radius" 310
+			"shield damage" 750
+			"hull damage" 370
+			"hit force" 850
+	outfits
+		"R3 Turbolaser Turret" 10
+		"R4Dual Turbolaser Turret" 2
+		"Plasma Torpedo Launcher" 3
+		"Plasma Torpedo Storage Rack" 4
+		"Plasma Torpedo" 29
+		
+		"P4 Power Converter"
+		"D4 Deflector Shield"
+		"C4 Coolant System"
+		
+		"B4 Sublight Engine"
+		"H4 Hyperspace Motivator"
+		
+	engine -221 451
+	engine -180 450
+	engine -142 450
+	engine 141 450
+	engine 179 450
+	engine 220 449
+	gun -94 -98 "Plasma Torpedo Launcher"
+	gun -59 -99 "Plasma Torpedo Launcher"
+	gun 61 -100 "Plasma Torpedo Launcher"
+	turret 0 -216 "R4Dual Turbolaser Turret"
+	turret 0 -216 "R4Dual Turbolaser Turret"
+	turret -293 -299 "R3 Turbolaser Turret"
+	turret -248 -302 "R3 Turbolaser Turret"
+	turret 247 -302 "R3 Turbolaser Turret"
+	turret 294 -298 "R3 Turbolaser Turret"
+	turret -218 323 "R3 Turbolaser Turret"
+	turret -179 323 "R3 Turbolaser Turret"
+	turret -136 324 "R3 Turbolaser Turret"
+	turret 136 324 "R3 Turbolaser Turret"
+	turret 180 324 "R3 Turbolaser Turret"
+	turret 218 324 "R3 Turbolaser Turret"
+	fighter 0 30
+	fighter 0 30
+	fighter 0 30
+	fighter 0 30
+	fighter 0 30
+	fighter 0 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Free Virgillia-class Bunkerbuster, also known as the Bunker Buster, is a type of corvette model constructed by the Corellian Engineering Corporation, used during the First Order–Resistance war by the Resistance. Vice Admiral Amilyn Holdo commanded a Bunker Buster known as the Ninka for the Resistance."
+	description "Artwork/model by Nomada_Firefox"
+
+
+
+ship "AAL Troop Transport"
+	sprite "ship/aaltrooptransport"
+	thumbnail "thumbnail/aaltrooptransport"
+	attributes
+		category "Transport"
+		"cost" 90000
+		"shields" 1350
+		"hull" 6200
+		"required crew" 2
+		"bunks" 22
+		"mass" 33
+		"drag" 1.4
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 200
+		"outfit space" 16
+		"weapon capacity" 3
+		"engine capacity" 5
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"R2 Laser Turret"
+		
+		"P1 Power Converter"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull" 2
+		
+		"B1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+
+	engine -8 64
+	engine 6 64
+	turret -7 21 "R2 Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The AAL-1971/9.1 Troop Transport, also known as an Atmospheric Assault Lander (AAL) or First Order Transporter, is an armoured troop carrier operated by the First Order designed to ferry up to twenty stormtroopers from orbital vessels to planetary surfaces."
+	description "Artwork/model by SQUIR"
+
+
+
+ship "TIE/FO Fighter"
+	sprite "ship/tiefofighter"
+	thumbnail "thumbnail/tiefofighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 90000
+		"shields" 720
+		"hull" 2320
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 13
+		"weapon capacity" 2
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"GI1 Laser Cannon" 2
+		
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"BI1 Sublight Engine"
+		
+	engine -7 10
+	engine 7 9
+	gun -3 -11 "GI1 Laser Cannon"
+	gun 4 -11 "GI1 Laser Cannon"
+	explode "large explosion" 3
+	description "The TIE/fo space superiority fighter is a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carries the appearance of its predecessor, the TIE/ln space superiority starfighter, though it features internal advancements that provide it with greater defensive capabilities."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "TIE/FO Fighter (Fighter)"
+	sprite "ship/tiefofighter"
+	thumbnail "thumbnail/tiefofighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 90000
+		"shields" 720
+		"hull" 2320
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 13
+		"weapon capacity" 2
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"GI1 Laser Cannon" 2
+		
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"BI1 Sublight Engine"
+		
+	engine -7 10
+	engine 7 9
+	gun -3 -11 "GI1 Laser Cannon"
+	gun 4 -11 "GI1 Laser Cannon"
+	explode "large explosion" 3
+	description "The TIE/fo space superiority fighter is a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carries the appearance of its predecessor, the TIE/ln space superiority starfighter, though it features internal advancements that provide it with greater defensive capabilities."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "TIE/SF Fighter"
+	sprite "ship/tiesffighter"
+	thumbnail "thumbnail/tiesffighter"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 130000
+		"shields" 800
+		"hull" 2330
+		"required crew" 1
+		"bunks" 2
+		"mass" 20
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 16
+		"weapon capacity" 5
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"GI1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		"G1U Laser Turret"
+		
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"BI1 Sublight Engine"
+		
+	engine -10 10
+	engine 10 10
+	gun -5 -14 "GI1 Laser Cannon"
+	gun 6 -14 "GI1 Laser Cannon"
+	gun -8 -8 "Concussion Missile Launcher"
+	gun 9 -8 "Concussion Missile Launcher"
+	turret 0 0 "G1U Laser Turret"
+	explode "large explosion" 3
+	description "The TIE/sf space superiority fighter is a starfighter model used by the First Order, a specialised version of the TIE/fo space superiority fighter. It is a two-seater unlike the previous TIE models, and is outfitted with enhanced weapons and sensor systems as well as hyperdrives and deflector shields. The TIE/sf is reserved for members of the First Order's elite Special Forces. On the lower side of the vehicle, directly below the primary fuel tank, is a turret containing a pair of heavy laser cannons and a mag-pulse warhead launcher."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "TIE/SF Fighter (Fighter)"
+	sprite "ship/tiesffighter"
+	thumbnail "thumbnail/tiesffighter"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 130000
+		"shields" 800
+		"hull" 2330
+		"required crew" 1
+		"bunks" 2
+		"mass" 20
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 16
+		"weapon capacity" 5
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"GI1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		"G1U Laser Turret"
+		
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"BI1 Sublight Engine"
+		
+	engine -10 10
+	engine 10 10
+	gun -5 -14 "GI1 Laser Cannon"
+	gun 6 -14 "GI1 Laser Cannon"
+	gun -8 -8 "Concussion Missile Launcher"
+	gun 9 -8 "Concussion Missile Launcher"
+	turret 0 0 "G1U Laser Turret"
+	explode "large explosion" 3
+	description "The TIE/sf space superiority fighter is a starfighter model used by the First Order, a specialised version of the TIE/fo space superiority fighter. It is a two-seater unlike the previous TIE models, and is outfitted with enhanced weapons and sensor systems as well as hyperdrives and deflector shields. The TIE/sf is reserved for members of the First Order's elite Special Forces. On the lower side of the vehicle, directly below the primary fuel tank, is a turret containing a pair of heavy laser cannons and a mag-pulse warhead launcher."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Resurgent-class Star Destroyer"
+	sprite "ship/resurgentdestroyer"
+	thumbnail "thumbnail/resurgentdestroyer"
+	attributes
+		category "Heavy Warship"
+		"cost" 750000000
+		"shields" 430000
+		"hull" 112000
+		"required crew" 19000
+		"bunks" 82000
+		"mass" 20000
+		"drag" 31
+		"heat dissipation" .3
+		"fuel capacity" 1200
+		"cargo space" 800
+		"outfit space" 2208
+		"weapon capacity" 1430
+		"engine capacity" 550
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"G5Quad Turbolaser Turret" 12
+		"G4Dual Turbolaser Turret" 10
+		"G3 Turbolaser Turret" 10
+		
+		"P5 Power Converter"
+		"D5 Deflector Shield"
+		"C5 Coolant System"
+		
+		"B5 Sublight Engine"
+		"H5 Hyperspace Motivator"
+
+	engine -222 3112
+	engine 220 3109
+	turret -1138 1738 "G5Quad Turbolaser Turret"
+	turret -1088 1593 "G5Quad Turbolaser Turret"
+	turret -1041 1447 "G5Quad Turbolaser Turret"
+	turret -993 1301 "G5Quad Turbolaser Turret"
+	turret -943 1152 "G5Quad Turbolaser Turret"
+	turret -894 1006 "G5Quad Turbolaser Turret"
+	turret 1141 1739 "G5Quad Turbolaser Turret"
+	turret 1094 1591 "G5Quad Turbolaser Turret"
+	turret 1044 1445 "G5Quad Turbolaser Turret"
+	turret 995 1300 "G5Quad Turbolaser Turret"
+	turret 946 1151 "G5Quad Turbolaser Turret"
+	turret 897 1007 "G5Quad Turbolaser Turret"
+	turret -401 -1190 "G4Dual Turbolaser Turret"
+	turret 400 -1189 "G4Dual Turbolaser Turret"
+	turret 1 -518 "G4Dual Turbolaser Turret"
+	turret 2 -321 "G4Dual Turbolaser Turret"
+	turret 2 -136 "G4Dual Turbolaser Turret"
+	turret -753 -74 "G4Dual Turbolaser Turret"
+	turret 755 -71 "G4Dual Turbolaser Turret"
+	turret -805 1518 "G4Dual Turbolaser Turret"
+	turret 798 1522 "G4Dual Turbolaser Turret"
+	turret 2 418 "G4Dual Turbolaser Turret"
+	turret -238 137 "G3 Turbolaser Turret"
+	turret 238 139 "G3 Turbolaser Turret"
+	turret -608 409 "G3 Turbolaser Turret"
+	turret 602 409 "G3 Turbolaser Turret"
+	turret -604 558 "G3 Turbolaser Turret"
+	turret 602 557 "G3 Turbolaser Turret"
+	turret -364 902 "G3 Turbolaser Turret"
+	turret 358 904 "G3 Turbolaser Turret"
+	turret -230 2000 "G3 Turbolaser Turret"
+	turret 230 2004 "G3 Turbolaser Turret"
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	fighter 4 -264
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Resurgent-class Star Destroyer is an iconic model of battlecruiser and Star Destroyer built by Kuat-Entralla Engineering. It saw service in the First Order Navy during its conquest of the Unknown Regions after the signing of the Galactic Concordance. Based on the Imperial-class Star Destroyers of the Old Empire, it featured advanced weaponry and extreme size and represented the might of the emergent First Order throughout the galaxy."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Mandator IV-class Siege Dreadnought"
+	sprite "ship/mandatorivdreadnought"
+	thumbnail "thumbnail/mandatorivdreadnought"
+	attributes
+		category "Heavy Warship"
+		"cost" 950000000
+		"shields" 900000
+		"hull" 370000
+		"required crew" 193000
+		"bunks" 300000
+		"mass" 47000
+		"drag" 39.5
+		"heat dissipation" .2
+		"fuel capacity" 2000
+		"cargo space" 700
+		"outfit space" 2938
+		"weapon capacity" 2130
+		"engine capacity" 550
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"G5Quad Turbolaser Turret" 32
+		
+		"P5 Power Converter"
+		"D5 Deflector Shield"
+		"C5 Coolant System"
+		
+		"B5 Sublight Engine"
+		"H5 Hyperspace Motivator"
+		
+	engine -213 892 1
+	engine 213 892 1
+	turret 100 -5000 "G5Quad Turbolaser Turret"
+	turret -100 -5000 "G5Quad Turbolaser Turret"
+	turret 200 -4000 "G5Quad Turbolaser Turret"
+	turret -200 -4000 "G5Quad Turbolaser Turret"
+	turret 400 -3000 "G5Quad Turbolaser Turret"
+	turret -400 -3000 "G5Quad Turbolaser Turret"
+	turret 600 -2000 "G5Quad Turbolaser Turret"
+	turret -600 -2000 "G5Quad Turbolaser Turret"
+	turret 800 -1000 "G5Quad Turbolaser Turret"
+	turret -800 -1000 "G5Quad Turbolaser Turret"
+	turret 1100 0 "G5Quad Turbolaser Turret"
+	turret -1100 0 "G5Quad Turbolaser Turret"
+	turret 1300 1000 "G5Quad Turbolaser Turret"
+	turret -1300 1000 "G5Quad Turbolaser Turret"
+	turret 1600 2000 "G5Quad Turbolaser Turret"
+	turret -1600 2000 "G5Quad Turbolaser Turret"
+	turret 2100 3000 "G5Quad Turbolaser Turret"
+	turret -2100 3000 "G5Quad Turbolaser Turret"
+	turret 1700 3000 "G5Quad Turbolaser Turret"
+	turret -1700 3000 "G5Quad Turbolaser Turret"
+	turret 1300 3000 "G5Quad Turbolaser Turret"
+	turret -1300 3000 "G5Quad Turbolaser Turret"
+	turret 2500 4000 "G5Quad Turbolaser Turret"
+	turret -2500 4000 "G5Quad Turbolaser Turret"
+	turret 2000 4000 "G5Quad Turbolaser Turret"
+	turret -2000 4000 "G5Quad Turbolaser Turret"
+	turret 1500 4000 "G5Quad Turbolaser Turret"
+	turret -1500 4000 "G5Quad Turbolaser Turret"
+	turret 1000 4000 "G5Quad Turbolaser Turret"
+	turret -1000 4000 "G5Quad Turbolaser Turret"
+	turret 500 4000 "G5Quad Turbolaser Turret"
+	turret -500 4000 "G5Quad Turbolaser Turret"
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Mandator IV-class Siege Dreadnought is a model of Siege Dreadnought used by the First Order during their conflict with the Resistance. The Mandator IV-class is armed with two orbital autocannons that could fire a salvo of two rounds each in quick succession before a recharge was needed."
+	description "Artwork/model by Nomada_Firefox"
