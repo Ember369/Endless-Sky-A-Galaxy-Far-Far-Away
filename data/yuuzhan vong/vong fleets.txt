@@ -6,3 +6,9 @@ fleet "vongscoutfleet"
 	variant 60
 		"Chaokhinh Advance Scout Ship"
 		"Yorik-et (Fighter)" 3
+	variant 60
+		"I'friil Suuk"
+		"Yorik-et (Fighter)" 8
+	variant 10
+		"Miid ro'ik"
+		"Yorik-et (Fighter)" 16

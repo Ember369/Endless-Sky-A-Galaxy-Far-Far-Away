@@ -14,16 +14,16 @@ ship "Chaokhinh Advance Scout Ship"
 	attributes
 		category "Light Warship"
 		"cost" 3450000
-		"shields" 34500
-		"hull" 10000
+		"shields" 23000
+		"hull" 9450
 		"required crew" 10
 		"bunks" 40
-		"mass" 2000
-		"drag" 4.9
+		"mass" 1500
+		"drag" 7.5
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 45
-		"outfit space" 293
+		"outfit space" 313
 		"weapon capacity" 91
 		"engine capacity" 88
 		inscrutable 1
@@ -33,33 +33,224 @@ ship "Chaokhinh Advance Scout Ship"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"Turbo Yaret-kor Turret" 4
-		"Turbo Heavy Yaret-kor Cannon"
+		"YV3 Yaret-kor Turret" 4
+		"YV5 Yaret-kor Cannon"
 		
-		"P3 Corvette Power Converter (Dovin Basal)"
-		"S3 Corvette Shield Projector (Dovin Basal)"
-		"T3 Sensor Array (Dovin Basal)"
-		"T3 Corvette Coolant System (Dovin Basal)"
-		"Cloaking Device (Dovin Basal)"
+		"P3 Power Converter (DB)"
+		"D3 Deflector Shield (DB)"
+		"S3 Sensor Array (DB)"
+		"C3 Coolant System (DB)"
+		"Cloaking Device (DB)"
 		
-		"T3 Corvette Sublight Engine (Dovin Basal)"
-		"H3 Corvette Hyperspace Motivator (Dovin Basal)"
+		"O3 Sublight Engine (DB)"
+		"H3 Hyperspace Motivator (DB)"
 		
-	gun 1 -240 "Turbo Heavy Yaret-kor Cannon"
-	turret 16 88 "Turbo Yaret-kor Turret"
-	turret -26 -23 "Turbo Yaret-kor Turret"
-	turret 43 -125 "Turbo Yaret-kor Turret"
-	turret -29 -173 "Turbo Yaret-kor Turret"
-	fighter 1 -240
-	fighter 1 -240
-	fighter 1 -240
+	gun 0 -160 "YV5 Yaret-kor Cannon"
+	turret 9 60.5 "YV3 Yaret-kor Turret"
+	turret -15.5 -16.5 "YV3 Yaret-kor Turret"
+	turret 29 -84.5 "YV3 Yaret-kor Turret"
+	turret -20.5 -115 "YV3 Yaret-kor Turret"
+	fighter 0 -160
+	fighter 0 -160
+	fighter 0 -160
+	fighter 0 -160
+	leak "blood" 40 40
+	explode "blood" 40
+	description "The Yuuzhan Vong advance scout ship is a vessel in the Yuuzhan Vong fleet. It is dark in colour, with several tendril-shaped structures hanging to each side of the vessel, and also had a large, forward-facing hangar which could carry several Yorik-et-sized vessels."
+	description "Artwork/model by The Shapers"
+
+
+
+ship "I'friil Suuk"
+	sprite "ship/ifriilsuuk"
+	thumbnail "thumbnail/ifriilsuuk"
+	attributes
+		category "Medium Warship"
+		"cost" 18000000
+		"shields" 60000
+		"hull" 26000
+		"required crew" 810
+		"bunks" 1800
+		"mass" 8820
+		"drag" 27
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 300
+		"outfit space" 1267
+		"weapon capacity" 735
+		"engine capacity" 420
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"YV4 Yaret-kor Turret" 18
+		
+		"P4.5 Power Converter (DB)"
+		"D4.5 Deflector Shield (DB)"
+		"C4.5 Coolant System (DB)"
+		
+		"O4.5 Sublight Engine (DB)"
+		"H4.5 Hyperspace Motivator (DB)"
+		
+	turret 21.5 513 "YV4 Yaret-kor Turret"
+	turret -25.5 495.5 "YV4 Yaret-kor Turret"
+	turret -52 457.5 "YV4 Yaret-kor Turret"
+	turret 100.5 440.5 "YV4 Yaret-kor Turret"
+	turret -100.5 301 "YV4 Yaret-kor Turret"
+	turret 83.5 209 "YV4 Yaret-kor Turret"
+	turret 211.5 136 "YV4 Yaret-kor Turret"
+	turret -7.5 111.5 "YV4 Yaret-kor Turret"
+	turret -184 96.5 "YV4 Yaret-kor Turret"
+	turret 211.5 67 "YV4 Yaret-kor Turret"
+	turret 147 22.5 "YV4 Yaret-kor Turret"
+	turret -194.5 23.5 "YV4 Yaret-kor Turret"
+	turret 89 -26 "YV4 Yaret-kor Turret"
+	turret -23.5 -134 "YV4 Yaret-kor Turret"
+	turret -49.5 -175 "YV4 Yaret-kor Turret"
+	turret 131 -185.5 "YV4 Yaret-kor Turret"
+	turret 42 -371 "YV4 Yaret-kor Turret"
+	turret -14 -412.5 "YV4 Yaret-kor Turret"
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	fighter 41.5 -497
+	leak "blood" 40 40
+	explode "blood" 100
+	description "The I'Friil Suuk is a heavy interceptor analog, comparable to that of Nebulon B. It is as fast as the Strohna, but much more armoured. Bone-like yorik coral growth plates can be seen starting to grow on the surface of the Suuk, which provides heavy armour from the standard asteroid type rock hull, a trait of Vong ships that is more apparent through genetic mutations in later developed warships."
+	description "Artwork/model by The Shapers"
+
+
+
+ship "Miid ro'ik"
+	sprite "ship/miidroikbattleship"
+	thumbnail "thumbnail/miidroikbattleship"
+	attributes
+		category "Heavy Warship"
+		"cost" 205000000
+		"shields" 258500
+		"hull" 66500
+		"required crew" 1280
+		"bunks" 3220
+		"mass" 31800
+		"drag" 54.0
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 800
+		"outfit space" 2538
+		"weapon capacity" 1780
+		"engine capacity" 550
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"YV5 Yaret-kor Turret" 18
+		"YV4 Yaret-kor Turret" 14
+		
+		"P5 Power Converter (DB)"
+		"D5 Deflector Shield (DB)"
+		"C5 Coolant System (DB)"
+		
+		"O5 Sublight Engine (DB)"
+		"H5 Hyperspace Motivator (DB)"
+		
+	turret -100 1423 "YV5 Yaret-kor Turret"
+	turret 130 1402 "YV4 Yaret-kor Turret"
+	turret 75 1246 "YV5 Yaret-kor Turret"
+	turret -118 1103 "YV4 Yaret-kor Turret"
+	turret 217 1068 "YV5 Yaret-kor Turret"
+	turret -97 934 "YV4 Yaret-kor Turret"
+	turret 127 822 "YV5 Yaret-kor Turret"
+	turret -252 709 "YV4 Yaret-kor Turret"
+	turret -214 566 "YV5 Yaret-kor Turret"
+	turret 336 524 "YV4 Yaret-kor Turret"
+	turret -76 343 "YV5 Yaret-kor Turret"
+	turret -388 226 "YV4 Yaret-kor Turret"
+	turret -223 128 "YV5 Yaret-kor Turret"
+	turret 242 122 "YV4 Yaret-kor Turret"
+	turret 382 36 "YV5 Yaret-kor Turret"
+	turret 4 -46 "YV4 Yaret-kor Turret"
+	turret -395 -194 "YV5 Yaret-kor Turret"
+	turret 350 -236 "YV4 Yaret-kor Turret"
+	turret 362 -369 "YV5 Yaret-kor Turret"
+	turret -153 -381 "YV4 Yaret-kor Turret"
+	turret -426 -404 "YV5 Yaret-kor Turret"
+	turret -444 -527 "YV4 Yaret-kor Turret"
+	turret -93 -629 "YV5 Yaret-kor Turret"
+	turret 375 -638 "YV4 Yaret-kor Turret"
+	turret 327 -834 "YV5 Yaret-kor Turret"
+	turret 60 -888 "YV4 Yaret-kor Turret"
+	turret -256 -884 "YV5 Yaret-kor Turret"
+	turret -322 -970 "YV4 Yaret-kor Turret"
+	turret -291 -1134 "YV5 Yaret-kor Turret"
+	turret 143 -1313 "YV5 Yaret-kor Turret"
+	turret -65 -1457 "YV5 Yaret-kor Turret"
+	turret 49 -1513 "YV5 Yaret-kor Turret"
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
+	fighter 0 -264
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The Yuuzhan Vong advance scout ship is a vessel in the Yuuzhan Vong fleet. It is dark in colour, with several tendril-shaped structures hanging to each side of the vessel, and also had a large, forward-facing hangar which could carry several Yorik-et-sized vessels."
-	description "Artwork/model by The Shapers"
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Imperial II Star Destroyer is a Star Destroyer model manufactured by Kuat Drive Yards for use by the Imperial Navy. Part of the Imperial line, the class served as successor to the Imperial I Star Destroyer."
+	description "Artwork/model by Fractalsponge"
 
 
 
@@ -75,7 +266,7 @@ ship "Yorik-et"
 		"required crew" 1
 		bunks 1
 		mass 22
-		drag 0.95
+		drag 1.08
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 13
@@ -88,18 +279,18 @@ ship "Yorik-et"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Yaret-kor Cannon" 2
+		"YV1 Yaret-kor Cannon" 2
 
-		"P1 Fighter Power Converter (Dovin Basal)"
-		"S1 Fighter Shield Projector (Dovin Basal)"
-		"T1 Sensor Array (Dovin Basal)"
-		"T1 Fighter Coolant System (Dovin Basal)"
+		"P1 Power Converter (DB)"
+		"D1 Deflector Shield (DB)"
+		"C1 Coolant System (DB)"
 
-		"T1 Fighter Engine (Dovin Basal)"
+		"O1 Sublight Engine (DB)"
 
-	gun -3 -30 "Fighter Yaret-kor Cannon"
-	gun 3 -30 "Fighter Yaret-kor Cannon"
-	explode "large explosion" 3
+	gun -3 -15.5 "YV1 Yaret-kor Cannon"
+	gun 3 -15.5 "YV1 Yaret-kor Cannon"
+	leak "blood" 40 40
+	explode "blood" 3
 	description "The Yorik-et, referred to as a coralskipper or skip by New Republic forces, is the Yuuzhan Vong version of a starfighter. The Yorik-et is a bioship made from yorik coral, since the Yuuzhan Vong despise mechanical technology as an abomination. It is grown instead of manufactured so no two coralskippers look alike. Despite this, every coralskipper share some basic features, such as a dark canopy, and a triangular body."
 	description "Artwork/model by The Shapers"
 
@@ -117,7 +308,7 @@ ship "Yorik-et (Fighter)"
 		"required crew" 1
 		bunks 1
 		mass 22
-		drag 0.95
+		drag 1.08
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 13
@@ -130,18 +321,18 @@ ship "Yorik-et (Fighter)"
 			"hull damage" 170
 			"hit force" 460
 	outfits
-		"Fighter Yaret-kor Cannon" 2
+		"YV1 Yaret-kor Cannon" 2
 
-		"P1 Fighter Power Converter (Dovin Basal)"
-		"S1 Fighter Shield Projector (Dovin Basal)"
-		"T1 Sensor Array (Dovin Basal)"
-		"T1 Fighter Coolant System (Dovin Basal)"
+		"P1 Power Converter (DB)"
+		"D1 Deflector Shield (DB)"
+		"C1 Coolant System (DB)"
 
-		"T1 Fighter Engine (Dovin Basal)"
+		"O1 Sublight Engine (DB)"
 
-	gun -3 -30 "Fighter Yaret-kor Cannon"
-	gun 3 -30 "Fighter Yaret-kor Cannon"
-	explode "large explosion" 3
+	gun -3 -15.5 "YV1 Yaret-kor Cannon"
+	gun 3 -15.5 "YV1 Yaret-kor Cannon"
+	leak "blood" 40 40
+	explode "blood" 3
 	description "The Yorik-et, referred to as a coralskipper or skip by New Republic forces, is the Yuuzhan Vong version of a starfighter. The Yorik-et is a bioship made from yorik coral, since the Yuuzhan Vong despise mechanical technology as an abomination. It is grown instead of manufactured so no two coralskippers look alike. Despite this, every coralskipper share some basic features, such as a dark canopy, and a triangular body."
 	description "Artwork/model by The Shapers"
 

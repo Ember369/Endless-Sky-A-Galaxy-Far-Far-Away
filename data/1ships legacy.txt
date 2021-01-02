@@ -8,12 +8,12 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-ship "Annihilator-class Starfighter"
+ship "Annihilator Starfighter"
 	sprite "ship/annihilatorstarfighter"
 	thumbnail "thumbnail/annihilatorstarfighter"
-	"never disabled"
 	attributes
-		category "Interceptor"
+		category Interceptor
+		"absolute threshold" 20
 		"cost" 185000
 		"shields" 1680
 		"hull" 1680
@@ -49,25 +49,25 @@ ship "Annihilator-class Starfighter"
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
-	engine -10 20
-	engine 15 20
-	gun -12 -13 "R1 Laser Cannon"
-	gun 12 -14 "R1 Laser Cannon"
-	gun -12 -13 "Concussion Missile Launcher"
-	gun 12 -14 "Concussion Missile Launcher"
+	engine -8 8.5
+	engine 8 8.5
+	gun -5.5 -5 "R1 Laser Cannon"
+	gun 5.5 -5 "R1 Laser Cannon"
+	gun -5.5 -5 "Concussion Missile Launcher"
+	gun 5.5 -5 "Concussion Missile Launcher"
 	explode "large explosion"
 	"final explode" "final explosion large"
-	description "The Annihilator-class starfighter is a type of starfighter manufactured by the One Sith. They are triangular in shape, and according to Darth Krayt, are faster and more manoeuverable than any other fighter. Through the dark side, the pilot and ship becomes one, and the fighters carries enough fire power to breach a Star Destroyer."
+	description "The Annihilator starfighter is a type of starfighter manufactured by the One Sith. They are triangular in shape, and according to Darth Krayt, are faster and more manoeuverable than any other fighter. Through the dark side, the pilot and ship becomes one, and the fighters carries enough fire power to breach a Star Destroyer."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Annihilator-class Starfighter (Fighter)"
+ship "Annihilator Starfighter (Fighter)"
 	sprite "ship/annihilatorstarfighter"
 	thumbnail "thumbnail/annihilatorstarfighter"
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		"cost" 185000
 		"shields" 1680
 		"hull" 1680
@@ -102,15 +102,15 @@ ship "Annihilator-class Starfighter (Fighter)"
 		
 		"P1 Sublight Engine"
 		
-	engine -10 20
-	engine 15 20
-	gun -12 -13 "R1 Laser Cannon"
-	gun 12 -14 "R1 Laser Cannon"
-	gun -12 -13 "Concussion Missile Launcher"
-	gun 12 -14 "Concussion Missile Launcher"
+	engine -8 8.5
+	engine 8 8.5
+	gun -5.5 -5 "R1 Laser Cannon"
+	gun 5.5 -5 "R1 Laser Cannon"
+	gun -5.5 -5 "Concussion Missile Launcher"
+	gun 5.5 -5 "Concussion Missile Launcher"
 	explode "large explosion"
 	"final explode" "final explosion large"
-	description "The Annihilator-class starfighter is a type of starfighter manufactured by the One Sith. They are triangular in shape, and according to Darth Krayt, are faster and more manoeuverable than any other fighter. Through the dark side, the pilot and ship becomes one, and the fighters carries enough fire power to breach a Star Destroyer."
+	description "The Annihilator starfighter is a type of starfighter manufactured by the One Sith. They are triangular in shape, and according to Darth Krayt, are faster and more manoeuverable than any other fighter. Through the dark side, the pilot and ship becomes one, and the fighters carries enough fire power to breach a Star Destroyer."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -118,9 +118,9 @@ ship "Annihilator-class Starfighter (Fighter)"
 ship "BB-2 Starfire Fighter-Bomber"
 	sprite "ship/bb2starfirefighterbomber"
 	thumbnail "thumbnail/bb2starfirefighterbomber"
-	"never disabled"
 	attributes
-		category "Interceptor"
+		category Interceptor
+		"absolute threshold" 20
 		"cost" 200000
 		"shields" 1500
 		"hull" 5500
@@ -130,7 +130,7 @@ ship "BB-2 Starfire Fighter-Bomber"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
+		"cargo space" 0
 		"outfit space" 21
 		"weapon capacity" 9
 		"engine capacity" 5
@@ -155,20 +155,20 @@ ship "BB-2 Starfire Fighter-Bomber"
 		"D1 Deflector Shield"
 		"C1 Coolant System"
 		"HH0 Hull Slot"
-		"HH1 Ferroceramic Hull" 2
+		"HH1 Ferroceramic Hull"
 
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine -6 33
-	engine 6 33
-	gun -21 10 "R1 Laser Cannon"
-	gun 21 10 "R1 Laser Cannon"
-	gun -30 -4 "Concussion Missile Launcher"
-	gun -30 -4 "Concussion Missile Launcher"
-	gun -20 -11 "Proton Torpedo Launcher"
-	gun -20 -11 "Proton Torpedo Launcher"
-	turret 0 -11 "R1U Laser Turret"
+	engine -3 16
+	engine 3 16
+	gun -2.5 -17 "R1 Laser Cannon"
+	gun 2.5 -17 "R1 Laser Cannon"
+	gun -10.5 5 "Concussion Missile Launcher"
+	gun 10.5 5 "Concussion Missile Launcher"
+	gun -10.5 5 "Proton Torpedo Launcher"
+	gun 10.5 5 "Proton Torpedo Launcher"
+	turret 0 7 "R1U Laser Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The BB-2 Starfire fighter-bomber from SoroSuub Corporation is a sleek, gently curved, hyperdrive-capable starfighter. Incredibly well armed, the starship's primary weapons are multiple warhead launchers. The BB-2's payload includes ten interceptor missiles, multiple proton torpedoes capable of being launched in two massive rapid-fire salvos, and three ion bombs. It can also carry proton bombs and other ordnance."
@@ -179,9 +179,9 @@ ship "BB-2 Starfire Fighter-Bomber"
 ship "BB-2 Starfire Fighter-Bomber (Fighter)"
 	sprite "ship/bb2starfirefighterbomber"
 	thumbnail "thumbnail/bb2starfirefighterbomber"
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		"cost" 200000
 		"shields" 1500
 		"hull" 5500
@@ -191,7 +191,7 @@ ship "BB-2 Starfire Fighter-Bomber (Fighter)"
 		"drag" 1.1
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
+		"cargo space" 0
 		"outfit space" 21
 		"weapon capacity" 9
 		"engine capacity" 5
@@ -216,20 +216,20 @@ ship "BB-2 Starfire Fighter-Bomber (Fighter)"
 		"D1 Deflector Shield"
 		"C1 Coolant System"
 		"HH0 Hull Slot"
-		"HH1 Ferroceramic Hull" 2
+		"HH1 Ferroceramic Hull"
 
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
-	engine -6 33
-	engine 6 33
-	gun -21 10 "R1 Laser Cannon"
-	gun 21 10 "R1 Laser Cannon"
-	gun -30 -4 "Concussion Missile Launcher"
-	gun -30 -4 "Concussion Missile Launcher"
-	gun -20 -11 "Proton Torpedo Launcher"
-	gun -20 -11 "Proton Torpedo Launcher"
-	turret 0 -11 "R1U Laser Turret"
+	engine -3 16
+	engine 3 16
+	gun -2.5 -17 "R1 Laser Cannon"
+	gun 2.5 -17 "R1 Laser Cannon"
+	gun -10.5 5 "Concussion Missile Launcher"
+	gun 10.5 5 "Concussion Missile Launcher"
+	gun -10.5 5 "Proton Torpedo Launcher"
+	gun 10.5 5 "Proton Torpedo Launcher"
+	turret 0 7 "R1U Laser Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The BB-2 Starfire fighter-bomber from SoroSuub Corporation is a sleek, gently curved, hyperdrive-capable starfighter. Incredibly well armed, the starship's primary weapons are multiple warhead launchers. The BB-2's payload includes ten interceptor missiles, multiple proton torpedoes capable of being launched in two massive rapid-fire salvos, and three ion bombs. It can also carry proton bombs and other ordnance."
@@ -240,9 +240,9 @@ ship "BB-2 Starfire Fighter-Bomber (Fighter)"
 ship "CF9 Crossfire Starfighter"
 	sprite ship/cf9crossfirestarfighter
 	thumbnail thumbnail/cf9crossfirestarfighter
-	"never disabled"
 	attributes
 		category Interceptor
+		"absolute threshold" 20
 		cost 170000
 		shields 1700
 		hull 3100
@@ -279,13 +279,13 @@ ship "CF9 Crossfire Starfighter"
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine 0 41
-	gun -25 -38 "R1 Laser Cannon"
-	gun 25 -38 "R1 Laser Cannon"
-	gun -1 -33 "R1 Laser Cannon"
-	gun 1 -33 "R1 Laser Cannon"
-	gun -4 -4 "Proton Torpedo Launcher"
-	gun 4 -4 "Proton Torpedo Launcher"
+	engine 0 18
+	gun 0 -15 "R1 Laser Cannon"
+	gun 0 -15 "R1 Laser Cannon"
+	gun -13 -19.5 "R1 Laser Cannon"
+	gun 13 -19.5 "R1 Laser Cannon"
+	gun -3.5 -7 "Proton Torpedo Launcher"
+	gun 3.5 -7 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The StealthX is smaller than the XJ-series X-wing. It features equipment that hides the craft both visually and tactically, though the craft's position is given away if proton torpedoes are used or if the pilot broadcasts over the commlink. The StealthX is used exclusively by Jedi, as the restrictions on comm usage makes it nearly impossible for anyone other than a Jedi to coordinate with other forces."
 	description "Artwork/model by Unusualsuspex"
@@ -295,9 +295,9 @@ ship "CF9 Crossfire Starfighter"
 ship "CF9 Crossfire Starfighter (Fighter)"
 	sprite ship/cf9crossfirestarfighter
 	thumbnail thumbnail/cf9crossfirestarfighter
-	"never disabled"
 	attributes
 		category Fighter
+		"absolute threshold" 20
 		cost 170000
 		shields 1700
 		hull 3100
@@ -332,32 +332,32 @@ ship "CF9 Crossfire Starfighter (Fighter)"
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine 0 41
-	gun -25 -38 "R1 Laser Cannon"
-	gun 25 -38 "R1 Laser Cannon"
-	gun -1 -33 "R1 Laser Cannon"
-	gun 1 -33 "R1 Laser Cannon"
-	gun -4 -4 "Proton Torpedo Launcher"
-	gun 4 -4 "Proton Torpedo Launcher"
+	engine 0 18
+	gun 0 -15 "R1 Laser Cannon"
+	gun 0 -15 "R1 Laser Cannon"
+	gun -13 -19.5 "R1 Laser Cannon"
+	gun 13 -19.5 "R1 Laser Cannon"
+	gun -3.5 -7 "Proton Torpedo Launcher"
+	gun 3.5 -7 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The StealthX is smaller than the XJ-series X-wing. It features equipment that hides the craft both visually and tactically, though the craft's position is given away if proton torpedoes are used or if the pilot broadcasts over the commlink. The StealthX is used exclusively by Jedi, as the restrictions on comm usage makes it nearly impossible for anyone other than a Jedi to coordinate with other forces."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Cyclone-class R-Wing Starfighter"
+ship "Cyclone R-Wing Starfighter"
 	sprite ship/cyclonerwing
 	thumbnail thumbnail/cyclonerwing
-	"never disabled"
 	attributes
 		category Interceptor
+		"absolute threshold" 20
 		cost 145000
 		shields 1600
 		hull 2900
 		"required crew" 1
 		bunks 1
 		mass 23
-		drag 0.95
+		drag 1.08
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 19
@@ -387,33 +387,33 @@ ship "Cyclone-class R-Wing Starfighter"
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine -8 25
-	engine 8 25
-	gun -16 -2 "R1 Laser Cannon"
-	gun -16 -2 "R1 Laser Cannon"
-	gun 17 -3 "R1 Laser Cannon"
-	gun 17 -3 "R1 Laser Cannon"
-	gun -4 -4 "Concussion Missile Launcher"
-	gun 4 -4 "Concussion Missile Launcher"
+	engine -3.5 12.5
+	engine 3.5 12.5
+	gun -8.5 -1 "R1 Laser Cannon"
+	gun 8.5 -1 "R1 Laser Cannon"
+	gun -8.5 -1 "R1 Laser Cannon"
+	gun 8.5 -1 "R1 Laser Cannon"
+	gun -3.5 3.5 "Concussion Missile Launcher"
+	gun 3.5 3.5 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "The Sigma-5 Cyclone-class starfighter, also called the R-wing, is an advanced starfighter built by Kuat Systems Engineering for the New Republic and open market. The design features advanced manoeuvring systems that enable it to exceed the performance of contemporary X-wing models and similar fighters. Perhaps its two most distinctive features are its swing-wing s-foils and swivel-mounted laser cannons."
+	description "The Sigma-5 Cyclone starfighter, also called the R-wing, is an advanced starfighter built by Kuat Systems Engineering for the New Republic and open market. The design features advanced manoeuvring systems that enable it to exceed the performance of contemporary X-wing models and similar fighters. Perhaps its two most distinctive features are its swing-wing s-foils and swivel-mounted laser cannons."
 	description "Artwork/model by calamitySi"
 
 
 
-ship "Cyclone-class R-Wing Starfighter (Fighter)"
+ship "Cyclone R-Wing Starfighter (Fighter)"
 	sprite ship/cyclonerwing
 	thumbnail thumbnail/cyclonerwing
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		cost 145000
 		shields 1600
 		hull 2900
 		"required crew" 1
 		bunks 1
 		mass 23
-		drag 0.95
+		drag 1.08
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 19
@@ -443,32 +443,144 @@ ship "Cyclone-class R-Wing Starfighter (Fighter)"
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine -8 25
-	engine 8 25
-	gun -16 -2 "R1 Laser Cannon"
-	gun -16 -2 "R1 Laser Cannon"
-	gun 17 -3 "R1 Laser Cannon"
-	gun 17 -3 "R1 Laser Cannon"
-	gun -4 -4 "Concussion Missile Launcher"
-	gun 4 -4 "Concussion Missile Launcher"
+	engine -3.5 12.5
+	engine 3.5 12.5
+	gun -8.5 -1 "R1 Laser Cannon"
+	gun 8.5 -1 "R1 Laser Cannon"
+	gun -8.5 -1 "R1 Laser Cannon"
+	gun 8.5 -1 "R1 Laser Cannon"
+	gun -3.5 3.5 "Concussion Missile Launcher"
+	gun 3.5 3.5 "Concussion Missile Launcher"
 	explode "large explosion" 3
-	description "The Sigma-5 Cyclone-class starfighter, also called the R-wing, is an advanced starfighter built by Kuat Systems Engineering for the New Republic and open market. The design features advanced manoeuvring systems that enable it to exceed the performance of contemporary X-wing models and similar fighters. Perhaps its two most distinctive features are its swing-wing s-foils and swivel-mounted laser cannons."
+	description "The Sigma-5 Cyclone starfighter, also called the R-wing, is an advanced starfighter built by Kuat Systems Engineering for the New Republic and open market. The design features advanced manoeuvring systems that enable it to exceed the performance of contemporary X-wing models and similar fighters. Perhaps its two most distinctive features are its swing-wing s-foils and swivel-mounted laser cannons."
 	description "Artwork/model by calamitySi"
 
 
 
-ship "Galactic-class Battle Carrier"
+ship "Eta-5 Actis Interceptor"
+	sprite "ship/eta5interceptor"
+	thumbnail "thumbnail/eta5interceptor"
+	attributes
+		category Interceptor
+		"absolute threshold" 20
+		"cost" 140000
+		"shields" 0
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 0.83
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 4
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -4 17
+	engine 4 17
+	gun -5 2 "R1 Laser Cannon"
+	gun 5 2 "R1 Laser Cannon"
+	gun -12.5 0.5 "R1 Laser Cannon"
+	gun 12.5 0.5 "R1 Laser Cannon"
+	gun -5 2 "Concussion Missile Launcher"
+	gun 5 2 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Eta-5 interceptor is a type of interceptor in use by the New Jedi Order and the Galactic Alliance Navy as of 40 ABY. Developed by Kuat Drive Yards, it is a descendant of the Eta-2 interceptor, but it is also regarded to be a type of A-wing."
+	description "Artwork/model by Mobius13"
+
+
+
+ship "Eta-5 Actis Interceptor (Fighter)"
+	sprite "ship/eta5interceptor"
+	thumbnail "thumbnail/eta5interceptor"
+	attributes
+		category Fighter
+		"absolute threshold" 20
+		"cost" 140000
+		"shields" 0
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 0.83
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 4
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -4 17
+	engine 4 17
+	gun -5 2 "R1 Laser Cannon"
+	gun 5 2 "R1 Laser Cannon"
+	gun -12.5 0.5 "R1 Laser Cannon"
+	gun 12.5 0.5 "R1 Laser Cannon"
+	gun -5 2 "Concussion Missile Launcher"
+	gun 5 2 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Eta-5 interceptor is a type of interceptor in use by the New Jedi Order and the Galactic Alliance Navy as of 40 ABY. Developed by Kuat Drive Yards, it is a descendant of the Eta-2 interceptor, but it is also regarded to be a type of A-wing."
+	description "Artwork/model by Mobius13"
+
+
+
+ship "Galactic Battle Carrier"
 	sprite "ship/galacticbattlecarrier"
 	thumbnail "thumbnail/galacticbattlecarrier"
 	attributes
 		category "Heavy Warship"
-		"cost" 390000000
+		"cost" 190000000
 		"shields" 270000
 		"hull" 70000
 		"required crew" 10000
 		"bunks" 55000
-		"mass" 17000
-		"drag" 28
+		"mass" 34000
+		"drag" 56
 		"heat dissipation" .45
 		"fuel capacity" 1200
 		"cargo space" 800
@@ -525,113 +637,57 @@ ship "Galactic-class Battle Carrier"
 	turret 2 -73 "R4Dual Turbolaser Turret"
 	turret 2 -73 "R4Dual Turbolaser Turret"
 	turret 2 -73 "R4Dual Turbolaser Turret"
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
-	fighter 2 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
+	fighter 0 -73
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Galactic-class Battle Carrier is a capital ship in use by the Galactic Alliance Navy, designed after the end of the Yuuzhan Vong War. Although it is considered a new, large star destroyer, the designation 'battle carrier' was chosen to avoid reminding people of the old imperial terror symbols."
+	description "The Galactic Battle Carrier is a capital ship in use by the Galactic Alliance Navy, designed after the end of the Yuuzhan Vong War. Although it is considered a new, large star destroyer, the designation 'battle carrier' was chosen to avoid reminding people of the old imperial terror symbols."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -642,12 +698,12 @@ ship "Krayt Dragon Ship"
 	attributes
 		category "Light Warship"
 		"cost" 4900000
-		"shields" 44000
-		"hull" 12000
+		"shields" 34300
+		"hull" 11800
 		"required crew" 200
 		"bunks" 400
-		"mass" 2300
-		"drag" 5.5
+		"mass" 2280
+		"drag" 8.25
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 10
@@ -695,5 +751,5 @@ ship "Krayt Dragon Ship"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "A Krayt Dragon ship is a capital ship that served in the One Sith. Manufactured in secret alongside Emperor Krayt's Annihilator-class starfighters, these ships were unveiled in 138 ABY, when the deposed Krayt returned to Coruscant to reclaim his throne from his "most trusted" servant."
+	description "A Krayt Dragon ship is a capital ship that served in the One Sith. Manufactured in secret alongside Emperor Krayt's Annihilator starfighters, these ships were unveiled in 138 ABY, when the deposed Krayt returned to Coruscant to reclaim his throne from his "most trusted" servant."
 	description "Artwork/model by Unusualsuspex"

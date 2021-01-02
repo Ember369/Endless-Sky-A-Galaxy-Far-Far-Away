@@ -17,11 +17,11 @@ outfit "T1 Tractor Beam"
 	"weapon capacity" -1
 	"gun ports" -1
 	weapon
-		sprite "projectile/tractorbeam"
+		sprite "projectile/tractorbeam/tractorbeam1"
 		icon "icon/tractorbeam"
 		"inaccuracy" 0
-		"velocity" 20
-		"lifetime" 70
+		"velocity" 300
+		"lifetime" 1.5
 		"reload" 1
 		"firing energy" 1
 		"firing heat" 1
@@ -35,16 +35,16 @@ outfit "T2 Tractor Beam"
 	category "Secondary Weapons"
 	cost 2000
 	thumbnail "outfit/tractor beam/tractorbeam 2"
-	"mass" 2
-	"outfit space" -2
-	"weapon capacity" -2
+	"mass" 3
+	"outfit space" -3
+	"weapon capacity" -3
 	"gun ports" -1
 	weapon
-		sprite "projectile/tractorbeam"
+		sprite "projectile/tractorbeam/tractorbeam2"
 		icon "icon/tractorbeam"
 		"inaccuracy" 0
-		"velocity" 20
-		"lifetime" 85
+		"velocity" 300
+		"lifetime" 2.5
 		"reload" 1
 		"firing energy" 1
 		"firing heat" 1
@@ -58,16 +58,16 @@ outfit "T3 Tractor Beam"
 	category "Secondary Weapons"
 	cost 5000
 	thumbnail "outfit/tractor beam/tractorbeam 3"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
 	"gun ports" -1
 	weapon
-		sprite "projectile/tractorbeam"
+		sprite "projectile/tractorbeam/tractorbeam3"
 		icon "icon/tractorbeam"
 		"inaccuracy" 0
-		"velocity" 20
-		"lifetime" 100
+		"velocity" 300
+		"lifetime" 3.5
 		"reload" 1
 		"firing energy" 1
 		"firing heat" 1
@@ -81,16 +81,16 @@ outfit "T4 Tractor Beam"
 	category "Secondary Weapons"
 	cost 10000
 	thumbnail "outfit/tractor beam/tractorbeam 4"
-	"mass" 10
-	"outfit space" -10
-	"weapon capacity" -10
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
 	"gun ports" -1
 	weapon
-		sprite "projectile/tractorbeam"
+		sprite "projectile/tractorbeam/tractorbeam4"
 		icon "icon/tractorbeam"
 		"inaccuracy" 0
-		"velocity" 20
-		"lifetime" 115
+		"velocity" 300
+		"lifetime" 4
 		"reload" 1
 		"firing energy" 1
 		"firing heat" 1
@@ -104,16 +104,16 @@ outfit "T5 Tractor Beam"
 	category "Secondary Weapons"
 	cost 20000
 	thumbnail "outfit/tractor beam/tractorbeam 5"
-	"mass" 20
-	"outfit space" -20
-	"weapon capacity" -20
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
 	"gun ports" -1
 	weapon
-		sprite "projectile/tractorbeam"
+		sprite "projectile/tractorbeam/tractorbeam5"
 		icon "icon/tractorbeam"
 		"inaccuracy" 0
-		"velocity" 20
-		"lifetime" 130
+		"velocity" 300
+		"lifetime" 8
 		"reload" 1
 		"firing energy" 1
 		"firing heat" 1
@@ -122,81 +122,3 @@ outfit "T5 Tractor Beam"
 		"hit force" 0
 		"slowing damage" 5
 	description "T5 Tractor Beam"
-
-outfit "Mega-Ion Cannon (L)"
-	category "Secondary Weapons"
-	cost 50000
-	thumbnail "outfit/megaioncannon"
-	"mass" 40
-	"outfit space" -40
-	"weapon capacity" -40
-	"gun ports" -1
-	weapon
-		sprite "projectile/blaster"
-		sound "torpedo"
-		icon "icon/assaultconcussionmissile"
-		"fire effect" "torpedo fire"
-		"inaccuracy" 1
-		"velocity" 300
-		"lifetime" 1
-		"reload" 130
-		"firing energy" 200
-		"firing heat" 15
-		"submunition" "Mega-Ion Cannon Hit (L1)"
-	description "Mega-Ion Cannon"
-
-outfit "Mega-Ion Cannon Hit (L1)"
-	weapon
-		sprite "projectile/blaster"
-		"lifetime" 2
-		"velocity" -300
-		"turn" 90
-		"submunition" "Mega-Ion Cannon Hit (L2)"
-
-outfit "Mega-Ion Cannon Hit (L2)"
-	weapon
-		sprite "projectile/megaioncannonhit/megaioncannonhit"
-			"frame rate" 10
-			"random start frame"
-		"velocity" -20
-		"lifetime" 800
-		"ion damage" 1000
-
-outfit "Mega-Ion Cannon (R)"
-	category "Secondary Weapons"
-	cost 50000
-	thumbnail "outfit/megaioncannon"
-	"mass" 40
-	"outfit space" -40
-	"weapon capacity" -40
-	"gun ports" -1
-	weapon
-		sprite "projectile/blaster"
-		sound "torpedo"
-		icon "icon/assaultconcussionmissile"
-		"fire effect" "torpedo fire"
-		"inaccuracy" 1
-		"velocity" 300
-		"lifetime" 1
-		"reload" 130
-		"firing energy" 200
-		"firing heat" 15
-		"submunition" "Mega-Ion Cannon Hit (R1)"
-	description "Mega-Ion Cannon"
-
-outfit "Mega-Ion Cannon Hit (R1)"
-	weapon
-		sprite "projectile/blaster"
-		"lifetime" 2
-		"velocity" -300
-		"turn" 90
-		"submunition" "Mega-Ion Cannon Hit (R2)"
-
-outfit "Mega-Ion Cannon Hit (R2)"
-	weapon
-		sprite "projectile/megaioncannonhit/megaioncannonhit"
-			"frame rate" 10
-			"random start frame"
-		"velocity" 20
-		"lifetime" 800
-		"ion damage" 1000

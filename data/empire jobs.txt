@@ -8,23 +8,12 @@ mission "Destroy the Rebel Fleet"
 	source
 		government "Galactic Empire"
 	destination
-		government "Galactic Empire"
+		distance 2 5
 	npc kill
 		personality heroic staying target
 		government "Rebel Alliance"
 		system destination
-		fleet
-			variant 50
-				"CR90 Corvette"
-				"GR-75 Transport" 2
-				"RZ1 A-Wing (R)" 3
-				"RZ1 A-Wing" 2
-				"T-65B X-Wing" 5
-				"BTL-A4 Y-Wing" 5
-				"A/SF-01 B-Wing" 2
-				"A/SF-01 B-Wing B6"
-				"BTL-S8 K-Wing"
-				"E-7 E-Wing"
+		fleet "rebelfleet" 3
 		dialog "The Rebel Fleet has been eliminated. Regain contact with the Imperial Navy to receive your next mission."
 	on complete
 		payment 10
@@ -32,7 +21,7 @@ mission "Destroy the Rebel Fleet"
 
 mission "Intercept the Rebel Command Fleet"
 	name "Destroy the Rebel Command Fleet"
-	description "The Rebel Command Fleet is passing through the <system> System. Destroy it and regain contact with the Imperial Navy for your next mission."
+	description "A Rebel Command Fleet is passing through the <system> System. Destroy it and regain contact with the Imperial Navy for your next mission."
 	repeat
 	job
 	to offer
@@ -40,30 +29,113 @@ mission "Intercept the Rebel Command Fleet"
 	source
 		government "Galactic Empire"
 	destination
-		government "Galactic Empire"
+		distance 2 5
 	npc kill
 		personality heroic staying target
 		government "Rebel Alliance"
 		system destination
-		fleet
-			variant 50
-				"MC80 Liberty Cruiser"
-				"CR90 Corvette"
-				"Sphyrna-class Corvette (Modified)" 2
-				"EF76 Nebulon-B Frigate"
-				"GR-75 Transport" 4
-				"RZ1 A-Wing (R)" 3
-				"RZ1 A-Wing" 3
-				"T-65B X-Wing" 5
-				"BTL-A4 Y-Wing" 5
-				"A/SF-01 B-Wing" 2
-				"A/SF-01 B-Wing B6"
-				"BTL-S8 K-Wing"
-				"E-7 E-Wing"
+		fleet "rebelfleet" 5
 		dialog "The Rebel Command Fleet has been eliminated. Regain contact with the Imperial Navy to receive your next mission."
 	on complete
 		payment 10
 		dialog "The Imperial Navy promotes you for eliminating the Rebel Fleet."
+
+mission "Intercept the Scum & Villainy Fleet"
+	name "Destroy the Scum & Villainy Fleet"
+	description "A Scum & Villainy Fleet is passing through the <system> System. Destroy it and regain contact with the Imperial Navy for your next mission."
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		government "Galactic Empire"
+	destination
+		distance 2 5
+	npc kill
+		personality heroic staying target
+		government "Scum & Villainy"
+		system destination
+		fleet "piratefleet" 5
+		dialog "The Scum & Villainy Fleet has been eliminated. Regain contact with the Imperial Navy to receive your next mission."
+	on complete
+		payment 10
+		dialog "The Imperial Navy promotes you for eliminating the Scum & Villainy"
+
+mission "Intercept the Separatist Holdouts Fleet"
+	name "Destroy the Separatist HoldoutsFleet"
+	description "A Separatist Holdouts Fleet is passing through the <system> System. Destroy it and regain contact with the Imperial Navy for your next mission."
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		government "Galactic Empire"
+	destination
+		distance 2 5
+	npc kill
+		personality heroic staying target
+		government "Separatist Holdouts"
+		system destination
+		fleet "separatistholdout" 5
+		dialog "TheSeparatist Holdouts Fleet has been eliminated. Regain contact with the Imperial Navy to receive your next mission."
+	on complete
+		payment 10
+		dialog "The Imperial Navy promotes you for eliminating the Separatist Holdouts Fleet."
+
+mission "Rebel Alliance Attack"
+	name "Defend <planet>"
+	description "Defeat a Rebel Alliance attack on <destination>."
+	minor
+	repeat
+	to offer
+		random < 70
+	source
+		government "Galactic Empire"
+	npc kill
+		personality heroic staying vindictive unconstrained target
+		government "Rebel Alliance"
+		fleet "rebeldefensefleet" 2
+	npc
+		personality heroic staying
+		government "Galactic Empire"
+		fleet "missionimperialblockade" 3
+	on offer
+		conversation
+			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Rebel Alliance! We need every Imperial ship to join in the defences!"`
+			choice
+				"	(Stay here until the fight is over.)"
+					decline
+				"	(Join the defence fleet.)"
+			"A few Imperial ships have gathered to help repel the Rebel attack. You join them, and take off together..."
+				launch
+	on complete
+		payment 150000
+		dialog "The government of <planet> pays you <payment> for helping to drive off the Rebel Alliance."
+
+
+
+mission "Imperial Sector Fleet offering Assistance"
+	name "Imperial Sector fleet offering Assistance"
+	description "An Imperial moff is offering to combine their fleet with your forces temporarily."
+	repeat
+	job
+	deadline 5
+	to offer
+		random < 99
+	on offer
+		payment 0
+	source
+		government "Galactic Empire"
+	npc accompany
+		government "Escort"
+		personality escort
+		fleet "imperialstardestroyer" 2
+		dialog "Imperial Sector Fleet offering Assistance"
+	to complete
+		never
+	on complete
+		payment 0
+		dialog "Imperial Sector Fleet offering Assistance"
 
 mission "Clear the Rebel Sector"
 	name "Clear the Rebel Sector"
@@ -84,8 +156,8 @@ mission "Clear the Rebel Sector"
 			variant 50
 				"CR90 Corvette"
 				"GR-75 Transport" 2
-				"RZ1 A-Wing (R)" 3
-				"RZ1 A-Wing" 2
+				"RZ-1 A-Wing (R)" 3
+				"RZ-1 A-Wing" 2
 				"T-65B X-Wing" 2
 				"BTL-A4 Y-Wing" 3
 				"A/SF-01 B-Wing" 5
@@ -99,7 +171,7 @@ mission "Clear the Rebel Sector"
 		fleet
 			variant 50
 				"GR-75 Transport" 2
-				"RZ1 A-Wing" 2
+				"RZ-1 A-Wing" 2
 				"T-65B X-Wing" 6
 				"E-7 E-Wing" 3
 	npc kill
@@ -108,9 +180,9 @@ mission "Clear the Rebel Sector"
 		system Brentaal
 		fleet
 			variant 50
-				"Sphyrna-class Corvette (Modified)" 5
+				"Sphyrna Corvette (Modified)" 5
 				"GR-75 Transport" 4
-				"RZ1 A-Wing" 10
+				"RZ-1 A-Wing" 10
 				"T-65B X-Wing" 10
 				"BTL-A4 Y-Wing" 10
 				"A/SF-01 B-Wing" 5
@@ -141,7 +213,7 @@ mission "Clear the Rebel Sector"
 			variant 50
 				"EF76 Nebulon-B Frigate" 2
 				"GR-75 Transport" 3
-				"RZ1 A-Wing" 10
+				"RZ-1 A-Wing" 10
 				"T-65B X-Wing" 10
 				"BTL-A4 Y-Wing" 10
 				"A/SF-01 B-Wing" 5
@@ -154,11 +226,11 @@ mission "Clear the Rebel Sector"
 				"MC80 Liberty Cruiser"
 				"MC80A Star Cruiser"
 				"CR90 Corvette" 2
-				"Sphyrna-class Corvette (Modified)" 3
+				"Sphyrna Corvette (Modified)" 3
 				"EF76 Nebulon-B Frigate" 3
 				"GR-75 Transport" 8
-				"RZ1 A-Wing (R)" 6
-				"RZ1 A-Wing" 15
+				"RZ-1 A-Wing (R)" 6
+				"RZ-1 A-Wing" 15
 				"T-65B X-Wing" 15
 				"BTL-A4 Y-Wing" 15
 				"A/SF-01 B-Wing" 5
@@ -169,3 +241,215 @@ mission "Clear the Rebel Sector"
 	on complete
 		payment 10
 		dialog "The Imperial Navy promotes you for eliminating the Rebel Fleet."
+
+mission "(Give) Imperial Fleet - Thrawn"
+	name "(Give) Imperial Fleet - Thrawn"
+	description "(Give) Imperial Fleet - Thrawn"
+	repeat
+	job
+	deadline 5
+	to offer
+		random < 99
+	on offer
+		give ship "Imperial I Star Destroyer" "Chimaera"
+		give ship "TIE/LN Fighter (Fighter)" "Iota Leader"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 2"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 3"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 4"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 5"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 6"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 7"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 8"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 9"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 10"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 11"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 12"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 13"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 14"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 15"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 16"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 17"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 18"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 19"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 20"
+		give ship "TIE/LN Fighter (Fighter)" "Iota 21"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx Leader"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 2"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 3"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 4"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 5"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 6"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 7"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 8"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 9"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 10"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 11"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 12"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 13"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 14"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 15"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 16"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 17"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 18"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 19"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 20"
+		give ship "TIE/LN Fighter (Fighter)" "Onyx 21"
+		give ship "Imperial I Star Destroyer" "Ineluctable"
+		give ship "TIE/LN Fighter (Fighter)" "Blight Leader"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 2"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 3"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 4"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 5"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 6"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 7"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 8"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 9"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 10"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 11"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 12"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 13"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 14"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 15"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 16"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 17"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 18"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 19"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 20"
+		give ship "TIE/LN Fighter (Fighter)" "Blight 21"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra Leader"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 2"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 3"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 4"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 5"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 6"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 7"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 8"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 9"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 10"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 11"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 12"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 13"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 14"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 15"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 16"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 17"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 18"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 19"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 20"
+		give ship "TIE/LN Fighter (Fighter)" "Umbra 21"
+		give ship "Imperial I Star Destroyer" "Manticore"
+		give ship "TIE/LN Fighter (Fighter)" "Shade Leader"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 2"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 3"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 4"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 5"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 6"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 7"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 8"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 9"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 10"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 11"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 12"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 13"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 14"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 15"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 16"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 17"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 18"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 19"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 20"
+		give ship "TIE/LN Fighter (Fighter)" "Shade 21"
+		give ship "TIE/LN Fighter (Fighter)" "Murk Leader"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 2"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 3"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 4"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 5"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 6"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 7"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 8"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 9"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 10"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 11"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 12"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 13"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 14"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 15"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 16"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 17"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 18"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 19"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 20"
+		give ship "TIE/LN Fighter (Fighter)" "Murk 21"
+		give ship "Dreadnaught Heavy Cruiser" "Peerless"
+		give ship "TIE/IN Fighter (Fighter)" "Ash Leader"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 2"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 3"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 4"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 5"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 6"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 7"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 8"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 9"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 10"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 11"
+		give ship "TIE/IN Fighter (Fighter)" "Ash 12"
+		give ship "Quasar Fire II Bulk Cruiser" "Entor"
+		give ship "TIE/SA Fighter (Fighter)" "Skull Leader"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 2"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 3"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 4"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 5"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 6"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 7"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 8"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 9"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 10"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 11"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 12"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 13"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 14"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 15"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 16"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 17"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 18"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 19"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 20"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 21"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 22"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 23"
+		give ship "TIE/SA Fighter (Fighter)" "Skull 24"
+		give ship "Arquitens Light Cruiser" "Reisa"
+		give ship "TIE/IN Fighter (Fighter)" "Rho Leader"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 2"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 3"
+		give ship "Arquitens Light Cruiser" "Fury"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 4"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 5"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 6"
+		give ship "Arquitens Light Cruiser" "Glory"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 7"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 8"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 9"
+		give ship "Arquitens Light Cruiser" "Ajax"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 10"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 11"
+		give ship "TIE/IN Fighter (Fighter)" "Rho 12"
+		give ship "Raider II Corvette" "Adarga"
+		give ship "TIE/LN Fighter (Fighter)" "Nu Leader"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 2"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 3"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 4"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 5"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 6"
+		give ship "Raider II Corvette" "Gnisnal"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 7"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 8"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 9"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 10"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 11"
+		give ship "TIE/LN Fighter (Fighter)" "Nu 12"
+		dialog "(Give) Imperial Fleet - Thrawn"
+	source
+		government "Galactic Empire"
+	to complete
+		never

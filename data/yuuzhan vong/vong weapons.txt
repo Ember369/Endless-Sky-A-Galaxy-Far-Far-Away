@@ -8,10 +8,10 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-outfit "Fighter Yaret-kor Cannon"
+outfit "YV1 Yaret-kor Cannon"
 	category "Guns"
 	cost 1000
-	thumbnail "outfit/yaretkor"
+	thumbnail "outfit/yuuzhan vong/yaretkor"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1
@@ -36,10 +36,10 @@ outfit "Fighter Yaret-kor Cannon"
 
 
 
-outfit "Fighter Yaret-kor Turret"
+outfit "YV1 Yaret-kor Turret"
 	category "Turrets"
 	cost 1500
-	thumbnail "outfit/yaretkor"
+	thumbnail "outfit/yuuzhan vong/yaretkor"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1
@@ -69,7 +69,7 @@ outfit "Fighter Yaret-kor Turret"
 outfit "Transport Yaret-kor Cannon"
 	category "Guns"
 	cost 2000
-	thumbnail "outfit/yaretkor"
+	thumbnail "outfit/yuuzhan vong/yaretkor"
 	"mass" 2
 	"outfit space" -2
 	"weapon capacity" -2
@@ -95,10 +95,10 @@ outfit "Transport Yaret-kor Cannon"
 
 
 
-outfit "Transport Yaret-kor Turret"
+outfit "YV2 Yaret-kor Turret"
 	category "Turrets"
 	cost 3000
-	thumbnail "outfit/yaretkor"
+	thumbnail "outfit/yuuzhan vong/yaretkor"
 	"mass" 3
 	"outfit space" -3
 	"weapon capacity" -3
@@ -125,10 +125,10 @@ outfit "Transport Yaret-kor Turret"
 
 
 
-outfit "Transport Heavy Yaret-kor Turret"
+outfit "YV2 Heavy Yaret-kor Turret"
 	category "Turrets"
 	cost 4500
-	thumbnail "outfit/yaretkor"
+	thumbnail "outfit/yuuzhan vong/yaretkor"
 	"mass" 5
 	"outfit space" -5
 	"weapon capacity" -5
@@ -154,10 +154,10 @@ outfit "Transport Heavy Yaret-kor Turret"
 	description "The Yaret-Kor, more commonly known as a plasma cannon, volcano cannon or lava cannon, was the primary intership weapon of the Yuuzhan Vong fleet. As with all other Yuuzhan Vong bio-technology, the Yaret-Kor was an organic creation. The Yaret-Kor operated on a basic principle wherein the cannon took in stone or other massive materials, and then heated the materials up and expelled them towards an opposing ship as a flaming projectile. The size of both cannon and projectile was dependent upon the type of vessel it was linked to."
 
 
-outfit "Turbo Yaret-kor Turret"
+outfit "YV3 Yaret-kor Turret"
 	category "Turrets"
 	cost 25000
-	thumbnail "outfit/yaretkor"
+	thumbnail "outfit/yuuzhan vong/yaretkor"
 	"mass" 20
 	"outfit space" -20
 	"weapon capacity" -20
@@ -181,10 +181,10 @@ outfit "Turbo Yaret-kor Turret"
 		phasing
 	description "The Yaret-Kor, more commonly known as a plasma cannon, volcano cannon or lava cannon, was the primary intership weapon of the Yuuzhan Vong fleet. As with all other Yuuzhan Vong bio-technology, the Yaret-Kor was an organic creation. The Yaret-Kor operated on a basic principle wherein the cannon took in stone or other massive materials, and then heated the materials up and expelled them towards an opposing ship as a flaming projectile. The size of both cannon and projectile was dependent upon the type of vessel it was linked to."
 
-outfit "Turbo Heavy Yaret-kor Turret"
+outfit "YV4 Yaret-kor Turret"
 	category "Turrets"
 	cost 45000
-	thumbnail "outfit/yaretkor"
+	thumbnail "outfit/yuuzhan vong/yaretkor"
 	"mass" 40
 	"outfit space" -40
 	"weapon capacity" -40
@@ -207,10 +207,10 @@ outfit "Turbo Heavy Yaret-kor Turret"
 		"hull damage" 650
 	description "The Yaret-Kor, more commonly known as a plasma cannon, volcano cannon or lava cannon, was the primary intership weapon of the Yuuzhan Vong fleet. As with all other Yuuzhan Vong bio-technology, the Yaret-Kor was an organic creation. The Yaret-Kor operated on a basic principle wherein the cannon took in stone or other massive materials, and then heated the materials up and expelled them towards an opposing ship as a flaming projectile. The size of both cannon and projectile was dependent upon the type of vessel it was linked to."
 
-outfit "Turbo Capital Yaret-kor Turret"
+outfit "YV5 Yaret-kor Turret"
 	category "Turrets"
 	cost 800000
-	thumbnail "outfit/yaretkor"
+	thumbnail "outfit/yuuzhan vong/yaretkor"
 	"mass" 65
 	"outfit space" -65
 	"weapon capacity" -65
@@ -233,10 +233,10 @@ outfit "Turbo Capital Yaret-kor Turret"
 		"hull damage" 1500
 	description "The Yaret-Kor, more commonly known as a plasma cannon, volcano cannon or lava cannon, was the primary intership weapon of the Yuuzhan Vong fleet. As with all other Yuuzhan Vong bio-technology, the Yaret-Kor was an organic creation. The Yaret-Kor operated on a basic principle wherein the cannon took in stone or other massive materials, and then heated the materials up and expelled them towards an opposing ship as a flaming projectile. The size of both cannon and projectile was dependent upon the type of vessel it was linked to."
 
-outfit "Turbo Heavy Yaret-kor Cannon"
+outfit "YV5 Yaret-kor Cannon"
 	category "Guns"
 	cost 1000
-	thumbnail "outfit/yaretkor"
+	thumbnail "outfit/yuuzhan vong/yaretkor"
 	"mass" 50
 	"outfit space" -50
 	"weapon capacity" -1
@@ -256,4 +256,4 @@ outfit "Turbo Heavy Yaret-kor Cannon"
 		"shield damage" 2000
 		"hull damage" 2000
 		cluster
-	description "Turbo Heavy Yaret-kor Cannon"
+	description "Y5 Yaret-kor Cannon"

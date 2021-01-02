@@ -16,7 +16,7 @@ outfit "C0 Coolant Capacity"
 
 outfit "C0 Coolant Slot"
 	category "Systems"
-	cost 12000
+	cost 0
 	thumbnail "outfit/coolant/coolant slot"
 	"mass" 0
 	"outfit space" 0
@@ -26,54 +26,54 @@ outfit "C0 Coolant Slot"
 
 outfit "C1 Coolant System"
 	category "Systems"
-	cost 500
+	cost 5000
 	thumbnail "outfit/coolant/coolant 1"
 	"mass" 1
 	"outfit space" -1
-	"cooling" 4
+	"cooling" 2
 	description "C1 Coolant System"
 
 outfit "C2 Coolant System"
 	category "Systems"
-	cost 500
+	cost 21000
 	thumbnail "outfit/coolant/coolant 2"
-	"mass" 1
-	"outfit space" -1
+	"mass" 4
+	"outfit space" -4
 	"cooling" 8
 	description "C2 Coolant System"
 
 outfit "C3 Coolant System"
 	category "Systems"
-	cost 500
+	cost 32000
 	thumbnail "outfit/coolant/coolant 3"
-	"mass" 1
-	"outfit space" -1
-	"cooling" 8
+	"mass" 6
+	"outfit space" -6
+	"cooling" 12
 	description "C3 Coolant System"
 
 outfit "C4 Coolant System"
 	category "Systems"
-	cost 500
+	cost 50000
 	thumbnail "outfit/coolant/coolant 4"
-	"mass" 1
-	"outfit space" -1
-	"cooling" 8
+	"mass" 9
+	"outfit space" -9
+	"cooling" 18
 	description "C4 Frigate Coolant System"
 
 outfit "C4.5 Coolant System"
 	category "Systems"
-	cost 500
+	cost 70000
 	thumbnail "outfit/coolant/coolant 4_5"
-	"mass" 1
-	"outfit space" -1
-	"cooling" 8
+	"mass" 12
+	"outfit space" -12
+	"cooling" 24
 	description "C4.5 Coolant System"
 
 outfit "C5 Coolant System"
 	category "Systems"
-	cost 500
+	cost 110000
 	thumbnail "outfit/coolant/coolant 5"
-	"mass" 1
-	"outfit space" -1
-	"cooling" 8
+	"mass" 18
+	"outfit space" -18
+	"cooling" 36
 	description "C5 Coolant System"

@@ -18,8 +18,8 @@ ship "Bulwark Mark I Battleship"
 		"hull" 54500
 		"required crew" 7200
 		"bunks" 30000
-		"mass" 10750
-		"drag" 23.8
+		"mass" 21500
+		"drag" 47.6
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
@@ -104,18 +104,18 @@ ship "Bulwark Mark II Battleship"
 	thumbnail "thumbnail/bulwarkmarkiibattleship"
 	attributes
 		category "Heavy Warship"
-		"cost" 250000000
+		"cost" 203000000
 		"shields" 257500
 		"hull" 66000
 		"required crew" 1500
 		"bunks" 50000
-		"mass" 15500
-		"drag" 26.5
+		"mass" 31000
+		"drag" 53.0
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 900
-		"outfit space" 2588
-		"weapon capacity" 1880
+		"outfit space" 2448
+		"weapon capacity" 1690
 		"engine capacity" 550
 		weapon
 			"blast radius" 320
@@ -123,8 +123,9 @@ ship "Bulwark Mark II Battleship"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"R5Quad Turbolaser Turret" 20
-		"R4Dual Turbolaser Turret" 12
+		"R5Quad Turbolaser Turret" 16
+		"R4Dual Turbolaser Turret" 14
+		"R3 Turbolaser Turret" 2
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -133,66 +134,38 @@ ship "Bulwark Mark II Battleship"
 		"O5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 		
-	turret -86 1381 "R4Dual Turbolaser Turret"
-	turret 86 1381 "R4Dual Turbolaser Turret"
-	turret -119 1227 "R5Quad Turbolaser Turret"
-	turret 119 1227 "R5Quad Turbolaser Turret"
-	turret -181 988 "R4Dual Turbolaser Turret"
-	turret 181 988 "R4Dual Turbolaser Turret"
-	turret -263 742 "R5Quad Turbolaser Turret"
-	turret 263 742 "R5Quad Turbolaser Turret"
-	turret -305 512 "R4Dual Turbolaser Turret"
-	turret 305 512 "R4Dual Turbolaser Turret"
-	turret -373 269 "R5Quad Turbolaser Turret"
-	turret 373 269 "R5Quad Turbolaser Turret"
-	turret -116 261 "R4Dual Turbolaser Turret"
-	turret 116 261 "R4Dual Turbolaser Turret"
-	turret -145 -4 "R5Quad Turbolaser Turret"
-	turret 145 -4 "R5Quad Turbolaser Turret"
-	turret -145 -337 "R5Quad Turbolaser Turret"
-	turret 145 -337 "R5Quad Turbolaser Turret"
-	turret -135 -607 "R4Dual Turbolaser Turret"
-	turret 135 -607 "R4Dual Turbolaser Turret"
-	turret -502 -316 "R4Dual Turbolaser Turret"
-	turret 502 -316 "R4Dual Turbolaser Turret"
-	turret -456 -818 "R5Quad Turbolaser Turret"
-	turret 456 -818 "R5Quad Turbolaser Turret"
+	turret -86 1381 "R5Quad Turbolaser Turret"
+	turret 86 1381 "R5Quad Turbolaser Turret"
+	turret -119 1227 "R4Dual Turbolaser Turret"
+	turret 119 1227 "R4Dual Turbolaser Turret"
+	turret -181 988 "R5Quad Turbolaser Turret"
+	turret 181 988 "R5Quad Turbolaser Turret"
+	turret -263 742 "R4Dual Turbolaser Turret"
+	turret 263 742 "R4Dual Turbolaser Turret"
+	turret -305 512 "R5Quad Turbolaser Turret"
+	turret 305 512 "R5Quad Turbolaser Turret"
+	turret -373 269 "R4Dual Turbolaser Turret"
+	turret 373 269 "R4Dual Turbolaser Turret"
+	turret -116 261 "R5Quad Turbolaser Turret"
+	turret 116 261 "R5Quad Turbolaser Turret"
+	turret -145 -4 "R4Dual Turbolaser Turret"
+	turret 145 -4 "R4Dual Turbolaser Turret"
+	turret -145 -337 "R4Dual Turbolaser Turret"
+	turret 145 -337 "R4Dual Turbolaser Turret"
+	turret -135 -607 "R5Quad Turbolaser Turret"
+	turret 135 -607 "R5Quad Turbolaser Turret"
+	turret -502 -316 "R5Quad Turbolaser Turret"
+	turret 502 -316 "R5Quad Turbolaser Turret"
+	turret -456 -818 "R4Dual Turbolaser Turret"
+	turret 456 -818 "R4Dual Turbolaser Turret"
 	turret -397 -1062 "R5Quad Turbolaser Turret"
 	turret 397 -1062 "R5Quad Turbolaser Turret"
 	turret -311 -1308 "R5Quad Turbolaser Turret"
 	turret 311 -1308 "R5Quad Turbolaser Turret"
-	turret -121 -1325 "R5Quad Turbolaser Turret"
-	turret 121 -1325 "R5Quad Turbolaser Turret"
-	turret -116 -1511 "R5Quad Turbolaser Turret"
-	turret 116 -1511 "R5Quad Turbolaser Turret"
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
+	turret -121 -1325 "R3 Turbolaser Turret"
+	turret 121 -1325 "R3 Turbolaser Turret"
+	turret -116 -1511 "R4Dual Turbolaser Turret"
+	turret 116 -1511 "R4Dual Turbolaser Turret"
 	fighter 0 -1559
 	fighter 0 -1559
 	fighter 0 -1559
@@ -235,48 +208,48 @@ ship "C-9979 Landing Craft"
 	thumbnail "thumbnail/c9979landingcraft"
 	attributes
 		category "Heavy Freighter"
-		"cost" 16300000
-		"shields" 53000
-		"hull" 23000
+		"cost" 19500000
+		"shields" 64000
+		"hull" 28000
 		"required crew" 2
 		"bunks" 140
-		"mass" 4300
-		"drag" 12.5
+		"mass" 9360
+		"drag" 30.6
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 400
-		"outfit space" 317
-		"weapon capacity" 90
-		"engine capacity" 155
+		"cargo space" 680
+		"outfit space" 720
+		"weapon capacity" 175
+		"engine capacity" 420
 		weapon
 			"blast radius" 290
 			"shield damage" 680
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"R3 Turbolaser Turret" 4
+		"R4Dual Turbolaser Turret" 4
 		
-		"P3.5 Power Converter"
-		"D3.5 Deflector Shield"
-		"C3 Coolant System"
+		"D4.5 Deflector Shield"
+		"P4.5 Power Converter"
+		"C4.5 Coolant System"
 		
-		"B3.5 Sublight Engine"
-		"H3.5 Hyperspace Motivator"
+		"B4.5 Sublight Engine"
+		"H4.5 Hyperspace Motivator"
 	
-	engine -40 149
-	engine 39 149
-	turret -50 -107 "R3 Turbolaser Turret"
-	turret 50 -108 "R3 Turbolaser Turret"
-	turret -438 -66 "R3 Turbolaser Turret"
-	turret 443 -66 "R3 Turbolaser Turret"
-	fighter 0 -122
-	fighter 0 -122
-	fighter 0 -122
-	fighter 0 -122
-	fighter 0 -122
-	fighter 0 -122
-	fighter 0 -122
-	fighter 0 -122
+	engine -64.5 248.5
+	engine 64.5 248.5
+	turret -704.5 -100.5 "R4Dual Turbolaser Turret"
+	turret 704.5 -100.5 "R4Dual Turbolaser Turret"
+	turret -81 -172 "R4Dual Turbolaser Turret"
+	turret 81 -172 "R4Dual Turbolaser Turret"
+	fighter 0 -208.5
+	fighter 0 -208.5
+	fighter 0 -208.5
+	fighter 0 -208.5
+	fighter 0 -208.5
+	fighter 0 -208.5
+	fighter 0 -208.5
+	fighter 0 -208.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -293,17 +266,17 @@ ship "Captor Heavy Munitions Cruiser"
 	attributes
 		category "Medium Warship"
 		"cost" 21250000
-		"shields" 103000
-		"hull" 38000
+		"shields" 67500
+		"hull" 31000
 		"required crew" 350
 		"bunks" 850
-		"mass" 6500
-		"drag" 19
+		"mass" 9720
+		"drag" 31.5
 		"heat dissipation" .45
 		"fuel capacity" 1000
-		"cargo space" 800
-		"outfit space" 1074
-		"weapon capacity" 535
+		"cargo space" 400
+		"outfit space" 1360
+		"weapon capacity" 815
 		"engine capacity" 420
 		weapon
 			"blast radius" 320
@@ -311,8 +284,8 @@ ship "Captor Heavy Munitions Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"R4Dual Turbolaser Turret" 8
-		"R3 Turbolaser Turret" 10
+		"R4Dual Turbolaser Turret" 18
+		"R3 Turbolaser Turret" 4
 		
 		"P4.5 Power Converter"
 		"D4.5 Deflector Shield"
@@ -321,101 +294,81 @@ ship "Captor Heavy Munitions Cruiser"
 		"B4.5 Sublight Engine"
 		"H4.5 Hyperspace Motivator"
 		
-	engine -113 553
-	engine 113 553
-	engine 0 553
-	turret -143 431 "R3 Turbolaser Turret"
-	turret 143 431 "R3 Turbolaser Turret"
-	turret -124 262 "R4Dual Turbolaser Turret"
-	turret 124 262 "R4Dual Turbolaser Turret"
-	turret -271 237 "R3 Turbolaser Turret"
-	turret 271 237 "R3 Turbolaser Turret"
-	turret -107 58 "R4Dual Turbolaser Turret"
-	turret 107 58 "R4Dual Turbolaser Turret"
-	turret -259 34 "R3 Turbolaser Turret"
-	turret 259 34 "R3 Turbolaser Turret"
-	turret -246 -87 "R4Dual Turbolaser Turret"
-	turret 246 -87 "R4Dual Turbolaser Turret"
-	turret -187 -204 "R3 Turbolaser Turret"
-	turret 187 -204 "R3 Turbolaser Turret"
-	turret -126 -283 "R4Dual Turbolaser Turret"
-	turret 126 -283 "R4Dual Turbolaser Turret"
-	turret -115 -461 "R3 Turbolaser Turret"
-	turret 115 -461 "R3 Turbolaser Turret"
-	fighter -55 -341
-	fighter 55 -341
-	fighter -35 -342
-	fighter 35 -342
-	fighter -16 -342
-	fighter 16 -342
-	fighter -55 -341
-	fighter 55 -341
-	fighter -35 -342
-	fighter 35 -342
-	fighter -16 -342
-	fighter 16 -342
-	fighter -55 -341
-	fighter 55 -341
-	fighter -35 -342
-	fighter 35 -342
-	fighter -16 -342
-	fighter 16 -342
-	fighter -55 -341
-	fighter 55 -341
-	fighter -35 -342
-	fighter 35 -342
-	fighter -16 -342
-	fighter 16 -342
-	fighter -55 -341
-	fighter 55 -341
-	fighter -35 -342
-	fighter 35 -342
-	fighter -16 -342
-	fighter 16 -342
-	fighter -55 -341
-	fighter 55 -341
-	fighter -35 -342
-	fighter 35 -342
-	fighter -16 -342
-	fighter 16 -342
-	fighter -55 -341
-	fighter 55 -341
-	fighter -35 -342
-	fighter 35 -342
-	fighter -16 -342
-	fighter 16 -342
-	fighter -55 -341
-	fighter 55 -341
-	fighter -35 -342
-	fighter 35 -342
-	fighter -16 -342
-	fighter 16 -342
+	engine -105 511
+	engine 105 511
+	engine 0 511
+	turret -139.5 439 "R3 Turbolaser Turret"
+	turret 139.5 439 "R3 Turbolaser Turret"
+	turret -57 409 "R4Dual Turbolaser Turret"
+	turret 57 409 "R4Dual Turbolaser Turret"
+	turret -120 275 "R4Dual Turbolaser Turret"
+	turret 120 275 "R4Dual Turbolaser Turret"
+	turret -272.5 218 "R4Dual Turbolaser Turret"
+	turret 272.5 218 "R4Dual Turbolaser Turret"
+	turret -142 95.5 "R4Dual Turbolaser Turret"
+	turret 142 95.5 "R4Dual Turbolaser Turret"
+	turret -231 66 "R3 Turbolaser Turret"
+	turret 231 66 "R3 Turbolaser Turret"
+	turret -107.5 -68 "R4Dual Turbolaser Turret"
+	turret 107.5 -68 "R4Dual Turbolaser Turret"
+	turret -221 -78.5 "R4Dual Turbolaser Turret"
+	turret 221 -78.5 "R4Dual Turbolaser Turret"
+	turret -171 -188.5 "R4Dual Turbolaser Turret"
+	turret 171 -188.5 "R4Dual Turbolaser Turret"
+	turret -158 -287.5 "R4Dual Turbolaser Turret"
+	turret 158 -287.5 "R4Dual Turbolaser Turret"
+	turret -101 -422.5 "R4Dual Turbolaser Turret"
+	turret 101 -422.5 "R4Dual Turbolaser Turret"
+	fighter -56 -308
+	fighter 56 -308
+	fighter -46.5 -308
+	fighter 46.5 -308
+	fighter -39.5 -308
+	fighter 39.5 -308
+	fighter -29.5 -308
+	fighter 29.5 -308
+	fighter -17.5 -308
+	fighter 17.5 -308
+	fighter -7.5 -308
+	fighter 7.5 -308
+	fighter -56 -308
+	fighter 56 -308
+	fighter -46.5 -308
+	fighter 46.5 -308
+	fighter -39.5 -308
+	fighter 39.5 -308
+	fighter -29.5 -308
+	fighter 29.5 -308
+	fighter -17.5 -308
+	fighter 17.5 -308
+	fighter -7.5 -308
+	fighter 7.5 -308
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Captor-class heavy munitions cruiser, also known as the Trade Federation heavy munitions cruiser, is a type of commercial freighter-warship that was formerly used by the Trade Federation to transport bacta to buyers throughout the galaxy around 44 BBY. Although built as dedicated warships for the corporation's Trade Defense arm, they are much smaller and less powerful than the Lucrehulk-class. Like many of the Trade Federation's ships, a heavy munitions cruiser depends heavily on automated systems."
+	description "The Captor heavy munitions cruiser, also known as the Trade Federation heavy munitions cruiser, is a type of commercial freighter-warship that was formerly used by the Trade Federation to transport bacta to buyers throughout the galaxy around 44 BBY. Although built as dedicated warships for the corporation's Trade Defense arm, they are much smaller and less powerful than the Lucrehulk. Like many of the Trade Federation's ships, a heavy munitions cruiser depends heavily on automated systems."
 	description "Artwork/model from Picaro Star Shipyards"
 
 
 
-ship "Diamond-class Cruiser"
+ship "Diamond Cruiser"
 	sprite "ship/diamondcruiser"
 	thumbnail "thumbnail/diamondcruiser"
 	attributes
 		category "Heavy Freighter"
-		"cost" 20500000
-		"shields" 101000
-		"hull" 38000
+		"cost" 16300000
+		"shields" 52000
+		"hull" 22500
 		"required crew" 148
 		"bunks" 200
-		"mass" 6500
-		"drag" 19
+		"mass" 8100
+		"drag" 22.86
 		"heat dissipation" .45
 		"fuel capacity" 1000
-		"cargo space" 1380
+		"cargo space" 580
 		"outfit space" 624
 		"weapon capacity" 95
 		"engine capacity" 420
@@ -434,16 +387,16 @@ ship "Diamond-class Cruiser"
 		"B4.5 Sublight Engine"
 		"H4.5 Hyperspace Motivator"
 		
-	engine 0 287
-	turret -421 117 "R4Dual Turbolaser Turret"
-	turret 421 117 "R4Dual Turbolaser Turret"
+	engine 0 257.5
+	turret -172.5 -102 "R4Dual Turbolaser Turret"
+	turret 172.5 -102 "R4Dual Turbolaser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Diamond-class cruiser, also known as the Diamond-class courier ship and the Commerce Guild cruiser, is a cruiser that was used extensively by the Commerce Guild prior to and during the Clone Wars. Manufactured by the Commerce Guild, this cruiser served as a rapid deployment carrier for OG-9 homing spider droids and DSD1 dwarf spider droids."
+	description "The Diamond cruiser, also known as the Diamond courier ship and the Commerce Guild cruiser, is a cruiser that was used extensively by the Commerce Guild prior to and during the Clone Wars. Manufactured by the Commerce Guild, this cruiser served as a rapid deployment carrier for OG-9 homing spider droids and DSD1 dwarf spider droids."
 	description "Artwork/model from Hungry Ewok Fact Files"
 
 
@@ -451,9 +404,9 @@ ship "Diamond-class Cruiser"
 ship "Droid Tri-Fighter"
 	sprite "ship/droidtrifighterblue"
 	thumbnail "thumbnail/droidtrifighterblue"
-	"never disabled"
 	attributes
 		category Interceptor
+		"absolute threshold" 20
 		cost 30000
 		shields 0
 		hull 2350
@@ -461,7 +414,7 @@ ship "Droid Tri-Fighter"
 		"required crew" 0
 		bunks 0
 		mass 24
-		drag 1
+		drag 1.08
 		"heat dissipation" 0.9
 		"fuel capacity" 0
 		"outfit space" 13
@@ -484,12 +437,13 @@ ship "Droid Tri-Fighter"
 
 		"O1 Sublight Engine"
 
-	engine -6 41
-	engine 11 41
-	gun -17 -25 "R1 Laser Cannon"
-	gun 22 -26 "R1 Laser Cannon"
-	gun 3 -47 "R1 Laser Cannon"
-	gun 3 -28 "R1 Laser Cannon"
+	engine -4 19
+	engine 4 19
+	engine 0 19
+	gun -9.5 -12 "R1 Laser Cannon"
+	gun 9.5 -12 "R1 Laser Cannon"
+	gun 0 -12 "R1 Laser Cannon"
+	gun 0 -21.5 "R1 Laser Cannon"
 	explode "large explosion" 3
 	description "A standard tri-fighter measured 5.4 meters in length, making it the smallest ship in both the Separatist and Republic navies. A space-faring relative of the Trade Federation's dreaded droideka, the tri-fighter was developed for intense dogfighting and close-range space battles."
 	description "Artwork/model by Unusualsuspex"
@@ -499,9 +453,9 @@ ship "Droid Tri-Fighter"
 ship "Droid Tri-Fighter (Fighter)"
 	sprite "ship/droidtrifighterblue"
 	thumbnail "thumbnail/droidtrifighterblue"
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		cost 30000
 		shields 0
 		hull 2350
@@ -509,7 +463,7 @@ ship "Droid Tri-Fighter (Fighter)"
 		"required crew" 0
 		bunks 0
 		mass 24
-		drag 1
+		drag 1.08
 		"heat dissipation" 0.9
 		"fuel capacity" 0
 		"outfit space" 13
@@ -532,12 +486,13 @@ ship "Droid Tri-Fighter (Fighter)"
 
 		"O1 Sublight Engine"
 
-	engine -6 41
-	engine 11 41
-	gun -17 -25 "R1 Laser Cannon"
-	gun 22 -26 "R1 Laser Cannon"
-	gun 3 -47 "R1 Laser Cannon"
-	gun 3 -28 "R1 Laser Cannon"
+	engine -4 19
+	engine 4 19
+	engine 0 19
+	gun -9.5 -12 "R1 Laser Cannon"
+	gun 9.5 -12 "R1 Laser Cannon"
+	gun 0 -12 "R1 Laser Cannon"
+	gun 0 -21.5 "R1 Laser Cannon"
 	explode "large explosion" 3
 	description "A standard tri-fighter measured 5.4 meters in length, making it the smallest ship in both the Separatist and Republic navies. A space-faring relative of the Trade Federation's dreaded droideka, the tri-fighter was developed for intense dogfighting and close-range space battles."
 	description "Artwork/model by Unusualsuspex"
@@ -547,9 +502,9 @@ ship "Droid Tri-Fighter (Fighter)"
 ship "Droid Tri-Fighter" "Droid Tri-Fighter (Yellow)"
 	sprite "ship/droidtrifighteryellow"
 	thumbnail "thumbnail/droidtrifighteryellow"
-	"never disabled"
 	attributes
 		category Interceptor
+		"absolute threshold" 20
 		cost 30000
 		shields 0
 		hull 2350
@@ -557,7 +512,7 @@ ship "Droid Tri-Fighter" "Droid Tri-Fighter (Yellow)"
 		"required crew" 0
 		bunks 0
 		mass 24
-		drag 1
+		drag 1.08
 		"heat dissipation" 0.9
 		"fuel capacity" 0
 		"outfit space" 13
@@ -580,12 +535,13 @@ ship "Droid Tri-Fighter" "Droid Tri-Fighter (Yellow)"
 
 		"O1 Sublight Engine"
 
-	engine -6 41
-	engine 11 41
-	gun -17 -25 "R1 Laser Cannon"
-	gun 22 -26 "R1 Laser Cannon"
-	gun 3 -47 "R1 Laser Cannon"
-	gun 3 -28 "R1 Laser Cannon"
+	engine -4.5 22
+	engine 4.5 22
+	engine 0 22
+	gun -12 -14 "R1 Laser Cannon"
+	gun 12 -14 "R1 Laser Cannon"
+	gun 0 -14 "R1 Laser Cannon"
+	gun 0 -22 "R1 Laser Cannon"
 	explode "large explosion" 3
 	description "A standard tri-fighter measured 5.4 meters in length, making it the smallest ship in both the Separatist and Republic navies. A space-faring relative of the Trade Federation's dreaded droideka, the tri-fighter was developed for intense dogfighting and close-range space battles."
 	description "Artwork/model by Unusualsuspex"
@@ -595,9 +551,9 @@ ship "Droid Tri-Fighter" "Droid Tri-Fighter (Yellow)"
 ship "Droid Tri-Fighter (Fighter)" "Droid Tri-Fighter (Yellow) (Fighter)"
 	sprite "ship/droidtrifighteryellow"
 	thumbnail "thumbnail/droidtrifighteryellow"
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		cost 30000
 		shields 0
 		hull 2350
@@ -605,7 +561,7 @@ ship "Droid Tri-Fighter (Fighter)" "Droid Tri-Fighter (Yellow) (Fighter)"
 		"required crew" 0
 		bunks 0
 		mass 24
-		drag 1
+		drag 1.08
 		"heat dissipation" 0.9
 		"fuel capacity" 0
 		"outfit space" 13
@@ -628,24 +584,117 @@ ship "Droid Tri-Fighter (Fighter)" "Droid Tri-Fighter (Yellow) (Fighter)"
 
 		"O1 Sublight Engine"
 
-	engine -6 41
-	engine 11 41
-	gun -17 -25 "R1 Laser Cannon"
-	gun 22 -26 "R1 Laser Cannon"
-	gun 3 -47 "R1 Laser Cannon"
-	gun 3 -28 "R1 Laser Cannon"
+	engine -4.5 22
+	engine 4.5 22
+	engine 0 22
+	gun -12 -14 "R1 Laser Cannon"
+	gun 12 -14 "R1 Laser Cannon"
+	gun 0 -14 "R1 Laser Cannon"
+	gun 0 -22 "R1 Laser Cannon"
 	explode "large explosion" 3
 	description "A standard tri-fighter measured 5.4 meters in length, making it the smallest ship in both the Separatist and Republic navies. A space-faring relative of the Trade Federation's dreaded droideka, the tri-fighter was developed for intense dogfighting and close-range space battles."
 	description "Artwork/model by Unusualsuspex"
 
 
 
+ship "Mankvim-418 Interceptor"
+	sprite "ship/mankvim814interceptor"
+	thumbnail "thumbnail/mankvim814interceptor"
+	attributes
+		category Interceptor
+		"absolute threshold" 20
+		"cost" 40500
+		"shields" 640
+		"hull" 1500
+		"required crew" 1
+		"bunks" 1
+		"mass" 19
+		"drag" 1.08
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"outfit space" 13
+		"weapon capacity" 2
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"R1 Laser Cannon" 2
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"O1 Sublight Engine"
+		
+	engine 0 14.5
+	gun -3.5 -7.5 "R1 Laser Cannon"
+	gun 3.5 -7.5 "R1 Laser Cannon"
+	explode "large explosion" 3
+	description "The Mankvim-814 light interceptor, also known as the Techno Union starfighter, or Rattletrap, is a starfighter that was first used by the Confederacy of Independent Systems near the close of the Clone Wars. The Mankvim-814 is a bulbous, oval-shaped, short-range fighter created by the Feethan Ottraw Scalable Assemblies on behalf of the Techno Union on the planet Utapau. The Techno Union built these tiny, short-ranged starfighters on the planet from local materials."
+	description "Artwork/model from Wookieepedia"
+
+
+
+ship "Mankvim-418 Interceptor (Fighter)"
+	sprite "ship/mankvim814interceptor"
+	thumbnail "thumbnail/mankvim814interceptor"
+	attributes
+		category Fighter
+		"absolute threshold" 20
+		"cost" 40500
+		"shields" 640
+		"hull" 1500
+		"required crew" 1
+		"bunks" 1
+		"mass" 19
+		"drag" 1.08
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"outfit space" 13
+		"weapon capacity" 2
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"R1 Laser Cannon" 2
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"O1 Sublight Engine"
+		
+	engine 0 14.5
+	gun -3.5 -7.5 "R1 Laser Cannon"
+	gun 3.5 -7.5 "R1 Laser Cannon"
+	explode "large explosion" 3
+	description "The Mankvim-814 light interceptor, also known as the Techno Union starfighter, or Rattletrap, is a starfighter that was first used by the Confederacy of Independent Systems near the close of the Clone Wars. The Mankvim-814 is a bulbous, oval-shaped, short-range fighter created by the Feethan Ottraw Scalable Assemblies on behalf of the Techno Union on the planet Utapau. The Techno Union built these tiny, short-ranged starfighters on the planet from local materials."
+	description "Artwork/model from Wookieepedia"
+
+
+
 ship "Umbaran Starfighter"
 	sprite "ship/umbaranstarfighter"
 	thumbnail "thumbnail/umbaranstarfighter"
-	"never disabled"
 	attributes
 		category Interceptor
+		"absolute threshold" 20
 		cost 135000
 		shields 900
 		hull 3600
@@ -681,10 +730,10 @@ ship "Umbaran Starfighter"
 		"G1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine 0 28
-	gun -22 -5 "Concussion Missile Launcher"
-	gun 22 -5 "Concussion Missile Launcher"
-	turret 0 -21 "G1U Laser Turret (AI)"
+	engine 0 14
+	gun -11 -2.5 "Concussion Missile Launcher"
+	gun 11 -2.5 "Concussion Missile Launcher"
+	turret 0 -10.5 "G1U Laser Turret (AI)"
 	explode "large explosion" 3
 	description "The Umbaran starfighter is a starfighter model developed by the Umbaran militia during the Clone Wars. The Umbaran starfighter appears odd when compared to other starfighters of the galaxy in that it has no true cockpit to speak of, instead utilising only a command chair surrounded by an energy shield. The chair itself is ray shielded."
 	description "Artwork/model by Unusualsuspex"
@@ -694,9 +743,9 @@ ship "Umbaran Starfighter"
 ship "Umbaran Starfighter (Fighter)"
 	sprite "ship/umbaranstarfighter"
 	thumbnail "thumbnail/umbaranstarfighter"
-	"never disabled"
 	attributes
 		category Fighter
+		"absolute threshold" 20
 		cost 135000
 		shields 900
 		hull 3600
@@ -732,30 +781,30 @@ ship "Umbaran Starfighter (Fighter)"
 		"G1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine 0 28
-	gun -22 -5 "Concussion Missile Launcher"
-	gun 22 -5 "Concussion Missile Launcher"
-	turret 0 -21 "G1U Laser Turret (AI)"
+	engine 0 14
+	gun -11 -2.5 "Concussion Missile Launcher"
+	gun 11 -2.5 "Concussion Missile Launcher"
+	turret 0 -10.5 "G1U Laser Turret (AI)"
 	explode "large explosion" 3
 	description "The Umbaran starfighter is a starfighter model developed by the Umbaran militia during the Clone Wars. The Umbaran starfighter appears odd when compared to other starfighters of the galaxy in that it has no true cockpit to speak of, instead utilising only a command chair surrounded by an energy shield. The chair itself is ray shielded."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Vulture-class Droid Starfighter"
+ship "Vulture Droid Starfighter"
 	sprite "ship/vulturedroid"
 	thumbnail "thumbnail/vulturedroid"
-	"never disabled"
 	attributes
 		category Interceptor
-		cost 26000
+		"absolute threshold" 20
+		cost 40000
 		shields 0
 		hull 2200
 		automaton 1
 		"required crew" 0
 		bunks 0
 		mass 18
-		drag 1
+		drag 1.08
 		"heat dissipation" 0.9
 		"fuel capacity" 0
 		"outfit space" 11
@@ -778,106 +827,64 @@ ship "Vulture-class Droid Starfighter"
 
 		"O1 Sublight Engine"
 
-	gun -17 -15 "R1 Laser Cannon"
-	gun 20 -15 "R1 Laser Cannon"
+	gun -13.5 -2 "R1 Laser Cannon"
+	gun 13.5 -2 "R1 Laser Cannon"
 	explode "large explosion" 3
-	description "The Variable Geometry Self-Propelled Battle Droid, Mark I, also known as the Vulture-class droid starfighter, was an unmanned model of droid starfighter manufactured by Haor Chall Engineering and utilised by the Trade Federation and later the Confederacy of Independent Systems. Constructed in the cathedral factories of Xi Char, their creation through precision manufacturing was considered an act of religious worship."
+	description "The Variable Geometry Self-Propelled Battle Droid, Mark I, also known as the Vulture droid starfighter, was an unmanned model of droid starfighter manufactured by Haor Chall Engineering and utilised by the Trade Federation and later the Confederacy of Independent Systems. Constructed in the cathedral factories of Xi Char, their creation through precision manufacturing was considered an act of religious worship."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Vulture-class Droid Starfighter (Fighter)"
+ship "Vulture Droid Starfighter (Fighter)"
 	sprite "ship/vulturedroid"
 	thumbnail "thumbnail/vulturedroid"
-	"never disabled"
-	attributes
-		category "Fighter"
-		cost 26000
-		shields 0
-		hull 2200
-		automaton 1
-		"required crew" 0
-		bunks 0
-		mass 18
-		drag 1
-		"heat dissipation" 0.9
-		"fuel capacity" 0
-		"outfit space" 11
-		"weapon capacity" 2
-		"engine capacity" 5
-		"hullslot capacity" 1
-		weapon
-			"blast radius" 40
-			"shield damage" 320
-			"hull damage" 170
-			"hit force" 460
-	outfits
-
-		"R1 Laser Cannon" 2
-
-		"P1 Power Converter"
-		"C1 Coolant System"
-		"HH0 Hull Slot"
-		"HH1 Ferroceramic Hull"
-
-		"O1 Sublight Engine"
-
-	gun -17 -15 "R1 Laser Cannon"
-	gun 20 -15 "R1 Laser Cannon"
-	explode "large explosion" 3
-	description "The Variable Geometry Self-Propelled Battle Droid, Mark I, also known as the Vulture-class droid starfighter, was an unmanned model of droid starfighter manufactured by Haor Chall Engineering and utilised by the Trade Federation and later the Confederacy of Independent Systems. Constructed in the cathedral factories of Xi Char, their creation through precision manufacturing was considered an act of religious worship."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "Nantex-class Territorial Defence Starfighter"
-	sprite ship/nantexterritorialstarfighter
-	thumbnail thumbnail/nantexterritorialstarfighter
-	"never disabled"
-	attributes
-		category Interceptor
-		cost 175000
-		shields 0
-		hull 3300
-		"required crew" 1
-		bunks 1
-		mass 21
-		drag 0.95
-		"heat dissipation" 0.8
-		"fuel capacity" 700
-		"outfit space" 12
-		"weapon capacity" 1
-		"engine capacity" 5
-		"hullslot capacity" 1
-		weapon
-			"blast radius" 40
-			"shield damage" 320
-			"hull damage" 170
-			"hit force" 460
-	outfits
-		"P1 Laser Cannon"
-
-		"P1 Power Converter"
-		"C1 Coolant System"
-		"HH0 Hull Slot"
-		"HH1 Ferroceramic Hull"
-
-		"P1 Sublight Engine"
-		"H1 Hyperspace Motivator"
-
-	gun 0 14 "P1 Laser Cannon"
-	explode "large explosion" 3
-	description "The Nantex-class territorial defence starfighter was a needle-shaped starfighter manufactured by Huppla Pasa Tisc Shipwrights Collective and was used by the natives of Geonosis. Many saw service during the Clone Wars to defend the droid factories of the Confederacy of Independent Systems."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "Nantex-class Territorial Defence Starfighter (Fighter)"
-	sprite ship/nantexterritorialstarfighter
-	thumbnail thumbnail/nantexterritorialstarfighter
-	"never disabled"
 	attributes
 		category Fighter
+		"absolute threshold" 20
+		cost 40000
+		shields 0
+		hull 2200
+		automaton 1
+		"required crew" 0
+		bunks 0
+		mass 18
+		drag 1.08
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"outfit space" 11
+		"weapon capacity" 2
+		"engine capacity" 5
+		"hullslot capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+
+		"R1 Laser Cannon" 2
+
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"O1 Sublight Engine"
+
+	gun -13.5 -2 "R1 Laser Cannon"
+	gun 13.5 -2 "R1 Laser Cannon"
+	explode "large explosion" 3
+	description "The Variable Geometry Self-Propelled Battle Droid, Mark I, also known as the Vulture droid starfighter, was an unmanned model of droid starfighter manufactured by Haor Chall Engineering and utilised by the Trade Federation and later the Confederacy of Independent Systems. Constructed in the cathedral factories of Xi Char, their creation through precision manufacturing was considered an act of religious worship."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Nantex Territorial Defence Starfighter"
+	sprite ship/nantexterritorialstarfighter
+	thumbnail thumbnail/nantexterritorialstarfighter
+	attributes
+		category Interceptor
+		"absolute threshold" 20
 		cost 175000
 		shields 0
 		hull 3300
@@ -907,19 +914,61 @@ ship "Nantex-class Territorial Defence Starfighter (Fighter)"
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	gun 0 14 "P1 Laser Cannon"
+	gun 0 6 "P1 Laser Cannon"
 	explode "large explosion" 3
-	description "The Nantex-class territorial defence starfighter was a needle-shaped starfighter manufactured by Huppla Pasa Tisc Shipwrights Collective and was used by the natives of Geonosis. Many saw service during the Clone Wars to defend the droid factories of the Confederacy of Independent Systems."
+	description "The Nantex territorial defence starfighter was a needle-shaped starfighter manufactured by Huppla Pasa Tisc Shipwrights Collective and was used by the natives of Geonosis. Many saw service during the Clone Wars to defend the droid factories of the Confederacy of Independent Systems."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Hyena-class Bomber"
+ship "Nantex Territorial Defence Starfighter (Fighter)"
+	sprite ship/nantexterritorialstarfighter
+	thumbnail thumbnail/nantexterritorialstarfighter
+	attributes
+		category Fighter
+		"absolute threshold" 20
+		cost 175000
+		shields 0
+		hull 3300
+		"required crew" 1
+		bunks 1
+		mass 21
+		drag 0.95
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 12
+		"weapon capacity" 1
+		"engine capacity" 5
+		"hullslot capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"P1 Laser Cannon"
+
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	gun 0 6 "P1 Laser Cannon"
+	explode "large explosion" 3
+	description "The Nantex territorial defence starfighter was a needle-shaped starfighter manufactured by Huppla Pasa Tisc Shipwrights Collective and was used by the natives of Geonosis. Many saw service during the Clone Wars to defend the droid factories of the Confederacy of Independent Systems."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Hyena Bomber"
 	sprite "ship/hyenabomber"
 	thumbnail "thumbnail/hyenabomber"
-	"never disabled"
 	attributes
 		category Interceptor
+		"absolute threshold" 20
 		cost 28000
 		shields 0
 		hull 3100
@@ -953,24 +1002,24 @@ ship "Hyena-class Bomber"
 
 		"O1 Sublight Engine"
 
-	gun -36 -49 "R1 Laser Cannon"
-	gun 36 -50 "R1 Laser Cannon"
-	gun -14 -13 "Concussion Missile Launcher"
-	gun 15 -14 "Concussion Missile Launcher"
-	gun -5 -14 "Proton Torpedo Launcher"
-	gun 6 -14 "Proton Torpedo Launcher"
+	gun -18 -5.5 "R1 Laser Cannon"
+	gun 18 -5.5 "R1 Laser Cannon"
+	gun -5 -1.5 "Concussion Missile Launcher"
+	gun 5 -1.5 "Concussion Missile Launcher"
+	gun -5 -1.5 "Proton Torpedo Launcher"
+	gun 5 -1.5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "Hyena-class bombers, also known as Hyena droid bombers or Hyena bombers, were droid starfighters manufactured by Baktoid Armor Workshop. They were designed for heavy ordnance bombing runs. They were used by the Confederacy of Independent Systems against the Republic forces during the Clone Wars."
+	description "Hyena bombers, also known as Hyena droid bombers or Hyena bombers, were droid starfighters manufactured by Baktoid Armor Workshop. They were designed for heavy ordnance bombing runs. They were used by the Confederacy of Independent Systems against the Republic forces during the Clone Wars."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Hyena-class Bomber (Fighter)"
+ship "Hyena Bomber (Fighter)"
 	sprite "ship/hyenabomber"
 	thumbnail "thumbnail/hyenabomber"
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		cost 28000
 		shields 0
 		hull 3100
@@ -1004,22 +1053,21 @@ ship "Hyena-class Bomber (Fighter)"
 
 		"O1 Sublight Engine"
 
-	gun -36 -49 "R1 Laser Cannon"
-	gun 36 -50 "R1 Laser Cannon"
-	gun -14 -13 "Concussion Missile Launcher"
-	gun 15 -14 "Concussion Missile Launcher"
-	gun -5 -14 "Proton Torpedo Launcher"
-	gun 6 -14 "Proton Torpedo Launcher"
+	gun -18 -5.5 "R1 Laser Cannon"
+	gun 18 -5.5 "R1 Laser Cannon"
+	gun -5 -1.5 "Concussion Missile Launcher"
+	gun 5 -1.5 "Concussion Missile Launcher"
+	gun -5 -1.5 "Proton Torpedo Launcher"
+	gun 5 -1.5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "Hyena-class bombers, also known as Hyena droid bombers or Hyena bombers, were droid starfighters manufactured by Baktoid Armor Workshop. They were designed for heavy ordnance bombing runs. They were used by the Confederacy of Independent Systems against the Republic forces during the Clone Wars."
+	description "Hyena bombers, also known as Hyena droid bombers or Hyena bombers, were droid starfighters manufactured by Baktoid Armor Workshop. They were designed for heavy ordnance bombing runs. They were used by the Confederacy of Independent Systems against the Republic forces during the Clone Wars."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Maxillipede-class Transport Shuttle"
+ship "Maxillipede Transport Shuttle"
 	sprite "ship/maxillipedeshuttle"
 	thumbnail "thumbnail/maxillipedeshuttle"
-	"never disabled"
 	attributes
 		category Transport
 		"cost" 60000
@@ -1055,16 +1103,16 @@ ship "Maxillipede-class Transport Shuttle"
 		"B1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
-	engine 0 34
-	engine 0 34
-	gun -12 -25 "R1 Laser Cannon"
-	gun 12 -25 "R1 Laser Cannon"
+	engine -4.5 16
+	engine 4.5 16
+	gun -4.5 -10.5 "R1 Laser Cannon"
+	gun 4.5 -10.5 "R1 Laser Cannon"
 	explode "tiny explosion" 2
 	explode "small explosion" 4
 	explode "medium explosion" 6
 	explode "large explosion" 8
 	"final explode" "huge explosion" 3
-	description "The Maxillipede shuttle, also known as the Separtist shuttle or Neimoidian shuttle, was a model of shuttle manufactured by Haor Chall Engineering and used by the Confederacy of Independent Systems during the Clone Wars. Its design was similar to the Sheathipede-class transport shuttle, but featured two large dorsal fins instead of one."
+	description "The Maxillipede shuttle, also known as the Separtist shuttle or Neimoidian shuttle, was a model of shuttle manufactured by Haor Chall Engineering and used by the Confederacy of Independent Systems during the Clone Wars. Its design was similar to the Sheathipede transport shuttle, but featured two large dorsal fins instead of one."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -1072,7 +1120,6 @@ ship "Maxillipede-class Transport Shuttle"
 ship "Mechanised Assault Flyer"
 	sprite "ship/mechanisedassaultflyer"
 	thumbnail "thumbnail/mechanisedassaultflyer"
-	"never disabled"
 	attributes
 		category "Transport"
 		"cost" 85000
@@ -1105,17 +1152,17 @@ ship "Mechanised Assault Flyer"
 		"D1 Deflector Shield"
 		"C1 Coolant System"
 		"HH0 Hull Slot"
-		"HH1 Ferroceramic Hull" 2
+		"HH1 Ferroceramic Hull"
 
 		"B1 Sublight Engine"
 		
-	gun -42 5 "R1 Laser Cannon"
-	gun 42 5 "R1 Laser Cannon"
-	gun 0 -52 "R1 Laser Cannon"
-	gun -18 -14 "Concussion Missile Launcher"
-	gun 17 -14 "Concussion Missile Launcher"
-	turret -12 -32 "R1 Beam Turret"
-	turret 11 -33 "R1 Beam Turret"
+	gun -16 -19 "R1 Laser Cannon"
+	gun 16 -19 "R1 Laser Cannon"
+	gun 0 -25.5 "R1 Laser Cannon"
+	gun -6.5 -18 "Concussion Missile Launcher"
+	gun 6.5 -18 "Concussion Missile Launcher"
+	turret -5 -28 "R1 Beam Turret"
+	turret 5 -28 "R1 Beam Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Mechanised Assault Flyer (MAF) was a piloted, multi-purpose gunship used by the Confederacy of Independent Systems during the Clone Wars. The Mechanised Assault Flyer was used for several purposes, including close-range bombardment and aerial reconnaissance. The MAF was produced by Haor Chall Engineering, while its similarly-shaped replacement, the Heavy Missile Platform, was built by Baktoid Fleet Ordnance."
@@ -1123,18 +1170,18 @@ ship "Mechanised Assault Flyer"
 
 
 
-ship "Gozanti-class Cruiser" "Gozanti-class Cruiser (CIS)"
+ship "Gozanti Cruiser" "Gozanti Cruiser (CIS)"
 	sprite "ship/gozanticruisercis"
 	thumbnail "thumbnail/gozanticruisercis"
 	attributes
 		category "Light Freighter"
 		"cost" 450000
-		"shields" 15000
-		"hull" 7300
+		"shields" 8600
+		"hull" 7100
 		"required crew" 5
 		"bunks" 35
-		"mass" 1700
-		"drag" 4.8
+		"mass" 408
+		"drag" 3.84
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 80
@@ -1157,32 +1204,32 @@ ship "Gozanti-class Cruiser" "Gozanti-class Cruiser (CIS)"
 		"B2 Sublight Engine"
 		"H2 Hyperspace Motivator"
 	
-	engine -46 80
-	engine 48 82
-	turret 0 82 "R2 Heavy Laser Turret"
-	turret 0 82 "R2Dual Laser Turret"
+	engine -25 45
+	engine 25 45
+	turret 0 4 "R2 Heavy Laser Turret"
+	turret 0 4 "R2Dual Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Gozanti-class cruiser is a 64-meter long starship that can act as a freighter and cruiser. It sports a twin laser turret in a dorsal mount and a heavy laser cannon on its ventral side."
+	description "The Gozanti cruiser is a 64-meter long starship that can act as a freighter and cruiser. It sports a twin laser turret in a dorsal mount and a heavy laser cannon on its ventral side."
 	description "Artwork/model by Sergeant Barlex"
 
 
 
-ship "Gozanti-class Cruiser (Carrier)" "Gozanti-class Cruiser (Carrier) (CIS)"
+ship "Gozanti Cruiser (Carrier)" "Gozanti Cruiser (Carrier) (CIS)"
 	sprite "ship/gozanticruisercis"
 	thumbnail "thumbnail/gozanticruisercis"
 	attributes
 		category "Light Freighter"
 		"cost" 450000
-		"shields" 15000
-		"hull" 7300
+		"shields" 8600
+		"hull" 7100
 		"required crew" 5
 		"bunks" 35
-		"mass" 1700
-		"drag" 4.8
+		"mass" 408
+		"drag" 3.84
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 10
@@ -1205,20 +1252,20 @@ ship "Gozanti-class Cruiser (Carrier)" "Gozanti-class Cruiser (Carrier) (CIS)"
 		"B2 Sublight Engine"
 		"H2 Hyperspace Motivator"
 	
-	engine -46 80
-	engine 48 82
-	turret 0 82 "R2 Heavy Laser Turret"
-	turret 0 82 "R2Dual Laser Turret"
-	fighter -38 -51
-	fighter 38 -51
-	fighter -37 -12
-	fighter 37 -12
+	engine -25 45
+	engine 25 45
+	turret 0 4 "R2 Heavy Laser Turret"
+	turret 0 4 "R2Dual Laser Turret"
+	fighter -18 -2.5
+	fighter 18 -2.5
+	fighter -18 -24.5
+	fighter 18 -24.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Gozanti-class cruiser is a 64-meter long starship that can act as a freighter and cruiser. It sports a twin laser turret in a dorsal mount and a heavy laser cannon on its ventral side."
+	description "The Gozanti cruiser is a 64-meter long starship that can act as a freighter and cruiser. It sports a twin laser turret in a dorsal mount and a heavy laser cannon on its ventral side."
 	description "Artwork/model by Sergeant Barlex"
 
 
@@ -1227,68 +1274,52 @@ ship "Geonosian Corvette"
 	sprite "ship/geonosiancorvette"
 	thumbnail "thumbnail/geonosiancorvette"
 	attributes
-		category "Medium Warship"
-		"cost" 22000000
-		"shields" 105000
-		"hull" 38000
-		"required crew" 500
-		"bunks" 1700
-		"mass" 6500
-		"drag" 19
+		category "Light Warship"
+		"cost" 4710000
+		"shields" 32200
+		"hull" 11000
+		"required crew" 60
+		"bunks" 150
+		"mass" 2010
+		"drag" 7.95
 		"heat dissipation" .45
 		"fuel capacity" 1000
-		"cargo space" 500
-		"outfit space" 736
-		"weapon capacity" 415
-		"engine capacity" 230
+		"cargo space" 10
+		"outfit space" 326
+		"weapon capacity" 174
+		"engine capacity" 88
 		weapon
-			"blast radius" 320
-			"shield damage" 1100
-			"hull damage" 550
-			"hit force" 950
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
 	outfits
-		"R4Dual Turbolaser Turret" 5
-		"R3 Turbolaser Turret" 10
+		"R3 Turbolaser Turret" 8
+		"Concussion Missile Launcher" 2
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
 		
-		"P4 Power Converter"
-		"D4 Deflector Shield"
-		"C4 Coolant System"
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
 		
-		"B4 Sublight Engine"
-		"H4 Hyperspace Motivator"
+		"B3 Sublight Engine"
+		"H3 Hyperspace Motivator"
 		
-	engine 1 799
-	turret -241 557 "R4Dual Turbolaser Turret"
-	turret 243 554 "R4Dual Turbolaser Turret"
-	turret -133 285 "R4Dual Turbolaser Turret"
-	turret 137 283 "R4Dual Turbolaser Turret"
-	turret 2 -877 "R4Dual Turbolaser Turret"
-	turret -43 -699 "R3 Turbolaser Turret"
-	turret 48 -699 "R3 Turbolaser Turret"
-	turret -44 -685 "R3 Turbolaser Turret"
-	turret 49 -685 "R3 Turbolaser Turret"
-	turret -62 -246 "R3 Turbolaser Turret"
-	turret 65 -250 "R3 Turbolaser Turret"
-	turret -68 -80 "R3 Turbolaser Turret"
-	turret 70 -80 "R3 Turbolaser Turret"
-	turret 3 -69 "R3 Turbolaser Turret"
-	turret 3 -69 "R3 Turbolaser Turret"
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
-	fighter 3 -69
+	engine 0 240.5
+	gun -8.5 -205.5 "Concussion Missile Launcher"
+	gun 8.5 -205.5 "Concussion Missile Launcher"
+	turret -24 173 "R3 Turbolaser Turret"
+	turret 24 173 "R3 Turbolaser Turret"
+	turret -19.5 76.5 "R3 Turbolaser Turret"
+	turret 19.5 76.5 "R3 Turbolaser Turret"
+	turret -14.5 -10 "R3 Turbolaser Turret"
+	turret 14.5 -10 "R3 Turbolaser Turret"
+	turret -11.5 -122 "R3 Turbolaser Turret"
+	turret 11.5 -122 "R3 Turbolaser Turret"
+	fighter 0 110.5
+	fighter 0 110.5
+	fighter 0 110.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1300,24 +1331,24 @@ ship "Geonosian Corvette"
 
 
 
-ship "Hardcell-class Interstellar Transport"
+ship "Hardcell Interstellar Transport"
 	sprite "ship/hardcellinterstellartransport"
 	thumbnail "thumbnail/hardcellinterstellartransport"
 	attributes
 		category "Heavy Freighter"
 		"cost" 17500000
-		"shields" 72000
-		"hull" 29000
+		"shields" 36300
+		"hull" 12800
 		"required crew" 190
 		"bunks" 1207
-		"mass" 4600
-		"drag" 12.9
+		"mass" 2700
+		"drag" 8.25
 		"heat dissipation" .45
 		"fuel capacity" 1000
-		"cargo space" 3500
-		"outfit space" 250
-		"weapon capacity" 18
-		"engine capacity" 160
+		"cargo space" 480
+		"outfit space" 172
+		"weapon capacity" 8
+		"engine capacity" 88
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -1326,25 +1357,25 @@ ship "Hardcell-class Interstellar Transport"
 	outfits
 		"R2 Heavy Laser Turret" 2
 		
-		"P3.5 Power Converter"
-		"D3.5 Deflector Shield"
+		"P3 Power Converter"
+		"D3 Deflector Shield"
 		"C3 Coolant System"
 		
-		"B3.5 Sublight Engine"
-		"H3.5 Hyperspace Motivator"
+		"B3 Sublight Engine"
+		"H3 Hyperspace Motivator"
 	
-	engine -103 301
-	engine -75 302
-	engine 80 302
-	engine 102 302
-	turret -1 -45 "R2 Heavy Laser Turret"
-	turret 0 143 "R2 Heavy Laser Turret"
+	engine -100.5 286
+	engine 100.5 286
+	engine -73 286
+	engine 73 286
+	turret 0 176 "R2 Heavy Laser Turret"
+	turret 0 -58.5 "R2 Heavy Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Hardcell-class interstellar transport, or colloquially known as the Techno Union ship, was a light capital transport produced by the Techno Union prior to the onset of the Clone Wars. The Hardcell-class transport was used by both the Techno Union and the InterGalactic Banking Clan. It was known as something of a status symbol among Techno Union officials."
+	description "The Hardcell interstellar transport, or colloquially known as the Techno Union ship, was a light capital transport produced by the Techno Union prior to the onset of the Clone Wars. The Hardcell transport was used by both the Techno Union and the InterGalactic Banking Clan. It was known as something of a status symbol among Techno Union officials."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -1352,9 +1383,9 @@ ship "Hardcell-class Interstellar Transport"
 ship "HMP Droid Gunship"
 	sprite "ship/hmpdroidgunship"
 	thumbnail "thumbnail/hmpdroidgunship"
-	"never disabled"
 	attributes
-		category "Interceptor"
+		category Interceptor
+		"absolute threshold" 20
 		"cost" 220000
 		"shields" 2400
 		"hull" 4000
@@ -1388,17 +1419,17 @@ ship "HMP Droid Gunship"
 		"D1 Deflector Shield"
 		"C1 Coolant System"
 		"HH0 Hull Slot"
-		"HH1 Ferroceramic Hull" 2
+		"HH1 Ferroceramic Hull"
 
 		"O1 Sublight Engine"
 		
-	gun -42 5 "R1 Laser Cannon"
-	gun 42 5 "R1 Laser Cannon"
-	gun 0 -52 "R1 Laser Cannon"
-	gun -18 -14 "Concussion Missile Launcher"
-	gun 17 -14 "Concussion Missile Launcher"
-	turret -12 -32 "R1 Laser Turret"
-	turret 11 -33 "R1 Laser Turret"
+	gun -21 2 "R1 Laser Cannon"
+	gun 21 2 "R1 Laser Cannon"
+	gun 0 -16.5 "R1 Laser Cannon"
+	gun -8.5 -8 "Concussion Missile Launcher"
+	gun 8.5 -8 "Concussion Missile Launcher"
+	turret -5.5 -16 "R1 Laser Turret"
+	turret 5.5 -16 "R1 Laser Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The HMP (Heavy Missile Platform) droid gunship, also known as the HMP Predator or droid gunship, was a model of repulsorlift airspeeder created by Geonosians and manufactured by Baktoid Fleet Ordnance. Operated by an advanced droid brain, they were used by the Confederacy of Independent Systems during the Clone Wars. They were heavily armed with missile pods, and seven laser cannons. Droid gunships were also used to transport B1 battle droids, B2 super battle droids, and BX-series droid commandos by use of racks and could deploy them into battle."
@@ -1416,8 +1447,8 @@ ship "Hoersch-Kessel Drive Core Ship"
 		"hull" 65000
 		"required crew" 300
 		"bunks" 80000
-		"mass" 15000
-		"drag" 26
+		"mass" 30000
+		"drag" 52.0
 		"heat dissipation" .3
 		"fuel capacity" 1200
 		"cargo space" 800
@@ -1440,20 +1471,20 @@ ship "Hoersch-Kessel Drive Core Ship"
 		"H5 Hyperspace Motivator"
 
 
-	turret 36 -67 "R3 Turbolaser Turret"
-	turret 36 -67 "R3 Turbolaser Turret"
+	turret 0 0 "R3 Turbolaser Turret"
+	turret 0 0 "R3 Turbolaser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Core ships were modified Lucrehulk-class modular control cores that were used as an autonomous transport by the Trade Federation and later the Confederacy of Independent Systems during the Clone Wars as well as the Separatist holdouts during the Imperial Period."
+	description "Core ships were modified Lucrehulk modular control cores that were used as an autonomous transport by the Trade Federation and later the Confederacy of Independent Systems during the Clone Wars as well as the Separatist holdouts during the Imperial Period."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Munificent-class Star Frigate"
+ship "Munificent Star Frigate"
 	sprite "ship/munificentfrigate"
 	thumbnail "thumbnail/munificentfrigate"
 	attributes
@@ -1463,13 +1494,13 @@ ship "Munificent-class Star Frigate"
 		"hull" 44700
 		"required crew" 200
 		"bunks" 6000
-		"mass" 8870
-		"drag" 23.7
+		"mass" 17740
+		"drag" 47.4
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 400
-		"outfit space" 1488
-		"weapon capacity" 651
+		"outfit space" 1798
+		"weapon capacity" 1040
 		"engine capacity" 550
 		weapon
 			"blast radius" 320
@@ -1478,8 +1509,9 @@ ship "Munificent-class Star Frigate"
 			"hit force" 950
 	outfits
 		"R5 Turbolaser Cannon"
+		"R5Quad Turbolaser Turret" 6
 		"R4Dual Turbolaser Turret" 10
-		"R3 Turbolaser Turret" 10
+		"R3 Turbolaser Turret" 6
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -1488,76 +1520,66 @@ ship "Munificent-class Star Frigate"
 		"O5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 		
-	engine -12 735
-	gun -2 -781 "R5 Turbolaser Cannon"
-	turret -117 -800 "R3 Turbolaser Turret"
-	turret 91 -799 "R3 Turbolaser Turret"
-	turret -135 -544 "R4Dual Turbolaser Turret"
-	turret 109 -543 "R4Dual Turbolaser Turret"
-	turret -152 -356 "R4Dual Turbolaser Turret"
-	turret 125 -357 "R4Dual Turbolaser Turret"
-	turret -160 -199 "R4Dual Turbolaser Turret"
-	turret 135 -198 "R4Dual Turbolaser Turret"
-	turret -131 434 "R3 Turbolaser Turret"
-	turret 105 433 "R3 Turbolaser Turret"
-	turret -143 558 "R4Dual Turbolaser Turret"
-	turret 119 557 "R4Dual Turbolaser Turret"
-	turret -119 650 "R3 Turbolaser Turret"
-	turret 92 648 "R3 Turbolaser Turret"
-	turret -88 777 "R4Dual Turbolaser Turret"
-	turret 61 777 "R4Dual Turbolaser Turret"
-	turret -467 156 "R3 Turbolaser Turret"
-	turret 441 154 "R3 Turbolaser Turret"
-	turret -13 -637 "R3 Turbolaser Turret"
-	turret -13 -637 "R3 Turbolaser Turret"
-	fighter -13 -637
-	fighter -13 -605
-	fighter -14 -571
-	fighter -14 -532
-	fighter -14 -496
-	fighter -14 -455
-	fighter -13 -412
-	fighter -12 -369
-	fighter -11 -338
-	fighter -13 -637
-	fighter -13 -605
-	fighter -14 -571
-	fighter -14 -532
-	fighter -14 -496
-	fighter -14 -455
-	fighter -13 -412
-	fighter -12 -369
-	fighter -11 -338
-	fighter -13 -637
-	fighter -13 -605
-	fighter -14 -571
-	fighter -14 -532
-	fighter -14 -496
-	fighter -14 -455
-	fighter -13 -412
-	fighter -12 -369
-	fighter -11 -338
-	fighter -13 -637
-	fighter -13 -605
-	fighter -14 -571
-	fighter -14 -532
-	fighter -14 -496
-	fighter -14 -455
-	fighter -13 -412
-	fighter -12 -369
-	fighter -11 -338
+	engine 0 735
+	gun 0 -774.5 "R5 Turbolaser Cannon"
+	turret -73.5 774 "R4Dual Turbolaser Turret"
+	turret 73.5 774 "R4Dual Turbolaser Turret"
+	turret -103.5 692 "R3 Turbolaser Turret"
+	turret 103.5 692 "R3 Turbolaser Turret"
+	turret -120 592 "R4Dual Turbolaser Turret"
+	turret 120 592 "R4Dual Turbolaser Turret"
+	turret -119 449 "R3 Turbolaser Turret"
+	turret 119 449 "R3 Turbolaser Turret"
+	turret -455 202 "R4Dual Turbolaser Turret"
+	turret 455 202 "R4Dual Turbolaser Turret"
+	turret -136 -105 "R3 Turbolaser Turret"
+	turret 136 -105 "R3 Turbolaser Turret"
+	turret -177 -252.5 "R4Dual Turbolaser Turret"
+	turret 177 -252.5 "R4Dual Turbolaser Turret"
+	turret -138 -372 "R5Quad Turbolaser Turret"
+	turret 138 -372 "R5Quad Turbolaser Turret"
+	turret -130.5 -461.5 "R5Quad Turbolaser Turret"
+	turret 130.5 -461.5 "R5Quad Turbolaser Turret"
+	turret -154 -583 "R5Quad Turbolaser Turret"
+	turret 154 -583 "R5Quad Turbolaser Turret"
+	turret -103 -742 "R4Dual Turbolaser Turret"
+	turret 103 -742 "R4Dual Turbolaser Turret"
+	fighter -90 266
+	fighter 90 266
+	fighter -90 208
+	fighter 90 208
+	fighter -90 150
+	fighter 90 150
+	fighter -90 266
+	fighter 90 266
+	fighter -90 208
+	fighter 90 208
+	fighter -90 150
+	fighter 90 150
+	fighter -90 266
+	fighter 90 266
+	fighter -90 208
+	fighter 90 208
+	fighter -90 150
+	fighter 90 150
+	fighter -90 266
+	fighter 90 266
+	fighter -90 208
+	fighter 90 208
+	fighter -90 150
+	fighter 90 150
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Munificent-class star frigate was a warship used by the InterGalactic Banking Clan and by extension the Confederacy of Independent Systems. Manufactured by Hoersch-Kessel Drive, Inc. and Gwori Revolutionary Industries, the star frigates were used by the Banking Clan to defend their private, secure comm network, harass worlds heavily in debt, transfer key financial assets, and guard treasure vaults."
+	description "The Munificent star frigate was a warship used by the InterGalactic Banking Clan and by extension the Confederacy of Independent Systems. Manufactured by Hoersch-Kessel Drive, Inc. and Gwori Revolutionary Industries, the star frigates were used by the Banking Clan to defend their private, secure comm network, harass worlds heavily in debt, transfer key financial assets, and guard treasure vaults."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Recusant-class Light Destroyer"
+ship "Recusant Light Destroyer"
 	sprite "ship/recusantlightdestroyer"
 	thumbnail "thumbnail/recusantlightdestroyer"
 	attributes
@@ -1567,13 +1589,13 @@ ship "Recusant-class Light Destroyer"
 		"hull" 46000
 		"required crew" 200
 		"bunks" 6000
-		"mass" 8870
-		"drag" 23.7
+		"mass" 18600
+		"drag" 48.0
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 400
-		"outfit space" 1608
-		"weapon capacity" 771
+		"outfit space" 1868
+		"weapon capacity" 1110
 		"engine capacity" 550
 		weapon
 			"blast radius" 320
@@ -1582,6 +1604,7 @@ ship "Recusant-class Light Destroyer"
 			"hit force" 950
 	outfits
 		"R5 Turbolaser Cannon"
+		"R5Quad Turbolaser Turret" 4
 		"R4Dual Turbolaser Turret" 12
 		"R3 Turbolaser Turret" 12
 		
@@ -1592,105 +1615,87 @@ ship "Recusant-class Light Destroyer"
 		"O5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 		
-	engine -112 1079
-	engine 121 1077
-	gun 6 -1299 "R5 Turbolaser Cannon"
-	turret -58 -1247 "R3 Turbolaser Turret"
-	turret 75 -1250 "R3 Turbolaser Turret"
-	turret -68 -1181 "R4Dual Turbolaser Turret"
-	turret 84 -1184 "R4Dual Turbolaser Turret"
-	turret -70 -1128 "R3 Turbolaser Turret"
-	turret 98 -1131 "R3 Turbolaser Turret"
-	turret -96 -959 "R4Dual Turbolaser Turret"
-	turret 110 -959 "R4Dual Turbolaser Turret"
-	turret -100 -827 "R3 Turbolaser Turret"
-	turret 110 -829 "R3 Turbolaser Turret"
-	turret -103 -708 "R4Dual Turbolaser Turret"
-	turret 113 -709 "R4Dual Turbolaser Turret"
-	turret -112 -568 "R3 Turbolaser Turret"
-	turret 120 -567 "R3 Turbolaser Turret"
-	turret -130 -407 "R4Dual Turbolaser Turret"
-	turret 127 -408 "R4Dual Turbolaser Turret"
-	turret -120 -253 "R3 Turbolaser Turret"
-	turret 126 -256 "R3 Turbolaser Turret"
-	turret -76 -92 "R4Dual Turbolaser Turret"
-	turret 85 -92 "R4Dual Turbolaser Turret"
-	turret -97 648 "R4Dual Turbolaser Turret"
-	turret 103 645 "R4Dual Turbolaser Turret"
-	turret 5 -285 "R3 Turbolaser Turret"
-	turret 5 -285 "R3 Turbolaser Turret"
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
-	fighter 5 -285
+	engine -121 1083
+	engine 121 1083
+	gun 0 -1294 "R5 Turbolaser Cannon"
+	turret -122.5 849 "R4Dual Turbolaser Turret"
+	turret 122.5 849 "R4Dual Turbolaser Turret"
+	turret -122.5 684.5 "R3 Turbolaser Turret"
+	turret 122.5 684.5 "R3 Turbolaser Turret"
+	turret -25.5 499 "R4Dual Turbolaser Turret"
+	turret 25.5 499 "R4Dual Turbolaser Turret"
+	turret -42 96 "R3 Turbolaser Turret"
+	turret 42 96 "R3 Turbolaser Turret"
+	turret -83.5 -27.5 "R4Dual Turbolaser Turret"
+	turret 83.5 -27.5 "R4Dual Turbolaser Turret"
+	turret -98.5 -109.5 "R3 Turbolaser Turret"
+	turret 98.5 -109.5 "R3 Turbolaser Turret"
+	turret -125.5 -243.5 "R5Quad Turbolaser Turret"
+	turret 125.5 -243.5 "R5Quad Turbolaser Turret"
+	turret -90 -381 "R4Dual Turbolaser Turret"
+	turret 90 -381 "R4Dual Turbolaser Turret"
+	turret -97 -529 "R5Quad Turbolaser Turret"
+	turret 97 -529 "R5Quad Turbolaser Turret"
+	turret -102.5 -624.5 "R3 Turbolaser Turret"
+	turret 102.5 -624.5 "R3 Turbolaser Turret"
+	turret -96 -769.5 "R3 Turbolaser Turret"
+	turret 96 -769.5 "R3 Turbolaser Turret"
+	turret -86.5 -898 "R4Dual Turbolaser Turret"
+	turret 86.5 -898 "R4Dual Turbolaser Turret"
+	turret -61.5 -1030 "R3 Turbolaser Turret"
+	turret 61.5 -1030 "R3 Turbolaser Turret"
+	turret -46 -1222 "R4Dual Turbolaser Turret"
+	turret 46 -1222 "R4Dual Turbolaser Turret"
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
+	fighter 0 -285
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Recusant-class light destroyer was a model of destroyer that saw service with the Commerce Guild, and later, with the Confederacy of Independent Systems during the Clone Wars. Separatist naval commanders such as General Grievous often employed Recusant-class starships as their flagship. They saw extensive service in numerous battles of the Clone Wars. The true effectiveness of the ship was shown when it was deployed in large numbers."
+	description "The Recusant light destroyer was a model of destroyer that saw service with the Commerce Guild, and later, with the Confederacy of Independent Systems during the Clone Wars. Separatist naval commanders such as General Grievous often employed Recusant starships as their flagship. They saw extensive service in numerous battles of the Clone Wars. The true effectiveness of the ship was shown when it was deployed in large numbers."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Recusant-class Light Destroyer (Dreadnought)"
+ship "Recusant Light Destroyer (Dreadnought)"
 	sprite "ship/recusantlightdestroyerdreadnought"
 	thumbnail "thumbnail/recusantlightdestroyer"
 	attributes
 		category "Heavy Warship"
-		"cost" 450000000
+		"cost" 410000000
 		"shields" 390000
 		"hull" 100000
 		"required crew" 1600
 		"bunks" 62000
-		"mass" 17750
-		"drag" 28.7
+		"mass" 35500
+		"drag" 57.4
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 900
 		"outfit space" 2658
-		"weapon capacity" 1801
+		"weapon capacity" 1880
 		"engine capacity" 550
 		weapon
 			"blast radius" 320
@@ -1709,183 +1714,115 @@ ship "Recusant-class Light Destroyer (Dreadnought)"
 		"O5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 		
-	engine -230 2074
-	engine 230 2074
-	engine -5 2280
-	gun -3 -2495 "R5 Turbolaser Cannon"
-	turret -91 -2476 "R5Quad Turbolaser Turret"
-	turret 91 -2476 "R5Quad Turbolaser Turret"
-	turret -167 -2279 "R5Quad Turbolaser Turret"
-	turret 167 -2279 "R5Quad Turbolaser Turret"
-	turret -203 -2021 "R4Dual Turbolaser Turret"
-	turret 203 -2021 "R4Dual Turbolaser Turret"
-	turret -198 -1747 "R5Quad Turbolaser Turret"
-	turret 198 -1747 "R5Quad Turbolaser Turret"
-	turret -199 -1558 "R4Dual Turbolaser Turret"
-	turret 199 -1558 "R4Dual Turbolaser Turret"
-	turret -199 -1162 "R5Quad Turbolaser Turret"
-	turret 199 -1162 "R5Quad Turbolaser Turret"
-	turret -196 -1027 "R4Dual Turbolaser Turret"
-	turret 196 -1027 "R4Dual Turbolaser Turret"
-	turret -180 -792 "R5Quad Turbolaser Turret"
-	turret 180 -792 "R5Quad Turbolaser Turret"
-	turret -175 -557 "R5Quad Turbolaser Turret"
-	turret 175 -557 "R5Quad Turbolaser Turret"
-	turret -174 -335 "R5Quad Turbolaser Turret"
-	turret 174 -335 "R5Quad Turbolaser Turret"
-	turret -206 -101 "R5Quad Turbolaser Turret"
-	turret 206 -101 "R5Quad Turbolaser Turret"
-	turret -83 175 "R5Quad Turbolaser Turret"
-	turret 83 175 "R5Quad Turbolaser Turret"
-	turret -4 468 "R4Dual Turbolaser Turret"
-	turret -4 768 "R4Dual Turbolaser Turret"
-	turret -233 1252 "R5Quad Turbolaser Turret"
-	turret 233 1252 "R5Quad Turbolaser Turret"
-	turret -237 1611 "R5Quad Turbolaser Turret"
-	turret 237 1611 "R5Quad Turbolaser Turret"
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
-	fighter -59 246
-	fighter 59 246
-	fighter -64 314
-	fighter 64 314
-	fighter -67 373
-	fighter 67 373
-	fighter -64 438
-	fighter 64 438
-	fighter -54 539
-	fighter 54 539
+	engine -0.5 1848 2
+	engine -192.5 1677.5 2
+	engine 192.5 1677.5 2
+	gun 0 -2054 "R5 Turbolaser Cannon"
+	turret -187.5 1447 "R5Quad Turbolaser Turret"
+	turret 187.5 1447 "R5Quad Turbolaser Turret"
+	turret -193.5 1131.5 "R5Quad Turbolaser Turret"
+	turret 193.5 1131.5 "R5Quad Turbolaser Turret"
+	turret 0 840 "R4Dual Turbolaser Turret"
+	turret 0 377.5 "R4Dual Turbolaser Turret"
+	turret -171.5 38 "R4Dual Turbolaser Turret"
+	turret 171.5 38 "R4Dual Turbolaser Turret"
+	turret -229 -149 "R5Quad Turbolaser Turret"
+	turret 229 -149 "R5Quad Turbolaser Turret"
+	turret -244.5 -287 "R4Dual Turbolaser Turret"
+	turret 244.5 -287 "R4Dual Turbolaser Turret"
+	turret -247 -459.5 "R5Quad Turbolaser Turret"
+	turret 247 -459.5 "R5Quad Turbolaser Turret"
+	turret -239.5 -559 "R5Quad Turbolaser Turret"
+	turret 239.5 -559 "R5Quad Turbolaser Turret"
+	turret -220 -684 "R5Quad Turbolaser Turret"
+	turret 220 -684 "R5Quad Turbolaser Turret"
+	turret -197.5 -857 "R5Quad Turbolaser Turret"
+	turret 197.5 -857 "R5Quad Turbolaser Turret"
+	turret -201.5 -1003.5 "R4Dual Turbolaser Turret"
+	turret 201.5 -1003.5 "R4Dual Turbolaser Turret"
+	turret -197.5 -1196 "R5Quad Turbolaser Turret"
+	turret 197.5 -1196 "R5Quad Turbolaser Turret"
+	turret -170 -1440 "R5Quad Turbolaser Turret"
+	turret 170 -1440 "R5Quad Turbolaser Turret"
+	turret -173.5 -1652.5 "R5Quad Turbolaser Turret"
+	turret 173.5 -1652.5 "R5Quad Turbolaser Turret"
+	turret -134.5 -1858.5 "R5Quad Turbolaser Turret"
+	turret 134.5 -1858.5 "R5Quad Turbolaser Turret"
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
+	fighter -55 12
+	fighter 55 12
+	fighter -55.5 -71
+	fighter 55.5 -71
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Recusant-class light destroyer was a model of destroyer that saw service with the Commerce Guild, and later, with the Confederacy of Independent Systems during the Clone Wars. Separatist naval commanders such as General Grievous often employed Recusant-class starships as their flagship. They saw extensive service in numerous battles of the Clone Wars. The true effectiveness of the ship was shown when it was deployed in large numbers."
+	description "The Recusant light destroyer was a model of destroyer that saw service with the Commerce Guild, and later, with the Confederacy of Independent Systems during the Clone Wars. Separatist naval commanders such as General Grievous often employed Recusant starships as their flagship. They saw extensive service in numerous battles of the Clone Wars. The true effectiveness of the ship was shown when it was deployed in large numbers."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Providence-class Cruiser (Dreadnought)"
+ship "Providence Cruiser (Dreadnought)"
 	sprite "ship/providencecruiserdreadnought"
 	thumbnail "thumbnail/providencecruiserdreadnought"
 	attributes
 		category "Heavy Warship"
-		"cost" 440000000
+		"cost" 400585000
 		"shields" 380000
 		"hull" 100000
 		"required crew" 1100
 		"bunks" 60000
-		"mass" 17500
-		"drag" 28.5
+		"mass" 35000
+		"drag" 57
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 900
@@ -1908,212 +1845,164 @@ ship "Providence-class Cruiser (Dreadnought)"
 		"O5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 		
-	engine -207 2143
-	engine 229 2130
-	turret -172 1918 "R5Quad Turbolaser Turret"
-	turret 192 1912 "R5Quad Turbolaser Turret"
-	turret -198 1730 "R5Quad Turbolaser Turret"
-	turret 209 1724 "R5Quad Turbolaser Turret"
-	turret -213 1588 "R5Quad Turbolaser Turret"
-	turret 223 1582 "R5Quad Turbolaser Turret"
-	turret -199 1395 "R5Quad Turbolaser Turret"
-	turret 209 1386 "R5Quad Turbolaser Turret"
-	turret -245 1147 "R5Quad Turbolaser Turret"
-	turret 252 1139 "R5Quad Turbolaser Turret"
-	turret -228 899 "R5Quad Turbolaser Turret"
-	turret 237 891 "R5Quad Turbolaser Turret"
-	turret -269 587 "R5Quad Turbolaser Turret"
-	turret 275 582 "R5Quad Turbolaser Turret"
-	turret -226 267 "R5Quad Turbolaser Turret"
-	turret 230 259 "R5Quad Turbolaser Turret"
-	turret -178 -27 "R4Dual Turbolaser Turret"
-	turret 187 -35 "R4Dual Turbolaser Turret"
-	turret -218 -278 "R5Quad Turbolaser Turret"
-	turret 226 -281 "R5Quad Turbolaser Turret"
-	turret -230 -548 "R4Dual Turbolaser Turret"
-	turret 233 -550 "R4Dual Turbolaser Turret"
-	turret -236 -841 "R5Quad Turbolaser Turret"
-	turret 235 -839 "R5Quad Turbolaser Turret"
-	turret -245 -1097 "R4Dual Turbolaser Turret"
-	turret 247 -1092 "R4Dual Turbolaser Turret"
-	turret -240 -1326 "R5Quad Turbolaser Turret"
-	turret 239 -1326 "R5Quad Turbolaser Turret"
-	turret -243 -1679 "R4Dual Turbolaser Turret"
-	turret 241 -1678 "R4Dual Turbolaser Turret"
-	turret -49 -2158 "R5Quad Turbolaser Turret"
-	turret 40 -2159 "R5Quad Turbolaser Turret"
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
-	fighter -399 623
-	fighter 399 623
-	fighter -399 676
-	fighter 399 676
-	fighter -397 739
-	fighter 397 739
-	fighter -395 821
-	fighter 395 821
+	engine -165 1684 1.5
+	engine 165 1684 1.5
+	turret -119.5 1626.5 "R5Quad Turbolaser Turret"
+	turret 119.5 1626.5 "R5Quad Turbolaser Turret"
+	turret -155.5 1354.5 "R4Dual Turbolaser Turret"
+	turret 155.5 1354.5 "R4Dual Turbolaser Turret"
+	turret -166.5 1143 "R5Quad Turbolaser Turret"
+	turret 166.5 1143 "R5Quad Turbolaser Turret"
+	turret -192 950.5 "R4Dual Turbolaser Turret"
+	turret 192 950.5 "R4Dual Turbolaser Turret"
+	turret -216.5 704.5 "R5Quad Turbolaser Turret"
+	turret 216.5 704.5 "R5Quad Turbolaser Turret"
+	turret -210.5 456.5 "R5Quad Turbolaser Turret"
+	turret 210.5 456.5 "R5Quad Turbolaser Turret"
+	turret -167.5 142.5 "R5Quad Turbolaser Turret"
+	turret 167.5 142.5 "R5Quad Turbolaser Turret"
+	turret -162 -114.5 "R4Dual Turbolaser Turret"
+	turret 162 -114.5 "R4Dual Turbolaser Turret"
+	turret -171.5 -322 "R5Quad Turbolaser Turret"
+	turret 171.5 -322 "R5Quad Turbolaser Turret"
+	turret -178.5 -434.5 "R5Quad Turbolaser Turret"
+	turret 178.5 -434.5 "R5Quad Turbolaser Turret"
+	turret -185 -658 "R5Quad Turbolaser Turret"
+	turret 185 -658 "R5Quad Turbolaser Turret"
+	turret -193 -772.5 "R5Quad Turbolaser Turret"
+	turret 193 -772.5 "R5Quad Turbolaser Turret"
+	turret -188.5 -1020 "R5Quad Turbolaser Turret"
+	turret 188.5 -1020 "R5Quad Turbolaser Turret"
+	turret -194 -1202 "R5Quad Turbolaser Turret"
+	turret 194 -1202 "R5Quad Turbolaser Turret"
+	turret -118.5 -1422 "R5Quad Turbolaser Turret"
+	turret 118.5 -1422 "R5Quad Turbolaser Turret"
+	turret -77 -1578.5 "R4Dual Turbolaser Turret"
+	turret 77 -1578.5 "R4Dual Turbolaser Turret"
+	fighter -320 645
+		angle -90
+	fighter 320 645
+		angle 90
+	fighter -320 597
+		angle -90
+	fighter 320 597
+		angle 90
+	fighter -320 535.5
+		angle -90
+	fighter 320 535.5
+		angle 90
+	fighter -320 466.5
+		angle -90
+	fighter 320 466.5
+		angle 90
+	fighter -320 645
+		angle -90
+	fighter 320 645
+		angle 90
+	fighter -320 597
+		angle -90
+	fighter 320 597
+		angle 90
+	fighter -320 535.5
+		angle -90
+	fighter 320 535.5
+		angle 90
+	fighter -320 466.5
+		angle -90
+	fighter 320 466.5
+		angle 90
+	fighter -320 645
+		angle -90
+	fighter 320 645
+		angle 90
+	fighter -320 597
+		angle -90
+	fighter 320 597
+		angle 90
+	fighter -320 535.5
+		angle -90
+	fighter 320 535.5
+		angle 90
+	fighter -320 466.5
+		angle -90
+	fighter 320 466.5
+		angle 90
+	fighter -320 645
+		angle -90
+	fighter 320 645
+		angle 90
+	fighter -320 597
+		angle -90
+	fighter 320 597
+		angle 90
+	fighter -320 535.5
+		angle -90
+	fighter 320 535.5
+		angle 90
+	fighter -320 466.5
+		angle -90
+	fighter 320 466.5
+		angle 90
+	fighter -320 645
+		angle -90
+	fighter 320 645
+		angle 90
+	fighter -320 597
+		angle -90
+	fighter 320 597
+		angle 90
+	fighter -320 535.5
+		angle -90
+	fighter 320 535.5
+		angle 90
+	fighter -320 466.5
+		angle -90
+	fighter 320 466.5
+		angle 90
+	fighter -320 645
+		angle -90
+	fighter 320 645
+		angle 90
+	fighter -320 597
+		angle -90
+	fighter 320 597
+		angle 90
+	fighter -320 535.5
+		angle -90
+	fighter 320 535.5
+		angle 90
+	fighter -320 466.5
+		angle -90
+	fighter 320 466.5
+		angle 90
+	fighter -320 645
+		angle -90
+	fighter 320 645
+		angle 90
+	fighter -320 597
+		angle -90
+	fighter 320 597
+		angle 90
+	fighter -320 535.5
+		angle -90
+	fighter 320 535.5
+		angle 90
+	fighter -320 466.5
+		angle -90
+	fighter 320 466.5
+		angle 90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Providence-class dreadnought was a capital ship that the Confederacy of Independent Systems utilised during the Clone Wars. High-ranking Separatist commanders like Count Dooku, Admiral Trench, and General Grievous used Providence-class dreadnoughts as their flagships throughout the Clone Wars."
+	description "The Providence dreadnought was a capital ship that the Confederacy of Independent Systems utilised during the Clone Wars. High-ranking Separatist commanders like Count Dooku, Admiral Trench, and General Grievous used Providence dreadnoughts as their flagships throughout the Clone Wars."
 	description "Artwork/model by Admiral Tributon"
 
 
 
-ship "Providence-class Cruiser (Stock)"
+ship "Providence Cruiser (Stock)"
 	sprite "ship/providencecruiserstock"
 	thumbnail "thumbnail/providencecruiserstock"
 	attributes
@@ -2123,13 +2012,13 @@ ship "Providence-class Cruiser (Stock)"
 		"hull" 62000
 		"required crew" 900
 		"bunks" 47000
-		"mass" 14500
-		"drag" 25.5
+		"mass" 29000
+		"drag" 51.0
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 1848
-		"weapon capacity" 1090
+		"outfit space" 2308
+		"weapon capacity" 1550
 		"engine capacity" 550
 		weapon
 			"blast radius" 320
@@ -2137,8 +2026,9 @@ ship "Providence-class Cruiser (Stock)"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"R4Dual Turbolaser Turret" 20
-		"R3 Turbolaser Turret" 12
+		"R5Quad Turbolaser Turret" 12
+		"R4Dual Turbolaser Turret" 16
+		"R3 Turbolaser Turret" 4
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -2149,226 +2039,162 @@ ship "Providence-class Cruiser (Stock)"
 		
 	engine -117 1182
 	engine 119 1175
-	turret -80 -1069 "R4Dual Turbolaser Turret"
-	turret 77 -1071 "R4Dual Turbolaser Turret"
-	turret -57 -971 "R3 Turbolaser Turret"
-	turret 58 -969 "R3 Turbolaser Turret"
-	turret -165 -773 "R4Dual Turbolaser Turret"
-	turret 162 -766 "R4Dual Turbolaser Turret"
-	turret -75 -779 "R3 Turbolaser Turret"
-	turret 76 -775 "R3 Turbolaser Turret"
-	turret -56 -615 "R4Dual Turbolaser Turret"
-	turret 58 -613 "R4Dual Turbolaser Turret"
-	turret -157 -481 "R3 Turbolaser Turret"
-	turret 157 -479 "R3 Turbolaser Turret"
-	turret -141 -278 "R4Dual Turbolaser Turret"
-	turret 142 -275 "R4Dual Turbolaser Turret"
-	turret -170 -234 "R3 Turbolaser Turret"
-	turret 171 -234 "R3 Turbolaser Turret"
-	turret -89 50 "R4Dual Turbolaser Turret"
-	turret 89 49 "R4Dual Turbolaser Turret"
-	turret -181 183 "R3 Turbolaser Turret"
-	turret 180 182 "R3 Turbolaser Turret"
-	turret -189 316 "R4Dual Turbolaser Turret"
-	turret 186 312 "R4Dual Turbolaser Turret"
-	turret -185 398 "R3 Turbolaser Turret"
-	turret 184 392 "R3 Turbolaser Turret"
+	turret -80 -1069 "R5Quad Turbolaser Turret"
+	turret 77 -1071 "R5Quad Turbolaser Turret"
+	turret -57 -971 "R4Dual Turbolaser Turret"
+	turret 58 -969 "R4Dual Turbolaser Turret"
+	turret -165 -773 "R5Quad Turbolaser Turret"
+	turret 162 -766 "R5Quad Turbolaser Turret"
+	turret -75 -779 "R4Dual Turbolaser Turret"
+	turret 76 -775 "R4Dual Turbolaser Turret"
+	turret -56 -615 "R5Quad Turbolaser Turret"
+	turret 58 -613 "R5Quad Turbolaser Turret"
+	turret -157 -481 "R4Dual Turbolaser Turret"
+	turret 157 -479 "R4Dual Turbolaser Turret"
+	turret -141 -278 "R5Quad Turbolaser Turret"
+	turret 142 -275 "R5Quad Turbolaser Turret"
+	turret -170 -234 "R4Dual Turbolaser Turret"
+	turret 171 -234 "R4Dual Turbolaser Turret"
+	turret -89 50 "R5Quad Turbolaser Turret"
+	turret 89 49 "R5Quad Turbolaser Turret"
+	turret -181 183 "R4Dual Turbolaser Turret"
+	turret 180 182 "R4Dual Turbolaser Turret"
+	turret -189 316 "R5Quad Turbolaser Turret"
+	turret 186 312 "R5Quad Turbolaser Turret"
+	turret -185 398 "R4Dual Turbolaser Turret"
+	turret 184 392 "R4Dual Turbolaser Turret"
 	turret -191 615 "R4Dual Turbolaser Turret"
 	turret 190 609 "R4Dual Turbolaser Turret"
-	turret -112 954 "R4Dual Turbolaser Turret"
-	turret 112 948 "R4Dual Turbolaser Turret"
+	turret -112 954 "R3 Turbolaser Turret"
+	turret 112 948 "R3 Turbolaser Turret"
 	turret -222 570 "R4Dual Turbolaser Turret"
 	turret 220 564 "R4Dual Turbolaser Turret"
-	turret -226 510 "R4Dual Turbolaser Turret"
-	turret 225 510 "R4Dual Turbolaser Turret"
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+	turret -226 510 "R3 Turbolaser Turret"
+	turret 225 510 "R3 Turbolaser Turret"
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
+		angle 90
+	fighter -220 570
+		angle -90
+	fighter 220 570
+		angle 90
+	fighter -225 510
+		angle -90
 	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
-	fighter -222 570
-	fighter 220 564
-	fighter -226 510
-	fighter 225 510
+		angle 90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Providence-class dreadnought was a capital ship that the Confederacy of Independent Systems utilised during the Clone Wars. High-ranking Separatist commanders like Count Dooku, Admiral Trench, and General Grievous used Providence-class dreadnoughts as their flagships throughout the Clone Wars."
+	description "The Providence dreadnought was a capital ship that the Confederacy of Independent Systems utilised during the Clone Wars. High-ranking Separatist commanders like Count Dooku, Admiral Trench, and General Grievous used Providence dreadnoughts as their flagships throughout the Clone Wars."
 	description "Artwork/model by Admiral Tributon"
 
 
 
-ship "Subjugator-class Heavy Cruiser"
+ship "Subjugator Heavy Cruiser"
 	sprite "ship/subjugatorheavycruiser"
 	thumbnail "thumbnail/subjugatorheavycruiser"
 	attributes
 		category "Heavy Warship"
-		"cost" 800000000
-		"shields" 650000
-		"hull" 200000
+		"cost" 875500000
+		"shields" 1300000
+		"hull" 440000
 		"required crew" 1400
 		"bunks" 70000
 		"mass" 32500
-		"drag" 35.0
+		"drag" 70.0
 		"heat dissipation" .45
 		"fuel capacity" 1100
 		"cargo space" 1000
-		"outfit space" 2908
-		"weapon capacity" 2130
+		"outfit space" 2988
+		"weapon capacity" 2210
 		"engine capacity" 550
 		weapon
 			"blast radius" 320
@@ -2377,8 +2203,7 @@ ship "Subjugator-class Heavy Cruiser"
 			"hit force" 950
 	outfits
 		"R5Quad Turbolaser Turret" 30
-		"Mega-Ion Cannon (L)"
-		"Mega-Ion Cannon (R)"
+		"Mega-Ion Cannon" 2
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -2387,227 +2212,125 @@ ship "Subjugator-class Heavy Cruiser"
 		"O5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 		
-	engine -109 3595
-	engine 109 3595
-	engine -198 3391
-	engine 198 3391
-	engine -276 2979
-	engine 276 2979
-	gun -931 -1000 "Mega-Ion Cannon (L)"
-	gun 931 -1000 "Mega-Ion Cannon (R)"
-	turret -309 2186 "R5Quad Turbolaser Turret"
-	turret 309 2186 "R5Quad Turbolaser Turret"
-	turret -315 1672 "R5Quad Turbolaser Turret"
-	turret 315 1672 "R5Quad Turbolaser Turret"
-	turret -316 1152 "R5Quad Turbolaser Turret"
-	turret 316 1152 "R5Quad Turbolaser Turret"
-	turret -317 721 "R5Quad Turbolaser Turret"
-	turret 317 721 "R5Quad Turbolaser Turret"
-	turret -321 386 "R5Quad Turbolaser Turret"
-	turret 321 386 "R5Quad Turbolaser Turret"
+	engine -79 3033 4
+	engine 79 3033 4
+	engine -168.5 2894 4
+	engine 168.5 2894 4
+	engine -241.5 2542 4
+	engine 241.5 2542 4
+	engine -286.5 2107.5 4
+	engine 286.5 2107.5 4
+	turret -795.5 -1319.5 "Mega-Ion Cannon"
+	turret 795.5 -1319.5 "Mega-Ion Cannon"
+	turret -345.5 1607.5 "R5Quad Turbolaser Turret"
+	turret 345.5 1607.5 "R5Quad Turbolaser Turret"
+	turret -347 1308 "R5Quad Turbolaser Turret"
+	turret 347 1308 "R5Quad Turbolaser Turret"
+	turret -340 706.5 "R5Quad Turbolaser Turret"
+	turret 340 706.5 "R5Quad Turbolaser Turret"
+	turret -336 416 "R5Quad Turbolaser Turret"
+	turret 336 416 "R5Quad Turbolaser Turret"
+	turret -334.5 69.5 "R5Quad Turbolaser Turret"
+	turret 334.5 69.5 "R5Quad Turbolaser Turret"
 	turret -320 99 "R5Quad Turbolaser Turret"
 	turret 320 99 "R5Quad Turbolaser Turret"
+	turret -335.5 -150.5 "R5Quad Turbolaser Turret"
+	turret 335.5 -150.5 "R5Quad Turbolaser Turret"
 	turret -324 -245 "R5Quad Turbolaser Turret"
 	turret 324 -245 "R5Quad Turbolaser Turret"
-	turret -345 -553 "R5Quad Turbolaser Turret"
-	turret 345 -553 "R5Quad Turbolaser Turret"
-	turret -359 -893 "R5Quad Turbolaser Turret"
-	turret 359 -893 "R5Quad Turbolaser Turret"
-	turret -373 -1212 "R5Quad Turbolaser Turret"
-	turret 373 -1212 "R5Quad Turbolaser Turret"
-	turret -369 -1851 "R5Quad Turbolaser Turret"
-	turret 369 -1851 "R5Quad Turbolaser Turret"
-	turret -307 -2112 "R5Quad Turbolaser Turret"
-	turret 307 -2112 "R5Quad Turbolaser Turret"
-	turret -305 -2444 "R5Quad Turbolaser Turret"
-	turret 305 -2444 "R5Quad Turbolaser Turret"
-	turret -90 -2995 "R5Quad Turbolaser Turret"
-	turret 90 -2995 "R5Quad Turbolaser Turret"
-	turret -58 -3735 "R5Quad Turbolaser Turret"
-	turret 58 -3735 "R5Quad Turbolaser Turret"
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
-	fighter -20 -3378
-	fighter 20 -3378
+	turret -350 -590.5 "R5Quad Turbolaser Turret"
+	turret 350 -590.5 "R5Quad Turbolaser Turret"
+	turret -370 -843.5 "R5Quad Turbolaser Turret"
+	turret 370 -843.5 "R5Quad Turbolaser Turret"
+	turret -332 -1323.5 "R5Quad Turbolaser Turret"
+	turret 332 -1323.5 "R5Quad Turbolaser Turret"
+	turret -359.5 -1726 "R5Quad Turbolaser Turret"
+	turret 359.5 -1726 "R5Quad Turbolaser Turret"
+	turret -355.5 -2058 "R5Quad Turbolaser Turret"
+	turret 355.5 -2058 "R5Quad Turbolaser Turret"
+	turret -198 -2647 "R5Quad Turbolaser Turret"
+	turret 198 -2647 "R5Quad Turbolaser Turret"
+	turret -43.5 -3170 "R5Quad Turbolaser Turret"
+	turret 43.5 -3170 "R5Quad Turbolaser Turret"
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
+	fighter -154.5 -2490
+	fighter 154.5 -2490
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Subjugator-class heavy cruiser was a model of heavy cruiser used by the Confederacy of Independent Systems during the Clone Wars. They were equipped with two mega-ion cannons on either side. The Malevolence was a member of this class. Throughout the war, the Separatists maintained a small number of ships of the class."
+	description "The Subjugator heavy cruiser was a model of heavy cruiser used by the Confederacy of Independent Systems during the Clone Wars. They were equipped with two mega-ion cannons on either side. The Malevolence was a member of this class. Throughout the war, the Separatists maintained a small number of ships of the class."
 	description "Artwork/model from Star Wars Junkies"
 
 
 
-ship "Lucrehulk-class Battleship"
+ship "Lucrehulk Battleship"
 	sprite "ship/lucrehulkbattleship"
 	thumbnail "thumbnail/lucrehulkbattleship"
 	attributes
 		category "Heavy Warship"
-		"cost" 690000000
-		"shields" 425000
-		"hull" 110000
+		"cost" 500000000
+		"shields" 600000
+		"hull" 150000
 		"required crew" 350
 		"bunks" 100000
-		"mass" 25000
-		"drag" 30
+		"mass" 50000
+		"drag" 60
 		"heat dissipation" .3
 		"fuel capacity" 1200
 		"cargo space" 800
@@ -2666,179 +2389,141 @@ ship "Lucrehulk-class Battleship"
 	turret -1325 -927 "R5Quad Turbolaser Turret"
 	turret 1325 -927 "R5Quad Turbolaser Turret"
 	fighter -403 -1262
+		angle 90
 	fighter 403 -1262
+		angle -90
 	fighter -421 -1317
+		angle 90
 	fighter 421 -1317
+		angle -90
 	fighter -465 -1489
+		angle 90
 	fighter 465 -1489
+		angle -90
 	fighter -510 -1647
+		angle 90
 	fighter 510 -1647
+		angle -90
 	fighter -536 -1743
+		angle 90
 	fighter 536 -1743
+		angle -90
 	fighter -403 -1262
+		angle 90
 	fighter 403 -1262
+		angle -90
 	fighter -421 -1317
+		angle 90
 	fighter 421 -1317
+		angle -90
 	fighter -465 -1489
+		angle 90
 	fighter 465 -1489
+		angle -90
 	fighter -510 -1647
+		angle 90
 	fighter 510 -1647
+		angle -90
 	fighter -536 -1743
+		angle 90
 	fighter 536 -1743
+		angle -90
 	fighter -403 -1262
+		angle 90
 	fighter 403 -1262
+		angle -90
 	fighter -421 -1317
+		angle 90
 	fighter 421 -1317
+		angle -90
 	fighter -465 -1489
+		angle 90
 	fighter 465 -1489
+		angle -90
 	fighter -510 -1647
+		angle 90
 	fighter 510 -1647
+		angle -90
 	fighter -536 -1743
+		angle 90
 	fighter 536 -1743
+		angle -90
 	fighter -403 -1262
+		angle 90
 	fighter 403 -1262
+		angle -90
 	fighter -421 -1317
+		angle 90
 	fighter 421 -1317
+		angle -90
 	fighter -465 -1489
+		angle 90
 	fighter 465 -1489
+		angle -90
 	fighter -510 -1647
+		angle 90
 	fighter 510 -1647
+		angle -90
 	fighter -536 -1743
+		angle 90
 	fighter 536 -1743
+		angle -90
 	fighter -403 -1262
+		angle 90
 	fighter 403 -1262
+		angle -90
 	fighter -421 -1317
+		angle 90
 	fighter 421 -1317
+		angle -90
 	fighter -465 -1489
+		angle 90
 	fighter 465 -1489
+		angle -90
 	fighter -510 -1647
+		angle 90
 	fighter 510 -1647
+		angle -90
 	fighter -536 -1743
+		angle 90
 	fighter 536 -1743
+		angle -90
 	fighter -403 -1262
+		angle 90
 	fighter 403 -1262
+		angle -90
 	fighter -421 -1317
+		angle 90
 	fighter 421 -1317
+		angle -90
 	fighter -465 -1489
+		angle 90
 	fighter 465 -1489
-	fighter -510 -1647
-	fighter 510 -1647
-	fighter -536 -1743
-	fighter 536 -1743
-	fighter -403 -1262
-	fighter 403 -1262
-	fighter -421 -1317
-	fighter 421 -1317
-	fighter -465 -1489
-	fighter 465 -1489
-	fighter -510 -1647
-	fighter 510 -1647
-	fighter -536 -1743
-	fighter 536 -1743
-	fighter -403 -1262
-	fighter 403 -1262
-	fighter -421 -1317
-	fighter 421 -1317
-	fighter -465 -1489
-	fighter 465 -1489
-	fighter -510 -1647
-	fighter 510 -1647
-	fighter -536 -1743
-	fighter 536 -1743
-	fighter -403 -1262
-	fighter 403 -1262
-	fighter -421 -1317
-	fighter 421 -1317
-	fighter -465 -1489
-	fighter 465 -1489
-	fighter -510 -1647
-	fighter 510 -1647
-	fighter -536 -1743
-	fighter 536 -1743
-	fighter -403 -1262
-	fighter 403 -1262
-	fighter -421 -1317
-	fighter 421 -1317
-	fighter -465 -1489
-	fighter 465 -1489
-	fighter -510 -1647
-	fighter 510 -1647
-	fighter -536 -1743
-	fighter 536 -1743
-	fighter -403 -1262
-	fighter 403 -1262
-	fighter -421 -1317
-	fighter 421 -1317
-	fighter -465 -1489
-	fighter 465 -1489
-	fighter -510 -1647
-	fighter 510 -1647
-	fighter -536 -1743
-	fighter 536 -1743
-	fighter -403 -1262
-	fighter 403 -1262
-	fighter -421 -1317
-	fighter 421 -1317
-	fighter -465 -1489
-	fighter 465 -1489
-	fighter -510 -1647
-	fighter 510 -1647
-	fighter -536 -1743
-	fighter 536 -1743
-	fighter -403 -1262
-	fighter 403 -1262
-	fighter -421 -1317
-	fighter 421 -1317
-	fighter -465 -1489
-	fighter 465 -1489
-	fighter -510 -1647
-	fighter 510 -1647
-	fighter -536 -1743
-	fighter 536 -1743
-	fighter -403 -1262
-	fighter 403 -1262
-	fighter -421 -1317
-	fighter 421 -1317
-	fighter -465 -1489
-	fighter 465 -1489
-	fighter -510 -1647
-	fighter 510 -1647
-	fighter -536 -1743
-	fighter 536 -1743
-	fighter -403 -1262
-	fighter 403 -1262
-	fighter -421 -1317
-	fighter 421 -1317
-	fighter -465 -1489
-	fighter 465 -1489
-	fighter -510 -1647
-	fighter 510 -1647
-	fighter -536 -1743
-	fighter 536 -1743
+		angle -90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Lucrehulk-class battleship was the primary capital ship of the Trade Federation's Trade Defence Force. Most Lucrehulks were modified from enormous cargo haulers. Upgraded and modified versions were later used by the CIS Navy."
-	description "Artwork/model by Daniel T."
+	description "The Lucrehulk battleship was the primary capital ship of the Trade Federation's Trade Defence Force. Most Lucrehulks were modified from enormous cargo haulers. Upgraded and modified versions were later used by the CIS Navy."
+	description "Artwork/model by Elratie"
 
 
 
 ship "ARC-170 Starfighter"
 	sprite "ship/arc170fighterblue"
 	thumbnail "thumbnail/arc170fighterblue"
-	"never disabled"
 	attributes
 		category Interceptor
+		"absolute threshold" 20
 		cost 155000
 		shields 2400
 		hull 4800
 		"required crew" 3
 		bunks 3
 		mass 24
-		drag 1
+		drag 1.08
 		"heat dissipation" 0.9
 		"fuel capacity" 700
 		"outfit space" 17
@@ -2868,12 +2553,12 @@ ship "ARC-170 Starfighter"
 		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine -11 32
-	engine 15 31
-	gun -60 -38 "B1 Laser Cannon"
-	gun 60 -37 "B1 Laser Cannon"
-	gun -1 -16 "Proton Torpedo Launcher"
-	gun 7 -16 "Proton Torpedo Launcher"
+	engine -6.5 14
+	engine 6.5 14
+	gun -31 -16 "B1 Laser Cannon"
+	gun 31 -16 "B1 Laser Cannon"
+	gun -2.5 -7 "Proton Torpedo Launcher"
+	gun 2.5 -7 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Aggressive ReConnaissance-170 starfighter, also known simply as the ARC-170 starfighter, was a heavy-duty model of starfighter used by the Galactic Republic during the Clone Wars and was considered the latest in fighter technology. Jointly manufactured by Incom Corporation and Subpro, it continued to see usage into the reign of the Galactic Empire, but was eventually phased out by the newer TIE line."
 	description "Artwork/model by Unusualsuspex"
@@ -2883,16 +2568,16 @@ ship "ARC-170 Starfighter"
 ship "ARC-170 Starfighter (Fighter)"
 	sprite "ship/arc170fighterblue"
 	thumbnail "thumbnail/arc170fighterblue"
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		cost 155000
 		shields 2400
 		hull 4800
 		"required crew" 3
 		bunks 3
 		mass 24
-		drag 1
+		drag 1.08
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 17
@@ -2922,12 +2607,12 @@ ship "ARC-170 Starfighter (Fighter)"
 		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine -11 32
-	engine 15 31
-	gun -60 -38 "B1 Laser Cannon"
-	gun 60 -37 "B1 Laser Cannon"
-	gun -1 -16 "Proton Torpedo Launcher"
-	gun 7 -16 "Proton Torpedo Launcher"
+	engine -6.5 14
+	engine 6.5 14
+	gun -31 -16 "B1 Laser Cannon"
+	gun 31 -16 "B1 Laser Cannon"
+	gun -2.5 -7 "Proton Torpedo Launcher"
+	gun 2.5 -7 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Aggressive ReConnaissance-170 starfighter, also known simply as the ARC-170 starfighter, was a heavy-duty model of starfighter used by the Galactic Republic during the Clone Wars and was considered the latest in fighter technology. Jointly manufactured by Incom Corporation and Subpro, it continued to see usage into the reign of the Galactic Empire, but was eventually phased out by the newer TIE line."
 	description "Artwork/model by Unusualsuspex"
@@ -2937,16 +2622,16 @@ ship "ARC-170 Starfighter (Fighter)"
 ship "ARC-170 Starfighter" "ARC-170 Starfighter (R)"
 	sprite "ship/arc170fighterred"
 	thumbnail "thumbnail/arc170fighterred"
-	"never disabled"
 	attributes
 		category Interceptor
+		"absolute threshold" 20
 		cost 155000
 		shields 2400
 		hull 4800
 		"required crew" 3
 		bunks 3
 		mass 24
-		drag 1
+		drag 1.08
 		"heat dissipation" 0.9
 		"fuel capacity" 700
 		"outfit space" 17
@@ -2976,12 +2661,12 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (R)"
 		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine -11 32
-	engine 15 31
-	gun -60 -38 "B1 Laser Cannon"
-	gun 60 -37 "B1 Laser Cannon"
-	gun -1 -16 "Proton Torpedo Launcher"
-	gun 7 -16 "Proton Torpedo Launcher"
+	engine -6.5 14
+	engine 6.5 14
+	gun -31 -16 "B1 Laser Cannon"
+	gun 31 -16 "B1 Laser Cannon"
+	gun -2.5 -7 "Proton Torpedo Launcher"
+	gun 2.5 -7 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Aggressive ReConnaissance-170 starfighter, also known simply as the ARC-170 starfighter, was a heavy-duty model of starfighter used by the Galactic Republic during the Clone Wars and was considered the latest in fighter technology. Jointly manufactured by Incom Corporation and Subpro, it continued to see usage into the reign of the Galactic Empire, but was eventually phased out by the newer TIE line."
 	description "Artwork/model by Unusualsuspex"
@@ -2991,16 +2676,16 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (R)"
 ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (R) (Fighter)"
 	sprite "ship/arc170fighterred"
 	thumbnail "thumbnail/arc170fighterred"
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		cost 155000
 		shields 2400
 		hull 4800
 		"required crew" 3
 		bunks 3
 		mass 24
-		drag 1
+		drag 1.08
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 17
@@ -3030,12 +2715,12 @@ ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (R) (Fighter)"
 		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine -11 32
-	engine 15 31
-	gun -60 -38 "B1 Laser Cannon"
-	gun 60 -37 "B1 Laser Cannon"
-	gun -1 -16 "Proton Torpedo Launcher"
-	gun 7 -16 "Proton Torpedo Launcher"
+	engine -6.5 14
+	engine 6.5 14
+	gun -31 -16 "B1 Laser Cannon"
+	gun 31 -16 "B1 Laser Cannon"
+	gun -2.5 -7 "Proton Torpedo Launcher"
+	gun 2.5 -7 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The Aggressive ReConnaissance-170 starfighter, also known simply as the ARC-170 starfighter, was a heavy-duty model of starfighter used by the Galactic Republic during the Clone Wars and was considered the latest in fighter technology. Jointly manufactured by Incom Corporation and Subpro, it continued to see usage into the reign of the Galactic Empire, but was eventually phased out by the newer TIE line."
 	description "Artwork/model by Unusualsuspex"
@@ -3045,16 +2730,16 @@ ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (R) (Fighter)"
 ship "Delta-7 Aethersprite Interceptor"
 	sprite "ship/delta7interceptor"
 	thumbnail "thumbnail/delta7interceptor"
-	"never disabled"
 	attributes
-		category "Interceptor"
+		category Interceptor
+		"absolute threshold" 20
 		"cost" 180000
 		"shields" 800
 		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 23
-		"drag" 1
+		"drag" 0.99
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
@@ -3085,16 +2770,16 @@ ship "Delta-7 Aethersprite Interceptor"
 
 		"P1 Sublight Engine"
 		
-	engine -17 21
-	engine 17 20
-	gun -9 -19 "R1 Laser Cannon"
-	gun 11 -19 "R1 Laser Cannon"
-	gun -9 -19 "Concussion Missile Launcher"
-	gun 11 -19 "Concussion Missile Launcher"
-	gun 0 7
+	engine -5.5 13
+	engine 5.5 13
+	gun -8.5 -3.5 "R1 Laser Cannon"
+	gun 8.5 -3.5 "R1 Laser Cannon"
+	gun -5 -8.5 "Concussion Missile Launcher"
+	gun 5 -8.5 "Concussion Missile Launcher"
+	gun 0 7.5
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The Delta-7 Aethersprite-class light interceptor, also known as the Delta-7 Jedi starfighter and commonly referred to as the Jedi starfighter, was a starfighter model designed by Kuat Systems Engineering and used by the Jedi Order before and during the Clone Wars. The Delta-7 can still be found in use by the Alliance to Restore the Republic in conflict against the Galactic Empire."
+	description "The Delta-7 Aethersprite light interceptor, also known as the Delta-7 Jedi starfighter and commonly referred to as the Jedi starfighter, was a starfighter model designed by Kuat Systems Engineering and used by the Jedi Order before and during the Clone Wars. The Delta-7 can still be found in use by the Alliance to Restore the Republic in conflict against the Galactic Empire."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -3102,16 +2787,16 @@ ship "Delta-7 Aethersprite Interceptor"
 ship "Delta-7 Aethersprite Interceptor" "Delta-7 Aethersprite Interceptor (Customised)"
 	sprite "ship/delta7interceptorcustomised"
 	thumbnail "thumbnail/delta7interceptorcustomised"
-	"never disabled"
 	attributes
-		category "Interceptor"
+		category Interceptor
+		"absolute threshold" 20
 		"cost" 185000
 		"shields" 850
 		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 23
-		"drag" 1
+		"drag" 0.99
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
@@ -3142,34 +2827,34 @@ ship "Delta-7 Aethersprite Interceptor" "Delta-7 Aethersprite Interceptor (Custo
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
-	engine -10 26
-	engine 10 26
-	gun -22 -8 "R1 Laser Cannon"
-	gun -22 -8 "R1 Laser Cannon"
-	gun 22 -8 "R1 Laser Cannon"
-	gun 22 -8 "R1 Laser Cannon"
-	gun -13 -16 "Concussion Missile Launcher"
-	gun 13 -16 "Concussion Missile Launcher"
+	engine -5.5 11
+	engine 5.5 11
+	gun -11.5 -4 "R1 Laser Cannon"
+	gun 11.5 -4 "R1 Laser Cannon"
+	gun -11.5 -4 "R1 Laser Cannon"
+	gun 11.5 -4 "R1 Laser Cannon"
+	gun -5.5 -7.5 "Concussion Missile Launcher"
+	gun 5.5 -7.5 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The Delta-7 Aethersprite-class light interceptor, also known as the Delta-7 Jedi starfighter and commonly referred to as the Jedi starfighter, was a starfighter model designed by Kuat Systems Engineering and used by the Jedi Order before and during the Clone Wars. The Delta-7 can still be found in use by the Alliance to Restore the Republic in conflict against the Galactic Empire."
+	description "The Delta-7 Aethersprite light interceptor, also known as the Delta-7 Jedi starfighter and commonly referred to as the Jedi starfighter, was a starfighter model designed by Kuat Systems Engineering and used by the Jedi Order before and during the Clone Wars. The Delta-7 can still be found in use by the Alliance to Restore the Republic in conflict against the Galactic Empire."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Eta-2 Actis-class Interceptor"
+ship "Eta-2 Actis Interceptor"
 	sprite "ship/eta2actisinterceptoryellow"
 	thumbnail "thumbnail/eta2actisinterceptoryellow"
-	"never disabled"
 	attributes
-		category "Interceptor"
+		category Interceptor
+		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
 		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 21
-		"drag" 1
+		"drag" 0.86
 		"heat dissipation" .9
 		"fuel capacity" 0
 		"cargo space" 0
@@ -3188,7 +2873,7 @@ ship "Eta-2 Actis-class Interceptor"
 	outfits
 		"B1 Laser Cannon" 4
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 4
+		"Concussion Missile" 6
 
 		"P1 Power Converter"
 		"D0 Shield Slot"
@@ -3200,35 +2885,35 @@ ship "Eta-2 Actis-class Interceptor"
 
 		"P1 Sublight Engine"
 		
-	engine -13 35
-	engine 14 34
-	gun -35 0 "B1 Laser Cannon"
-	gun 35 -2 "B1 Laser Cannon"
-	gun -5 -42 "B1 Laser Cannon"
-	gun 4 -42 "B1 Laser Cannon"
-	gun -19 -15 "Concussion Missile Launcher"
-	gun 18 -16 "Concussion Missile Launcher"
-	gun 0 7
+	engine -5 16.5
+	engine 5 16.5
+	gun -3 -20.5 "B1 Laser Cannon"
+	gun 3 -20.5 "B1 Laser Cannon"
+	gun -17.5 -1 "B1 Laser Cannon"
+	gun 17.5 -1 "B1 Laser Cannon"
+	gun -3.5 1 "Concussion Missile Launcher"
+	gun 3.5 1 "Concussion Missile Launcher"
+	gun 0 11
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The Eta-2 Actis-class interceptor, also known as the Jedi interceptor or Jedi starfighter due to its extensive use by Jedi pilots, was a Republic starfighter used late in the Clone Wars that shared design elements with the Republic's Delta-7 and Delta-7B starfighters, as well as the TIE fighters of the later Galactic Empire."
+	description "The Eta-2 Actis interceptor, also known as the Jedi interceptor or Jedi starfighter due to its extensive use by Jedi pilots, was a Republic starfighter used late in the Clone Wars that shared design elements with the Republic's Delta-7 and Delta-7B starfighters, as well as the TIE fighters of the later Galactic Empire."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Eta-2 Actis-class Interceptor (Fighter)"
+ship "Eta-2 Actis Interceptor (Fighter)"
 	sprite "ship/eta2actisinterceptoryellow"
 	thumbnail "thumbnail/eta2actisinterceptoryellow"
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
 		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 21
-		"drag" 1
+		"drag" 0.86
 		"heat dissipation" .9
 		"fuel capacity" 0
 		"cargo space" 0
@@ -3247,7 +2932,7 @@ ship "Eta-2 Actis-class Interceptor (Fighter)"
 	outfits
 		"B1 Laser Cannon" 4
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 4
+		"Concussion Missile" 6
 
 		"P1 Power Converter"
 		"D0 Shield Slot"
@@ -3259,35 +2944,149 @@ ship "Eta-2 Actis-class Interceptor (Fighter)"
 
 		"P1 Sublight Engine"
 		
-	engine -13 35
-	engine 14 34
-	gun -35 0 "B1 Laser Cannon"
-	gun 35 -2 "B1 Laser Cannon"
-	gun -5 -42 "B1 Laser Cannon"
-	gun 4 -42 "B1 Laser Cannon"
-	gun -19 -15 "Concussion Missile Launcher"
-	gun 18 -16 "Concussion Missile Launcher"
-	gun 0 7
+	engine -5 16.5
+	engine 5 16.5
+	gun -3 -20.5 "B1 Laser Cannon"
+	gun 3 -20.5 "B1 Laser Cannon"
+	gun -17.5 -1 "B1 Laser Cannon"
+	gun 17.5 -1 "B1 Laser Cannon"
+	gun -3.5 1 "Concussion Missile Launcher"
+	gun 3.5 1 "Concussion Missile Launcher"
+	gun 0 11
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The Eta-2 Actis-class interceptor, also known as the Jedi interceptor or Jedi starfighter due to its extensive use by Jedi pilots, was a Republic starfighter used late in the Clone Wars that shared design elements with the Republic's Delta-7 and Delta-7B starfighters, as well as the TIE fighters of the later Galactic Empire."
+	description "The Eta-2 Actis interceptor, also known as the Jedi interceptor or Jedi starfighter due to its extensive use by Jedi pilots, was a Republic starfighter used late in the Clone Wars that shared design elements with the Republic's Delta-7 and Delta-7B starfighters, as well as the TIE fighters of the later Galactic Empire."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Eta-2 Actis-class Interceptor" "Eta-2 Actis-class Interceptor (R)"
+ship "Eta-2 Actis Interceptor" "Eta-2 Actis Interceptor (M)"
+	sprite "ship/eta2actisinterceptormodified"
+	thumbnail "thumbnail/eta2actisinterceptormodified"
+	attributes
+		category Interceptor
+		"absolute threshold" 20
+		"cost" 140000
+		"shields" 0
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.86
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"hyperspacedockingring capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"B1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		
+	engine -3.5 14
+	engine 3.5 14
+	gun -8.5 -14 "B1 Laser Cannon"
+	gun 8.5 -14 "B1 Laser Cannon"
+	gun -7.5 0 "Concussion Missile Launcher"
+	gun 7.5 0 "Concussion Missile Launcher"
+	gun 0 7.5
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Eta-2 Actis interceptor, also known as the Jedi interceptor or Jedi starfighter due to its extensive use by Jedi pilots, was a Republic starfighter used late in the Clone Wars that shared design elements with the Republic's Delta-7 and Delta-7B starfighters, as well as the TIE fighters of the later Galactic Empire."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Eta-2 Actis Interceptor (Fighter)" "Eta-2 Actis Interceptor (M) (Fighter)"
+	sprite "ship/eta2actisinterceptormodified"
+	thumbnail "thumbnail/eta2actisinterceptormodified"
+	attributes
+		category Fighter
+		"absolute threshold" 20
+		"cost" 140000
+		"shields" 0
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.86
+		"heat dissipation" .9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"hyperspacedockingring capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"B1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		
+	engine -3.5 14
+	engine 3.5 14
+	gun -8.5 -14 "B1 Laser Cannon"
+	gun 8.5 -14 "B1 Laser Cannon"
+	gun -7.5 0 "Concussion Missile Launcher"
+	gun 7.5 0 "Concussion Missile Launcher"
+	gun 0 7.5
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Eta-2 Actis interceptor, also known as the Jedi interceptor or Jedi starfighter due to its extensive use by Jedi pilots, was a Republic starfighter used late in the Clone Wars that shared design elements with the Republic's Delta-7 and Delta-7B starfighters, as well as the TIE fighters of the later Galactic Empire."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Eta-2 Actis Interceptor" "Eta-2 Actis Interceptor (R)"
 	sprite "ship/eta2actisinterceptorred"
 	thumbnail "thumbnail/eta2actisinterceptorred"
-	"never disabled"
 	attributes
-		category "Interceptor"
+		category Interceptor
+		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
 		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 21
-		"drag" 1
+		"drag" 0.86
 		"heat dissipation" .9
 		"fuel capacity" 0
 		"cargo space" 0
@@ -3306,7 +3105,7 @@ ship "Eta-2 Actis-class Interceptor" "Eta-2 Actis-class Interceptor (R)"
 	outfits
 		"B1 Laser Cannon" 4
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 4
+		"Concussion Missile" 6
 
 		"P1 Power Converter"
 		"D0 Shield Slot"
@@ -3318,35 +3117,35 @@ ship "Eta-2 Actis-class Interceptor" "Eta-2 Actis-class Interceptor (R)"
 
 		"P1 Sublight Engine"
 		
-	engine -13 35
-	engine 14 34
-	gun -35 0 "B1 Laser Cannon"
-	gun 35 -2 "B1 Laser Cannon"
-	gun -5 -42 "B1 Laser Cannon"
-	gun 4 -42 "B1 Laser Cannon"
-	gun -19 -15 "Concussion Missile Launcher"
-	gun 18 -16 "Concussion Missile Launcher"
-	gun 0 7
+	engine -5 16.5
+	engine 5 16.5
+	gun -3 -20.5 "B1 Laser Cannon"
+	gun 3 -20.5 "B1 Laser Cannon"
+	gun -17.5 -1 "B1 Laser Cannon"
+	gun 17.5 -1 "B1 Laser Cannon"
+	gun -3.5 1 "Concussion Missile Launcher"
+	gun 3.5 1 "Concussion Missile Launcher"
+	gun 0 11
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The Eta-2 Actis-class interceptor, also known as the Jedi interceptor or Jedi starfighter due to its extensive use by Jedi pilots, was a Republic starfighter used late in the Clone Wars that shared design elements with the Republic's Delta-7 and Delta-7B starfighters, as well as the TIE fighters of the later Galactic Empire."
+	description "The Eta-2 Actis interceptor, also known as the Jedi interceptor or Jedi starfighter due to its extensive use by Jedi pilots, was a Republic starfighter used late in the Clone Wars that shared design elements with the Republic's Delta-7 and Delta-7B starfighters, as well as the TIE fighters of the later Galactic Empire."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Eta-2 Actis-class Interceptor (Fighter)" "Eta-2 Actis-class Interceptor (R) (Fighter)"
+ship "Eta-2 Actis Interceptor (Fighter)" "Eta-2 Actis Interceptor (R) (Fighter)"
 	sprite "ship/eta2actisinterceptorred"
 	thumbnail "thumbnail/eta2actisinterceptorred"
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
 		"hull" 2400
 		"required crew" 1
 		"bunks" 1
 		"mass" 21
-		"drag" 1
+		"drag" 0.86
 		"heat dissipation" .9
 		"fuel capacity" 0
 		"cargo space" 0
@@ -3365,7 +3164,7 @@ ship "Eta-2 Actis-class Interceptor (Fighter)" "Eta-2 Actis-class Interceptor (R
 	outfits
 		"B1 Laser Cannon" 4
 		"Concussion Missile Launcher" 2
-		"Concussion Missile" 4
+		"Concussion Missile" 6
 
 		"P1 Power Converter"
 		"D0 Shield Slot"
@@ -3377,26 +3176,25 @@ ship "Eta-2 Actis-class Interceptor (Fighter)" "Eta-2 Actis-class Interceptor (R
 
 		"P1 Sublight Engine"
 		
-	engine -13 35
-	engine 14 34
-	gun -35 0 "B1 Laser Cannon"
-	gun 35 -2 "B1 Laser Cannon"
-	gun -5 -42 "B1 Laser Cannon"
-	gun 4 -42 "B1 Laser Cannon"
-	gun -19 -15 "Concussion Missile Launcher"
-	gun 18 -16 "Concussion Missile Launcher"
-	gun 0 7
+	engine -5 16.5
+	engine 5 16.5
+	gun -3 -20.5 "B1 Laser Cannon"
+	gun 3 -20.5 "B1 Laser Cannon"
+	gun -17.5 -1 "B1 Laser Cannon"
+	gun 17.5 -1 "B1 Laser Cannon"
+	gun -3.5 1 "Concussion Missile Launcher"
+	gun 3.5 1 "Concussion Missile Launcher"
+	gun 0 11
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The Eta-2 Actis-class interceptor, also known as the Jedi interceptor or Jedi starfighter due to its extensive use by Jedi pilots, was a Republic starfighter used late in the Clone Wars that shared design elements with the Republic's Delta-7 and Delta-7B starfighters, as well as the TIE fighters of the later Galactic Empire."
+	description "The Eta-2 Actis interceptor, also known as the Jedi interceptor or Jedi starfighter due to its extensive use by Jedi pilots, was a Republic starfighter used late in the Clone Wars that shared design elements with the Republic's Delta-7 and Delta-7B starfighters, as well as the TIE fighters of the later Galactic Empire."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Eta-class Shuttle"
+ship "Eta Shuttle"
 	sprite "ship/etashuttle"
 	thumbnail "thumbnail/etashuttle"
-	"never disabled"
 	attributes
 		category Transport
 		"cost" 75000
@@ -3432,17 +3230,17 @@ ship "Eta-class Shuttle"
 		"B1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
-	engine -42 44
-	engine 41 44
-	gun -41 -43 "B1 Laser Cannon"
-	gun 41 -43 "B1 Laser Cannon"
-	gun 0 -43 "B1 Laser Cannon"
+	engine -3.5 10.5
+	engine 3.5 10.5
+	gun -17.5 -18 "B1 Laser Cannon"
+	gun 17.5 -18 "B1 Laser Cannon"
+	gun 0 -17.5 "B1 Laser Cannon"
 	explode "tiny explosion" 2
 	explode "small explosion" 4
 	explode "medium explosion" 6
 	explode "large explosion" 8
 	"final explode" "huge explosion" 3
-	description "The Eta-class shuttle, also known as the Jedi ambassador shuttle or Republic ambassadorial shuttle, was a model of shuttle that was used by the Galactic Senate for diplomatic missions, and was later utilised by the Jedi Order during the Clone Wars."
+	description "The Eta shuttle, also known as the Jedi ambassador shuttle or Republic ambassadorial shuttle, was a model of shuttle that was used by the Galactic Senate for diplomatic missions, and was later utilised by the Jedi Order during the Clone Wars."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -3453,17 +3251,17 @@ ship "Consular Cruiser (Aurek)"
 	attributes
 		category "Light Warship"
 		"cost" 3000000
-		"shields" 33000
-		"hull" 9500
+		"shields" 22000
+		"hull" 8800
 		"required crew" 9
 		"bunks" 20
-		"mass" 2000
-		"drag" 5.2
+		"mass" 1410
+		"drag" 7.5
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 40
-		"outfit space" 242
-		"weapon capacity" 90
+		"outfit space" 246
+		"weapon capacity" 94
 		"engine capacity" 88
 		weapon
 			"blast radius" 300
@@ -3471,6 +3269,7 @@ ship "Consular Cruiser (Aurek)"
 			"hull damage" 350
 			"hit force" 800
 	outfits
+		"B2 Laser Cannon" 2
 		"B3 Turbolaser Turret" 4
 		
 		"P3 Power Converter"
@@ -3480,19 +3279,21 @@ ship "Consular Cruiser (Aurek)"
 		"P3 Sublight Engine"
 		"H3 Hyperspace Motivator"
 		
-	engine -127 281
-	engine 127 281
-	engine 0 281
-	turret -27 -29 "B3 Turbolaser Turret"
-	turret 27 -29 "B3 Turbolaser Turret"
-	turret -5 -274 "B3 Turbolaser Turret"
-	turret 5 -274 "B3 Turbolaser Turret"
+	engine -85.5 189
+	engine 85.5 189
+	engine 0 189
+	gun -9 -178 "B2 Laser Cannon"
+	gun 9 -178 "B2 Laser Cannon"
+	turret -19 -19 "B3 Turbolaser Turret"
+	turret 19 -19 "B3 Turbolaser Turret"
+	turret -7.5 -179.5 "B3 Turbolaser Turret"
+	turret 7.5 -179.5 "B3 Turbolaser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Consular-class cruiser, commonly referred to as the Republic cruiser, was a Corellian Engineering Corporation starship used by the Galactic Republic to transport Jedi and diplomats to troubled spots across the galaxy. Civilian models of the Consular-class cruiser were used for straight-forward transportation and were indistinct. Craft of the Consular class in diplomatic service were painted red to declare their diplomatic immunity and to also serve as a warning not to attack."
+	description "The Consular cruiser, commonly referred to as the Republic cruiser, was a Corellian Engineering Corporation starship used by the Galactic Republic to transport Jedi and diplomats to troubled spots across the galaxy. Civilian models of the Consular cruiser were used for straight-forward transportation and were indistinct. Craft of the Consular class in diplomatic service were painted red to declare their diplomatic immunity and to also serve as a warning not to attack."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -3503,17 +3304,17 @@ ship "Consular Cruiser (Besh)"
 	attributes
 		category "Light Warship"
 		"cost" 3000000
-		"shields" 33000
-		"hull" 9000
+		"shields" 22000
+		"hull" 8800
 		"required crew" 9
 		"bunks" 20
-		"mass" 2000
-		"drag" 5.2
+		"mass" 1410
+		"drag" 7.5
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 40
-		"outfit space" 242
-		"weapon capacity" 90
+		"outfit space" 246
+		"weapon capacity" 94
 		"engine capacity" 88
 		weapon
 			"blast radius" 300
@@ -3521,6 +3322,7 @@ ship "Consular Cruiser (Besh)"
 			"hull damage" 350
 			"hit force" 800
 	outfits
+		"B2 Laser Cannon" 2
 		"B3 Turbolaser Turret" 4
 		
 		"P3 Power Converter"
@@ -3530,19 +3332,21 @@ ship "Consular Cruiser (Besh)"
 		"P3 Sublight Engine"
 		"H3 Hyperspace Motivator"
 		
-	engine -99 285
-	engine 99 285
-	engine 0 285
-	turret -0 -1 "B3 Turbolaser Turret"
-	turret 0 -98 "B3 Turbolaser Turret"
-	turret -6 -247 "B3 Turbolaser Turret"
-	turret 6 -247 "B3 Turbolaser Turret"
+	engine 0 189.5
+	engine -67 189
+	engine 67 189
+	gun -10.5 -158.5 "B2 Laser Cannon"
+	gun 10.5 -158.5 "B2 Laser Cannon"
+	turret 0 1.5 "B3 Turbolaser Turret"
+	turret 0 -63.5 "B3 Turbolaser Turret"
+	turret -6.5 -163 "B3 Turbolaser Turret"
+	turret 6.5 -163 "B3 Turbolaser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Consular-class cruiser, commonly referred to as the Republic cruiser, was a Corellian Engineering Corporation starship used by the Galactic Republic to transport Jedi and diplomats to troubled spots across the galaxy. Civilian models of the Consular-class cruiser were used for straight-forward transportation and were indistinct. Craft of the Consular class in diplomatic service were painted red to declare their diplomatic immunity and to also serve as a warning not to attack."
+	description "The Consular cruiser, commonly referred to as the Republic cruiser, was a Corellian Engineering Corporation starship used by the Galactic Republic to transport Jedi and diplomats to troubled spots across the galaxy. Civilian models of the Consular cruiser were used for straight-forward transportation and were indistinct. Craft of the Consular class in diplomatic service were painted red to declare their diplomatic immunity and to also serve as a warning not to attack."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -3553,17 +3357,17 @@ ship "Consular Cruiser (Cresh)"
 	attributes
 		category "Light Warship"
 		"cost" 3000000
-		"shields" 33000
-		"hull" 9000
+		"shields" 22000
+		"hull" 8800
 		"required crew" 9
 		"bunks" 40
-		"mass" 2000
-		"drag" 5.2
+		"mass" 1410
+		"drag" 7.5
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 200
-		"outfit space" 242
-		"weapon capacity" 90
+		"outfit space" 246
+		"weapon capacity" 94
 		"engine capacity" 88
 		weapon
 			"blast radius" 300
@@ -3571,6 +3375,7 @@ ship "Consular Cruiser (Cresh)"
 			"hull damage" 350
 			"hit force" 800
 	outfits
+		"B2 Laser Cannon" 2
 		"B3 Turbolaser Turret" 4
 		
 		"P3 Power Converter"
@@ -3580,19 +3385,21 @@ ship "Consular Cruiser (Cresh)"
 		"P3 Sublight Engine"
 		"H3 Hyperspace Motivator"
 		
-	engine -107 284
-	engine 107 284
-	engine 0 284
-	turret -38 42 "B3 Turbolaser Turret"
-	turret 38 42 "B3 Turbolaser Turret"
-	turret -25 -275 "B3 Turbolaser Turret"
-	turret 25 -275 "B3 Turbolaser Turret"
+	engine 0 189.5
+	engine -71 190
+	engine 71 190
+	gun -15 -172 "B2 Laser Cannon"
+	gun 15 -172 "B2 Laser Cannon"
+	turret -26.5 -39.5 "B3 Turbolaser Turret"
+	turret 26.5 -39.5 "B3 Turbolaser Turret"
+	turret -14 -183.5 "B3 Turbolaser Turret"
+	turret 14 -183.5 "B3 Turbolaser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Consular-class cruiser, commonly referred to as the Republic cruiser, was a Corellian Engineering Corporation starship used by the Galactic Republic to transport Jedi and diplomats to troubled spots across the galaxy. Civilian models of the Consular-class cruiser were used for straight-forward transportation and were indistinct. Craft of the Consular class in diplomatic service were painted red to declare their diplomatic immunity and to also serve as a warning not to attack."
+	description "The Consular cruiser, commonly referred to as the Republic cruiser, was a Corellian Engineering Corporation starship used by the Galactic Republic to transport Jedi and diplomats to troubled spots across the galaxy. Civilian models of the Consular cruiser were used for straight-forward transportation and were indistinct. Craft of the Consular class in diplomatic service were painted red to declare their diplomatic immunity and to also serve as a warning not to attack."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -3602,13 +3409,13 @@ ship "CR25 Carrier"
 	thumbnail "thumbnail/cr25carrier"
 	attributes
 		category "Light Freighter"
-		"cost" 800000
-		"shields" 19000
-		"hull" 8000
+		"cost" 690000
+		"shields" 14100
+		"hull" 7800
 		"required crew" 9
 		"bunks" 20
-		"mass" 1300
-		"drag" 4.5
+		"mass" 636
+		"drag" 4.8
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 300
@@ -3630,17 +3437,21 @@ ship "CR25 Carrier"
 		"B2 Sublight Engine"
 		"H2 Hyperspace Motivator"
 		
-	engine -55 175
-	engine 55 175
-	engine 0 185
-	turret 0 1 "B2 Laser Turret"
-	turret 0 -114 "B2 Laser Turret"
+	engine 0 92.5
+	engine -27.5 88
+	engine 27.5 88
+	turret 0 19 "B2 Laser Turret"
+	turret 0 -52.5 "B2 Laser Turret"
+	fighter -10 16
+	fighter 10 16
+	fighter -10.5 -16
+	fighter 10.5 -16
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The CR25 troop carrier, more commonly known as the Republic dropship, was a multipurpose dropship used to deploy units of clone troopers and gunships in battlefronts where the use of an Acclamator-class assault ship was deemed too impractical."
+	description "The CR25 troop carrier, more commonly known as the Republic dropship, was a multipurpose dropship used to deploy units of clone troopers and gunships in battlefronts where the use of an Acclamator assault ship was deemed too impractical."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -3649,19 +3460,19 @@ ship "Acclamator Assault Ship"
 	sprite "ship/acclamatorassaultship"
 	thumbnail "thumbnail/acclamatorassaultship"
 	attributes
-		category "Medium Warship"
-		"cost" 29000000
-		"shields" 109500
-		"hull" 41500
+		category "Heavy Warship"
+		"cost" 53650000
+		"shields" 128000
+		"hull" 45800
 		"required crew" 700
 		"bunks" 16700
-		"mass" 8350
-		"drag" 23
+		"mass" 18000
+		"drag" 47.6
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 400
-		"outfit space" 1228
-		"weapon capacity" 495
+		"outfit space" 1448
+		"weapon capacity" 690
 		"engine capacity" 520
 		weapon
 			"blast radius" 300
@@ -3669,7 +3480,7 @@ ship "Acclamator Assault Ship"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"B4Dual Turbolaser Turret" 6
+		"B4Dual Turbolaser Turret" 10
 		"B3 Turbolaser Turret" 12
 		
 		"P5 Power Converter"
@@ -3697,32 +3508,59 @@ ship "Acclamator Assault Ship"
 	turret 321 110 "B3 Turbolaser Turret"
 	turret -288 -44 "B3 Turbolaser Turret"
 	turret 282 -45 "B3 Turbolaser Turret"
+	turret -240 -117 "B4Dual Turbolaser Turret"
+	turret 240 -117 "B4Dual Turbolaser Turret"
 	turret -208 -290 "B3 Turbolaser Turret"
 	turret 203 -290 "B3 Turbolaser Turret"
+	turret -124.5 -538 "B4Dual Turbolaser Turret"
+	turret 124.5 -538 "B4Dual Turbolaser Turret"
 	turret -117 -654 "B3 Turbolaser Turret"
 	turret 111 -655 "B3 Turbolaser Turret"
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Acclamator-class assault ship, alternatively referred to as the Acclamator-class trans-galactic military transport ship, was an assault-class capital ship created for the Galactic Republic by Rothana Heavy Engineering. It was the predecessor of the Star Destroyer line. Its mission profile required it to both carry troops and engage enemy starships: the Acclamator was designed to assault contested systems, break hostile orbital blockades, and land troops directly on the battlefield. Consequently, the Acclamator favoured a wedge or dagger shaped design due to its effectiveness—it allowed concentration of firepower while minimising target profile."
-	description "Artwork/model by Daniel T."
+	description "The Acclamator assault ship, alternatively referred to as the Acclamator trans-galactic military transport ship, was an assault capital ship created for the Galactic Republic by Rothana Heavy Engineering. It was the predecessor of the Star Destroyer line. Its mission profile required it to both carry troops and engage enemy starships: the Acclamator was designed to assault contested systems, break hostile orbital blockades, and land troops directly on the battlefield. Consequently, the Acclamator favoured a wedge or dagger shaped design due to its effectiveness—it allowed concentration of firepower while minimising target profile."
+	description "Artwork/model by Elratie"
 
 
 
 ship "JumpMaster 5000 Long Range Scout"
 	sprite "ship/jumpmaster5000"
 	thumbnail "thumbnail/jumpmaster5000"
-	"never disabled"
 	attributes
 		category Transport
 		"cost" 75000
-		"shields" 3250
-		"hull" 4850
+		"shields" 2750
+		"hull" 5150
 		"required crew" 1
 		"bunks" 2
-		"mass" 35
+		"mass" 32
 		"drag" 1.2
 		"heat dissipation" .7
 		"fuel capacity" 700
@@ -3751,11 +3589,11 @@ ship "JumpMaster 5000 Long Range Scout"
 		"B1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
-	engine 13 66
-	engine 28 66
-	gun 19 -99 "B1 Laser Cannon"
-	gun 23 -100 "B1 Laser Cannon"
-	turret -51 70 "B2Dual Laser Turret"
+	engine -2.5 19.5
+	engine 2.5 19.5
+	gun -1 -27.5 "B1 Laser Cannon"
+	gun 1 -27.5 "B1 Laser Cannon"
+	turret -21.5 21.5 "B2Dual Laser Turret"
 	explode "tiny explosion" 2
 	explode "small explosion" 4
 	explode "medium explosion" 6
@@ -3771,16 +3609,16 @@ ship "Pelta Frigate"
 	thumbnail "thumbnail/peltafrigate"
 	attributes
 		category "Heavy Freighter"
-		"cost" 11000000
-		"shields" 47000
-		"hull" 16000
+		"cost" 9000000
+		"shields" 37500
+		"hull" 15400
 		"required crew" 900
 		"bunks" 1500
-		"mass" 2550
-		"drag" 6
+		"mass" 4896
+		"drag" 13.09
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 700
+		"cargo space" 500
 		"outfit space" 366
 		"weapon capacity" 40
 		"engine capacity" 210
@@ -3799,20 +3637,20 @@ ship "Pelta Frigate"
 		"B4 Sublight Engine"
 		"H4 Hyperspace Motivator"
 		
-	engine 0 465
-	turret 1 -429 "B3 Turbolaser Turret"
-	turret 1 111 "B3 Turbolaser Turret"
+	engine 0 367
+	turret 0 88.5 "B3 Turbolaser Turret"
+	turret 0 -73.5 "B3 Turbolaser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Pelta-class frigate, also known as the Republic medical frigate during the Clone Wars, was a versatile model of frigate manufactured by Kuat Drive Yards. During the Clone Wars between the Galactic Republic and Separatist Alliance, the frigates were used by the Republic Navy to safely ferry injured clone troopers to medical stations for treatment. They also served as supply ships to deliver armaments, medical supplies, and food rations."
+	description "The Pelta frigate, also known as the Republic medical frigate during the Clone Wars, was a versatile model of frigate manufactured by Kuat Drive Yards. During the Clone Wars between the Galactic Republic and Separatist Alliance, the frigates were used by the Republic Navy to safely ferry injured clone troopers to medical stations for treatment. They also served as supply ships to deliver armaments, medical supplies, and food rations."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Venator-class Star Destroyer"
+ship "Venator Star Destroyer"
 	sprite "ship/venatordestroyer"
 	thumbnail "thumbnail/venatordestroyer"
 	attributes
@@ -3822,13 +3660,13 @@ ship "Venator-class Star Destroyer"
 		"hull" 55000
 		"required crew" 9300
 		"bunks" 47000
-		"mass" 11000
-		"drag" 24
+		"mass" 22000
+		"drag" 48.0
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 800
-		"outfit space" 1488
-		"weapon capacity" 730
+		"outfit space" 1608
+		"weapon capacity" 850
 		"engine capacity" 550
 		weapon
 			"blast radius" 320
@@ -3837,7 +3675,7 @@ ship "Venator-class Star Destroyer"
 			"hit force" 950
 	outfits
 		"B4Dual Turbolaser Turret" 8
-		"B3 Turbolaser Turret" 18
+		"B3 Turbolaser Turret" 24
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -3850,207 +3688,159 @@ ship "Venator-class Star Destroyer"
 	engine -144 1363
 	engine 148 1363
 	engine 292 1096
-	turret -236 663 "B4Dual Turbolaser Turret"
-	turret 244 665 "B4Dual Turbolaser Turret"
-	turret -219 238 "B4Dual Turbolaser Turret"
-	turret 237 456 "B4Dual Turbolaser Turret"
-	turret -218 238 "B4Dual Turbolaser Turret"
-	turret 232 454 "B4Dual Turbolaser Turret"
-	turret -209 21 "B4Dual Turbolaser Turret"
-	turret 212 21 "B4Dual Turbolaser Turret"
-	turret -356 703 "B3 Turbolaser Turret"
-	turret 361 703 "B3 Turbolaser Turret"
-	turret -353 609 "B3 Turbolaser Turret"
-	turret 359 610 "B3 Turbolaser Turret"
-	turret -348 509 "B3 Turbolaser Turret"
-	turret 355 511 "B3 Turbolaser Turret"
-	turret -288 342 "B3 Turbolaser Turret"
-	turret 295 340 "B3 Turbolaser Turret"
-	turret -289 -138 "B3 Turbolaser Turret"
-	turret 291 -139 "B3 Turbolaser Turret"
-	turret -225 -623 "B3 Turbolaser Turret"
-	turret 228 -626 "B3 Turbolaser Turret"
-	turret -100 -1160 "B3 Turbolaser Turret"
-	turret 102 -1160 "B3 Turbolaser Turret"
-	turret 1 -225 "B3 Turbolaser Turret"
-	turret 0 -429 "B3 Turbolaser Turret"
-	turret 0 -794 "B3 Turbolaser Turret"
-	turret 1 -1154 "B3 Turbolaser Turret"
-	fighter 1 -1284
-	fighter 1 -1229
-	fighter 1 -1158
+	turret -623 801 "B3 Turbolaser Turret"
+	turret 623 801 "B3 Turbolaser Turret"
+	turret -421 717 "B3 Turbolaser Turret"
+	turret 421 717 "B3 Turbolaser Turret"
+	turret -205.5 684 "B3 Turbolaser Turret"
+	turret 205.5 684 "B3 Turbolaser Turret"
+	turret -351.5 611 "B3 Turbolaser Turret"
+	turret 351.5 611 "B3 Turbolaser Turret"
+	turret -378.5 519.5 "B3 Turbolaser Turret"
+	turret 378.5 519.5 "B3 Turbolaser Turret"
+	turret -198.5 489.5 "B4Dual Turbolaser Turret"
+	turret 198.5 489.5 "B4Dual Turbolaser Turret"
+	turret -283.5 414 "B3 Turbolaser Turret"
+	turret 283.5 414 "B3 Turbolaser Turret"
+	turret -189.5 297.5 "B4Dual Turbolaser Turret"
+	turret 189.5 297.5 "B4Dual Turbolaser Turret"
+	turret -177.5 198.5 "B4Dual Turbolaser Turret"
+	turret 177.5 198.5 "B4Dual Turbolaser Turret"
+	turret -181.5 102.5 "B4Dual Turbolaser Turret"
+	turret 181.5 102.5 "B4Dual Turbolaser Turret"
+	turret -278 -73 "B3 Turbolaser Turret"
+	turret 278 -73 "B3 Turbolaser Turret"
+	turret -272.5 -187 "B3 Turbolaser Turret"
+	turret 272.5 -187 "B3 Turbolaser Turret"
+	turret -189.5 -320.5 "B3 Turbolaser Turret"
+	turret 189.5 -320.5 "B3 Turbolaser Turret"
+	turret -118.5 -554.5 "B3 Turbolaser Turret"
+	turret 118.5 -554.5 "B3 Turbolaser Turret"
+	turret -118 -890.5 "B3 Turbolaser Turret"
+	turret 118 -890.5 "B3 Turbolaser Turret"
+	turret -91.5 -1122 "B3 Turbolaser Turret"
+	turret 91.5 -1122 "B3 Turbolaser Turret"
+	fighter 0 -1284
+	fighter 0 -1229
+	fighter 0 -1158
 	fighter 0 -1083
-	fighter 1 -1005
-	fighter 1 -923
+	fighter 0 -1005
+	fighter 0 -923
 	fighter 0 -842
-	fighter 1 -764
+	fighter 0 -764
 	fighter 0 -687
 	fighter 0 -602
-	fighter 1 -520
+	fighter 0 -520
 	fighter 0 -435
 	fighter 0 -347
-	fighter 1 -259
+	fighter 0 -259
 	fighter 0 -167
-	fighter 1 -77
-	fighter 1 -1284
-	fighter 1 -1229
-	fighter 1 -1158
+	fighter 0 -77
+	fighter 0 -1284
+	fighter 0 -1229
+	fighter 0 -1158
 	fighter 0 -1083
-	fighter 1 -1005
-	fighter 1 -923
+	fighter 0 -1005
+	fighter 0 -923
 	fighter 0 -842
-	fighter 1 -764
+	fighter 0 -764
 	fighter 0 -687
 	fighter 0 -602
-	fighter 1 -520
+	fighter 0 -520
 	fighter 0 -435
 	fighter 0 -347
-	fighter 1 -259
+	fighter 0 -259
 	fighter 0 -167
-	fighter 1 -77
-	fighter 1 -1284
-	fighter 1 -1229
-	fighter 1 -1158
+	fighter 0 -77
+	fighter 0 -1284
+	fighter 0 -1229
+	fighter 0 -1158
 	fighter 0 -1083
-	fighter 1 -1005
-	fighter 1 -923
+	fighter 0 -1005
+	fighter 0 -923
 	fighter 0 -842
-	fighter 1 -764
+	fighter 0 -764
 	fighter 0 -687
 	fighter 0 -602
-	fighter 1 -520
+	fighter 0 -520
 	fighter 0 -435
 	fighter 0 -347
-	fighter 1 -259
+	fighter 0 -259
 	fighter 0 -167
-	fighter 1 -77
-	fighter 1 -1284
-	fighter 1 -1229
-	fighter 1 -1158
+	fighter 0 -77
+	fighter 0 -1284
+	fighter 0 -1229
+	fighter 0 -1158
 	fighter 0 -1083
-	fighter 1 -1005
-	fighter 1 -923
+	fighter 0 -1005
+	fighter 0 -923
 	fighter 0 -842
-	fighter 1 -764
-	fighter 0 -687
-	fighter 0 -602
-	fighter 1 -520
-	fighter 0 -435
-	fighter 0 -347
-	fighter 1 -259
-	fighter 0 -167
-	fighter 1 -77
-	fighter 1 -1284
-	fighter 1 -1229
-	fighter 1 -1158
-	fighter 0 -1083
-	fighter 1 -1005
-	fighter 1 -923
-	fighter 0 -842
-	fighter 1 -764
-	fighter 0 -687
-	fighter 0 -602
-	fighter 1 -520
-	fighter 0 -435
-	fighter 0 -347
-	fighter 1 -259
-	fighter 0 -167
-	fighter 1 -77
-	fighter 1 -1284
-	fighter 1 -1229
-	fighter 1 -1158
-	fighter 0 -1083
-	fighter 1 -1005
-	fighter 1 -923
-	fighter 0 -842
-	fighter 1 -764
-	fighter 0 -687
-	fighter 0 -602
-	fighter 1 -520
-	fighter 0 -435
-	fighter 0 -347
-	fighter 1 -259
-	fighter 0 -167
-	fighter 1 -77
-	fighter 1 -1284
-	fighter 1 -1229
-	fighter 1 -1158
-	fighter 0 -1083
-	fighter 1 -1005
-	fighter 1 -923
-	fighter 0 -842
-	fighter 1 -764
-	fighter 0 -687
-	fighter 0 -602
-	fighter 1 -520
-	fighter 0 -435
-	fighter 0 -347
-	fighter 1 -259
-	fighter 0 -167
-	fighter 1 -77
-	fighter 1 -1284
-	fighter 1 -1229
-	fighter 1 -1158
-	fighter 0 -1083
-	fighter 1 -1005
-	fighter 1 -923
-	fighter 0 -842
-	fighter 1 -764
-	fighter 0 -687
-	fighter 0 -602
-	fighter 1 -520
-	fighter 0 -435
-	fighter 0 -347
-	fighter 1 -259
-	fighter 0 -167
-	fighter 1 -77
-	fighter 1 -1284
-	fighter 1 -1229
-	fighter 1 -1158
-	fighter 0 -1083
-	fighter 1 -1005
-	fighter 1 -923
-	fighter 0 -842
-	fighter 1 -764
-	fighter 0 -687
-	fighter 0 -602
-	fighter 1 -520
-	fighter 0 -435
-	fighter 0 -347
-	fighter 1 -259
-	fighter 0 -167
-	fighter 1 -77
-	fighter 1 -1284
-	fighter 1 -1229
-	fighter 1 -1158
-	fighter 0 -1083
-	fighter 1 -1005
-	fighter 1 -923
-	fighter 0 -842
-	fighter 1 -764
-	fighter 0 -687
-	fighter 0 -602
-	fighter 1 -520
-	fighter 0 -435
-	fighter 0 -347
-	fighter 1 -259
-	fighter 0 -167
-	fighter 1 -77
+	fighter 0 -764
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Venator-class Destroyer, also known as the Republic attack cruiser, was one of the capital ships used extensively by the Galactic Republic during the later parts of the Clone Wars, as well as by the Galactic Empire. It was designed and constructed by Kuat Drive Yards and Allanteen Six shipyards. While designed primarily for ship-to-ship combat, the Venator had secondary roles ranging from starfighter carrier, to military transport and battleship escort. The expanded carrier role made the Venator-class popular amongst Jedi starfighter aces."
-	description "Artwork/model by Malte Ullrich"
+	description "The Venator Destroyer, also known as the Republic attack cruiser, was one of the capital ships used extensively by the Galactic Republic during the later parts of the Clone Wars, as well as by the Galactic Empire. It was designed and constructed by Kuat Drive Yards and Allanteen Six shipyards. While designed primarily for ship-to-ship combat, the Venator had secondary roles ranging from starfighter carrier, to military transport and battleship escort. The expanded carrier role made the Venator popular amongst Jedi starfighter aces."
+	description "Artwork/model by Dermalt/Malte Ullrich"
+
+
+
+ship "LAAT/c Gunship"
+	sprite "ship/laatcgunship"
+	thumbnail "thumbnail/laatcgunship"
+	attributes
+		category Transport
+		"cost" 75000
+		"shields" 3250
+		"hull" 4850
+		"required crew" 1
+		"bunks" 2
+		"mass" 42
+		"drag" 1.2
+		"heat dissipation" .7
+		"fuel capacity" 0
+		"cargo space" 5
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"B1 Laser Cannon" 2
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		
+		"B1 Sublight Engine"
+		
+	engine -8 37
+	engine 8 37
+	gun -3.5 -46.5 "B1 Laser Cannon"
+	gun 3.5 -46.5 "B1 Laser Cannon"
+	explode "tiny explosion" 2
+	explode "small explosion" 4
+	explode "medium explosion" 6
+	explode "large explosion" 8
+	"final explode" "huge explosion" 3
+	description "The Low Altitude Assault Transport/carrier, known more simply as the LAAT/c, was a vehicle carrier variant of Rothana Heavy Engineering's Low Altitude Assault Transport series of repulsorlift gunships developed for the Grand Army of the Republic. Beginning with the First Battle of Geonosis in 22 BBY, the LAAT/c saw use throughout the Clone Wars between the Galactic Republic and the Confederacy of Independent Systems and in the years afterward. Manned by a single pilot, the LAAT/c was originally designed to deploy All Terrain Tactical Enforcers onto battlefields, though it was soon modified to accommodate a number of additional vehicles as the Clone Wars progressed, using powerful magnetic clamps to hold payloads in place."
+	description "Artwork/model by Unusualsuspex"
 
 
 
 ship "LAAT/i Gunship"
 	sprite "ship/laatigunship"
 	thumbnail "thumbnail/laatigunship"
-	"never disabled"
 	attributes
 		category "Transport"
 		"cost" 85000
@@ -4072,7 +3862,8 @@ ship "LAAT/i Gunship"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"R1 Laser Cannon" 3
+		"R1 Laser Cannon" 2
+		"R1 Laser Turret"
 		"G1 Beam Turret" 2
 		"Concussion Missile" 14
 		"Concussion Missile Storage Rack"
@@ -4082,17 +3873,18 @@ ship "LAAT/i Gunship"
 		"D1 Deflector Shield"
 		"C1 Coolant System"
 		"HH0 Hull Slot"
-		"HH1 Ferroceramic Hull" 2
+		"HH1 Ferroceramic Hull"
 
 		"P1 Sublight Engine"
 		
-	gun -42 5 "R1 Laser Cannon"
-	gun 42 5 "R1 Laser Cannon"
-	gun 0 -52 "R1 Laser Cannon"
-	gun -18 -14 "Concussion Missile Launcher"
-	gun 17 -14 "Concussion Missile Launcher"
-	turret -12 -32 "G1 Beam Turret"
-	turret 11 -33 "G1 Beam Turret"
+	engine -5 26
+	engine 5 26
+	gun -3.5 -31.5 "R1 Laser Cannon"
+	gun 3.5 -31.5 "R1 Laser Cannon"
+	gun -5.5 -4 "Concussion Missile Launcher"
+	gun 5.5 -4 "Concussion Missile Launcher"
+	turret -10.5 -11.5 "G1 Beam Turret"
+	turret 10.5 -11.5 "G1 Beam Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The Low Altitude Assault Transport/infantry (LAAT/i) mainly served as gunships and troop transports for the Grand Army of the Republic during the Clone Wars. Its role was to transport Clone trooper as well as offering air-to-ground and air-to-air support for the Galactic Republic against the Confederacy of Independent Systems. The LAAT/i gunship saw extensive use in numerous battles and campaigns of the Clone Wars."
@@ -4100,12 +3892,12 @@ ship "LAAT/i Gunship"
 
 
 
-ship "Nimbus-class V-wing Starfighter"
+ship "Nimbus V-wing Starfighter"
 	sprite "ship/nimbusvwing"
 	thumbnail "thumbnail/nimbusvwing"
-	"never disabled"
 	attributes
-		category "Interceptor"
+		category Interceptor
+		"absolute threshold" 20
 		"cost" 102500
 		"shields" 1000
 		"hull" 1600
@@ -4143,24 +3935,24 @@ ship "Nimbus-class V-wing Starfighter"
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
-	engine 0 33
-	gun -12 3 "B1 Laser Cannon"
-	gun 12 3 "B1 Laser Cannon"
-	gun -12 3 "Concussion Missile Launcher"
-	gun 12 3 "Concussion Missile Launcher"
+	engine 0 17
+	gun -7 5 "B1 Laser Cannon"
+	gun 7 5 "B1 Laser Cannon"
+	gun -4 0 "Concussion Missile Launcher"
+	gun 4 0 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, is a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
+	description "The Alpha-3 Nimbus V-wing starfighter, more commonly known as the V-wing starfighter, is a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "Nimbus-class V-wing Starfighter (Fighter)"
+ship "Nimbus V-wing Starfighter (Fighter)"
 	sprite "ship/nimbusvwing"
 	thumbnail "thumbnail/nimbusvwing"
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		"cost" 102500
 		"shields" 1000
 		"hull" 1600
@@ -4198,14 +3990,14 @@ ship "Nimbus-class V-wing Starfighter (Fighter)"
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
-	engine 0 33
-	gun -12 3 "B1 Laser Cannon"
-	gun 12 3 "B1 Laser Cannon"
-	gun -12 3 "Concussion Missile Launcher"
-	gun 12 3 "Concussion Missile Launcher"
+	engine 0 17
+	gun -7 5 "B1 Laser Cannon"
+	gun 7 5 "B1 Laser Cannon"
+	gun -4 0 "Concussion Missile Launcher"
+	gun 4 0 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	"final explode" "final explosion large"
-	description "The Alpha-3 Nimbus-class V-wing starfighter, more commonly known as the V-wing starfighter, is a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
+	description "The Alpha-3 Nimbus V-wing starfighter, more commonly known as the V-wing starfighter, is a starfighter model manufactured by Kuat Systems Engineering. V-wings were first deployed by the Galactic Republic in the final days of the Clone Wars. Streamlined mass productions techniques let this ship take the V-19 Torrent starfighter's place as the preferred compact space superiority starfighter."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -4213,21 +4005,21 @@ ship "Nimbus-class V-wing Starfighter (Fighter)"
 ship "BTL-B Y-Wing"
 	sprite ship/btlbywing
 	thumbnail thumbnail/btlbywing
-	"never disabled"
 	attributes
 		category Interceptor
+		"absolute threshold" 20
 		cost 127000
 		shields 900
 		hull 5500
 		"required crew" 1
 		bunks 2
 		mass 33
-		drag 1
+		drag 1.42
 		"heat dissipation" 0.7
 		"fuel capacity" 700
 		"cargo space" 0
 		"outfit space" 20
-		"weapon capacity" 8
+		"weapon capacity" 7
 		"engine capacity" 5
 		"hullslot capacity" 1
 		"shieldslot capacity" 1
@@ -4255,13 +4047,13 @@ ship "BTL-B Y-Wing"
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine -21 53
-	engine 20 53
-	gun -2 -58 "B1 Laser Cannon"
-	gun 2 -58 "B1 Laser Cannon"
-	gun -8 -29 "Proton Torpedo Launcher"
-	gun 9 -29 "Proton Torpedo Launcher"
-	turret 0 -33 "I1 Ion Turret"
+	engine -10 27
+	engine 10 27
+	gun -1.5 -26.5 "B1 Laser Cannon"
+	gun 1.5 -26.5 "B1 Laser Cannon"
+	gun -3.5 -16.5 "Proton Torpedo Launcher"
+	gun 3.5 -16.5 "Proton Torpedo Launcher"
+	turret 0 -17 "I1 Ion Turret"
 	explode "large explosion" 3
 	description "The BTL-B Y-wing starfighter was an assault starfighter/bomber that flew combat missions for the Galactic Republic during the Clone Wars. The ship was designed to operate mainly as a bomber and the Republic used them well in this capacity. On later models, this bubble feature was replaced with a turret operated from within the main cockpit."
 	description "Artwork/model by Unusualsuspex"
@@ -4271,21 +4063,21 @@ ship "BTL-B Y-Wing"
 ship "BTL-B Y-Wing (Fighter)"
 	sprite ship/btlbywing
 	thumbnail thumbnail/btlbywing
-	"never disabled"
 	attributes
-		category "Fighter"
+		category Fighter
+		"absolute threshold" 20
 		cost 127000
 		shields 900
 		hull 5500
 		"required crew" 1
 		bunks 2
 		mass 33
-		drag 1
+		drag 1.42
 		"heat dissipation" 0.7
 		"fuel capacity" 700
 		"cargo space" 0
 		"outfit space" 20
-		"weapon capacity" 8
+		"weapon capacity" 7
 		"engine capacity" 5
 		"hullslot capacity" 1
 		"shieldslot capacity" 1
@@ -4313,13 +4105,13 @@ ship "BTL-B Y-Wing (Fighter)"
 		"P1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
-	engine -21 53
-	engine 20 53
-	gun -2 -58 "B1 Laser Cannon"
-	gun 2 -58 "B1 Laser Cannon"
-	gun -8 -29 "Proton Torpedo Launcher"
-	gun 9 -29 "Proton Torpedo Launcher"
-	turret 0 -33 "I1 Ion Turret"
+	engine -10 27
+	engine 10 27
+	gun -1.5 -26.5 "B1 Laser Cannon"
+	gun 1.5 -26.5 "B1 Laser Cannon"
+	gun -3.5 -16.5 "Proton Torpedo Launcher"
+	gun 3.5 -16.5 "Proton Torpedo Launcher"
+	turret 0 -17 "I1 Ion Turret"
 	explode "large explosion" 3
 	description "The BTL-B Y-wing starfighter was an assault starfighter/bomber that flew combat missions for the Galactic Republic during the Clone Wars. The ship was designed to operate mainly as a bomber and the Republic used them well in this capacity. On later models, this bubble feature was replaced with a turret operated from within the main cockpit."
 	description "Artwork/model by Unusualsuspex"

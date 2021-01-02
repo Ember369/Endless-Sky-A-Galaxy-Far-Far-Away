@@ -199,3 +199,9 @@ government "Yuuzhan Vong"
 	"friendly hail" "friendly pirate"
 	"hostile hail" "hostile pirate"
 	raid "pirate raid"
+
+government "Galactic Republic"
+	"player reputation" -1000
+	swizzle 0
+	"crew attack" 0
+	"crew defense" 0

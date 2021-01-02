@@ -19,7 +19,7 @@ outfit "Advanced Homing Missile"
 outfit "Advanced Homing Missile Storage Rack"
 	category "Ammunition"
 	cost 1000
-	thumbnail "outfit/advancedhomingmissilestoragerack"
+	thumbnail "outfit/advancedhomingmissile"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1
@@ -30,7 +30,7 @@ outfit "Advanced Homing Missile Storage Rack"
 outfit "Advanced Homing Missile Launcher"
 	category "Secondary Weapons"
 	cost 1000
-	thumbnail "outfit/advancedhomingmissilelauncher"
+	thumbnail "outfit/advancedhomingmissile"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1
@@ -42,20 +42,20 @@ outfit "Advanced Homing Missile Launcher"
 			"random start frame"
 		sound "torpedo"
 		ammo "Advanced Homing Missile"
-		icon "icon/torpedo"
+		icon "icon/advancedhomingmissile"
 		"fire effect" "torpedo fire"
 		"hit effect" "large explosion"
 		"die effect" "tiny explosion"
-		"inaccuracy" 20
-		"velocity" 12
-		"lifetime" 400
+		"inaccuracy" 10
+		"velocity" 4
+		"lifetime" 500
 		"reload" 240
 		"firing energy" 25
 		"firing heat" 1
-		"acceleration" .7
-		"drag" .05
-		"turn" 1.2
-		"homing" 4
+		"acceleration" 1
+		"drag" .15
+		"turn" 1.5
+		"homing" 2
 		"optical tracking" .8
 		"infrared tracking" .8
 		"shield damage" 500
@@ -67,7 +67,7 @@ outfit "Advanced Homing Missile Launcher"
 
 outfit "Assault Concussion Missile"
 	category "Ammunition"
-	cost 5000
+	cost 500
 	thumbnail "outfit/assaultconcussionmissile"
 	"mass" .2
 	"assaultconcussionmissile capacity" -1
@@ -103,81 +103,126 @@ outfit "Assault Concussion Missile Launcher"
 		"fire effect" "torpedo fire"
 		"hit effect" "large explosion"
 		"die effect" "tiny explosion"
-		"inaccuracy" 60
+		"inaccuracy" 20
 		"velocity" 10
-		"lifetime" 800
+		"lifetime" 400
 		"reload" 130
 		"firing energy" 200
 		"firing heat" 15
 		"acceleration" 2
-		"drag" .1
-		"turn" 1
+		"drag" .3
+		"turn" 0.7
 		"homing" 2
 		"optical tracking" 1
 		"infrared tracking" 1
-		"shield damage" 1700
-		"hull damage" 1700
+		"shield damage" 500
+		"hull damage" 500
 		"hit force" 0
 		"missile strength" 30
 	description "Assault Concussion Missile Launcher"
 
 
-outfit "Fletchette Missile"
+outfit "Cluster Missile"
 	category "Ammunition"
 	cost 10
-	thumbnail "outfit/fletchette"
+	thumbnail "outfit/clustermissile"
 	"mass" .01
-	"fletchette capacity" -1
+	"cluster capacity" -1
 	description "Fletchette Missile"
 
-outfit "Fletchette Missile Storage Rack"
+outfit "Cluster Missile Storage Rack"
 	category "Ammunition"
 	cost 1000
-	thumbnail "outfit/fletchettemissilestoragerack"
+	thumbnail "outfit/clustermissile"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1
-	"fletchette capacity" 35
-	ammo "Meteor Missile"
+	"cluster capacity" 5
+	ammo "Cluster Missile"
 	description "The Fletchette Missile Box is used to store extra ammunition for Fletchette Missile Launchers."
 
-outfit "Fletchette Missile Launcher"
+outfit "Cluster Missile Launcher"
 	category "Secondary Weapons"
 	cost 1000
-	thumbnail "outfit/fletchettemissilelauncher"
+	thumbnail "outfit/clustermissile"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1
 	"gun ports" -1
-	"fletchette capacity" 10
+	"cluster capacity" 3
 	weapon
-		sprite "projectile/meteor"
+		sprite "projectile/invis"
 			"no repeat"
 			"frame rate" .25
 		sound "meteor"
-		ammo "Fletchette Missile"
-		icon "icon/meteor"
+		ammo "Cluster Missile"
+		icon "icon/clustermissile"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
-		"inaccuracy" 10
-		"velocity" 13
-		"lifetime" 100
+		"inaccuracy" 8
+		"velocity" 4
+		"lifetime" 1
 		"reload" 60
 		"firing energy" 25
 		"firing heat" 1
-		"acceleration" .6
-		"drag" .04
+		"acceleration" 1
+		"drag" .1
 		"turn" 1
-		"homing" 3
+		"homing" 4
 		"optical tracking" .5
 		"infrared tracking" .5
-		"shield damage" 320
-		"hull damage" 220
+		"shield damage" 30
+		"hull damage" 30
 		"hit force" 0
 		"missile strength" 4
 		phasing
-	description "Fletchette Missile Launcher"
+		submunition clustermissile
+		submunition clustermissile1
+	description "Cluster Missile Launcher"
+
+outfit clustermissile
+	weapon
+		sprite "projectile/clustermissile"
+		"inaccuracy" 30
+		"lifetime" 600
+		"velocity" 4
+		"random velocity" 2
+		"acceleration" 1
+		"drag" .15
+		"turn" 1.5
+		"homing" 2
+		"optical tracking" .5
+		"infrared tracking" .5
+		"shield damage" 250
+		"hull damage" 250
+		"hit force" 0
+
+outfit clustermissile1
+	weapon
+		sprite "projectile/invis"
+		"lifetime" 1
+		"velocity" 0
+		phasing
+		submunition clustermissile
+		submunition clustermissile2
+
+outfit clustermissile2
+	weapon
+		sprite "projectile/invis"
+		"lifetime" 1
+		"velocity" 0
+		phasing
+		submunition clustermissile
+		submunition clustermissile3
+
+outfit clustermissile3
+	weapon
+		sprite "projectile/invis"
+		"lifetime" 1
+		"velocity" 0
+		phasing
+		submunition clustermissile
 
 outfit "Advanced Concussion Missile"
 	category "Ammunition"
@@ -220,7 +265,7 @@ outfit "Advanced Concussion Missile Launcher"
 		icon "icon/advancedconcussionmissile"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 15
+		"inaccuracy" 3
 		"velocity" 15
 		"lifetime" 100
 		"reload" 200
@@ -228,10 +273,6 @@ outfit "Advanced Concussion Missile Launcher"
 		"firing heat" 1
 		"acceleration" 0.7
 		"drag" .05
-		"turn" .6
-		"homing" 1
-		"optical tracking" .4
-		"infrared tracking" .4
 		"shield damage" 900
 		"hull damage" 900
 		"hit force" 0
@@ -278,7 +319,7 @@ outfit "Concussion Missile Launcher"
 		icon "icon/concussionmissile"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 15
+		"inaccuracy" 4
 		"velocity" 15
 		"lifetime" 100
 		"reload" 200
@@ -286,10 +327,6 @@ outfit "Concussion Missile Launcher"
 		"firing heat" 1
 		"acceleration" 0.7
 		"drag" .05
-		"turn" .5
-		"homing" 1
-		"optical tracking" .3
-		"infrared tracking" .3
 		"shield damage" 800
 		"hull damage" 800
 		"hit force" 0
@@ -333,7 +370,7 @@ outfit "Plasma Torpedo Launcher"
 		icon "icon/plasmatorpedo"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 20
+		"inaccuracy" 6
 		"velocity" 12
 		"lifetime" 100
 		"reload" 200
@@ -382,25 +419,19 @@ outfit "Ion Bomb Launcher"
 		sound "rocket"
 		ammo "Ion Bomb"
 		icon "icon/ionbomb"
-		"fire effect" "meteor fire"
 		"hit effect" "ionbombexplosion"
-		"die effect" "ionbombexplosion"
-		"inaccuracy" 20
-		"velocity" 12
-		"lifetime" 100
-		"reload" 500
+		"inaccuracy" 5
+		"velocity" 0.5
+		"lifetime" 50
+		"reload" 180
 		"firing energy" 25
 		"firing heat" 1
-		"acceleration" 0.8
-		"drag" .05
-		safe
-		"trigger radius" 50
-		"blast radius" 100
+		"drag" 1
+		"missile strength" 35
 		"shield damage" 10
 		"hull damage" 10
-		"ion damage" 50000
+		"ion damage" 10000
 		"hit force" 0
-		"missile strength" 20
 		phasing
 	description "Ion Bomb Launcher"
 
@@ -441,21 +472,22 @@ outfit "Diamond Boron Missile Launcher"
 		"fire effect" "meteor fire"
 		"hit effect" "omnicannonhit"
 		"die effect" "omnicannonhit"
-		"inaccuracy" 20
+		"inaccuracy" 0
 		"velocity" 7
-		"lifetime" 180
+		"lifetime" 500
 		"reload" 500
 		"firing energy" 25
 		"firing heat" 1
 		"acceleration" 0.8
 		"drag" .05
 		safe
-		"trigger radius" 50
-		"blast radius" 100
+		"trigger radius" 150
+		"blast radius" 1000
 		"shield damage" 8000
 		"hull damage" 8000
 		"hit force" 0
 		"missile strength" 20
+		"no damage scaling"
 	description "The diamond boron missile was a weapon developed sometime during the Clone Wars, but only truly refined at the height of the Galactic Civil War. They were equipped with powerful warheads capable of completely destroying everything within fifty meters from the point of detonation. Thus, the missile proved itself an effective weapon against fighters, since a single blast could easily take out several at a time."
 
 outfit "Intruder Missile"
@@ -494,7 +526,7 @@ outfit "Intruder Missile Launcher"
 		icon "icon/intrudermissile"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 25
+		"inaccuracy" 4
 		"velocity" 11
 		"lifetime" 100
 		"reload" 200
@@ -504,7 +536,7 @@ outfit "Intruder Missile Launcher"
 		"drag" .05
 		"shield damage" 20
 		"hull damage" 10
-		"ion damage" 5000
+		"ion damage" 1000
 		"hit force" 0
 		"missile strength" 20
 		phasing
@@ -548,7 +580,7 @@ outfit "Proton Torpedo Launcher"
 		icon "icon/protontorpedo"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 15
+		"inaccuracy" 6
 		"velocity" 9
 		"lifetime" 100
 		"reload" 260
@@ -578,7 +610,7 @@ outfit "Proton Bomb Storage Rack"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1
-	"protonbomb capacity" 0
+	"protonbomb capacity" 9
 	ammo "Proton Bomb"
 	description "Proton Bomb Storage Rack"
 
@@ -586,62 +618,29 @@ outfit "Proton Bomb Bay"
 	category "Secondary Weapons"
 	cost 1000
 	thumbnail "outfit/protonbomb"
-	"mass" 36
-	"outfit space" -48
-	"weapon capacity" -48
-	"energy capacity" 50
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
 	"gun ports" -1
-	"protonbomb capacity" 17
+	"protonbomb capacity" 1
 	weapon
 		sprite "projectile/protonbomb"
 		sound "minelayer"
 		ammo "Proton Bomb"
 		icon "icon/protonbomb"
-		"fire effect" "minelayer fire"
-		"hit effect" "huge explosion"
-		"die effect" "minelayer split" 5
-		"submunition" "Proton Bomb Submunition" 5
-		"inaccuracy" 10
-		"velocity" 3
-		"lifetime" 100
+		"hit effect" "protonbomb explosion"
+		"inaccuracy" 5
+		"velocity" 0.5
+		"lifetime" 50
 		"reload" 180
-		"firing energy" 36
-		"firing heat" 36
-		"acceleration" .16
-		"drag" .04
-		"turn" 2
-		"homing" 4
-		"infrared tracking" .9
+		"firing energy" 25
+		"firing heat" 1
+		"drag" 1
 		"missile strength" 35
-		"shield damage" -3200
-		"hull damage" -2400
-		"hit force" -150
+		"shield damage" 2000
+		"hull damage" 2000
 		"stream"
 	description "This launcher fires cluster munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
-
-outfit "Proton Bomb Submunition"
-	weapon
-		sprite "projectile/protonbomb"
-		"hit effect" "large explosion"
-		"die effect" "tiny explosion"
-		"inaccuracy" 40
-		"velocity" 2
-		"random velocity" 5
-		"lifetime" 1000
-		"random lifetime" 60
-		"acceleration" .00001
-		"drag" .05
-		"shield damage" 3000
-		"hull damage" 3000
-		"hit force" 0
-		"missile strength" 22
-
-outfit "Gravity Well Energy"
-	category "Ammunition"
-	cost 3500
-	thumbnail "outfit/gravitywellenergy"
-	"mass" 0
-	description "Gravity Well Energy"
 
 outfit "Gravity Well"
 	category "Secondary Weapons"
@@ -655,7 +654,6 @@ outfit "Gravity Well"
 			"frame rate" 4
 		sound "rocket"
 		icon "icon/gravitywell"
-		ammo "Gravity Well Energy"
 		safe
 		"inaccuracy" 0
 		"velocity" 20
@@ -674,6 +672,71 @@ outfit "Gravity Well"
 		"missile strength" 0
 	description "Gravity Well"
 
+outfit "Axial Superlaser"
+	category "Turrets"
+	cost 1000000
+	thumbnail "outfit/axialsuperlaser"
+	"mass" 300
+	"outfit space" -300
+	"weapon capacity" -300
+	"turret mounts" -1
+	weapon
+		sprite "projectile/axialsuperlaser"
+			"frame rate" 1
+		sound "particle"
+		"hit effect" "omnicannonhit"
+		"fire effect" "axialsuperlaserTOBEFIXED"
+		icon "icon/axialsuperlaser"
+		"inaccuracy" 0
+		"turret turn" 0.3
+		"velocity" 100
+		"lifetime" 400
+		"reload" 3
+		"burst count" 400
+		"burst reload" 1
+		"firing energy" 50
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 100000
+		"hull damage" 100000
+	description "A superlaser is a device which merges several separate 'super laser beams' into a single exceedingly powerful beam. The largest superlasers ever designed, such as those in the Death Star and Death Star II, are superweapons capable of obliterating an entire planet with one shot at full power. There are also smaller-scale yet still immense superlasers designed for use by and against capital ships; these can destroy even the largest vessels at a single shot—and while they can not destroy a planet, they can nonetheless quickly devastate one's surface."
+
+
+
+outfit "Axial Superlaser II"
+	category "Secondary Weapons"
+	cost 1000000
+	thumbnail "outfit/axialsuperlaser"
+	"mass" 300
+	"outfit space" -300
+	"weapon capacity" -300
+	"turret mounts" -1
+	weapon
+		sprite "projectile/axialsuperlaser"
+			"frame rate" 1
+		sound "particle"
+		"hit effect" "omnicannonhit"
+		"fire effect" "axialsuperlaserTOBEFIXED"
+		icon "icon/axialsuperlaser"
+		"inaccuracy" 0
+		"turret turn" 0.3
+		"velocity" 100
+		"lifetime" 400
+		"reload" 3
+		"burst count" 400
+		"burst reload" 1
+		"firing energy" 50
+		"firing force" 0
+		"firing heat" 1.2
+		"hit force" 0
+		"shield damage" 100000
+		"hull damage" 100000
+		safe
+	description "A superlaser is a device which merges several separate 'super laser beams' into a single exceedingly powerful beam. The largest superlasers ever designed, such as those in the Death Star and Death Star II, are superweapons capable of obliterating an entire planet with one shot at full power. There are also smaller-scale yet still immense superlasers designed for use by and against capital ships; these can destroy even the largest vessels at a single shot—and while they can not destroy a planet, they can nonetheless quickly devastate one's surface."
+
+
+
 outfit "Omnicannon"
 	category "Secondary Weapons"
 	cost 1000000
@@ -687,7 +750,7 @@ outfit "Omnicannon"
 			"frame rate" 1
 		sound "particle"
 		"hit effect" "omnicannonhit"
-		icon "icon/torpedo"
+		icon "icon/omnicannon"
 		"inaccuracy" 0
 		"velocity" 100
 		"lifetime" 400
@@ -719,7 +782,7 @@ outfit "Linked Ion/Plasma Cannon"
 			"frame rate" 1
 		sound "particle"
 		"hit effect" "omnicannonhit"
-		icon "icon/torpedo"
+		icon "icon/linkedionplasmacannon"
 		"inaccuracy" 20
 		"velocity" 30
 		"lifetime" 150
@@ -731,5 +794,33 @@ outfit "Linked Ion/Plasma Cannon"
 		"piercing" .3
 		"shield damage" 7000
 		"hull damage" 7000
-		"ion damage" 5000
-	description "The Linked Ion/Plasma Cannon fired a large ion pulse followed by an enormous, spiraling plasma shot, a combination that disabled the shields and allowed the plasma shot to do maximum damage. "
+		"ion damage" 500
+	description "The Linked Ion/Plasma Cannon fired a large ion pulse followed by an enormous, spiraling plasma shot, a combination that disabled the shields and allowed the plasma shot to do maximum damage."
+
+outfit "Orbital Bombardment Cannon"
+	category "Secondary Weapons"
+	cost 80000
+	thumbnail "outfit/orbitalbombardmentcannon"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/orbitalbombardmentcannon"
+			"frame rate" 1
+		sound "particle"
+		"hit effect" "omnicannonhit"
+		icon "icon/orbitalbombardmentcannon"
+		"inaccuracy" 0
+		"velocity" 30
+		"lifetime" 170
+		"reload" 650
+		"firing energy" 2000
+		"firing force" 0
+		"firing heat" 70
+		"hit force" 0
+		"piercing" .3
+		"shield damage" 10000
+		"hull damage" 10000
+		cluster
+	description "The Linked Ion/Plasma Cannon fired a large ion pulse followed by an enormous, spiraling plasma shot, a combination that disabled the shields and allowed the plasma shot to do maximum damage."

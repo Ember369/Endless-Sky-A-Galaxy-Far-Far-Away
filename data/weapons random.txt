@@ -21,15 +21,15 @@ outfit "B1 Laser Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "B1 Laser Cannon"
@@ -48,15 +48,15 @@ outfit "G1 Laser Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "G1 Laser Cannon"
@@ -75,15 +75,15 @@ outfit "GI1 Laser Cannon"
 		sound "greenlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "GI1 Laser Cannon"
@@ -102,15 +102,15 @@ outfit "P1 Laser Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "P1 Laser Cannon"
@@ -129,15 +129,15 @@ outfit "R1 Laser Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "R1 Laser Cannon"
@@ -156,15 +156,15 @@ outfit "Y1 Laser Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "Y1 Laser Cannon"
@@ -176,7 +176,7 @@ outfit "Y1 Laser Cannon"
 
 outfit "I1 Ion Cannon"
 	category "Guns"
-	cost 1200
+	cost 1000
 	thumbnail "outfit/g1 weaponry/g1 ioncannon"
 	"mass" 1
 	"outfit space" -1
@@ -184,19 +184,20 @@ outfit "I1 Ion Cannon"
 	"gun ports" -1
 	weapon
 		sprite "projectile/ionlaser/ionlaser"
+		icon "icon/ioncannon"
 		sound "redlaser"
 		"hit effect" "ion impact" 2
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 80
-		"hull damage" 80
-		"ion damage" 2
+		"shield damage" 500
+		"hull damage" 0
+		"ion damage" 3
 		cluster
 		phasing
 	description "I1 Ion Cannon"
@@ -219,7 +220,7 @@ outfit "G1 Burst Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 55
 		"burst count" 7
@@ -228,8 +229,8 @@ outfit "G1 Burst Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "G1 Burst Cannon"
@@ -248,7 +249,7 @@ outfit "R1 Burst Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 55
 		"burst count" 7
@@ -257,8 +258,8 @@ outfit "R1 Burst Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "R1 Burst Cannon"
@@ -281,7 +282,7 @@ outfit "G1 Guided Burst Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 1
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 45
 		"burst count" 7
@@ -290,8 +291,8 @@ outfit "G1 Guided Burst Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 60
-		"hull damage" 60
+		"shield damage" 120
+		"hull damage" 120
 		cluster
 		phasing
 	description "G1 Guided Burst Cannon"
@@ -310,7 +311,7 @@ outfit "R1 Guided Burst Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 1
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 55
 		"burst count" 7
@@ -319,8 +320,8 @@ outfit "R1 Guided Burst Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 60
-		"hull damage" 60
+		"shield damage" 120
+		"hull damage" 120
 		cluster
 		phasing
 	description "R1 Guided Burst Cannon"
@@ -343,15 +344,15 @@ outfit "G1 Rapid Fire Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 24
 		"reload" 70
 		"firing energy" 20
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "G1 Rapid Fire Cannon"
@@ -370,15 +371,15 @@ outfit "R1 Rapid Fire Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 24
 		"reload" 70
 		"firing energy" 20
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "R1 Rapid Fire Cannon"
@@ -448,6 +449,36 @@ outfit "R1 Beam Turret"
 
 
 
+outfit "B1 Laser Turret"
+	category "Turrets"
+	cost 1500
+	thumbnail "outfit/g1 weaponry/g1 laserturret blue"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/bluelaser/bluelaser"
+		"hardpoint sprite" "hardpoint/r1 laser turret"
+		"hardpoint offset" 9.
+		sound "redlaser"
+		"hit effect" "blaster impact"
+		"inaccuracy" 10
+		"turret turn" 6
+		"velocity" 12
+		"lifetime" 40
+		"reload" 90
+		"firing energy" 20
+		"firing heat" .6
+		"shield damage" 200
+		"hull damage" 200
+		cluster
+		phasing
+	description "B1 Laser Turret"
+
+
+
 outfit "G1 Laser Turret"
 	category "Turrets"
 	cost 1500
@@ -459,19 +490,19 @@ outfit "G1 Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/greenlaser/greenlaser"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r1 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "G1 Laser Turret"
@@ -487,22 +518,24 @@ outfit "GI1 Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/greenlaser/greenlaser"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r1 laser turret"
 		"hardpoint offset" 9.
 		sound "greenlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "GI1 Laser Turret"
+
+
 
 outfit "R1 Laser Turret"
 	category "Turrets"
@@ -515,19 +548,19 @@ outfit "R1 Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/redlaser/redlaser"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r1 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "R1 Laser Turret"
@@ -543,19 +576,19 @@ outfit "R1U Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/redlaser/redlaser"
-		"hardpoint sprite" ""
+		"hardpoint sprite" "hardpoint/invis"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "R1U Laser Turret"
@@ -571,18 +604,19 @@ outfit "G1U Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/greenlaser/greenlaser"
+		"hardpoint sprite" "hardpoint/invis"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "G1U Laser Turret"
@@ -597,18 +631,19 @@ outfit "G1U Laser Turret (AI)"
 	"turret mounts" -1
 	weapon
 		sprite "projectile/greenlaser/greenlaser"
+		"hardpoint sprite" "hardpoint/invis"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "G1U Laser Turret (AI)"
@@ -624,19 +659,19 @@ outfit "GI1U Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/greenlaser/greenlaser"
-		"hardpoint sprite" ""
+		"hardpoint sprite" "hardpoint/invis"
 		"hardpoint offset" 9.
 		sound "greenlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "G1 Laser Turret (G) Imp U"
@@ -651,19 +686,19 @@ outfit "R1 Laser Turret (AI)"
 	"turret mounts" -1
 	weapon
 		sprite "projectile/redlaser/redlaser"
-		"hardpoint sprite" ""
+		"hardpoint sprite" "hardpoint/r1 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 200
+		"hull damage" 200
 		cluster
 		phasing
 	description "R1 Laser Turret (AI)"
@@ -684,20 +719,20 @@ outfit "I1 Ion Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/ionlaser/ionlaser"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r1 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "ion impact" 2
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 80
-		"hull damage" 80
-		"ion damage" 2
+		"shield damage" 500
+		"hull damage" 0
+		"ion damage" 3
 		cluster
 		phasing
 	description "I1 Ion Turret"
@@ -713,55 +748,139 @@ outfit "I1U Ion Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/ionlaser/ionlaser"
-		"hardpoint sprite" "hardpoint/"
+		"hardpoint sprite" "hardpoint/invis"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "ion impact" 2
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 80
-		"hull damage" 80
-		"ion damage" 2
+		"shield damage" 500
+		"hull damage" 0
+		"ion damage" 3
 		cluster
 		phasing
 	description "I1U Ion Turret"
 
 
 
-outfit "R1 Heavy Laser Turret"
+
+
+outfit "G1 Heavy Laser Turret"
 	category "Turrets"
 	cost 1600
-	thumbnail "outfit/g1 weaponry/g1 laserturret red"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
+	thumbnail "outfit/g1 weaponry/g1 laserturret green"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/redlaser/redlaser"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		sprite "projectile/greenlaser/greenlaser"
+		"hardpoint sprite" "hardpoint/r1 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 5
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 25
 		"firing heat" .7
-		"shield damage" 140
-		"hull damage" 140
+		"shield damage" 205
+		"hull damage" 205
+		cluster
+		phasing
+	description "G1 Heavy Laser Turret"
+
+outfit "R1 Heavy Laser Turret"
+	category "Turrets"
+	cost 1600
+	thumbnail "outfit/g1 weaponry/g1 laserturret red"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/redlaser/redlaser"
+		"hardpoint sprite" "hardpoint/r1 laser turret"
+		"hardpoint offset" 9.
+		sound "redlaser"
+		"hit effect" "blaster impact"
+		"inaccuracy" 10
+		"turret turn" 5
+		"velocity" 12
+		"lifetime" 40
+		"reload" 90
+		"firing energy" 25
+		"firing heat" .7
+		"shield damage" 205
+		"hull damage" 205
 		cluster
 		phasing
 	description "R1 Heavy Laser Turret"
 
+outfit "G1 Heavy Laser Turret (AI)"
+	category "Turrets"
+	cost 1600
+	thumbnail "outfit/g1 weaponry/g1 laserturret green"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
+	"turret mounts" -1
+	"required crew" 0
+	weapon
+		sprite "projectile/greenlaser/greenlaser"
+		"hardpoint sprite" "hardpoint/r1 laser turret"
+		"hardpoint offset" 9.
+		sound "redlaser"
+		"hit effect" "blaster impact"
+		"inaccuracy" 10
+		"turret turn" 5
+		"velocity" 12
+		"lifetime" 40
+		"reload" 90
+		"firing energy" 25
+		"firing heat" .7
+		"shield damage" 205
+		"hull damage" 205
+		cluster
+		phasing
+	description "G1 Heavy Laser Turret (AI)"
 
+outfit "R1 Heavy Laser Turret (AI)"
+	category "Turrets"
+	cost 1600
+	thumbnail "outfit/g1 weaponry/g1 laserturret red"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
+	"turret mounts" -1
+	"required crew" 0
+	weapon
+		sprite "projectile/redlaser/redlaser"
+		"hardpoint sprite" "hardpoint/r1 laser turret"
+		"hardpoint offset" 9.
+		sound "redlaser"
+		"hit effect" "blaster impact"
+		"inaccuracy" 10
+		"turret turn" 5
+		"velocity" 12
+		"lifetime" 40
+		"reload" 90
+		"firing energy" 25
+		"firing heat" .7
+		"shield damage" 205
+		"hull damage" 205
+		cluster
+		phasing
+	description "R1 Heavy Laser Turret (AI)"
 
 
 
@@ -781,15 +900,15 @@ outfit "B2 Laser Cannon"
 		sound "particle"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
-		"reload" 90
+		"reload" 120
 		"firing energy" 30
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 170
-		"hull damage" 170
+		"shield damage" 273
+		"hull damage" 273
 		cluster
 		phasing
 	description "B2 Laser Cannon"
@@ -807,15 +926,15 @@ outfit "G2 Laser Cannon"
 		sound "particle"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
-		"reload" 90
+		"reload" 120
 		"firing energy" 30
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 170
-		"hull damage" 170
+		"shield damage" 273
+		"hull damage" 273
 		cluster
 		phasing
 	description "G2 Laser Cannon"
@@ -832,16 +951,16 @@ outfit "R2 Laser Cannon"
 		sprite "projectile/redlaser/redlaser2"
 		sound "particle"
 		"hit effect" "particle impact"
-		"inaccuracy" 15
-		"velocity" 20
+		"inaccuracy" 10
+		"velocity" 12
 		"lifetime" 50
 		"reload" 120
 		"firing energy" 30
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 170
-		"hull damage" 170
+		"shield damage" 273
+		"hull damage" 273
 		cluster
 		phasing
 	description "R2 Laser Cannon"
@@ -859,15 +978,15 @@ outfit "Y2 Laser Cannon"
 		sound "particle"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
-		"reload" 90
+		"reload" 120
 		"firing energy" 30
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 170
-		"hull damage" 170
+		"shield damage" 273
+		"hull damage" 273
 		cluster
 		phasing
 	description "Y2 Laser Cannon"
@@ -886,17 +1005,17 @@ outfit "I2 Ion Cannon"
 		sprite "projectile/ionlaser/ionlaser3"
 		sound "particle"
 		"hit effect" "particle impact"
-		"inaccuracy" 15
-		"velocity" 20
+		"inaccuracy" 10
+		"velocity" 12
 		"lifetime" 50
 		"reload" 120
 		"firing energy" 30
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 136
-		"hull damage" 136
-		"ion damage" 2
+		"shield damage" 425
+		"hull damage" 0
+		"ion damage" 6
 		cluster
 		phasing
 	description "I2 Ion Cannon"
@@ -915,20 +1034,19 @@ outfit "B2 Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/bluelaser/bluelaser2"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r2 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 3
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
-		"reload" 140
+		"reload" 120
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 170
-		"hull damage" 170
-		cluster
+		"shield damage" 273
+		"hull damage" 273
 		phasing
 	description "B2 Laser Turret"
 
@@ -943,20 +1061,19 @@ outfit "G2 Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/greenlaser/greenlaser2"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r2 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 3
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
-		"reload" 140
+		"reload" 120
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 170
-		"hull damage" 170
-		cluster
+		"shield damage" 273
+		"hull damage" 273
 		phasing
 	description "G2 Laser Turret"
 
@@ -971,20 +1088,19 @@ outfit "R2 Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/redlaser/redlaser2"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r2 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 3
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
-		"reload" 140
+		"reload" 120
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 170
-		"hull damage" 170
-		cluster
+		"shield damage" 273
+		"hull damage" 273
 		phasing
 	description "R2 Laser Turret"
 
@@ -999,20 +1115,19 @@ outfit "Y2 Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/yellowlaser/yellowlaser2"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r2 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 3
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
-		"reload" 140
+		"reload" 120
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 170
-		"hull damage" 170
-		cluster
+		"shield damage" 273
+		"hull damage" 273
 		phasing
 	description "Y2 Laser Turret"
 
@@ -1030,20 +1145,19 @@ outfit "R2Dual Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/redlaser/redlaser2dual"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r2 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 2
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 90
-		"reload" 160
+		"reload" 120
 		"firing energy" 35
 		"firing heat" .9
-		"shield damage" 250
-		"hull damage" 250
-		cluster
+		"shield damage" 280
+		"hull damage" 280
 		phasing
 	description "R2Dual Laser Turret"
 
@@ -1058,20 +1172,19 @@ outfit "G2Dual Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/greenlaser/greenlaser2dual"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r2 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 2
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 90
-		"reload" 160
+		"reload" 120
 		"firing energy" 35
 		"firing heat" .9
-		"shield damage" 250
-		"hull damage" 250
-		cluster
+		"shield damage" 280
+		"hull damage" 280
 		phasing
 	description "G2Dual Laser Turret"
 
@@ -1086,20 +1199,19 @@ outfit "B2Dual Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/bluelaser/bluelaser2dual"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r2 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 2
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 90
-		"reload" 160
+		"reload" 120
 		"firing energy" 35
 		"firing heat" .9
-		"shield damage" 250
-		"hull damage" 250
-		cluster
+		"shield damage" 280
+		"hull damage" 280
 		phasing
 	description "B2Dual Laser Turret"
 
@@ -1119,20 +1231,19 @@ outfit "R2 Heavy Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/redlaser/redlaser2"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r2 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 2.5
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
-		"reload" 150
+		"reload" 120
 		"firing energy" 33
 		"firing heat" .85
-		"shield damage" 210
-		"hull damage" 210
-		cluster
+		"shield damage" 277
+		"hull damage" 277
 		phasing
 	description "R2 Heavy Laser Turret"
 
@@ -1147,81 +1258,24 @@ outfit "G2 Heavy Laser Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/greenlaser/greenlaser2"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint sprite" "hardpoint/r2 laser turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 15
+		"inaccuracy" 10
 		"turret turn" 2.5
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
-		"reload" 150
+		"reload" 120
 		"firing energy" 33
 		"firing heat" .85
-		"shield damage" 210
-		"hull damage" 210
-		cluster
+		"shield damage" 277
+		"hull damage" 277
 		phasing
 	description "G2 Heavy Laser Turret"
 
 
 
-
-
-outfit "I3 Ion Turret"
-	category "Turrets"
-	cost 45000
-	thumbnail "outfit/turbolaser/ionturret"
-	"mass" 40
-	"outfit space" -40
-	"weapon capacity" -40
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/ionlaser/ionlaser3"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
-		"hardpoint offset" 9.
-		sound "redlaser"
-		"hit effect" "blaster impact"
-		"inaccuracy" 17
-		"turret turn" 0.7
-		"velocity" 20
-		"lifetime" 170
-		"reload" 320
-		"firing energy" 170
-		"firing heat" 12
-		"shield damage" 100
-		"hull damage" 10
-		"ion damage" 30
-		"disruption damage" 20
-	description "I3 Ion Turret"
-
-outfit "M3 Mass-Driver Battery"
-	category "Turrets"
-	cost 45000
-	thumbnail "outfit/turbolaser/massdriverbattery"
-	"mass" 40
-	"outfit space" -40
-	"weapon capacity" -40
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/massdriver"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
-		"hardpoint offset" 9.
-		sound "redlaser"
-		"hit effect" "blaster impact"
-		"inaccuracy" 17
-		"turret turn" 0.7
-		"velocity" 20
-		"lifetime" 170
-		"reload" 320
-		"firing energy" 170
-		"firing heat" 12
-		"shield damage" 200
-		"hull damage" 1200
-		"piercing" .5
-	description "M3 Mass-Driver Battery"
 
 
 
@@ -1242,15 +1296,15 @@ outfit "B3 Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
+		"inaccuracy" 9
 		"turret turn" 1
-		"velocity" 20
-		"lifetime" 160
-		"reload" 320
+		"velocity" 12
+		"lifetime" 130
+		"reload" 160
 		"firing energy" 120
 		"firing heat" 4
-		"shield damage" 500
-		"hull damage" 500
+		"shield damage" 393
+		"hull damage" 393
 		phasing
 	description "B3 Turbolaser Turret"
 
@@ -1269,15 +1323,15 @@ outfit "G3 Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
+		"inaccuracy" 9
 		"turret turn" 1
-		"velocity" 20
-		"lifetime" 160
-		"reload" 320
+		"velocity" 12
+		"lifetime" 130
+		"reload" 160
 		"firing energy" 120
 		"firing heat" 4
-		"shield damage" 500
-		"hull damage" 500
+		"shield damage" 393
+		"hull damage" 393
 		phasing
 	description "G3 Turbolaser Turret"
 
@@ -1296,15 +1350,15 @@ outfit "R3 Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
+		"inaccuracy" 9
 		"turret turn" 1
-		"velocity" 20
-		"lifetime" 160
-		"reload" 320
+		"velocity" 12
+		"lifetime" 130
+		"reload" 160
 		"firing energy" 120
 		"firing heat" 4
-		"shield damage" 500
-		"hull damage" 500
+		"shield damage" 393
+		"hull damage" 393
 		phasing
 	description "R3 Turbolaser Turret"
 
@@ -1323,20 +1377,81 @@ outfit "Y3 Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaser"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
+		"inaccuracy" 9
 		"turret turn" 1
-		"velocity" 20
-		"lifetime" 160
-		"reload" 320
+		"velocity" 12
+		"lifetime" 130
+		"reload" 160
 		"firing energy" 120
 		"firing heat" 4
-		"shield damage" 500
-		"hull damage" 500
+		"shield damage" 393
+		"hull damage" 393
 		phasing
 	description "Y3 Turbolaser Turret"
 
 
 
+
+
+
+
+
+
+outfit "I4 Ion Turret"
+	category "Turrets"
+	cost 45000
+	thumbnail "outfit/turbolaser/ionturret"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/ionlaser/ionlaser3"
+		icon "icon/ionturret"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "redlaser"
+		"hit effect" "blaster impact"
+		"inaccuracy" 9
+		"turret turn" 0.5
+		"velocity" 12
+		"lifetime" 170
+		"reload" 320
+		"firing energy" 170
+		"firing heat" 12
+		"shield damage" 1700
+		"hull damage" 0
+		"ion damage" 20
+		"disruption damage" 5
+	description "I4 Ion Turret"
+
+outfit "M4 Mass-Driver Battery"
+	category "Turrets"
+	cost 45000
+	thumbnail "outfit/turbolaser/massdriverbattery"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/massdriver"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "redlaser"
+		"hit effect" "blaster impact"
+		"inaccuracy" 9
+		"turret turn" 0.5
+		"velocity" 12
+		"lifetime" 170
+		"reload" 320
+		"firing energy" 170
+		"firing heat" 12
+		"shield damage" 200
+		"hull damage" 1500
+		"piercing" .8
+	description "M4 Mass-Driver Battery"
 
 
 
@@ -1355,20 +1470,20 @@ outfit "R4Dual Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
-		"turret turn" 0.7
-		"velocity" 20
+		"inaccuracy" 9
+		"turret turn" 0.5
+		"velocity" 12
 		"lifetime" 170
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
-		"shield damage" 650
-		"hull damage" 650
+		"shield damage" 800
+		"hull damage" 800
 	description "Dual Turbolaser Turret (R)"
 
 outfit "G4Dual Turbolaser Turret"
 	category "Turrets"
-	cost 19000
+	cost 45000
 	thumbnail "outfit/turbolaser/turbolaserdualturret green"
 	"mass" 40
 	"outfit space" -40
@@ -1381,20 +1496,20 @@ outfit "G4Dual Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
-		"turret turn" 0.7
-		"velocity" 20
+		"inaccuracy" 9
+		"turret turn" 0.5
+		"velocity" 12
 		"lifetime" 170
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
-		"shield damage" 650
-		"hull damage" 650
+		"shield damage" 800
+		"hull damage" 800
 	description "Dual Turbolaser Turret (G)"
 
 outfit "B4Dual Turbolaser Turret"
 	category "Turrets"
-	cost 19000
+	cost 45000
 	thumbnail "outfit/turbolaser/turbolaserdualturret blue"
 	"mass" 40
 	"outfit space" -40
@@ -1407,20 +1522,20 @@ outfit "B4Dual Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
-		"turret turn" 0.7
-		"velocity" 20
+		"inaccuracy" 9
+		"turret turn" 0.5
+		"velocity" 12
 		"lifetime" 170
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
-		"shield damage" 650
-		"hull damage" 650
+		"shield damage" 800
+		"hull damage" 800
 	description "Dual Turbolaser Turret (B)"
 
 outfit "Y4Dual Turbolaser Turret"
 	category "Turrets"
-	cost 19000
+	cost 45000
 	thumbnail "outfit/turbolaser/turbolaserdualturret yellow"
 	"mass" 40
 	"outfit space" -40
@@ -1433,15 +1548,15 @@ outfit "Y4Dual Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
-		"turret turn" 0.7
-		"velocity" 20
+		"inaccuracy" 9
+		"turret turn" 0.5
+		"velocity" 12
 		"lifetime" 170
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
-		"shield damage" 650
-		"hull damage" 650
+		"shield damage" 800
+		"hull damage" 800
 	description "Dual Turbolaser Turret (Y)"
 
 
@@ -1450,7 +1565,7 @@ outfit "Y4Dual Turbolaser Turret"
 
 outfit "R5Quad Turbolaser Turret"
 	category "Turrets"
-	cost 800000
+	cost 80000
 	thumbnail "outfit/turbolaser/turbolaserquadturret red"
 	"mass" 65
 	"outfit space" -65
@@ -1463,15 +1578,15 @@ outfit "R5Quad Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
-		"turret turn" 0.5
-		"velocity" 20
+		"inaccuracy" 9
+		"turret turn" 0.25
+		"velocity" 12
 		"lifetime" 180
-		"reload" 320
+		"reload" 350
 		"firing energy" 300
 		"firing heat" 20
-		"shield damage" 1500
-		"hull damage" 1500
+		"shield damage" 1650
+		"hull damage" 1650
 	description "Quad Turbolaser Turret (R)"
 
 outfit "G5Quad Turbolaser Turret"
@@ -1489,20 +1604,20 @@ outfit "G5Quad Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
-		"turret turn" 0.5
-		"velocity" 20
+		"inaccuracy" 9
+		"turret turn" 0.25
+		"velocity" 12
 		"lifetime" 180
-		"reload" 320
+		"reload" 350
 		"firing energy" 300
 		"firing heat" 20
-		"shield damage" 1500
-		"hull damage" 1500
+		"shield damage" 1650
+		"hull damage" 1650
 	description "Quad Turbolaser Turret (G)"
 
 outfit "Y5Quad Turbolaser Turret"
 	category "Turrets"
-	cost 800000
+	cost 80000
 	thumbnail "outfit/turbolaser/turbolaserquadturret yellow"
 	"mass" 65
 	"outfit space" -65
@@ -1515,16 +1630,16 @@ outfit "Y5Quad Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
-		"turret turn" 0.5
-		"velocity" 20
+		"inaccuracy" 9
+		"turret turn" 0.25
+		"velocity" 12
 		"lifetime" 180
-		"reload" 320
+		"reload" 350
 		"firing energy" 300
 		"firing heat" 20
-		"shield damage" 1500
-		"hull damage" 1500
-	description "Quad Turbolaser Turret (Y)"
+		"shield damage" 1650
+		"hull damage" 1650
+	description "Y5Quad Turbolaser Turret"
 
 
 
@@ -1543,36 +1658,62 @@ outfit "G6Octuple Turbolaser Turret"
 		"hardpoint offset" 9.
 		sound "turbolaserloud"
 		"hit effect" "blaster impact"
-		"inaccuracy" 17
-		"turret turn" 0.5
-		"velocity" 20
+		"inaccuracy" 9
+		"turret turn" 0.1
+		"velocity" 12
 		"lifetime" 260
-		"reload" 320
+		"reload" 360
 		"firing energy" 300
 		"firing heat" 20
-		"shield damage" 3000
-		"hull damage" 3000
-	description "Quad Turbolaser Turret (G)"
+		"shield damage" 2250
+		"hull damage" 2250
+	description "G6Octuple Turbolaser Turret"
+
+outfit "R6Octuple Turbolaser Turret"
+	category "Turrets"
+	cost 160000
+	thumbnail "outfit/turbolaser/turbolaseroctupleturret red"
+	"mass" 130
+	"outfit space" -130
+	"weapon capacity" -130
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/redlaser/redlaser4quad"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "turbolaserloud"
+		"hit effect" "blaster impact"
+		"inaccuracy" 9
+		"turret turn" 0.1
+		"velocity" 12
+		"lifetime" 260
+		"reload" 360
+		"firing energy" 300
+		"firing heat" 20
+		"shield damage" 2250
+		"hull damage" 2250
+	description "Quad Turbolaser Turret (R)"
 
 
 
 
 outfit "R5 Turbolaser Cannon"
 	category "Guns"
-	cost 1000
+	cost 100000
 	thumbnail "outfit/g5 weaponry/g5 lasercannon red"
 	"mass" 80
 	"outfit space" -80
-	"weapon capacity" -1
+	"weapon capacity" -80
 	"gun ports" -1
 	weapon
 		sprite "projectile/redlaser/redlaser4"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 300
-		"reload" 650
+		"reload" 400
 		"firing energy" 350
 		"firing force" 0
 		"firing heat" 25
@@ -1601,7 +1742,7 @@ outfit "Point-Defence Laser Cannon Battery"
 		"hardpoint offset" 5.
 		"hit effect" "pointdefence"
 		"anti-missile" 50
-		"velocity" 400
+		"velocity" 100
 		"lifetime" 1
 		"reload" 15
 		"firing energy" 120
@@ -1615,7 +1756,7 @@ outfit hullcollision
 		sound "crunch"
 		"hit effect" "void sprite chewing"
 		"inaccuracy" 180
-		"velocity" 10
+		"velocity" 5
 		"lifetime" 1
 		"reload" 70
 		"burst reload" 35
@@ -1628,17 +1769,17 @@ outfit hullcollision
 outfit "Composite Beam Laser (B6)"
 	category "Secondary Weapons"
 	cost 10000
-	thumbnail "outfit/laser"
+	thumbnail "outfit/compositebeamlaserb6"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1
 	"gun ports" -1
 	"compositebeamlaserb6 capacity" 1
 	weapon
-		sprite "projectile/compositebeamb6"
+		sprite "projectile/compositebeamlaserb6"
 			"frame rate" 1
 		sound "laser"
-		icon "icon/torpedo"
+		icon "icon/compositebeamlaserb6"
 		"hit effect" "beam laser impact"
 		"inaccuracy" 0
 		"velocity" 300
@@ -1646,43 +1787,16 @@ outfit "Composite Beam Laser (B6)"
 		"reload" 3
 		"burst count" 200
 		"burst reload" 1
-		"firing energy" 2
+		"firing energy" 3
 		"firing heat" 4
 		"shield damage" 150
 		"hull damage" 150
 	description "Composite Beam Laser Prototype developed on Shantipole."
 
-outfit "Anti-Starfighter Battery (G)"
-	category "Turrets"
-	cost 30000
-	thumbnail "outfit/antistarfighterbattery"
-	"mass" 20
-	"outfit space" -20
-	"weapon capacity" -20
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/greenlaser/greenlaser"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
-		"hardpoint offset" 9.
-		sound "redlaser"
-		"hit effect" "blaster impact"
-		"inaccuracy" 10
-		"turret turn" 3
-		"velocity" 20
-		"lifetime" 100
-		"reload" 140
-		"firing energy" 30
-		"firing heat" 4
-		"shield damage" 100
-		"hull damage" 100
-		phasing
-	description "Anti-Starfighter Battery (G)"
-
 outfit "Defenceless"
 	category "Turrets"
 	cost 0
-	thumbnail "outfit/"Defenceless"
+	thumbnail "outfit/ztemplate"
 	"mass" 0
 	"outfit space" 0
 	"weapon capacity" 0
@@ -1693,7 +1807,7 @@ outfit "Defenceless"
 		sprite "projectile/gr75"
 		"inaccuracy" 25
 		"turret turn" 5
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 80
 		"reload" 80
 		"firing energy" 0
@@ -1701,148 +1815,3 @@ outfit "Defenceless"
 		"shield damage" 0
 		"hull damage" 0
 	description "Defenceless"
-
-outfit "AUTHOR Transport Laser Cannon"
-	category "Turrets"
-	cost 3000
-	thumbnail "outfit/t2 laserturret"
-	"mass" 3
-	"outfit space" -3
-	"weapon capacity" -3
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/redlaser/redlaser2"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
-		"hardpoint offset" 9.
-		sound "redlaser"
-		"hit effect" "blaster impact"
-		"inaccuracy" 7
-		"turret turn" 3
-		"velocity" 20
-		"lifetime" 50
-		"reload" 140
-		"firing energy" 10
-		"firing heat" 35
-		"shield damage" 500
-		"hull damage" 500
-		cluster
-		phasing
-	description "T2 Laser Turret"
-
-outfit "AUTHOR Transport Quad Turbolaser Turret"
-	category "Turrets"
-	cost 3500
-	thumbnail "outfit/yt1300quadturbolaserturret"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/redlaser/redlaser2quad"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
-		"hardpoint offset" 9.
-		sound "redlaser"
-		"hit effect" "blaster impact"
-		"inaccuracy" 7
-		"turret turn" 2
-		"velocity" 20
-		"lifetime" 50
-		"reload" 140
-		"firing energy" 10
-		"firing heat" 35
-		"shield damage" 500
-		"hull damage" 500
-		cluster
-		phasing
-	description "AUTHOR Transport Quad Turbolaser Turret"
-
-outfit "AUTHOR Fighter Laser Cannon"
-	category "Guns"
-	cost 1000
-	thumbnail "outfit/fighterlasercannon"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"gun ports" -1
-	weapon
-		sprite "projectile/redlaser/redlaser"
-		sound "particle"
-		"hit effect" "particle impact"
-		"inaccuracy" 5
-		"velocity" 20
-		"lifetime" 40
-		"reload" 90
-		"firing energy" .5
-		"firing force" 0
-		"firing heat" 1.2
-		"hit force" 0
-		"shield damage" 400
-		"hull damage" 400
-		cluster
-		phasing
-	description "G1 Laser Cannon"
-
-outfit "AUTHOR Fighter Ion Cannon Turret"
-	category "Turrets"
-	cost 1500
-	thumbnail "outfit/sw4ioncannonturret"
-	"mass" 2
-	"outfit space" -2
-	"weapon capacity" -2
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/redlaser/redlaser"
-		"hardpoint sprite" "hardpoint/quad blaster turret"
-		"hardpoint offset" 9.
-		sound "ion"
-		"hit effect" "ion impact" 2
-		"inaccuracy" 7
-		"turret turn" 2
-		"velocity" 20
-		"lifetime" 40
-		"reload" 90
-		"firing energy" 120
-		"firing force" 0
-		"firing heat" 0.6
-		"hit force" 0
-		"shield damage" 400
-		"hull damage" 400
-		"ion damage" 1
-		cluster
-		phasing
-	description "ArMek SW-4 Ion Cannon Turret for Y-Wing"
-
-outfit "AUTHOR Proton Torpedo Launcher"
-	category "Secondary Weapons"
-	cost 1000
-	thumbnail "outfit/protontorpedolaunhcer"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"gun ports" -1
-	"rocket capacity" 30
-	weapon
-		sprite "projectile/protontorpedo"
-			"frame rate" 4
-		sound "rocket"
-		ammo "Proton Torpedo"
-		icon "icon/protontorpedo"
-		"hit effect" "heavy rocket hit"
-		"die effect" "small explosion"
-		"inaccuracy" 15
-		"velocity" 22
-		"lifetime" 100
-		"reload" 120
-		"firing energy" 1
-		"firing heat" 250
-		"acceleration" 0
-		"drag" .1
-		"shield damage" 2000
-		"hull damage" 2000
-		"hit force" 50
-		"missile strength" 16
-		phasing
-	description "Proton Torpedo Launcher"

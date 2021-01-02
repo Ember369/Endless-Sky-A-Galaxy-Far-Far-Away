@@ -1,0 +1,101 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+mission "AGFFA [0]"
+	priority
+	name "AGFFA Intro"
+	description "A Galaxy Far Far Away (Intro)"
+	landing
+	source "N'zoth"
+	destination Coruscant
+	on offer
+		conversation
+			`It looks like you have AGFFA (A Galaxy Far Far Away) installed as a plugin. AGFFA is a pretty experimental plugin, and is very much unplayable at the moment (the storyline is non-existent).`
+			`	This version of AGFFA is v0.5-alpha. Alphas are unstable, buggy, and subject to immense change, though I am slowly making progress towards a more bug-free and playable version of the plugin.`
+			scene scene/hyperspacebannerlogo
+			`	Firstly, thanks for checking out my plugin! Much appreciated!`
+			`	Secondly, if you have any questions, queries or constructive criticism, don't hesitate to ask on my plugin's Moddb page.`
+			`	I have taken the time to make a small FAQ of sorts for common questions here, so select that option if you would like to learn a bit about the plugin before starting.`
+			choice
+				`	FAQ`
+					goto faq
+				`	No questions. Let me test the plugin for myself!`
+					decline
+			label faq
+			`	This list of questions and answers is largely copy & pasted from my Moddb page:`
+			choice
+				`	Does AGFFA replace vanilla ships, outfits and systems?`
+					goto replace
+				`	Is AGFFA compatible with other plugins?`
+					goto compatibility
+				`	How unstable is AGFFA? Will it crash often? What are the current issues or limitations?`
+					goto instability
+				`	Is AGFFA balanced?`
+					goto balanced
+				`	Do you recommend AGFFA for my game?`
+					goto recommend
+				`	What time period is AGFFA set?`
+					goto timeperiod
+				`	Does AGFFA follow Canon or Legends SW?`
+					goto canonlegends
+				`	Is there a set release date planned for the final plugin?`
+					goto release
+				`	How can I support the developer?`
+					goto support
+				`	No more questions. Let me test the plugin for myself!`
+					decline
+			label replace
+			`	The mod doesn't replace any ships in the game, merely placing the player in a separate galaxy, with completely different outfits and ships. There's a wormhole in the "Empress Teta" system that connects the two galaxies together, if you're interested in reaching vanilla territory. Unfortunately, vanilla ships aren't exactly balanced with SW ships (SW capital ships have turrets with extremely low accuracy, unlike vanilla ships).`
+					goto faq
+			label compatibility
+			`	Since AGFFA takes place in a galaxy completely external to  the vanilla one, system overlapping should not be an issue. The AGFFA galaxy is pretty far away from the vanilla one: you have to scroll for about 15 seconds South West from Coruscant to reach the vanilla galaxy. While some plugins such as the Enclave plugin (and surely some others) also have systems relatively far away from the vanilla galaxy, they shouldn't overlap with AGFFA ones.`
+			`	In terms of vanilla and AGFFA ship compatibility, they're really not compatible at the moment. Quite a few vanilla weapons have "hit force" attributes, which push away enemy ships (and occasionally draw them in). Due to the low max speeds of AGFFA capital ships, most are unable to counter the acceleration given to them by enemy ships, making them float away from the centre of the system out into deep space. However, once the "force protection" attribute becomes available in the upcoming v0.9.13 ES release, this should no longer be an issue.`
+					goto faq
+			label instability
+			`	Hahaha, this is going to be a long list.`
+			`	1) Boarding is probably the most unstable/volatile part of the mod at the moment. When ships with abnormally high crew complements board other ships of similar crew numbers, the game freezes and needs to be force quit. I haven't personally noticed the game freezing up or crashing in any other circumstances so far.`
+			`	2) Ships with large sprites have a collision box that prevents smaller ships directly above it from being hit by enemies.`
+			`	The maximum number of turrets that a ship can have is 32, limiting the capital ships' abilities to fight.`
+			`	3) The plugin size is horrifically large, due to the size of capital ship sprites.`
+			`	4) Proton bombs are currently useless since ship AI can't deploy them properly due to their 0 acceleration.`
+			`	5) The galaxy map is barely complete (only a few systems have been filled, though all of them have been created)`
+			`	6) I didn't know whether to set the plugin in the Galactic Republic era, the Imperial era, or the New Republic/First Order era. (I added ships from all eras just in case –> including the Old Republic)`
+			`	7) The outfits & weapons are currently just placeholders since I tried to standardise them just to make it easier for balancing.`
+			`	8) Missions are pretty much non-existent (though I have added a few simply for experiments).`
+			`	9) I'm running out of things to say, but I'm sure some other problems will be discovered at some point.`
+					goto faq
+			label balanced
+			`	Balance? What's that?`
+					goto faq
+			label recommend
+			`	I'd personally suggest against adding the AGFFA plugin to your game at this moment, at least not to any pilot file which you particularly care about. If you would like to test some of the new ships/outfits/etc, I'd suggest that you create a new pilot expressly for this. This is because almost every single update of my plugin so far has had some sort of "overhaul" of data, making each version incompatible with each other. (For example, a pilot.txt file last opened with v0.1-alpha will have thousands of errors when updated to v0.5-alpha)`
+					goto faq
+			label timeperiod
+			`	I'm not sure which time period my plugin will take place in, but it will likely be during the Galactic Civil War (Empire vs Alliance to Restore the Republic). I have added a large number of ships from all eras just in case –> including the Old Republic.`
+					goto faq
+			label canonlegends
+			`	To be honest, I'm not too sure at this point. It's a weird mixup of the two, but somehow both combines and ignores components of both.`
+			`	I figured that to make the galaxy seem as "authentic" as possible, I'd include as many ship types as possible, something that would make the galaxy seem wide and diverse. A surprisingly large number of the ship designs that I have found online (and have permission for) were Legends ships (e.g. ships from the Old Republic or from the New Republic). I've included them just for fun, but I have yet to decide whether the lore associated with them will be included as well, along with their implications for the storyline. I also have a few of the Disney Canon ships as well (e.g. T-70 X-Wing), which in a way completely contradicts the existence of other Legends ships (e.g. the X-83 TwinTail starfighter –> the supposed successor to the T-65 X-Wing).`
+			`	In terms of the actual galaxy map, I added all of the Canon systems first, and then some Legends ones as well just to give the galaxy a complete feel. Again, similarly to the Legends ships, some of these systems will probably contradict Disney Canon, so I'm slightly at a loss at what to do.`
+			`	Regarding the currently non-existent storyline (which I'll hopefully add for v0.6-alpha or maybe later), the entire game will probably take place during the Galactic Civil War, meaning that I should be able to avoid Legends content that coincides with Disney Canon.`
+					goto faq
+			label release
+			`	I really don't know if this project will ever be completed (it's not a high priority for me), but I certainly would like to finish it at some point. In all likelihood, my real life will swamp me with work or university related stuff, such that progress dwindles down to a standstill.`
+					goto faq
+			label support
+			`	Ehh... I don't need support. This entire project is just for my own enjoyment.`
+					goto faq
+	on accept
+		log "AGFFA Intro"
+	
+	on complete
+		payment 1000000
+		conversation
+			`Uhh, I don't know how you got to this point in the mission, but it shouldn't be possible. I guess this is an easter egg. Well done.`

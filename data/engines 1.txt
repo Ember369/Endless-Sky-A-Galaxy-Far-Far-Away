@@ -18,7 +18,7 @@ outfit "B1 Jet Engine"
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 90
@@ -41,7 +41,7 @@ outfit "BI1 Jet Engine"
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 90
@@ -64,7 +64,7 @@ outfit "G1 Jet Engine"
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/green flare/tiny"
+	"flare sprite" "effect/green flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 90
@@ -87,7 +87,7 @@ outfit "O1 Jet Engine"
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/orange flare/tiny"
+	"flare sprite" "effect/orange flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 90
@@ -110,7 +110,7 @@ outfit "P1 Jet Engine"
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/pink flare/tiny"
+	"flare sprite" "effect/pink flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 90
@@ -137,7 +137,7 @@ outfit "B1 Microthrust Engine"
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 170
@@ -155,7 +155,7 @@ outfit "BI1 Microthrust Engine"
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 170
@@ -173,7 +173,7 @@ outfit "G1 Microthrust Engine"
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/green flare/tiny"
+	"flare sprite" "effect/green flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 170
@@ -191,7 +191,7 @@ outfit "O1 Microthrust Engine"
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/orange flare/tiny"
+	"flare sprite" "effect/orange flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 170
@@ -209,7 +209,7 @@ outfit "P1 Microthrust Engine"
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/pink flare/tiny"
+	"flare sprite" "effect/pink flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 170
@@ -231,7 +231,7 @@ outfit "B1 Propulsion Engine"
 	"thrust" 9
 	"thrusting energy" .6
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 80
@@ -250,7 +250,7 @@ outfit "BI1 Propulsion Engine"
 	"thrust" 9
 	"thrusting energy" .6
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 80
@@ -269,7 +269,7 @@ outfit "G1 Propulsion Engine"
 	"thrust" 9
 	"thrusting energy" .6
 	"thrusting heat" 1
-	"flare sprite" "effect/green flare/tiny"
+	"flare sprite" "effect/green flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 80
@@ -288,7 +288,7 @@ outfit "O1 Propulsion Engine"
 	"thrust" 9
 	"thrusting energy" .6
 	"thrusting heat" 1
-	"flare sprite" "effect/orange flare/tiny"
+	"flare sprite" "effect/orange flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 80
@@ -307,7 +307,7 @@ outfit "P1 Propulsion Engine"
 	"thrust" 9
 	"thrusting energy" .6
 	"thrusting heat" 1
-	"flare sprite" "effect/pink flare/tiny"
+	"flare sprite" "effect/pink flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 80
@@ -331,7 +331,7 @@ outfit "B1 SLAM Engine"
 	"thrust" 5
 	"thrusting energy" .3
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 100
@@ -355,7 +355,7 @@ outfit "BI1 SLAM Engine"
 	"thrust" 5
 	"thrusting energy" .3
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 100
@@ -379,7 +379,7 @@ outfit "G1 SLAM Engine"
 	"thrust" 5
 	"thrusting energy" .3
 	"thrusting heat" 1
-	"flare sprite" "effect/green flare/tiny"
+	"flare sprite" "effect/green flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 100
@@ -403,7 +403,7 @@ outfit "O1 SLAM Engine"
 	"thrust" 5
 	"thrusting energy" .3
 	"thrusting heat" 1
-	"flare sprite" "effect/orange flare/tiny"
+	"flare sprite" "effect/orange flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 100
@@ -427,7 +427,7 @@ outfit "P1 SLAM Engine"
 	"thrust" 5
 	"thrusting energy" .3
 	"thrusting heat" 1
-	"flare sprite" "effect/pink flare/tiny"
+	"flare sprite" "effect/pink flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 100
@@ -455,10 +455,10 @@ outfit "B1 Sublight Engine"
 	"thrust" 7
 	"thrusting energy" .5
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
-	"turn" 100
+	"turn" 80
 	"turning energy" .5
 	"turning heat" 1
 	description "No bonuses or drawbacks. A good all-around choice, but doesn't excel in any category."
@@ -473,10 +473,10 @@ outfit "BI1 Sublight Engine"
 	"thrust" 7
 	"thrusting energy" .5
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
-	"turn" 100
+	"turn" 80
 	"turning energy" .5
 	"turning heat" 1
 	description "No bonuses or drawbacks. A good all-around choice, but doesn't excel in any category."
@@ -491,10 +491,10 @@ outfit "G1 Sublight Engine"
 	"thrust" 7
 	"thrusting energy" .5
 	"thrusting heat" 1
-	"flare sprite" "effect/green flare/tiny"
+	"flare sprite" "effect/green flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
-	"turn" 100
+	"turn" 80
 	"turning energy" .5
 	"turning heat" 1
 	description "No bonuses or drawbacks. A good all-around choice, but doesn't excel in any category."
@@ -509,10 +509,10 @@ outfit "O1 Sublight Engine"
 	"thrust" 7
 	"thrusting energy" .5
 	"thrusting heat" 1
-	"flare sprite" "effect/orange flare/tiny"
+	"flare sprite" "effect/orange flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
-	"turn" 100
+	"turn" 80
 	"turning energy" .5
 	"turning heat" 1
 	description "No bonuses or drawbacks. A good all-around choice, but doesn't excel in any category."
@@ -527,10 +527,10 @@ outfit "P1 Sublight Engine"
 	"thrust" 7
 	"thrusting energy" .5
 	"thrusting heat" 1
-	"flare sprite" "effect/pink flare/tiny"
+	"flare sprite" "effect/pink flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
-	"turn" 100
+	"turn" 80
 	"turning energy" .5
 	"turning heat" 1
 	description "No bonuses or drawbacks. A good all-around choice, but doesn't excel in any category."
@@ -549,7 +549,7 @@ outfit "B1 Thrust Engine"
 	"thrust" 5
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 100
@@ -568,7 +568,7 @@ outfit "BI1 Thrust Engine"
 	"thrust" 5
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 100
@@ -587,7 +587,7 @@ outfit "G1 Thrust Engine"
 	"thrust" 5
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/green flare/tiny"
+	"flare sprite" "effect/green flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 100
@@ -606,7 +606,7 @@ outfit "O1 Thrust Engine"
 	"thrust" 5
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/orange flare/tiny"
+	"flare sprite" "effect/orange flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 100
@@ -625,7 +625,7 @@ outfit "P1 Thrust Engine"
 	"thrust" 5
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/pink flare/tiny"
+	"flare sprite" "effect/pink flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 100
@@ -648,7 +648,7 @@ outfit "B1 Unstable Sublight Engine"
 	"thrust" 8
 	"thrusting energy" .7
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 130
@@ -667,7 +667,7 @@ outfit "BI1 Unstable Sublight Engine"
 	"thrust" 8
 	"thrusting energy" .7
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/tiny"
+	"flare sprite" "effect/blue flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 130
@@ -686,7 +686,7 @@ outfit "G1 Unstable Sublight Engine"
 	"thrust" 8
 	"thrusting energy" .7
 	"thrusting heat" 1
-	"flare sprite" "effect/green flare/tiny"
+	"flare sprite" "effect/green flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 130
@@ -705,7 +705,7 @@ outfit "O1 Unstable Sublight Engine"
 	"thrust" 8
 	"thrusting energy" .7
 	"thrusting heat" 1
-	"flare sprite" "effect/orange flare/tiny"
+	"flare sprite" "effect/orange flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 130
@@ -724,7 +724,7 @@ outfit "P1 Unstable Sublight Engine"
 	"thrust" 8
 	"thrusting energy" .7
 	"thrusting heat" 1
-	"flare sprite" "effect/pink flare/tiny"
+	"flare sprite" "effect/pink flare/micro"
 		"frame rate" 0.8
 	"flare sound" "flare tiny"
 	"turn" 130

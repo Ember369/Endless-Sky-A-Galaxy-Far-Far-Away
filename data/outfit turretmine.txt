@@ -1,7 +1,7 @@
 outfit "Turret Mine"
 	category "Ammunition"
 	cost 5
-	thumbnail "outfit/turretmine"
+	thumbnail "outfit/turretminedeployer"
 	"mass" .02
 	"turretmine capacity" -1
 	description "Turret Mine"
@@ -9,7 +9,7 @@ outfit "Turret Mine"
 outfit "Turret Mine Storage Rack"
 	category "Ammunition"
 	cost 1000
-	thumbnail "outfit/turretminestoragerack"
+	thumbnail "outfit/turretminedeployer"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1

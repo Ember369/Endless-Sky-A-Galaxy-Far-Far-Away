@@ -10,79 +10,75 @@
 
 outfit "B2 Sublight Engine"
 	category "Engines"
-	"cost" 24000
+	"cost" 20000
 	thumbnail "outfit/engines/e2 sublight engine b"
-	"mass" 20
-	"outfit space" -20
-	"engine capacity" -20
-	"thrust" 22
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 26.4
 	"thrusting energy" 1.8
 	"thrusting heat" 5
-	"flare sprite" "effect/blue flare/huge"
+	"flare sprite" "effect/blue flare/small"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 400
+	"turn" 336
 	"turning energy" 1.8
 	"turning heat" 4
 	description "B2 Sublight Engine"
 
 outfit "O2 Sublight Engine"
 	category "Engines"
-	"cost" 24000
+	"cost" 20000
 	thumbnail "outfit/engines/e2 sublight engine o"
-	"mass" 20
-	"outfit space" -20
-	"engine capacity" -20
-	"thrust" 22
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 26.4
 	"thrusting energy" 1.8
 	"thrusting heat" 5
-	"flare sprite" "effect/orange flare/huge"
+	"flare sprite" "effect/orange flare/small"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 400
+	"turn" 336
 	"turning energy" 1.8
 	"turning heat" 4
 	description "O2 Sublight Engine"
 
+
+
 outfit "B3 Sublight Engine"
 	category "Engines"
-	"cost" 44000
+	"cost" 30000
 	thumbnail "outfit/engines/e3 sublight engine b"
-	"mass" 78
-	"outfit space" -78
-	"engine capacity" -78
-	"thrust" 24
-	"thrusting energy" 6
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 36
+	"thrusting energy" 2.4
 	"thrusting heat" 12
-	"reverse thrust" 12
-	"reverse thrusting energy" 3
-	"reverse thrusting heat" 6
-	"flare sprite" "effect/blue flare/huge"
+	"flare sprite" "effect/blue flare/medium"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 1300
-	"turning energy" 6
+	"turn" 900
+	"turning energy" 2.4
 	"turning heat" 11
 	description "B3 Corvette Sublight Engine"
 
 outfit "G3 Sublight Engine"
 	category "Engines"
-	"cost" 44000
+	"cost" 30000
 	thumbnail "outfit/engines/e3 sublight engine g"
-	"mass" 78
-	"outfit space" -78
-	"engine capacity" -78
-	"thrust" 24
-	"thrusting energy" 6
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 36
+	"thrusting energy" 2.4
 	"thrusting heat" 12
-	"reverse thrust" 12
-	"reverse thrusting energy" 3
-	"reverse thrusting heat" 6
-	"flare sprite" "effect/green flare/huge"
+	"flare sprite" "effect/green flare/medium"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 1300
-	"turning energy" 6
+	"turn" 900
+	"turning energy" 2.4
 	"turning heat" 11
 	description "Corvette Sublight Engine"
 
@@ -90,94 +86,120 @@ outfit "P3 Sublight Engine"
 	category "Engines"
 	"cost" 30000
 	thumbnail "outfit/engines/e3 sublight engine p"
-	"mass" 78
-	"outfit space" -78
-	"engine capacity" -78
-	"thrust" 24
-	"thrusting energy" 6
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 36
+	"thrusting energy" 2.4
 	"thrusting heat" 12
-	"reverse thrust" 12
-	"reverse thrusting energy" 3
-	"reverse thrusting heat" 6
-	"flare sprite" "effect/pink flare/huge"
+	"flare sprite" "effect/pink flare/medium"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 1300
-	"turning energy" 6
+	"turn" 900
+	"turning energy" 2.4
 	"turning heat" 11
 	description "Corvette Sublight Engine"
 
-outfit "B3.5 Sublight Engine"
-	category "Engines"
-	"cost" 210000
-	thumbnail "outfit/engines/e3_5 sublight engine b"
-	"mass" 140
-	"outfit space" -140
-	"engine capacity" -140
-	"thrust" 27
-	"thrusting energy" 10
-	"thrusting heat" 9
-	"reverse thrust" 18
-	"reverse thrusting energy" 5
-	"reverse thrusting heat" 8
-	"flare sprite" "effect/blue flare/huge"
-		"frame rate" 0.8
-	"flare sound" "ion huge"
-	"turn" 1350
-	"turning energy" 10
-	"turning heat" 12
-	description "Heavy Freighter Sublight Engine"
+
 
 outfit "B4 Sublight Engine"
 	category "Engines"
-	"cost" 250000
+	"cost" 45000
 	thumbnail "outfit/engines/e4 sublight engine b"
-	"mass" 210
-	"outfit space" -210
-	"engine capacity" -210
-	"thrust" 28
-	"thrusting energy" 20
+	"mass" 35
+	"outfit space" -35
+	"engine capacity" -35
+	"thrust" 54
+	"thrusting energy" 3.5
 	"thrusting heat" 16
-	"reverse thrust" 14
+	"reverse thrust" 18
 	"reverse thrusting energy" 10
 	"reverse thrusting heat" 8
 	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 1400
-	"turning energy" 20
+	"turn" 1530
+	"turning energy" 3.5
 	"turning heat" 13
 	description "B4 Sublight Engine"
 
+
+
 outfit "B4.5 Sublight Engine"
 	category "Engines"
-	"cost" 520000
+	"cost" 700000
 	thumbnail "outfit/engines/e4_5 sublight engine b"
-	"mass" 400
-	"outfit space" -400
-	"engine capacity" -400
-	"thrust" 40
-	"thrusting energy" 30
+	"mass" 45
+	"outfit space" -45
+	"engine capacity" -45
+	"thrust" 72
+	"thrusting energy" 4.5
 	"thrusting heat" 22
-	"reverse thrust" 27
+	"reverse thrust" 24
 	"reverse thrusting energy" 15
 	"reverse thrusting heat" 11
 	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 1600
-	"turning energy" 30
+	"turn" 2160
+	"turning energy" 4.5
 	"turning heat" 19
 	description "E4.5 Cruiser Sublight Engine"
 
+
+
 outfit "B5 Sublight Engine"
 	category "Engines"
-	"cost" 810000
+	"cost" 92000
 	thumbnail "outfit/engines/e5 sublight engine b"
-	"mass" 500
-	"outfit space" -500
-	"engine capacity" -500
-	"thrust" 50
+	"mass" 68
+	"outfit space" -68
+	"engine capacity" -68
+	"thrust" 110
+	"thrusting energy" 6.8
+	"thrusting heat" 28
+	"reverse thrust" 36
+	"reverse thrusting energy" 25
+	"reverse thrusting heat" 17
+	"flare sprite" "effect/blue flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 3600
+	"turning energy" 6.8
+	"turning heat" 25
+	description "B5 Sublight Engine"
+
+outfit "O5 Sublight Engine"
+	category "Engines"
+	"cost" 92000
+	thumbnail "outfit/engines/e5 sublight engine o"
+	"mass" 68
+	"outfit space" -68
+	"engine capacity" -68
+	"thrust" 110
+	"thrusting energy" 6.8
+	"thrusting heat" 28
+	"reverse thrust" 36
+	"reverse thrusting energy" 25
+	"reverse thrusting heat" 17
+	"flare sprite" "effect/orange flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"turn" 3600
+	"turning energy" 6.8
+	"turning heat" 25
+	description "O5 Sublight Engine"
+
+
+
+outfit "B6 Sublight Engine"
+	category "Engines"
+	"cost" 810000
+	thumbnail "outfit/engines/e6 sublight engine b"
+	"mass" 1000
+	"outfit space" -1000
+	"engine capacity" -1000
+	"thrust" 120
 	"thrusting energy" 40
 	"thrusting heat" 28
 	"reverse thrust" 33
@@ -186,28 +208,7 @@ outfit "B5 Sublight Engine"
 	"flare sprite" "effect/blue flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	"turn" 1900
+	"turn" 2400
 	"turning energy" 40
 	"turning heat" 25
-	description "B5 Sublight Engine"
-
-outfit "O5 Sublight Engine"
-	category "Engines"
-	"cost" 810000
-	thumbnail "outfit/engines/e5 sublight engine o"
-	"mass" 500
-	"outfit space" -500
-	"engine capacity" -500
-	"thrust" 50
-	"thrusting energy" 40
-	"thrusting heat" 28
-	"reverse thrust" 33
-	"reverse thrusting energy" 25
-	"reverse thrusting heat" 17
-	"flare sprite" "effect/orange flare/huge"
-		"frame rate" 0.8
-	"flare sound" "ion huge"
-	"turn" 1900
-	"turning energy" 40
-	"turning heat" 25
-	description "O5 Sublight Engine"
+	description "B6 Sublight Engine"
