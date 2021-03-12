@@ -70,6 +70,50 @@ mission "Balmorra Defence Fleet"
 		ship "TIE/LN Fighter (Fighter)" "Iota 24"
 		dialog "The TIE fighter squadron has been destroyed."
 
+mission "Geonosis Quarantine Blockade"
+	invisible
+	landing
+	npc kill
+		government "Galactic Empire"
+		personality heroic vindictive staying
+		system "Geonosis"
+		ship "Imperial I Star Destroyer" "Ttaz"
+		dialog "The Ttaz has been destroyed."
+	npc kill
+		government "Galactic Empire"
+		personality heroic vindictive staying
+		system "Geonosis"
+		ship "TIE/LN Fighter (Fighter)" "Iota Leader"
+		ship "TIE/LN Fighter (Fighter)" "Iota 2"
+		ship "TIE/LN Fighter (Fighter)" "Iota 3"
+		ship "TIE/LN Fighter (Fighter)" "Iota 4"
+		ship "TIE/LN Fighter (Fighter)" "Iota 5"
+		ship "TIE/LN Fighter (Fighter)" "Iota 6"
+		ship "TIE/LN Fighter (Fighter)" "Iota 7"
+		ship "TIE/LN Fighter (Fighter)" "Iota 8"
+		ship "TIE/LN Fighter (Fighter)" "Iota 9"
+		ship "TIE/LN Fighter (Fighter)" "Iota 10"
+		ship "TIE/LN Fighter (Fighter)" "Iota 11"
+		ship "TIE/LN Fighter (Fighter)" "Iota 12"
+		ship "TIE/LN Fighter (Fighter)" "Iota 13"
+		ship "TIE/LN Fighter (Fighter)" "Iota 14"
+		ship "TIE/LN Fighter (Fighter)" "Iota 15"
+		ship "TIE/LN Fighter (Fighter)" "Iota 16"
+		ship "TIE/LN Fighter (Fighter)" "Iota 17"
+		ship "TIE/LN Fighter (Fighter)" "Iota 18"
+		ship "TIE/LN Fighter (Fighter)" "Iota 19"
+		ship "TIE/LN Fighter (Fighter)" "Iota 20"
+		ship "TIE/LN Fighter (Fighter)" "Iota 21"
+		ship "TIE/LN Fighter (Fighter)" "Iota 22"
+		ship "TIE/LN Fighter (Fighter)" "Iota 23"
+		ship "TIE/LN Fighter (Fighter)" "Iota 24"
+		dialog "The TIE fighter squadron has been destroyed."
+	on enter Geonosis
+		conversation
+			`The Imperial Blockade in this system hails you.`
+			`	"This system is under quarantine. Leave immediately, or we will be forced to fire upon you."`
+			scene "scene/geonosis"
+
 mission "Scarif Defence Fleet"
 	invisible
 	landing

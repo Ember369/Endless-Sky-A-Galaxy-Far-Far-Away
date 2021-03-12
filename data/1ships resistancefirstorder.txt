@@ -20,7 +20,7 @@ ship "A/SF-03 B-Wing"
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
-		"drag" 1
+		"drag" 1.19
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
@@ -79,7 +79,7 @@ ship "A/SF-03 B-Wing (Fighter)"
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
-		"drag" 1
+		"drag" 1.19
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
@@ -138,12 +138,12 @@ ship "BTA-NR2 Y-Wing"
 		"required crew" 1
 		bunks 2
 		mass 30
-		drag 1
+		drag 1.35
 		"heat dissipation" 0.7
 		"fuel capacity" 700
 		"cargo space" 0
 		"outfit space" 20
-		"weapon capacity" 8
+		"weapon capacity" 7
 		"engine capacity" 5
 		"hullslot capacity" 1
 		"shieldslot capacity" 1
@@ -196,12 +196,12 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 		"required crew" 1
 		bunks 2
 		mass 30
-		drag 1
+		drag 1.35
 		"heat dissipation" 0.7
 		"fuel capacity" 700
 		"cargo space" 0
 		"outfit space" 20
-		"weapon capacity" 8
+		"weapon capacity" 7
 		"engine capacity" 5
 		"hullslot capacity" 1
 		"shieldslot capacity" 1
@@ -254,10 +254,10 @@ ship "Fireball"
 		"required crew" 1
 		bunks 1
 		mass 21
-		drag 0.9
+		drag 0.83
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 16
+		"outfit space" 14
 		"weapon capacity" 2
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -328,7 +328,7 @@ ship "RZ2 A-Wing"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"P1 Sublight Engine"
+		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -5 18
@@ -384,7 +384,7 @@ ship "RZ2 A-Wing (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"P1 Sublight Engine"
+		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -5 18
@@ -440,7 +440,7 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (R)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"P1 Sublight Engine"
+		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -5 18
@@ -496,7 +496,7 @@ ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (R) (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"P1 Sublight Engine"
+		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -5 18
@@ -552,7 +552,7 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (G)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"P1 Sublight Engine"
+		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -5 18
@@ -608,7 +608,7 @@ ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (G) (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"P1 Sublight Engine"
+		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -5 18
@@ -676,7 +676,7 @@ ship "T-70 X-Wing"
 	gun -2 -2 "Proton Torpedo Launcher"
 	gun 2 -2 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defence Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -732,7 +732,7 @@ ship "T-70 X-Wing (Fighter)"
 	gun -2 -2 "Proton Torpedo Launcher"
 	gun 2 -2 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defence Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -788,7 +788,7 @@ ship  "T-70 X-Wing" "T-70 X-Wing (Bl)"
 	gun -2 0 "Proton Torpedo Launcher"
 	gun 2 0 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defence Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -844,7 +844,7 @@ ship "T-70 X-Wing" "T-70 X-Wing (Bl) (Fighter)"
 	gun -2 0 "Proton Torpedo Launcher"
 	gun 2 0 "Proton Torpedo Launcher"
 	explode "large explosion" 3
-	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defense Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
+	description "The T-70 X-wing starfighter is the successor to the T-65B X-wing starfighter, manufactured by Incom-FreiTek for use by the New Republic Defence Fleet. Faster and more expensive and complex than the former T-65B, the T-70 features advanced weaponry. The design has proved to be more versatile than its predecessor, becoming essential in both dogfights and capital-ship scale combat operations."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -977,8 +977,8 @@ ship "MG-100 Starfortress SF-17"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 225
-		"weapon capacity" 210
+		"outfit space" 27
+		"weapon capacity" 13
 		"engine capacity" 5
 		weapon
 			"blast radius" 80
@@ -1041,8 +1041,8 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (w/out)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 225
-		"weapon capacity" 210
+		"outfit space" 27
+		"weapon capacity" 13
 		"engine capacity" 5
 		weapon
 			"blast radius" 80
@@ -1104,8 +1104,8 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (R)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 225
-		"weapon capacity" 210
+		"outfit space" 27
+		"weapon capacity" 13
 		"engine capacity" 5
 		weapon
 			"blast radius" 80
@@ -1168,8 +1168,8 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (R) (w/out)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 225
-		"weapon capacity" 210
+		"outfit space" 27
+		"weapon capacity" 13
 		"engine capacity" 5
 		weapon
 			"blast radius" 80
@@ -1223,10 +1223,10 @@ ship "Free Virgillia Bunkerbuster"
 		"cost" 16200000
 		"shields" 50000
 		"hull" 20000
-		"required crew" 23
-		"bunks" 200
+		"required crew" 375
+		"bunks" 1290
 		"mass" 6290
-		"drag" 17.0
+		"drag" 27.74
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 250
@@ -1301,12 +1301,12 @@ ship "AAL Troop Transport"
 		"required crew" 2
 		"bunks" 22
 		"mass" 33
-		"drag" 1.4
+		"drag" 1.96
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 200
-		"outfit space" 16
-		"weapon capacity" 3
+		"outfit space" 15
+		"weapon capacity" 2
 		"engine capacity" 5
 		weapon
 			"blast radius" 300
@@ -1335,6 +1335,100 @@ ship "AAL Troop Transport"
 	"final explode" "final explosion large" 1
 	description "The AAL-1971/9.1 Troop Transport, also known as an Atmospheric Assault Lander (AAL) or First Order Transporter, is an armoured troop carrier operated by the First Order designed to ferry up to twenty stormtroopers from orbital vessels to planetary surfaces."
 	description "Artwork/model by SQUIR"
+
+
+
+ship "TIE/DG Fighter"
+	sprite "ship/tiedgfighter"
+	thumbnail "thumbnail/tiedgfighter"
+	attributes
+		licenses
+			Imperial
+		category Interceptor
+		"absolute threshold" 20
+		"cost" 80000
+		"shields" 0
+		"hull" 2450
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.94
+		"heat dissipation" .9
+		"outfit space" 16
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"GI1 Laser Cannon" 2
+		"G2 Laser Cannon" 2
+		
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"I1 Sublight Engine"
+
+	engine 0 15.5
+	gun -12 -8 "G2 Laser Cannon"
+	gun 12 -8 "G2 Laser Cannon"
+	gun -1.5 5.5 "GI1 Laser Cannon"
+	gun 1.5 5.5 "GI1 Laser Cannon"
+	explode "large explosion" 3
+	description "The TIE/DG Fighter, also known as the TIE dagger or the Sith TIE fighter, is a type of Sith affiliated TIE line starship that was forged in secret by forces under the command of the reborn Emperor Palpatine, along with the Xyston Star Destroyer and other new technology created by the Final Order."
+	description "Artwork/model by David Onizaki"
+
+
+
+ship "TIE/DG Fighter (Fighter)"
+	sprite "ship/tiedgfighter"
+	thumbnail "thumbnail/tiedgfighter"
+	attributes
+		licenses
+			Imperial
+		category Fighter
+		"absolute threshold" 20
+		"cost" 80000
+		"shields" 0
+		"hull" 2450
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.94
+		"heat dissipation" .9
+		"outfit space" 16
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"GI1 Laser Cannon" 2
+		"G2 Laser Cannon" 2
+		
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"I1 Sublight Engine"
+
+	engine 0 15.5
+	gun -12 -8 "G2 Laser Cannon"
+	gun 12 -8 "G2 Laser Cannon"
+	gun -1.5 5.5 "GI1 Laser Cannon"
+	gun 1.5 5.5 "GI1 Laser Cannon"
+	explode "large explosion" 3
+	description "The TIE/DG Fighter, also known as the TIE dagger or the Sith TIE fighter, is a type of Sith affiliated TIE line starship that was forged in secret by forces under the command of the reborn Emperor Palpatine, along with the Xyston Star Destroyer and other new technology created by the Final Order."
+	description "Artwork/model by David Onizaki"
 
 
 
@@ -1372,7 +1466,7 @@ ship "TIE/FO Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		
 	engine -7 10
 	engine 7 9
@@ -1418,7 +1512,7 @@ ship "TIE/FO Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		
 	engine -7 10
 	engine 7 9
@@ -1467,7 +1561,7 @@ ship "TIE/SF Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		
 	engine -10 10
 	engine 10 10
@@ -1519,7 +1613,7 @@ ship "TIE/SF Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		
 	engine -10 10
 	engine 10 10
@@ -1542,8 +1636,8 @@ ship "Resurgent Star Destroyer"
 		"cost" 740000000
 		"shields" 860000
 		"hull" 224000
-		"required crew" 19000
-		"bunks" 82000
+		"required crew" 1860
+		"bunks" 2300
 		"mass" 49000
 		"drag" 62
 		"heat dissipation" .3
@@ -1552,6 +1646,7 @@ ship "Resurgent Star Destroyer"
 		"outfit space" 2208
 		"weapon capacity" 1880
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1670,8 +1765,8 @@ ship "Mandator IV Siege Dreadnought"
 		"cost" 1940000000
 		"shields" 2500000
 		"hull" 1040000
-		"required crew" 193000
-		"bunks" 300000
+		"required crew" 1950
+		"bunks" 2450
 		"mass" 94000
 		"drag" 79
 		"heat dissipation" .2
@@ -1680,6 +1775,7 @@ ship "Mandator IV Siege Dreadnought"
 		"outfit space" 5018
 		"weapon capacity" 4210
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1687,7 +1783,8 @@ ship "Mandator IV Siege Dreadnought"
 			"hit force" 950
 	outfits
 		"G6Octuple Turbolaser Turret" 24
-		"G5Quad Turbolaser Turret" 8
+		"G5Quad Turbolaser Turret" 6
+		"Orbital Autocannon" 2
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -1714,6 +1811,8 @@ ship "Mandator IV Siege Dreadnought"
 	turret 1503 2848 "G6Octuple Turbolaser Turret"
 	turret -465 2825 "G5Quad Turbolaser Turret"
 	turret 465 2825 "G5Quad Turbolaser Turret"
+	turret -750 2449.5 "Orbital Autocannon"
+	turret 750 2449.5 "Orbital Autocannon"
 	turret -1345 2346 "G6Octuple Turbolaser Turret"
 	turret 1345 2346 "G6Octuple Turbolaser Turret"
 	turret -441 2368 "G6Octuple Turbolaser Turret"
@@ -1728,8 +1827,6 @@ ship "Mandator IV Siege Dreadnought"
 	turret 625 480 "G6Octuple Turbolaser Turret"
 	turret -699 -400 "G6Octuple Turbolaser Turret"
 	turret 699 -400 "G6Octuple Turbolaser Turret"
-	turret -499 -964 "G5Quad Turbolaser Turret"
-	turret 499 -964 "G5Quad Turbolaser Turret"
 	turret -501 -1629 "G6Octuple Turbolaser Turret"
 	turret 501 -1629 "G6Octuple Turbolaser Turret"
 	turret -233 -2270 "G6Octuple Turbolaser Turret"

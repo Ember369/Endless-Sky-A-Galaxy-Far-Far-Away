@@ -20,7 +20,7 @@ ship "Annihilator Starfighter"
 		"required crew" 1
 		"bunks" 1
 		"mass" 19
-		"drag" 0.9
+		"drag" 0.86
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
@@ -74,7 +74,7 @@ ship "Annihilator Starfighter (Fighter)"
 		"required crew" 1
 		"bunks" 1
 		"mass" 19
-		"drag" 0.9
+		"drag" 0.86
 		"heat dissipation" .9
 		"fuel capacity" 0
 		"cargo space" 0
@@ -127,12 +127,12 @@ ship "BB-2 Starfire Fighter-Bomber"
 		"required crew" 2
 		"bunks" 3
 		"mass" 39
-		"drag" 1.1
+		"drag" 1.35
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 21
-		"weapon capacity" 9
+		"outfit space" 20
+		"weapon capacity" 8
 		"engine capacity" 5
 		"hullslot capacity" 1
 		"shieldslot capacity" 1
@@ -188,12 +188,12 @@ ship "BB-2 Starfire Fighter-Bomber (Fighter)"
 		"required crew" 2
 		"bunks" 3
 		"mass" 39
-		"drag" 1.1
+		"drag" 1.35
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 21
-		"weapon capacity" 9
+		"outfit space" 20
+		"weapon capacity" 8
 		"engine capacity" 5
 		"hullslot capacity" 1
 		"shieldslot capacity" 1
@@ -249,7 +249,7 @@ ship "CF9 Crossfire Starfighter"
 		"required crew" 1
 		bunks 2
 		mass 24
-		drag 0.95
+		drag 0.99
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 19
@@ -304,7 +304,7 @@ ship "CF9 Crossfire Starfighter (Fighter)"
 		"required crew" 1
 		bunks 2
 		mass 24
-		drag 0.95
+		drag 0.99
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 19
@@ -569,6 +569,110 @@ ship "Eta-5 Actis Interceptor (Fighter)"
 
 
 
+ship "Fury Starfighter"
+	sprite "ship/furystarfighter"
+	thumbnail "thumbnail/furystarfighter"
+	attributes
+		category Interceptor
+		"absolute threshold" 20
+		"cost" 100000
+		"shields" 400
+		"hull" 2100
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.99
+		"heat dissipation" .9
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"GI1 Laser Cannon" 4
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"I1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine 0 4.5
+	engine -5.5 10.5
+	engine 5.5 10.5
+	gun -13 -9 "GI1 Laser Cannon"
+	gun 13 -9 "GI1 Laser Cannon"
+	gun -2.5 -9.5 "GI1 Laser Cannon"
+	gun 2.5 -9.5 "GI1 Laser Cannon"
+	explode "large explosion" 3
+	description "The Fury-class starfighter, also known as Sith Fury, is a starfighter first used by the Sith of Darth Krayt's order. Its design is based on the Old Republic Cutlass-9 patrol fighter. These fighters appear similar to the Predator-class fighters used by pilots of the Fel Empire, with two wings curving out from the main hull. These vessels are powered by three ion drives, the largest of which was located under the hull. They are armed with dual laser cannons, fitted underneath the fighter's nose on both sides as well as on the wingtips. The cockpit is more spacious than most starfighters, which makes the fighter comfortable for long journeys."
+	description "Artwork/model by Nomada_Firefox"
+
+
+
+ship "Fury Starfighter (Fighter)"
+	sprite "ship/furystarfighter"
+	thumbnail "thumbnail/furystarfighter"
+	attributes
+		category Fighter
+		"absolute threshold" 20
+		"cost" 100000
+		"shields" 400
+		"hull" 2100
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.99
+		"heat dissipation" .9
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"GI1 Laser Cannon" 4
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"I1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine 0 4.5
+	engine -5.5 10.5
+	engine 5.5 10.5
+	gun -13 -9 "GI1 Laser Cannon"
+	gun 13 -9 "GI1 Laser Cannon"
+	gun -2.5 -9.5 "GI1 Laser Cannon"
+	gun 2.5 -9.5 "GI1 Laser Cannon"
+	explode "large explosion" 3
+	description "The Fury-class starfighter, also known as Sith Fury, is a starfighter first used by the Sith of Darth Krayt's order. Its design is based on the Old Republic Cutlass-9 patrol fighter. These fighters appear similar to the Predator-class fighters used by pilots of the Fel Empire, with two wings curving out from the main hull. These vessels are powered by three ion drives, the largest of which was located under the hull. They are armed with dual laser cannons, fitted underneath the fighter's nose on both sides as well as on the wingtips. The cockpit is more spacious than most starfighters, which makes the fighter comfortable for long journeys."
+	description "Artwork/model by Nomada_Firefox"
+
+
+
 ship "Galactic Battle Carrier"
 	sprite "ship/galacticbattlecarrier"
 	thumbnail "thumbnail/galacticbattlecarrier"
@@ -577,8 +681,8 @@ ship "Galactic Battle Carrier"
 		"cost" 190000000
 		"shields" 270000
 		"hull" 70000
-		"required crew" 10000
-		"bunks" 55000
+		"required crew" 1620
+		"bunks" 2020
 		"mass" 34000
 		"drag" 56
 		"heat dissipation" .45
@@ -587,6 +691,7 @@ ship "Galactic Battle Carrier"
 		"outfit space" 2488
 		"weapon capacity" 1730
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -692,6 +797,171 @@ ship "Galactic Battle Carrier"
 
 
 
+ship "I4 Ioniser Starfighter"
+	sprite ship/i4ioniserstarfighter
+	thumbnail thumbnail/i4ioniserstarfighter
+	attributes
+		category Interceptor
+		"absolute threshold" 20
+		cost 120000
+		shields 800
+		hull 5200
+		"required crew" 1
+		bunks 1
+		mass 31
+		drag 1.27
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"I1 Ion Cannon" 4
+		"Intruder Missile Launcher" 2
+		"Intruder Missile" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"O1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -7 19
+	engine 7 19
+	gun -20 -4 "I1 Ion Cannon"
+	gun 20 -4 "I1 Ion Cannon"
+	gun -2 -21.5 "I1 Ion Cannon"
+	gun 2 -21.5 "I1 Ion Cannon"
+	gun -9 -0.5 "Intruder Missile Launcher"
+	gun 9 -0.5 "Intruder Missile Launcher"
+	explode "large explosion" 3
+	description "The I4 Ioniser starfighter is produced by Koensayr Manufacturing, the famed producer of the Rebel Alliance's ubiquitous Y-wing starfighter. The I4 Ioniser is designed to quickly disable enemy vessels with their ion weaponry. A squadron of Ionisers is capable of disabling small freighters in one pass. Larger targets such as capital ships can suffer extensive damage to key systems if they fall prey to attack runs by Ionisers as well."
+	description "Artwork/model by Nomada_Firefox"
+
+
+ship "I4 Ioniser Starfighter (Fighter)"
+	sprite ship/i4ioniserstarfighter
+	thumbnail thumbnail/i4ioniserstarfighter
+	attributes
+		category Fighter
+		"absolute threshold" 20
+		cost 120000
+		shields 800
+		hull 5200
+		"required crew" 1
+		bunks 1
+		mass 31
+		drag 1.27
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 19
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 42
+			"shield damage" 325
+			"hull damage" 175
+			"hit force" 465
+	outfits
+		"I1 Ion Cannon" 4
+		"Intruder Missile Launcher" 2
+		"Intruder Missile" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"O1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -7 19
+	engine 7 19
+	gun -20 -4 "I1 Ion Cannon"
+	gun 20 -4 "I1 Ion Cannon"
+	gun -2 -21.5 "I1 Ion Cannon"
+	gun 2 -21.5 "I1 Ion Cannon"
+	gun -9 -0.5 "Intruder Missile Launcher"
+	gun 9 -0.5 "Intruder Missile Launcher"
+	explode "large explosion" 3
+	description "The I4 Ioniser starfighter is produced by Koensayr Manufacturing, the famed producer of the Rebel Alliance's ubiquitous Y-wing starfighter. The I4 Ioniser is designed to quickly disable enemy vessels with their ion weaponry. A squadron of Ionisers is capable of disabling small freighters in one pass. Larger targets such as capital ships can suffer extensive damage to key systems if they fall prey to attack runs by Ionisers as well."
+	description "Artwork/model by Nomada_Firefox"
+
+
+
+ship "J-1 Shuttle"
+	sprite "ship/j1shuttle"
+	thumbnail "thumbnail/j1shuttle"
+	attributes
+		category "Transport"
+		"cost" 80000
+		"shields" 3100
+		"hull" 5100
+		"required crew" 2
+		"bunks" 32
+		"mass" 39
+		"drag" 2.0
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 17
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"R2 Laser Cannon" 2
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		
+		"B1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -8.5 21.5
+	engine 8.5 21.5
+	gun -11.5 -23 "R2 Laser Cannon"
+	gun 11.5 -23 "R2 Laser Cannon"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The J-1 shuttle, commonly known as the 'Jedi shuttle' for its use by the New Jedi Order, is a personnel and light starship transport vessel in use around 130 ABY. Conceived primarily as transports for Jedi students, most shuttles were originally unarmed."
+	description "Artwork/model by Unusualsuspex"
+
+
+
 ship "Krayt Dragon Ship"
 	sprite "ship/kraytdragonship"
 	thumbnail "thumbnail/kraytdragonship"
@@ -701,9 +971,9 @@ ship "Krayt Dragon Ship"
 		"shields" 34300
 		"hull" 11800
 		"required crew" 200
-		"bunks" 400
+		"bunks" 470
 		"mass" 2280
-		"drag" 8.25
+		"drag" 12.33
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 10

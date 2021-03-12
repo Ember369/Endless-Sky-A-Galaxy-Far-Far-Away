@@ -241,31 +241,41 @@ system "Battle Testing"
 		distance 3000
 		period 360
 		offset 15
-	object ef76nebulonfrigateb
+	object dreadnaughtheavycruiser
 		sprite planet/rock1
 		distance 3000
 		period 360
 		offset 20
-	object imperialidestroyer
+	object ef76nebulonfrigateb
 		sprite planet/rock1
 		distance 3000
 		period 360
 		offset 25
-	object mc80astarcruiser
+	object imperialidestroyer
 		sprite planet/rock1
 		distance 3000
 		period 360
 		offset 30
-	object tartanpatrolcruiser
+	object mc80astarcruiser
 		sprite planet/rock1
 		distance 3000
 		period 360
 		offset 35
-	object victoryidestroyer
+	object neutronstarbulkcruiser
 		sprite planet/rock1
 		distance 3000
 		period 360
 		offset 40
+	object tartanpatrolcruiser
+		sprite planet/rock1
+		distance 3000
+		period 360
+		offset 45
+	object victoryidestroyer
+		sprite planet/rock1
+		distance 3000
+		period 360
+		offset 50
 
 planet "Battle Testing"
 	landscape land/coruscant
@@ -317,6 +327,12 @@ planet cr90corvetteliberator
 		threshold 0
 		fleet cr90corvetteliberator
 
+planet dreadnaughtheavycruiser
+	landscape land/unknown
+	tribute 100000
+		threshold 0
+		fleet dreadnaughtheavycruiser
+
 planet ef76nebulonfrigateb
 	landscape land/unknown
 	tribute 100000
@@ -334,6 +350,12 @@ planet mc80astarcruiser
 	tribute 100000
 		threshold 0
 		fleet mc80astarcruiser
+
+planet neutronstarbulkcruiser
+	landscape land/unknown
+	tribute 100000
+		threshold 0
+		fleet neutronstarbulkcruiser
 
 planet tartanpatrolcruiser
 	landscape land/unknown
@@ -388,6 +410,14 @@ fleet cr90corvetteliberator
 	variant 10
 		"CR90 Corvette (Liberator)"
 
+fleet dreadnaughtheavycruiser
+	government "Testing"
+	cargo 1
+	personality
+		opportunistic
+	variant 10
+		"Dreadnaught Heavy Cruiser"
+
 fleet ef76nebulonfrigateb
 	government "Testing"
 	cargo 1
@@ -411,6 +441,14 @@ fleet mc80astarcruiser
 		opportunistic
 	variant 10
 		"MC80A Star Cruiser"
+
+fleet neutronstarbulkcruiser
+	government "Testing"
+	cargo 1
+	personality
+		opportunistic
+	variant 10
+		"Neutron Star Bulk Cruiser"
 
 fleet tartanpatrolcruiser
 	government "Testing"
@@ -675,7 +713,6 @@ mission "Galaxy Fleet"
 				"Firespray-31 Patrol Craft"
 				"Firespray-31 Patrol Craft (W)"
 				"Flarestar Attack Shuttle"
-				"Flarestar Attack Shuttle (Fighter)"
 				"Foray Blockade Runner"
 				"FT-6 Pike Starfighter"
 				"FT-6 Pike Starfighter (Fighter)"
@@ -834,10 +871,10 @@ mission "Galaxy Fleet"
 				"Xiytiar Transport"
 				"XS Stock Light Freighter"
 				"YG-4210 Freighter"
-				"YT-1300 Freighter"
-				"YT-1300 Freighter (Millennium Falcon)"
-				"YT-1300 Freighter (R)"
-				"YT-1350XT Freighter"
+				"YT-1300 Light Freighter"
+				"YT-1300 Light Freighter (Millennium Falcon)"
+				"YT-1300 Light Freighter (R)"
+				"YT-1350XT Light Freighter"
 				"YZ-2200 Heavy Transport"
 				"Zakuul Shuttle"
 				"Zenith Cruiser"

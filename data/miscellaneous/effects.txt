@@ -33,35 +33,35 @@ effect "pointdefence"
 
 
 effect "slam engine b"
-	sprite "effect/blue flare/tiny"
+	sprite "effect/blue flare/micro"
 		"no repeat"
 		"frame rate" 0.8
 	sound "flare tiny"
 	"lifetime" 1
 
-effect "slam engine b imp"
-	sprite "effect/blue flare/tiny"
+effect "slam engine redion"
+	sprite "effect/redion flare/micro"
 		"no repeat"
 		"frame rate" 0.8
 	sound "flare tiny imp"
 	"lifetime" 1
 
 effect "slam engine g"
-	sprite "effect/green flare/tiny"
+	sprite "effect/green flare/micro"
 		"no repeat"
 		"frame rate" 0.8
 	sound "flare tiny"
 	"lifetime" 1
 
 effect "slam engine o"
-	sprite "effect/orange flare/tiny"
+	sprite "effect/orange flare/micro"
 		"no repeat"
 		"frame rate" 0.8
 	sound "flare tiny"
 	"lifetime" 1
 
 effect "slam engine p"
-	sprite "effect/pink flare/tiny"
+	sprite "effect/pink flare/micro"
 		"no repeat"
 		"frame rate" 0.8
 	sound "flare tiny"

@@ -21,7 +21,7 @@ outfit "YV1 Yaret-kor Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
@@ -53,7 +53,7 @@ outfit "YV1 Yaret-kor Turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 15
 		"turret turn" 6
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 40
 		"reload" 90
 		"firing energy" 20
@@ -79,7 +79,7 @@ outfit "Transport Yaret-kor Cannon"
 		sound "particle"
 		"hit effect" "particle impact"
 		"inaccuracy" 15
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
 		"reload" 120
 		"firing energy" 30
@@ -112,7 +112,7 @@ outfit "YV2 Yaret-kor Turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 15
 		"turret turn" 3
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 50
 		"reload" 140
 		"firing energy" 30
@@ -142,7 +142,7 @@ outfit "YV2 Heavy Yaret-kor Turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 15
 		"turret turn" 2
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 90
 		"reload" 160
 		"firing energy" 35
@@ -171,7 +171,7 @@ outfit "YV3 Yaret-kor Turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 17
 		"turret turn" 1
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 160
 		"reload" 320
 		"firing energy" 120
@@ -198,7 +198,7 @@ outfit "YV4 Yaret-kor Turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 17
 		"turret turn" 0.7
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 170
 		"reload" 320
 		"firing energy" 170
@@ -224,7 +224,7 @@ outfit "YV5 Yaret-kor Turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 17
 		"turret turn" 0.5
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 180
 		"reload" 320
 		"firing energy" 300
@@ -246,7 +246,7 @@ outfit "YV5 Yaret-kor Cannon"
 		sound "redlaser"
 		"hit effect" "particle impact"
 		"inaccuracy" 10
-		"velocity" 20
+		"velocity" 12
 		"lifetime" 300
 		"reload" 650
 		"firing energy" 350

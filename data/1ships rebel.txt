@@ -380,7 +380,7 @@ ship "A/SF-01 Dual B-Wing"
 		"required crew" 1
 		"bunks" 2
 		"mass" 32
-		"drag" 1
+		"drag" 1.21
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
@@ -440,11 +440,11 @@ ship "A/SF-01 Dual B-Wing (Fighter)"
 		"required crew" 1
 		"bunks" 2
 		"mass" 32
-		"drag" 1
+		"drag" 1.21
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 22
+		"outfit space" 24
 		"weapon capacity" 9
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -495,8 +495,8 @@ ship "Assault Frigate Mark II"
 		"cost" 56500000
 		"shields" 151000
 		"hull" 50000
-		"required crew" 4820
-		"bunks" 11000
+		"required crew" 740
+		"bunks" 1740
 		"mass" 18900
 		"drag" 46.0
 		"heat dissipation" .45
@@ -505,6 +505,7 @@ ship "Assault Frigate Mark II"
 		"outfit space" 1838
 		"weapon capacity" 1080
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -563,13 +564,13 @@ ship "Bussard Tanker"
 		"cost" 4650000
 		"shields" 30000
 		"hull" 11000
-		"required crew" 60
-		"bunks" 190
+		"required crew" 8
+		"bunks" 30
 		"mass" 2220
-		"drag" 7.95
+		"drag" 27.75
 		"heat dissipation" .45
 		"fuel capacity" 1000
-		"cargo space" 440
+		"cargo space" 850
 		"outfit space" 164
 		"weapon capacity" 0
 		"engine capacity" 88
@@ -844,7 +845,7 @@ ship "CC-7700 Interdictor Frigate"
 		"cost" 3800000
 		"shields" 26500
 		"hull" 10500
-		"required crew" 100
+		"required crew" 50
 		"bunks" 150
 		"mass" 1770
 		"drag" 7.8
@@ -862,7 +863,7 @@ ship "CC-7700 Interdictor Frigate"
 	outfits
 		"R2 Laser Cannon" 2
 		"R4Dual Turbolaser Turret" 2
-		"R3 Turbolaser Turret" 4
+		"R2Dual Laser Turret" 4
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
@@ -876,10 +877,10 @@ ship "CC-7700 Interdictor Frigate"
 	engine 48 211.5
 	gun -14 -194 "R2 Laser Cannon"
 	gun 14 -194 "R2 Laser Cannon"
-	turret -56.5 68 "R3 Turbolaser Turret"
-	turret 56.5 68 "R3 Turbolaser Turret"
-	turret -56 9 "R3 Turbolaser Turret"
-	turret 56 9 "R3 Turbolaser Turret"
+	turret -56.5 68 "R2Dual Laser Turret"
+	turret 56.5 68 "R2Dual Laser Turret"
+	turret -56 9 "R2Dual Laser Turret"
+	turret 56 9 "R2Dual Laser Turret"
 	turret -26 -126.5 "R4Dual Turbolaser Turret"
 	turret 26 -126.5 "R4Dual Turbolaser Turret"
 	explode "tiny explosion" 20
@@ -903,10 +904,10 @@ ship "CR90 Corvette"
 		"required crew" 46
 		"bunks" 400
 		"mass" 1500
-		"drag" 7.5
+		"drag" 9.25
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 40
+		"cargo space" 115
 		"outfit space" 326
 		"weapon capacity" 174
 		"engine capacity" 88
@@ -917,14 +918,14 @@ ship "CR90 Corvette"
 			"hit force" 800
 	outfits
 		"R2 Laser Cannon" 2
-		"R3 Turbolaser Turret" 4
+		"R2Heavy Laser Turret" 4
 		"R4Dual Turbolaser Turret" 2
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
 		"C3 Coolant System"
 		
-		"P3 Sublight Engine"
+		"O3 Sublight Engine"
 		"H3 Hyperspace Motivator"
 		
 	engine -45.5 189
@@ -936,10 +937,10 @@ ship "CR90 Corvette"
 	engine 0 189
 	gun -22.5 -174 "R2 Laser Cannon"
 	gun 22.5 -174 "R2 Laser Cannon"
-	turret -27 -50 "R3 Turbolaser Turret"
-	turret 27 -50 "R3 Turbolaser Turret"
-	turret -27 -74.5 "R3 Turbolaser Turret"
-	turret 27 -74.5 "R3 Turbolaser Turret"
+	turret -27 -50 "R2Heavy Laser Turret"
+	turret 27 -50 "R2Heavy Laser Turret"
+	turret -27 -74.5 "R2Heavy Laser Turret"
+	turret 27 -74.5 "R2Heavy Laser Turret"
 	turret 0 -107.5 "R4Dual Turbolaser Turret"
 	turret 0 -107.5 "R4Dual Turbolaser Turret"
 	fighter -44 48 under
@@ -966,10 +967,10 @@ ship "CR90 Corvette" "CR90 Corvette (Liberator)"
 		"required crew" 46
 		"bunks" 400
 		"mass" 1500
-		"drag" 7.5
+		"drag" 9.25
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 40
+		"cargo space" 115
 		"outfit space" 326
 		"weapon capacity" 174
 		"engine capacity" 88
@@ -980,14 +981,14 @@ ship "CR90 Corvette" "CR90 Corvette (Liberator)"
 			"hit force" 800
 	outfits
 		"R2 Laser Cannon" 2
-		"R2 Heavy Laser Turret" 4
+		"R2Heavy Laser Turret" 4
 		"R4Dual Turbolaser Turret" 2
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
 		"C3 Coolant System"
 		
-		"P3 Sublight Engine"
+		"O3 Sublight Engine"
 		"H3 Hyperspace Motivator"
 		
 	engine -45.5 189
@@ -999,10 +1000,10 @@ ship "CR90 Corvette" "CR90 Corvette (Liberator)"
 	engine 0 189
 	gun -19 -175 "R2 Laser Cannon"
 	gun 19 -175 "R2 Laser Cannon"
-	turret -27 -50 "R2 Heavy Laser Turret"
-	turret 27 -50 "R2 Heavy Laser Turret"
-	turret -27 -74.5 "R2 Heavy Laser Turret"
-	turret 27 -74.5 "R2 Heavy Laser Turret"
+	turret -27 -50 "R2Heavy Laser Turret"
+	turret 27 -50 "R2Heavy Laser Turret"
+	turret -27 -74.5 "R2Heavy Laser Turret"
+	turret 27 -74.5 "R2Heavy Laser Turret"
 	turret 0 -107.5 "R4Dual Turbolaser Turret"
 	turret 0 -107.5 "R4Dual Turbolaser Turret"
 	fighter -44 48 under
@@ -1029,7 +1030,7 @@ ship "CR90 Corvette" "CR90 Corvette (Modified)"
 		"required crew" 46
 		"bunks" 400
 		"mass" 1575
-		"drag" 7.5
+		"drag" 9.4
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 40
@@ -1043,14 +1044,14 @@ ship "CR90 Corvette" "CR90 Corvette (Modified)"
 			"hit force" 800
 	outfits
 		"R2 Laser Cannon" 2
-		"R3 Turbolaser Turret" 4
+		"R2Heavy Laser Turret" 4
 		"R4Dual Turbolaser Turret" 2
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
 		"C3 Coolant System"
 		
-		"P3 Sublight Engine"
+		"O3 Sublight Engine"
 		"H3 Hyperspace Motivator"
 		
 	engine -49.5 189
@@ -1062,10 +1063,10 @@ ship "CR90 Corvette" "CR90 Corvette (Modified)"
 	engine 0 189
 	gun -19.5 -173 "R2 Laser Cannon"
 	gun 19.5 -173 "R2 Laser Cannon"
-	turret -26.5 -57 "R3 Turbolaser Turret"
-	turret 26.5 -57 "R3 Turbolaser Turret"
-	turret -26.5 -80 "R3 Turbolaser Turret"
-	turret 26.5 -80 "R3 Turbolaser Turret"
+	turret -26.5 -57 "R2Heavy Laser Turret"
+	turret 26.5 -57 "R2Heavy Laser Turret"
+	turret -26.5 -80 "R2Heavy Laser Turret"
+	turret 26.5 -80 "R2Heavy Laser Turret"
 	turret 0 -111 "R4Dual Turbolaser Turret"
 	turret 0 -111 "R4Dual Turbolaser Turret"
 	fighter -36.5 40 under
@@ -1092,7 +1093,7 @@ ship "CR92a Assassin Corvette"
 		"required crew" 60
 		"bunks" 210
 		"mass" 1620
-		"drag" 7.65
+		"drag" 9.25
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
@@ -1106,14 +1107,14 @@ ship "CR92a Assassin Corvette"
 			"hit force" 800
 	outfits
 		"R2 Laser Cannon" 2
-		"R3 Turbolaser Turret" 6
+		"R2Heavy Laser Turret" 6
 		"R4Dual Turbolaser Turret" 2
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
 		"C3 Coolant System"
 		
-		"P3 Sublight Engine"
+		"O3 Sublight Engine"
 		"H3 Hyperspace Motivator"
 		
 	engine -46.5 181.5
@@ -1125,13 +1126,13 @@ ship "CR92a Assassin Corvette"
 	engine 0 180.5
 	gun -16 -167 "R2 Laser Cannon"
 	gun 16 -167 "R2 Laser Cannon"
-	turret -34.5 35 "R3 Turbolaser Turret"
-	turret 34.5 35 "R3 Turbolaser Turret"
+	turret -34.5 35 "R2Heavy Laser Turret"
+	turret 34.5 35 "R2Heavy Laser Turret"
 	turret 0 19.5 "R4Dual Turbolaser Turret"
-	turret -55 18 "R3 Turbolaser Turret"
-	turret 55 18 "R3 Turbolaser Turret"
-	turret -33.5 -6 "R3 Turbolaser Turret"
-	turret 33.5 -6 "R3 Turbolaser Turret"
+	turret -55 18 "R2Heavy Laser Turret"
+	turret 55 18 "R2Heavy Laser Turret"
+	turret -33.5 -6 "R2Heavy Laser Turret"
+	turret 33.5 -6 "R2Heavy Laser Turret"
 	turret 0 -134.5 "R4Dual Turbolaser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -1151,8 +1152,8 @@ ship "Dauntless Heavy Cruiser"
 		"cost" 110000000
 		"shields" 205000
 		"hull" 59000
-		"required crew" 5550
-		"bunks" 8750
+		"required crew" 1340
+		"bunks" 1900
 		"mass" 26000
 		"drag" 49.0
 		"heat dissipation" .45
@@ -1161,6 +1162,7 @@ ship "Dauntless Heavy Cruiser"
 		"outfit space" 2438
 		"weapon capacity" 1680
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 1000
@@ -1260,13 +1262,13 @@ ship "Dornean Gunship"
 		"cost" 1400000
 		"shields" 18000
 		"hull" 8000
-		"required crew" 75
-		"bunks" 90
+		"required crew" 20
+		"bunks" 50
 		"mass" 1275
-		"drag" 7.2
+		"drag" 8.54
 		"heat dissipation" .45
 		"fuel capacity" 800
-		"cargo space" 30
+		"cargo space" 100
 		"outfit space" 246
 		"weapon capacity" 94
 		"engine capacity" 88
@@ -1276,7 +1278,8 @@ ship "Dornean Gunship"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"R3 Turbolaser Turret" 4
+		"R2 Laser Cannon" 2
+		"R2 Laser Turret" 4
 		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack" 2
 		"Concussion Missile" 16
@@ -1285,7 +1288,7 @@ ship "Dornean Gunship"
 		"D3 Deflector Shield"
 		"C3 Coolant System"
 		
-		"P3 Sublight Engine"
+		"O3 Sublight Engine"
 		"H3 Hyperspace Motivator"
 		
 	engine -0.5 116.5
@@ -1293,10 +1296,12 @@ ship "Dornean Gunship"
 	engine 17.5 96
 	gun -9 -88 "Concussion Missile Launcher"
 	gun 9 -88 "Concussion Missile Launcher"
-	turret -19 84.5 "R3 Turbolaser Turret"
-	turret 19 84.5 "R3 Turbolaser Turret"
-	turret -18 5.5 "R3 Turbolaser Turret"
-	turret 18 5.5 "R3 Turbolaser Turret"
+	gun -9 -88 "R2 Laser Cannon"
+	gun 9 -88 "R2 Laser Cannon"
+	turret -19 84.5 "R2 Laser Turret"
+	turret 19 84.5 "R2 Laser Turret"
+	turret -18 5.5 "R2 Laser Turret"
+	turret 18 5.5 "R2 Laser Turret"
 	fighter -9.5 -24.5 under
 	fighter 9.5 -24.5 under
 	explode "tiny explosion" 20
@@ -1320,10 +1325,10 @@ ship "DP20 Frigate"
 		"required crew" 45
 		"bunks" 100
 		"mass" 1425
-		"drag" 7.5
+		"drag" 11.1
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 40
+		"cargo space" 100
 		"outfit space" 406
 		"weapon capacity" 254
 		"engine capacity" 88
@@ -1334,7 +1339,7 @@ ship "DP20 Frigate"
 			"hit force" 750
 	outfits
 		"R2 Laser Cannon" 2
-		"R3 Turbolaser Turret" 8
+		"R2Heavy Laser Turret" 8
 		"Assault Concussion Missile Launcher" 2
 		"Assault Concussion Missile" 40
 		
@@ -1352,14 +1357,14 @@ ship "DP20 Frigate"
 	gun 10.5 -140.5 "R2 Laser Cannon"
 	gun -39.5 43 "Assault Concussion Missile Launcher"
 	gun 39.5 43 "Assault Concussion Missile Launcher"
-	turret 0 137.5 "R3 Turbolaser Turret"
-	turret -59.5 114 "R3 Turbolaser Turret"
-	turret 59.5 114 "R3 Turbolaser Turret"
-	turret -7.5 80 "R3 Turbolaser Turret"
-	turret 7.5 80 "R3 Turbolaser Turret"
-	turret -29.5 -40 "R3 Turbolaser Turret"
-	turret 29.5 -40 "R3 Turbolaser Turret"
-	turret 0 -37.5 "R3 Turbolaser Turret"
+	turret 0 137.5 "R2Heavy Laser Turret"
+	turret -59.5 114 "R2Heavy Laser Turret"
+	turret 59.5 114 "R2Heavy Laser Turret"
+	turret -7.5 80 "R2Heavy Laser Turret"
+	turret 7.5 80 "R2Heavy Laser Turret"
+	turret -29.5 -40 "R2Heavy Laser Turret"
+	turret 29.5 -40 "R2Heavy Laser Turret"
+	turret 0 -37.5 "R2Heavy Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1381,10 +1386,10 @@ ship "DP20 Frigate" "DP20 Frigate (Modified)"
 		"required crew" 45
 		"bunks" 100
 		"mass" 1425
-		"drag" 7.5
+		"drag" 11.1
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 40
+		"cargo space" 100
 		"outfit space" 406
 		"weapon capacity" 254
 		"engine capacity" 88
@@ -1395,7 +1400,7 @@ ship "DP20 Frigate" "DP20 Frigate (Modified)"
 			"hit force" 750
 	outfits
 		"R2 Laser Cannon" 2
-		"R3 Turbolaser Turret" 8
+		"R2Heavy Laser Turret" 8
 		"Assault Concussion Missile Launcher" 2
 		"Assault Concussion Missile" 40
 		
@@ -1413,14 +1418,14 @@ ship "DP20 Frigate" "DP20 Frigate (Modified)"
 	gun 13 -144 "R2 Laser Cannon"
 	gun -28.5 40.5 "Assault Concussion Missile Launcher"
 	gun 28.5 40.5 "Assault Concussion Missile Launcher"
-	turret 0 133.5 "R3 Turbolaser Turret"
-	turret -64 113 "R3 Turbolaser Turret"
-	turret 64 113 "R3 Turbolaser Turret"
-	turret 0 30 "R3 Turbolaser Turret"
-	turret 0 30 "R3 Turbolaser Turret"
-	turret 0 -25.5 "R3 Turbolaser Turret"
-	turret -50.5 -26 "R3 Turbolaser Turret"
-	turret 50.5 -26 "R3 Turbolaser Turret"
+	turret 0 133.5 "R2Heavy Laser Turret"
+	turret -64 113 "R2Heavy Laser Turret"
+	turret 64 113 "R2Heavy Laser Turret"
+	turret 0 30 "R2Heavy Laser Turret"
+	turret 0 30 "R2Heavy Laser Turret"
+	turret 0 -25.5 "R2Heavy Laser Turret"
+	turret -50.5 -26 "R2Heavy Laser Turret"
+	turret 50.5 -26 "R2Heavy Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1440,9 +1445,9 @@ ship "EF76 Nebulon-B Frigate"
 		"shields" 36600
 		"hull" 15000
 		"required crew" 307
-		"bunks" 1550
+		"bunks" 995
 		"mass" 4675
-		"drag" 12.24
+		"drag" 23.78
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 140
@@ -1461,7 +1466,7 @@ ship "EF76 Nebulon-B Frigate"
 		"D4 Deflector Shield"
 		"C4 Coolant System"
 		
-		"B4 Sublight Engine"
+		"O4 Sublight Engine"
 		"H4 Hyperspace Motivator"
 		
 	engine -62 390
@@ -1512,10 +1517,10 @@ ship "EF76 Nebulon-B2 Frigate"
 		"cost" 9000000
 		"shields" 36700
 		"hull" 15100
-		"required crew" 350
-		"bunks" 1600
+		"required crew" 315
+		"bunks" 1050
 		"mass" 4726
-		"drag" 12.24
+		"drag" 25.22
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 150
@@ -1536,7 +1541,7 @@ ship "EF76 Nebulon-B2 Frigate"
 		"D4 Deflector Shield"
 		"C4 Coolant System"
 		
-		"B4 Sublight Engine"
+		"O4 Sublight Engine"
 		"H4 Hyperspace Motivator"
 
 	engine -30 329
@@ -1587,10 +1592,10 @@ ship "GR-75 Transport"
 		"required crew" 6
 		"bunks" 300
 		"mass" 1305
-		"drag" 7.35
+		"drag" 18.5
 		"heat dissipation" .45
 		"fuel capacity" 800
-		"cargo space" 170
+		"cargo space" 340
 		"outfit space" 154
 		"weapon capacity" 0
 		"engine capacity" 78
@@ -1644,10 +1649,10 @@ ship "U-22 Orbital Loadlifter"
 		"required crew" 10
 		"bunks" 500
 		"mass" 1650
-		"drag" 7.8
+		"drag" 55.5
 		"heat dissipation" .45
 		"fuel capacity" 800
-		"cargo space" 200
+		"cargo space" 170
 		"outfit space" 154
 		"weapon capacity" 0
 		"engine capacity" 78
@@ -1692,10 +1697,10 @@ ship "Sphyrna Corvette (Modified)"
 		"required crew" 10
 		"bunks" 40
 		"mass" 1305
-		"drag" 7.35
+		"drag" 8.54
 		"heat dissipation" .45
 		"fuel capacity" 800
-		"cargo space" 30
+		"cargo space" 105
 		"outfit space" 226
 		"weapon capacity" 74
 		"engine capacity" 88
@@ -1706,13 +1711,13 @@ ship "Sphyrna Corvette (Modified)"
 			"hit force" 750
 	outfits
 		"R2 Laser Cannon" 2
-		"R3 Turbolaser Turret" 3
+		"R2Heavy Laser Turret" 3
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
 		"C3 Coolant System"
 		
-		"P3 Sublight Engine"
+		"O3 Sublight Engine"
 		"H3 Hyperspace Motivator"
 		
 	engine 0 133
@@ -1720,9 +1725,9 @@ ship "Sphyrna Corvette (Modified)"
 	engine 27.5 132
 	gun -17 -108.5 "R2 Laser Cannon"
 	gun 17 -108.5 "R2 Laser Cannon"
-	turret 0 41.5 "R3 Turbolaser Turret"
-	turret -17 -108.5 "R3 Turbolaser Turret"
-	turret 17 -108.5 "R3 Turbolaser Turret"
+	turret 0 41.5 "R2Heavy Laser Turret"
+	turret -17 -108.5 "R2Heavy Laser Turret"
+	turret 17 -108.5 "R2Heavy Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1745,12 +1750,12 @@ ship "BTL-S8 K-Wing"
 		"required crew" 2
 		"bunks" 4
 		"mass" 37
-		"drag" 1.3
+		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 36
-		"weapon capacity" 26
+		"outfit space" 30
+		"weapon capacity" 18
 		"engine capacity" 5
 		weapon
 			"blast radius" 45
@@ -1758,19 +1763,19 @@ ship "BTL-S8 K-Wing"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"R1 Heavy Laser Turret" 2
-		"Advanced Homing Missile Launcher" 4
+		"R1Heavy Laser Turret" 2
+		"Advanced Homing Missile Launcher" 2
 		"Advanced Homing Missile Storage Rack"
-		"Advanced Homing Missile" 17
-		"Cluster Missile Launcher" 6
+		"Advanced Homing Missile" 11
+		"Cluster Missile Launcher" 2
 		"Cluster Missile Storage Rack"
-		"Cluster Missile" 100
-		"Concussion Missile Launcher" 4
+		"Cluster Missile" 11
+		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack"
-		"Concussion Missile" 17
+		"Concussion Missile" 11
 		"Plasma Torpedo Launcher" 2
 		"Plasma Torpedo Storage Rack"
-		"Plasma Torpedo" 12
+		"Plasma Torpedo" 11
 
 		"P1 Power Converter"
 		"D1 Deflector Shield"
@@ -1786,22 +1791,16 @@ ship "BTL-S8 K-Wing"
 	engine 11.5 17
 	gun -18 2 "Advanced Homing Missile Launcher"
 	gun 18 2 "Advanced Homing Missile Launcher"
-	gun -20.5 2 "Advanced Homing Missile Launcher"
-	gun 20.5 2 "Advanced Homing Missile Launcher"
 	gun -13.5 3 "Cluster Missile Launcher"
 	gun 13.5 3 "Cluster Missile Launcher"
-	gun -17 2.5 "Cluster Missile Launcher"
-	gun 17 2.5 "Cluster Missile Launcher"
-	gun -20 2.5 "Cluster Missile Launcher"
-	gun 20 2.5 "Cluster Missile Launcher"
-	gun -18 2 "Concussion Missile Launcher"
-	gun 18 2 "Concussion Missile Launcher"
 	gun -20.5 2 "Concussion Missile Launcher"
 	gun 20.5 2 "Concussion Missile Launcher"
 	gun -34.5 1.5 "Plasma Torpedo Launcher"
 	gun 34.5 1.5 "Plasma Torpedo Launcher"
-	turret 0 -10 "R1 Heavy Laser Turret"
-	turret 0 -20.5 "R1 Heavy Laser Turret"
+	gun -20.5 2
+	gun 20.5 2
+	turret 0 -10 "R1Heavy Laser Turret"
+	turret 0 -20.5 "R1Heavy Laser Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The BTL-S8 K-wing assault starfighter, commonly known as the K-wing, is a heavy starfighter/bomber produced by Koensayr Manufacturing, the same company responsible for producing the venerable Y-wing. The K-wing starfighter's primary missions include the precision bombing of planetary targets, slow-moving capital ships, and spaceborne installations. It also performs secondary missions as an escort or reconnaissance ship."
@@ -1821,12 +1820,12 @@ ship "BTL-S8 K-Wing (Fighter)"
 		"required crew" 2
 		"bunks" 4
 		"mass" 37
-		"drag" 1.1
+		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 36
-		"weapon capacity" 26
+		"outfit space" 30
+		"weapon capacity" 18
 		"engine capacity" 5
 		weapon
 			"blast radius" 45
@@ -1834,19 +1833,19 @@ ship "BTL-S8 K-Wing (Fighter)"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"R1 Heavy Laser Turret" 2
-		"Advanced Homing Missile Launcher" 4
+		"R1Heavy Laser Turret" 2
+		"Advanced Homing Missile Launcher" 2
 		"Advanced Homing Missile Storage Rack"
-		"Advanced Homing Missile" 17
-		"Cluster Missile Launcher" 6
+		"Advanced Homing Missile" 11
+		"Cluster Missile Launcher" 2
 		"Cluster Missile Storage Rack"
-		"Cluster Missile" 100
-		"Concussion Missile Launcher" 4
+		"Cluster Missile" 11
+		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack"
-		"Concussion Missile" 17
+		"Concussion Missile" 11
 		"Plasma Torpedo Launcher" 2
 		"Plasma Torpedo Storage Rack"
-		"Plasma Torpedo" 12
+		"Plasma Torpedo" 11
 
 		"P1 Power Converter"
 		"D1 Deflector Shield"
@@ -1862,22 +1861,16 @@ ship "BTL-S8 K-Wing (Fighter)"
 	engine 11.5 17
 	gun -18 2 "Advanced Homing Missile Launcher"
 	gun 18 2 "Advanced Homing Missile Launcher"
-	gun -20.5 2 "Advanced Homing Missile Launcher"
-	gun 20.5 2 "Advanced Homing Missile Launcher"
 	gun -13.5 3 "Cluster Missile Launcher"
 	gun 13.5 3 "Cluster Missile Launcher"
-	gun -17 2.5 "Cluster Missile Launcher"
-	gun 17 2.5 "Cluster Missile Launcher"
-	gun -20 2.5 "Cluster Missile Launcher"
-	gun 20 2.5 "Cluster Missile Launcher"
-	gun -18 2 "Concussion Missile Launcher"
-	gun 18 2 "Concussion Missile Launcher"
 	gun -20.5 2 "Concussion Missile Launcher"
 	gun 20.5 2 "Concussion Missile Launcher"
 	gun -34.5 1.5 "Plasma Torpedo Launcher"
 	gun 34.5 1.5 "Plasma Torpedo Launcher"
-	turret 0 -10 "R1 Heavy Laser Turret"
-	turret 0 -20.5 "R1 Heavy Laser Turret"
+	gun -20.5 2
+	gun 20.5 2
+	turret 0 -10 "R1Heavy Laser Turret"
+	turret 0 -20.5 "R1Heavy Laser Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The BTL-S8 K-wing assault starfighter, commonly known as the K-wing, is a heavy starfighter/bomber produced by Koensayr Manufacturing, the same company responsible for producing the venerable Y-wing. The K-wing starfighter's primary missions include the precision bombing of planetary targets, slow-moving capital ships, and spaceborne installations. It also performs secondary missions as an escort or reconnaissance ship."
@@ -1897,12 +1890,12 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (Ion Bombs)"
 		"required crew" 2
 		"bunks" 4
 		"mass" 37
-		"drag" 1.1
+		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 36
-		"weapon capacity" 26
+		"outfit space" 30
+		"weapon capacity" 18
 		"engine capacity" 5
 		weapon
 			"blast radius" 45
@@ -1910,19 +1903,19 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (Ion Bombs)"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"R1 Heavy Laser Turret" 2
-		"Advanced Homing Missile Launcher" 4
+		"R1Heavy Laser Turret" 2
+		"Advanced Homing Missile Launcher" 2
 		"Advanced Homing Missile Storage Rack"
-		"Advanced Homing Missile" 17
-		"Cluster Missile Launcher" 6
+		"Advanced Homing Missile" 11
+		"Cluster Missile Launcher" 2
 		"Cluster Missile Storage Rack"
-		"Cluster Missile" 100
-		"Concussion Missile Launcher" 4
+		"Cluster Missile" 11
+		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack"
-		"Concussion Missile" 17
+		"Concussion Missile" 11
 		"Plasma Torpedo Launcher" 2
 		"Plasma Torpedo Storage Rack"
-		"Plasma Torpedo" 12
+		"Plasma Torpedo" 11
 		"Ion Bomb Launcher" 2
 		"Ion Bomb" 2
 
@@ -1940,24 +1933,16 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (Ion Bombs)"
 	engine 11.5 17
 	gun -18 2 "Advanced Homing Missile Launcher"
 	gun 18 2 "Advanced Homing Missile Launcher"
-	gun -20.5 2 "Advanced Homing Missile Launcher"
-	gun 20.5 2 "Advanced Homing Missile Launcher"
 	gun -13.5 3 "Cluster Missile Launcher"
 	gun 13.5 3 "Cluster Missile Launcher"
-	gun -17 2.5 "Cluster Missile Launcher"
-	gun 17 2.5 "Cluster Missile Launcher"
-	gun -20 2.5 "Cluster Missile Launcher"
-	gun 20 2.5 "Cluster Missile Launcher"
-	gun -18 2 "Concussion Missile Launcher"
-	gun 18 2 "Concussion Missile Launcher"
 	gun -20.5 2 "Concussion Missile Launcher"
 	gun 20.5 2 "Concussion Missile Launcher"
 	gun -34.5 1.5 "Plasma Torpedo Launcher"
 	gun 34.5 1.5 "Plasma Torpedo Launcher"
 	gun -20.5 2 "Ion Bomb Launcher"
 	gun 20.5 2 "Ion Bomb Launcher"
-	turret 0 -10 "R1 Heavy Laser Turret"
-	turret 0 -20.5 "R1 Heavy Laser Turret"
+	turret 0 -10 "R1Heavy Laser Turret"
+	turret 0 -20.5 "R1Heavy Laser Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The BTL-S8 K-wing assault starfighter, commonly known as the K-wing, is a heavy starfighter/bomber produced by Koensayr Manufacturing, the same company responsible for producing the venerable Y-wing. The K-wing starfighter's primary missions include the precision bombing of planetary targets, slow-moving capital ships, and spaceborne installations. It also performs secondary missions as an escort or reconnaissance ship."
@@ -1977,12 +1962,12 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B)"
 		"required crew" 2
 		"bunks" 4
 		"mass" 37
-		"drag" 1.1
+		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 36
-		"weapon capacity" 26
+		"outfit space" 30
+		"weapon capacity" 18
 		"engine capacity" 5
 		weapon
 			"blast radius" 45
@@ -1990,19 +1975,19 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B)"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"R1 Heavy Laser Turret" 2
-		"Advanced Homing Missile Launcher" 4
+		"R1Heavy Laser Turret" 2
+		"Advanced Homing Missile Launcher" 2
 		"Advanced Homing Missile Storage Rack"
-		"Advanced Homing Missile" 17
-		"Cluster Missile Launcher" 6
+		"Advanced Homing Missile" 11
+		"Cluster Missile Launcher" 2
 		"Cluster Missile Storage Rack"
-		"Cluster Missile" 100
-		"Concussion Missile Launcher" 4
+		"Cluster Missile" 11
+		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack"
-		"Concussion Missile" 17
+		"Concussion Missile" 11
 		"Plasma Torpedo Launcher" 2
 		"Plasma Torpedo Storage Rack"
-		"Plasma Torpedo" 12
+		"Plasma Torpedo" 11
 
 		"P1 Power Converter"
 		"D1 Deflector Shield"
@@ -2018,22 +2003,16 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B)"
 	engine 11.5 17
 	gun -18 2 "Advanced Homing Missile Launcher"
 	gun 18 2 "Advanced Homing Missile Launcher"
-	gun -20.5 2 "Advanced Homing Missile Launcher"
-	gun 20.5 2 "Advanced Homing Missile Launcher"
 	gun -13.5 3 "Cluster Missile Launcher"
 	gun 13.5 3 "Cluster Missile Launcher"
-	gun -17 2.5 "Cluster Missile Launcher"
-	gun 17 2.5 "Cluster Missile Launcher"
-	gun -20 2.5 "Cluster Missile Launcher"
-	gun 20 2.5 "Cluster Missile Launcher"
-	gun -18 2 "Concussion Missile Launcher"
-	gun 18 2 "Concussion Missile Launcher"
 	gun -20.5 2 "Concussion Missile Launcher"
 	gun 20.5 2 "Concussion Missile Launcher"
 	gun -34.5 1.5 "Plasma Torpedo Launcher"
 	gun 34.5 1.5 "Plasma Torpedo Launcher"
-	turret 0 -10 "R1 Heavy Laser Turret"
-	turret 0 -20.5 "R1 Heavy Laser Turret"
+	gun -20.5 2
+	gun 20.5 2
+	turret 0 -10 "R1Heavy Laser Turret"
+	turret 0 -20.5 "R1Heavy Laser Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The BTL-S8 K-wing assault starfighter, commonly known as the K-wing, is a heavy starfighter/bomber produced by Koensayr Manufacturing, the same company responsible for producing the venerable Y-wing. The K-wing starfighter's primary missions include the precision bombing of planetary targets, slow-moving capital ships, and spaceborne installations. It also performs secondary missions as an escort or reconnaissance ship."
@@ -2053,12 +2032,12 @@ ship "BTL-S8 K-Wing (Fighter)" "BTL-S8 K-Wing (B) (Fighter)"
 		"required crew" 2
 		"bunks" 4
 		"mass" 37
-		"drag" 1.1
+		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 36
-		"weapon capacity" 26
+		"outfit space" 30
+		"weapon capacity" 18
 		"engine capacity" 5
 		weapon
 			"blast radius" 45
@@ -2066,19 +2045,19 @@ ship "BTL-S8 K-Wing (Fighter)" "BTL-S8 K-Wing (B) (Fighter)"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"R1 Heavy Laser Turret" 2
-		"Advanced Homing Missile Launcher" 4
+		"R1Heavy Laser Turret" 2
+		"Advanced Homing Missile Launcher" 2
 		"Advanced Homing Missile Storage Rack"
-		"Advanced Homing Missile" 17
-		"Cluster Missile Launcher" 6
+		"Advanced Homing Missile" 11
+		"Cluster Missile Launcher" 2
 		"Cluster Missile Storage Rack"
-		"Cluster Missile" 100
-		"Concussion Missile Launcher" 4
+		"Cluster Missile" 11
+		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack"
-		"Concussion Missile" 17
+		"Concussion Missile" 11
 		"Plasma Torpedo Launcher" 2
 		"Plasma Torpedo Storage Rack"
-		"Plasma Torpedo" 12
+		"Plasma Torpedo" 11
 
 		"P1 Power Converter"
 		"D1 Deflector Shield"
@@ -2094,22 +2073,16 @@ ship "BTL-S8 K-Wing (Fighter)" "BTL-S8 K-Wing (B) (Fighter)"
 	engine 11.5 17
 	gun -18 2 "Advanced Homing Missile Launcher"
 	gun 18 2 "Advanced Homing Missile Launcher"
-	gun -20.5 2 "Advanced Homing Missile Launcher"
-	gun 20.5 2 "Advanced Homing Missile Launcher"
 	gun -13.5 3 "Cluster Missile Launcher"
 	gun 13.5 3 "Cluster Missile Launcher"
-	gun -17 2.5 "Cluster Missile Launcher"
-	gun 17 2.5 "Cluster Missile Launcher"
-	gun -20 2.5 "Cluster Missile Launcher"
-	gun 20 2.5 "Cluster Missile Launcher"
-	gun -18 2 "Concussion Missile Launcher"
-	gun 18 2 "Concussion Missile Launcher"
 	gun -20.5 2 "Concussion Missile Launcher"
 	gun 20.5 2 "Concussion Missile Launcher"
 	gun -34.5 1.5 "Plasma Torpedo Launcher"
 	gun 34.5 1.5 "Plasma Torpedo Launcher"
-	turret 0 -10 "R1 Heavy Laser Turret"
-	turret 0 -20.5 "R1 Heavy Laser Turret"
+	gun -20.5 2
+	gun 20.5 2
+	turret 0 -10 "R1Heavy Laser Turret"
+	turret 0 -20.5 "R1Heavy Laser Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The BTL-S8 K-wing assault starfighter, commonly known as the K-wing, is a heavy starfighter/bomber produced by Koensayr Manufacturing, the same company responsible for producing the venerable Y-wing. The K-wing starfighter's primary missions include the precision bombing of planetary targets, slow-moving capital ships, and spaceborne installations. It also performs secondary missions as an escort or reconnaissance ship."
@@ -2129,12 +2102,12 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B) (Ion Bombs)"
 		"required crew" 2
 		"bunks" 4
 		"mass" 37
-		"drag" 1.1
+		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 36
-		"weapon capacity" 26
+		"outfit space" 30
+		"weapon capacity" 18
 		"engine capacity" 5
 		weapon
 			"blast radius" 45
@@ -2142,19 +2115,19 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B) (Ion Bombs)"
 			"hull damage" 190
 			"hit force" 490
 	outfits
-		"R1 Heavy Laser Turret" 2
-		"Advanced Homing Missile Launcher" 4
+		"R1Heavy Laser Turret" 2
+		"Advanced Homing Missile Launcher" 2
 		"Advanced Homing Missile Storage Rack"
-		"Advanced Homing Missile" 17
-		"Cluster Missile Launcher" 6
+		"Advanced Homing Missile" 11
+		"Cluster Missile Launcher" 2
 		"Cluster Missile Storage Rack"
-		"Cluster Missile" 100
-		"Concussion Missile Launcher" 4
+		"Cluster Missile" 11
+		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack"
-		"Concussion Missile" 17
+		"Concussion Missile" 11
 		"Plasma Torpedo Launcher" 2
 		"Plasma Torpedo Storage Rack"
-		"Plasma Torpedo" 12
+		"Plasma Torpedo" 11
 		"Ion Bomb Launcher" 2
 		"Ion Bomb" 2
 
@@ -2172,24 +2145,16 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B) (Ion Bombs)"
 	engine 11.5 17
 	gun -18 2 "Advanced Homing Missile Launcher"
 	gun 18 2 "Advanced Homing Missile Launcher"
-	gun -20.5 2 "Advanced Homing Missile Launcher"
-	gun 20.5 2 "Advanced Homing Missile Launcher"
 	gun -13.5 3 "Cluster Missile Launcher"
 	gun 13.5 3 "Cluster Missile Launcher"
-	gun -17 2.5 "Cluster Missile Launcher"
-	gun 17 2.5 "Cluster Missile Launcher"
-	gun -20 2.5 "Cluster Missile Launcher"
-	gun 20 2.5 "Cluster Missile Launcher"
-	gun -18 2 "Concussion Missile Launcher"
-	gun 18 2 "Concussion Missile Launcher"
 	gun -20.5 2 "Concussion Missile Launcher"
 	gun 20.5 2 "Concussion Missile Launcher"
 	gun -34.5 1.5 "Plasma Torpedo Launcher"
 	gun 34.5 1.5 "Plasma Torpedo Launcher"
 	gun -20.5 2 "Ion Bomb Launcher"
 	gun 20.5 2 "Ion Bomb Launcher"
-	turret 0 -10 "R1 Heavy Laser Turret"
-	turret 0 -20.5 "R1 Heavy Laser Turret"
+	turret 0 -10 "R1Heavy Laser Turret"
+	turret 0 -20.5 "R1Heavy Laser Turret"
 	explode "medium explosion" 5
 	explode "large explosion" 3
 	description "The BTL-S8 K-wing assault starfighter, commonly known as the K-wing, is a heavy starfighter/bomber produced by Koensayr Manufacturing, the same company responsible for producing the venerable Y-wing. The K-wing starfighter's primary missions include the precision bombing of planetary targets, slow-moving capital ships, and spaceborne installations. It also performs secondary missions as an escort or reconnaissance ship."
@@ -2209,7 +2174,7 @@ ship "BTS-A2 H-Wing"
 		"required crew" 1
 		bunks 4
 		mass 33
-		drag 1
+		drag 1.42
 		"heat dissipation" 0.7
 		"fuel capacity" 700
 		"cargo space" 0
@@ -2267,7 +2232,7 @@ ship "BTS-A2 H-Wing (Fighter)"
 		"required crew" 1
 		bunks 4
 		mass 33
-		drag 1
+		drag 1.42
 		"heat dissipation" 0.7
 		"fuel capacity" 700
 		"cargo space" 0
@@ -2322,10 +2287,10 @@ ship "Marauder Corvette"
 		"cost" 3900000
 		"shields" 26750
 		"hull" 10550
-		"required crew" 177
+		"required crew" 52
 		"bunks" 257
 		"mass" 1815
-		"drag" 7.95
+		"drag" 11.1
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 20
@@ -2338,7 +2303,7 @@ ship "Marauder Corvette"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"R3 Turbolaser Turret" 8
+		"R2Dual Laser Turret" 8
 		"T3 Tractor Beam" 4
 		
 		"P3 Power Converter"
@@ -2351,14 +2316,14 @@ ship "Marauder Corvette"
 	engine 0 240
 	engine -18 228.5
 	engine 18 228.5
-	turret -32.5 175 "R3 Turbolaser Turret"
-	turret 32.5 175 "R3 Turbolaser Turret"
-	turret -28.5 100 "R3 Turbolaser Turret"
-	turret 28.5 100 "R3 Turbolaser Turret"
-	turret -35 -114 "R3 Turbolaser Turret"
-	turret 35 -114 "R3 Turbolaser Turret"
-	turret -34.5 -129.5 "R3 Turbolaser Turret"
-	turret 34.5 -129.5 "R3 Turbolaser Turret"
+	turret -32.5 175 "R2Dual Laser Turret"
+	turret 32.5 175 "R2Dual Laser Turret"
+	turret -28.5 100 "R2Dual Laser Turret"
+	turret 28.5 100 "R2Dual Laser Turret"
+	turret -35 -114 "R2Dual Laser Turret"
+	turret 35 -114 "R2Dual Laser Turret"
+	turret -34.5 -129.5 "R2Dual Laser Turret"
+	turret 34.5 -129.5 "R2Dual Laser Turret"
 	gun -152 31 "T3 Tractor Beam"
 	gun 152 31 "T3 Tractor Beam"
 	gun -134 32 "T3 Tractor Beam"
@@ -2394,7 +2359,7 @@ ship "MC5 Fighter"
 		"required crew" 1
 		bunks 1
 		mass 25
-		drag 0.95
+		drag 1.2
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 16
@@ -2446,7 +2411,7 @@ ship "MC5 Fighter (Fighter)"
 		"required crew" 1
 		bunks 1
 		mass 25
-		drag 0.95
+		drag 1.2
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 16
@@ -2497,7 +2462,7 @@ ship "MC20 Escort Corvette"
 		"required crew" 80
 		"bunks" 200
 		"mass" 2025
-		"drag" 7.95
+		"drag" 10.1
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 10
@@ -2510,7 +2475,7 @@ ship "MC20 Escort Corvette"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"R3 Turbolaser Turret" 8
+		"R2Dual Laser Turret" 8
 		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack" 2
 		"Concussion Missile" 16
@@ -2528,14 +2493,14 @@ ship "MC20 Escort Corvette"
 	engine 31.5 132
 	gun -17 -192 "Concussion Missile Launcher"
 	gun 17 -192 "Concussion Missile Launcher"
-	turret -17.5 153 "R3 Turbolaser Turret"
-	turret 17.5 153 "R3 Turbolaser Turret"
-	turret -16.5 49.5 "R3 Turbolaser Turret"
-	turret 16.5 49.5 "R3 Turbolaser Turret"
-	turret -12.5 -52 "R3 Turbolaser Turret"
-	turret 12.5 -52 "R3 Turbolaser Turret"
-	turret -16.5 -181.5 "R3 Turbolaser Turret"
-	turret 16.5 -181.5 "R3 Turbolaser Turret"
+	turret -17.5 153 "R2Dual Laser Turret"
+	turret 17.5 153 "R2Dual Laser Turret"
+	turret -16.5 49.5 "R2Dual Laser Turret"
+	turret 16.5 49.5 "R2Dual Laser Turret"
+	turret -12.5 -52 "R2Dual Laser Turret"
+	turret 12.5 -52 "R2Dual Laser Turret"
+	turret -16.5 -181.5 "R2Dual Laser Turret"
+	turret 16.5 -181.5 "R2Dual Laser Turret"
 	fighter 0 86
 	fighter 0 86
 	fighter 0 86
@@ -2556,10 +2521,10 @@ ship "MC25 Tide Frigate"
 		"cost" 9500000
 		"shields" 41500
 		"hull" 15850
-		"required crew" 300
-		"bunks" 700
+		"required crew" 370
+		"bunks" 1200
 		"mass" 4973
-		"drag" 13.09
+		"drag" 27.74
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 200
@@ -2624,8 +2589,8 @@ ship "MC30c Escort Frigate"
 		"cost" 19000000
 		"shields" 62000
 		"hull" 27000
-		"required crew" 820
-		"bunks" 1800
+		"required crew" 380
+		"bunks" 1375
 		"mass" 9000
 		"drag" 27
 		"heat dissipation" .45
@@ -2705,8 +2670,8 @@ ship "MC40a Light Cruiser"
 		"cost" 33000000
 		"shields" 84000
 		"hull" 36000
-		"required crew" 820
-		"bunks" 1800
+		"required crew" 460
+		"bunks" 1520
 		"mass" 12400
 		"drag" 42
 		"heat dissipation" .45
@@ -2715,6 +2680,7 @@ ship "MC40a Light Cruiser"
 		"outfit space" 1734
 		"weapon capacity" 976
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -2797,8 +2763,8 @@ ship "MC75 Barracuda Cruiser"
 		"cost" 88000000
 		"shields" 180000
 		"hull" 56000
-		"required crew" 3225
-		"bunks" 6000
+		"required crew" 1000
+		"bunks" 1840
 		"mass" 24000
 		"drag" 47.0
 		"heat dissipation" .45
@@ -2807,6 +2773,7 @@ ship "MC75 Barracuda Cruiser"
 		"outfit space" 2388
 		"weapon capacity" 1630
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 1000
@@ -2898,8 +2865,8 @@ ship "MC75 Star Cruiser"
 		"cost" 88000000
 		"shields" 180000
 		"hull" 56000
-		"required crew" 3225
-		"bunks" 6000
+		"required crew" 1000
+		"bunks" 1840
 		"mass" 24000
 		"drag" 47.0
 		"heat dissipation" .45
@@ -2908,6 +2875,7 @@ ship "MC75 Star Cruiser"
 		"outfit space" 2388
 		"weapon capacity" 1630
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 1000
@@ -2999,8 +2967,8 @@ ship "MC80A Chatnoir Cruiser"
 		"cost" 112000000
 		"shields" 210000
 		"hull" 60000
-		"required crew" 5600
-		"bunks" 9000
+		"required crew" 1360
+		"bunks" 1910
 		"mass" 26000
 		"drag" 49.0
 		"heat dissipation" .45
@@ -3009,6 +2977,7 @@ ship "MC80A Chatnoir Cruiser"
 		"outfit space" 2438
 		"weapon capacity" 1680
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 1000
@@ -3153,8 +3122,8 @@ ship "MC80A Star Cruiser"
 		"cost" 112000000
 		"shields" 210000
 		"hull" 60000
-		"required crew" 5600
-		"bunks" 9000
+		"required crew" 1360
+		"bunks" 1910
 		"mass" 26000
 		"drag" 49.0
 		"heat dissipation" .45
@@ -3163,6 +3132,7 @@ ship "MC80A Star Cruiser"
 		"outfit space" 2438
 		"weapon capacity" 1680
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 1000
@@ -3308,8 +3278,8 @@ ship "MC80 Heavy Cruiser"
 		"cost" 108000000
 		"shields" 200000
 		"hull" 57000
-		"required crew" 5400
-		"bunks" 8000
+		"required crew" 1230
+		"bunks" 1870
 		"mass" 25600
 		"drag" 48.6
 		"heat dissipation" .45
@@ -3318,6 +3288,7 @@ ship "MC80 Heavy Cruiser"
 		"outfit space" 2438
 		"weapon capacity" 1680
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 1000
@@ -3443,8 +3414,8 @@ ship "MC80 Home One Star Cruiser"
 		"cost" 770000000
 		"shields" 930000
 		"hull" 265000
-		"required crew" 9000
-		"bunks" 15000
+		"required crew" 1860
+		"bunks" 2310
 		"mass" 50000
 		"drag" 64.0
 		"heat dissipation" .45
@@ -3453,6 +3424,7 @@ ship "MC80 Home One Star Cruiser"
 		"outfit space" 2588
 		"weapon capacity" 1930
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 1000
@@ -3576,8 +3548,8 @@ ship "MC80 Liberty Cruiser"
 		"cost" 104000000
 		"shields" 200000
 		"hull" 57000
-		"required crew" 5400
-		"bunks" 8000
+		"required crew" 1230
+		"bunks" 1870
 		"mass" 25000
 		"drag" 48
 		"heat dissipation" .45
@@ -3586,6 +3558,7 @@ ship "MC80 Liberty Cruiser"
 		"outfit space" 2438
 		"weapon capacity" 1680
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 1000
@@ -3679,10 +3652,10 @@ ship "MF69 Frigate"
 		"cost" 10750000
 		"shields" 46000
 		"hull" 16000
-		"required crew" 700
-		"bunks" 1600
+		"required crew" 380
+		"bunks" 1240
 		"mass" 5168
-		"drag" 13.6
+		"drag" 27.74
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 200
@@ -3735,15 +3708,15 @@ ship "Pelta Frigate (Modified)"
 		"cost" 9100000
 		"shields" 37550
 		"hull" 15450
-		"required crew" 900
-		"bunks" 1500
+		"required crew" 355
+		"bunks" 1150
 		"mass" 4913
-		"drag" 13.09
+		"drag" 27.74
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 170
-		"outfit space" 616
-		"weapon capacity" 295
+		"outfit space" 656
+		"weapon capacity" 335
 		"engine capacity" 230
 		weapon
 			"blast radius" 300
@@ -3751,14 +3724,14 @@ ship "Pelta Frigate (Modified)"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"R4Dual Turbolaser Turret" 4
+		"R4Dual Turbolaser Turret" 6
 		"R3 Turbolaser Turret" 6
 		
 		"P4 Power Converter"
 		"D4 Deflector Shield"
 		"C4 Coolant System"
 		
-		"B4 Sublight Engine"
+		"O4 Sublight Engine"
 		"H4 Hyperspace Motivator"
 		
 	engine 0 368
@@ -3776,6 +3749,8 @@ ship "Pelta Frigate (Modified)"
 	turret 88 192.5 "R4Dual Turbolaser Turret"
 	turret -62 97.5 "R3 Turbolaser Turret"
 	turret 62 97.5 "R3 Turbolaser Turret"
+	turret 0 14 "R4Dual Turbolaser Turret"
+	turret 0 14 "R4Dual Turbolaser Turret"
 	turret -58 -94.5 "R3 Turbolaser Turret"
 	turret 58 -94.5 "R3 Turbolaser Turret"
 	turret -58 -189 "R3 Turbolaser Turret"
@@ -3952,7 +3927,7 @@ ship "RZ-1 A-Wing"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"P1 Sublight Engine"
+		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -4 10.5
@@ -4006,7 +3981,7 @@ ship "RZ-1 A-Wing (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"P1 Sublight Engine"
+		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -4 10.5
@@ -4060,7 +4035,7 @@ ship "RZ-1 A-Wing" "RZ-1 A-Wing (R)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"P1 Sublight Engine"
+		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -4 10.5
@@ -4114,7 +4089,7 @@ ship "RZ-1 A-Wing (Fighter)" "RZ-1 A-Wing (R) (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"P1 Sublight Engine"
+		"O1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -4 10.5
@@ -4257,7 +4232,7 @@ ship "T-65 XJ-3 Stealth X-Wing"
 		drag 1.08
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 20
+		"outfit space" 19
 		"weapon capacity" 6
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -4314,7 +4289,7 @@ ship "T-65 XJ-3 Stealth X-Wing (Fighter)"
 		drag 1.08
 		"heat dissipation" 0.8
 		"fuel capacity" 700
-		"outfit space" 20
+		"outfit space" 19
 		"weapon capacity" 6
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -4371,8 +4346,8 @@ ship "UT-60D U-Wing"
 		"drag" 1.14
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 5
-		"outfit space" 16
+		"cargo space" 8
+		"outfit space" 15
 		"weapon capacity" 2
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -4418,8 +4393,8 @@ ship "UT-60D U-Wing (Fighter)"
 		"drag" 1.14
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 5
-		"outfit space" 16
+		"cargo space" 8
+		"outfit space" 15
 		"weapon capacity" 2
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -4461,13 +4436,13 @@ ship "X4 Gunship"
 		"required crew" 2
 		"bunks" 14
 		"mass" 138
-		"drag" 3.96
+		"drag" 4.49
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 83
+		"outfit space" 58
 		"weapon capacity" 22
-		"engine capacity" 20
+		"engine capacity" 22
 		weapon
 			"blast radius" 300
 			"shield damage" 700

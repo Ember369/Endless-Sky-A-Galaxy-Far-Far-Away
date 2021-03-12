@@ -16,6 +16,10 @@ galaxy "label thecore"
 	pos 5750 -7010
 	sprite label/thecore
 
+galaxy "label coruscant"
+	pos 5812.48 -7323.1
+	sprite label/majorsystem
+
 system Abafar
 	pos 6290.82 -8074.15
 	habitable 2372.76
@@ -90,12 +94,10 @@ system Abhean
 			sprite planet/europa
 			distance 173
 			period 23.708
-
 	object
 		sprite planet/dust0
 		distance 1246.3
 		period 424.973
-
 	object
 		sprite planet/uranus
 		distance 2211.11
@@ -116,10 +118,6 @@ system Abhean
 			sprite planet/ice7
 			distance 641
 			period 69.3362
-
-
-
-
 
 system Abregado-rae
 	pos 5817.14 -6802.71
@@ -146,35 +144,26 @@ system Abregado-rae
 		distance 18.7125
 		period 11.5106
 		offset 180
-
 	object
 		sprite star/m0
 		distance 100.287
 		period 11.5106
-
 	object
 		sprite planet/rock13
 		distance 310.897
 		period 48.6075
-
 	object
 		sprite planet/desert0
 		distance 590.107
 		period 127.108
-
 	object
 		sprite planet/desert9
 		distance 1130.8
 		period 337.175
-
 	object
 		sprite planet/gas10
 		distance 2164.8
 		period 893.107
-
-
-
-
 
 system Adarlon
 	pos 6093.54 -5580.6
@@ -484,25 +473,18 @@ system Agamar
 		sprite planet/gas2
 		distance 4136.07
 		period 2358.63
-
 		object
 			sprite planet/desert4
 			distance 179
 			period 14.5109
-
 		object
 			sprite planet/rock0
 			distance 308
 			period 32.7522
-
 		object
 			sprite planet/callisto
 			distance 443
 			period 56.4963
-
-
-
-
 system Ahch-To
 	pos 4738.27 -6709.37
 	habitable 1715
@@ -582,22 +564,18 @@ system Ailon
 	object
 		sprite star/g5
 		period 10
-
 	object
 		sprite planet/mercury
 		distance 187.29
 		period 41.0102
-
 	object
 		sprite planet/rock19
 		distance 369.58
 		period 113.68
-
 	object
 		sprite planet/tethys
 		distance 530.47
 		period 195.484
-
 	object
 		sprite planet/gas4
 		distance 1265.51
@@ -614,15 +592,10 @@ system Ailon
 			sprite planet/dust5
 			distance 506
 			period 40.1442
-
 	object
 		sprite planet/gas6
 		distance 2301.6
 		period 1766.71
-
-
-
-
 
 system "Ajan Kloss"
 	pos 5908.82 -7989.15
@@ -713,7 +686,6 @@ system Akrit'tar
 		sprite planet/gas16
 		distance 634.292
 		period 271.657
-
 		object
 			sprite planet/lava0
 			distance 233
@@ -722,12 +694,10 @@ system Akrit'tar
 		sprite planet/gas2
 		distance 1301.05
 		period 798.049
-
 		object
 			sprite planet/rock7
 			distance 164
 			period 12.7257
-
 		object
 			sprite planet/dust0
 			distance 302
@@ -736,10 +706,6 @@ system Akrit'tar
 		sprite planet/gas10
 		distance 2661.86
 		period 2335.42
-
-
-
-
 system Akuria
 	pos 6049.04 -8139.13
 	habitable 1111.68
@@ -836,7 +802,7 @@ system Alakatha
 
 system Alderaan
 	pos 6042.69 -7317.17
-	government "Galactic Empire"
+	government "Galactic Empire (Sympathiser)"
 	habitable 135
 	music ambient/wait
 	arrival 2000
@@ -869,7 +835,6 @@ system Alderaan
 		sprite planet/gas1
 		distance 1251.54
 		period 1524.26
-
 		object
 			sprite planet/rhea
 			distance 249
@@ -878,25 +843,18 @@ system Alderaan
 		sprite planet/gas14
 		distance 2859.3
 		period 5263.6
-
 		object
 			sprite planet/dust7
 			distance 217
 			period 13.0181
-
 		object
 			sprite planet/rock3
 			distance 361
 			period 27.9331
-
 		object
 			sprite planet/rock0
 			distance 467
 			period 41.0993
-
-
-
-
 system Aldraig
 	pos 5979.38 -7321.72
 	government "Galactic Empire"
@@ -1122,12 +1080,10 @@ system Alpheridies
 		sprite planet/neptune
 		distance 843.24
 		period 167.24
-
 		object
 			sprite planet/ice0
 			distance 194
 			period 13.4628
-
 		object
 			sprite planet/rhea
 			distance 348
@@ -1136,15 +1092,10 @@ system Alpheridies
 		sprite planet/gas4
 		distance 1940.73
 		period 583.93
-
 		object
 			sprite planet/rock7
 			distance 252
 			period 14.1091
-
-
-
-
 system Alsakan
 	pos 5827.14 -7331.71
 	government "Galactic Empire"
@@ -1223,17 +1174,14 @@ system Alzoc
 		distance 39.4518
 		period 14.4636
 		offset 180
-
 	object
 		sprite star/k0
 		distance 87.5482
 		period 14.4636
-
 	object
 		sprite planet/rock15
 		distance 252.548
 		period 40.5589
-
 	object
 		sprite planet/rock6
 		distance 568.308
@@ -1242,7 +1190,6 @@ system Alzoc
 			sprite planet/dust4
 			distance 162
 			period 25.92
-
 	object
 		sprite planet/gas7
 		distance 1094.75
@@ -1251,7 +1198,6 @@ system Alzoc
 			sprite planet/luna
 			distance 233
 			period 12.6522
-
 	object
 		sprite planet/gas6
 		distance 2103.96
@@ -1268,10 +1214,6 @@ system Alzoc
 			sprite planet/dust1
 			distance 609
 			period 38.3876
-
-
-
-
 
 system Ambria
 	pos 6442.49 -7307.15
@@ -1493,22 +1435,18 @@ system "Andelm IV"
 	object
 		sprite star/k0
 		period 10
-
 	object
 		sprite planet/callisto
 		distance 120.25
 		period 23.9092
-
 	object
 		sprite planet/uranus
 		distance 530.01
 		period 221.24
-
 	object
 		sprite planet/ocean3
 		distance 897.82
 		period 487.778
-
 	object
 		sprite planet/gas14
 		distance 2047.82
@@ -1521,10 +1459,6 @@ system "Andelm IV"
 			sprite planet/dust5
 			distance 347
 			period 26.3241
-
-
-
-
 
 system Ando
 	pos 6701.18 -6332.31
@@ -1716,25 +1650,18 @@ system Anoth
 		sprite planet/gas11
 		distance 2377.37
 		period 1534.84
-
 		object
 			sprite planet/rock7
 			distance 233
 			period 11.7304
-
 		object
 			sprite planet/ice0
 			distance 354
 			period 21.9676
-
 		object
 			sprite planet/rock14
 			distance 480
 			period 34.6848
-
-
-
-
 system Ansion
 	pos 5479.04 -7828.13
 	habitable 486.68
@@ -1802,17 +1729,14 @@ system Antar
 	object
 		sprite star/g5
 		period 10
-
 	object
 		sprite planet/ice7
 		distance 122.04
 		period 21.5711
-
 	object
 		sprite planet/rock4
 		distance 323.6
 		period 93.1393
-
 	object
 		sprite planet/gas13
 		distance 1172.85
@@ -1825,15 +1749,10 @@ system Antar
 			sprite planet/europa
 			distance 369
 			period 20.0101
-
 	object
 		sprite planet/gas5
 		distance 2245.85
 		period 1702.91
-
-
-
-
 
 system Anteevy
 	pos 6594.07 -7767.41
@@ -1960,7 +1879,6 @@ system Aquarius
 		sprite planet/gas2
 		distance 1125.32
 		period 204.993
-
 		object
 			sprite planet/europa
 			distance 186
@@ -1969,10 +1887,6 @@ system Aquarius
 		sprite planet/uranus
 		distance 1934.41
 		period 462.006
-
-
-
-
 system Arami
 	pos 7218.47 -6689.24
 	government "Galactic Empire"
@@ -1994,35 +1908,26 @@ system Arami
 	object
 		sprite star/m0
 		period 10
-
 	object
 		sprite planet/lava3
 		distance 191.76
 		period 59.3775
-
 	object
 		sprite planet/ice2
 		distance 382.72
 		period 167.42
-
 	object
 		sprite planet/desert9
 		distance 1010.53
 		period 718.305
-
 	object
 		sprite planet/rock9
 		distance 1539.09
 		period 1350.15
-
 	object
 		sprite planet/gas13
 		distance 2319.78
 		period 2498.36
-
-
-
-
 
 system Arbra
 	pos 6291.63 -6050.08
@@ -2050,7 +1955,6 @@ system Arbra
 		sprite planet/cloud3
 		distance 592.25
 		period 322.287
-
 		object
 			sprite planet/dust0
 			distance 163
@@ -2063,10 +1967,6 @@ system Arbra
 		sprite planet/gas16
 		distance 2367.85
 		period 2576.42
-
-
-
-
 system Arda
 	pos 6752.66 -7964.75
 	habitable 1505.92
@@ -2197,7 +2097,6 @@ system Aridus
 		sprite planet/cloud3
 		distance 478
 		period 273.693
-
 		object
 			sprite planet/dust1
 			distance 169
@@ -2206,7 +2105,6 @@ system Aridus
 		sprite planet/cloud0
 		distance 1415.76
 		period 1395.1
-
 		object
 			sprite planet/miranda
 			distance 142
@@ -2215,30 +2113,22 @@ system Aridus
 		sprite planet/gas14
 		distance 2446.72
 		period 3169.55
-
 		object
 			sprite planet/ice8
 			distance 241
 			period 15.2365
-
 		object
 			sprite planet/callisto
 			distance 336
 			period 25.0823
-
 		object
 			sprite planet/ice7
 			distance 497
 			period 45.1225
-
 		object
 			sprite planet/rhea
 			distance 689
 			period 73.6525
-
-
-
-
 system Arkania
 	pos 6009.78 -7499.11
 	government "Galactic Empire"
@@ -2268,7 +2158,6 @@ system Arkania
 		sprite planet/cloud7
 		distance 331.339
 		period 79.86
-
 		object
 			sprite planet/rhea
 			distance 167
@@ -2283,7 +2172,6 @@ system Arkania
 		distance 1648.09
 		period 885.915
 		offset 141.856
-
 		object
 			sprite planet/io
 			distance 123
@@ -2293,20 +2181,14 @@ system Arkania
 		distance 2704.78
 		period 1862.59
 		offset 38.6779
-
 		object
 			sprite planet/dust3
 			distance 215
 			period 16.5941
-
 		object
 			sprite planet/rock3
 			distance 357
 			period 35.5058
-
-
-
-
 system Arkanis
 	pos 6834.54 -6157.6
 	government Uninhabited
@@ -2446,7 +2328,6 @@ system Askaj
 		sprite planet/desert1
 		distance 577.629
 		period 123.098
-
 		object
 			sprite planet/oberon
 			distance 178
@@ -2463,15 +2344,10 @@ system Askaj
 		sprite planet/gas6
 		distance 2310.84
 		period 984.991
-
 		object
 			sprite planet/dust4
 			distance 301
 			period 13.3387
-
-
-
-
 system Atollon
 	pos 7363.96 -7775.45
 	government "Rebel Alliance"
@@ -2678,10 +2554,6 @@ system Atzerri
 		sprite planet/gas7
 		distance 2617.37
 		period 2511.03
-
-
-
-
 system Axxila
 	pos 6347.66 -8019.75
 	habitable 2372.76
@@ -2807,25 +2679,18 @@ system Bacrana
 		sprite planet/gas2
 		distance 1759.2
 		period 712.69
-
 		object
 			sprite planet/rock0
 			distance 215
 			period 19.1017
-
 		object
 			sprite planet/io
 			distance 301
 			period 31.642
-
 		object
 			sprite planet/lava0
 			distance 402
 			period 48.8375
-
-
-
-
 system Bakura
 	pos 5095.5 -6213.39
 	habitable 625
@@ -2860,17 +2725,14 @@ system Bakura
 		sprite planet/gas1
 		distance 1456.57
 		period 889.441
-
 		object
 			sprite planet/lava0
 			distance 258
 			period 16.5632
-
 		object
 			sprite planet/europa
 			distance 369
 			period 28.3306
-
 		object
 			sprite planet/ice0
 			distance 463
@@ -2879,20 +2741,14 @@ system Bakura
 		sprite planet/gas9
 		distance 2474.38
 		period 1969.33
-
 		object
 			sprite planet/oberon
 			distance 210
 			period 11.4109
-
 		object
 			sprite planet/dust4
 			distance 307
 			period 20.1696
-
-
-
-
 system Balamak
 	pos 6763.13 -7399.33
 	government "Galactic Empire"
@@ -2917,7 +2773,6 @@ system Balamak
 		sprite planet/gas0
 		distance 500.49
 		period 250.368
-
 		object
 			sprite planet/ice7
 			distance 297
@@ -2926,25 +2781,18 @@ system Balamak
 		sprite planet/neptune
 		distance 1493.53
 		period 1290.64
-
 		object
 			sprite planet/dust5
 			distance 207
 			period 14.8384
-
 		object
 			sprite planet/lava0
 			distance 372
 			period 35.7476
-
 		object
 			sprite planet/rock17
 			distance 544
 			period 63.2165
-
-
-
-
 system Balmorra
 	pos 6133.38 -7246.72
 	government "Galactic Empire"
@@ -3162,17 +3010,14 @@ system Barab
 		sprite planet/gas3
 		distance 601.45
 		period 329.826
-
 	object
 		sprite planet/rock9
 		distance 947.29
 		period 651.943
-
 	object
 		sprite planet/cloud6
 		distance 1178.45
 		period 904.59
-
 	object
 		sprite planet/gas4
 		distance 3912.49
@@ -3296,12 +3141,10 @@ system Baros
 	object
 		sprite star/m0
 		period 10
-
 	object
 		sprite planet/ganymede
 		distance 201.21
 		period 63.8204
-
 	object
 		sprite planet/forest2
 		distance 590.46
@@ -3310,7 +3153,6 @@ system Baros
 			sprite planet/ice7
 			distance 150
 			period 17.5682
-
 	object
 		sprite planet/gas14
 		distance 1853.75
@@ -3327,10 +3169,6 @@ system Baros
 			sprite planet/rock7
 			distance 487
 			period 43.7675
-
-
-
-
 
 system Bastion
 	pos 5677.04 -8406.13
@@ -3489,7 +3327,6 @@ system Belderone
 		sprite planet/gas8
 		distance 1014.01
 		period 585.466
-
 		object
 			sprite planet/desert4
 			distance 220
@@ -3502,15 +3339,10 @@ system Belderone
 		sprite planet/gas15
 		distance 2838.26
 		period 2741.68
-
 		object
 			sprite planet/oberon
 			distance 203
 			period 15.2244
-
-
-
-
 system Belkadan
 	pos 5930.04 -8678.13
 	habitable 1050.92
@@ -3737,25 +3569,18 @@ system Berchest
 		distance 1472.9
 		period 1095.61
 		offset 240.491
-
 		object
 			sprite planet/tethys
 			distance 216
 			period 13.5629
-
 		object
 			sprite planet/io
 			distance 304
 			period 22.6456
-
 		object
 			sprite planet/rock17
 			distance 386
 			period 32.4007
-
-
-
-
 system "Berrol's Donn"
 	pos 5690.94 -5769
 	habitable 2372.76
@@ -3783,7 +3608,6 @@ system "Berrol's Donn"
 		sprite planet/rock6
 		distance 499.2
 		period 91.5893
-
 		object
 			sprite planet/dust0
 			distance 116
@@ -3792,7 +3616,6 @@ system "Berrol's Donn"
 		sprite planet/rock10
 		distance 1164.56
 		period 326.344
-
 		object
 			sprite planet/callisto
 			distance 181
@@ -3805,10 +3628,6 @@ system "Berrol's Donn"
 		sprite planet/gas2
 		distance 2082.56
 		period 780.422
-
-
-
-
 system Bescane
 	pos 5678.04 -8342.13
 	habitable 233.28
@@ -4007,7 +3826,6 @@ system Bilbringi
 		sprite planet/gas11
 		distance 941.225
 		period 120.905
-
 		object
 			sprite planet/desert4
 			distance 260
@@ -4016,15 +3834,10 @@ system Bilbringi
 		sprite planet/jupiter
 		distance 1699.47
 		period 293.343
-
 		object
 			sprite planet/dust3
 			distance 268
 			period 13.7868
-
-
-
-
 system Bimmiel
 	pos 6211.04 -8265.13
 	habitable 10355
@@ -4214,7 +4027,6 @@ system Bith
 		sprite planet/gas12
 		distance 2151.3
 		period 884.767
-
 		object
 			sprite planet/rock14
 			distance 277
@@ -4354,28 +4166,23 @@ system Boonta
 		sprite star/k0
 		distance 33.6979
 		period 15.8109
-
 	object
 		sprite star/m4
 		distance 70.3021
 		period 15.8109
 		offset 180
-
 	object
 		sprite planet/mercury
 		distance 198.592
 		period 41.7204
-
 	object
 		sprite planet/titan
 		distance 356.402
 		period 100.304
-
 	object
 		sprite planet/forest3
 		distance 665.962
 		period 256.201
-
 	object
 		sprite planet/ocean3
 		distance 969.212
@@ -4384,25 +4191,18 @@ system Boonta
 			sprite planet/europa
 			distance 139
 			period 18.3548
-
 	object
 		sprite planet/dust6
 		distance 1257.1
 		period 664.449
-
 	object
 		sprite planet/gas13
 		distance 1568.79
 		period 926.305
-
 	object
 		sprite planet/io
 		distance 4915.88
 		period 5138.16
-
-
-
-
 
 system "Borgo Prime"
 	pos 6113.56 -7949.62
@@ -4429,7 +4229,6 @@ system "Borgo Prime"
 		sprite planet/ice4
 		distance 682.58
 		period 467.037
-
 		object
 			sprite planet/dust1
 			distance 168
@@ -4446,30 +4245,22 @@ system "Borgo Prime"
 		sprite planet/gas11
 		distance 2314.04
 		period 2915.26
-
 		object
 			sprite planet/miranda
 			distance 254
 			period 13.3514
-
 		object
 			sprite planet/rock3
 			distance 367
 			period 23.1887
-
 		object
 			sprite planet/tethys
 			distance 464
 			period 32.9651
-
 		object
 			sprite planet/ice8
 			distance 548
 			period 42.3105
-
-
-
-
 system Borkyne
 	pos 5895.28 -6406.63
 	government "Galactic Empire"
@@ -4801,7 +4592,6 @@ system "Boz Pity"
 		sprite planet/desert3
 		distance 277.36
 		period 103.288
-
 		object
 			sprite planet/europa
 			distance 157
@@ -4818,20 +4608,14 @@ system "Boz Pity"
 		sprite planet/gas7
 		distance 2192.52
 		period 2295.62
-
 		object
 			sprite planet/rock0
 			distance 241
 			period 13.3093
-
 		object
 			sprite planet/tethys
 			distance 338
 			period 22.1058
-
-
-
-
 system Brentaal
 	pos 5925.14 -7388.71
 	government "Galactic Empire"
@@ -4908,7 +4692,7 @@ system Broest
 		sprite star/m4
 		period 10
 	object "Broest"
-		sprite planet/lava5
+		sprite planet/forest0-b
 		distance 166.49
 		period 56.2605
 	object
@@ -4949,7 +4733,6 @@ system Bunduki
 		sprite planet/cloud1
 		distance 581.96
 		period 272.104
-
 		object
 			sprite planet/dust7
 			distance 170
@@ -4966,10 +4749,6 @@ system Bunduki
 		sprite planet/gas6
 		distance 1962.17
 		period 1684.62
-
-
-
-
 system "Burnin Konn"
 	pos 5713.82 -5891.64
 	habitable 486.68
@@ -5020,7 +4799,7 @@ system "Burnin Konn"
 		distance 2739.75
 		period 2600.19
 
-system Byolos
+system Byblos
 	pos 6143.14 -6889.71
 	government "Galactic Empire"
 	habitable 4131.68
@@ -5094,7 +4873,6 @@ system Byss
 		sprite planet/rock13
 		distance 395.04
 		period 107.608
-
 		object
 			sprite planet/rhea
 			distance 130
@@ -5111,25 +4889,18 @@ system Byss
 		sprite planet/gas17
 		distance 2123.69
 		period 1341.27
-
 		object
 			sprite planet/miranda
 			distance 230
 			period 14.9027
-
 		object
 			sprite planet/dust1
 			distance 336
 			period 26.3137
-
 		object
 			sprite planet/dust0
 			distance 435
 			period 38.7621
-
-
-
-
 system Caamas
 	pos 6016.64 -7341.22
 	government "Galactic Empire"
@@ -5150,27 +4921,22 @@ system Caamas
 	object
 		sprite star/f5
 		period 10
-
 	object
 		sprite planet/rock10
 		distance 269.49
 		period 42.7309
-
 	object
 		sprite planet/neptune
 		distance 755.3
 		period 200.497
-
 	object
 		sprite planet/rock16
 		distance 1064.3
 		period 335.37
-
 	object
 		sprite planet/rock3
 		distance 1571.99
 		period 602.008
-
 	object
 		sprite planet/gas0
 		distance 2149.23
@@ -5179,10 +4945,6 @@ system Caamas
 			sprite planet/dust5
 			distance 304
 			period 15.5334
-
-
-
-
 
 system Cadinth
 	pos 7032.21 -7917.32
@@ -5205,12 +4967,10 @@ system Cadinth
 	object
 		sprite star/k5
 		period 10
-
 	object
 		sprite planet/rock12
 		distance 176.36
 		period 45.3938
-
 	object
 		sprite planet/gas8
 		distance 708.12
@@ -5223,7 +4983,6 @@ system Cadinth
 		sprite planet/tethys
 		distance 1080.37
 		period 688.264
-
 	object
 		sprite planet/neptune
 		distance 2211.62
@@ -5302,17 +5061,14 @@ system Caluula
 		distance 50
 		period 13.7051
 		offset 180
-
 	object
 		sprite star/k5
 		distance 50
 		period 13.7051
-
 	object
 		sprite planet/cloud0
 		distance 232.81
 		period 48.6837
-
 	object
 		sprite planet/fog0
 		distance 755.81
@@ -5594,12 +5350,10 @@ system "Cato Neimoidia"
 	object
 		sprite star/f0
 		period 10
-
 	object
 		sprite planet/oberon
 		distance 117.01
 		period 10.3936
-
 	object
 		sprite planet/fog0
 		distance 557.22
@@ -5608,7 +5362,6 @@ system "Cato Neimoidia"
 			sprite planet/callisto
 			distance 192
 			period 19.6259
-
 	object
 		sprite planet/gas11
 		distance 1342.47
@@ -5621,7 +5374,6 @@ system "Cato Neimoidia"
 			sprite planet/lava0
 			distance 418
 			period 28.1866
-
 	object
 		sprite planet/gas3
 		distance 3313.43
@@ -5634,10 +5386,6 @@ system "Cato Neimoidia"
 			sprite planet/dust0
 			distance 441
 			period 23.655
-
-
-
-
 
 system Celanon
 	pos 6439.66 -7977.75
@@ -5741,15 +5489,10 @@ system Celegia
 		sprite planet/gas1
 		distance 2433.24
 		period 1920.43
-
 		object
 			sprite planet/desert4
 			distance 214
 			period 12.5123
-
-
-
-
 system Centares
 	pos 6889.35 -7771.12
 	habitable 4131.68
@@ -5771,41 +5514,31 @@ system Centares
 		sprite star/a5
 		distance 12.8394
 		period 7.08168
-
 	object
 		sprite star/k0
 		distance 96.1606
 		period 7.08168
 		offset 180
-
 	object
 		sprite planet/fog0
 		distance 345.051
 		period 39.886
-
 	object
 		sprite planet/desert6
 		distance 614.091
 		period 94.699
-
 	object
 		sprite planet/ice3
 		distance 1336.38
 		period 304.013
-
 	object
 		sprite planet/gas8
 		distance 1768.14
 		period 462.671
-
 	object
 		sprite planet/uranus
 		distance 3066.14
 		period 1056.54
-
-
-
-
 
 system Cerea
 	pos 5423.71 -6222.45
@@ -5854,10 +5587,6 @@ system Cerea
 		sprite planet/gas11
 		distance 2048.35
 		period 1716.77
-
-
-
-
 system Chad
 	pos 6942.35 -7782.12
 	habitable 2160
@@ -5880,17 +5609,14 @@ system Chad
 		distance 59
 		period 11.032
 		offset 180
-
 	object
 		sprite star/g0
 		distance 59
 		period 11.032
-
 	object
 		sprite planet/desert7
 		distance 203.25
 		period 24.939
-
 	object
 		sprite planet/gas4
 		distance 785.61
@@ -5903,7 +5629,6 @@ system Chad
 		sprite planet/europa
 		distance 1203.3
 		period 359.248
-
 	object
 		sprite planet/jupiter
 		distance 1871.06
@@ -5940,22 +5665,18 @@ system Chalacta
 	object
 		sprite star/f0
 		period 10
-
 	object
 		sprite planet/ice6
 		distance 174.89
 		period 18.9924
-
 	object
 		sprite planet/lava7
 		distance 455.93
 		period 79.943
-
 	object
 		sprite planet/dust1
 		distance 749.54
 		period 168.51
-
 	object
 		sprite planet/gas0
 		distance 1263.18
@@ -5964,7 +5685,6 @@ system Chalacta
 			sprite planet/rhea
 			distance 262
 			period 12.4282
-
 	object
 		sprite planet/gas15
 		distance 3360.18
@@ -5973,10 +5693,6 @@ system Chalacta
 			sprite planet/rock0
 			distance 184
 			period 13.1378
-
-
-
-
 
 system Chalcedon
 	pos 5467.29 -6256.97
@@ -5998,12 +5714,10 @@ system Chalcedon
 	object
 		sprite star/m4
 		period 10
-
 	object
 		sprite planet/forest3
 		distance 193.76
 		period 70.6346
-
 	object
 		sprite planet/desert10
 		distance 580.76
@@ -6016,7 +5730,6 @@ system Chalcedon
 		sprite planet/lava0
 		distance 982.72
 		period 806.8
-
 	object
 		sprite planet/gas11
 		distance 1539.81
@@ -6033,10 +5746,6 @@ system Chalcedon
 		sprite planet/rhea
 		distance 2071.65
 		period 2469.42
-
-
-
-
 
 system Challon
 	pos 5868.89 -7426.37
@@ -6129,7 +5838,7 @@ system Champala
 
 system Chandrila
 	pos 5894.86 -7371.26
-	government "Galactic Empire"
+	government "Galactic Empire (Sympathiser)"
 	habitable 625
 	music ambient/wait
 	arrival 2000
@@ -6146,7 +5855,7 @@ system Chandrila
 		distance 191.21
 		period 42.3044
 	object "Chandrila"
-		sprite planet/rock10
+		sprite planet/chandrila
 		distance 553.17
 		period 208.165
 		object
@@ -6317,15 +6026,10 @@ system Chazwa
 		distance 2737.88
 		period 2776.63
 		offset 37.4031
-
 		object
 			sprite planet/dust1
 			distance 237
 			period 12.0337
-
-
-
-
 system Cheelit
 	pos 5463.31 -6198.61
 	habitable 135
@@ -6519,20 +6223,14 @@ system Circumtore
 		sprite planet/gas5
 		distance 2776
 		period 2312.59
-
 		object
 			sprite planet/rock14
 			distance 269
 			period 14.6715
-
 		object
 			sprite planet/ice8
 			distance 386
 			period 25.219
-
-
-
-
 system Codia
 	pos 5257.5 -6461.39
 	habitable 233.28
@@ -6620,7 +6318,6 @@ system "Colla IV"
 		distance 1337.02
 		period 494.055
 		offset 69.9962
-
 		object
 			sprite planet/miranda
 			distance 177
@@ -6630,10 +6327,6 @@ system "Colla IV"
 		distance 4191.66
 		period 2742.51
 		offset 300.29
-
-
-
-
 system Columex
 	pos 6948.86 -7875.62
 	habitable 486.68
@@ -6658,7 +6351,6 @@ system Columex
 		sprite planet/cloud3
 		distance 303.61
 		period 95.9207
-
 		object
 			sprite planet/rock3
 			distance 146
@@ -6679,10 +6371,6 @@ system Columex
 		sprite planet/ice7
 		distance 2610.66
 		period 2418.6
-
-
-
-
 system Columus
 	pos 6034.14 -7115.71
 	government "Galactic Empire"
@@ -6724,12 +6412,10 @@ system Columus
 		sprite planet/neptune
 		distance 1326.96
 		period 466.89
-
 		object
 			sprite planet/io
 			distance 204
 			period 14.517
-
 		object
 			sprite planet/rock7
 			distance 297
@@ -6738,10 +6424,6 @@ system Columus
 		sprite planet/ice0
 		distance 3407.6
 		period 1921.33
-
-
-
-
 system Commenor
 	pos 6207.14 -7166.71
 	government "Galactic Empire"
@@ -6849,27 +6531,22 @@ system Cona
 	object
 		sprite star/a5
 		period 10
-
 	object
 		sprite planet/lava6
 		distance 170.36
 		period 14.732
-
 	object
 		sprite planet/rock15
 		distance 342.6
 		period 42.0138
-
 	object
 		sprite planet/dust2
 		distance 560.44
 		period 87.9032
-
 	object
 		sprite planet/mars
 		distance 829.48
 		period 158.278
-
 	object
 		sprite planet/gas8
 		distance 3213.09
@@ -6886,10 +6563,6 @@ system Cona
 			sprite planet/dust3
 			distance 469
 			period 54.0675
-
-
-
-
 
 system "Concord Dawn"
 	pos 6406.86 -7737.6
@@ -6979,12 +6652,10 @@ system Contruum
 		sprite planet/jupiter
 		distance 1405.59
 		period 455.563
-
 		object
 			sprite planet/callisto
 			distance 289
 			period 15.4386
-
 		object
 			sprite planet/rhea
 			distance 454
@@ -6993,15 +6664,10 @@ system Contruum
 		sprite planet/gas8
 		distance 2679.43
 		period 1199.01
-
 		object
 			sprite planet/oberon
 			distance 179
 			period 12.7484
-
-
-
-
 system Corellia
 	pos 6089.14 -7014.67
 	government "Galactic Empire"
@@ -7042,12 +6708,10 @@ system Corellia
 		sprite planet/gas17
 		distance 1221.96
 		period 353.214
-
 		object
 			sprite planet/rock0
 			distance 232
 			period 15.0975
-
 		object
 			sprite planet/desert4
 			distance 346
@@ -7056,20 +6720,14 @@ system Corellia
 		sprite planet/gas15
 		distance 3010.2
 		period 1365.67
-
 		object
 			sprite planet/europa
 			distance 177
 			period 12.3953
-
 		object
 			sprite planet/ice8
 			distance 311
 			period 28.8694
-
-
-
-
 system Corsin
 	pos 6142.17 -7721.44
 	habitable 5360
@@ -7097,27 +6755,22 @@ system Corsin
 		distance 42.875
 		period 8.4749
 		offset 180
-
 	object
 		sprite star/f5
 		distance 91.125
 		period 8.4749
-
 	object
 		sprite planet/rock2
 		distance 306.735
 		period 29.351
-
 	object
 		sprite planet/desert6
 		distance 527.625
 		period 66.2164
-
 	object
 		sprite planet/gas2
 		distance 818.265
 		period 127.885
-
 	object
 		sprite planet/ice4
 		distance 1659.03
@@ -7126,15 +6779,10 @@ system Corsin
 			sprite planet/ice8
 			distance 130
 			period 18.6328
-
 	object
 		sprite planet/gas7
 		distance 2055.32
 		period 509.091
-
-
-
-
 
 system Corulus
 	pos 5876.86 -7362.26
@@ -7390,15 +7038,10 @@ system Crait
 		sprite planet/gas1
 		distance 7677.12
 		period 5270.69
-
 		object
 			sprite planet/rock7
 			distance 226
 			period 13.5793
-
-
-
-
 system Csilla
 	pos 4837.63 -7534.48
 	government "Galactic Empire"
@@ -7444,7 +7087,6 @@ system Csilla
 		sprite planet/gas16
 		distance 1639.43
 		period 934.865
-
 		object
 			sprite planet/lava0
 			distance 195
@@ -7453,20 +7095,14 @@ system Csilla
 		sprite planet/neptune
 		distance 2299.12
 		period 1552.57
-
 		object
 			sprite planet/tethys
 			distance 181
 			period 12.1325
-
 		object
 			sprite planet/rock17
 			distance 263
 			period 21.2503
-
-
-
-
 system Cuitric
 	pos 6243.04 -8118.13
 	habitable 945
@@ -7725,19 +7361,16 @@ system D'Qar
 		sprite star/f5
 		distance 29.3803
 		period 9.53984
-
 	object
 		sprite star/g5
 		distance 80.6197
 		period 9.53984
 		offset 180
-
 	object "D'Qar"
 		sprite planet/dqar
 		distance 1385.75
 		period 426.558
 		offset 152.191
-
 
 		object
 			sprite planet/luna
@@ -7747,13 +7380,11 @@ system D'Qar
 			sprite planet/callisto
 			distance 331
 			period 31.6985
-
 	object 
 		sprite planet/gas13
 		distance 2541.44
 		period 1059.43
 		offset 222.262
-
 
 		object
 			sprite planet/rock7
@@ -7767,13 +7398,11 @@ system D'Qar
 			sprite planet/dust3
 			distance 503
 			period 31.8465
-
 	object
 		sprite planet/gas3
 		distance 3823.44
 		period 1954.94
 		offset 155.347
-
 
 		object
 			sprite planet/ice0
@@ -7829,15 +7458,10 @@ system Daalang
 		sprite planet/gas10
 		distance 2369.77
 		period 1501.08
-
 		object
 			sprite planet/ice0
 			distance 220
 			period 17.1764
-
-
-
-
 system Daemen
 	pos 6047.53 -6274.42
 	government "Galactic Empire"
@@ -7961,12 +7585,10 @@ system Daluuj
 		sprite planet/gas5
 		distance 1424.86
 		period 757.475
-
 		object
 			sprite planet/io
 			distance 269
 			period 14.6715
-
 		object
 			sprite planet/dust0
 			distance 401
@@ -7975,20 +7597,14 @@ system Daluuj
 		sprite planet/gas11
 		distance 3387.7
 		period 2776.94
-
 		object
 			sprite planet/ice7
 			distance 276
 			period 15.1231
-
 		object
 			sprite planet/desert4
 			distance 414
 			period 27.7829
-
-
-
-
 system Dankayo
 	pos 5889.89 -7479.37
 	habitable 2035
@@ -8155,17 +7771,14 @@ system Darkknell
 		sprite planet/gas13
 		distance 966.77
 		period 582.614
-
 		object
 			sprite planet/europa
 			distance 292
 			period 14.0859
-
 		object
 			sprite planet/luna
 			distance 411
 			period 23.5219
-
 		object
 			sprite planet/ice0
 			distance 568
@@ -8178,15 +7791,10 @@ system Darkknell
 		sprite planet/gas7
 		distance 2249.77
 		period 2068.25
-
 		object
 			sprite planet/rhea
 			distance 240
 			period 13.2266
-
-
-
-
 system "Darlyn Boda"
 	pos 5686.82 -5839.64
 	habitable 625
@@ -8312,22 +7920,18 @@ system Dathomir
 	object
 		sprite star/k5
 		period 10
-
 	object
 		sprite planet/desert1
 		distance 178.89
 		period 46.3741
-
 	object
 		sprite planet/desert7
 		distance 590.53
 		period 278.137
-
 	object
 		sprite planet/desert8
 		distance 794.53
 		period 434.072
-
 	object
 		sprite planet/gas9
 		distance 1547.97
@@ -8348,10 +7952,6 @@ system Dathomir
 			sprite planet/rock14
 			distance 569
 			period 50.8931
-
-
-
-
 
 system Daupherm
 	pos 5790.97 -6882.83
@@ -8457,17 +8057,14 @@ system Delacrix
 	object
 		sprite star/g5
 		period 10
-
 	object
 		sprite planet/cloud6
 		distance 165
 		period 33.9114
-
 	object
 		sprite planet/fog0
 		distance 408.04
 		period 131.879
-
 	object
 		sprite planet/gas9
 		distance 871.25
@@ -8476,15 +8073,10 @@ system Delacrix
 			sprite planet/dust3
 			distance 254
 			period 15.1789
-
 	object
 		sprite planet/rhea
 		distance 2039.25
 		period 1473.42
-
-
-
-
 
 system Dellalt
 	pos 7209.35 -7858.12
@@ -8509,35 +8101,26 @@ system Dellalt
 		distance 23.5429
 		period 11.1751
 		offset 180
-
 	object
 		sprite star/m0
 		distance 79.4571
 		period 11.1751
-
 	object
 		sprite planet/rock5
 		distance 250.417
 		period 42.3635
-
 	object
 		sprite planet/ice2
 		distance 545.667
 		period 136.266
-
 	object
 		sprite planet/rock12
 		distance 794.107
 		period 239.229
-
 	object
 		sprite planet/gas17
 		distance 2081.67
 		period 1015.34
-
-
-
-
 
 system Delphon
 	pos 5783.82 -5868.64
@@ -8759,7 +8342,6 @@ system Denon
 		sprite planet/gas6
 		distance 1015.89
 		period 847.991
-
 		object
 			sprite planet/oberon
 			distance 295
@@ -8768,12 +8350,10 @@ system Denon
 			sprite planet/ice0
 			distance 377
 			period 18.6972
-
 	object
 		sprite planet/neptune
 		distance 2541.13
 		period 3354.76
-
 		object
 			sprite planet/desert4
 			distance 228
@@ -8878,30 +8458,22 @@ system Derra
 		sprite planet/gas8
 		distance 2567.58
 		period 2521.63
-
 		object
 			sprite planet/rock17
 			distance 212
 			period 16.4316
-
 		object
 			sprite planet/dust4
 			distance 339
 			period 33.2259
-
 		object
 			sprite planet/oberon
 			distance 508
 			period 60.9498
-
 		object
 			sprite planet/luna
 			distance 599
 			period 78.04
-
-
-
-
 system Desevro
 	pos 7025.72 -7993.71
 	habitable 486.68
@@ -8986,33 +8558,27 @@ system Devaron
 		sprite star/g0
 		distance 26.7429
 		period 13.5293
-
 	object
 		sprite star/m0
 		distance 90.2571
 		period 13.5293
 		offset 180
-
 	object
 		sprite planet/rock4
 		distance 345.417
 		period 68.6297
-
 	object
 		sprite planet/lava2
 		distance 672.977
 		period 186.636
-
 	object
 		sprite planet/desert10
 		distance 977.787
 		period 326.861
-
 	object
 		sprite planet/rock6
 		distance 1509.2
 		period 626.78
-
 	object
 		sprite planet/uranus
 		distance 2557.84
@@ -9021,10 +8587,6 @@ system Devaron
 			sprite planet/dust5
 			distance 211
 			period 13.0947
-
-
-
-
 
 system Deysum
 	pos 6710.03 -7233
@@ -9054,7 +8616,6 @@ system Deysum
 		sprite planet/desert3
 		distance 553.17
 		period 208.165
-
 		object
 			sprite planet/oberon
 			distance 127
@@ -9063,20 +8624,14 @@ system Deysum
 		sprite planet/gas13
 		distance 1730.46
 		period 1151.76
-
 		object
 			sprite planet/miranda
 			distance 285
 			period 13.5824
-
 		object
 			sprite planet/dust1
 			distance 433
 			period 25.4356
-
-
-
-
 system Dolla
 	pos 5868.29 -5922.97
 	habitable 5320
@@ -9118,10 +8673,6 @@ system Dolla
 		sprite planet/gas9
 		distance 2216.23
 		period 572.173
-
-
-
-
 system Dorin
 	pos 5590.88 -7649.93
 	habitable 1715
@@ -9144,7 +8695,6 @@ system Dorin
 	object
 		sprite star/f5
 		period 10
-
 	object
 		sprite planet/rock16
 		distance 333.16
@@ -9153,12 +8703,10 @@ system Dorin
 			sprite planet/dust7
 			distance 119
 			period 17.7169
-
 	object
 		sprite planet/lava2
 		distance 595.92
 		period 140.511
-
 	object
 		sprite planet/gas17
 		distance 1417.88
@@ -9167,7 +8715,6 @@ system Dorin
 			sprite planet/rock3
 			distance 227
 			period 14.6121
-
 	object
 		sprite planet/gas14
 		distance 2723.57
@@ -9188,10 +8735,6 @@ system Dorin
 			sprite planet/ice8
 			distance 501
 			period 45.6683
-
-
-
-
 
 system Dornea
 	pos 7401.46 -7782.92
@@ -9360,7 +8903,6 @@ system Dressel
 		sprite planet/desert2
 		distance 845.67
 		period 237.536
-
 		object
 			sprite planet/dust0
 			distance 152
@@ -9369,20 +8911,14 @@ system Dressel
 		sprite planet/gas15
 		distance 2562.23
 		period 1252.72
-
 		object
 			sprite planet/luna
 			distance 193
 			period 14.1134
-
 		object
 			sprite planet/ice7
 			distance 324
 			period 30.6983
-
-
-
-
 system Drexel
 	pos 6707.93 -5902.86
 	government "Galactic Empire"
@@ -9581,7 +9117,6 @@ system Druckenwell
 		sprite planet/ice5
 		distance 936.11
 		period 458.258
-
 		object
 			sprite planet/ice7
 			distance 146
@@ -9590,7 +9125,6 @@ system Druckenwell
 		sprite planet/jupiter
 		distance 2258.36
 		period 1717.16
-
 		object
 			sprite planet/luna
 			distance 241
@@ -9627,22 +9161,18 @@ system Dubrava
 		distance 57.5
 		period 10.614
 		offset 180
-
 	object
 		sprite star/g0
 		distance 57.5
 		period 10.614
-
 	object
 		sprite planet/rock9
 		distance 214.74
 		period 27.0834
-
 	object
 		sprite planet/desert1
 		distance 596.03
 		period 125.238
-
 	object
 		sprite planet/gas16
 		distance 1322.67
@@ -9659,7 +9189,6 @@ system Dubrava
 			sprite planet/rock0
 			distance 427
 			period 46.445
-
 	object
 		sprite planet/gas6
 		distance 2529.67
@@ -9676,10 +9205,6 @@ system Dubrava
 			sprite planet/ice7
 			distance 546
 			period 32.5877
-
-
-
-
 
 system Dubrillion
 	pos 5769.04 -8371.13
@@ -9944,10 +9469,6 @@ system Eiattu
 		sprite planet/gas4
 		distance 3550.13
 		period 5539.72
-
-
-
-
 system Elbara
 	pos 5591.31 -6103.61
 	habitable 2160
@@ -10135,10 +9656,6 @@ system "Elshandruu Pica"
 		sprite planet/gas0
 		distance 2385.69
 		period 1864.41
-
-
-
-
 system "Empress Teta"
 	pos 5827.45 -7243.92
 	government "Rebel Alliance"
@@ -10226,27 +9743,22 @@ system Enarc
 	object
 		sprite star/m0
 		period 10
-
 	object
 		sprite planet/rock4
 		distance 245.81
 		period 86.1756
-
 	object
 		sprite planet/cloud2
 		distance 498.22
 		period 248.666
-
 	object
 		sprite planet/gas15
 		distance 885.23
 		period 588.937
-
 	object
 		sprite planet/gas9
 		distance 1789.48
 		period 1692.68
-
 	object
 		sprite planet/gas2
 		distance 2474.12
@@ -10259,10 +9771,6 @@ system Enarc
 			sprite planet/callisto
 			distance 335
 			period 37.152
-
-
-
-
 
 system Endor
 	pos 5253.5 -6191.39
@@ -10292,17 +9800,14 @@ system Endor
 		sprite planet/gas4
 		distance 898
 		period 704.751
-
 		object
 			sprite planet/miranda
 			distance 250
 			period 13.9414
-
 		object
 			sprite planet/oberon
 			distance 334
 			period 21.5287
-
 		object
 			sprite planet/dust4
 			distance 445
@@ -10311,10 +9816,6 @@ system Endor
 		sprite planet/gas15
 		distance 1981.09
 		period 2309.29
-
-
-
-
 system Entralla
 	pos 5675.04 -8196.13
 	habitable 625
@@ -10397,7 +9898,6 @@ system Er'Kit
 		sprite planet/jupiter
 		distance 1227.45
 		period 688.059
-
 		object
 			sprite planet/europa
 			distance 266
@@ -10406,20 +9906,14 @@ system Er'Kit
 		sprite planet/gas5
 		distance 2228.26
 		period 1682.94
-
 		object
 			sprite planet/ice7
 			distance 239
 			period 12.287
-
 		object
 			sprite planet/callisto
 			distance 408
 			period 27.4055
-
-
-
-
 system Eriadu
 	pos 6086.45 -5945.47
 	habitable 912.6
@@ -10702,17 +10196,14 @@ system Exodeen
 	object
 		sprite star/k0
 		period 10
-
 	object
 		sprite planet/desert9
 		distance 144.76
 		period 31.5799
-
 	object
 		sprite planet/mercury
 		distance 480.17
 		period 190.779
-
 	object
 		sprite planet/gas14
 		distance 1135.17
@@ -10725,7 +10216,6 @@ system Exodeen
 			sprite planet/tethys
 			distance 380
 			period 30.1671
-
 	object
 		sprite planet/gas2
 		distance 2116.06
@@ -10766,22 +10256,18 @@ system Falleen
 		sprite planet/gas0
 		distance 1099.56
 		period 443.789
-
 		object
 			sprite planet/dust0
 			distance 256
 			period 12.0037
-
 		object
 			sprite planet/dust5
 			distance 401
 			period 23.5328
-
 		object
 			sprite planet/rock7
 			distance 557
 			period 38.5247
-
 		object
 			sprite planet/oberon
 			distance 645
@@ -10794,20 +10280,14 @@ system Falleen
 		sprite planet/gas10
 		distance 3209.01
 		period 2212.61
-
 		object
 			sprite planet/callisto
 			distance 237
 			period 19.2052
-
 		object
 			sprite planet/io
 			distance 399
 			period 41.9524
-
-
-
-
 system Farana
 	pos 7078.66 -8372.75
 	habitable 425.92
@@ -10943,12 +10423,10 @@ system Fedalle
 		sprite planet/forest2
 		distance 625.94
 		period 283.947
-
 		object
 			sprite planet/dust3
 			distance 286
 			period 14.1744
-
 	object
 		sprite planet/dust7
 		distance 1182.35
@@ -10957,7 +10435,6 @@ system Fedalle
 		sprite planet/gas9
 		distance 2240.35
 		period 1922.7
-
 		object
 			sprite planet/dust0
 			distance 241
@@ -11049,18 +10526,15 @@ system Felucia
 		sprite star/k5
 		distance 33.6189
 		period 14.4257
-
 	object
 		sprite star/m4
 		distance 61.3811
 		period 14.4257
 		offset 180
-
 	object
 		sprite planet/ganymede
 		distance 181.421
 		period 38.07
-
 	object
 		sprite planet/ocean2
 		distance 571.421
@@ -11069,12 +10543,10 @@ system Felucia
 			sprite planet/rock14
 			distance 161
 			period 17.7332
-
 	object
 		sprite planet/rock3
 		distance 892.461
 		period 415.37
-
 	object
 		sprite planet/jupiter
 		distance 2574.87
@@ -11091,10 +10563,6 @@ system Felucia
 			sprite planet/ice8
 			distance 528
 			period 38.1252
-
-
-
-
 
 system Ferro
 	pos 6874.89 -8265.48
@@ -11201,15 +10669,10 @@ system Filordis
 		distance 2399.82
 		period 1529.72
 		offset 51.4164
-
 		object
 			sprite planet/io
 			distance 192
 			period 16.1201
-
-
-
-
 system Firrerre
 	pos 5221.5 -6237.39
 	habitable 1215
@@ -11230,28 +10693,23 @@ system Firrerre
 		sprite star/g0
 		distance 11.3333
 		period 11.8215
-
 	object
 		sprite star/m8
 		distance 90.6667
 		period 11.8215
 		offset 180
-
 	object
 		sprite planet/europa
 		distance 219.157
 		period 37.2309
-
 	object
 		sprite planet/cloud3
 		distance 396.597
 		period 90.6349
-
 	object
 		sprite planet/cloud8
 		distance 621.597
 		period 177.842
-
 	object
 		sprite planet/water1
 		distance 1375.96
@@ -11260,7 +10718,6 @@ system Firrerre
 			sprite planet/dust1
 			distance 161
 			period 17.7332
-
 	object
 		sprite planet/gas3
 		distance 3482.8
@@ -11273,10 +10730,6 @@ system Firrerre
 			sprite planet/ice8
 			distance 388
 			period 19.5215
-
-
-
-
 
 system Florn
 	pos 7177.24 -8060.55
@@ -11448,10 +10901,6 @@ system Foless
 		sprite planet/gas12
 		distance 1900.73
 		period 800.403
-
-
-
-
 system Fondor
 	pos 5869.14 -6710.71
 	government "Galactic Empire"
@@ -11484,7 +10933,6 @@ system Fondor
 		sprite planet/neptune
 		distance 766.3
 		period 258.194
-
 		object
 			sprite planet/callisto
 			distance 218
@@ -11493,7 +10941,6 @@ system Fondor
 		sprite planet/gas13
 		distance 1574.51
 		period 760.442
-
 		object
 			sprite planet/miranda
 			distance 267
@@ -11502,10 +10949,6 @@ system Fondor
 		sprite planet/gas2
 		distance 2113.75
 		period 1182.85
-
-
-
-
 system Formos
 	pos 7314.23 -7287.11
 	government "Galactic Empire"
@@ -11635,20 +11078,14 @@ system G'wenee
 		sprite planet/gas1
 		distance 2179.91
 		period 2275.85
-
 		object
 			sprite planet/rock7
 			distance 244
 			period 15.2335
-
 		object
 			sprite planet/desert4
 			distance 327
 			period 23.634
-
-
-
-
 system Galidraan
 	pos 6925.38 -7939.12
 	habitable 486.68
@@ -11683,15 +11120,10 @@ system Galidraan
 		sprite planet/neptune
 		distance 2632.89
 		period 2449.56
-
 		object
 			sprite planet/dust0
 			distance 213
 			period 15.4882
-
-
-
-
 system Gamor
 	pos 6408.63 -6592.08
 	government "Galactic Empire"
@@ -11880,20 +11312,14 @@ system Gannaria
 		sprite planet/uranus
 		distance 2013.82
 		period 2020.77
-
 		object
 			sprite planet/rock14
 			distance 210
 			period 13.0018
-
 		object
 			sprite planet/ice8
 			distance 309
 			period 23.2066
-
-
-
-
 system Garel
 	pos 7312.86 -7724.26
 	habitable 2372.76
@@ -11973,7 +11399,6 @@ system Garos
 		sprite planet/ice1
 		distance 772.3
 		period 176.243
-
 		object
 			sprite planet/ice8
 			distance 160
@@ -11986,20 +11411,14 @@ system Garos
 		sprite planet/gas16
 		distance 2787.11
 		period 1208.27
-
 		object
 			sprite planet/ice7
 			distance 204
 			period 15.3371
-
 		object
 			sprite planet/dust7
 			distance 361
 			period 36.1042
-
-
-
-
 system Garqi
 	pos 5760.04 -8071.13
 	habitable 1715
@@ -12276,7 +11695,6 @@ system Ghorman
 		sprite planet/rock4
 		distance 393.004
 		period 58.9086
-
 		object
 			sprite planet/rhea
 			distance 185
@@ -12294,7 +11712,6 @@ system Ghorman
 		sprite planet/gas0
 		distance 2206.41
 		period 783.635
-
 		object
 			sprite planet/dust5
 			distance 284
@@ -12342,7 +11759,6 @@ system Giju
 		sprite planet/ocean5
 		distance 1119.34
 		period 429.748
-
 		object
 			sprite planet/lava0
 			distance 141
@@ -12355,10 +11771,6 @@ system Giju
 		sprite planet/gas17
 		distance 2236.35
 		period 1213.61
-
-
-
-
 system Gizer
 	pos 6503.35 -7519.12
 	habitable 2340
@@ -12405,25 +11817,18 @@ system Gizer
 		sprite planet/gas1
 		distance 1936.88
 		period 704.866
-
 		object
 			sprite planet/ice7
 			distance 235
 			period 14.3985
-
 		object
 			sprite planet/dust3
 			distance 370
 			period 28.4458
-
 		object
 			sprite planet/desert4
 			distance 509
 			period 45.8978
-
-
-
-
 system "Glee Anselm"
 	pos 5525.04 -7728.13
 	habitable 233.28
@@ -12683,7 +12088,6 @@ system Gromas
 		sprite planet/uranus
 		distance 738.93
 		period 321.385
-
 		object
 			sprite planet/ice7
 			distance 221
@@ -12696,10 +12100,6 @@ system Gromas
 		sprite planet/oberon
 		distance 3941.3
 		period 3958.94
-
-
-
-
 system Gyndine
 	pos 6344.63 -6956.08
 	government "Galactic Empire"
@@ -12790,7 +12190,6 @@ system Haaska
 		sprite planet/desert10
 		distance 588.247
 		period 59.9368
-
 		object
 			sprite planet/europa
 			distance 133
@@ -12807,20 +12206,14 @@ system Haaska
 		sprite planet/gas2
 		distance 2478.84
 		period 518.473
-
 		object
 			sprite planet/dust5
 			distance 191
 			period 15.9943
-
 		object
 			sprite planet/dust7
 			distance 309
 			period 32.9119
-
-
-
-
 system Halmad
 	pos 6305.56 -7883.62
 	habitable 1080
@@ -12853,17 +12246,14 @@ system Halmad
 		sprite planet/gas3
 		distance 1387.26
 		period 628.905
-
 		object
 			sprite planet/luna
 			distance 303
 			period 13.4719
-
 		object
 			sprite planet/rock7
 			distance 385
 			period 19.2955
-
 		object
 			sprite planet/lava0
 			distance 479
@@ -12872,25 +12262,18 @@ system Halmad
 		sprite planet/neptune
 		distance 3073.9
 		period 2074.35
-
 		object
 			sprite planet/callisto
 			distance 239
 			period 18.409
-
 		object
 			sprite planet/dust1
 			distance 369
 			period 35.316
-
 		object
 			sprite planet/miranda
 			distance 491
 			period 54.2069
-
-
-
-
 system Hapes
 	pos 6409.42 -7418.37
 	government "Galactic Empire"
@@ -12912,7 +12295,6 @@ system Hapes
 		sprite planet/jupiter
 		distance 389.96
 		period 123.211
-
 		object
 			sprite planet/ice0
 			distance 237
@@ -12929,20 +12311,14 @@ system Hapes
 		sprite planet/gas1
 		distance 1616.58
 		period 1039.96
-
 		object
 			sprite planet/desert4
 			distance 230
 			period 13.9414
-
 		object
 			sprite planet/europa
 			distance 368
 			period 28.2155
-
-
-
-
 system Harrin
 	pos 5961.45 -6492.67
 	government "Galactic Empire"
@@ -12967,7 +12343,6 @@ system Harrin
 		sprite planet/desert6
 		distance 327.09
 		period 94.6501
-
 		object
 			sprite planet/dust5
 			distance 177
@@ -12984,10 +12359,6 @@ system Harrin
 		sprite planet/gas14
 		distance 1917.83
 		period 1343.8
-
-
-
-
 system "Haruun Kal"
 	pos 6124.6 -6150.29
 	habitable 625
@@ -13292,12 +12663,10 @@ system Hollastin
 		sprite planet/gas3
 		distance 871.19
 		period 329.68
-
 		object
 			sprite planet/rhea
 			distance 315
 			period 14.2801
-
 		object
 			sprite planet/ice7
 			distance 483
@@ -13306,10 +12675,6 @@ system Hollastin
 		sprite planet/uranus
 		distance 2063.15
 		period 1201.49
-
-
-
-
 system Honoghr
 	pos 7241.09 -7275.09
 	government "Galactic Empire"
@@ -13352,25 +12717,18 @@ system Honoghr
 		sprite planet/gas1
 		distance 2404.66
 		period 2285.48
-
 		object
 			sprite planet/rock3
 			distance 223
 			period 13.3098
-
 		object
 			sprite planet/ice0
 			distance 344
 			period 25.5008
-
 		object
 			sprite planet/dust4
 			distance 513
 			period 46.4399
-
-
-
-
 system Horuz
 	pos 5943.04 -8113.13
 	habitable 233.28
@@ -13517,20 +12875,14 @@ system Hoth
 		sprite planet/gas1
 		distance 3779.46
 		period 2060.26
-
 		object
 			sprite planet/dust5
 			distance 250
 			period 15.7989
-
 		object
 			sprite planet/tethys
 			distance 353
 			period 26.508
-
-
-
-
 system Huk
 	pos 5485.82 -8248.15
 	habitable 625
@@ -13614,28 +12966,23 @@ system Humbarine
 		sprite star/k0
 		distance 43.6356
 		period 16.2479
-
 	object
 		sprite star/m0
 		distance 66.3644
 		period 16.2479
 		offset 180
-
 	object
 		sprite planet/rock13
 		distance 285.324
 		period 67.8762
-
 	object
 		sprite planet/gas3
 		distance 697.884
 		period 259.648
-
 	object
 		sprite planet/rock18
 		distance 1308.84
 		period 666.87
-
 	object
 		sprite planet/gas4
 		distance 1975.8
@@ -13648,10 +12995,6 @@ system Humbarine
 			sprite planet/rock17
 			distance 384
 			period 26.5396
-
-
-
-
 
 system Hypori
 	pos 7032.21 -6254.59
@@ -13688,25 +13031,18 @@ system Hypori
 		sprite planet/gas1
 		distance 2077.78
 		period 1717.27
-
 		object
 			sprite planet/callisto
 			distance 229
 			period 13.8506
-
 		object
 			sprite planet/dust5
 			distance 334
 			period 24.3969
-
 		object
 			sprite planet/oberon
 			distance 508
 			period 45.7626
-
-
-
-
 system Iego
 	pos 7203.23 -7745.14
 	habitable 233.28
@@ -13728,7 +13064,6 @@ system Iego
 	object
 		sprite star/m4
 		period 10
-
 	object
 		sprite planet/desert1
 		distance 287.64
@@ -13741,7 +13076,6 @@ system Iego
 		sprite planet/lava5
 		distance 841.68
 		period 639.502
-
 	object
 		sprite planet/gas14
 		distance 1371.52
@@ -13779,18 +13113,15 @@ system Iktotchon
 		sprite star/k0
 		distance 39.6688
 		period 14.0835
-
 	object
 		sprite star/m0
 		distance 60.3312
 		period 14.0835
 		offset 180
-
 	object
 		sprite planet/venus
 		distance 210.371
 		period 42.9723
-
 	object
 		sprite planet/gas8
 		distance 665.181
@@ -14141,7 +13472,7 @@ system Iseno
 	habitable 486.68
 	music ambient/wait
 	arrival 2000
-	link Byolos
+	link Byblos
 	link Denon
 	asteroids "large metal" 1 7.7
 	belt 1026
@@ -14318,7 +13649,6 @@ system Ithor
 		sprite planet/desert0
 		distance 543.13
 		period 202.524
-
 		object
 			sprite planet/ice8
 			distance 135
@@ -14335,25 +13665,18 @@ system Ithor
 		sprite planet/gas14
 		distance 1895.95
 		period 1320.87
-
 		object
 			sprite planet/dust7
 			distance 251
 			period 16.1946
-
 		object
 			sprite planet/rhea
 			distance 354
 			period 27.1246
-
 		object
 			sprite planet/dust5
 			distance 522
 			period 48.5696
-
-
-
-
 system Ixtlar
 	pos 5892.14 -7321.71
 	government "Galactic Empire"
@@ -14533,15 +13856,10 @@ system Jakku
 		sprite planet/neptune
 		distance 1894.5
 		period 1495.13
-
 		object
 			sprite planet/ice8
 			distance 196
 			period 13.6715
-
-
-
-
 system Jaminere
 	pos 7100.37 -7948.03
 	habitable 486.68
@@ -14647,7 +13965,6 @@ system Jedha
 		sprite planet/ice6
 		distance 261
 		period 94.2857
-
 		object
 			sprite planet/dust4
 			distance 140
@@ -14656,7 +13973,6 @@ system Jedha
 		sprite planet/desert3
 		distance 685.25
 		period 401.105
-
 		object
 			sprite planet/tethys
 			distance 164
@@ -14665,12 +13981,10 @@ system Jedha
 		sprite planet/gas13
 		distance 1405.34
 		period 1178.03
-
 		object
 			sprite planet/dust0
 			distance 260
 			period 11.8351
-
 		object
 			sprite planet/oberon
 			distance 356
@@ -14679,20 +13993,14 @@ system Jedha
 		sprite planet/gas17
 		distance 2436.58
 		period 2689.4
-
 		object
 			sprite planet/lava0
 			distance 254
 			period 17.2951
-
 		object
 			sprite planet/desert4
 			distance 390
 			period 32.9056
-
-
-
-
 system Jelucan
 	pos 6695.82 -8261.15
 	habitable 719.96
@@ -14871,22 +14179,18 @@ system Jiroch
 		distance 22.8312
 		period 10.5115
 		offset 180
-
 	object
 		sprite star/m4
 		distance 61.1688
 		period 10.5115
-
 	object
 		sprite planet/rock8
 		distance 196.419
 		period 37.5855
-
 	object
 		sprite planet/rock2
 		distance 440.659
 		period 126.299
-
 	object
 		sprite planet/cloud6
 		distance 758.349
@@ -14895,7 +14199,6 @@ system Jiroch
 			sprite planet/europa
 			distance 152
 			period 19.1855
-
 	object
 		sprite planet/gas1
 		distance 1427.24
@@ -14904,7 +14207,6 @@ system Jiroch
 			sprite planet/dust7
 			distance 222
 			period 13.2204
-
 	object
 		sprite planet/gas0
 		distance 4597.6
@@ -14917,10 +14219,6 @@ system Jiroch
 			sprite planet/ice7
 			distance 374
 			period 21.1965
-
-
-
-
 
 system Jomark
 	pos 6964.35 -7768.12
@@ -14956,7 +14254,6 @@ system Jomark
 		sprite planet/neptune
 		distance 672.749
 		period 186.541
-
 		object
 			sprite planet/callisto
 			distance 199
@@ -14969,20 +14266,14 @@ system Jomark
 		sprite planet/gas16
 		distance 1810.4
 		period 823.488
-
 		object
 			sprite planet/dust7
 			distance 223
 			period 17.5289
-
 		object
 			sprite planet/rock17
 			distance 329
 			period 31.4117
-
-
-
-
 system Junction
 	pos 6462.66 -8008.75
 	habitable 560.92
@@ -15204,22 +14495,18 @@ system Kabal
 	object
 		sprite star/m8
 		period 10
-
 	object
 		sprite planet/forest5
 		distance 153.29
 		period 65.3377
-
 	object
 		sprite planet/rock8
 		distance 488.18
 		period 371.333
-
 	object
 		sprite planet/lava6
 		distance 721.59
 		period 667.312
-
 	object
 		sprite planet/gas8
 		distance 1222.59
@@ -15232,7 +14519,6 @@ system Kabal
 			sprite planet/dust0
 			distance 318
 			period 30.1868
-
 	object
 		sprite planet/cloud6
 		distance 1964.35
@@ -15241,10 +14527,6 @@ system Kabal
 			sprite planet/rhea
 			distance 149
 			period 18.6203
-
-
-
-
 
 system Kadavo
 	pos 7109.82 -8246.15
@@ -15378,7 +14660,6 @@ system Kal'Shebbol
 		sprite planet/gas8
 		distance 747.814
 		period 234.673
-
 		object
 			sprite planet/luna
 			distance 183
@@ -15387,12 +14668,10 @@ system Kal'Shebbol
 			sprite planet/rock3
 			distance 287
 			period 25.8821
-
 	object
 		sprite planet/neptune
 		distance 1789.82
 		period 868.935
-
 		object
 			sprite planet/callisto
 			distance 217
@@ -15426,7 +14705,6 @@ system Kalarba
 		sprite planet/cloud6
 		distance 509.49
 		period 257.151
-
 		object
 			sprite planet/rock0
 			distance 148
@@ -15443,20 +14721,14 @@ system Kalarba
 		sprite planet/gas13
 		distance 4446.09
 		period 6629.07
-
 		object
 			sprite planet/rock14
 			distance 269
 			period 12.4549
-
 		object
 			sprite planet/europa
 			distance 423
 			period 24.5596
-
-
-
-
 system Kalee
 	pos 5554.04 -8272.13
 	habitable 625
@@ -15620,38 +14892,31 @@ system Kalist
 		sprite star/f5
 		distance 30.1816
 		period 9.93276
-
 	object
 		sprite star/g5
 		distance 82.8184
 		period 9.93276
 		offset 180
-
 	object
 		sprite planet/titan
 		distance 213.508
 		period 25.7973
-
 	object "Kalist VI"
 		sprite planet/desert3
 		distance 377.508
 		period 60.6516
-
 	object
 		sprite planet/lava5
 		distance 622.398
 		period 128.397
-
 	object
 		sprite planet/cloud0
 		distance 933.208
 		period 235.733
-
 	object
 		sprite planet/lava0
 		distance 1244.1
 		period 362.856
-
 	object
 		sprite planet/neptune
 		distance 4230.66
@@ -15750,7 +15015,6 @@ system Karazak
 		sprite planet/ocean4
 		distance 842.43
 		period 391.22
-
 		object
 			sprite planet/tethys
 			distance 157
@@ -15759,25 +15023,18 @@ system Karazak
 		sprite planet/gas11
 		distance 1722.52
 		period 1143.84
-
 		object
 			sprite planet/rhea
 			distance 257
 			period 13.5887
-
 		object
 			sprite planet/ice7
 			distance 407
 			period 27.0813
-
 		object
 			sprite planet/dust4
 			distance 575
 			period 45.4757
-
-
-
-
 system Karfeddion
 	pos 5889.29 -5986.97
 	habitable 486.68
@@ -16034,40 +15291,30 @@ system Kelada
 	object
 		sprite star/g5
 		period 10
-
 	object
 		sprite planet/ice1
 		distance 254.81
 		period 65.0796
-
 	object
 		sprite planet/ocean5
 		distance 567.17
 		period 216.117
-
 	object
 		sprite planet/lava1
 		distance 1067.58
 		period 558.111
-
 	object
 		sprite planet/miranda
 		distance 1329.02
 		period 775.206
-
 	object
 		sprite planet/gas11
 		distance 1597.27
 		period 1021.38
-
 	object
 		sprite planet/gas0
 		distance 6292.36
 		period 7986.2
-
-
-
-
 
 system Kerkoidia
 	pos 6295.62 -6336.45
@@ -16134,11 +15381,9 @@ system Kerkoidia
 			distance 577
 			period 59.2157
 
-
-
 system Kessel
 	pos 7219.04 -7310.16
-	government "Galactic Empire"
+	government "Pike Syndicate"
 	habitable 625
 	music ambient/wait
 	arrival 2000
@@ -16153,11 +15398,21 @@ system Kessel
 	belt 1205
 	minables silver 6 3.98401
 	minables tungsten 6 2.65454
+	trade Clothing 265
+	trade Electronics 851
+	trade Equipment 501
+	trade Food 314
+	trade "Heavy Metals" 1107
+	trade Industrial 747
+	trade "Luxury Goods" 1164
+	trade Medical 826
+	trade Metal 432
+	trade Plastic 370
 	object
 		sprite star/g5
 		period 10
-	object
-		sprite planet/mercury
+	object Kessel
+		sprite planet/kessel
 		distance 205.44
 		period 47.1137
 	object
@@ -16168,18 +15423,10 @@ system Kessel
 		sprite planet/lava7
 		distance 856.49
 		period 401.055
-	object
-		sprite planet/gas3
+	object "Oba Diah"
+		sprite planet/obadiah
 		distance 1839.05
 		period 1261.86
-
-		object
-			sprite planet/rock17
-			distance 297
-			period 13.0737
-
-
-
 
 system Ketaris
 	pos 5987.04 -8010.13
@@ -16243,7 +15490,6 @@ system Khomm
 		sprite planet/rock13
 		distance 282
 		period 75.7694
-
 		object
 			sprite planet/rhea
 			distance 139
@@ -16252,7 +15498,6 @@ system Khomm
 		sprite planet/forest4
 		distance 821.81
 		period 376.944
-
 		object
 			sprite planet/rock3
 			distance 152
@@ -16269,15 +15514,10 @@ system Khomm
 		sprite planet/gas6
 		distance 3523.55
 		period 3346.5
-
 		object
 			sprite planet/ice7
 			distance 276
 			period 11.7119
-
-
-
-
 system Kiffu
 	pos 5871.14 -6612.71
 	government "Galactic Empire"
@@ -16312,30 +15552,22 @@ system Kiffu
 		sprite planet/gas12
 		distance 2300.24
 		period 2138.24
-
 		object
 			sprite planet/rock14
 			distance 297
 			period 13.4437
-
 		object
 			sprite planet/rock0
 			distance 434
 			period 23.7476
-
 		object
 			sprite planet/dust7
 			distance 571
 			period 35.8376
-
 		object
 			sprite planet/rhea
 			distance 737
 			period 52.5516
-
-
-
-
 system Kiiro
 	pos 5459.78 -6923.26
 	government "Galactic Empire"
@@ -16356,38 +15588,30 @@ system Kiiro
 	object
 		sprite star/m8
 		period 10
-
 	object
 		sprite planet/titan
 		distance 119.09
 		period 44.741
-
 	object
 		sprite planet/cloud4
 		distance 432.9
 		period 310.081
-
 	object "Kiiro"
 		sprite planet/kiiro
 		distance 775.99
 		period 744.179
-
 	object
 		sprite planet/oberon
 		distance 1610.48
 		period 2224.98
-
 	object
 		sprite planet/gas15
 		distance 1986.32
 		period 3047.66
 
-
-
-
-
 system Kijimi
 	pos 6897.86 -7609.26
+	government "Unaffiliated"
 	habitable 320
 	music ambient/wait
 	arrival 2000
@@ -16414,8 +15638,8 @@ system Kijimi
 		sprite planet/desert3
 		distance 606.6
 		period 334.071
-	object
-		sprite planet/lava6
+	object Kijimi
+		sprite planet/kijimi
 		distance 1290.44
 		period 1036.55
 	object
@@ -16495,23 +15719,19 @@ system Kinooine
 		sprite star/f5
 		distance 28.0733
 		period 12.2008
-
 	object
 		sprite star/k0
 		distance 98.9267
 		period 12.2008
 		offset 180
-
 	object
 		sprite planet/cloud2
 		distance 298.937
 		period 44.0607
-
 	object
 		sprite planet/dust0
 		distance 478.297
 		period 89.1721
-
 	object
 		sprite planet/cloud4
 		distance 1189.3
@@ -16520,15 +15740,10 @@ system Kinooine
 			sprite planet/rhea
 			distance 190
 			period 24.6333
-
 	object
 		sprite planet/gas6
 		distance 2484.54
 		period 1055.73
-
-
-
-
 
 system Kinyen
 	pos 5842.98 -6341.09
@@ -16554,13 +15769,11 @@ system Kinyen
 		sprite star/g0
 		distance 36.9667
 		period 13.1187
-
 	object
 		sprite star/k0
 		distance 82.0333
 		period 13.1187
 		offset 180
-
 	object
 		sprite planet/gas16
 		distance 424.273
@@ -16569,12 +15782,10 @@ system Kinyen
 			sprite planet/dust5
 			distance 219
 			period 17.0594
-
 	object
 		sprite planet/gas17
 		distance 1045.56
 		period 341.661
-
 	object
 		sprite planet/gas14
 		distance 1895.77
@@ -16591,10 +15802,6 @@ system Kinyen
 			sprite planet/io
 			distance 573
 			period 55.8587
-
-
-
-
 
 system Kira
 	pos 6247 -6331.27
@@ -16629,7 +15836,6 @@ system Kira
 		sprite planet/gas2
 		distance 711.1
 		period 367.529
-
 		object
 			sprite planet/dust5
 			distance 193
@@ -16638,15 +15844,10 @@ system Kira
 		sprite planet/gas3
 		distance 2436.71
 		period 2331.32
-
 		object
 			sprite planet/rhea
 			distance 297
 			period 13.0737
-
-
-
-
 system Kirdo
 	pos 6270.18 -5760.73
 	habitable 745.92
@@ -16669,27 +15870,22 @@ system Kirdo
 		distance 45.045
 		period 15.7579
 		offset 180
-
 	object
 		sprite star/m0
 		distance 59.955
 		period 15.7579
-
 	object
 		sprite planet/rock15
 		distance 212.995
 		period 45.5269
-
 	object
 		sprite planet/forest2
 		distance 572.835
 		period 200.797
-
 	object
 		sprite planet/gas2
 		distance 836.525
 		period 354.35
-
 	object
 		sprite planet/gas9
 		distance 1560.01
@@ -16702,7 +15898,6 @@ system Kirdo
 			sprite planet/tethys
 			distance 319
 			period 21.3637
-
 	object
 		sprite planet/gas15
 		distance 2441.65
@@ -16715,10 +15910,6 @@ system Kirdo
 			sprite planet/dust4
 			distance 358
 			period 35.6551
-
-
-
-
 
 system Kiros
 	pos 5942.82 -7619.15
@@ -16829,40 +16020,30 @@ system "Kitel Phard"
 	object
 		sprite star/k0
 		period 10
-
 	object
 		sprite planet/dust1
 		distance 134.36
 		period 28.2386
-
 	object
 		sprite planet/desert0
 		distance 302.8
 		period 95.5371
-
 	object
 		sprite planet/ice2
 		distance 571.69
 		period 247.844
-
 	object
 		sprite planet/lava6
 		distance 1140.78
 		period 698.62
-
 	object
 		sprite planet/oberon
 		distance 1459.74
 		period 1011.23
-
 	object
 		sprite planet/neptune
 		distance 2860.1
 		period 2773.38
-
-
-
-
 
 system Klatooine
 	pos 7115.84 -7478.51
@@ -17064,7 +16245,6 @@ system Kooriva
 		sprite planet/desert10
 		distance 281.44
 		period 57.4681
-
 		object
 			sprite planet/dust4
 			distance 158
@@ -17081,24 +16261,18 @@ system Kooriva
 		sprite planet/gas15
 		distance 1954.39
 		period 1051.63
-
 		object
 			sprite planet/tethys
 			distance 210
 			period 16.0187
-
 		object
 			sprite planet/rock7
 			distance 345
 			period 33.7307
-
 		object
 			sprite planet/desert4
 			distance 488
 			period 56.7449
-
-
-
 
 system Korriban
 	pos 6853.66 -8105.75
@@ -17175,22 +16349,18 @@ system Kothlis
 		sprite planet/gas16
 		distance 777.81
 		period 264.033
-
 		object
 			sprite planet/ice8
 			distance 225
 			period 17.7652
-
 		object
 			sprite planet/europa
 			distance 331
 			period 31.6985
-
 		object
 			sprite planet/rock14
 			distance 430
 			period 46.9353
-
 		object
 			sprite planet/ice0
 			distance 626
@@ -17199,30 +16369,22 @@ system Kothlis
 		sprite planet/gas14
 		distance 2184.02
 		period 1242.32
-
 		object
 			sprite planet/rhea
 			distance 231
 			period 14.298
-
 		object
 			sprite planet/tethys
 			distance 334
 			period 24.8587
-
 		object
 			sprite planet/dust4
 			distance 450
 			period 38.8756
-
 		object
 			sprite planet/rock17
 			distance 586
 			period 57.7704
-
-
-
-
 system Kowak
 	pos 7143.98 -6326.1
 	government "Galactic Empire"
@@ -17570,22 +16732,18 @@ system Kubindi
 		sprite planet/gas5
 		distance 1187.51
 		period 541.847
-
 		object
 			sprite planet/dust4
 			distance 246
 			period 12.8307
-
 		object
 			sprite planet/ice7
 			distance 397
 			period 26.3047
-
 		object
 			sprite planet/dust3
 			distance 503
 			period 37.5145
-
 		object
 			sprite planet/miranda
 			distance 645
@@ -17594,15 +16752,10 @@ system Kubindi
 		sprite planet/gas12
 		distance 2339.67
 		period 1498.48
-
 		object
 			sprite planet/oberon
 			distance 288
 			period 12.8373
-
-
-
-
 system Kwenn
 	pos 6910.98 -7191.1
 	government "Galactic Empire"
@@ -17626,17 +16779,14 @@ system Kwenn
 		sprite planet/gas12
 		distance 718.25
 		period 373.086
-
 		object
 			sprite planet/dust1
 			distance 309
 			period 14.2667
-
 		object
 			sprite planet/callisto
 			distance 431
 			period 23.5018
-
 		object
 			sprite planet/rhea
 			distance 573
@@ -17649,20 +16799,14 @@ system Kwenn
 		sprite planet/gas2
 		distance 1904.98
 		period 1611.5
-
 		object
 			sprite planet/rock17
 			distance 160
 			period 12.2629
-
 		object
 			sprite planet/desert4
 			distance 247
 			period 23.5212
-
-
-
-
 system Lah'mu
 	pos 5857.04 -8320.13
 	habitable 2372.76
@@ -17727,22 +16871,18 @@ system Lahsbane
 	object
 		sprite star/f5
 		period 10
-
 	object
 		sprite planet/lava5
 		distance 205.76
 		period 28.5082
-
 	object
 		sprite planet/desert0
 		distance 397.01
 		period 76.4065
-
 	object
 		sprite planet/dust6
 		distance 828.65
 		period 230.401
-
 	object
 		sprite planet/gas3
 		distance 2481.66
@@ -17763,10 +16903,6 @@ system Lahsbane
 			sprite planet/rock17
 			distance 624
 			period 39.8145
-
-
-
-
 
 system Lannik
 	pos 6843.63 -6779.08
@@ -17823,8 +16959,218 @@ system Lanteeb
 	asteroids "medium metal" 43 4.3008
 	asteroids "large metal" 9 4.416
 	object
-		sprite planet/template
+		sprite star/g5
+		period 14.9006
+		offset 180
+	object
+		sprite star/g5
+		distance 100
+		period 18
+		offset 60
+	object
+		sprite star/m4
+		distance 220
+		period 14.9006
+		offset 30
+	object
+		sprite star/m4
+		distance 330
+		period 5
+		offset 100
+	object
+		sprite star/m4
+		distance 350
 		period 10
+		offset 200
+	object
+		sprite star/m4
+		distance 460
+		period 18
+		offset 210
+	object
+		sprite star/g5
+		distance 610
+		period 18
+		offset 300
+	object
+		sprite star/g5
+		distance 730
+		period 18
+		offset 300
+	object
+		sprite star/g5
+		distance 810
+		period 18
+		offset 140
+	object
+		sprite star/g5
+		distance 940
+		period 18
+	object
+		sprite star/g5
+		distance 1050
+		period 18
+		offset 70
+	object
+		sprite star/g5
+		distance 1270
+		period 18
+		offset 140
+	object
+		sprite star/g5
+		distance 1340
+		period 18
+		offset 300
+	object
+		sprite star/g5
+		distance 1410
+		period 18
+		offset 80
+	object
+		sprite star/g5
+		distance 1550
+		period 18
+		offset 45
+	object
+		sprite star/g5
+		distance 1630
+		period 18
+		offset 95
+	object
+		sprite star/g5
+		distance 1700
+		period 18
+		offset 180
+	object
+		sprite star/g5
+		distance 1700
+		period 18
+	object
+		sprite star/g5
+		distance 1900
+		period 18
+		offset 280
+	object
+		sprite star/g5
+		distance 2040
+		period 18
+		offset 350
+	object
+		sprite star/g5
+		distance 2110
+		period 18
+		offset 280
+	object
+		sprite star/g5
+		distance 2370
+		period 18
+		offset 190
+	object
+		sprite star/g5
+		distance 2510
+		period 18
+		offset 300
+	object
+		sprite star/g5
+		distance 2680
+		period 18
+		offset 320
+	object
+		sprite star/g5
+		distance 2810
+		period 18
+		offset 40
+	object
+		sprite planet/rock5
+		distance 215.429
+		period 43.172
+	object
+		sprite planet/rock8
+		distance 529.669
+		period 166.438
+	object
+		sprite planet/ganymede
+		distance 698.919
+		period 252.282
+	object
+		sprite planet/gas13
+		distance 1667.92
+		period 930.053
+		offset 219.299
+		object
+			sprite planet/dust5
+			distance 265
+			period 12.1781
+		object
+			sprite planet/dust0
+			distance 415
+			period 23.8662
+		object
+			sprite planet/dust7
+			distance 573
+			period 38.7206
+		object
+			sprite planet/dust3
+			distance 677
+			period 49.7271
+		object
+			sprite planet/rock3
+			distance 830
+			period 67.5037
+	object
+		sprite planet/gas0
+		distance 3138.92
+		period 2401.13
+		offset 297.815
+		object
+			sprite planet/tethys
+			distance 254
+			period 11.8633
+		object
+			sprite planet/dust4
+			distance 395
+			period 23.0066
+		object
+			sprite planet/io
+			distance 518
+			period 34.5503
+	object
+		sprite planet/gas8
+		distance 3963.92
+		period 3407.47
+		offset 258.812
+		object
+			sprite planet/miranda
+			distance 188
+			period 13.7219
+	object
+		sprite planet/gas11
+		distance 4417.92
+		period 4009.33
+		offset 224.791
+	object
+		sprite planet/gas6
+		distance 5125.92
+		period 5010.75
+		offset 259.481
+		object
+			sprite planet/rock14
+			distance 306
+			period 13.6725
+		object
+			sprite planet/dust1
+			distance 433
+			period 23.0142
+	object
+		sprite planet/gas10
+		distance 5784.92
+		period 6007.47
+		offset 273.789
+	object
+		sprite planet/gas15
+		distance 6102.92
+		period 6509.56
+		offset 269.413
 
 system Lanthe
 	pos 6059.63 -6216.96
@@ -18012,7 +17358,6 @@ system Leritor
 		sprite planet/cloud6
 		distance 799.54
 		period 200.465
-
 		object
 			sprite planet/miranda
 			distance 168
@@ -18021,15 +17366,10 @@ system Leritor
 		sprite planet/jupiter
 		distance 1871.3
 		period 717.783
-
 		object
 			sprite planet/callisto
 			distance 272
 			period 14.0966
-
-
-
-
 system Lexrul
 	pos 6713.86 -7205.26
 	government "Galactic Empire"
@@ -18101,12 +17441,10 @@ system Lianna
 	object
 		sprite star/f5
 		period 10
-
 	object
 		sprite planet/desert6
 		distance 221.84
 		period 31.9145
-
 	object
 		sprite planet/gas4
 		distance 847.05
@@ -18115,7 +17453,6 @@ system Lianna
 			sprite planet/miranda
 			distance 264
 			period 15.1288
-
 	object
 		sprite planet/gas7
 		distance 2006.81
@@ -18124,10 +17461,6 @@ system Lianna
 			sprite planet/rock14
 			distance 265
 			period 15.3461
-
-
-
-
 
 system Lipsec
 	pos 5363.47 -5886.11
@@ -18148,27 +17481,22 @@ system Lipsec
 	object
 		sprite star/g5
 		period 10
-
 	object
 		sprite planet/desert1
 		distance 171
 		period 35.7778
-
 	object
 		sprite planet/titan
 		distance 450.21
 		period 152.842
-
 	object
 		sprite planet/dust5
 		distance 603.77
 		period 237.371
-
 	object
 		sprite planet/miranda
 		distance 747.46
 		period 326.965
-
 	object
 		sprite planet/gas11
 		distance 2224.35
@@ -18181,10 +17509,6 @@ system Lipsec
 			sprite planet/luna
 			distance 351
 			period 21.6889
-
-
-
-
 
 system Listehol
 	pos 6717.66 -8314.75
@@ -18274,12 +17598,10 @@ system Llanic
 		sprite planet/gas10
 		distance 2664
 		period 1577.88
-
 		object
 			sprite planet/lava0
 			distance 202
 			period 15.1121
-
 		object
 			sprite planet/ice7
 			distance 341
@@ -18509,7 +17831,7 @@ system Loronar
 	habitable 719.96
 	music ambient/wait
 	arrival 2000
-	link Byolos
+	link Byblos
 	link Tinnel
 	asteroids "small rock" 6 2.4416
 	asteroids "medium rock" 6 1.12
@@ -18545,7 +17867,6 @@ system Loronar
 		sprite planet/gas0
 		distance 1240.88
 		period 651.631
-
 		object
 			sprite planet/dust3
 			distance 268
@@ -18554,10 +17875,6 @@ system Loronar
 		sprite planet/gas15
 		distance 2927.04
 		period 2360.75
-
-
-
-
 system Lorr
 	pos 6284.04 -8237.13
 	habitable 1050.92
@@ -18625,12 +17942,10 @@ system Lorta
 	object
 		sprite star/g5
 		period 10
-
 	object
 		sprite planet/cloud5
 		distance 199.41
 		period 45.0547
-
 	object
 		sprite planet/lava4
 		distance 730.41
@@ -18639,12 +17954,10 @@ system Lorta
 			sprite planet/dust5
 			distance 174
 			period 29.4395
-
 	object
 		sprite planet/ganymede
 		distance 1187.97
 		period 655.131
-
 	object
 		sprite planet/gas9
 		distance 2253.18
@@ -18658,10 +17971,6 @@ system Lorta
 			distance 359
 			period 25.5054
 
-
-
-
-
 system Lothal
 	pos 7384.35 -7805.12
 	government "Galactic Empire"
@@ -18670,7 +17979,6 @@ system Lothal
 	arrival 2000
 	link Iego
 	link Atollon
-	link Pammant
 	link Dornea
 	asteroids "medium rock" 47 5.355
 	asteroids "large rock" 6 3.735
@@ -18699,25 +18007,18 @@ system Lothal
 		sprite planet/gas6
 		distance 1669.66
 		period 1322.32
-
 		object
 			sprite planet/callisto
 			distance 313
 			period 14.1443
-
 		object
 			sprite planet/io
 			distance 450
 			period 24.3828
-
 		object
 			sprite planet/dust0
 			distance 552
 			period 33.1263
-
-
-
-
 system "Lotho Minor"
 	pos 5504.8 -5984.02
 	habitable 1080
@@ -18928,17 +18229,14 @@ system Lwhekk
 		sprite planet/gas7
 		distance 792.25
 		period 183.116
-
 		object
 			sprite planet/lava0
 			distance 254
 			period 14.4006
-
 		object
 			sprite planet/rock17
 			distance 384
 			period 26.7687
-
 		object
 			sprite planet/ice8
 			distance 459
@@ -18947,7 +18245,6 @@ system Lwhekk
 		sprite planet/gas14
 		distance 1642.86
 		period 546.807
-
 		object
 			sprite planet/tethys
 			distance 229
@@ -18956,20 +18253,14 @@ system Lwhekk
 		sprite planet/gas8
 		distance 2480.22
 		period 1014.3
-
 		object
 			sprite planet/dust1
 			distance 191
 			period 14.0516
-
 		object
 			sprite planet/dust3
 			distance 286
 			period 25.747
-
-
-
-
 system M'naeli
 	pos 6185.96 -6365.42
 	government "Galactic Empire"
@@ -19085,7 +18376,6 @@ system "Makem Te"
 		sprite planet/cloud0
 		distance 319.21
 		period 103.408
-
 		object
 			sprite planet/dust7
 			distance 130
@@ -19094,7 +18384,6 @@ system "Makem Te"
 		sprite planet/ocean5
 		distance 794.62
 		period 406.142
-
 		object
 			sprite planet/miranda
 			distance 163
@@ -19107,20 +18396,14 @@ system "Makem Te"
 		sprite planet/uranus
 		distance 2178.16
 		period 1843.2
-
 		object
 			sprite planet/dust3
 			distance 243
 			period 16.1839
-
 		object
 			sprite planet/europa
 			distance 345
 			period 27.378
-
-
-
-
 system Malachor
 	pos 7025.66 -8209.75
 	habitable 135
@@ -19222,22 +18505,18 @@ system Malastare
 		distance 24.1579
 		period 8.13611
 		offset 180
-
 	object
 		sprite star/g0
 		distance 111.842
 		period 8.13611
-
 	object
 		sprite planet/cloud4
 		distance 323.802
 		period 29.8901
-
 	object
 		sprite planet/desert8
 		distance 596.562
 		period 74.7466
-
 	object
 		sprite planet/rock16
 		distance 1115.6
@@ -19246,15 +18525,10 @@ system Malastare
 			sprite planet/rock14
 			distance 130
 			period 20.2293
-
 	object
 		sprite planet/gas10
 		distance 2597.85
 		period 679.25
-
-
-
-
 
 system "Maltha Obex"
 	pos 6411.04 -8349.13
@@ -19328,22 +18602,18 @@ system Manaan
 	object
 		sprite star/f5
 		period 10
-
 	object
 		sprite planet/ice4
 		distance 160.64
 		period 19.6657
-
 	object
 		sprite planet/desert0
 		distance 486.08
 		period 103.512
-
 	object
 		sprite planet/miranda
 		distance 1123.69
 		period 363.829
-
 	object
 		sprite planet/gas10
 		distance 1609.38
@@ -19805,17 +19075,14 @@ system Mephout
 		sprite planet/gas14
 		distance 1260.97
 		period 545.011
-
 		object
 			sprite planet/dust4
 			distance 256
 			period 16.6809
-
 		object
 			sprite planet/miranda
 			distance 392
 			period 31.6073
-
 		object
 			sprite planet/callisto
 			distance 497
@@ -19824,10 +19091,6 @@ system Mephout
 		sprite planet/gas16
 		distance 2680.66
 		period 1689.32
-
-
-
-
 system "Meryx Minor"
 	pos 6437.2 -5736.39
 	government "Galactic Empire"
@@ -19864,30 +19127,22 @@ system "Meryx Minor"
 		sprite planet/jupiter
 		distance 1768.98
 		period 1663.68
-
 		object
 			sprite planet/rhea
 			distance 278
 			period 14.5656
-
 		object
 			sprite planet/dust5
 			distance 399
 			period 25.045
-
 		object
 			sprite planet/oberon
 			distance 552
 			period 40.754
-
 		object
 			sprite planet/desert4
 			distance 698
 			period 57.9488
-
-
-
-
 system Metalorn
 	pos 6841.35 -7623.12
 	habitable 1080
@@ -19911,17 +19166,14 @@ system Metalorn
 	object
 		sprite star/g0
 		period 10
-
 	object
 		sprite planet/ice1
 		distance 200.04
 		period 34.4368
-
 	object
 		sprite planet/gas6
 		distance 691.73
 		period 221.438
-
 	object
 		sprite planet/jupiter
 		distance 1824.94
@@ -19934,10 +19186,6 @@ system Metalorn
 			sprite planet/miranda
 			distance 388
 			period 24.0165
-
-
-
-
 
 system Mexeluine
 	pos 5685.82 -5951.64
@@ -20001,30 +19249,22 @@ system Milagro
 	object
 		sprite star/g5
 		period 10
-
 	object
 		sprite planet/rock12
 		distance 242.81
 		period 60.5369
-
 	object
 		sprite planet/rock5
 		distance 438.3
 		period 146.817
-
 	object
 		sprite planet/dust6
 		distance 633.39
 		period 255.051
-
 	object
 		sprite planet/gas1
 		distance 1951.15
 		period 1378.97
-
-
-
-
 
 system Milvayne
 	pos 5889.82 -7579.15
@@ -20140,7 +19380,6 @@ system Mindor
 		sprite planet/rock10
 		distance 1185.14
 		period 496.595
-
 		object
 			sprite planet/callisto
 			distance 203
@@ -20149,10 +19388,6 @@ system Mindor
 		sprite planet/gas11
 		distance 2790.39
 		period 1794.1
-
-
-
-
 system Mintaka
 	pos -304 -462
 	government Republic
@@ -20193,40 +19428,30 @@ system Mintaka
 		distance 34.4496
 		period 10.9588
 		offset 180
-
 	object
 		sprite star/k5
 		distance 49.0504
 		period 10.9588
-
 	object
 		sprite planet/rock11-b
 		distance 296.29
 		period 73.2505
-
 	object
 		sprite planet/cloud0-b
 		distance 511.78
 		period 166.287
-
 	object
 		sprite planet/ice3-b
 		distance 938.02
 		period 412.622
-
 	object
 		sprite planet/gas8-b
 		distance 1798.98
 		period 1095.91
-
 	object
 		sprite planet/gas5
 		distance 4566.87
 		period 4432.64
-
-
-
-
 
 system Mirial
 	pos 6731.66 -8269.75
@@ -20307,17 +19532,14 @@ system Molavar
 		sprite planet/gas6
 		distance 1272.57
 		period 879.87
-
 		object
 			sprite planet/miranda
 			distance 272
 			period 11.4582
-
 		object
 			sprite planet/rock0
 			distance 413
 			period 21.4383
-
 		object
 			sprite planet/rock14
 			distance 538
@@ -20326,10 +19548,6 @@ system Molavar
 		sprite planet/neptune
 		distance 3012.78
 		period 3205.14
-
-
-
-
 system Moltok
 	pos 5838.04 -8092.13
 	habitable 912.6
@@ -20401,22 +19619,18 @@ system "Mon Calamari"
 	object
 		sprite star/m0
 		period 10
-
 	object
 		sprite planet/rock13
 		distance 162.64
 		period 46.3795
-
 	object
 		sprite planet/gas1
 		distance 546.65
 		period 285.791
-
 	object
 		sprite planet/rock10
 		distance 1016.94
 		period 725.15
-
 	object
 		sprite planet/desert1
 		distance 1434.15
@@ -20425,15 +19639,10 @@ system "Mon Calamari"
 			sprite planet/callisto
 			distance 185
 			period 21.8426
-
 	object
 		sprite planet/gas0
 		distance 3737.44
 		period 5109.12
-
-
-
-
 
 system "Mon Gazza"
 	pos 6686.69 -6301.27
@@ -20466,7 +19675,6 @@ system "Mon Gazza"
 		sprite planet/desert5
 		distance 503.65
 		period 389.123
-
 		object
 			sprite planet/tethys
 			distance 137
@@ -20479,20 +19687,14 @@ system "Mon Gazza"
 		sprite planet/gas11
 		distance 2435.98
 		period 4139.08
-
 		object
 			sprite planet/dust7
 			distance 252
 			period 13.1941
-
 		object
 			sprite planet/luna
 			distance 360
 			period 22.5285
-
-
-
-
 system Monastery
 	pos 6675.63 -6502.08
 	government "Galactic Empire"
@@ -20520,7 +19722,6 @@ system Monastery
 		sprite planet/neptune
 		distance 515.02
 		period 211.921
-
 		object
 			sprite planet/dust0
 			distance 194
@@ -20529,7 +19730,6 @@ system Monastery
 		sprite planet/gas12
 		distance 1551.18
 		period 1107.72
-
 		object
 			sprite planet/dust5
 			distance 301
@@ -20538,10 +19738,6 @@ system Monastery
 		sprite planet/jupiter
 		distance 2158.43
 		period 1818.21
-
-
-
-
 system Moonus
 	pos 6857.32 -6659.86
 	government "Galactic Empire"
@@ -20579,20 +19775,14 @@ system Moonus
 		sprite planet/gas7
 		distance 1620.13
 		period 1046.17
-
 		object
 			sprite planet/dust0
 			distance 250
 			period 14.0618
-
 		object
 			sprite planet/luna
 			distance 357
 			period 23.9957
-
-
-
-
 system Morellia
 	pos 7123.86 -8417.26
 	habitable 486.68
@@ -20710,17 +19900,14 @@ system Mugaar
 	object
 		sprite star/f0
 		period 10
-
 	object
 		sprite planet/lava3
 		distance 245.16
 		period 31.5215
-
 	object
 		sprite planet/cloud1
 		distance 472.85
 		period 84.4342
-
 	object
 		sprite planet/gas0
 		distance 1147.49
@@ -20742,10 +19929,6 @@ system Mugaar
 		sprite planet/oberon
 		distance 2579.3
 		period 1075.69
-
-
-
-
 
 system "Munto Codru"
 	pos 7318.35 -7937.12
@@ -21123,11 +20306,6 @@ system N'zoth
 	trade Medical 777
 	trade Metal 520
 	trade Plastic 384
-	fleet rebelfleet 300
-	fleet civilianpatrol 500
-	fleet civiliantransport 500
-	fleet civilianheavycargofreighter 500
-	fleet purrgil 1000000
 	belt 1838
 	object
 		sprite star/k5
@@ -21414,7 +20592,6 @@ system Nanth'ri
 		sprite planet/gas2
 		distance 4045.28
 		period 8857.6
-
 		object
 			sprite planet/io
 			distance 209
@@ -21450,7 +20627,6 @@ system "Naos"
 		sprite planet/rock18
 		distance 246.56
 		period 70.1976
-
 		object
 			sprite planet/europa
 			distance 131
@@ -21471,15 +20647,10 @@ system "Naos"
 		sprite planet/neptune
 		distance 2897.26
 		period 2827.61
-
 		object
 			sprite planet/dust7
 			distance 188
 			period 12.8431
-
-
-
-
 system "Nar Bo Sholla"
 	pos 6969.98 -7172.09
 	government "Galactic Empire"
@@ -21649,7 +20820,6 @@ system Nazzri
 		sprite planet/earth
 		distance 538.5
 		period 226.578
-
 		object
 			sprite planet/miranda
 			distance 152
@@ -21658,12 +20828,10 @@ system Nazzri
 		sprite planet/gas5
 		distance 1332.86
 		period 882.297
-
 		object
 			sprite planet/rock14
 			distance 277
 			period 15.3309
-
 		object
 			sprite planet/dust1
 			distance 405
@@ -21672,10 +20840,6 @@ system Nazzri
 		sprite planet/oberon
 		distance 2088.9
 		period 1731.07
-
-
-
-
 system Neimoidia
 	pos 6150.14 -7235.71
 	government "Galactic Empire"
@@ -21974,12 +21138,10 @@ system "Nexus Ortai"
 		distance 18.2961
 		period 15.1673
 		offset 180
-
 	object
 		sprite star/m8
 		distance 84.7039
 		period 15.1673
-
 	object
 		sprite planet/ice2
 		distance 394.464
@@ -21988,22 +21150,18 @@ system "Nexus Ortai"
 			sprite planet/tethys
 			distance 162
 			period 25.92
-
 	object
 		sprite planet/desert6
 		distance 891.074
 		period 385.944
-
 	object
 		sprite planet/cloud2
 		distance 1129.03
 		period 550.445
-
 	object
 		sprite planet/desert2
 		distance 1361.03
 		period 728.545
-
 	object
 		sprite planet/gas5
 		distance 2622.67
@@ -22020,10 +21178,6 @@ system "Nexus Ortai"
 			sprite planet/ice0
 			distance 508
 			period 38.0753
-
-
-
-
 
 system "Nez Peron"
 	pos 6399.66 -8018.75
@@ -22118,25 +21272,18 @@ system Nimban
 		sprite planet/gas13
 		distance 2393.99
 		period 1012.61
-
 		object
 			sprite planet/rock17
 			distance 254
 			period 11.4278
-
 		object
 			sprite planet/desert4
 			distance 365
 			period 19.6856
-
 		object
 			sprite planet/luna
 			distance 475
 			period 29.2247
-
-
-
-
 system Niruaun
 	pos 5459.04 -8003.13
 	habitable 425.92
@@ -22204,7 +21351,6 @@ system Nixor
 	object
 		sprite star/k5
 		period 10
-
 	object
 		sprite planet/gas2
 		distance 363
@@ -22213,7 +21359,6 @@ system Nixor
 			sprite planet/ice0
 			distance 173
 			period 13.7874
-
 	object
 		sprite planet/gas14
 		distance 1096.41
@@ -22230,7 +21375,6 @@ system Nixor
 			sprite planet/io
 			distance 429
 			period 36.1863
-
 	object
 		sprite planet/gas0
 		distance 2387.7
@@ -22239,10 +21383,6 @@ system Nixor
 			sprite planet/oberon
 			distance 251
 			period 11.6538
-
-
-
-
 
 system Nkllon
 	pos 5925.38 -6304.25
@@ -22264,7 +21404,6 @@ system Nkllon
 	object
 		sprite star/m0
 		period 10
-
 	object
 		sprite planet/gas16
 		distance 311.24
@@ -22273,7 +21412,6 @@ system Nkllon
 			sprite planet/ice7
 			distance 191
 			period 13.8946
-
 	object
 		sprite planet/gas17
 		distance 1229.13
@@ -22290,7 +21428,6 @@ system Nkllon
 			sprite planet/tethys
 			distance 465
 			period 42.8403
-
 	object
 		sprite planet/gas1
 		distance 2296.57
@@ -22307,10 +21444,6 @@ system Nkllon
 			sprite planet/lava0
 			distance 462
 			period 39.6898
-
-
-
-
 
 system Noe'ha'on
 	pos 5684.29 -6295.97
@@ -22613,7 +21746,6 @@ system Null
 		sprite planet/rock12
 		distance 621.74
 		period 533.711
-
 		object
 			sprite planet/rock17
 			distance 148
@@ -22626,10 +21758,6 @@ system Null
 		sprite planet/gas3
 		distance 1790.87
 		period 2609.09
-
-
-
-
 system Obroa-skai
 	pos 6313.17 -7620.44
 	habitable 233.28
@@ -22661,7 +21789,6 @@ system Obroa-skai
 		sprite planet/gas2
 		distance 1501.7
 		period 1524.04
-
 		object
 			sprite planet/dust1
 			distance 195
@@ -22670,15 +21797,10 @@ system Obroa-skai
 		sprite planet/uranus
 		distance 2697.71
 		period 3669.56
-
 		object
 			sprite planet/lava0
 			distance 231
 			period 15
-
-
-
-
 system Ogem
 	pos 5839.29 -6043.97
 	habitable 3645
@@ -22701,7 +21823,6 @@ system Ogem
 		sprite planet/rock1
 		distance 309.76
 		period 36.1201
-
 		object
 			sprite planet/rhea
 			distance 166
@@ -22714,7 +21835,6 @@ system Ogem
 		sprite planet/gas0
 		distance 1501.97
 		period 385.659
-
 		object
 			sprite planet/oberon
 			distance 246
@@ -22723,10 +21843,6 @@ system Ogem
 		sprite planet/gas3
 		distance 3099.22
 		period 1143.11
-
-
-
-
 system Ojom
 	pos 6005.14 -7058.71
 	government "Galactic Empire"
@@ -22807,7 +21923,6 @@ system Omwat
 		sprite planet/ice5
 		distance 631.73
 		period 415.833
-
 		object
 			sprite planet/dust3
 			distance 168
@@ -22820,10 +21935,6 @@ system Omwat
 		sprite planet/dust5
 		distance 2003.89
 		period 2349.27
-
-
-
-
 system "Onderon & Dxun"
 	pos 6442.49 -7359.25
 	government "Galactic Empire"
@@ -22860,7 +21971,6 @@ system "Onderon & Dxun"
 		sprite planet/desert5
 		distance 1381.46
 		period 821.538
-
 		object
 			sprite planet/lava0
 			distance 155
@@ -22869,20 +21979,14 @@ system "Onderon & Dxun"
 		sprite planet/gas7
 		distance 4180.9
 		period 4325.38
-
 		object
 			sprite planet/dust4
 			distance 251
 			period 14.1462
-
 		object
 			sprite planet/miranda
 			distance 379
 			period 26.2476
-
-
-
-
 system Opiteihr
 	pos 6139.27 -6246
 	government "Galactic Empire"
@@ -23495,25 +22599,18 @@ system Orvax
 		sprite planet/gas13
 		distance 1925.15
 		period 1637.17
-
 		object
 			sprite planet/miranda
 			distance 282
 			period 13.3685
-
 		object
 			sprite planet/dust1
 			distance 420
 			period 24.2988
-
 		object
 			sprite planet/oberon
 			distance 526
 			period 34.0556
-
-
-
-
 system Oseon
 	pos 7261.23 -7579.14
 	habitable 320
@@ -23598,20 +22695,14 @@ system Ossus
 		sprite planet/neptune
 		distance 3784.69
 		period 3725.34
-
 		object
 			sprite planet/rock0
 			distance 228
 			period 17.1528
-
 		object
 			sprite planet/io
 			distance 337
 			period 30.8232
-
-
-
-
 system Pakuuri
 	pos 7246.35 -7970.12
 	habitable 745.92
@@ -23649,7 +22740,6 @@ system Pakuuri
 		sprite planet/cloud8
 		distance 544.218
 		period 185.94
-
 		object
 			sprite planet/rhea
 			distance 149
@@ -23658,7 +22748,6 @@ system Pakuuri
 		sprite planet/uranus
 		distance 1511.66
 		period 860.784
-
 		object
 			sprite planet/miranda
 			distance 243
@@ -23667,10 +22756,6 @@ system Pakuuri
 		sprite planet/dust0
 		distance 2269.67
 		period 1583.64
-
-
-
-
 system Palanhi
 	pos 5715.37 -7492.31
 	habitable 320
@@ -23692,17 +22777,14 @@ system Palanhi
 	object
 		sprite star/m0
 		period 10
-
 	object
 		sprite planet/ice4
 		distance 239.09
 		period 82.666
-
 	object
 		sprite planet/rock11
 		distance 425.34
 		period 196.15
-
 	object
 		sprite planet/gas14
 		distance 1227.34
@@ -23719,7 +22801,6 @@ system Palanhi
 			sprite planet/europa
 			distance 410
 			period 33.8092
-
 	object
 		sprite planet/gas15
 		distance 2428.9
@@ -23733,17 +22814,13 @@ system Palanhi
 			distance 335
 			period 32.2749
 
-
-
-
-
 system Pammant
 	pos 7356.86 -7854.26
 	habitable 625
 	music ambient/wait
 	arrival 2000
 	link "Mon Calamari"
-	link Lothal
+	link Sanctuary
 	asteroids "large metal" 1 3.706
 	object
 		sprite star/g5
@@ -23803,17 +22880,14 @@ system Panto
 		distance 826.23
 		period 229.393
 		offset 333.317
-
 		object
 			sprite planet/oberon
 			distance 172
 			period 11.8738
-
 		object
 			sprite planet/ice7
 			distance 270
 			period 23.353
-
 		object
 			sprite planet/dust3
 			distance 432
@@ -23833,10 +22907,6 @@ system Panto
 		distance 2681.74
 		period 1341.38
 		offset 358.57
-
-
-
-
 system Pantora
 	pos 6546.15 -5786.35
 	government "Pantoran Assembly"
@@ -24026,7 +23096,6 @@ system Pardror
 		sprite planet/ice5
 		distance 376.09
 		period 141.362
-
 		object
 			sprite planet/lava0
 			distance 162
@@ -24039,12 +23108,10 @@ system Pardror
 		sprite planet/gas11
 		distance 1514.97
 		period 1142.88
-
 		object
 			sprite planet/rock17
 			distance 221
 			period 10.8359
-
 		object
 			sprite planet/desert4
 			distance 310
@@ -24053,20 +23120,14 @@ system Pardror
 		sprite planet/gas6
 		distance 2737.93
 		period 2776.7
-
 		object
 			sprite planet/callisto
 			distance 319
 			period 14.5529
-
 		object
 			sprite planet/rock7
 			distance 452
 			period 24.5455
-
-
-
-
 system Pasaana
 	pos 6524.86 -6820.26
 	government "Galactic Empire"
@@ -24149,7 +23210,6 @@ system Pathway
 		distance 5994
 		period 4011.76
 		offset 249.931
-
 		object Colony
 			sprite planet/station2
 			distance 240.671
@@ -24197,17 +23257,14 @@ system Pax
 		sprite planet/gas8
 		distance 770.8
 		period 478.517
-
 		object
 			sprite planet/dust7
 			distance 220
 			period 17.3704
-
 		object
 			sprite planet/rock3
 			distance 359
 			period 36.2092
-
 		object
 			sprite planet/ice8
 			distance 469
@@ -24216,20 +23273,14 @@ system Pax
 		sprite planet/gas12
 		distance 1882.29
 		period 1826.06
-
 		object
 			sprite planet/lava0
 			distance 293
 			period 13.1731
-
 		object
 			sprite planet/dust1
 			distance 399
 			period 20.9336
-
-
-
-
 system Pengalan
 	pos 6382.17 -7550.44
 	habitable 1080
@@ -24248,17 +23299,14 @@ system Pengalan
 	object
 		sprite star/g0
 		period 10
-
 	object
 		sprite planet/ice0
 		distance 134.64
 		period 19.0156
-
 	object
 		sprite planet/desert1
 		distance 473.89
 		period 125.564
-
 	object
 		sprite planet/gas14
 		distance 1300.89
@@ -24271,7 +23319,6 @@ system Pengalan
 			sprite planet/europa
 			distance 326
 			period 23.9709
-
 	object
 		sprite planet/gas4
 		distance 3263.89
@@ -24288,10 +23335,6 @@ system Pengalan
 			sprite planet/luna
 			distance 494
 			period 38.7247
-
-
-
-
 
 system Penumbria
 	pos 6090.77 -7766.79
@@ -24708,7 +23751,6 @@ system Ploo
 		sprite planet/gas14
 		distance 1158.82
 		period 882.082
-
 		object
 			sprite planet/oberon
 			distance 237
@@ -24717,12 +23759,10 @@ system Ploo
 			sprite planet/rhea
 			distance 377
 			period 29.8106
-
 	object
 		sprite planet/gas6
 		distance 2990.66
 		period 3657.09
-
 		object
 			sprite planet/dust4
 			distance 283
@@ -25144,17 +24184,14 @@ system Pzob
 		sprite planet/gas11
 		distance 685.64
 		period 347.969
-
 		object
 			sprite planet/dust7
 			distance 269
 			period 14.5514
-
 		object
 			sprite planet/ice8
 			distance 369
 			period 23.3785
-
 		object
 			sprite planet/dust3
 			distance 492
@@ -25171,10 +24208,6 @@ system Pzob
 		sprite planet/gas12
 		distance 2340.46
 		period 2194.56
-
-
-
-
 system "Qat Chrystac"
 	pos 5980.25 -6237.23
 	habitable 2372.76
@@ -25396,22 +24429,18 @@ system Quermia
 	object
 		sprite star/k5
 		period 10
-
 	object
 		sprite planet/cloud8
 		distance 213
 		period 60.2512
-
 	object
 		sprite planet/ocean9
 		distance 648.01
 		period 319.719
-
 	object
 		sprite planet/ice4
 		distance 899.97
 		period 523.285
-
 	object
 		sprite planet/gas1
 		distance 1460.86
@@ -25420,7 +24449,6 @@ system Quermia
 			sprite planet/dust7
 			distance 222
 			period 13.2204
-
 	object
 		sprite planet/gas0
 		distance 4631.22
@@ -25433,10 +24461,6 @@ system Quermia
 			sprite planet/ice7
 			distance 374
 			period 21.1965
-
-
-
-
 
 system Ques
 	pos 7123.86 -7495.26
@@ -25579,25 +24603,18 @@ system Queyta
 		sprite planet/gas14
 		distance 1473.18
 		period 1095.92
-
 		object
 			sprite planet/ice8
 			distance 226
 			period 13.8363
-
 		object
 			sprite planet/ice0
 			distance 361
 			period 27.9331
-
 		object
 			sprite planet/rhea
 			distance 487
 			period 43.7675
-
-
-
-
 system Radnor
 	pos 6749.71 -6239.13
 	government "Galactic Empire"
@@ -25617,18 +24634,15 @@ system Radnor
 		sprite star/g0
 		distance 29.6972
 		period 11.0903
-
 	object
 		sprite star/k5
 		distance 75.3028
 		period 11.0903
 		offset 180
-
 	object
 		sprite planet/rock19
 		distance 240.463
 		period 38.4354
-
 	object
 		sprite planet/ice2
 		distance 584.423
@@ -25637,20 +24651,14 @@ system Radnor
 			sprite planet/oberon
 			distance 153
 			period 23.7903
-
 	object
 		sprite planet/dust2
 		distance 1109.78
 		period 381.08
-
 	object
 		sprite planet/gas12
 		distance 2299.94
 		period 1136.93
-
-
-
-
 
 system Ragith
 	pos 6212.17 -6514.61
@@ -26288,30 +25296,22 @@ system "Red Nebula"
 		sprite planet/gas11
 		distance 2257.01
 		period 1374.75
-
 		object
 			sprite planet/oberon
 			distance 230
 			period 11.5045
-
 		object
 			sprite planet/miranda
 			distance 328
 			period 19.5924
-
 		object
 			sprite planet/dust0
 			distance 410
 			period 27.3813
-
 		object
 			sprite planet/ice0
 			distance 555
 			period 43.1238
-
-
-
-
 system Reecee
 	pos 5601.92 -7503.35
 	habitable 1111.68
@@ -26447,17 +25447,14 @@ system Rendili
 		sprite planet/gas12
 		distance 1364.66
 		period 808.749
-
 		object
 			sprite planet/rock14
 			distance 288
 			period 12.8373
-
 		object
 			sprite planet/dust0
 			distance 431
 			period 23.5018
-
 		object
 			sprite planet/tethys
 			distance 549
@@ -26466,30 +25463,22 @@ system Rendili
 		sprite planet/gas10
 		distance 2807.07
 		period 2385.92
-
 		object
 			sprite planet/lava0
 			distance 238
 			period 19.3269
-
 		object
 			sprite planet/luna
 			distance 379
 			period 38.8379
-
 		object
 			sprite planet/oberon
 			distance 494
 			period 57.7946
-
 		object
 			sprite planet/dust5
 			distance 622
 			period 81.655
-
-
-
-
 system Reuss
 	pos 6597.72 -5920.54
 	government "Galactic Empire"
@@ -26513,41 +25502,31 @@ system Reuss
 		sprite star/f5
 		distance 42.8909
 		period 8.84817
-
 	object
 		sprite star/g0
 		distance 68.1091
 		period 8.84817
 		offset 180
-
 	object
 		sprite planet/cloud5
 		distance 291.149
 		period 37.5874
-
 	object
 		sprite planet/dust1
 		distance 523.159
 		period 90.5357
-
 	object
 		sprite planet/cloud6
 		distance 701.319
 		period 140.521
-
 	object
 		sprite planet/dust2
 		distance 967.529
 		period 227.701
-
 	object
 		sprite planet/gas16
 		distance 2324.78
 		period 848.089
-
-
-
-
 
 system "Rhen Var"
 	pos 6917.3 -7917.47
@@ -26580,7 +25559,6 @@ system "Rhen Var"
 		sprite planet/mars
 		distance 718.81
 		period 430.929
-
 		object
 			sprite planet/europa
 			distance 126
@@ -26589,15 +25567,10 @@ system "Rhen Var"
 		sprite planet/gas3
 		distance 2012.57
 		period 2018.88
-
 		object
 			sprite planet/callisto
 			distance 289
 			period 12.5491
-
-
-
-
 system Rhommamool
 	pos 6289.63 -6724.08
 	government "Galactic Empire"
@@ -26740,17 +25713,14 @@ system Riileb
 		sprite planet/gas11
 		distance 1416.61
 		period 1033.41
-
 		object
 			sprite planet/tethys
 			distance 267
 			period 14.3895
-
 		object
 			sprite planet/dust7
 			distance 386
 			period 25.0126
-
 		object
 			sprite planet/europa
 			distance 510
@@ -26759,25 +25729,18 @@ system Riileb
 		sprite planet/gas0
 		distance 2839.1
 		period 2932.02
-
 		object
 			sprite planet/dust0
 			distance 278
 			period 13.5839
-
 		object
 			sprite planet/rhea
 			distance 407
 			period 24.0629
-
 		object
 			sprite planet/dust3
 			distance 548
 			period 37.5948
-
-
-
-
 system "Ring of Kafrene"
 	pos 5591.98 -6471.09
 	government "Galactic Empire"
@@ -26824,10 +25787,6 @@ system "Ring of Kafrene"
 		sprite planet/gas2
 		distance 2031.69
 		period 1426.72
-
-
-
-
 system Rinn
 	pos 7389.86 -6959.26
 	government "Galactic Empire"
@@ -26991,7 +25950,6 @@ system Roche
 		sprite planet/desert2
 		distance 295.09
 		period 98.2489
-
 		object
 			sprite planet/io
 			distance 159
@@ -27000,7 +25958,6 @@ system Roche
 		sprite planet/ocean4
 		distance 749.78
 		period 397.921
-
 		object
 			sprite planet/oberon
 			distance 142
@@ -27013,20 +25970,14 @@ system Roche
 		sprite planet/gas3
 		distance 2707.47
 		period 2730.5
-
 		object
 			sprite planet/dust4
 			distance 300
 			period 13.2723
-
 		object
 			sprite planet/rock0
 			distance 403
 			period 20.6644
-
-
-
-
 system Rodia
 	pos 6817.05 -6221.61
 	government "Galactic Empire"
@@ -27184,7 +26135,6 @@ system Roon
 		sprite planet/gas5
 		distance 702.815
 		period 290.277
-
 		object
 			sprite planet/luna
 			distance 275
@@ -27193,12 +26143,10 @@ system Roon
 		sprite planet/gas8
 		distance 1477.71
 		period 884.979
-
 		object
 			sprite planet/desert4
 			distance 212
 			period 16.4316
-
 		object
 			sprite planet/rock3
 			distance 330
@@ -27207,15 +26155,10 @@ system Roon
 		sprite planet/gas12
 		distance 3011.67
 		period 2574.91
-
 		object
 			sprite planet/rock0
 			distance 262
 			period 11.1388
-
-
-
-
 system Rothana
 	pos 7252.61 -6402.66
 	government "Galactic Empire"
@@ -27238,7 +26181,6 @@ system Rothana
 		sprite planet/gas1
 		distance 337.01
 		period 162.026
-
 		object
 			sprite planet/rock14
 			distance 223
@@ -27255,20 +26197,14 @@ system Rothana
 		sprite planet/gas9
 		distance 2890.41
 		period 4069.68
-
 		object
 			sprite planet/luna
 			distance 252
 			period 15
-
 		object
 			sprite planet/dust1
 			distance 345
 			period 24.0281
-
-
-
-
 system Roxuli
 	pos 5448.04 -7594.13
 	habitable 5000
@@ -27389,26 +26325,22 @@ system Rugosa
 	object
 		sprite star/g0
 		period 10
-
 	object
 		sprite planet/cloud0
 		distance 1611.79
 		period 787.607
 		offset 143.613
 
-
 		object "Rugosa"
 			sprite planet/rugosa
 			distance 431.454
 			period 110.442
 			offset 215.76
-
 	object
 		sprite planet/gas14
 		distance 2976.96
 		period 1977.01
 		offset 62.6638
-
 
 		object
 			sprite planet/dust0
@@ -27418,10 +26350,6 @@ system Rugosa
 			sprite planet/rhea
 			distance 336
 			period 25.0823
-
-
-
-
 
 system Rutan
 	pos 5844.77 -5636.03
@@ -27463,7 +26391,6 @@ system Rutan
 		sprite planet/gas3
 		distance 3847.17
 		period 1959.5
-
 		object
 			sprite planet/luna
 			distance 272
@@ -27530,12 +26457,10 @@ system Ruusan
 	object
 		sprite star/m0
 		period 10
-
 	object
 		sprite planet/cloud5
 		distance 254.89
 		period 90.9943
-
 	object
 		sprite planet/mars
 		distance 769.18
@@ -27597,7 +26522,6 @@ system Ryloth
 		sprite planet/desert0
 		distance 817.06
 		period 299.436
-
 		object
 			sprite planet/tethys
 			distance 118
@@ -27606,12 +26530,10 @@ system Ryloth
 		sprite planet/gas14
 		distance 1566.67
 		period 795.041
-
 		object
 			sprite planet/luna
 			distance 234
 			period 14.5775
-
 		object
 			sprite planet/io
 			distance 376
@@ -27620,20 +26542,14 @@ system Ryloth
 		sprite planet/gas1
 		distance 3132.92
 		period 2248.26
-
 		object
 			sprite planet/oberon
 			distance 238
 			period 14.6751
-
 		object
 			sprite planet/ice0
 			distance 365
 			period 27.8711
-
-
-
-
 system Ryndellia
 	pos 6448.54 -6141.6
 	government "Galactic Empire"
@@ -27712,25 +26628,18 @@ system Ryoone
 		sprite planet/gas15
 		distance 2507.49
 		period 2276.65
-
 		object
 			sprite planet/rock14
 			distance 192
 			period 14.0039
-
 		object
 			sprite planet/rock7
 			distance 289
 			period 25.8609
-
 		object
 			sprite planet/rock0
 			distance 438
 			period 48.2512
-
-
-
-
 system Sagar
 	pos 6210.17 -6743.61
 	government "Galactic Empire"
@@ -27803,7 +26712,6 @@ system Saijo
 		sprite planet/gas14
 		distance 1086.61
 		period 938.063
-
 		object
 			sprite planet/rhea
 			distance 260
@@ -27816,20 +26724,14 @@ system Saijo
 		sprite planet/gas0
 		distance 3922.26
 		period 6433.18
-
 		object
 			sprite planet/oberon
 			distance 244
 			period 11.1697
-
 		object
 			sprite planet/rock0
 			distance 382
 			period 21.8802
-
-
-
-
 system Sakiya
 	pos 7120.96 -7112.08
 	government "Galactic Empire"
@@ -27874,20 +26776,14 @@ system Sakiya
 		sprite planet/gas6
 		distance 2116.39
 		period 1655.69
-
 		object
 			sprite planet/rock7
 			distance 265
 			period 11.0188
-
 		object
 			sprite planet/lava0
 			distance 413
 			period 21.4383
-
-
-
-
 system Saleucami
 	pos 7046.23 -7610.14
 	habitable 320
@@ -27907,12 +26803,10 @@ system Saleucami
 	object
 		sprite star/m0
 		period 10
-
 	object
 		sprite planet/rock8
 		distance 172.21
 		period 50.5327
-
 	object
 		sprite planet/gas14
 		distance 1025.25
@@ -27929,25 +26823,18 @@ system Saleucami
 			sprite planet/rock7
 			distance 487
 			period 43.7675
-
 	object
 		sprite planet/dust7
 		distance 1696.86
 		period 1562.98
-
 	object
 		sprite planet/ganymede
 		distance 1887.7
 		period 1833.94
-
 	object
 		sprite planet/gas5
 		distance 2396.7
 		period 2623.65
-
-
-
-
 
 system Salient
 	pos 7085.82 -8352.15
@@ -28056,6 +26943,42 @@ system Salliche
 		distance 8000
 		period 42.1828
 		offset 46.4731
+
+system Sanctuary
+	pos 7370.29 -7833.63
+	habitable 625
+	arrival 2000
+	link Pammant
+	link Lothal
+	asteroids "small rock" 1 3.9644
+	asteroids "medium rock" 1 2.8424
+	asteroids "large rock" 8 4.1888
+	asteroids "small metal" 13 4.4506
+	asteroids "medium metal" 25 4.2262
+	asteroids "large metal" 86 3.0294
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/ganymede
+		distance 221.09
+		period 52.5985
+	object
+		sprite planet/earth
+		distance 471.5
+		period 163.811
+	object
+		sprite planet/dust6
+		distance 803.74
+		period 364.58
+	object
+		sprite planet/gas13
+		distance 1718.9
+		period 1140.24
+	object
+		sprite planet/io
+		distance 3631.99
+		period 3502.17
 
 system Sanrafsix
 	pos 6196.89 -6090.54
@@ -28605,22 +27528,18 @@ system Seoul
 	object
 		sprite star/g0
 		period 10
-
 	object
 		sprite planet/cloud7
 		distance 220.56
 		period 39.8693
-
 	object
 		sprite planet/dust2
 		distance 395.97
 		period 95.9051
-
 	object
 		sprite planet/fog0
 		distance 604.33
 		period 180.825
-
 	object
 		sprite planet/ocean1
 		distance 1185.42
@@ -28629,25 +27548,18 @@ system Seoul
 			sprite planet/rock3
 			distance 153
 			period 19.042
-
 	object
 		sprite planet/titan
 		distance 1602.63
 		period 780.905
-
 	object
 		sprite planet/ice0
 		distance 1750.39
 		period 891.354
-
 	object
 		sprite planet/tethys
 		distance 9929.43
 		period 12043
-
-
-
-
 
 system Serenno
 	pos 6504.66 -8099.75
@@ -29017,33 +27929,27 @@ system Shili
 		sprite star/m0
 		distance 45.5361
 		period 19.0864
-
 	object
 		sprite star/m4
 		distance 62.4639
 		period 19.0864
 		offset 180
-
 	object
 		sprite planet/rock10
 		distance 304.154
 		period 90.2044
-
 	object
 		sprite planet/rock13
 		distance 545.644
 		period 216.746
-
 	object
 		sprite planet/io
 		distance 812.734
 		period 394.013
-
 	object
 		sprite planet/cloud3
 		distance 1171.17
 		period 681.584
-
 	object
 		sprite planet/gas17
 		distance 2597.42
@@ -29056,10 +27962,6 @@ system Shili
 			sprite planet/dust0
 			distance 336
 			period 26.3137
-
-
-
-
 
 system Shimia
 	pos 6895.61 -6069.56
@@ -29347,32 +28249,26 @@ system Siskeen
 		distance 18.4737
 		period 15.3887
 		offset 180
-
 	object
 		sprite star/m8
 		distance 85.5263
 		period 15.3887
-
 	object
 		sprite planet/desert8
 		distance 274.936
 		period 66.1457
-
 	object
 		sprite planet/miranda
 		distance 458.976
 		period 142.672
-
 	object
 		sprite planet/desert7
 		distance 785.536
 		period 319.45
-
 	object
 		sprite planet/rock15
 		distance 964.536
 		period 434.641
-
 	object
 		sprite planet/gas7
 		distance 2004.58
@@ -29381,10 +28277,6 @@ system Siskeen
 			sprite planet/lava0
 			distance 251
 			period 14.1462
-
-
-
-
 
 system Skako
 	pos 5951.14 -7350.71
@@ -29413,7 +28305,6 @@ system Skako
 		sprite planet/skakominor
 		distance 359.21
 		period 123.441
-
 		object
 			sprite planet/ice7
 			distance 160
@@ -29422,7 +28313,6 @@ system Skako
 		sprite planet/ice5
 		distance 882.5
 		period 475.347
-
 		object
 			sprite planet/rock0
 			distance 170
@@ -29435,10 +28325,6 @@ system Skako
 		sprite planet/gas11
 		distance 2510.78
 		period 2281.14
-
-
-
-
 system Skye
 	pos 5290.18 -5678.28
 	habitable 425.92
@@ -29462,7 +28348,6 @@ system Skye
 		sprite planet/desert0
 		distance 294.36
 		period 97.8846
-
 		object
 			sprite planet/dust5
 			distance 144
@@ -29483,20 +28368,14 @@ system Skye
 		sprite planet/gas17
 		distance 2433.99
 		period 2327.42
-
 		object
 			sprite planet/io
 			distance 215
 			period 13.4689
-
 		object
 			sprite planet/callisto
 			distance 308
 			period 23.094
-
-
-
-
 system Skynara
 	pos 6633.48 -5777.05
 	government "Galactic Empire"
@@ -29611,12 +28490,10 @@ system "Sluis Van"
 	object
 		sprite star/m8
 		period 10
-
 	object
 		sprite planet/desert9
 		distance 175.89
 		period 80.3073
-
 	object
 		sprite planet/uranus
 		distance 1068.14
@@ -29633,7 +28510,6 @@ system "Sluis Van"
 			sprite planet/rhea
 			distance 523
 			period 51.1006
-
 	object
 		sprite planet/neptune
 		distance 2088.63
@@ -29646,10 +28522,6 @@ system "Sluis Van"
 			sprite planet/desert4
 			distance 371
 			period 35.6035
-
-
-
-
 
 system "Smuggler's Run"
 	pos 7037.77 -5994.36
@@ -29672,38 +28544,31 @@ system "Smuggler's Run"
 		sprite star/k0
 		distance 24.9727
 		period 19.7844
-
 	object
 		sprite star/m8
 		distance 90.0273
 		period 19.7844
 		offset 180
-
 	object
 		sprite planet/rock2
 		distance 265.067
 		period 69.2326
-
 	object
 		sprite planet/desert9
 		distance 471.907
 		period 164.461
-
 	object
 		sprite planet/dust2
 		distance 639.267
 		period 259.299
-
 	object
 		sprite planet/gas11
 		distance 1222.56
 		period 685.773
-
 	object
 		sprite planet/venus
 		distance 1654.37
 		period 1079.5
-
 	object
 		sprite planet/gas13
 		distance 2719.13
@@ -29720,10 +28585,6 @@ system "Smuggler's Run"
 			sprite planet/dust5
 			distance 585
 			period 39.9433
-
-
-
-
 
 system Sneeve
 	pos 6755.12 -7314.16
@@ -29746,36 +28607,27 @@ system Sneeve
 		sprite star/m4
 		distance 28.2258
 		period 14.0834
-
 	object
 		sprite star/m8
 		distance 48.7742
 		period 14.0834
 		offset 180
-
 	object
 		sprite planet/lava4
 		distance 222.584
 		period 69.2169
-
 	object
 		sprite planet/rock4
 		distance 457.224
 		period 203.781
-
 	object
 		sprite planet/cloud5
 		distance 877.514
 		period 541.816
-
 	object
 		sprite planet/gas4
 		distance 2065.32
 		period 1956.38
-
-
-
-
 
 system Socorro
 	pos 6681.04 -6045.73
@@ -29841,7 +28693,6 @@ system "Spice Terminus"
 	object
 		sprite star/m0
 		period 10
-
 	object
 		sprite planet/ice1
 		distance 333.96
@@ -29850,7 +28701,6 @@ system "Spice Terminus"
 			sprite planet/rock0
 			distance 153
 			period 16.1746
-
 	object
 		sprite planet/gas17
 		distance 803.6
@@ -29859,7 +28709,6 @@ system "Spice Terminus"
 			sprite planet/tethys
 			distance 201
 			period 12.175
-
 	object
 		sprite planet/gas5
 		distance 1838.84
@@ -29872,10 +28721,6 @@ system "Spice Terminus"
 			sprite planet/dust5
 			distance 378
 			period 24.4391
-
-
-
-
 
 system Spirana
 	pos 6255.63 -6756.08
@@ -29952,17 +28797,14 @@ system Sriluur
 		distance 46.4125
 		period 17.8233
 		offset 180
-
 	object
 		sprite star/m0
 		distance 70.5875
 		period 17.8233
-
 	object
 		sprite planet/gas0
 		distance 358.838
 		period 95.7318
-
 	object
 		sprite planet/rock4
 		distance 882.928
@@ -29971,25 +28813,18 @@ system Sriluur
 			sprite planet/rock0
 			distance 145
 			period 15.8958
-
 	object
 		sprite planet/gas2
 		distance 1300.93
 		period 660.829
-
 	object
 		sprite planet/cloud3
 		distance 1555.42
 		period 863.933
-
 	object
 		sprite planet/gas3
 		distance 4295.63
 		period 3965.06
-
-
-
-
 
 system Stenos
 	pos 6866.66 -8006.75
@@ -30109,17 +28944,14 @@ system Suarbi
 	object
 		sprite star/k5
 		period 10
-
 	object
 		sprite planet/desert0
 		distance 147
 		period 34.5439
-
 	object
 		sprite planet/fog0
 		distance 467.36
 		period 195.827
-
 	object
 		sprite planet/gas14
 		distance 1211.36
@@ -30128,15 +28960,10 @@ system Suarbi
 			sprite planet/desert4
 			distance 230
 			period 14.2053
-
 	object
 		sprite planet/jupiter
 		distance 1854.97
 		period 1548.46
-
-
-
-
 
 system Subterrel
 	pos 5849.07 -5502.77
@@ -30307,27 +29134,22 @@ system Svivren
 	object
 		sprite star/g5
 		period 10
-
 	object
 		sprite planet/venus
 		distance 188.64
 		period 41.4544
-
 	object
 		sprite planet/titan
 		distance 381.64
 		period 119.289
-
 	object
 		sprite planet/gas0
 		distance 1095.73
 		period 580.33
-
 	object
 		sprite planet/rock9
 		distance 1432.94
 		period 867.885
-
 	object
 		sprite planet/gas16
 		distance 3488.94
@@ -30336,10 +29158,6 @@ system Svivren
 			sprite planet/ice0
 			distance 214
 			period 16.4785
-
-
-
-
 
 system "Sy Myrth"
 	pos 6994.23 -7749.14
@@ -30436,7 +29254,6 @@ system Syvris
 		sprite planet/gas15
 		distance 701.993
 		period 246.274
-
 		object
 			sprite planet/lava0
 			distance 209
@@ -30445,7 +29262,6 @@ system Syvris
 		sprite planet/gas14
 		distance 1508.2
 		period 775.549
-
 		object
 			sprite planet/rock14
 			distance 224
@@ -30462,7 +29278,6 @@ system Syvris
 		sprite planet/gas11
 		distance 2446.41
 		period 1602.19
-
 		object
 			sprite planet/ice7
 			distance 242
@@ -30676,28 +29491,23 @@ system Targon
 		sprite star/k0
 		distance 33.6979
 		period 15.8109
-
 	object
 		sprite star/m4
 		distance 70.3021
 		period 15.8109
 		offset 180
-
 	object
 		sprite planet/mercury
 		distance 198.592
 		period 41.7204
-
 	object
 		sprite planet/titan
 		distance 356.402
 		period 100.304
-
 	object
 		sprite planet/forest3
 		distance 665.962
 		period 256.201
-
 	object
 		sprite planet/ocean3
 		distance 969.212
@@ -30706,25 +29516,18 @@ system Targon
 			sprite planet/europa
 			distance 139
 			period 18.3548
-
 	object
 		sprite planet/dust6
 		distance 1257.1
 		period 664.449
-
 	object
 		sprite planet/gas13
 		distance 1568.79
 		period 926.305
-
 	object
 		sprite planet/io
 		distance 4915.88
 		period 5138.16
-
-
-
-
 
 system Taris
 	pos 6297.46 -7807.11
@@ -30747,18 +29550,15 @@ system Taris
 		sprite star/g0
 		distance 44.7214
 		period 13.0538
-
 	object
 		sprite star/g5
 		distance 77.2786
 		period 13.0538
 		offset 180
-
 	object
 		sprite planet/cloud3
 		distance 317.089
 		period 54.6977
-
 	object
 		sprite planet/gas2
 		distance 1014.1
@@ -30779,7 +29579,6 @@ system Taris
 			sprite planet/rock7
 			distance 533
 			period 74.5599
-
 	object
 		sprite planet/gas0
 		distance 2375.74
@@ -30796,10 +29595,6 @@ system Taris
 			sprite planet/rhea
 			distance 587
 			period 41.6787
-
-
-
-
 
 system Taskeed
 	pos 7087.23 -7678.14
@@ -30890,40 +29685,30 @@ system Tatooine
 	object
 		sprite star/k5
 		period 10
-
 	object
 		sprite planet/desert7
 		distance 152
 		period 36.3213
-
 	object "Tatooine"
 		sprite planet/tatooine
 		distance 435.16
 		period 175.942
-
 	object
 		sprite planet/desert10
 		distance 1127.77
 		period 734.052
-
 	object
 		sprite planet/lava5
 		distance 1514.73
 		period 1142.61
-
 	object
 		sprite planet/ice7
 		distance 1917.98
 		period 1628.03
-
 	object
 		sprite planet/rhea
 		distance 4371.59
 		period 5602.15
-
-
-
-
 
 system Taul
 	pos 5616.82 -5883.64
@@ -31087,7 +29872,6 @@ system Telti
 		sprite planet/forest5
 		distance 472.01
 		period 198.757
-
 		object
 			sprite planet/dust5
 			distance 159
@@ -31100,12 +29884,10 @@ system Telti
 		sprite planet/uranus
 		distance 1521.34
 		period 1150.1
-
 		object
 			sprite planet/tethys
 			distance 235
 			period 15.3913
-
 		object
 			sprite planet/rock14
 			distance 355
@@ -31114,10 +29896,6 @@ system Telti
 		sprite planet/gas3
 		distance 3089.34
 		period 3328.09
-
-
-
-
 system Tepasi
 	pos 5973.55 -7360.26
 	government "Galactic Empire"
@@ -31195,7 +29973,6 @@ system Terminus
 	object
 		sprite star/k0
 		period 10
-
 	object
 		sprite planet/gas14
 		distance 489.56
@@ -31208,7 +29985,6 @@ system Terminus
 			sprite planet/rock0
 			distance 377
 			period 29.8106
-
 	object
 		sprite planet/gas5
 		distance 1501.37
@@ -31221,7 +29997,6 @@ system Terminus
 			sprite planet/miranda
 			distance 432
 			period 29.8588
-
 	object
 		sprite planet/gas9
 		distance 2624.58
@@ -31238,10 +30013,6 @@ system Terminus
 			sprite planet/dust3
 			distance 448
 			period 35.5556
-
-
-
-
 
 system Teth
 	pos 7342.98 -6981.09
@@ -32061,27 +30832,22 @@ system Thustra
 	object
 		sprite star/g5
 		period 10
-
 	object
 		sprite planet/rock13
 		distance 162.25
 		period 33.0672
-
 	object
 		sprite planet/cloud1
 		distance 425.69
 		period 140.527
-
 	object
 		sprite planet/ocean6
 		distance 688.25
 		period 288.895
-
 	object
 		sprite planet/desert9
 		distance 1087.5
 		period 573.804
-
 	object
 		sprite planet/gas8
 		distance 2766.71
@@ -32090,10 +30856,6 @@ system Thustra
 			sprite planet/rock3
 			distance 223
 			period 17.727
-
-
-
-
 
 system Thyferra
 	pos 5933.52 -6594.06
@@ -32182,20 +30944,14 @@ system Tibrin
 		sprite planet/gas13
 		distance 2335.46
 		period 1090.15
-
 		object
 			sprite planet/io
 			distance 255
 			period 11.4953
-
 		object
 			sprite planet/desert4
 			distance 364
 			period 19.6048
-
-
-
-
 system Tinnel
 	pos 6110.14 -6973.71
 	government "Galactic Empire"
@@ -32332,10 +31088,6 @@ system Tirahnn
 		distance 1552.47
 		period 528.802
 		offset 0.514728
-
-
-
-
 system Tiss'sharl
 	pos 6855.66 -8327.75
 	habitable 1505.92
@@ -32406,7 +31158,6 @@ system Togoria
 	object
 		sprite star/m4
 		period 10
-
 	object
 		sprite planet/ice5
 		distance 287.84
@@ -32420,7 +31171,6 @@ system Togoria
 		sprite planet/rock17
 		distance 715.4
 		period 501.123
-
 	object
 		sprite planet/ice2
 		distance 1020.65
@@ -32434,10 +31184,6 @@ system Togoria
 		sprite planet/rock0
 		distance 2202.69
 		period 2707.39
-
-
-
-
 
 system Tokmia
 	pos 5745.82 -5877.64
@@ -32576,7 +31322,6 @@ system Toong'l
 		sprite planet/cloud8
 		distance 804.14
 		period 187.254
-
 		object
 			sprite planet/dust1
 			distance 146
@@ -32585,7 +31330,6 @@ system Toong'l
 		sprite planet/gas5
 		distance 2248.3
 		period 875.416
-
 		object
 			sprite planet/ice0
 			distance 245
@@ -32775,25 +31519,18 @@ system Trandosha
 		sprite planet/gas15
 		distance 4294.42
 		period 7370.18
-
 		object
 			sprite planet/desert4
 			distance 200
 			period 14.8882
-
 		object
 			sprite planet/rock17
 			distance 286
 			period 25.4593
-
 		object
 			sprite planet/dust4
 			distance 448
 			period 49.9131
-
-
-
-
 system Tregillis
 	pos 6008.22 -6416.55
 	government "Galactic Empire"
@@ -33005,7 +31742,6 @@ system Triton
 		sprite planet/forest3
 		distance 489.61
 		period 209.977
-
 		object
 			sprite planet/io
 			distance 148
@@ -33018,15 +31754,10 @@ system Triton
 		sprite planet/gas11
 		distance 1732.31
 		period 1397.44
-
 		object
 			sprite planet/desert4
 			distance 246
 			period 12.7257
-
-
-
-
 system Trogan
 	pos 6950.35 -7801.12
 	habitable 2507.76
@@ -33327,7 +32058,6 @@ system Tynna
 		sprite planet/ice6
 		distance 1068.41
 		period 197.552
-
 		object
 			sprite planet/lava0
 			distance 139
@@ -33615,13 +32345,11 @@ system Ultaar
 		sprite star/g5
 		distance 32.5079
 		period 12.2391
-
 	object
 		sprite star/m0
 		distance 63.4921
 		period 12.2391
 		offset 180
-
 	object
 		sprite planet/desert0
 		distance 360.452
@@ -33630,12 +32358,10 @@ system Ultaar
 			sprite planet/rock7
 			distance 154
 			period 24.0239
-
 	object
 		sprite planet/rhea
 		distance 778.692
 		period 282.744
-
 	object
 		sprite planet/gas7
 		distance 1545.05
@@ -33644,7 +32370,6 @@ system Ultaar
 			sprite planet/desert4
 			distance 264
 			period 15.2594
-
 	object
 		sprite planet/gas13
 		distance 2477.54
@@ -34135,20 +32860,14 @@ system Vakkar
 		sprite planet/gas14
 		distance 2937.48
 		period 2517.28
-
 		object
 			sprite planet/dust7
 			distance 209
 			period 12.3049
-
 		object
 			sprite planet/dust0
 			distance 291
 			period 20.2161
-
-
-
-
 system Valc
 	pos 5560.04 -8191.13
 	habitable 1313.28
@@ -34232,12 +32951,10 @@ system Vandelhelm
 		sprite planet/gas9
 		distance 1412.21
 		period 849.12
-
 		object
 			sprite planet/dust3
 			distance 257
 			period 15.4486
-
 	object
 		sprite planet/callisto
 		distance 1836.85
@@ -34246,7 +32963,6 @@ system Vandelhelm
 		sprite planet/gas11
 		distance 2510.61
 		period 2012.75
-
 		object
 			sprite planet/desert4
 			distance 230
@@ -34277,17 +32993,14 @@ system Vandor
 	object
 		sprite star/a5
 		period 10
-
 	object
 		sprite planet/rock13
 		distance 171.96
 		period 14.9401
-
 	object
 		sprite planet/io
 		distance 501.96
 		period 74.5101
-
 	object
 		sprite planet/gas10
 		distance 1447.96
@@ -34304,7 +33017,6 @@ system Vandor
 			sprite planet/rhea
 			distance 456
 			period 51.256
-
 	object
 		sprite planet/gas8
 		distance 2932.4
@@ -34313,10 +33025,6 @@ system Vandor
 			sprite planet/callisto
 			distance 202
 			period 15.2828
-
-
-
-
 
 system Vandyne
 	pos 6415.04 -8067.13
@@ -34457,25 +33165,18 @@ system Varl
 		sprite planet/gas15
 		distance 2924.83
 		period 2868.07
-
 		object
 			sprite planet/ice7
 			distance 222
 			period 17.4111
-
 		object
 			sprite planet/ice0
 			distance 341
 			period 33.1458
-
 		object
 			sprite planet/dust5
 			distance 483
 			period 55.875
-
-
-
-
 system Vassek
 	pos 5501.08 -6024.89
 	habitable 2372.76
@@ -34587,22 +33288,18 @@ system Velmor
 		sprite planet/gas0
 		distance 866.61
 		period 878.271
-
 		object
 			sprite planet/rhea
 			distance 287
 			period 14.2488
-
 		object
 			sprite planet/dust1
 			distance 401
 			period 23.5328
-
 		object
 			sprite planet/rock3
 			distance 524
 			period 35.1523
-
 		object
 			sprite planet/dust4
 			distance 694
@@ -34611,10 +33308,6 @@ system Velmor
 		sprite planet/gas11
 		distance 1925.86
 		period 2909.58
-
-
-
-
 system Velusia
 	pos 5818.89 -7370.37
 	habitable 1505.92
@@ -34699,7 +33392,6 @@ system Vena
 		sprite planet/desert8
 		distance 545.4
 		period 201.392
-
 		object
 			sprite planet/rock17
 			distance 154
@@ -34708,7 +33400,6 @@ system Vena
 		sprite planet/cloud8
 		distance 1020.4
 		period 515.378
-
 		object
 			sprite planet/rock7
 			distance 162
@@ -34717,20 +33408,14 @@ system Vena
 		sprite planet/gas10
 		distance 2651.96
 		period 2159.34
-
 		object
 			sprite planet/lava0
 			distance 196
 			period 14.4438
-
 		object
 			sprite planet/rock14
 			distance 343
 			period 33.4379
-
-
-
-
 system Vendaxa
 	pos 6359.63 -6567.08
 	government "Galactic Empire"
@@ -34953,17 +33638,14 @@ system Vestar
 	object
 		sprite star/g0
 		period 10
-
 	object
 		sprite planet/rock15
 		distance 137.96
 		period 19.7232
-
 	object
 		sprite planet/rock18
 		distance 435.6
 		period 110.657
-
 	object
 		sprite planet/gas17
 		distance 1247.04
@@ -34976,12 +33658,10 @@ system Vestar
 			sprite planet/luna
 			distance 386
 			period 32.4007
-
 	object
 		sprite planet/ice0
 		distance 1767.04
 		period 904.103
-
 	object
 		sprite planet/gas6
 		distance 4397.33
@@ -35002,10 +33682,6 @@ system Vestar
 			sprite planet/ice7
 			distance 707
 			period 48.0169
-
-
-
-
 
 system Vicondor
 	pos 5618.99 -7675.04
@@ -35132,12 +33808,10 @@ system Virgillia
 		distance 47.19
 		period 16.8967
 		offset 180
-
 	object
 		sprite star/m0
 		distance 62.81
 		period 16.8967
-
 	object
 		sprite planet/cloud8
 		distance 347.9
@@ -35146,7 +33820,6 @@ system Virgillia
 			sprite planet/oberon
 			distance 159
 			period 24.2278
-
 	object
 		sprite planet/gas5
 		distance 1027.14
@@ -35159,15 +33832,10 @@ system Virgillia
 			sprite planet/lava0
 			distance 384
 			period 25.0233
-
 	object
 		sprite planet/gas12
 		distance 1965.5
 		period 1276.21
-
-
-
-
 
 system Vjun
 	pos 6735.97 -7849.69
@@ -35352,7 +34020,6 @@ system Vohai
 		sprite planet/desert5
 		distance 1025.77
 		period 399.874
-
 		object
 			sprite planet/lava0
 			distance 149
@@ -35361,15 +34028,10 @@ system Vohai
 		sprite planet/neptune
 		distance 2457.93
 		period 1483.21
-
 		object
 			sprite planet/rock14
 			distance 215
 			period 15.7069
-
-
-
-
 system Vondarc
 	pos 6068.94 -6174.78
 	government "Galactic Empire"
@@ -35501,7 +34163,7 @@ system Voss
 
 system Vulpter
 	pos 5925.14 -7246.71
-	government "Galactic Empire"
+	government "Unaffiliated"
 	habitable 2140.92
 	music ambient/wait
 	arrival 2000
@@ -35528,13 +34190,10 @@ system Vulpter
 		distance 243.122
 		period 32.7714
 	object "Vulpter"
-		sprite planet/gas3
+		sprite planet/vulpter
 		distance 1402.22
 		period 453.924
 		offset 58.3205
-
-
-
 
 system "Vurdon Ka"
 	pos 6107.35 -7485.12
@@ -35566,7 +34225,6 @@ system "Vurdon Ka"
 		distance 613.152
 		period 213.827
 		offset 222.837
-
 		object
 			sprite planet/rock14
 			distance 262
@@ -35585,7 +34243,6 @@ system "Vurdon Ka"
 		distance 1674.57
 		period 965.083
 		offset 285.05
-
 		object
 			sprite planet/lava0
 			distance 212
@@ -35905,7 +34562,6 @@ system Wayland
 	object
 		sprite star/k5
 		period 10
-
 	object
 		sprite planet/rock19
 		distance 267.49
@@ -35918,17 +34574,14 @@ system Wayland
 		sprite planet/desert2
 		distance 591.49
 		period 278.816
-
 	object
 		sprite planet/ocean7
 		distance 806.74
 		period 444.116
-
 	object
 		sprite planet/cloud6
 		distance 1042.38
 		period 652.282
-
 	object
 		sprite planet/gas4
 		distance 2257.39
@@ -36047,6 +34700,7 @@ system "Wellspring of Life"
 
 system Wobani
 	pos 6940.35 -7647.12
+	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
 	arrival 2000
@@ -36063,10 +34717,10 @@ system Wobani
 	minables aluminum 4 7.39029
 	minables iron 4 5.65777
 	minables neodymium 2 6.04127
+	haze _menu/hazedust
 	object
 		sprite star/k5
 		period 10
-
 	object
 		sprite planet/cloud7
 		distance 250.69
@@ -36075,7 +34729,6 @@ system Wobani
 			sprite planet/dust0
 			distance 111
 			period 16.3039
-
 	object
 		sprite planet/gas14
 		distance 881.69
@@ -36084,7 +34737,7 @@ system Wobani
 			sprite planet/desert4
 			distance 216
 			period 12.9282
-		object
+		object Wobani
 			sprite planet/rock7
 			distance 296
 			period 20.7394
@@ -36092,7 +34745,6 @@ system Wobani
 			sprite planet/europa
 			distance 410
 			period 33.8092
-
 	object
 		sprite planet/gas15
 		distance 1838.78
@@ -36105,10 +34757,6 @@ system Wobani
 			sprite planet/rock3
 			distance 335
 			period 32.2749
-
-
-
-
 
 system Woostri
 	pos 6042.29 -6304.86
@@ -36134,7 +34782,6 @@ system Woostri
 		sprite planet/cloud3
 		distance 256.09
 		period 74.3066
-
 		object
 			sprite planet/oberon
 			distance 127
@@ -36151,25 +34798,18 @@ system Woostri
 		sprite planet/gas17
 		distance 2303.43
 		period 2004.48
-
 		object
 			sprite planet/lava0
 			distance 217
 			period 13.6572
-
 		object
 			sprite planet/dust5
 			distance 343
 			period 27.1403
-
 		object
 			sprite planet/rock3
 			distance 517
 			period 50.2237
-
-
-
-
 system Wrea
 	pos 6994.54 -6022.6
 	government "Galactic Empire"
@@ -36404,7 +35044,6 @@ system "Yabol Opa"
 		distance 776.812
 		period 263.525
 		offset 137.686
-
 		object
 			sprite planet/dust4
 			distance 237
@@ -36414,20 +35053,14 @@ system "Yabol Opa"
 		distance 2048.57
 		period 1128.56
 		offset 295.123
-
 		object
 			sprite planet/lava0
 			distance 246
 			period 15.7131
-
 		object
 			sprite planet/ice8
 			distance 404
 			period 33.0697
-
-
-
-
 system Yag'Dhul
 	pos 5969.73 -6513.36
 	government "Galactic Empire"
@@ -36450,13 +35083,11 @@ system Yag'Dhul
 		sprite star/g0
 		distance 42.1554
 		period 11.9466
-
 	object
 		sprite star/g5
 		distance 72.8446
 		period 11.9466
 		offset 180
-
 	object
 		sprite planet/gas2
 		distance 617.655
@@ -36469,17 +35100,14 @@ system Yag'Dhul
 			sprite planet/miranda
 			distance 354
 			period 40.3571
-
 	object
 		sprite planet/lava1
 		distance 1116.65
 		period 361.473
-
 	object
 		sprite planet/gas4
 		distance 1610.74
 		period 626.236
-
 	object
 		sprite planet/jupiter
 		distance 3276.9
@@ -36496,10 +35124,6 @@ system Yag'Dhul
 			sprite planet/ice8
 			distance 528
 			period 38.1252
-
-
-
-
 
 system "Yaga Minor"
 	pos 5660.04 -8145.13
@@ -36619,33 +35243,27 @@ system Yinchorr
 		sprite star/f5
 		distance 25.6417
 		period 10.6505
-
 	object
 		sprite star/k0
 		distance 90.3583
 		period 10.6505
 		offset 180
-
 	object
 		sprite planet/ice2
 		distance 260.448
 		period 35.8315
-
 	object
 		sprite planet/desert1
 		distance 492.338
 		period 93.1276
-
 	object
 		sprite planet/rock15
 		distance 695.778
 		period 156.455
-
 	object
 		sprite planet/rhea
 		distance 1107.22
 		period 314.075
-
 	object
 		sprite planet/gas9
 		distance 3463.31
@@ -36685,7 +35303,6 @@ system Ylesia
 		sprite planet/gas9
 		distance 635.45
 		period 256.296
-
 		object
 			sprite planet/dust0
 			distance 217
@@ -36698,20 +35315,14 @@ system Ylesia
 		sprite planet/gas6
 		distance 1924.26
 		period 1350.57
-
 		object
 			sprite planet/miranda
 			distance 287
 			period 12.419
-
 		object
 			sprite planet/dust4
 			distance 422
 			period 22.1428
-
-
-
-
 system Zaddja
 	pos 5197.5 -6471.39
 	habitable 1715
@@ -36936,28 +35547,23 @@ system ZeHeth
 		sprite star/b5
 		distance 9.0394
 		period 6.44606
-
 	object
 		sprite star/g5
 		distance 124.961
 		period 6.44606
 		offset 180
-
 	object
 		sprite planet/lava1
 		distance 268.961
 		period 18.3303
-
 	object
 		sprite planet/rock1
 		distance 451.961
 		period 39.929
-
 	object
 		sprite planet/ganymede
 		distance 727.051
 		period 81.4675
-
 	object
 		sprite planet/jupiter
 		distance 1687.05
@@ -36970,10 +35576,6 @@ system ZeHeth
 			sprite planet/rhea
 			distance 454
 			period 30.398
-
-
-
-
 
 system Zeltros
 	pos 6410.43 -7214.97
@@ -37196,35 +35798,26 @@ system Zolan
 	object
 		sprite star/m4
 		period 10
-
 	object
 		sprite planet/forest6
 		distance 190.29
 		period 68.7456
-
 	object
 		sprite planet/cloud8
 		distance 557.9
 		period 345.109
-
 	object
 		sprite planet/dust6
 		distance 878.79
 		period 682.258
-
 	object
 		sprite planet/ice3
 		distance 1217.4
 		period 1112.43
-
 	object
 		sprite planet/jupiter
 		distance 3625.76
 		period 5717.68
-
-
-
-
 
 system "Zonama Sekot"
 	pos 7030.22 -8586.94
@@ -37277,7 +35870,7 @@ system "Zonama Sekot"
 
 system Zug
 	pos 5885.14 -7300.71
-	government "Galactic Empire"
+	government "Unaffiliated"
 	habitable 625
 	music ambient/wait
 	arrival 2000
@@ -37385,7 +35978,8 @@ planet "Aargau"
 	attributes agffa_galacticempire agffa_deepcore
 	landscape land/unknown
 	music ambient/hangar
-	description `Aargau is run by and served as the headquarters for the Bank of Aargau, which is part of the InterGalactic Banking Clan. Numerous other banks and corporations are also based on Aargau, including the Z-Gomot Ternbuell Guppat Corporation. Aargau is an exceptionally wealthy world, due both to its status as a financial center, as well as the planet's vast reserves of rare and precious metals.`
+	description `Aargau is run by and served as the headquarters for the Bank of Aargau, which is part of the InterGalactic Banking Clan. Numerous other banks and corporations are also based on Aargau, including the Z-Gomot Ternbuell Guppat Corporation. Aargau is an exceptionally wealthy world, due to both to its status as a financial centre, as well as the planet's vast reserves of rare and precious metals.`
+	spaceport `	The planet has retained its neutrality throughout the Galactic Civil War so far, which means that both the Alliance to Restore the Republic and Galactic Empire can conduct business on the banking world.`
 
 planet "Alderaan"
 	attributes agffa_galacticempire agffa_core
@@ -37396,7 +35990,7 @@ planet "Alsakan"
 	landscape land/unknown
 	music ambient/hangar
 	description `Alsakan was an ecumenopolis world in the Alsakan system in the Core Worlds. A Core Founder on the Perlemian Trade Route, Alsakan was an ancient, wealthy world that had been a major political player for centuries, and was responsible for the seventeen Alsakan Conflicts that had been fought with Coruscant over the nature and shape of the early Galactic Republic.`
-	spaceport `	The Alsakani were Human settlers who had arrived on the planet aboard the colony ship Kuat Explorer some twenty-six thousand years before the Battle of Yavin. As a people, they were aristocratic in their values and enthusiastic for open spaces and local independence. Consequently, they had sought a limited economic and political union when the Galactic Republic was formed, and for much of their history were inclined to see Coruscant as too powerful, resulting in the many Alsakan Conflicts.Reflecting their views, the ancient Alsakani national epic, the Archaiad, described the Perlemian Trade Route as "an arrow sent into the possible". Seeking distance from authority, Alsakan's younger sons established small colonies in the Inner Rim, and cared little for government bureaucracy or mass-produced goods beyond warships and blasters. The Alsakan Mosaics are tile mosaics found in the city of Rucapar on the planet Alsakan. The center of the mosaic is at the city square and extends as five lanes of tile to five equidistant mountains. Most of the original mosaic was destroyed during the Third Alsakan Conflict, only remnants have survived. However, it is included in the Twenty Wonders of the Galaxy by Vicendi in 10,000 BBY.`
+	spaceport `	The Alsakani were Human settlers who had arrived on the planet aboard the colony ship Kuat Explorer some twenty-six thousand years before the Battle of Yavin. As a people, they were aristocratic in their values and enthusiastic for open spaces and local independence. Consequently, they had sought a limited economic and political union when the Galactic Republic was formed, and for much of their history were inclined to see Coruscant as too powerful, resulting in the many Alsakan Conflicts. Reflecting their views, the ancient Alsakani national epic, the Archaiad, described the Perlemian Trade Route as "an arrow sent into the possible". Seeking distance from authority, Alsakan's younger sons established small colonies in the Inner Rim, and cared little for government bureaucracy or mass-produced goods beyond warships and blasters. The Alsakan Mosaics are tile mosaics found in the city of Rucapar on the planet Alsakan. The center of the mosaic is at the city square and extends as five lanes of tile to five equidistant mountains. Most of the original mosaic was destroyed during the Third Alsakan Conflict, only remnants have survived. However, it is included in the Twenty Wonders of the Galaxy by Vicendi in 10,000 BBY.`
 	shipyard "Imperial Navy Ships"
 
 planet "Anaxes"
@@ -37404,7 +35998,7 @@ planet "Anaxes"
 	landscape land/anaxes
 	music ambient/hangar
 	description `Anaxes was a fortress world located on the Perlemian Trade Route in the Axum system of the Core Worlds. Known as the "Defender of the Core", for millennia it was the site of the Republic Navy's primary fleet base and War College. It was considered the site of naval power, tradition and prestige by both the Galactic Republic and the Galactic Empire.`
-	spaceport `	While not as industrialized as Axum, Anaxes was more prestigious, home to many families associated with a tradition of service in the Fleet. It was home to Azure Motorworks, a major producer of luxury vehicles. Considered an ecumenopolis, in that it was a planet-wide city, it was more reminiscent of a Green Coruscant, though, in that it was sprinkled with beautiful parks and green areas in and around the city like the Great Plain of Anaxes.`
+	spaceport `	While not as industrialised as Axum, Anaxes was more prestigious, home to many families associated with a tradition of service in the Fleet. It was home to Azure Motorworks, a major producer of luxury vehicles. Considered an ecumenopolis, in that it was a planet-wide city, it was more reminiscent of a Green Coruscant, though, in that it was sprinkled with beautiful parks and green areas in and around the city like the Great Plain of Anaxes.`
 	shipyard "Imperial Navy Ships"
 
 planet "Arkania"
@@ -37460,6 +36054,7 @@ planet "Broest"
 	landscape land/unknown
 	music ambient/hangar
 	description `Broest is an agriworld, controlled by Salliche Ag Corporation. Broest is a world from which ruica seeds are transported across the galaxy to the planet Alderaan for farmers to grow.`
+	spaceport `Broest is an agriworld, controlled by Salliche Ag Corporation. Broest is a world from which ruica seeds are transported across the galaxy to the planet Alderaan for farmers to grow.`
 
 planet "Byss"
 	attributes agffa_sith agffa_galacticempire agffa_deepcore agffa_shipyard
@@ -37485,7 +36080,7 @@ planet "Castell"
 
 planet "Chandrila"
 	attributes agffa_galacticempire agffa_core agffa_wealthy
-	landscape land/unknown
+	landscape land/chandrila
 	music ambient/hangar
 	description `Chandrila is a small blue-green planet with calm seas and rolling hills. It has mild seasonal weather and rarely experiences dangerous weather conditions. Some notable locations on Chandrila include the capitol of Hanna City, the Old Gather-House, the Senate Plaza, and the Silver Sea.`
 	spaceport `	In ancient times, Chandrila was settled by settlers who built the Old Gather House. Chandrila was a member of the Galactic Republic and during the Clone Wars, Mon Mothma served as Chandrila's senator in the Galactic Senate.`
@@ -37531,6 +36126,8 @@ planet "Corellia"
 	music ambient/hangar
 	description `Corellia is a planet located in the galaxy's Core Worlds known for its ace pilots and large starships. Corellia is located in the Corellian sector in the Core Worlds. It has a temperate climate and is covered in forests, jungles, and urban centers. One major city is Coronet City (also the planet's capital), which is home to shipyards used to build TIE fighters and Star Destroyers for the Galactic Empire.`
 	spaceport `	When the Galactic Empire came to power, Corellia's shipyards were transformed into Imperial facilities, and though Corellia is a faded industrial world, it is used to build TIE fighters and Star Destroyers for the Imperial Navy. Many impoverished Corellian commoners seek to escape their homeworld for a better life.`
+	shipyard "Imperial Navy Ships"
+	shipyard "Miscellaneous Ships"
 
 planet "Corulag"
 	attributes agffa_galacticempire agffa_core agffa_trade agffa_imperialmilitary
@@ -37560,8 +36157,8 @@ planet Coruscant
 	security 0.7
 	tribute 100000
 		threshold 7000
-		fleet imperialdefensefleetlarge
-		fleet imperialdefensefleetsmall 2
+		fleet imperialdefencefleetlarge
+		fleet imperialdefencefleetsmall 2
 		fleet prideofthecore
 		fleet imperialdefencefleetlarge
 
@@ -37653,7 +36250,7 @@ planet "Foerost"
 	landscape land/unknown
 	music ambient/hangar
 	description `Foerost is a Core planet on the Koros Trunk Line. It is orbited by the Foerost Shipyards, which is one of the Republic's largest and oldest shipyards. It even held the title of largest, and highest quality ships in the galaxy till Kuat later usurped the title in the Clone Wars.`
-	spaceport ` The shipyards' engineers remove raw materials from the planet and transported them to the shipyards in high orbit. Foerost has an Imperial communications tower similar to the one on Scarif.`
+	spaceport `	The shipyards' engineers remove raw materials from the planet and transported them to the shipyards in high orbit. Foerost has an Imperial communications tower similar to the one on Scarif.`
 	shipyard "Imperial Navy Ships"
 
 planet Folor
@@ -37661,13 +36258,17 @@ planet Folor
 	landscape land/folor
 	music ambient/hangar
 	description `Folor is an airless moon of the planet Commenor, and is the larger of the planet's two satellites. It is barren, mountainous, and frost-coated. The Commenorians once mined the moon.`
-	government Uninhabited
+	spaceport `	Following the Declaration of a New Order, there were a number of anti-Imperial pros across Commenor. A resistance movement later appeared on the planet. The Alliance to Restore the Republic has established a secret base on Commenor's largest moon, Folor.`
+	government "Uninhabited"
+	shipyard "Rebel Alliance Ships"
+	outfitter "Miscellaneous Outfits"
+	outfitter "Secondary Weapons Outfits"
 
 planet "Geonosis"
 	attributes agffa_uninhabited agffa_quarantined agffa_outerrim
 	landscape land/geonosis
 	music ambient/hangar
-	description `Geonosis, referred to as Geonosia by some natives, was the desert home planet of the Geonosians. It was the Confederacy of Independent Systems' first capital and hosted its major battle droid foundries. The Empire has sterilised the planet, an act which resulted in the virtual elimination of the planet's native population.`
+	description `Geonosis, referred to as Geonosia by some natives, was the desert home planet of the Geonosians. It was the Confederacy of Independent Systems' first capital and hosted its major battle droid foundries. The Empire has sterilised the planet, an act which has resulted in the virtual elimination of the planet's native population.`
 	music ambient/hangar
 	description `	During the time of the Geonosian rule, much of the planet's architecture was similar in appearance to termite mounds, consisting of domes and buildings built into caverns and rock spires. Therefore, one could easily mistake Geonosian buildings for natural formations and the planet to be uninhabited, a great asset during war.`
 
@@ -37698,6 +36299,13 @@ planet "Kalist VI"
 	spaceport `	The labor colony is home to many prisoners of the Empire, including political prisoners and prisoners of war. The complex itself consists of a massive transparisteel dome, with a landing pad and several power fences around the perimeter.`
 	shipyard "Miscellaneous Ships"
 
+planet "Kessel"
+	attributes agffa_galacticempire agffa_pikesyndicate agffa_smuggler agffa_scum agffa_outerrim agffa_mining agffa_slavery
+	landscape land/kessel
+	music ambient/hangar
+	description `Kessel is a planet within the Akkadese Maelstrom that hosts spice mines. The planet also exports coaxium and Kesselstone. While Kessel's northern hemisphere is devoted to mining, the planet's southern hemisphere is home to lush sanctuaries.`
+	spaceport `	The Galactic Empire and Pyke Syndicate both run several mining operations that employ slave labour. These slave mining operations are targeted by various underworld and rebel factions. Kessel is a key world in the spice trade, with slavery being used in the production of goods.`
+
 planet "Kiiro"
 	attributes agffa_galacticempire agffa_innerrim agffa_mining agffa_poor
 	landscape land/kiiro
@@ -37706,12 +36314,20 @@ planet "Kiiro"
 	spaceport `	The spaceport smells heavily of rotten egg, yet the locals seem oblivious to this. The air and all surfaces seem to be saturated with a chalky yellow substance, and visitors to the planet seem eager to leave as soon as possible.`
 	shipyard "Rebel Alliance Ships"
 
+planet "Kijimi"
+	attributes agffa_unaffiliated agffa_smuggler agffa_scum agffa_midrim
+	landscape land/kijimi
+	music ambient/hangar
+	description `Kijimi is a frigid mountainous planet located in the Bryx sector of the galaxy's Mid Rim. A terrestrial planet, Kijimi has mountainous terrain. The planet has a frigid climate, with thick drifts of snow covering its Mountains. The atmosphere of Kijimi us breathable to a number of inhabitants, including humans, Boosodians, and Anzellans.`
+	spaceport `	Kijimi has no central government and is basically an anarchy with some stability. Everyone's self interests keep the planet from collapsing.`
+	shipyard "Miscellaneous Ships"
+
 planet "Kuat"
 	attributes agffa_galacticempire agffa_core agffa_imperialmilitary agffa_industry agffa_shipyard agffa_station agffa_wealthy
 	landscape land/kuat
 	music ambient/hangar
 	description `Kuat is a planet located in the Core Worlds and is one of the earliest members of the Galactic Republic. It is best known as the home of Kuat Drive Yards. These famous shipyards, used to build ships for both the Galactic Republic and later the Galactic Empire, circled the planet for thousands of kilometers.`
-	spaceport `	An industrial world and center of manufacturing that played a significant role in galactic shipbuilding, Kuat is the home of Kuat Drive Yards, whose shipyards and construction facilities are the most prominent feature of Kuat, encircling the planet in the shape of a large ring. Kuat is considered one of the most efficient shipyards in the galaxy, and its defenses are formidable, with protection provided by the Kuati Sector Forces and designs used for self-defense by Kuat Drive Yards.`
+	spaceport `	An industrial world and center of manufacturing that played a significant role in galactic shipbuilding, Kuat is the home of Kuat Drive Yards, whose shipyards and construction facilities are the most prominent feature of Kuat, encircling the planet in the shape of a large ring. Kuat is considered one of the most efficient shipyards in the galaxy, and its defences are formidable, with protection provided by the Kuati Sector Forces and designs used for self-defence by Kuat Drive Yards.`
 	shipyard "Imperial Navy Ships"
 
 planet Lehon
@@ -37774,6 +36390,14 @@ planet "Naboo"
 	shipyard "Naboo Ships"
 	shipyard "Separatist Alliance Ships"
 	shipyard "Galactic Republic Ships"
+
+planet "Oba Diah"
+	attributes agffa_galacticempire agffa_pikesyndicate agffa_smuggler agffa_scum agffa_outerrim agffa_mining agffa_wealthy
+	landscape land/obadiah
+	music ambient/hangar
+	description `Oba Diah is a planet located in the galaxy's Outer Rim Territories that is the homeworld of the Pyke species. Located on the end of the Kessel Run, the Pyke Syndicate manages the distribution of spice from Kessel as it is delivered throughout the galaxy from Pyke Palace on Oba Diah.`
+	spaceport `	The Galactic Empire and Pyke Syndicate both run several mining operations that employ slave labour. These slave mining operations are targeted by various underworld and rebel factions. Oba Diah is a key world in the spice trade, managing the flow of spice from its sister planet Kessel.`
+
 
 planet "Ojom"
 	attributes agffa_scum agffa_smuggler agffa_hutt agffa_deepcore agffa_station agffa_poor
@@ -37948,7 +36572,7 @@ planet "Ukio"
 	landscape land/unknown
 	music ambient/hangar
 	description `Ukio is a well-known agriworld in the Ukio system of the Abrion sector and the homeworld of the Ukians. It serves as one of the top producers of foodstuffs for the Core Worlds. Ukio is located within a star system of the same name in the Abrion sector of the Outer Rim Territories region of the galaxy. It is situated on the Manda Merchant Route, a hyperlane that connected it to Rishi and Molavar. Ukio itself is a large, terrestrial planet with gentle winds, calm weather, and a mild climate, which features virtually no seasonal variation due to the world's slow rotation and low axial tilt. It has a breathable atmosphere and light gravity. Ukio's land consists of three major continents cut through by hundreds of rivers. An Ukian day lasts 22 standard hours and an Ukian year lasted 357 local days.`
-	spaceport `	Ukio is one of the best-known and most efficient agricultural planets in its sector, featuring a growing season which lasted most of its year and ideal conditions for the production of grain and other foodstuffs. Ukio's surface, originally dominated by rolling hills and wild grasses, has been almost entirely given over to food production, but still contains ample fallow land for future expansion of the industry. Hundreds of rivers provide natural irrigation, which has been expanded through the use of technology which harnesses and diverts them. Ukian farmland is carefully cultivated and painstakingly maintained for maximum output, and crop rotation is required by law to prevent the destruction of arable land. The world is governed by the Overliege, a hereditary monarch, and is defended by planetary shields, which were operated by the Ukian Defense Service.`
+	spaceport `	Ukio is one of the best-known and most efficient agricultural planets in its sector, featuring a growing season which lasted most of its year and ideal conditions for the production of grain and other foodstuffs. Ukio's surface, originally dominated by rolling hills and wild grasses, has been almost entirely given over to food production, but still contains ample fallow land for future expansion of the industry. Hundreds of rivers provide natural irrigation, which has been expanded through the use of technology which harnesses and diverts them. Ukian farmland is carefully cultivated and painstakingly maintained for maximum output, and crop rotation is required by law to prevent the destruction of arable land. The world is governed by the Overliege, a hereditary monarch, and is defended by planetary shields, which were operated by the Ukian defence Service.`
 	shipyard "Rebel Alliance Ships"
 	shipyard "Imperial Navy Ships"
 	shipyard "Miscellaneous Ships"
@@ -37976,6 +36600,8 @@ planet "Vulpter"
 	description `Vulpter is the homeworld of the sentient Vulptereen species. Originally an unspoiled world with a wide array of flora and fauna, Vulpter was transformed over the millennia into a massively polluted globe covered in waste and factories. The planet is now unable to sustain itself in terms of agriculture, and is thus entirely reliant on importing foodstuffs from other worlds. `
 	spaceport `	Vulpter was a noted producer of starships, and was home to one of the galaxy's largest podracer factories. Several corporations, such as Viper Sensor Intelligence Systems and Arakyd Industries, operated facilities on the planet.`
 	spaceport `	Following the establishment of the Galactic Empire, Vulpter is now blockaded and cut off from all interplanetary trade, that has led to widespread famine on the planet.`
+	shipyard "Rebel Alliance Ships"
+	shipyard "Miscellaneous Ships"
 
 planet "Vurdon Ka"
 	landscape land/unknown
@@ -37999,6 +36625,14 @@ planet "Wellspring of Life"
 	landscape land/wellspringoflife
 	music ambient/hangar
 	description `The Wellspring of Life, also known simply as the Force planet, was one of many such nexuses of power that manifested in the depths of the galaxy. The Wellspring was powerful in the light side of the Force and were speculated to be the source of all life. It was not marked on any star map and had no official name. The planet was surrounded by a bright nebula. Upon reaching the surface, it appeared barren, save for luminescent geysers that shot out energy from inside the planet. Below the surface were floating islands, covered in plant life and immersed in the Force.`
+
+planet "Wobani"
+	attributes agffa_galacticempire agffa_midrim agffa_prison
+	landscape land/wobani
+	music ambient/hangar
+	description `Wobani is a temperate planet partially hidden by a swirling dust cloud, located in the Wobani system, in the Bryx sector of the galaxy's Mid Rim. The planet is used by the Galactic Empire as a site for labour and prison camps.`
+	spaceport `	Wobani is a temperate planet partially hidden by a swirling dust cloud, located in the Wobani system, in the Bryx sector of the galaxy's Mid Rim. The planet is used by the Galactic Empire as a site for labour and prison camps.`
+
 
 planet "Yabol Opa"
 	landscape land/unknown

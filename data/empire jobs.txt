@@ -94,7 +94,7 @@ mission "Rebel Alliance Attack"
 	npc kill
 		personality heroic staying vindictive unconstrained target
 		government "Rebel Alliance"
-		fleet "rebeldefensefleet" 2
+		fleet "rebeldefencefleet" 2
 	npc
 		personality heroic staying
 		government "Galactic Empire"

@@ -19,7 +19,7 @@ ship "Dreadnaught Heavy Cruiser" "Dreadnaught Heavy Cruiser (Katana)"
 		"C5 Coolant System"
 		"B5 Sublight Engine"
 		"H5 Hyperspace Motivator"
-		"SC5 Slave Circuit"
+		"SC5 Slave Circuit" 20
 		"Hive Virus Remains"
 
 outfit "Hive Virus Remains"
@@ -28,7 +28,7 @@ outfit "Hive Virus Remains"
 	thumbnail "outfit/biohazard"
 	"mass" 0
 	"outfit space" 0
-	"bunks" -23000
+	"bunks" -1000
 	description "Hive viruses are highly contagious viruses, prior to the Clone Wars being fairly common. They are characterised by a dormancy period followed by mass activation, mediated by unknown means. One of the most virulent strains of hive virus attacks the mental centres of the brain, altering perceptions. Infected individuals are driven mad in a relatively short span of time. After the Clone Wars, medical technology flourished, and this type of virus was virtually wiped out from the galaxy."
 
 fleet "Katana Fleet"

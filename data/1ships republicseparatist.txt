@@ -16,8 +16,8 @@ ship "Bulwark Mark I Battleship"
 		"cost" 58500000
 		"shields" 159000
 		"hull" 54500
-		"required crew" 7200
-		"bunks" 30000
+		"required crew" 820
+		"bunks" 1770
 		"mass" 21500
 		"drag" 47.6
 		"heat dissipation" .45
@@ -26,6 +26,7 @@ ship "Bulwark Mark I Battleship"
 		"outfit space" 2388
 		"weapon capacity" 1680
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -107,8 +108,8 @@ ship "Bulwark Mark II Battleship"
 		"cost" 203000000
 		"shields" 257500
 		"hull" 66000
-		"required crew" 1500
-		"bunks" 50000
+		"required crew" 1550
+		"bunks" 1980
 		"mass" 31000
 		"drag" 53.0
 		"heat dissipation" .45
@@ -117,6 +118,7 @@ ship "Bulwark Mark II Battleship"
 		"outfit space" 2448
 		"weapon capacity" 1690
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -211,7 +213,7 @@ ship "C-9979 Landing Craft"
 		"cost" 19500000
 		"shields" 64000
 		"hull" 28000
-		"required crew" 2
+		"required crew" 88
 		"bunks" 140
 		"mass" 9360
 		"drag" 30.6
@@ -349,7 +351,7 @@ ship "Captor Heavy Munitions Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Captor heavy munitions cruiser, also known as the Trade Federation heavy munitions cruiser, is a type of commercial freighter-warship that was formerly used by the Trade Federation to transport bacta to buyers throughout the galaxy around 44 BBY. Although built as dedicated warships for the corporation's Trade Defense arm, they are much smaller and less powerful than the Lucrehulk. Like many of the Trade Federation's ships, a heavy munitions cruiser depends heavily on automated systems."
+	description "The Captor heavy munitions cruiser, also known as the Trade Federation heavy munitions cruiser, is a type of commercial freighter-warship that was formerly used by the Trade Federation to transport bacta to buyers throughout the galaxy around 44 BBY. Although built as dedicated warships for the corporation's Trade Defence arm, they are much smaller and less powerful than the Lucrehulk. Like many of the Trade Federation's ships, a heavy munitions cruiser depends heavily on automated systems."
 	description "Artwork/model from Picaro Star Shipyards"
 
 
@@ -362,7 +364,7 @@ ship "Diamond Cruiser"
 		"cost" 16300000
 		"shields" 52000
 		"hull" 22500
-		"required crew" 148
+		"required crew" 74
 		"bunks" 200
 		"mass" 8100
 		"drag" 22.86
@@ -597,6 +599,104 @@ ship "Droid Tri-Fighter (Fighter)" "Droid Tri-Fighter (Yellow) (Fighter)"
 
 
 
+ship "Ginivex Starfighter"
+	sprite "ship/ginivexstarfighter"
+	thumbnail "thumbnail/ginivexstarfighter"
+	attributes
+		category Interceptor
+		"absolute threshold" 20
+		"cost" 180000
+		"shields" 1680
+		"hull" 1680
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.99
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"R1 Laser Cannon" 4
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	gun 0 -27 "R1 Laser Cannon"
+	gun 0 -27 "R1 Laser Cannon"
+	gun 0 -27 "R1 Laser Cannon"
+	gun 0 -27 "R1 Laser Cannon"
+	explode "large explosion" 3
+	description "The Ginivex starfighters, more commonly known as Fanblade starfighters, were starfighters constructed by the Geonosian Huppla Pasa Tisc Shipwrights Collective for Separatist agent Asajj Ventress and her cohorts on Rattatak. They resembled aggressive Geonosian air patrol skimmers and as a result, the Ginivex starfighters were informally dubbed 'Fanblades' for their most distinctive feature. Very few have been constructed."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Ginivex Starfighter (Fighter)"
+	sprite "ship/ginivexstarfighter"
+	thumbnail "thumbnail/ginivexstarfighter"
+	attributes
+		category Fighter
+		"absolute threshold" 20
+		"cost" 180000
+		"shields" 1680
+		"hull" 1680
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 0.99
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 45
+			"shield damage" 340
+			"hull damage" 180
+			"hit force" 470
+	outfits
+		"R1 Laser Cannon" 4
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	gun 0 -27 "R1 Laser Cannon"
+	gun 0 -27 "R1 Laser Cannon"
+	gun 0 -27 "R1 Laser Cannon"
+	gun 0 -27 "R1 Laser Cannon"
+	explode "large explosion" 3
+	description "The Ginivex starfighters, more commonly known as Fanblade starfighters, were starfighters constructed by the Geonosian Huppla Pasa Tisc Shipwrights Collective for Separatist agent Asajj Ventress and her cohorts on Rattatak. They resembled aggressive Geonosian air patrol skimmers and as a result, the Ginivex starfighters were informally dubbed 'Fanblades' for their most distinctive feature. Very few have been constructed."
+	description "Artwork/model by Unusualsuspex"
+
+
+
 ship "Mankvim-418 Interceptor"
 	sprite "ship/mankvim814interceptor"
 	thumbnail "thumbnail/mankvim814interceptor"
@@ -701,11 +801,11 @@ ship "Umbaran Starfighter"
 		"required crew" 1
 		bunks 1
 		mass 26
-		drag 1
+		drag 1.24
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 14
+		"outfit space" 15
 		"weapon capacity" 3
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -752,11 +852,11 @@ ship "Umbaran Starfighter (Fighter)"
 		"required crew" 1
 		bunks 1
 		mass 26
-		drag 1
+		drag 1.24
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 14
+		"outfit space" 15
 		"weapon capacity" 3
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -891,7 +991,7 @@ ship "Nantex Territorial Defence Starfighter"
 		"required crew" 1
 		bunks 1
 		mass 21
-		drag 0.95
+		drag 0.86
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 12
@@ -933,7 +1033,7 @@ ship "Nantex Territorial Defence Starfighter (Fighter)"
 		"required crew" 1
 		bunks 1
 		mass 21
-		drag 0.95
+		drag 0.86
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"outfit space" 12
@@ -976,11 +1076,11 @@ ship "Hyena Bomber"
 		"required crew" 0
 		bunks 0
 		mass 30
-		drag 1
+		drag 1.27
 		"heat dissipation" 0.9
 		"fuel capacity" 0
 		"outfit space" 16
-		"weapon capacity" 7
+		"weapon capacity" 6
 		"engine capacity" 5
 		"hullslot capacity" 1
 		weapon
@@ -1027,11 +1127,11 @@ ship "Hyena Bomber (Fighter)"
 		"required crew" 0
 		bunks 0
 		mass 30
-		drag 1
+		drag 1.27
 		"heat dissipation" 0.9
 		"fuel capacity" 0
 		"outfit space" 16
-		"weapon capacity" 7
+		"weapon capacity" 6
 		"engine capacity" 5
 		"hullslot capacity" 1
 		weapon
@@ -1076,7 +1176,7 @@ ship "Maxillipede Transport Shuttle"
 		"required crew" 1
 		"bunks" 3
 		"mass" 32
-		"drag" 1.2
+		"drag" 1.8
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
@@ -1129,7 +1229,7 @@ ship "Mechanised Assault Flyer"
 		"required crew" 0
 		"bunks" 3
 		"mass" 40
-		"drag" 1.4
+		"drag" 2.16
 		"heat dissipation" .7
 		"fuel capacity" 0
 		"cargo space" 5
@@ -1181,13 +1281,13 @@ ship "Gozanti Cruiser" "Gozanti Cruiser (CIS)"
 		"required crew" 5
 		"bunks" 35
 		"mass" 408
-		"drag" 3.84
+		"drag" 6.81
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 80
+		"cargo space" 150
 		"outfit space" 75
 		"weapon capacity" 9
-		"engine capacity" 20
+		"engine capacity" 22
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -1195,7 +1295,7 @@ ship "Gozanti Cruiser" "Gozanti Cruiser (CIS)"
 			"hit force" 750
 	outfits
 		"R2Dual Laser Turret"
-		"R2 Heavy Laser Turret"
+		"R2Heavy Laser Turret"
 		
 		"P2 Power Converter"
 		"D2 Deflector Shield"
@@ -1206,7 +1306,7 @@ ship "Gozanti Cruiser" "Gozanti Cruiser (CIS)"
 	
 	engine -25 45
 	engine 25 45
-	turret 0 4 "R2 Heavy Laser Turret"
+	turret 0 4 "R2Heavy Laser Turret"
 	turret 0 4 "R2Dual Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -1229,13 +1329,13 @@ ship "Gozanti Cruiser (Carrier)" "Gozanti Cruiser (Carrier) (CIS)"
 		"required crew" 5
 		"bunks" 35
 		"mass" 408
-		"drag" 3.84
+		"drag" 6.81
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 10
+		"cargo space" 60
 		"outfit space" 75
 		"weapon capacity" 9
-		"engine capacity" 20
+		"engine capacity" 22
 		weapon
 			"blast radius" 290
 			"shield damage" 680
@@ -1243,7 +1343,7 @@ ship "Gozanti Cruiser (Carrier)" "Gozanti Cruiser (Carrier) (CIS)"
 			"hit force" 750
 	outfits
 		"R2Dual Laser Turret"
-		"R2 Heavy Laser Turret"
+		"R2Heavy Laser Turret"
 		
 		"P2 Power Converter"
 		"D2 Deflector Shield"
@@ -1254,7 +1354,7 @@ ship "Gozanti Cruiser (Carrier)" "Gozanti Cruiser (Carrier) (CIS)"
 	
 	engine -25 45
 	engine 25 45
-	turret 0 4 "R2 Heavy Laser Turret"
+	turret 0 4 "R2Heavy Laser Turret"
 	turret 0 4 "R2Dual Laser Turret"
 	fighter -18 -2.5
 	fighter 18 -2.5
@@ -1281,7 +1381,7 @@ ship "Geonosian Corvette"
 		"required crew" 60
 		"bunks" 150
 		"mass" 2010
-		"drag" 7.95
+		"drag" 10.1
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 10
@@ -1294,7 +1394,7 @@ ship "Geonosian Corvette"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"R3 Turbolaser Turret" 8
+		"R2Dual Laser Turret" 8
 		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack" 2
 		"Concussion Missile" 16
@@ -1309,14 +1409,14 @@ ship "Geonosian Corvette"
 	engine 0 240.5
 	gun -8.5 -205.5 "Concussion Missile Launcher"
 	gun 8.5 -205.5 "Concussion Missile Launcher"
-	turret -24 173 "R3 Turbolaser Turret"
-	turret 24 173 "R3 Turbolaser Turret"
-	turret -19.5 76.5 "R3 Turbolaser Turret"
-	turret 19.5 76.5 "R3 Turbolaser Turret"
-	turret -14.5 -10 "R3 Turbolaser Turret"
-	turret 14.5 -10 "R3 Turbolaser Turret"
-	turret -11.5 -122 "R3 Turbolaser Turret"
-	turret 11.5 -122 "R3 Turbolaser Turret"
+	turret -24 173 "R2Dual Laser Turret"
+	turret 24 173 "R2Dual Laser Turret"
+	turret -19.5 76.5 "R2Dual Laser Turret"
+	turret 19.5 76.5 "R2Dual Laser Turret"
+	turret -14.5 -10 "R2Dual Laser Turret"
+	turret 14.5 -10 "R2Dual Laser Turret"
+	turret -11.5 -122 "R2Dual Laser Turret"
+	turret 11.5 -122 "R2Dual Laser Turret"
 	fighter 0 110.5
 	fighter 0 110.5
 	fighter 0 110.5
@@ -1339,13 +1439,13 @@ ship "Hardcell Interstellar Transport"
 		"cost" 17500000
 		"shields" 36300
 		"hull" 12800
-		"required crew" 190
-		"bunks" 1207
+		"required crew" 333
+		"bunks" 1080
 		"mass" 2700
-		"drag" 8.25
+		"drag" 22.2
 		"heat dissipation" .45
 		"fuel capacity" 1000
-		"cargo space" 480
+		"cargo space" 1100
 		"outfit space" 172
 		"weapon capacity" 8
 		"engine capacity" 88
@@ -1355,7 +1455,7 @@ ship "Hardcell Interstellar Transport"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"R2 Heavy Laser Turret" 2
+		"R2Heavy Laser Turret" 2
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
@@ -1368,8 +1468,8 @@ ship "Hardcell Interstellar Transport"
 	engine 100.5 286
 	engine -73 286
 	engine 73 286
-	turret 0 176 "R2 Heavy Laser Turret"
-	turret 0 -58.5 "R2 Heavy Laser Turret"
+	turret 0 176 "R2Heavy Laser Turret"
+	turret 0 -58.5 "R2Heavy Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1393,11 +1493,11 @@ ship "HMP Droid Gunship"
 		"required crew" 0
 		"bunks" 0
 		"mass" 40
-		"drag" 1.1
+		"drag" 1.8
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 32
-		"outfit space" 20
+		"cargo space" 3
+		"outfit space" 19
 		"weapon capacity" 8
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -1445,8 +1545,8 @@ ship "Hoersch-Kessel Drive Core Ship"
 		"cost" 200000000
 		"shields" 250000
 		"hull" 65000
-		"required crew" 300
-		"bunks" 80000
+		"required crew" 500
+		"bunks" 1970
 		"mass" 30000
 		"drag" 52.0
 		"heat dissipation" .3
@@ -1492,8 +1592,8 @@ ship "Munificent Star Frigate"
 		"cost" 43500000
 		"shields" 119000
 		"hull" 44700
-		"required crew" 200
-		"bunks" 6000
+		"required crew" 560
+		"bunks" 1640
 		"mass" 17740
 		"drag" 47.4
 		"heat dissipation" .45
@@ -1502,6 +1602,7 @@ ship "Munificent Star Frigate"
 		"outfit space" 1798
 		"weapon capacity" 1040
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1587,8 +1688,8 @@ ship "Recusant Light Destroyer"
 		"cost" 54500000
 		"shields" 131000
 		"hull" 46000
-		"required crew" 200
-		"bunks" 6000
+		"required crew" 660
+		"bunks" 1690
 		"mass" 18600
 		"drag" 48.0
 		"heat dissipation" .45
@@ -1597,6 +1698,7 @@ ship "Recusant Light Destroyer"
 		"outfit space" 1868
 		"weapon capacity" 1110
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1687,8 +1789,8 @@ ship "Recusant Light Destroyer (Dreadnought)"
 		"cost" 410000000
 		"shields" 390000
 		"hull" 100000
-		"required crew" 1600
-		"bunks" 62000
+		"required crew" 1740
+		"bunks" 2190
 		"mass" 35500
 		"drag" 57.4
 		"heat dissipation" .45
@@ -1697,6 +1799,7 @@ ship "Recusant Light Destroyer (Dreadnought)"
 		"outfit space" 2658
 		"weapon capacity" 1880
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1819,8 +1922,8 @@ ship "Providence Cruiser (Dreadnought)"
 		"cost" 400585000
 		"shields" 380000
 		"hull" 100000
-		"required crew" 1100
-		"bunks" 60000
+		"required crew" 1680
+		"bunks" 2010
 		"mass" 35000
 		"drag" 57
 		"heat dissipation" .45
@@ -1829,6 +1932,7 @@ ship "Providence Cruiser (Dreadnought)"
 		"outfit space" 2708
 		"weapon capacity" 1930
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -2010,8 +2114,8 @@ ship "Providence Cruiser (Stock)"
 		"cost" 125000000
 		"shields" 210000
 		"hull" 62000
-		"required crew" 900
-		"bunks" 47000
+		"required crew" 1400
+		"bunks" 1910
 		"mass" 29000
 		"drag" 51.0
 		"heat dissipation" .45
@@ -2020,6 +2124,7 @@ ship "Providence Cruiser (Stock)"
 		"outfit space" 2308
 		"weapon capacity" 1550
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -2186,8 +2291,8 @@ ship "Subjugator Heavy Cruiser"
 		"cost" 875500000
 		"shields" 1300000
 		"hull" 440000
-		"required crew" 1400
-		"bunks" 70000
+		"required crew" 1880
+		"bunks" 2350
 		"mass" 32500
 		"drag" 70.0
 		"heat dissipation" .45
@@ -2196,6 +2301,7 @@ ship "Subjugator Heavy Cruiser"
 		"outfit space" 2988
 		"weapon capacity" 2210
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -2327,8 +2433,8 @@ ship "Lucrehulk Battleship"
 		"cost" 500000000
 		"shields" 600000
 		"hull" 150000
-		"required crew" 350
-		"bunks" 100000
+		"required crew" 1840
+		"bunks" 2280
 		"mass" 50000
 		"drag" 60
 		"heat dissipation" .3
@@ -2337,6 +2443,7 @@ ship "Lucrehulk Battleship"
 		"outfit space" 2888
 		"weapon capacity" 2130
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -3203,7 +3310,7 @@ ship "Eta Shuttle"
 		"required crew" 2
 		"bunks" 10
 		"mass" 35
-		"drag" 1.2
+		"drag" 1.96
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
@@ -3256,10 +3363,10 @@ ship "Consular Cruiser (Aurek)"
 		"required crew" 9
 		"bunks" 20
 		"mass" 1410
-		"drag" 7.5
+		"drag" 13.88
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 40
+		"cargo space" 110
 		"outfit space" 246
 		"weapon capacity" 94
 		"engine capacity" 88
@@ -3270,7 +3377,7 @@ ship "Consular Cruiser (Aurek)"
 			"hit force" 800
 	outfits
 		"B2 Laser Cannon" 2
-		"B3 Turbolaser Turret" 4
+		"B2Heavy Laser Turret" 4
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
@@ -3284,10 +3391,10 @@ ship "Consular Cruiser (Aurek)"
 	engine 0 189
 	gun -9 -178 "B2 Laser Cannon"
 	gun 9 -178 "B2 Laser Cannon"
-	turret -19 -19 "B3 Turbolaser Turret"
-	turret 19 -19 "B3 Turbolaser Turret"
-	turret -7.5 -179.5 "B3 Turbolaser Turret"
-	turret 7.5 -179.5 "B3 Turbolaser Turret"
+	turret -19 -19 "B2Heavy Laser Turret"
+	turret 19 -19 "B2Heavy Laser Turret"
+	turret -7.5 -179.5 "B2Heavy Laser Turret"
+	turret 7.5 -179.5 "B2Heavy Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3309,10 +3416,10 @@ ship "Consular Cruiser (Besh)"
 		"required crew" 9
 		"bunks" 20
 		"mass" 1410
-		"drag" 7.5
+		"drag" 13.88
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 40
+		"cargo space" 110
 		"outfit space" 246
 		"weapon capacity" 94
 		"engine capacity" 88
@@ -3323,7 +3430,7 @@ ship "Consular Cruiser (Besh)"
 			"hit force" 800
 	outfits
 		"B2 Laser Cannon" 2
-		"B3 Turbolaser Turret" 4
+		"B2Heavy Laser Turret" 4
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
@@ -3337,10 +3444,10 @@ ship "Consular Cruiser (Besh)"
 	engine 67 189
 	gun -10.5 -158.5 "B2 Laser Cannon"
 	gun 10.5 -158.5 "B2 Laser Cannon"
-	turret 0 1.5 "B3 Turbolaser Turret"
-	turret 0 -63.5 "B3 Turbolaser Turret"
-	turret -6.5 -163 "B3 Turbolaser Turret"
-	turret 6.5 -163 "B3 Turbolaser Turret"
+	turret 0 1.5 "B2Heavy Laser Turret"
+	turret 0 -63.5 "B2Heavy Laser Turret"
+	turret -6.5 -163 "B2Heavy Laser Turret"
+	turret 6.5 -163 "B2Heavy Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3362,10 +3469,10 @@ ship "Consular Cruiser (Cresh)"
 		"required crew" 9
 		"bunks" 40
 		"mass" 1410
-		"drag" 7.5
+		"drag" 13.88
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 200
+		"cargo space" 110
 		"outfit space" 246
 		"weapon capacity" 94
 		"engine capacity" 88
@@ -3376,7 +3483,7 @@ ship "Consular Cruiser (Cresh)"
 			"hit force" 800
 	outfits
 		"B2 Laser Cannon" 2
-		"B3 Turbolaser Turret" 4
+		"B2Heavy Laser Turret" 4
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
@@ -3390,10 +3497,10 @@ ship "Consular Cruiser (Cresh)"
 	engine 71 190
 	gun -15 -172 "B2 Laser Cannon"
 	gun 15 -172 "B2 Laser Cannon"
-	turret -26.5 -39.5 "B3 Turbolaser Turret"
-	turret 26.5 -39.5 "B3 Turbolaser Turret"
-	turret -14 -183.5 "B3 Turbolaser Turret"
-	turret 14 -183.5 "B3 Turbolaser Turret"
+	turret -26.5 -39.5 "B2Heavy Laser Turret"
+	turret 26.5 -39.5 "B2Heavy Laser Turret"
+	turret -14 -183.5 "B2Heavy Laser Turret"
+	turret 14 -183.5 "B2Heavy Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3415,13 +3522,13 @@ ship "CR25 Carrier"
 		"required crew" 9
 		"bunks" 20
 		"mass" 636
-		"drag" 4.8
+		"drag" 6.29
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 300
+		"cargo space" 180
 		"outfit space" 72
 		"weapon capacity" 6
-		"engine capacity" 20
+		"engine capacity" 22
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -3464,8 +3571,8 @@ ship "Acclamator Assault Ship"
 		"cost" 53650000
 		"shields" 128000
 		"hull" 45800
-		"required crew" 700
-		"bunks" 16700
+		"required crew" 640
+		"bunks" 1680
 		"mass" 18000
 		"drag" 47.6
 		"heat dissipation" .45
@@ -3490,32 +3597,32 @@ ship "Acclamator Assault Ship"
 		"B5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 		
-	engine -163 523
-	engine 158 522
-	engine -85 700
-	engine 79 701
-	turret -189 373 "B4Dual Turbolaser Turret"
-	turret 179 372 "B4Dual Turbolaser Turret"
-	turret -186 308 "B4Dual Turbolaser Turret"
-	turret 179 306 "B4Dual Turbolaser Turret"
-	turret -187 166 "B4Dual Turbolaser Turret"
-	turret 180 163 "B4Dual Turbolaser Turret"
-	turret -336 369 "B3 Turbolaser Turret"
-	turret 330 368 "B3 Turbolaser Turret"
-	turret -329 182 "B3 Turbolaser Turret"
-	turret 324 185 "B3 Turbolaser Turret"
-	turret -326 111 "B3 Turbolaser Turret"
-	turret 321 110 "B3 Turbolaser Turret"
-	turret -288 -44 "B3 Turbolaser Turret"
-	turret 282 -45 "B3 Turbolaser Turret"
-	turret -240 -117 "B4Dual Turbolaser Turret"
-	turret 240 -117 "B4Dual Turbolaser Turret"
-	turret -208 -290 "B3 Turbolaser Turret"
-	turret 203 -290 "B3 Turbolaser Turret"
+	engine -167 468
+	engine 167 468
+	engine -80 678.5
+	engine 80 678.5
+	turret -117 -654 "B3 Turbolaser Turret"
+	turret 111 -654 "B3 Turbolaser Turret"
 	turret -124.5 -538 "B4Dual Turbolaser Turret"
 	turret 124.5 -538 "B4Dual Turbolaser Turret"
-	turret -117 -654 "B3 Turbolaser Turret"
-	turret 111 -655 "B3 Turbolaser Turret"
+	turret -208 -290 "B3 Turbolaser Turret"
+	turret 208 -290 "B3 Turbolaser Turret"
+	turret -240 -117 "B4Dual Turbolaser Turret"
+	turret 240 -117 "B4Dual Turbolaser Turret"
+	turret -288 -44 "B3 Turbolaser Turret"
+	turret 288 -44 "B3 Turbolaser Turret"
+	turret -326 111 "B3 Turbolaser Turret"
+	turret 326 111 "B3 Turbolaser Turret"
+	turret -187 166 "B4Dual Turbolaser Turret"
+	turret 187 166 "B4Dual Turbolaser Turret"
+	turret -329 182 "B3 Turbolaser Turret"
+	turret 329 182 "B3 Turbolaser Turret"
+	turret -186 308 "B4Dual Turbolaser Turret"
+	turret 186 308 "B4Dual Turbolaser Turret"
+	turret -336 369 "B3 Turbolaser Turret"
+	turret 336 369 "B3 Turbolaser Turret"
+	turret -189 373 "B4Dual Turbolaser Turret"
+	turret 189 373 "B4Dual Turbolaser Turret"
 	fighter 0 0
 	fighter 0 0
 	fighter 0 0
@@ -3561,10 +3668,10 @@ ship "JumpMaster 5000 Long Range Scout"
 		"required crew" 1
 		"bunks" 2
 		"mass" 32
-		"drag" 1.2
+		"drag" 1.18
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 5
+		"cargo space" 10
 		"outfit space" 21
 		"weapon capacity" 7
 		"engine capacity" 5
@@ -3612,13 +3719,13 @@ ship "Pelta Frigate"
 		"cost" 9000000
 		"shields" 37500
 		"hull" 15400
-		"required crew" 900
-		"bunks" 1500
+		"required crew" 355
+		"bunks" 1150
 		"mass" 4896
-		"drag" 13.09
+		"drag" 27.74
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 500
+		"cargo space" 1300
 		"outfit space" 366
 		"weapon capacity" 40
 		"engine capacity" 210
@@ -3658,8 +3765,8 @@ ship "Venator Star Destroyer"
 		"cost" 59000000
 		"shields" 160000
 		"hull" 55000
-		"required crew" 9300
-		"bunks" 47000
+		"required crew" 840
+		"bunks" 1780
 		"mass" 22000
 		"drag" 48.0
 		"heat dissipation" .45
@@ -3668,6 +3775,7 @@ ship "Venator Star Destroyer"
 		"outfit space" 1608
 		"weapon capacity" 850
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -3798,7 +3906,7 @@ ship "LAAT/c Gunship"
 		"required crew" 1
 		"bunks" 2
 		"mass" 42
-		"drag" 1.2
+		"drag" 2.16
 		"heat dissipation" .7
 		"fuel capacity" 0
 		"cargo space" 5
@@ -3849,12 +3957,12 @@ ship "LAAT/i Gunship"
 		"required crew" 1
 		"bunks" 3
 		"mass" 40
-		"drag" 1.4
+		"drag" 2.16
 		"heat dissipation" .7
 		"fuel capacity" 0
 		"cargo space" 5
-		"outfit space" 20
-		"weapon capacity" 8
+		"outfit space" 19
+		"weapon capacity" 7
 		"engine capacity" 5
 		weapon
 			"blast radius" 45
@@ -3863,7 +3971,6 @@ ship "LAAT/i Gunship"
 			"hit force" 490
 	outfits
 		"R1 Laser Cannon" 2
-		"R1 Laser Turret"
 		"G1 Beam Turret" 2
 		"Concussion Missile" 14
 		"Concussion Missile Storage Rack"
@@ -3904,7 +4011,7 @@ ship "Nimbus V-wing Starfighter"
 		"required crew" 1
 		"bunks" 1
 		"mass" 19
-		"drag" 0.9
+		"drag" 1.08
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0
@@ -3959,7 +4066,7 @@ ship "Nimbus V-wing Starfighter (Fighter)"
 		"required crew" 1
 		"bunks" 1
 		"mass" 19
-		"drag" 0.7
+		"drag" 1.08
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 0

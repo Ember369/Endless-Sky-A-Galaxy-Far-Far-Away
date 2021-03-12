@@ -37,13 +37,124 @@ mission "Lead an Alliance Assault on Salliche"
 		personality escort heroic disables
 		government "Rebel Alliance"
 		system "N'zoth"
-		fleet "rebeldefensefleet" 3
+		fleet "rebeldefencefleet" 3
+		dialog "Your fleet has been destroyed."
+	on complete
+		payment 250000
+		dialog "Mission complete."
+
+mission "Destroy the Eclipse II"
+	name "Destroy the Eclipse II"
+	description "The Eclipse II in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment."
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		system "N'zoth"
+	destination
+		system "Salliche"
+	clearance
+	npc kill
+		personality heroic staying vindictive unconstrained target
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 30
+				"Eclipse Star Dreadnought II"
+				"TIE/LN Fighter (Fighter)" 80
+		dialog "The Eclipse II has been cleared. Hail the Imperial planet in this system and demand authorities to denounce Imperial control."
+	npc
+		personality escort heroic disables
+		government "Rebel Alliance"
+		system "N'zoth"
+		fleet "rebeldefencefleet" 3
 		dialog "Your fleet has been destroyed."
 	on complete
 		payment 250000
 		dialog "Mission complete."
 
 
+mission "Mine"
+	name "Mine"
+	description "BLAH"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		system "N'zoth"
+	destination
+		system "N'zoth"
+	waypoint "Salliche"
+	npc kill
+		government "Galactic Empire"
+		personality heroic vindictive staying
+		system Salliche
+		ship "Mine Type A" "Mine"
+		ship "Mine Type A" "Mine"
+		ship "Mine Type A" "Mine"
+		ship "Mine Type A" "Mine"
+		ship "Mine Type A" "Mine"
+		ship "Mine Type A" "Mine"
+		ship "Mine Type A" "Mine"
+		dialog "The gun emplacements have been destroyed!"
+	on complete
+		payment 500000
+		dialog "The Rebel Alliance gratefully pays you 500,000 credits for eliminating the tie fighters."
+
+mission "Intercept the Convoy (Random, Escorted)"
+	name "Intercept the Convoy (Random, Escorted)"
+	description "BLAH"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		system "N'zoth"
+	destination
+		system "N'zoth"
+	waypoint "Salliche"
+	npc kill
+		personality heroic staying vindictive unconstrained target
+			confusion 90
+		government "Galactic Empire"
+		system Salliche
+		fleet civilianheavycargofreighter 2
+		dialog "The cargo freighters have been destroyed! Let's get out of here!"
+	npc
+		personality heroic staying vindictive unconstrained
+			confusion 90
+		government "Galactic Empire"
+		system Salliche
+		fleet imperialpatrol
+	npc
+		personality heroic entering vindictive unconstrained
+			confusion 90
+		government "Galactic Empire"
+		system Foerost
+		fleet imperialpatrol
+	npc
+		personality escort heroic disables
+		government "Rebel Alliance"
+		system "N'zoth"
+		fleet
+			variant 100
+				"T-65B X-Wing" 10
+			variant 50
+				"RZ-1 A-Wing" 10
+			variant 50
+				"RZ-1 A-Wing (R)" 10
+			variant 80
+				"R-41 Starchaser" 10
+			variant 80
+				"BTL-A4 Y-Wing" 10
+			variant 10
+				"A/SF-01 B-Wing" 10
+		dialog "Your fleet has been destroyed."
+	on complete
+		payment 500000
+		dialog "The Rebel Alliance gratefully pays you 500,000 credits for eliminating the tie fighters."
 
 mission "Intercept the Convoy (Random)"
 	name "Intercept the Convoy (Random)"
@@ -55,25 +166,124 @@ mission "Intercept the Convoy (Random)"
 	source
 		system "N'zoth"
 	destination
-		system Salliche
-	clearance
+		system "N'zoth"
+	waypoint "Salliche"
 	npc kill
 		personality heroic staying vindictive unconstrained target
 			confusion 90
 		government "Galactic Empire"
-		system destination
+		system Salliche
 		fleet civilianheavycargofreighter 2
 		dialog "The cargo freighters have been destroyed! Let's get out of here!"
 	npc
-		personality heroic staying vindictive unconstrained target
+		personality heroic staying vindictive unconstrained
 			confusion 90
 		government "Galactic Empire"
-		system destination
+		system Salliche
 		fleet imperialpatrol
-		dialog "The imperial escorts have been eliminated."
+	npc
+		personality heroic entering vindictive unconstrained
+			confusion 90
+		government "Galactic Empire"
+		system Foerost
+		fleet imperialpatrol
 	on complete
-		payment 250000
-		dialog "The Rebel Alliance gratefully pays you 550,000 credits for eliminating the tie fighters."
+		payment 500000
+		dialog "The Rebel Alliance gratefully pays you 500,000 credits for eliminating the tie fighters."
+
+
+
+mission "Escort the Convoy (Random, Escorted)"
+	name "Escort the Convoy (Random, Escorted)"
+	description "BLAH"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		system "N'zoth"
+	destination
+		system "N'zoth"
+	npc save
+		personality timid staying unconstrained
+			confusion 90
+		government "Rebel Alliance"
+		system "N'zoth"
+		fleet civilianheavycargofreighter 2
+		dialog "The cargo freighters have been destroyed! You have failed!"
+	npc kill
+		personality heroic vindictive unconstrained
+			confusion 90
+		government "Galactic Empire"
+		system Foerost
+		fleet imperialpatrol
+		dialog "The Imperial scouts have been destroyed!"
+	npc kill
+		personality heroic vindictive unconstrained
+			confusion 90
+		government "Galactic Empire"
+		system Zug
+		fleet "imperialstardestroyer"
+		dialog "The Imperial force has been destroyed!"
+	npc
+		personality escort heroic disables
+		government "Rebel Alliance"
+		system "N'zoth"
+		fleet "missionrebelescort" 2
+	on complete
+		payment 500000
+		dialog "The Rebel Alliance gratefully pays you 500,000 credits for eliminating the tie fighters."
+
+
+
+mission "Hold out until Rebel Reinforcements Arrive (Protect Capital Ship)"
+	name "Hold out until Rebel Reinforcements Arrive (Protect Capital Ship)"
+	description "BLAH"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		system "N'zoth"
+	destination
+		system "N'zoth"
+	npc
+		personality heroic disables
+			confusion 90
+		government "Rebel Alliance"
+		system "N'zoth"
+		fleet rebelcapitalship
+		dialog "The rebel capital ship has been destroyed!"
+	npc kill
+		personality heroic vindictive unconstrained
+			confusion 90
+		government "Galactic Empire"
+		system Foerost
+		fleet imperialpatrol 2
+		dialog "The Imperial scouts have been destroyed!"
+	npc kill
+		personality heroic vindictive unconstrained
+			confusion 90
+		government "Galactic Empire"
+		system Zug
+		fleet missionimperialblockade 2
+		dialog "The Imperial force has been destroyed!"
+	npc kill
+		personality heroic vindictive unconstrained
+			confusion 90
+		government "Galactic Empire"
+		system Zug
+		fleet missionimperialblockade
+		dialog "The Imperial force has been destroyed!"
+	npc save
+		personality heroic disables
+			confusion 90
+		government "Rebel Alliance"
+		system "Kalist"
+		fleet rebelcapitalship
+	on complete
+		payment 500000
+		dialog "The Rebel Alliance gratefully pays you 500,000 credits for eliminating the tie fighters."
 
 
 
@@ -96,8 +306,8 @@ mission "Destroy the Imperial Blockade"
 		fleet "missionimperialblockade"
 		dialog "The Imperial Blockade has been eliminated. Regain contact with the Rebel Alliance to receive the payment."
 	on complete
-		payment 250000
-		dialog "The Rebel Alliance gratefully pays you 550,000 credits for eliminating the Imperial Blockade."
+		payment 500000
+		dialog "The Rebel Alliance gratefully pays you 500,000 credits for eliminating the Imperial Blockade."
 
 
 
@@ -341,15 +551,15 @@ mission "Imperial Navy Attack"
 	npc
 		personality heroic staying
 		government "Rebel Alliance"
-		fleet "rebeldefensefleet" 2
+		fleet "rebeldefencefleet" 2
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Empire! We need every combat-worthy ship to join in the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Empire! We need every combat-worthy ship to join in the defences!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
 			choice
 				"	(Stay here until the fight is over.)"
 					decline
-				"	(Join the defense fleet.)"
-			"A few rebel pilots and local defense members have gathered to help repel the Imperial attack. You join them, and take off together..."
+				"	(Join the defence fleet.)"
+			"A few rebel pilots and local defence members have gathered to help repel the Imperial attack. You join them, and take off together..."
 				launch
 	on complete
 		payment 150000
@@ -529,7 +739,7 @@ mission "Rebel Cell offering Assistance"
 	npc accompany
 		government "Escort"
 		personality escort
-		fleet "rebeldefensefleet" 3
+		fleet "rebeldefencefleet"
 		dialog "Rebel Cell offering Assistance"
 	to complete
 		never
@@ -580,9 +790,9 @@ mission "(Give) Rebel Cell 1"
 	to complete
 		never
 
-mission "(Give) Rebel Cell MC75"
-	name "(Give) Rebel Cell MC75"
-	description "(Give) Rebel Cell MC75"
+mission "(Give) Rebel Cell MC75 L"
+	name "(Give) Rebel Cell MC75 L"
+	description "(Give) Rebel Cell MC75 L"
 	repeat
 	job
 	deadline 5
@@ -601,7 +811,7 @@ mission "(Give) Rebel Cell MC75"
 		give ship "CR90 Corvette (Liberator)" "Contentment"
 		give ship "DP20 Frigate (Modified)" "Gunboat"
 		give ship "Pelta Frigate (Modified)" "Pelta"
-		give ship "Sphyrna Corvette (Modified)" "Champioon"
+		give ship "Sphyrna Corvette (Modified)" "Champion"
 		give ship "Sphyrna Corvette (Modified)" "Destiny"
 		give ship "Sphyrna Corvette (Modified)" "Redoubt"
 		give ship "GR-75 Transport" "Humiliation"
@@ -696,6 +906,79 @@ mission "(Give) Rebel Cell MC75"
 		give ship "UT-60D U-Wing (Fighter)" "Blue 1"
 		give ship "UT-60D U-Wing (Fighter)" "Blue 2"
 		give ship "VCX-100 Light Freighter" "Ghost"
+		dialog "Rebel Cell"
+	source
+		government "Rebel Alliance"
+	to complete
+		never
+
+mission "(Give) Rebel Cell MC75 M"
+	name "(Give) Rebel Cell MC75 M"
+	description "(Give) Rebel Cell MC75 M"
+	repeat
+	job
+	deadline 5
+	to offer
+		random < 99
+	on offer
+		give ship "MC75 Star Cruiser" "Acuity"
+		give ship "Pelta Frigate (Modified)" "Telgorn"
+		give ship "EF76 Nebulon-B Frigate" "Resilience"
+		give ship "CR90 Corvette" "Mirth"
+		give ship "CR90 Corvette" "Freedom"
+		give ship "CR90 Corvette (Liberator)" "Contentment"
+		give ship "Sphyrna Corvette (Modified)" "Destiny"
+		give ship "Sphyrna Corvette (Modified)" "Redoubt"
+		give ship "GR-75 Transport" "Catan"
+		give ship "GR-75 Transport" "Backup"
+		give ship "GR-75 Transport" "Quilt"
+		give ship "T-65B X-Wing (Fighter)" "Red Leader"
+		give ship "T-65B X-Wing (Fighter)" "Red 2"
+		give ship "T-65B X-Wing (Fighter)" "Red 3"
+		give ship "T-65B X-Wing (Fighter)" "Red 4"
+		give ship "T-65B X-Wing (Fighter)" "Red 5"
+		give ship "T-65B X-Wing (Fighter)" "Red 6"
+		give ship "T-65B X-Wing (Fighter)" "Red 7"
+		give ship "T-65B X-Wing (Fighter)" "Red 8"
+		give ship "T-65B X-Wing (Fighter)" "Red 9"
+		give ship "T-65B X-Wing (Fighter)" "Red 10"
+		give ship "T-65B X-Wing (Fighter)" "Blue Leader"
+		give ship "T-65B X-Wing (Fighter)" "Blue 2"
+		give ship "T-65B X-Wing (Fighter)" "Blue 3"
+		give ship "T-65B X-Wing (Fighter)" "Blue 4"
+		give ship "T-65B X-Wing (Fighter)" "Blue 5"
+		give ship "T-65B X-Wing (Fighter)" "Blue 6"
+		give ship "T-65B X-Wing (Fighter)" "Blue 7"
+		give ship "T-65B X-Wing (Fighter)" "Blue 8"
+		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur Leader"
+		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 2"
+		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 3"
+		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 4"
+		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 5"
+		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 6"
+		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 7"
+		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 8"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet Leader"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 2"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 3"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 4"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 5"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 6"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 7"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 8"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 9"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 10"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 11"
+		give ship "T-65B X-Wing (Fighter)" "Scarlet 12"
+		give ship "RZ-1 A-Wing (Fighter)" "Azure Leader"
+		give ship "RZ-1 A-Wing (Fighter)" "Azure 2"
+		give ship "RZ-1 A-Wing (Fighter)" "Azure 3"
+		give ship "RZ-1 A-Wing (Fighter)" "Azure 4"
+		give ship "RZ-1 A-Wing (Fighter)" "Azure 5"
+		give ship "RZ-1 A-Wing (Fighter)" "Azure 6"
+		give ship "RZ-1 A-Wing (Fighter)" "Azure 7"
+		give ship "RZ-1 A-Wing (Fighter)" "Azure 8"
+		give ship "RZ-1 A-Wing (Fighter)" "Azure 9"
 		dialog "Rebel Cell"
 	source
 		government "Rebel Alliance"

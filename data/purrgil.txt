@@ -159,7 +159,7 @@ ship "Purrgil" "Purrgil (Corvette)"
 	description "Artwork/model from Wookieepedia"
 
 ship "Purrgil" "Purrgil (Destroyer)"
-	sprite "ship/purrgil/purrgil destroyer/purrgil"
+	sprite "ship/purrgil/purrgil fighter/purrgil"
 		"frame rate" 45
 		"random start frame"
 		rewind
@@ -287,7 +287,7 @@ ship "Purrgil" "Purrgil (Fighter)"
 	description "Artwork/model from Wookieepedia"
 
 ship "Purrgil" "Purrgil (Frigate)"
-	sprite "ship/purrgil/purrgil frigate/purrgil"
+	sprite "ship/purrgil/purrgil fighter/purrgil"
 		"frame rate" 45
 		"random start frame"
 		rewind

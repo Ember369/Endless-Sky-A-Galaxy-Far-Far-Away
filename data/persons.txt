@@ -19,7 +19,7 @@ person "Millennium Falcon"
 			"You know, sometimes I amaze even myself!"
 			"Never tell me the odds!"
 			"Let's keep a little optimism here..."
-	ship "YT-1300 Freighter (Millennium Falcon)"
+	ship "YT-1300 Light Freighter (Millennium Falcon)"
 
 person "Skylight"
 	government "Rebel Alliance"
@@ -41,10 +41,10 @@ person "Skylight"
 			"required crew" 1
 			bunks 1
 			mass 23
-			drag 0.95
+			drag 1.08
 			"heat dissipation" 0.8
 			"fuel capacity" 700
-			"outfit space" 20
+			"outfit space" 19
 			"weapon capacity" 6
 			"engine capacity" 5
 			"hullslot capacity" 1

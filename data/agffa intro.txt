@@ -17,7 +17,7 @@ mission "AGFFA [0]"
 	destination Coruscant
 	on offer
 		conversation
-			`It looks like you have AGFFA (A Galaxy Far Far Away) installed as a plugin. AGFFA is a pretty experimental plugin, and is very much unplayable at the moment (the storyline is non-existent).`
+			`It looks like you have AGFFA (A Galaxy Far Far Away) installed as a plugin. AGFFA is a pretty experimental plugin, and is very much unplayable at the moment (the storyline is non-existent). Make sure that you're using the continuous version of ES since the plugin uses upcoming features of ES that have yet to be released.`
 			`	This version of AGFFA is v0.5-alpha. Alphas are unstable, buggy, and subject to immense change, though I am slowly making progress towards a more bug-free and playable version of the plugin.`
 			scene scene/hyperspacebannerlogo
 			`	Firstly, thanks for checking out my plugin! Much appreciated!`

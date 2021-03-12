@@ -10,7 +10,7 @@
 
 outfit "Advanced Homing Missile"
 	category "Ammunition"
-	cost 100
+	cost 3500
 	thumbnail "outfit/advancedhomingmissile"
 	"mass" .01
 	"advancedhomingmissile capacity" -1
@@ -67,7 +67,7 @@ outfit "Advanced Homing Missile Launcher"
 
 outfit "Assault Concussion Missile"
 	category "Ammunition"
-	cost 500
+	cost 3000
 	thumbnail "outfit/assaultconcussionmissile"
 	"mass" .2
 	"assaultconcussionmissile capacity" -1
@@ -124,7 +124,7 @@ outfit "Assault Concussion Missile Launcher"
 
 outfit "Cluster Missile"
 	category "Ammunition"
-	cost 10
+	cost 3300
 	thumbnail "outfit/clustermissile"
 	"mass" .01
 	"cluster capacity" -1
@@ -163,7 +163,7 @@ outfit "Cluster Missile Launcher"
 		"inaccuracy" 8
 		"velocity" 4
 		"lifetime" 1
-		"reload" 60
+		"reload" 200
 		"firing energy" 25
 		"firing heat" 1
 		"acceleration" 1
@@ -194,8 +194,8 @@ outfit clustermissile
 		"homing" 2
 		"optical tracking" .5
 		"infrared tracking" .5
-		"shield damage" 250
-		"hull damage" 250
+		"shield damage" 125
+		"hull damage" 125
 		"hit force" 0
 
 outfit clustermissile1
@@ -226,7 +226,7 @@ outfit clustermissile3
 
 outfit "Advanced Concussion Missile"
 	category "Ammunition"
-	cost 150
+	cost 3000
 	thumbnail "outfit/advancedconcussionmissile"
 	"mass" .01
 	"advancedconcussion capacity" -1
@@ -265,7 +265,7 @@ outfit "Advanced Concussion Missile Launcher"
 		icon "icon/advancedconcussionmissile"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 3
+		"inaccuracy" 1
 		"velocity" 15
 		"lifetime" 100
 		"reload" 200
@@ -273,8 +273,8 @@ outfit "Advanced Concussion Missile Launcher"
 		"firing heat" 1
 		"acceleration" 0.7
 		"drag" .05
-		"shield damage" 900
-		"hull damage" 900
+		"shield damage" 650
+		"hull damage" 650
 		"hit force" 0
 		"missile strength" 18
 		phasing
@@ -285,7 +285,7 @@ outfit "Advanced Concussion Missile Launcher"
 
 outfit "Concussion Missile"
 	category "Ammunition"
-	cost 750
+	cost 2700
 	thumbnail "outfit/concussionmissile"
 	"mass" .01
 	"concussion capacity" -1
@@ -319,7 +319,7 @@ outfit "Concussion Missile Launcher"
 		icon "icon/concussionmissile"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 4
+		"inaccuracy" 2
 		"velocity" 15
 		"lifetime" 100
 		"reload" 200
@@ -327,8 +327,8 @@ outfit "Concussion Missile Launcher"
 		"firing heat" 1
 		"acceleration" 0.7
 		"drag" .05
-		"shield damage" 800
-		"hull damage" 800
+		"shield damage" 600
+		"hull damage" 600
 		"hit force" 0
 		"missile strength" 16
 		phasing
@@ -336,7 +336,7 @@ outfit "Concussion Missile Launcher"
 
 outfit "Plasma Torpedo"
 	category "Ammunition"
-	cost 100
+	cost 3500
 	thumbnail "outfit/plasmatorpedo"
 	"mass" .01
 	"plasma capacity" -1
@@ -378,16 +378,16 @@ outfit "Plasma Torpedo Launcher"
 		"firing heat" 1
 		"acceleration" .7
 		"drag" .05
-		"shield damage" 1000
+		"shield damage" 1900
 		"hull damage" 30
 		"hit force" 0
 		"missile strength" 20
 		phasing
-	description "Plasma torpedoes, also known among pilots as shieldbuster torpedo or rotten eggs, were a special type of weapon specifically configured to overwhelm a vehicle's shields. They were plasma-based and upon impact they released a burst of radiation that was designed to interfere with shields. They were considerably less effective against armor and other protection."
+	description "Plasma torpedoes, also known among pilots as shieldbuster torpedo or rotten eggs, are a special type of weapon specifically configured to overwhelm a vehicle's shields. They are plasma-based and upon impact they release a burst of radiation that is designed to interfere with shields. They are considerably less effective against armour and other protection."
 
 outfit "Ion Bomb"
 	category "Ammunition"
-	cost 200
+	cost 6000
 	thumbnail "outfit/ionbomb"
 	"mass" 1
 	"ionbomb capacity" -1
@@ -437,7 +437,7 @@ outfit "Ion Bomb Launcher"
 
 outfit "Diamond Boron Missile"
 	category "Ammunition"
-	cost 20000
+	cost 50000
 	thumbnail "outfit/diamondboronmissile"
 	"mass" 1
 	"diamondboron capacity" -1
@@ -482,9 +482,9 @@ outfit "Diamond Boron Missile Launcher"
 		"drag" .05
 		safe
 		"trigger radius" 150
-		"blast radius" 1000
-		"shield damage" 8000
-		"hull damage" 8000
+		"blast radius" 700
+		"shield damage" 3000
+		"hull damage" 3000
 		"hit force" 0
 		"missile strength" 20
 		"no damage scaling"
@@ -492,7 +492,7 @@ outfit "Diamond Boron Missile Launcher"
 
 outfit "Intruder Missile"
 	category "Ammunition"
-	cost 100
+	cost 2700
 	thumbnail "outfit/intrudermissile"
 	"mass" .01
 	"intruder capacity" -1
@@ -526,7 +526,7 @@ outfit "Intruder Missile Launcher"
 		icon "icon/intrudermissile"
 		"hit effect" "heavy rocket hit"
 		"die effect" "small explosion"
-		"inaccuracy" 4
+		"inaccuracy" 2
 		"velocity" 11
 		"lifetime" 100
 		"reload" 200
@@ -540,13 +540,13 @@ outfit "Intruder Missile Launcher"
 		"hit force" 0
 		"missile strength" 20
 		phasing
-	description "The Intruder Missile was a special type of ordinance with a very strong ionising effect used during the Galactic Civil War. The missile is armed with an ionising warhead designed specifically to overload the shield generators on capital ships, causing them to explode and destroy the rest of the ship in the process."
+	description "The Intruder Missile is a special type of ordinance with a very strong ionising effect used during the Galactic Civil War. The missile is armed with an ionising warhead designed specifically to overload the shield generators on capital ships, causing them to explode and destroy the rest of the ship in the process."
 
 
 
 outfit "Proton Torpedo"
 	category "Ammunition"
-	cost 100
+	cost 4000
 	thumbnail "outfit/protontorpedo"
 	"mass" .01
 	"protontorpedo capacity" -1
@@ -597,7 +597,7 @@ outfit "Proton Torpedo Launcher"
 
 outfit "Proton Bomb"
 	category "Ammunition"
-	cost 100
+	cost 8000
 	thumbnail "outfit/protonbomb"
 	"mass" .2
 	"protonbomb capacity" -1
@@ -684,22 +684,22 @@ outfit "Axial Superlaser"
 		sprite "projectile/axialsuperlaser"
 			"frame rate" 1
 		sound "particle"
-		"hit effect" "omnicannonhit"
+		"hit effect" "large explosion"
 		"fire effect" "axialsuperlaserTOBEFIXED"
 		icon "icon/axialsuperlaser"
 		"inaccuracy" 0
 		"turret turn" 0.3
 		"velocity" 100
-		"lifetime" 400
-		"reload" 3
-		"burst count" 400
+		"lifetime" 800
+		"reload" 5
+		"burst count" 200
 		"burst reload" 1
 		"firing energy" 50
 		"firing force" 0
 		"firing heat" 1.2
 		"hit force" 0
-		"shield damage" 100000
-		"hull damage" 100000
+		"shield damage" 5000
+		"hull damage" 5000
 	description "A superlaser is a device which merges several separate 'super laser beams' into a single exceedingly powerful beam. The largest superlasers ever designed, such as those in the Death Star and Death Star II, are superweapons capable of obliterating an entire planet with one shot at full power. There are also smaller-scale yet still immense superlasers designed for use by and against capital ships; these can destroy even the largest vessels at a single shot—and while they can not destroy a planet, they can nonetheless quickly devastate one's surface."
 
 
@@ -716,23 +716,22 @@ outfit "Axial Superlaser II"
 		sprite "projectile/axialsuperlaser"
 			"frame rate" 1
 		sound "particle"
-		"hit effect" "omnicannonhit"
+		"hit effect" "large explosion"
 		"fire effect" "axialsuperlaserTOBEFIXED"
 		icon "icon/axialsuperlaser"
 		"inaccuracy" 0
 		"turret turn" 0.3
 		"velocity" 100
-		"lifetime" 400
-		"reload" 3
-		"burst count" 400
+		"lifetime" 800
+		"reload" 5
+		"burst count" 200
 		"burst reload" 1
 		"firing energy" 50
 		"firing force" 0
 		"firing heat" 1.2
 		"hit force" 0
-		"shield damage" 100000
-		"hull damage" 100000
-		safe
+		"shield damage" 5000
+		"hull damage" 5000
 	description "A superlaser is a device which merges several separate 'super laser beams' into a single exceedingly powerful beam. The largest superlasers ever designed, such as those in the Death Star and Death Star II, are superweapons capable of obliterating an entire planet with one shot at full power. There are also smaller-scale yet still immense superlasers designed for use by and against capital ships; these can destroy even the largest vessels at a single shot—and while they can not destroy a planet, they can nonetheless quickly devastate one's surface."
 
 
@@ -823,4 +822,35 @@ outfit "Orbital Bombardment Cannon"
 		"shield damage" 10000
 		"hull damage" 10000
 		cluster
-	description "The Linked Ion/Plasma Cannon fired a large ion pulse followed by an enormous, spiraling plasma shot, a combination that disabled the shields and allowed the plasma shot to do maximum damage."
+	description "The Orbital Bombardment Particle Cannon is a model of particle cannon and mass-driver cannon that is supposedly powered by kyber crystals and considered by the Rebel Alliance to be a superweapon."
+
+outfit "Orbital Autocannon"
+	category "Secondary Weapons"
+	cost 80000
+	thumbnail "outfit/orbitalbombardmentcannon"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	weapon
+		sprite "projectile/orbitalbombardmentcannon"
+			"frame rate" 1
+		sound "particle"
+		"hit effect" "omnicannonhit"
+		icon "icon/orbitalbombardmentcannon"
+		"inaccuracy" 0
+		"turret turn" 0.3
+		"velocity" 30
+		"lifetime" 170
+		"reload" 650
+		"burst count" 4
+		"burst reload" 20
+		"firing energy" 800
+		"firing force" 0
+		"firing heat" 70
+		"hit force" 0
+		"piercing" .3
+		"shield damage" 20000
+		"hull damage" 20000
+		cluster
+	description "The orbital autocannon is a starship weapon used for large-scale bombardments. The Mandator IV-class Siege Dreadnought used by the First Order is equipped with two such cannons."

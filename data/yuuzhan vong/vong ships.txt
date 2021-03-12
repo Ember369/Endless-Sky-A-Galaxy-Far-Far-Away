@@ -19,10 +19,10 @@ ship "Chaokhinh Advance Scout Ship"
 		"required crew" 10
 		"bunks" 40
 		"mass" 1500
-		"drag" 7.5
+		"drag" 9.25
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 45
+		"cargo space" 120
 		"outfit space" 313
 		"weapon capacity" 91
 		"engine capacity" 88
@@ -69,8 +69,8 @@ ship "I'friil Suuk"
 		"cost" 18000000
 		"shields" 60000
 		"hull" 26000
-		"required crew" 810
-		"bunks" 1800
+		"required crew" 380
+		"bunks" 1360
 		"mass" 8820
 		"drag" 27
 		"heat dissipation" .45
@@ -143,8 +143,8 @@ ship "Miid ro'ik"
 		"cost" 205000000
 		"shields" 258500
 		"hull" 66500
-		"required crew" 1280
-		"bunks" 3220
+		"required crew" 1580
+		"bunks" 1990
 		"mass" 31800
 		"drag" 54.0
 		"heat dissipation" .45
@@ -153,6 +153,7 @@ ship "Miid ro'ik"
 		"outfit space" 2538
 		"weapon capacity" 1780
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100

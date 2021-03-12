@@ -244,8 +244,8 @@ ship "MC80B Star Cruiser"
 		"cost" 175000000
 		"shields" 211000
 		"hull" 63000
-		"required crew" 5800
-		"bunks" 9500
+		"required crew" 1415
+		"bunks" 1920
 		"mass" 30000
 		"drag" 52.0
 		"heat dissipation" .45
@@ -254,6 +254,7 @@ ship "MC80B Star Cruiser"
 		"outfit space" 2538
 		"weapon capacity" 1780
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 1000
@@ -359,8 +360,8 @@ ship "Starhawk Battlecruiser Mark I"
 		"cost" 430000000
 		"shields" 400000
 		"hull" 100000
-		"required crew" 33650
-		"bunks" 42000
+		"required crew" 1760
+		"bunks" 2210
 		"mass" 37000
 		"drag" 58
 		"heat dissipation" .45
@@ -369,6 +370,7 @@ ship "Starhawk Battlecruiser Mark I"
 		"outfit space" 2818
 		"weapon capacity" 2060
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -509,7 +511,7 @@ ship "Starhawk Battlecruiser Mark I"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Starhawk Battleship Mark I is a type of battleship in service with the New Republic Defense Fleet. Like all the ships constructed at the Nadiri Dockyards, they have been constructed from disassembled captured Imperial spacecraft. It is notable for being one of the first class of ships built by the New Republic, through military contract, after the Battle of Endor."
+	description "The Starhawk Battleship Mark I is a type of battleship in service with the New Republic Defence Fleet. Like all the ships constructed at the Nadiri Dockyards, they have been constructed from disassembled captured Imperial spacecraft. It is notable for being one of the first class of ships built by the New Republic, through military contract, after the Battle of Endor."
 	description "Artwork/model from Fantasy Flight Games"
 
 
@@ -522,8 +524,8 @@ ship "Starhawk Battlecruiser (Prototype)"
 		"cost" 305000000
 		"shields" 390000
 		"hull" 95000
-		"required crew" 33650
-		"bunks" 42000
+		"required crew" 1700
+		"bunks" 2120
 		"mass" 35200
 		"drag" 57.4
 		"heat dissipation" .45
@@ -532,6 +534,7 @@ ship "Starhawk Battlecruiser (Prototype)"
 		"outfit space" 2558
 		"weapon capacity" 1800
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -661,7 +664,7 @@ ship "Starhawk Battlecruiser (Prototype)"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Starhawk is the prototype of the Starhawk-class battleship line and the product of the New Republic's Project Starhawk during the Galactic Civil War. The Starhawk Battleship Prototype is a type of battleship in service with the New Republic Defense Fleet. Like all the ships constructed at the Nadiri Dockyards, they have been constructed from disassembled captured Imperial spacecraft. It is notable for being one of the first class of ships built by the New Republic, through military contract, after the Battle of Endor."
+	description "The Starhawk is the prototype of the Starhawk-class battleship line and the product of the New Republic's Project Starhawk during the Galactic Civil War. The Starhawk Battleship Prototype is a type of battleship in service with the New Republic Defence Fleet. Like all the ships constructed at the Nadiri Dockyards, they have been constructed from disassembled captured Imperial spacecraft. It is notable for being one of the first class of ships built by the New Republic, through military contract, after the Battle of Endor."
 	description "Artwork/model from Fantasy Flight Games"
 
 
@@ -674,8 +677,8 @@ ship "Viscount Star Defender"
 		"cost" 2700000000
 		"shields" 3450000
 		"hull" 1360000
-		"required crew" 68174
-		"bunks" 280674
+		"required crew" 1980
+		"bunks" 2480
 		"mass" 100000
 		"drag" 80
 		"heat dissipation" .45
@@ -684,6 +687,7 @@ ship "Viscount Star Defender"
 		"outfit space" 5162
 		"weapon capacity" 4260
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 1000

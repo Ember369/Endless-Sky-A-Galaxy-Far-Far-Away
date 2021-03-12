@@ -11,7 +11,7 @@
 outfit "B1 Jet Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 jet engine b"
+	thumbnail "outfit/engines/b1 jet engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -31,17 +31,17 @@ outfit "B1 Jet Engine"
 		"frame rate" 0.8
 	description "Gives the ship a minimal usage of boost, at a relatively low energy requirement. Great for frequent bursts of high speed."
 
-outfit "BI1 Jet Engine"
+outfit "I1 Jet Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 jet engine b"
+	thumbnail "outfit/engines/b1 jet engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/micro"
+	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 90
@@ -50,14 +50,14 @@ outfit "BI1 Jet Engine"
 	"afterburner thrust" 1.5
 	"afterburner energy" 0.1
 	"afterburner heat" .5
-	"afterburner effect" "slam engine b imp"
+	"afterburner effect" "slam engine redion"
 		"frame rate" 0.8
 	description "Gives the ship a minimal usage of boost, at a relatively low energy requirement. Great for frequent bursts of high speed."
 
 outfit "G1 Jet Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 jet engine g"
+	thumbnail "outfit/engines/g1 jet engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -80,7 +80,7 @@ outfit "G1 Jet Engine"
 outfit "O1 Jet Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 jet engine o"
+	thumbnail "outfit/engines/o1 jet engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -103,7 +103,7 @@ outfit "O1 Jet Engine"
 outfit "P1 Jet Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 jet engine p"
+	thumbnail "outfit/engines/p1 jet engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -130,7 +130,7 @@ outfit "P1 Jet Engine"
 outfit "B1 Microthrust Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 microthrust engine b"
+	thumbnail "outfit/engines/b1 microthrust engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -145,17 +145,17 @@ outfit "B1 Microthrust Engine"
 	"turning heat" 1
 	description "Your ship can reach max speed and stop quickly. Great for out-flying enemies trying to get behind you."
 
-outfit "BI1 Microthrust Engine"
+outfit "I1 Microthrust Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 microthrust engine b"
+	thumbnail "outfit/engines/b1 microthrust engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
 	"thrust" 6
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/micro"
+	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 170
@@ -166,7 +166,7 @@ outfit "BI1 Microthrust Engine"
 outfit "G1 Microthrust Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 microthrust engine g"
+	thumbnail "outfit/engines/g1 microthrust engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -184,7 +184,7 @@ outfit "G1 Microthrust Engine"
 outfit "O1 Microthrust Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 microthrust engine o"
+	thumbnail "outfit/engines/o1 microthrust engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -202,7 +202,7 @@ outfit "O1 Microthrust Engine"
 outfit "P1 Microthrust Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 microthrust engine p"
+	thumbnail "outfit/engines/p1 microthrust engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -224,7 +224,7 @@ outfit "P1 Microthrust Engine"
 outfit "B1 Propulsion Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 propulsion engine b"
+	thumbnail "outfit/engines/b1 propulsion engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -240,17 +240,17 @@ outfit "B1 Propulsion Engine"
 	"drag" .25
 	description "Your ship can reach max speed and stop quickly. Great for out-flying enemies trying to get behind you."
 
-outfit "BI1 Propulsion Engine"
+outfit "I1 Propulsion Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 propulsion engine b"
+	thumbnail "outfit/engines/b1 propulsion engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
 	"thrust" 9
 	"thrusting energy" .6
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/micro"
+	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 80
@@ -262,7 +262,7 @@ outfit "BI1 Propulsion Engine"
 outfit "G1 Propulsion Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 propulsion engine g"
+	thumbnail "outfit/engines/g1 propulsion engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -281,7 +281,7 @@ outfit "G1 Propulsion Engine"
 outfit "O1 Propulsion Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 propulsion engine o"
+	thumbnail "outfit/engines/o1 propulsion engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -300,7 +300,7 @@ outfit "O1 Propulsion Engine"
 outfit "P1 Propulsion Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 propulsion engine p"
+	thumbnail "outfit/engines/p1 propulsion engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -324,7 +324,7 @@ outfit "P1 Propulsion Engine"
 outfit "B1 SLAM Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 slam engine b"
+	thumbnail "outfit/engines/b1 slam engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -345,17 +345,17 @@ outfit "B1 SLAM Engine"
 		"frame rate" 0.8
 	description "The SubLight Acceleration Motor decreases max speed, but allows your ship to boost, accelerating quickly out of tight situations."
 
-outfit "BI1 SLAM Engine"
+outfit "I1 SLAM Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 slam engine b"
+	thumbnail "outfit/engines/b1 slam engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
 	"thrust" 5
 	"thrusting energy" .3
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/micro"
+	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 100
@@ -365,14 +365,14 @@ outfit "BI1 SLAM Engine"
 	"afterburner energy" 2
 	"afterburner heat" 2
 	"drag" 0.1
-	"afterburner effect" "slam engine b imp"
+	"afterburner effect" "slam engine redion"
 		"frame rate" 0.8
 	description "The SubLight Acceleration Motor decreases max speed, but allows your ship to boost, accelerating quickly out of tight situations."
 
 outfit "G1 SLAM Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 slam engine g"
+	thumbnail "outfit/engines/g1 slam engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -396,7 +396,7 @@ outfit "G1 SLAM Engine"
 outfit "O1 SLAM Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 slam engine o"
+	thumbnail "outfit/engines/o1 slam engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -420,7 +420,7 @@ outfit "O1 SLAM Engine"
 outfit "P1 SLAM Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 slam engine p"
+	thumbnail "outfit/engines/p1 slam engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -448,7 +448,7 @@ outfit "P1 SLAM Engine"
 outfit "B1 Sublight Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 sublight engine b"
+	thumbnail "outfit/engines/b1 sublight engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -463,17 +463,17 @@ outfit "B1 Sublight Engine"
 	"turning heat" 1
 	description "No bonuses or drawbacks. A good all-around choice, but doesn't excel in any category."
 
-outfit "BI1 Sublight Engine"
+outfit "I1 Sublight Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 sublight engine b"
+	thumbnail "outfit/engines/b1 sublight engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
 	"thrust" 7
 	"thrusting energy" .5
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/micro"
+	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 80
@@ -484,7 +484,7 @@ outfit "BI1 Sublight Engine"
 outfit "G1 Sublight Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 sublight engine g"
+	thumbnail "outfit/engines/g1 sublight engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -502,7 +502,7 @@ outfit "G1 Sublight Engine"
 outfit "O1 Sublight Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 sublight engine o"
+	thumbnail "outfit/engines/o1 sublight engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -520,7 +520,7 @@ outfit "O1 Sublight Engine"
 outfit "P1 Sublight Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 sublight engine p"
+	thumbnail "outfit/engines/p1 sublight engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -542,7 +542,7 @@ outfit "P1 Sublight Engine"
 outfit "B1 Thrust Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 thrust engine b"
+	thumbnail "outfit/engines/b1 thrust engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -558,17 +558,17 @@ outfit "B1 Thrust Engine"
 	"drag" -.35
 	description "Max speed is much higher, but acceleration and deceleration are lower. Great for hit-and-run tactics."
 
-outfit "BI1 Thrust Engine"
+outfit "I1 Thrust Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 thrust engine b"
+	thumbnail "outfit/engines/b1 thrust engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
 	"thrust" 5
 	"thrusting energy" .4
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/micro"
+	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 100
@@ -580,7 +580,7 @@ outfit "BI1 Thrust Engine"
 outfit "G1 Thrust Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 thrust engine g"
+	thumbnail "outfit/engines/g1 thrust engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -599,7 +599,7 @@ outfit "G1 Thrust Engine"
 outfit "O1 Thrust Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 thrust engine o"
+	thumbnail "outfit/engines/o1 thrust engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -618,7 +618,7 @@ outfit "O1 Thrust Engine"
 outfit "P1 Thrust Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 thrust engine p"
+	thumbnail "outfit/engines/p1 thrust engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -641,7 +641,7 @@ outfit "P1 Thrust Engine"
 outfit "B1 Unstable Sublight Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 unstablesublight engine b"
+	thumbnail "outfit/engines/b1 unstablesublight engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -657,17 +657,17 @@ outfit "B1 Unstable Sublight Engine"
 	hull -400
 	description "You're faster and can change speeds quickly, at the expense of hull integrity. When destroyed, you create an explosion that can destroy nearby enemies."
 
-outfit "BI1 Unstable Sublight Engine"
+outfit "I1 Unstable Sublight Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 unstablesublight engine b"
+	thumbnail "outfit/engines/b1 unstablesublight engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
 	"thrust" 8
 	"thrusting energy" .7
 	"thrusting heat" 1
-	"flare sprite" "effect/blue flare/micro"
+	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
 	"flare sound" "blueflare tinyimperial"
 	"turn" 130
@@ -679,7 +679,7 @@ outfit "BI1 Unstable Sublight Engine"
 outfit "G1 Unstable Sublight Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 unstablesublight engine g"
+	thumbnail "outfit/engines/g1 unstablesublight engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -698,7 +698,7 @@ outfit "G1 Unstable Sublight Engine"
 outfit "O1 Unstable Sublight Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 unstablesublight engine o"
+	thumbnail "outfit/engines/o1 unstablesublight engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -717,7 +717,7 @@ outfit "O1 Unstable Sublight Engine"
 outfit "P1 Unstable Sublight Engine"
 	category "Engines"
 	"cost" 5000
-	thumbnail "outfit/engines/e1 unstablesublight engine p"
+	thumbnail "outfit/engines/p1 unstablesublight engine"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5

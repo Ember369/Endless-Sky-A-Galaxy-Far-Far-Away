@@ -5,12 +5,27 @@ government "Galactic Empire"
 	"attitude toward"
 		"Bounty Hunter" 0
 		"Civilian" 0.04
+		"Galactic Empire (Sympathiser)" 0.04
 		"Scum & Villainy" -0.04
 		"Rebel Alliance" -0.04
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly galacticempire"
 	"hostile hail" "hostile galacticempire"
+
+government "Galactic Empire (Sympathiser)"
+	"display name" "Galactic Empire"
+	swizzle 0
+	color 1.5 1.5 1.5
+	"player reputation" 0
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" 0.04
+		"Galactic Empire" 0.04
+		"Scum & Villainy" -0.04
+		"Rebel Alliance" 0.04
+	"bribe" .05
+	"fine" 0
 
 government "Rebel Alliance"
 	swizzle 0
@@ -138,8 +153,24 @@ government "Hutt"
 	"player reputation" 0
 	"attitude toward"
 		"Bounty Hunter" 0
-		"Galactic Empire" 0
-		"Rebel Alliance" 0
+		"Civilian" -0.04
+		"Galactic Empire" -0.04
+		"Rebel Alliance" -0.04
+		"Scum & Villainy" 0
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+
+government "Pike Syndicate"
+	swizzle 0
+	color .5 .5 0
+	"player reputation" 0
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" -0.04
+		"Galactic Empire" -0.04
+		"Rebel Alliance" -0.04
 		"Scum & Villainy" 0
 	"bribe" .05
 	"fine" 0

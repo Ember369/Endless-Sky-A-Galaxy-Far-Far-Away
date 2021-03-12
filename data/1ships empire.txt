@@ -21,7 +21,7 @@ ship "Aiwha Star Corvette"
 		"required crew" 34
 		"bunks" 110
 		"mass" 1725
-		"drag" 7.65
+		"drag" 9.25
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 40
@@ -35,7 +35,7 @@ ship "Aiwha Star Corvette"
 			"hit force" 800
 	outfits
 		"G2 Laser Cannon" 2
-		"G3 Turbolaser Turret" 6
+		"G2Dual Laser Turret" 6
 		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack" 2
 		"Concussion Missile" 16
@@ -53,12 +53,12 @@ ship "Aiwha Star Corvette"
 	gun 57.5 -122 "G2 Laser Cannon"
 	gun -57.5 -122 "Concussion Missile Launcher"
 	gun 57.5 -122 "Concussion Missile Launcher"
-	turret -36.5 73 "G3 Turbolaser Turret"
-	turret 36.5 73 "G3 Turbolaser Turret"
-	turret 0 -34.5 "G3 Turbolaser Turret"
-	turret -96 -35.5 "G3 Turbolaser Turret"
-	turret 96 -35.5 "G3 Turbolaser Turret"
-	turret 0 -154 "G3 Turbolaser Turret"
+	turret -36.5 73 "G2Dual Laser Turret"
+	turret 36.5 73 "G2Dual Laser Turret"
+	turret 0 -34.5 "G2Dual Laser Turret"
+	turret -96 -35.5 "G2Dual Laser Turret"
+	turret 96 -35.5 "G2Dual Laser Turret"
+	turret 0 -154 "G2Dual Laser Turret"
 	fighter 0 -26
 	fighter 0 -26
 	fighter 0 -26
@@ -83,8 +83,8 @@ ship "Allegiance Battlecruiser"
 		"cost" 430000000
 		"shields" 400000
 		"hull" 100000
-		"required crew" 11000
-		"bunks" 52000
+		"required crew" 1800
+		"bunks" 2250
 		"mass" 36000
 		"drag" 57.0
 		"heat dissipation" .3
@@ -93,6 +93,7 @@ ship "Allegiance Battlecruiser"
 		"outfit space" 2663
 		"weapon capacity" 1905
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -164,8 +165,8 @@ ship "Arc Hammer"
 		"cost" 280000000
 		"shields" 285000
 		"hull" 85000
-		"required crew" 10500
-		"bunks" 52000
+		"required crew" 1800
+		"bunks" 2040
 		"mass" 35000
 		"drag" 56
 		"heat dissipation" .3
@@ -174,6 +175,7 @@ ship "Arc Hammer"
 		"outfit space" 2088
 		"weapon capacity" 1330
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -288,8 +290,8 @@ ship "Assertor Star Dreadnought"
 		"cost" 2500000000
 		"shields" 3000000
 		"hull" 1200000
-		"required crew" 280000
-		"bunks" 350000
+		"required crew" 1970
+		"bunks" 2470
 		"mass" 100000
 		"drag" 80
 		"heat dissipation" .2
@@ -298,6 +300,7 @@ ship "Assertor Star Dreadnought"
 		"outfit space" 5162
 		"weapon capacity" 4260
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -480,7 +483,7 @@ ship "Alpha Xg-1 Star Wing"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"BI1 Sublight Engine"
+		"B1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -7 16.5
@@ -539,7 +542,7 @@ ship "Alpha Xg-1 Star Wing (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -7 16.5
@@ -566,8 +569,8 @@ ship "Altor Replenishment Ship"
 		"cost" 68000000
 		"shields" 170000
 		"hull" 57000
-		"required crew" 3000
-		"bunks" 10000
+		"required crew" 880
+		"bunks" 1800
 		"mass" 26000
 		"drag" 51.0
 		"heat dissipation" .45
@@ -576,6 +579,7 @@ ship "Altor Replenishment Ship"
 		"outfit space" 888
 		"weapon capacity" 110
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -619,8 +623,8 @@ ship "Arquitens 546 Cruiser"
 		"cost" 21300000
 		"shields" 67600
 		"hull" 31250
-		"required crew" 360
-		"bunks" 900
+		"required crew" 370
+		"bunks" 1200
 		"mass" 9765
 		"drag" 31.95
 		"heat dissipation" .45
@@ -629,6 +633,7 @@ ship "Arquitens 546 Cruiser"
 		"outfit space" 1498
 		"weapon capacity" 740
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -678,17 +683,29 @@ ship "Arquitens 546 Cruiser"
 	fighter 0 -376
 	fighter 0 -376
 	fighter -184 105
+		angle -90
 	fighter -184 105
+		angle -90
 	fighter -184 105
+		angle -90
 	fighter -184 105
+		angle -90
 	fighter -184 105
+		angle -90
 	fighter -184 105
+		angle -90
 	fighter 184 105
+		angle 90
 	fighter 184 105
+		angle 90
 	fighter 184 105
+		angle 90
 	fighter 184 105
+		angle 90
 	fighter 184 105
+		angle 90
 	fighter 184 105
+		angle 90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -713,7 +730,7 @@ ship "Arquitens Light Cruiser"
 		"required crew" 300
 		"bunks" 850
 		"mass" 4930
-		"drag" 13.09
+		"drag" 20.81
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 190
@@ -777,8 +794,8 @@ ship "Bellator Star Dreadnought"
 		"cost" 1500000000
 		"shields" 2000000
 		"hull" 880000
-		"required crew" 220000
-		"bunks" 300000
+		"required crew" 1930
+		"bunks" 2430
 		"mass" 90000
 		"drag" 78
 		"heat dissipation" .2
@@ -787,6 +804,7 @@ ship "Bellator Star Dreadnought"
 		"outfit space" 5162
 		"weapon capacity" 4260
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -925,8 +943,8 @@ ship "Broadside cruiser kdb-1"
 		"cost" 25000000
 		"shields" 77000
 		"hull" 34000
-		"required crew" 600
-		"bunks" 2000
+		"required crew" 400
+		"bunks" 1470
 		"mass" 12000
 		"drag" 40.0
 		"heat dissipation" .45
@@ -935,6 +953,7 @@ ship "Broadside cruiser kdb-1"
 		"outfit space" 1378
 		"weapon capacity" 620
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -990,8 +1009,8 @@ ship "Cantwell Arrestor Cruiser"
 		"cost" 48000000
 		"shields" 119500
 		"hull" 44800
-		"required crew" 2770
-		"bunks" 6970
+		"required crew" 600
+		"bunks" 1660
 		"mass" 17400
 		"drag" 47.0
 		"heat dissipation" .45
@@ -1000,6 +1019,7 @@ ship "Cantwell Arrestor Cruiser"
 		"outfit space" 1828
 		"weapon capacity" 1070
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1093,10 +1113,10 @@ ship "Carrack Light Cruiser"
 		"cost" 10500000
 		"shields" 45000
 		"hull" 16000
-		"required crew" 500
-		"bunks" 1734
+		"required crew" 380
+		"bunks" 1230
 		"mass" 5100
-		"drag" 13.43
+		"drag" 33.29
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 200
@@ -1153,8 +1173,8 @@ ship "Compellor Battle Cruiser"
 		"cost" 960000000
 		"shields" 1400000
 		"hull" 500000
-		"required crew" 100000
-		"bunks" 200000
+		"required crew" 1900
+		"bunks" 2380
 		"mass" 78000
 		"drag" 76.0
 		"heat dissipation" .3
@@ -1163,6 +1183,7 @@ ship "Compellor Battle Cruiser"
 		"outfit space" 2938
 		"weapon capacity" 2155
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1278,8 +1299,8 @@ ship "Consolidator Corps Assault Ship"
 		"cost" 330000000
 		"shields" 345000
 		"hull" 98000
-		"required crew" 6000
-		"bunks" 15000
+		"required crew" 1660
+		"bunks" 2080
 		"mass" 35400
 		"drag" 57
 		"heat dissipation" .45
@@ -1288,6 +1309,7 @@ ship "Consolidator Corps Assault Ship"
 		"outfit space" 2088
 		"weapon capacity" 1330
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1389,8 +1411,8 @@ ship "Contentor Fleet Replenishment Ship"
 		"cost" 31000000
 		"shields" 110000
 		"hull" 43000
-		"required crew" 4000
-		"bunks" 8000
+		"required crew" 520
+		"bunks" 1620
 		"mass" 20000
 		"drag" 49
 		"heat dissipation" .45
@@ -1399,6 +1421,7 @@ ship "Contentor Fleet Replenishment Ship"
 		"outfit space" 1276
 		"weapon capacity" 690
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1469,10 +1492,10 @@ ship "Delta T-3c Shuttle"
 		"required crew" 6
 		"bunks" 36
 		"mass" 40
-		"drag" 1.2
+		"drag" 2.0
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 5
+		"cargo space" 12
 		"outfit space" 18
 		"weapon capacity" 5
 		"engine capacity" 5
@@ -1523,8 +1546,8 @@ ship "Dreadnaught Heavy Cruiser"
 		"cost" 35555000
 		"shields" 88000
 		"hull" 38000
-		"required crew" 9000
-		"bunks" 25000
+		"required crew" 800
+		"bunks" 1540
 		"mass" 12800
 		"drag" 43.0
 		"heat dissipation" .45
@@ -1533,6 +1556,7 @@ ship "Dreadnaught Heavy Cruiser"
 		"outfit space" 1598
 		"weapon capacity" 840
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1605,7 +1629,7 @@ ship "DX9 Troop Transport"
 		"required crew" 3
 		"bunks" 33
 		"mass" 33
-		"drag" 1.4
+		"drag" 1.96
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
@@ -1653,8 +1677,8 @@ ship "Eclipse Star Dreadnought"
 		"cost" 2800000000
 		"shields" 3900000
 		"hull" 1440000
-		"required crew" 708470
-		"bunks" 858470
+		"required crew" 2000
+		"bunks" 2500
 		"mass" 110000
 		"drag" 84
 		"heat dissipation" .2
@@ -1663,6 +1687,7 @@ ship "Eclipse Star Dreadnought"
 		"outfit space" 5332
 		"weapon capacity" 4430
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -1812,8 +1837,8 @@ ship "Eclipse Star Dreadnought II"
 		"cost" 2800000000
 		"shields" 3900000
 		"hull" 1440000
-		"required crew" 708470
-		"bunks" 858470
+		"required crew" 2000
+		"bunks" 2500
 		"mass" 110000
 		"drag" 84
 		"heat dissipation" .2
@@ -1822,6 +1847,7 @@ ship "Eclipse Star Dreadnought II"
 		"outfit space" 5332
 		"weapon capacity" 4430
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -2020,8 +2046,8 @@ ship "Executor Star Dreadnought"
 		"cost" 2180000000
 		"shields" 2800000
 		"hull" 1100000
-		"required crew" 280000
-		"bunks" 350000
+		"required crew" 1960
+		"bunks" 2460
 		"mass" 100000
 		"drag" 80
 		"heat dissipation" .45
@@ -2030,6 +2056,7 @@ ship "Executor Star Dreadnought"
 		"outfit space" 5162
 		"weapon capacity" 4260
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -2181,10 +2208,10 @@ ship "Fulgor Pursuit Frigate"
 		"cost" 8900000
 		"shields" 37000
 		"hull" 15300
-		"required crew" 600
-		"bunks" 1000
+		"required crew" 350
+		"bunks" 1130
 		"mass" 4845
-		"drag" 13.09
+		"drag" 18.5
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 160
@@ -2260,10 +2287,10 @@ ship "Gamma ATR-6 Assault Transport"
 		"required crew" 2
 		"bunks" 40
 		"mass" 70
-		"drag" 1.4
+		"drag" 1.69
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 6
+		"cargo space" 8
 		"outfit space" 21
 		"weapon capacity" 8
 		"engine capacity" 5
@@ -2317,8 +2344,8 @@ ship "GAT-12 Skipray Blastboat"
 		category Interceptor
 		"absolute threshold" 20
 		"cost" 285000
-		"shields" 1700
-		"hull" 4900
+		"shields" 1850
+		"hull" 5050
 		"required crew" 1
 		"bunks" 4
 		"mass" 38
@@ -2326,7 +2353,7 @@ ship "GAT-12 Skipray Blastboat"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 5
-		"outfit space" 21
+		"outfit space" 23
 		"weapon capacity" 10
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -2352,19 +2379,19 @@ ship "GAT-12 Skipray Blastboat"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
-	engine 0 45.5
-	gun -14.5 -23 "I1 Ion Cannon"
-	gun 14.5 -23 "I1 Ion Cannon"
-	gun 0 -22 "I1 Ion Cannon"
-	gun -4 -38.5 "GI1 Laser Cannon"
-	gun 4 -38.5 "GI1 Laser Cannon"
-	gun -4 -38.5 "Concussion Missile Launcher"
-	gun 4 -38.5 "Concussion Missile Launcher"
-	gun -4 -38.5 "Proton Torpedo Launcher"
-	gun 4 -38.5 "Proton Torpedo Launcher"
+	engine 0 39
+	gun -5 -26 "GI1 Laser Cannon"
+	gun 5 -26 "GI1 Laser Cannon"
+	gun -5 -26 "Concussion Missile Launcher"
+	gun 5 -26 "Concussion Missile Launcher"
+	gun -5 -26 "Proton Torpedo Launcher"
+	gun 5 -26 "Proton Torpedo Launcher"
+	gun -12 -20.5 "I1 Ion Cannon"
+	gun 12 -20.5 "I1 Ion Cannon"
+	gun 0 -20.5 "I1 Ion Cannon"
 	turret 0 -4.5 "G1U Laser Turret"
 	explode "large explosion" 3
 	description "The Sienar Fleet Systems GAT-12 Skipray Blastboat is one of the smallest hyperspace-capable combat starship in use by the Imperial Navy. Sold primarily to the Empire. While small enough to be carried aboard capital ships as a starfighter, its immense power output, weaponry, and shielding caused some registries to designate it as a capital ship itself."
@@ -2382,8 +2409,8 @@ ship "Gladiator Star Destroyer"
 		"cost" 34000000
 		"shields" 91000
 		"hull" 42000
-		"required crew" 6000
-		"bunks" 15000
+		"required crew" 500
+		"bunks" 1610
 		"mass" 13200
 		"drag" 48.0
 		"heat dissipation" .45
@@ -2392,6 +2419,7 @@ ship "Gladiator Star Destroyer"
 		"outfit space" 1698
 		"weapon capacity" 940
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -2482,10 +2510,10 @@ ship "Gozanti Assault Cruiser"
 		"required crew" 5
 		"bunks" 35
 		"mass" 408
-		"drag" 3.84
+		"drag" 6.81
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 10
+		"cargo space" 60
 		"outfit space" 73
 		"weapon capacity" 17
 		"engine capacity" 28
@@ -2496,7 +2524,7 @@ ship "Gozanti Assault Cruiser"
 			"hit force" 750
 	outfits
 		"G2Dual Laser Turret"
-		"G2 Heavy Laser Turret"
+		"G2Heavy Laser Turret"
 		
 		"P2 Power Converter"
 		"D2 Deflector Shield"
@@ -2507,7 +2535,7 @@ ship "Gozanti Assault Cruiser"
 	
 	engine -26 45.5
 	engine 26 45.5
-	turret 0 38.5 "G2 Heavy Laser Turret"
+	turret 0 38.5 "G2Heavy Laser Turret"
 	turret 0 38.5 "G2Dual Laser Turret"
 	fighter -18 4
 	fighter 18 4
@@ -2536,20 +2564,20 @@ ship "Guardian Light Cruiser"
 		"required crew" 3
 		"bunks" 20
 		"mass" 360
-		"drag" 3.84
+		"drag" 6.81
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 10
+		"cargo space" 30
 		"outfit space" 80
 		"weapon capacity" 24
-		"engine capacity" 28
+		"engine capacity" 22
 		weapon
 			"blast radius" 290
 			"shield damage" 680
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"G2 Heavy Laser Turret" 4
+		"GI1 Laser Turret" 4
 		
 		"P2 Power Converter"
 		"D2 Deflector Shield"
@@ -2560,14 +2588,12 @@ ship "Guardian Light Cruiser"
 	
 	engine -11 63
 	engine 11 63
-	turret -14 25 "G2 Heavy Laser Turret"
-	turret 14 25 "G2 Heavy Laser Turret"
-	turret -14 -10 "G2 Heavy Laser Turret"
-	turret 14 -10 "G2 Heavy Laser Turret"
+	turret -14 25 "GI1 Laser Turret"
+	turret 14 25 "GI1 Laser Turret"
+	turret -14 -10 "GI1 Laser Turret"
+	turret 14 -10 "GI1 Laser Turret"
 	fighter -14 25
 	fighter 14 25
-	fighter -14 -10
-	fighter 14 -10
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2615,7 +2641,7 @@ ship "I-7 Howlrunner"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	engine -5.5 14.5
 	engine 5.5 14.5
@@ -2665,7 +2691,7 @@ ship "I-7 Howlrunner (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	engine -5.5 14.5
 	engine 5.5 14.5
@@ -2690,10 +2716,10 @@ ship "IGV-55 Surveillance Vessel"
 		"required crew" 5
 		"bunks" 35
 		"mass" 408
-		"drag" 3.84
+		"drag" 7.43
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 0
+		"cargo space" 60
 		"outfit space" 105
 		"weapon capacity" 17
 		"engine capacity" 28
@@ -2704,7 +2730,7 @@ ship "IGV-55 Surveillance Vessel"
 			"hit force" 750
 	outfits
 		"G2Dual Laser Turret"
-		"G2 Heavy Laser Turret"
+		"G2Heavy Laser Turret"
 		
 		"P2 Power Converter"
 		"D2 Deflector Shield"
@@ -2718,7 +2744,7 @@ ship "IGV-55 Surveillance Vessel"
 	engine 31.5 45.5
 	engine -16 47
 	engine 16 47
-	turret 0 38.5 "G2 Heavy Laser Turret"
+	turret 0 38.5 "G2Heavy Laser Turret"
 	turret 0 38.5 "G2Dual Laser Turret"
 	fighter -18 1
 	fighter 18 1
@@ -2744,8 +2770,8 @@ ship "Immobiliser 418 Cruiser"
 		"cost" 52240000
 		"shields" 90000
 		"hull" 39000
-		"required crew" 3000
-		"bunks" 7200
+		"required crew" 700
+		"bunks" 1580
 		"mass" 13200
 		"drag" 47.0
 		"heat dissipation" .45
@@ -2754,6 +2780,7 @@ ship "Immobiliser 418 Cruiser"
 		"outfit space" 1508
 		"weapon capacity" 750
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -2829,8 +2856,8 @@ ship "Impellor Fleet Carrier"
 		"cost" 800000000
 		"shields" 1000000
 		"hull" 350000
-		"required crew" 70000
-		"bunks" 150000
+		"required crew" 1880
+		"bunks" 2340
 		"mass" 52000
 		"drag" 66
 		"heat dissipation" .3
@@ -2839,6 +2866,7 @@ ship "Impellor Fleet Carrier"
 		"outfit space" 2888
 		"weapon capacity" 2105
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -2957,7 +2985,7 @@ ship "Imperial Customs Corvette"
 		"required crew" 36
 		"bunks" 80
 		"mass" 1860
-		"drag" 7.95
+		"drag" 11.1
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 40
@@ -2971,7 +2999,7 @@ ship "Imperial Customs Corvette"
 			"hit force" 800
 	outfits
 		"G2 Laser Cannon" 2
-		"G3 Turbolaser Turret" 6
+		"G2Dual Laser Turret" 6
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
@@ -2985,12 +3013,12 @@ ship "Imperial Customs Corvette"
 	engine 50 213.5
 	gun -46.5 -211.5 "G2 Laser Cannon"
 	gun 46.5 -211.5 "G2 Laser Cannon"
-	turret -122.5 112 "G3 Turbolaser Turret"
-	turret 122.5 112 "G3 Turbolaser Turret"
-	turret -54 34.5 "G3 Turbolaser Turret"
-	turret 54 34.5 "G3 Turbolaser Turret"
-	turret -86.5 -29 "G3 Turbolaser Turret"
-	turret 86.5 -29 "G3 Turbolaser Turret"
+	turret -122.5 112 "G2Dual Laser Turret"
+	turret 122.5 112 "G2Dual Laser Turret"
+	turret -54 34.5 "G2Dual Laser Turret"
+	turret 54 34.5 "G2Dual Laser Turret"
+	turret -86.5 -29 "G2Dual Laser Turret"
+	turret 86.5 -29 "G2Dual Laser Turret"
 	fighter 0 -11.5 over
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -3015,7 +3043,7 @@ ship "Imperial Customs Corvette (Military)"
 		"required crew" 36
 		"bunks" 80
 		"mass" 1875
-		"drag" 7.95
+		"drag" 11.1
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 20
@@ -3029,7 +3057,7 @@ ship "Imperial Customs Corvette (Military)"
 			"hit force" 800
 	outfits
 		"G2 Laser Cannon" 2
-		"G3 Turbolaser Turret" 9
+		"G2Dual Laser Turret" 9
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
@@ -3043,15 +3071,15 @@ ship "Imperial Customs Corvette (Military)"
 	engine 49.5 209.5
 	gun -46.5 -210 "G2 Laser Cannon"
 	gun 46.5 -210 "G2 Laser Cannon"
-	turret -121 109 "G3 Turbolaser Turret"
-	turret 121 109 "G3 Turbolaser Turret"
-	turret -53 33.5 "G3 Turbolaser Turret"
-	turret 53 33.5 "G3 Turbolaser Turret"
-	turret 0 18.5 "G3 Turbolaser Turret"
-	turret -85.5 -30 "G3 Turbolaser Turret"
-	turret 85.5 -30 "G3 Turbolaser Turret"
-	turret -38.5 -184 "G3 Turbolaser Turret"
-	turret 38.5 -184 "G3 Turbolaser Turret"
+	turret -121 109 "G2Dual Laser Turret"
+	turret 121 109 "G2Dual Laser Turret"
+	turret -53 33.5 "G2Dual Laser Turret"
+	turret 53 33.5 "G2Dual Laser Turret"
+	turret 0 18.5 "G2Dual Laser Turret"
+	turret -85.5 -30 "G2Dual Laser Turret"
+	turret 85.5 -30 "G2Dual Laser Turret"
+	turret -38.5 -184 "G2Dual Laser Turret"
+	turret 38.5 -184 "G2Dual Laser Turret"
 	fighter 0 -168.5
 	fighter 0 -168.5
 	fighter 0 -168.5
@@ -3068,93 +3096,6 @@ ship "Imperial Customs Corvette (Military)"
 
 
 
-ship "Imperial Escort Carrier"
-	sprite "ship/imperialescortcarrier"
-	thumbnail "thumbnail/imperialescortcarrier"
-	attributes
-		licenses
-			Imperial
-		category "Light Warship"
-		"cost" 3700000
-		"shields" 26000
-		"hull" 10000
-		"required crew" 92
-		"bunks" 122
-		"mass" 1680
-		"drag" 7.65
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 50
-		"outfit space" 330
-		"weapon capacity" 178
-		"engine capacity" 88
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"G2 Laser Cannon" 2
-		"G3 Turbolaser Turret" 8
-		"Concussion Missile Launcher" 2
-		"Concussion Missile Storage Rack" 2
-		"Concussion Missile" 16
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"B3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine -29 186.5
-	engine 29 186.5
-	gun -12.5 -185 "G2 Laser Cannon"
-	gun 12.5 -185 "G2 Laser Cannon"
-	gun -16 -167 "Concussion Missile Launcher"
-	gun 16 -167 "Concussion Missile Launcher"
-	turret -45.5 150 "G3 Turbolaser Turret"
-	turret 45.5 150 "G3 Turbolaser Turret"
-	turret -15.5 61 "G3 Turbolaser Turret"
-	turret 15.5 61 "G3 Turbolaser Turret"
-	turret -11.5 -21 "G3 Turbolaser Turret"
-	turret 11.5 -21 "G3 Turbolaser Turret"
-	turret -34.5 -136.5 "G3 Turbolaser Turret"
-	turret 34.5 -136.5 "G3 Turbolaser Turret"
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The Imperial escort carrier is a type of capital ship used exclusively by the Galactic Empire's storm commandos. Like normal carriers, it is capable of deploying TIE starfighters into battle, including the advanced TIE Hunter, due to its hangar openings on each side of the hull. However, the ship is also capable of engaging in combat on its own account. Ships of this type are used to attack medium-sized craft and transports of the Rebel Alliance, boarding and seizing the Rebel starships and their crew."
-	description "Artwork/model by Mel_Miniatures"
-
-
-
 ship "Imperial I Star Destroyer"
 	sprite "ship/imperialdestroyer"
 	thumbnail "thumbnail/imperialdestroyer"
@@ -3165,8 +3106,8 @@ ship "Imperial I Star Destroyer"
 		"cost" 150000000
 		"shields" 260000
 		"hull" 67000
-		"required crew" 37035
-		"bunks" 47000
+		"required crew" 1600
+		"bunks" 2000
 		"mass" 31200
 		"drag" 52.0
 		"heat dissipation" .45
@@ -3175,6 +3116,7 @@ ship "Imperial I Star Destroyer"
 		"outfit space" 2488
 		"weapon capacity" 1730
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -3288,8 +3230,8 @@ ship "Imperial II Star Destroyer"
 		"cost" 155000000
 		"shields" 265000
 		"hull" 67500
-		"required crew" 37035
-		"bunks" 47000
+		"required crew" 1600
+		"bunks" 2000
 		"mass" 31500
 		"drag" 52.0
 		"heat dissipation" .45
@@ -3298,6 +3240,7 @@ ship "Imperial II Star Destroyer"
 		"outfit space" 2538
 		"weapon capacity" 1780
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -3402,6 +3345,189 @@ ship "Imperial II Star Destroyer"
 
 
 
+ship "Imperial Escort Carrier"
+	sprite "ship/imperialescortcarrier"
+	thumbnail "thumbnail/imperialescortcarrier"
+	attributes
+		licenses
+			Imperial
+		category "Light Warship"
+		"cost" 3700000
+		"shields" 26000
+		"hull" 10000
+		"required crew" 50
+		"bunks" 170
+		"mass" 1680
+		"drag" 11.1
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 330
+		"weapon capacity" 178
+		"engine capacity" 88
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"G2 Laser Cannon" 2
+		"G3 Turbolaser Turret" 8
+		"Concussion Missile Launcher" 2
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"B3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine -29 186.5
+	engine 29 186.5
+	gun -12.5 -185 "G2 Laser Cannon"
+	gun 12.5 -185 "G2 Laser Cannon"
+	gun -16 -167 "Concussion Missile Launcher"
+	gun 16 -167 "Concussion Missile Launcher"
+	turret -45.5 150 "G3 Turbolaser Turret"
+	turret 45.5 150 "G3 Turbolaser Turret"
+	turret -15.5 61 "G3 Turbolaser Turret"
+	turret 15.5 61 "G3 Turbolaser Turret"
+	turret -11.5 -21 "G3 Turbolaser Turret"
+	turret 11.5 -21 "G3 Turbolaser Turret"
+	turret -34.5 -136.5 "G3 Turbolaser Turret"
+	turret 34.5 -136.5 "G3 Turbolaser Turret"
+	fighter -6 32.5
+		angle -90
+	fighter 6 32.5
+		angle 90
+	fighter -6 32.5
+		angle -90
+	fighter 6 32.5
+		angle 90
+	fighter -6 32.5
+		angle -90
+	fighter 6 32.5
+		angle 90
+	fighter -6 32.5
+		angle -90
+	fighter 6 32.5
+		angle 90
+	fighter -6 32.5
+		angle -90
+	fighter 6 32.5
+		angle 90
+	fighter -6 32.5
+		angle -90
+	fighter 6 32.5
+		angle 90
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Imperial escort carrier is a type of capital ship used exclusively by the Galactic Empire's storm commandos. Like normal carriers, it is capable of deploying TIE starfighters into battle, including the advanced TIE Hunter, due to its hangar openings on each side of the hull. However, the ship is also capable of engaging in combat on its own account. Ships of this type are used to attack medium-sized craft and transports of the Rebel Alliance, boarding and seizing the Rebel starships and their crew."
+	description "Artwork/model by Mel_Miniatures"
+
+
+
+ship "Imperial II Frigate"
+	sprite "ship/imperialfrigate"
+	thumbnail "thumbnail/imperialfrigate"
+	attributes
+		licenses
+			Imperial
+		category "Medium Warship"
+		"cost" 9750000
+		"shields" 42300
+		"hull" 15800
+		"required crew" 385
+		"bunks" 1205
+		"mass" 4995
+		"drag" 27.74
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 200
+		"outfit space" 616
+		"weapon capacity" 295
+		"engine capacity" 230
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"G4Dual Turbolaser Turret" 4
+		"G3 Turbolaser Turret" 6
+
+		"P4 Power Converter"
+		"D4 Deflector Shield"
+		"C4 Coolant System"
+		
+		"B4 Sublight Engine"
+		"H4 Hyperspace Motivator"
+		
+	engine -121.5 309.5
+	engine 121.5 309.5
+	engine -78.5 323.5
+		over
+	engine 78.5 323.5
+		over
+	engine -59 375.5
+	engine 59 375.5
+	turret -171.5 236.5 "G3 Turbolaser Turret"
+	turret 171.5 236.5 "G3 Turbolaser Turret"
+	turret -101.5 187.5 "G4Dual Turbolaser Turret"
+	turret 101.5 187.5 "G4Dual Turbolaser Turret"
+	turret -95.5 99.5 "G4Dual Turbolaser Turret"
+	turret 95.5 99.5 "G4Dual Turbolaser Turret"
+	turret -72 -33 "G3 Turbolaser Turret"
+	turret 72 -33 "G3 Turbolaser Turret"
+	turret -35.5 -172 "G3 Turbolaser Turret"
+	turret 35.5 -172 "G3 Turbolaser Turret"
+	fighter -27.5 56.5
+		angle -90
+	fighter 27.5 56.5
+		angle 90
+	fighter -26.5 36.5
+		angle -90
+	fighter 26.5 36.5
+		angle 90
+	fighter -27.5 56.5
+		angle -90
+	fighter 27.5 56.5
+		angle 90
+	fighter -26.5 36.5
+		angle -90
+	fighter 26.5 36.5
+		angle 90
+	fighter -27.5 56.5
+		angle -90
+	fighter 27.5 56.5
+		angle 90
+	fighter -26.5 36.5
+		angle -90
+	fighter 26.5 36.5
+		angle 90
+	fighter -27.5 56.5
+		angle -90
+	fighter 27.5 56.5
+		angle 90
+	fighter -26.5 36.5
+		angle -90
+	fighter 26.5 36.5
+		angle 90
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Imperial II-class frigate, also known as the Class II frigate, is a model of warship employed by the Imperial Navy. The Imperial II-class frigate is a smaller, less powerful type of Star Destroyer. These vessels have two extensive hangars on both sides of the hull, which accommodate a number of TIE/LN starfighters and support ships and can be used to carry suspicious vessels while they undergo scrutiny."
+	description "Artwork/model by Unusualsuspex"
+
+
+
 ship "Imperial Tanker"
 	sprite "ship/imperialtanker"
 	thumbnail "thumbnail/imperialtanker"
@@ -3415,10 +3541,10 @@ ship "Imperial Tanker"
 		"required crew" 50
 		"bunks" 160
 		"mass" 1350
-		"drag" 7.5
+		"drag" 18.5
 		"heat dissipation" .45
 		"fuel capacity" 800
-		"cargo space" 40
+		"cargo space" 370
 		"outfit space" 164
 		"weapon capacity" 0
 		"engine capacity" 88
@@ -3461,8 +3587,8 @@ ship "Interdictor Star Destroyer"
 		"cost" 175000000
 		"shields" 230000
 		"hull" 64000
-		"required crew" 9300
-		"bunks" 45000
+		"required crew" 1500
+		"bunks" 1960
 		"mass" 33000
 		"drag" 54.0
 		"heat dissipation" .45
@@ -3471,6 +3597,7 @@ ship "Interdictor Star Destroyer"
 		"outfit space" 2438
 		"weapon capacity" 1680
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -3572,10 +3699,10 @@ ship "Indictor Electronic Warfare Star Corvette"
 		"cost" 4760000
 		"shields" 33500
 		"hull" 11100
-		"required crew" 200
-		"bunks" 400
+		"required crew" 240
+		"bunks" 430
 		"mass" 2205
-		"drag" 8.1
+		"drag" 11.1
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 10
@@ -3624,13 +3751,13 @@ ship "Intersector Sloop"
 		"required crew" 2
 		"bunks" 17
 		"mass" 150
-		"drag" 3.96
+		"drag" 5.11
 		"heat dissipation" .6
 		"fuel capacity" 700
-		"cargo space" 30
+		"cargo space" 90
 		"outfit space" 77
 		"weapon capacity" 16
-		"engine capacity" 20
+		"engine capacity" 22
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -3686,10 +3813,10 @@ ship "IPV-1 System Patrol Craft"
 		"required crew" 3
 		"bunks" 13
 		"mass" 1500
-		"drag" 7.5
+		"drag" 9.25
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 10
+		"cargo space" 120
 		"outfit space" 292
 		"weapon capacity" 140
 		"engine capacity" 88
@@ -3699,7 +3826,8 @@ ship "IPV-1 System Patrol Craft"
 			"hull damage" 340
 			"hit force" 750
 	outfits
-		"G3 Turbolaser Turret" 4
+		"G2 Laser Cannon" 2
+		"G2Dual Laser Turret" 4
 		"Assault Concussion Missile Launcher"
 		"Assault Concussion Missile Storage Rack"
 		"Assault Concussion Missile" 40
@@ -3713,11 +3841,13 @@ ship "IPV-1 System Patrol Craft"
 	
 	engine -22 168
 	engine 22 168
+	gun -37.5 -78 "G2 Laser Cannon"
+	gun 37.5 -78 "G2 Laser Cannon"
 	gun 0 -120 "Assault Concussion Missile Launcher"
-	turret -56 2 "G3 Turbolaser Turret"
-	turret 56 2 "G3 Turbolaser Turret"
-	turret 0 -10.5 "G3 Turbolaser Turret"
-	turret 0 -120 "G3 Turbolaser Turret"
+	turret -56 2 "G2Dual Laser Turret"
+	turret 56 2 "G2Dual Laser Turret"
+	turret 0 -10.5 "G2Dual Laser Turret"
+	turret 0 -120 "G2Dual Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3738,8 +3868,8 @@ ship "Kontos Star Frigate"
 		"cost" 21350000
 		"shields" 67750
 		"hull" 31500
-		"required crew" 375
-		"bunks" 925
+		"required crew" 380
+		"bunks" 1450
 		"mass" 9810
 		"drag" 32.4
 		"heat dissipation" .45
@@ -3748,6 +3878,7 @@ ship "Kontos Star Frigate"
 		"outfit space" 1498
 		"weapon capacity" 740
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -3824,7 +3955,7 @@ ship "LAAT/le Gunship"
 		"required crew" 3
 		"bunks" 33
 		"mass" 40
-		"drag" 1.4
+		"drag" 1.96
 		"heat dissipation" .7
 		"fuel capacity" 0
 		"cargo space" 5
@@ -3876,7 +4007,7 @@ ship "Lambda T-4a Shuttle"
 		"drag" 2.0
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 5
+		"cargo space" 10
 		"outfit space" 18
 		"weapon capacity" 5
 		"engine capacity" 5
@@ -3929,10 +4060,10 @@ ship "Lancer Frigate"
 		"cost" 4760000
 		"shields" 33000
 		"hull" 11000
-		"required crew" 375
-		"bunks" 1000
+		"required crew" 130
+		"bunks" 415
 		"mass" 2145
-		"drag" 8.4
+		"drag" 55.5
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 10
@@ -3989,8 +4120,8 @@ ship "Legator Star Dreadnought"
 		"cost" 1780000000
 		"shields" 2300000
 		"hull" 980000
-		"required crew" 220000
-		"bunks" 300000
+		"required crew" 1940
+		"bunks" 2440
 		"mass" 92000
 		"drag" 78
 		"heat dissipation" .2
@@ -3999,6 +4130,7 @@ ship "Legator Star Dreadnought"
 		"outfit space" 5162
 		"weapon capacity" 4260
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -4140,7 +4272,7 @@ ship "Missile Boat"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 26
+		"outfit space" 25
 		"weapon capacity" 13
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -4163,7 +4295,7 @@ ship "Missile Boat"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"BI1 SLAM Engine"
+		"B1 SLAM Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -11 15
@@ -4197,7 +4329,7 @@ ship "Missile Boat (Fighter)"
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 0
-		"outfit space" 26
+		"outfit space" 25
 		"weapon capacity" 13
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -4220,7 +4352,7 @@ ship "Missile Boat (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 		
-		"BI1 SLAM Engine"
+		"I1 SLAM Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -11 15
@@ -4246,8 +4378,8 @@ ship "Modular Taskforce Cruiser"
 		"cost" 63500000
 		"shields" 165000
 		"hull" 56000
-		"required crew" 11500
-		"bunks" 17000
+		"required crew" 860
+		"bunks" 1790
 		"mass" 24000
 		"drag" 48.0
 		"heat dissipation" .45
@@ -4256,6 +4388,7 @@ ship "Modular Taskforce Cruiser"
 		"outfit space" 2413
 		"weapon capacity" 1655
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -4329,6 +4462,83 @@ ship "Modular Taskforce Cruiser"
 
 
 
+ship "Neutron Star Bulk Cruiser"
+	sprite "ship/neutronstarbulkcruiser"
+	thumbnail "thumbnail/neutronstarbulkcruiser"
+	attributes
+		licenses
+			Imperial
+		category "Heavy Warship"
+		"cost" 33500000
+		"shields" 85000
+		"hull" 36500
+		"required crew" 550
+		"bunks" 1525
+		"mass" 12800
+		"drag" 50.0
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 300
+		"outfit space" 1598
+		"weapon capacity" 840
+		"engine capacity" 550
+		"force protection" 1000000
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"G4Dual Turbolaser Turret" 2
+		"G3 Turbolaser Turret" 2
+		"G2Dual Laser Turret" 18
+		
+		"P5 Power Converter"
+		"D5 Deflector Shield"
+		"C5 Coolant System"
+		
+		"B5 Sublight Engine"
+		"H5 Hyperspace Motivator"
+		
+	engine -147 732
+	engine 147 732
+	engine -77.5 732
+	engine 77.5 732
+	engine 0 732
+	turret -159 640 "G2Dual Laser Turret"
+	turret 159 640 "G2Dual Laser Turret"
+	turret -100 585.5 "G2Dual Laser Turret"
+	turret 100 585.5 "G2Dual Laser Turret"
+	turret -129.5 447.5 "G4Dual Turbolaser Turret"
+	turret 129.5 447.5 "G4Dual Turbolaser Turret"
+	turret -77.5 332.5 "G2Dual Laser Turret"
+	turret 77.5 332.5 "G2Dual Laser Turret"
+	turret -81 193.5 "G2Dual Laser Turret"
+	turret 81 193.5 "G2Dual Laser Turret"
+	turret -54.5 3.5 "G2Dual Laser Turret"
+	turret 54.5 3.5 "G2Dual Laser Turret"
+	turret -59.5 -158 "G2Dual Laser Turret"
+	turret 59.5 -158 "G2Dual Laser Turret"
+	turret -52 -297 "G2Dual Laser Turret"
+	turret 52 -297 "G2Dual Laser Turret"
+	turret -51.5 -403 "G3 Turbolaser Turret"
+	turret 51.5 -403 "G3 Turbolaser Turret"
+	turret -63 -512.5 "G2Dual Laser Turret"
+	turret 63 -512.5 "G2Dual Laser Turret"
+	turret -77.5 -664 "G2Dual Laser Turret"
+	turret 77.5 -664 "G2Dual Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Neutron Star-class bulk cruiser is a class of capital ship used by the Galactic Empire and Rebel Alliance, manufactured by Rendili StarDrive. They were designed during the Clone Wars to serve as second-line ships. The Neutron Star-class is 600 meters long. The design has become outdated and easily challenged and outgunned by most up-to-date capital ships. It is slow in comparison with many of its counterparts, and prone to frequent damage."
+	description "Artwork/model by Ember369"
+
+
+
+
 ship "Onager Star Destroyer"
 	sprite "ship/onagerdestroyer"
 	thumbnail "thumbnail/onagerdestroyer"
@@ -4339,8 +4549,8 @@ ship "Onager Star Destroyer"
 		"cost" 175000000
 		"shields" 229000
 		"hull" 58000
-		"required crew" 25200
-		"bunks" 40000
+		"required crew" 1480
+		"bunks" 1950
 		"mass" 31000
 		"drag" 53.0
 		"heat dissipation" .45
@@ -4349,6 +4559,7 @@ ship "Onager Star Destroyer"
 		"outfit space" 2438
 		"weapon capacity" 1680
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -4469,8 +4680,8 @@ ship "Praetor Mark II Battlecruiser"
 		"cost" 1200000000
 		"shields" 1700000
 		"hull" 690000
-		"required crew" 109000
-		"bunks" 250000
+		"required crew" 1910
+		"bunks" 2390
 		"mass" 86000
 		"drag" 78
 		"heat dissipation" .2
@@ -4479,6 +4690,7 @@ ship "Praetor Mark II Battlecruiser"
 		"outfit space" 5162
 		"weapon capacity" 4260
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -4608,8 +4820,8 @@ ship "Procursator Star Destroyer"
 		"cost" 75000000
 		"shields" 175000
 		"hull" 57500
-		"required crew" 15000
-		"bunks" 23000
+		"required crew" 960
+		"bunks" 1825
 		"mass" 25000
 		"drag" 48.4
 		"heat dissipation" .45
@@ -4618,6 +4830,7 @@ ship "Procursator Star Destroyer"
 		"outfit space" 2413
 		"weapon capacity" 1655
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -4692,7 +4905,7 @@ ship "Provider Container Transport"
 		"required crew" 25
 		"bunks" 50
 		"mass" 4930
-		"drag" 13.09
+		"drag" 55.48
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 180
@@ -4744,7 +4957,7 @@ ship "Provider Container Transport" "Provider Container Transport (Cargo)"
 		"required crew" 25
 		"bunks" 70
 		"mass" 6460
-		"drag" 13.26
+		"drag" 55.48
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 1000
@@ -4974,7 +5187,7 @@ ship "Raider II Corvette"
 		"required crew" 92
 		"bunks" 122
 		"mass" 1575
-		"drag" 7.5
+		"drag" 9.25
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 50
@@ -4987,7 +5200,7 @@ ship "Raider II Corvette"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"G3 Turbolaser Turret" 6
+		"G2Dual Laser Turret" 6
 		"G2 Laser Cannon" 2
 		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack" 2
@@ -5007,12 +5220,12 @@ ship "Raider II Corvette"
 	gun 14 -108 "G2 Laser Cannon"
 	gun -14 -108 "Concussion Missile Launcher"
 	gun 14 -108 "Concussion Missile Launcher"
-	turret -29.5 132 "G3 Turbolaser Turret"
-	turret 29.5 132 "G3 Turbolaser Turret"
-	turret -29 41.5 "G3 Turbolaser Turret"
-	turret 29 41.5 "G3 Turbolaser Turret"
-	turret -19 -66 "G3 Turbolaser Turret"
-	turret 19 -66 "G3 Turbolaser Turret"
+	turret -29.5 132 "G2Dual Laser Turret"
+	turret 29.5 132 "G2Dual Laser Turret"
+	turret -29 41.5 "G2Dual Laser Turret"
+	turret 29 41.5 "G2Dual Laser Turret"
+	turret -19 -66 "G2Dual Laser Turret"
+	turret 19 -66 "G2Dual Laser Turret"
 	fighter 0 63
 	fighter 0 63
 	fighter 0 63
@@ -5039,8 +5252,8 @@ ship "Secutor Star Destroyer"
 		"cost" 480000000
 		"shields" 500000
 		"hull" 135000
-		"required crew" 11000
-		"bunks" 52000
+		"required crew" 1820
+		"bunks" 2270
 		"mass" 40000
 		"drag" 60
 		"heat dissipation" .3
@@ -5049,6 +5262,7 @@ ship "Secutor Star Destroyer"
 		"outfit space" 2663
 		"weapon capacity" 1905
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -5182,7 +5396,7 @@ ship "Star Galleon Frigate"
 		"required crew" 130
 		"bunks" 350
 		"mass" 5236
-		"drag" 13.94
+		"drag" 55.48
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 400
@@ -5246,8 +5460,8 @@ ship "Strike Medium Cruiser"
 		"cost" 17000000
 		"shields" 58000
 		"hull" 24500
-		"required crew" 800
-		"bunks" 1820
+		"required crew" 380
+		"bunks" 1350
 		"mass" 8460
 		"drag" 25.2
 		"heat dissipation" .45
@@ -5331,7 +5545,7 @@ ship "Tartan Patrol Cruiser"
 		"required crew" 80
 		"bunks" 150
 		"mass" 1703
-		"drag" 7.65
+		"drag" 11.1
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 10
@@ -5450,8 +5664,8 @@ ship "Tector Star Destroyer"
 		"cost" 300000000
 		"shields" 330000
 		"hull" 90000
-		"required crew" 37035
-		"bunks" 47000
+		"required crew" 1650
+		"bunks" 2060
 		"mass" 35000
 		"drag" 56
 		"heat dissipation" .45
@@ -5460,6 +5674,7 @@ ship "Tector Star Destroyer"
 		"outfit space" 2538
 		"weapon capacity" 1780
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -5560,7 +5775,7 @@ ship "TIE/AD x1 Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -4.5 2
@@ -5614,7 +5829,7 @@ ship "TIE/AD x1 Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -4.5 2
@@ -5669,7 +5884,7 @@ ship "TIE/D Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -3 10
@@ -5728,7 +5943,7 @@ ship "TIE/D Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -3 10
@@ -5787,7 +6002,7 @@ ship "TIE/D Fighter (R)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -3 10
@@ -5846,7 +6061,7 @@ ship "TIE/D Fighter (R) (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -3 10
@@ -5861,96 +6076,6 @@ ship "TIE/D Fighter (R) (Fighter)"
 	gun 2 -1.5 "Concussion Missile Launcher"
 	explode "large explosion" 3
 	description "The TIE/D Defender is a high-performance TIE Series starfighter developed for the Imperial Navy by Sienar Fleet Systems. Representing a shift in starfighter design from previous TIE models, the ship features a hyperdrive as well as deflector shields to allow it to operate independently of Imperial capital ships. The ship's speed and agility, combined with its arsenal of four laser cannons, two ion cannons, two warhead launchers and an optional tractor beam projector make it arguably the most advanced starfighter available."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "TIE/DG Fighter"
-	sprite "ship/tiedgfighter"
-	thumbnail "thumbnail/tiedgfighter"
-	attributes
-		licenses
-			Imperial
-		category Interceptor
-		"absolute threshold" 20
-		"cost" 80000
-		"shields" 0
-		"hull" 2450
-		"required crew" 1
-		"bunks" 1
-		"mass" 20
-		"drag" .9
-		"heat dissipation" .9
-		"outfit space" 12
-		"weapon capacity" 2
-		"engine capacity" 5
-		"hullslot capacity" 1
-		weapon
-			"blast radius" 12
-			"shield damage" 120
-			"hull damage" 60
-			"hit force" 180
-	outfits
-		"GI1 Laser Cannon" 2
-		
-		"P1 Power Converter"
-		"C1 Coolant System"
-		"HH0 Hull Slot"
-		"HH1 Ferroceramic Hull"
-
-		"BI1 Sublight Engine"
-
-	gun -3 10.5
-	gun 3 10.5
-	gun -4.5 -0.5 "GI1 Laser Cannon"
-	gun 4.5 -0.5 "GI1 Laser Cannon"
-	explode "large explosion" 3
-	description "The TIE/DG Fighter, also known as the TIE dagger or the Sith TIE fighter, is a type of Sith affiliated TIE line starship that was forged in secret by forces under the command of the reborn Emperor Palpatine, along with the Xyston Star Destroyer and other new technology created by the Final Order."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "TIE/DG Fighter (Fighter)"
-	sprite "ship/tiedgfighter"
-	thumbnail "thumbnail/tiedgfighter"
-	attributes
-		licenses
-			Imperial
-		category Fighter
-		"absolute threshold" 20
-		"cost" 80000
-		"shields" 0
-		"hull" 2450
-		"required crew" 1
-		"bunks" 1
-		"mass" 20
-		"drag" .9
-		"heat dissipation" .9
-		"outfit space" 12
-		"weapon capacity" 2
-		"engine capacity" 5
-		"hullslot capacity" 1
-		weapon
-			"blast radius" 12
-			"shield damage" 120
-			"hull damage" 60
-			"hit force" 180
-	outfits
-		"GI1 Laser Cannon" 2
-		
-		"P1 Power Converter"
-		"C1 Coolant System"
-		"HH0 Hull Slot"
-		"HH1 Ferroceramic Hull"
-
-		"BI1 Sublight Engine"
-
-	gun -3 10.5
-	gun 3 10.5
-	gun -4.5 -0.5 "GI1 Laser Cannon"
-	gun 4.5 -0.5 "GI1 Laser Cannon"
-	explode "large explosion" 3
-	description "The TIE/DG Fighter, also known as the TIE dagger or the Sith TIE fighter, is a type of Sith affiliated TIE line starship that was forged in secret by forces under the command of the reborn Emperor Palpatine, along with the Xyston Star Destroyer and other new technology created by the Final Order."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -5988,7 +6113,7 @@ ship "TIE/IN Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	engine -4 11.5
 	engine 4 11.5
@@ -6035,7 +6160,7 @@ ship "TIE/IN Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	engine -4 11.5
 	engine 4 11.5
@@ -6088,7 +6213,7 @@ ship "TIE/IN Fighter (Royal Guard)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -3.5 11.5
@@ -6144,7 +6269,7 @@ ship "TIE/IN Fighter (Royal Guard) (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 
 	engine -3.5 11.5
@@ -6175,10 +6300,10 @@ ship "TIE/IT Fighter"
 		"required crew" 1
 		"bunks" 1
 		"mass" 37
-		"drag" 1.15
+		"drag" 1.35
 		"fuel capacity" 0
 		"heat dissipation" .9
-		"outfit space" 26
+		"outfit space" 25
 		"weapon capacity" 14
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -6197,7 +6322,7 @@ ship "TIE/IT Fighter"
 		"Plasma Torpedo" 6
 		"Cluster Missile Launcher" 2
 		"Cluster Missile Storage Rack" 2
-		"Cluster Missile" 76
+		"Cluster Missile" 16
 		"Advanced Homing Missile Launcher" 2
 		"Advanced Homing Missile" 6
 		
@@ -6208,7 +6333,7 @@ ship "TIE/IT Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	engine -10.5 6.5
 	engine 10.5 6.5
@@ -6243,10 +6368,10 @@ ship "TIE/IT Fighter (Fighter)"
 		"required crew" 1
 		"bunks" 1
 		"mass" 37
-		"drag" 1.15
+		"drag" 1.35
 		"fuel capacity" 0
 		"heat dissipation" .9
-		"outfit space" 26
+		"outfit space" 25
 		"weapon capacity" 14
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -6265,7 +6390,7 @@ ship "TIE/IT Fighter (Fighter)"
 		"Plasma Torpedo" 6
 		"Cluster Missile Launcher" 2
 		"Cluster Missile Storage Rack" 2
-		"Cluster Missile" 76
+		"Cluster Missile" 16
 		"Advanced Homing Missile Launcher" 2
 		"Advanced Homing Missile" 6
 		
@@ -6276,7 +6401,7 @@ ship "TIE/IT Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	engine -10.5 6.5
 	engine 10.5 6.5
@@ -6330,7 +6455,7 @@ ship "TIE/LN Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		
 	engine -2.5 2.5
 	engine 2.5 2.5
@@ -6375,7 +6500,7 @@ ship "TIE/LN Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		
 	engine -2.5 2.5
 	engine 2.5 2.5
@@ -6404,7 +6529,7 @@ ship "TIE/LN Scout Fighter"
 		"drag" 1.08
 		"heat dissipation" .9
 		"fuel capacity" 700
-		"outfit space" 13
+		"outfit space" 12
 		"weapon capacity" 2
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -6421,7 +6546,7 @@ ship "TIE/LN Scout Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -2.5 2.5
@@ -6451,7 +6576,7 @@ ship "TIE/LN Scout Fighter (Fighter)"
 		"drag" 1.08
 		"heat dissipation" .9
 		"fuel capacity" 700
-		"outfit space" 13
+		"outfit space" 12
 		"weapon capacity" 2
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -6468,7 +6593,7 @@ ship "TIE/LN Scout Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -2.5 2.5
@@ -6516,7 +6641,7 @@ ship "TIE/MG Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		
 	engine -3 0
 	engine 3 0
@@ -6563,7 +6688,7 @@ ship "TIE/MG Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		
 	engine -3 0
 	engine 3 0
@@ -6589,10 +6714,10 @@ ship "TIE/PH Fighter"
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
-		"drag" .9
+		"drag" 1.13
 		"heat dissipation" .9
 		"fuel capacity" 700
-		"outfit space" 18
+		"outfit space" 17
 		"weapon capacity" 5
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -6613,7 +6738,7 @@ ship "TIE/PH Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -3 17.5
@@ -6643,11 +6768,11 @@ ship "TIE/PH Fighter (Fighter)"
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
-		"drag" .9
+		"drag" 1.13
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"fuel capacity" 700
-		"outfit space" 18
+		"outfit space" 17
 		"weapon capacity" 5
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -6668,7 +6793,7 @@ ship "TIE/PH Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 		"H1 Hyperspace Motivator"
 		
 	engine -3 17.5
@@ -6701,8 +6826,8 @@ ship "TIE/RB Fighter"
 		"drag" 1.20
 		"fuel capacity" 0
 		"heat dissipation" .9
-		"outfit space" 26
-		"weapon capacity" 14
+		"outfit space" 14
+		"weapon capacity" 4
 		"engine capacity" 5
 		"hullslot capacity" 1
 		"shieldslot capacity" 1
@@ -6712,19 +6837,19 @@ ship "TIE/RB Fighter"
 			"hull damage" 100
 			"hit force" 220
 	outfits
-		"G1 Heavy Laser Turret (AI)" 2
+		"G1Heavy Laser Turret (AI)" 2
 		
 		"P1 Power Converter"
 		"C1 Coolant System"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	engine -0.5 7.5
 	engine 11.5 7.5
-	turret -14 0 "G1 Heavy Laser Turret (AI)"
-	turret -14 0 "G1 Heavy Laser Turret (AI)"
+	turret -14 0 "G1Heavy Laser Turret (AI)"
+	turret -14 0 "G1Heavy Laser Turret (AI)"
 	explode "large explosion" 3
 	description "The TIE/rb heavy starfighter, more formally known as the TIE reinforcement battery heavy starfighter and simply known as the TIE Brute, is a variant of the TIE line starfighters used by the Galactic Empire, distinguished by its extra pod housing more powerful laser cannons. The prototype was created by Sienar Fleet Systems in response to the Empire's expansion into the Outer Rim Territories."
 	description "Artwork/model from Flycasual"
@@ -6746,8 +6871,8 @@ ship "TIE/RB Fighter (Fighter)"
 		"drag" 1.20
 		"fuel capacity" 0
 		"heat dissipation" .9
-		"outfit space" 26
-		"weapon capacity" 14
+		"outfit space" 14
+		"weapon capacity" 4
 		"engine capacity" 5
 		"hullslot capacity" 1
 		"shieldslot capacity" 1
@@ -6757,19 +6882,19 @@ ship "TIE/RB Fighter (Fighter)"
 			"hull damage" 100
 			"hit force" 220
 	outfits
-		"G1 Heavy Laser Turret (AI)" 2
+		"G1Heavy Laser Turret (AI)" 2
 		
 		"P1 Power Converter"
 		"C1 Coolant System"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	engine -0.5 7.5
 	engine 11.5 7.5
-	turret -14 0 "G1 Heavy Laser Turret (AI)"
-	turret -14 0 "G1 Heavy Laser Turret (AI)"
+	turret -14 0 "G1Heavy Laser Turret (AI)"
+	turret -14 0 "G1Heavy Laser Turret (AI)"
 	explode "large explosion" 3
 	description "The TIE/rb heavy starfighter, more formally known as the TIE reinforcement battery heavy starfighter and simply known as the TIE Brute, is a variant of the TIE line starfighters used by the Galactic Empire, distinguished by its extra pod housing more powerful laser cannons. The prototype was created by Sienar Fleet Systems in response to the Empire's expansion into the Outer Rim Territories."
 	description "Artwork/model from Flycasual"
@@ -6793,8 +6918,8 @@ ship "TIE/RP Attack Lander"
 		"drag" 1.14
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 5
-		"outfit space" 16
+		"cargo space" 8
+		"outfit space" 15
 		"weapon capacity" 2
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -6842,8 +6967,8 @@ ship "TIE/RP Attack Lander (Fighter)"
 		"drag" 1.14
 		"heat dissipation" .7
 		"fuel capacity" 700
-		"cargo space" 5
-		"outfit space" 16
+		"cargo space" 8
+		"outfit space" 15
 		"weapon capacity" 2
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -6891,7 +7016,7 @@ ship "TIE/SA Fighter"
 		"drag" 1.20
 		"fuel capacity" 0
 		"heat dissipation" .9
-		"outfit space" 19
+		"outfit space" 18
 		"weapon capacity" 9
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -6913,7 +7038,7 @@ ship "TIE/SA Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	engine -5.5 7
 	engine 5.5 7
@@ -6946,7 +7071,7 @@ ship "TIE/SA Fighter (Fighter)"
 		"drag" 1.20
 		"fuel capacity" 0
 		"heat dissipation" .9
-		"outfit space" 19
+		"outfit space" 18
 		"weapon capacity" 9
 		"engine capacity" 5
 		"hullslot capacity" 1
@@ -6968,7 +7093,7 @@ ship "TIE/SA Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	engine -5.5 7
 	engine 5.5 7
@@ -7017,7 +7142,7 @@ ship "TIE/SK Fighter"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	gun -4.5 -25 "GI1 Laser Cannon"
 	gun 4.5 -25 "GI1 Laser Cannon"
@@ -7064,7 +7189,7 @@ ship "TIE/SK Fighter (Fighter)"
 		"HH0 Hull Slot"
 		"HH1 Ferroceramic Hull"
 
-		"BI1 Sublight Engine"
+		"I1 Sublight Engine"
 
 	gun -4.5 -25 "GI1 Laser Cannon"
 	gun 4.5 -25 "GI1 Laser Cannon"
@@ -7088,8 +7213,8 @@ ship "Ton-Falk Escort Carrier"
 		"cost" 26500000
 		"shields" 81000
 		"hull" 35500
-		"required crew" 1500
-		"bunks" 2300
+		"required crew" 440
+		"bunks" 950
 		"mass" 12300
 		"drag" 42.0
 		"heat dissipation" .45
@@ -7098,6 +7223,7 @@ ship "Ton-Falk Escort Carrier"
 		"outfit space" 1378
 		"weapon capacity" 620
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -7186,8 +7312,8 @@ ship "Tyrant Missile Cruiser"
 		"cost" 900000000
 		"shields" 1350000
 		"hull" 470000
-		"required crew" 70000
-		"bunks" 150000
+		"required crew" 1880
+		"bunks" 2375
 		"mass" 70000
 		"drag" 74.0
 		"heat dissipation" .3
@@ -7196,6 +7322,7 @@ ship "Tyrant Missile Cruiser"
 		"outfit space" 3422
 		"weapon capacity" 3280
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -7255,7 +7382,7 @@ ship "Tyrant Missile Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Based on the Kuat Drive Yards Impellor Fleet Carrier, the Compellor Battlecruiser is much more balanced in its design, making it suitable for a variety of roles. Less carrier-oriented than its cousin, the Compellor still has a respectable complement of fighters, but has a greater shields and armouring."
+	description "The Tyrant-class Missile Cruiser is a ship primarily built for pacification, suppression and blockading. It's highly sophisticated targeting systems, automation and high firepower make it an outstanding means of defence when there is enough supporting craft to cover it. The ability to create a missile grid is this ship's strongest and most unique feature. The enormous missile ring it carries is capable of a 360 degree field of attack and allows for better precision during bombardment and suppression."
 	description "Artwork/model by Fractalsponge"
 
 
@@ -7270,8 +7397,8 @@ ship "Victory I Star Destroyer"
 		"cost" 57000000
 		"shields" 150000
 		"hull" 52000
-		"required crew" 5200
-		"bunks" 14200
+		"required crew" 760
+		"bunks" 1740
 		"mass" 19000
 		"drag" 54.0
 		"heat dissipation" .45
@@ -7280,6 +7407,7 @@ ship "Victory I Star Destroyer"
 		"outfit space" 2293
 		"weapon capacity" 1535
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -7378,8 +7506,8 @@ ship "Victory II Star Destroyer"
 		"cost" 57000000
 		"shields" 150000
 		"hull" 52000
-		"required crew" 5200
-		"bunks" 14200
+		"required crew" 760
+		"bunks" 1740
 		"mass" 19000
 		"drag" 46.0
 		"heat dissipation" .45
@@ -7388,6 +7516,7 @@ ship "Victory II Star Destroyer"
 		"outfit space" 2323
 		"weapon capacity" 1565
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -7484,8 +7613,8 @@ ship "Victory II Star Destroyer (Havod)"
 		"cost" 57000000
 		"shields" 150000
 		"hull" 52000
-		"required crew" 5200
-		"bunks" 14200
+		"required crew" 760
+		"bunks" 1740
 		"mass" 19000
 		"drag" 46.0
 		"heat dissipation" .45
@@ -7494,6 +7623,7 @@ ship "Victory II Star Destroyer (Havod)"
 		"outfit space" 2323
 		"weapon capacity" 1565
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -7591,10 +7721,10 @@ ship "Vigil Corvette"
 		"cost" 8750000
 		"shields" 36900
 		"hull" 15200
-		"required crew" 200
-		"bunks" 400
+		"required crew" 330
+		"bunks" 1120
 		"mass" 4760
-		"drag" 12.24
+		"drag" 23.78
 		"heat dissipation" .45
 		"fuel capacity" 1000
 		"cargo space" 20
@@ -7656,8 +7786,8 @@ ship "Vindicator Heavy Cruiser"
 		"cost" 38000000
 		"shields" 92000
 		"hull" 40000
-		"required crew" 2551
-		"bunks" 5000
+		"required crew" 480
+		"bunks" 1600
 		"mass" 13000
 		"drag" 46.0
 		"heat dissipation" .45
@@ -7666,6 +7796,7 @@ ship "Vindicator Heavy Cruiser"
 		"outfit space" 1638
 		"weapon capacity" 880
 		"engine capacity" 550
+		"force protection" 1000000
 		weapon
 			"blast radius" 320
 			"shield damage" 1100
@@ -7750,13 +7881,13 @@ ship "VT-49 Decimator"
 		"required crew" 2
 		"bunks" 10
 		"mass" 156
-		"drag" 3.96
+		"drag" 5.45
 		"heat dissipation" .6
 		"fuel capacity" 700
-		"cargo space" 15
+		"cargo space" 60
 		"outfit space" 77
 		"weapon capacity" 16
-		"engine capacity" 20
+		"engine capacity" 22
 		weapon
 			"blast radius" 300
 			"shield damage" 700
@@ -7810,20 +7941,20 @@ ship "Zeta Cargo Shuttle"
 		"required crew" 15
 		"bunks" 30
 		"mass" 624
-		"drag" 4.8
+		"drag" 7.43
 		"heat dissipation" .45
 		"fuel capacity" 700
-		"cargo space" 120
+		"cargo space" 175
 		"outfit space" 76
 		"weapon capacity" 10
-		"engine capacity" 20
+		"engine capacity" 22
 		weapon
 			"blast radius" 300
 			"shield damage" 700
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"G2 Heavy Laser Turret" 2
+		"G2 Laser Turret" 2
 		"GI1 Laser Cannon" 2
 		
 		"P2 Power Converter"
@@ -7837,8 +7968,8 @@ ship "Zeta Cargo Shuttle"
 	engine 5.5 46.5
 	gun -9 -37.5 "GI1 Laser Cannon"
 	gun 9 -37.5 "GI1 Laser Cannon"
-	turret -26.5 -33 "G2 Heavy Laser Turret"
-	turret 26.5 -33 "G2 Heavy Laser Turret"
+	turret -26.5 -33 "G2 Laser Turret"
+	turret 26.5 -33 "G2 Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
