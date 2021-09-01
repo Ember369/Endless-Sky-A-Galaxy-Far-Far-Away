@@ -5,10 +5,10 @@ fleet "vongscoutfleet"
 		opportunistic vindictive heroic mute surveillance
 	variant 60
 		"Chaokhinh Advance Scout Ship"
-		"Yorik-et (Fighter)" 3
+		"Yorik-et (Bay)" 3
 	variant 60
 		"I'friil Suuk"
-		"Yorik-et (Fighter)" 8
+		"Yorik-et (Bay)" 10
 	variant 10
 		"Miid ro'ik"
-		"Yorik-et (Fighter)" 16
+		"Yorik-et (Bay)" 18

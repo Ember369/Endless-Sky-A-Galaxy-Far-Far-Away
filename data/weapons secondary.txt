@@ -62,6 +62,7 @@ outfit "Advanced Homing Missile Launcher"
 		"hull damage" 500
 		"hit force" 0
 		"missile strength" 30
+		"velocity override" 50
 		phasing
 	description "Advanced Homing Missile Launcher"
 
@@ -639,6 +640,56 @@ outfit "Proton Bomb Bay"
 		"missile strength" 35
 		"shield damage" 2000
 		"hull damage" 2000
+		"stream"
+	description "This launcher fires cluster munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
+
+outfit "Seismic Charge"
+	category "Ammunition"
+	cost 8000
+	thumbnail "outfit/seismiccharge"
+	"mass" .2
+	"seismiccharge capacity" -1
+	description "Seismic Charge"
+
+outfit "Seismic Charge Storage Rack"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/seismiccharge"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"seismiccharge capacity" 3
+	ammo "Seismic Charge"
+	description "Seismic Charge Storage Rack"
+
+outfit "Seismic Charge Bay"
+	category "Secondary Weapons"
+	cost 1000
+	thumbnail "outfit/seismiccharge"
+	"mass" 1
+	"outfit space" -1
+	"weapon capacity" -1
+	"gun ports" -1
+	"seismiccharge capacity" 1
+	weapon
+		sprite "projectile/seismiccharge"
+		sound "minelayer"
+		ammo "Seismic Charge"
+		icon "icon/seismiccharge"
+		"hit effect" "seismicchargeexplosion"
+		"die effect" "seismicchargeexplosion"
+		"inaccuracy" 5
+		"velocity" 0.5
+		"lifetime" 500
+		"reload" 180
+		"firing energy" 25
+		"firing heat" 1
+		"drag" 1
+		"missile strength" 35
+		"shield damage" 2000
+		"hull damage" 2000
+		"blast radius" 700
+		"no damage scaling"
 		"stream"
 	description "This launcher fires cluster munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
 

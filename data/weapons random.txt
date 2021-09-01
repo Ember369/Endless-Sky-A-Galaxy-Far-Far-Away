@@ -19,7 +19,7 @@ outfit "B1 Laser Cannon"
 	weapon
 		sprite "projectile/bluelaser/bluelaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 40
@@ -46,7 +46,7 @@ outfit "G1 Laser Cannon"
 	weapon
 		sprite "projectile/greenlaser/greenlaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 40
@@ -73,7 +73,7 @@ outfit "GI1 Laser Cannon"
 	weapon
 		sprite "projectile/greenlaser/greenlaser"
 		sound "greenlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 40
@@ -100,7 +100,7 @@ outfit "P1 Laser Cannon"
 	weapon
 		sprite "projectile/purplelaser/purplelaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 40
@@ -127,7 +127,7 @@ outfit "R1 Laser Cannon"
 	weapon
 		sprite "projectile/redlaser/redlaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 40
@@ -154,7 +154,7 @@ outfit "Y1 Laser Cannon"
 	weapon
 		sprite "projectile/yellowlaser/yellowlaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 40
@@ -184,7 +184,6 @@ outfit "I1 Ion Cannon"
 	"gun ports" -1
 	weapon
 		sprite "projectile/ionlaser/ionlaser"
-		icon "icon/ioncannon"
 		sound "redlaser"
 		"hit effect" "ion impact" 2
 		"inaccuracy" 10
@@ -218,7 +217,7 @@ outfit "G1 Burst Cannon"
 	weapon
 		sprite "projectile/greenlaser/greenlaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 40
@@ -247,7 +246,7 @@ outfit "R1 Burst Cannon"
 	weapon
 		sprite "projectile/redlaser/redlaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 40
@@ -280,7 +279,7 @@ outfit "G1 Guided Burst Cannon"
 	weapon
 		sprite "projectile/greenlaser/greenlaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 1
 		"velocity" 12
 		"lifetime" 40
@@ -309,7 +308,7 @@ outfit "R1 Guided Burst Cannon"
 	weapon
 		sprite "projectile/redlaser/redlaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 1
 		"velocity" 12
 		"lifetime" 40
@@ -342,7 +341,7 @@ outfit "G1 Rapid Fire Cannon"
 	weapon
 		sprite "projectile/greenlaser/greenlaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 24
@@ -369,7 +368,7 @@ outfit "R1 Rapid Fire Cannon"
 	weapon
 		sprite "projectile/redlaser/redlaser"
 		sound "redlaser"
-		"hit effect" "particle impact"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 24
@@ -897,18 +896,18 @@ outfit "B2 Laser Cannon"
 	"gun ports" -1
 	weapon
 		sprite "projectile/bluelaser/bluelaser2"
-		sound "particle"
-		"hit effect" "particle impact"
+		sound "redlaser"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 30
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 273
-		"hull damage" 273
+		"shield damage" 228
+		"hull damage" 228
 		cluster
 		phasing
 	description "B2 Laser Cannon"
@@ -923,18 +922,18 @@ outfit "G2 Laser Cannon"
 	"gun ports" -1
 	weapon
 		sprite "projectile/greenlaser/greenlaser2"
-		sound "particle"
-		"hit effect" "particle impact"
+		sound "redlaser"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 30
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 273
-		"hull damage" 273
+		"shield damage" 228
+		"hull damage" 228
 		cluster
 		phasing
 	description "G2 Laser Cannon"
@@ -949,18 +948,18 @@ outfit "R2 Laser Cannon"
 	"gun ports" -1
 	weapon
 		sprite "projectile/redlaser/redlaser2"
-		sound "particle"
-		"hit effect" "particle impact"
+		sound "redlaser"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 30
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 273
-		"hull damage" 273
+		"shield damage" 228
+		"hull damage" 228
 		cluster
 		phasing
 	description "R2 Laser Cannon"
@@ -975,18 +974,18 @@ outfit "Y2 Laser Cannon"
 	"gun ports" -1
 	weapon
 		sprite "projectile/yellowlaser/yellowlaser2"
-		sound "particle"
-		"hit effect" "particle impact"
+		sound "redlaser"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 30
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 273
-		"hull damage" 273
+		"shield damage" 228
+		"hull damage" 228
 		cluster
 		phasing
 	description "Y2 Laser Cannon"
@@ -1003,17 +1002,17 @@ outfit "I2 Ion Cannon"
 	"gun ports" -1
 	weapon
 		sprite "projectile/ionlaser/ionlaser2"
-		sound "particle"
-		"hit effect" "particle impact"
+		sound "redlaser"
+		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 30
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 425
+		"shield damage" 484
 		"hull damage" 0
 		"ion damage" 6
 		cluster
@@ -1042,11 +1041,11 @@ outfit "B2 Laser Turret"
 		"turret turn" 3
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 273
-		"hull damage" 273
+		"shield damage" 228
+		"hull damage" 228
 		phasing
 	description "B2 Laser Turret"
 
@@ -1069,11 +1068,11 @@ outfit "G2 Laser Turret"
 		"turret turn" 3
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 273
-		"hull damage" 273
+		"shield damage" 228
+		"hull damage" 228
 		phasing
 	description "G2 Laser Turret"
 
@@ -1096,11 +1095,11 @@ outfit "R2 Laser Turret"
 		"turret turn" 3
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 273
-		"hull damage" 273
+		"shield damage" 228
+		"hull damage" 228
 		phasing
 	description "R2 Laser Turret"
 
@@ -1123,14 +1122,43 @@ outfit "Y2 Laser Turret"
 		"turret turn" 3
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 273
-		"hull damage" 273
+		"shield damage" 228
+		"hull damage" 228
 		phasing
 	description "Y2 Laser Turret"
 
+
+
+outfit "I2 Ion Turret"
+	category "Turrets"
+	cost 3000
+	thumbnail "outfit/t2 weaponry/i2 ionturret"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/ionlaser/ionlaser2"
+		"hardpoint sprite" "hardpoint/r1 laser turret"
+		"hardpoint offset" 9.
+		sound "redlaser"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 10
+		"turret turn" 3
+		"velocity" 12
+		"lifetime" 50
+		"reload" 90
+		"firing energy" 30
+		"firing heat" .8
+		"shield damage" 484
+		"hull damage" 0
+		"ion damage" 6
+		phasing
+	description "I2 Ion Turret"
 
 
 
@@ -1153,11 +1181,11 @@ outfit "B2Heavy Laser Turret"
 		"turret turn" 2.5
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 33
 		"firing heat" .85
-		"shield damage" 277
-		"hull damage" 277
+		"shield damage" 231
+		"hull damage" 231
 		phasing
 	description "B2Heavy Laser Turret"
 
@@ -1180,11 +1208,11 @@ outfit "R2Heavy Laser Turret"
 		"turret turn" 2.5
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 33
 		"firing heat" .85
-		"shield damage" 277
-		"hull damage" 277
+		"shield damage" 231
+		"hull damage" 231
 		phasing
 	description "R2Heavy Laser Turret"
 
@@ -1207,11 +1235,11 @@ outfit "G2Heavy Laser Turret"
 		"turret turn" 2.5
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 33
 		"firing heat" .85
-		"shield damage" 277
-		"hull damage" 277
+		"shield damage" 231
+		"hull damage" 231
 		phasing
 	description "G2Heavy Laser Turret"
 
@@ -1234,11 +1262,11 @@ outfit "Y2Heavy Laser Turret"
 		"turret turn" 2.5
 		"velocity" 12
 		"lifetime" 50
-		"reload" 120
+		"reload" 100
 		"firing energy" 33
 		"firing heat" .85
-		"shield damage" 277
-		"hull damage" 277
+		"shield damage" 231
+		"hull damage" 231
 		phasing
 	description "Y2Heavy Laser Turret"
 
@@ -1265,11 +1293,11 @@ outfit "R2Dual Laser Turret"
 		"turret turn" 2
 		"velocity" 12
 		"lifetime" 90
-		"reload" 120
+		"reload" 100
 		"firing energy" 35
 		"firing heat" .9
-		"shield damage" 280
-		"hull damage" 280
+		"shield damage" 233
+		"hull damage" 233
 		phasing
 	description "R2Dual Laser Turret"
 
@@ -1292,11 +1320,11 @@ outfit "G2Dual Laser Turret"
 		"turret turn" 2
 		"velocity" 12
 		"lifetime" 90
-		"reload" 120
+		"reload" 100
 		"firing energy" 35
 		"firing heat" .9
-		"shield damage" 280
-		"hull damage" 280
+		"shield damage" 233
+		"hull damage" 233
 		phasing
 	description "G2Dual Laser Turret"
 
@@ -1319,11 +1347,11 @@ outfit "B2Dual Laser Turret"
 		"turret turn" 2
 		"velocity" 12
 		"lifetime" 90
-		"reload" 120
+		"reload" 100
 		"firing energy" 35
 		"firing heat" .9
-		"shield damage" 280
-		"hull damage" 280
+		"shield damage" 233
+		"hull damage" 233
 		phasing
 	description "B2Dual Laser Turret"
 
@@ -1461,7 +1489,6 @@ outfit "I4 Ion Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/ionlaser/ionlaser3"
-		icon "icon/ionturret"
 		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hardpoint offset" 9.
 		sound "redlaser"
@@ -1496,8 +1523,8 @@ outfit "M4 Mass-Driver Battery"
 		"hit effect" "blaster impact"
 		"inaccuracy" 9
 		"turret turn" 0.5
-		"velocity" 12
-		"lifetime" 170
+		"velocity" 10
+		"lifetime" 204
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
@@ -1828,7 +1855,7 @@ outfit "Composite Beam Laser (B6)"
 	"outfit space" -1
 	"weapon capacity" -1
 	"gun ports" -1
-	"compositebeamlaserb6 capacity" 1
+	"compositebeamlaserb6 capacity" -1
 	weapon
 		sprite "projectile/compositebeamlaserb6"
 			"frame rate" 1
@@ -1867,7 +1894,7 @@ outfit "Proximity Mine"
 		"reload" 1
 		"firing energy" 0
 		"firing heat" 0
-		"blast radius" 100
+		"trigger radius" 100
 		"trigger radius" 105
 		"shield damage" 3000
 		"hull damage" 3000

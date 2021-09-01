@@ -9,13 +9,13 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 outfit "H0 Hyperdrive Capacity"
-	category "Systems"
+	category "Hyperdrive"
 	"hyperdrive capacity" 1
 	unplunderable 1
 	description "NOT AN OUTFIT, JUST NEEDED TO REMOVE AN ERROR."
 
 outfit "H0 Hyperdrive Slot"
-	category "Systems"
+	category "Hyperdrive"
 	cost 0
 	thumbnail "outfit/hyperdrive/hyperdrive slot"
 	"mass" 0
@@ -25,7 +25,7 @@ outfit "H0 Hyperdrive Slot"
 	description "H0 Hyperdrive Slot"
 
 outfit "Hyperspace Docking Ring"
-	category "Systems"
+	category "Hyperdrive"
 	cost 5000
 	thumbnail "outfit/hyperdrive/hyperspacedockingring"
 	"mass" 2
@@ -41,18 +41,18 @@ outfit "Hyperspace Docking Ring"
 		"hardpoint sprite" "ship/hyperspacedockingring"
 
 outfit "H1 Hyperspace Motivator"
-	category "Systems"
+	category "Hyperdrive"
 	cost 5000
 	thumbnail "outfit/hyperdrive/hyperdrivet1"
 	"mass" 1
 	"outfit space" -1
-	"jump speed" 1
+	"jump speed" 0.5
 	"jump fuel" 10
 	"hyperdrive" 1
 	description "H1 Hyperspace Motivator"
 
 outfit "H2 Hyperspace Motivator"
-	category "Systems"
+	category "Hyperdrive"
 	cost 21000
 	thumbnail "outfit/hyperdrive/hyperdrivet2"
 	"mass" 4
@@ -63,7 +63,7 @@ outfit "H2 Hyperspace Motivator"
 	description "H2 Hyperspace Motivator"
 
 outfit "H3 Hyperspace Motivator"
-	category "Systems"
+	category "Hyperdrive"
 	cost 32000
 	thumbnail "outfit/hyperdrive/hyperdrivet3"
 	"mass" 6
@@ -74,7 +74,7 @@ outfit "H3 Hyperspace Motivator"
 	description "H3 Hyperspace Motivator"
 
 outfit "H4 Hyperspace Motivator"
-	category "Systems"
+	category "Hyperdrive"
 	cost 50000
 	thumbnail "outfit/hyperdrive/hyperdrivet4"
 	"mass" 9
@@ -85,7 +85,7 @@ outfit "H4 Hyperspace Motivator"
 	description "H4 Hyperspace Motivator"
 
 outfit "H4.5 Hyperspace Motivator"
-	category "Systems"
+	category "Hyperdrive"
 	cost 70000
 	thumbnail "outfit/hyperdrive/hyperdrivet4_5"
 	"mass" 12
@@ -96,18 +96,18 @@ outfit "H4.5 Hyperspace Motivator"
 	description "H4.5 Hyperspace Motivator"
 
 outfit "H5 Hyperspace Motivator"
-	category "Systems"
+	category "Hyperdrive"
 	cost 110000
 	thumbnail "outfit/hyperdrive/hyperdrivet5"
 	"mass" 18
 	"outfit space" -18
-	"jump speed" .3
+	"jump speed" .1
 	"jump fuel" 10
 	"hyperdrive" 1
 	description "H5 Hyperspace Motivator"
 
 outfit "H9 Hyperspace Motivator"
-	category "Systems"
+	category "Hyperdrive"
 	cost 5000
 	thumbnail "outfit/hyperdrive/hyperdrivet9"
 	"mass" 1

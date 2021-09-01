@@ -12,7 +12,7 @@ ship "A/SF-03 B-Wing"
 	sprite "outfit/unknown"
 	thumbnail "outfit/unknown"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 240000
 		"shields" 3280
@@ -67,11 +67,11 @@ ship "A/SF-03 B-Wing"
 
 
 
-ship "A/SF-03 B-Wing (Fighter)"
+ship "A/SF-03 B-Wing (Bay)"
 	sprite "outfit/unknown"
 	thumbnail "outfit/unknown"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 240000
 		"shields" 3280
@@ -130,7 +130,7 @@ ship "BTA-NR2 Y-Wing"
 	sprite "outfit/unknown"
 	thumbnail outfit/unknown
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 155000
 		shields 1680
@@ -184,11 +184,11 @@ ship "BTA-NR2 Y-Wing"
 
 
 
-ship "BTA-NR2 Y-Wing (Fighter)"
+ship "BTA-NR2 Y-Wing (Bay)"
 	sprite outfit/unknown
 	thumbnail outfit/unknown
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 155000
 		shields 1680
@@ -239,53 +239,6 @@ ship "BTA-NR2 Y-Wing (Fighter)"
 	explode "large explosion" 3
 	description "The BTA-NR2 Y-wing starfighter is a variant of the Y-wing starfighter produced by Koensayr Manufacturing, used by the New Republic and the Resistance. The BTA-NR2 Y-wing is marketed as 'the starfighter that broke the Empire's back' and is sold to the New Republic, all while keeping in line with treaty restrictions. With the rise of the First Order, however, the Resistance has obtained BTA-NR2 Y-wings, modifying them past prohibitions to be more effective."
 	description "Artwork/model by (INSERT)"
-
-
-
-ship "Fireball"
-	sprite ship/fireball
-	thumbnail thumbnail/fireball
-	attributes
-		category Interceptor
-		"absolute threshold" 20
-		cost 170000
-		shields 0
-		hull 4800
-		"required crew" 1
-		bunks 1
-		mass 21
-		drag 0.83
-		"heat dissipation" 0.8
-		"fuel capacity" 700
-		"outfit space" 14
-		"weapon capacity" 2
-		"engine capacity" 5
-		"hullslot capacity" 1
-		"astromechsocket capacity" 1
-		weapon
-			"blast radius" 40
-			"shield damage" 320
-			"hull damage" 170
-			"hit force" 460
-	outfits
-		"R1 Laser Cannon" 2
-
-		"P1 Power Converter"
-		"C1 Coolant System"
-		"HH0 Hull Slot"
-		"HH1 Ferroceramic Hull"
-		"A0 Astromech Socket"
-
-		"B1 Sublight Engine"
-		"H1 Hyperspace Motivator"
-
-	engine -8 9.5
-	engine 8 9.5
-	gun -16.5 -8 "R1 Laser Cannon"
-	gun 16.5 -8 "R1 Laser Cannon"
-	explode "large explosion" 3
-	description "The Fireball was an old racer that Team Fireball tried to restore in their repair shop on the Colossus, a refueling station on the planet Castilon. It was given its name because of its tendency to burst into flames and/or explode."
-	description "Artwork/model from FlyCasual"
 
 
 
@@ -293,7 +246,7 @@ ship "RZ2 A-Wing"
 	sprite "ship/rz2awingblue"
 	thumbnail "thumbnail/rz2awingblue"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 185000
 		"shields" 1680
@@ -345,11 +298,11 @@ ship "RZ2 A-Wing"
 
 
 
-ship "RZ2 A-Wing (Fighter)"
+ship "RZ2 A-Wing (Bay)"
 	sprite "ship/rz2awingblue"
 	thumbnail "thumbnail/rz2awingblue"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 185000
 		"shields" 1680
@@ -405,7 +358,7 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (R)"
 	sprite "ship/rz2awingred"
 	thumbnail "thumbnail/rz2awingred"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 185000
 		"shields" 1680
@@ -457,11 +410,11 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (R)"
 
 
 
-ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (R) (Fighter)"
+ship "RZ2 A-Wing (Bay)" "RZ2 A-Wing (R) (Bay)"
 	sprite "ship/rz2awingred"
 	thumbnail "thumbnail/rz2awingred"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 185000
 		"shields" 1680
@@ -517,7 +470,7 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (G)"
 	sprite "ship/rz2awinggreen"
 	thumbnail "thumbnail/rz2awinggreen"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 185000
 		"shields" 1680
@@ -569,11 +522,11 @@ ship "RZ2 A-Wing" "RZ2 A-Wing (G)"
 
 
 
-ship "RZ2 A-Wing (Fighter)" "RZ2 A-Wing (G) (Fighter)"
+ship "RZ2 A-Wing (Bay)" "RZ2 A-Wing (G) (Bay)"
 	sprite "ship/rz2awinggreen"
 	thumbnail "thumbnail/rz2awinggreen"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 185000
 		"shields" 1680
@@ -629,7 +582,7 @@ ship "T-70 X-Wing"
 	sprite ship/t70xwingblue
 	thumbnail thumbnail/t70xwingblue
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 170000
 		shields 1680
@@ -681,11 +634,11 @@ ship "T-70 X-Wing"
 
 
 
-ship "T-70 X-Wing (Fighter)"
+ship "T-70 X-Wing (Bay)"
 	sprite ship/t70xwingblue
 	thumbnail thumbnail/t70xwingblue
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 170000
 		shields 1680
@@ -737,11 +690,11 @@ ship "T-70 X-Wing (Fighter)"
 
 
 
-ship  "T-70 X-Wing" "T-70 X-Wing (Bl)"
+ship "T-70 X-Wing" "T-70 X-Wing (Bl)"
 	sprite ship/t70xwingblack
 	thumbnail thumbnail/t70xwingblack
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 170000
 		shields 1680
@@ -793,11 +746,11 @@ ship  "T-70 X-Wing" "T-70 X-Wing (Bl)"
 
 
 
-ship "T-70 X-Wing" "T-70 X-Wing (Bl) (Fighter)"
+ship "T-70 X-Wing" "T-70 X-Wing (Bl) (Bay)"
 	sprite ship/t70xwingblack
 	thumbnail thumbnail/t70xwingblack
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 170000
 		shields 1680
@@ -853,7 +806,7 @@ ship "T-85 X-Wing"
 	sprite ship/t85xwing
 	thumbnail thumbnail/t85xwing
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 190000
 		shields 1720
@@ -905,11 +858,11 @@ ship "T-85 X-Wing"
 
 
 
-ship "T-85 X-Wing (Fighter)"
+ship "T-85 X-Wing (Bay)"
 	sprite ship/t85xwing
 	thumbnail thumbnail/t85xwing
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 190000
 		shields 1720
@@ -965,7 +918,7 @@ ship "MG-100 Starfortress SF-17"
 	sprite "ship/mg100starfortressblue"
 	thumbnail "thumbnail/mg100starfortressblue"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 350000
 		"shields" 2400
@@ -1029,7 +982,7 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (w/out)"
 	sprite "ship/mg100starfortressblue"
 	thumbnail "thumbnail/mg100starfortressblue"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 350000
 		"shields" 2400
@@ -1092,7 +1045,7 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (R)"
 	sprite "ship/mg100starfortressred"
 	thumbnail "thumbnail/mg100starfortressred"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 350000
 		"shields" 2400
@@ -1156,7 +1109,7 @@ ship "MG-100 Starfortress SF-17" "MG-100 Starfortress SF-17 (R) (w/out)"
 	sprite "ship/mg100starfortressred"
 	thumbnail "thumbnail/mg100starfortressred"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 350000
 		"shields" 2400
@@ -1219,7 +1172,7 @@ ship "Free Virgillia Bunkerbuster"
 	sprite "ship/freevirgilliabunkerbuster"
 	thumbnail "thumbnail/freevirgilliabunkerbuster"
 	attributes
-		category "Medium Warship"
+		category "Frigate "
 		"cost" 16200000
 		"shields" 50000
 		"hull" 20000
@@ -1273,12 +1226,12 @@ ship "Free Virgillia Bunkerbuster"
 	turret 258 -272 "R3 Turbolaser Turret"
 	turret -218 -276.5 "R3 Turbolaser Turret"
 	turret 218 -276.5 "R3 Turbolaser Turret"
-	fighter 0 41.5
-	fighter 0 41.5
-	fighter 0 41.5
-	fighter 0 41.5
-	fighter 0 41.5
-	fighter 0 41.5
+	bay "Starfighter (Bay) " 0 41.5
+	bay "Starfighter (Bay) " 0 41.5
+	bay "Starfighter (Bay) " 0 41.5
+	bay "Starfighter (Bay) " 0 41.5
+	bay "Starfighter (Bay) " 0 41.5
+	bay "Starfighter (Bay) " 0 41.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1294,13 +1247,13 @@ ship "AAL Troop Transport"
 	sprite "ship/aaltrooptransport"
 	thumbnail "thumbnail/aaltrooptransport"
 	attributes
-		category "Transport"
+		category "Gunship "
 		"cost" 90000
 		"shields" 1350
 		"hull" 6200
 		"required crew" 2
 		"bunks" 22
-		"mass" 33
+		"mass" 40
 		"drag" 1.96
 		"heat dissipation" .7
 		"fuel capacity" 700
@@ -1338,13 +1291,117 @@ ship "AAL Troop Transport"
 
 
 
+ship "TIE/BA Interceptor"
+	sprite "ship/tiebainterceptor"
+	thumbnail "thumbnail/tiebainterceptor"
+	"never disabled"
+	attributes
+		category "Starfighter "
+		"cost" 175000
+		"shields" 840
+		"hull" 2580
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .90
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"GI1 Laser Cannon" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"I1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -3 10.5
+	engine 3 10.5
+	gun -12.5 -16 "GI1 Laser Cannon"
+	gun 12.5 -16 "GI1 Laser Cannon"
+	gun -12.5 -16 "GI1 Laser Cannon"
+	gun 12.5 -16 "GI1 Laser Cannon"
+	gun -2.5 1.5 "Concussion Missile Launcher"
+	gun 2.5 1.5 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	description "The TIE/ba Baron Space Superiority Interceptor is a class of interceptor that is manufactured by Sienar-Jaemus Fleet Systems for the First Order. The TIE Baron is equipped with a hyperdrive due to the First Order equipping its higher-end models with modern technology, and its all-crimson design suggests the pilot's skills far surpass those of the Special Forces TIE pilots, who fly in ships adorned with a red stripe only."
+
+
+
+ship "TIE/BA Interceptor (Bay)"
+	sprite "ship/tiebainterceptor"
+	thumbnail "thumbnail/tiebainterceptor"
+	"never disabled"
+	attributes
+		category "Starfighter (Bay) "
+		"cost" 175000
+		"shields" 840
+		"hull" 2580
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .90
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"GI1 Laser Cannon" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"I1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -3 10.5
+	engine 3 10.5
+	gun -12.5 -16 "GI1 Laser Cannon"
+	gun 12.5 -16 "GI1 Laser Cannon"
+	gun -12.5 -16 "GI1 Laser Cannon"
+	gun 12.5 -16 "GI1 Laser Cannon"
+	gun -2.5 1.5 "Concussion Missile Launcher"
+	gun 2.5 1.5 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	description "The TIE/ba Baron Space Superiority Interceptor is a class of interceptor that is manufactured by Sienar-Jaemus Fleet Systems for the First Order. The TIE Baron is equipped with a hyperdrive due to the First Order equipping its higher-end models with modern technology, and its all-crimson design suggests the pilot's skills far surpass those of the Special Forces TIE pilots, who fly in ships adorned with a red stripe only."
+
+
+
 ship "TIE/DG Fighter"
 	sprite "ship/tiedgfighter"
 	thumbnail "thumbnail/tiedgfighter"
 	attributes
-		licenses
-			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 80000
 		"shields" 0
@@ -1385,13 +1442,11 @@ ship "TIE/DG Fighter"
 
 
 
-ship "TIE/DG Fighter (Fighter)"
+ship "TIE/DG Fighter (Bay)"
 	sprite "ship/tiedgfighter"
 	thumbnail "thumbnail/tiedgfighter"
 	attributes
-		licenses
-			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 80000
 		"shields" 0
@@ -1436,7 +1491,7 @@ ship "TIE/FO Fighter"
 	sprite "ship/tiefofighter"
 	thumbnail "thumbnail/tiefofighter"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 90000
 		"shields" 720
@@ -1468,21 +1523,21 @@ ship "TIE/FO Fighter"
 
 		"I1 Sublight Engine"
 		
-	engine -7 10
-	engine 7 9
-	gun -3 -11 "GI1 Laser Cannon"
-	gun 4 -11 "GI1 Laser Cannon"
+	engine -4 5
+	engine 4 5
+	gun -3 -5.5 "GI1 Laser Cannon"
+	gun 3 -5.5 "GI1 Laser Cannon"
 	explode "large explosion" 3
 	description "The TIE/fo space superiority fighter is a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carries the appearance of its predecessor, the TIE/ln space superiority starfighter, though it features internal advancements that provide it with greater defensive capabilities."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "TIE/FO Fighter (Fighter)"
+ship "TIE/FO Fighter (Bay)"
 	sprite "ship/tiefofighter"
 	thumbnail "thumbnail/tiefofighter"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 90000
 		"shields" 720
@@ -1514,13 +1569,135 @@ ship "TIE/FO Fighter (Fighter)"
 
 		"I1 Sublight Engine"
 		
-	engine -7 10
-	engine 7 9
-	gun -3 -11 "GI1 Laser Cannon"
-	gun 4 -11 "GI1 Laser Cannon"
+	engine -4 5
+	engine 4 5
+	gun -3 -5.5 "GI1 Laser Cannon"
+	gun 3 -5.5 "GI1 Laser Cannon"
 	explode "large explosion" 3
 	description "The TIE/fo space superiority fighter is a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carries the appearance of its predecessor, the TIE/ln space superiority starfighter, though it features internal advancements that provide it with greater defensive capabilities."
 	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "TIE/SE Bomber"
+	sprite "ship/tiesebomber"
+	thumbnail "thumbnail/tiesebomber"
+	attributes
+		licenses
+			Imperial
+		category "Starfighter "
+		"absolute threshold" 20
+		"cost" 260000
+		"shields" 01850
+		"hull" 4900
+		"required crew" 1
+		"bunks" 1
+		"mass" 37
+		"drag" 1.35
+		"fuel capacity" 0
+		"heat dissipation" .9
+		"outfit space" 21
+		"weapon capacity" 10
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+
+		weapon
+			"blast radius" 14
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 200
+	outfits
+		"GI1 Laser Cannon" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"I1 Sublight Engine"
+
+	engine -5.5 -5
+	engine 5.5 -5
+	gun -18 -28 "GI1 Laser Cannon"
+	gun 18 -28 "GI1 Laser Cannon"
+	gun -18 -28 "GI1 Laser Cannon"
+	gun 18 -28 "GI1 Laser Cannon"
+	gun -5.5 -21.5 "Concussion Missile Launcher"
+	gun -5.5 -21.5 "Concussion Missile Launcher"
+	gun -5.5 -21.5 "Proton Torpedo Launcher"
+	gun -5.5 -21.5 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The TIE/SE Bomber, also known as the First Order TIE bomber, is a class of TIE line bomber using by the First Order during its war with the Resistance."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "TIE/SE Bomber (Bay)"
+	sprite "ship/tiesebomber"
+	thumbnail "thumbnail/tiesebomber"
+	attributes
+		licenses
+			Imperial
+		category "Starfighter (Bay) "
+		"absolute threshold" 20
+		"cost" 260000
+		"shields" 01850
+		"hull" 4900
+		"required crew" 1
+		"bunks" 1
+		"mass" 37
+		"drag" 1.35
+		"fuel capacity" 0
+		"heat dissipation" .9
+		"outfit space" 21
+		"weapon capacity" 10
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+
+		weapon
+			"blast radius" 14
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 200
+	outfits
+		"GI1 Laser Cannon" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
+		"Proton Torpedo Launcher" 2
+		"Proton Torpedo" 6
+
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+
+		"I1 Sublight Engine"
+
+	engine -5.5 -5
+	engine 5.5 -5
+	gun -18 -28 "GI1 Laser Cannon"
+	gun 18 -28 "GI1 Laser Cannon"
+	gun -18 -28 "GI1 Laser Cannon"
+	gun 18 -28 "GI1 Laser Cannon"
+	gun -5.5 -21.5 "Concussion Missile Launcher"
+	gun -5.5 -21.5 "Concussion Missile Launcher"
+	gun -5.5 -21.5 "Proton Torpedo Launcher"
+	gun -5.5 -21.5 "Proton Torpedo Launcher"
+	explode "large explosion" 3
+	description "The TIE/SE Bomber, also known as the First Order TIE bomber, is a class of TIE line bomber using by the First Order during its war with the Resistance."
+	description "Artwork/model by Unusualsuspex" 
 
 
 
@@ -1528,7 +1705,7 @@ ship "TIE/SF Fighter"
 	sprite "ship/tiesffighter"
 	thumbnail "thumbnail/tiesffighter"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 130000
 		"shields" 800
@@ -1563,12 +1740,12 @@ ship "TIE/SF Fighter"
 
 		"I1 Sublight Engine"
 		
-	engine -10 10
-	engine 10 10
-	gun -5 -14 "GI1 Laser Cannon"
-	gun 6 -14 "GI1 Laser Cannon"
-	gun -8 -8 "Concussion Missile Launcher"
-	gun 9 -8 "Concussion Missile Launcher"
+	engine -5 5.5
+	engine 5 5.5
+	gun -4 -5 "GI1 Laser Cannon"
+	gun 4 -5 "GI1 Laser Cannon"
+	gun -4 -5 "Concussion Missile Launcher"
+	gun 4 -5 "Concussion Missile Launcher"
 	turret 0 0 "G1U Laser Turret"
 	explode "large explosion" 3
 	description "The TIE/sf space superiority fighter is a starfighter model used by the First Order, a specialised version of the TIE/fo space superiority fighter. It is a two-seater unlike the previous TIE models, and is outfitted with enhanced weapons and sensor systems as well as hyperdrives and deflector shields. The TIE/sf is reserved for members of the First Order's elite Special Forces. On the lower side of the vehicle, directly below the primary fuel tank, is a turret containing a pair of heavy laser cannons and a mag-pulse warhead launcher."
@@ -1576,11 +1753,11 @@ ship "TIE/SF Fighter"
 
 
 
-ship "TIE/SF Fighter (Fighter)"
+ship "TIE/SF Fighter (Bay)"
 	sprite "ship/tiesffighter"
 	thumbnail "thumbnail/tiesffighter"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 130000
 		"shields" 800
@@ -1615,12 +1792,12 @@ ship "TIE/SF Fighter (Fighter)"
 
 		"I1 Sublight Engine"
 		
-	engine -10 10
-	engine 10 10
-	gun -5 -14 "GI1 Laser Cannon"
-	gun 6 -14 "GI1 Laser Cannon"
-	gun -8 -8 "Concussion Missile Launcher"
-	gun 9 -8 "Concussion Missile Launcher"
+	engine -5 5.5
+	engine 5 5.5
+	gun -4 -5 "GI1 Laser Cannon"
+	gun 4 -5 "GI1 Laser Cannon"
+	gun -4 -5 "Concussion Missile Launcher"
+	gun 4 -5 "Concussion Missile Launcher"
 	turret 0 0 "G1U Laser Turret"
 	explode "large explosion" 3
 	description "The TIE/sf space superiority fighter is a starfighter model used by the First Order, a specialised version of the TIE/fo space superiority fighter. It is a two-seater unlike the previous TIE models, and is outfitted with enhanced weapons and sensor systems as well as hyperdrives and deflector shields. The TIE/sf is reserved for members of the First Order's elite Special Forces. On the lower side of the vehicle, directly below the primary fuel tank, is a turret containing a pair of heavy laser cannons and a mag-pulse warhead launcher."
@@ -1632,7 +1809,7 @@ ship "Resurgent Star Destroyer"
 	sprite "ship/resurgentdestroyer"
 	thumbnail "thumbnail/resurgentdestroyer"
 	attributes
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 740000000
 		"shields" 860000
 		"hull" 224000
@@ -1702,50 +1879,28 @@ ship "Resurgent Star Destroyer"
 	turret 141.5 -1167.5 "G4Dual Turbolaser Turret"
 	turret -171.5 -1516.5 "G4Dual Turbolaser Turret"
 	turret 171.5 -1516.5 "G4Dual Turbolaser Turret"
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
-	fighter 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
+	bay "Starfighter (Bay) " 0 566
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1761,7 +1916,7 @@ ship "Mandator IV Siege Dreadnought"
 	sprite "ship/mandatorivdreadnought"
 	thumbnail "thumbnail/mandatorivdreadnought"
 	attributes
-		category "Heavy Warship"
+		category "Dreadnought "
 		"cost" 1940000000
 		"shields" 2500000
 		"hull" 1040000
@@ -1835,70 +1990,32 @@ ship "Mandator IV Siege Dreadnought"
 	turret 146 -2657 "G6Octuple Turbolaser Turret"
 	turret -150 -3583 "G6Octuple Turbolaser Turret"
 	turret 150 -3583 "G6Octuple Turbolaser Turret"
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1907,3 +2024,319 @@ ship "Mandator IV Siege Dreadnought"
 	"final explode" "final explosion large"
 	description "The Mandator IV Siege Dreadnought is a model of Siege Dreadnought used by the First Order during their conflict with the Resistance. The Mandator IV is armed with two orbital autocannons that could fire a salvo of two rounds each in quick succession before a recharge was needed."
 	description "Artwork/model by Nomada_Firefox"
+
+
+
+
+
+
+
+
+
+ship "Fireball"
+	sprite ship/fireball
+	thumbnail thumbnail/fireball
+	attributes
+		category "Starfighter "
+		"absolute threshold" 20
+		cost 170000
+		shields 0
+		hull 4800
+		"required crew" 1
+		bunks 1
+		mass 21
+		drag 0.83
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 2
+
+		"P1 Power Converter"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"B1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+	engine -8 9.5
+	engine 8 9.5
+	gun -16.5 -8 "R1 Laser Cannon"
+	gun 16.5 -8 "R1 Laser Cannon"
+	explode "large explosion" 3
+	description "The Fireball was an old racer that Team Fireball tried to restore in their repair shop on the Colossus, a refueling station on the planet Castilon. It was given its name because of its tendency to burst into flames and/or explode."
+	description "Artwork/model from FlyCasual" 
+
+ship "Black Ace"
+	sprite "ship/blackace"
+	thumbnail "thumbnail/blackace"
+	"never disabled"
+	attributes
+		category "Starfighter "
+		"cost" 175000
+		"shields" 0
+		"hull" 4800
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 0.83
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"G1 Laser Cannon" 2
+		"I1 Ion Cannon" 2
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+		
+		"B1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine 0 19
+	engine -9 19
+	engine 9 19
+	gun -10 9 "I1 Ion Cannon"
+	gun 10 9 "I1 Ion Cannon"
+	gun -6 -4.5 "G1 Laser Cannon"
+	gun 6 -4.5 "G1 Laser Cannon"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Black Ace is a modified TIE/ln space superiority starfighter piloted by Griff Halloran. Halloran uses it both as a racer and in the defence of the Colossus."
+
+
+
+ship "Blue Ace"
+	sprite "ship/blueace"
+	thumbnail "thumbnail/blueace"
+	"never disabled"
+	attributes
+		category "Starfighter "
+		"cost" 170000
+		"shields" 0
+		"hull" 4800
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 0.83
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R1 Laser Cannon" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+		
+		"O1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -4.5 19.5
+	engine 4.5 19.5
+	gun -2 -20 "Concussion Missile Launcher"
+	gun 2 -20 "Concussion Missile Launcher"
+	gun -2 -20 "R1 Laser Cannon"
+	gun 2 -20 "R1 Laser Cannon"
+	gun -14 -6.5 "R1 Laser Cannon"
+	gun 14 -6.5 "R1 Laser Cannon"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Blue Ace is a custom-built starship piloted by Torra Doza. It can hold an astromech droid and is able to change the power of its laserblasts. Doza uses it in several races and missions."
+
+
+
+ship "Green Ace"
+	sprite "ship/greenace"
+	thumbnail "thumbnail/greenace"
+	"never disabled"
+	attributes
+		category "Starfighter "
+		"cost" 170000
+		"shields" 0
+		"hull" 4800
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 0.83
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R1 Laser Cannon" 2
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+		
+		"O1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -4 19.5
+	engine 4 19.5
+	gun -17.5 -4 "R1 Laser Cannon"
+	gun 17.5 -4 "R1 Laser Cannon"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Green Ace is a modified G30 ship piloted by Hype Fazon. The racer's wings can shift angles for maximum manoeuvrability while flying. It is plastered with the logos of Fazon's sponsors. The two largest are painted on each wing, and include inscriptions in Aurebesh: 'Outer Rim Supply Co' on the left wing, and 'Craft Repair and Maintenance' on the right wing."
+
+
+
+
+ship "Red Ace"
+	sprite "ship/redace"
+	thumbnail "thumbnail/redace"
+	"never disabled"
+	attributes
+		category "Starfighter "
+		"cost" 175000
+		"shields" 0
+		"hull" 4800
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 0.83
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R1 Laser Cannon" 4
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+		
+		"B1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -4 19
+	engine 4 19
+	gun -3 -19.5 "R1 Laser Cannon"
+	gun 3 -19.5 "R1 Laser Cannon"
+	gun -17 -5.5 "R1 Laser Cannon"
+	gun 17 -5.5 "R1 Laser Cannon"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Red Ace is a starship piloted by Freya Fenris. Freya Fenris took inspiration from Kuat Systems Engineering's A-wing starfighter line, incorporating wings with laser cannons for better stability and firepower."
+
+
+
+ship "Yellow Ace"
+	sprite "ship/yellowace"
+	thumbnail "thumbnail/yellowace"
+	"never disabled"
+	attributes
+		category "Starfighter "
+		"cost" 175000
+		"shields" 0
+		"hull" 4800
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 0.83
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 14
+		"weapon capacity" 2
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"R1 Laser Cannon" 2
+		
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+		
+		"B1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+
+
+	engine -5 4.5
+	engine 5 4.5
+	engine 0 11.5
+	gun -1.5 -13 "R1 Laser Cannon"
+	gun 1.5 -13 "R1 Laser Cannon"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Yellow Ace is a ship piloted by Bo Keevil, who performs stunts and tricks while flying it. It is a complex ship to fly, with wings that can shift into a variety of configurations. Keevil often crashed the ship."

@@ -12,7 +12,7 @@ ship "Annihilator Starfighter"
 	sprite "ship/annihilatorstarfighter"
 	thumbnail "thumbnail/annihilatorstarfighter"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 185000
 		"shields" 1680
@@ -62,11 +62,11 @@ ship "Annihilator Starfighter"
 
 
 
-ship "Annihilator Starfighter (Fighter)"
+ship "Annihilator Starfighter (Bay)"
 	sprite "ship/annihilatorstarfighter"
 	thumbnail "thumbnail/annihilatorstarfighter"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 185000
 		"shields" 1680
@@ -119,7 +119,7 @@ ship "BB-2 Starfire Fighter-Bomber"
 	sprite "ship/bb2starfirefighterbomber"
 	thumbnail "thumbnail/bb2starfirefighterbomber"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 200000
 		"shields" 1500
@@ -176,11 +176,11 @@ ship "BB-2 Starfire Fighter-Bomber"
 
 
 
-ship "BB-2 Starfire Fighter-Bomber (Fighter)"
+ship "BB-2 Starfire Fighter-Bomber (Bay)"
 	sprite "ship/bb2starfirefighterbomber"
 	thumbnail "thumbnail/bb2starfirefighterbomber"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 200000
 		"shields" 1500
@@ -241,7 +241,7 @@ ship "CF9 Crossfire Starfighter"
 	sprite ship/cf9crossfirestarfighter
 	thumbnail thumbnail/cf9crossfirestarfighter
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 170000
 		shields 1700
@@ -292,11 +292,11 @@ ship "CF9 Crossfire Starfighter"
 
 
 
-ship "CF9 Crossfire Starfighter (Fighter)"
+ship "CF9 Crossfire Starfighter (Bay)"
 	sprite ship/cf9crossfirestarfighter
 	thumbnail thumbnail/cf9crossfirestarfighter
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 170000
 		shields 1700
@@ -349,7 +349,7 @@ ship "Cyclone R-Wing Starfighter"
 	sprite ship/cyclonerwing
 	thumbnail thumbnail/cyclonerwing
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 145000
 		shields 1600
@@ -401,11 +401,11 @@ ship "Cyclone R-Wing Starfighter"
 
 
 
-ship "Cyclone R-Wing Starfighter (Fighter)"
+ship "Cyclone R-Wing Starfighter (Bay)"
 	sprite ship/cyclonerwing
 	thumbnail thumbnail/cyclonerwing
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 145000
 		shields 1600
@@ -461,7 +461,7 @@ ship "Eta-5 Actis Interceptor"
 	sprite "ship/eta5interceptor"
 	thumbnail "thumbnail/eta5interceptor"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
@@ -513,11 +513,11 @@ ship "Eta-5 Actis Interceptor"
 
 
 
-ship "Eta-5 Actis Interceptor (Fighter)"
+ship "Eta-5 Actis Interceptor (Bay)"
 	sprite "ship/eta5interceptor"
 	thumbnail "thumbnail/eta5interceptor"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
@@ -573,7 +573,7 @@ ship "Fury Starfighter"
 	sprite "ship/furystarfighter"
 	thumbnail "thumbnail/furystarfighter"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 100000
 		"shields" 400
@@ -621,11 +621,11 @@ ship "Fury Starfighter"
 
 
 
-ship "Fury Starfighter (Fighter)"
+ship "Fury Starfighter (Bay)"
 	sprite "ship/furystarfighter"
 	thumbnail "thumbnail/furystarfighter"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 100000
 		"shields" 400
@@ -677,7 +677,7 @@ ship "Galactic Battle Carrier"
 	sprite "ship/galacticbattlecarrier"
 	thumbnail "thumbnail/galacticbattlecarrier"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 190000000
 		"shields" 270000
 		"hull" 70000
@@ -742,50 +742,28 @@ ship "Galactic Battle Carrier"
 	turret 2 -73 "R4Dual Turbolaser Turret"
 	turret 2 -73 "R4Dual Turbolaser Turret"
 	turret 2 -73 "R4Dual Turbolaser Turret"
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
-	fighter 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
+	bay "Starfighter (Bay) " 0 -73
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -801,7 +779,7 @@ ship "I4 Ioniser Starfighter"
 	sprite ship/i4ioniserstarfighter
 	thumbnail thumbnail/i4ioniserstarfighter
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 120000
 		shields 800
@@ -853,11 +831,11 @@ ship "I4 Ioniser Starfighter"
 	description "Artwork/model by Nomada_Firefox"
 
 
-ship "I4 Ioniser Starfighter (Fighter)"
+ship "I4 Ioniser Starfighter (Bay)"
 	sprite ship/i4ioniserstarfighter
 	thumbnail thumbnail/i4ioniserstarfighter
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 120000
 		shields 800
@@ -914,7 +892,7 @@ ship "J-1 Shuttle"
 	sprite "ship/j1shuttle"
 	thumbnail "thumbnail/j1shuttle"
 	attributes
-		category "Transport"
+		category "Shuttle "
 		"cost" 80000
 		"shields" 3100
 		"hull" 5100
@@ -966,7 +944,7 @@ ship "Krayt Dragon Ship"
 	sprite "ship/kraytdragonship"
 	thumbnail "thumbnail/kraytdragonship"
 	attributes
-		category "Light Warship"
+		category "Frigate "
 		"cost" 4900000
 		"shields" 34300
 		"hull" 11800
@@ -1015,7 +993,7 @@ ship "Krayt Dragon Ship"
 	turret -163 -169 "R3 Turbolaser Turret"
 	turret 163 -169 "R3 Turbolaser Turret"
 	turret 0 -99 "R3 Turbolaser Turret"
-	fighter 0 -8
+	bay "Starfighter (Bay) " 0 -8
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50

@@ -8,13 +8,95 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+ship "Acclamator Assault Ship" "Acclamator Assault Ship (Imp)"
+	sprite "ship/acclamatorassaultship"
+	thumbnail "thumbnail/acclamatorassaultship"
+	attributes
+		category "Heavy Cruiser "
+		"cost" 53650000
+		"shields" 128000
+		"hull" 45800
+		"required crew" 640
+		"bunks" 1680
+		"mass" 18000
+		"drag" 47.6
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 400
+		"outfit space" 1448
+		"weapon capacity" 690
+		"engine capacity" 520
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"G4Dual Turbolaser Turret" 10
+		"G3 Turbolaser Turret" 12
+		
+		"P5 Power Converter"
+		"D5 Deflector Shield"
+		"C5 Coolant System"
+		
+		"B5 Sublight Engine"
+		"H5 Hyperspace Motivator"
+		
+	engine -167 468
+	engine 167 468
+	engine -80 678.5
+	engine 80 678.5
+	turret -117 -654 "G3 Turbolaser Turret"
+	turret 111 -654 "G3 Turbolaser Turret"
+	turret -124.5 -538 "G4Dual Turbolaser Turret"
+	turret 124.5 -538 "G4Dual Turbolaser Turret"
+	turret -208 -290 "G3 Turbolaser Turret"
+	turret 208 -290 "G3 Turbolaser Turret"
+	turret -240 -117 "G4Dual Turbolaser Turret"
+	turret 240 -117 "G4Dual Turbolaser Turret"
+	turret -288 -44 "G3 Turbolaser Turret"
+	turret 288 -44 "G3 Turbolaser Turret"
+	turret -326 111 "G3 Turbolaser Turret"
+	turret 326 111 "G3 Turbolaser Turret"
+	turret -187 166 "G4Dual Turbolaser Turret"
+	turret 187 166 "G4Dual Turbolaser Turret"
+	turret -329 182 "G3 Turbolaser Turret"
+	turret 329 182 "G3 Turbolaser Turret"
+	turret -186 308 "G4Dual Turbolaser Turret"
+	turret 186 308 "G4Dual Turbolaser Turret"
+	turret -336 369 "G3 Turbolaser Turret"
+	turret 336 369 "G3 Turbolaser Turret"
+	turret -189 373 "G4Dual Turbolaser Turret"
+	turret 189 373 "G4Dual Turbolaser Turret"
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Acclamator assault ship, alternatively referred to as the Acclamator trans-galactic military transport ship, was an assault capital ship created for the Galactic Republic by Rothana Heavy Engineering. It was the predecessor of the Star Destroyer line. Its mission profile required it to both carry troops and engage enemy starships: the Acclamator was designed to assault contested systems, break hostile orbital blockades, and land troops directly on the battlefield. Consequently, the Acclamator favoured a wedge or dagger shaped design due to its effectiveness—it allowed concentration of firepower while minimising target profile."
+	description "Artwork/model by Elratie"
+
+
+
 ship "Aiwha Star Corvette"
 	sprite "ship/aiwhastarcorvette"
 	thumbnail "thumbnail/aiwhastarcorvette"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Corvette "
 		"cost" 3750000
 		"shields" 26250
 		"hull" 10250
@@ -59,10 +141,10 @@ ship "Aiwha Star Corvette"
 	turret -96 -35.5 "G2Dual Laser Turret"
 	turret 96 -35.5 "G2Dual Laser Turret"
 	turret 0 -154 "G2Dual Laser Turret"
-	fighter 0 -26
-	fighter 0 -26
-	fighter 0 -26
-	fighter 0 -26
+	bay "Starfighter (Bay) " 0 -26
+	bay "Starfighter (Bay) " 0 -26
+	bay "Starfighter (Bay) " 0 -26
+	bay "Starfighter (Bay) " 0 -26
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -79,7 +161,7 @@ ship "Allegiance Battlecruiser"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 430000000
 		"shields" 400000
 		"hull" 100000
@@ -161,7 +243,7 @@ ship "Arc Hammer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Freighter"
+		category "Container Ship "
 		"cost" 280000000
 		"shields" 285000
 		"hull" 85000
@@ -225,50 +307,30 @@ ship "Arc Hammer"
 	turret 61 2291 "G4Dual Turbolaser Turret"
 	turret -273 2531 "G4Dual Turbolaser Turret"
 	turret 266 2532 "G4Dual Turbolaser Turret"
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
-	fighter 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
+	bay "Starfighter (Bay) " 0 2277
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -286,7 +348,7 @@ ship "Assertor Star Dreadnought"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Dreadnought "
 		"cost" 2500000000
 		"shields" 3000000
 		"hull" 1200000
@@ -350,86 +412,34 @@ ship "Assertor Star Dreadnought"
 	turret 224 -3643 "G6Octuple Turbolaser Turret"
 	turret -136 -4365 "G6Octuple Turbolaser Turret"
 	turret 136 -4365 "G6Octuple Turbolaser Turret"
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -447,7 +457,7 @@ ship "Alpha Xg-1 Star Wing"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 135000
 		"shields" 2400
@@ -500,13 +510,13 @@ ship "Alpha Xg-1 Star Wing"
 
 
 
-ship "Alpha Xg-1 Star Wing (Fighter)"
+ship "Alpha Xg-1 Star Wing (Bay)"
 	sprite "ship/alphaxg1starwing"
 	thumbnail "thumbnail/alphaxg1starwing"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay)"
 		"absolute threshold" 20
 		"cost" 135000
 		"shields" 2400
@@ -565,7 +575,7 @@ ship "Altor Replenishment Ship"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Container Ship "
 		"cost" 68000000
 		"shields" 170000
 		"hull" 57000
@@ -619,7 +629,7 @@ ship "Arquitens 546 Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Medium Warship"
+		category "Cruiser "
 		"cost" 21300000
 		"shields" 67600
 		"hull" 31250
@@ -642,7 +652,7 @@ ship "Arquitens 546 Cruiser"
 	outfits
 		"G5Quad Turbolaser Turret" 4
 		"G4Dual Turbolaser Turret" 6
-		"G3 Turbolaser Turret" 10
+		"G3 Turbolaser Turret" 6
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -660,8 +670,6 @@ ship "Arquitens 546 Cruiser"
 	engine 96.5 545
 	turret -35 -523.5 "G3 Turbolaser Turret"
 	turret 35 -523.5 "G3 Turbolaser Turret"
-	turret -55 -396 "G3 Turbolaser Turret"
-	turret 55 -396 "G3 Turbolaser Turret"
 	turret -95 -307 "G4Dual Turbolaser Turret"
 	turret 95 -307 "G4Dual Turbolaser Turret"
 	turret -47.5 -257 "G3 Turbolaser Turret"
@@ -674,37 +682,25 @@ ship "Arquitens 546 Cruiser"
 	turret 47.5 -87 "G5Quad Turbolaser Turret"
 	turret -136 -24 "G5Quad Turbolaser Turret"
 	turret 136 -24 "G5Quad Turbolaser Turret"
-	turret -184 104.5 "G3 Turbolaser Turret"
-	turret 184 104.5 "G3 Turbolaser Turret"
 	turret -104 372 "G3 Turbolaser Turret"
 	turret 104 372 "G3 Turbolaser Turret"
-	fighter 0 -376
-	fighter 0 -376
-	fighter 0 -376
-	fighter 0 -376
-	fighter -184 105
+	bay "Starfighter (Bay) " 0 -376
+	bay "Starfighter (Bay) " 0 -376
+	bay "Starfighter (Bay) " -184 105
 		angle -90
-	fighter -184 105
+	bay "Starfighter (Bay) " -184 105
 		angle -90
-	fighter -184 105
+	bay "Starfighter (Bay) " -184 105
 		angle -90
-	fighter -184 105
+	bay "Starfighter (Bay) " -184 105
 		angle -90
-	fighter -184 105
+	bay "Starfighter (Bay) " -184 105
 		angle -90
-	fighter -184 105
+	bay "Starfighter (Bay) " -184 105
 		angle -90
-	fighter 184 105
+	bay "Starfighter (Bay) " 184 105
 		angle 90
-	fighter 184 105
-		angle 90
-	fighter 184 105
-		angle 90
-	fighter 184 105
-		angle 90
-	fighter 184 105
-		angle 90
-	fighter 184 105
+	bay "Starfighter (Bay) " 184 105
 		angle 90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -713,7 +709,7 @@ ship "Arquitens 546 Cruiser"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description  "The Class 546 Cruiser is a model of light cruiser that resembles an Arquitens-class command cruiser of the Galactic Empire. Although similar to the command cruiser model, the Class 546 houses a large internal hangar bay that can be accessed by port and starboard hangar doors and a launch tube at the centre of the vessel between the ship's two prongs. Its bridge is also different from the standard Arquitens-class model, and is equipped with three primary and four secondary sublight engines."
-	description "Artwork/model by Fractalsponge"
+	description "Artwork/model by Alexander Ivanov"
 
 
 
@@ -723,7 +719,7 @@ ship "Arquitens Light Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Medium Warship"
+		category "Frigate "
 		"cost" 9250000
 		"shields" 40000
 		"hull" 15600
@@ -771,16 +767,16 @@ ship "Arquitens Light Cruiser"
 	turret 62 -154 "G3 Turbolaser Turret"
 	turret -41 -302 "G3 Turbolaser Turret"
 	turret 41 -302 "G3 Turbolaser Turret"
-	fighter 0 -294 under
-	fighter 0 -294
-	fighter 0 -294
+	bay "Starfighter (Bay) " 0 -294 under
+	bay "Starfighter (Bay) " 0 -294
+	bay "Starfighter (Bay) " 0 -294
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
 	description "The Arquitens light cruiser, also known as the Imperial light cruiser, is a line of light cruisers designed by Kuat Drive Yards that saw extensive service with the Republic Navy during the Clone Wars."
-	description "Artwork/model by Elratie"
+	description "Artwork/model by Alexander Ivanov"
 
 
 
@@ -790,7 +786,7 @@ ship "Bellator Star Dreadnought"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Dreadnought "
 		"cost" 1500000000
 		"shields" 2000000
 		"hull" 880000
@@ -858,70 +854,32 @@ ship "Bellator Star Dreadnought"
 	turret 94 -2691 "G5Quad Turbolaser Turret"
 	turret -69 -4373 "G5Quad Turbolaser Turret"
 	turret 69 -4373 "G5Quad Turbolaser Turret"
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -101 57
+	bay "Starfighter (Bay) " 101 57
+	bay "Starfighter (Bay) " -74 57
+	bay "Starfighter (Bay) " 74 57
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -101 57
+	bay "Starfighter (Bay) " 101 57
+	bay "Starfighter (Bay) " -74 57
+	bay "Starfighter (Bay) " 74 57
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -939,7 +897,7 @@ ship "Broadside cruiser kdb-1"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Cruiser "
 		"cost" 25000000
 		"shields" 77000
 		"hull" 34000
@@ -1005,7 +963,7 @@ ship "Cantwell Arrestor Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 48000000
 		"shields" 119500
 		"hull" 44800
@@ -1068,30 +1026,18 @@ ship "Cantwell Arrestor Cruiser"
 	turret 20 -553.5 "G3 Turbolaser Turret"
 	turret -19 -707 "G4Dual Turbolaser Turret"
 	turret 19 -707 "G4Dual Turbolaser Turret"
-	fighter -195 183
-	fighter 195 183
-	fighter -169 175
-	fighter 169 175
-	fighter -143 166
-	fighter 143 166
-	fighter -195 183
-	fighter 195 183
-	fighter -169 175
-	fighter 169 175
-	fighter -143 166
-	fighter 143 166
-	fighter -195 183
-	fighter 195 183
-	fighter -169 175
-	fighter 169 175
-	fighter -143 166
-	fighter 143 166
-	fighter -195 183
-	fighter 195 183
-	fighter -169 175
-	fighter 169 175
-	fighter -143 166
-	fighter 143 166
+	bay "Starfighter (Bay) " -195 183
+	bay "Starfighter (Bay) " 195 183
+	bay "Starfighter (Bay) " -169 175
+	bay "Starfighter (Bay) " 169 175
+	bay "Starfighter (Bay) " -143 166
+	bay "Starfighter (Bay) " 143 166
+	bay "Starfighter (Bay) " -195 183
+	bay "Starfighter (Bay) " 195 183
+	bay "Starfighter (Bay) " -169 175
+	bay "Starfighter (Bay) " 169 175
+	bay "Starfighter (Bay) " -143 166
+	bay "Starfighter (Bay) " 143 166
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1109,7 +1055,7 @@ ship "Carrack Light Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Medium Warship"
+		category "Frigate "
 		"cost" 10500000
 		"shields" 45000
 		"hull" 16000
@@ -1149,10 +1095,10 @@ ship "Carrack Light Cruiser"
 	turret 68 278 "G3 Turbolaser Turret"
 	turret -57 -317 "G3 Turbolaser Turret"
 	turret 57 -317 "G3 Turbolaser Turret"
-	fighter -51 60
-	fighter 51 60
-	fighter -53 -24
-	fighter 53 -24
+	bay "Starfighter (Bay) " -51 60
+	bay "Starfighter (Bay) " 51 60
+	bay "Starfighter (Bay) " -53 -24
+	bay "Starfighter (Bay) " 53 -24
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1169,7 +1115,7 @@ ship "Compellor Battle Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 960000000
 		"shields" 1400000
 		"hull" 500000
@@ -1233,50 +1179,28 @@ ship "Compellor Battle Cruiser"
 	turret 358.5 -1723 "G5Quad Turbolaser Turret"
 	turret -306 -1935 "G5Quad Turbolaser Turret"
 	turret 306 -1935 "G5Quad Turbolaser Turret"
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
-	fighter 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
+	bay "Starfighter (Bay) " 0 -705
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1295,7 +1219,7 @@ ship "Consolidator Corps Assault Ship"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 330000000
 		"shields" 345000
 		"hull" 98000
@@ -1360,36 +1284,26 @@ ship "Consolidator Corps Assault Ship"
 	turret 555 375 "G4Dual Turbolaser Turret"
 	turret -869.5 396.5 "G4Dual Turbolaser Turret"
 	turret 869.5 396.5 "G4Dual Turbolaser Turret"
-	fighter -38 96.5
-	fighter 38 96.5
-	fighter -38 -82
-	fighter 38 -82
-	fighter -38 -269.5
-	fighter 38 -269.5
-	fighter -38 -457.5
-	fighter 38 -457.5
-	fighter -38 -645
-	fighter 38 -645
-	fighter -38 96.5
-	fighter 38 96.5
-	fighter -38 -82
-	fighter 38 -82
-	fighter -38 -269.5
-	fighter 38 -269.5
-	fighter -38 -457.5
-	fighter 38 -457.5
-	fighter -38 -645
-	fighter 38 -645
-	fighter -38 96.5
-	fighter 38 96.5
-	fighter -38 -82
-	fighter 38 -82
-	fighter -38 -269.5
-	fighter 38 -269.5
-	fighter -38 -457.5
-	fighter 38 -457.5
-	fighter -38 -645
-	fighter 38 -645
+	bay "Starfighter (Bay) " -38 96.5
+	bay "Starfighter (Bay) " 38 96.5
+	bay "Starfighter (Bay) " -38 -82
+	bay "Starfighter (Bay) " 38 -82
+	bay "Starfighter (Bay) " -38 -269.5
+	bay "Starfighter (Bay) " 38 -269.5
+	bay "Starfighter (Bay) " -38 -457.5
+	bay "Starfighter (Bay) " 38 -457.5
+	bay "Starfighter (Bay) " -38 -645
+	bay "Starfighter (Bay) " 38 -645
+	bay "Starfighter (Bay) " -38 96.5
+	bay "Starfighter (Bay) " 38 96.5
+	bay "Starfighter (Bay) " -38 -82
+	bay "Starfighter (Bay) " 38 -82
+	bay "Starfighter (Bay) " -38 -269.5
+	bay "Starfighter (Bay) " 38 -269.5
+	bay "Starfighter (Bay) " -38 -457.5
+	bay "Starfighter (Bay) " 38 -457.5
+	bay "Starfighter (Bay) " -38 -645
+	bay "Starfighter (Bay) " 38 -645
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1407,7 +1321,7 @@ ship "Contentor Fleet Replenishment Ship"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Container Ship "
 		"cost" 31000000
 		"shields" 110000
 		"hull" 43000
@@ -1428,7 +1342,7 @@ ship "Contentor Fleet Replenishment Ship"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"G4Dual Turbolaser Turret" 12
+		"G4Dual Turbolaser Turret" 8
 		"G3 Turbolaser Turret" 8
 		
 		"P4.5 Power Converter"
@@ -1451,23 +1365,19 @@ ship "Contentor Fleet Replenishment Ship"
 	turret 66.5 -64 "G4Dual Turbolaser Turret"
 	turret -213 -290.5 "G3 Turbolaser Turret"
 	turret 213 -290.5 "G3 Turbolaser Turret"
-	turret -71 -408 "G4Dual Turbolaser Turret"
-	turret 71 -408 "G4Dual Turbolaser Turret"
 	turret -182.5 -601.5 "G4Dual Turbolaser Turret"
 	turret 182.5 -601.5 "G4Dual Turbolaser Turret"
-	turret -43.5 -648 "G4Dual Turbolaser Turret"
-	turret 43.5 -648 "G4Dual Turbolaser Turret"
 	turret 0 -697.5 "G4Dual Turbolaser Turret"
 	turret -37 -750.5 "G3 Turbolaser Turret"
 	turret 37 -750.5 "G3 Turbolaser Turret"
-	fighter 0 -611
-	fighter 0 -611
-	fighter 0 -611
-	fighter 0 -611
-	fighter 0 -611
-	fighter 0 -611
-	fighter 0 -611
-	fighter 0 -611	
+	bay "Starfighter (Bay) " 0 -611
+	bay "Starfighter (Bay) " 0 -611
+	bay "Starfighter (Bay) " 0 -611
+	bay "Starfighter (Bay) " 0 -611
+	bay "Starfighter (Bay) " 0 -611
+	bay "Starfighter (Bay) " 0 -611
+	bay "Starfighter (Bay) " 0 -611
+	bay "Starfighter (Bay) " 0 -611	
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1485,7 +1395,7 @@ ship "Delta T-3c Shuttle"
 	attributes
 		licenses
 			Imperial
-		category Transport
+		category "Shuttle "
 		"cost" 80000
 		"shields" 3300
 		"hull" 5000
@@ -1542,7 +1452,7 @@ ship "Dreadnaught Heavy Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 35555000
 		"shields" 88000
 		"hull" 38000
@@ -1593,18 +1503,16 @@ ship "Dreadnaught Heavy Cruiser"
 	turret 129.5 -504 "G4Dual Turbolaser Turret"
 	turret -98 -654 "G4Dual Turbolaser Turret"
 	turret 98 -654 "G4Dual Turbolaser Turret"
-	fighter 0 -545
-	fighter 0 -545
-	fighter 0 -545
-	fighter 0 -545
-	fighter 0 -545
-	fighter 0 -545
-	fighter 0 -545
-	fighter 0 -545
-	fighter 0 -545
-	fighter 0 -545
-	fighter 0 -545
-	fighter 0 -545
+	bay "Starfighter (Bay) " 0 -545
+	bay "Starfighter (Bay) " 0 -545
+	bay "Starfighter (Bay) " 0 -545
+	bay "Starfighter (Bay) " 0 -545
+	bay "Starfighter (Bay) " 0 -545
+	bay "Starfighter (Bay) " 0 -545
+	bay "Starfighter (Bay) " 0 -545
+	bay "Starfighter (Bay) " 0 -545
+	bay "Starfighter (Bay) " 0 -545
+	bay "Starfighter (Bay) " 0 -545
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1622,13 +1530,13 @@ ship "DX9 Troop Transport"
 	attributes
 		licenses
 			Imperial
-		category "Transport"
+		category "Gunship "
 		"cost" 90000
 		"shields" 1350
 		"hull" 6250
 		"required crew" 3
 		"bunks" 33
-		"mass" 33
+		"mass" 40
 		"drag" 1.96
 		"heat dissipation" .7
 		"fuel capacity" 700
@@ -1673,7 +1581,7 @@ ship "Eclipse Star Dreadnought"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Dreadnought "
 		"cost" 2800000000
 		"shields" 3900000
 		"hull" 1440000
@@ -1736,86 +1644,34 @@ ship "Eclipse Star Dreadnought"
 	turret 1521 -3257 "G6Octuple Turbolaser Turret"
 	turret -112 -4438 "G6Octuple Turbolaser Turret"
 	turret 112 -4438 "G6Octuple Turbolaser Turret"
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1833,7 +1689,7 @@ ship "Eclipse Star Dreadnought II"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Dreadnought "
 		"cost" 2800000000
 		"shields" 3900000
 		"hull" 1440000
@@ -1896,86 +1752,34 @@ ship "Eclipse Star Dreadnought II"
 	turret 321 -3257 "G6Octuple Turbolaser Turret"
 	turret -112 -4438 "G6Octuple Turbolaser Turret"
 	turret 112 -4438 "G6Octuple Turbolaser Turret"
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1987,13 +1791,86 @@ ship "Eclipse Star Dreadnought II"
 
 
 
+ship "EF76 Nebulon-B Frigate (Imp)"
+	sprite "ship/ef76nebulonfrigatebimp"
+	thumbnail "thumbnail/ef76nebulonfrigatebimp"
+	attributes
+		category "Frigate "
+		"cost" 8700000
+		"shields" 36800
+		"hull" 15150
+		"required crew" 320
+		"bunks" 1100
+		"mass" 4750
+		"drag" 25.22
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 150
+		"outfit space" 571
+		"weapon capacity" 250
+		"engine capacity" 220
+		weapon
+			"blast radius" 310
+			"shield damage" 750
+			"hull damage" 370
+			"hit force" 850
+	outfits
+		"G3 Turbolaser Turret" 12
+		
+		"P4 Power Converter"
+		"D4 Deflector Shield"
+		"C4 Coolant System"
+		
+		"B4 Sublight Engine"
+		"H4 Hyperspace Motivator"
+		
+	engine -26.5 387.5 1.1
+	engine 26.5 387.5 1.1
+	engine 0 388.5 1.1
+	engine -51 384 0.7
+	engine 51 384 0.7
+	turret -24.5 -359.5 "G3 Turbolaser Turret"
+	turret 24.5 -359.5 "G3 Turbolaser Turret"
+	turret -40 -302 "G3 Turbolaser Turret"
+	turret 40 -302 "G3 Turbolaser Turret"
+	turret -45.5 -234.5 "G3 Turbolaser Turret"
+	turret 45.5 -234.5 "G3 Turbolaser Turret"
+	turret -38 -156.5 "G3 Turbolaser Turret"
+	turret 38 -156.5 "G3 Turbolaser Turret"
+	turret -29 -90.5 "G3 Turbolaser Turret"
+	turret 49.5 -91.5 "G3 Turbolaser Turret"
+	turret -65.5 328 "G3 Turbolaser Turret"
+	turret 65.5 328 "G3 Turbolaser Turret"
+	bay "Starfighter (Bay) " 67 -218.5
+		angle 90
+	bay "Starfighter (Bay) " 69 -203.5
+		angle 90
+	bay "Starfighter (Bay) " 0 -23.5
+	bay "Starfighter (Bay) " 0 -2.5
+	bay "Starfighter (Bay) " 0 25
+	bay "Starfighter (Bay) " 0 53
+	bay "Starfighter (Bay) " 0 82.5
+	bay "Starfighter (Bay) " 0 120.5
+	bay "Starfighter (Bay) " 0 163.5
+	bay "Starfighter (Bay) " 0 163.5
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The EF76 Nebulon-B escort frigate is a frigate manufactured by Kuat Drive Yards. Despite being intended for Imperial Navy service, it is more famous for its role as a Rebel Cruiser, used by the Alliance to Restore the Republic. Boasting a highly versatile design platform, the Nebulon-B frigate serves in a range of capacities, although is typically utilised as an escort frigate. The Rebel Alliance deploys these frigates to protect transport convoys from Imperial attacks or pirate raids, although some are modified for long-range scouting or search-and-rescue operations."
+	description "Artwork/model by Unusualsuspex"
+
+
+
 ship "Eta Supply Barge"
 	sprite "ship/etasupplybarge"
 	thumbnail "thumbnail/etasupplybarge"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Freighter"
+		category "Bulk Freighter "
 		"cost" 16250000
 		"shields" 51000
 		"hull" 22000
@@ -2042,7 +1919,7 @@ ship "Executor Star Dreadnought"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Dreadnought "
 		"cost" 2180000000
 		"shields" 2800000
 		"hull" 1100000
@@ -2107,86 +1984,86 @@ ship "Executor Star Dreadnought"
 	turret 372 -2903 "G6Octuple Turbolaser Turret"
 	turret -80 -4659 "G5Quad Turbolaser Turret"
 	turret 80 -4659 "G5Quad Turbolaser Turret"
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -37 -65
-	fighter 37 -65
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2204,7 +2081,7 @@ ship "Fulgor Pursuit Frigate"
 	attributes
 		licenses
 			Imperial
-		category "Medium Warship"
+		category "Frigate "
 		"cost" 8900000
 		"shields" 37000
 		"hull" 15300
@@ -2252,18 +2129,14 @@ ship "Fulgor Pursuit Frigate"
 	turret 59.5 -277.5 "G3 Turbolaser Turret"
 	turret -21.5 -351 "G3 Turbolaser Turret"
 	turret 21.5 -351 "G3 Turbolaser Turret"
-	fighter 0 135
-	fighter 0 135
-	fighter 0 135
-	fighter 0 135
-	fighter 0 135
-	fighter 0 135
-	fighter 0 135
-	fighter 0 135
-	fighter 0 135
-	fighter 0 135
-	fighter 0 135
-	fighter 0 135
+	bay "Starfighter (Bay) " 0 135
+	bay "Starfighter (Bay) " 0 135
+	bay "Starfighter (Bay) " 0 135
+	bay "Starfighter (Bay) " 0 135
+	bay "Starfighter (Bay) " 0 135
+	bay "Starfighter (Bay) " 0 135
+	bay "Starfighter (Bay) " 0 135
+	bay "Starfighter (Bay) " 0 135
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2280,13 +2153,13 @@ ship "Gamma ATR-6 Assault Transport"
 	attributes
 		licenses
 			Imperial
-		category "Transport"
+		category "Gunship "
 		"cost" 95000
 		"shields" 1350
 		"hull" 6300
 		"required crew" 2
 		"bunks" 40
-		"mass" 70
+		"mass" 50
 		"drag" 1.69
 		"heat dissipation" .45
 		"fuel capacity" 700
@@ -2341,7 +2214,7 @@ ship "GAT-12 Skipray Blastboat"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Patrol Craft "
 		"absolute threshold" 20
 		"cost" 285000
 		"shields" 1850
@@ -2405,7 +2278,7 @@ ship "Gladiator Star Destroyer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 34000000
 		"shields" 91000
 		"hull" 42000
@@ -2460,32 +2333,20 @@ ship "Gladiator Star Destroyer"
 	turret 106 -421.5 "G4Dual Turbolaser Turret"
 	turret -160.5 -727.5 "G4Dual Turbolaser Turret"
 	turret 160.5 -727.5 "G4Dual Turbolaser Turret"
-	fighter -74.5 -440.5
-	fighter 74.5 -440.5
-	fighter -40.5 -440.5
-	fighter 40.5 -440.5
-	fighter -16 -440.5
-	fighter 16 -440.5
-	fighter -74.5 -440.5
-	fighter 74.5 -440.5
-	fighter -40.5 -440.5
-	fighter 40.5 -440.5
-	fighter -16 -440.5
-	fighter 16 -440.5
-	fighter -74.5 -440.5
-	fighter 74.5 -440.5
-	fighter -40.5 -440.5
-	fighter 40.5 -440.5
-	fighter -16 -440.5
-	fighter 16 -440.5
-	fighter -74.5 -440.5
-	fighter 74.5 -440.5
-	fighter -40.5 -440.5
-	fighter 40.5 -440.5
-	fighter -16 -440.5
-	fighter 16 -440.5
-	fighter -74.5 -440.5
-	fighter 74.5 -440.5
+	bay "Starfighter (Bay) " -74.5 -440.5
+	bay "Starfighter (Bay) " 74.5 -440.5
+	bay "Starfighter (Bay) " -40.5 -440.5
+	bay "Starfighter (Bay) " 40.5 -440.5
+	bay "Starfighter (Bay) " -16 -440.5
+	bay "Starfighter (Bay) " 16 -440.5
+	bay "Starfighter (Bay) " -74.5 -440.5
+	bay "Starfighter (Bay) " 74.5 -440.5
+	bay "Starfighter (Bay) " -40.5 -440.5
+	bay "Starfighter (Bay) " 40.5 -440.5
+	bay "Starfighter (Bay) " -16 -440.5
+	bay "Starfighter (Bay) " 16 -440.5
+	bay "Starfighter (Bay) " -74.5 -440.5
+	bay "Starfighter (Bay) " 74.5 -440.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2503,7 +2364,7 @@ ship "Gozanti Assault Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Gunboat "
 		"cost" 500000
 		"shields" 8650
 		"hull" 7150
@@ -2537,10 +2398,10 @@ ship "Gozanti Assault Cruiser"
 	engine 26 45.5
 	turret 0 38.5 "G2Heavy Laser Turret"
 	turret 0 38.5 "G2Dual Laser Turret"
-	fighter -18 4
-	fighter 18 4
-	fighter -18 -23
-	fighter 18 -23
+	bay "Starfighter (Bay) " -18 4
+	bay "Starfighter (Bay) " 18 4
+	bay "Starfighter (Bay) " -18 -23
+	bay "Starfighter (Bay) " 18 -23
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2557,7 +2418,7 @@ ship "Guardian Light Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Gunboat "
 		"cost" 380000
 		"shields" 8600
 		"hull" 7000
@@ -2592,8 +2453,8 @@ ship "Guardian Light Cruiser"
 	turret 14 25 "GI1 Laser Turret"
 	turret -14 -10 "GI1 Laser Turret"
 	turret 14 -10 "GI1 Laser Turret"
-	fighter -14 25
-	fighter 14 25
+	bay "Starfighter (Bay) " -14 25
+	bay "Starfighter (Bay) " 14 25
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2610,7 +2471,7 @@ ship "I-7 Howlrunner"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 65000
 		"shields" 720
@@ -2653,13 +2514,13 @@ ship "I-7 Howlrunner"
 
 
 
-ship "I-7 Howlrunner (Fighter)"
+ship "I-7 Howlrunner (Bay)"
 	sprite "ship/i7howlrunnerstarfighter"
 	thumbnail "thumbnail/i7howlrunnerstarfighter"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 65000
 		"shields" 720
@@ -2709,7 +2570,7 @@ ship "IGV-55 Surveillance Vessel"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Gunboat "
 		"cost" 550000
 		"shields" 8650
 		"hull" 7150
@@ -2746,10 +2607,10 @@ ship "IGV-55 Surveillance Vessel"
 	engine 16 47
 	turret 0 38.5 "G2Heavy Laser Turret"
 	turret 0 38.5 "G2Dual Laser Turret"
-	fighter -18 1
-	fighter 18 1
-	fighter -18 -25.5
-	fighter 18 -25.5
+	bay "Starfighter (Bay) " -18 1
+	bay "Starfighter (Bay) " 18 1
+	bay "Starfighter (Bay) " -18 -25.5
+	bay "Starfighter (Bay) " 18 -25.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2766,7 +2627,7 @@ ship "Immobiliser 418 Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 52240000
 		"shields" 90000
 		"hull" 39000
@@ -2819,22 +2680,16 @@ ship "Immobiliser 418 Cruiser"
 	turret 62 -138 "G4Dual Turbolaser Turret"
 	turret -21.5 -569 "G4Dual Turbolaser Turret"
 	turret 21.5 -569 "G4Dual Turbolaser Turret"
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
-	fighter 0 85
+	bay "Starfighter (Bay) " 0 85
+	bay "Starfighter (Bay) " 0 85
+	bay "Starfighter (Bay) " 0 85
+	bay "Starfighter (Bay) " 0 85
+	bay "Starfighter (Bay) " 0 85
+	bay "Starfighter (Bay) " 0 85
+	bay "Starfighter (Bay) " 0 85
+	bay "Starfighter (Bay) " 0 85
+	bay "Starfighter (Bay) " 0 85
+	bay "Starfighter (Bay) " 0 85
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2852,7 +2707,7 @@ ship "Impellor Fleet Carrier"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 800000000
 		"shields" 1000000
 		"hull" 350000
@@ -2908,60 +2763,30 @@ ship "Impellor Fleet Carrier"
 	turret 491 -1729.5 "G5Quad Turbolaser Turret"
 	turret -972.5 118 "G5Quad Turbolaser Turret"
 	turret 972.5 118 "G5Quad Turbolaser Turret"
-	fighter -248 -866
-	fighter 248 -866
-	fighter -186.5 -866
-	fighter 186.5 -866
-	fighter -118.5 -866
-	fighter 118.5 -866
-	fighter -60.5 -866
-	fighter 60.5 -866
-	fighter 0 -866
-	fighter -248 -866
-	fighter 248 -866
-	fighter -186.5 -866
-	fighter 186.5 -866
-	fighter -118.5 -866
-	fighter 118.5 -866
-	fighter -60.5 -866
-	fighter 60.5 -866
-	fighter 0 -866
-	fighter -248 -866
-	fighter 248 -866
-	fighter -186.5 -866
-	fighter 186.5 -866
-	fighter -118.5 -866
-	fighter 118.5 -866
-	fighter -60.5 -866
-	fighter 60.5 -866
-	fighter 0 -866
-	fighter -248 -866
-	fighter 248 -866
-	fighter -186.5 -866
-	fighter 186.5 -866
-	fighter -118.5 -866
-	fighter 118.5 -866
-	fighter -60.5 -866
-	fighter 60.5 -866
-	fighter 0 -866
-	fighter -248 -866
-	fighter 248 -866
-	fighter -186.5 -866
-	fighter 186.5 -866
-	fighter -118.5 -866
-	fighter 118.5 -866
-	fighter -60.5 -866
-	fighter 60.5 -866
-	fighter 0 -866
-	fighter -248 -866
-	fighter 248 -866
-	fighter -186.5 -866
-	fighter 186.5 -866
-	fighter -118.5 -866
-	fighter 118.5 -866
-	fighter -60.5 -866
-	fighter 60.5 -866
-	fighter 0 -866
+	bay "Starfighter (Bay) " -248 -866
+	bay "Starfighter (Bay) " 248 -866
+	bay "Starfighter (Bay) " -186.5 -866
+	bay "Starfighter (Bay) " 186.5 -866
+	bay "Starfighter (Bay) " -118.5 -866
+	bay "Starfighter (Bay) " 118.5 -866
+	bay "Starfighter (Bay) " -60.5 -866
+	bay "Starfighter (Bay) " 60.5 -866
+	bay "Starfighter (Bay) " 0 -866
+	bay "Starfighter (Bay) " 0 -866
+	bay "Starfighter (Bay) " -248 -866
+	bay "Starfighter (Bay) " 248 -866
+	bay "Starfighter (Bay) " -186.5 -866
+	bay "Starfighter (Bay) " 186.5 -866
+	bay "Starfighter (Bay) " -118.5 -866
+	bay "Starfighter (Bay) " 118.5 -866
+	bay "Starfighter (Bay) " -60.5 -866
+	bay "Starfighter (Bay) " 60.5 -866
+	bay "Starfighter (Bay) " 0 -866
+	bay "Starfighter (Bay) " 0 -866
+	bay "Starfighter (Bay) " -248 -866
+	bay "Starfighter (Bay) " 248 -866
+	bay "Starfighter (Bay) " -186.5 -866
+	bay "Starfighter (Bay) " 186.5 -866
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2978,11 +2803,11 @@ ship "Imperial Customs Corvette"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Corvette "
 		"cost" 4000000
 		"shields" 27000
 		"hull" 10600
-		"required crew" 36
+		"required crew" 52
 		"bunks" 80
 		"mass" 1860
 		"drag" 11.1
@@ -3019,7 +2844,7 @@ ship "Imperial Customs Corvette"
 	turret 54 34.5 "G2Dual Laser Turret"
 	turret -86.5 -29 "G2Dual Laser Turret"
 	turret 86.5 -29 "G2Dual Laser Turret"
-	fighter 0 -11.5 over
+	bay "Starfighter (Bay) " 0 -11.5 over
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3036,12 +2861,12 @@ ship "Imperial Customs Corvette (Military)"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Corvette "
 		"cost" 4200000
 		"shields" 27000
 		"hull" 10700
-		"required crew" 36
-		"bunks" 80
+		"required crew" 58
+		"bunks" 100
 		"mass" 1875
 		"drag" 11.1
 		"heat dissipation" .45
@@ -3080,12 +2905,12 @@ ship "Imperial Customs Corvette (Military)"
 	turret 85.5 -30 "G2Dual Laser Turret"
 	turret -38.5 -184 "G2Dual Laser Turret"
 	turret 38.5 -184 "G2Dual Laser Turret"
-	fighter 0 -168.5
-	fighter 0 -168.5
-	fighter 0 -168.5
-	fighter 0 -168.5
-	fighter 0 -168.5
-	fighter 0 -168.5
+	bay "Starfighter (Bay) " 0 -168.5
+	bay "Starfighter (Bay) " 0 -168.5
+	bay "Starfighter (Bay) " 0 -168.5
+	bay "Starfighter (Bay) " 0 -168.5
+	bay "Starfighter (Bay) " 0 -168.5
+	bay "Starfighter (Bay) " 0 -168.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3102,7 +2927,7 @@ ship "Imperial I Star Destroyer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 150000000
 		"shields" 260000
 		"hull" 67000
@@ -3167,48 +2992,28 @@ ship "Imperial I Star Destroyer"
 	turret 4 -264 "G4Dual Turbolaser Turret"
 	turret 4 -264 "G4Dual Turbolaser Turret"
 	turret 4 -264 "G4Dual Turbolaser Turret"
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3226,7 +3031,7 @@ ship "Imperial II Star Destroyer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 155000000
 		"shields" 265000
 		"hull" 67500
@@ -3292,48 +3097,28 @@ ship "Imperial II Star Destroyer"
 	turret 4 -264 "G4Dual Turbolaser Turret"
 	turret 4 -264 "G4Dual Turbolaser Turret"
 	turret 4 -264 "G4Dual Turbolaser Turret"
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
+	bay "Starfighter (Bay) " 0 -264
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3345,100 +3130,13 @@ ship "Imperial II Star Destroyer"
 
 
 
-ship "Imperial Escort Carrier"
-	sprite "ship/imperialescortcarrier"
-	thumbnail "thumbnail/imperialescortcarrier"
-	attributes
-		licenses
-			Imperial
-		category "Light Warship"
-		"cost" 3700000
-		"shields" 26000
-		"hull" 10000
-		"required crew" 50
-		"bunks" 170
-		"mass" 1680
-		"drag" 11.1
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 50
-		"outfit space" 330
-		"weapon capacity" 178
-		"engine capacity" 88
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"G2 Laser Cannon" 2
-		"G3 Turbolaser Turret" 8
-		"Concussion Missile Launcher" 2
-		"Concussion Missile Storage Rack" 2
-		"Concussion Missile" 16
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"B3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine -29 186.5
-	engine 29 186.5
-	gun -12.5 -185 "G2 Laser Cannon"
-	gun 12.5 -185 "G2 Laser Cannon"
-	gun -16 -167 "Concussion Missile Launcher"
-	gun 16 -167 "Concussion Missile Launcher"
-	turret -45.5 150 "G3 Turbolaser Turret"
-	turret 45.5 150 "G3 Turbolaser Turret"
-	turret -15.5 61 "G3 Turbolaser Turret"
-	turret 15.5 61 "G3 Turbolaser Turret"
-	turret -11.5 -21 "G3 Turbolaser Turret"
-	turret 11.5 -21 "G3 Turbolaser Turret"
-	turret -34.5 -136.5 "G3 Turbolaser Turret"
-	turret 34.5 -136.5 "G3 Turbolaser Turret"
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	fighter -6 32.5
-		angle -90
-	fighter 6 32.5
-		angle 90
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The Imperial escort carrier is a type of capital ship used exclusively by the Galactic Empire's storm commandos. Like normal carriers, it is capable of deploying TIE starfighters into battle, including the advanced TIE Hunter, due to its hangar openings on each side of the hull. However, the ship is also capable of engaging in combat on its own account. Ships of this type are used to attack medium-sized craft and transports of the Rebel Alliance, boarding and seizing the Rebel starships and their crew."
-	description "Artwork/model by Mel_Miniatures"
-
-
-
 ship "Imperial II Frigate"
 	sprite "ship/imperialfrigate"
 	thumbnail "thumbnail/imperialfrigate"
 	attributes
 		licenses
 			Imperial
-		category "Medium Warship"
+		category "Frigate "
 		"cost" 9750000
 		"shields" 42300
 		"hull" 15800
@@ -3486,37 +3184,25 @@ ship "Imperial II Frigate"
 	turret 72 -33 "G3 Turbolaser Turret"
 	turret -35.5 -172 "G3 Turbolaser Turret"
 	turret 35.5 -172 "G3 Turbolaser Turret"
-	fighter -27.5 56.5
+	bay "Starfighter (Bay) " -27.5 56.5
 		angle -90
-	fighter 27.5 56.5
+	bay "Starfighter (Bay) " 27.5 56.5
 		angle 90
-	fighter -26.5 36.5
+	bay "Starfighter (Bay) " -26.5 36.5
 		angle -90
-	fighter 26.5 36.5
+	bay "Starfighter (Bay) " 26.5 36.5
 		angle 90
-	fighter -27.5 56.5
+	bay "Starfighter (Bay) " -27.5 56.5
 		angle -90
-	fighter 27.5 56.5
+	bay "Starfighter (Bay) " 27.5 56.5
 		angle 90
-	fighter -26.5 36.5
+	bay "Starfighter (Bay) " -26.5 36.5
 		angle -90
-	fighter 26.5 36.5
+	bay "Starfighter (Bay) " 26.5 36.5
 		angle 90
-	fighter -27.5 56.5
+	bay "Starfighter (Bay) " -27.5 56.5
 		angle -90
-	fighter 27.5 56.5
-		angle 90
-	fighter -26.5 36.5
-		angle -90
-	fighter 26.5 36.5
-		angle 90
-	fighter -27.5 56.5
-		angle -90
-	fighter 27.5 56.5
-		angle 90
-	fighter -26.5 36.5
-		angle -90
-	fighter 26.5 36.5
+	bay "Starfighter (Bay) " 27.5 56.5
 		angle 90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -3534,12 +3220,12 @@ ship "Imperial Tanker"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Freighter"
+		category "Medium Freighter "
 		"cost" 2900000
 		"shields" 21000
 		"hull" 9600
-		"required crew" 50
-		"bunks" 160
+		"required crew" 12
+		"bunks" 40
 		"mass" 1350
 		"drag" 18.5
 		"heat dissipation" .45
@@ -3583,7 +3269,7 @@ ship "Interdictor Star Destroyer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 175000000
 		"shields" 230000
 		"hull" 64000
@@ -3648,36 +3334,22 @@ ship "Interdictor Star Destroyer"
 	turret 97.5 -1205 "G4Dual Turbolaser Turret"
 	turret -19.5 -1542 "G4Dual Turbolaser Turret"
 	turret 19.5 -1542 "G4Dual Turbolaser Turret"
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
-	fighter 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
+	bay "Starfighter (Bay) " 0 -253
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3695,7 +3367,7 @@ ship "Indictor Electronic Warfare Star Corvette"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Corvette "
 		"cost" 4760000
 		"shields" 33500
 		"hull" 11100
@@ -3744,7 +3416,7 @@ ship "Intersector Sloop"
 	attributes
 		licenses
 			Imperial
-		category "Transport"
+		category "Transport "
 		"cost" 100000
 		"shields" 4000
 		"hull" 6400
@@ -3806,12 +3478,12 @@ ship "IPV-1 System Patrol Craft"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Corvette "
 		"cost" 3450000
 		"shields" 23500
 		"hull" 9500
-		"required crew" 3
-		"bunks" 13
+		"required crew" 12
+		"bunks" 40
 		"mass" 1500
 		"drag" 9.25
 		"heat dissipation" .45
@@ -3864,7 +3536,7 @@ ship "Kontos Star Frigate"
 	attributes
 		licenses
 			Imperial
-		category "Medium Warship"
+		category "Cruiser "
 		"cost" 21350000
 		"shields" 67750
 		"hull" 31500
@@ -3887,7 +3559,7 @@ ship "Kontos Star Frigate"
 	outfits
 		"G5Quad Turbolaser Turret" 6
 		"G4Dual Turbolaser Turret" 4
-		"G3 Turbolaser Turret" 7
+		"G3 Turbolaser Turret" 5
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -3911,26 +3583,18 @@ ship "Kontos Star Frigate"
 	turret -168 -122 "G5Quad Turbolaser Turret"
 	turret 168 -122 "G5Quad Turbolaser Turret"
 	turret 0 -130.5 "G4Dual Turbolaser Turret"
-	turret -142 -214.5 "G3 Turbolaser Turret"
-	turret 142 -214.5 "G3 Turbolaser Turret"
 	turret 0 -247.5 "G4Dual Turbolaser Turret"
 	turret 0 -663.5 "G3 Turbolaser Turret"
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
-	fighter 0 65.5
+	bay "Starfighter (Bay) " 0 65.5
+	bay "Starfighter (Bay) " 0 65.5
+	bay "Starfighter (Bay) " 0 65.5
+	bay "Starfighter (Bay) " 0 65.5
+	bay "Starfighter (Bay) " 0 65.5
+	bay "Starfighter (Bay) " 0 65.5
+	bay "Starfighter (Bay) " 0 65.5
+	bay "Starfighter (Bay) " 0 65.5
+	bay "Starfighter (Bay) " 0 65.5
+	bay "Starfighter (Bay) " 0 65.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3948,7 +3612,7 @@ ship "LAAT/le Gunship"
 	attributes
 		licenses
 			Imperial
-		category "Transport"
+		category "Gunship "
 		"cost" 80000
 		"shields" 1400
 		"hull" 6300
@@ -3997,7 +3661,7 @@ ship "Lambda T-4a Shuttle"
 	attributes
 		licenses
 			Imperial
-		category Transport
+		category "Shuttle "
 		"cost" 75000
 		"shields" 3200
 		"hull" 4800
@@ -4056,7 +3720,7 @@ ship "Lancer Frigate"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Frigate "
 		"cost" 4760000
 		"shields" 33000
 		"hull" 11000
@@ -4116,7 +3780,7 @@ ship "Legator Star Dreadnought"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Dreadnought "
 		"cost" 1780000000
 		"shields" 2300000
 		"hull" 980000
@@ -4179,70 +3843,32 @@ ship "Legator Star Dreadnought"
 	turret 137 -4193 "G5Quad Turbolaser Turret"
 	turret -43 -4558 "G6Octuple Turbolaser Turret"
 	turret 43 -4558 "G6Octuple Turbolaser Turret"
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -72 -46
-	fighter 72 -46
-	fighter -101 57
-	fighter 101 57
-	fighter -74 57
-	fighter 74 57
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -101 57
+	bay "Starfighter (Bay) " 101 57
+	bay "Starfighter (Bay) " -74 57
+	bay "Starfighter (Bay) " 74 57
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
+	bay "Starfighter (Bay) " -101 57
+	bay "Starfighter (Bay) " 101 57
+	bay "Starfighter (Bay) " -74 57
+	bay "Starfighter (Bay) " 74 57
+	bay "Starfighter (Bay) " -37 -65
+	bay "Starfighter (Bay) " 37 -65
+	bay "Starfighter (Bay) " -46 40
+	bay "Starfighter (Bay) " 46 40
+	bay "Starfighter (Bay) " -72 -46
+	bay "Starfighter (Bay) " 72 -46
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -4260,7 +3886,7 @@ ship "Missile Boat"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 150000
 		"shields" 2880
@@ -4311,13 +3937,13 @@ ship "Missile Boat"
 
 
 
-ship "Missile Boat (Fighter)"
+ship "Missile Boat (Bay)"
 	sprite "ship/missileboat"
 	thumbnail "thumbnail/missileboat"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 150000
 		"shields" 2880
@@ -4374,7 +4000,7 @@ ship "Modular Taskforce Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 63500000
 		"shields" 165000
 		"hull" 56000
@@ -4439,18 +4065,18 @@ ship "Modular Taskforce Cruiser"
 	turret 108 -1032 "G4Dual Turbolaser Turret"
 	turret -41 -1188 "G4Dual Turbolaser Turret"
 	turret 41 -1188 "G4Dual Turbolaser Turret"
-	fighter 0 668
-	fighter 0 668
-	fighter 0 668
-	fighter 0 668
-	fighter 0 668
-	fighter 0 668
-	fighter 0 668
-	fighter 0 668
-	fighter 0 668
-	fighter 0 668
-	fighter 0 668
-	fighter 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
+	bay "Starfighter (Bay) " 0 668
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -4468,7 +4094,7 @@ ship "Neutron Star Bulk Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Cruiser "
 		"cost" 33500000
 		"shields" 85000
 		"hull" 36500
@@ -4489,9 +4115,8 @@ ship "Neutron Star Bulk Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"G4Dual Turbolaser Turret" 2
-		"G3 Turbolaser Turret" 2
 		"G2Dual Laser Turret" 18
+		"G2Heavy Laser Turret" 2
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -4509,10 +4134,8 @@ ship "Neutron Star Bulk Cruiser"
 	turret 159 640 "G2Dual Laser Turret"
 	turret -100 585.5 "G2Dual Laser Turret"
 	turret 100 585.5 "G2Dual Laser Turret"
-	turret -129.5 447.5 "G4Dual Turbolaser Turret"
-	turret 129.5 447.5 "G4Dual Turbolaser Turret"
-	turret -77.5 332.5 "G2Dual Laser Turret"
-	turret 77.5 332.5 "G2Dual Laser Turret"
+	turret -129.5 447.5 "G2Dual Laser Turret"
+	turret 129.5 447.5 "G2Dual Laser Turret"
 	turret -81 193.5 "G2Dual Laser Turret"
 	turret 81 193.5 "G2Dual Laser Turret"
 	turret -54.5 3.5 "G2Dual Laser Turret"
@@ -4521,8 +4144,8 @@ ship "Neutron Star Bulk Cruiser"
 	turret 59.5 -158 "G2Dual Laser Turret"
 	turret -52 -297 "G2Dual Laser Turret"
 	turret 52 -297 "G2Dual Laser Turret"
-	turret -51.5 -403 "G3 Turbolaser Turret"
-	turret 51.5 -403 "G3 Turbolaser Turret"
+	turret -51.5 -403 "G2Heavy Laser Turret"
+	turret 51.5 -403 "G2Heavy Laser Turret"
 	turret -63 -512.5 "G2Dual Laser Turret"
 	turret 63 -512.5 "G2Dual Laser Turret"
 	turret -77.5 -664 "G2Dual Laser Turret"
@@ -4545,7 +4168,7 @@ ship "Onager Star Destroyer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 175000000
 		"shields" 229000
 		"hull" 58000
@@ -4611,53 +4234,41 @@ ship "Onager Star Destroyer"
 	turret 388 -1382.5 "G4Dual Turbolaser Turret"
 	turret -155 -1395.5 "G5Quad Turbolaser Turret"
 	turret 155 -1395.5 "G5Quad Turbolaser Turret"
-	fighter -707 -1128.5
+	bay "Starfighter (Bay) " -707 -1128.5
 		angle 180
-	fighter 707 -1128.5
+	bay "Starfighter (Bay) " 707 -1128.5
 		angle 180
-	fighter -661 -1122
+	bay "Starfighter (Bay) " -661 -1122
 		angle 180
-	fighter 661 -1122
+	bay "Starfighter (Bay) " 661 -1122
 		angle 180
-	fighter -613 -1117
+	bay "Starfighter (Bay) " -613 -1117
 		angle 180
-	fighter 613 -1117
+	bay "Starfighter (Bay) " 613 -1117
 		angle 180
-	fighter -572 -1111
+	bay "Starfighter (Bay) " -572 -1111
 		angle 180
-	fighter 572 -1111
+	bay "Starfighter (Bay) " 572 -1111
 		angle 180
-	fighter -522.5 -1104
+	bay "Starfighter (Bay) " -522.5 -1104
 		angle 180
-	fighter 522.5 -1104
+	bay "Starfighter (Bay) " 522.5 -1104
 		angle 180
-	fighter -479 -1096.5
+	bay "Starfighter (Bay) " -479 -1096.5
 		angle 180
-	fighter 479 -1096.5
+	bay "Starfighter (Bay) " 479 -1096.5
 		angle 180
-	fighter -707 -1128.5
+	bay "Starfighter (Bay) " -707 -1128.5
 		angle 180
-	fighter 707 -1128.5
+	bay "Starfighter (Bay) " 707 -1128.5
 		angle 180
-	fighter -661 -1122
+	bay "Starfighter (Bay) " -661 -1122
 		angle 180
-	fighter 661 -1122
+	bay "Starfighter (Bay) " 661 -1122
 		angle 180
-	fighter -613 -1117
+	bay "Starfighter (Bay) " -613 -1117
 		angle 180
-	fighter 613 -1117
-		angle 180
-	fighter -572 -1111
-		angle 180
-	fighter 572 -1111
-		angle 180
-	fighter -522.5 -1104
-		angle 180
-	fighter 522.5 -1104
-		angle 180
-	fighter -479 -1096.5
-		angle 180
-	fighter 479 -1096.5
+	bay "Starfighter (Bay) " 613 -1117
 		angle 180
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -4676,7 +4287,7 @@ ship "Praetor Mark II Battlecruiser"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 1200000000
 		"shields" 1700000
 		"hull" 690000
@@ -4745,60 +4356,30 @@ ship "Praetor Mark II Battlecruiser"
 	turret 429 1017 "G5Quad Turbolaser Turret"
 	turret -2122.5 1940 "G5Quad Turbolaser Turret"
 	turret 2122.5 1940 "G5Quad Turbolaser Turret"
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
-	fighter -166 152
-	fighter 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
+	bay "Starfighter (Bay) " -166 152
+	bay "Starfighter (Bay) " 166 152
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -4810,13 +4391,102 @@ ship "Praetor Mark II Battlecruiser"
 
 
 
+ship "Proclamator Star Destroyer"
+	sprite "ship/proclamatordestroyer"
+	thumbnail "thumbnail/proclamatordestroyer"
+	attributes
+		licenses
+			Imperial
+		category "Heavy Cruiser "
+		"cost" 55150000
+		"shields" 133000
+		"hull" 46500
+		"required crew" 680
+		"bunks" 1700
+		"mass" 18700
+		"drag" 48.0
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 350
+		"outfit space" 2293
+		"weapon capacity" 1535
+		"engine capacity" 550
+		"force protection" 1000000
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"G5Quad Turbolaser Turret" 6
+		"G4Dual Turbolaser Turret" 6
+		"G3 Turbolaser Turret" 10
+		
+		"P5 Power Converter"
+		"D5 Deflector Shield"
+		"C5 Coolant System"
+		
+		"B5 Sublight Engine"
+		"H5 Hyperspace Motivator"
+		
+	engine -352 476.5
+	engine 352 476.5
+	turret -119 818.5 "G3 Turbolaser Turret"
+	turret 119 818.5 "G3 Turbolaser Turret"
+	turret 0 408 "G3 Turbolaser Turret"
+	turret 0 299 "G3 Turbolaser Turret"
+	turret -164.5 220.5 "G5Quad Turbolaser Turret"
+	turret 164.5 220.5 "G5Quad Turbolaser Turret"
+	turret -162 131.5 "G5Quad Turbolaser Turret"
+	turret 162 131.5 "G5Quad Turbolaser Turret"
+	turret -66 126.5 "G4Dual Turbolaser Turret"
+	turret 66 126.5 "G4Dual Turbolaser Turret"
+	turret -547 109 "G4Dual Turbolaser Turret"
+	turret 547 109 "G4Dual Turbolaser Turret"
+	turret -68.5 68.5 "G4Dual Turbolaser Turret"
+	turret 68.5 68.5 "G4Dual Turbolaser Turret"
+	turret -162 40.5 "G5Quad Turbolaser Turret"
+	turret 162 40.5 "G5Quad Turbolaser Turret"
+	turret -304 -17.5 "G3 Turbolaser Turret"
+	turret 304 -17.5 "G3 Turbolaser Turret"
+	turret 0 -116.5 "G3 Turbolaser Turret"
+	turret 0 -309 "G3 Turbolaser Turret"
+	turret -152 -661 "G3 Turbolaser Turret"
+	turret 152 -661 "G3 Turbolaser Turret"
+	bay "Starfighter (Bay) " -392.5 -164.5
+	bay "Starfighter (Bay) " 392.5 -164.5
+	bay "Starfighter (Bay) " -245.5 -453.5
+	bay "Starfighter (Bay) " 245.5 -453.5
+	bay "Starfighter (Bay) " -392.5 -164.5
+	bay "Starfighter (Bay) " 392.5 -164.5
+	bay "Starfighter (Bay) " -245.5 -453.5
+	bay "Starfighter (Bay) " 245.5 -453.5
+	bay "Starfighter (Bay) " -392.5 -164.5
+	bay "Starfighter (Bay) " 392.5 -164.5
+	bay "Starfighter (Bay) " -245.5 -453.5
+	bay "Starfighter (Bay) " 245.5 -453.5
+	bay "Starfighter (Bay) " -392.5 -164.5
+	bay "Starfighter (Bay) " 392.5 -164.5
+	bay "Starfighter (Bay) " -245.5 -453.5
+	bay "Starfighter (Bay) " 245.5 -453.5
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Built in the waning days of the Old Republic and classed as a Star Destroyer during that period, the Proclamator class Star Destroyer had been originally designed as a warship cousin of the Acclamator class assault ship. Unlike the Acclamator, the Proclamator lacked the huge capacity for carrying troops and their supporting equipment, instead focusing on anti-shipping firepower. Overshadowed by the introduction of the Imperator class and lacking the ‘taint’ of the Republic that saw the Venator class side-lined, the Proclamator continues to see service in the Imperial Navy alongside the Victory and Victory II class ships, fulfilling a similar role to those ships."
+	description "Artwork/model by Fractalsponge" 
+
+
+
 ship "Procursator Star Destroyer"
 	sprite "ship/procursatordestroyer"
 	thumbnail "thumbnail/procursatordestroyer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 75000000
 		"shields" 175000
 		"hull" 57500
@@ -4898,7 +4568,7 @@ ship "Provider Container Transport"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Freighter"
+		category "Bulk Freighter "
 		"cost" 9150000
 		"shields" 38000
 		"hull" 15500
@@ -4950,7 +4620,7 @@ ship "Provider Container Transport" "Provider Container Transport (Cargo)"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Freighter"
+		category "Bulk Freighter "
 		"cost" 9150000
 		"shields" 38000
 		"hull" 16000
@@ -5001,7 +4671,7 @@ ship "Quasar Fire I Bulk Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Medium Warship"
+		category "Carrier"
 		"cost" 20000000
 		"shields" 66000
 		"hull" 29000
@@ -5037,42 +4707,24 @@ ship "Quasar Fire I Bulk Cruiser"
 	engine 0 441.5
 	turret -14.5 -429 "G4Dual Turbolaser Turret"
 	turret 14.5 -429 "G4Dual Turbolaser Turret"
-	fighter -244.5 110
-	fighter 244.5 110
-	fighter -201 110
-	fighter 201 110
-	fighter -161 110
-	fighter 161 110
-	fighter -122.5 110
-	fighter 122.5 110
-	fighter -78.5 110
-	fighter 78.5 110
-	fighter -31 110
-	fighter 31 110
-	fighter -244.5 110
-	fighter 244.5 110
-	fighter -201 110
-	fighter 201 110
-	fighter -161 110
-	fighter 161 110
-	fighter -122.5 110
-	fighter 122.5 110
-	fighter -78.5 110
-	fighter 78.5 110
-	fighter -31 110
-	fighter 31 110
-	fighter -244.5 110
-	fighter 244.5 110
-	fighter -201 110
-	fighter 201 110
-	fighter -161 110
-	fighter 161 110
-	fighter -122.5 110
-	fighter 122.5 110
-	fighter -78.5 110
-	fighter 78.5 110
-	fighter -31 110
-	fighter 31 110
+	bay "Starfighter (Bay) " -244.5 110
+	bay "Starfighter (Bay) " 244.5 110
+	bay "Starfighter (Bay) " -201 110
+	bay "Starfighter (Bay) " 201 110
+	bay "Starfighter (Bay) " -161 110
+	bay "Starfighter (Bay) " 161 110
+	bay "Starfighter (Bay) " -122.5 110
+	bay "Starfighter (Bay) " 122.5 110
+	bay "Starfighter (Bay) " -78.5 110
+	bay "Starfighter (Bay) " 78.5 110
+	bay "Starfighter (Bay) " -31 110
+	bay "Starfighter (Bay) " 31 110
+	bay "Starfighter (Bay) " -244.5 110
+	bay "Starfighter (Bay) " 244.5 110
+	bay "Starfighter (Bay) " -201 110
+	bay "Starfighter (Bay) " 201 110
+	bay "Starfighter (Bay) " -161 110
+	bay "Starfighter (Bay) " 161 110
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5089,7 +4741,7 @@ ship "Quasar Fire II Bulk Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Medium Warship"
+		category "Carrier "
 		"cost" 20100000
 		"shields" 66100
 		"hull" 29100
@@ -5125,42 +4777,24 @@ ship "Quasar Fire II Bulk Cruiser"
 	engine 0 441.5
 	turret -14.5 -429 "G4Dual Turbolaser Turret"
 	turret 14.5 -429 "G4Dual Turbolaser Turret"
-	fighter -244.5 110
-	fighter 244.5 110
-	fighter -201 110
-	fighter 201 110
-	fighter -161 110
-	fighter 161 110
-	fighter -122.5 110
-	fighter 122.5 110
-	fighter -78.5 110
-	fighter 78.5 110
-	fighter -31 110
-	fighter 31 110
-	fighter -244.5 110
-	fighter 244.5 110
-	fighter -201 110
-	fighter 201 110
-	fighter -161 110
-	fighter 161 110
-	fighter -122.5 110
-	fighter 122.5 110
-	fighter -78.5 110
-	fighter 78.5 110
-	fighter -31 110
-	fighter 31 110
-	fighter -244.5 110
-	fighter 244.5 110
-	fighter -201 110
-	fighter 201 110
-	fighter -161 110
-	fighter 161 110
-	fighter -122.5 110
-	fighter 122.5 110
-	fighter -78.5 110
-	fighter 78.5 110
-	fighter -31 110
-	fighter 31 110
+	bay "Starfighter (Bay) " -244.5 110
+	bay "Starfighter (Bay) " 244.5 110
+	bay "Starfighter (Bay) " -201 110
+	bay "Starfighter (Bay) " 201 110
+	bay "Starfighter (Bay) " -161 110
+	bay "Starfighter (Bay) " 161 110
+	bay "Starfighter (Bay) " -122.5 110
+	bay "Starfighter (Bay) " 122.5 110
+	bay "Starfighter (Bay) " -78.5 110
+	bay "Starfighter (Bay) " 78.5 110
+	bay "Starfighter (Bay) " -31 110
+	bay "Starfighter (Bay) " 31 110
+	bay "Starfighter (Bay) " -244.5 110
+	bay "Starfighter (Bay) " 244.5 110
+	bay "Starfighter (Bay) " -201 110
+	bay "Starfighter (Bay) " 201 110
+	bay "Starfighter (Bay) " -161 110
+	bay "Starfighter (Bay) " 161 110
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5180,12 +4814,12 @@ ship "Raider II Corvette"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Corvette "
 		"cost" 3700000
 		"shields" 24100
 		"hull" 9600
-		"required crew" 92
-		"bunks" 122
+		"required crew" 62
+		"bunks" 130
 		"mass" 1575
 		"drag" 9.25
 		"heat dissipation" .45
@@ -5226,12 +4860,11 @@ ship "Raider II Corvette"
 	turret 29 41.5 "G2Dual Laser Turret"
 	turret -19 -66 "G2Dual Laser Turret"
 	turret 19 -66 "G2Dual Laser Turret"
-	fighter 0 63
-	fighter 0 63
-	fighter 0 63
-	fighter 0 63
-	fighter 0 63
-	fighter 0 63
+	bay "Starfighter (Bay) " 0 63
+	bay "Starfighter (Bay) " 0 63
+	bay "Starfighter (Bay) " 0 63
+	bay "Starfighter (Bay) " 0 63
+	bay "Starfighter (Bay) " 0 63
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5242,13 +4875,112 @@ ship "Raider II Corvette"
 
 
 
+ship "Rogue Shadow"
+	sprite "ship/rogueshadow"
+	thumbnail "thumbnail/rogueshadow"
+	attributes
+		category "Light Freighter "
+		"cost" 250000
+		"shields" 3970
+		"hull" 6390
+		"required crew" 1
+		"bunks" 9
+		"mass" 146
+		"drag" 4.49
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 75
+		"outfit space" 68
+		"weapon capacity" 6
+		"engine capacity" 22
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"G2 Laser Cannon" 3
+		
+		"P2 Power Converter"
+		"D2 Deflector Shield"
+		"Stygium Cloaking Device"
+		"C2 Coolant System"
+		
+		"B2 Sublight Engine"
+		"H2 Hyperspace Motivator"
+		
+	engine 18 38.5
+	gun -10 -40.5 "G2 Laser Cannon"
+	gun -9 -40.5 "G2 Laser Cannon"
+	gun 2.5 -40 "G2 Laser Cannon"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Built by Sienar Fleet Systems, the Rogue Shadow's design was based on the Scimitar, Darth Maul's Sith Infiltrator. Designed and built in secret, all of the personnel and droids involved in the Rogue Shadow's construction were killed, thus ensuring their silence, while the causes of their deaths were described as 'industrial accidents' and street crimes. Built primarily for stealth and infiltration purposes, the Rogue Shadow incorporates state-of-the-art cloaking technology and a highly advanced hyperdrive engine in its design, thus allowing the ship to travel anywhere throughout the galaxy without risking detection."
+	description "Artwork/model from Unusualsuspex"
+
+
+
+
+ship "Rogue Shadow (Refit)"
+	sprite "ship/rogueshadowrefit"
+	thumbnail "thumbnail/rogueshadowrefit"
+	attributes
+		category "Light Freighter "
+		"cost" 275000
+		"shields" 4000
+		"hull" 6390
+		"required crew" 1
+		"bunks" 15
+		"mass" 148
+		"drag" 4.49
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 75
+		"outfit space" 70
+		"weapon capacity" 8
+		"engine capacity" 22
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"G2 Laser Cannon" 4
+		
+		"P2 Power Converter"
+		"D2 Deflector Shield"
+		"Stygium Cloaking Device"
+		"C2 Coolant System"
+		
+		"B2 Sublight Engine"
+		"H2 Hyperspace Motivator"
+		
+	engine -1.5 38.5
+	engine 1.5 38.5
+	gun -6.5 -36.5 "G2 Laser Cannon"
+	gun 6.5 -36.5 "G2 Laser Cannon"
+	gun -8.5 -35 "G2 Laser Cannon"
+	gun 8.5 -35 "G2 Laser Cannon"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Built primarily for stealth and infiltration purposes, the Rogue Shadow incorporates state-of-the-art cloaking technology and a highly advanced hyperdrive engine in its design, thus allowing the ship to travel anywhere throughout the galaxy without risking detection. During General Rahm Kota's tenure as the owner of the Rogue Shadow, the starship was heavily modified to better suit its role as a Rebel transport. The shielding was strengthened, thus giving the starship a heavier feel when under thrust; other changes included expanded compartments in order to house Kota's squad."
+	description "Artwork/model from Unusualsuspex"
+
+
+
 ship "Secutor Star Destroyer"
 	sprite "ship/secutorstardestroyer"
 	thumbnail "thumbnail/secutorstardestroyer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 480000000
 		"shields" 500000
 		"hull" 135000
@@ -5320,58 +5052,30 @@ ship "Secutor Star Destroyer"
 	turret 207 -1460 "G5Quad Turbolaser Turret"
 	turret -425.5 -835.5 "G4Dual Turbolaser Turret"
 	turret 425.5 -835.5 "G4Dual Turbolaser Turret"
-	fighter -425.5 -835.5
-	fighter 425.5 -835.5
-	fighter -399.5 -906
-	fighter 399.5 -906
-	fighter -372.5 -972.5
-	fighter 372.5 -972.5
-	fighter -346.5 -1040.5
-	fighter 346.5 -1040.5
-	fighter -318.5 -1123
-	fighter 318.5 -1123
-	fighter -280 -1209
-	fighter 280 -1209
-	fighter -425.5 -835.5
-	fighter 425.5 -835.5
-	fighter -399.5 -906
-	fighter 399.5 -906
-	fighter -372.5 -972.5
-	fighter 372.5 -972.5
-	fighter -346.5 -1040.5
-	fighter 346.5 -1040.5
-	fighter -318.5 -1123
-	fighter 318.5 -1123
-	fighter -280 -1209
-	fighter 280 -1209
-	fighter -425.5 -835.5
-	fighter 425.5 -835.5
-	fighter -399.5 -906
-	fighter 399.5 -906
-	fighter -372.5 -972.5
-	fighter 372.5 -972.5
-	fighter -346.5 -1040.5
-	fighter 346.5 -1040.5
-	fighter -318.5 -1123
-	fighter 318.5 -1123
-	fighter -280 -1209
-	fighter 280 -1209
-	fighter -425.5 -835.5
-	fighter 425.5 -835.5
-	fighter -399.5 -906
-	fighter 399.5 -906
-	fighter -372.5 -972.5
-	fighter 372.5 -972.5
-	fighter -346.5 -1040.5
-	fighter 346.5 -1040.5
-	fighter -318.5 -1123
-	fighter 318.5 -1123
-	fighter -280 -1209
-	fighter 280 -1209
-	fighter -425.5 -835.5
-	fighter 425.5 -835.5
-	fighter -399.5 -906
-	fighter 399.5 -906
+	bay "Starfighter (Bay) " -425.5 -835.5
+	bay "Starfighter (Bay) " 425.5 -835.5
+	bay "Starfighter (Bay) " -399.5 -906
+	bay "Starfighter (Bay) " 399.5 -906
+	bay "Starfighter (Bay) " -372.5 -972.5
+	bay "Starfighter (Bay) " 372.5 -972.5
+	bay "Starfighter (Bay) " -346.5 -1040.5
+	bay "Starfighter (Bay) " 346.5 -1040.5
+	bay "Starfighter (Bay) " -318.5 -1123
+	bay "Starfighter (Bay) " 318.5 -1123
+	bay "Starfighter (Bay) " -280 -1209
+	bay "Starfighter (Bay) " 280 -1209
+	bay "Starfighter (Bay) " -425.5 -835.5
+	bay "Starfighter (Bay) " 425.5 -835.5
+	bay "Starfighter (Bay) " -399.5 -906
+	bay "Starfighter (Bay) " 399.5 -906
+	bay "Starfighter (Bay) " -372.5 -972.5
+	bay "Starfighter (Bay) " 372.5 -972.5
+	bay "Starfighter (Bay) " -346.5 -1040.5
+	bay "Starfighter (Bay) " 346.5 -1040.5
+	bay "Starfighter (Bay) " -318.5 -1123
+	bay "Starfighter (Bay) " 318.5 -1123
+	bay "Starfighter (Bay) " -280 -1209
+	bay "Starfighter (Bay) " 280 -1209
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5383,13 +5087,81 @@ ship "Secutor Star Destroyer"
 
 
 
+ship "Spector Storm Commando Carrier"
+	sprite "ship/spectorstormcommandocarrier"
+	thumbnail "thumbnail/spectorstormcommandocarrier"
+	attributes
+		licenses
+			Imperial
+		category "Corvette "
+		"cost" 3700000
+		"shields" 26000
+		"hull" 10000
+		"required crew" 50
+		"bunks" 170
+		"mass" 1680
+		"drag" 11.1
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 330
+		"weapon capacity" 178
+		"engine capacity" 88
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"G2 Laser Cannon" 2
+		"G3 Turbolaser Turret" 8
+		"Concussion Missile Launcher" 2
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"B3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine 0 221.5
+	gun -14.5 -154.5 "G2 Laser Cannon"
+	gun 14.5 -154.5 "G2 Laser Cannon"
+	gun -14.5 -154.5 "Concussion Missile Launcher"
+	gun 14.5 -154.5 "Concussion Missile Launcher"
+	turret -33.5 -106.5 "G3 Turbolaser Turret"
+	turret 33.5 -106.5 "G3 Turbolaser Turret"
+	turret 0 -105.5 "G3 Turbolaser Turret"
+	turret 0 -31.5 "G3 Turbolaser Turret"
+	turret -74 128 "G3 Turbolaser Turret"
+	turret 74 128 "G3 Turbolaser Turret"
+	turret -38.5 175.5 "G3 Turbolaser Turret"
+	turret 38.5 175.5 "G3 Turbolaser Turret"
+	bay "Starfighter (Bay) " -13.5 39.5 left
+	bay "Starfighter (Bay) " 13.5 39.5 right
+	bay "Starfighter (Bay) " -14.5 26.5 left
+	bay "Starfighter (Bay) " 14.5 26.5 right
+	bay "Starfighter (Bay) " -55 149.5
+	bay "Starfighter (Bay) " 55 149.5
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Spector Storm Commando Carrier, also known as the Imperial escort carrier, is a type of capital ship used exclusively by the Galactic Empire's storm commandos. Like normal carriers, it is capable of deploying TIE starfighters into battle, including the advanced TIE Hunter, due to its hangar openings on each side of the hull. However, the ship is also capable of engaging in combat on its own account. Ships of this type are used to attack medium-sized craft and transports of the Rebel Alliance, boarding and seizing the Rebel starships and their crew."
+	description "Artwork/model by Fractalsponge"
+
+
+
 ship "Star Galleon Frigate"
 	sprite "ship/stargalleonfrigate"
 	thumbnail "thumbnail/stargalleonfrigate"
 	attributes
 		licenses
 			Imperial
-		category "Medium Warship"
+		category "Frigate "
 		"cost" 11000000
 		"shields" 46250
 		"hull" 16250
@@ -5430,16 +5202,12 @@ ship "Star Galleon Frigate"
 	turret 129.5 -196 "G4Dual Turbolaser Turret"
 	turret -53 -361.5 "G4Dual Turbolaser Turret"
 	turret 53 -361.5 "G4Dual Turbolaser Turret"
-	fighter -144 6.5
-	fighter 144 6.5
-	fighter -140 -14
-	fighter 140 -14
-	fighter -136.5 -32
-	fighter 136.5 -32
-	fighter -132.5 -51
-	fighter 132.5 -51
-	fighter -128.5 -70
-	fighter 128.5 -70
+	bay "Starfighter (Bay) " -144 6.5
+	bay "Starfighter (Bay) " 144 6.5
+	bay "Starfighter (Bay) " -136.5 -32
+	bay "Starfighter (Bay) " 136.5 -32
+	bay "Starfighter (Bay) " -128.5 -70
+	bay "Starfighter (Bay) " 128.5 -70
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5456,7 +5224,7 @@ ship "Strike Medium Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Medium Warship"
+		category "Cruiser "
 		"cost" 17000000
 		"shields" 58000
 		"hull" 24500
@@ -5503,24 +5271,16 @@ ship "Strike Medium Cruiser"
 	turret 39 -287.5 "G4Dual Turbolaser Turret"
 	turret -29 -432.5 "G4Dual Turbolaser Turret"
 	turret 29 -432.5 "G4Dual Turbolaser Turret"
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5538,12 +5298,12 @@ ship "Tartan Patrol Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Corvette "
 		"cost" 3725000
 		"shields" 26100
 		"hull" 10100
-		"required crew" 80
-		"bunks" 150
+		"required crew" 40
+		"bunks" 120
 		"mass" 1703
 		"drag" 11.1
 		"heat dissipation" .45
@@ -5597,9 +5357,7 @@ ship "Tartan Patrol Cruiser" "Tartan Patrol Cruiser (Stripe)"
 	sprite "ship/tartanpatrolcruiser2"
 	thumbnail "thumbnail/tartanpatrolcruiser2"
 	attributes
-		licenses
-			Imperial
-		category "Light Warship"
+		category "Corvette "
 		"cost" 3725000
 		"shields" 26100
 		"hull" 10100
@@ -5660,11 +5418,11 @@ ship "Tector Star Destroyer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 300000000
 		"shields" 330000
 		"hull" 90000
-		"required crew" 1650
+		"required crew" 1500
 		"bunks" 2060
 		"mass" 35000
 		"drag" 56
@@ -5742,7 +5500,7 @@ ship "TIE/AD x1 Fighter"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 168000
 		"shields" 1650
@@ -5790,13 +5548,13 @@ ship "TIE/AD x1 Fighter"
 
 
 
-ship "TIE/AD x1 Fighter (Fighter)"
+ship "TIE/AD x1 Fighter (Bay)"
 	sprite "ship/tieadx1fighter"
 	thumbnail "thumbnail/tieadx1fighter"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 168000
 		"shields" 1650
@@ -5808,7 +5566,7 @@ ship "TIE/AD x1 Fighter (Fighter)"
 		"fuel capacity" 700
 		"heat dissipation" .9
 		"outfit space" 16
-		"weapon capacity" 8
+		"weapon capacity" 4
 		"engine capacity" 5
 		"hullslot capacity" 1
 		"shieldslot capacity" 1
@@ -5850,7 +5608,7 @@ ship "TIE/D Fighter"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 300000
 		"shields" 3100
@@ -5903,13 +5661,13 @@ ship "TIE/D Fighter"
 
 
 
-ship "TIE/D Fighter (Fighter)"
+ship "TIE/D Fighter (Bay)"
 	sprite "ship/tiedfighter"
 	thumbnail "thumbnail/tiedfighter"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay)"
 		"absolute threshold" 20
 		"cost" 300000
 		"shields" 3100
@@ -5968,7 +5726,7 @@ ship "TIE/D Fighter (R)"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 300000
 		"shields" 3100
@@ -6021,13 +5779,13 @@ ship "TIE/D Fighter (R)"
 
 
 
-ship "TIE/D Fighter (R) (Fighter)"
+ship "TIE/D Fighter (R) (Bay)"
 	sprite "ship/tiedfighterred"
 	thumbnail "thumbnail/tiedfighterred"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 300000
 		"shields" 3100
@@ -6080,13 +5838,13 @@ ship "TIE/D Fighter (R) (Fighter)"
 
 
 
-ship "TIE/IN Fighter"
-	sprite "ship/tieinfighter"
-	thumbnail "thumbnail/tieinfighter"
+ship "TIE/IN Interceptor"
+	sprite "ship/tieininterceptor"
+	thumbnail "thumbnail/tieininterceptor"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 80000
 		"shields" 0
@@ -6127,13 +5885,13 @@ ship "TIE/IN Fighter"
 
 
 
-ship "TIE/IN Fighter (Fighter)"
-	sprite "ship/tieinfighter"
-	thumbnail "thumbnail/tieinfighter"
+ship "TIE/IN Interceptor (Bay)"
+	sprite "ship/tieininterceptor"
+	thumbnail "thumbnail/tieininterceptor"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 80000
 		"shields" 0
@@ -6174,13 +5932,13 @@ ship "TIE/IN Fighter (Fighter)"
 
 
 
-ship "TIE/IN Fighter (Royal Guard)"
-	sprite "ship/tieinfighterroyalguard"
-	thumbnail "thumbnail/tieinfighterroyalguard"
+ship "TIE/IN Interceptor (Royal Guard)"
+	sprite "ship/tieininterceptorroyalguard"
+	thumbnail "thumbnail/tieininterceptorroyalguard"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 800
@@ -6230,13 +5988,13 @@ ship "TIE/IN Fighter (Royal Guard)"
 
 
 
-ship "TIE/IN Fighter (Royal Guard) (Fighter)"
-	sprite "ship/tieinfighterroyalguard"
-	thumbnail "thumbnail/tieinfighterroyalguard"
+ship "TIE/IN Interceptor (Royal Guard) (Bay)"
+	sprite "ship/tieininterceptorroyalguard"
+	thumbnail "thumbnail/tieininterceptorroyalguard"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay)"
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 800
@@ -6286,13 +6044,13 @@ ship "TIE/IN Fighter (Royal Guard) (Fighter)"
 
 
 
-ship "TIE/IT Fighter"
-	sprite "ship/tieitfighter"
-	thumbnail "thumbnail/tieitfighter"
+ship "TIE/IT Bomber"
+	sprite "ship/tieitbomber"
+	thumbnail "thumbnail/tieitbomber"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 253000
 		"shields" 1800
@@ -6354,13 +6112,13 @@ ship "TIE/IT Fighter"
 
 
 
-ship "TIE/IT Fighter (Fighter)"
-	sprite "ship/tieitfighter"
-	thumbnail "thumbnail/tieitfighter"
+ship "TIE/IT Bomber (Bay)"
+	sprite "ship/tieitbomber"
+	thumbnail "thumbnail/tieitbomber"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 253000
 		"shields" 1000
@@ -6428,7 +6186,7 @@ ship "TIE/LN Fighter"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 60000
 		"shields" 0
@@ -6462,18 +6220,18 @@ ship "TIE/LN Fighter"
 	gun -3 -2 "GI1 Laser Cannon"
 	gun 3 -2 "GI1 Laser Cannon"
 	explode "large explosion" 3
-	description "The TIE/LN space superiority starfighter, also known as the TIE/LN starfighter and commonly called the TIE fighter, is the signature starfighter of the Galactic Empire and de facto symbol of Imperial space superiority. Its official production name was the Twin Ion Engine "line edition" space superiority starfighter. Instantly recognizable from the roar of its engines, the TIE/LN exuded Imperial power and prestige across the galaxy, seeing use all throughout the Galactic Empire."
+	description "The TIE/LN space superiority starfighter, also known as the TIE/LN starfighter and commonly called the TIE fighter, is the signature starfighter of the Galactic Empire and de facto symbol of Imperial space superiority. Its official production name was the Twin Ion Engine "line edition" space superiority starfighter. Instantly recognisable from the roar of its engines, the TIE/LN exuded Imperial power and prestige across the galaxy, seeing use all throughout the Galactic Empire."
 	description "Artwork/model by Unusualsuspex"
 
 
 
-ship "TIE/LN Fighter (Fighter)"
+ship "TIE/LN Fighter (Bay)"
 	sprite "ship/tielnfighter"
 	thumbnail "thumbnail/tielnfighter"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 60000
 		"shields" 0
@@ -6507,7 +6265,7 @@ ship "TIE/LN Fighter (Fighter)"
 	gun -3 -2 "GI1 Laser Cannon"
 	gun 3 -2 "GI1 Laser Cannon"
 	explode "large explosion" 3
-	description "The TIE/LN space superiority starfighter, also known as the TIE/LN starfighter and commonly called the TIE fighter, is the signature starfighter of the Galactic Empire and de facto symbol of Imperial space superiority. Its official production name was the Twin Ion Engine "line edition" space superiority starfighter. Instantly recognizable from the roar of its engines, the TIE/LN exuded Imperial power and prestige across the galaxy, seeing use all throughout the Galactic Empire."
+	description "The TIE/LN space superiority starfighter, also known as the TIE/LN starfighter and commonly called the TIE fighter, is the signature starfighter of the Galactic Empire and de facto symbol of Imperial space superiority. Its official production name was the Twin Ion Engine "line edition" space superiority starfighter. Instantly recognisable from the roar of its engines, the TIE/LN exuded Imperial power and prestige across the galaxy, seeing use all throughout the Galactic Empire."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -6518,7 +6276,7 @@ ship "TIE/LN Scout Fighter"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 100000
 		"shields" 0
@@ -6559,13 +6317,13 @@ ship "TIE/LN Scout Fighter"
 
 
 
-ship "TIE/LN Scout Fighter (Fighter)"
+ship "TIE/LN Scout Fighter (Bay)"
 	sprite "ship/tielnfighter"
 	thumbnail "thumbnail/tielnfighter"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 100000
 		"shields" 0
@@ -6612,7 +6370,7 @@ ship "TIE/MG Fighter"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 40000
 		"shields" 150
@@ -6653,13 +6411,13 @@ ship "TIE/MG Fighter"
 
 
 
-ship "TIE/MG Fighter (Fighter)"
+ship "TIE/MG Fighter (Bay)"
 	sprite "ship/tiemgfighter"
 	thumbnail "thumbnail/tiemgfighter"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 40000
 		"shields" 150
@@ -6706,7 +6464,7 @@ ship "TIE/PH Fighter"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 175000
 		"shields" 1680
@@ -6754,13 +6512,13 @@ ship "TIE/PH Fighter"
 
 
 
-ship "TIE/PH Fighter (Fighter)"
+ship "TIE/PH Fighter (Bay)"
 	sprite "ship/tiephfighter"
 	thumbnail "thumbnail/tiephfighter"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 175000
 		"shields" 1680
@@ -6809,13 +6567,13 @@ ship "TIE/PH Fighter (Fighter)"
 
 
 
-ship "TIE/RB Fighter"
-	sprite "ship/tierbfighter"
-	thumbnail "thumbnail/tierbfighter"
+ship "TIE/RB Heavy Fighter"
+	sprite "ship/tierbheavyfighter"
+	thumbnail "thumbnail/tierbheavyfighter"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 90000
 		"shields" 0
@@ -6854,13 +6612,13 @@ ship "TIE/RB Fighter"
 	description "The TIE/rb heavy starfighter, more formally known as the TIE reinforcement battery heavy starfighter and simply known as the TIE Brute, is a variant of the TIE line starfighters used by the Galactic Empire, distinguished by its extra pod housing more powerful laser cannons. The prototype was created by Sienar Fleet Systems in response to the Empire's expansion into the Outer Rim Territories."
 	description "Artwork/model from Flycasual"
 
-ship "TIE/RB Fighter (Fighter)"
-	sprite "ship/tierbfighter"
-	thumbnail "thumbnail/tierbfighter"
+ship "TIE/RB Heavy Fighter (Bay)"
+	sprite "ship/tierbheavyfighter"
+	thumbnail "thumbnail/tierbheavyfighter"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 90000
 		"shields" 0
@@ -6907,7 +6665,7 @@ ship "TIE/RP Attack Lander"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 1600
@@ -6950,13 +6708,13 @@ ship "TIE/RP Attack Lander"
 
 
 
-ship "TIE/RP Attack Lander (Fighter)"
+ship "TIE/RP Attack Lander (Bay)"
 	sprite "ship/tierpattacklander"
 	thumbnail "thumbnail/tierpattacklander"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 1600
@@ -6999,13 +6757,13 @@ ship "TIE/RP Attack Lander (Fighter)"
 
 
 
-ship "TIE/SA Fighter"
-	sprite "ship/tiesafighter"
-	thumbnail "thumbnail/tiesafighter"
+ship "TIE/SA Bomber"
+	sprite "ship/tiesabomber"
+	thumbnail "thumbnail/tiesabomber"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 150000
 		"shields" 0
@@ -7054,13 +6812,13 @@ ship "TIE/SA Fighter"
 
 
 
-ship "TIE/SA Fighter (Fighter)"
-	sprite "ship/tiesafighter"
-	thumbnail "thumbnail/tiesafighter"
+ship "TIE/SA Bomber (Bay)"
+	sprite "ship/tiesabomber"
+	thumbnail "thumbnail/tiesabomber"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 150000
 		"shields" 0
@@ -7115,7 +6873,7 @@ ship "TIE/SK Fighter"
 	attributes
 		licenses
 			Imperial
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 70000
 		"shields" 0
@@ -7156,13 +6914,13 @@ ship "TIE/SK Fighter"
 
 
 
-ship "TIE/SK Fighter (Fighter)"
+ship "TIE/SK Fighter (Bay)"
 	sprite "ship/tieskfighter"
 	thumbnail "thumbnail/tieskfighter"
 	attributes
 		licenses
 			Imperial
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 70000
 		"shields" 0
@@ -7209,7 +6967,7 @@ ship "Ton-Falk Escort Carrier"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Carrier "
 		"cost" 26500000
 		"shields" 81000
 		"hull" 35500
@@ -7243,54 +7001,26 @@ ship "Ton-Falk Escort Carrier"
 	turret 184 165 "G4Dual Turbolaser Turret"
 	turret -149.5 -278.5 "G4Dual Turbolaser Turret"
 	turret 149.5 -278.5 "G4Dual Turbolaser Turret"
-	fighter -78 -639
-	fighter 78 -639
-	fighter -65 -639
-	fighter 65 -639
-	fighter -55 -639
-	fighter 55 -639
-	fighter -42.5 -639
-	fighter 42.5 -639
-	fighter -28.5 -639
-	fighter 28.5 -639
-	fighter -78 -639
-	fighter 78 -639
-	fighter -65 -639
-	fighter 65 -639
-	fighter -55 -639
-	fighter 55 -639
-	fighter -42.5 -639
-	fighter 42.5 -639
-	fighter -28.5 -639
-	fighter 28.5 -639
-	fighter -78 -639
-	fighter 78 -639
-	fighter -65 -639
-	fighter 65 -639
-	fighter -55 -639
-	fighter 55 -639
-	fighter -42.5 -639
-	fighter 42.5 -639
-	fighter -28.5 -639
-	fighter 28.5 -639
-	fighter -78 -639
-	fighter 78 -639
-	fighter -65 -639
-	fighter 65 -639
-	fighter -55 -639
-	fighter 55 -639
-	fighter -42.5 -639
-	fighter 42.5 -639
-	fighter -28.5 -639
-	fighter 28.5 -639
-	fighter -78 -639
-	fighter 78 -639
-	fighter -65 -639
-	fighter 65 -639
-	fighter -55 -639
-	fighter 55 -639
-	fighter -42.5 -639
-	fighter 42.5 -639
+	bay "Starfighter (Bay) " -78 -639
+	bay "Starfighter (Bay) " 78 -639
+	bay "Starfighter (Bay) " -65 -639
+	bay "Starfighter (Bay) " 65 -639
+	bay "Starfighter (Bay) " -55 -639
+	bay "Starfighter (Bay) " 55 -639
+	bay "Starfighter (Bay) " -42.5 -639
+	bay "Starfighter (Bay) " 42.5 -639
+	bay "Starfighter (Bay) " -28.5 -639
+	bay "Starfighter (Bay) " 28.5 -639
+	bay "Starfighter (Bay) " -78 -639
+	bay "Starfighter (Bay) " 78 -639
+	bay "Starfighter (Bay) " -65 -639
+	bay "Starfighter (Bay) " 65 -639
+	bay "Starfighter (Bay) " -55 -639
+	bay "Starfighter (Bay) " 55 -639
+	bay "Starfighter (Bay) " -42.5 -639
+	bay "Starfighter (Bay) " 42.5 -639
+	bay "Starfighter (Bay) " -28.5 -639
+	bay "Starfighter (Bay) " 28.5 -639
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -7308,7 +7038,7 @@ ship "Tyrant Missile Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 900000000
 		"shields" 1350000
 		"hull" 470000
@@ -7387,13 +7117,123 @@ ship "Tyrant Missile Cruiser"
 
 
 
+ship "Venator Star Destroyer" "Venator Star Destroyer (Imp)"
+	sprite "ship/venatordestroyerimp"
+	thumbnail "thumbnail/venatordestroyerimp"
+	attributes
+		licenses
+			Imperial
+		category "Destroyer "
+		"cost" 59000000
+		"shields" 200000
+		"hull" 60000
+		"required crew" 840
+		"bunks" 1780
+		"mass" 22000
+		"drag" 48.0
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 800
+		"outfit space" 1608
+		"weapon capacity" 850
+		"engine capacity" 550
+		"force protection" 1000000
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"G4Dual Turbolaser Turret" 8
+		"G3 Turbolaser Turret" 24
+		
+		"P5 Power Converter"
+		"D5 Deflector Shield"
+		"C5 Coolant System"
+		
+		"B5 Sublight Engine"
+		"H5 Hyperspace Motivator"
+		
+	engine -288 1096
+	engine -144 1363
+	engine 148 1363
+	engine 292 1096
+	turret -623 801 "G3 Turbolaser Turret"
+	turret 623 801 "G3 Turbolaser Turret"
+	turret -421 717 "G3 Turbolaser Turret"
+	turret 421 717 "G3 Turbolaser Turret"
+	turret -205.5 684 "G3 Turbolaser Turret"
+	turret 205.5 684 "G3 Turbolaser Turret"
+	turret -351.5 611 "G3 Turbolaser Turret"
+	turret 351.5 611 "G3 Turbolaser Turret"
+	turret -378.5 519.5 "G3 Turbolaser Turret"
+	turret 378.5 519.5 "G3 Turbolaser Turret"
+	turret -198.5 489.5 "G4Dual Turbolaser Turret"
+	turret 198.5 489.5 "G4Dual Turbolaser Turret"
+	turret -283.5 414 "G3 Turbolaser Turret"
+	turret 283.5 414 "G3 Turbolaser Turret"
+	turret -189.5 297.5 "G4Dual Turbolaser Turret"
+	turret 189.5 297.5 "G4Dual Turbolaser Turret"
+	turret -177.5 198.5 "G4Dual Turbolaser Turret"
+	turret 177.5 198.5 "G4Dual Turbolaser Turret"
+	turret -181.5 102.5 "G4Dual Turbolaser Turret"
+	turret 181.5 102.5 "G4Dual Turbolaser Turret"
+	turret -278 -73 "G3 Turbolaser Turret"
+	turret 278 -73 "G3 Turbolaser Turret"
+	turret -272.5 -187 "G3 Turbolaser Turret"
+	turret 272.5 -187 "G3 Turbolaser Turret"
+	turret -189.5 -320.5 "G3 Turbolaser Turret"
+	turret 189.5 -320.5 "G3 Turbolaser Turret"
+	turret -118.5 -554.5 "G3 Turbolaser Turret"
+	turret 118.5 -554.5 "G3 Turbolaser Turret"
+	turret -118 -890.5 "G3 Turbolaser Turret"
+	turret 118 -890.5 "G3 Turbolaser Turret"
+	turret -91.5 -1122 "G3 Turbolaser Turret"
+	turret 91.5 -1122 "G3 Turbolaser Turret"
+	bay "Starfighter (Bay) " 0 -1284
+	bay "Starfighter (Bay) " 0 -1229
+	bay "Starfighter (Bay) " 0 -1158
+	bay "Starfighter (Bay) " 0 -1083
+	bay "Starfighter (Bay) " 0 -1005
+	bay "Starfighter (Bay) " 0 -923
+	bay "Starfighter (Bay) " 0 -842
+	bay "Starfighter (Bay) " 0 -764
+	bay "Starfighter (Bay) " 0 -687
+	bay "Starfighter (Bay) " 0 -602
+	bay "Starfighter (Bay) " 0 -520
+	bay "Starfighter (Bay) " 0 -435
+	bay "Starfighter (Bay) " 0 -347
+	bay "Starfighter (Bay) " 0 -259
+	bay "Starfighter (Bay) " 0 -167
+	bay "Starfighter (Bay) " 0 -77
+	bay "Starfighter (Bay) " 0 -1284
+	bay "Starfighter (Bay) " 0 -1229
+	bay "Starfighter (Bay) " 0 -1158
+	bay "Starfighter (Bay) " 0 -1083
+	bay "Starfighter (Bay) " 0 -1005
+	bay "Starfighter (Bay) " 0 -923
+	bay "Starfighter (Bay) " 0 -842
+	bay "Starfighter (Bay) " 0 -764
+	bay "Starfighter (Bay) " 0 -687
+	bay "Starfighter (Bay) " 0 -602
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Venator Destroyer, also known as the Republic attack cruiser, was one of the capital ships used extensively by the Galactic Republic during the later parts of the Clone Wars, as well as by the Galactic Empire. It was designed and constructed by Kuat Drive Yards and Allanteen Six shipyards. While designed primarily for ship-to-ship combat, the Venator had secondary roles ranging from starfighter carrier, to military transport and battleship escort. The expanded carrier role made the Venator popular amongst Jedi starfighter aces."
+	description "Artwork/model by Malte Ullrich"
+
+
+
 ship "Victory I Star Destroyer"
 	sprite "ship/victorydestroyer"
 	thumbnail "thumbnail/victorydestroyer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 57000000
 		"shields" 150000
 		"hull" 52000
@@ -7461,30 +7301,18 @@ ship "Victory I Star Destroyer"
 	turret 141 -471 "G4Dual Turbolaser Turret"
 	turret -22 -892 "G4Dual Turbolaser Turret"
 	turret 22 -892 "G4Dual Turbolaser Turret"
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -7502,7 +7330,7 @@ ship "Victory II Star Destroyer"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 57000000
 		"shields" 150000
 		"hull" 52000
@@ -7568,30 +7396,18 @@ ship "Victory II Star Destroyer"
 	turret 141 -471 "G4Dual Turbolaser Turret"
 	turret -22 -892 "G4Dual Turbolaser Turret"
 	turret 22 -892 "G4Dual Turbolaser Turret"
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -7609,7 +7425,7 @@ ship "Victory II Star Destroyer (Havod)"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 57000000
 		"shields" 150000
 		"hull" 52000
@@ -7675,30 +7491,18 @@ ship "Victory II Star Destroyer (Havod)"
 	turret 141 -471 "G4Dual Turbolaser Turret"
 	turret -22 -892 "G4Dual Turbolaser Turret"
 	turret 22 -892 "G4Dual Turbolaser Turret"
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
-	fighter 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
+	bay "Starfighter (Bay) " 0 163
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -7717,7 +7521,7 @@ ship "Vigil Corvette"
 	attributes
 		licenses
 			Imperial
-		category "Light Warship"
+		category "Frigate "
 		"cost" 8750000
 		"shields" 36900
 		"hull" 15200
@@ -7763,9 +7567,9 @@ ship "Vigil Corvette"
 	turret 104 -24 "G3 Turbolaser Turret"
 	turret -228 105 "G3 Turbolaser Turret"
 	turret 229 106 "G3 Turbolaser Turret"
-	fighter 0 -33
-	fighter 0 -33
-	fighter 0 -33
+	bay "Starfighter (Bay) " 0 -33
+	bay "Starfighter (Bay) " 0 -33
+	bay "Starfighter (Bay) " 0 -33
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -7782,7 +7586,7 @@ ship "Vindicator Heavy Cruiser"
 	attributes
 		licenses
 			Imperial
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 38000000
 		"shields" 92000
 		"hull" 40000
@@ -7835,28 +7639,18 @@ ship "Vindicator Heavy Cruiser"
 	turret 0 -310 "G4Dual Turbolaser Turret"
 	turret 0 -310 "G4Dual Turbolaser Turret"
 	turret 0 -622 "G4Dual Turbolaser Turret"
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
-	fighter 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
+	bay "Starfighter (Bay) " 0 151
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -7874,7 +7668,7 @@ ship "VT-49 Decimator"
 	attributes
 		licenses
 			Imperial
-		category "Transport"
+		category "Light Freighter "
 		"cost" 160000
 		"shields" 4200
 		"hull" 6800
@@ -7934,7 +7728,7 @@ ship "Zeta Cargo Shuttle"
 	attributes
 		licenses
 			Imperial
-		category "Light Freighter"
+		category "Medium Freighter "
 		"cost" 685000
 		"shields" 14100
 		"hull" 7610

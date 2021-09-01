@@ -9,7 +9,6 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 mission "AGFFA [0]"
-	priority
 	name "AGFFA Intro"
 	description "A Galaxy Far Far Away (Intro)"
 	landing

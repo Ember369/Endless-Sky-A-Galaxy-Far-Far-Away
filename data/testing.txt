@@ -12,7 +12,7 @@ ship "42"
 	sprite "ship/42"
 	thumbnail "outfit/unknown"
 	attributes
-		category Interceptor
+		category "Interceptor"
 		"absolute threshold" 20
 		"cost" 0
 		"shields" 100000000

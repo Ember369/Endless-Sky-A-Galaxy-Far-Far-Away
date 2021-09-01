@@ -12,7 +12,7 @@ ship "Bulwark Mark I Battleship"
 	sprite "ship/bulwarkmarkibattleship"
 	thumbnail "thumbnail/bulwarkmarkibattleship"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 58500000
 		"shields" 159000
 		"hull" 54500
@@ -77,18 +77,18 @@ ship "Bulwark Mark I Battleship"
 	turret 70 -911 "R4Dual Turbolaser Turret"
 	turret -80 -1059 "R4Dual Turbolaser Turret"
 	turret 80 -1059 "R4Dual Turbolaser Turret"
-	fighter 0 -689
-	fighter 0 -689
-	fighter 0 -689
-	fighter 0 -689
-	fighter 0 -689
-	fighter 0 -689
-	fighter 0 -689
-	fighter 0 -689
-	fighter 0 -689
-	fighter 0 -689
-	fighter 0 -689
-	fighter 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
+	bay "Starfighter (Bay) " 0 -689
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -104,7 +104,7 @@ ship "Bulwark Mark II Battleship"
 	sprite "ship/bulwarkmarkiibattleship"
 	thumbnail "thumbnail/bulwarkmarkiibattleship"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 203000000
 		"shields" 257500
 		"hull" 66000
@@ -168,32 +168,24 @@ ship "Bulwark Mark II Battleship"
 	turret 121 -1325 "R3 Turbolaser Turret"
 	turret -116 -1511 "R4Dual Turbolaser Turret"
 	turret 116 -1511 "R4Dual Turbolaser Turret"
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
-	fighter 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
+	bay "Starfighter (Bay) " 0 -1559
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -209,7 +201,7 @@ ship "C-9979 Landing Craft"
 	sprite "ship/c9979landingcraft"
 	thumbnail "thumbnail/c9979landingcraft"
 	attributes
-		category "Heavy Freighter"
+		category "Bulk Freighter "
 		"cost" 19500000
 		"shields" 64000
 		"hull" 28000
@@ -244,14 +236,14 @@ ship "C-9979 Landing Craft"
 	turret 704.5 -100.5 "R4Dual Turbolaser Turret"
 	turret -81 -172 "R4Dual Turbolaser Turret"
 	turret 81 -172 "R4Dual Turbolaser Turret"
-	fighter 0 -208.5
-	fighter 0 -208.5
-	fighter 0 -208.5
-	fighter 0 -208.5
-	fighter 0 -208.5
-	fighter 0 -208.5
-	fighter 0 -208.5
-	fighter 0 -208.5
+	bay "Starfighter (Bay) " 0 -208.5
+	bay "Starfighter (Bay) " 0 -208.5
+	bay "Starfighter (Bay) " 0 -208.5
+	bay "Starfighter (Bay) " 0 -208.5
+	bay "Starfighter (Bay) " 0 -208.5
+	bay "Starfighter (Bay) " 0 -208.5
+	bay "Starfighter (Bay) " 0 -208.5
+	bay "Starfighter (Bay) " 0 -208.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -266,7 +258,7 @@ ship "Captor Heavy Munitions Cruiser"
 	sprite "ship/captorheavymunitionscruiser"
 	thumbnail "thumbnail/captorheavymunitionscruiser"
 	attributes
-		category "Medium Warship"
+		category "Carrier "
 		"cost" 21250000
 		"shields" 67500
 		"hull" 31000
@@ -286,7 +278,7 @@ ship "Captor Heavy Munitions Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"R4Dual Turbolaser Turret" 18
+		"R4Dual Turbolaser Turret" 14
 		"R3 Turbolaser Turret" 4
 		
 		"P4.5 Power Converter"
@@ -305,46 +297,30 @@ ship "Captor Heavy Munitions Cruiser"
 	turret 57 409 "R4Dual Turbolaser Turret"
 	turret -120 275 "R4Dual Turbolaser Turret"
 	turret 120 275 "R4Dual Turbolaser Turret"
-	turret -272.5 218 "R4Dual Turbolaser Turret"
-	turret 272.5 218 "R4Dual Turbolaser Turret"
 	turret -142 95.5 "R4Dual Turbolaser Turret"
 	turret 142 95.5 "R4Dual Turbolaser Turret"
 	turret -231 66 "R3 Turbolaser Turret"
 	turret 231 66 "R3 Turbolaser Turret"
 	turret -107.5 -68 "R4Dual Turbolaser Turret"
 	turret 107.5 -68 "R4Dual Turbolaser Turret"
-	turret -221 -78.5 "R4Dual Turbolaser Turret"
-	turret 221 -78.5 "R4Dual Turbolaser Turret"
 	turret -171 -188.5 "R4Dual Turbolaser Turret"
 	turret 171 -188.5 "R4Dual Turbolaser Turret"
 	turret -158 -287.5 "R4Dual Turbolaser Turret"
 	turret 158 -287.5 "R4Dual Turbolaser Turret"
 	turret -101 -422.5 "R4Dual Turbolaser Turret"
 	turret 101 -422.5 "R4Dual Turbolaser Turret"
-	fighter -56 -308
-	fighter 56 -308
-	fighter -46.5 -308
-	fighter 46.5 -308
-	fighter -39.5 -308
-	fighter 39.5 -308
-	fighter -29.5 -308
-	fighter 29.5 -308
-	fighter -17.5 -308
-	fighter 17.5 -308
-	fighter -7.5 -308
-	fighter 7.5 -308
-	fighter -56 -308
-	fighter 56 -308
-	fighter -46.5 -308
-	fighter 46.5 -308
-	fighter -39.5 -308
-	fighter 39.5 -308
-	fighter -29.5 -308
-	fighter 29.5 -308
-	fighter -17.5 -308
-	fighter 17.5 -308
-	fighter -7.5 -308
-	fighter 7.5 -308
+	bay "Starfighter (Bay) " -56 -308
+	bay "Starfighter (Bay) " 56 -308
+	bay "Starfighter (Bay) " -46.5 -308
+	bay "Starfighter (Bay) " 46.5 -308
+	bay "Starfighter (Bay) " -39.5 -308
+	bay "Starfighter (Bay) " 39.5 -308
+	bay "Starfighter (Bay) " -29.5 -308
+	bay "Starfighter (Bay) " 29.5 -308
+	bay "Starfighter (Bay) " -17.5 -308
+	bay "Starfighter (Bay) " 17.5 -308
+	bay "Starfighter (Bay) " -7.5 -308
+	bay "Starfighter (Bay) " 7.5 -308
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -360,7 +336,7 @@ ship "Diamond Cruiser"
 	sprite "ship/diamondcruiser"
 	thumbnail "thumbnail/diamondcruiser"
 	attributes
-		category "Heavy Freighter"
+		category "Cruiser "
 		"cost" 16300000
 		"shields" 52000
 		"hull" 22500
@@ -407,7 +383,7 @@ ship "Droid Tri-Fighter"
 	sprite "ship/droidtrifighterblue"
 	thumbnail "thumbnail/droidtrifighterblue"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 30000
 		shields 0
@@ -452,11 +428,11 @@ ship "Droid Tri-Fighter"
 
 
 
-ship "Droid Tri-Fighter (Fighter)"
+ship "Droid Tri-Fighter (Bay)"
 	sprite "ship/droidtrifighterblue"
 	thumbnail "thumbnail/droidtrifighterblue"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 30000
 		shields 0
@@ -505,7 +481,7 @@ ship "Droid Tri-Fighter" "Droid Tri-Fighter (Yellow)"
 	sprite "ship/droidtrifighteryellow"
 	thumbnail "thumbnail/droidtrifighteryellow"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 30000
 		shields 0
@@ -550,11 +526,11 @@ ship "Droid Tri-Fighter" "Droid Tri-Fighter (Yellow)"
 
 
 
-ship "Droid Tri-Fighter (Fighter)" "Droid Tri-Fighter (Yellow) (Fighter)"
+ship "Droid Tri-Fighter (Bay)" "Droid Tri-Fighter (Yellow) (Bay)"
 	sprite "ship/droidtrifighteryellow"
 	thumbnail "thumbnail/droidtrifighteryellow"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 30000
 		shields 0
@@ -603,7 +579,7 @@ ship "Ginivex Starfighter"
 	sprite "ship/ginivexstarfighter"
 	thumbnail "thumbnail/ginivexstarfighter"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 180000
 		"shields" 1680
@@ -648,11 +624,11 @@ ship "Ginivex Starfighter"
 
 
 
-ship "Ginivex Starfighter (Fighter)"
+ship "Ginivex Starfighter (Bay)"
 	sprite "ship/ginivexstarfighter"
 	thumbnail "thumbnail/ginivexstarfighter"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 180000
 		"shields" 1680
@@ -701,7 +677,7 @@ ship "Mankvim-418 Interceptor"
 	sprite "ship/mankvim814interceptor"
 	thumbnail "thumbnail/mankvim814interceptor"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 40500
 		"shields" 640
@@ -743,11 +719,11 @@ ship "Mankvim-418 Interceptor"
 
 
 
-ship "Mankvim-418 Interceptor (Fighter)"
+ship "Mankvim-418 Interceptor (Bay)"
 	sprite "ship/mankvim814interceptor"
 	thumbnail "thumbnail/mankvim814interceptor"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 40500
 		"shields" 640
@@ -793,7 +769,7 @@ ship "Umbaran Starfighter"
 	sprite "ship/umbaranstarfighter"
 	thumbnail "thumbnail/umbaranstarfighter"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 135000
 		shields 900
@@ -840,11 +816,11 @@ ship "Umbaran Starfighter"
 
 
 
-ship "Umbaran Starfighter (Fighter)"
+ship "Umbaran Starfighter (Bay)"
 	sprite "ship/umbaranstarfighter"
 	thumbnail "thumbnail/umbaranstarfighter"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 135000
 		shields 900
@@ -895,7 +871,7 @@ ship "Vulture Droid Starfighter"
 	sprite "ship/vulturedroid"
 	thumbnail "thumbnail/vulturedroid"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 40000
 		shields 0
@@ -935,11 +911,11 @@ ship "Vulture Droid Starfighter"
 
 
 
-ship "Vulture Droid Starfighter (Fighter)"
+ship "Vulture Droid Starfighter (Bay)"
 	sprite "ship/vulturedroid"
 	thumbnail "thumbnail/vulturedroid"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 40000
 		shields 0
@@ -983,7 +959,7 @@ ship "Nantex Territorial Defence Starfighter"
 	sprite ship/nantexterritorialstarfighter
 	thumbnail thumbnail/nantexterritorialstarfighter
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 175000
 		shields 0
@@ -1021,11 +997,11 @@ ship "Nantex Territorial Defence Starfighter"
 
 
 
-ship "Nantex Territorial Defence Starfighter (Fighter)"
+ship "Nantex Territorial Defence Starfighter (Bay)"
 	sprite ship/nantexterritorialstarfighter
 	thumbnail thumbnail/nantexterritorialstarfighter
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 175000
 		shields 0
@@ -1067,7 +1043,7 @@ ship "Hyena Bomber"
 	sprite "ship/hyenabomber"
 	thumbnail "thumbnail/hyenabomber"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 28000
 		shields 0
@@ -1114,11 +1090,11 @@ ship "Hyena Bomber"
 
 
 
-ship "Hyena Bomber (Fighter)"
+ship "Hyena Bomber (Bay)"
 	sprite "ship/hyenabomber"
 	thumbnail "thumbnail/hyenabomber"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 28000
 		shields 0
@@ -1169,7 +1145,7 @@ ship "Maxillipede Transport Shuttle"
 	sprite "ship/maxillipedeshuttle"
 	thumbnail "thumbnail/maxillipedeshuttle"
 	attributes
-		category Transport
+		category "Shuttle "
 		"cost" 60000
 		"shields" 2400
 		"hull" 4000
@@ -1221,7 +1197,7 @@ ship "Mechanised Assault Flyer"
 	sprite "ship/mechanisedassaultflyer"
 	thumbnail "thumbnail/mechanisedassaultflyer"
 	attributes
-		category "Transport"
+		category "Gunship "
 		"cost" 85000
 		"shields" 1400
 		"hull" 6350
@@ -1274,7 +1250,7 @@ ship "Gozanti Cruiser" "Gozanti Cruiser (CIS)"
 	sprite "ship/gozanticruisercis"
 	thumbnail "thumbnail/gozanticruisercis"
 	attributes
-		category "Light Freighter"
+		category "Transport "
 		"cost" 450000
 		"shields" 8600
 		"hull" 7100
@@ -1322,7 +1298,7 @@ ship "Gozanti Cruiser (Carrier)" "Gozanti Cruiser (Carrier) (CIS)"
 	sprite "ship/gozanticruisercis"
 	thumbnail "thumbnail/gozanticruisercis"
 	attributes
-		category "Light Freighter"
+		category "Gunboat "
 		"cost" 450000
 		"shields" 8600
 		"hull" 7100
@@ -1356,10 +1332,10 @@ ship "Gozanti Cruiser (Carrier)" "Gozanti Cruiser (Carrier) (CIS)"
 	engine 25 45
 	turret 0 4 "R2Heavy Laser Turret"
 	turret 0 4 "R2Dual Laser Turret"
-	fighter -18 -2.5
-	fighter 18 -2.5
-	fighter -18 -24.5
-	fighter 18 -24.5
+	bay "Starfighter (Bay) " -18 -2.5
+	bay "Starfighter (Bay) " 18 -2.5
+	bay "Starfighter (Bay) " -18 -24.5
+	bay "Starfighter (Bay) " 18 -24.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1374,7 +1350,7 @@ ship "Geonosian Corvette"
 	sprite "ship/geonosiancorvette"
 	thumbnail "thumbnail/geonosiancorvette"
 	attributes
-		category "Light Warship"
+		category "Corvette "
 		"cost" 4710000
 		"shields" 32200
 		"hull" 11000
@@ -1417,9 +1393,9 @@ ship "Geonosian Corvette"
 	turret 14.5 -10 "R2Dual Laser Turret"
 	turret -11.5 -122 "R2Dual Laser Turret"
 	turret 11.5 -122 "R2Dual Laser Turret"
-	fighter 0 110.5
-	fighter 0 110.5
-	fighter 0 110.5
+	bay "Starfighter (Bay) " 0 110.5
+	bay "Starfighter (Bay) " 0 110.5
+	bay "Starfighter (Bay) " 0 110.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1435,7 +1411,7 @@ ship "Hardcell Interstellar Transport"
 	sprite "ship/hardcellinterstellartransport"
 	thumbnail "thumbnail/hardcellinterstellartransport"
 	attributes
-		category "Heavy Freighter"
+		category "Frigate "
 		"cost" 17500000
 		"shields" 36300
 		"hull" 12800
@@ -1484,7 +1460,7 @@ ship "HMP Droid Gunship"
 	sprite "ship/hmpdroidgunship"
 	thumbnail "thumbnail/hmpdroidgunship"
 	attributes
-		category Interceptor
+		category "Gunship "
 		"absolute threshold" 20
 		"cost" 220000
 		"shields" 2400
@@ -1541,7 +1517,7 @@ ship "Hoersch-Kessel Drive Core Ship"
 	sprite "ship/hoerschkesseldrivecoreship"
 	thumbnail "thumbnail/hoerschkesseldrivecoreship"
 	attributes
-		category "Heavy Warship"
+		category "Container Ship "
 		"cost" 200000000
 		"shields" 250000
 		"hull" 65000
@@ -1570,7 +1546,6 @@ ship "Hoersch-Kessel Drive Core Ship"
 		"B5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 
-
 	turret 0 0 "R3 Turbolaser Turret"
 	turret 0 0 "R3 Turbolaser Turret"
 	explode "tiny explosion" 20
@@ -1588,7 +1563,7 @@ ship "Munificent Star Frigate"
 	sprite "ship/munificentfrigate"
 	thumbnail "thumbnail/munificentfrigate"
 	attributes
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 43500000
 		"shields" 119000
 		"hull" 44700
@@ -1645,30 +1620,18 @@ ship "Munificent Star Frigate"
 	turret 154 -583 "R5Quad Turbolaser Turret"
 	turret -103 -742 "R4Dual Turbolaser Turret"
 	turret 103 -742 "R4Dual Turbolaser Turret"
-	fighter -90 266
-	fighter 90 266
-	fighter -90 208
-	fighter 90 208
-	fighter -90 150
-	fighter 90 150
-	fighter -90 266
-	fighter 90 266
-	fighter -90 208
-	fighter 90 208
-	fighter -90 150
-	fighter 90 150
-	fighter -90 266
-	fighter 90 266
-	fighter -90 208
-	fighter 90 208
-	fighter -90 150
-	fighter 90 150
-	fighter -90 266
-	fighter 90 266
-	fighter -90 208
-	fighter 90 208
-	fighter -90 150
-	fighter 90 150
+	bay "Starfighter (Bay) " -90 266
+	bay "Starfighter (Bay) " 90 266
+	bay "Starfighter (Bay) " -90 208
+	bay "Starfighter (Bay) " 90 208
+	bay "Starfighter (Bay) " -90 150
+	bay "Starfighter (Bay) " 90 150
+	bay "Starfighter (Bay) " -90 266
+	bay "Starfighter (Bay) " 90 266
+	bay "Starfighter (Bay) " -90 208
+	bay "Starfighter (Bay) " 90 208
+	bay "Starfighter (Bay) " -90 150
+	bay "Starfighter (Bay) " 90 150
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1684,7 +1647,7 @@ ship "Recusant Light Destroyer"
 	sprite "ship/recusantlightdestroyer"
 	thumbnail "thumbnail/recusantlightdestroyer"
 	attributes
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 54500000
 		"shields" 131000
 		"hull" 46000
@@ -1748,28 +1711,20 @@ ship "Recusant Light Destroyer"
 	turret 61.5 -1030 "R3 Turbolaser Turret"
 	turret -46 -1222 "R4Dual Turbolaser Turret"
 	turret 46 -1222 "R4Dual Turbolaser Turret"
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
-	fighter 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
+	bay "Starfighter (Bay) " 0 -285
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1785,7 +1740,7 @@ ship "Recusant Light Destroyer (Dreadnought)"
 	sprite "ship/recusantlightdestroyerdreadnought"
 	thumbnail "thumbnail/recusantlightdestroyer"
 	attributes
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 410000000
 		"shields" 390000
 		"hull" 100000
@@ -1851,58 +1806,30 @@ ship "Recusant Light Destroyer (Dreadnought)"
 	turret 173.5 -1652.5 "R5Quad Turbolaser Turret"
 	turret -134.5 -1858.5 "R5Quad Turbolaser Turret"
 	turret 134.5 -1858.5 "R5Quad Turbolaser Turret"
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
-	fighter -55 12
-	fighter 55 12
-	fighter -55.5 -71
-	fighter 55.5 -71
+	bay "Starfighter (Bay) " -55 12
+	bay "Starfighter (Bay) " 55 12
+	bay "Starfighter (Bay) " -55.5 -71
+	bay "Starfighter (Bay) " 55.5 -71
+	bay "Starfighter (Bay) " -55 12
+	bay "Starfighter (Bay) " 55 12
+	bay "Starfighter (Bay) " -55.5 -71
+	bay "Starfighter (Bay) " 55.5 -71
+	bay "Starfighter (Bay) " -55 12
+	bay "Starfighter (Bay) " 55 12
+	bay "Starfighter (Bay) " -55.5 -71
+	bay "Starfighter (Bay) " 55.5 -71
+	bay "Starfighter (Bay) " -55 12
+	bay "Starfighter (Bay) " 55 12
+	bay "Starfighter (Bay) " -55.5 -71
+	bay "Starfighter (Bay) " 55.5 -71
+	bay "Starfighter (Bay) " -55 12
+	bay "Starfighter (Bay) " 55 12
+	bay "Starfighter (Bay) " -55.5 -71
+	bay "Starfighter (Bay) " 55.5 -71
+	bay "Starfighter (Bay) " -55 12
+	bay "Starfighter (Bay) " 55 12
+	bay "Starfighter (Bay) " -55.5 -71
+	bay "Starfighter (Bay) " 55.5 -71
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -1918,7 +1845,7 @@ ship "Providence Cruiser (Dreadnought)"
 	sprite "ship/providencecruiserdreadnought"
 	thumbnail "thumbnail/providencecruiserdreadnought"
 	attributes
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 400585000
 		"shields" 380000
 		"hull" 100000
@@ -1983,117 +1910,57 @@ ship "Providence Cruiser (Dreadnought)"
 	turret 118.5 -1422 "R5Quad Turbolaser Turret"
 	turret -77 -1578.5 "R4Dual Turbolaser Turret"
 	turret 77 -1578.5 "R4Dual Turbolaser Turret"
-	fighter -320 645
+	bay "Starfighter (Bay) " -320 645
 		angle -90
-	fighter 320 645
+	bay "Starfighter (Bay) " 320 645
 		angle 90
-	fighter -320 597
+	bay "Starfighter (Bay) " -320 597
 		angle -90
-	fighter 320 597
+	bay "Starfighter (Bay) " 320 597
 		angle 90
-	fighter -320 535.5
+	bay "Starfighter (Bay) " -320 535.5
 		angle -90
-	fighter 320 535.5
+	bay "Starfighter (Bay) " 320 535.5
 		angle 90
-	fighter -320 466.5
+	bay "Starfighter (Bay) " -320 466.5
 		angle -90
-	fighter 320 466.5
+	bay "Starfighter (Bay) " 320 466.5
 		angle 90
-	fighter -320 645
+	bay "Starfighter (Bay) " -320 645
 		angle -90
-	fighter 320 645
+	bay "Starfighter (Bay) " 320 645
 		angle 90
-	fighter -320 597
+	bay "Starfighter (Bay) " -320 597
 		angle -90
-	fighter 320 597
+	bay "Starfighter (Bay) " 320 597
 		angle 90
-	fighter -320 535.5
+	bay "Starfighter (Bay) " -320 535.5
 		angle -90
-	fighter 320 535.5
+	bay "Starfighter (Bay) " 320 535.5
 		angle 90
-	fighter -320 466.5
+	bay "Starfighter (Bay) " -320 466.5
 		angle -90
-	fighter 320 466.5
+	bay "Starfighter (Bay) " 320 466.5
 		angle 90
-	fighter -320 645
+	bay "Starfighter (Bay) " -320 645
 		angle -90
-	fighter 320 645
+	bay "Starfighter (Bay) " 320 645
 		angle 90
-	fighter -320 597
+	bay "Starfighter (Bay) " -320 597
 		angle -90
-	fighter 320 597
+	bay "Starfighter (Bay) " 320 597
 		angle 90
-	fighter -320 535.5
+	bay "Starfighter (Bay) " -320 535.5
 		angle -90
-	fighter 320 535.5
+	bay "Starfighter (Bay) " 320 535.5
 		angle 90
-	fighter -320 466.5
+	bay "Starfighter (Bay) " -320 466.5
 		angle -90
-	fighter 320 466.5
+	bay "Starfighter (Bay) " 320 466.5
 		angle 90
-	fighter -320 645
+	bay "Starfighter (Bay) " -320 645
 		angle -90
-	fighter 320 645
-		angle 90
-	fighter -320 597
-		angle -90
-	fighter 320 597
-		angle 90
-	fighter -320 535.5
-		angle -90
-	fighter 320 535.5
-		angle 90
-	fighter -320 466.5
-		angle -90
-	fighter 320 466.5
-		angle 90
-	fighter -320 645
-		angle -90
-	fighter 320 645
-		angle 90
-	fighter -320 597
-		angle -90
-	fighter 320 597
-		angle 90
-	fighter -320 535.5
-		angle -90
-	fighter 320 535.5
-		angle 90
-	fighter -320 466.5
-		angle -90
-	fighter 320 466.5
-		angle 90
-	fighter -320 645
-		angle -90
-	fighter 320 645
-		angle 90
-	fighter -320 597
-		angle -90
-	fighter 320 597
-		angle 90
-	fighter -320 535.5
-		angle -90
-	fighter 320 535.5
-		angle 90
-	fighter -320 466.5
-		angle -90
-	fighter 320 466.5
-		angle 90
-	fighter -320 645
-		angle -90
-	fighter 320 645
-		angle 90
-	fighter -320 597
-		angle -90
-	fighter 320 597
-		angle 90
-	fighter -320 535.5
-		angle -90
-	fighter 320 535.5
-		angle 90
-	fighter -320 466.5
-		angle -90
-	fighter 320 466.5
+	bay "Starfighter (Bay) " 320 645
 		angle 90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -2110,7 +1977,7 @@ ship "Providence Cruiser (Stock)"
 	sprite "ship/providencecruiserstock"
 	thumbnail "thumbnail/providencecruiserstock"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 125000000
 		"shields" 210000
 		"hull" 62000
@@ -2176,101 +2043,45 @@ ship "Providence Cruiser (Stock)"
 	turret 220 564 "R4Dual Turbolaser Turret"
 	turret -226 510 "R3 Turbolaser Turret"
 	turret 225 510 "R3 Turbolaser Turret"
-	fighter -220 570
+	bay "Starfighter (Bay) " -220 570
 		angle -90
-	fighter 220 570
+	bay "Starfighter (Bay) " 220 570
 		angle 90
-	fighter -225 510
+	bay "Starfighter (Bay) " -225 510
 		angle -90
-	fighter 225 510
+	bay "Starfighter (Bay) " 225 510
 		angle 90
-	fighter -220 570
+	bay "Starfighter (Bay) " -220 570
 		angle -90
-	fighter 220 570
+	bay "Starfighter (Bay) " 220 570
 		angle 90
-	fighter -225 510
+	bay "Starfighter (Bay) " -225 510
 		angle -90
-	fighter 225 510
+	bay "Starfighter (Bay) " 225 510
 		angle 90
-	fighter -220 570
+	bay "Starfighter (Bay) " -220 570
 		angle -90
-	fighter 220 570
+	bay "Starfighter (Bay) " 220 570
 		angle 90
-	fighter -225 510
+	bay "Starfighter (Bay) " -220 570
 		angle -90
-	fighter 225 510
+	bay "Starfighter (Bay) " 220 570
 		angle 90
-	fighter -220 570
+	bay "Starfighter (Bay) " -225 510
 		angle -90
-	fighter 220 570
+	bay "Starfighter (Bay) " 225 510
 		angle 90
-	fighter -225 510
+	bay "Starfighter (Bay) " -220 570
 		angle -90
-	fighter 225 510
+	bay "Starfighter (Bay) " 220 570
 		angle 90
-	fighter -220 570
+	bay "Starfighter (Bay) " -225 510
 		angle -90
-	fighter 220 570
+	bay "Starfighter (Bay) " 225 510
 		angle 90
-	fighter -225 510
+	bay "Starfighter (Bay) " -220 570
 		angle -90
-	fighter 225 510
-		angle 90
-	fighter -220 570
-		angle -90
-	fighter 220 570
-		angle 90
-	fighter -225 510
-		angle -90
-	fighter 225 510
-		angle 90
-	fighter -220 570
-		angle -90
-	fighter 220 570
-		angle 90
-	fighter -225 510
-		angle -90
-	fighter 225 510
-		angle 90
-	fighter -220 570
-		angle -90
-	fighter 220 570
-		angle 90
-	fighter -225 510
-		angle -90
-	fighter 225 510
-		angle 90
-	fighter -220 570
-		angle -90
-	fighter 220 570
-		angle 90
-	fighter -225 510
-		angle -90
-	fighter 225 510
-		angle 90
-	fighter -220 570
-		angle -90
-	fighter 220 570
-		angle 90
-	fighter -225 510
-		angle -90
-	fighter 225 510
-		angle 90
-	fighter -220 570
-		angle -90
-	fighter 220 570
-		angle 90
-	fighter -225 510
-		angle -90
-	fighter 225 510
-		angle 90
-	fighter -220 570
-		angle -90
-	fighter 220 570
-		angle 90
-	fighter -225 510
-		angle -90
-	fighter 225 510
+	bay "Starfighter (Bay) " 220 570
 		angle 90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -2287,7 +2098,7 @@ ship "Subjugator Heavy Cruiser"
 	sprite "ship/subjugatorheavycruiser"
 	thumbnail "thumbnail/subjugatorheavycruiser"
 	attributes
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 875500000
 		"shields" 1300000
 		"hull" 440000
@@ -2358,62 +2169,32 @@ ship "Subjugator Heavy Cruiser"
 	turret 198 -2647 "R5Quad Turbolaser Turret"
 	turret -43.5 -3170 "R5Quad Turbolaser Turret"
 	turret 43.5 -3170 "R5Quad Turbolaser Turret"
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
-	fighter -154.5 -2490
-	fighter 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
+	bay "Starfighter (Bay) " -154.5 -2490
+	bay "Starfighter (Bay) " 154.5 -2490
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2429,7 +2210,7 @@ ship "Lucrehulk Battleship"
 	sprite "ship/lucrehulkbattleship"
 	thumbnail "thumbnail/lucrehulkbattleship"
 	attributes
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 500000000
 		"shields" 600000
 		"hull" 150000
@@ -2495,117 +2276,57 @@ ship "Lucrehulk Battleship"
 	turret 1410 -761 "R5Quad Turbolaser Turret"
 	turret -1325 -927 "R5Quad Turbolaser Turret"
 	turret 1325 -927 "R5Quad Turbolaser Turret"
-	fighter -403 -1262
+	bay "Starfighter (Bay) " -403 -1262
 		angle 90
-	fighter 403 -1262
+	bay "Starfighter (Bay) " 403 -1262
 		angle -90
-	fighter -421 -1317
+	bay "Starfighter (Bay) " -421 -1317
 		angle 90
-	fighter 421 -1317
+	bay "Starfighter (Bay) " 421 -1317
 		angle -90
-	fighter -465 -1489
+	bay "Starfighter (Bay) " -465 -1489
 		angle 90
-	fighter 465 -1489
+	bay "Starfighter (Bay) " 465 -1489
 		angle -90
-	fighter -510 -1647
+	bay "Starfighter (Bay) " -510 -1647
 		angle 90
-	fighter 510 -1647
+	bay "Starfighter (Bay) " 510 -1647
 		angle -90
-	fighter -536 -1743
+	bay "Starfighter (Bay) " -536 -1743
 		angle 90
-	fighter 536 -1743
+	bay "Starfighter (Bay) " 536 -1743
 		angle -90
-	fighter -403 -1262
+	bay "Starfighter (Bay) " -403 -1262
 		angle 90
-	fighter 403 -1262
+	bay "Starfighter (Bay) " 403 -1262
 		angle -90
-	fighter -421 -1317
+	bay "Starfighter (Bay) " -421 -1317
 		angle 90
-	fighter 421 -1317
+	bay "Starfighter (Bay) " 421 -1317
 		angle -90
-	fighter -465 -1489
+	bay "Starfighter (Bay) " -465 -1489
 		angle 90
-	fighter 465 -1489
+	bay "Starfighter (Bay) " 465 -1489
 		angle -90
-	fighter -510 -1647
+	bay "Starfighter (Bay) " -510 -1647
 		angle 90
-	fighter 510 -1647
+	bay "Starfighter (Bay) " 510 -1647
 		angle -90
-	fighter -536 -1743
+	bay "Starfighter (Bay) " -536 -1743
 		angle 90
-	fighter 536 -1743
+	bay "Starfighter (Bay) " 536 -1743
 		angle -90
-	fighter -403 -1262
+	bay "Starfighter (Bay) " -403 -1262
 		angle 90
-	fighter 403 -1262
+	bay "Starfighter (Bay) " 403 -1262
 		angle -90
-	fighter -421 -1317
+	bay "Starfighter (Bay) " -421 -1317
 		angle 90
-	fighter 421 -1317
+	bay "Starfighter (Bay) " 421 -1317
 		angle -90
-	fighter -465 -1489
+	bay "Starfighter (Bay) " -465 -1489
 		angle 90
-	fighter 465 -1489
-		angle -90
-	fighter -510 -1647
-		angle 90
-	fighter 510 -1647
-		angle -90
-	fighter -536 -1743
-		angle 90
-	fighter 536 -1743
-		angle -90
-	fighter -403 -1262
-		angle 90
-	fighter 403 -1262
-		angle -90
-	fighter -421 -1317
-		angle 90
-	fighter 421 -1317
-		angle -90
-	fighter -465 -1489
-		angle 90
-	fighter 465 -1489
-		angle -90
-	fighter -510 -1647
-		angle 90
-	fighter 510 -1647
-		angle -90
-	fighter -536 -1743
-		angle 90
-	fighter 536 -1743
-		angle -90
-	fighter -403 -1262
-		angle 90
-	fighter 403 -1262
-		angle -90
-	fighter -421 -1317
-		angle 90
-	fighter 421 -1317
-		angle -90
-	fighter -465 -1489
-		angle 90
-	fighter 465 -1489
-		angle -90
-	fighter -510 -1647
-		angle 90
-	fighter 510 -1647
-		angle -90
-	fighter -536 -1743
-		angle 90
-	fighter 536 -1743
-		angle -90
-	fighter -403 -1262
-		angle 90
-	fighter 403 -1262
-		angle -90
-	fighter -421 -1317
-		angle 90
-	fighter 421 -1317
-		angle -90
-	fighter -465 -1489
-		angle 90
-	fighter 465 -1489
+	bay "Starfighter (Bay) " 465 -1489
 		angle -90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -2622,7 +2343,7 @@ ship "ARC-170 Starfighter"
 	sprite "ship/arc170fighterblue"
 	thumbnail "thumbnail/arc170fighterblue"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 155000
 		shields 2400
@@ -2672,11 +2393,11 @@ ship "ARC-170 Starfighter"
 
 
 
-ship "ARC-170 Starfighter (Fighter)"
+ship "ARC-170 Starfighter (Bay)"
 	sprite "ship/arc170fighterblue"
 	thumbnail "thumbnail/arc170fighterblue"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 155000
 		shields 2400
@@ -2730,7 +2451,7 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (R)"
 	sprite "ship/arc170fighterred"
 	thumbnail "thumbnail/arc170fighterred"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 155000
 		shields 2400
@@ -2780,11 +2501,11 @@ ship "ARC-170 Starfighter" "ARC-170 Starfighter (R)"
 
 
 
-ship "ARC-170 Starfighter (Fighter)" "ARC-170 Starfighter (R) (Fighter)"
+ship "ARC-170 Starfighter (Bay)" "ARC-170 Starfighter (R) (Bay)"
 	sprite "ship/arc170fighterred"
 	thumbnail "thumbnail/arc170fighterred"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 155000
 		shields 2400
@@ -2838,7 +2559,7 @@ ship "Delta-7 Aethersprite Interceptor"
 	sprite "ship/delta7interceptor"
 	thumbnail "thumbnail/delta7interceptor"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 180000
 		"shields" 800
@@ -2891,11 +2612,127 @@ ship "Delta-7 Aethersprite Interceptor"
 
 
 
+ship "Delta-7 Aethersprite Interceptor (Bay)"
+	sprite "ship/delta7interceptor"
+	thumbnail "thumbnail/delta7interceptor"
+	attributes
+		category "Starfighter (Bay) "
+		"absolute threshold" 20
+		"cost" 180000
+		"shields" 800
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 23
+		"drag" 0.99
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 16
+		"weapon capacity" 4
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"hyperspacedockingring capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 2
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		
+	engine -5.5 13
+	engine 5.5 13
+	gun -8.5 -3.5 "R1 Laser Cannon"
+	gun 8.5 -3.5 "R1 Laser Cannon"
+	gun -5 -8.5 "Concussion Missile Launcher"
+	gun 5 -8.5 "Concussion Missile Launcher"
+	gun 0 7.5
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Delta-7 Aethersprite light interceptor, also known as the Delta-7 Jedi starfighter and commonly referred to as the Jedi starfighter, was a starfighter model designed by Kuat Systems Engineering and used by the Jedi Order before and during the Clone Wars. The Delta-7 can still be found in use by the Alliance to Restore the Republic in conflict against the Galactic Empire."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+
 ship "Delta-7 Aethersprite Interceptor" "Delta-7 Aethersprite Interceptor (Customised)"
 	sprite "ship/delta7interceptorcustomised"
 	thumbnail "thumbnail/delta7interceptorcustomised"
 	attributes
-		category Interceptor
+		category "Starfighter "
+		"absolute threshold" 20
+		"cost" 185000
+		"shields" 850
+		"hull" 2400
+		"required crew" 1
+		"bunks" 1
+		"mass" 23
+		"drag" 0.99
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 0
+		"outfit space" 18
+		"weapon capacity" 6
+		"engine capacity" 5
+		"hullslot capacity" 1
+		"shieldslot capacity" 1
+		"astromechsocket capacity" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 320
+			"hull damage" 170
+			"hit force" 460
+	outfits
+		"R1 Laser Cannon" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile" 6	
+
+		"P1 Power Converter"
+		"D0 Shield Slot"
+		"D1 Deflector Shield"
+		"C1 Coolant System"
+		"HH0 Hull Slot"
+		"HH1 Ferroceramic Hull"
+		"A0 Astromech Socket"
+
+		"P1 Sublight Engine"
+		"H1 Hyperspace Motivator"
+		
+	engine -5.5 11
+	engine 5.5 11
+	gun -11.5 -4 "R1 Laser Cannon"
+	gun 11.5 -4 "R1 Laser Cannon"
+	gun -11.5 -4 "R1 Laser Cannon"
+	gun 11.5 -4 "R1 Laser Cannon"
+	gun -5.5 -7.5 "Concussion Missile Launcher"
+	gun 5.5 -7.5 "Concussion Missile Launcher"
+	explode "large explosion" 3
+	"final explode" "final explosion large"
+	description "The Delta-7 Aethersprite light interceptor, also known as the Delta-7 Jedi starfighter and commonly referred to as the Jedi starfighter, was a starfighter model designed by Kuat Systems Engineering and used by the Jedi Order before and during the Clone Wars. The Delta-7 can still be found in use by the Alliance to Restore the Republic in conflict against the Galactic Empire."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Delta-7 Aethersprite Interceptor (Bay)" "Delta-7 Aethersprite Interceptor (Customised) (Bay)"
+	sprite "ship/delta7interceptorcustomised"
+	thumbnail "thumbnail/delta7interceptorcustomised"
+	attributes
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 185000
 		"shields" 850
@@ -2953,7 +2790,7 @@ ship "Eta-2 Actis Interceptor"
 	sprite "ship/eta2actisinterceptoryellow"
 	thumbnail "thumbnail/eta2actisinterceptoryellow"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
@@ -3008,11 +2845,11 @@ ship "Eta-2 Actis Interceptor"
 
 
 
-ship "Eta-2 Actis Interceptor (Fighter)"
+ship "Eta-2 Actis Interceptor (Bay)"
 	sprite "ship/eta2actisinterceptoryellow"
 	thumbnail "thumbnail/eta2actisinterceptoryellow"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
@@ -3071,7 +2908,7 @@ ship "Eta-2 Actis Interceptor" "Eta-2 Actis Interceptor (M)"
 	sprite "ship/eta2actisinterceptormodified"
 	thumbnail "thumbnail/eta2actisinterceptormodified"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
@@ -3124,11 +2961,11 @@ ship "Eta-2 Actis Interceptor" "Eta-2 Actis Interceptor (M)"
 
 
 
-ship "Eta-2 Actis Interceptor (Fighter)" "Eta-2 Actis Interceptor (M) (Fighter)"
+ship "Eta-2 Actis Interceptor (Bay)" "Eta-2 Actis Interceptor (M) (Bay)"
 	sprite "ship/eta2actisinterceptormodified"
 	thumbnail "thumbnail/eta2actisinterceptormodified"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
@@ -3185,7 +3022,7 @@ ship "Eta-2 Actis Interceptor" "Eta-2 Actis Interceptor (R)"
 	sprite "ship/eta2actisinterceptorred"
 	thumbnail "thumbnail/eta2actisinterceptorred"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
@@ -3240,11 +3077,11 @@ ship "Eta-2 Actis Interceptor" "Eta-2 Actis Interceptor (R)"
 
 
 
-ship "Eta-2 Actis Interceptor (Fighter)" "Eta-2 Actis Interceptor (R) (Fighter)"
+ship "Eta-2 Actis Interceptor (Bay)" "Eta-2 Actis Interceptor (R) (Bay)"
 	sprite "ship/eta2actisinterceptorred"
 	thumbnail "thumbnail/eta2actisinterceptorred"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 0
@@ -3303,7 +3140,7 @@ ship "Eta Shuttle"
 	sprite "ship/etashuttle"
 	thumbnail "thumbnail/etashuttle"
 	attributes
-		category Transport
+		category "Shuttle "
 		"cost" 75000
 		"shields" 3200
 		"hull" 4800
@@ -3356,12 +3193,12 @@ ship "Consular Cruiser (Aurek)"
 	sprite "ship/consularcruiseraurek"
 	thumbnail "thumbnail/consularcruiseraurek"
 	attributes
-		category "Light Warship"
+		category "Corvette "
 		"cost" 3000000
 		"shields" 22000
 		"hull" 8800
-		"required crew" 9
-		"bunks" 20
+		"required crew" 18
+		"bunks" 60
 		"mass" 1410
 		"drag" 13.88
 		"heat dissipation" .45
@@ -3409,12 +3246,12 @@ ship "Consular Cruiser (Besh)"
 	sprite "ship/consularcruiserbesh"
 	thumbnail "thumbnail/consularcruiserbesh"
 	attributes
-		category "Light Warship"
+		category "Corvette "
 		"cost" 3000000
 		"shields" 22000
 		"hull" 8800
-		"required crew" 9
-		"bunks" 20
+		"required crew" 18
+		"bunks" 60
 		"mass" 1410
 		"drag" 13.88
 		"heat dissipation" .45
@@ -3462,12 +3299,12 @@ ship "Consular Cruiser (Cresh)"
 	sprite "ship/consularcruisercresh"
 	thumbnail "thumbnail/consularcruisercresh"
 	attributes
-		category "Light Warship"
+		category "Corvette "
 		"cost" 3000000
 		"shields" 22000
 		"hull" 8800
-		"required crew" 9
-		"bunks" 40
+		"required crew" 18
+		"bunks" 60
 		"mass" 1410
 		"drag" 13.88
 		"heat dissipation" .45
@@ -3515,7 +3352,7 @@ ship "CR25 Carrier"
 	sprite "ship/cr25carrier"
 	thumbnail "thumbnail/cr25carrier"
 	attributes
-		category "Light Freighter"
+		category "Medium Freighter "
 		"cost" 690000
 		"shields" 14100
 		"hull" 7800
@@ -3549,10 +3386,8 @@ ship "CR25 Carrier"
 	engine 27.5 88
 	turret 0 19 "B2 Laser Turret"
 	turret 0 -52.5 "B2 Laser Turret"
-	fighter -10 16
-	fighter 10 16
-	fighter -10.5 -16
-	fighter 10.5 -16
+	bay "Starfighter (Bay) " -10 16
+	bay "Starfighter (Bay) " 10 16
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3567,7 +3402,7 @@ ship "Acclamator Assault Ship"
 	sprite "ship/acclamatorassaultship"
 	thumbnail "thumbnail/acclamatorassaultship"
 	attributes
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 53650000
 		"shields" 128000
 		"hull" 45800
@@ -3623,30 +3458,18 @@ ship "Acclamator Assault Ship"
 	turret 336 369 "B3 Turbolaser Turret"
 	turret -189 373 "B4Dual Turbolaser Turret"
 	turret 189 373 "B4Dual Turbolaser Turret"
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
+	bay "Starfighter (Bay) " 0 0
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3661,7 +3484,7 @@ ship "JumpMaster 5000 Long Range Scout"
 	sprite "ship/jumpmaster5000"
 	thumbnail "thumbnail/jumpmaster5000"
 	attributes
-		category Transport
+		category "Transport "
 		"cost" 75000
 		"shields" 2750
 		"hull" 5150
@@ -3715,7 +3538,7 @@ ship "Pelta Frigate"
 	sprite "ship/peltafrigate"
 	thumbnail "thumbnail/peltafrigate"
 	attributes
-		category "Heavy Freighter"
+		category "Frigate "
 		"cost" 9000000
 		"shields" 37500
 		"hull" 15400
@@ -3761,7 +3584,7 @@ ship "Venator Star Destroyer"
 	sprite "ship/venatordestroyer"
 	thumbnail "thumbnail/venatordestroyer"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 59000000
 		"shields" 160000
 		"hull" 55000
@@ -3828,62 +3651,32 @@ ship "Venator Star Destroyer"
 	turret 118 -890.5 "B3 Turbolaser Turret"
 	turret -91.5 -1122 "B3 Turbolaser Turret"
 	turret 91.5 -1122 "B3 Turbolaser Turret"
-	fighter 0 -1284
-	fighter 0 -1229
-	fighter 0 -1158
-	fighter 0 -1083
-	fighter 0 -1005
-	fighter 0 -923
-	fighter 0 -842
-	fighter 0 -764
-	fighter 0 -687
-	fighter 0 -602
-	fighter 0 -520
-	fighter 0 -435
-	fighter 0 -347
-	fighter 0 -259
-	fighter 0 -167
-	fighter 0 -77
-	fighter 0 -1284
-	fighter 0 -1229
-	fighter 0 -1158
-	fighter 0 -1083
-	fighter 0 -1005
-	fighter 0 -923
-	fighter 0 -842
-	fighter 0 -764
-	fighter 0 -687
-	fighter 0 -602
-	fighter 0 -520
-	fighter 0 -435
-	fighter 0 -347
-	fighter 0 -259
-	fighter 0 -167
-	fighter 0 -77
-	fighter 0 -1284
-	fighter 0 -1229
-	fighter 0 -1158
-	fighter 0 -1083
-	fighter 0 -1005
-	fighter 0 -923
-	fighter 0 -842
-	fighter 0 -764
-	fighter 0 -687
-	fighter 0 -602
-	fighter 0 -520
-	fighter 0 -435
-	fighter 0 -347
-	fighter 0 -259
-	fighter 0 -167
-	fighter 0 -77
-	fighter 0 -1284
-	fighter 0 -1229
-	fighter 0 -1158
-	fighter 0 -1083
-	fighter 0 -1005
-	fighter 0 -923
-	fighter 0 -842
-	fighter 0 -764
+	bay "Starfighter (Bay) " 0 -1284
+	bay "Starfighter (Bay) " 0 -1229
+	bay "Starfighter (Bay) " 0 -1158
+	bay "Starfighter (Bay) " 0 -1083
+	bay "Starfighter (Bay) " 0 -1005
+	bay "Starfighter (Bay) " 0 -923
+	bay "Starfighter (Bay) " 0 -842
+	bay "Starfighter (Bay) " 0 -764
+	bay "Starfighter (Bay) " 0 -687
+	bay "Starfighter (Bay) " 0 -602
+	bay "Starfighter (Bay) " 0 -520
+	bay "Starfighter (Bay) " 0 -435
+	bay "Starfighter (Bay) " 0 -347
+	bay "Starfighter (Bay) " 0 -259
+	bay "Starfighter (Bay) " 0 -167
+	bay "Starfighter (Bay) " 0 -77
+	bay "Starfighter (Bay) " 0 -1284
+	bay "Starfighter (Bay) " 0 -1229
+	bay "Starfighter (Bay) " 0 -1158
+	bay "Starfighter (Bay) " 0 -1083
+	bay "Starfighter (Bay) " 0 -1005
+	bay "Starfighter (Bay) " 0 -923
+	bay "Starfighter (Bay) " 0 -842
+	bay "Starfighter (Bay) " 0 -764
+	bay "Starfighter (Bay) " 0 -687
+	bay "Starfighter (Bay) " 0 -602
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3899,7 +3692,7 @@ ship "LAAT/c Gunship"
 	sprite "ship/laatcgunship"
 	thumbnail "thumbnail/laatcgunship"
 	attributes
-		category Transport
+		category "Gunship "
 		"cost" 75000
 		"shields" 3250
 		"hull" 4850
@@ -3950,7 +3743,7 @@ ship "LAAT/i Gunship"
 	sprite "ship/laatigunship"
 	thumbnail "thumbnail/laatigunship"
 	attributes
-		category "Transport"
+		category "Gunship "
 		"cost" 85000
 		"shields" 1500
 		"hull" 6300
@@ -4003,7 +3796,7 @@ ship "Nimbus V-wing Starfighter"
 	sprite "ship/nimbusvwing"
 	thumbnail "thumbnail/nimbusvwing"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 102500
 		"shields" 1000
@@ -4054,11 +3847,11 @@ ship "Nimbus V-wing Starfighter"
 
 
 
-ship "Nimbus V-wing Starfighter (Fighter)"
+ship "Nimbus V-wing Starfighter (Bay)"
 	sprite "ship/nimbusvwing"
 	thumbnail "thumbnail/nimbusvwing"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 102500
 		"shields" 1000
@@ -4113,7 +3906,7 @@ ship "BTL-B Y-Wing"
 	sprite ship/btlbywing
 	thumbnail thumbnail/btlbywing
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 127000
 		shields 900
@@ -4167,11 +3960,11 @@ ship "BTL-B Y-Wing"
 
 
 
-ship "BTL-B Y-Wing (Fighter)"
+ship "BTL-B Y-Wing (Bay)"
 	sprite ship/btlbywing
 	thumbnail thumbnail/btlbywing
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 127000
 		shields 900

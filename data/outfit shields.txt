@@ -9,13 +9,13 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 outfit "D0 Shield Capacity"
-	category "Systems"
+	category "Shields"
 	"shield capacity" 1
 	unplunderable 1
 	description "NOT AN OUTFIT, JUST NEEDED TO REMOVE AN ERROR."
 
 outfit "D0 Shield Slot"
-	category "Systems"
+	category "Shields"
 	cost 12000
 	thumbnail "outfit/shields/shield slot"
 	"mass" 0
@@ -26,7 +26,7 @@ outfit "D0 Shield Slot"
 	description "D1 Shield Slot"
 
 outfit "D1 Conversion Shield"
-	category "Systems"
+	category "Shields"
 	cost 5000
 	thumbnail "outfit/shields/conversion shield 1"
 	"mass" 1
@@ -38,7 +38,7 @@ outfit "D1 Conversion Shield"
 	description "Higher energy consumption, paired with a greater maximum shield capacity, though a slightly lower regeneration rate."
 
 outfit "D1 Deflector Shield"
-	category "Systems"
+	category "Shields"
 	cost 5000
 	thumbnail "outfit/shields/deflector shield 1"
 	"mass" 1
@@ -49,7 +49,7 @@ outfit "D1 Deflector Shield"
 	description "A standard deflector shield that provides a good balance between damage resistance and energy regeneration."
 
 outfit "D1 Fortified Deflector"
-	category "Systems"
+	category "Shields"
 	cost 5000
 	thumbnail "outfit/shields/fortified deflector 1"
 	"mass" 1
@@ -61,7 +61,7 @@ outfit "D1 Fortified Deflector"
 	description "Max shields are higher but regenerate slowly. Allows you to survive significantly more enemy fire."
 
 outfit "D1 Nimble Deflector"
-	category "Systems"
+	category "Shields"
 	cost 5000
 	thumbnail "outfit/shields/nimble deflector 1"
 	"mass" 1
@@ -73,7 +73,7 @@ outfit "D1 Nimble Deflector"
 	description "Max shields are reduced in exchange for rapid regeneration. Great for hit-and-run tactics."
 
 outfit "D1 Overloaded Shield"
-	category "Systems"
+	category "Shields"
 	cost 5000
 	thumbnail "outfit/shields/overloaded shield 1"
 	"mass" 1
@@ -85,7 +85,7 @@ outfit "D1 Overloaded Shield"
 	description "Extremely powerful shield with low regeneration rate."
 
 outfit "D1 Ray Shield"
-	category "Systems"
+	category "Shields"
 	cost 5000
 	thumbnail "outfit/shields/ray shield 1"
 	"mass" 1
@@ -98,7 +98,7 @@ outfit "D1 Ray Shield"
 	description "Your ship takes much less piercing damage from projectiles such as missiles, but has a slightly lower max shield capacity."
 
 outfit "D1 Resonant Shield"
-	category "Systems"
+	category "Shields"
 	cost 5000
 	thumbnail "outfit/shields/resonant shield 1"
 	"mass" 1
@@ -110,7 +110,7 @@ outfit "D1 Resonant Shield"
 	description "Decreased energy consumption, with a trade off of lower max shields."
 
 outfit "D1 Scrambler Shield"
-	category "Systems"
+	category "Shields"
 	cost 5000
 	thumbnail "outfit/shields/scrambler shield 1"
 	"mass" 1
@@ -122,7 +122,7 @@ outfit "D1 Scrambler Shield"
 	description "Significantly increases enemy lock-on time if you have 100% shields or higher. Takes longer for shields to start regenerating."
 
 outfit "D2 Deflector Shield"
-	category "Systems"
+	category "Shields"
 	cost 40000
 	thumbnail "outfit/shields/deflector shield 2"
 	"mass" 2
@@ -132,7 +132,7 @@ outfit "D2 Deflector Shield"
 	description "D2 Deflector Shield"
 
 outfit "D3 Deflector Shield"
-	category "Systems"
+	category "Shields"
 	cost 130000
 	thumbnail "outfit/shields/deflector shield 3"
 	"mass" 10
@@ -142,7 +142,7 @@ outfit "D3 Deflector Shield"
 	description "D3 Deflector Shield"
 
 outfit "D4 Deflector Shield"
-	category "Systems"
+	category "Shields"
 	cost 400000
 	thumbnail "outfit/shields/deflector shield 4"
 	"mass" 15
@@ -152,7 +152,7 @@ outfit "D4 Deflector Shield"
 	description "D4 Deflector Shield"
 
 outfit "D4.5 Deflector Shield"
-	category "Systems"
+	category "Shields"
 	cost 600000
 	thumbnail "outfit/shields/deflector shield 4_5"
 	"mass" 18
@@ -162,7 +162,7 @@ outfit "D4.5 Deflector Shield"
 	description "D4.5 Deflector Shield"
 
 outfit "D5 Deflector Shield"
-	category "Systems"
+	category "Shields"
 	cost 800000
 	thumbnail "outfit/shields/deflector shield 5"
 	"mass" 20

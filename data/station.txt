@@ -8,11 +8,85 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-ship "Golan I Space Defence SpaceGun"
-	sprite "ship/station/golani"
-	thumbnail "thumbnail/station/golani"
+ship "Supertanker Fuel Depot"
+	sprite "ship/station/supertankerfueldepot"
+	thumbnail "thumbnail/station/supertankerfueldepot"
 	attributes
-		category "Heavy Warship"
+		category "Station "
+		"cost" 40000000
+		"shields" 100500
+		"hull" 42500
+		"required crew" 510
+		"bunks" 1615
+		"mass" 18000
+		"drag" 32727
+		"heat dissipation" .45
+		"fuel capacity" 0
+		"cargo space" 415
+		"outfit space" 2368
+		"weapon capacity" 1650
+		"engine capacity" 550
+		"force protection" 1000000
+		"turn" -2159
+		weapon
+			"blast radius" 320
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 950
+	outfits
+		"R5Quad Turbolaser Turret" 3
+		
+		"P5 Power Converter"
+		"D5 Deflector Shield"
+		"C5 Coolant System"
+		
+		"B4.5 Sublight Engine"
+
+	turret -300.5 -715.5 "R5Quad Turbolaser Turret"
+	turret 307 -682 "R5Quad Turbolaser Turret"
+	turret 27.5 -756 "R5Quad Turbolaser Turret"
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	bay "Starfighter (Bay) " 53 -626.5
+		angle 90
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Supertanker fuel depots are a type of starship built by the Galactic Empire to serve as refueling stations and depots. The depots are equipped with Class 2 hyperdrives and thrusters, enabling them to be landed on a planet from space."
+	description "Artwork/model by Unusualsuspex" 
+
+ship "Golan I Space Defence SpaceGun"
+	sprite "ship/station/golanstationi"
+	thumbnail "thumbnail/station/golanstationi"
+	attributes
+		category "Station "
 		"cost" 90000000
 		"shields" 185000
 		"hull" 60000
@@ -78,30 +152,22 @@ ship "Golan I Space Defence SpaceGun"
 	turret 233 -758 "G4Dual Turbolaser Turret"
 	turret -183 -927 "G4Dual Turbolaser Turret"
 	turret 183 -927 "G4Dual Turbolaser Turret"
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
-	fighter -346 -7
-	fighter 346 -7
+	bay "Starfighter (Bay) " -346 -7
+	bay "Starfighter (Bay) " 346 -7
+	bay "Starfighter (Bay) " -346 -7
+	bay "Starfighter (Bay) " 346 -7
+	bay "Starfighter (Bay) " -346 -7
+	bay "Starfighter (Bay) " 346 -7
+	bay "Starfighter (Bay) " -346 -7
+	bay "Starfighter (Bay) " 346 -7
+	bay "Starfighter (Bay) " -346 -7
+	bay "Starfighter (Bay) " 346 -7
+	bay "Starfighter (Bay) " -346 -7
+	bay "Starfighter (Bay) " 346 -7
+	bay "Starfighter (Bay) " -346 -7
+	bay "Starfighter (Bay) " 346 -7
+	bay "Starfighter (Bay) " -346 -7
+	bay "Starfighter (Bay) " 346 -7
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -114,10 +180,10 @@ ship "Golan I Space Defence SpaceGun"
 
 
 ship "Golan II Space Defence SpaceGun"
-	sprite "ship/station/golanii"
-	thumbnail "thumbnail/station/golanii"
+	sprite "ship/station/golanstationii"
+	thumbnail "thumbnail/station/golanstationii"
 	attributes
-		category "Heavy Warship"
+		category "Station "
 		"cost" 460000000
 		"shields" 460000
 		"hull" 123000
@@ -183,42 +249,24 @@ ship "Golan II Space Defence SpaceGun"
 	turret 113 -1377 "G4Dual Turbolaser Turret"
 	turret -333 -1653 "G4Dual Turbolaser Turret"
 	turret 333 -1653 "G4Dual Turbolaser Turret"
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
-	fighter -919 -14
-	fighter 919 -14
+	bay "Starfighter (Bay) " -919 -14
+	bay "Starfighter (Bay) " 919 -14
+	bay "Starfighter (Bay) " -919 -14
+	bay "Starfighter (Bay) " 919 -14
+	bay "Starfighter (Bay) " -919 -14
+	bay "Starfighter (Bay) " 919 -14
+	bay "Starfighter (Bay) " -919 -14
+	bay "Starfighter (Bay) " 919 -14
+	bay "Starfighter (Bay) " -919 -14
+	bay "Starfighter (Bay) " 919 -14
+	bay "Starfighter (Bay) " -919 -14
+	bay "Starfighter (Bay) " 919 -14
+	bay "Starfighter (Bay) " -919 -14
+	bay "Starfighter (Bay) " 919 -14
+	bay "Starfighter (Bay) " -919 -14
+	bay "Starfighter (Bay) " 919 -14
+	bay "Starfighter (Bay) " -919 -14
+	bay "Starfighter (Bay) " 919 -14
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -231,10 +279,10 @@ ship "Golan II Space Defence SpaceGun"
 
 
 ship "Golan III Space Defence NovaGun"
-	sprite "ship/station/golaniii"
-	thumbnail "thumbnail/station/golaniii"
+	sprite "ship/station/golanstationiii"
+	thumbnail "thumbnail/station/golanstationiii"
 	attributes
-		category "Heavy Warship"
+		category "Station "
 		"cost" 620000000
 		"shields" 730000
 		"hull" 187000
@@ -300,102 +348,28 @@ ship "Golan III Space Defence NovaGun"
 	turret 394 -2125 "G4Dual Turbolaser Turret"
 	turret -397 2186 "G4Dual Turbolaser Turret"
 	turret 397 2186 "G4Dual Turbolaser Turret"
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
-	fighter -964 0
-	fighter 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
+	bay "Starfighter (Bay) " -964 0
+	bay "Starfighter (Bay) " 964 0
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -409,7 +383,7 @@ ship "Gun Emplacement"
 	sprite ship/station/gunemplacement
 	thumbnail thumbnail/station/gunemplacement
 	attributes
-		category Interceptor
+		category "Weapon Platform "
 		"absolute threshold" 20
 		cost 150000
 		shields 1000
@@ -455,7 +429,7 @@ ship "Gun Emplacement (Large)"
 	sprite ship/station/gunemplacementlarge
 	thumbnail thumbnail/station/gunemplacementlarge
 	attributes
-		category Interceptor
+		category "Weapon Platform "
 		"absolute threshold" 20
 		cost 200000
 		shields 1000
@@ -503,7 +477,7 @@ ship "Gun Emplacement (Large/Mod)"
 	sprite ship/station/gunemplacementlargemod
 	thumbnail thumbnail/station/gunemplacementlargemod
 	attributes
-		category Interceptor
+		category "Weapon Platform "
 		"absolute threshold" 20
 		cost 200000
 		shields 800
@@ -557,7 +531,7 @@ ship "Mine Type A"
 	thumbnail thumbnail/station/minetypea
 	"never disabled"
 	attributes
-		category Interceptor
+		category "Weapon Platform "
 		cost 50000
 		shields 0
 		hull 100
@@ -603,7 +577,7 @@ ship "Mine Type B"
 	thumbnail thumbnail/station/minetypeb
 	"never disabled"
 	attributes
-		category Interceptor
+		category "Weapon Platform "
 		cost 50000
 		shields 0
 		hull 100
@@ -649,7 +623,7 @@ ship "Mine Type C"
 	thumbnail thumbnail/station/minetypec
 	"never disabled"
 	attributes
-		category Interceptor
+		category "Weapon Platform "
 		cost 50000
 		shields 0
 		hull 100
@@ -697,7 +671,7 @@ ship "Wandrau Ion Battery"
 	sprite ship/station/wandrauionbattery
 	thumbnail thumbnail/station/wandrauionbattery
 	attributes
-		category Interceptor
+		category "Weapon Platform "
 		"absolute threshold" 20
 		cost 50000
 		shields 4000
@@ -744,7 +718,7 @@ ship "Wandrau Laser Battery"
 	sprite ship/station/wandraulaserbattery
 	thumbnail thumbnail/station/wandraulaserbattery
 	attributes
-		category Interceptor
+		category "Weapon Platform "
 		"absolute threshold" 20
 		cost 50000
 		shields 4000

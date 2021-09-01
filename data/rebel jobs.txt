@@ -1,20 +1,3 @@
-mission "Combat Rating"
-	name "Combat Rating"
-	description "Change combat rating to 8."
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		government "Rebel Alliance"
-	on accept
-		"combat rating" = 10000
-	to complete
-		never
-	on complete
-		payment 0
-		dialog "Blah blah blah."
-
 mission "Lead an Alliance Assault on Salliche"
 	name "Lead an Alliance Assault on Salliche"
 	description "The Imperial Blockade in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment."
@@ -37,11 +20,161 @@ mission "Lead an Alliance Assault on Salliche"
 		personality escort heroic disables
 		government "Rebel Alliance"
 		system "N'zoth"
-		fleet "rebeldefencefleet" 3
+		# fleet "rebeldefencefleet" 3
+		fleet "rebelfleet" 3
 		dialog "Your fleet has been destroyed."
 	on complete
 		payment 250000
 		dialog "Mission complete."
+
+mission "Lead an Alliance Assault on Salliche (w/ Golan)"
+	name "Lead an Alliance Assault on Salliche (w/ Golan)"
+	description "The Imperial Blockade in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment."
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		system "N'zoth"
+	destination
+		system "Salliche"
+	clearance
+	npc kill
+		personality heroic staying vindictive unconstrained target
+		government "Galactic Empire"
+		system destination
+		fleet "missionimperialblockade" 3
+		dialog "The Imperial Blockade has been cleared. Hail the Imperial planet in this system and demand authorities to denounce Imperial control."
+	npc kill
+		government "Galactic Empire"
+		personality heroic vindictive staying
+		system destination
+		ship "Golan I Space Defence SpaceGun" "Golan I"
+		ship "TIE/LN Fighter (Bay)" "Psi Leader"
+		ship "TIE/LN Fighter (Bay)" "Psi 2"
+		ship "TIE/LN Fighter (Bay)" "Psi 3"
+		ship "TIE/LN Fighter (Bay)" "Psi 4"
+		ship "TIE/LN Fighter (Bay)" "Psi 5"
+		ship "TIE/LN Fighter (Bay)" "Psi 6"
+		ship "TIE/LN Fighter (Bay)" "Psi 7"
+		ship "TIE/LN Fighter (Bay)" "Psi 8"
+		ship "TIE/LN Fighter (Bay)" "Psi 9"
+		ship "TIE/LN Fighter (Bay)" "Psi 10"
+		ship "TIE/LN Fighter (Bay)" "Psi 11"
+		ship "TIE/LN Fighter (Bay)" "Psi 12"
+		ship "TIE/LN Fighter (Bay)" "Psi 13"
+		ship "TIE/LN Fighter (Bay)" "Psi 14"
+		ship "TIE/LN Fighter (Bay)" "Psi 15"
+		ship "TIE/LN Fighter (Bay)" "Psi 16"
+		ship "Mine Type A" "Mine A1"
+		ship "Mine Type A" "Mine A2"
+		ship "Mine Type B" "Mine B1"
+		ship "Mine Type B" "Mine B2"
+		ship "Mine Type C" "Mine C1"
+		ship "Mine Type C" "Mine C2"
+		ship "Wandrau Ion Battery" "Wandrau I1"
+		ship "Wandrau Ion Battery" "Wandrau I2"
+		ship "Wandrau Ion Battery" "Wandrau I3"
+		ship "Wandrau Laser Battery" "Wandrau L1"
+		ship "Wandrau Laser Battery" "Wandrau L2"
+		ship "Wandrau Laser Battery" "Wandrau L3"
+		ship "Gun Emplacement" "Wandrau E1"
+		ship "Gun Emplacement" "Wandrau E2"
+		ship "Gun Emplacement (Large)" "Wandrau LE1"
+		ship "Gun Emplacement (Large)" "Wandrau LE2"
+		ship "Gun Emplacement (Large/Mod)" "Wandrau LM1"
+		ship "Gun Emplacement (Large/Mod)" "Wandrau LME2"
+		dialog "The gun emplacements have been destroyed!"
+	npc
+		government "Escort"
+		personality escort
+		fleet "rebelcapitalship"
+	npc
+		government "Escort"
+		personality escort
+		fleet "rebelfrigate"
+	npc
+		government "Escort"
+		personality escort
+		fleet "rebelsquadron"
+	on complete
+		payment 500000
+		dialog "Mission complete."
+
+mission "Lead an Alliance Assault on N'zoth (w/ Golan)"
+	name "Lead an Alliance Assault on N'zoth (w/ Golan)"
+	description "The Imperial Blockade in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment."
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		system "Salliche"
+	destination
+		system "N'zoth"
+	npc kill
+		personality heroic staying vindictive unconstrained target
+		government "Galactic Empire"
+		system destination
+		fleet "missionimperialblockade" 3
+		dialog "The Imperial Blockade has been cleared. Hail the Imperial planet in this system and demand authorities to denounce Imperial control."
+	npc kill
+		government "Galactic Empire"
+		personality heroic vindictive staying
+		system destination
+		ship "Golan I Space Defence SpaceGun" "Golan I"
+		ship "TIE/LN Fighter (Bay)" "Psi Leader"
+		ship "TIE/LN Fighter (Bay)" "Psi 2"
+		ship "TIE/LN Fighter (Bay)" "Psi 3"
+		ship "TIE/LN Fighter (Bay)" "Psi 4"
+		ship "TIE/LN Fighter (Bay)" "Psi 5"
+		ship "TIE/LN Fighter (Bay)" "Psi 6"
+		ship "TIE/LN Fighter (Bay)" "Psi 7"
+		ship "TIE/LN Fighter (Bay)" "Psi 8"
+		ship "TIE/LN Fighter (Bay)" "Psi 9"
+		ship "TIE/LN Fighter (Bay)" "Psi 10"
+		ship "TIE/LN Fighter (Bay)" "Psi 11"
+		ship "TIE/LN Fighter (Bay)" "Psi 12"
+		ship "TIE/LN Fighter (Bay)" "Psi 13"
+		ship "TIE/LN Fighter (Bay)" "Psi 14"
+		ship "TIE/LN Fighter (Bay)" "Psi 15"
+		ship "TIE/LN Fighter (Bay)" "Psi 16"
+		ship "Mine Type A" "Mine A1"
+		ship "Mine Type A" "Mine A2"
+		ship "Mine Type B" "Mine B1"
+		ship "Mine Type B" "Mine B2"
+		ship "Mine Type C" "Mine C1"
+		ship "Mine Type C" "Mine C2"
+		ship "Wandrau Ion Battery" "Wandrau I1"
+		ship "Wandrau Ion Battery" "Wandrau I2"
+		ship "Wandrau Ion Battery" "Wandrau I3"
+		ship "Wandrau Laser Battery" "Wandrau L1"
+		ship "Wandrau Laser Battery" "Wandrau L2"
+		ship "Wandrau Laser Battery" "Wandrau L3"
+		ship "Gun Emplacement" "Wandrau E1"
+		ship "Gun Emplacement" "Wandrau E2"
+		ship "Gun Emplacement (Large)" "Wandrau LE1"
+		ship "Gun Emplacement (Large)" "Wandrau LE2"
+		ship "Gun Emplacement (Large/Mod)" "Wandrau LM1"
+		ship "Gun Emplacement (Large/Mod)" "Wandrau LME2"
+		dialog "The gun emplacements have been destroyed!"
+	npc
+		government "Escort"
+		personality escort
+		fleet "rebelcapitalship"
+	npc
+		government "Escort"
+		personality escort
+		fleet "rebelfrigate"
+	npc
+		government "Escort"
+		personality escort
+		fleet "rebelsquadron"
+	on complete
+		payment 500000
+		dialog "Mission complete."
+
+
 
 mission "Destroy the Eclipse II"
 	name "Destroy the Eclipse II"
@@ -62,22 +195,23 @@ mission "Destroy the Eclipse II"
 		fleet
 			variant 30
 				"Eclipse Star Dreadnought II"
-				"TIE/LN Fighter (Fighter)" 80
+				"TIE/LN Fighter (Bay)" 80
 		dialog "The Eclipse II has been cleared. Hail the Imperial planet in this system and demand authorities to denounce Imperial control."
 	npc
 		personality escort heroic disables
 		government "Rebel Alliance"
 		system "N'zoth"
-		fleet "rebeldefencefleet" 3
+		# fleet "rebeldefencefleet" 3
+		fleet "rebelfleet" 3
 		dialog "Your fleet has been destroyed."
 	on complete
 		payment 250000
 		dialog "Mission complete."
 
 
-mission "Mine"
-	name "Mine"
-	description "BLAH"
+mission "Weapon Platform Test"
+	name "Weapon Platform Test"
+	description "Weapon Platform Test"
 	repeat
 	job
 	to offer
@@ -91,13 +225,161 @@ mission "Mine"
 		government "Galactic Empire"
 		personality heroic vindictive staying
 		system Salliche
-		ship "Mine Type A" "Mine"
-		ship "Mine Type A" "Mine"
-		ship "Mine Type A" "Mine"
-		ship "Mine Type A" "Mine"
-		ship "Mine Type A" "Mine"
-		ship "Mine Type A" "Mine"
-		ship "Mine Type A" "Mine"
+		ship "Mine Type A" "Mine A1"
+		ship "Mine Type A" "Mine A2"
+		ship "Mine Type B" "Mine B1"
+		ship "Mine Type B" "Mine B2"
+		ship "Mine Type C" "Mine C1"
+		ship "Mine Type C" "Mine C2"
+		ship "Wandrau Ion Battery" "Wandrau I1"
+		ship "Wandrau Ion Battery" "Wandrau I2"
+		ship "Wandrau Ion Battery" "Wandrau I3"
+		ship "Wandrau Laser Battery" "Wandrau L1"
+		ship "Wandrau Laser Battery" "Wandrau L2"
+		ship "Wandrau Laser Battery" "Wandrau L3"
+		ship "Gun Emplacement" "Wandrau E1"
+		ship "Gun Emplacement" "Wandrau E2"
+		ship "Gun Emplacement (Large)" "Wandrau LE1"
+		ship "Gun Emplacement (Large)" "Wandrau LE2"
+		ship "Gun Emplacement (Large/Mod)" "Wandrau LM1"
+		ship "Gun Emplacement (Large/Mod)" "Wandrau LME2"
+		dialog "The gun emplacements have been destroyed!"
+	on complete
+		payment 500000
+		dialog "The Rebel Alliance gratefully pays you 500,000 credits for eliminating the tie fighters."
+
+mission "Weapon Platform Test (Mine)"
+	name "Weapon Platform Test (Mine)"
+	description "Weapon Platform Test"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		system "N'zoth"
+	destination
+		system "N'zoth"
+	waypoint "Salliche"
+	npc kill
+		government "Galactic Empire"
+		personality heroic vindictive staying
+		system Salliche
+		ship "Mine Type A" "Mine A1"
+		ship "Mine Type A" "Mine A2"
+		ship "Mine Type A" "Mine A3"
+		ship "Mine Type A" "Mine A4"
+		ship "Mine Type A" "Mine A5"
+		ship "Mine Type A" "Mine A6"
+		ship "Mine Type A" "Mine A7"
+		ship "Mine Type A" "Mine A8"
+		ship "Mine Type A" "Mine A9"
+		ship "Mine Type A" "Mine A10"
+		ship "Mine Type A" "Mine A11"
+		ship "Mine Type A" "Mine A12"
+		ship "Mine Type A" "Mine A13"
+		ship "Mine Type A" "Mine A14"
+		ship "Mine Type A" "Mine A15"
+		ship "Mine Type A" "Mine A16"
+		ship "Mine Type A" "Mine A17"
+		ship "Mine Type A" "Mine A18"
+		ship "Mine Type A" "Mine A19"
+		ship "Mine Type A" "Mine A20"
+		ship "Mine Type B" "Mine B1"
+		ship "Mine Type B" "Mine B2"
+		ship "Mine Type B" "Mine B3"
+		ship "Mine Type B" "Mine B4"
+		ship "Mine Type B" "Mine B5"
+		ship "Mine Type B" "Mine B6"
+		ship "Mine Type B" "Mine B7"
+		ship "Mine Type B" "Mine B8"
+		ship "Mine Type B" "Mine B9"
+		ship "Mine Type B" "Mine B10"
+		ship "Mine Type B" "Mine B11"
+		ship "Mine Type B" "Mine B12"
+		ship "Mine Type B" "Mine B13"
+		ship "Mine Type B" "Mine B14"
+		ship "Mine Type B" "Mine B15"
+		ship "Mine Type B" "Mine B16"
+		ship "Mine Type B" "Mine B17"
+		ship "Mine Type B" "Mine B18"
+		ship "Mine Type B" "Mine B19"
+		ship "Mine Type B" "Mine B20"
+		ship "Mine Type C" "Mine C1"
+		ship "Mine Type C" "Mine C2"
+		ship "Mine Type C" "Mine C3"
+		ship "Mine Type C" "Mine C4"
+		ship "Mine Type C" "Mine C5"
+		ship "Mine Type C" "Mine C6"
+		ship "Mine Type C" "Mine C7"
+		ship "Mine Type C" "Mine C8"
+		ship "Mine Type C" "Mine C9"
+		ship "Mine Type C" "Mine C10"
+		ship "Mine Type C" "Mine C11"
+		ship "Mine Type C" "Mine C12"
+		ship "Mine Type C" "Mine C13"
+		ship "Mine Type C" "Mine C14"
+		ship "Mine Type C" "Mine C15"
+		ship "Mine Type C" "Mine C16"
+		ship "Mine Type C" "Mine C17"
+		ship "Mine Type C" "Mine C18"
+		ship "Mine Type C" "Mine C19"
+		ship "Mine Type C" "Mine C20"
+		dialog "The gun emplacements have been destroyed!"
+	on complete
+		payment 500000
+		dialog "The Rebel Alliance gratefully pays you 500,000 credits for eliminating the tie fighters."
+
+mission "Weapon Platform Test (w/ Golan)"
+	name "Weapon Platform Test (w/ Golan)"
+	description "Weapon Platform Test"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		system "N'zoth"
+	destination
+		system "N'zoth"
+	waypoint "Salliche"
+	npc kill
+		government "Galactic Empire"
+		personality heroic vindictive staying
+		system Salliche
+		ship "Golan I Space Defence SpaceGun" "Golan I"
+		ship "TIE/LN Fighter (Bay)" "Psi Leader"
+		ship "TIE/LN Fighter (Bay)" "Psi 2"
+		ship "TIE/LN Fighter (Bay)" "Psi 3"
+		ship "TIE/LN Fighter (Bay)" "Psi 4"
+		ship "TIE/LN Fighter (Bay)" "Psi 5"
+		ship "TIE/LN Fighter (Bay)" "Psi 6"
+		ship "TIE/LN Fighter (Bay)" "Psi 7"
+		ship "TIE/LN Fighter (Bay)" "Psi 8"
+		ship "TIE/LN Fighter (Bay)" "Psi 9"
+		ship "TIE/LN Fighter (Bay)" "Psi 10"
+		ship "TIE/LN Fighter (Bay)" "Psi 11"
+		ship "TIE/LN Fighter (Bay)" "Psi 12"
+		ship "TIE/LN Fighter (Bay)" "Psi 13"
+		ship "TIE/LN Fighter (Bay)" "Psi 14"
+		ship "TIE/LN Fighter (Bay)" "Psi 15"
+		ship "TIE/LN Fighter (Bay)" "Psi 16"
+		ship "Mine Type A" "Mine A1"
+		ship "Mine Type A" "Mine A2"
+		ship "Mine Type B" "Mine B1"
+		ship "Mine Type B" "Mine B2"
+		ship "Mine Type C" "Mine C1"
+		ship "Mine Type C" "Mine C2"
+		ship "Wandrau Ion Battery" "Wandrau I1"
+		ship "Wandrau Ion Battery" "Wandrau I2"
+		ship "Wandrau Ion Battery" "Wandrau I3"
+		ship "Wandrau Laser Battery" "Wandrau L1"
+		ship "Wandrau Laser Battery" "Wandrau L2"
+		ship "Wandrau Laser Battery" "Wandrau L3"
+		ship "Gun Emplacement" "Wandrau E1"
+		ship "Gun Emplacement" "Wandrau E2"
+		ship "Gun Emplacement (Large)" "Wandrau LE1"
+		ship "Gun Emplacement (Large)" "Wandrau LE2"
+		ship "Gun Emplacement (Large/Mod)" "Wandrau LM1"
+		ship "Gun Emplacement (Large/Mod)" "Wandrau LME2"
 		dialog "The gun emplacements have been destroyed!"
 	on complete
 		payment 500000
@@ -334,6 +616,30 @@ mission "Destroy the Imperial Blockade (Imp)"
 		payment 250000
 		dialog "Blah blah blah."
 
+mission "Destroy the Victory II Star Destroyer"
+	name "Destroy the Victory II Star Destroyer"
+	description "Destroy the Victory II Star Destroyer"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		government "Rebel Alliance"
+	destination
+		distance 2 5
+	npc kill
+		personality heroic staying target
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 50
+				"Victory II Star Destroyer"
+				"TIE/LN Fighter (Bay)" 12
+		dialog "Destroy the Victory II Destroyer"
+	on complete
+		payment 250000
+		dialog "Destroy the Victory II Star Destroyer"
+
 mission "Destroy the Imperial I Star Destroyer"
 	name "Destroy the Imperial I Star Destroyer"
 	description "Destroy the Imperial I Star Destroyer"
@@ -357,160 +663,457 @@ mission "Destroy the Imperial I Star Destroyer"
 		payment 250000
 		dialog "Destroy the Imperial I Star Destroyer"
 
-mission "Destroy the Imperial I Star Destroyer (w/ fighters 1 Ace)"
-	name "Destroy the Imperial I Star Destroyer (w/ fighters 1 Ace)"
-	description "Destroy the Imperial I Star Destroyer (w/ fighters 1 Ace)"
+# _________________________________________________________
+
+mission "Destroy the Tie Fighters"
+	name "Destroy the Tie Fighters"
+	description "Destroy the Tie Fighters"
 	repeat
 	job
 	to offer
 		random < 99
+		not "Destroy the Tie Fighters: active"
 	source
 		system "N'zoth"
 	destination
 		system Salliche
 	clearance
+	on accept
+		"tiefighter1ace" = 0
+		"tiefighter2veteran" = 0
+		"tiefighter3officer" = 0
+		"tiefighter4ensign" = 0
+		"tiefighter5cadet" = 0
+		"tiefighter6novice" = 0
+		conversation
+			`Which Imperial ties would you like to face?`
+			choice
+				"	(1 Ace)"
+					goto tiefighter1ace
+				"	(2 Veteran)"
+					goto tiefighter2veteran
+				"	(3 Officer)"
+					goto tiefighter3officer
+				"	(4 Ensign)"
+					goto tiefighter4ensign
+				"	(5 Cadet)"
+					goto tiefighter5cadet
+				"	(6 Novice)"
+					goto tiefighter6novice
+			label tiefighter1ace
+			apply
+					"tiefighter1ace" = 1
+			`Ace tie fighter pilots selected.`
+				goto next
+			label tiefighter2veteran
+			apply
+					"tiefighter2veteran" = 1
+			`Veteran tie fighter pilots selected.`
+				goto next
+			label tiefighter3officer
+			apply
+					"tiefighter3officer" = 1
+			`Officer tie fighter pilots selected.`
+				goto next
+			label tiefighter4ensign
+			apply
+					"tiefighter4ensign" = 1
+			`Ensign tie fighter pilots selected.`
+				goto next
+			label tiefighter5cadet
+			apply
+					"tiefighter5cadet" = 1
+			`Cadet tie fighter pilots selected.`
+				goto next
+			label tiefighter6novice
+			apply
+					"tiefighter6novice" = 1
+			`Novice tie fighter pilots selected.`
+				goto next
+
+			label next
+			`Mission confirmed.`
 	npc kill
-		personality heroic staying target
+		to spawn
+			"tiefighter1ace" == 1
+		personality heroic staying vindictive unconstrained target
 			confusion 0
 		government "Galactic Empire"
 		system destination
 		fleet
-			variant 50
-				"Imperial I Star Destroyer"
-				"TIE/LN Fighter (Fighter)" 42
-		dialog "Destroy the Imperial I Destroyer"
-	on complete
-		payment 250000
-		dialog "Destroy the Imperial I Star Destroyer (w/ fighters)"
-
-mission "Destroy the Imperial I Star Destroyer (w/ fighters 2 Veteran)"
-	name "Destroy the Imperial I Star Destroyer (w/ fighters 2 Veteran)"
-	description "Destroy the Imperial I Star Destroyer (w/ fighters 2 Veteran)"
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		system "N'zoth"
-	destination
-		system Salliche
-	clearance
+			variant 10
+				"TIE/LN Fighter" 3
+		dialog "Imperial ties destroyed."
 	npc kill
-		personality heroic staying target
+		to spawn
+			"tiefighter2veteran" == 1
+		personality heroic staying vindictive unconstrained target
 			confusion 30
 		government "Galactic Empire"
 		system destination
 		fleet
-			variant 50
-				"Imperial I Star Destroyer"
-				"TIE/LN Fighter (Fighter)" 42
-		dialog "Destroy the Imperial I Destroyer"
-	on complete
-		payment 250000
-		dialog "Destroy the Imperial I Star Destroyer (w/ fighters)"
-
-mission "Destroy the Imperial I Star Destroyer (w/ fighters 3 Officer)"
-	name "Destroy the Imperial I Star Destroyer (w/ fighters 3 Officer)"
-	description "Destroy the Imperial I Star Destroyer (w/ fighters 3 Officer)"
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		system "N'zoth"
-	destination
-		system Salliche
-	clearance
+			variant 10
+				"TIE/LN Fighter" 3
+		dialog "Imperial ties destroyed."
 	npc kill
-		personality heroic staying target
+		to spawn
+			"tiefighter3officer" == 1
+		personality heroic staying vindictive unconstrained target
 			confusion 60
 		government "Galactic Empire"
 		system destination
 		fleet
-			variant 50
-				"Imperial I Star Destroyer"
-				"TIE/LN Fighter (Fighter)" 42
-		dialog "Destroy the Imperial I Destroyer"
-	on complete
-		payment 250000
-		dialog "Destroy the Imperial I Star Destroyer (w/ fighters)"
-
-mission "Destroy the Imperial I Star Destroyer (w/ fighters 4 Ensign)"
-	name "Destroy the Imperial I Star Destroyer (w/ fighters 4 Ensign)"
-	description "Destroy the Imperial I Star Destroyer (w/ fighters 4 Ensign)"
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		government "Rebel Alliance"
-	destination
-		distance 2 5
+			variant 10
+				"TIE/LN Fighter" 3
+		dialog "Imperial ties destroyed."
 	npc kill
-		personality heroic staying target
+		to spawn
+			"tiefighter4ensign" == 1
+		personality heroic staying vindictive unconstrained target
 			confusion 90
 		government "Galactic Empire"
 		system destination
 		fleet
-			variant 50
-				"Imperial I Star Destroyer"
-				"TIE/LN Fighter (Fighter)" 42
-		dialog "Destroy the Imperial I Destroyer"
-	on complete
-		payment 250000
-		dialog "Destroy the Imperial I Star Destroyer (w/ fighters)"
-
-mission "Destroy the Imperial I Star Destroyer (w/ fighters 5 Cadet)"
-	name "Destroy the Imperial I Star Destroyer (w/ fighters 5 Cadet)"
-	description "Destroy the Imperial I Star Destroyer (w/ fighters 5 Cadet)"
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		system "N'zoth"
-	destination
-		system Salliche
-	clearance
+			variant 10
+				"TIE/LN Fighter" 3
+		dialog "Imperial ties destroyed."
 	npc kill
-		personality heroic staying target
+		to spawn
+			"tiefighter5cadet" == 1
+		personality heroic staying vindictive unconstrained target
 			confusion 120
 		government "Galactic Empire"
 		system destination
 		fleet
-			variant 50
-				"Imperial I Star Destroyer"
-				"TIE/LN Fighter (Fighter)" 42
-		dialog "Destroy the Imperial I Destroyer"
+			variant 10
+				"TIE/LN Fighter" 3
+		dialog "Imperial ties destroyed."
+	npc kill
+		to spawn
+			"tiefighter6novice" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 150
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"TIE/LN Fighter" 3
+		dialog "Imperial ties destroyed."
 	on complete
-		payment 250000
-		dialog "Destroy the Imperial I Star Destroyer (w/ fighters)"
+		"tiefighter1ace" = 0
+		"tiefighter2veteran" = 0
+		"tiefighter3officer" = 0
+		"tiefighter4ensign" = 0
+		"tiefighter5cadet" = 0
+		"tiefighter6novice" = 0
+		payment 100000
+		dialog "Mission complete."
 
-mission "Destroy the Imperial I Star Destroyer (w/ fighters 6 Novice)"
-	name "Destroy the Imperial I Star Destroyer (w/ fighters 6 Novice)"
-	description "Destroy the Imperial I Star Destroyer (w/ fighters 6 Novice)"
+# _________________________________________________________
+
+mission "Destroy the Quasar (w/ fighters)"
+	name "Destroy the Quasar (w/ fighters)"
+	description Destroy the Quasar (w/ fighters)"
 	repeat
 	job
 	to offer
 		random < 99
+		not "Destroy the Quasar (w/ fighters): active"
 	source
 		system "N'zoth"
 	destination
 		system Salliche
 	clearance
+	on accept
+		"quasar1ace" = 0
+		"quasar2veteran" = 0
+		"quasar3officer" = 0
+		"quasar4ensign" = 0
+		"quasar5cadet" = 0
+		"quasar6novice" = 0
+		conversation
+			`Which Imperial ties would you like to face?`
+			choice
+				"	(1 Ace)"
+					goto quasar1ace
+				"	(2 Veteran)"
+					goto quasar2veteran
+				"	(3 Officer)"
+					goto quasar3officer
+				"	(4 Ensign)"
+					goto quasar4ensign
+				"	(5 Cadet)"
+					goto quasar5cadet
+				"	(6 Novice)"
+					goto quasar6novice
+			label quasar1ace
+			apply
+					"quasar1ace" = 1
+			`Ace tie fighter pilots selected.`
+				goto next
+			label quasar2veteran
+			apply
+					"quasar2veteran" = 1
+			`Veteran tie fighter pilots selected.`
+				goto next
+			label quasar3officer
+			apply
+					"quasar3officer" = 1
+			`Officer tie fighter pilots selected.`
+				goto next
+			label quasar4ensign
+			apply
+					"quasar4ensign" = 1
+			`Ensign tie fighter pilots selected.`
+				goto next
+			label quasar5cadet
+			apply
+					"quasar5cadet" = 1
+			`Cadet tie fighter pilots selected.`
+				goto next
+			label quasar6novice
+			apply
+					"quasar6novice" = 1
+			`Novice tie fighter pilots selected.`
+				goto next
+
+			label next
+			`Mission confirmed.`
 	npc kill
-		personality heroic staying target
+		to spawn
+			"quasar1ace" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 0
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Quasar Fire II Bulk Cruiser"
+				"TIE/LN Fighter (Bay)" 18
+		dialog "Imperial force destroyed."
+	npc kill
+		to spawn
+			"quasar2veteran" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 30
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Quasar Fire II Bulk Cruiser"
+				"TIE/LN Fighter (Bay)" 18
+		dialog "Imperial force destroyed."
+	npc kill
+		to spawn
+			"quasar3officer" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 60
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Quasar Fire II Bulk Cruiser"
+				"TIE/LN Fighter (Bay)" 18
+		dialog "Imperial force destroyed."
+	npc kill
+		to spawn
+			"quasar4ensign" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 90
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Quasar Fire II Bulk Cruiser"
+				"TIE/LN Fighter (Bay)" 18
+		dialog "Imperial force destroyed."
+	npc kill
+		to spawn
+			"quasar5cadet" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 120
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Quasar Fire II Bulk Cruiser"
+				"TIE/LN Fighter (Bay)" 18
+		dialog "Imperial force destroyed."
+	npc kill
+		to spawn
+			"quasar6novice" == 1
+		personality heroic staying vindictive unconstrained target
 			confusion 150
 		government "Galactic Empire"
 		system destination
 		fleet
-			variant 50
-				"Imperial I Star Destroyer"
-				"TIE/LN Fighter (Fighter)" 42
-		dialog "Destroy the Imperial I Destroyer"
+			variant 10
+				"Quasar Fire II Bulk Cruiser"
+				"TIE/LN Fighter (Bay)" 18
+		dialog "Imperial force destroyed."
 	on complete
-		payment 250000
-		dialog "Destroy the Imperial I Star Destroyer (w/ fighters)"
+		"quasar1ace" = 0
+		"quasar2veteran" = 0
+		"quasar3officer" = 0
+		"quasar4ensign" = 0
+		"quasar5cadet" = 0
+		"quasar6novice" = 0
+		payment 100000
+		dialog "Mission complete."
+
+# _________________________________________________________
+
+mission "Destroy the Imperial I Star Destroyer (w/ fighters)"
+	name "Destroy the Imperial I Star Destroyer (w/ fighters)"
+	description Destroy the Imperial I Star Destroyer (w/ fighters)"
+	repeat
+	job
+	to offer
+		random < 99
+		not "Destroy the Imperial I Star Destroyer (w/ fighters): active"
+	source
+		system "N'zoth"
+	destination
+		system Salliche
+	clearance
+	on accept
+		"imperialdestroyer1ace" = 0
+		"imperialdestroyer2veteran" = 0
+		"imperialdestroyer3officer" = 0
+		"imperialdestroyer4ensign" = 0
+		"imperialdestroyer5cadet" = 0
+		"imperialdestroyer6novice" = 0
+		conversation
+			`Which Imperial ties would you like to face?`
+			choice
+				"	(1 Ace)"
+					goto imperialdestroyer1ace
+				"	(2 Veteran)"
+					goto imperialdestroyer2veteran
+				"	(3 Officer)"
+					goto imperialdestroyer3officer
+				"	(4 Ensign)"
+					goto imperialdestroyer4ensign
+				"	(5 Cadet)"
+					goto imperialdestroyer5cadet
+				"	(6 Novice)"
+					goto imperialdestroyer6novice
+			label imperialdestroyer1ace
+			apply
+					"imperialdestroyer1ace" = 1
+			`Ace tie fighter pilots selected.`
+				goto next
+			label imperialdestroyer2veteran
+			apply
+					"imperialdestroyer2veteran" = 1
+			`Veteran tie fighter pilots selected.`
+				goto next
+			label imperialdestroyer3officer
+			apply
+					"imperialdestroyer3officer" = 1
+			`Officer tie fighter pilots selected.`
+				goto next
+			label imperialdestroyer4ensign
+			apply
+					"imperialdestroyer4ensign" = 1
+			`Ensign tie fighter pilots selected.`
+				goto next
+			label imperialdestroyer5cadet
+			apply
+					"imperialdestroyer5cadet" = 1
+			`Cadet tie fighter pilots selected.`
+				goto next
+			label imperialdestroyer6novice
+			apply
+					"imperialdestroyer6novice" = 1
+			`Novice tie fighter pilots selected.`
+				goto next
+
+			label next
+			`Mission confirmed.`
+	npc kill
+		to spawn
+			"imperialdestroyer1ace" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 0
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Imperial I Star Destroyer"
+				"TIE/LN Fighter (Bay)" 22
+		dialog "Imperial force destroyed."
+	npc kill
+		to spawn
+			"imperialdestroyer2veteran" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 30
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Imperial I Star Destroyer"
+				"TIE/LN Fighter (Bay)" 22
+		dialog "Imperial force destroyed."
+	npc kill
+		to spawn
+			"imperialdestroyer3officer" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 60
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Imperial I Star Destroyer"
+				"TIE/LN Fighter (Bay)" 22
+		dialog "Imperial force destroyed."
+	npc kill
+		to spawn
+			"imperialdestroyer4ensign" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 90
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Imperial I Star Destroyer"
+				"TIE/LN Fighter (Bay)" 22
+		dialog "Imperial force destroyed."
+	npc kill
+		to spawn
+			"imperialdestroyer5cadet" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 120
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Imperial I Star Destroyer"
+				"TIE/LN Fighter (Bay)" 22
+		dialog "Imperial force destroyed."
+	npc kill
+		to spawn
+			"imperialdestroyer6novice" == 1
+		personality heroic staying vindictive unconstrained target
+			confusion 150
+		government "Galactic Empire"
+		system destination
+		fleet
+			variant 10
+				"Imperial I Star Destroyer"
+				"TIE/LN Fighter (Bay)" 22
+		dialog "Imperial force destroyed."
+	on complete
+		"imperialdestroyer1ace" = 0
+		"imperialdestroyer2veteran" = 0
+		"imperialdestroyer3officer" = 0
+		"imperialdestroyer4ensign" = 0
+		"imperialdestroyer5cadet" = 0
+		"imperialdestroyer6novice" = 0
+		payment 100000
+		dialog "Mission complete."
+
+# _________________________________________________________
 
 mission "Destroy the Imperial Patrol"
 	name "Destroy the Imperial Patrol"
@@ -541,7 +1144,7 @@ mission "Imperial Navy Attack"
 	minor
 	repeat
 	to offer
-		random < 70
+		random < 99
 	source
 		government "Rebel Alliance"
 	npc kill
@@ -551,7 +1154,8 @@ mission "Imperial Navy Attack"
 	npc
 		personality heroic staying
 		government "Rebel Alliance"
-		fleet "rebeldefencefleet" 2
+		# fleet "rebeldefencefleet" 2
+		fleet "rebelfleet" 2
 	on offer
 		conversation
 			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Empire! We need every combat-worthy ship to join in the defences!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
@@ -566,10 +1170,9 @@ mission "Imperial Navy Attack"
 		dialog "The government of <planet> pays you <payment> for helping to drive off the Imperial Navy."
 
 
-
-mission "Destroy the K-Wing"
-	name "Destroy the K-Wing"
-	description "The K-Wing in the <system> System have been blocking all rebel supply ships from passing through the sector. Destroy them and regain contact with the Rebel Alliance to receive the payment."
+mission "Destroy the TIE/LN Fighter"
+	name "Destroy the TIE/LN Fighter"
+	description "The TIE/LN Fighter in the <system> System has been blocking all rebel supply ships from passing through the sector. Destroy it and regain contact with the Rebel Alliance to receive the payment."
 	repeat
 	job
 	to offer
@@ -584,11 +1187,12 @@ mission "Destroy the K-Wing"
 		system destination
 		fleet
 			variant 10
-				"BTL-S8 K-Wing (Fighter)"
-		dialog "The K-wing have been eliminated. Regain contact with the Rebel Alliance to receive the payment."
+				"TIE/LN Fighter (Bay)"
+		dialog "The TIE/LN Fighter has been eliminated. Regain contact with the Rebel Alliance to receive the payment."
 	on complete
 		payment 250000
-		dialog "The Rebel Alliance gratefully pays you 550,000 credits for eliminating the K-Wing."
+		dialog "The Rebel Alliance gratefully pays you 550,000 credits for eliminating the TIE/LN Fighter."
+
 
 mission "Destroy the Assertor Star Dreadnought and its fleet"
 	name "Destroy the Assertor Star Dreadnought and its fleet"
@@ -724,8 +1328,8 @@ mission "Wingman for Hire (Rebels)"
 		payment 0
 		dialog "Wingman for Hire"
 
-mission "Rebel Cell offering Assistance"
-	name "Rebel Cell offering Assistance"
+mission "1 Rebel Cell offering Assistance (S)"
+	name "Rebel Cell offering Assistance (S)"
 	description "A rebel cell is offering to combine its fleet with your forces temporarily."
 	repeat
 	job
@@ -739,7 +1343,53 @@ mission "Rebel Cell offering Assistance"
 	npc accompany
 		government "Escort"
 		personality escort
-		fleet "rebeldefencefleet"
+		fleet "rebelsquadron" 2
+		dialog "Rebel Cell offering Assistance"
+	to complete
+		never
+	on complete
+		payment 0
+		dialog "Rebel Cell offering Assistance"
+
+mission "2 Rebel Cell offering Assistance (M)"
+	name "Rebel Cell offering Assistance (M)"
+	description "A rebel cell is offering to combine its fleet with your forces temporarily."
+	repeat
+	job
+	deadline 5
+	to offer
+		random < 99
+	on offer
+		payment 0
+	source
+		government "Rebel Alliance"
+	npc accompany
+		government "Escort"
+		personality escort
+		fleet "rebelfrigate"
+		dialog "Rebel Cell offering Assistance"
+	to complete
+		never
+	on complete
+		payment 0
+		dialog "Rebel Cell offering Assistance"
+
+mission "3 Rebel Cell offering Assistance (L)"
+	name "Rebel Cell offering Assistance (L)"
+	description "A rebel cell is offering to combine its fleet with your forces temporarily."
+	repeat
+	job
+	deadline 5
+	to offer
+		random < 99
+	on offer
+		payment 0
+	source
+		government "Rebel Alliance"
+	npc accompany
+		government "Escort"
+		personality escort
+		fleet "rebelcapitalship"
 		dialog "Rebel Cell offering Assistance"
 	to complete
 		never
@@ -756,11 +1406,11 @@ mission "(Give) Alphabet Squadron"
 	to offer
 		random < 99
 	on offer
-		give ship "T-65B X-Wing (Fighter)" "Quell"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Tensent"
-		give ship "RZ-1 A-Wing (R) (Fighter)" "Lark"
-		give ship "A/SF-01 B-Wing (Fighter)" "Chadic"
-		give ship "UT-60D U-Wing (Fighter)" "Kairos"
+		give ship "T-65B X-Wing (Bay)" "Quell"
+		give ship "BTL-A4 Y-Wing (Bay)" "Tensent"
+		give ship "RZ-1 A-Wing (R) (Bay)" "Lark"
+		give ship "A/SF-01 B-Wing (Bay)" "Chadic"
+		give ship "UT-60D U-Wing (Bay)" "Kairos"
 		dialog "Alphabet Squadron"
 	source
 		government "Rebel Alliance"
@@ -827,84 +1477,84 @@ mission "(Give) Rebel Cell MC75 L"
 		give ship "GR-75 Transport" "Creativity"
 		give ship "GR-75 Transport" "Gullible"
 		give ship "Bussard Tanker" "Bussard"
-		give ship "T-65B X-Wing (Fighter)" "Red Leader"
-		give ship "T-65B X-Wing (Fighter)" "Red 2"
-		give ship "T-65B X-Wing (Fighter)" "Red 3"
-		give ship "T-65B X-Wing (Fighter)" "Red 4"
-		give ship "T-65B X-Wing (Fighter)" "Red 5"
-		give ship "T-65B X-Wing (Fighter)" "Red 6"
-		give ship "T-65B X-Wing (Fighter)" "Red 7"
-		give ship "T-65B X-Wing (Fighter)" "Red 8"
-		give ship "T-65B X-Wing (Fighter)" "Red 9"
-		give ship "T-65B X-Wing (Fighter)" "Red 10"
-		give ship "T-65B X-Wing (Fighter)" "Red 11"
-		give ship "T-65B X-Wing (Fighter)" "Red 12"
-		give ship "T-65B X-Wing (Fighter)" "Blue Leader"
-		give ship "T-65B X-Wing (Fighter)" "Blue 2"
-		give ship "T-65B X-Wing (Fighter)" "Blue 3"
-		give ship "T-65B X-Wing (Fighter)" "Blue 4"
-		give ship "T-65B X-Wing (Fighter)" "Blue 5"
-		give ship "T-65B X-Wing (Fighter)" "Blue 6"
-		give ship "T-65B X-Wing (Fighter)" "Blue 7"
-		give ship "T-65B X-Wing (Fighter)" "Blue 8"
-		give ship "T-65B X-Wing (Fighter)" "Blue 9"
-		give ship "T-65B X-Wing (Fighter)" "Blue 10"
-		give ship "T-65B X-Wing (Fighter)" "Blue 11"
-		give ship "T-65B X-Wing (Fighter)" "Blue 12"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet Leader"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 2"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 3"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 4"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 5"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 6"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 7"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 8"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 9"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 10"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 11"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 12"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold Leader"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 2"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 3"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 4"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 5"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 6"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 7"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 8"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 9"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 10"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 11"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Gold 12"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur Leader"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 2"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 3"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 4"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 5"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 6"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 7"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 8"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 9"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 10"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 11"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 12"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure Leader"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 2"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 3"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 4"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 5"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 6"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 7"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 8"
-		give ship "A/SF-01 B-Wing (Fighter)" "Bronze Leader"
-		give ship "A/SF-01 B-Wing (Fighter)" "Bronze 2"
-		give ship "A/SF-01 B-Wing (Fighter)" "Bronze 3"
-		give ship "A/SF-01 B-Wing (Fighter)" "Bronze 4"
-		give ship "A/SF-01 B-Wing (Fighter)" "Bronze 5"
-		give ship "A/SF-01 B-Wing (Fighter)" "Bronze 6"
-		give ship "A/SF-01 B-Wing (Fighter)" "Bronze 7"
-		give ship "A/SF-01 B-Wing (Fighter)" "Bronze 8"
-		give ship "UT-60D U-Wing (Fighter)" "Blue 1"
-		give ship "UT-60D U-Wing (Fighter)" "Blue 2"
+		give ship "T-65B X-Wing (Bay)" "Red Leader"
+		give ship "T-65B X-Wing (Bay)" "Red 2"
+		give ship "T-65B X-Wing (Bay)" "Red 3"
+		give ship "T-65B X-Wing (Bay)" "Red 4"
+		give ship "T-65B X-Wing (Bay)" "Red 5"
+		give ship "T-65B X-Wing (Bay)" "Red 6"
+		give ship "T-65B X-Wing (Bay)" "Red 7"
+		give ship "T-65B X-Wing (Bay)" "Red 8"
+		give ship "T-65B X-Wing (Bay)" "Red 9"
+		give ship "T-65B X-Wing (Bay)" "Red 10"
+		give ship "T-65B X-Wing (Bay)" "Red 11"
+		give ship "T-65B X-Wing (Bay)" "Red 12"
+		give ship "T-65B X-Wing (Bay)" "Blue Leader"
+		give ship "T-65B X-Wing (Bay)" "Blue 2"
+		give ship "T-65B X-Wing (Bay)" "Blue 3"
+		give ship "T-65B X-Wing (Bay)" "Blue 4"
+		give ship "T-65B X-Wing (Bay)" "Blue 5"
+		give ship "T-65B X-Wing (Bay)" "Blue 6"
+		give ship "T-65B X-Wing (Bay)" "Blue 7"
+		give ship "T-65B X-Wing (Bay)" "Blue 8"
+		give ship "T-65B X-Wing (Bay)" "Blue 9"
+		give ship "T-65B X-Wing (Bay)" "Blue 10"
+		give ship "T-65B X-Wing (Bay)" "Blue 11"
+		give ship "T-65B X-Wing (Bay)" "Blue 12"
+		give ship "T-65B X-Wing (Bay)" "Scarlet Leader"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 2"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 3"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 4"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 5"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 6"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 7"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 8"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 9"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 10"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 11"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 12"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold Leader"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 2"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 3"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 4"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 5"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 6"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 7"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 8"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 9"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 10"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 11"
+		give ship "BTL-A4 Y-Wing (Bay)" "Gold 12"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur Leader"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 2"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 3"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 4"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 5"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 6"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 7"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 8"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 9"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 10"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 11"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 12"
+		give ship "RZ-1 A-Wing (Bay)" "Azure Leader"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 2"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 3"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 4"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 5"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 6"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 7"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 8"
+		give ship "A/SF-01 B-Wing (Bay)" "Bronze Leader"
+		give ship "A/SF-01 B-Wing (Bay)" "Bronze 2"
+		give ship "A/SF-01 B-Wing (Bay)" "Bronze 3"
+		give ship "A/SF-01 B-Wing (Bay)" "Bronze 4"
+		give ship "A/SF-01 B-Wing (Bay)" "Bronze 5"
+		give ship "A/SF-01 B-Wing (Bay)" "Bronze 6"
+		give ship "A/SF-01 B-Wing (Bay)" "Bronze 7"
+		give ship "A/SF-01 B-Wing (Bay)" "Bronze 8"
+		give ship "UT-60D U-Wing (Bay)" "Blue 1"
+		give ship "UT-60D U-Wing (Bay)" "Blue 2"
 		give ship "VCX-100 Light Freighter" "Ghost"
 		dialog "Rebel Cell"
 	source
@@ -932,211 +1582,55 @@ mission "(Give) Rebel Cell MC75 M"
 		give ship "GR-75 Transport" "Catan"
 		give ship "GR-75 Transport" "Backup"
 		give ship "GR-75 Transport" "Quilt"
-		give ship "T-65B X-Wing (Fighter)" "Red Leader"
-		give ship "T-65B X-Wing (Fighter)" "Red 2"
-		give ship "T-65B X-Wing (Fighter)" "Red 3"
-		give ship "T-65B X-Wing (Fighter)" "Red 4"
-		give ship "T-65B X-Wing (Fighter)" "Red 5"
-		give ship "T-65B X-Wing (Fighter)" "Red 6"
-		give ship "T-65B X-Wing (Fighter)" "Red 7"
-		give ship "T-65B X-Wing (Fighter)" "Red 8"
-		give ship "T-65B X-Wing (Fighter)" "Red 9"
-		give ship "T-65B X-Wing (Fighter)" "Red 10"
-		give ship "T-65B X-Wing (Fighter)" "Blue Leader"
-		give ship "T-65B X-Wing (Fighter)" "Blue 2"
-		give ship "T-65B X-Wing (Fighter)" "Blue 3"
-		give ship "T-65B X-Wing (Fighter)" "Blue 4"
-		give ship "T-65B X-Wing (Fighter)" "Blue 5"
-		give ship "T-65B X-Wing (Fighter)" "Blue 6"
-		give ship "T-65B X-Wing (Fighter)" "Blue 7"
-		give ship "T-65B X-Wing (Fighter)" "Blue 8"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur Leader"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 2"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 3"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 4"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 5"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 6"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 7"
-		give ship "BTL-A4 Y-Wing (Fighter)" "Sulphur 8"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet Leader"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 2"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 3"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 4"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 5"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 6"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 7"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 8"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 9"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 10"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 11"
-		give ship "T-65B X-Wing (Fighter)" "Scarlet 12"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure Leader"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 2"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 3"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 4"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 5"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 6"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 7"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 8"
-		give ship "RZ-1 A-Wing (Fighter)" "Azure 9"
+		give ship "T-65B X-Wing (Bay)" "Red Leader"
+		give ship "T-65B X-Wing (Bay)" "Red 2"
+		give ship "T-65B X-Wing (Bay)" "Red 3"
+		give ship "T-65B X-Wing (Bay)" "Red 4"
+		give ship "T-65B X-Wing (Bay)" "Red 5"
+		give ship "T-65B X-Wing (Bay)" "Red 6"
+		give ship "T-65B X-Wing (Bay)" "Red 7"
+		give ship "T-65B X-Wing (Bay)" "Red 8"
+		give ship "T-65B X-Wing (Bay)" "Red 9"
+		give ship "T-65B X-Wing (Bay)" "Red 10"
+		give ship "T-65B X-Wing (Bay)" "Blue Leader"
+		give ship "T-65B X-Wing (Bay)" "Blue 2"
+		give ship "T-65B X-Wing (Bay)" "Blue 3"
+		give ship "T-65B X-Wing (Bay)" "Blue 4"
+		give ship "T-65B X-Wing (Bay)" "Blue 5"
+		give ship "T-65B X-Wing (Bay)" "Blue 6"
+		give ship "T-65B X-Wing (Bay)" "Blue 7"
+		give ship "T-65B X-Wing (Bay)" "Blue 8"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur Leader"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 2"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 3"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 4"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 5"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 6"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 7"
+		give ship "BTL-A4 Y-Wing (Bay)" "Sulphur 8"
+		give ship "T-65B X-Wing (Bay)" "Scarlet Leader"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 2"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 3"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 4"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 5"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 6"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 7"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 8"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 9"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 10"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 11"
+		give ship "T-65B X-Wing (Bay)" "Scarlet 12"
+		give ship "RZ-1 A-Wing (Bay)" "Azure Leader"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 2"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 3"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 4"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 5"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 6"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 7"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 8"
+		give ship "RZ-1 A-Wing (Bay)" "Azure 9"
 		dialog "Rebel Cell"
 	source
 		government "Rebel Alliance"
 	to complete
 		never
-
-mission "Destroy the Quasar (w/ fighters 1 Ace)"
-	name "Destroy the Quasar (w/ fighters 1 Ace)"
-	description "Destroy the Quasar (w/ fighters 1 Ace)"
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		system "N'zoth"
-	destination
-		system Salliche
-	clearance
-	npc kill
-		personality heroic staying target
-			confusion 0
-		government "Galactic Empire"
-		system destination
-		fleet
-			variant 50
-				"Quasar Fire II Bulk Cruiser"
-				"TIE/LN Fighter (Fighter)" 36
-		dialog "Destroy the Quasar (w/ fighters 1 Ace)"
-	on complete
-		payment 250000
-		dialog "Destroy the Quasar (w/ fighters 1 Ace)"
-
-mission "Destroy the Quasar (w/ fighters 2 Veteran)"
-	name "Destroy the Quasar (w/ fighters 2 Veteran)"
-	description "Destroy the Quasar (w/ fighters 2 Veteran)"
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		system "N'zoth"
-	destination
-		system Salliche
-	clearance
-	npc kill
-		personality heroic staying target
-			confusion 30
-		government "Galactic Empire"
-		system destination
-		fleet
-			variant 50
-				"Quasar Fire II Bulk Cruiser"
-				"TIE/LN Fighter (Fighter)" 36
-		dialog "Destroy the Quasar (w/ fighters 2 Veteran)"
-	on complete
-		payment 250000
-		dialog "Destroy the Quasar (w/ fighters 2 Veteran)"
-
-mission "Destroy the Quasar (w/ fighters 3 Officer)"
-	name "Destroy the Quasar (w/ fighters 3 Officer)"
-	description "Destroy the Quasar (w/ fighters 3 Officer)"
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		system "N'zoth"
-	destination
-		system Salliche
-	clearance
-	npc kill
-		personality heroic staying target
-			confusion 60
-		government "Galactic Empire"
-		system destination
-		fleet
-			variant 50
-				"Quasar Fire II Bulk Cruiser"
-				"TIE/LN Fighter (Fighter)" 36
-		dialog "Destroy the Quasar (w/ fighters 3 Officer)"
-	on complete
-		payment 250000
-		dialog "Destroy the Quasar (w/ fighters 3 Officer)"
-
-mission "Destroy the Quasar (w/ fighters 4 Ensign)"
-	name "Destroy the Quasar (w/ fighters 4 Ensign)"
-	description "Destroy the Quasar (w/ fighters 4 Ensign)"
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		system "N'zoth"
-	destination
-		system Salliche
-	clearance
-	npc kill
-		personality heroic staying target
-			confusion 90
-		government "Galactic Empire"
-		system destination
-		fleet
-			variant 50
-				"Quasar Fire II Bulk Cruiser"
-				"TIE/LN Fighter (Fighter)" 36
-		dialog "Destroy the Quasar (w/ fighters 4 Ensign)"
-	on complete
-		payment 250000
-		dialog "Destroy the Quasar (w/ fighters 4 Ensign)"
-
-mission "Destroy the Quasar (w/ fighters 5 Cadet)"
-	name "Destroy the Quasar (w/ fighters 5 Cadet)"
-	description "Destroy the Quasar (w/ fighters 5 Cadet)"
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		system "N'zoth"
-	destination
-		system Salliche
-	clearance
-	npc kill
-		personality heroic staying target
-			confusion 120
-		government "Galactic Empire"
-		system destination
-		fleet
-			variant 50
-				"Quasar Fire II Bulk Cruiser"
-				"TIE/LN Fighter (Fighter)" 36
-		dialog "Destroy the Quasar (w/ fighters 5 Cadet)"
-	on complete
-		payment 250000
-		dialog "Destroy the Quasar (w/ fighters 5 Cadet)"
-
-mission "Destroy the Quasar (w/ fighters 6 Novice)"
-	name "Destroy the Quasar (w/ fighters 6 Novice)"
-	description "Destroy the Quasar (w/ fighters 6 Novice)"
-	repeat
-	job
-	to offer
-		random < 99
-	source
-		system "N'zoth"
-	destination
-		system Salliche
-	clearance
-	npc kill
-		personality heroic staying target
-			confusion 150
-		government "Galactic Empire"
-		system destination
-		fleet
-			variant 50
-				"Quasar Fire II Bulk Cruiser"
-				"TIE/LN Fighter (Fighter)" 36
-		dialog "Destroy the Quasar (w/ fighters 6 Novice"
-	on complete
-		payment 250000
-		dialog "Destroy the Quasar (w/ fighters 6 Novice"

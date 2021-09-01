@@ -12,7 +12,7 @@ ship "E-7 E-Wing"
 	sprite "ship/e7ewing"
 	thumbnail "thumbnail/e7ewing"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 200000
 		"shields" 2400
@@ -65,11 +65,11 @@ ship "E-7 E-Wing"
 
 
 
-ship "E-7 E-Wing (Fighter)"
+ship "E-7 E-Wing (Bay)"
 	sprite "ship/e7ewing"
 	thumbnail "thumbnail/e7ewing"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 200000
 		"shields" 2400
@@ -126,7 +126,7 @@ ship "E-7 E-Wing" "E-7 E-Wing (R)"
 	sprite "ship/e7ewingred"
 	thumbnail "thumbnail/e7ewingred"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 200000
 		"shields" 2400
@@ -179,11 +179,11 @@ ship "E-7 E-Wing" "E-7 E-Wing (R)"
 
 
 
-ship "E-7 E-Wing (Fighter)" "E-7 E-Wing (R) (Fighter)"
+ship "E-7 E-Wing (Bay)" "E-7 E-Wing (R) (Bay)"
 	sprite "ship/e7ewingred"
 	thumbnail "thumbnail/e7ewingred"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 200000
 		"shields" 2400
@@ -240,7 +240,7 @@ ship "MC80B Star Cruiser"
 	sprite "ship/mc80bstarcruiser"
 	thumbnail "thumbnail/mc80bstarcruiser"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 175000000
 		"shields" 211000
 		"hull" 63000
@@ -304,42 +304,24 @@ ship "MC80B Star Cruiser"
 	turret 161 -1133 "R5Quad Turbolaser Turret"
 	turret -98 -1308 "R5Quad Turbolaser Turret"
 	turret 98 -1308 "R5Quad Turbolaser Turret"
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
-	fighter 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
+	bay "Starfighter (Bay) " 0 242
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -356,7 +338,7 @@ ship "Starhawk Battlecruiser Mark I"
 	sprite "ship/starhawkbattlecruiser"
 	thumbnail "thumbnail/starhawkbattlecruiser"
 	attributes
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 430000000
 		"shields" 400000
 		"hull" 100000
@@ -426,84 +408,45 @@ ship "Starhawk Battlecruiser Mark I"
 	turret 348 -1488 "R5Quad Turbolaser Turret"
 	turret -231.5 -1714 "R5Quad Turbolaser Turret"
 	turret 231.5 -1714 "R5Quad Turbolaser Turret"
-	fighter -64.5 -594
+	bay "Starfighter (Bay) " -64.5 -594
 		angle 180
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " 64.5 -594
 		angle 180
-	fighter -64.5 -594
+	bay "Starfighter (Bay) " -64.5 -594
 		angle 180
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " 64.5 -594
 		angle 180
-	fighter -64.5 -594
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " -64.5 -594
 		angle 180
-	fighter -64.5 -594
+	bay "Starfighter (Bay) " 64.5 -594
 		angle 180
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " -64.5 -594
 		angle 180
-	fighter -64.5 -594
+	bay "Starfighter (Bay) " 64.5 -594
 		angle 180
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " -64.5 -594
 		angle 180
-	fighter -64.5 -594
+	bay "Starfighter (Bay) " 64.5 -594
 		angle 180
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " -64.5 -594
 		angle 180
-	fighter -64.5 -594
+	bay "Starfighter (Bay) " 64.5 -594
 		angle 180
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " -64.5 -594
 		angle 180
-	fighter -64.5 -594
+	bay "Starfighter (Bay) " 64.5 -594
 		angle 180
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " -64.5 -594
 		angle 180
-	fighter -64.5 -594
+	bay "Starfighter (Bay) " 64.5 -594
 		angle 180
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " -64.5 -594
 		angle 180
-	fighter -64.5 -594
+	bay "Starfighter (Bay) " 64.5 -594
 		angle 180
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " -64.5 -594
 		angle 180
-	fighter -64.5 -594
-		angle 180
-	fighter 64.5 -594
-		angle 180
-	fighter -64.5 -594
-		angle 180
-	fighter 64.5 -594
-		angle 180
-	fighter -64.5 -594
-		angle 180
-	fighter 64.5 -594
-		angle 180
-	fighter -64.5 -594
-		angle 180
-	fighter 64.5 -594
-		angle 180
-	fighter -64.5 -594
-		angle 180
-	fighter 64.5 -594
-		angle 180
-	fighter -64.5 -594
-		angle 180
-	fighter 64.5 -594
-		angle 180
-	fighter -64.5 -594
-		angle 180
-	fighter 64.5 -594
-		angle 180
-	fighter -64.5 -594
-		angle 180
-	fighter 64.5 -594
-		angle 180
-	fighter -64.5 -594
-		angle 180
-	fighter 64.5 -594
-		angle 180
-	fighter -64.5 -594
-		angle 180
-	fighter 64.5 -594
+	bay "Starfighter (Bay) " 64.5 -594
 		angle 180
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -520,7 +463,7 @@ ship "Starhawk Battlecruiser (Prototype)"
 	sprite "ship/starhawkbattlecruiserprototype"
 	thumbnail "thumbnail/starhawkbattlecruiser"
 	attributes
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 305000000
 		"shields" 390000
 		"hull" 95000
@@ -586,77 +529,41 @@ ship "Starhawk Battlecruiser (Prototype)"
 	turret 324 -1393.5 "R5Quad Turbolaser Turret"
 	turret -212 -1601 "R5Quad Turbolaser Turret"
 	turret 212 -1601 "R5Quad Turbolaser Turret"
-	fighter -113.5 -557
+	bay "Starfighter (Bay) " -113.5 -557
 		angle 180
-	fighter 113.5 -557
+	bay "Starfighter (Bay) " 113.5 -557
 		angle 180
-	fighter -113.5 -557
+	bay "Starfighter (Bay) " -113.5 -557
 		angle 180
-	fighter 113.5 -557
+	bay "Starfighter (Bay) " 113.5 -557
 		angle 180
-	fighter -113.5 -557
+	bay "Starfighter (Bay) " -113.5 -557
 		angle 180
-	fighter 113.5 -557
+	bay "Starfighter (Bay) " 113.5 -557
 		angle 180
-	fighter -113.5 -557
+	bay "Starfighter (Bay) " -113.5 -557
 		angle 180
-	fighter 113.5 -557
+	bay "Starfighter (Bay) " 113.5 -557
 		angle 180
-	fighter -113.5 -557
+	bay "Starfighter (Bay) " -113.5 -557
 		angle 180
-	fighter 113.5 -557
+	bay "Starfighter (Bay) " 113.5 -557
 		angle 180
-	fighter -113.5 -557
+	bay "Starfighter (Bay) " -113.5 -557
 		angle 180
-	fighter 113.5 -557
+	bay "Starfighter (Bay) " 113.5 -557
 		angle 180
-	fighter -113.5 -557
+	bay "Starfighter (Bay) " -113.5 -557
 		angle 180
-	fighter 113.5 -557
+	bay "Starfighter (Bay) " 113.5 -557
 		angle 180
-	fighter -113.5 -557
+	bay "Starfighter (Bay) " -113.5 -557
 		angle 180
-	fighter 113.5 -557
+	bay "Starfighter (Bay) " 113.5 -557
 		angle 180
-	fighter -113.5 -557
+	bay "Starfighter (Bay) " -113.5 -557
 		angle 180
-	fighter 113.5 -557
-		angle 180
-	fighter -113.5 -557
-		angle 180
-	fighter 113.5 -557
-		angle 180
-	fighter -113.5 -557
-		angle 180
-	fighter 113.5 -557
-		angle 180
-	fighter -113.5 -557
-		angle 180
-	fighter 113.5 -557
-		angle 180
-	fighter -113.5 -557
-		angle 180
-	fighter 113.5 -557
-		angle 180
-	fighter -113.5 -557
-		angle 180
-	fighter 113.5 -557
-		angle 180
-	fighter -113.5 -557
-		angle 180
-	fighter 113.5 -557
-		angle 180
-	fighter -113.5 -557
-		angle 180
-	fighter 113.5 -557
-		angle 180
-	fighter -113.5 -557
-		angle 180
-	fighter 113.5 -557
-		angle 180
-	fighter -113.5 -557
-		angle 180
-	fighter 113.5 -557
+	bay "Starfighter (Bay) " 113.5 -557
 		angle 180
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -673,7 +580,7 @@ ship "Viscount Star Defender"
 	sprite "ship/mcviscountcruiser"
 	thumbnail "thumbnail/mcviscountcruiser"
 	attributes
-		category "Heavy Warship"
+		category "Dreadnought "
 		"cost" 2700000000
 		"shields" 3450000
 		"hull" 1360000
@@ -739,86 +646,34 @@ ship "Viscount Star Defender"
 	turret 820 -2933 "R6Octuple Turbolaser Turret"
 	turret 452 -3708 "R6Octuple Turbolaser Turret"
 	turret -204 -4600 "R6Octuple Turbolaser Turret"
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
-	fighter 2 -1818
-	fighter -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
+	bay "Starfighter (Bay) " 2 -1818
+	bay "Starfighter (Bay) " -2 -1818
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50

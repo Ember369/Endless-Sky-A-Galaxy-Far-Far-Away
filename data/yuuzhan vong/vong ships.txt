@@ -12,7 +12,7 @@ ship "Chaokhinh Advance Scout Ship"
 	sprite "ship/chaokhinhadvancescoutship"
 	thumbnail "thumbnail/chaokhinhadvancescoutship"
 	attributes
-		category "Light Warship"
+		category "Corvette "
 		"cost" 3450000
 		"shields" 23000
 		"hull" 9450
@@ -65,7 +65,7 @@ ship "I'friil Suuk"
 	sprite "ship/ifriilsuuk"
 	thumbnail "thumbnail/ifriilsuuk"
 	attributes
-		category "Medium Warship"
+		category "Cruiser "
 		"cost" 18000000
 		"shields" 60000
 		"hull" 26000
@@ -122,12 +122,6 @@ ship "I'friil Suuk"
 	fighter 41.5 -497
 	fighter 41.5 -497
 	fighter 41.5 -497
-	fighter 41.5 -497
-	fighter 41.5 -497
-	fighter 41.5 -497
-	fighter 41.5 -497
-	fighter 41.5 -497
-	fighter 41.5 -497
 	leak "blood" 40 40
 	explode "blood" 100
 	description "The I'Friil Suuk is a heavy interceptor analog, comparable to that of Nebulon B. It is as fast as the Strohna, but much more armoured. Bone-like yorik coral growth plates can be seen starting to grow on the surface of the Suuk, which provides heavy armour from the standard asteroid type rock hull, a trait of Vong ships that is more apparent through genetic mutations in later developed warships."
@@ -139,7 +133,7 @@ ship "Miid ro'ik"
 	sprite "ship/miidroikbattleship"
 	thumbnail "thumbnail/miidroikbattleship"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 205000000
 		"shields" 258500
 		"hull" 66500
@@ -220,38 +214,14 @@ ship "Miid ro'ik"
 	fighter 0 -264
 	fighter 0 -264
 	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
-	fighter 0 -264
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Imperial II Star Destroyer is a Star Destroyer model manufactured by Kuat Drive Yards for use by the Imperial Navy. Part of the Imperial line, the class served as successor to the Imperial I Star Destroyer."
-	description "Artwork/model by Fractalsponge"
+	description "The miid ro'ik warship is a Yuuzhan Vong bio-engineered capital starship and the rough analog to an Imperial-class Star Destroyer. The warship is unique in its ability to recycle other Yuuzhan Vong starships. Whenever a coralskipper, Kor Chokk, or even a worldship dies, its organic material is fed to the miid ro'ik. The dying matter is converted into fuel for the warship's yaret-kors and other systems."
+	description "Artwork/model by The Shapers"
 
 
 
@@ -260,7 +230,7 @@ ship "Yorik-et"
 	thumbnail thumbnail/yoriket
 	"never disabled"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		cost 140000
 		shields 1500
 		hull 3000
@@ -297,12 +267,12 @@ ship "Yorik-et"
 
 
 
-ship "Yorik-et (Fighter)"
+ship "Yorik-et (Bay)"
 	sprite ship/yoriket
 	thumbnail thumbnail/yoriket
 	"never disabled"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		cost 140000
 		shields 1500
 		hull 3000

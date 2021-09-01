@@ -16,7 +16,7 @@ ship "Purrgil"
 	thumbnail "thumbnail/purrgil"
 	"never disabled"
 	attributes
-		category "Heavy Freighter"
+		category "Lifeform "
 		"cost" 0
 		"hull" 49000
 		"required crew" 1
@@ -91,7 +91,7 @@ ship "Purrgil" "Purrgil (Corvette)"
 	thumbnail "thumbnail/purrgil"
 	"never disabled"
 	attributes
-		category "Heavy Freighter"
+		category "Lifeform "
 		"cost" 0
 		"hull" 49000
 		"required crew" 1
@@ -166,7 +166,7 @@ ship "Purrgil" "Purrgil (Destroyer)"
 	thumbnail "thumbnail/purrgil"
 	"never disabled"
 	attributes
-		category "Heavy Freighter"
+		category "Lifeform "
 		"cost" 0
 		"hull" 202000
 		"required crew" 1
@@ -233,7 +233,7 @@ ship "Purrgil" "Purrgil (Destroyer)"
 	description "Purrgil are a species of massive, whale-like creatures that live in deep space, traveling from star system to star system. It is their natural ability to fly through hyperspace that inspired sentients to develop hyperdrive technology. However, most spacers consider purrgil to be pests due to their habit of approaching and flying into starships near their flight paths. Numerous spacer deaths can be attributed to purrgil-related incidents, leading most spacers to fire upon them on sight."
 	description "Artwork/model from Wookieepedia"
 
-ship "Purrgil" "Purrgil (Fighter)"
+ship "Purrgil" "Purrgil (Bay)"
 	sprite "ship/purrgil/purrgil fighter/purrgil"
 		"frame rate" 45
 		"random start frame"
@@ -241,7 +241,7 @@ ship "Purrgil" "Purrgil (Fighter)"
 	thumbnail "thumbnail/purrgil"
 	"never disabled"
 	attributes
-		category "Heavy Freighter"
+		category "Lifeform "
 		"cost" 0
 		"hull" 7800
 		"required crew" 1
@@ -294,7 +294,7 @@ ship "Purrgil" "Purrgil (Frigate)"
 	thumbnail "thumbnail/purrgil"
 	"never disabled"
 	attributes
-		category "Heavy Freighter"
+		category "Lifeform "
 		"cost" 0
 		"hull" 100000
 		"required crew" 1
@@ -369,7 +369,7 @@ ship "Purrgil" "Purrgil (Transport)"
 	thumbnail "thumbnail/purrgil"
 	"never disabled"
 	attributes
-		category "Heavy Freighter"
+		category "Lifeform "
 		"cost" 0
 		"hull" 22000
 		"required crew" 1

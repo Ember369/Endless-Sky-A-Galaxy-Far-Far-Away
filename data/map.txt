@@ -16,7 +16,7 @@ galaxy "label thecore"
 	pos 5750 -7010
 	sprite label/thecore
 
-galaxy "label coruscant"
+galaxy "label coruscant"-
 	pos 5812.48 -7323.1
 	sprite label/majorsystem
 
@@ -24,7 +24,7 @@ system Abafar
 	pos 6290.82 -8074.15
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vinsoth
 	asteroids "large rock" 3 2.898
 	asteroids "small metal" 20 1.9964
@@ -66,7 +66,7 @@ system Abhean
 	pos 6859.35 -7726.12
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Roche
 	link "The Wheel"
 	asteroids "small rock" 153 4.2224
@@ -124,7 +124,7 @@ system Abregado-rae
 	government "Galactic Empire"
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Botor
 	link Plexis
 	link Dentaal
@@ -169,7 +169,7 @@ system Adarlon
 	pos 6093.54 -5580.6
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Elrood
 	link Karideph
 	asteroids "small rock" 25 2.673
@@ -223,7 +223,7 @@ system Aduba
 	government "Galactic Empire"
 	habitable 851.84
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Eadu
 	link Teth
 	asteroids "small rock" 3 2.9925
@@ -282,7 +282,7 @@ system Adumar
 	pos 5503.04 -7917.13
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Aeten
 	link Namadii
 	asteroids "small rock" 15 1.43
@@ -327,7 +327,7 @@ system Aeten
 	pos 5544.04 -7974.13
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Niruaun
 	link Comra
 	link Adumar
@@ -373,7 +373,7 @@ system Affa
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Foless
 	link Atzerri
 	asteroids "small rock" 2 4.623
@@ -430,7 +430,7 @@ system Agamar
 	pos 6067.56 -8027.62
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Borgo Prime"
 	link Ithor
 	link Hii
@@ -489,7 +489,7 @@ system Ahch-To
 	pos 4738.27 -6709.37
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zakuul
 	link "Rakata Prime"
 	asteroids "small rock" 10 2.256
@@ -550,7 +550,7 @@ system Ailon
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Quellor
 	asteroids "medium rock" 10 3.0082
 	asteroids "large rock" 2 3.3124
@@ -601,7 +601,7 @@ system "Ajan Kloss"
 	pos 5908.82 -7989.15
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Phaeda
 	asteroids "small rock" 2 2.1252
 	asteroids "medium rock" 33 2.3408
@@ -658,7 +658,7 @@ system Akrit'tar
 	government "Galactic Empire"
 	habitable 553.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Delacrix
 	asteroids "small rock" 4 5.6304
 	asteroids "medium rock" 10 3.5604
@@ -710,7 +710,7 @@ system Akuria
 	pos 6049.04 -8139.13
 	habitable 1111.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Hii
 	asteroids "small rock" 8 1.9825
 	asteroids "medium rock" 116 4.68
@@ -757,7 +757,7 @@ system Alakatha
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Daemen
 	asteroids "small rock" 1 2.4012
 	asteroids "large rock" 1 1.6836
@@ -805,7 +805,7 @@ system Alderaan
 	government "Galactic Empire (Sympathiser)"
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Caamas
 	link "Tyed Kant"
 	asteroids "medium rock" 25 5.5872
@@ -860,7 +860,7 @@ system Aldraig
 	government "Galactic Empire"
 	habitable 1111.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Skako
 	link Demophon
 	asteroids "medium rock" 5 3.1248
@@ -868,6 +868,22 @@ system Aldraig
 	asteroids "small metal" 21 4.9896
 	asteroids "medium metal" 3 6.6528
 	asteroids "large metal" 5 6.804
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	object
 		sprite star/g5
 		distance 45.9677
@@ -907,7 +923,7 @@ system Allanteen
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gamor
 	link Iktotchon
 	link Rhommamool
@@ -962,7 +978,7 @@ system Allyuen
 	pos 5751.82 -5902.64
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Burnin Konn"
 	asteroids "medium rock" 2 2.6796
 	asteroids "large rock" 1 2.1373
@@ -1008,7 +1024,7 @@ system Almania
 	pos 7020.66 -8152.75
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Troiken
 	asteroids "small rock" 5 7.3876
 	asteroids "medium rock" 8 5.5154
@@ -1052,7 +1068,7 @@ system Alpheridies
 	pos 6424.17 -7637.44
 	habitable 3430
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Thisspias
 	asteroids "small rock" 5 6.9496
 	asteroids "medium rock" 4 5.474
@@ -1101,20 +1117,25 @@ system Alsakan
 	government "Galactic Empire"
 	habitable 2340
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Coruscant
 	link Grizmallt
-	fleet rebelfleet 1000
-	fleet imperialpatrol 1500
-	fleet imperialstardestroyer 4000
-	fleet imperialsuperstardestroyer 60000
-	fleet civilianpatrol 1000
-	fleet civiliantransport 400
-	fleet civilianheavycargofreighter 400
-	fleet civilianfleet 1300
-	fleet piratepatrol 450
-	fleet piratefleet 2600
-	fleet purrgil 15000
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	belt 1379
 	object
 		sprite star/f5
@@ -1156,7 +1177,7 @@ system Alzoc
 	government "Galactic Empire"
 	habitable 1566.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Skynara
 	link Pantora
 	asteroids "small rock" 9 7.056
@@ -1220,7 +1241,7 @@ system Ambria
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Onderon & Dxun"
 	link Zeltros
 	asteroids "small rock" 17 7.416
@@ -1261,7 +1282,7 @@ system Anantapar
 	pos 5685.82 -5861.64
 	habitable 1566.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ertegas
 	link Mataou
 	asteroids "small rock" 6 4.088
@@ -1313,21 +1334,26 @@ system Anaxes
 	government "Galactic Empire"
 	habitable 4725
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Grizmallt
 	link Corulus
 	asteroids "medium rock" 76 1.536
-	fleet rebelfleet 1000
-	fleet imperialpatrol 1500
-	fleet imperialstardestroyer 2600
-	fleet imperialsuperstardestroyer 60000
-	fleet civilianpatrol 1000
-	fleet civiliantransport 400
-	fleet civilianheavycargofreighter 300
-	fleet civilianfleet 1300
-	fleet piratepatrol 450
-	fleet piratefleet 4000
-	fleet purrgil 15000
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	belt 1412
 	object
 		sprite star/a5
@@ -1373,7 +1399,7 @@ system Andara
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Balosar
 	link Kelada
 	asteroids "large metal" 1 1.59
@@ -1420,7 +1446,7 @@ system "Andelm IV"
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Meryx Minor"
 	asteroids "small rock" 15 2.5536
 	asteroids "medium rock" 13 3.1008
@@ -1465,7 +1491,7 @@ system Ando
 	government "Galactic Empire"
 	habitable 1705
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Leritor
 	link "Mon Gazza"
 	asteroids "small rock" 8 8.1796
@@ -1517,7 +1543,7 @@ system Andooweel
 	government Uninhabited
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Arkanis
 	link Tatooine
 	asteroids "small rock" 1 2.385
@@ -1570,7 +1596,7 @@ system Ankus
 	pos 5389.04 -7797.13
 	habitable 851.84
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Rago
 	link "The Red Twins"
 	asteroids "medium metal" 17 1.68
@@ -1613,7 +1639,7 @@ system Anoth
 	pos 5537.42 -5499.55
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Imynusoph
 	link Kinooine
 	asteroids "small rock" 44 2.4738
@@ -1666,7 +1692,7 @@ system Ansion
 	pos 5479.04 -7828.13
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Namadii
 	link Keitum
 	link "Glee Anselm"
@@ -1714,7 +1740,7 @@ system Antar
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Quellor
 	link Gyndine
 	asteroids "medium rock" 105 11.154
@@ -1758,7 +1784,7 @@ system Anteevy
 	pos 6594.07 -7767.41
 	habitable 1313.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Garos
 	link Gromas
 	link Phindar
@@ -1804,7 +1830,7 @@ system Anzat
 	pos 6960.35 -7675.12
 	habitable 1505.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Metalorn
 	link "Sy Myrth"
 	link Wobani
@@ -1848,7 +1874,7 @@ system Aquarius
 	pos 6323.39 -7694.67
 	habitable 5425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Thustra
 	asteroids "small rock" 5 1.56
 	asteroids "medium rock" 25 0.78
@@ -1892,7 +1918,7 @@ system Arami
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gamorr
 	link Syvris
 	asteroids "small rock" 6 2.175
@@ -1934,7 +1960,7 @@ system Arbra
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Sharlissia
 	asteroids "small rock" 30 6.0775
 	asteroids "medium rock" 7 4.76
@@ -1971,7 +1997,7 @@ system Arda
 	pos 6752.66 -7964.75
 	habitable 1505.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Stenos
 	link Lucazec
 	link Maridun
@@ -2025,7 +2051,7 @@ system Argazda
 	pos 6240.04 -8203.13
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lorr
 	link Cuitric
 	link Bimmiel
@@ -2074,7 +2100,7 @@ system Aridus
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Daalang
 	link Milagro
 	asteroids "small rock" 15 4.028
@@ -2134,7 +2160,7 @@ system Arkania
 	government "Galactic Empire"
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Castell
 	asteroids "small rock" 11 10.875
 	asteroids "medium rock" 21 9.28
@@ -2194,7 +2220,7 @@ system Arkanis
 	government Uninhabited
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Savareen
 	link Nelvaan
 	link Sirpar
@@ -2242,7 +2268,7 @@ system Arrgaw
 	government "Galactic Empire"
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kira
 	link Pax
 	link M'naeli
@@ -2302,7 +2328,7 @@ system Askaj
 	pos 6029.08 -5555.33
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Karideph
 	asteroids "medium rock" 3 2.7072
 	asteroids "large rock" 10 2.208
@@ -2353,7 +2379,7 @@ system Atollon
 	government "Rebel Alliance"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lothal
 	asteroids "large metal" 1 3.078
 	object
@@ -2370,7 +2396,7 @@ system Ator
 	government "Galactic Empire"
 	habitable 455
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Xorth
 	link Columus
 	asteroids "small rock" 3 5.625
@@ -2417,7 +2443,7 @@ system Atravis
 	pos 5943.64 -5751.02
 	habitable 8960
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Shumavar
 	link Tosste
 	asteroids "large metal" 1 1.6796
@@ -2466,7 +2492,7 @@ system Attahox
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mimban
 	link Nanth'ri
 	asteroids "small rock" 4 2.2272
@@ -2512,7 +2538,7 @@ system Atzerri
 	government "Galactic Empire"
 	habitable 455
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Chardaan
 	link Kooriva
 	link Quarzite
@@ -2558,7 +2584,7 @@ system Axxila
 	pos 6347.66 -8019.75
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Celanon
 	link "Nez Peron"
 	link Vinsoth
@@ -2605,7 +2631,7 @@ system Azure
 	pos 6576.8 -7627.59
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Velmor
 	asteroids "large metal" 1 2.3625
 	belt 1153
@@ -2647,7 +2673,7 @@ system Bacrana
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cularin
 	link Milagro
 	link "New Cov"
@@ -2693,9 +2719,10 @@ system Bacrana
 			period 48.8375
 system Bakura
 	pos 5095.5 -6213.39
+	government "Galactic Empire (Sympathiser)"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Endor
 	asteroids "small rock" 9 3.146
 	asteroids "medium rock" 2 1.87
@@ -2717,8 +2744,8 @@ system Bakura
 		sprite planet/ice2
 		distance 458.96
 		period 157.319
-	object
-		sprite planet/lava5
+	object "Bakura"
+		sprite planet/bakura
 		distance 698.96
 		period 295.664
 	object
@@ -2754,7 +2781,7 @@ system Balamak
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Charros
 	link Trandosha
 	asteroids "small rock" 2 6.0606
@@ -2798,7 +2825,7 @@ system Balmorra
 	government "Galactic Empire"
 	habitable 4070.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Neimoidia
 	link Kuat
 	asteroids "small rock" 12 2.052
@@ -2850,7 +2877,7 @@ system Balosar
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Andara
 	link Khomm
 	asteroids "small rock" 7 4.34
@@ -2893,7 +2920,7 @@ system Bandomeer
 	pos 6360.86 -7867.26
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Halmad
 	link Taris
 	asteroids "small rock" 14 4.3344
@@ -2935,7 +2962,7 @@ system "Bannistar Station"
 	government "Galactic Empire"
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Enarc
 	link Kalarba
 	asteroids "small metal" 8 4.1344
@@ -2986,7 +3013,7 @@ system Barab
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Daluuj
 	link Dubrava
 	link Teth
@@ -3039,7 +3066,7 @@ system Bardotta
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Kitel Phard"
 	link Phu
 	asteroids "small rock" 35 4.3736
@@ -3085,7 +3112,7 @@ system Baroli
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Shibric
 	link Ragith
 	asteroids "small rock" 2 6.9888
@@ -3126,7 +3153,7 @@ system Baros
 	pos 7395.35 -7756.12
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dornea
 	asteroids "small rock" 26 8.9088
 	asteroids "medium rock" 1 7.8648
@@ -3174,7 +3201,7 @@ system Bastion
 	pos 5677.04 -8406.13
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bescane
 	asteroids "small rock" 1 3.024
 	asteroids "large rock" 1 2.088
@@ -3208,7 +3235,7 @@ system Bavva
 	pos 5800.82 -5919.64
 	habitable 1566.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Nothoiin
 	link Dolla
 	asteroids "small rock" 34 2.4948
@@ -3259,7 +3286,7 @@ system Belasco
 	government "Galactic Empire"
 	habitable 553.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gyndine
 	link Manaan
 	link "New Apsolon"
@@ -3302,7 +3329,7 @@ system Belderone
 	pos 6955.54 -7848.88
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ossus
 	link Trogan
 	asteroids "medium rock" 33 5.3144
@@ -3347,7 +3374,7 @@ system Belkadan
 	pos 5930.04 -8678.13
 	habitable 1050.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Helska
 	asteroids "small rock" 1 7.3283
 	asteroids "large rock" 1 7.3834
@@ -3405,7 +3432,7 @@ system Bellassa
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Exodeen
 	link Humbarine
 	link Rendili
@@ -3450,7 +3477,7 @@ system Belsavis
 	pos 5892.29 -5968.97
 	habitable 4725
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Karfeddion
 	link Tibrin
 	asteroids "large metal" 1 3.8437
@@ -3498,7 +3525,7 @@ system Bendeluum
 	pos 5688.82 -5913.64
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gerrenthum
 	link Zhanox
 	asteroids "small rock" 3 2.6622
@@ -3536,7 +3563,7 @@ system Berchest
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Filordis
 	link Tirahnn
 	asteroids "medium rock" 1 4.466
@@ -3585,7 +3612,7 @@ system "Berrol's Donn"
 	pos 5690.94 -5769
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Isde Naha"
 	link Manpha
 	asteroids "small rock" 14 4.998
@@ -3632,7 +3659,7 @@ system Bescane
 	pos 5678.04 -8342.13
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Jaemus
 	link Dubrillion
 	link Bastion
@@ -3682,7 +3709,7 @@ system Bespin
 	pos 5652.68 -5912.22
 	habitable 806.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gerrenthum
 	link Hoth
 	asteroids "small rock" 5 3.96
@@ -3742,7 +3769,7 @@ system Bestine
 	government "Galactic Empire"
 	habitable 659.2
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Foless
 	link "Mechis III"
 	asteroids "small rock" 22 1.701
@@ -3793,7 +3820,7 @@ system Bilbringi
 	pos 5625.01 -7597.73
 	habitable 9126.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dorin
 	link Palanhi
 	asteroids "small rock" 57 2.8756
@@ -3842,7 +3869,7 @@ system Bimmiel
 	pos 6211.04 -8265.13
 	habitable 10355
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Argazda
 	link Birgis
 	asteroids "small rock" 74 4.394
@@ -3890,7 +3917,7 @@ system Bimmisaari
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Boonta
 	link "Boz Pity"
 	link Charros
@@ -3936,7 +3963,7 @@ system Birgis
 	pos 6129.04 -8410.13
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bimmiel
 	link Sernpidal
 	asteroids "large metal" 1 3.0654
@@ -3986,7 +4013,7 @@ system Bith
 	pos 6085.45 -5869.16
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Eriadu
 	link Triton
 	asteroids "small rock" 2 1.404
@@ -4040,7 +4067,7 @@ system Bogden
 	pos 6002.17 -7623.44
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Corsin
 	link Mindor
 	link Paqualis
@@ -4090,7 +4117,7 @@ system Bonadan
 	pos 7057.66 -8330.75
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cantonica
 	link Farana
 	link Mytus
@@ -4147,7 +4174,7 @@ system Boonta
 	pos 7070.23 -7577.14
 	habitable 719.96
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bimmisaari
 	link "Junkfort Station"
 	link Saleucami
@@ -4208,7 +4235,7 @@ system "Borgo Prime"
 	pos 6113.56 -7949.62
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Agamar
 	link Er'Kit
 	asteroids "small rock" 1 1.482
@@ -4266,7 +4293,7 @@ system Borkyne
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Harrin
 	link Kinyen
 	asteroids "small rock" 1 2.52
@@ -4311,7 +4338,7 @@ system Borosk
 	pos 5668.04 -8089.13
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Garqi
 	link Orinda
 	link "Prefsbelt IV"
@@ -4357,7 +4384,7 @@ system Bortras
 	pos 6031.3 -6011.55
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Eiattu
 	link Eriadu
 	asteroids "small rock" 1 2.232
@@ -4402,7 +4429,7 @@ system Botajef
 	pos 6398.66 -7916.75
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dathomir
 	link Celanon
 	link Vinsoth
@@ -4453,7 +4480,7 @@ system Bothawui
 	government "Galactic Empire"
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kothlis
 	link Mandell
 	link "Nar Kaaga"
@@ -4522,7 +4549,7 @@ system Botor
 	government "Galactic Empire"
 	habitable 973.36
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Abregado-rae
 	link Daupherm
 	link Khomm
@@ -4574,7 +4601,7 @@ system "Boz Pity"
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bimmisaari
 	link Nimban
 	asteroids "small rock" 17 4.06
@@ -4621,7 +4648,7 @@ system Brentaal
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Skako
 	link Tepasi
 	link Chandrila
@@ -4629,13 +4656,22 @@ system Brentaal
 	link Esseles
 	asteroids "small rock" 8 5.8464
 	asteroids "medium rock" 1 7.0296
-	fleet rebelfleet 400
-	fleet imperialpatrol 700
-	fleet imperialstardestroyer 2000
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
 	fleet civilianheavycargofreighter 500
-	fleet civiliantransport 500
-	fleet piratepatrol 1000
-	fleet purrgil 1000000
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	belt 1569
 	object
 		sprite star/k5
@@ -4679,7 +4715,7 @@ system Broest
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zug
 	link Xorth
 	asteroids "small rock" 4 3.306
@@ -4710,7 +4746,7 @@ system Bunduki
 	pos 5199.5 -6280.39
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Firrerre
 	link Rattatak
 	asteroids "small rock" 1 4.76
@@ -4753,7 +4789,7 @@ system "Burnin Konn"
 	pos 5713.82 -5891.64
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zhanox
 	link Tokmia
 	link Allyuen
@@ -4804,7 +4840,7 @@ system Byblos
 	government "Galactic Empire"
 	habitable 4131.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Iseno
 	link Loronar
 	asteroids "large metal" 1 10.0128
@@ -4849,7 +4885,7 @@ system Byss
 	government "Galactic Empire"
 	habitable 851.84
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kalist
 	link Prakith
 	asteroids "medium rock" 71 4.2042
@@ -4906,7 +4942,7 @@ system Caamas
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Alderaan
 	link Tepasi
 	asteroids "medium rock" 145 1.4616
@@ -4950,7 +4986,7 @@ system Cadinth
 	pos 7032.21 -7917.32
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Murkhana
 	link Lianna
 	link Voss
@@ -5001,7 +5037,7 @@ system Cadomai
 	pos 6936.66 -8349.75
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bonadan
 	link Tiss'sharl
 	link Ruuria
@@ -5042,7 +5078,7 @@ system Caluula
 	pos 7183.35 -7879.12
 	habitable 851.84
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dellalt
 	link Murkhana
 	link Pakuuri
@@ -5099,7 +5135,7 @@ system Cantonica
 	pos 7051.66 -8306.75
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zygerria
 	link Bonadan
 	asteroids "medium rock" 3 7.14
@@ -5147,7 +5183,7 @@ system Cargamalis
 	pos 5697.82 -6004.64
 	habitable 3645
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Jiroch
 	link Mugaar
 	link Loovria
@@ -5193,7 +5229,7 @@ system Carida
 	government "Galactic Empire"
 	habitable 455
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Castell
 	link Hok
 	asteroids "small rock" 15 1.755
@@ -5243,7 +5279,7 @@ system Cartao
 	pos 6453.55 -7577.44
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Contruum
 	link Obroa-skai
 	link Pengalan
@@ -5291,7 +5327,7 @@ system Castell
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Arkania
 	link Carida
 	link "Yabol Opa"
@@ -5328,13 +5364,37 @@ system Castell
 			distance 410
 			period 26.0878
 
+system Castilon
+	pos 5315.96 -6519.93
+	government "Galactic Empire"
+	habitable 1715
+	music ambient/wait
+	arrival 1000
+	link "Ring of Kafrene"
+	link Codia
+	asteroids "small rock" 5 10.764
+	asteroids "large rock" 1 4.992
+	asteroids "large metal" 4 10.452
+	object
+		sprite star/g5
+		period 10
+	object Castilon
+		sprite planet/castilon
+		distance 400
+		period 165.112
+		offset 30
+	object "The Colossus"
+		sprite planet/colossus
+		distance 0
+		period 165.112
+		offset 30
 
 system "Cato Neimoidia"
 	pos 6184.98 -7103.74
 	government "Galactic Empire"
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Commenor
 	link Quellor
 	asteroids "small rock" 2 1.6926
@@ -5391,7 +5451,7 @@ system Celanon
 	pos 6439.66 -7977.75
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Junction
 	link Yavin
 	link Axxila
@@ -5451,7 +5511,7 @@ system Celegia
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zeltros
 	asteroids "small rock" 38 2.754
 	asteroids "medium rock" 35 1.9635
@@ -5497,7 +5557,7 @@ system Centares
 	pos 6889.35 -7771.12
 	habitable 4131.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Columex
 	link "Sy Myrth"
 	link "The Wheel"
@@ -5544,7 +5604,7 @@ system Cerea
 	pos 5423.71 -6222.45
 	habitable 466.56
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Endor
 	link Trenwyth
 	link Cheelit
@@ -5591,7 +5651,7 @@ system Chad
 	pos 6942.35 -7782.12
 	habitable 2160
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Jomark
 	link Trogan
 	asteroids "small rock" 2 1.853
@@ -5648,7 +5708,7 @@ system Chalacta
 	government "Galactic Empire"
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Nimban
 	link Randon
 	link Sneeve
@@ -5698,7 +5758,7 @@ system Chalcedon
 	pos 5467.29 -6256.97
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Takodana
 	link Cerea
 	asteroids "small rock" 27 3.672
@@ -5751,7 +5811,7 @@ system Challon
 	pos 5868.89 -7426.37
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Wakeelmui
 	link Shawken
 	asteroids "large metal" 1 2.7664
@@ -5787,7 +5847,7 @@ system Champala
 	pos 5944.17 -7544.44
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Drearia
 	link Uviuy
 	asteroids "small rock" 48 3.6432
@@ -5841,12 +5901,28 @@ system Chandrila
 	government "Galactic Empire (Sympathiser)"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Corulus
 	link Brentaal
 	asteroids "medium rock" 1 4.048
 	asteroids "large rock" 1 2.944
 	asteroids "large metal" 1 4.4896
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	object
 		sprite star/g5
 		period 10
@@ -5884,7 +5960,7 @@ system Chardaan
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Atzerri
 	link Tynna
 	link Shibric
@@ -5927,7 +6003,7 @@ system Charros
 	government "Galactic Empire"
 	habitable 659.2
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Balamak
 	link Bimmisaari
 	link Togoria
@@ -5987,7 +6063,7 @@ system Chazwa
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Tirahnn
 	link "Vurdon Ka"
 	asteroids "medium rock" 5 4.14
@@ -6034,7 +6110,7 @@ system Cheelit
 	pos 5463.31 -6198.61
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cerea
 	link Koba
 	asteroids "small rock" 2 1.7856
@@ -6081,7 +6157,7 @@ system Cholganna
 	pos 7148.86 -8138.26
 	habitable 1313.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Toola
 	asteroids "medium rock" 48 3.15
 	asteroids "large rock" 9 2.478
@@ -6131,7 +6207,7 @@ system Christophsis
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Radnor
 	link Savareen
 	asteroids "small rock" 24 1.77
@@ -6182,7 +6258,7 @@ system Circumtore
 	government "Galactic Empire"
 	habitable 640
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Daalang
 	link Hollastin
 	link "Nar Kaaga"
@@ -6235,9 +6311,10 @@ system Codia
 	pos 5257.5 -6461.39
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gannaria
 	link Zaddja
+	link Castilon
 	asteroids "large metal" 1 4.3785
 	belt 1315
 	object
@@ -6278,7 +6355,7 @@ system "Colla IV"
 	government "Galactic Empire"
 	habitable 1566.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Tirahnn
 	asteroids "small rock" 2 5.6376
 	asteroids "medium rock" 9 4.0338
@@ -6331,7 +6408,7 @@ system Columex
 	pos 6948.86 -7875.62
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Centares
 	link Lianna
 	link Lucazec
@@ -6376,7 +6453,7 @@ system Columus
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ojom
 	link Ator
 	link Sedratis
@@ -6429,7 +6506,7 @@ system Commenor
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Cato Neimoidia"
 	link Humbarine
 	link Uquine
@@ -6476,7 +6553,7 @@ system Comra
 	pos 5609.04 -8009.13
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Aeten
 	asteroids "medium rock" 10 6.7773
 	asteroids "large rock" 2 2.755
@@ -6516,7 +6593,7 @@ system Cona
 	government "Galactic Empire"
 	habitable 3645
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Manaan
 	asteroids "small rock" 8 5.559
 	asteroids "medium rock" 23 4.182
@@ -6568,7 +6645,7 @@ system "Concord Dawn"
 	pos 6406.86 -7737.6
 	habitable 851.84
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mandalore
 	asteroids "large metal" 1 2.1945
 	belt 1159
@@ -6619,7 +6696,7 @@ system Contruum
 	pos 6488.36 -7558.25
 	habitable 2140.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cartao
 	link Gizer
 	asteroids "small rock" 12 6.5208
@@ -6673,7 +6750,7 @@ system Corellia
 	government "Galactic Empire"
 	habitable 2340
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Sedratis
 	link Plympto
 	link Duro
@@ -6732,7 +6809,7 @@ system Corsin
 	pos 6142.17 -7721.44
 	habitable 5360
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bogden
 	link Jazbina
 	link Nouane
@@ -6789,7 +6866,7 @@ system Corulus
 	government "Galactic Empire"
 	habitable 1050.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Anaxes
 	link Chandrila
 	asteroids "small rock" 1 2.9051
@@ -6798,6 +6875,22 @@ system Corulus
 	asteroids "small metal" 14 1.7974
 	asteroids "medium metal" 34 3.0723
 	asteroids "large metal" 51 1.3585
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	object
 		sprite star/g5
 		distance 44.9864
@@ -6840,7 +6933,7 @@ system Coruscant
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Alsakan
 	link N'zoth
 	link Foerost
@@ -6858,21 +6951,22 @@ system Coruscant
 	trade Medical 777
 	trade Metal 520
 	trade Plastic 384
-	fleet rebelfleet 5000
-	fleet imperialpatrol 5000
-	fleet imperialstardestroyer 8000
-	fleet imperialtransport 10000
-	fleet imperialsuperstardestroyer 60000
-	fleet civilianpatrol 4000
-	fleet civiliantransport 1300
-	fleet civilianheavycargofreighter 1700
-	fleet civilianutilitytug 6000
-	fleet civilianfleet 9000
-	fleet civilianfleetrepublic 15000
-	fleet piratepatrol 2400
-	fleet piratefleet 7000
-	fleet purrgil 50000
-	fleet vongscoutfleet 80000
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 6000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	belt 1407
 	minables neodymium 10 10.4787
 	object
@@ -6901,7 +6995,7 @@ system Cotellier
 	pos 6282.23 -5594.06
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kirdo
 	link Vestar
 	asteroids "small rock" 1 6.7
@@ -6946,7 +7040,7 @@ system Council
 	pos 5721.82 -5921.64
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gerrenthum
 	link Nothoiin
 	asteroids "large rock" 3 4.816
@@ -6993,7 +7087,7 @@ system Crait
 	government "Galactic Empire"
 	habitable 2606.04
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Enarc
 	link Sanrafsix
 	asteroids "small rock" 18 5.088
@@ -7047,7 +7141,7 @@ system Csilla
 	government "Galactic Empire"
 	habitable 806.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kikstar
 	link "Wayfinder 1"
 	link Ilum
@@ -7107,7 +7201,7 @@ system Cuitric
 	pos 6243.04 -8118.13
 	habitable 945
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Argazda
 	link Vinsoth
 	asteroids "small rock" 10 2.499
@@ -7159,7 +7253,7 @@ system Cularin
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bacrana
 	link Vandor
 	asteroids "medium rock" 4 7.605
@@ -7202,7 +7296,7 @@ system Cyborrea
 	government "Galactic Empire"
 	habitable 560.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Nimban
 	link Vaathkree
 	asteroids "medium rock" 5 2.1384
@@ -7252,7 +7346,7 @@ system Cyphar
 	pos 5842.29 -6089.97
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kriselist
 	link Ogem
 	asteroids "small rock" 1 1.9836
@@ -7288,7 +7382,7 @@ system Cyrillia
 	government "Galactic Empire"
 	habitable 851.84
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mimban
 	link Pasaana
 	asteroids "small rock" 8 1.9
@@ -7344,7 +7438,7 @@ system D'Qar
 	government "Rebel Alliance"
 	habitable 2340
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Rugosa
 	link "Shadda-Bi Boran"
 	asteroids "small rock" 7 5.3676
@@ -7371,7 +7465,6 @@ system D'Qar
 		distance 1385.75
 		period 426.558
 		offset 152.191
-
 		object
 			sprite planet/luna
 			distance 205
@@ -7385,7 +7478,6 @@ system D'Qar
 		distance 2541.44
 		period 1059.43
 		offset 222.262
-
 		object
 			sprite planet/rock7
 			distance 275
@@ -7403,7 +7495,6 @@ system D'Qar
 		distance 3823.44
 		period 1954.94
 		offset 155.347
-
 		object
 			sprite planet/ice0
 			distance 275
@@ -7419,7 +7510,7 @@ system Daalang
 	government "Galactic Empire"
 	habitable 945
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Aridus
 	link Circumtore
 	link Lannik
@@ -7467,7 +7558,7 @@ system Daemen
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Woostri
 	link Alakatha
 	link Lanthe
@@ -7509,7 +7600,7 @@ system Dagobah
 	pos 6098.5 -5743.66
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Elrood
 	link "Sluis Van"
 	asteroids "small rock" 4 5.795
@@ -7555,7 +7646,7 @@ system Daluuj
 	government "Galactic Empire"
 	habitable 806.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Barab
 	asteroids "small rock" 136 1.496
 	asteroids "medium rock" 35 2.6367
@@ -7609,7 +7700,7 @@ system Dankayo
 	pos 5889.89 -7479.37
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Ord Antalaha"
 	link Uviuy
 	asteroids "small rock" 4 7.406
@@ -7652,7 +7743,7 @@ system Dantooine
 	pos 5827.04 -8261.13
 	habitable 2798.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dubrillion
 	link Lah'mu
 	link "Gravlex Med"
@@ -7713,7 +7804,7 @@ system Dargulli
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kooriva
 	asteroids "small rock" 73 3.64
 	asteroids "medium rock" 4 6.37
@@ -7747,7 +7838,7 @@ system Darkknell
 	pos 6139.66 -6070.47
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Eriadu
 	link Malastare
 	link Sanrafsix
@@ -7799,7 +7890,7 @@ system "Darlyn Boda"
 	pos 5686.82 -5839.64
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Orn Kios"
 	link Taul
 	link Ertegas
@@ -7843,7 +7934,7 @@ system Datar
 	pos 5918.18 -7599.73
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Shili
 	link Yinchorr
 	link Milvayne
@@ -7904,7 +7995,7 @@ system Dathomir
 	pos 6347.56 -7932.62
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Halmad
 	link Botajef
 	asteroids "small rock" 9 1.566
@@ -7958,7 +8049,7 @@ system Daupherm
 	government "Galactic Empire"
 	habitable 2795
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Botor
 	link Khomm
 	asteroids "small rock" 2 2.541
@@ -8002,45 +8093,12 @@ system Daupherm
 			period 31.2741
 
 
-
-system "Death Star II"
-	pos 5748.58 -7220.11
-	government "Galactic Empire"
-	habitable 1715
-	music ambient/wait
-	arrival 2000
-	link Prakith
-	asteroids "small rock" 18 2.277
-	asteroids "medium rock" 46 2.1186
-	asteroids "large rock" 93 2.3562
-	asteroids "small metal" 3 2.2374
-	asteroids "medium metal" 43 2.3364
-	asteroids "large metal" 2 1.9008
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/oberon
-		distance 5635.74
-		period 4333
-		offset 4
-	object
-		sprite planet/oberon
-		distance 5635.74
-		period 4333
-		offset 8
-	object "Death Star II"
-		sprite planet/deathstarii
-		distance 8000
-		period 4333
-		offset 180
-
 system Delacrix
 	pos 7245.1 -7473.48
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Akrit'tar
 	link "Junkfort Station"
 	link Kubindi
@@ -8082,7 +8140,7 @@ system Dellalt
 	pos 7209.35 -7858.12
 	habitable 1400
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Caluula
 	link "Sy Myrth"
 	link "Mon Calamari"
@@ -8126,7 +8184,7 @@ system Delphon
 	pos 5783.82 -5868.64
 	habitable 2340
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Polmanar
 	link Tinoon
 	asteroids "small rock" 1 3.399
@@ -8169,7 +8227,7 @@ system Delrakkim
 	pos 5737.3 -5452.26
 	habitable 8640
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Terminus
 	asteroids "large metal" 1 4.953
 	belt 1843
@@ -8211,7 +8269,7 @@ system Demophon
 	government "Galactic Empire"
 	habitable 745.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Aldraig
 	link Fedalle
 	asteroids "small rock" 5 6.9496
@@ -8220,6 +8278,22 @@ system Demophon
 	asteroids "small metal" 1 3.9508
 	asteroids "medium metal" 9 6.5212
 	asteroids "large metal" 1 3.7604
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	object
 		sprite star/k5
 		distance 49.764
@@ -8262,7 +8336,7 @@ system Dennogra
 	pos 7120.23 -7646.14
 	habitable 640
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Junkfort Station"
 	link Taskeed
 	asteroids "small rock" 13 6.9264
@@ -8313,7 +8387,7 @@ system Denon
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Iseno
 	link Spirana
 	link Tholoth
@@ -8372,7 +8446,7 @@ system Dentaal
 	government "Galactic Empire"
 	habitable 5360
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Giju
 	link Abregado-rae
 	asteroids "small rock" 21 2.958
@@ -8428,7 +8502,7 @@ system Derra
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link M'naeli
 	asteroids "small rock" 19 3.3288
 	asteroids "medium rock" 1 2.508
@@ -8478,7 +8552,7 @@ system Desevro
 	pos 7025.72 -7993.71
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lianna
 	link "Makem Te"
 	link Sembla
@@ -8542,7 +8616,7 @@ system Devaron
 	government "Galactic Empire"
 	habitable 1400
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Foless
 	link Kelada
 	asteroids "medium rock" 76 3.861
@@ -8593,7 +8667,7 @@ system Deysum
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Randon
 	link Lexrul
 	asteroids "small rock" 12 3.2718
@@ -8636,7 +8710,7 @@ system Dolla
 	pos 5868.29 -5922.97
 	habitable 5320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Eriadu
 	link Karfeddion
 	link Bavva
@@ -8677,7 +8751,7 @@ system Dorin
 	pos 5590.88 -7649.93
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bilbringi
 	link Vicondor
 	link "Glee Anselm"
@@ -8741,7 +8815,7 @@ system Dornea
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lothal
 	link Baros
 	asteroids "large rock" 2 7.685
@@ -8779,7 +8853,7 @@ system Dosuun
 	pos 5212.87 -5631.09
 	habitable 806.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mephout
 	link Skye
 	asteroids "large metal" 1 4.368
@@ -8831,7 +8905,7 @@ system Drearia
 	pos 5957.17 -7565.44
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Champala
 	link Paqualis
 	asteroids "small rock" 10 1.5288
@@ -8876,7 +8950,7 @@ system Dressel
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lannik
 	link "Nexus Ortai"
 	asteroids "small rock" 19 4.3225
@@ -8924,7 +8998,7 @@ system Drexel
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Reuss
 	asteroids "small rock" 10 3.2004
 	asteroids "medium rock" 35 1.3356
@@ -8980,7 +9054,7 @@ system Droecil
 	government "Galactic Empire"
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Wrooria
 	link Stobar
 	asteroids "small rock" 6 1.521
@@ -9029,7 +9103,7 @@ system Drongar
 	pos 7269.7 -8054.98
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Pakuuri
 	asteroids "small rock" 5 6.608
 	asteroids "medium rock" 6 6.832
@@ -9089,7 +9163,7 @@ system Druckenwell
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Monastery
 	link "New Cov"
 	link "Paqwepor Major"
@@ -9143,7 +9217,7 @@ system Dubrava
 	government "Galactic Empire"
 	habitable 2160
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Barab
 	link Syvris
 	asteroids "small rock" 52 3.4
@@ -9210,7 +9284,7 @@ system Dubrillion
 	pos 5769.04 -8371.13
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Veragi
 	link Dantooine
 	link Bescane
@@ -9259,7 +9333,7 @@ system Dulathia
 	pos 6582.86 -7593.26
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lantillies
 	asteroids "small rock" 3 1.2264
 	asteroids "medium rock" 74 0.9072
@@ -9304,7 +9378,7 @@ system Duro
 	government "Galactic Empire"
 	habitable 2795
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Corellia
 	link "Hosnian Prime"
 	link Nubia
@@ -9356,7 +9430,7 @@ system Eadu
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Aduba
 	link Formos
 	asteroids "large metal" 1 2.8336
@@ -9390,7 +9464,7 @@ system "Edusa"
 	pos 6429.04 -8135.13
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vandyne
 	link Tangrene
 	asteroids "medium rock" 4 4.1847
@@ -9434,7 +9508,7 @@ system Eiattu
 	pos 5973 -6073.98
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Indupar
 	link Tibrin
 	link Bortras
@@ -9473,7 +9547,7 @@ system Elbara
 	pos 5591.31 -6103.61
 	habitable 2160
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Hirsi
 	link "Quaensan Prime"
 	asteroids "medium rock" 5 3.4
@@ -9531,7 +9605,7 @@ system Elom
 	pos 6876.66 -8033.75
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Korriban
 	link Florrum
 	link Stenos
@@ -9577,7 +9651,7 @@ system Elrood
 	pos 6087.45 -5653.3
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dagobah
 	link Utapau
 	link Adarlon
@@ -9621,7 +9695,7 @@ system "Elshandruu Pica"
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Spice Terminus"
 	link Suarbi
 	link Vohai
@@ -9656,12 +9730,13 @@ system "Elshandruu Pica"
 		sprite planet/gas0
 		distance 2385.69
 		period 1864.41
+
 system "Empress Teta"
 	pos 5827.45 -7243.92
 	government "Rebel Alliance"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Prakith
 	link Tython
 	link Foerost
@@ -9711,7 +9786,7 @@ system "Empress Teta"
 			distance 357
 			period 23.9957
 		object "Star Wars Wormhole"
-			sprite planet/galaxywarp/galaxywarp
+			sprite planet/vergeancescatter/vergeancescatterwriting
 			distance 520
 			period 42.1828
 			offset 46.4731
@@ -9725,7 +9800,7 @@ system Enarc
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Bannistar Station"
 	link Crait
 	link Naboo
@@ -9774,17 +9849,13 @@ system Enarc
 
 system Endor
 	pos 5253.5 -6191.39
+	government "Uninhabited"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bakura
 	link Cerea
 	link Firrerre
-	asteroids "small rock" 78 3.4419
-	asteroids "medium rock" 95 1.9635
-	asteroids "large rock" 33 2.2869
-	asteroids "small metal" 9 2.6334
-	asteroids "medium metal" 25 2.8182
 	asteroids "large metal" 1 2.8413
 	belt 1606
 	minables aluminum 44 4.48599
@@ -9808,8 +9879,8 @@ system Endor
 			sprite planet/oberon
 			distance 334
 			period 21.5287
-		object
-			sprite planet/dust4
+		object "Endor (Moon)"
+			sprite planet/endor
 			distance 445
 			period 33.1083
 	object
@@ -9820,7 +9891,7 @@ system Entralla
 	pos 5675.04 -8196.13
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mygeeto
 	link "Yaga Minor"
 	link Muunilinst
@@ -9871,7 +9942,7 @@ system Er'Kit
 	pos 6130.56 -7890.62
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Borgo Prime"
 	link G'wenee
 	asteroids "small rock" 113 1.664
@@ -9918,7 +9989,7 @@ system Eriadu
 	pos 6086.45 -5945.47
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bith
 	link Darkknell
 	link Dolla
@@ -9968,7 +10039,7 @@ system Ertegas
 	pos 5686.82 -5851.64
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Darlyn Boda"
 	link Anantapar
 	asteroids "large metal" 1 5.136
@@ -10016,7 +10087,7 @@ system Esfandia
 	pos 5359.04 -7917.13
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "The Red Twins"
 	asteroids "small rock" 40 4.147
 	asteroids "medium rock" 25 4.2328
@@ -10065,7 +10136,7 @@ system Esseles
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ralltiir
 	link Brentaal
 	asteroids "small rock" 6 3.1625
@@ -10112,7 +10183,7 @@ system Excarga
 	government "Galactic Empire"
 	habitable 4087.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Tatooine
 	asteroids "large metal" 1 10.701
 	belt 1434
@@ -10168,7 +10239,7 @@ system Exegol
 	government "Sith Eternal"
 	habitable 973.36
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Wayfinder 5"
 	object "Exegol"
 		sprite planet/template2
@@ -10179,7 +10250,7 @@ system Exodeen
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bellassa
 	link Quellor
 	link Tholoth
@@ -10235,7 +10306,7 @@ system Falleen
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Paqwepor Major"
 	asteroids "medium rock" 1 6.6975
 	asteroids "large rock" 3 7.125
@@ -10292,7 +10363,7 @@ system Farana
 	pos 7078.66 -8372.75
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bonadan
 	link Mytus
 	link Trian
@@ -10328,7 +10399,7 @@ system Farstine
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Trigalis
 	link Zhar
 	link Ryndellia
@@ -10379,26 +10450,28 @@ system Fedalle
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Sarapin
 	link Demophon
 	link Kuat
 	asteroids "medium metal" 9 1.5488
 	asteroids "large metal" 4 1.9602
-	fleet rebelfleet 5000
-	fleet imperialpatrol 5000
-	fleet imperialstardestroyer 8000
-	fleet imperialtransport 10000
-	fleet imperialsuperstardestroyer 60000
-	fleet civilianpatrol 4000
-	fleet civiliantransport 1300
-	fleet civilianheavycargofreighter 1700
-	fleet civilianfleet 9000
-	fleet civilianfleetrepublic 15000
-	fleet piratepatrol 2400
-	fleet piratefleet 7000
-	fleet purrgil 50000
-	fleet vongscoutfleet 80000
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	trade Clothing 251
 	trade Electronics 831
 	trade Equipment 469
@@ -10448,7 +10521,7 @@ system Fedje
 	pos 5926.82 -8031.15
 	habitable 973.36
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ketaris
 	link Garqi
 	link Generis
@@ -10512,7 +10585,7 @@ system Felucia
 	pos 6954.19 -7966.55
 	habitable 659.2
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Galidraan
 	asteroids "medium rock" 3 2.64
 	asteroids "large rock" 9 1.368
@@ -10569,7 +10642,7 @@ system Ferro
 	government Ferro
 	habitable 2798.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mirial
 	link Zygerria
 	asteroids "medium rock" 4 3.2912
@@ -10624,7 +10697,7 @@ system Filordis
 	government Unaffiliated
 	habitable 945
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Berchest
 	link Tirahnn
 	asteroids "small rock" 63 9.57
@@ -10677,7 +10750,7 @@ system Firrerre
 	pos 5221.5 -6237.39
 	habitable 1215
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bunduki
 	link Endor
 	asteroids "small rock" 1 3.6
@@ -10732,10 +10805,11 @@ system Firrerre
 			period 19.5215
 
 system Florn
+	government "Unaffiliated"
 	pos 7177.24 -8060.55
 	habitable 1250
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Pakuuri
 	link Raxus
 	link Toola
@@ -10751,8 +10825,8 @@ system Florn
 		sprite star/g5
 		distance 48
 		period 10.6417
-	object
-		sprite planet/rock15
+	object "Florn"
+		sprite planet/forest2
 		distance 217.44
 		period 36.2756
 	object
@@ -10777,7 +10851,7 @@ system Florrum
 	pos 6924.66 -8061.75
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Elom
 	asteroids "small rock" 1 2.0286
 	asteroids "medium rock" 2 1.5582
@@ -10818,7 +10892,7 @@ system Foerost
 	government "Galactic Empire"
 	habitable 2140.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Coruscant
 	link Zug
 	link "Empress Teta"
@@ -10868,7 +10942,7 @@ system Foless
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Devaron
 	link Teyr
 	link Bestine
@@ -10906,7 +10980,7 @@ system Fondor
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ghorman
 	link Teyr
 	link Jinata
@@ -10954,7 +11028,7 @@ system Formos
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Eadu
 	link Honoghr
 	link Kessel
@@ -11010,7 +11084,7 @@ system Fornax
 	pos 5659.04 -7767.13
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vortex
 	asteroids "small rock" 38 6.6816
 	asteroids "large rock" 71 8.8392
@@ -11049,7 +11123,7 @@ system G'wenee
 	pos 6239.56 -7881.62
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Er'Kit
 	link Halmad
 	asteroids "medium rock" 4 3.1668
@@ -11090,7 +11164,7 @@ system Galidraan
 	pos 6925.38 -7939.12
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Felucia
 	link "Rhen Var"
 	asteroids "small rock" 6 3.1512
@@ -11129,7 +11203,7 @@ system Gamor
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Allanteen
 	link Milagro
 	asteroids "small rock" 2 1.4652
@@ -11173,7 +11247,7 @@ system Gamorr
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Arami
 	link Molavar
 	link Tammuz-an
@@ -11239,7 +11313,7 @@ system Gand
 	pos 7279.23 -7625.14
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Oseon
 	asteroids "medium metal" 8 1.782
 	asteroids "large metal" 1 3.699
@@ -11284,7 +11358,7 @@ system Gannaria
 	pos 5198.5 -6420.39
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Codia
 	link Rattatak
 	link Zaddja
@@ -11324,7 +11398,7 @@ system Garel
 	pos 7312.86 -7724.26
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Iego
 	asteroids "small rock" 17 6.7392
 	asteroids "medium rock" 25 2.7144
@@ -11372,7 +11446,7 @@ system Garos
 	pos 6571.42 -7732.83
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Anteevy
 	link Velmor
 	asteroids "small rock" 15 1.197
@@ -11423,7 +11497,7 @@ system Garqi
 	pos 5760.04 -8071.13
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Borosk
 	link Fedje
 	link Scipio
@@ -11468,7 +11542,7 @@ system Genassa
 	pos 6010.56 -7821.62
 	habitable 640
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ithor
 	link "Ord Mantell"
 	link Urce
@@ -11524,7 +11598,7 @@ system Generis
 	pos 5970.04 -8082.13
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Horuz
 	link Fedje
 	asteroids "small rock" 5 5.6304
@@ -11570,15 +11644,16 @@ system Geonosis
 	government Uninhabited
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Tatooine
 	link Siskeen
-	asteroids "small rock" 16 4.392
-	asteroids "medium rock" 143 5.616
-	asteroids "large rock" 81 10.224
-	asteroids "small metal" 21 10.512
-	asteroids "medium metal" 59 5.04
-	asteroids "large metal" 4 9.864
+	asteroids "small rock" 5 0.5
+	asteroids "medium rock" 130 0.8
+	asteroids "large rock" 20 1.2
+	asteroids "small metal" 5 1.3
+	asteroids "medium metal" 7 1
+	asteroids "large metal" 10 1
+	asteroids "larger rock" 75 0.5
 	belt 1659
 	minables copper 42 11.8601
 	object
@@ -11623,7 +11698,7 @@ system Gerrenthum
 	pos 5675.72 -5930.29
 	habitable 3645
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bespin
 	link Lorta
 	link Mexeluine
@@ -11670,7 +11745,7 @@ system Ghorman
 	government "Galactic Empire"
 	habitable 2798.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Fondor
 	link Giju
 	link Thyferra
@@ -11725,7 +11800,7 @@ system Giju
 	government "Galactic Empire"
 	habitable 1215
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dentaal
 	link Ghorman
 	link "Kitel Phard"
@@ -11775,7 +11850,7 @@ system Gizer
 	pos 6503.35 -7519.12
 	habitable 2340
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Contruum
 	link Lantillies
 	link Taanab
@@ -11833,7 +11908,7 @@ system "Glee Anselm"
 	pos 5525.04 -7728.13
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ansion
 	link Dorin
 	asteroids "small rock" 18 4.002
@@ -11879,7 +11954,7 @@ system Gorse
 	government "Galactic Empire"
 	habitable 806.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zeltros
 	asteroids "small rock" 8 3.078
 	asteroids "medium rock" 85 3.186
@@ -11929,7 +12004,7 @@ system "Gravlex Med"
 	pos 5941.04 -8261.13
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dantooine
 	asteroids "small rock" 2 3.2256
 	asteroids "medium rock" 2 3.1968
@@ -11973,7 +12048,7 @@ system Gree
 	pos 5836.04 -8512.13
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Helska
 	link Mortis
 	asteroids "small rock" 10 9.464
@@ -12019,7 +12094,7 @@ system Grizmallt
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Alsakan
 	link Anaxes
 	asteroids "small rock" 17 3.745
@@ -12028,6 +12103,22 @@ system Grizmallt
 	asteroids "small metal" 6 5.11
 	asteroids "medium metal" 31 5.04
 	asteroids "large metal" 12 2.275
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	object
 		sprite star/k5
 		period 10
@@ -12061,7 +12152,7 @@ system Gromas
 	pos 6733.59 -7780.53
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Anteevy
 	link Vjun
 	asteroids "small rock" 36 1.1484
@@ -12105,7 +12196,7 @@ system Gyndine
 	government "Galactic Empire"
 	habitable 659.2
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Belasco
 	link Mimban
 	link Antar
@@ -12164,7 +12255,7 @@ system Haaska
 	government "Galactic Empire"
 	habitable 9065.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Varl
 	asteroids "small rock" 9 2.7
 	asteroids "medium rock" 5 2.772
@@ -12218,7 +12309,7 @@ system Halmad
 	pos 6305.56 -7883.62
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dathomir
 	link G'wenee
 	link Bandomeer
@@ -12279,7 +12370,7 @@ system Hapes
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Taanab
 	link Zeltros
 	asteroids "medium rock" 26 4.756
@@ -12324,7 +12415,7 @@ system Harrin
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Wrooria
 	link Yag'Dhul
 	link Borkyne
@@ -12363,7 +12454,7 @@ system "Haruun Kal"
 	pos 6124.6 -6150.29
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vondarc
 	asteroids "large metal" 1 7.6154
 	belt 1064
@@ -12400,7 +12491,7 @@ system Helska
 	pos 5910.04 -8546.13
 	habitable 455
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Belkadan
 	link Gree
 	link Veragi
@@ -12440,7 +12531,7 @@ system Herdessa
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Mon Gazza"
 	link Radnor
 	link Pii
@@ -12486,7 +12577,7 @@ system Hii
 	pos 6188.04 -8088.13
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vinsoth
 	link Agamar
 	link Akuria
@@ -12540,7 +12631,7 @@ system Hirsi
 	pos 5570.31 -6125.61
 	habitable 270
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Riflor
 	link Elbara
 	asteroids "small rock" 19 1.734
@@ -12588,7 +12679,7 @@ system Hok
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Carida
 	asteroids "medium rock" 3 6.0928
 	asteroids "large rock" 1 3.8556
@@ -12634,7 +12725,7 @@ system Hollastin
 	government "Galactic Empire"
 	habitable 973.36
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Circumtore
 	link Syvris
 	asteroids "small rock" 5 2.982
@@ -12680,7 +12771,7 @@ system Honoghr
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Formos
 	asteroids "medium rock" 57 2.5632
 	asteroids "large rock" 14 3.2256
@@ -12733,7 +12824,7 @@ system Horuz
 	pos 5943.04 -8113.13
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Generis
 	link Moltok
 	asteroids "large rock" 1 11.676
@@ -12781,7 +12872,7 @@ system "Hosnian Prime"
 	government "Galactic Empire"
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kelada
 	link Duro
 	asteroids "large rock" 1 1.4773
@@ -12832,17 +12923,19 @@ system "Hosnian Prime"
 
 system Hoth
 	pos 5651.69 -5897.14
+	government "Rebel Alliance"
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bespin
 	link Ison
-	asteroids "small rock" 9 3.2895
-	asteroids "medium rock" 4 2.1165
-	asteroids "large rock" 35 3.774
-	asteroids "small metal" 8 1.377
-	asteroids "medium metal" 33 1.3005
-	asteroids "large metal" 11 2.856
+	asteroids "small rock" 5 0.5
+	asteroids "medium rock" 130 0.8
+	asteroids "large rock" 20 1.2
+	asteroids "small metal" 5 1.3
+	asteroids "medium metal" 7 1
+	asteroids "large metal" 10 1
+	asteroids "larger rock" 75 0.5
 	belt 1402
 	minables iron 8 2.5781
 	minables lead 31 4.87513
@@ -12859,8 +12952,8 @@ system Hoth
 		sprite planet/rock8
 		distance 306.719
 		period 47.631
-	object
-		sprite planet/dust6
+	object "Hoth"
+		sprite planet/hoth
 		distance 523.609
 		period 106.24
 	object
@@ -12887,7 +12980,7 @@ system Huk
 	pos 5485.82 -8248.15
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kalee
 	asteroids "small rock" 8 2.912
 	asteroids "medium rock" 6 2.496
@@ -12948,7 +13041,7 @@ system Humbarine
 	government "Galactic Empire"
 	habitable 806.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bellassa
 	link Commenor
 	link Sarapin
@@ -13001,7 +13094,7 @@ system Hypori
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Roon
 	asteroids "small rock" 105 3.2062
 	asteroids "medium rock" 52 4.6138
@@ -13047,7 +13140,7 @@ system Iego
 	pos 7203.23 -7745.14
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Jabiim
 	link Lothal
 	link Toong'l
@@ -13099,7 +13192,7 @@ system Iktotchon
 	government "Galactic Empire"
 	habitable 806.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Allanteen
 	asteroids "medium rock" 52 2.4948
 	asteroids "large rock" 2 2.8182
@@ -13162,7 +13255,7 @@ system Ilum
 	government "Galactic Empire"
 	habitable 621.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "The Redoubt"
 	link "Utegetu Nebula"
 	link Csilla
@@ -13181,8 +13274,8 @@ system Ilum
 		distance 88.4617
 		period 19.2706
 		offset 180
-	object "Starkiller Base (Ilum)"
-		sprite planet/starkillerbaseilum
+	object "Ilum"
+		sprite planet/ilum
 		distance 234.462
 		period 57.5949
 	object
@@ -13214,7 +13307,7 @@ system Imynusoph
 	pos 5651.33 -5455.49
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Anoth
 	link Kinooine
 	link Terminus
@@ -13263,7 +13356,7 @@ system Indupar
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Eiattu
 	link Medth
 	asteroids "large metal" 1 1.512
@@ -13301,7 +13394,7 @@ system Ione
 	pos 5689.82 -5884.64
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mataou
 	link Zhanox
 	asteroids "small rock" 2 1.496
@@ -13349,7 +13442,7 @@ system Iridonia
 	pos 5633.04 -7818.13
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Keitum
 	asteroids "medium rock" 54 5.85
 	asteroids "large rock" 8 5.85
@@ -13404,7 +13497,7 @@ system "Isde Naha"
 	pos 5687.94 -5816.51
 	habitable 1705
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Berrol's Donn"
 	link Sump
 	link Tinoon
@@ -13471,7 +13564,7 @@ system Iseno
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Byblos
 	link Denon
 	asteroids "large metal" 1 7.7
@@ -13510,7 +13603,7 @@ system Iskalon
 	government "Galactic Empire"
 	habitable 4070.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Pardror
 	link Tatooine
 	asteroids "small rock" 56 3.24
@@ -13577,7 +13670,7 @@ system Ison
 	pos 5650.82 -5883.64
 	habitable 1566.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Hoth
 	link Mataou
 	asteroids "small rock" 6 3.0576
@@ -13624,7 +13717,7 @@ system Ithor
 	pos 6011.56 -7863.62
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Agamar
 	link Genassa
 	asteroids "large rock" 1 4.9392
@@ -13682,7 +13775,7 @@ system Ixtlar
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Xorth
 	link Coruscant
 	asteroids "small rock" 13 3.916
@@ -13725,7 +13818,7 @@ system Jabiim
 	pos 7083.23 -7708.14
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Iego
 	link "Sy Myrth"
 	link Taskeed
@@ -13777,7 +13870,7 @@ system Jaemus
 	pos 5683.04 -8306.13
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Muunilinst
 	link Bescane
 	asteroids "small rock" 4 0.9464
@@ -13827,7 +13920,7 @@ system Jakku
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Rakata Prime"
 	asteroids "small rock" 47 3.6984
 	asteroids "medium rock" 170 3.5052
@@ -13864,7 +13957,7 @@ system Jaminere
 	pos 7100.37 -7948.03
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Voss
 	link Desevro
 	asteroids "large metal" 1 6.552
@@ -13906,7 +13999,7 @@ system Jazbina
 	pos 6081.17 -7653.44
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Corsin
 	asteroids "small rock" 4 4.4
 	asteroids "medium rock" 54 5.72
@@ -13949,7 +14042,7 @@ system Jedha
 	pos 5266.98 -7317
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Rakata Prime"
 	link Kiiro
 	asteroids "large rock" 3 7.308
@@ -14005,7 +14098,7 @@ system Jelucan
 	pos 6695.82 -8261.15
 	habitable 719.96
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Telos
 	link Seelos
 	asteroids "small rock" 7 3.224
@@ -14061,7 +14154,7 @@ system Jilrua
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Nal Hutta & Nar Shaddaa"
 	asteroids "small rock" 38 2.1
 	asteroids "medium rock" 34 4.326
@@ -14118,7 +14211,7 @@ system Jinata
 	government "Galactic Empire"
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Abregado-rae
 	link Fondor
 	asteroids "small rock" 4 7.406
@@ -14161,7 +14254,7 @@ system Jiroch
 	pos 5703.83 -6028.68
 	habitable 858.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kaal
 	link Cargamalis
 	asteroids "small rock" 3 2.2352
@@ -14224,7 +14317,7 @@ system Jomark
 	pos 6964.35 -7768.12
 	habitable 1400
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Chad
 	link "Sy Myrth"
 	link Trogan
@@ -14278,7 +14371,7 @@ system Junction
 	pos 6462.66 -8008.75
 	habitable 560.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Toprawa
 	link Celanon
 	link Yavin
@@ -14334,7 +14427,7 @@ system "Junkfort Station"
 	pos 7171.23 -7601.14
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Boonta
 	link Delacrix
 	link Dennogra
@@ -14381,7 +14474,7 @@ system Jurzan
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Stobar
 	link Arrgaw
 	asteroids "small rock" 17 3.128
@@ -14430,7 +14523,7 @@ system Kaal
 	pos 5702.83 -6090.93
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Jiroch
 	link Kriselist
 	asteroids "small rock" 6 9.3786
@@ -14477,7 +14570,7 @@ system Kabal
 	pos 6215.97 -5908.32
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Omwat
 	link Sevarcos
 	link Sharlissia
@@ -14532,7 +14625,7 @@ system Kadavo
 	pos 7109.82 -8246.15
 	habitable 1948.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zygerria
 	asteroids "medium rock" 1 6.2475
 	asteroids "large rock" 4 3.825
@@ -14578,7 +14671,7 @@ system Kafane
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vodran
 	link Sleheyron
 	link Ulmatra
@@ -14632,7 +14725,7 @@ system Kal'Shebbol
 	pos 6099.5 -5449.49
 	habitable 1215
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Karideph
 	asteroids "small rock" 2 3.8766
 	asteroids "medium rock" 195 3.4944
@@ -14682,7 +14775,7 @@ system Kalarba
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Bannistar Station"
 	link "New Cov"
 	asteroids "small rock" 4 4.536
@@ -14733,7 +14826,7 @@ system Kalee
 	pos 5554.04 -8272.13
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Entralla
 	link Huk
 	asteroids "small rock" 59 5.0112
@@ -14777,7 +14870,7 @@ system Kalevala
 	pos 6381.86 -7824.26
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Krownest
 	link Zanbar
 	asteroids "small rock" 1 5.4432
@@ -14826,7 +14919,7 @@ system Kalinda
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kira
 	link Naboo
 	asteroids "large rock" 1 4.1184
@@ -14875,7 +14968,7 @@ system Kalist
 	government "Galactic Empire"
 	habitable 2340
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Byss
 	link "Wellspring of Life"
 	asteroids "small rock" 11 2.8
@@ -14932,7 +15025,7 @@ system Kamino
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Rishi
 	asteroids "small rock" 2 5.28
 	asteroids "medium rock" 32 5.856
@@ -14989,7 +15082,7 @@ system Karazak
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lasan
 	link Skynara
 	asteroids "medium rock" 2 3.003
@@ -15039,7 +15132,7 @@ system Karfeddion
 	pos 5889.29 -5986.97
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Belsavis
 	link Dolla
 	link Ogem
@@ -15080,7 +15173,7 @@ system Karideph
 	pos 6097.49 -5544.87
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Askaj
 	link Kal'Shebbol
 	link Adarlon
@@ -15124,7 +15217,7 @@ system Kashyyyk
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Umbara
 	link Randon
 	link Trandosha
@@ -15167,7 +15260,7 @@ system Kattada
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Uquine
 	link "Tyed Kant"
 	asteroids "small rock" 5 1.6632
@@ -15228,7 +15321,7 @@ system Keitum
 	pos 5555.04 -7861.13
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ansion
 	link Uba
 	link Iridonia
@@ -15274,7 +15367,7 @@ system Kelada
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Andara
 	link Devaron
 	link "Hosnian Prime"
@@ -15321,7 +15414,7 @@ system Kerkoidia
 	government "Galactic Empire"
 	habitable 8960
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kira
 	asteroids "small rock" 12 6.9426
 	asteroids "medium rock" 12 6.7599
@@ -15386,15 +15479,16 @@ system Kessel
 	government "Pike Syndicate"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Formos
 	link "The Maw"
-	asteroids "small rock" 6 2.8413
-	asteroids "medium rock" 3 1.5246
-	asteroids "large rock" 4 1.5939
-	asteroids "small metal" 4 2.7027
-	asteroids "medium metal" 27 2.1945
-	asteroids "large metal" 1 1.155
+	asteroids "small rock" 5 0.5
+	asteroids "medium rock" 170 0.8
+	asteroids "large rock" 20 1.2
+	asteroids "small metal" 5 1.3
+	asteroids "medium metal" 7 1
+	asteroids "large metal" 10 1
+	asteroids "larger rock grey" 50 0.5
 	belt 1205
 	minables silver 6 3.98401
 	minables tungsten 6 2.65454
@@ -15408,6 +15502,8 @@ system Kessel
 	trade Medical 826
 	trade Metal 432
 	trade Plastic 370
+	haze _menu/hazedust
+	hazard "Akkadese Maelstrom" 600
 	object
 		sprite star/g5
 		period 10
@@ -15432,7 +15528,7 @@ system Ketaris
 	pos 5987.04 -8010.13
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Agamar
 	link Fedje
 	asteroids "small rock" 18 6.468
@@ -15470,7 +15566,7 @@ system Khomm
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Balosar
 	link Botor
 	link Daupherm
@@ -15523,7 +15619,7 @@ system Kiffu
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ghorman
 	asteroids "small rock" 3 2.04
 	asteroids "large rock" 10 1.98
@@ -15573,7 +15669,7 @@ system Kiiro
 	government "Galactic Empire"
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Kitel Phard"
 	link Jedha
 	asteroids "small rock" 10 3.4914
@@ -15614,7 +15710,7 @@ system Kijimi
 	government "Unaffiliated"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ultaar
 	link Metalorn
 	link Wobani
@@ -15660,7 +15756,7 @@ system Kikstar
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Csilla
 	asteroids "small rock" 116 3.7995
 	asteroids "medium rock" 44 2.9835
@@ -15702,7 +15798,7 @@ system Kinooine
 	pos 5501.95 -5423.25
 	habitable 2201.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Anoth
 	link Imynusoph
 	asteroids "small rock" 21 3.0073
@@ -15750,7 +15846,7 @@ system Kinyen
 	government "Galactic Empire"
 	habitable 1566.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Nkllon
 	link Sarrish
 	link "New Balosar"
@@ -15808,7 +15904,7 @@ system Kira
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Arrgaw
 	link Kalinda
 	link Kerkoidia
@@ -15852,7 +15948,7 @@ system Kirdo
 	pos 6270.18 -5760.73
 	habitable 745.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cotellier
 	link Sevarcos
 	asteroids "small rock" 28 2.3674
@@ -15915,7 +16011,7 @@ system Kiros
 	pos 5942.82 -7619.15
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Shili
 	asteroids "small rock" 11 2.916
 	asteroids "medium rock" 92 1.9116
@@ -15958,7 +16054,7 @@ system Kirtarkin
 	pos 5687.82 -5966.64
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mugaar
 	link Mexeluine
 	asteroids "large metal" 1 3.1752
@@ -16003,7 +16099,7 @@ system "Kitel Phard"
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bardotta
 	link Giju
 	link Kiiro
@@ -16050,7 +16146,7 @@ system Klatooine
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vodran
 	link Ques
 	asteroids "medium rock" 5 4.466
@@ -16101,7 +16197,7 @@ system Koba
 	pos 5493.31 -6180.61
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cheelit
 	link Riflor
 	asteroids "medium rock" 3 0.84
@@ -16140,7 +16236,7 @@ system "Koda Station"
 	pos 5361.46 -5977.47
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ryoone
 	asteroids "large metal" 1 5.0596
 	belt 1046
@@ -16181,7 +16277,7 @@ system Koori
 	pos 5725.46 -6187.2
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kriselist
 	link Sarrish
 	asteroids "small rock" 11 1.892
@@ -16226,7 +16322,7 @@ system Kooriva
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Atzerri
 	link Dargulli
 	asteroids "small rock" 6 6.6125
@@ -16278,7 +16374,7 @@ system Korriban
 	pos 6853.66 -8105.75
 	habitable 2340
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ziost
 	link Elom
 	asteroids "small rock" 11 2.8
@@ -16330,7 +16426,7 @@ system Kothlis
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bothawui
 	link Manda
 	asteroids "small rock" 1 1.998
@@ -16390,7 +16486,7 @@ system Kowak
 	government "Galactic Empire"
 	habitable 1313.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Pzob
 	link Roon
 	link Rothana
@@ -16447,7 +16543,7 @@ system Kril'Dor
 	pos 5429.04 -7736.13
 	habitable 4725
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Rago
 	asteroids "small rock" 6 2.8224
 	asteroids "medium rock" 13 5.0904
@@ -16489,7 +16585,7 @@ system Kriselist
 	pos 5722.83 -6164.84
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cyphar
 	link Kaal
 	link Koori
@@ -16545,7 +16641,7 @@ system Krownest
 	pos 6355.86 -7780.26
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kalevala
 	link Mandalore
 	asteroids "medium rock" 12 1.748
@@ -16592,7 +16688,7 @@ system Ktil
 	pos 6303.35 -7475.12
 	habitable 719.96
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Tirahnn
 	asteroids "small rock" 9 3.2928
 	asteroids "medium rock" 11 1.7934
@@ -16651,26 +16747,28 @@ system Kuat
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Neimoidia
 	link Fedalle
 	link Commenor
 	link Balmorra
 	asteroids "small rock" 6 2.4633
-	fleet rebelfleet 5000
-	fleet imperialpatrol 5000
-	fleet imperialstardestroyer 8000
-	fleet imperialtransport 10000
-	fleet imperialsuperstardestroyer 60000
-	fleet civilianpatrol 4000
-	fleet civiliantransport 1300
-	fleet civilianheavycargofreighter 1700
-	fleet civilianfleet 9000
-	fleet civilianfleetrepublic 15000
-	fleet piratepatrol 2400
-	fleet piratefleet 7000
-	fleet purrgil 50000
-	fleet vongscoutfleet 80000
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	belt 1637
 	minables iron 23 4.88355
 	minables titanium 16 5.18835
@@ -16703,7 +16801,7 @@ system Kubindi
 	government "Galactic Empire"
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Delacrix
 	link Formos
 	link Lowick
@@ -16761,7 +16859,7 @@ system Kwenn
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Nar Bo Sholla"
 	link Ubrikkia
 	asteroids "medium rock" 1 5.9508
@@ -16811,7 +16909,7 @@ system Lah'mu
 	pos 5857.04 -8320.13
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dantooine
 	asteroids "medium rock" 3 7.1232
 	asteroids "large rock" 1 3.7632
@@ -16855,7 +16953,7 @@ system Lahsbane
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Leritor
 	link Pardror
 	asteroids "small rock" 1 6.9552
@@ -16909,7 +17007,7 @@ system Lannik
 	government "Galactic Empire"
 	habitable 858.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Daalang
 	link Dressel
 	link Moonus
@@ -16950,7 +17048,7 @@ system Lanteeb
 	pos 5423.28 -6048.94
 	habitable 8640
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ryoone
 	asteroids "small rock" 14 3.4176
 	asteroids "medium rock" 26 4.9152
@@ -17177,7 +17275,7 @@ system Lanthe
 	government "Galactic Empire"
 	habitable 858.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Daemen
 	link Vondarc
 	asteroids "medium rock" 4 7.089
@@ -17232,7 +17330,7 @@ system Lantillies
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gizer
 	link Roche
 	link Uyter
@@ -17277,7 +17375,7 @@ system Lasan
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Karazak
 	asteroids "medium rock" 2 2.4288
 	asteroids "large rock" 1 5.104
@@ -17323,7 +17421,7 @@ system Leritor
 	government "Galactic Empire"
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ando
 	link Lahsbane
 	link Manda
@@ -17375,7 +17473,7 @@ system Lexrul
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Deysum
 	link Uogo'cor
 	asteroids "small rock" 2 1.1077
@@ -17423,7 +17521,7 @@ system Lianna
 	pos 6997.87 -7946.92
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Columex
 	link Desevro
 	link Ranroon
@@ -17466,7 +17564,7 @@ system Lipsec
 	pos 5363.47 -5886.11
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Virgillia
 	asteroids "small rock" 1 2.9988
 	asteroids "medium rock" 39 2.4752
@@ -17514,7 +17612,7 @@ system Listehol
 	pos 6717.66 -8314.75
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ruuria
 	link Mirial
 	link Telos
@@ -17559,7 +17657,7 @@ system Llanic
 	government "Galactic Empire"
 	habitable 1215
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Mon Gazza"
 	link Nelvaan
 	link Socorro
@@ -17620,7 +17718,7 @@ system Lok
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Llanic
 	asteroids "medium rock" 1 4.68
 	asteroids "large rock" 2 4.0248
@@ -17663,9 +17761,15 @@ system "Lola Sayu"
 	government "Separatist Holdouts"
 	habitable 455
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Florn
-	asteroids "large metal" 1 3.842
+	asteroids "small rock" 5 0.5
+	asteroids "medium rock" 60 0.8
+	asteroids "large rock" 10 1.2
+	asteroids "small metal" 3 1.3
+	asteroids "medium metal" 7 1
+	asteroids "large metal" 5 1
+	asteroids "larger rock" 20 0.5
 	fleet separatistholdout 500
 	fleet separatistholdoutsurveillance 2000
 	object
@@ -17685,10 +17789,6 @@ system "Lola Sayu"
 		sprite planet/lolasayu
 		distance 499.14
 		period 209.116
-		object
-			sprite planet/desert4
-			distance 160
-			period 17.8463
 	object
 		sprite planet/ocean7
 		distance 837.1
@@ -17718,7 +17818,7 @@ system Loovria
 	pos 5842.82 -5992.64
 	habitable 1400
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cargamalis
 	link Ogem
 	link Karfeddion
@@ -17775,7 +17875,7 @@ system Lorahns
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vandor
 	asteroids "small rock" 7 3.4034
 	asteroids "medium rock" 52 3.3286
@@ -17830,7 +17930,7 @@ system Loronar
 	government "Galactic Empire"
 	habitable 719.96
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Byblos
 	link Tinnel
 	asteroids "small rock" 6 2.4416
@@ -17879,7 +17979,7 @@ system Lorr
 	pos 6284.04 -8237.13
 	habitable 1050.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Maltha Obex"
 	link Argazda
 	asteroids "small rock" 38 4.5792
@@ -17926,7 +18026,7 @@ system Lorta
 	pos 5647.6 -6032.69
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gerrenthum
 	link "Quaensan Prime"
 	asteroids "small rock" 2 1.9656
@@ -17976,7 +18076,7 @@ system Lothal
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Iego
 	link Atollon
 	link Dornea
@@ -18023,7 +18123,7 @@ system "Lotho Minor"
 	pos 5504.8 -5984.02
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ryoone
 	link Lutrillia
 	link Vassek
@@ -18074,7 +18174,7 @@ system Lowick
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kubindi
 	asteroids "small metal" 1 3.7466
 	asteroids "medium metal" 8 1.9448
@@ -18115,7 +18215,7 @@ system Lucazec
 	pos 6764.59 -7874.73
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Columex
 	link Vjun
 	link Arda
@@ -18158,7 +18258,7 @@ system Lutrillia
 	pos 5618.58 -5928.26
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Taul
 	link Gerrenthum
 	link "Lotho Minor"
@@ -18208,7 +18308,7 @@ system Lwhekk
 	pos 4466.02 -6270.08
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zakuul
 	asteroids "medium rock" 8 2.652
 	asteroids "large rock" 1 4.68
@@ -18266,7 +18366,7 @@ system M'naeli
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Derra
 	link Arrgaw
 	asteroids "large rock" 1 1.674
@@ -18318,7 +18418,7 @@ system Majoor
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ramordia
 	link Ragith
 	asteroids "medium rock" 69 3.36
@@ -18357,7 +18457,7 @@ system "Makem Te"
 	pos 7073.63 -8076.15
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Desevro
 	link Quermia
 	link Raxus
@@ -18408,7 +18508,7 @@ system Malachor
 	pos 7025.66 -8209.75
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vaynai
 	link Zygerria
 	asteroids "small rock" 7 3.21
@@ -18447,7 +18547,7 @@ system Malagarr
 	pos 7499.23 -7601.14
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Tund
 	asteroids "small rock" 13 3.146
 	asteroids "medium rock" 29 3.718
@@ -18487,7 +18587,7 @@ system Malastare
 	pos 6172.8 -6189.94
 	habitable 6080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Darkknell
 	link ZeHeth
 	asteroids "small rock" 20 6.1152
@@ -18534,7 +18634,7 @@ system "Maltha Obex"
 	pos 6411.04 -8349.13
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Thalassia
 	link Lorr
 	asteroids "medium rock" 3 5.5062
@@ -18587,7 +18687,7 @@ system Manaan
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Belasco
 	link Cona
 	asteroids "small rock" 10 3.0044
@@ -18640,7 +18740,7 @@ system Manda
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kothlis
 	link Leritor
 	link Rishi
@@ -18698,7 +18798,7 @@ system Mandalore
 	pos 6430.71 -7781.72
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Concord Dawn"
 	link Zanbar
 	link Krownest
@@ -18758,7 +18858,7 @@ system Mandell
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bothawui
 	link Moonus
 	asteroids "large metal" 1 6.6447
@@ -18808,7 +18908,7 @@ system Manpha
 	pos 5694.32 -5638.18
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Berrol's Donn"
 	link Terminus
 	asteroids "large metal" 1 4.536
@@ -18858,7 +18958,7 @@ system Maridun
 	pos 6677.66 -7920.75
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Phindar
 	link Yavin
 	link Arda
@@ -18907,7 +19007,7 @@ system Mataou
 	pos 5686.82 -5871.64
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Anantapar
 	link Ison
 	link Ione
@@ -18945,7 +19045,7 @@ system "Mechis III"
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Yag'Dhul
 	link Bestine
 	asteroids "small rock" 37 0.8591
@@ -18999,7 +19099,7 @@ system Medth
 	government "Galactic Empire"
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vondarc
 	link Indupar
 	link Tshindral
@@ -19050,7 +19150,7 @@ system Mephout
 	pos 5211.87 -5560.81
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dosuun
 	link Seoul
 	asteroids "large rock" 1 4.9608
@@ -19096,7 +19196,7 @@ system "Meryx Minor"
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Andelm IV"
 	link Svivren
 	asteroids "small rock" 2 5.915
@@ -19147,7 +19247,7 @@ system Metalorn
 	pos 6841.35 -7623.12
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Anzat
 	link Sarka
 	link Ultaar
@@ -19191,7 +19291,7 @@ system Mexeluine
 	pos 5685.82 -5951.64
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kirtarkin
 	link Gerrenthum
 	asteroids "large rock" 1 3.7576
@@ -19231,7 +19331,7 @@ system Milagro
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Aridus
 	link Bacrana
 	link Gamor
@@ -19270,7 +19370,7 @@ system Milvayne
 	pos 5889.82 -7579.15
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Datar
 	asteroids "large metal" 1 4.9184
 	object
@@ -19306,7 +19406,7 @@ system Mimban
 	government "Galactic Empire"
 	habitable 806.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Attahox
 	link Cyrillia
 	link Gyndine
@@ -19355,7 +19455,7 @@ system Mindor
 	pos 6060.24 -7582.17
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bogden
 	asteroids "small rock" 17 2.261
 	asteroids "medium rock" 49 2.128
@@ -19393,7 +19493,7 @@ system Mintaka
 	government Republic
 	habitable 775.625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Almaaz
 	link Alnitak
 	link Tortor
@@ -19457,7 +19557,7 @@ system Mirial
 	pos 6731.66 -8269.75
 	habitable 760
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Listehol
 	link "Peragus II"
 	link Ferro
@@ -19505,7 +19605,7 @@ system Molavar
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gamorr
 	link Roon
 	link Ukio
@@ -19552,7 +19652,7 @@ system Moltok
 	pos 5838.04 -8092.13
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Horuz
 	link "Ord Biniir"
 	asteroids "small rock" 8 3.828
@@ -19602,7 +19702,7 @@ system "Mon Calamari"
 	pos 7340.35 -7880.12
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Munto Codru"
 	link Pammant
 	link Dellalt
@@ -19649,7 +19749,7 @@ system "Mon Gazza"
 	government "Galactic Empire"
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Llanic
 	link Ando
 	link Herdessa
@@ -19700,7 +19800,7 @@ system Monastery
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Druckenwell
 	link "Nexus Ortai"
 	asteroids "medium rock" 19 3.002
@@ -19743,7 +19843,7 @@ system Moonus
 	government "Galactic Empire"
 	habitable 621.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lannik
 	link Mandell
 	asteroids "medium rock" 98 5.829
@@ -19787,7 +19887,7 @@ system Morellia
 	pos 7123.86 -8417.26
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Farana
 	asteroids "small rock" 9 1.9404
 	asteroids "medium rock" 15 2.2176
@@ -19838,7 +19938,7 @@ system Mortis
 	pos 5735.04 -8552.13
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gree
 	asteroids "small rock" 11 1.904
 	asteroids "medium rock" 33 2.5228
@@ -19885,7 +19985,7 @@ system Mugaar
 	pos 5691.77 -5981.47
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cargamalis
 	link Kirtarkin
 	asteroids "small rock" 1 3.7422
@@ -19934,7 +20034,7 @@ system "Munto Codru"
 	pos 7318.35 -7937.12
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Mon Calamari"
 	link Pakuuri
 	asteroids "small rock" 3 1.343
@@ -19985,7 +20085,7 @@ system Murkhana
 	pos 7045.78 -7875.62
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cadinth
 	link Caluula
 	link Ossus
@@ -20042,7 +20142,7 @@ system Mustafar
 	pos 5841.59 -5692.91
 	habitable 5000
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Rutan
 	asteroids "small metal" 1 4.6368
 	asteroids "medium metal" 3 5.474
@@ -20093,7 +20193,7 @@ system Muunilinst
 	pos 5692.04 -8246.13
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Ord Trasi"
 	link Entralla
 	link Jaemus
@@ -20143,7 +20243,7 @@ system Mygeeto
 	pos 5739.04 -8156.13
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Ord Trasi"
 	link Entralla
 	link Scipio
@@ -20201,7 +20301,7 @@ system Myrkr
 	pos 6275.69 -7720.91
 	habitable 270
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Wayland
 	asteroids "large metal" 1 1.4739
 	belt 1013
@@ -20244,7 +20344,7 @@ system Mytus
 	pos 7046.66 -8441.75
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Farana
 	link Bonadan
 	link Trian
@@ -20291,7 +20391,7 @@ system N'zoth
 	government "Rebel Alliance"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Coruscant
 	link Vannell
 	link Salliche
@@ -20349,7 +20449,7 @@ system Naboo
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Enarc
 	link Kalinda
 	asteroids "small rock" 1 1.235
@@ -20385,7 +20485,7 @@ system "Nal Hutta & Nar Shaddaa"
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Nar Bo Sholla"
 	link Toydaria
 	link Ylesia
@@ -20427,7 +20527,7 @@ system Nam
 	pos 6887.41 -7832.99
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Columex
 	asteroids "small rock" 8 10.8
 	asteroids "large rock" 5 9.54
@@ -20481,7 +20581,7 @@ system Namadii
 	pos 5480.04 -7852.13
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Adumar
 	link Ansion
 	asteroids "small rock" 11 3.5776
@@ -20555,7 +20655,7 @@ system Nanth'ri
 	government "Galactic Empire"
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Attahox
 	link Nixor
 	link Toydaria
@@ -20610,7 +20710,7 @@ system "Naos"
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Smuggler's Run"
 	asteroids "small rock" 2 2.1714
 	asteroids "large rock" 3 1.2166
@@ -20656,7 +20756,7 @@ system "Nar Bo Sholla"
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kwenn
 	link "Nal Hutta & Nar Shaddaa"
 	link Nimban
@@ -20704,7 +20804,7 @@ system "Nar Kaaga"
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bothawui
 	link Circumtore
 	asteroids "small rock" 4 3.9
@@ -20756,7 +20856,7 @@ system Natalon
 	pos 5616.31 -6285.61
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Noe'ha'on
 	link Takodana
 	asteroids "large metal" 1 1.596
@@ -20797,7 +20897,7 @@ system Nazzri
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vena
 	link Uyter
 	asteroids "small rock" 129 1.0164
@@ -20845,7 +20945,7 @@ system Neimoidia
 	government "Galactic Empire"
 	habitable 1250
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kuat
 	link Balmorra
 	asteroids "small rock" 5 10.764
@@ -20892,7 +20992,7 @@ system Nelvaan
 	government "Galactic Empire"
 	habitable 1566.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Llanic
 	link Arkanis
 	asteroids "small metal" 74 4.1216
@@ -20945,7 +21045,7 @@ system "New Apsolon"
 	government "Galactic Empire"
 	habitable 1400
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Belasco
 	link Randon
 	asteroids "small rock" 1 3.12
@@ -21004,7 +21104,7 @@ system "New Balosar"
 	pos 5780.31 -6323.61
 	habitable 553.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kinyen
 	link Noe'ha'on
 	asteroids "small rock" 16 3.4875
@@ -21064,7 +21164,7 @@ system "New Cov"
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bacrana
 	link Druckenwell
 	link Kalarba
@@ -21118,7 +21218,7 @@ system "Nexus Ortai"
 	government "Galactic Empire"
 	habitable 760
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bothawui
 	link Dressel
 	link Leritor
@@ -21183,7 +21283,7 @@ system "Nez Peron"
 	pos 6399.66 -8018.75
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Axxila
 	asteroids "small rock" 1 6.804
 	asteroids "medium rock" 8 7.1442
@@ -21232,7 +21332,7 @@ system Nimban
 	government "Galactic Empire"
 	habitable 2140.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Nar Bo Sholla"
 	link "Boz Pity"
 	link Chalacta
@@ -21288,7 +21388,7 @@ system Niruaun
 	pos 5459.04 -8003.13
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Aeten
 	asteroids "small rock" 7 6.0452
 	asteroids "medium rock" 24 5.4264
@@ -21337,7 +21437,7 @@ system Nixor
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Daalang
 	link Nanth'ri
 	asteroids "medium rock" 3 3.9045
@@ -21388,7 +21488,7 @@ system Nkllon
 	pos 5925.38 -6304.25
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kinyen
 	link "Qat Chrystac"
 	asteroids "small rock" 24 3.24
@@ -21449,7 +21549,7 @@ system Noe'ha'on
 	pos 5684.29 -6295.97
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Natalon
 	link "New Balosar"
 	asteroids "small rock" 2 2.07
@@ -21507,7 +21607,7 @@ system Noquivzor
 	pos 5772.89 -7500.37
 	habitable 2340
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Palanhi
 	link "Ord Antalaha"
 	asteroids "medium rock" 4 3.2912
@@ -21553,7 +21653,7 @@ system Nothoiin
 	pos 5762.82 -5913.64
 	habitable 3645
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Council
 	link Bavva
 	link Polmanar
@@ -21606,7 +21706,7 @@ system Nouane
 	pos 6164.17 -7651.44
 	habitable 1566.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Corsin
 	asteroids "small rock" 4 2.112
 	asteroids "medium rock" 7 2.2704
@@ -21673,7 +21773,7 @@ system Nubia
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Duro
 	link Tinnel
 	link Corellia
@@ -21723,7 +21823,7 @@ system Null
 	pos 6225.18 -7763.95
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Corsin
 	link Taris
 	asteroids "small rock" 11 0.8932
@@ -21762,7 +21862,7 @@ system Obroa-skai
 	pos 6313.17 -7620.44
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cartao
 	link Corsin
 	asteroids "small rock" 1 3.78
@@ -21805,7 +21905,7 @@ system Ogem
 	pos 5839.29 -6043.97
 	habitable 3645
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cyphar
 	link Karfeddion
 	link Loovria
@@ -21848,7 +21948,7 @@ system Ojom
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Columus
 	asteroids "small rock" 3 2.882
 	asteroids "medium rock" 3 3.08
@@ -21902,7 +22002,7 @@ system Omwat
 	pos 6204.92 -5990.65
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kabal
 	link Sanrafsix
 	asteroids "small rock" 16 3.7468
@@ -21940,7 +22040,7 @@ system "Onderon & Dxun"
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ambria
 	link Vena
 	asteroids "small rock" 3 4.2579
@@ -21992,7 +22092,7 @@ system Opiteihr
 	government "Galactic Empire"
 	habitable 2507.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vogel
 	link Pax
 	asteroids "medium rock" 6 2.5908
@@ -22034,7 +22134,7 @@ system "Ord Antalaha"
 	pos 5835.89 -7489.37
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Noquivzor
 	link Dankayo
 	asteroids "small rock" 11 3.427
@@ -22079,7 +22179,7 @@ system "Ord Biniir"
 	pos 5827.04 -8108.13
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Moltok
 	asteroids "small rock" 11 3.915
 	asteroids "medium rock" 15 3.78
@@ -22119,7 +22219,7 @@ system "Ord Cantrell"
 	pos 5801.04 -7953.13
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Orinda
 	link Phaeda
 	asteroids "small rock" 7 4.355
@@ -22156,7 +22256,7 @@ system "Ord Cestus"
 	pos 6366.66 -7980.75
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vinsoth
 	asteroids "small rock" 4 1.1368
 	asteroids "medium rock" 1 1.5484
@@ -22203,7 +22303,7 @@ system "Ord Mantell"
 	pos 5832.84 -7753.35
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Genassa
 	link Vortex
 	link Orinda
@@ -22250,7 +22350,7 @@ system "Ord Mirit"
 	government "Galactic Empire"
 	habitable 2798.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Palanhi
 	link Pyria
 	asteroids "medium rock" 3 7.14
@@ -22296,7 +22396,7 @@ system "Ord Radama"
 	pos 6663.66 -8146.75
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Yavin
 	asteroids "small rock" 33 2.52
 	asteroids "medium rock" 51 3.015
@@ -22328,7 +22428,7 @@ system "Ord Trasi"
 	pos 5851.04 -8178.13
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dantooine
 	link Mygeeto
 	link Muunilinst
@@ -22382,7 +22482,7 @@ system Orinda
 	pos 5780.04 -7910.13
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Borosk
 	link "Ord Cantrell"
 	link "Ord Mantell"
@@ -22435,7 +22535,7 @@ system "Orn Kios"
 	pos 5686.82 -5830.64
 	habitable 973.36
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Isde Naha"
 	link "Darlyn Boda"
 	asteroids "small rock" 5 10.005
@@ -22479,7 +22579,7 @@ system Orondia
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Nal Hutta & Nar Shaddaa"
 	link Varl
 	asteroids "small rock" 4 2.508
@@ -22528,7 +22628,7 @@ system Orto
 	pos 6057.54 -5814.6
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Sluis Van"
 	asteroids "small rock" 4 8.1648
 	asteroids "medium rock" 8 10.0548
@@ -22569,7 +22669,7 @@ system Orvax
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Shimia
 	asteroids "small rock" 1 1.12
 	asteroids "medium rock" 15 1.776
@@ -22615,7 +22715,7 @@ system Oseon
 	pos 7261.23 -7579.14
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gand
 	link "Junkfort Station"
 	link Renatasia
@@ -22660,7 +22760,7 @@ system Ossus
 	pos 6991.19 -7861.14
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Belderone
 	link Murkhana
 	asteroids "small rock" 3 3.375
@@ -22707,7 +22807,7 @@ system Pakuuri
 	pos 7246.35 -7970.12
 	habitable 745.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Caluula
 	link Drongar
 	link Florn
@@ -22760,7 +22860,7 @@ system Palanhi
 	pos 5715.37 -7492.31
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bilbringi
 	link Vakkar
 	link Noquivzor
@@ -22818,7 +22918,7 @@ system Pammant
 	pos 7356.86 -7854.26
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Mon Calamari"
 	link Sanctuary
 	asteroids "large metal" 1 3.706
@@ -22855,7 +22955,7 @@ system Panto
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Pyria
 	link Velusia
 	link Weerden
@@ -22912,7 +23012,7 @@ system Pantora
 	government "Pantoran Assembly"
 	habitable 1111.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Alzoc
 	asteroids "small rock" 12 6.5208
 	asteroids "medium rock" 13 4.0584
@@ -22969,7 +23069,7 @@ system Paqualis
 	pos 5977.4 -7599.48
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bogden
 	link Drearia
 	asteroids "small rock" 11 2.7115
@@ -23022,7 +23122,7 @@ system "Paqwepor Major"
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Druckenwell
 	link Falleen
 	link "Mon Gazza"
@@ -23077,7 +23177,7 @@ system Pardror
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Iskalon
 	link Lahsbane
 	link Tatooine
@@ -23133,7 +23233,7 @@ system Pasaana
 	government "Galactic Empire"
 	habitable 455
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cyrillia
 	asteroids "small rock" 5 3.4944
 	asteroids "medium rock" 22 3.7632
@@ -23176,7 +23276,7 @@ system Pathway
 	government Uninhabited
 	habitable 2140.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mintaka
 	asteroids "small rock" 71 7.4037
 	asteroids "large rock" 54 8.8044
@@ -23216,7 +23316,7 @@ system Pathway
 			period 13.2821
 			offset 151.193
 		object "Star Wars Wormhole"
-			sprite planet/galaxywarp/galaxywarp
+			sprite planet/vergeancescatter/vergeancescatterwriting
 			distance 2000.67
 			period 39.7335
 			offset 268.621
@@ -23232,7 +23332,7 @@ system Pax
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Arrgaw
 	link Kira
 	link ZeHeth
@@ -23285,7 +23385,7 @@ system Pengalan
 	pos 6382.17 -7550.44
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cartao
 	asteroids "small rock" 1 2.2344
 	asteroids "large rock" 7 1.3132
@@ -23341,7 +23441,7 @@ system Penumbria
 	government Independent
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Corsin
 	asteroids "small rock" 20 3.24
 	asteroids "medium rock" 17 2.8944
@@ -23397,7 +23497,7 @@ system "Peragus II"
 	pos 6792.66 -8316.75
 	habitable 8640
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mirial
 	asteroids "small rock" 2 8.064
 	asteroids "medium rock" 26 5.2416
@@ -23433,7 +23533,7 @@ system Phaeda
 	pos 5919.04 -7941.13
 	habitable 2795
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Ord Cantrell"
 	link "Ajan Kloss"
 	asteroids "small rock" 38 3.828
@@ -23484,7 +23584,7 @@ system Phindar
 	pos 6528.49 -7834.19
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Anteevy
 	link Maridun
 	link Raydonia
@@ -23539,7 +23639,7 @@ system "Pho Ph'eah"
 	pos 6542.66 -8120.75
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Telos
 	link Serenno
 	link Toprawa
@@ -23581,7 +23681,7 @@ system Phu
 	government "Galactic Empire"
 	habitable 1505.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bardotta
 	link "Ring of Kafrene"
 	asteroids "large rock" 1 3.8225
@@ -23639,7 +23739,7 @@ system Pii
 	government Uninhabited
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Rodia
 	link Tatooine
 	link Herdessa
@@ -23682,7 +23782,7 @@ system Plexis
 	government "Galactic Empire"
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Abregado-rae
 	asteroids "small rock" 6 1.425
 	asteroids "medium rock" 32 3.705
@@ -23726,7 +23826,7 @@ system Ploo
 	pos 6214.88 -7722.1
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Corsin
 	link Wayland
 	asteroids "medium rock" 3 2.8314
@@ -23772,7 +23872,7 @@ system Plooma
 	pos 5897.04 -8422.13
 	habitable 1111.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Veragi
 	asteroids "medium rock" 2 5.51
 	asteroids "large rock" 3 6.8324
@@ -23810,7 +23910,7 @@ system Plympto
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Corellia
 	asteroids "small rock" 40 2.2464
 	asteroids "medium rock" 21 1.1856
@@ -23866,7 +23966,7 @@ system "Polis Massa"
 	pos 5774.92 -5541.46
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Subterrel
 	link Terminus
 	asteroids "small rock" 5 3.4335
@@ -23911,7 +24011,7 @@ system Polmanar
 	pos 5783.82 -5892.64
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Delphon
 	link Nothoiin
 	asteroids "medium rock" 3 0.9504
@@ -23964,10 +24064,9 @@ system Prakith
 	government "Rebel Alliance"
 	habitable 1050.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Byss
 	link "Empress Teta"
-	link "Death Star II"
 	asteroids "small rock" 1 3.132
 	asteroids "large rock" 1 3.942
 	asteroids "small metal" 4 7.02
@@ -24033,7 +24132,7 @@ system "Prefsbelt IV"
 	pos 5659.82 -8124.15
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Yaga Minor"
 	link Borosk
 	asteroids "small rock" 12 4.704
@@ -24092,7 +24191,7 @@ system Pyria
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Panto
 	link "Ord Mirit"
 	asteroids "medium rock" 6 4.128
@@ -24166,7 +24265,7 @@ system Pzob
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kowak
 	asteroids "small rock" 21 7.735
 	asteroids "medium rock" 1 6.63
@@ -24212,7 +24311,7 @@ system "Qat Chrystac"
 	pos 5980.25 -6237.23
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Nkllon
 	asteroids "large metal" 1 6.3504
 	belt 1588
@@ -24249,7 +24348,7 @@ system "Quaensan Prime"
 	pos 5615.31 -6073.61
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Elbara
 	link Lorta
 	asteroids "small rock" 18 8.1648
@@ -24298,7 +24397,7 @@ system Quarzite
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Atzerri
 	asteroids "medium metal" 14 4.644
 	asteroids "large metal" 5 4.86
@@ -24343,7 +24442,7 @@ system Quellor
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ailon
 	link Antar
 	link "Cato Neimoidia"
@@ -24412,7 +24511,7 @@ system Quermia
 	pos 7090.34 -8100.66
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Makem Te"
 	link Toola
 	link Ranroon
@@ -24467,7 +24566,7 @@ system Ques
 	government "Galactic Empire"
 	habitable 1111.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Sriluur
 	link Klatooine
 	link Vaathkree
@@ -24516,7 +24615,7 @@ system Questal
 	government "Galactic Empire"
 	habitable 1705
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Kitel Phard"
 	asteroids "small rock" 13 1.378
 	asteroids "medium rock" 15 1.651
@@ -24578,7 +24677,7 @@ system Queyta
 	pos 6126.61 -5781.81
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Sluis Van"
 	asteroids "medium rock" 10 4.6782
 	asteroids "large rock" 1 3.312
@@ -24620,7 +24719,7 @@ system Radnor
 	government "Galactic Empire"
 	habitable 1505.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Christophsis
 	link Herdessa
 	asteroids "small metal" 8 5.3244
@@ -24665,7 +24764,7 @@ system Ragith
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Majoor
 	link Baroli
 	asteroids "small rock" 18 2.6928
@@ -24710,7 +24809,7 @@ system Rago
 	pos 5399.04 -7754.13
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "The Red Twins"
 	link Ansion
 	link Kril'Dor
@@ -24751,7 +24850,7 @@ system Raithal
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Castell
 	link "Vurdon Ka"
 	asteroids "medium rock" 16 2.7702
@@ -24788,7 +24887,7 @@ system "Rakata Prime"
 	government Uninhabited
 	habitable 945
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Jakku
 	link Jedha
 	link Ahch-To
@@ -24850,7 +24949,7 @@ system Ralltiir
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Yabol Opa"
 	link Esseles
 	asteroids "small rock" 32 3.2186
@@ -24896,7 +24995,7 @@ system Ramordia
 	government "Galactic Empire"
 	habitable 3645
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Arrgaw
 	link Majoor
 	asteroids "small rock" 5 6.1
@@ -24944,7 +25043,7 @@ system Randon
 	government "Galactic Empire"
 	habitable 1050.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Chalacta
 	link Deysum
 	link "New Apsolon"
@@ -25002,7 +25101,7 @@ system Ranroon
 	pos 6968.66 -8136.75
 	habitable 4070.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lianna
 	link Zygerria
 	link Quermia
@@ -25053,7 +25152,7 @@ system Rasterous
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Commenor
 	link Zeltros
 	asteroids "small rock" 1 1.4212
@@ -25098,7 +25197,7 @@ system Rattatak
 	pos 5208.5 -6312.39
 	habitable 553.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bunduki
 	link Gannaria
 	asteroids "small rock" 36 5.7753
@@ -25151,7 +25250,7 @@ system Raxus
 	pos 7105.94 -8014.88
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Florn
 	link Rudrig
 	link Pakuuri
@@ -25206,7 +25305,7 @@ system Raydonia
 	pos 6464.86 -7879.26
 	habitable 640
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Botajef
 	link Phindar
 	asteroids "small rock" 1 3.1248
@@ -25260,7 +25359,7 @@ system "Red Nebula"
 	pos 5142.59 -5439.33
 	habitable 973.36
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Seoul
 	asteroids "small rock" 10 2.697
 	asteroids "medium rock" 64 2.813
@@ -25316,7 +25415,7 @@ system Reecee
 	pos 5601.92 -7503.35
 	habitable 1111.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vakkar
 	asteroids "large metal" 1 3.969
 	belt 1804
@@ -25363,7 +25462,7 @@ system Renatasia
 	pos 7339.23 -7538.14
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Oseon
 	asteroids "small rock" 5 6.1152
 	asteroids "medium rock" 195 5.9904
@@ -25415,7 +25514,7 @@ system Rendili
 	government "Galactic Empire"
 	habitable 621.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bellassa
 	asteroids "small rock" 69 4.4022
 	asteroids "medium rock" 107 4.7357
@@ -25484,7 +25583,7 @@ system Reuss
 	government "Galactic Empire"
 	habitable 2795
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Drexel
 	link Socorro
 	link "Spice Terminus"
@@ -25532,7 +25631,7 @@ system "Rhen Var"
 	pos 6917.3 -7917.47
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Columex
 	link Galidraan
 	asteroids "small rock" 3 3.888
@@ -25576,7 +25675,7 @@ system Rhommamool
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Allanteen
 	link Spirana
 	asteroids "small rock" 2 2.6325
@@ -25629,7 +25728,7 @@ system Riflor
 	pos 5527.1 -6157.22
 	habitable 1050.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Koba
 	link Hirsi
 	asteroids "small rock" 3 9.57
@@ -25689,7 +25788,7 @@ system Riileb
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Syvris
 	asteroids "large rock" 1 2.7144
 	asteroids "small metal" 1 4.5588
@@ -25741,13 +25840,15 @@ system Riileb
 			sprite planet/dust3
 			distance 548
 			period 37.5948
+
 system "Ring of Kafrene"
 	pos 5591.98 -6471.09
 	government "Galactic Empire"
 	habitable 659.2
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Phu
+	link Castilon
 	asteroids "small rock" 5 0.5
 	asteroids "medium rock" 130 0.8
 	asteroids "large rock" 20 1.2
@@ -25792,7 +25893,7 @@ system Rinn
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Teth
 	asteroids "large metal" 1 1.595
 	object
@@ -25828,7 +25929,7 @@ system Rintonne
 	government "Galactic Empire"
 	habitable 851.84
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zolan
 	asteroids "small rock" 9 9.0045
 	asteroids "medium rock" 82 8.0109
@@ -25883,7 +25984,7 @@ system Rishi
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Manda
 	link Ukio
 	link Kamino
@@ -25930,7 +26031,7 @@ system Roche
 	pos 6708.35 -7589.12
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Abhean
 	link Lantillies
 	link Sarka
@@ -25983,7 +26084,7 @@ system Rodia
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Pii
 	asteroids "small rock" 13 2.6796
 	asteroids "medium rock" 1 3.1416
@@ -26050,7 +26151,7 @@ system Ronyards
 	government "Galactic Empire"
 	habitable 973.36
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Sagar
 	link Chardaan
 	asteroids "small rock" 76 2.3688
@@ -26105,7 +26206,7 @@ system Roon
 	government "Galactic Empire"
 	habitable 659.2
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Hypori
 	link Kowak
 	link Molavar
@@ -26164,7 +26265,7 @@ system Rothana
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kowak
 	asteroids "small rock" 16 2.6928
 	asteroids "medium rock" 109 5.5836
@@ -26209,7 +26310,7 @@ system Roxuli
 	pos 5448.04 -7594.13
 	habitable 5000
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dorin
 	asteroids "large metal" 1 1.936
 	object
@@ -26248,7 +26349,7 @@ system Rudrig
 	pos 7139.86 -7972.26
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Raxus
 	link Caluula
 	asteroids "small rock" 1 7.575
@@ -26310,7 +26411,7 @@ system Rugosa
 	government Unaffiliated
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link D'Qar
 	link Trigalis
 	asteroids "small rock" 45 4.4954
@@ -26355,7 +26456,7 @@ system Rutan
 	pos 5844.77 -5636.03
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mustafar
 	link Terminus
 	link Tosste
@@ -26400,7 +26501,7 @@ system Ruuria
 	pos 6790.66 -8341.75
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cadomai
 	link Listehol
 	asteroids "small rock" 8 3.332
@@ -26442,7 +26543,7 @@ system Ruusan
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Uogo'cor
 	asteroids "small rock" 1 1.875
 	asteroids "medium rock" 3 1.935
@@ -26488,7 +26589,7 @@ system Ryloth
 	government "Galactic Empire"
 	habitable 973.36
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Shimia
 	link Sirpar
 	link Wrea
@@ -26555,7 +26656,7 @@ system Ryndellia
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Enarc
 	link Farstine
 	asteroids "small rock" 1 7.25
@@ -26596,7 +26697,7 @@ system Ryoone
 	pos 5432.75 -6003.58
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Koda Station"
 	link "Lotho Minor"
 	link Lanteeb
@@ -26645,7 +26746,7 @@ system Sagar
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Denon
 	link Ronyards
 	asteroids "small rock" 12 2.6265
@@ -26686,7 +26787,7 @@ system Saijo
 	pos 5663.15 -5570.47
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Terminus
 	asteroids "small rock" 29 4.968
 	asteroids "medium rock" 9 3.2752
@@ -26737,7 +26838,7 @@ system Sakiya
 	government "Galactic Empire"
 	habitable 553.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Varl
 	link Ulmatra
 	asteroids "medium rock" 6 3.0282
@@ -26788,7 +26889,7 @@ system Saleucami
 	pos 7046.23 -7610.14
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Boonta
 	link "Sy Myrth"
 	asteroids "medium rock" 7 2.574
@@ -26840,7 +26941,7 @@ system Salient
 	pos 7085.82 -8352.15
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bonadan
 	link Farana
 	asteroids "small rock" 9 3.3726
@@ -26894,7 +26995,7 @@ system Salliche
 	government "Galactic Empire"
 	habitable 719.96
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link N'zoth
 	link Foerost
 	asteroids "small rock" 2 3.905
@@ -26903,6 +27004,7 @@ system Salliche
 	asteroids "small metal" 7 3.1625
 	asteroids "medium metal" 6 2.145
 	asteroids "large metal" 5 2.2275
+	haze _menu/hazedust
 	object
 		sprite star/k0
 		distance 29.4856
@@ -26939,7 +27041,7 @@ system Salliche
 			distance 292
 			period 24.8603
 	object "Battle Testing Wormhole"
-		sprite planet/galaxywarp/galaxywarp
+		sprite planet/vergeancescatter/vergeancescatterpattern
 		distance 8000
 		period 42.1828
 		offset 46.4731
@@ -26947,7 +27049,7 @@ system Salliche
 system Sanctuary
 	pos 7370.29 -7833.63
 	habitable 625
-	arrival 2000
+	arrival 1000
 	link Pammant
 	link Lothal
 	asteroids "small rock" 1 3.9644
@@ -26984,7 +27086,7 @@ system Sanrafsix
 	pos 6196.89 -6090.54
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Crait
 	link Darkknell
 	link Omwat
@@ -27027,7 +27129,7 @@ system Sarapin
 	government "Galactic Empire"
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Fedalle
 	link Bellassa
 	link Humbarine
@@ -27084,7 +27186,7 @@ system Sarka
 	pos 6808.35 -7579.12
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Metalorn
 	link Roche
 	link Ultaar
@@ -27134,7 +27236,7 @@ system Sarrish
 	government "Galactic Empire"
 	habitable 1400
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kinyen
 	link Koori
 	asteroids "small rock" 24 3.9336
@@ -27198,7 +27300,7 @@ system Savareen
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Christophsis
 	link Arkanis
 	asteroids "large metal" 1 4.62
@@ -27257,7 +27359,7 @@ system Scarif
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ukio
 	asteroids "small rock" 7 4.6575
 	asteroids "medium rock" 71 4.4091
@@ -27315,7 +27417,7 @@ system Scipio
 	pos 5746.82 -8117.15
 	habitable 659.2
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mygeeto
 	link Garqi
 	asteroids "large metal" 1 3.718
@@ -27358,7 +27460,7 @@ system Sedratis
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Corellia
 	link Columus
 	asteroids "small rock" 2 3.9852
@@ -27405,7 +27507,7 @@ system Seelos
 	pos 6672.66 -8237.75
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Thila
 	link Jelucan
 	asteroids "small rock" 13 4.4469
@@ -27460,7 +27562,7 @@ system Sembla
 	pos 7005.67 -8059.44
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Desevro
 	asteroids "small rock" 19 10.962
 	asteroids "medium rock" 20 5.7652
@@ -27512,7 +27614,7 @@ system Seoul
 	pos 5173.71 -5535.71
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mephout
 	link "Red Nebula"
 	asteroids "small rock" 2 2.6334
@@ -27565,7 +27667,7 @@ system Serenno
 	pos 6504.66 -8099.75
 	habitable 1111.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Pho Ph'eah"
 	link Toprawa
 	asteroids "medium rock" 16 7.308
@@ -27615,7 +27717,7 @@ system Sernpidal
 	pos 5944.04 -8483.13
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Birgis
 	link Veragi
 	asteroids "small rock" 1 3.468
@@ -27660,7 +27762,7 @@ system Sevarcos
 	pos 6208.94 -5799.89
 	habitable 1566.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kabal
 	link Kirdo
 	asteroids "small rock" 5 6.4638
@@ -27724,7 +27826,7 @@ system "Shadda-Bi Boran"
 	government "Galactic Empire"
 	habitable 2201.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link D'Qar
 	link Vohai
 	asteroids "small rock" 10 4.9764
@@ -27775,7 +27877,7 @@ system Sharlissia
 	pos 6299.3 -5967.56
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Arbra
 	link Kabal
 	asteroids "large rock" 1 3.201
@@ -27821,7 +27923,7 @@ system Shawken
 	pos 5858.89 -7399.37
 	habitable 4270
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Challon
 	link Thorgeld
 	asteroids "small rock" 55 4.876
@@ -27861,7 +27963,7 @@ system Shibric
 	government "Galactic Empire"
 	habitable 2160
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Chardaan
 	link Baroli
 	asteroids "small rock" 2 1.5125
@@ -27912,7 +28014,7 @@ system Shili
 	pos 5942.28 -7644.91
 	habitable 553.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Datar
 	link Bogden
 	link Yinchorr
@@ -27968,7 +28070,7 @@ system Shimia
 	government "Galactic Empire"
 	habitable 2692.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Orvax
 	link Ryloth
 	asteroids "small rock" 1 5.2896
@@ -28024,7 +28126,7 @@ system Shola
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Tammuz-an
 	asteroids "small rock" 3 6.0325
 	asteroids "medium rock" 105 5.8425
@@ -28078,7 +28180,7 @@ system Shumavar
 	pos 5976.95 -5790.78
 	habitable 1050.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Atravis
 	link Eriadu
 	asteroids "medium rock" 6 4.128
@@ -28140,7 +28242,7 @@ system Sinta
 	government "Galactic Empire"
 	habitable 368.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Uogo'cor
 	link Nanth'ri
 	link Toydaria
@@ -28188,7 +28290,7 @@ system Sirpar
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Arkanis
 	link Ryloth
 	asteroids "medium rock" 1 5.0544
@@ -28233,7 +28335,7 @@ system Siskeen
 	government "Galactic Empire"
 	habitable 760
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Geonosis
 	asteroids "medium rock" 4 1.9668
 	asteroids "large rock" 3 0.858
@@ -28283,7 +28385,7 @@ system Skako
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Brentaal
 	link Aldraig
 	asteroids "small rock" 1 4.0848
@@ -28292,9 +28394,22 @@ system Skako
 	asteroids "small metal" 20 4.048
 	asteroids "medium metal" 21 2.024
 	asteroids "large metal" 44 3.9008
-	fleet rebelfleet 400
-	fleet imperialpatrol 700
-	fleet imperialstardestroyer 2000
+	fleet rebelsquadron 4000
+	fleet rebelfrigate 10000
+	fleet rebelcapitalship 24000
+	fleet imperialpatrol 3000
+	fleet imperialstardestroyer 14000
+	fleet imperialtransport 7000
+	fleet imperialsuperstardestroyer 100000
+	fleet civilianheavycargofreighter 500
+	fleet civiliantransport 2000
+	fleet civilianpatrol 15000
+	fleet civilianutilitytug 50000
+	fleet civilianfleet 75000
+	fleet civilianfleetrepublic 90000
+	fleet piratepatrol 13000
+	fleet piratefleet 60000
+	fleet vongscoutfleet 150000
 	belt 1131
 	minables copper 40 4.87563
 	minables titanium 9 3.22353
@@ -28329,7 +28444,7 @@ system Skye
 	pos 5290.18 -5678.28
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dosuun
 	link Thakwaa
 	asteroids "small rock" 5 9.2394
@@ -28381,7 +28496,7 @@ system Skynara
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Alzoc
 	link Karazak
 	link "Spice Terminus"
@@ -28433,7 +28548,7 @@ system Sleheyron
 	government "Galactic Empire"
 	habitable 8640
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Formos
 	link Nimban
 	link Varl
@@ -28472,7 +28587,7 @@ system "Sluis Van"
 	pos 6090.47 -5800.89
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dagobah
 	link Queyta
 	link Triton
@@ -28528,7 +28643,7 @@ system "Smuggler's Run"
 	government "Galactic Empire"
 	habitable 621.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Naos"
 	link Wrea
 	asteroids "medium rock" 57 2.4024
@@ -28591,7 +28706,7 @@ system Sneeve
 	government "Galactic Empire"
 	habitable 368.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Chalacta
 	asteroids "small rock" 16 4.28
 	asteroids "medium rock" 56 2.88
@@ -28634,7 +28749,7 @@ system Socorro
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Llanic
 	link Reuss
 	asteroids "large metal" 1 3.332
@@ -28677,7 +28792,7 @@ system "Spice Terminus"
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Elshandruu Pica"
 	link Reuss
 	link Skynara
@@ -28727,7 +28842,7 @@ system Spirana
 	government "Galactic Empire"
 	habitable 466.56
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Denon
 	link Rhommamool
 	asteroids "small rock" 2 3.0576
@@ -28777,7 +28892,7 @@ system Sriluur
 	government "Galactic Empire"
 	habitable 806.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Delacrix
 	link Vaathkree
 	link "Junkfort Station"
@@ -28830,7 +28945,7 @@ system Stenos
 	pos 6866.66 -8006.75
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Elom
 	link Arda
 	asteroids "medium rock" 10 4.6782
@@ -28883,7 +28998,7 @@ system Stobar
 	government "Galactic Empire"
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Droecil
 	link Jurzan
 	asteroids "small rock" 1 7.3283
@@ -28928,7 +29043,7 @@ system Suarbi
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Elshandruu Pica"
 	link Svivren
 	asteroids "small rock" 99 4.4928
@@ -28969,7 +29084,7 @@ system Subterrel
 	pos 5849.07 -5502.77
 	habitable 760
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Polis Massa"
 	asteroids "small rock" 19 2.496
 	asteroids "medium rock" 80 2.472
@@ -29023,7 +29138,7 @@ system Sullust
 	pos 6086.45 -6028.8
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Eriadu
 	link Tshindral
 	asteroids "small rock" 3 3.488
@@ -29076,7 +29191,7 @@ system Sump
 	pos 5528.82 -5848.64
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Virgillia
 	link "Isde Naha"
 	link Thakwaa
@@ -29118,7 +29233,7 @@ system Svivren
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Meryx Minor"
 	link Suarbi
 	asteroids "small rock" 9 3.0628
@@ -29163,7 +29278,7 @@ system "Sy Myrth"
 	pos 6994.23 -7749.14
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Anzat
 	link Centares
 	link Dellalt
@@ -29224,7 +29339,7 @@ system Syvris
 	government "Galactic Empire"
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Arami
 	link Dubrava
 	link Hollastin
@@ -29291,7 +29406,7 @@ system Taanab
 	pos 6416.35 -7514.12
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gizer
 	link Tirahnn
 	link Hapes
@@ -29348,7 +29463,7 @@ system Takodana
 	pos 5490.29 -6267.97
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Chalcedon
 	link Natalon
 	asteroids "medium rock" 1 2.275
@@ -29393,7 +29508,7 @@ system Tammuz-an
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gamorr
 	link Shola
 	asteroids "small rock" 2 2.275
@@ -29444,7 +29559,7 @@ system Tangrene
 	pos 6410.04 -8174.13
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Edusa"
 	asteroids "small rock" 21 7.0644
 	asteroids "medium rock" 112 3.4104
@@ -29475,7 +29590,7 @@ system Targon
 	pos 7428.35 -7680.12
 	habitable 719.96
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Toong'l
 	asteroids "small rock" 1 3.9644
 	asteroids "medium rock" 1 2.8424
@@ -29533,7 +29648,7 @@ system Taris
 	pos 6297.46 -7807.11
 	habitable 1705
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Null
 	link Bandomeer
 	asteroids "small rock" 4 2.356
@@ -29600,7 +29715,7 @@ system Taskeed
 	pos 7087.23 -7678.14
 	habitable 4087.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dennogra
 	link Jabiim
 	asteroids "small rock" 1 4.24
@@ -29651,7 +29766,7 @@ system Tatooine
 	government Hutt
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Excarga
 	link Iskalon
 	link Pardror
@@ -29714,7 +29829,7 @@ system Taul
 	pos 5616.82 -5883.64
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lutrillia
 	link "Darlyn Boda"
 	asteroids "medium rock" 7 4.3264
@@ -29754,7 +29869,7 @@ system Telaris
 	pos 7254.86 -7914.26
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Pakuuri
 	asteroids "medium rock" 11 1.4168
 	asteroids "large rock" 3 2.783
@@ -29797,7 +29912,7 @@ system Telos
 	pos 6672.66 -8280.75
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Listehol
 	link "Pho Ph'eah"
 	link Ventooine
@@ -29853,7 +29968,7 @@ system Telti
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zeltros
 	asteroids "medium rock" 31 4.284
 	asteroids "large rock" 7 3.7128
@@ -29901,7 +30016,7 @@ system Tepasi
 	government "Galactic Empire"
 	habitable 1705
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Brentaal
 	link Caamas
 	asteroids "medium rock" 8 1.3804
@@ -29955,7 +30070,7 @@ system Terminus
 	pos 5703.99 -5508.14
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Delrakkim
 	link Imynusoph
 	link Manpha
@@ -30019,7 +30134,7 @@ system Teth
 	government "Galactic Empire"
 	habitable 1505.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Aduba
 	link Barab
 	link Ylesia
@@ -30081,7 +30196,7 @@ system Teyr
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Foless
 	link Fondor
 	asteroids "small rock" 26 3.12
@@ -30130,7 +30245,7 @@ system Thakwaa
 	pos 5430.69 -5784.76
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Skye
 	link Sump
 	asteroids "small rock" 4 6.9654
@@ -30179,7 +30294,7 @@ system Thalassia
 	pos 6558.04 -8218.13
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Maltha Obex"
 	link Ventooine
 	asteroids "large rock" 1 3.1374
@@ -30229,7 +30344,7 @@ system "The Maw"
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kessel
 	asteroids "large metal" 1 1.9635
 	belt 1655
@@ -30271,7 +30386,7 @@ system "The Red Twins"
 	pos 5407.04 -7821.13
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Esfandia
 	link Rago
 	link Ankus
@@ -30317,7 +30432,7 @@ system "The Redoubt"
 	government "Chiss Ascendancy"
 	habitable 858.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ilum
 	asteroids "large metal" 1 2.142
 	object
@@ -30538,7 +30653,7 @@ system "The Wheel"
 	pos 6873.35 -7748.12
 	habitable 2795
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Abhean
 	link Centares
 	asteroids "small rock" 12 9.6628
@@ -30585,7 +30700,7 @@ system Thila
 	pos 6701.66 -8215.75
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Seelos
 	asteroids "small rock" 2 3.0096
 	asteroids "medium rock" 1 3.876
@@ -30632,7 +30747,7 @@ system Thisspias
 	pos 6410.17 -7618.44
 	habitable 719.96
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Alpheridies
 	link Cartao
 	asteroids "large rock" 1 5.5269
@@ -30677,7 +30792,7 @@ system Thokos
 	pos 5814.84 -7350.32
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Coruscant
 	link Velusia
 	asteroids "small rock" 6 4.935
@@ -30719,7 +30834,7 @@ system Tholoth
 	government "Galactic Empire"
 	habitable 760
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Exodeen
 	link Denon
 	asteroids "medium rock" 5 4.3355
@@ -30773,7 +30888,7 @@ system Thorgeld
 	pos 5841.21 -7383.77
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Velusia
 	link Shawken
 	asteroids "medium rock" 8 2.9854
@@ -30816,7 +30931,7 @@ system Thustra
 	pos 6329.35 -7711.37
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Aquarius
 	link Wayland
 	asteroids "small rock" 29 1.4994
@@ -30862,7 +30977,7 @@ system Thyferra
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ghorman
 	link Yag'Dhul
 	asteroids "large metal" 1 4.992
@@ -30912,7 +31027,7 @@ system Tibrin
 	pos 5943.29 -5992.97
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Belsavis
 	link Eiattu
 	link Karfeddion
@@ -30957,7 +31072,7 @@ system Tinnel
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Loronar
 	link Nubia
 	asteroids "small rock" 6 7.9704
@@ -31003,7 +31118,7 @@ system Tinoon
 	pos 5784.82 -5842.64
 	habitable 553.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Delphon
 	link "Isde Naha"
 	link Eriadu
@@ -31047,7 +31162,7 @@ system Tirahnn
 	government "Galactic Empire"
 	habitable 2140.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Berchest
 	link Chazwa
 	link "Colla IV"
@@ -31092,7 +31207,7 @@ system Tiss'sharl
 	pos 6855.66 -8327.75
 	habitable 1505.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cadomai
 	asteroids "small rock" 4 2.52
 	asteroids "medium rock" 5 4.9392
@@ -31143,7 +31258,7 @@ system Togoria
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Charros
 	link Uyter
 	asteroids "small rock" 11 1.2285
@@ -31189,7 +31304,7 @@ system Tokmia
 	pos 5745.82 -5877.64
 	habitable 973.36
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Burnin Konn"
 	asteroids "small rock" 15 2.565
 	asteroids "medium rock" 13 1.767
@@ -31247,7 +31362,7 @@ system Toola
 	pos 7127.1 -8118.48
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Florn
 	link Quermia
 	link Troiken
@@ -31295,7 +31410,7 @@ system Toong'l
 	pos 7281.23 -7691.14
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Iego
 	link Targon
 	asteroids "small rock" 7 1.584
@@ -31339,7 +31454,7 @@ system Toprawa
 	pos 6507.66 -8068.75
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Pho Ph'eah"
 	link Serenno
 	link Junction
@@ -31385,7 +31500,7 @@ system Tosste
 	pos 5892.54 -5685.6
 	habitable 659.2
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Rutan
 	link Atravis
 	asteroids "small rock" 7 5.3298
@@ -31429,7 +31544,7 @@ system Toydaria
 	government "Galactic Empire"
 	habitable 2795
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Nal Hutta & Nar Shaddaa"
 	link Nanth'ri
 	link Sinta
@@ -31479,7 +31594,7 @@ system Trandosha
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Balamak
 	link Kashyyyk
 	link Uyter
@@ -31536,7 +31651,7 @@ system Tregillis
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Wrooria
 	link Vandelhelm
 	asteroids "medium rock" 8 2.9854
@@ -31579,7 +31694,7 @@ system Trenwyth
 	pos 5349.5 -6168.39
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cerea
 	asteroids "small rock" 5 1.5732
 	asteroids "medium rock" 5 1.5504
@@ -31619,7 +31734,7 @@ system Trian
 	pos 6963.66 -8378.75
 	habitable 659.2
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cadomai
 	link Bonadan
 	link Mytus
@@ -31670,7 +31785,7 @@ system Trigalis
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Farstine
 	link Rugosa
 	link Vergesso
@@ -31720,7 +31835,7 @@ system Triton
 	pos 6093.48 -5849.08
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bith
 	link "Sluis Van"
 	link Xagobah
@@ -31762,7 +31877,7 @@ system Trogan
 	pos 6950.35 -7801.12
 	habitable 2507.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Belderone
 	link Chad
 	link Jomark
@@ -31824,7 +31939,7 @@ system Troiken
 	pos 7092.66 -8157.75
 	habitable 1705
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Almania
 	link Toola
 	asteroids "large metal" 1 3.078
@@ -31879,7 +31994,7 @@ system Tshindral
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Medth
 	link Sullust
 	asteroids "small rock" 8 2.16
@@ -31928,7 +32043,7 @@ system Tund
 	pos 7415.23 -7569.14
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Malagarr
 	link Oseon
 	asteroids "small rock" 6 2.464
@@ -31986,7 +32101,7 @@ system "Tyed Kant"
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Alderaan
 	link Kattada
 	asteroids "small rock" 1 1.464
@@ -32032,7 +32147,7 @@ system Tynna
 	government "Galactic Empire"
 	habitable 5000
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Allanteen
 	link Chardaan
 	asteroids "medium rock" 1 4.1876
@@ -32076,7 +32191,7 @@ system Tython
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Empress Teta"
 	asteroids "small rock" 5 1.9712
 	asteroids "medium rock" 51 4.2812
@@ -32127,7 +32242,7 @@ system Uba
 	pos 5643.04 -7890.13
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Keitum
 	asteroids "small rock" 5 2.8633
 	asteroids "medium rock" 52 2.5498
@@ -32171,7 +32286,7 @@ system Ubrikkia
 	government "Galactic Empire"
 	habitable 2606.04
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kwenn
 	link Randon
 	asteroids "small rock" 3 2.6208
@@ -32223,7 +32338,7 @@ system Ukio
 	government "Rebel Alliance"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Molavar
 	link Rishi
 	link Scarif
@@ -32276,7 +32391,7 @@ system Ulmatra
 	government "Galactic Empire"
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kafane
 	link Sakiya
 	asteroids "small rock" 6 0.768
@@ -32326,7 +32441,7 @@ system Ultaar
 	pos 6903.35 -7577.12
 	habitable 945
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bimmisaari
 	link Metalorn
 	link Sarka
@@ -32393,7 +32508,7 @@ system Umbara
 	government "Galactic Empire"
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zeltros
 	link Kashyyyk
 	asteroids "small rock" 64 4.323
@@ -32442,7 +32557,7 @@ system Uogo'cor
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ruusan
 	link Sinta
 	link Lexrul
@@ -32498,7 +32613,7 @@ system Uquine
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kattada
 	link Commenor
 	asteroids "small rock" 2 3.872
@@ -32538,7 +32653,7 @@ system Urce
 	pos 5949.56 -7844.62
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Genassa
 	asteroids "small rock" 13 5.2624
 	asteroids "medium rock" 50 3.1096
@@ -32581,7 +32696,7 @@ system Utapau
 	pos 6169.78 -5690.45
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Elrood
 	asteroids "small rock" 5 6.705
 	asteroids "medium rock" 5 2.25
@@ -32632,7 +32747,7 @@ system "Utegetu Nebula"
 	pos 5342.04 -7645.13
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Rago
 	link Ilum
 	asteroids "medium rock" 42 3.7312
@@ -32670,7 +32785,7 @@ system Uviuy
 	pos 5918.17 -7476.44
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Champala
 	link Dankayo
 	link Wakeelmui
@@ -32722,7 +32837,7 @@ system Uyter
 	government "Galactic Empire"
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Togoria
 	link Lantillies
 	link Nazzri
@@ -32769,7 +32884,7 @@ system Vaathkree
 	government "Galactic Empire"
 	habitable 719.96
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Boonta
 	link Cyborrea
 	link Sriluur
@@ -32819,7 +32934,7 @@ system Vakkar
 	pos 5666.18 -7492.31
 	habitable 640
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Palanhi
 	link Reecee
 	asteroids "small rock" 2 5.6592
@@ -32872,7 +32987,7 @@ system Valc
 	pos 5560.04 -8191.13
 	habitable 1313.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Entralla
 	asteroids "medium rock" 26 2.86
 	asteroids "large rock" 23 1.69
@@ -32921,7 +33036,7 @@ system Vandelhelm
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Woostri
 	link Tregillis
 	asteroids "small rock" 5 5.076
@@ -32977,7 +33092,7 @@ system Vandor
 	government "Galactic Empire"
 	habitable 3645
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cularin
 	link Lorahns
 	asteroids "small rock" 6 1.7088
@@ -33030,7 +33145,7 @@ system Vandyne
 	pos 6415.04 -8067.13
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Axxila
 	link "Edusa"
 	asteroids "small rock" 52 1.344
@@ -33084,7 +33199,7 @@ system Vannell
 	government "Unaffiliated"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link N'zoth
 	asteroids "small rock" 1 1.4025
 	asteroids "medium rock" 4 2.618
@@ -33128,7 +33243,7 @@ system Varl
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Haaska
 	link Sakiya
 	link Sleheyron
@@ -33181,7 +33296,7 @@ system Vassek
 	pos 5501.08 -6024.89
 	habitable 2372.76
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Lotho Minor"
 	asteroids "small rock" 13 5.5692
 	asteroids "medium rock" 126 5.4366
@@ -33225,7 +33340,7 @@ system Vaynai
 	pos 7068.66 -8197.75
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Malachor
 	asteroids "small rock" 21 3.9798
 	asteroids "medium rock" 7 4.8708
@@ -33269,7 +33384,7 @@ system Velmor
 	pos 6601.23 -7673.21
 	habitable 135
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Azure
 	link Garos
 	asteroids "small rock" 1 6.1204
@@ -33312,7 +33427,7 @@ system Velusia
 	pos 5818.89 -7370.37
 	habitable 1505.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Panto
 	link Thokos
 	link Thorgeld
@@ -33364,7 +33479,7 @@ system Vena
 	government "Galactic Empire"
 	habitable 640
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Nazzri
 	link "Onderon & Dxun"
 	asteroids "small rock" 1 3.1248
@@ -33421,7 +33536,7 @@ system Vendaxa
 	government "Galactic Empire"
 	habitable 2140.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Milagro
 	asteroids "small rock" 3 2.2848
 	asteroids "medium rock" 11 5.0184
@@ -33482,7 +33597,7 @@ system Ventooine
 	pos 6616.04 -8365.13
 	habitable 2140.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Telos
 	link Thalassia
 	asteroids "small rock" 1 1.2342
@@ -33537,7 +33652,7 @@ system Veragi
 	pos 5892.04 -8451.13
 	habitable 2035
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Helska
 	link Sernpidal
 	link Plooma
@@ -33578,7 +33693,7 @@ system Vergesso
 	government "Galactic Empire"
 	habitable 5000
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Trigalis
 	link Vohai
 	asteroids "small rock" 61 5.29
@@ -33623,7 +33738,7 @@ system Vestar
 	pos 6260.14 -5544.87
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cotellier
 	asteroids "small rock" 19 3.0226
 	asteroids "medium rock" 17 2.4514
@@ -33687,7 +33802,7 @@ system Vicondor
 	pos 5618.99 -7675.04
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Dorin
 	link Vortex
 	asteroids "small rock" 17 2.5896
@@ -33736,7 +33851,7 @@ system Vinsoth
 	pos 6287.66 -8011.75
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Axxila
 	link Botajef
 	link "Ord Cestus"
@@ -33790,7 +33905,7 @@ system Virgillia
 	pos 5414.68 -5878.08
 	habitable 745.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Lipsec
 	link Sump
 	asteroids "small rock" 6 6.4064
@@ -33841,7 +33956,7 @@ system Vjun
 	pos 6735.97 -7849.69
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Gromas
 	link Lucazec
 	asteroids "small rock" 17 1.43
@@ -33894,7 +34009,7 @@ system Vodran
 	government "Galactic Empire"
 	habitable 745.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Klatooine
 	link Kafane
 	asteroids "small rock" 113 12.6
@@ -33950,7 +34065,7 @@ system Vogel
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vondarc
 	link Opiteihr
 	asteroids "small rock" 49 3.0056
@@ -33992,7 +34107,7 @@ system Vohai
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Elshandruu Pica"
 	link "Shadda-Bi Boran"
 	link Vergesso
@@ -34037,7 +34152,7 @@ system Vondarc
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Haruun Kal"
 	link Vogel
 	link Medth
@@ -34082,7 +34197,7 @@ system Vortex
 	pos 5673.2 -7697.12
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Ord Mantell"
 	link Vicondor
 	link Fornax
@@ -34119,7 +34234,7 @@ system Voss
 	pos 7067.86 -7936.26
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Cadinth
 	link Jaminere
 	asteroids "medium rock" 29 6.1594
@@ -34166,7 +34281,7 @@ system Vulpter
 	government "Unaffiliated"
 	habitable 2140.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Zug
 	asteroids "medium rock" 60 4.5696
 	asteroids "large rock" 35 4.0656
@@ -34200,7 +34315,7 @@ system "Vurdon Ka"
 	government "Galactic Empire"
 	habitable 806.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Chazwa
 	link Raithal
 	asteroids "medium rock" 9 5.5176
@@ -34252,7 +34367,7 @@ system Wakeelmui
 	pos 5921.89 -7435.37
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Uviuy
 	link Brentaal
 	link Challon
@@ -34296,7 +34411,7 @@ system "Wayfinder 1"
 	pos 4804.67 -7672.59
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Wayfinder 2"
 	link Csilla
 	asteroids "large metal" 1 3.842
@@ -34341,7 +34456,7 @@ system "Wayfinder 2"
 	pos 4849.88 -7690.12
 	habitable 3780
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Wayfinder 3"
 	link "Wayfinder 1"
 	asteroids "small rock" 15 1.584
@@ -34397,7 +34512,7 @@ system "Wayfinder 3"
 	pos 4807.03 -7705.76
 	habitable 5000
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Wayfinder 4"
 	link "Wayfinder 2"
 	asteroids "small rock" 15 6.9498
@@ -34443,7 +34558,7 @@ system "Wayfinder 4"
 	pos 4850.29 -7721.73
 	habitable 2795
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Wayfinder 5"
 	link "Wayfinder 3"
 	asteroids "small rock" 70 6.16
@@ -34496,7 +34611,7 @@ system "Wayfinder 5"
 	government Unaffiliated
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Wayfinder 4"
 	link Exegol
 	asteroids "small rock" 31 1.92
@@ -34546,7 +34661,7 @@ system Wayland
 	pos 6282.85 -7736.41
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Myrkr
 	link Ploo
 	link Thustra
@@ -34601,7 +34716,7 @@ system Weerden
 	government "Galactic Empire"
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Panto
 	link Coruscant
 	asteroids "large metal" 1 1.53
@@ -34646,7 +34761,7 @@ system "Wellspring of Life"
 	government Uninhabited
 	habitable 851.84
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	music ambient/buryingthedead
 	link Kalist
 	asteroids "small rock" 13 3.015
@@ -34703,7 +34818,7 @@ system Wobani
 	government "Galactic Empire"
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Anzat
 	link Metalorn
 	link Ultaar
@@ -34763,7 +34878,7 @@ system Woostri
 	government "Galactic Empire"
 	habitable 486.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vandelhelm
 	link Daemen
 	asteroids "small rock" 10 1.6082
@@ -34815,7 +34930,7 @@ system Wrea
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ryloth
 	link "Smuggler's Run"
 	asteroids "small rock" 4 2.3128
@@ -34869,7 +34984,7 @@ system Wrooria
 	government "Galactic Empire"
 	habitable 270
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Harrin
 	link Yag'Dhul
 	link Tregillis
@@ -34915,7 +35030,7 @@ system Xagobah
 	pos 6140.67 -5877.19
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Kabal
 	link Triton
 	asteroids "medium rock" 5 0.9086
@@ -34962,7 +35077,7 @@ system Xorth
 	government "Galactic Empire"
 	habitable 912.6
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ixtlar
 	link Broest
 	link Ator
@@ -35016,7 +35131,7 @@ system "Yabol Opa"
 	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Castell
 	link Ralltiir
 	asteroids "small rock" 19 2.34
@@ -35066,7 +35181,7 @@ system Yag'Dhul
 	government "Galactic Empire"
 	habitable 1705
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Harrin
 	link "Mechis III"
 	link Thyferra
@@ -35129,7 +35244,7 @@ system "Yaga Minor"
 	pos 5660.04 -8145.13
 	habitable 425.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Entralla
 	link "Prefsbelt IV"
 	asteroids "small rock" 5 2.7948
@@ -35172,7 +35287,7 @@ system Yavin
 	pos 6587.66 -7994.75
 	habitable 2160
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Maridun
 	link Junction
 	link Celanon
@@ -35229,7 +35344,7 @@ system Yinchorr
 	pos 5868.99 -7626.84
 	habitable 2201.68
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Datar
 	link Shili
 	asteroids "small metal" 2 0.75
@@ -35279,7 +35394,7 @@ system Ylesia
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Circumtore
 	link "Nal Hutta & Nar Shaddaa"
 	link Teth
@@ -35327,7 +35442,7 @@ system Zaddja
 	pos 5197.5 -6471.39
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Codia
 	link Gannaria
 	asteroids "small rock" 3 2.2032
@@ -35382,7 +35497,7 @@ system Zakuul
 	pos 4585.7 -6752.77
 	habitable 1050.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ahch-To
 	link Lwhekk
 	asteroids "small rock" 42 9.66
@@ -35436,7 +35551,7 @@ system Zanbar
 	pos 6442.86 -7814.26
 	habitable 320
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Phindar
 	link Mandalore
 	link Kalevala
@@ -35486,7 +35601,7 @@ system "Zardossa Stix"
 	government "Galactic Empire"
 	habitable 2140.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Kitel Phard"
 	asteroids "small rock" 2 4.7385
 	asteroids "medium rock" 77 3.1941
@@ -35531,7 +35646,7 @@ system ZeHeth
 	pos 6179.82 -6216.05
 	habitable 9265
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Malastare
 	link Pax
 	asteroids "small rock" 1 2.7456
@@ -35582,7 +35697,7 @@ system Zeltros
 	government "Galactic Empire"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ambria
 	link Celegia
 	link Umbara
@@ -35629,7 +35744,7 @@ system Zhanox
 	pos 5686.82 -5898.64
 	habitable 1505.92
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Bendeluum
 	link Ione
 	link "Burnin Konn"
@@ -35686,7 +35801,7 @@ system Zhar
 	government "Galactic Empire"
 	habitable 945
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Llanic
 	link Farstine
 	asteroids "large metal" 1 1.625
@@ -35738,7 +35853,7 @@ system Ziost
 	pos 6854.66 -8193.75
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Korriban
 	asteroids "medium rock" 2 3.24
 	asteroids "large rock" 1 4.32
@@ -35782,7 +35897,7 @@ system Zolan
 	government "Galactic Empire"
 	habitable 233.28
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link "Mon Gazza"
 	link Rintonne
 	asteroids "small rock" 4 2.8925
@@ -35824,7 +35939,7 @@ system "Zonama Sekot"
 	government Ferro
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Mytus
 	asteroids "small rock" 13 3.015
 	asteroids "medium rock" 70 4.995
@@ -35873,7 +35988,7 @@ system Zug
 	government "Unaffiliated"
 	habitable 625
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Vulpter
 	link Foerost
 	link Broest
@@ -35932,7 +36047,7 @@ system Zygerria
 	pos 7003.66 -8240.75
 	habitable 1715
 	music ambient/wait
-	arrival 2000
+	arrival 1000
 	link Ranroon
 	link Cantonica
 	link Kadavo
@@ -36028,6 +36143,15 @@ planet Axum
 	spaceport `	Heavily urbanised, it has a far greater industrial output than its sister planet Anaxes, though less prestige. The Axumites are known to be an exceedingly-formal and well-mannered people, and extremely proud of Axum's history as a Core Founder and the legacy of the Azure Imperium.`
 	shipyard "Imperial Navy Ships"
 
+planet "Bakura"
+	attributes agffa_galacticempire agffa_rebelalliance agffa_wildspace agffa_agriworld agffa_trade agffa_city agffa_industry
+	landscape land/unknown
+	music ambient/hangar
+	description `Bakura is a rich, green and blue planet in the Bakura system of the Shiritoku Spur, located on the isolated edge of the Outer Rim, formally a part of Wild Space. Bakura's capital city Salis D'aar is known as an important spaceport and financial center in the Bakura sector, while the planet itself serves as one of the largest commercial hubs in the Wild Space region.`
+	spaceport `	Bakura's primary industry is the manufacture of repulsorlift coils; the production of tools and furniture using these coils is a secondary industry. The refinement of raw metals and minerals mined from the planet's two moons provides for another industry, while the native has namana tree helped the planet develop a significant agricultural sector.`
+	outfitter "Miscellaneous Outfits"
+	outfitter "Secondary Weapons Outfits"
+
 planet "Berchest"
 	attributes agffa_galacticempire agffa_colonies agffa_trade agffa_20wonders agffa_tourism
 	landscape land/unknown
@@ -36078,6 +36202,14 @@ planet "Castell"
 	description `The Commerce Guild had "interests" on Castell and their Presidente Shu Mai, a member of the native Gossam species, hailed from the planet. Castell sided with the Confederacy of Independent Systems during the Clone Wars during which it was defended by Diamond-class cruisers, Recusant-class Commerce Guild destroyers, as well as Commerce Guild Bombers and Commerce Guild corvettes.`
 	spaceport `	The Commerce Guild was a trade conglomerate made up of major commercial entities including their Punitive Security Forces, the Mining Guild and the SoroSuub Corporation. The Guild was known for pressuring smaller companies to join and had both the power and wealth to buy entire planets. Consequently the Commerce Guild enslaved the entire population of Gossams on Castell. The guild was dissolved into its subsidiaries following the execution of Presidente Shu Mai and was imperialised by the Galactic Empire in 19 BBY.`
 
+planet Castilon
+	landscape land/castilon
+	description `Castilon is a terrestrial planet covered in vast oceans and dotted with isolated islands, It is located in the Tashtor sector's Castilon system, within the Mid Rim, also falling in the region known as the Western Reaches. It has an atmosphere that is breathable to the various species that inhabit it, including humans.`
+	spaceport `	Castilon is the homeworld of the Chelidae, a species of amphibian sentients who prefer to live above the water, and is also home to many non sentient creatures, including both the avian speagulls and aquatic creatures such as the sharvo fish, snarlfish, and the massive rokkna. While most of the planet is covered in ocean, there are a few inhabited structures above the surface of the water.`
+	shipyard "Resistance Ships"
+	outfitter "Miscellaneous Outfits"
+	outfitter "Secondary Weapons Outfits"
+
 planet "Chandrila"
 	attributes agffa_galacticempire agffa_core agffa_wealthy
 	landscape land/chandrila
@@ -36112,6 +36244,17 @@ planet Colony
 	music ambient/hangar
 	description Colony
 	spaceport `	The Colony.`
+
+planet "The Colossus"
+	landscape land/colossus
+	description `The Colossus is a mobile aircraft refueling station on the ocean planet Castilon in the Western Reaches of the Mid Rim. It was operated by Captain Imanuel Doza, who resides in the station's upper levels with his daughter Torra. The Colossus is defended by a squadron of skilled pilots, known as Ace Squadron, and is also home to many other individuals such as Jarek Yeager, who owns a repair shop on the station.`
+	spaceport `	The Colossus is a supertanker fuel depot that can operate in maritime environments as well as space. The Colossus has a large dagger-shaped structure with only the upper decks being visible when the fuel depot is immersed in water. As a hyperspace-capable space vessel, the Colossus is equipped with boosters and a Class 2 hyperdrive. In addition, the Colossus is also equipped with escape pods.The Colossus lower levels hosts the station's engineering room, the hyperdrive chamber, and an escape pod bay. The Colossus os equipped with turbines which allows the station to submerge underwater.`
+	shipyard "First Order Ships"
+	shipyard "Resistance Ships"
+	shipyard "New Republic Ships"
+	shipyard "Rebel Alliance Ships"
+	outfitter "Miscellaneous Outfits"
+	outfitter "Secondary Weapons Outfits"
 
 planet "Commenor"
 	attributes agffa_galacticempire agffa_rebelalliance agffa_core agffa_trade
@@ -36170,12 +36313,6 @@ planet "D'Qar"
 	spaceport `	The Rebel base here is located mostly underneath the surface of D'Qar, with only the facility's landing areas and antenna arrays exposed. Inside the base is a command center, as well as as multiple hangars, both above and underground, used to store T-65B X-wing starfighters. Underneath the hangars is an area known as the maintenance level, where damaged vehicles can go to be repaired. Surrounding the base is thick jungle foliage, which helps hide the facility from air and ground sensors and conceal potential power leaks.`
 	shipyard "Rebel Alliance Ships"
 
-planet "Death Star II"
-	landscape land/unknown
-	tribute 100000
-		threshold 7000
-		fleet deathstariifleet
-
 planet "Empress Teta"
 	attributes agffa_galacticempire agffa_miningguild agffa_core agffa_city
 	landscape land/rilium
@@ -36194,6 +36331,12 @@ planet "Empress Teta"
 	shipyard "Vong Ships"
 	outfitter "Miscellaneous Outfits"
 	outfitter "Secondary Weapons Outfits"
+
+planet "Endor (Moon)"
+	attributes agffa_uninhabited agffa_outerrim
+	landscape land/ortoplutonia
+	music ambient/hangar
+	description `Endor (also known as the Forest Moon of Endor and the Sanctuary Moon) is a small forested moon orbiting the gas giant planet of Endor and was the farthest moon away from it. An enchanted world, Endor is notable for being the native home of the Ewoks.`
 
 planet "Esseles"
 	attributes agffa_galacticempire agffa_core agffa_tourism agffa_industry agffa_shipyard
@@ -36245,6 +36388,13 @@ planet "Filordis"
 	description `Filordis is a planet in the Inner Rim, orbiting a red star. It is a wasteland of thunderstorms and fierce winds. `
 	spaceport `	Its people, the Filordi, constantly seek ways to either improve their homeworld, or leave it. Some of them terraformed part of the planet. Filordis is also one of the head offices of the Metatheran Cartel, a Filordi-dominated trade organisation.`
 
+planet "Florn"
+	attributes agffa_uninhabited agffa_outerrim
+	landscape land/unknown
+	music ambient/hangar
+	description `Florn is the homeworld of the Lamproid species, a species which has  often been wrongly viewed as non-sentient. This planet is mostly dense jungles with a few large oceans. The jungles of Florn are said to be so deadly that any sentient on Florn's surface without hyperaccelerated nerve implants, or a similar level of natural reflexes, risks certain and sudden death.`
+	spaceport `	The galactic community has only became aware that the planet is the Lamproid homeworld recently, and the spaceport reflects that.`
+
 planet "Foerost"
 	attributes agffa_galacticempire agffa_core agffa_trade agffa_industry agffa_shipyard
 	landscape land/unknown
@@ -36285,6 +36435,15 @@ planet "Hok"
 	music ambient/hangar
 	description `Hok is a planet split into two sides. It is tidally locked meaning the same hemisphere is always facing the star it orbits. The closer side is a desert wasteland that looks like Tatooine, while the other half is surrounded by pure darkness. This area also has a rich supply of crystals on which the people mined and traded.`
 	spaceport `	It was established as a Gran colony in 1000 BBY during an expansion period. However, the emigrating colonists left a significant imbalance in Gran society on their homeworld of Kinyen. Feeling they were destroying too many families, and diluting the Gran race, the government reacted with isolationist policies and prohibited unauthorised emigration from Kinyen and limited offworlders both Gran and other species to special "alien" quarters in their cities. This protected the Gran society, but it also isolated the Gran on Hok and Malastare who had begun to form strong bonds to their new homes. The Gran colonies continue independently, continuing the strong social bonds of Gran society but with loosened social codes. Unfortunately, the looser social codes allow for more corruption in the upper levels of colonial Gran society.`
+
+planet "Hoth"
+	attributes agffa_rebelalliance agffa_outerrim
+	landscape land/hoth
+	music ambient/hangar
+	description `Hoth is the sixth planet of the remote Hoth system. A desolate world covered with ice and snow, located in the Anoat sector, the planet is a rarely-traveled portion of the Outer Rim Territories,`
+	spaceport `	Located on the fringe of the Ivax Nebula in the Anoat sector of the Greater Javin along the Ison Corridor, Hoth orbits the blue-white star Hoth on a wide elliptical orbit. The planet is the secret location of the Alliance to Restore the Republic's Echo Base.`
+	government Uninhabited
+	shipyard "Rebel Alliance Ships" 
 
 planet "Ixtlar"
 	attributes agffa_galacticempire agffa_core agffa_trade agffa_smuggler
@@ -36526,11 +36685,10 @@ planet "Star Forge"
 planet "Star Wars Wormhole"
 	landscape land/unknown
 
-planet "Starkiller Base (Ilum)"
+planet "Ilum"
 	landscape land/unknown
 	music ambient/hangar
-	description `Starkiller Base was a mobile forested ice planet rich in kyber crystals[5] that was located in the Unknown Regions. The First Order, a regime that believed themselves to be the successors to the ideals of the Galactic Empire, converted the planet into a base of operations owing to its unique energy-transmitting crystalline deposits, and used it to house a superweapon capable of destroying entire star systems. The superweapon consumed suns as a power source. Its mobility was provided by rocket ports on the far side of the base.`
-	spaceport `	Ilum was a snow-covered planet located in the 7G sector of the Unknown Regions, within the Ilum system. In the system, Ilum was fifth from its parent star Asar, a blue dwarf, located roughly equidistant from Asar and the system's cometary cloud. Ilum had been utilized by the Jedi Order for the Gathering, a rite of passage in which Jedi younglings must find and harvest kyber crystals for their lightsabers, for thousands of standard years.`
+	description `Ilum is a snow-covered planet located in the 7G sector of the Unknown Regions, within the Ilum system. In the system, Ilum is fifth from its parent star Asar, a blue dwarf, located roughly equidistant from Asar and the system's cometary cloud. Ilum had been utilised by the Jedi Order for the Gathering, a rite of passage in which Jedi younglings must find and harvest kyber crystals for their lightsabers, for thousands of standard years.`
 
 planet "Tatooine"
 	landscape land/tatooine

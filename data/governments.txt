@@ -86,10 +86,10 @@ government "Sith Eternal"
 	swizzle 0
 	color .99 .99 .99
 		
-	"player reputation" 0
+	"player reputation" -1000
 	"attitude toward"
 		"Bounty Hunter" 0
-		"Civilian" 0.04
+		"Civilian" -0.04
 		"Scum & Villainy" -0.04
 	bribe 0
 
@@ -105,6 +105,7 @@ government "Civilian"
 		"Galactic Empire" 0
 		"Rebel Alliance" 0
 		"Scum & Villainy" -0.04
+		"Sith Eternal" -0.04
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly civilian"
@@ -230,9 +231,3 @@ government "Yuuzhan Vong"
 	"friendly hail" "friendly pirate"
 	"hostile hail" "hostile pirate"
 	raid "pirate raid"
-
-government "Galactic Republic"
-	"player reputation" -1000
-	swizzle 0
-	"crew attack" 0
-	"crew defense" 0

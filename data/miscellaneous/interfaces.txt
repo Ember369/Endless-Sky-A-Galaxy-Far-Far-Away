@@ -12,6 +12,8 @@ interface "menu background"
 	sprite "_menu/coruscant"
 		center 0 280
 	sprite "_menu/deathstarii"
-		center 140 180
-	sprite "_menu/logo"
+		center 120 190
+	sprite "_menu/imperialfleet"
+		center -80 220
+	sprite "_menu/agffalogo"
 		center 0 -280

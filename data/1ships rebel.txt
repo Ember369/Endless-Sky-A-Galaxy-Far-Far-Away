@@ -12,7 +12,7 @@ ship "A/SF-01 B-Wing"
 	sprite "ship/asf01bwinggrey"
 	thumbnail "thumbnail/asf01bwinggrey"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 220000
 		"shields" 3200
@@ -67,11 +67,11 @@ ship "A/SF-01 B-Wing"
 
 
 
-ship "A/SF-01 B-Wing (Fighter)"
+ship "A/SF-01 B-Wing (Bay)"
 	sprite "ship/asf01bwinggrey"
 	thumbnail "thumbnail/asf01bwinggrey"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 220000
 		"shields" 3200
@@ -130,7 +130,7 @@ ship "A/SF-01 B-Wing" "A/SF-01 B-Wing (Stripe)"
 	sprite "ship/asf01bwingstripe"
 	thumbnail "thumbnail/asf01bwingstripe"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 220000
 		"shields" 3200
@@ -185,11 +185,11 @@ ship "A/SF-01 B-Wing" "A/SF-01 B-Wing (Stripe)"
 
 
 
-ship "A/SF-01 B-Wing (Fighter)" "A/SF-01 B-Wing (Stripe) (Fighter)"
+ship "A/SF-01 B-Wing (Bay)" "A/SF-01 B-Wing (Stripe) (Bay)"
 	sprite "ship/asf01bwingstripe"
 	thumbnail "thumbnail/asf01bwingstripe"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 220000
 		"shields" 3200
@@ -248,7 +248,7 @@ ship "A/SF-01 B-Wing B6"
 	sprite "ship/asf01bwingb6"
 	thumbnail "thumbnail/asf01bwingb6"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 230000
 		"shields" 3200
@@ -265,7 +265,7 @@ ship "A/SF-01 B-Wing B6"
 		"engine capacity" 5
 		"hullslot capacity" 1
 		"shieldslot capacity" 1
-		"compositebeamlaserb6 capacity" -1
+		"compositebeamlaserb6 capacity" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 320
@@ -306,11 +306,11 @@ ship "A/SF-01 B-Wing B6"
 
 
 
-ship "A/SF-01 B-Wing B6 (Fighter)"
+ship "A/SF-01 B-Wing B6 (Bay)"
 	sprite "ship/asf01bwingb6"
 	thumbnail "thumbnail/asf01bwingb6"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 230000
 		"shields" 3200
@@ -372,7 +372,7 @@ ship "A/SF-01 Dual B-Wing"
 	sprite "ship/asf01dualbwing"
 	thumbnail "thumbnail/asf01dualbwing"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 240000
 		"shields" 3250
@@ -428,11 +428,11 @@ ship "A/SF-01 Dual B-Wing"
 
 
 
-ship "A/SF-01 Dual B-Wing (Fighter)"
+ship "A/SF-01 Dual B-Wing (Bay)"
 	sprite "ship/asf01dualbwing"
 	thumbnail "thumbnail/asf01dualbwing"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 240000
 		"shields" 3250
@@ -491,7 +491,7 @@ ship "Assault Frigate Mark II"
 	sprite "ship/assaultfrigatemarkii"
 	thumbnail "thumbnail/assaultfrigatemarkii"
 	attributes
-		category "Heavy Warship"
+		category "Heavy Cruiser "
 		"cost" 56500000
 		"shields" 151000
 		"hull" 50000
@@ -560,7 +560,7 @@ ship "Bussard Tanker"
 	sprite "ship/bussardtanker"
 	thumbnail "thumbnail/bussardtanker"
 	attributes
-		category "Heavy Freighter"
+		category "Bulk Freighter "
 		"cost" 4650000
 		"shields" 30000
 		"hull" 11000
@@ -610,7 +610,7 @@ ship "BTL-A4 Y-Wing"
 	sprite ship/btla4ywing
 	thumbnail thumbnail/btla4ywing
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 135000
 		shields 1600
@@ -663,11 +663,11 @@ ship "BTL-A4 Y-Wing"
 	description "Artwork/model by Unusualsuspex"
 
 
-ship "BTL-A4 Y-Wing (Fighter)"
+ship "BTL-A4 Y-Wing (Bay)"
 	sprite ship/btla4ywing
 	thumbnail thumbnail/btla4ywing
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 135000
 		shields 1600
@@ -725,7 +725,7 @@ ship "BTL-S3 Y-Wing"
 	sprite ship/btla4ywing
 	thumbnail thumbnail/btla4ywing
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 135000
 		shields 1600
@@ -779,11 +779,11 @@ ship "BTL-S3 Y-Wing"
 
 
 
-ship "BTL-S3 Y-Wing (Fighter)"
+ship "BTL-S3 Y-Wing (Bay)"
 	sprite ship/btla4ywing
 	thumbnail thumbnail/btla4ywing
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 135000
 		shields 1600
@@ -833,907 +833,6 @@ ship "BTL-S3 Y-Wing (Fighter)"
 	turret 0 -14 "I1 Ion Turret"
 	explode "large explosion" 3
 	description "The BTL-S3 is the most common Y-wing configuration. A two-man strike starfighter, the first crew member pilots the craft, while the second acts as a gunner and controls the two swivel-mounted ion cannons, located right on top of the cockpit."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "CC-7700 Interdictor Frigate"
-	sprite "ship/cc7700frigate"
-	thumbnail "thumbnail/cc7700frigate"
-	attributes
-		category "Light Warship"
-		"cost" 3800000
-		"shields" 26500
-		"hull" 10500
-		"required crew" 50
-		"bunks" 150
-		"mass" 1770
-		"drag" 7.8
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 40
-		"outfit space" 326
-		"weapon capacity" 174
-		"engine capacity" 88
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"R2 Laser Cannon" 2
-		"R4Dual Turbolaser Turret" 2
-		"R2Dual Laser Turret" 4
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"P3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine 0 220.5
-	engine -48 211.5
-	engine 48 211.5
-	gun -14 -194 "R2 Laser Cannon"
-	gun 14 -194 "R2 Laser Cannon"
-	turret -56.5 68 "R2Dual Laser Turret"
-	turret 56.5 68 "R2Dual Laser Turret"
-	turret -56 9 "R2Dual Laser Turret"
-	turret 56 9 "R2Dual Laser Turret"
-	turret -26 -126.5 "R4Dual Turbolaser Turret"
-	turret 26 -126.5 "R4Dual Turbolaser Turret"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The CC-7700 frigate is a class of frigate used by the Imperial Navy, an updated version of the earlier Detainer CC-2200. The CC-7700 is an Interdictor vessel, due to its ability to emit an interdiction field, which prevents other ships from entering hyperspace and can be used to maroon vessels traveling at lightspeed. The CC-7700 is lightly armed and is not intended to act as a battleship. Instead, it is designed to be a platform for gravity well projectors with a mission profile similar to the Immobiliser 418 Cruiser."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "CR90 Corvette"
-	sprite "ship/cr90corvette"
-	thumbnail "thumbnail/cr90corvette"
-	attributes
-		category "Light Warship"
-		"cost" 3500000
-		"shields" 24000
-		"hull" 9600
-		"required crew" 46
-		"bunks" 400
-		"mass" 1500
-		"drag" 9.25
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 115
-		"outfit space" 326
-		"weapon capacity" 174
-		"engine capacity" 88
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"R2 Laser Cannon" 2
-		"R2Heavy Laser Turret" 4
-		"R4Dual Turbolaser Turret" 2
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"O3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine -45.5 189
-	engine 45.5 189
-	engine -30.5 189
-	engine 30.5 189
-	engine -15 189
-	engine 15 189
-	engine 0 189
-	gun -22.5 -174 "R2 Laser Cannon"
-	gun 22.5 -174 "R2 Laser Cannon"
-	turret -27 -50 "R2Heavy Laser Turret"
-	turret 27 -50 "R2Heavy Laser Turret"
-	turret -27 -74.5 "R2Heavy Laser Turret"
-	turret 27 -74.5 "R2Heavy Laser Turret"
-	turret 0 -107.5 "R4Dual Turbolaser Turret"
-	turret 0 -107.5 "R4Dual Turbolaser Turret"
-	fighter -44 48 under
-	fighter 44 48 under
-	fighter 0 48
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "CR90 corvettes, also known as Corellian corvettes or blockade runners, are consular vessels manufactured by the Corellian Engineering Corporation, initially used within the late Galactic Republic and Imperial Senate. Despite not being designed as a combat-oriented vessel, many vessels have been appropriated by the early rebellion and Rebel Alliance."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "CR90 Corvette" "CR90 Corvette (Liberator)"
-	sprite "ship/cr90corvetteliberator"
-	thumbnail "thumbnail/cr90corvetteliberator"
-	attributes
-		category "Light Warship"
-		"cost" 3500000
-		"shields" 24000
-		"hull" 9600
-		"required crew" 46
-		"bunks" 400
-		"mass" 1500
-		"drag" 9.25
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 115
-		"outfit space" 326
-		"weapon capacity" 174
-		"engine capacity" 88
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"R2 Laser Cannon" 2
-		"R2Heavy Laser Turret" 4
-		"R4Dual Turbolaser Turret" 2
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"O3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine -45.5 189
-	engine 45.5 189
-	engine -30.5 189
-	engine 30.5 189
-	engine -15 189
-	engine 15 189
-	engine 0 189
-	gun -19 -175 "R2 Laser Cannon"
-	gun 19 -175 "R2 Laser Cannon"
-	turret -27 -50 "R2Heavy Laser Turret"
-	turret 27 -50 "R2Heavy Laser Turret"
-	turret -27 -74.5 "R2Heavy Laser Turret"
-	turret 27 -74.5 "R2Heavy Laser Turret"
-	turret 0 -107.5 "R4Dual Turbolaser Turret"
-	turret 0 -107.5 "R4Dual Turbolaser Turret"
-	fighter -44 48 under
-	fighter 44 48 under
-	fighter 0 48
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "CR90 corvettes, also known as Corellian corvettes or blockade runners, are consular vessels manufactured by the Corellian Engineering Corporation, initially used within the late Galactic Republic and Imperial Senate. Despite not being designed as a combat-oriented vessel, many vessels have been appropriated by the early rebellion and Rebel Alliance."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "CR90 Corvette" "CR90 Corvette (Modified)"
-	sprite "ship/cr90corvettemodified"
-	thumbnail "thumbnail/cr90corvettemodified"
-	attributes
-		category "Light Warship"
-		"cost" 3600000
-		"shields" 24200
-		"hull" 9600
-		"required crew" 46
-		"bunks" 400
-		"mass" 1575
-		"drag" 9.4
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 40
-		"outfit space" 326
-		"weapon capacity" 174
-		"engine capacity" 88
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"R2 Laser Cannon" 2
-		"R2Heavy Laser Turret" 4
-		"R4Dual Turbolaser Turret" 2
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"O3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine -49.5 189
-	engine 49.5 189
-	engine -33 189
-	engine 33 189
-	engine -16.5 189
-	engine 16.5 189
-	engine 0 189
-	gun -19.5 -173 "R2 Laser Cannon"
-	gun 19.5 -173 "R2 Laser Cannon"
-	turret -26.5 -57 "R2Heavy Laser Turret"
-	turret 26.5 -57 "R2Heavy Laser Turret"
-	turret -26.5 -80 "R2Heavy Laser Turret"
-	turret 26.5 -80 "R2Heavy Laser Turret"
-	turret 0 -111 "R4Dual Turbolaser Turret"
-	turret 0 -111 "R4Dual Turbolaser Turret"
-	fighter -36.5 40 under
-	fighter 36.5 40 under
-	fighter 0 40
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "CR90 corvettes, also known as Corellian corvettes or blockade runners, are consular vessels manufactured by the Corellian Engineering Corporation, initially used within the late Galactic Republic and Imperial Senate. Despite not being designed as a combat-oriented vessel, many vessels have been appropriated by the early rebellion and Rebel Alliance."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "CR92a Assassin Corvette"
-	sprite "ship/cr92aassassincorvette"
-	thumbnail "thumbnail/cr92aassassincorvette"
-	attributes
-		category "Light Warship"
-		"cost" 3830000
-		"shields" 35500
-		"hull" 10500
-		"required crew" 60
-		"bunks" 210
-		"mass" 1620
-		"drag" 9.25
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 20
-		"outfit space" 366
-		"weapon capacity" 214
-		"engine capacity" 88
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"R2 Laser Cannon" 2
-		"R2Heavy Laser Turret" 6
-		"R4Dual Turbolaser Turret" 2
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"O3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine -46.5 181.5
-	engine 46.5 181.5
-	engine -30.5 180
-	engine 30.5 180
-	engine -17 181.5
-	engine 17 181.5
-	engine 0 180.5
-	gun -16 -167 "R2 Laser Cannon"
-	gun 16 -167 "R2 Laser Cannon"
-	turret -34.5 35 "R2Heavy Laser Turret"
-	turret 34.5 35 "R2Heavy Laser Turret"
-	turret 0 19.5 "R4Dual Turbolaser Turret"
-	turret -55 18 "R2Heavy Laser Turret"
-	turret 55 18 "R2Heavy Laser Turret"
-	turret -33.5 -6 "R2Heavy Laser Turret"
-	turret 33.5 -6 "R2Heavy Laser Turret"
-	turret 0 -134.5 "R4Dual Turbolaser Turret"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "CR90 corvettes, also known as Corellian corvettes or blockade runners, are consular vessels manufactured by the Corellian Engineering Corporation, initially used within the late Galactic Republic and Imperial Senate. Despite not being designed as a combat-oriented vessel, many vessels have been appropriated by the early rebellion and Rebel Alliance."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "Dauntless Heavy Cruiser"
-	sprite "ship/dauntlessheavycruiser"
-	thumbnail "thumbnail/dauntlessheavycruiser"
-	attributes
-		category "Heavy Warship"
-		"cost" 110000000
-		"shields" 205000
-		"hull" 59000
-		"required crew" 1340
-		"bunks" 1900
-		"mass" 26000
-		"drag" 49.0
-		"heat dissipation" .45
-		"fuel capacity" 1000
-		"cargo space" 600
-		"outfit space" 2438
-		"weapon capacity" 1680
-		"engine capacity" 550
-		"force protection" 1000000
-		weapon
-			"blast radius" 300
-			"shield damage" 1000
-			"hull damage" 500
-			"hit force" 900
-	outfits
-		"R5Quad Turbolaser Turret" 14
-		"R4Dual Turbolaser Turret" 14
-		"I4 Ion Turret" 4
-		
-		"D5 Deflector Shield"
-		"P5 Power Converter"
-		"C5 Coolant System"
-		
-		"B5 Sublight Engine"
-		"H5 Hyperspace Motivator"
-		
-	engine -33 1590
-	engine 33 1590
-	turret -51 1419 "R4Dual Turbolaser Turret"
-	turret 51 1419 "R4Dual Turbolaser Turret"
-	turret -81 1045 "R5Quad Turbolaser Turret"
-	turret 81 1045 "R5Quad Turbolaser Turret"
-	turret -121 755 "R4Dual Turbolaser Turret"
-	turret 121 755 "R4Dual Turbolaser Turret"
-	turret -143 449 "R4Dual Turbolaser Turret"
-	turret 143 449 "R4Dual Turbolaser Turret"
-	turret -168 193 "R5Quad Turbolaser Turret"
-	turret 168 193 "R5Quad Turbolaser Turret"
-	turret -174 -61 "R4Dual Turbolaser Turret"
-	turret 174 -61 "R4Dual Turbolaser Turret"
-	turret -171 -337 "R4Dual Turbolaser Turret"
-	turret 171 -337 "R4Dual Turbolaser Turret"
-	turret -168 -604 "R5Quad Turbolaser Turret"
-	turret 168 -604 "R5Quad Turbolaser Turret"
-	turret -306 -799 "I4 Ion Turret"
-	turret 306 -799 "I4 Ion Turret"
-	turret -296 -1013 "I4 Ion Turret"
-	turret 296 -1013 "I4 Ion Turret"
-	turret -115 -884 "R4Dual Turbolaser Turret"
-	turret 115 -884 "R4Dual Turbolaser Turret"
-	turret -99 -1131 "R5Quad Turbolaser Turret"
-	turret 99 -1131 "R5Quad Turbolaser Turret"
-	turret -219 -1258 "R4Dual Turbolaser Turret"
-	turret 219 -1258 "R4Dual Turbolaser Turret"
-	turret -61 -1346 "R5Quad Turbolaser Turret"
-	turret 61 -1346 "R5Quad Turbolaser Turret"
-	turret -153 -1504 "R5Quad Turbolaser Turret"
-	turret 153 -1504 "R5Quad Turbolaser Turret"
-	turret -45 -1557 "R5Quad Turbolaser Turret"
-	turret 45 -1557 "R5Quad Turbolaser Turret"
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	fighter -249 -445
-	fighter 249 -445
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 10
-	"final explode" "final explosion large" 1
-	"final explode" "final explosion large"
-	description "The Dauntless heavy cruiser is the second largest cruiser in the Rebel Alliance fleet. The class features a formidable array of weapons, heavy plating, and strong shields. It also features an excellent sensor package and countermeasures system."
-	description "Artwork/model from Picaro Star Shipyards"
-
-
-
-ship "Dornean Gunship"
-	sprite "ship/dorneangunship"
-	thumbnail "thumbnail/dorneangunship"
-	attributes
-		category "Light Warship"
-		"cost" 1400000
-		"shields" 18000
-		"hull" 8000
-		"required crew" 20
-		"bunks" 50
-		"mass" 1275
-		"drag" 8.54
-		"heat dissipation" .45
-		"fuel capacity" 800
-		"cargo space" 100
-		"outfit space" 246
-		"weapon capacity" 94
-		"engine capacity" 88
-		weapon
-			"blast radius" 300
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 800
-	outfits
-		"R2 Laser Cannon" 2
-		"R2 Laser Turret" 4
-		"Concussion Missile Launcher" 2
-		"Concussion Missile Storage Rack" 2
-		"Concussion Missile" 16
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"O3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine -0.5 116.5
-	engine -17.5 96
-	engine 17.5 96
-	gun -9 -88 "Concussion Missile Launcher"
-	gun 9 -88 "Concussion Missile Launcher"
-	gun -9 -88 "R2 Laser Cannon"
-	gun 9 -88 "R2 Laser Cannon"
-	turret -19 84.5 "R2 Laser Turret"
-	turret 19 84.5 "R2 Laser Turret"
-	turret -18 5.5 "R2 Laser Turret"
-	turret 18 5.5 "R2 Laser Turret"
-	fighter -9.5 -24.5 under
-	fighter 9.5 -24.5 under
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The Braha'tok gunship, known frequently as the Dornean gunship, is a model of gunship built by the Dornean Braha'ket Fleetworks Conglomerate. Well-armed with quad laser cannons, turbolasers, proton torpedo launchers and concussion missile launchers, it can carry two starfighters in its underbelly. Initially built to protect Dornea from the Empire, many of them have also seen service with the Alliance to Restore the Republic."
-	description "Artwork/model from CosmosModels"
-
-
-
-ship "DP20 Frigate"
-	sprite "ship/dp20frigate"
-	thumbnail "thumbnail/dp20frigate"
-	attributes
-		category "Light Warship"
-		"cost" 3200000
-		"shields" 22400
-		"hull" 9000
-		"required crew" 45
-		"bunks" 100
-		"mass" 1425
-		"drag" 11.1
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 100
-		"outfit space" 406
-		"weapon capacity" 254
-		"engine capacity" 88
-		weapon
-			"blast radius" 290
-			"shield damage" 680
-			"hull damage" 340
-			"hit force" 750
-	outfits
-		"R2 Laser Cannon" 2
-		"R2Heavy Laser Turret" 8
-		"Assault Concussion Missile Launcher" 2
-		"Assault Concussion Missile" 40
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"P3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine 0 163.5
-	engine -34 164.5
-	engine 34 164.5
-	gun -10.5 -140.5 "R2 Laser Cannon"
-	gun 10.5 -140.5 "R2 Laser Cannon"
-	gun -39.5 43 "Assault Concussion Missile Launcher"
-	gun 39.5 43 "Assault Concussion Missile Launcher"
-	turret 0 137.5 "R2Heavy Laser Turret"
-	turret -59.5 114 "R2Heavy Laser Turret"
-	turret 59.5 114 "R2Heavy Laser Turret"
-	turret -7.5 80 "R2Heavy Laser Turret"
-	turret 7.5 80 "R2Heavy Laser Turret"
-	turret -29.5 -40 "R2Heavy Laser Turret"
-	turret 29.5 -40 "R2Heavy Laser Turret"
-	turret 0 -37.5 "R2Heavy Laser Turret"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The DP20 frigate or Corellian Gunship is one of the few dedicated warship designs produced by Corellian Engineering Corporation, and is the most common member of the Corellian gunship product line. Though small and compact, it is fast and carries heavy firepower for a ship of its size and class. Unlike its cousin, the CR90 corvette, the gunship has minimal cargo space and almost no space for passengers or troops. These small ships are designed to be only two things: fast and deadly."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "DP20 Frigate" "DP20 Frigate (Modified)"
-	sprite "ship/dp20frigatemodified"
-	thumbnail "thumbnail/dp20frigatemodified"
-	attributes
-		category "Light Warship"
-		"cost" 25000000
-		"shields" 22400
-		"hull" 9000
-		"required crew" 45
-		"bunks" 100
-		"mass" 1425
-		"drag" 11.1
-		"heat dissipation" .45
-		"fuel capacity" 700
-		"cargo space" 100
-		"outfit space" 406
-		"weapon capacity" 254
-		"engine capacity" 88
-		weapon
-			"blast radius" 290
-			"shield damage" 680
-			"hull damage" 340
-			"hit force" 750
-	outfits
-		"R2 Laser Cannon" 2
-		"R2Heavy Laser Turret" 8
-		"Assault Concussion Missile Launcher" 2
-		"Assault Concussion Missile" 40
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"P3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine 0 165
-	engine -35 163.5
-	engine 35 163.5
-	gun -13 -144 "R2 Laser Cannon"
-	gun 13 -144 "R2 Laser Cannon"
-	gun -28.5 40.5 "Assault Concussion Missile Launcher"
-	gun 28.5 40.5 "Assault Concussion Missile Launcher"
-	turret 0 133.5 "R2Heavy Laser Turret"
-	turret -64 113 "R2Heavy Laser Turret"
-	turret 64 113 "R2Heavy Laser Turret"
-	turret 0 30 "R2Heavy Laser Turret"
-	turret 0 30 "R2Heavy Laser Turret"
-	turret 0 -25.5 "R2Heavy Laser Turret"
-	turret -50.5 -26 "R2Heavy Laser Turret"
-	turret 50.5 -26 "R2Heavy Laser Turret"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The DP20 frigate or Corellian Gunship is one of the few dedicated warship designs produced by Corellian Engineering Corporation, and is the most common member of the Corellian gunship product line. Though small and compact, it is fast and carries heavy firepower for a ship of its size and class. Unlike its cousin, the CR90 corvette, the gunship has minimal cargo space and almost no space for passengers or troops. These small ships are designed to be only two things: fast and deadly."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "EF76 Nebulon-B Frigate"
-	sprite "ship/ef76nebulonfrigateb"
-	thumbnail "thumbnail/ef76nebulonfrigateb"
-	attributes
-		category "Medium Warship"
-		"cost" 8500000
-		"shields" 36600
-		"hull" 15000
-		"required crew" 307
-		"bunks" 995
-		"mass" 4675
-		"drag" 23.78
-		"heat dissipation" .45
-		"fuel capacity" 1000
-		"cargo space" 140
-		"outfit space" 571
-		"weapon capacity" 250
-		"engine capacity" 220
-		weapon
-			"blast radius" 310
-			"shield damage" 750
-			"hull damage" 370
-			"hit force" 850
-	outfits
-		"R3 Turbolaser Turret" 12
-		
-		"P4 Power Converter"
-		"D4 Deflector Shield"
-		"C4 Coolant System"
-		
-		"O4 Sublight Engine"
-		"H4 Hyperspace Motivator"
-		
-	engine -62 390
-	engine 62 390
-	engine -46.5 390
-	engine 46.5 390
-	engine 0 390
-	turret -38.5 287.5 "R3 Turbolaser Turret"
-	turret 38.5 287.5 "R3 Turbolaser Turret"
-	turret -31 -106.5 "R3 Turbolaser Turret"
-	turret 31 -106.5 "R3 Turbolaser Turret"
-	turret -41.5 -163 "R3 Turbolaser Turret"
-	turret 41.5 -163 "R3 Turbolaser Turret"
-	turret -41.5 -209.5 "R3 Turbolaser Turret"
-	turret 41.5 -209.5 "R3 Turbolaser Turret"
-	turret -35 -271.5 "R3 Turbolaser Turret"
-	turret 35 -271.5 "R3 Turbolaser Turret"
-	turret -25 -353.5 "R3 Turbolaser Turret"
-	turret 25 -353.5 "R3 Turbolaser Turret"
-	fighter 0 233
-	fighter 0 233
-	fighter 0 233
-	fighter 0 233
-	fighter 0 233
-	fighter 0 233
-	fighter 0 233
-	fighter 0 233
-	fighter 0 233
-	fighter 0 233
-	fighter 0 233
-	fighter 0 233
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 10
-	"final explode" "final explosion large"
-	description "The EF76 Nebulon-B escort frigate is a frigate manufactured by Kuat Drive Yards. Despite being intended for Imperial Navy service, it is more famous for its role as a Rebel Cruiser, used by the Alliance to Restore the Republic. Boasting a highly versatile design platform, the Nebulon-B frigate serves in a range of capacities, although is typically utilised as an escort frigate. The Rebel Alliance deploys these frigates to protect transport convoys from Imperial attacks or pirate raids, although some are modified for long-range scouting or search-and-rescue operations."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "EF76 Nebulon-B2 Frigate"
-	sprite "ship/ef76nebulonfrigateb2"
-	thumbnail "thumbnail/ef76nebulonfrigateb2"
-	attributes
-		category "Medium Warship"
-		"cost" 9000000
-		"shields" 36700
-		"hull" 15100
-		"required crew" 315
-		"bunks" 1050
-		"mass" 4726
-		"drag" 25.22
-		"heat dissipation" .45
-		"fuel capacity" 1000
-		"cargo space" 150
-		"outfit space" 612
-		"weapon capacity" 291
-		"engine capacity" 220
-		weapon
-			"blast radius" 310
-			"shield damage" 750
-			"hull damage" 370
-			"hit force" 850
-	outfits
-		"R3 Turbolaser Turret" 14
-		"Concussion Missile Launcher"
-		"Concussion Missile" 3
-		
-		"P4 Power Converter"
-		"D4 Deflector Shield"
-		"C4 Coolant System"
-		
-		"O4 Sublight Engine"
-		"H4 Hyperspace Motivator"
-
-	engine -30 329
-	engine 30 329
-	engine 0 329
-	gun 0 -283.5 "Concussion Missile Launcher"
-	turret -48 218 "R3 Turbolaser Turret"
-	turret 48 218 "R3 Turbolaser Turret"
-	turret -45 -103.5 "R3 Turbolaser Turret"
-	turret 45 -103.5 "R3 Turbolaser Turret"
-	turret -61 -154 "R3 Turbolaser Turret"
-	turret 61 -154 "R3 Turbolaser Turret"
-	turret -120 -168 "R3 Turbolaser Turret"
-	turret 120 -168 "R3 Turbolaser Turret"
-	turret -106 -240.5 "R3 Turbolaser Turret"
-	turret 106 -240.5 "R3 Turbolaser Turret"
-	turret -53.5 -253.5 "R3 Turbolaser Turret"
-	turret 53.5 -253.5 "R3 Turbolaser Turret"
-	turret -31.5 -303.5 "R3 Turbolaser Turret"
-	turret 31.5 -303.5 "R3 Turbolaser Turret"
-	fighter 0 189.5
-	fighter 0 189.5
-	fighter 0 189.5
-	fighter 0 189.5
-	fighter 0 189.5
-	fighter 0 189.5
-	fighter 0 189.5
-	fighter 0 189.5
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 10
-	"final explode" "final explosion large"
-	description "Though it shares a similar profile with its predecessor, the Nebulon-B2 differs in some key ways. The forward pod split into an inverted-V shape, allowing for greater surface area to mount weaponry. Furthermore, the connecting spar is heavier, rendering it less vulnerable to being split open by heavy fire. The ship is about 50 meters shorter overall."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "GR-75 Transport"
-	sprite "ship/gr75transport"
-	thumbnail "thumbnail/gr75transport"
-	attributes
-		category "Light Freighter"
-		"cost" 2800000
-		"shields" 20000
-		"hull" 8500
-		"required crew" 6
-		"bunks" 300
-		"mass" 1305
-		"drag" 18.5
-		"heat dissipation" .45
-		"fuel capacity" 800
-		"cargo space" 340
-		"outfit space" 154
-		"weapon capacity" 0
-		"engine capacity" 78
-		"defenceless capacity" -1
-		weapon
-			"blast radius" 290
-			"shield damage" 680
-			"hull damage" 340
-			"hit force" 750
-	outfits
-		"Defenceless"
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"P3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine -24.5 82.5
-	engine 24.5 82.5
-	engine -22 88.5
-	engine 22 88.5
-	engine -18.5 95.5
-	engine 18.5 95.5
-	engine -15 102.5
-	engine 15 102.5
-	engine -10 110
-	engine 10 110
-	engine -4 114.5
-	engine 4 114.5
-	turret 0 -52 "Defenceless"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The GR-75 medium transport, sometimes referred to as the Gallofree transport, is a transport designed and constructed by Gallofree Yards, Inc. They are lightly armed with a clamshell-like hull to protect the cargo pods it carries. A sister design to the civilian GR-45 model, the GR-75 is used by freight drivers and shipping firms to haul cargo."
-	description "Artwork/model by Unusualsuspex"
-
-
-
-ship "U-22 Orbital Loadlifter"
-	sprite "ship/u22orbitalloadlifter"
-	thumbnail "thumbnail/u22orbitalloadlifter"
-	attributes
-		category "Light Freighter"
-		"cost" 3300000
-		"shields" 22500
-		"hull" 9300
-		"required crew" 10
-		"bunks" 500
-		"mass" 1650
-		"drag" 55.5
-		"heat dissipation" .45
-		"fuel capacity" 800
-		"cargo space" 170
-		"outfit space" 154
-		"weapon capacity" 0
-		"engine capacity" 78
-		"defenceless capacity" -1
-		weapon
-			"blast radius" 290
-			"shield damage" 680
-			"hull damage" 340
-			"hit force" 750
-	outfits
-		"Defenceless"
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"P3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine 0 159.5
-	engine -24 169.5
-	engine 24 169.5
-	turret 0 -88 "Defenceless"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The U-22 orbital loadlifter, also known informally as a lifeboat, is a type of transport manufactured by Sienar Fleet Systems."
-	description "Artwork/model by EC Henry"
-
-
-
-ship "Sphyrna Corvette (Modified)"
-	sprite "ship/sphyrnacorvettemodified"
-	thumbnail "thumbnail/sphyrnacorvettemodified"
-	attributes
-		category "Light Warship"
-		"cost" 2800000
-		"shields" 20000
-		"hull" 8550
-		"required crew" 10
-		"bunks" 40
-		"mass" 1305
-		"drag" 8.54
-		"heat dissipation" .45
-		"fuel capacity" 800
-		"cargo space" 105
-		"outfit space" 226
-		"weapon capacity" 74
-		"engine capacity" 88
-		weapon
-			"blast radius" 290
-			"shield damage" 680
-			"hull damage" 340
-			"hit force" 750
-	outfits
-		"R2 Laser Cannon" 2
-		"R2Heavy Laser Turret" 3
-		
-		"P3 Power Converter"
-		"D3 Deflector Shield"
-		"C3 Coolant System"
-		
-		"O3 Sublight Engine"
-		"H3 Hyperspace Motivator"
-		
-	engine 0 133
-	engine -27.5 132
-	engine 27.5 132
-	gun -17 -108.5 "R2 Laser Cannon"
-	gun 17 -108.5 "R2 Laser Cannon"
-	turret 0 41.5 "R2Heavy Laser Turret"
-	turret -17 -108.5 "R2Heavy Laser Turret"
-	turret 17 -108.5 "R2Heavy Laser Turret"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	"final explode" "final explosion large" 1
-	description "The Sphyrna corvette, also known simply as the Hammerhead corvette, is a model of corvette that saw wide use in the period leading up to and during the Galactic Civil War. The vessel was inspired by a starship design that dated back centuries prior to the Imperial Era, designed by the Corellian Engineering Corporation."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -1742,7 +841,7 @@ ship "BTL-S8 K-Wing"
 	sprite "ship/btls8kwing"
 	thumbnail "thumbnail/btls8kwing"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 250000
 		"shields" 2400
@@ -1808,11 +907,11 @@ ship "BTL-S8 K-Wing"
 
 
 
-ship "BTL-S8 K-Wing (Fighter)"
+ship "BTL-S8 K-Wing (Bay)"
 	sprite "ship/btls8kwing"
 	thumbnail "thumbnail/btls8kwing"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 250000
 		"shields" 2400
@@ -1882,7 +981,7 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (Ion Bombs)"
 	sprite "ship/btls8kwing"
 	thumbnail "thumbnail/btls8kwing"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 250000
 		"shields" 2400
@@ -1954,7 +1053,7 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B)"
 	sprite "ship/btls8kwingblue"
 	thumbnail "thumbnail/btls8kwingblue"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 250000
 		"shields" 2400
@@ -2020,11 +1119,11 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B)"
 
 
 
-ship "BTL-S8 K-Wing (Fighter)" "BTL-S8 K-Wing (B) (Fighter)"
+ship "BTL-S8 K-Wing (Bay)" "BTL-S8 K-Wing (B) (Bay)"
 	sprite "ship/btls8kwingblue"
 	thumbnail "thumbnail/btls8kwingblue"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 250000
 		"shields" 2400
@@ -2094,7 +1193,7 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B) (Ion Bombs)"
 	sprite "ship/btls8kwingblue"
 	thumbnail "thumbnail/btls8kwingblue"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 225000
 		"shields" 2400
@@ -2166,7 +1265,7 @@ ship "BTS-A2 H-Wing"
 	sprite ship/btsa2hwing
 	thumbnail thumbnail/btsa2hwing
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 240000
 		shields 1600
@@ -2220,11 +1319,11 @@ ship "BTS-A2 H-Wing"
 	description "Artwork/model by Unusualsuspex"
 
 
-ship "BTS-A2 H-Wing (Fighter)"
+ship "BTS-A2 H-Wing (Bay)"
 	sprite ship/btsa2hwing
 	thumbnail thumbnail/btsa2hwing
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 240000
 		shields 1600
@@ -2276,6 +1375,890 @@ ship "BTS-A2 H-Wing (Fighter)"
 	explode "large explosion" 3
 	description "The BTS-A2 Long-Range Strike Fighter/Bomber (Rebel Alliance designation H-Wing) is manufactured by Koensayr Manufacturing, a company made famous for their rugged Y-Wing starfighters. Because of the resounding success of their previous fighter, it is only a matter of time before the Alliance military chooses to include the H-Wing in their starfighter arsenal. Even so, the number that enter service is expected to remain low, as almost any two single-seated starfighters can be purchased for the same price as a single H-Wing."
 	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "CC-7700 Interdictor Frigate"
+	sprite "ship/cc7700frigate"
+	thumbnail "thumbnail/cc7700frigate"
+	attributes
+		category "Corvette "
+		"cost" 3800000
+		"shields" 26500
+		"hull" 10500
+		"required crew" 50
+		"bunks" 150
+		"mass" 1770
+		"drag" 7.8
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 40
+		"outfit space" 326
+		"weapon capacity" 174
+		"engine capacity" 88
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"R2 Laser Cannon" 2
+		"R4Dual Turbolaser Turret" 2
+		"R2Dual Laser Turret" 4
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"P3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine 0 220.5
+	engine -48 211.5
+	engine 48 211.5
+	gun -14 -194 "R2 Laser Cannon"
+	gun 14 -194 "R2 Laser Cannon"
+	turret -56.5 68 "R2Dual Laser Turret"
+	turret 56.5 68 "R2Dual Laser Turret"
+	turret -56 9 "R2Dual Laser Turret"
+	turret 56 9 "R2Dual Laser Turret"
+	turret -26 -126.5 "R4Dual Turbolaser Turret"
+	turret 26 -126.5 "R4Dual Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The CC-7700 frigate is a class of frigate used by the Imperial Navy, an updated version of the earlier Detainer CC-2200. The CC-7700 is an Interdictor vessel, due to its ability to emit an interdiction field, which prevents other ships from entering hyperspace and can be used to maroon vessels traveling at lightspeed. The CC-7700 is lightly armed and is not intended to act as a battleship. Instead, it is designed to be a platform for gravity well projectors with a mission profile similar to the Immobiliser 418 Cruiser."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "CR90 Corvette"
+	sprite "ship/cr90corvette"
+	thumbnail "thumbnail/cr90corvette"
+	attributes
+		category "Corvette "
+		"cost" 3500000
+		"shields" 24000
+		"hull" 9600
+		"required crew" 46
+		"bunks" 240
+		"mass" 1500
+		"drag" 9.25
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 115
+		"outfit space" 326
+		"weapon capacity" 174
+		"engine capacity" 88
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"R2 Laser Cannon" 2
+		"R2Heavy Laser Turret" 4
+		"R4Dual Turbolaser Turret" 2
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"O3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine -45.5 189
+	engine 45.5 189
+	engine -30.5 189
+	engine 30.5 189
+	engine -15 189
+	engine 15 189
+	engine 0 189
+	gun -22.5 -174 "R2 Laser Cannon"
+	gun 22.5 -174 "R2 Laser Cannon"
+	turret -27 -50 "R2Heavy Laser Turret"
+	turret 27 -50 "R2Heavy Laser Turret"
+	turret -27 -74.5 "R2Heavy Laser Turret"
+	turret 27 -74.5 "R2Heavy Laser Turret"
+	turret 0 -107.5 "R4Dual Turbolaser Turret"
+	turret 0 -107.5 "R4Dual Turbolaser Turret"
+	bay "Starfighter (Bay) " -44 48 under
+	bay "Starfighter (Bay) " 44 48 under
+	bay "Starfighter (Bay) " 0 48
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "CR90 corvettes, also known as Corellian corvettes or blockade runners, are consular vessels manufactured by the Corellian Engineering Corporation, initially used within the late Galactic Republic and Imperial Senate. Despite not being designed as a combat-oriented vessel, many vessels have been appropriated by the early rebellion and Rebel Alliance."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "CR90 Corvette" "CR90 Corvette (Liberator)"
+	sprite "ship/cr90corvetteliberator"
+	thumbnail "thumbnail/cr90corvetteliberator"
+	attributes
+		category "Corvette "
+		"cost" 3500000
+		"shields" 24000
+		"hull" 9600
+		"required crew" 46
+		"bunks" 240
+		"mass" 1500
+		"drag" 9.25
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 115
+		"outfit space" 326
+		"weapon capacity" 174
+		"engine capacity" 88
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"R2 Laser Cannon" 2
+		"R2Heavy Laser Turret" 4
+		"R4Dual Turbolaser Turret" 2
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"O3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine -45.5 189
+	engine 45.5 189
+	engine -30.5 189
+	engine 30.5 189
+	engine -15 189
+	engine 15 189
+	engine 0 189
+	gun -19 -175 "R2 Laser Cannon"
+	gun 19 -175 "R2 Laser Cannon"
+	turret -27 -50 "R2Heavy Laser Turret"
+	turret 27 -50 "R2Heavy Laser Turret"
+	turret -27 -74.5 "R2Heavy Laser Turret"
+	turret 27 -74.5 "R2Heavy Laser Turret"
+	turret 0 -107.5 "R4Dual Turbolaser Turret"
+	turret 0 -107.5 "R4Dual Turbolaser Turret"
+	bay "Starfighter (Bay) " -44 48 under
+	bay "Starfighter (Bay) " 44 48 under
+	bay "Starfighter (Bay) " 0 48
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "CR90 corvettes, also known as Corellian corvettes or blockade runners, are consular vessels manufactured by the Corellian Engineering Corporation, initially used within the late Galactic Republic and Imperial Senate. Despite not being designed as a combat-oriented vessel, many vessels have been appropriated by the early rebellion and Rebel Alliance."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "CR90 Corvette" "CR90 Corvette (Modified)"
+	sprite "ship/cr90corvettemodified"
+	thumbnail "thumbnail/cr90corvettemodified"
+	attributes
+		category "Corvette "
+		"cost" 3600000
+		"shields" 24200
+		"hull" 9600
+		"required crew" 46
+		"bunks" 230
+		"mass" 1575
+		"drag" 9.4
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 40
+		"outfit space" 326
+		"weapon capacity" 174
+		"engine capacity" 88
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"R2 Laser Cannon" 2
+		"R2Heavy Laser Turret" 4
+		"R4Dual Turbolaser Turret" 2
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"O3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine -49.5 189
+	engine 49.5 189
+	engine -33 189
+	engine 33 189
+	engine -16.5 189
+	engine 16.5 189
+	engine 0 189
+	gun -19.5 -173 "R2 Laser Cannon"
+	gun 19.5 -173 "R2 Laser Cannon"
+	turret -26.5 -57 "R2Heavy Laser Turret"
+	turret 26.5 -57 "R2Heavy Laser Turret"
+	turret -26.5 -80 "R2Heavy Laser Turret"
+	turret 26.5 -80 "R2Heavy Laser Turret"
+	turret 0 -111 "R4Dual Turbolaser Turret"
+	turret 0 -111 "R4Dual Turbolaser Turret"
+	bay "Starfighter (Bay) " -36.5 40 under
+	bay "Starfighter (Bay) " 36.5 40 under
+	bay "Starfighter (Bay) " 0 40
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "CR90 corvettes, also known as Corellian corvettes or blockade runners, are consular vessels manufactured by the Corellian Engineering Corporation, initially used within the late Galactic Republic and Imperial Senate. Despite not being designed as a combat-oriented vessel, many vessels have been appropriated by the early rebellion and Rebel Alliance."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "CR92a Assassin Corvette"
+	sprite "ship/cr92aassassincorvette"
+	thumbnail "thumbnail/cr92aassassincorvette"
+	attributes
+		category "Corvette "
+		"cost" 3830000
+		"shields" 35500
+		"hull" 10500
+		"required crew" 50
+		"bunks" 220
+		"mass" 1620
+		"drag" 9.25
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 366
+		"weapon capacity" 214
+		"engine capacity" 88
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"R2 Laser Cannon" 2
+		"R2Heavy Laser Turret" 6
+		"R4Dual Turbolaser Turret" 2
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"O3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine -46.5 181.5
+	engine 46.5 181.5
+	engine -30.5 180
+	engine 30.5 180
+	engine -17 181.5
+	engine 17 181.5
+	engine 0 180.5
+	gun -16 -167 "R2 Laser Cannon"
+	gun 16 -167 "R2 Laser Cannon"
+	turret -34.5 35 "R2Heavy Laser Turret"
+	turret 34.5 35 "R2Heavy Laser Turret"
+	turret 0 19.5 "R4Dual Turbolaser Turret"
+	turret -55 18 "R2Heavy Laser Turret"
+	turret 55 18 "R2Heavy Laser Turret"
+	turret -33.5 -6 "R2Heavy Laser Turret"
+	turret 33.5 -6 "R2Heavy Laser Turret"
+	turret 0 -134.5 "R4Dual Turbolaser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "CR90 corvettes, also known as Corellian corvettes or blockade runners, are consular vessels manufactured by the Corellian Engineering Corporation, initially used within the late Galactic Republic and Imperial Senate. Despite not being designed as a combat-oriented vessel, many vessels have been appropriated by the early rebellion and Rebel Alliance."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Dauntless Heavy Cruiser"
+	sprite "ship/dauntlessheavycruiser"
+	thumbnail "thumbnail/dauntlessheavycruiser"
+	attributes
+		category "Destroyer "
+		"cost" 110000000
+		"shields" 205000
+		"hull" 59000
+		"required crew" 1340
+		"bunks" 1900
+		"mass" 26000
+		"drag" 49.0
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 600
+		"outfit space" 2438
+		"weapon capacity" 1680
+		"engine capacity" 550
+		"force protection" 1000000
+		weapon
+			"blast radius" 300
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 900
+	outfits
+		"R5Quad Turbolaser Turret" 14
+		"R4Dual Turbolaser Turret" 14
+		"I4 Ion Turret" 4
+		
+		"D5 Deflector Shield"
+		"P5 Power Converter"
+		"C5 Coolant System"
+		
+		"B5 Sublight Engine"
+		"H5 Hyperspace Motivator"
+		
+	engine -33 1590
+	engine 33 1590
+	turret -51 1419 "R4Dual Turbolaser Turret"
+	turret 51 1419 "R4Dual Turbolaser Turret"
+	turret -81 1045 "R5Quad Turbolaser Turret"
+	turret 81 1045 "R5Quad Turbolaser Turret"
+	turret -121 755 "R4Dual Turbolaser Turret"
+	turret 121 755 "R4Dual Turbolaser Turret"
+	turret -143 449 "R4Dual Turbolaser Turret"
+	turret 143 449 "R4Dual Turbolaser Turret"
+	turret -168 193 "R5Quad Turbolaser Turret"
+	turret 168 193 "R5Quad Turbolaser Turret"
+	turret -174 -61 "R4Dual Turbolaser Turret"
+	turret 174 -61 "R4Dual Turbolaser Turret"
+	turret -171 -337 "R4Dual Turbolaser Turret"
+	turret 171 -337 "R4Dual Turbolaser Turret"
+	turret -168 -604 "R5Quad Turbolaser Turret"
+	turret 168 -604 "R5Quad Turbolaser Turret"
+	turret -306 -799 "I4 Ion Turret"
+	turret 306 -799 "I4 Ion Turret"
+	turret -296 -1013 "I4 Ion Turret"
+	turret 296 -1013 "I4 Ion Turret"
+	turret -115 -884 "R4Dual Turbolaser Turret"
+	turret 115 -884 "R4Dual Turbolaser Turret"
+	turret -99 -1131 "R5Quad Turbolaser Turret"
+	turret 99 -1131 "R5Quad Turbolaser Turret"
+	turret -219 -1258 "R4Dual Turbolaser Turret"
+	turret 219 -1258 "R4Dual Turbolaser Turret"
+	turret -61 -1346 "R5Quad Turbolaser Turret"
+	turret 61 -1346 "R5Quad Turbolaser Turret"
+	turret -153 -1504 "R5Quad Turbolaser Turret"
+	turret 153 -1504 "R5Quad Turbolaser Turret"
+	turret -45 -1557 "R5Quad Turbolaser Turret"
+	turret 45 -1557 "R5Quad Turbolaser Turret"
+	bay "Starfighter (Bay) " -249 -445
+	bay "Starfighter (Bay) " 249 -445
+	bay "Starfighter (Bay) " -249 -445
+	bay "Starfighter (Bay) " 249 -445
+	bay "Starfighter (Bay) " -249 -445
+	bay "Starfighter (Bay) " 249 -445
+	bay "Starfighter (Bay) " -249 -445
+	bay "Starfighter (Bay) " 249 -445
+	bay "Starfighter (Bay) " -249 -445
+	bay "Starfighter (Bay) " 249 -445
+	bay "Starfighter (Bay) " -249 -445
+	bay "Starfighter (Bay) " 249 -445
+	bay "Starfighter (Bay) " -249 -445
+	bay "Starfighter (Bay) " 249 -445
+	bay "Starfighter (Bay) " -249 -445
+	bay "Starfighter (Bay) " 249 -445
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large" 1
+	"final explode" "final explosion large"
+	description "The Dauntless heavy cruiser is the second largest cruiser in the Rebel Alliance fleet. The class features a formidable array of weapons, heavy plating, and strong shields. It also features an excellent sensor package and countermeasures system."
+	description "Artwork/model from Picaro Star Shipyards"
+
+
+
+ship "Dornean Gunship"
+	sprite "ship/dorneangunship"
+	thumbnail "thumbnail/dorneangunship"
+	attributes
+		category "Gunboat "
+		"cost" 1400000
+		"shields" 18000
+		"hull" 8000
+		"required crew" 20
+		"bunks" 50
+		"mass" 1275
+		"drag" 8.54
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 100
+		"outfit space" 246
+		"weapon capacity" 94
+		"engine capacity" 88
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"R2 Laser Cannon" 2
+		"R2 Laser Turret" 4
+		"Concussion Missile Launcher" 2
+		"Concussion Missile Storage Rack" 2
+		"Concussion Missile" 16
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"O3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine -0.5 116.5
+	engine -17.5 96
+	engine 17.5 96
+	gun -9 -88 "Concussion Missile Launcher"
+	gun 9 -88 "Concussion Missile Launcher"
+	gun -9 -88 "R2 Laser Cannon"
+	gun 9 -88 "R2 Laser Cannon"
+	turret -19 84.5 "R2 Laser Turret"
+	turret 19 84.5 "R2 Laser Turret"
+	turret -18 5.5 "R2 Laser Turret"
+	turret 18 5.5 "R2 Laser Turret"
+	bay "Starfighter (Bay) " -9.5 -24.5 under
+	bay "Starfighter (Bay) " 9.5 -24.5 under
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Braha'tok gunship, known frequently as the Dornean gunship, is a model of gunship built by the Dornean Braha'ket Fleetworks Conglomerate. Well-armed with quad laser cannons, turbolasers, proton torpedo launchers and concussion missile launchers, it can carry two starfighters in its underbelly. Initially built to protect Dornea from the Empire, many of them have also seen service with the Alliance to Restore the Republic."
+	description "Artwork/model from CosmosModels"
+
+
+
+ship "DP20 Frigate"
+	sprite "ship/dp20frigate"
+	thumbnail "thumbnail/dp20frigate"
+	attributes
+		category "Corvette "
+		"cost" 3200000
+		"shields" 22400
+		"hull" 9000
+		"required crew" 45
+		"bunks" 100
+		"mass" 1425
+		"drag" 11.1
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 100
+		"outfit space" 406
+		"weapon capacity" 254
+		"engine capacity" 88
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"R2 Laser Cannon" 2
+		"R2Heavy Laser Turret" 8
+		"Assault Concussion Missile Launcher" 2
+		"Assault Concussion Missile" 40
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"P3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine 0 163.5
+	engine -34 164.5
+	engine 34 164.5
+	gun -10.5 -140.5 "R2 Laser Cannon"
+	gun 10.5 -140.5 "R2 Laser Cannon"
+	gun -39.5 43 "Assault Concussion Missile Launcher"
+	gun 39.5 43 "Assault Concussion Missile Launcher"
+	turret 0 137.5 "R2Heavy Laser Turret"
+	turret -59.5 114 "R2Heavy Laser Turret"
+	turret 59.5 114 "R2Heavy Laser Turret"
+	turret -7.5 80 "R2Heavy Laser Turret"
+	turret 7.5 80 "R2Heavy Laser Turret"
+	turret -29.5 -40 "R2Heavy Laser Turret"
+	turret 29.5 -40 "R2Heavy Laser Turret"
+	turret 0 -37.5 "R2Heavy Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The DP20 frigate or Corellian Gunship is one of the few dedicated warship designs produced by Corellian Engineering Corporation, and is the most common member of the Corellian gunship product line. Though small and compact, it is fast and carries heavy firepower for a ship of its size and class. Unlike its cousin, the CR90 corvette, the gunship has minimal cargo space and almost no space for passengers or troops. These small ships are designed to be only two things: fast and deadly."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "DP20 Frigate" "DP20 Frigate (Modified)"
+	sprite "ship/dp20frigatemodified"
+	thumbnail "thumbnail/dp20frigatemodified"
+	attributes
+		category "Corvette "
+		"cost" 25000000
+		"shields" 22400
+		"hull" 9000
+		"required crew" 45
+		"bunks" 100
+		"mass" 1425
+		"drag" 11.1
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 100
+		"outfit space" 406
+		"weapon capacity" 254
+		"engine capacity" 88
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"R2 Laser Cannon" 2
+		"R2Heavy Laser Turret" 8
+		"Assault Concussion Missile Launcher" 2
+		"Assault Concussion Missile" 40
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"P3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine 0 165
+	engine -35 163.5
+	engine 35 163.5
+	gun -13 -144 "R2 Laser Cannon"
+	gun 13 -144 "R2 Laser Cannon"
+	gun -28.5 40.5 "Assault Concussion Missile Launcher"
+	gun 28.5 40.5 "Assault Concussion Missile Launcher"
+	turret 0 133.5 "R2Heavy Laser Turret"
+	turret -64 113 "R2Heavy Laser Turret"
+	turret 64 113 "R2Heavy Laser Turret"
+	turret 0 30 "R2Heavy Laser Turret"
+	turret 0 30 "R2Heavy Laser Turret"
+	turret 0 -25.5 "R2Heavy Laser Turret"
+	turret -50.5 -26 "R2Heavy Laser Turret"
+	turret 50.5 -26 "R2Heavy Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The DP20 frigate or Corellian Gunship is one of the few dedicated warship designs produced by Corellian Engineering Corporation, and is the most common member of the Corellian gunship product line. Though small and compact, it is fast and carries heavy firepower for a ship of its size and class. Unlike its cousin, the CR90 corvette, the gunship has minimal cargo space and almost no space for passengers or troops. These small ships are designed to be only two things: fast and deadly."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "EF76 Nebulon-B Frigate"
+	sprite "ship/ef76nebulonfrigateb"
+	thumbnail "thumbnail/ef76nebulonfrigateb"
+	attributes
+		category "Frigate "
+		"cost" 8500000
+		"shields" 36600
+		"hull" 15000
+		"required crew" 307
+		"bunks" 995
+		"mass" 4675
+		"drag" 23.78
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 140
+		"outfit space" 571
+		"weapon capacity" 250
+		"engine capacity" 220
+		weapon
+			"blast radius" 310
+			"shield damage" 750
+			"hull damage" 370
+			"hit force" 850
+	outfits
+		"R3 Turbolaser Turret" 12
+		
+		"P4 Power Converter"
+		"D4 Deflector Shield"
+		"C4 Coolant System"
+		
+		"O4 Sublight Engine"
+		"H4 Hyperspace Motivator"
+		
+	engine -62 390
+	engine 62 390
+	engine -46.5 390
+	engine 46.5 390
+	engine 0 390
+	turret -38.5 287.5 "R3 Turbolaser Turret"
+	turret 38.5 287.5 "R3 Turbolaser Turret"
+	turret -31 -106.5 "R3 Turbolaser Turret"
+	turret 31 -106.5 "R3 Turbolaser Turret"
+	turret -41.5 -163 "R3 Turbolaser Turret"
+	turret 41.5 -163 "R3 Turbolaser Turret"
+	turret -41.5 -209.5 "R3 Turbolaser Turret"
+	turret 41.5 -209.5 "R3 Turbolaser Turret"
+	turret -35 -271.5 "R3 Turbolaser Turret"
+	turret 35 -271.5 "R3 Turbolaser Turret"
+	turret -25 -353.5 "R3 Turbolaser Turret"
+	turret 25 -353.5 "R3 Turbolaser Turret"
+	bay "Starfighter (Bay) " 0 233
+	bay "Starfighter (Bay) " 0 233
+	bay "Starfighter (Bay) " 0 233
+	bay "Starfighter (Bay) " 0 233
+	bay "Starfighter (Bay) " 0 233
+	bay "Starfighter (Bay) " 0 233
+	bay "Starfighter (Bay) " 0 233
+	bay "Starfighter (Bay) " 0 233
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The EF76 Nebulon-B escort frigate is a frigate manufactured by Kuat Drive Yards. Despite being intended for Imperial Navy service, it is more famous for its role as a Rebel Cruiser, used by the Alliance to Restore the Republic. Boasting a highly versatile design platform, the Nebulon-B frigate serves in a range of capacities, although is typically utilised as an escort frigate. The Rebel Alliance deploys these frigates to protect transport convoys from Imperial attacks or pirate raids, although some are modified for long-range scouting or search-and-rescue operations."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "EF76 Nebulon-B2 Frigate"
+	sprite "ship/ef76nebulonfrigateb2"
+	thumbnail "thumbnail/ef76nebulonfrigateb2"
+	attributes
+		category "Frigate "
+		"cost" 8600000
+		"shields" 36700
+		"hull" 15100
+		"required crew" 315
+		"bunks" 1050
+		"mass" 4726
+		"drag" 25.22
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 130
+		"outfit space" 612
+		"weapon capacity" 291
+		"engine capacity" 220
+		weapon
+			"blast radius" 310
+			"shield damage" 750
+			"hull damage" 370
+			"hit force" 850
+	outfits
+		"R3 Turbolaser Turret" 14
+		"Concussion Missile Launcher"
+		"Concussion Missile" 3
+		
+		"P4 Power Converter"
+		"D4 Deflector Shield"
+		"C4 Coolant System"
+		
+		"O4 Sublight Engine"
+		"H4 Hyperspace Motivator"
+
+	engine -30 329
+	engine 30 329
+	engine 0 329
+	gun 0 -283.5 "Concussion Missile Launcher"
+	turret -48 218 "R3 Turbolaser Turret"
+	turret 48 218 "R3 Turbolaser Turret"
+	turret -45 -103.5 "R3 Turbolaser Turret"
+	turret 45 -103.5 "R3 Turbolaser Turret"
+	turret -61 -154 "R3 Turbolaser Turret"
+	turret 61 -154 "R3 Turbolaser Turret"
+	turret -120 -168 "R3 Turbolaser Turret"
+	turret 120 -168 "R3 Turbolaser Turret"
+	turret -106 -240.5 "R3 Turbolaser Turret"
+	turret 106 -240.5 "R3 Turbolaser Turret"
+	turret -53.5 -253.5 "R3 Turbolaser Turret"
+	turret 53.5 -253.5 "R3 Turbolaser Turret"
+	turret -31.5 -303.5 "R3 Turbolaser Turret"
+	turret 31.5 -303.5 "R3 Turbolaser Turret"
+	bay "Starfighter (Bay) " 0 189.5
+	bay "Starfighter (Bay) " 0 189.5
+	bay "Starfighter (Bay) " 0 189.5
+	bay "Starfighter (Bay) " 0 189.5
+	bay "Starfighter (Bay) " 0 189.5
+	bay "Starfighter (Bay) " 0 189.5
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Though it shares a similar profile with its predecessor, the Nebulon-B2 differs in some key ways. The forward pod split into an inverted-V shape, allowing for greater surface area to mount weaponry. Furthermore, the connecting spar is heavier, rendering it less vulnerable to being split open by heavy fire. The ship is about 50 meters shorter overall."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "GR-75 Transport"
+	sprite "ship/gr75transport"
+	thumbnail "thumbnail/gr75transport"
+	attributes
+		category "Medium Freighter "
+		"cost" 2800000
+		"shields" 20000
+		"hull" 8500
+		"required crew" 6
+		"bunks" 200
+		"mass" 1305
+		"drag" 18.5
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 340
+		"outfit space" 154
+		"weapon capacity" 0
+		"engine capacity" 78
+		"defenceless capacity" -1
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Defenceless"
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"B3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine -24.5 82.5
+	engine 24.5 82.5
+	engine -22 88.5
+	engine 22 88.5
+	engine -18.5 95.5
+	engine 18.5 95.5
+	engine -15 102.5
+	engine 15 102.5
+	engine -10 110
+	engine 10 110
+	engine -4 114.5
+	engine 4 114.5
+	turret 0 -52 "Defenceless"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The GR-75 medium transport, sometimes referred to as the Gallofree transport, is a transport designed and constructed by Gallofree Yards, Inc. They are lightly armed with a clamshell-like hull to protect the cargo pods it carries. A sister design to the civilian GR-45 model, the GR-75 is used by freight drivers and shipping firms to haul cargo."
+	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "U-22 Orbital Loadlifter"
+	sprite "ship/u22orbitalloadlifter"
+	thumbnail "thumbnail/u22orbitalloadlifter"
+	attributes
+		category "Medium Freighter "
+		"cost" 3300000
+		"shields" 22500
+		"hull" 9300
+		"required crew" 10
+		"bunks" 220
+		"mass" 1650
+		"drag" 55.5
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 170
+		"outfit space" 154
+		"weapon capacity" 0
+		"engine capacity" 78
+		"defenceless capacity" -1
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"Defenceless"
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"P3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine 0 159.5
+	engine -24 169.5
+	engine 24 169.5
+	turret 0 -88 "Defenceless"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The U-22 orbital loadlifter, also known informally as a lifeboat, is a type of transport manufactured by Sienar Fleet Systems."
+	description "Artwork/model by EC Henry"
+
+
+
+ship "Sphyrna Corvette (Modified)"
+	sprite "ship/sphyrnacorvettemodified"
+	thumbnail "thumbnail/sphyrnacorvettemodified"
+	attributes
+		category "Corvette "
+		"cost" 2800000
+		"shields" 20000
+		"hull" 8550
+		"required crew" 10
+		"bunks" 40
+		"mass" 1305
+		"drag" 8.54
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 105
+		"outfit space" 226
+		"weapon capacity" 74
+		"engine capacity" 88
+		weapon
+			"blast radius" 290
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 750
+	outfits
+		"R2 Laser Cannon" 2
+		"R2Heavy Laser Turret" 3
+		
+		"P3 Power Converter"
+		"D3 Deflector Shield"
+		"C3 Coolant System"
+		
+		"O3 Sublight Engine"
+		"H3 Hyperspace Motivator"
+		
+	engine 0 133
+	engine -27.5 132
+	engine 27.5 132
+	gun -17 -108.5 "R2 Laser Cannon"
+	gun 17 -108.5 "R2 Laser Cannon"
+	turret 0 41.5 "R2Heavy Laser Turret"
+	turret -17 -108.5 "R2Heavy Laser Turret"
+	turret 17 -108.5 "R2Heavy Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Sphyrna corvette, also known simply as the Hammerhead corvette, is a model of corvette that saw wide use in the period leading up to and during the Galactic Civil War. The vessel was inspired by a starship design that dated back centuries prior to the Imperial Era, designed by the Corellian Engineering Corporation."
+	description "Artwork/model by Unusualsuspex"
+
 
 
 
@@ -2283,7 +2266,7 @@ ship "Marauder Corvette"
 	sprite "ship/maraudercorvette"
 	thumbnail "thumbnail/maraudercorvette"
 	attributes
-		category "Light Warship"
+		category "Corvette "
 		"cost" 3900000
 		"shields" 26750
 		"hull" 10550
@@ -2304,38 +2287,32 @@ ship "Marauder Corvette"
 			"hit force" 800
 	outfits
 		"R2Dual Laser Turret" 8
-		"T3 Tractor Beam" 4
+		"T2 Tractor Beam" 2
 		
 		"P3 Power Converter"
 		"D3 Deflector Shield"
 		"C3 Coolant System"
 		
-		"B3 Sublight Engine"
+		"O3 Sublight Engine"
 		"H3 Hyperspace Motivator"
 		
-	engine 0 240
-	engine -18 228.5
-	engine 18 228.5
-	turret -32.5 175 "R2Dual Laser Turret"
-	turret 32.5 175 "R2Dual Laser Turret"
-	turret -28.5 100 "R2Dual Laser Turret"
-	turret 28.5 100 "R2Dual Laser Turret"
-	turret -35 -114 "R2Dual Laser Turret"
-	turret 35 -114 "R2Dual Laser Turret"
-	turret -34.5 -129.5 "R2Dual Laser Turret"
-	turret 34.5 -129.5 "R2Dual Laser Turret"
-	gun -152 31 "T3 Tractor Beam"
-	gun 152 31 "T3 Tractor Beam"
-	gun -134 32 "T3 Tractor Beam"
-	gun 134 32 "T3 Tractor Beam"
-	fighter 0 -5.5
-	fighter 0 -5.5
-	fighter 0 -5.5
-	fighter 0 -5.5
-	fighter 0 -5.5
-	fighter 0 -5.5
-	fighter 0 -5.5
-	fighter 0 -5.5
+	engine -21 217 0.5
+	engine 21 217 0.5
+	engine 0 217 1.3
+	gun -140 -90 "T2 Tractor Beam"
+	gun 140 -90 "T2 Tractor Beam"
+	turret -19 -156 "R2Dual Laser Turret"
+	turret 19 -156 "R2Dual Laser Turret"
+	turret -19.5 -150 "R2Dual Laser Turret"
+	turret 19.5 -150 "R2Dual Laser Turret"
+	turret -20 19.5 "R2Dual Laser Turret"
+	turret 20 19.5 "R2Dual Laser Turret"
+	turret -47 66 "R2Dual Laser Turret"
+	turret 47 66 "R2Dual Laser Turret"
+	bay "Starfighter (Bay) " 0 -190.5
+	bay "Starfighter (Bay) " 0 -190.5
+	bay "Starfighter (Bay) " 0 -190.5
+	bay "Starfighter (Bay) " 0 -190.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2351,7 +2328,7 @@ ship "MC5 Fighter"
 	sprite ship/mc5fighter
 	thumbnail thumbnail/mc5fighter
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 170000
 		shields 1500
@@ -2399,11 +2376,11 @@ ship "MC5 Fighter"
 
 
 
-ship "MC5 Fighter (Fighter)"
+ship "MC5 Fighter (Bay)"
 	sprite ship/mc5fighter
 	thumbnail thumbnail/mc5fighter
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 170000
 		shields 1500
@@ -2455,7 +2432,7 @@ ship "MC20 Escort Corvette"
 	sprite "ship/mc20starcorvette"
 	thumbnail "thumbnail/mc20starcorvette"
 	attributes
-		category "Light Warship"
+		category "Corvette "
 		"cost" 4715000
 		"shields" 32250
 		"hull" 11000
@@ -2501,9 +2478,9 @@ ship "MC20 Escort Corvette"
 	turret 12.5 -52 "R2Dual Laser Turret"
 	turret -16.5 -181.5 "R2Dual Laser Turret"
 	turret 16.5 -181.5 "R2Dual Laser Turret"
-	fighter 0 86
-	fighter 0 86
-	fighter 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
+	bay "Starfighter (Bay) " 0 86
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2517,7 +2494,7 @@ ship "MC25 Tide Frigate"
 	sprite "ship/mc25tidefrigate"
 	thumbnail "thumbnail/mc25tidefrigate"
 	attributes
-		category "Medium Warship"
+		category "Frigate "
 		"cost" 9500000
 		"shields" 41500
 		"hull" 15850
@@ -2563,14 +2540,12 @@ ship "MC25 Tide Frigate"
 	turret 0 -408 "R3 Turbolaser Turret"
 	turret -133 -8 "Point-Defence Laser Cannon Battery"
 	turret 133 -8 "Point-Defence Laser Cannon Battery"
-	fighter 0 -10
-	fighter 0 -10
-	fighter 0 -10
-	fighter 0 -10
-	fighter 0 -10
-	fighter 0 -10
-	fighter 0 -10
-	fighter 0 -10
+	bay "Starfighter (Bay) " 0 -10
+	bay "Starfighter (Bay) " 0 -10
+	bay "Starfighter (Bay) " 0 -10
+	bay "Starfighter (Bay) " 0 -10
+	bay "Starfighter (Bay) " 0 -10
+	bay "Starfighter (Bay) " 0 -10
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2585,7 +2560,7 @@ ship "MC30c Escort Frigate"
 	sprite "ship/mc30cfrigate"
 	thumbnail "thumbnail/mc30cfrigate"
 	attributes
-		category "Medium Warship"
+		category "Cruiser "
 		"cost" 19000000
 		"shields" 62000
 		"hull" 27000
@@ -2606,7 +2581,7 @@ ship "MC30c Escort Frigate"
 			"hit force" 950
 	outfits
 		"R5Quad Turbolaser Turret" 2
-		"R4Dual Turbolaser Turret" 14
+		"R4Dual Turbolaser Turret" 12
 		"Proton Torpedo Launcher" 3
 		"Proton Torpedo Storage Rack" 4
 		"Proton Torpedo" 29
@@ -2633,8 +2608,6 @@ ship "MC30c Escort Frigate"
 	turret 51 371 "R4Dual Turbolaser Turret"
 	turret -23 151 "R4Dual Turbolaser Turret"
 	turret 23 151 "R4Dual Turbolaser Turret"
-	turret -35.5 39 "R4Dual Turbolaser Turret"
-	turret 35.5 39 "R4Dual Turbolaser Turret"
 	turret -57 -35 "R4Dual Turbolaser Turret"
 	turret 57 -35 "R4Dual Turbolaser Turret"
 	turret -57 -150 "R4Dual Turbolaser Turret"
@@ -2643,14 +2616,14 @@ ship "MC30c Escort Frigate"
 	turret 49 -415.5 "R5Quad Turbolaser Turret"
 	turret -32.5 -513 "R4Dual Turbolaser Turret"
 	turret 32.5 -513 "R4Dual Turbolaser Turret"
-	fighter 0 266
-	fighter 0 266
-	fighter 0 266
-	fighter 0 266
-	fighter 0 266
-	fighter 0 266
-	fighter 0 266
-	fighter 0 266
+	bay "Starfighter (Bay) " 0 266
+	bay "Starfighter (Bay) " 0 266
+	bay "Starfighter (Bay) " 0 266
+	bay "Starfighter (Bay) " 0 266
+	bay "Starfighter (Bay) " 0 266
+	bay "Starfighter (Bay) " 0 266
+	bay "Starfighter (Bay) " 0 266
+	bay "Starfighter (Bay) " 0 266
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2666,7 +2639,7 @@ ship "MC40a Light Cruiser"
 	sprite "ship/mc40alightcruiser"
 	thumbnail "thumbnail/mc40alightcruiser"
 	attributes
-		category "Heavy Warship"
+		category "Cruiser "
 		"cost" 33000000
 		"shields" 84000
 		"hull" 36000
@@ -2687,8 +2660,8 @@ ship "MC40a Light Cruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"R5Quad Turbolaser Turret" 4
-		"R4Dual Turbolaser Turret" 12
+		"R5Quad Turbolaser Turret" 2
+		"R4Dual Turbolaser Turret" 14
 		"I4 Ion Turret" 2
 		"Assault Concussion Missile Launcher" 2
 		"Assault Concussion Missile Storage Rack" 2
@@ -2712,8 +2685,8 @@ ship "MC40a Light Cruiser"
 	gun 23.5 -641 "Proton Torpedo Launcher"
 	turret -82 511.5 "R4Dual Turbolaser Turret"
 	turret 82 511.5 "R4Dual Turbolaser Turret"
-	turret -102.5 310.5 "R5Quad Turbolaser Turret"
-	turret 102.5 310.5 "R5Quad Turbolaser Turret"
+	turret -102.5 310.5 "R4Dual Turbolaser Turret"
+	turret 102.5 310.5 "R4Dual Turbolaser Turret"
 	turret -176.5 120.5 "R5Quad Turbolaser Turret"
 	turret 176.5 120.5 "R5Quad Turbolaser Turret"
 	turret -101 -21.5 "I4 Ion Turret"
@@ -2728,22 +2701,14 @@ ship "MC40a Light Cruiser"
 	turret 53 -501 "R4Dual Turbolaser Turret"
 	turret -24 -642 "R4Dual Turbolaser Turret"
 	turret 24 -642 "R4Dual Turbolaser Turret"
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
-	fighter 0 28
+	bay "Starfighter (Bay) " 0 28
+	bay "Starfighter (Bay) " 0 28
+	bay "Starfighter (Bay) " 0 28
+	bay "Starfighter (Bay) " 0 28
+	bay "Starfighter (Bay) " 0 28
+	bay "Starfighter (Bay) " 0 28
+	bay "Starfighter (Bay) " 0 28
+	bay "Starfighter (Bay) " 0 28
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2759,7 +2724,7 @@ ship "MC75 Barracuda Cruiser"
 	sprite "ship/mc75barracudacruiser"
 	thumbnail "thumbnail/mc75barracudacruiser"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 88000000
 		"shields" 180000
 		"hull" 56000
@@ -2827,24 +2792,20 @@ ship "MC75 Barracuda Cruiser"
 	turret 120 -1120  "R4Dual Turbolaser Turret"
 	turret -37 -1279  "I4 Ion Turret"
 	turret 37 -1279  "I4 Ion Turret"
-	fighter -180 178
-	fighter 180 178
-	fighter -176 222
-	fighter 176 222
-	fighter -171 256
-	fighter 171 256
-	fighter -180 178
-	fighter 180 178
-	fighter -176 222
-	fighter 176 222
-	fighter -171 256
-	fighter 171 256
-	fighter -180 178
-	fighter 180 178
-	fighter -176 222
-	fighter 176 222
-	fighter -171 256
-	fighter 171 256
+	bay "Starfighter (Bay) " -180 178
+	bay "Starfighter (Bay) " 180 178
+	bay "Starfighter (Bay) " -176 222
+	bay "Starfighter (Bay) " 176 222
+	bay "Starfighter (Bay) " -171 256
+	bay "Starfighter (Bay) " 171 256
+	bay "Starfighter (Bay) " -180 178
+	bay "Starfighter (Bay) " 180 178
+	bay "Starfighter (Bay) " -176 222
+	bay "Starfighter (Bay) " 176 222
+	bay "Starfighter (Bay) " -171 256
+	bay "Starfighter (Bay) " 171 256
+	bay "Starfighter (Bay) " -180 178
+	bay "Starfighter (Bay) " 180 178
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2861,7 +2822,7 @@ ship "MC75 Star Cruiser"
 	sprite "ship/mc75starcruiser"
 	thumbnail "thumbnail/mc75starcruiser"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 88000000
 		"shields" 180000
 		"hull" 56000
@@ -2929,24 +2890,20 @@ ship "MC75 Star Cruiser"
 	turret 91 -280 "R4Dual Turbolaser Turret"
 	turret -68 -280 "R4Dual Turbolaser Turret"
 	turret 91 -280 "R4Dual Turbolaser Turret"
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
-	fighter 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
+	bay "Starfighter (Bay) " 11 -788
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2963,7 +2920,7 @@ ship "MC80A Chatnoir Cruiser"
 	sprite "ship/mc80achatnoircruiser"
 	thumbnail "thumbnail/mc80achatnoircruiser"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 112000000
 		"shields" 210000
 		"hull" 60000
@@ -3030,77 +2987,41 @@ ship "MC80A Chatnoir Cruiser"
 	turret -91 -1352 "I4 Ion Turret"
 	turret 150 -1312 "R5Quad Turbolaser Turret"
 	turret 18 -1493 "I4 Ion Turret"
-	fighter -484.5 209
+	bay "Starfighter (Bay) " -484.5 209
 		angle -90
-	fighter 484.5 209
+	bay "Starfighter (Bay) " 484.5 209
 		angle 90
-	fighter -484.5 209
+	bay "Starfighter (Bay) " -484.5 209
 		angle -90
-	fighter 484.5 209
+	bay "Starfighter (Bay) " 484.5 209
 		angle 90
-	fighter -484.5 209
+	bay "Starfighter (Bay) " -484.5 209
 		angle -90
-	fighter 484.5 209
+	bay "Starfighter (Bay) " 484.5 209
 		angle 90
-	fighter -484.5 209
+	bay "Starfighter (Bay) " -484.5 209
 		angle -90
-	fighter 484.5 209
+	bay "Starfighter (Bay) " 484.5 209
 		angle 90
-	fighter -484.5 209
+	bay "Starfighter (Bay) " -484.5 209
 		angle -90
-	fighter 484.5 209
+	bay "Starfighter (Bay) " 484.5 209
 		angle 90
-	fighter -484.5 209
+	bay "Starfighter (Bay) " -484.5 209
 		angle -90
-	fighter 484.5 209
+	bay "Starfighter (Bay) " 484.5 209
 		angle 90
-	fighter -484.5 209
+	bay "Starfighter (Bay) " -484.5 209
 		angle -90
-	fighter 484.5 209
+	bay "Starfighter (Bay) " 484.5 209
 		angle 90
-	fighter -484.5 209
+	bay "Starfighter (Bay) " -484.5 209
 		angle -90
-	fighter 484.5 209
+	bay "Starfighter (Bay) " 484.5 209
 		angle 90
-	fighter -484.5 209
+	bay "Starfighter (Bay) " -484.5 209
 		angle -90
-	fighter 484.5 209
-		angle 90
-	fighter -484.5 209
-		angle -90
-	fighter 484.5 209
-		angle 90
-	fighter -484.5 209
-		angle -90
-	fighter 484.5 209
-		angle 90
-	fighter -484.5 209
-		angle -90
-	fighter 484.5 209
-		angle 90
-	fighter -484.5 209
-		angle -90
-	fighter 484.5 209
-		angle 90
-	fighter -484.5 209
-		angle -90
-	fighter 484.5 209
-		angle 90
-	fighter -484.5 209
-		angle -90
-	fighter 484.5 209
-		angle 90
-	fighter -484.5 209
-		angle -90
-	fighter 484.5 209
-		angle 90
-	fighter -484.5 209
-		angle -90
-	fighter 484.5 209
-		angle 90
-	fighter -484.5 209
-		angle -90
-	fighter 484.5 209
+	bay "Starfighter (Bay) " 484.5 209
 		angle 90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -3118,7 +3039,7 @@ ship "MC80A Star Cruiser"
 	sprite "ship/mc80astarcruiser"
 	thumbnail "thumbnail/mc80astarcruiser"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 112000000
 		"shields" 210000
 		"hull" 60000
@@ -3186,77 +3107,41 @@ ship "MC80A Star Cruiser"
 	turret 25 936 "R5Quad Turbolaser Turret"
 	turret -72 1109 "R4Dual Turbolaser Turret"
 	turret 31 1113 "R4Dual Turbolaser Turret"
-	fighter -332.5 -4.5
+	bay "Starfighter (Bay) " -332.5 -4.5
 		angle -90
-	fighter 332.5 -4.5
+	bay "Starfighter (Bay) " 332.5 -4.5
 		angle 90
-	fighter -332.5 -4.5
+	bay "Starfighter (Bay) " -332.5 -4.5
 		angle -90
-	fighter 332.5 -4.5
+	bay "Starfighter (Bay) " 332.5 -4.5
 		angle 90
-	fighter -332.5 -4.5
+	bay "Starfighter (Bay) " -332.5 -4.5
 		angle -90
-	fighter 332.5 -4.5
+	bay "Starfighter (Bay) " 332.5 -4.5
 		angle 90
-	fighter -332.5 -4.5
+	bay "Starfighter (Bay) " -332.5 -4.5
 		angle -90
-	fighter 332.5 -4.5
+	bay "Starfighter (Bay) " 332.5 -4.5
 		angle 90
-	fighter -332.5 -4.5
+	bay "Starfighter (Bay) " -332.5 -4.5
 		angle -90
-	fighter 332.5 -4.5
+	bay "Starfighter (Bay) " 332.5 -4.5
 		angle 90
-	fighter -332.5 -4.5
+	bay "Starfighter (Bay) " -332.5 -4.5
 		angle -90
-	fighter 332.5 -4.5
+	bay "Starfighter (Bay) " 332.5 -4.5
 		angle 90
-	fighter -332.5 -4.5
+	bay "Starfighter (Bay) " -332.5 -4.5
 		angle -90
-	fighter 332.5 -4.5
+	bay "Starfighter (Bay) " 332.5 -4.5
 		angle 90
-	fighter -332.5 -4.5
+	bay "Starfighter (Bay) " -332.5 -4.5
 		angle -90
-	fighter 332.5 -4.5
+	bay "Starfighter (Bay) " 332.5 -4.5
 		angle 90
-	fighter -332.5 -4.5
+	bay "Starfighter (Bay) " -332.5 -4.5
 		angle -90
-	fighter 332.5 -4.5
-		angle 90
-	fighter -332.5 -4.5
-		angle -90
-	fighter 332.5 -4.5
-		angle 90
-	fighter -332.5 -4.5
-		angle -90
-	fighter 332.5 -4.5
-		angle 90
-	fighter -332.5 -4.5
-		angle -90
-	fighter 332.5 -4.5
-		angle 90
-	fighter -332.5 -4.5
-		angle -90
-	fighter 332.5 -4.5
-		angle 90
-	fighter -332.5 -4.5
-		angle -90
-	fighter 332.5 -4.5
-		angle 90
-	fighter -332.5 -4.5
-		angle -90
-	fighter 332.5 -4.5
-		angle 90
-	fighter -332.5 -4.5
-		angle -90
-	fighter 332.5 -4.5
-		angle 90
-	fighter -332.5 -4.5
-		angle -90
-	fighter 332.5 -4.5
-		angle 90
-	fighter -332.5 -4.5
-		angle -90
-	fighter 332.5 -4.5
+	bay "Starfighter (Bay) " 332.5 -4.5
 		angle 90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -3265,7 +3150,7 @@ ship "MC80A Star Cruiser"
 	explode "huge explosion" 10
 	"final explode" "final explosion large" 1
 	"final explode" "final explosion large"
-	description "The MC80A Home One Type Heavy Star Cruiser, also known as the MC80A star cruiser, is a model of MC80 Star Cruiser used by the Alliance to Restore the Republic. Originally fielded before the Galactic Civil War as civilian vessels, they have been modified by the Rebel Alliance, and serve in command ship and battleship roles in the Alliance Fleet."
+	description "The MC80A Star Cruiser is a model of MC80 Star Cruiser used by the Alliance to Restore the Republic. Originally fielded before the Galactic Civil War as civilian vessels, they have been modified by the Rebel Alliance, and serve in command ship and battleship roles in the Alliance Fleet."
 	description "Artwork/model by Unusualsuspex"
 
 
@@ -3274,7 +3159,7 @@ ship "MC80 Heavy Cruiser"
 	sprite "ship/mc80heavycruiser"
 	thumbnail "thumbnail/mc80heavycruiser"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 108000000
 		"shields" 200000
 		"hull" 57000
@@ -3346,53 +3231,37 @@ ship "MC80 Heavy Cruiser"
 	turret 65 591 "R5Quad Turbolaser Turret"
 	turret -84 856 "I4 Ion Turret"
 	turret 115 860 "I4 Ion Turret"
-	fighter -386.5 -105.5
+	bay "Starfighter (Bay) " -386.5 -105.5
 		angle -90
-	fighter 386.5 -105.5
+	bay "Starfighter (Bay) " 386.5 -105.5
 		angle 90
-	fighter -386.5 -105.5
+	bay "Starfighter (Bay) " -386.5 -105.5
 		angle -90
-	fighter 386.5 -105.5
+	bay "Starfighter (Bay) " 386.5 -105.5
 		angle 90
-	fighter -386.5 -105.5
+	bay "Starfighter (Bay) " -386.5 -105.5
 		angle -90
-	fighter 386.5 -105.5
+	bay "Starfighter (Bay) " 386.5 -105.5
 		angle 90
-	fighter -386.5 -105.5
+	bay "Starfighter (Bay) " -386.5 -105.5
 		angle -90
-	fighter 386.5 -105.5
+	bay "Starfighter (Bay) " 386.5 -105.5
 		angle 90
-	fighter -386.5 -105.5
+	bay "Starfighter (Bay) " -386.5 -105.5
 		angle -90
-	fighter 386.5 -105.5
+	bay "Starfighter (Bay) " 386.5 -105.5
 		angle 90
-	fighter -386.5 -105.5
+	bay "Starfighter (Bay) " -386.5 -105.5
 		angle -90
-	fighter 386.5 -105.5
+	bay "Starfighter (Bay) " 386.5 -105.5
 		angle 90
-	fighter -386.5 -105.5
+	bay "Starfighter (Bay) " -386.5 -105.5
 		angle -90
-	fighter 386.5 -105.5
+	bay "Starfighter (Bay) " 386.5 -105.5
 		angle 90
-	fighter -386.5 -105.5
+	bay "Starfighter (Bay) " -386.5 -105.5
 		angle -90
-	fighter 386.5 -105.5
-		angle 90
-	fighter -386.5 -105.5
-		angle -90
-	fighter 386.5 -105.5
-		angle 90
-	fighter -386.5 -105.5
-		angle -90
-	fighter 386.5 -105.5
-		angle 90
-	fighter -386.5 -105.5
-		angle -90
-	fighter 386.5 -105.5
-		angle 90
-	fighter -386.5 -105.5
-		angle -90
-	fighter 386.5 -105.5
+	bay "Starfighter (Bay) " 386.5 -105.5
 		angle 90
 	explode "tiny explosion" 20
 	explode "small explosion" 45
@@ -3410,7 +3279,7 @@ ship "MC80 Home One Star Cruiser"
 	sprite "ship/mc80homeonestarcruiser"
 	thumbnail "thumbnail/mc80homeonestarcruiser"
 	attributes
-		category "Heavy Warship"
+		category "Battlecruiser "
 		"cost" 770000000
 		"shields" 930000
 		"hull" 265000
@@ -3480,54 +3349,30 @@ ship "MC80 Home One Star Cruiser"
 	turret 188 -1628 "R5Quad Turbolaser Turret"
 	turret -173 -2008 "R5Quad Turbolaser Turret"
 	turret 125 -2112 "R5Quad Turbolaser Turret"
-	fighter -539 -357
-	fighter 539 -357
-	fighter -539 -277
-	fighter 539 -277
-	fighter -538 -212
-	fighter 538 -212
-	fighter -542 -173
-	fighter 542 -173
-	fighter -540 -127
-	fighter 540 -127
-	fighter -539 -357
-	fighter 539 -357
-	fighter -539 -277
-	fighter 539 -277
-	fighter -538 -212
-	fighter 538 -212
-	fighter -542 -173
-	fighter 542 -173
-	fighter -540 -127
-	fighter 540 -127
-	fighter -539 -357
-	fighter 539 -357
-	fighter -539 -277
-	fighter 539 -277
-	fighter -538 -212
-	fighter 538 -212
-	fighter -542 -173
-	fighter 542 -173
-	fighter -540 -127
-	fighter 540 -127
-	fighter -539 -357
-	fighter 539 -357
-	fighter -539 -277
-	fighter 539 -277
-	fighter -538 -212
-	fighter 538 -212
-	fighter -542 -173
-	fighter 542 -173
-	fighter -540 -127
-	fighter 540 -127
-	fighter -539 -357
-	fighter 539 -357
-	fighter -539 -277
-	fighter 539 -277
-	fighter -538 -212
-	fighter 538 -212
-	fighter -542 -173
-	fighter 542 -173
+	bay "Starfighter (Bay) " -539 -357
+	bay "Starfighter (Bay) " 539 -357
+	bay "Starfighter (Bay) " -539 -277
+	bay "Starfighter (Bay) " 539 -277
+	bay "Starfighter (Bay) " -538 -212
+	bay "Starfighter (Bay) " 538 -212
+	bay "Starfighter (Bay) " -542 -173
+	bay "Starfighter (Bay) " 542 -173
+	bay "Starfighter (Bay) " -540 -127
+	bay "Starfighter (Bay) " 540 -127
+	bay "Starfighter (Bay) " -539 -357
+	bay "Starfighter (Bay) " 539 -357
+	bay "Starfighter (Bay) " -539 -277
+	bay "Starfighter (Bay) " 539 -277
+	bay "Starfighter (Bay) " -538 -212
+	bay "Starfighter (Bay) " 538 -212
+	bay "Starfighter (Bay) " -542 -173
+	bay "Starfighter (Bay) " 542 -173
+	bay "Starfighter (Bay) " -540 -127
+	bay "Starfighter (Bay) " 540 -127
+	bay "Starfighter (Bay) " -539 -357
+	bay "Starfighter (Bay) " 539 -357
+	bay "Starfighter (Bay) " -539 -277
+	bay "Starfighter (Bay) " 539 -277
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3544,7 +3389,7 @@ ship "MC80 Liberty Cruiser"
 	sprite "ship/mc80libertycruiser"
 	thumbnail "thumbnail/mc80libertycruiser"
 	attributes
-		category "Heavy Warship"
+		category "Destroyer "
 		"cost" 104000000
 		"shields" 200000
 		"hull" 57000
@@ -3608,30 +3453,22 @@ ship "MC80 Liberty Cruiser"
 	turret -442 478 "R4Dual Turbolaser Turret"
 	turret 80 260 "I4 Ion Turret"
 	turret 79 606 "I4 Ion Turret"
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
-	fighter 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
+	bay "Starfighter (Bay) " 9 -216
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3648,7 +3485,7 @@ ship "MF69 Frigate"
 	sprite "ship/mf69frigate"
 	thumbnail "thumbnail/mf69frigate"
 	attributes
-		category "Medium Warship"
+		category "Frigate "
 		"cost" 10750000
 		"shields" 46000
 		"hull" 16000
@@ -3704,7 +3541,7 @@ ship "Pelta Frigate (Modified)"
 	sprite "ship/peltafrigatemodified"
 	thumbnail "thumbnail/peltafrigatemodified"
 	attributes
-		category "Medium Warship"
+		category "Frigate "
 		"cost" 9100000
 		"shields" 37550
 		"hull" 15450
@@ -3757,14 +3594,14 @@ ship "Pelta Frigate (Modified)"
 	turret 58 -189 "R3 Turbolaser Turret"
 	turret -77 -325 "R4Dual Turbolaser Turret"
 	turret 77 -325 "R4Dual Turbolaser Turret"
-	fighter -80.5 42.5 under
-	fighter 80.5 42.5 under
-	fighter 0 -258
-	fighter 0 -258
-	fighter 0 -258
-	fighter 0 -258
-	fighter 0 -258
-	fighter 0 -258
+	bay "Starfighter (Bay) " -80.5 42.5 under
+	bay "Starfighter (Bay) " 80.5 42.5 under
+	bay "Starfighter (Bay) " 0 -258
+	bay "Starfighter (Bay) " 0 -258
+	bay "Starfighter (Bay) " 0 -258
+	bay "Starfighter (Bay) " 0 -258
+	bay "Starfighter (Bay) " 0 -258
+	bay "Starfighter (Bay) " 0 -258
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3779,7 +3616,7 @@ ship "R-41 Starchaser"
 	sprite "ship/r41starchaser"
 	thumbnail "thumbnail/r41starchaser"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 85000
 		"shields" 1400
@@ -3832,11 +3669,11 @@ ship "R-41 Starchaser"
 
 
 
-ship "R-41 Starchaser (Fighter)"
+ship "R-41 Starchaser (Bay)"
 	sprite "ship/r41starchaser"
 	thumbnail "thumbnail/r41starchaser"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 85000
 		"shields" 1400
@@ -3893,7 +3730,7 @@ ship "RZ-1 A-Wing"
 	sprite "ship/rz1awingblue"
 	thumbnail "thumbnail/rz1awingblue"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 175000
 		"shields" 1600
@@ -3943,11 +3780,11 @@ ship "RZ-1 A-Wing"
 
 
 
-ship "RZ-1 A-Wing (Fighter)"
+ship "RZ-1 A-Wing (Bay)"
 	sprite "ship/rz1awingblue"
 	thumbnail "thumbnail/rz1awingblue"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 175000
 		"shields" 1600
@@ -4001,7 +3838,7 @@ ship "RZ-1 A-Wing" "RZ-1 A-Wing (R)"
 	sprite "ship/rz1awingred"
 	thumbnail "thumbnail/rz1awingred"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 175000
 		"shields" 1600
@@ -4051,11 +3888,11 @@ ship "RZ-1 A-Wing" "RZ-1 A-Wing (R)"
 
 
 
-ship "RZ-1 A-Wing (Fighter)" "RZ-1 A-Wing (R) (Fighter)"
+ship "RZ-1 A-Wing (Bay)" "RZ-1 A-Wing (R) (Bay)"
 	sprite "ship/rz1awingred"
 	thumbnail "thumbnail/rz1awingred"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 175000
 		"shields" 1600
@@ -4109,7 +3946,7 @@ ship "T-65B X-Wing"
 	sprite ship/t65bxwing
 	thumbnail thumbnail/t65bxwing
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 150000
 		shields 1600
@@ -4161,11 +3998,11 @@ ship "T-65B X-Wing"
 
 
 
-ship "T-65B X-Wing (Fighter)"
+ship "T-65B X-Wing (Bay)"
 	sprite ship/t65bxwing
 	thumbnail thumbnail/t65bxwing
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 150000
 		shields 1600
@@ -4221,7 +4058,7 @@ ship "T-65 XJ-3 Stealth X-Wing"
 	sprite ship/t65xj3stealthxwing
 	thumbnail thumbnail/t65xj3stealthxwing
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		cost 150000
 		shields 1700
@@ -4274,11 +4111,11 @@ ship "T-65 XJ-3 Stealth X-Wing"
 
 
 
-ship "T-65 XJ-3 Stealth X-Wing (Fighter)"
+ship "T-65 XJ-3 Stealth X-Wing (Bay)"
 	sprite ship/t65xj3stealthxwing
 	thumbnail thumbnail/t65xj3stealthxwing
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		cost 150000
 		shields 1700
@@ -4335,7 +4172,7 @@ ship "UT-60D U-Wing"
 	sprite "ship/ut60duwing"
 	thumbnail "thumbnail/ut60duwing"
 	attributes
-		category Interceptor
+		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 2400
@@ -4378,11 +4215,11 @@ ship "UT-60D U-Wing"
 	description "The UT-60D U-wing starfighter/support craft, more commonly known as the U-Wing, is a transport/gunship model manufactured by Incom Corporation. Used by the Alliance to Restore the Republic during the Galactic Civil War, the craft is used to drop troops into battle whilst providing cover fire for them. U-wings are pivotal in the transportation and protection of the Rebel Alliance's ground forces."
 	description "Artwork/model by Unusualsuspex"
 
-ship "UT-60D U-Wing (Fighter)"
+ship "UT-60D U-Wing (Bay)"
 	sprite "ship/ut60duwing"
 	thumbnail "thumbnail/ut60duwing"
 	attributes
-		category Fighter
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 2400
@@ -4429,7 +4266,7 @@ ship "X4 Gunship"
 	sprite "ship/x4gunship"
 	thumbnail "thumbnail/x4gunship"
 	attributes
-		category "Transport"
+		category "Patrol Craft "
 		"cost" 200000
 		"shields" 1000
 		"hull" 7000

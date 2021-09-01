@@ -20,6 +20,60 @@ person "Millennium Falcon"
 			"Never tell me the odds!"
 			"Let's keep a little optimism here..."
 	ship "YT-1300 Light Freighter (Millennium Falcon)"
+		sprite "ship/yt1300freightermillenniumfalcon"
+		thumbnail "thumbnail/yt1300freightermillenniumfalcon"
+		attributes
+			category "Light Freighter "
+			"cost" 100000
+			"shields" 50000
+			"hull" 30000
+			"required crew" 2
+			"bunks" 17
+			"mass" 150
+			"drag" 5.11
+			"heat dissipation" .45
+			"fuel capacity" 700
+			"cargo space" 90
+			"outfit space" 77
+			"weapon capacity" 16
+			"engine capacity" 22
+			weapon
+				"blast radius" 300
+				"shield damage" 700
+				"hull damage" 350
+				"hit force" 800
+		outfits
+			"R2 Laser Cannon" 2
+			"Proton Torpedo Launcher" 2
+			"Proton Torpedo" 6
+			"R2Dual Laser Turret" 2
+			
+			"P2 Power Converter"
+			"D2 Deflector Shield"
+			"C2 Coolant System"
+			
+			"B2 Sublight Engine"
+			"H2 Hyperspace Motivator"
+			
+		engine -17 43
+		engine 17 43
+		engine -12 45
+		engine 12 45
+		engine -7 46
+		engine 7 46
+		engine -2.5 46.5
+		engine 2.5 46.5
+		gun -10 -41 "R2 Laser Cannon"
+		gun 10 -41 "R2 Laser Cannon"
+		gun -14.5 -31.5 "Proton Torpedo Launcher"
+		gun 14.5 -31.5 "Proton Torpedo Launcher"
+		turret 0 10 "R2Dual Laser Turret"
+		turret 0 10 "R2Dual Laser Turret"
+		explode "tiny explosion" 20
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "large explosion" 40
+		"final explode" "final explosion large" 1
 
 person "Skylight"
 	government "Rebel Alliance"
@@ -33,7 +87,7 @@ person "Skylight"
 		sprite ship/t65xj3stealthxwing
 		thumbnail thumbnail/t65xj3stealthxwing
 		attributes
-			category Interceptor
+			category "Starfighter "
 			"absolute threshold" 20
 			cost 150000
 			shields 16000

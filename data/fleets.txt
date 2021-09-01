@@ -4,7 +4,7 @@ fleet "rebelfleet"
 	fighters "rebel fighter"
 	cargo 1
 	personality
-		opportunistic
+		opportunistic unconstrained
 	variant 80
 		"T-65B X-Wing" 6
 	variant 75
@@ -16,9 +16,9 @@ fleet "rebelfleet"
 	variant 60
 		"R-41 Starchaser" 6
 	variant 40
-		"A/SF-01 B-Wing (Fighter)" 5
+		"A/SF-01 B-Wing" 5
 	variant 10
-		"A/SF-01 B-Wing B6 (Fighter)" 3
+		"A/SF-01 B-Wing B6" 3
 	variant 75
 		"BTL-A4 Y-Wing" 3
 		"RZ-1 A-Wing" 3
@@ -41,38 +41,38 @@ fleet "rebelfleet"
 		"T-65B X-Wing" 4
 	variant 60
 		"Sphyrna Corvette (Modified)"
-		"T-65B X-Wing (Fighter)" 8
+		"T-65B X-Wing" 6
 	variant 50
 		"UT-60D U-Wing" 2
 		"RZ-1 A-Wing (R)" 4
 	variant 50
 		"CR90 Corvette"
-		"T-65B X-Wing (Fighter)" 3
+		"T-65B X-Wing (Bay)" 3
 		"T-65B X-Wing" 3
 	variant 50
 		"CR90 Corvette"
-		"BTL-A4 Y-Wing (Fighter)" 3
+		"BTL-A4 Y-Wing (Bay)" 3
 		"BTL-A4 Y-Wing" 3
 	variant 25
 		"CR90 Corvette"
-		"RZ-1 A-Wing (Fighter)" 3
+		"RZ-1 A-Wing (Bay)" 3
 		"RZ-1 A-Wing" 3
 	variant 25
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"RZ-1 A-Wing (R)" 3
 	variant 50
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing"  2
 		"BTL-A4 Y-Wing" 2
 	variant 10
 		"CR90 Corvette"
-		"E-7 E-Wing (Fighter)" 3
+		"E-7 E-Wing (Bay)" 3
 		"T-65B X-Wing" 3
 	variant 10
 		"CR90 Corvette"
-		"E-7 E-Wing (R) (Fighter)" 3
+		"E-7 E-Wing (R) (Bay)" 3
 		"T-65B X-Wing" 3
 	variant 40
 		"CR92a Assassin Corvette"
@@ -107,225 +107,445 @@ fleet "rebelfleet"
 	variant 40
 		"U-22 Orbital Loadlifter"
 		"GR-75 Transport" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"RZ-1 A-Wing (R)" 6
 	variant 40
 		"Dornean Gunship"
-		"RZ-1 A-Wing (Fighter)" 6
+		"RZ-1 A-Wing (Bay)" 2
+		"RZ-1 A-Wing" 4
 	variant 40
 		"CC-7700 Interdictor Frigate"
-		"T-65B X-Wing (Fighter)" 6
-	variant 15
+		"T-65B X-Wing" 6
+	variant 30
 		"Marauder Corvette"
-		"T-65B X-Wing (Fighter)" 8
-	variant 50
-		"EF76 Nebulon-B Frigate"
-		"CR90 Corvette"
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
-	variant 50
-		"EF76 Nebulon-B Frigate"
-		"CR90 Corvette"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
-	variant 50
-		"EF76 Nebulon-B Frigate"
-		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
-	variant 50
-		"EF76 Nebulon-B2 Frigate"
-		"CR90 Corvette" 2
-		"T-65B X-Wing (Fighter)" 8
-		"RZ-1 A-Wing (Fighter)" 6
-	variant 50
-		"EF76 Nebulon-B Frigate"
-		"CR90 Corvette"
-		"Sphyrna Corvette (Modified)"
-		"T-65B X-Wing (Fighter)" 9
-		"BTL-A4 Y-Wing (Fighter)" 3
-		"RZ-1 A-Wing (Fighter)" 3
-	variant 50
-		"Pelta Frigate (Modified)"
-		"CR90 Corvette" 2
-		"Sphyrna Corvette (Modified)" 2
-		"T-65B X-Wing (Fighter)" 8
-		"RZ-1 A-Wing (R) (Fighter)" 6
-	variant 20
-		"Bussard Tanker"
-		"T-65B X-Wing (Fighter)" 6
+		"T-65B X-Wing (Bay)" 4
+		"T-65B X-Wing" 2
 	variant 50
 		"CR90 Corvette"
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
 		"D5-Mantis Patrol Craft"
-		"RZ-1 A-Wing (R) (Fighter)" 3
 		"T-65B X-Wing" 6
 	variant 50
 		"CR90 Corvette"
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
 		"Lancer Pursuit Craft"
-		"RZ-1 A-Wing (R) (Fighter)" 3
 		"T-65B X-Wing" 6
 	variant 40
 		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
 		"X4 Gunship" 2
-		"RZ-1 A-Wing (Fighter)" 3
+		"T-65B X-Wing" 6
+	variant 50
+		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+	variant 50
+		"EF76 Nebulon-B Frigate"
+		"BTL-A4 Y-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+	variant 50
+		"EF76 Nebulon-B Frigate"
+		"RZ-1 A-Wing (R) (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+	variant 50
+		"EF76 Nebulon-B2 Frigate"
+		"T-65B X-Wing (Bay)" 6
+		"CR90 Corvette" 2
+		"RZ-1 A-Wing (Bay)" 6
+	variant 50
+		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+		"Sphyrna Corvette (Modified)"
+	variant 50
+		"Pelta Frigate (Modified)"
+		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette" 2
+		"RZ-1 A-Wing (R) (Bay)" 6
+		"Sphyrna Corvette (Modified)"
+	variant 20
+		"Bussard Tanker"
 		"T-65B X-Wing" 6
 	variant 45
-		"MC20 Escort Corvette"
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
+		"MC20 Escort Corvette"
+		"BTL-A4 Y-Wing (Bay)" 3
 		"CR90 Corvette"
-		"Sphyrna Corvette (Modified)" 2
-		"BTL-A4 Y-Wing (Fighter)" 3
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
+		"RZ-1 A-Wing (Bay)" 3
+		"Sphyrna Corvette (Modified)"
 	variant 45
 		"MC25 Tide Frigate"
+		"BTL-A4 Y-Wing (Bay)" 6
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
-		"BTL-A4 Y-Wing (Fighter)" 8
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
 	variant 30
 		"MF69 Frigate"
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
+		"RZ-1 A-Wing (Bay)" 6
 		"Sphyrna Corvette (Modified)" 2
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 6
 	variant 40
 		"MC30c Escort Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"EF76 Nebulon-B Frigate"
-		"CR90 Corvette" 2
+		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
-		"T-65B X-Wing (Fighter)" 8
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (R) (Fighter)" 6
 	variant 40
 		"MC40a Light Cruiser"
+		"T-65B X-Wing (Bay)" 8
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette"
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
-		"T-65B X-Wing (Fighter)" 16
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (R) (Fighter)" 3
 	variant 40
 		"Assault Frigate Mark II"
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
-		"Sphyrna Corvette (Modified)" 2
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"Sphyrna Corvette (Modified)"
 	variant 20
 		"Liberator Cruiser"
+		"T-65B X-Wing (Bay)" 4
+		"BTL-A4 Y-Wing (Bay)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
-		"T-65B X-Wing (Fighter)" 12
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
 	variant 25
 		"MC75 Star Cruiser"
+		"T-65B X-Wing (Bay)" 7
+		"BTL-A4 Y-Wing (Bay)" 7
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
-		"Sphyrna Corvette (Modified)" 2
-		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 9
-		"BTL-A4 Y-Wing (Fighter)" 9
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
+		"Sphyrna Corvette (Modified)"
+		"GR-75 Transport" 3
 	variant 22
 		"MC75 Barracuda Cruiser"
+		"T-65B X-Wing (Bay)" 7
+		"BTL-A4 Y-Wing (Bay)" 7
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
-		"Sphyrna Corvette (Modified)" 2
-		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 9
-		"BTL-A4 Y-Wing (Fighter)" 9
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
+		"Sphyrna Corvette (Modified)"
+		"GR-75 Transport" 3
 	variant 18
 		"MC80 Liberty Cruiser"
+		"T-65B X-Wing (Bay)" 8
+		"BTL-A4 Y-Wing (Bay)" 8
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
-		"Sphyrna Corvette (Modified)" 2
-		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 12
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
+		"Sphyrna Corvette (Modified)"
+		"GR-75 Transport" 3
 	variant 15
 		"MC80 Heavy Cruiser"
+		"T-65B X-Wing (Bay)" 8
+		"BTL-A4 Y-Wing (Bay)" 8
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
-		"Sphyrna Corvette (Modified)" 2
-		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 12
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
+		"Sphyrna Corvette (Modified)"
+		"GR-75 Transport" 3
 	variant 15
 		"MC80A Chatnoir Cruiser"
+		"T-65B X-Wing (Bay)" 9
+		"BTL-A4 Y-Wing (Bay)" 9
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
-		"Sphyrna Corvette (Modified)" 2
-		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 18
-		"BTL-A4 Y-Wing (Fighter)" 18
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
+		"Sphyrna Corvette (Modified)"
+		"GR-75 Transport" 3
 	variant 15
 		"MC80A Star Cruiser"
+		"T-65B X-Wing (Bay)" 9
+		"BTL-A4 Y-Wing (Bay)" 9
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
-		"Sphyrna Corvette (Modified)" 2
-		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 18
-		"BTL-A4 Y-Wing (Fighter)" 18
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
+		"Sphyrna Corvette (Modified)"
+		"GR-75 Transport" 3
 	variant 7
 		"MC80 Home One Star Cruiser"
+		"T-65B X-Wing (Bay)" 12
+		"BTL-A4 Y-Wing (Bay)" 12
 		"EF76 Nebulon-B Frigate" 2
+		"T-65B X-Wing (Bay)" 8
+		"BTL-A4 Y-Wing (Bay)" 8
 		"CR90 Corvette" 3
+		"RZ-1 A-Wing (R) (Bay)" 9
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 24
-		"BTL-A4 Y-Wing (Fighter)" 24
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 9
 	variant 3
 		"Starhawk Battlecruiser (Prototype)"
+		"T-65B X-Wing (Bay)" 9
+		"BTL-A4 Y-Wing (Bay)" 9
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
+		"RZ-1 A-Wing (Bay)" 6
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 18
-		"BTL-A4 Y-Wing (Fighter)" 18
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
 	variant 5
 		"Starhawk Battlecruiser Mark I"
+		"T-65B X-Wing (Bay)" 10
+		"BTL-A4 Y-Wing (Bay)" 10
 		"EF76 Nebulon-B Frigate" 2
+		"T-65B X-Wing (Bay)" 16
 		"CR90 Corvette" 3
+		"RZ-1 A-Wing (R) (Bay)" 9
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 20
-		"BTL-A4 Y-Wing (Fighter)" 20
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 9
+
+fleet "rebelsquadron"
+	government "Rebel Alliance"
+	names "rebel capital"
+	fighters "rebel fighter"
+	cargo 1
+	personality
+		opportunistic unconstrained
+	variant 80
+		"T-65B X-Wing" 6
+	variant 75
+		"BTL-A4 Y-Wing" 6
+	variant 40
+		"RZ-1 A-Wing (R)" 6
+	variant 40
+		"RZ-1 A-Wing" 6
+	variant 60
+		"R-41 Starchaser" 6
+	variant 40
+		"A/SF-01 B-Wing" 5
+	variant 10
+		"A/SF-01 B-Wing B6" 3
+	variant 75
+		"BTL-A4 Y-Wing" 3
+		"RZ-1 A-Wing" 3
+	variant 32
+		"T-65B X-Wing" 4
+		"BTL-A4 Y-Wing" 4
+		"RZ-1 A-Wing" 4
+	variant 32
+		"T-65B X-Wing" 2
+		"BTL-A4 Y-Wing" 2
+		"RZ-1 A-Wing (R)" 2
+	variant 5
+		"BTL-S8 K-Wing" 5
+	variant 40
+		"BTS-A2 H-Wing" 5
+	variant 5
+		"MC5 Fighter" 5
+	variant 40
+		"X4 Gunship"
+		"T-65B X-Wing" 4
+	variant 60
+		"Sphyrna Corvette (Modified)"
+		"T-65B X-Wing (Bay)" 8
+	variant 50
+		"UT-60D U-Wing" 2
+		"RZ-1 A-Wing (R)" 4
+	variant 50
+		"CR90 Corvette"
+		"T-65B X-Wing (Bay)" 3
+		"T-65B X-Wing" 3
+	variant 50
+		"CR90 Corvette"
+		"BTL-A4 Y-Wing (Bay)" 3
+		"BTL-A4 Y-Wing" 3
+	variant 25
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+		"RZ-1 A-Wing" 3
+	variant 25
+		"CR90 Corvette"
+		"RZ-1 A-Wing (R) (Bay)" 3
+		"RZ-1 A-Wing (R)" 3
+	variant 50
+		"CR90 Corvette"
+		"RZ-1 A-Wing (R) (Bay)" 3
+		"T-65B X-Wing"  2
+		"BTL-A4 Y-Wing" 2
+	variant 10
+		"CR90 Corvette"
+		"E-7 E-Wing (Bay)" 3
+		"T-65B X-Wing" 3
+	variant 10
+		"CR90 Corvette"
+		"E-7 E-Wing (R) (Bay)" 3
+		"T-65B X-Wing" 3
+	variant 40
+		"CR92a Assassin Corvette"
+		"T-65B X-Wing" 6
+	variant 50
+		"GR-75 Transport" 2
+		"T-65B X-Wing" 6
+	variant 50
+		"GR-75 Transport" 2
+		"BTL-A4 Y-Wing" 6
+	variant 50
+		"GR-75 Transport" 2
+		"RZ-1 A-Wing" 6
+	variant 15
+		"DP20 Frigate"
+		"T-65B X-Wing" 6
+	variant 15
+		"DP20 Frigate (Modified)"
+		"T-65B X-Wing" 6
+	variant 15
+		"DP20 Frigate"
+		"BTL-A4 Y-Wing" 6
+	variant 15
+		"DP20 Frigate (Modified)"
+		"BTL-A4 Y-Wing" 6
+	variant 15
+		"DP20 Frigate"
+		"RZ-1 A-Wing" 6
+	variant 15
+		"DP20 Frigate (Modified)"
+		"RZ-1 A-Wing" 6
+	variant 40
+		"U-22 Orbital Loadlifter"
+		"GR-75 Transport" 2
+		"RZ-1 A-Wing (R)" 6
+	variant 40
+		"Dornean Gunship"
+		"RZ-1 A-Wing (Bay)" 2
+		"RZ-1 A-Wing" 4
+	variant 40
+		"CC-7700 Interdictor Frigate"
+		"T-65B X-Wing" 6
+	variant 30
+		"Marauder Corvette"
+		"T-65B X-Wing (Bay)" 4
+		"T-65B X-Wing" 2
+	variant 50
+		"CR90 Corvette"
+		"RZ-1 A-Wing (R) (Bay)" 3
+		"Sphyrna Corvette (Modified)" 2
+		"D5-Mantis Patrol Craft"
+		"T-65B X-Wing" 6
+	variant 50
+		"CR90 Corvette"
+		"RZ-1 A-Wing (R) (Bay)" 3
+		"Sphyrna Corvette (Modified)" 2
+		"Lancer Pursuit Craft"
+		"T-65B X-Wing" 6
+	variant 40
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+		"Sphyrna Corvette (Modified)" 2
+		"X4 Gunship" 2
+		"T-65B X-Wing" 6
+
+fleet "rebelfrigate"
+	government "Rebel Alliance"
+	names "rebel capital"
+	fighters "rebel fighter"
+	cargo 1
+	personality
+		opportunistic unconstrained
+	variant 50
+		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+	variant 50
+		"EF76 Nebulon-B Frigate"
+		"BTL-A4 Y-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+	variant 50
+		"EF76 Nebulon-B Frigate"
+		"RZ-1 A-Wing (R) (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+	variant 50
+		"EF76 Nebulon-B2 Frigate"
+		"T-65B X-Wing (Bay)" 6
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+	variant 50
+		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+	variant 50
+		"Pelta Frigate (Modified)"
+		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
+		"Sphyrna Corvette (Modified)"
+	variant 20
+		"Bussard Tanker"
+		"T-65B X-Wing" 6
+	variant 45
+		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
+		"MC20 Escort Corvette"
+		"BTL-A4 Y-Wing (Bay)" 3
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+	variant 45
+		"MC25 Tide Frigate"
+		"BTL-A4 Y-Wing (Bay)" 6
+#		"EF76 Nebulon-B Frigate"
+#		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+		"Sphyrna Corvette (Modified)"
+	variant 30
+		"MF69 Frigate"
+#		"EF76 Nebulon-B Frigate"
+#		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+	variant 40
+		"MC30c Escort Frigate"
+		"T-65B X-Wing (Bay)" 8
+		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
+		"Sphyrna Corvette (Modified)"
+	variant 40
+		"MC40a Light Cruiser"
+		"T-65B X-Wing (Bay)" 8
+#		"EF76 Nebulon-B Frigate"
+#		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (R) (Bay)" 3
+		"Sphyrna Corvette (Modified)"
+	variant 40
+		"Assault Frigate Mark II"
+		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
+		"CR90 Corvette"
+		"RZ-1 A-Wing (R) (Bay)" 3
+		"Sphyrna Corvette (Modified)"
+	variant 20
+		"Liberator Cruiser"
+		"T-65B X-Wing (Bay)" 4
+		"BTL-A4 Y-Wing (Bay)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
+		"Sphyrna Corvette (Modified)" 2
 
 fleet "rebelcapitalship"
 	government "Rebel Alliance"
@@ -336,83 +556,114 @@ fleet "rebelcapitalship"
 		heroic opportunistic unconstrained
 	variant 11
 		"Assault Frigate Mark II"
-		"EF76 Nebulon-B Frigate" 2
-		"T-65B X-Wing (Fighter)" 24
-		"CR90 Corvette" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
-		"Sphyrna Corvette (Modified)"
+		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 	variant 10
 		"MC75 Barracuda Cruiser"
-		"T-65B X-Wing (Fighter)" 18
-		"EF76 Nebulon-B Frigate"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"CR90 Corvette" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
-		"Sphyrna Corvette (Modified)"
+		"T-65B X-Wing (Bay)" 14
 	variant 10
 		"MC75 Star Cruiser"
-		"T-65B X-Wing (Fighter)" 18
-		"EF76 Nebulon-B Frigate"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"CR90 Corvette" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
-		"Sphyrna Corvette (Modified)"
+		"T-65B X-Wing (Bay)" 14
 	variant 10
 		"MC80 Liberty Cruiser"
-		"T-65B X-Wing (Fighter)" 24
-		"EF76 Nebulon-B Frigate"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"CR90 Corvette" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
-		"Sphyrna Corvette (Modified)"
+		"T-65B X-Wing (Bay)" 16
 	variant 5
 		"MC80 Heavy Cruiser"
-		"T-65B X-Wing (Fighter)" 24
-		"EF76 Nebulon-B Frigate"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"CR90 Corvette" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
-		"Sphyrna Corvette (Modified)"
+		"T-65B X-Wing (Bay)" 16
 	variant 10
 		"Dauntless Heavy Cruiser"
-		"T-65B X-Wing (Fighter)" 28
-		"EF76 Nebulon-B Frigate"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"CR90 Corvette" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
-		"Sphyrna Corvette (Modified)"
+		"T-65B X-Wing (Bay)" 16
 	variant 10
 		"MC80A Chatnoir Cruiser"
-		"T-65B X-Wing (Fighter)" 36
-		"EF76 Nebulon-B Frigate"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"CR90 Corvette" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
-		"Sphyrna Corvette (Modified)"
+		"T-65B X-Wing (Bay)" 18
 	variant 10
 		"MC80A Star Cruiser"
-		"T-65B X-Wing (Fighter)" 36
-		"EF76 Nebulon-B Frigate"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"CR90 Corvette" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
-		"Sphyrna Corvette (Modified)"
+		"T-65B X-Wing (Bay)" 18
 	variant 6
 		"Starhawk Battlecruiser (Prototype)"
-		"T-65B X-Wing (Fighter)" 36
-		"EF76 Nebulon-B Frigate"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"CR90 Corvette" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
-		"Sphyrna Corvette (Modified)"
+		"T-65B X-Wing (Bay)" 18
 	variant 6
 		"Starhawk Battlecruiser Mark I"
-		"T-65B X-Wing (Fighter)" 40
-		"EF76 Nebulon-B Frigate"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"CR90 Corvette" 2
-		"RZ-1 A-Wing (R) (Fighter)" 6
-		"Sphyrna Corvette (Modified)"
+		"T-65B X-Wing (Bay)" 20
+#	variant 11
+#		"Assault Frigate Mark II"
+#		"EF76 Nebulon-B Frigate" 2
+#		"T-65B X-Wing (Bay)" 16
+#		"CR90 Corvette" 2
+#		"RZ-1 A-Wing (R) (Bay)" 6
+#		"Sphyrna Corvette (Modified)"
+#	variant 10
+#		"MC75 Barracuda Cruiser"
+#		"T-65B X-Wing (Bay)" 14
+#		"EF76 Nebulon-B Frigate"
+#		"BTL-A4 Y-Wing (Bay)" 8
+#		"CR90 Corvette" 2
+#		"RZ-1 A-Wing (R) (Bay)" 6
+#		"Sphyrna Corvette (Modified)"
+#	variant 10
+#		"MC75 Star Cruiser"
+#		"T-65B X-Wing (Bay)" 14
+#		"EF76 Nebulon-B Frigate"
+#		"BTL-A4 Y-Wing (Bay)" 8
+#		"CR90 Corvette" 2
+#		"RZ-1 A-Wing (R) (Bay)" 6
+#		"Sphyrna Corvette (Modified)"
+#	variant 10
+#		"MC80 Liberty Cruiser"
+#		"T-65B X-Wing (Bay)" 16
+#		"EF76 Nebulon-B Frigate"
+#		"BTL-A4 Y-Wing (Bay)" 8
+#		"CR90 Corvette" 2
+#		"RZ-1 A-Wing (R) (Bay)" 6
+#		"Sphyrna Corvette (Modified)"
+#	variant 5
+#		"MC80 Heavy Cruiser"
+#		"T-65B X-Wing (Bay)" 16
+#		"EF76 Nebulon-B Frigate"
+#		"BTL-A4 Y-Wing (Bay)" 8
+#		"CR90 Corvette" 2
+#		"RZ-1 A-Wing (R) (Bay)" 6
+#		"Sphyrna Corvette (Modified)"
+#	variant 10
+#		"Dauntless Heavy Cruiser"
+#		"T-65B X-Wing (Bay)" 16
+#		"EF76 Nebulon-B Frigate"
+#		"BTL-A4 Y-Wing (Bay)" 8
+#		"CR90 Corvette" 2
+#		"RZ-1 A-Wing (R) (Bay)" 6
+#		"Sphyrna Corvette (Modified)"
+#	variant 10
+#		"MC80A Chatnoir Cruiser"
+#		"T-65B X-Wing (Bay)" 18
+#		"EF76 Nebulon-B Frigate"
+#		"BTL-A4 Y-Wing (Bay)" 8
+#		"CR90 Corvette" 2
+#		"RZ-1 A-Wing (R) (Bay)" 6
+#		"Sphyrna Corvette (Modified)"
+#	variant 10
+#		"MC80A Star Cruiser"
+#		"T-65B X-Wing (Bay)" 18
+#		"EF76 Nebulon-B Frigate"
+#		"BTL-A4 Y-Wing (Bay)" 8
+#		"CR90 Corvette" 2
+#		"RZ-1 A-Wing (R) (Bay)" 6
+#		"Sphyrna Corvette (Modified)"
+#	variant 6
+#		"Starhawk Battlecruiser (Prototype)"
+#		"T-65B X-Wing (Bay)" 18
+#		"EF76 Nebulon-B Frigate"
+#		"BTL-A4 Y-Wing (Bay)" 8
+#		"CR90 Corvette" 2
+#		"RZ-1 A-Wing (R) (Bay)" 6
+#		"Sphyrna Corvette (Modified)"
+#	variant 6
+#		"Starhawk Battlecruiser Mark I"
+#		"T-65B X-Wing (Bay)" 20
+#		"EF76 Nebulon-B Frigate"
+#		"BTL-A4 Y-Wing (Bay)" 8
+#		"CR90 Corvette" 2
+#		"RZ-1 A-Wing (R) (Bay)" 6
+#		"Sphyrna Corvette (Modified)"
 
 fleet "rebeldefencefleet"
 	government "Rebel Alliance"
@@ -446,16 +697,16 @@ fleet "rebeldefencefleet"
 		"X4 Gunship" 3
 	variant 50
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing"  6
 		"BTL-A4 Y-Wing" 3
 	variant 50
 		"CR90 Corvette"
-		"T-65B X-Wing (Fighter)" 3
+		"T-65B X-Wing (Bay)" 3
 		"T-65B X-Wing" 9
 	variant 50
 		"CR90 Corvette"
-		"BTL-A4 Y-Wing (Fighter)" 3
+		"BTL-A4 Y-Wing (Bay)" 3
 		"BTL-A4 Y-Wing" 9
 	variant 55
 		"GR-75 Transport" 2
@@ -465,11 +716,11 @@ fleet "rebeldefencefleet"
 		"T-65B X-Wing" 12
 	variant 20
 		"CR90 Corvette"
-		"E-7 E-Wing (Fighter)" 3
+		"E-7 E-Wing (Bay)" 3
 		"T-65B X-Wing" 9
 	variant 20
 		"CR90 Corvette"
-		"E-7 E-Wing (R) (Fighter)" 3
+		"E-7 E-Wing (R) (Bay)" 3
 		"T-65B X-Wing" 9
 	variant 40
 		"DP20 Frigate"
@@ -483,202 +734,204 @@ fleet "rebeldefencefleet"
 		"RZ-1 A-Wing (R)" 12
 	variant 40
 		"Dornean Gunship" 2
-		"RZ-1 A-Wing" 12
+		"RZ-1 A-Wing (Bay)" 2
+		"RZ-1 A-Wing" 4
 	variant 40
 		"CC-7700 Interdictor Frigate"
 		"T-65B X-Wing" 12
 	variant 50
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette"
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
+		"RZ-1 A-Wing (Bay)" 3
 	variant 50
 		"EF76 Nebulon-B Frigate"
+		"BTL-A4 Y-Wing (Bay)" 8
 		"CR90 Corvette"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
+		"RZ-1 A-Wing (Bay)" 3
 	variant 50
 		"EF76 Nebulon-B Frigate"
+		"RZ-1 A-Wing (R) (Bay)" 8
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 9
-		"RZ-1 A-Wing (Fighter)" 3
+		"RZ-1 A-Wing (Bay)" 3
 	variant 50
 		"EF76 Nebulon-B2 Frigate"
+		"T-65B X-Wing (Bay)" 6
 		"CR90 Corvette" 2
-		"T-65B X-Wing (Fighter)" 8
-		"RZ-1 A-Wing (Fighter)" 3
+		"RZ-1 A-Wing (Bay)" 6
 	variant 50
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 4
+		"BTL-A4 Y-Wing (Bay)" 4
 		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
 		"Sphyrna Corvette (Modified)"
-		"T-65B X-Wing (Fighter)" 9
-		"BTL-A4 Y-Wing (Fighter)" 3
-		"RZ-1 A-Wing (Fighter)" 3
 	variant 50
 		"Pelta Frigate (Modified)"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
+		"RZ-1 A-Wing (R) (Bay)" 6
 		"Sphyrna Corvette (Modified)" 2
-		"T-65B X-Wing (Fighter)" 8
-		"RZ-1 A-Wing (R) (Fighter)" 6
 	variant 50
 		"CR90 Corvette"
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
 		"D5-Mantis Patrol Craft"
-		"RZ-1 A-Wing (R) (Fighter)" 3
 		"T-65B X-Wing" 9
 	variant 50
 		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
 		"Lancer Pursuit Craft"
-		"RZ-1 A-Wing (Fighter)" 3
 		"T-65B X-Wing" 9
 	variant 50
 		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
 		"X4 Gunship" 2
-		"RZ-1 A-Wing (Fighter)" 3
 		"T-65B X-Wing" 6
 	variant 45
 		"MC20 Escort Corvette"
+		"BTL-A4 Y-Wing (Bay)" 3
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
-		"BTL-A4 Y-Wing (Fighter)" 3
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
+
 	variant 45
 		"MC25 Tide Frigate"
+		"BTL-A4 Y-Wing (Bay)" 6
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette"
+		"RZ-1 A-Wing (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
-		"BTL-A4 Y-Wing (Fighter)" 8
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
 	variant 40
 		"MC30c Escort Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
+		"RZ-1 A-Wing (R) (Bay)" 6
 		"Sphyrna Corvette (Modified)" 2
-		"T-65B X-Wing (Fighter)" 8
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (R) (Fighter)" 6
 	variant 40
 		"MC40a Light Cruiser"
+		"T-65B X-Wing (Bay)" 8
 		"EF76 Nebulon-B Frigate"
+		"T-65B X-Wing (Bay)" 8
 		"CR90 Corvette" 2
+		"RZ-1 A-Wing (R) (Bay)" 6
 		"Sphyrna Corvette (Modified)" 2
-		"T-65B X-Wing (Fighter)" 16
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (R) (Fighter)" 4
 	variant 20
 		"Liberator Cruiser"
+		"T-65B X-Wing (Bay)" 4
+		"BTL-A4 Y-Wing (Bay)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"Sphyrna Corvette (Modified)" 2
-		"T-65B X-Wing (Fighter)" 12
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
 	variant 25
 		"MC75 Star Cruiser"
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 9
-		"BTL-A4 Y-Wing (Fighter)" 9
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"T-65B X-Wing (Bay)" 9
+		"BTL-A4 Y-Wing (Bay)" 9
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
 	variant 22
 		"MC75 Barracuda Cruiser"
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 9
-		"BTL-A4 Y-Wing (Fighter)" 9
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"T-65B X-Wing (Bay)" 9
+		"BTL-A4 Y-Wing (Bay)" 9
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
 	variant 18
 		"MC80 Liberty Cruiser"
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 12
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"T-65B X-Wing (Bay)" 12
+		"BTL-A4 Y-Wing (Bay)" 12
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
 	variant 15
 		"MC80 Heavy Cruiser"
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 12
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"T-65B X-Wing (Bay)" 12
+		"BTL-A4 Y-Wing (Bay)" 12
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
 	variant 15
 		"MC80A Chatnoir Cruiser"
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 18
-		"BTL-A4 Y-Wing (Fighter)" 18
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"T-65B X-Wing (Bay)" 18
+		"BTL-A4 Y-Wing (Bay)" 18
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
 	variant 15
 		"MC80A Star Cruiser"
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 18
-		"BTL-A4 Y-Wing (Fighter)" 18
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"T-65B X-Wing (Bay)" 18
+		"BTL-A4 Y-Wing (Bay)" 18
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
 	variant 7
 		"MC80 Home One Star Cruiser"
 		"EF76 Nebulon-B Frigate" 2
 		"CR90 Corvette" 3
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 24
-		"BTL-A4 Y-Wing (Fighter)" 24
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 9
+		"T-65B X-Wing (Bay)" 24
+		"BTL-A4 Y-Wing (Bay)" 24
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"RZ-1 A-Wing (R) (Bay)" 9
 	variant 3
 		"Starhawk Battlecruiser (Prototype)"
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 18
-		"BTL-A4 Y-Wing (Fighter)" 18
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"T-65B X-Wing (Bay)" 18
+		"BTL-A4 Y-Wing (Bay)" 18
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
 	variant 5
 		"Starhawk Battlecruiser Mark I"
 		"EF76 Nebulon-B Frigate" 2
 		"CR90 Corvette" 3
 		"Sphyrna Corvette (Modified)" 2
 		"GR-75 Transport" 4
-		"T-65B X-Wing (Fighter)" 20
-		"BTL-A4 Y-Wing (Fighter)" 20
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"T-65B X-Wing (Fighter)" 6
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 9
+		"T-65B X-Wing (Bay)" 20
+		"BTL-A4 Y-Wing (Bay)" 20
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"T-65B X-Wing (Bay)" 6
+		"BTL-A4 Y-Wing (Bay)" 6
+		"RZ-1 A-Wing (R) (Bay)" 9
 
 fleet "missionrebelescort"
 	government "Rebel Alliance"
@@ -698,13 +951,14 @@ fleet "missionrebelescort"
 		"RZ-1 A-Wing (R)" 12
 	variant 40
 		"Dornean Gunship"
-		"RZ-1 A-Wing (R)" 12
+		"RZ-1 A-Wing (R) (Bay)" 2
+		"RZ-1 A-Wing (R)" 4
 	variant 40
 		"Sphyrna Corvette (Modified)"
 		"R-41 Starchaser" 12
 	variant 40
 		"Sphyrna Corvette (Modified)"
-		"BTS-A2 H-Wing (Fighter)" 6
+		"BTS-A2 H-Wing (Bay)" 6
 		"RZ-1 A-Wing" 6
 	variant 40
 		"Sphyrna Corvette (Modified)"
@@ -712,67 +966,67 @@ fleet "missionrebelescort"
 		"UT-60D U-Wing" 6
 	variant 75
 		"CR90 Corvette"
-		"BTL-A4 Y-Wing (Fighter)" 3
+		"BTL-A4 Y-Wing (Bay)" 3
 		"BTL-A4 Y-Wing" 3
 		"RZ-1 A-Wing" 6
 	variant 10
 		"CR90 Corvette (Modified)"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing" 5
 		"BTL-A4 Y-Wing" 4
 	variant 75
 		"CR90 Corvette (Liberator)"
-		"RZ-1 A-Wing (Fighter)" 3
+		"RZ-1 A-Wing (Bay)" 3
 		"T-65B X-Wing" 4
 		"BTL-A4 Y-Wing" 4
 	variant 40
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing"  3
 		"X4 Gunship" 3
 	variant 10
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing"  3
 		"X4 Gunship"
 		"YT-1300 Light Freighter (R)"
 	variant 10
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing"  3
 		"X4 Gunship"
 		"YT-1760 Light Freighter"
 	variant 10
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing"  3
 		"X4 Gunship"
 		"YT-2000 Light Freighter"
 	variant 10
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing"  3
 		"X4 Gunship"
 		"YT-2400 Light Freighter"
 	variant 10
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing"  3
 		"X4 Gunship"
 		"VCX-100 Light Freighter"
-		"VCX-series Auxiliary Starfighter (Fighter)"
+		"VCX-series Auxiliary Starfighter (Bay)"
 	variant 50
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing"  6
 		"BTL-A4 Y-Wing" 3
 	variant 50
 		"CR90 Corvette"
-		"T-65B X-Wing (Fighter)" 3
+		"T-65B X-Wing (Bay)" 3
 		"T-65B X-Wing" 9
 	variant 50
 		"CR90 Corvette"
-		"BTL-A4 Y-Wing (Fighter)" 3
+		"BTL-A4 Y-Wing (Bay)" 3
 		"BTL-A4 Y-Wing" 9
 	variant 55
 		"GR-75 Transport" 2
@@ -782,11 +1036,11 @@ fleet "missionrebelescort"
 		"T-65B X-Wing" 12
 	variant 20
 		"CR90 Corvette"
-		"E-7 E-Wing (Fighter)" 3
+		"E-7 E-Wing (Bay)" 3
 		"T-65B X-Wing" 9
 	variant 20
 		"CR90 Corvette"
-		"E-7 E-Wing (R) (Fighter)" 3
+		"E-7 E-Wing (R) (Bay)" 3
 		"T-65B X-Wing" 9
 	variant 40
 		"DP20 Frigate"
@@ -800,92 +1054,93 @@ fleet "missionrebelescort"
 		"RZ-1 A-Wing (R)" 12
 	variant 40
 		"Dornean Gunship" 2
-		"RZ-1 A-Wing" 12
+		"RZ-1 A-Wing" 2
+		"RZ-1 A-Wing" 4
 	variant 40
 		"CC-7700 Interdictor Frigate"
 		"T-65B X-Wing" 12
 	variant 50
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette"
-		"T-65B X-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
+		"T-65B X-Wing (Bay)" 12
+		"RZ-1 A-Wing (Bay)" 3
 	variant 50
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette"
-		"BTL-A4 Y-Wing (Fighter)" 12
-		"RZ-1 A-Wing (Fighter)" 3
+		"BTL-A4 Y-Wing (Bay)" 12
+		"RZ-1 A-Wing (Bay)" 3
 	variant 50
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette"
-		"RZ-1 A-Wing (R) (Fighter)" 9
-		"RZ-1 A-Wing (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 9
+		"RZ-1 A-Wing (Bay)" 3
 	variant 50
 		"EF76 Nebulon-B2 Frigate"
 		"CR90 Corvette" 2
-		"T-65B X-Wing (Fighter)" 8
-		"RZ-1 A-Wing (Fighter)" 6
+		"T-65B X-Wing (Bay)" 8
+		"RZ-1 A-Wing (Bay)" 6
 	variant 50
 		"EF76 Nebulon-B Frigate"
 		"CR90 Corvette"
 		"Sphyrna Corvette (Modified)"
-		"T-65B X-Wing (Fighter)" 9
-		"BTL-A4 Y-Wing (Fighter)" 3
-		"RZ-1 A-Wing (Fighter)" 3
+		"T-65B X-Wing (Bay)" 9
+		"BTL-A4 Y-Wing (Bay)" 3
+		"RZ-1 A-Wing (Bay)" 3
 	variant 50
 		"Pelta Frigate (Modified)"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)"
-		"T-65B X-Wing (Fighter)" 8
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"T-65B X-Wing (Bay)" 8
+		"RZ-1 A-Wing (R) (Bay)" 6
 	variant 50
 		"CR90 Corvette"
 		"Sphyrna Corvette (Modified)"
 		"D5-Mantis Patrol Craft"
-		"RZ-1 A-Wing (R) (Fighter)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
 		"T-65B X-Wing" 9
 	variant 50
 		"CR90 Corvette"
 		"Sphyrna Corvette (Modified)"
 		"Lancer Pursuit Craft"
-		"RZ-1 A-Wing (Fighter)" 3
+		"RZ-1 A-Wing (Bay)" 3
 		"T-65B X-Wing" 9
 	variant 50
 		"CR90 Corvette"
 		"Sphyrna Corvette (Modified)"
 		"X4 Gunship" 2
-		"RZ-1 A-Wing (Fighter)" 3
+		"RZ-1 A-Wing (Bay)" 3
 		"T-65B X-Wing" 6
 	variant 45
 		"MC20 Escort Corvette"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)"
-		"BTL-A4 Y-Wing (Fighter)" 3
-		"RZ-1 A-Wing (Fighter)" 6
+		"BTL-A4 Y-Wing (Bay)" 3
+		"RZ-1 A-Wing (Bay)" 6
 	variant 45
 		"MC25 Tide Frigate"
 		"CR90 Corvette"
 		"Sphyrna Corvette (Modified)"
-		"BTL-A4 Y-Wing (Fighter)" 8
-		"RZ-1 A-Wing (Fighter)" 3
+		"BTL-A4 Y-Wing (Bay)" 8
+		"RZ-1 A-Wing (Bay)" 3
 	variant 40
 		"MC30c Escort Frigate"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)"
-		"T-65B X-Wing (Fighter)" 8
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"T-65B X-Wing (Bay)" 8
+		"RZ-1 A-Wing (R) (Bay)" 6
 	variant 40
 		"MF69 Frigate"
 		"CR90 Corvette" 2
 		"Sphyrna Corvette (Modified)"
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"RZ-1 A-Wing (R) (Bay)" 6
 		"Sphyrna Corvette (Modified)"
 		"T-65B X-Wing" 3
 	variant 20
 		"Liberator Cruiser"
-		"Sphyrna Corvette (Modified)"
-		"T-65B X-Wing (Fighter)" 12
-		"BTL-A4 Y-Wing (Fighter)" 6
-		"RZ-1 A-Wing (R) (Fighter)" 6
+		"T-65B X-Wing (Bay)" 4
+		"BTL-A4 Y-Wing (Bay)" 3
+		"RZ-1 A-Wing (R) (Bay)" 3
+		"Sphyrna Corvette (Modified)" 2
 
 
 
@@ -895,14 +1150,14 @@ fleet "missionimperialblockade"
 	fighters "imperial fighter"
 	cargo 0
 	personality
-		heroic opportunistic vindictive
+		heroic opportunistic vindictive unconstrained
 	variant 1
 		"TIE/LN Scout Fighter" 20
 	variant 30
 		"Gozanti Assault Cruiser" 5
-		"TIE/LN Fighter (Fighter)" 20
+		"TIE/LN Fighter (Bay)" 20
 	variant 5
-		"TIE/RP Attack Lander (Fighter)" 5
+		"TIE/RP Attack Lander (Bay)" 5
 		"TIE/LN Scout Fighter" 15
 	variant 10
 		"IPV-1 System Patrol Craft" 2
@@ -910,266 +1165,293 @@ fleet "missionimperialblockade"
 		"VT-49 Decimator" 2
 	variant 1
 		"Gozanti Assault Cruiser"
-		"TIE/IT Fighter (Fighter)" 4
+		"TIE/IT Bomber (Bay)" 4
 	variant 30
 		"Guardian Light Cruiser" 5
-		"TIE/LN Fighter (Fighter)" 10
+		"TIE/LN Fighter (Bay)" 10
 	variant 20
 		"Arquitens Light Cruiser" 3
-		"TIE/IN Fighter (Fighter)" 9
+		"TIE/IN Interceptor (Bay)" 9
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 40
 		"Arquitens Light Cruiser" 3
-		"TIE/LN Fighter (Fighter)" 9
+		"TIE/LN Fighter (Bay)" 9
 		"Guardian Light Cruiser" 4
-		"TIE/IN Fighter (Fighter)" 8
+		"TIE/IN Interceptor (Bay)" 8
 	variant 30
 		"Imperial II Frigate"
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 10
+	variant 40
+		"EF76 Nebulon-B Frigate (Imp)"
+		"TIE/LN Fighter (Bay)" 10
 	variant 30
 		"Imperial Customs Corvette" 2
-		"TIE/IN Fighter (Fighter)" 2
+		"TIE/IN Interceptor (Bay)" 2
 		"Imperial Customs Corvette (Military)" 2
+		"TIE/LN Fighter (Bay)" 12
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 25
 		"Vigil Corvette"
-		"TIE/IN Fighter (Royal Guard) (Fighter)" 3
+		"TIE/IN Interceptor (Royal Guard) (Bay)" 3
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 3
+		"TIE/IN Interceptor (Bay)" 6
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 7
 		"Raider II Corvette"
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 5
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 3
+		"TIE/IN Interceptor (Bay)" 6
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 7
 		"Tartan Patrol Cruiser"
-		"TIE/LN Fighter (Fighter)" 6
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 3
+		"TIE/IN Interceptor (Bay)" 6
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 15
 		"Kontos Star Frigate"
+		"TIE/LN Fighter (Bay)" 10
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 3
+		"TIE/IN Interceptor (Bay)" 6
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 15
 		"Arquitens 546 Cruiser"
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 10
 		"Arquitens Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 6
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 15
 		"Aiwha Star Corvette"
-		"TIE/LN Fighter (Fighter)" 4
+		"TIE/LN Fighter (Bay)" 4
 		"Arquitens Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 6
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 15
 		"Fulgor Pursuit Frigate"
-		"TIE/LN Fighter (Fighter)" 12
+		"TIE/LN Fighter (Bay)" 8
 		"Arquitens Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 6
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 15
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 		"GAT-12 Skipray Blastboat" 5
 	variant 25
 		"Lancer Frigate" 2
 		"Arquitens Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 6
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 40
 		"Vindicator Heavy Cruiser"
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 12
 		"Arquitens Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 6
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 30
 		"Imperial Tanker"
 		"Arquitens Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 6
 	variant 45
 		"Carrack Light Cruiser"
-		"TIE/IN Fighter (Fighter)" 4
+		"TIE/IN Interceptor (Bay)" 4
 		"Arquitens Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 6
 	variant 45
 		"Neutron Star Bulk Cruiser"
 		"Arquitens Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 6
 	variant 5
 		"TIE/D Fighter" 8
 	variant 15
 		"Gozanti Assault Cruiser" 4
-		"I-7 Howlrunner (Fighter)" 16
+		"I-7 Howlrunner (Bay)" 16
 	variant 15
 		"Alpha Xg-1 Star Wing" 8
 	variant 15
 		"Missile Boat" 8
 	variant 20
 		"Immobiliser 418 Cruiser"
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 10
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 3
+		"TIE/IN Interceptor (Bay)" 6
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 30
 		"Quasar Fire I Bulk Cruiser"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 18
 	variant 30
 		"Quasar Fire II Bulk Cruiser"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 18
 	variant 30
 		"Ton-Falk Escort Carrier"
-		"TIE/LN Fighter (Fighter)" 40
+		"TIE/LN Fighter (Bay)" 20
 	variant 45
 		"Dreadnaught Heavy Cruiser"
-		"TIE/LN Fighter (Fighter)" 12
+		"TIE/LN Fighter (Bay)" 10
 	variant 45
 		"Procursator Star Destroyer"
 		"Arquitens Light Cruiser" 2
+		"TIE/LN Fighter (Bay)" 6
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 14
+		"TIE/LN Fighter (Bay)" 8
 	variant 25
 		"Victory I Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 12
 	variant 25
 		"Victory II Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 24
-	variant 50
+		"TIE/LN Fighter (Bay)" 12
+	variant 10
+		"Proclamator Star Destroyer"
+		"TIE/LN Fighter (Bay)" 16
+	variant 10
+		"Acclamator Assault Ship (Imp)"
+		"TIE/LN Fighter (Bay)" 12
+	variant 10
+		"Venator Star Destroyer (Imp)"
+		"TIE/LN Fighter (Bay)" 16
+		"TIE/SA Bomber (Bay)" 6
+		"TIE/IN Interceptor (Bay)" 4
+	variant 65
 		"Imperial I Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 22
-		"TIE/SA Fighter (Fighter)" 10
-		"TIE/IN Fighter (Fighter)" 10
-	variant 60
+		"TIE/LN Fighter (Bay)" 12
+		"TIE/SA Bomber (Bay)" 6
+		"TIE/IN Interceptor (Bay)" 4
+	variant 70
 		"Imperial II Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 22
-		"TIE/SA Fighter (Fighter)" 10
-		"TIE/IN Fighter (Fighter)" 10
+		"TIE/LN Fighter (Bay)" 12
+		"TIE/SA Bomber (Bay)" 6
+		"TIE/IN Interceptor (Bay)" 4
 	variant 10
 		"Cantwell Arrestor Cruiser"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 12
 	variant 20
 		"Immobiliser 418 Cruiser"
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 10
 	variant 35
 		"Gladiator Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 26
+		"TIE/LN Fighter (Bay)" 14
 	variant 30
 		"Tector Star Destroyer"
 		"Quasar Fire I Bulk Cruiser"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 12
 	variant 5
 		"Consolidator Corps Assault Ship"
-		"TIE/LN Fighter (Fighter)" 30
+		"TIE/LN Fighter (Bay)" 20
 	variant 10
 		"Allegiance Battlecruiser"
 		"Quasar Fire II Bulk Cruiser"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 12
 	variant 10
 		"Secutor Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 52
+		"TIE/LN Fighter (Bay)" 24
 	variant 40
 		"Strike Medium Cruiser"
-		"TIE/LN Fighter (Fighter)" 18
+		"TIE/LN Fighter (Bay)" 10
 	variant 20
 		"Broadside cruiser kdb-1"
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 15
 		"Interdictor Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 30
+		"TIE/LN Fighter (Bay)" 16
 	variant 10
 		"Altor Replenishment Ship"
 		"Arquitens Light Cruiser" 3
-		"TIE/IN Fighter (Fighter)" 9
+		"TIE/IN Interceptor (Bay)" 9
 		"Gozanti Assault Cruiser" 4
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 16
 	variant 5
 		"Indictor Electronic Warfare Star Corvette"
 		"Gozanti Assault Cruiser" 3
-		"TIE/LN Fighter (Fighter)" 12
+		"TIE/LN Fighter (Bay)" 12
 	variant 3
 		"Modular Taskforce Cruiser"
-		"TIE/LN Fighter (Fighter)" 12
+		"TIE/LN Fighter (Bay)" 12
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 6
+		"TIE/IN Interceptor (Bay)" 6
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 1
 		"Onager Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 18
 	variant 1
-		"Imperial Escort Carrier" 2
-		"TIE/IN Fighter (Fighter)" 24
+		"Spector Storm Commando Carrier" 2
+		"TIE/IN Interceptor (Bay)" 12
 	variant 1
 		"Victory II Star Destroyer (Havod)"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 12
 	variant 10
 		"Impellor Fleet Carrier"
-		"TIE/LN Fighter (Fighter)" 50
+		"TIE/LN Fighter (Bay)" 26
 		"Tector Star Destroyer"
-		"Vindicator Heavy Cruiser" 2
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
 	variant 10
 		"Compellor Battle Cruiser"
-		"TIE/LN Fighter (Fighter)" 32
+		"TIE/LN Fighter (Bay)" 20
 		"Tector Star Destroyer"
-		"Vindicator Heavy Cruiser" 2
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
 	variant 10
 		"Tyrant Missile Cruiser"
 		"Quasar Fire II Bulk Cruiser"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 12
 	variant 7
 		"Praetor Mark II Battlecruiser"
-		"TIE/LN Fighter (Fighter)" 32
+		"TIE/LN Fighter (Bay)" 24
 		"Tector Star Destroyer"
-		"Vindicator Heavy Cruiser" 2
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
 	variant 4
 		"Bellator Star Dreadnought"
-		"TIE/LN Fighter (Fighter)" 64
-		"Imperial II Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 22
-		"TIE/SA Fighter (Fighter)" 10
-		"TIE/IN Fighter (Fighter)" 10
+		"TIE/LN Fighter (Bay)" 26
 		"Tector Star Destroyer"
+		"Imperial II Star Destroyer"
+		"TIE/LN Fighter (Bay)" 12
+		"TIE/SA Bomber (Bay)" 6
+		"TIE/IN Interceptor (Bay)" 4
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 	variant 3
 		"Legator Star Dreadnought"
-		"TIE/LN Fighter (Fighter)" 64
-		"Imperial II Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 22
-		"TIE/SA Fighter (Fighter)" 10
-		"TIE/IN Fighter (Fighter)" 10
+		"TIE/LN Fighter (Bay)" 26
 		"Tector Star Destroyer"
+		"Imperial II Star Destroyer"
+		"TIE/LN Fighter (Bay)" 12
+		"TIE/SA Bomber (Bay)" 6
+		"TIE/IN Interceptor (Bay)" 4
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 	variant 2
 		"Executor Star Dreadnought"
-		"TIE/LN Fighter (Fighter)" 80
-		"Imperial II Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 22
-		"TIE/SA Fighter (Fighter)" 10
-		"TIE/IN Fighter (Fighter)" 10
+		"TIE/LN Fighter (Bay)" 28
 		"Tector Star Destroyer"
+		"Imperial II Star Destroyer"
+		"TIE/LN Fighter (Bay)" 12
+		"TIE/SA Bomber (Bay)" 6
+		"TIE/IN Interceptor (Bay)" 4
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 	variant 1
 		"Assertor Star Dreadnought"
-		"TIE/LN Fighter (Fighter)" 80
-		"Imperial II Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 22
-		"TIE/SA Fighter (Fighter)" 10
-		"TIE/IN Fighter (Fighter)" 10
+		"TIE/LN Fighter (Bay)" 28
 		"Tector Star Destroyer"
+		"Imperial II Star Destroyer"
+		"TIE/LN Fighter (Bay)" 12
+		"TIE/SA Bomber (Bay)" 6
+		"TIE/IN Interceptor (Bay)" 4
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 
 fleet "imperialpatrol"
 	government "Galactic Empire"
@@ -1177,83 +1459,86 @@ fleet "imperialpatrol"
 	fighters "imperial fighter"
 	cargo 0
 	personality
-		heroic opportunistic vindictive
+		heroic opportunistic vindictive unconstrained
 	variant 1
 		"TIE/LN Scout Fighter" 8
 	variant 70
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 60
 		"Guardian Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 4
+		"TIE/LN Fighter (Bay)" 4
 	variant 50
 		"Arquitens Light Cruiser"
-		"TIE/LN Fighter (Fighter)" 3
+		"TIE/LN Fighter (Bay)" 3
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 5
 		"Arquitens Light Cruiser"
-		"TIE/IN Fighter (Fighter)" 3
+		"TIE/IN Interceptor (Bay)" 3
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 40
 		"Imperial Customs Corvette (Military)"
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 6
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 40
 		"Imperial Customs Corvette"
-		"TIE/LN Fighter (Fighter)"
+		"TIE/LN Fighter (Bay)"
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 30
 		"Vigil Corvette"
-		"TIE/LN Fighter (Fighter)" 3
+		"TIE/LN Fighter (Bay)" 3
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 15
 		"Imperial II Frigate"
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 10
+	variant 40
+		"EF76 Nebulon-B Frigate (Imp)"
+		"TIE/LN Fighter (Bay)" 10
 	variant 25
 		"Carrack Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 4
+		"TIE/LN Fighter (Bay)" 8
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 30
 		"Neutron Star Bulk Cruiser"
 		"Arquitens Light Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 6
 	variant 30
 		"IPV-1 System Patrol Craft" 2
 	variant 20
 		"Tartan Patrol Cruiser"
 	variant 35
 		"Raider II Corvette"
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 5
 	variant 1
-		"Gozanti Assault Cruiser" 2
-		"TIE/D Fighter (Fighter)" 4
+		"Gozanti Assault Cruiser"
+		"TIE/D Fighter (Bay)" 4
 	variant 5
 		"Gozanti Assault Cruiser"
-		"TIE/IT Fighter (Fighter)" 4
+		"TIE/IT Bomber (Bay)" 4
 	variant 5
-		"Gozanti Assault Cruiser" 2
-		"I-7 Howlrunner (Fighter)" 8
+		"Gozanti Assault Cruiser"
+		"I-7 Howlrunner (Bay)" 4
 	variant 5
-		"Gozanti Assault Cruiser" 2
-		"Alpha Xg-1 Star Wing (Fighter)" 8
+		"Gozanti Assault Cruiser"
+		"Alpha Xg-1 Star Wing (Bay)" 4
 	variant 3
-		"Gozanti Assault Cruiser" 2
-		"Missile Boat (Fighter)" 8
+		"Gozanti Assault Cruiser"
+		"Missile Boat (Bay)" 4
 	variant 20
 		"Aiwha Star Corvette"
-		"TIE/LN Fighter (Fighter)" 4
+		"TIE/LN Fighter (Bay)" 4
 	variant 15
 		"Fulgor Pursuit Frigate"
-		"TIE/LN Fighter (Fighter)" 12
+		"TIE/LN Fighter (Bay)" 8
 	variant 1
-		"Imperial Escort Carrier"
-		"TIE/IN Fighter (Fighter)" 12
+		"Spector Storm Commando Carrier"
+		"TIE/IN Interceptor (Bay)" 6
 
 fleet "imperialtransport"
 	government "Galactic Empire"
@@ -1261,9 +1546,9 @@ fleet "imperialtransport"
 	fighters "imperial fighter"
 	cargo 0
 	personality
-		timid opportunistic fleeing
+		timid opportunistic fleeing unconstrained
 	variant 5
-		"TIE/RP Attack Lander (Fighter)"
+		"TIE/RP Attack Lander (Bay)"
 	variant 50
 		"Intersector Sloop"
 	variant 40
@@ -1273,19 +1558,19 @@ fleet "imperialtransport"
 	variant 40
 		"Zeta Cargo Shuttle"
 		"Gozanti Assault Cruiser"
-		"TIE/LN Fighter (Fighter)" 4
+		"TIE/LN Fighter (Bay)" 4
 	variant 30
 		"Eta Supply Barge"
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 30
 		"Imperial Tanker"
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 10
 		"Zeta Cargo Shuttle" 3
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 40
 		"Provider Container Transport (Cargo)"
 	variant 40
@@ -1294,20 +1579,19 @@ fleet "imperialtransport"
 		"Delta T-3c Shuttle"
 	variant 3
 		"IGV-55 Surveillance Vessel"
-	variant 10
+	variant 40
 		"Star Galleon Frigate"
-		"TIE/LN Fighter (Fighter)" 10
+		"TIE/LN Fighter (Bay)" 10
 	variant 2
 		"Contentor Fleet Replenishment Ship"
 		"Vindicator Heavy Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 12
+		"TIE/LN Fighter (Bay)" 24
 	variant 1
 		"Altor Replenishment Ship"
 		"Vindicator Heavy Cruiser" 2
-		"Vindicator Heavy Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 12
+		"TIE/LN Fighter (Bay)" 24
 	variant 1
-		"Lambda T-4a Shuttle"
+		"Rogue Shadow"
 
 
 fleet "imperialstardestroyer"
@@ -1316,92 +1600,103 @@ fleet "imperialstardestroyer"
 	fighters "imperial fighter"
 	cargo 0
 	personality
-		heroic opportunistic vindictive
-	variant 50
+		heroic opportunistic vindictive unconstrained
+	variant 70
 		"Imperial I Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 26
-		"TIE/SA Fighter (Fighter)" 8
-		"TIE/IN Fighter (Fighter)" 8
-	variant 45
+		"TIE/LN Fighter (Bay)" 12
+		"TIE/SA Bomber (Bay)" 6
+		"TIE/IN Interceptor (Bay)" 4
+	variant 65
 		"Imperial II Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 26
-		"TIE/SA Fighter (Fighter)" 8
-		"TIE/IN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 12
+		"TIE/SA Bomber (Bay)" 6
+		"TIE/IN Interceptor (Bay)" 4
 	variant 45
 		"Procursator Star Destroyer"
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 6
+		"TIE/IN Interceptor (Bay)" 6
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 14
+		"TIE/LN Fighter (Bay)" 8
 	variant 45
 		"Vindicator Heavy Cruiser"
-		"TIE/LN Fighter (Fighter)" 20
+		"TIE/LN Fighter (Bay)" 12
 	variant 35
 		"Victory I Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 12
 	variant 35
 		"Victory II Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 12
+	variant 10
+		"Proclamator Star Destroyer"
+		"TIE/LN Fighter (Bay)" 16
+	variant 10
+		"Acclamator Assault Ship (Imp)"
+		"TIE/LN Fighter (Bay)" 12
+	variant 10
+		"Venator Star Destroyer (Imp)"
+		"TIE/LN Fighter (Bay)" 16
+		"TIE/SA Bomber (Bay)" 6
+		"TIE/IN Interceptor (Bay)" 4
 	variant 20
 		"Quasar Fire I Bulk Cruiser"
-		"TIE/LN Fighter (Fighter)" 36
+		"TIE/LN Fighter (Bay)" 18
 	variant 20
 		"Quasar Fire II Bulk Cruiser"
-		"TIE/LN Fighter (Fighter)" 36
+		"TIE/LN Fighter (Bay)" 18
 	variant 20
 		"Ton-Falk Escort Carrier"
-		"TIE/LN Fighter (Fighter)" 48
+		"TIE/LN Fighter (Bay)" 20
 	variant 20
 		"Broadside cruiser kdb-1"
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 6
+		"TIE/IN Interceptor (Bay)" 6
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 15
 		"Dreadnaught Heavy Cruiser"
-		"TIE/LN Fighter (Fighter)" 12
+		"TIE/LN Fighter (Bay)" 10
 	variant 15
 		"Arquitens 546 Cruiser"
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 10
 	variant 15
 		"Kontos Star Frigate"
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 10
 	variant 15
 		"Strike Medium Cruiser"
-		"TIE/LN Fighter (Fighter)" 18
+		"TIE/LN Fighter (Bay)" 10
 	variant 10
 		"Immobiliser 418 Cruiser"
-		"TIE/LN Fighter (Fighter)" 16
+		"TIE/LN Fighter (Bay)" 10
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 6
+		"TIE/IN Interceptor (Bay)" 6
 	variant 10
 		"Cantwell Arrestor Cruiser"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 12
 	variant 5
 		"Allegiance Battlecruiser"
 		"Lancer Frigate" 2
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 6
+		"TIE/IN Interceptor (Bay)" 6
 	variant 5
 		"Tector Star Destroyer"
 		"Quasar Fire I Bulk Cruiser"
-		"TIE/LN Fighter (Fighter)" 36
+		"TIE/LN Fighter (Bay)" 18
 	variant 5
 		"Interdictor Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 30
+		"TIE/LN Fighter (Bay)" 16
 	variant 3
 		"Modular Taskforce Cruiser"
-		"TIE/LN Fighter (Fighter)" 12
+		"TIE/LN Fighter (Bay)" 12
 		"Arquitens Light Cruiser" 2
-		"TIE/IN Fighter (Fighter)" 6
+		"TIE/IN Interceptor (Bay)" 6
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
+		"TIE/LN Fighter (Bay)" 8
 	variant 1
 		"Onager Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 18
 	variant 1
 		"Victory II Star Destroyer (Havod)"
-		"TIE/LN Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 12
 
 
 fleet "imperialsuperstardestroyer"
@@ -1410,50 +1705,100 @@ fleet "imperialsuperstardestroyer"
 	fighters "imperial fighter"
 	cargo 0
 	personality
-		heroic opportunistic vindictive
+		heroic opportunistic vindictive unconstrained
 	variant 10
 		"Impellor Fleet Carrier"
-		"TIE/LN Fighter (Fighter)" 54
-		"Tector Star Destroyer"
-		"Procursator Star Destroyer" 2
+		"TIE/LN Fighter (Bay)" 26
+		"Procursator Star Destroyer"
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 	variant 10
 		"Compellor Battle Cruiser"
-		"TIE/LN Fighter (Fighter)" 44
-		"Tector Star Destroyer"
-		"Procursator Star Destroyer" 2
+		"TIE/LN Fighter (Bay)" 20
+		"Procursator Star Destroyer"
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 	variant 10
 		"Tyrant Missile Cruiser"
 		"Quasar Fire II Bulk Cruiser"
-		"TIE/LN Fighter (Fighter)" 36
+		"TIE/LN Fighter (Bay)" 18
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 	variant 7
 		"Praetor Mark II Battlecruiser"
-		"TIE/LN Fighter (Fighter)" 54
+		"TIE/LN Fighter (Bay)" 24
 		"Tector Star Destroyer"
-		"Procursator Star Destroyer" 2
+		"Procursator Star Destroyer"
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 	variant 4
 		"Bellator Star Dreadnought"
-		"TIE/LN Fighter (Fighter)" 64
-		"Imperial II Star Destroyer" 4
-		"TIE/LN Fighter (Fighter)" 42
+		"TIE/LN Fighter (Bay)" 26
+		"Imperial II Star Destroyer" 2
+		"TIE/LN Fighter (Bay)" 44
 		"Tector Star Destroyer"
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 	variant 3
 		"Legator Star Dreadnought"
-		"TIE/LN Fighter (Fighter)" 64
-		"Imperial II Star Destroyer" 4
-		"TIE/LN Fighter (Fighter)" 42
+		"TIE/LN Fighter (Bay)" 26
+		"Imperial II Star Destroyer" 2
+		"TIE/LN Fighter (Bay)" 44
 		"Tector Star Destroyer"
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 	variant 2
 		"Executor Star Dreadnought"
-		"TIE/LN Fighter (Fighter)" 80
-		"Imperial II Star Destroyer" 4
-		"TIE/LN Fighter (Fighter)" 42
+		"TIE/LN Fighter (Bay)" 28
+		"Imperial II Star Destroyer" 2
+		"TIE/LN Fighter (Bay)" 44
 		"Tector Star Destroyer"
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 	variant 1
 		"Assertor Star Dreadnought"
-		"TIE/LN Fighter (Fighter)" 80
-		"Imperial II Star Destroyer" 4
-		"TIE/LN Fighter (Fighter)" 42
+		"TIE/LN Fighter (Bay)" 28
+		"Imperial II Star Destroyer" 2
+		"TIE/LN Fighter (Bay)" 44
 		"Tector Star Destroyer"
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
+	variant 1
+		"Eclipse Star Dreadnought"
+		"TIE/LN Fighter (Bay)" 28
+		"Imperial II Star Destroyer" 2
+		"TIE/LN Fighter (Bay)" 44
+		"Tector Star Destroyer"
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
+	variant 1
+		"Eclipse Star Dreadnought II"
+		"TIE/LN Fighter (Bay)" 28
+		"Imperial II Star Destroyer" 2
+		"TIE/LN Fighter (Bay)" 44
+		"Tector Star Destroyer"
+		"Vindicator Heavy Cruiser"
+		"TIE/LN Fighter (Bay)" 12
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 
 
 
@@ -1466,17 +1811,19 @@ fleet "imperialdefencefleetlarge"
 		heroic opportunistic vindictive unconstrained
 	variant 50
 		"Imperial I Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 40
-		"TIE/IN Fighter (Fighter)" 40
-		"TIE/AD x1 Fighter (Fighter)" 4
+		"TIE/LN Fighter (Bay)" 16
+		"TIE/IN Interceptor (Bay)" 6
+		"TIE/AD x1 Fighter (Bay)" 2
 		"Victory I Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 12
-		"TIE/SA Fighter (Fighter)" 10
-		"TIE/IT Fighter (Fighter)" 2
+		"TIE/LN Fighter (Bay)" 6
+		"TIE/SA Bomber (Bay)" 5
+		"TIE/IT Bomber (Bay)"
+		"Vindicator Heavy Cruiser" 2
+		"TIE/LN Fighter (Bay)" 24
 		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
 		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
-		"TIE/IN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 8
 
 fleet "imperialdefencefleetmedium"
 	government "Galactic Empire"
@@ -1487,15 +1834,17 @@ fleet "imperialdefencefleetmedium"
 		heroic opportunistic vindictive unconstrained
 	variant 50
 		"Imperial I Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 40
-		"TIE/IN Fighter (Fighter)" 40
-		"TIE/AD x1 Fighter (Fighter)" 4
+		"TIE/LN Fighter (Bay)" 16
+		"TIE/IN Interceptor (Bay)" 6
+		"TIE/AD x1 Fighter (Bay)" 2
 		"Victory I Star Destroyer"
-		"TIE/LN Fighter (Fighter)" 12
-		"TIE/SA Fighter (Fighter)" 10
-		"TIE/IT Fighter (Fighter)" 2
-		"Vindicator Heavy Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 48
+		"TIE/LN Fighter (Bay)" 6
+		"TIE/SA Bomber (Bay)" 5
+		"TIE/IT Bomber (Bay)"
+		"Arquitens Light Cruiser" 2
+		"TIE/IN Interceptor (Bay)" 6
+		"Gozanti Assault Cruiser" 2
+		"TIE/LN Fighter (Bay)" 8
 
 fleet "imperialdefencefleetsmall"
 	government "Galactic Empire"
@@ -1506,17 +1855,15 @@ fleet "imperialdefencefleetsmall"
 		heroic opportunistic vindictive unconstrained
 	variant 50
 		"Vindicator Heavy Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 48
+		"TIE/LN Fighter (Bay)" 24
 		"Arquitens Light Cruiser" 1
-		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
-		"TIE/IN Fighter (Fighter)" 3
-		"Imperial Customs Corvette" 1
-		"Gozanti Assault Cruiser" 2
-		"TIE/LN Fighter (Fighter)" 8
-		"TIE/IN Fighter (Fighter)" 1
+		"TIE/IN Interceptor (Bay)" 3
 		"Raider II Corvette"
-		"TIE/LN Fighter (Fighter)" 6
+		"TIE/LN Fighter (Bay)" 5
+		"Imperial Customs Corvette"
+		"TIE/IN Interceptor (Bay)"
+		"Gozanti Assault Cruiser" 4
+		"TIE/LN Fighter (Bay)" 16
 
 fleet "assertorstardreadnought"
 	government "Galactic Empire"
@@ -1527,27 +1874,28 @@ fleet "assertorstardreadnought"
 		heroic opportunistic vindictive unconstrained
 	variant 50
 		"Assertor Star Dreadnought"
-		"TIE/LN Fighter (Fighter)" 100
+		"TIE/LN Fighter (Bay)" 28
 		"Imperial I Star Destroyer" 2
-		"TIE/LN Fighter (Fighter)" 168
+		"TIE/LN Fighter (Bay)" 44
 		"Vindicator Heavy Cruiser"
-		"TIE/IN Fighter (Fighter)" 26
+		"TIE/IN Interceptor (Bay)" 12
 		"Arquitens Light Cruiser" 4
-		"TIE/D Fighter (Fighter)" 12
+		"TIE/D Fighter (Bay)" 12
 		"Dreadnaught Heavy Cruiser"
-		"TIE/SA Fighter (Fighter)" 16
+		"TIE/SA Bomber (Bay)" 10
 		"Gozanti Assault Cruiser" 2
-		"TIE/AD x1 Fighter (Fighter)" 8
+		"TIE/AD x1 Fighter (Bay)" 8
 		"Raider II Corvette"
-		"TIE/PH Fighter (Fighter)" 6
+		"TIE/PH Fighter (Bay)" 5
 		"Immobiliser 418 Cruiser"
-		"TIE/IT Fighter (Fighter)" 24
+		"TIE/IT Bomber (Bay)" 10
 		"Imperial Customs Corvette"
-		"TIE/LN Fighter (Fighter)"
+		"TIE/IN Interceptor (Bay)"
 		"Victory I Star Destroyer"
-		"TIE/SK Fighter (Fighter)" 24
+		"TIE/LN Fighter (Bay)" 6
+		"TIE/SA Bomber (Bay)" 6
 		"Vigil Corvette"
-		"TIE/IN Fighter (Royal Guard)" 3
+		"TIE/IN Interceptor (Royal Guard)" 3
 		"Lancer Frigate" 4
 
 		
@@ -1561,80 +1909,81 @@ fleet "rebelcapitalfleet"
 		heroic opportunistic unconstrained
 	variant 50
 		"MC80A Star Cruiser"
+		"T-65B X-Wing (Bay)" 9
+		"BTL-A4 Y-Wing (Bay)" 9
 		"MC80 Liberty Cruiser"
+		"T-65B X-Wing (Bay)" 8
+		"UT-60D U-Wing (Bay)" 2
+		"A/SF-01 B-Wing (Bay)" 5
+		"A/SF-01 B-Wing B6 (Bay)"
 		"CR90 Corvette" 3
+		"RZ-1 A-Wing (R) (Bay)" 6
+		"RZ-1 A-Wing (Bay)" 3
 		"Sphyrna Corvette (Modified)" 3
 		"EF76 Nebulon-B Frigate" 2
+		"T-65B X-Wing (Bay)" 16
 		"GR-75 Transport" 6
-		"RZ-1 A-Wing (Fighter)" 9
-		"RZ-1 A-Wing (R) (Fighter)" 10
-		"T-65B X-Wing (Fighter)" 10
-		"BTL-A4 Y-Wing (Fighter)" 10
-		"A/SF-01 B-Wing (Fighter)" 5
-		"A/SF-01 B-Wing B6 (Fighter)" 5
-		"BTL-S8 K-Wing (Fighter)" 5
-		"E-7 E-Wing (Fighter)" 5
 
 
 fleet "civilianpatrol"
 	government "Civilian"
 	cargo 0
 	personality
-		heroic opportunistic
+		heroic opportunistic unconstrained
 	variant 10
-		"A-24 Sleuth (Fighter)" 3
+		"A-24 Sleuth (Bay)" 3
 	variant 60
-		"CloakShape Fighter (Fighter)" 3
+		"CloakShape Fighter (Bay)" 3
 	variant 60
-		"Razor Starfighter (Fighter)" 3
+		"Razor Starfighter (Bay)" 3
 	variant 60
-		"CloakShape Fighter (New) (Fighter)" 3
+		"CloakShape Fighter (New) (Bay)" 3
 	variant 60
-		"Preybird Starfighter (Fighter)" 3
+		"Preybird Starfighter (Bay)" 3
 	variant 60
-		"Planetary Defender (Fighter)" 3
+		"Planetary Defender (Bay)" 3
 	variant 60
-		"G-1A Starfighter (Fighter)" 3
+		"G-1A Starfighter (Bay)" 3
 	variant 60
-		"Pinook Fighter (Fighter)" 3
+		"Pinook Fighter (Bay)" 3
 	variant 60
-		"A519 Invader Close Support Starfighter (Fighter)" 3
+		"A519 Invader Close Support Starfighter (Bay)" 3
 	variant 60
-		"R60 T-Wing (Fighter)" 3
+		"R60 T-Wing (Bay)" 3
 	variant 50
 		"Dart Gunship"
-		"CloakShape Fighter (Fighter)" 2
+		"CloakShape Fighter (Bay)" 2
 	variant 50
-		"FT-6 Pike Starfighter (Fighter)" 3
+		"FT-6 Pike Starfighter (Bay)" 3
 	variant 50
-		"FT-7B Clarion Starfighter (Fighter)" 3
+		"FT-7B Clarion Starfighter (Bay)" 3
 	variant 30
 		"Gozanti Cruiser (Carrier)"
-		"IRD Starfighter (Fighter)" 4
+		"IRD Starfighter (Bay)" 4
 	variant 30
-		"Davaab-type Starfighter (Fighter)" 3
+		"Davaab-type Starfighter (Bay)" 3
 	variant 30
-		"Besh-type Personal Starfighter (Fighter)" 3
+		"Besh-type Personal Starfighter (Bay)" 3
 	variant 30
-		"Fang Fighter (Fighter)" 3
+		"Fang Fighter (Bay)" 3
 	variant 25
-		"N-1 Starfighter (Fighter)" 3
+		"N-1 Starfighter (Bay)" 3
 	variant 5
-		"NB-1S Royal Bomber (Fighter)"
+		"NB-1S Royal Bomber (Bay)"
 	variant 10
-		"D-Type Trifoil Starfighter (Fighter)"
+		"D-Type Trifoil Starfighter (Bay)"
 	variant 20
 		"Ranger Gunboat"
 	variant 20
 		"Conqueror Assault Ship"
 	variant 20
-		"Aurek Tactical Strike Fighter (Fighter)" 3
+		"Aurek Tactical Strike Fighter (Bay)" 3
 	variant 20
-		"Belbullab-22 Starfighter (Fighter)"
+		"Belbullab-22 Starfighter (Bay)"
 	variant 20
-		"Sabaoth Cavik Toth's Starfighter (Fighter)"
+		"Sabaoth Cavik Toth's Starfighter (Bay)"
 	variant 20
-		"Liberator Fighter (Fighter)"
+		"Liberator Fighter (Bay)"
 	variant 20
 		"SCT Scout Craft"
 	variant 20
@@ -1642,7 +1991,7 @@ fleet "civilianpatrol"
 	variant 15
 		"K-52 Strongarm Demolisher"
 	variant 5
-		"Scurrg H-6 Prototype Bomber (Fighter)" 3
+		"Scurrg H-6 Prototype Bomber (Bay)" 3
 	variant 5
 		"Teroch Mandalorian Cruiser"
 		"Fang Fighter" 8
@@ -1653,17 +2002,19 @@ fleet "civiliantransport"
 	government "Civilian"
 	cargo 20
 	personality
-		timid appeasing opportunistic
+		timid appeasing opportunistic unconstrained
 	variant 70
 		"Taylander Shuttle"
+	variant 70
+		"Star Commuter Shuttle 2000"
 	variant 60
 		"GX1 Lantillian Short Hauler"
 	variant 30
 		"HWK-290 Light Freighter (Stock)" 3
-		"CloakShape Fighter (Fighter)" 2
+		"CloakShape Fighter" 2
 	variant 30
 		"HWK-290 Light Freighter (Stock)" 3
-		"CloakShape Fighter (New) (Fighter)" 2
+		"CloakShape Fighter (New)" 2
 	variant 40
 		"H-2 Executive Shuttle"
 	variant 10
@@ -1734,13 +2085,13 @@ fleet "civilianutilitytug"
 	fighters "rebel fighter"
 	cargo 0
 	personality
-		timid opportunistic fleeing mining harvests appeasing
+		timid opportunistic fleeing mining harvests appeasing unconstrained
 	variant 60
 		"Gozanti Cruiser (Carrier)"
-		"CT-11 Space Tug (Fighter)" 2
+		"CT-11 Space Tug (Bay)" 2
 	variant 30
 		"Gozanti Cruiser (Carrier)"
-		"TIE/MG Fighter (Fighter)" 4
+		"TIE/MG Fighter (Bay)" 4
 
 
 fleet "civilianheavycargofreighter"
@@ -1749,7 +2100,7 @@ fleet "civilianheavycargofreighter"
 	fighters "rebel fighter"
 	cargo 50
 	personality
-		timid opportunistic fleeing
+		timid opportunistic fleeing unconstrained
 	variant 60
 		"Mobquet MB-C1 Medium Transport" 3
 	variant 60
@@ -1759,7 +2110,7 @@ fleet "civilianheavycargofreighter"
 	variant 60
 		"Modular Conveyor" 2
 	variant 60
-		"Container Transport"
+		"Container Transport "
 	variant 60
 		"Action VI Transport" 2
 	variant 60
@@ -1796,7 +2147,7 @@ fleet "civilianheavycargofreighter"
 		"Gozanti Cruiser"
 	variant 60
 		"Gozanti Cruiser (Carrier)"
-		"CloakShape Fighter (New) (Fighter)" 2
+		"CloakShape Fighter (New) (Bay)" 2
 	variant 60
 		"YG-4210 Freighter"
 	variant 45
@@ -1813,12 +2164,12 @@ fleet "civilianheavycargofreighter"
 		"C-3 Passenger Liner"
 	variant 15
 		"CR25 Carrier"
-		"CloakShape Fighter (New) (Fighter)" 2
+		"CloakShape Fighter (New) (Bay)" 2
 	variant 5
 		"Defender Corvette"
 	variant 5
 		"Super Transport XI"
-		"CloakShape Fighter (Fighter)" 8
+		"CloakShape Fighter (Bay)" 8
 		
 
 fleet "civilianfleet"
@@ -1827,50 +2178,52 @@ fleet "civilianfleet"
 	fighters "rebel fighter"
 	cargo 0
 	personality
-		heroic opportunistic
+		heroic opportunistic unconstrained
 	variant 20
 		"Bothan Frigate" 2
-		"Mankvim-418 Interceptor (Fighter)" 6
+		"Mankvim-418 Interceptor (Bay)" 6
 	variant 20
 		"Bothan Frigate" 2
-		"A-9 Vigilance Fighter (Fighter)" 6
+		"A-9 Vigilance Fighter (Bay)" 6
 	variant 25
 		"Crusader Corvette"
-		"CloakShape Fighter (Fighter)" 4
+		"CloakShape Fighter (Bay)" 4
 	variant 25
 		"Crusader Corvette"
-		"CloakShape Fighter (New) (Fighter)" 4
+		"CloakShape Fighter (New) (Bay)" 4
 	variant 15
 		"Zenith Cruiser"
-		"Hammerhead Cruiser" 2
-		"CloakShape Fighter (Fighter)" 2
-		"Aurek Tactical Strike Fighter (Fighter)" 4
-	variant 15
-		"CD-710 Heavy Destroyer"
-		"CloakShape Fighter (Fighter)" 10
+		"CloakShape Fighter (Bay)" 6
+		"Hammerhead Cruiser"
+		"Liberator Fighter (Bay)" 6
 	variant 8
 		"Marauder Corvette"
-		"Mankvim-418 Interceptor (Fighter)" 8
+		"Mankvim-418 Interceptor (Bay)" 4
+	variant 5
+		"CD-710 Heavy Destroyer"
+		"CloakShape Fighter (Bay)" 10
 	variant 2
 		"Centurion Battlecruiser"
-		"Hammerhead Cruiser" 2
-		"CloakShape Fighter (Fighter)" 2
-		"Aurek Tactical Strike Fighter (Fighter)" 4
+		"Aurek Tactical Strike Fighter (Bay)" 12
+		"Hammerhead Cruiser"
+		"Liberator Fighter (Bay)" 6
 	variant 4
 		"Hapan Battle Dragon"
-		"Nova Battle Cruiser" 4
-		"Miy'til Starfighter (Fighter)" 12
-	variant 2
-		"Hapan Battle Dragon" 2
+		"Miy'til Starfighter (Bay)" 8
 		"Nova Battle Cruiser" 2
-		"Beta Battle Cruiser" 4
-		"Miy'til Starfighter (Fighter)" 16
+		"Miy'til Starfighter (Bay)" 12
+	variant 2
+		"Hapan Battle Dragon"
+		"Miy'til Starfighter (Bay)" 8
+		"Nova Battle Cruiser"
+		"Miy'til Starfighter (Bay)" 6
+		"Beta Battle Cruiser" 2
+		"Miy'til Starfighter (Bay)" 8
 	variant 1
 		"Inexpugnable Tactical Command Ship"
-		"Hammerhead Cruiser" 4
-		"CloakShape Fighter (Fighter)" 2
-		"Aurek Tactical Strike Fighter (Fighter)" 8
-		"Liberator Fighter (Fighter)" 4
+		"Aurek Tactical Strike Fighter (Bay)" 16
+		"Hammerhead Cruiser" 2
+		"Liberator Fighter (Bay)" 12
 
 
 fleet "piratepatrol"
@@ -1879,75 +2232,79 @@ fleet "piratepatrol"
 	fighters "rebel fighter"
 	cargo 0
 	personality
-		disables plunders coward harvests
+		disables plunders coward harvests unconstrained
 	variant 60
 		"D5-Mantis Patrol Craft"
-		"Aggressor Assault Fighter (Fighter)" 2
+		"Aggressor Assault Fighter (Bay)" 2
 	variant 60
-		"G-X1 Onslaught (Fighter)" 3
+		"G-X1 Onslaught (Bay)" 3
 	variant 60
-		"Supa Fighter (Fighter)" 3
+		"Supa Fighter (Bay)" 3
 	variant 60
-		"Vaksai Assault Fighter (Fighter)" 3
+		"Vaksai Assault Fighter (Bay)" 3
 	variant 60
-		"IL-5 Ocula Starfighter (Fighter)"
+		"IL-5 Ocula Starfighter (Bay)"
 	variant 60
-		"Kihraxz Assault Fighter (Fighter)" 3
+		"Kihraxz Assault Fighter (Bay)" 3
 	variant 60
-		"G1-M4-C Dunelizard Fighter (Fighter)" 3
+		"G1-M4-C Dunelizard Fighter (Bay)" 3
 	variant 60
-		"G1-M4-C Dunelizard Fighter 2 (Fighter)" 3
+		"G1-M4-C Dunelizard Fighter 2 (Bay)" 3
 	variant 20
-		"G1-M4-C Dunelizard Fighter 3 (Fighter)" 3
+		"G1-M4-C Dunelizard Fighter 3 (Bay)" 3
 	variant 30
-		"M12-L Kimogila Heavy Fighter (Fighter)" 3
+		"M12-L Kimogila Heavy Fighter (Bay)" 3
 	variant 30
-		"M12-L Kimogila Heavy Fighter 2 (Fighter)" 3
+		"M12-L Kimogila Heavy Fighter 2 (Bay)" 3
 	variant 20
-		"M22-T Krayt Gunship (Fighter)"
+		"M22-T Krayt Gunship (Bay)"
 	variant 60
-		"Ixiyen Fast Attack Craft (Fighter)" 3
+		"Ixiyen Fast Attack Craft (Bay)" 3
+	variant 20
+		"Rihkxyrk Assault Fighter (Bay)" 3
 	variant 60
-		"Ugly Twin Tie X-Wing (Fighter)" 3
+		"Ugly Twin Tie X-Wing (Bay)" 3
 	variant 60
-		"Ugly Tie Y-Wing (Fighter)" 3
+		"Ugly Tie Y-Wing (Bay)" 3
 	variant 60
-		"Ugly Tie X-Wing (Fighter)" 3
+		"Ugly Tie X-Wing (Bay)" 3
 	variant 60
-		"Ugly Tie Headhunter (Fighter)" 3
+		"Ugly Tie Headhunter (Bay)" 3
 	variant 60
-		"Ugly X-Ceptor (Fighter)" 3
+		"Ugly X-Ceptor (Bay)" 3
 	variant 60
-		"Ugly Y-Interceptor (Fighter)" 3
+		"Ugly Y-Interceptor (Bay)" 3
 	variant 30
 		"Lancer Pursuit Craft"
-		"FT-6 Pike Starfighter (Fighter)" 2
+		"FT-6 Pike Starfighter (Bay)" 2
 	variant 30
 		"Lancer Pursuit Craft (B)"
-		"FT-6 Pike Starfighter (Fighter)" 2
+		"FT-6 Pike Starfighter (Bay)" 2
 	variant 60
-		"Lok Revenants Assault Fighter (Fighter)"
-	variant 60
-		"Firespray-31 Patrol Craft (B)"
+		"Lok Revenants Assault Fighter (Bay)"
 	variant 60
 		"Flarestar Attack Shuttle"
-	variant 60
+	variant 30
+		"Firespray-31 Patrol Craft (B)"
+	variant 30
 		"Firespray-31 Patrol Craft"
-	variant 60
+	variant 3
 		"Firespray-31 Patrol Craft (W)"
+	variant 50
+		"Pursuer Enforcement Ship"
 	variant 20
 		"Guavian Ship"
 	variant 60
 		"Scurrg H-6 Prototype Bomber (Black Sun Red)"
 	variant 30
 		"Gozanti Cruiser (Black Sun)"
-		"Kihraxz Assault Fighter (Fighter)" 4
+		"Kihraxz Assault Fighter (Bay)" 4
 	variant 30
 		"Gozanti Cruiser (Carrier) (Black Sun)"
-		"Kihraxz Assault Fighter (Fighter)" 4
+		"Kihraxz Assault Fighter (Bay)" 4
 	variant 15
 		"Brute Hutt Support Corvette"
-		"M3-A Scyk Fighter (Fighter)" 4
+		"M3-A Scyk Fighter (Bay)" 4
 	variant 15
 		"Constable Pirate Corvette"
 	variant 15
@@ -1956,218 +2313,179 @@ fleet "piratepatrol"
 		"Tartan Patrol Cruiser (Stripe)"
 	variant 5
 		"Munificent Star Frigate"
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"M3-A Scyk Fighter 2 (Bay)" 8
 	variant 5
 		"Ajuur Heavy Cruiser"
 		"Brute Hutt Support Corvette" 4
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 8
 	variant 15
-		"Crusader Corvette (Mandalorian)"
-	variant 1
-		"Kiltirin Dungeon Ship"
+		"Crusader Corvette"
 
 fleet "piratefleet"
 	government "Scum & Villainy"
 	names "pirate fleet"
 	fighters "rebel fighter"
 	personality
-		disables plunders coward harvests
-	variant 10
-		"Beviin Cruiser"
+		disables plunders coward harvests unconstrained
+	variant 8
+		"Ajuur Heavy Cruiser"
+		"M3-A Scyk Fighter (Bay)" 6
 		"Brute Hutt Support Corvette" 2
-		"M3-A Scyk Fighter 2 (Fighter)" 4
-	variant 10
-		"Beviin Cruiser"
+	variant 7
+		"Ajuur Heavy Cruiser"
+		"M3-A Scyk Fighter 2 (Bay)" 6
 		"Constable Pirate Corvette" 2
-		"M3-A Scyk Fighter (Fighter)" 4
-	variant 10
-		"Beviin Cruiser"
-		"Interceptor Frigate" 2
-		"M3-A Scyk Fighter 2 (Fighter)" 4
-	variant 8
-		"Ajuur Heavy Cruiser"
-		"Brute Hutt Support Corvette" 4
-		"M3-A Scyk Fighter (Fighter)" 8
 	variant 7
 		"Ajuur Heavy Cruiser"
-		"Constable Pirate Corvette" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
-	variant 7
-		"Ajuur Heavy Cruiser"
-		"Interceptor Frigate" 4
-		"M3-A Scyk Fighter (Fighter)" 8
-	variant 12
-		"Crusader Corvette (Mandalorian)"
+		"M3-A Scyk Fighter (Bay)" 6
 		"Interceptor Frigate" 2
-		"M3-A Scyk Fighter 2 (Fighter)" 4
 	variant 12
-		"Kiltirin Dungeon Ship"
+		"Crusader Corvette"
 		"Interceptor Frigate" 2
-		"M3-A Scyk Fighter (Fighter)" 4
+		"M3-A Scyk Fighter 2 (Bay)" 4
 	variant 4
 		"Bulwark Support Frigate"
-		"Brute Hutt Support Corvette" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"Brute Hutt Support Corvette" 2
+		"M3-A Scyk Fighter 2 (Bay)" 8
 	variant 4
 		"Bulwark Support Frigate"
-		"Constable Pirate Corvette" 4
-		"M3-A Scyk Fighter (Fighter)" 8
+		"Constable Pirate Corvette" 2
+		"M3-A Scyk Fighter (Bay)" 8
 	variant 4
 		"Bulwark Support Frigate"
-		"Interceptor Frigate" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"M3-A Scyk Fighter 2 (Bay)" 4
+		"Interceptor Frigate" 2
+		"M3-A Scyk Fighter 2 (Bay)" 4
 	variant 4
 		"Heraklon Support Frigate"
-		"Brute Hutt Support Corvette" 4
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 6
+		"Brute Hutt Support Corvette" 2
+		"M3-A Scyk Fighter (Bay)" 2
 	variant 4
 		"Heraklon Support Frigate"
-		"Constable Pirate Corvette" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"M3-A Scyk Fighter 2 (Bay)" 6
+		"Constable Pirate Corvette" 2
+		"M3-A Scyk Fighter 2 (Bay)" 2
 	variant 4
 		"Heraklon Support Frigate"
-		"Interceptor Frigate" 4
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 6
+		"Interceptor Frigate" 2
+		"M3-A Scyk Fighter (Bay)" 2
 	variant 8
 		"Beskad Cruiser MkII"
-		"Brute Hutt Support Corvette" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"M3-A Scyk Fighter 2 (Bay)" 8
+		"Brute Hutt Support Corvette" 2
 	variant 7
 		"Beskad Cruiser MkII"
-		"Constable Pirate Corvette" 4
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 8
+		"Constable Pirate Corvette" 2
 	variant 7
 		"Beskad Cruiser MkII"
-		"Interceptor Frigate" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"M3-A Scyk Fighter 2 (Bay)" 8
+		"Interceptor Frigate" 2
 	variant 30
 		"CSA ChaseMaster"
-		"M3-A Scyk Fighter (Fighter)" 8
-	variant 10
-		"Lictor Dungeon Ship"
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 4
 	variant 5
 		"Azalus Hutt Dreadnought"
-		"Ajuur Heavy Cruiser" 2
-		"Brute Hutt Support Corvette" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"M3-A Scyk Fighter 2 (Bay)" 10
+		"Ajuur Heavy Cruiser"
+		"Brute Hutt Support Corvette" 3
 	variant 5
 		"Azalus Hutt Dreadnought"
-		"Ajuur Heavy Cruiser" 2
-		"Constable Pirate Corvette" 4
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 10
+		"Ajuur Heavy Cruiser"
+		"Constable Pirate Corvette" 3
 	variant 5
 		"Azalus Hutt Dreadnought"
-		"Ajuur Heavy Cruiser" 2
-		"Interceptor Frigate" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"M3-A Scyk Fighter 2 (Bay)" 10
+		"Ajuur Heavy Cruiser"
+		"Interceptor Frigate" 3
 	variant 5
 		"Nar Shaddaa Destroyer"
-		"Ajuur Heavy Cruiser" 2
-		"Brute Hutt Support Corvette" 4
-		"M3-A Scyk Fighter (Fighter)" 8
+		"Ajuur Heavy Cruiser"
+		"Brute Hutt Support Corvette" 2
+		"M3-A Scyk Fighter (Bay)" 8
 	variant 5
 		"Nar Shaddaa Destroyer"
-		"Ajuur Heavy Cruiser" 2
-		"Constable Pirate Corvette" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"M3-A Scyk Fighter 2 (Bay)" 12
+		"Ajuur Heavy Cruiser"
+		"Constable Pirate Corvette" 2
 	variant 5
 		"Nar Shaddaa Destroyer"
-		"Ajuur Heavy Cruiser" 2
-		"Interceptor Frigate" 4
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 12
+		"Ajuur Heavy Cruiser"
+		"Interceptor Frigate" 2
 	variant 5
 		"Bulwark Mark I Battleship"
-		"Ajuur Heavy Cruiser" 2
-		"Brute Hutt Support Corvette" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"M3-A Scyk Fighter 2 (Bay)" 12
+		"Ajuur Heavy Cruiser"
+		"Brute Hutt Support Corvette" 3
 	variant 5
 		"Bulwark Mark I Battleship"
-		"Ajuur Heavy Cruiser" 2
-		"Constable Pirate Corvette" 4
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 12
+		"Ajuur Heavy Cruiser"
+		"Constable Pirate Corvette" 3
 	variant 5
 		"Bulwark Mark I Battleship"
-		"Ajuur Heavy Cruiser" 2
-		"Interceptor Frigate" 4
-		"M3-A Scyk Fighter 2 (Fighter)" 8
+		"M3-A Scyk Fighter 2 (Bay)" 12
+		"Ajuur Heavy Cruiser"
+		"Interceptor Frigate" 3
 	variant 5
 		"Aggressor Star Destroyer"
-		"Brute Hutt Support Corvette" 4
-		"G1-M4-C Dunelizard Fighter (Fighter)" 8
+		"G1-M4-C Dunelizard Fighter (Bay)" 12
+		"Brute Hutt Support Corvette" 2
 	variant 5
 		"Aggressor Star Destroyer"
-		"Constable Pirate Corvette" 4
-		"G1-M4-C Dunelizard Fighter (Fighter)" 8
+		"G1-M4-C Dunelizard Fighter (Bay)" 12
+		"Constable Pirate Corvette" 2
 	variant 5
 		"Aggressor Star Destroyer"
-		"Interceptor Frigate" 4
-		"G1-M4-C Dunelizard Fighter (Fighter)" 8
+		"G1-M4-C Dunelizard Fighter (Bay)" 12
+		"Interceptor Frigate" 2
 	variant 5
 		"Aggressor Star Destroyer"
-		"Brute Hutt Support Corvette" 4
-		"G1-M4-C Dunelizard Fighter 2 (Fighter)" 8
+		"G1-M4-C Dunelizard Fighter 2 (Bay)" 12
+		"Brute Hutt Support Corvette" 2
 	variant 5
 		"Aggressor Star Destroyer"
-		"Constable Pirate Corvette" 4
-		"G1-M4-C Dunelizard Fighter 2 (Fighter)" 8
+		"G1-M4-C Dunelizard Fighter 2 (Bay)" 12
+		"Constable Pirate Corvette" 2
 	variant 5
 		"Aggressor Star Destroyer"
-		"Constable Pirate Corvette" 4
-		"G1-M4-C Dunelizard Fighter 3 (Fighter)" 8
-	variant 5
-		"Aggressor Star Destroyer (Mandalorian)"
-		"Brute Hutt Support Corvette" 4
-		"G1-M4-C Dunelizard Fighter (Fighter)" 8
-	variant 5
-		"Aggressor Star Destroyer (Mandalorian)"
-		"Constable Pirate Corvette" 4
-		"G1-M4-C Dunelizard Fighter (Fighter)" 8
-	variant 5
-		"Pulsar Destroyer"
-		"Brute Hutt Support Corvette" 4
-		"G1-M4-C Dunelizard Fighter 2 (Fighter)" 8
-	variant 5
-		"Pulsar Destroyer"
-		"Constable Pirate Corvette" 4
-		"G1-M4-C Dunelizard Fighter 2 (Fighter)" 8
+		"G1-M4-C Dunelizard Fighter 3 (Bay)" 12
+		"Constable Pirate Corvette" 2
 	variant 5
 		"Invincible Dreadnaught Heavy Cruiser"
-		"G1-M4-C Dunelizard Fighter 2 (Fighter)" 8
+		"G1-M4-C Dunelizard Fighter 2 (Bay)" 22
 	variant 5
 		"Kandosii-type Dreadnought"
-		"Ajuur Heavy Cruiser" 2
-		"Brute Hutt Support Corvette" 6
-		"M3-A Scyk Fighter (Fighter)" 12
+		"M3-A Scyk Fighter (Bay)" 18
+		"Ajuur Heavy Cruiser"
+		"Brute Hutt Support Corvette" 3
 	variant 5
 		"Keldabe Battleship"
-		"Ajuur Heavy Cruiser" 2
-		"Brute Hutt Support Corvette" 6
-		"M3-A Scyk Fighter (Fighter)" 12
+		"M3-A Scyk Fighter (Bay)" 18
+		"Ajuur Heavy Cruiser"
+		"Brute Hutt Support Corvette" 3
 	variant 1
 		"Munificent Star Frigate"
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 12
 	variant 1
 		"Venator Star Destroyer (Black)"
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 12
 	variant 1
 		"Bulwark Mark II Battleship"
 		"Ajuur Heavy Cruiser" 2
-		"Brute Hutt Support Corvette" 4
+		"Brute Hutt Support Corvette" 2
 		"Constable Pirate Corvette" 2
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 8
 	variant 1
 		"Crimson Axe"
 		"Ajuur Heavy Cruiser" 2
-		"Brute Hutt Support Corvette" 4
+		"Brute Hutt Support Corvette" 2
 		"Constable Pirate Corvette" 2
-		"M3-A Scyk Fighter (Fighter)" 8
-	variant 1
-		"Kyramud Battleship"
-		"Ajuur Heavy Cruiser" 2
-		"Brute Hutt Support Corvette" 4
-		"Constable Pirate Corvette" 2
-		"M3-A Scyk Fighter (Fighter)" 8
+		"M3-A Scyk Fighter (Bay)" 8
 
 fleet "separatistholdout"
 	government "Separatist Holdouts"
@@ -2175,20 +2493,20 @@ fleet "separatistholdout"
 	fighters "separatist fighter"
 	cargo 0
 	personality
-		opportunistic
+		opportunistic unconstrained
 	variant 35
 		"Maxillipede Transport Shuttle"
 	variant 25
 		"Mechanised Assault Flyer" 2
 	variant 35
-		"Ginivex Starfighter (Fighter)"
+		"Ginivex Starfighter (Bay)"
 	variant 30
 		"Nantex Territorial Defence Starfighter" 3
 	variant 50
 		"HMP Droid Gunship" 3
 	variant 30
 		"Gozanti Cruiser (Carrier) (CIS)"
-		"Vulture Droid Starfighter (Fighter)" 8
+		"Vulture Droid Starfighter (Bay)" 8
 	variant 40
 		"Gozanti Cruiser (CIS)"
 	variant 50
@@ -2199,38 +2517,38 @@ fleet "separatistholdout"
 		"Hardcell Interstellar Transport" 2
 	variant 45
 		"Captor Heavy Munitions Cruiser"
-		"Droid Tri-Fighter (Fighter)" 16
+		"Droid Tri-Fighter (Bay)" 12
 	variant 55
-		"Munificent Star Frigate" 3
-		"Droid Tri-Fighter (Fighter)" 8
+		"Munificent Star Frigate"
+		"Droid Tri-Fighter (Bay)" 12
 	variant 50
-		"Recusant Light Destroyer" 2
-		"Droid Tri-Fighter (Fighter)" 8
+		"Recusant Light Destroyer"
+		"Droid Tri-Fighter (Bay)" 14
 	variant 50
 		"Providence Cruiser (Stock)"
-		"Droid Tri-Fighter (Fighter)" 8
+		"Droid Tri-Fighter (Bay)" 20
 	variant 55
-		"Munificent Star Frigate" 3
-		"Vulture Droid Starfighter (Fighter)" 8
+		"Munificent Star Frigate"
+		"Vulture Droid Starfighter (Bay)" 12
 	variant 50
-		"Recusant Light Destroyer" 2
-		"Vulture Droid Starfighter (Fighter)" 8
+		"Recusant Light Destroyer"
+		"Vulture Droid Starfighter (Bay)" 14
 	variant 50
 		"Providence Cruiser (Stock)"
-		"Vulture Droid Starfighter (Fighter)" 8
+		"Vulture Droid Starfighter (Bay)" 20
 	variant 5
 		"Lucrehulk Battleship"
-		"Vulture Droid Starfighter (Fighter)" 16
+		"Vulture Droid Starfighter (Bay)" 26
 
 fleet "separatistholdoutsurveillance"
 	government "Separatist Holdouts"
 	cargo 0
 	personality
-		opportunistic
+		opportunistic unconstrained
 	variant 70
 		"Mechanised Assault Flyer" 2
 	variant 70
-		"Ginivex Starfighter (Fighter)"
+		"Ginivex Starfighter (Bay)"
 	variant 70
 		"Nantex Territorial Defence Starfighter" 3
 	variant 50
@@ -2242,7 +2560,7 @@ fleet "civilianfleetrepublic"
 	fighters "rebel fighter"
 	cargo 0
 	personality
-		heroic opportunistic
+		heroic opportunistic unconstrained
 	variant 70
 		"Consular Cruiser (Aurek)"
 	variant 70
@@ -2251,25 +2569,25 @@ fleet "civilianfleetrepublic"
 		"Consular Cruiser (Cresh)"
 	variant 70
 		"Pelta Frigate"
-		"ARC-170 Starfighter (Fighter)" 3
+		"ARC-170 Starfighter (Bay)" 3
 	variant 55
 		"Acclamator Assault Ship"
-		"ARC-170 Starfighter (Fighter)" 5
+		"ARC-170 Starfighter (Bay)" 5
 	variant 45
 		"Venator Star Destroyer"
-		"ARC-170 Starfighter (R) (Fighter)" 7
+		"ARC-170 Starfighter (R) (Bay)" 7
 	variant 45
 		"Venator Star Destroyer"
-		"ARC-170 Starfighter (R) (Fighter)" 4
-		"BTL-B Y-Wing (Fighter)" 4
+		"ARC-170 Starfighter (R) (Bay)" 4
+		"BTL-B Y-Wing (Bay)" 4
 
 fleet "purrgil"
 	government "Purrgil"
 	cargo 0
 	personality
-		unconstrained mute
+		unconstrained mute unconstrained
 	variant 60
-		"Purrgil (Fighter)" 5
+		"Purrgil (Bay)" 5
 	variant 40
 		"Purrgil (Transport)" 5
 	variant 40
@@ -2277,11 +2595,11 @@ fleet "purrgil"
 	variant 50
 		"Purrgil (Corvette)"
 		"Purrgil (Transport)" 2
-		"Purrgil (Fighter)" 2
+		"Purrgil (Bay)" 2
 	variant 40
 		"Purrgil (Corvette)" 3
 		"Purrgil (Transport)" 3
-		"Purrgil (Fighter)" 4
+		"Purrgil (Bay)" 4
 
 fleet "Wreckage"
 	government "Wreckage"
@@ -2353,12 +2671,12 @@ fleet "deathstariifleet"
 		"GAT-12 Skipray Blastboat" 5
 		"I-7 Howlrunner" 15
 		"TIE/LN Fighter" 150
-		"TIE/SA Fighter" 50
-		"TIE/IN Fighter" 30
+		"TIE/SA Bomber" 50
+		"TIE/IN Interceptor" 30
 		"TIE/D Fighter" 20
 		"TIE/AD x1 Fighter" 5
-		"TIE/IT Fighter" 5
-		"TIE/IN Fighter (Royal Guard)" 10
+		"TIE/IT Bomber" 5
+		"TIE/IN Interceptor (Royal Guard)" 10
 		"TIE/PH Fighter" 2
 		"TIE/SK Fighter" 10
 		"Eta Supply Barge" 8
@@ -2369,7 +2687,7 @@ fleet "deathstariifleet"
 		"Imperial Customs Corvette (Military)" 3
 		"Gozanti Assault Cruiser" 3
 		"TIE/AD x1 Fighter" 5
-		"TIE/IT Fighter" 5
+		"TIE/IT Bomber" 5
 		"Imperial Tanker" 2
 		"Lancer Frigate" 15
 		"Raider II Corvette" 3
@@ -2377,7 +2695,7 @@ fleet "deathstariifleet"
 		"Vigil Corvette" 2
 		"TIE/LN Fighter" 30
 		"Indictor Electronic Warfare Star Corvette"
-		"TIE/SA Fighter" 50
+		"TIE/SA Bomber" 50
 		"TIE/AD x1 Fighter" 5
 		"Aiwha Star Corvette" 2
 		"IPV-1 System Patrol Craft" 3
@@ -2387,14 +2705,14 @@ fleet "deathstariifleet"
 		"Kontos Star Frigate" 2
 		"Intersector Sloop" 2
 		"Arquitens Light Cruiser" 12
-		"TIE/IT Fighter" 5
+		"TIE/IT Bomber" 5
 		"Victory I Star Destroyer"
 		"GAT-12 Skipray Blastboat" 5
-		"TIE/SA Fighter" 50
+		"TIE/SA Bomber" 50
 		"TIE/AD x1 Fighter" 5
 		"Quasar Fire I Bulk Cruiser"
 		"Quasar Fire II Bulk Cruiser"
-		"TIE/IT Fighter" 5
+		"TIE/IT Bomber" 5
 		"Gozanti Assault Cruiser" 3
 		"TIE/LN Fighter" 30
 		"Vindicator Heavy Cruiser" 8
@@ -2404,14 +2722,14 @@ fleet "deathstariifleet"
 		"TIE/AD x1 Fighter" 5
 		"Strike Medium Cruiser" 2
 		"Consolidator Corps Assault Ship"
-		"TIE/IT Fighter" 5
+		"TIE/IT Bomber" 5
 		"Gozanti Assault Cruiser" 3
-		"TIE/SA Fighter" 50
+		"TIE/SA Bomber" 50
 		"Contentor Fleet Replenishment Ship"
 		"Intersector Sloop" 2
 		"Immobiliser 418 Cruiser" 2
 		"TIE/LN Fighter" 150
-		"TIE/IT Fighter" 5
+		"TIE/IT Bomber" 5
 		"TIE/AD x1 Fighter" 5
 		"Dreadnaught Heavy Cruiser" 2
 		"Imperial Customs Corvette (Military)" 2
@@ -2419,9 +2737,9 @@ fleet "deathstariifleet"
 		"GAT-12 Skipray Blastboat" 5
 		"Imperial I Star Destroyer" 2
 		"Gozanti Assault Cruiser" 3
-		"TIE/IT Fighter" 5
+		"TIE/IT Bomber" 5
 		"TIE/D Fighter" 20
-		"TIE/SA Fighter" 50
+		"TIE/SA Bomber" 50
 		"Imperial II Star Destroyer" 2
 		"IPV-1 System Patrol Craft" 3
 		"TIE/LN Fighter" 30
