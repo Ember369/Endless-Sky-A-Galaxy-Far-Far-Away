@@ -354,6 +354,8 @@ phrase "rebel fighter"
 
 phrase "rebel capital"
 	word
+		# Miscellaneous
+		"Lacrimosa"
 		# Delegation of 2000
 		"Alavar"
 		"Amidala"
@@ -373,7 +375,7 @@ phrase "rebel capital"
 		"Grebleips"
 		"Largetto"
 		"Male-Dee"
-		"Mon Mother"
+		"Mon Mothma"
 		"Mothma"
 		"Organa"
 		"Redemption"

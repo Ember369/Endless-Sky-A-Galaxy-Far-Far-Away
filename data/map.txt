@@ -1553,8 +1553,14 @@ system Andooweel
 	asteroids "medium metal" 279 2.565
 	asteroids "large metal" 16 1.7775
 	object
-		sprite star/k5
-		period 10
+		sprite star/f5
+		distance 18.7125
+		period 11.5106
+		offset 180
+	object
+		sprite star/m0
+		distance 100.287
+		period 11.5106
 	object
 		sprite planet/desert0
 		distance 198.84
@@ -2921,6 +2927,7 @@ system Bandomeer
 	habitable 625
 	music ambient/wait
 	arrival 1000
+	link Botajef
 	link Halmad
 	link Taris
 	asteroids "small rock" 14 4.3344
@@ -3330,6 +3337,7 @@ system Belderone
 	habitable 486.68
 	music ambient/wait
 	arrival 1000
+	link Columex
 	link Ossus
 	link Trogan
 	asteroids "medium rock" 33 5.3144
@@ -4430,6 +4438,7 @@ system Botajef
 	habitable 320
 	music ambient/wait
 	arrival 1000
+	link Bandomeer
 	link Dathomir
 	link Celanon
 	link Vinsoth
@@ -5274,6 +5283,53 @@ system Carida
 		period 1745.54
 		offset 15.9252
 
+
+system Carosus
+	pos 6637.24 -8280.77
+	government "Galactic Empire"
+	habitable 973.36
+	fleet imperialpatrol 3000
+	link Telos
+	object
+		sprite star/m-giant
+		period 17.9179
+	object "Carosi VI"
+		sprite planet/desert0
+		distance 300
+		period 64.0093
+	object
+		sprite planet/desert0-b
+		distance 500
+		period 100
+	object "Carosi VIII"
+		sprite planet/forest4-b
+		distance 800
+		period 163.933
+	object
+		sprite planet/desert8
+		distance 1300
+		period 240
+		offset 90
+	object
+		sprite planet/gas10
+		distance 1500
+		period 404.957
+		object
+			sprite planet/lava0
+			distance 218
+			period 16.9427
+	object
+		sprite planet/gas3
+		distance 2056.9
+		period 1196.03
+		object
+			sprite planet/dust0
+			distance 279
+			period 11.9034
+		object
+			sprite planet/ice8
+			distance 355
+			period 17.0847
 
 system Cartao
 	pos 6453.55 -7577.44
@@ -6409,10 +6465,11 @@ system Columex
 	habitable 486.68
 	music ambient/wait
 	arrival 1000
+	link Belderone
 	link Centares
 	link Lianna
 	link Lucazec
-	link Nam
+	link "Nam Chorios"
 	link "Rhen Var"
 	asteroids "medium rock" 3 1.9656
 	asteroids "large rock" 1 2.8296
@@ -7996,7 +8053,6 @@ system Dathomir
 	habitable 425.92
 	music ambient/wait
 	arrival 1000
-	link Halmad
 	link Botajef
 	asteroids "small rock" 9 1.566
 	asteroids "medium rock" 24 1.45
@@ -8228,7 +8284,7 @@ system Delrakkim
 	habitable 8640
 	music ambient/wait
 	arrival 1000
-	link Terminus
+	link "Terminus "
 	asteroids "large metal" 1 4.953
 	belt 1843
 	object
@@ -9460,7 +9516,7 @@ system Eadu
 		period 2595.34
 
 
-system "Edusa"
+system "Edusa "
 	pos 6429.04 -8135.13
 	habitable 233.28
 	music ambient/wait
@@ -10637,9 +10693,8 @@ system Felucia
 			distance 528
 			period 38.1252
 
-system Ferro
+system Gigor
 	pos 6874.89 -8265.48
-	government Ferro
 	habitable 2798.68
 	music ambient/wait
 	arrival 1000
@@ -12310,7 +12365,6 @@ system Halmad
 	habitable 1080
 	music ambient/wait
 	arrival 1000
-	link Dathomir
 	link G'wenee
 	link Bandomeer
 	asteroids "small rock" 2 10.3194
@@ -13310,7 +13364,7 @@ system Imynusoph
 	arrival 1000
 	link Anoth
 	link Kinooine
-	link Terminus
+	link "Terminus "
 	asteroids "small rock" 1 10.3298
 	asteroids "medium rock" 1 5.8058
 	asteroids "large rock" 1 5.2026
@@ -14096,6 +14150,7 @@ system Jedha
 			period 32.9056
 system Jelucan
 	pos 6695.82 -8261.15
+	government "Galactic Empire"
 	habitable 719.96
 	music ambient/wait
 	arrival 1000
@@ -14120,8 +14175,8 @@ system Jelucan
 		sprite planet/rock1
 		distance 256.106
 		period 61.0993
-	object
-		sprite planet/desert0
+	object Jelucan
+		sprite planet/jelucan
 		distance 481.266
 		period 157.392
 	object
@@ -18910,7 +18965,7 @@ system Manpha
 	music ambient/wait
 	arrival 1000
 	link "Berrol's Donn"
-	link Terminus
+	link "Terminus "
 	asteroids "large metal" 1 4.536
 	belt 1117
 	object
@@ -19488,7 +19543,7 @@ system Mindor
 		sprite planet/gas11
 		distance 2790.39
 		period 1794.1
-system Mintaka
+system "Mintaka "
 	pos -304 -462
 	government Republic
 	habitable 775.625
@@ -19560,7 +19615,7 @@ system Mirial
 	arrival 1000
 	link Listehol
 	link "Peragus II"
-	link Ferro
+	link Gigor
 	asteroids "medium rock" 32 2.652
 	asteroids "large rock" 4 4.7736
 	asteroids "small metal" 10 3.5088
@@ -20523,7 +20578,7 @@ system "Nal Hutta & Nar Shaddaa"
 			period 18.0456
 
 
-system Nam
+system "Nam Chorios"
 	pos 6887.41 -7832.99
 	habitable 625
 	music ambient/wait
@@ -20705,7 +20760,7 @@ system Nanth'ri
 			distance 388
 			period 46.3087
 
-system "Naos"
+system "Naos "
 	pos 7106.74 -5983.65
 	government "Galactic Empire"
 	habitable 486.68
@@ -22397,7 +22452,7 @@ system "Ord Radama"
 	habitable 233.28
 	music ambient/wait
 	arrival 1000
-	link Yavin
+	link "Pho Ph'eah"
 	asteroids "small rock" 33 2.52
 	asteroids "medium rock" 51 3.015
 	asteroids "large rock" 1 1.7775
@@ -23277,7 +23332,7 @@ system Pathway
 	habitable 2140.92
 	music ambient/wait
 	arrival 1000
-	link Mintaka
+	link "Mintaka "
 	asteroids "small rock" 71 7.4037
 	asteroids "large rock" 54 8.8044
 	asteroids "small metal" 2 10.005
@@ -23640,6 +23695,7 @@ system "Pho Ph'eah"
 	habitable 486.68
 	music ambient/wait
 	arrival 1000
+	link "Ord Radama"
 	link Telos
 	link Serenno
 	link Toprawa
@@ -23968,7 +24024,7 @@ system "Polis Massa"
 	music ambient/wait
 	arrival 1000
 	link Subterrel
-	link Terminus
+	link "Terminus "
 	asteroids "small rock" 5 3.4335
 	asteroids "medium rock" 8 1.89
 	asteroids "large rock" 5 4.3155
@@ -26458,7 +26514,7 @@ system Rutan
 	music ambient/wait
 	arrival 1000
 	link Mustafar
-	link Terminus
+	link "Terminus "
 	link Tosste
 	asteroids "small rock" 23 2.6048
 	asteroids "medium rock" 7 1.496
@@ -26788,7 +26844,7 @@ system Saijo
 	habitable 233.28
 	music ambient/wait
 	arrival 1000
-	link Terminus
+	link "Terminus "
 	asteroids "small rock" 29 4.968
 	asteroids "medium rock" 9 3.2752
 	asteroids "large rock" 2 4.2688
@@ -28644,7 +28700,7 @@ system "Smuggler's Run"
 	habitable 621.68
 	music ambient/wait
 	arrival 1000
-	link "Naos"
+	link "Naos "
 	link Wrea
 	asteroids "medium rock" 57 2.4024
 	asteroids "large rock" 1 1.1928
@@ -29560,7 +29616,7 @@ system Tangrene
 	habitable 233.28
 	music ambient/wait
 	arrival 1000
-	link "Edusa"
+	link "Edusa "
 	asteroids "small rock" 21 7.0644
 	asteroids "medium rock" 112 3.4104
 	asteroids "large rock" 36 6.09
@@ -29798,8 +29854,14 @@ system Tatooine
 	minables gold 2 5.01936
 	minables tungsten 2 3.7806
 	object
-		sprite star/k5
-		period 10
+		sprite star/g5
+		distance 49.5063
+		period 8.01937
+	object
+		sprite star/m4
+		distance 68.4937
+		period 8.01937
+		offset 180
 	object
 		sprite planet/desert7
 		distance 152
@@ -29910,6 +29972,7 @@ system Telaris
 
 system Telos
 	pos 6672.66 -8280.75
+	government "Galactic Empire"
 	habitable 1080
 	music ambient/wait
 	arrival 1000
@@ -29917,6 +29980,7 @@ system Telos
 	link "Pho Ph'eah"
 	link Ventooine
 	link Jelucan
+	link Carosus
 	asteroids "small rock" 26 3.795
 	asteroids "medium rock" 14 9.315
 	asteroids "large rock" 56 8.694
@@ -29926,8 +29990,8 @@ system Telos
 	object
 		sprite star/g0
 		period 10
-	object
-		sprite planet/cloud3
+	object "Telos IV"
+		sprite planet/telosiv
 		distance 305.21
 		period 64.9002
 		object
@@ -30066,7 +30130,7 @@ system Tepasi
 			period 12.8554
 
 
-system Terminus
+system "Terminus "
 	pos 5703.99 -5508.14
 	habitable 486.68
 	music ambient/wait
@@ -33147,7 +33211,7 @@ system Vandyne
 	music ambient/wait
 	arrival 1000
 	link Axxila
-	link "Edusa"
+	link "Edusa "
 	asteroids "small rock" 52 1.344
 	asteroids "medium rock" 38 1.236
 	asteroids "large rock" 5 0.912
@@ -35291,7 +35355,6 @@ system Yavin
 	link Maridun
 	link Junction
 	link Celanon
-	link "Ord Radama"
 	asteroids "small rock" 32 5.4432
 	asteroids "medium rock" 15 2.457
 	asteroids "large rock" 4 4.2336
@@ -36052,7 +36115,7 @@ system Zygerria
 	link Cantonica
 	link Kadavo
 	link Malachor
-	link Ferro
+	link Gigor
 	asteroids "medium rock" 3 0.84
 	asteroids "large rock" 1 0.708
 	asteroids "medium metal" 24 1.056
@@ -36194,6 +36257,23 @@ planet "Carida"
 	music ambient/hangar
 	description `This large, high-gravity world is covered in everything from rocky mountains and frozen ice fields, to rain forests full of carnivorous plants, and deserts. As such, this planet is the perfect training ground for combat in difficult terrain. A prestigious Imperial Academy is located here.`
 	spaceport `	The planet also has a numerous rancor population that has been transplanted from other worlds. They are often used for training exercises, pitting stormtroopers or Imperial vehicles against them.`
+
+planet "Carosi VI"
+	attributes agffa_galacticempire agffa_outerrim agffa_imperialmilitary
+	landscape land/imperialnavyacademy
+	music ambient/hangar
+	description `Carosi VI is a planet in the Carosus system. Originally the sixth orbit in the system, it became the first following the expansion of the star Carosi into a red giant and the subsequent destruction of system's first five planets. Prior to the expansion, it was considered to be a world suitable for terraforming, but Carosi's expansions burned away any life-sustaining potential. It is the site of the Kwymar Sector Elite Imperial Academy, training promising candidates to become TIE Flight Leaders or even Star Destroyer captains.`
+	spaceport `	When the Carosus system's sun expanded to become a red giant at around 200 BBY, it consumed the five innermost worlds in the system. Because of this, Carosi VI is now the first planet in the Carosus system, almost close enough to the red giant to be in danger.`
+	"required reputation" 100
+	bribe 0
+
+planet "Carosi VIII"
+	attributes agffa_galacticempire agffa_outerrim agffa_imperialmilitary
+	landscape land/imperialnavyacademy
+	music ambient/hangar
+	description `Carosi VIII is a planet in the Carosus system. It is a hot, jungle planet deemed suitable for future Carosite colonisation efforts. It has two moons, and is the site of the Kwymar Sector Imperial Academy.`
+	spaceport `	When the Carosus system's sun expanded to become a red giant at around 200 BBY, it consumed the five innermost worlds in the system. Because of this, Carosi VIII is now the third planet in the Carosus system.` 
+
 
 planet "Castell"
 	attributes agffa_galacticempire agffa_colonies agffa_trade
@@ -36450,6 +36530,14 @@ planet "Ixtlar"
 	landscape land/unknown
 	description `Ixtlar is a planet in the Ixtlar system in the Core Worlds, situated on the Corellian Run in the Ixtlar sector. It is covered in holographic advertisement signs. Almost any merchandise can be found on Ixtlar.`
 
+planet "Jelucan"
+	attributes agffa_galacticempire agffa_outerrim agffa_mining
+	landscape land/jelucan
+	music ambient/hangar
+	description `Jelucan is a planet in the Outer Rim Territories. The planet sided with the Confederacy of Independent Systems during the Clone Wars, and has since been annexed by the Galactic Empire. Jelucan is a cold and rocky mountainous planet in the Outer Rim Territories. It was inhabited by humans and several alien species.`
+	spaceport `	The planet's population is divided into two communities: a community of human valley dwellers known as the First Wavers who live in the planet's remote valley and a second-wave of human and alien settlers who dwell in urban centres. The second wavers tend to be more affluent than the valley dwellers and the two communities distrust each other.`
+
+
 planet "Kalist VI"
 	attributes agffa_galacticempire agffa_deepcore agffa_imperialmilitary agffa_prison
 	landscape land/unknown
@@ -36696,6 +36784,13 @@ planet "Tatooine"
 	description `Tatooine was a sparsely inhabited circumbinary desert planet located in the galaxy's Outer Rim Territories. Part of a binary star system, the planet was oppressed by scorching suns, resulting in the world lacking the necessary surface water to sustain large populations. As a result, many residents of the planet instead drew water from the atmosphere via moisture farms. The planet also had no natural surface vegetation.`
 	spaceport `	Initially inhabited by native Jawa and Tusken Raider species, it saw a population explosion following the search for valuable mining deposits on the planet's silicate surface. The Hutt Clan also maintained a presence on Tatooine, with Jabba the Hutt owning a palace in the desert at least by the time of the Clone Wars.`
 	shipyard "Miscellaneous Ships"
+
+planet "Telos IV"
+	attributes agffa_galacticempire agffa_outerrim agffa_city agffa_trade agffa_tourism
+	landscape land/telosiv
+	music ambient/hangar
+	description `Telos IV, often called simply Telos, is the fourth world within the Telos system, located in the Outer Rim's Kwymar sector. Situated on the strategically important Hydian Way hyperlane, Telos is both economically and politically important, connecting the Core Worlds to the Outer Rim. During the Clone Wars the planet was located deep within Separatist-controlled space. As such, the people of Telos have a deep set resentment of the Galactic Empire. Rebel sympathisers can always be found here.`
+	spaceport `	Thousands of years in the past, Telos' surface was devastated in an ancient conflict. Since then, a thousand year project known as the Telosian Restoration Project has been underway, transforming the barren surface with its highly corrosive atmosphere into a paradise, complete with Sacred Parks and National Parks which play a large role in tourism. This project called for the construction of an immense space known as Citadel Station, which houses much of the Telos' population.`
 
 planet "Battle Testing Wormhole"
 	landscape land/unknown

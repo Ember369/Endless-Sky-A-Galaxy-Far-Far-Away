@@ -233,7 +233,7 @@ ship "Purrgil" "Purrgil (Destroyer)"
 	description "Purrgil are a species of massive, whale-like creatures that live in deep space, traveling from star system to star system. It is their natural ability to fly through hyperspace that inspired sentients to develop hyperdrive technology. However, most spacers consider purrgil to be pests due to their habit of approaching and flying into starships near their flight paths. Numerous spacer deaths can be attributed to purrgil-related incidents, leading most spacers to fire upon them on sight."
 	description "Artwork/model from Wookieepedia"
 
-ship "Purrgil" "Purrgil (Bay)"
+ship "Purrgil" "Purrgil (Fighter)"
 	sprite "ship/purrgil/purrgil fighter/purrgil"
 		"frame rate" 45
 		"random start frame"

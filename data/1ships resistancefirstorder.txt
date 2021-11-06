@@ -1588,12 +1588,12 @@ ship "TIE/SE Bomber"
 		category "Starfighter "
 		"absolute threshold" 20
 		"cost" 260000
-		"shields" 01850
-		"hull" 4900
+		"shields" 2100
+		"hull" 5100
 		"required crew" 1
 		"bunks" 1
-		"mass" 37
-		"drag" 1.35
+		"mass" 39
+		"drag" 1.42
 		"fuel capacity" 0
 		"heat dissipation" .9
 		"outfit space" 21
@@ -1624,16 +1624,17 @@ ship "TIE/SE Bomber"
 
 		"I1 Sublight Engine"
 
-	engine -5.5 -5
-	engine 5.5 -5
-	gun -18 -28 "GI1 Laser Cannon"
-	gun 18 -28 "GI1 Laser Cannon"
-	gun -18 -28 "GI1 Laser Cannon"
-	gun 18 -28 "GI1 Laser Cannon"
-	gun -5.5 -21.5 "Concussion Missile Launcher"
-	gun -5.5 -21.5 "Concussion Missile Launcher"
-	gun -5.5 -21.5 "Proton Torpedo Launcher"
-	gun -5.5 -21.5 "Proton Torpedo Launcher"
+	engine 0 23
+	engine -6.5 19
+	engine 6.5 19
+	gun -18 -27.5 "GI1 Laser Cannon"
+	gun 18 -27.5 "GI1 Laser Cannon"
+	gun -18 -27.5 "GI1 Laser Cannon"
+	gun 18 -27.5 "GI1 Laser Cannon"
+	gun -7.5 2.5 "Concussion Missile Launcher"
+	gun -7.5 2.5 "Concussion Missile Launcher"
+	gun -7.5 2.5 "Proton Torpedo Launcher"
+	gun -7.5 2.5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The TIE/SE Bomber, also known as the First Order TIE bomber, is a class of TIE line bomber using by the First Order during its war with the Resistance."
 	description "Artwork/model by Unusualsuspex"
@@ -1649,12 +1650,12 @@ ship "TIE/SE Bomber (Bay)"
 		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 260000
-		"shields" 01850
-		"hull" 4900
+		"shields" 2100
+		"hull" 5100
 		"required crew" 1
 		"bunks" 1
-		"mass" 37
-		"drag" 1.35
+		"mass" 39
+		"drag" 1.42
 		"fuel capacity" 0
 		"heat dissipation" .9
 		"outfit space" 21
@@ -1685,16 +1686,17 @@ ship "TIE/SE Bomber (Bay)"
 
 		"I1 Sublight Engine"
 
-	engine -5.5 -5
-	engine 5.5 -5
-	gun -18 -28 "GI1 Laser Cannon"
-	gun 18 -28 "GI1 Laser Cannon"
-	gun -18 -28 "GI1 Laser Cannon"
-	gun 18 -28 "GI1 Laser Cannon"
-	gun -5.5 -21.5 "Concussion Missile Launcher"
-	gun -5.5 -21.5 "Concussion Missile Launcher"
-	gun -5.5 -21.5 "Proton Torpedo Launcher"
-	gun -5.5 -21.5 "Proton Torpedo Launcher"
+	engine 0 23
+	engine -6.5 19
+	engine 6.5 19
+	gun -18 -27.5 "GI1 Laser Cannon"
+	gun 18 -27.5 "GI1 Laser Cannon"
+	gun -18 -27.5 "GI1 Laser Cannon"
+	gun 18 -27.5 "GI1 Laser Cannon"
+	gun -7.5 2.5 "Concussion Missile Launcher"
+	gun -7.5 2.5 "Concussion Missile Launcher"
+	gun -7.5 2.5 "Proton Torpedo Launcher"
+	gun -7.5 2.5 "Proton Torpedo Launcher"
 	explode "large explosion" 3
 	description "The TIE/SE Bomber, also known as the First Order TIE bomber, is a class of TIE line bomber using by the First Order during its war with the Resistance."
 	description "Artwork/model by Unusualsuspex" 

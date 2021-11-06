@@ -8,7 +8,7 @@ fleet "vongscoutfleet"
 		"Yorik-et (Bay)" 3
 	variant 60
 		"I'friil Suuk"
-		"Yorik-et (Bay)" 10
+		"Yorik-et (Bay)" 8
 	variant 10
 		"Miid ro'ik"
-		"Yorik-et (Bay)" 18
+		"Yorik-et (Bay)" 16

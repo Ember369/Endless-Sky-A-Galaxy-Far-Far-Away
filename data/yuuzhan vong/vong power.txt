@@ -11,7 +11,7 @@
 outfit "P1 Power Converter (DB)"
 	category "Power"
 	cost 5000
-	thumbnail "outfit/yuuzhan vong/dovinbasal"
+	thumbnail "outfit/dovinbasal"
 	"mass" 1
 	"outfit space" -1
 	"energy generation" 2.2
@@ -22,7 +22,7 @@ outfit "P1 Power Converter (DB)"
 outfit "P1.3 Power Converter (DB)"
 	category "Power"
 	cost 6000
-	thumbnail "outfit/yuuzhan vong/dovinbasal"
+	thumbnail "outfit/dovinbasal"
 	"mass" 1
 	"outfit space" -1
 	"energy generation" 2.3
@@ -33,7 +33,7 @@ outfit "P1.3 Power Converter (DB)"
 outfit "P1.5 Power Converter (DB)"
 	category "Power"
 	cost 7000
-	thumbnail "outfit/yuuzhan vong/dovinbasal"
+	thumbnail "outfit/dovinbasal"
 	"mass" 1
 	"outfit space" -1
 	"energy generation" 2.4
@@ -44,7 +44,7 @@ outfit "P1.5 Power Converter (DB)"
 outfit "P2 Power Converter (DB)"
 	category "Power"
 	cost 40000
-	thumbnail "outfit/yuuzhan vong/dovinbasal"
+	thumbnail "outfit/dovinbasal"
 	"mass" 5
 	"outfit space" -5
 	"energy generation" 6
@@ -55,7 +55,7 @@ outfit "P2 Power Converter (DB)"
 outfit "P3 Power Converter (DB)"
 	category "Power"
 	cost 130000
-	thumbnail "outfit/yuuzhan vong/dovinbasal"
+	thumbnail "outfit/dovinbasal"
 	"mass" 15
 	"outfit space" -15
 	"energy generation" 20
@@ -66,7 +66,7 @@ outfit "P3 Power Converter (DB)"
 outfit "P3.5 Power Converter (DB)"
 	category "Power"
 	cost 180000
-	thumbnail "outfit/yuuzhan vong/dovinbasal"
+	thumbnail "outfit/dovinbasal"
 	"mass" 18
 	"outfit space" -18
 	"energy generation" 30
@@ -77,7 +77,7 @@ outfit "P3.5 Power Converter (DB)"
 outfit "P4 Power Converter (DB)"
 	category "Power"
 	cost 400000
-	thumbnail "outfit/yuuzhan vong/dovinbasal"
+	thumbnail "outfit/dovinbasal"
 	"mass" 25
 	"outfit space" -25
 	"energy generation" 75
@@ -88,7 +88,7 @@ outfit "P4 Power Converter (DB)"
 outfit "P4.5 Power Converter (DB)"
 	category "Power"
 	cost 600000
-	thumbnail "outfit/yuuzhan vong/dovinbasal"
+	thumbnail "outfit/dovinbasal"
 	"mass" 34
 	"outfit space" -34
 	"energy generation" 90
@@ -99,7 +99,7 @@ outfit "P4.5 Power Converter (DB)"
 outfit "P5 Power Converter (DB)"
 	category "Power"
 	cost 800000
-	thumbnail "outfit/yuuzhan vong/dovinbasal"
+	thumbnail "outfit/dovinbasal"
 	"mass" 47
 	"outfit space" -47
 	"energy generation" 120

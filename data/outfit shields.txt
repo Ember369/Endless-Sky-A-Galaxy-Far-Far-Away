@@ -32,7 +32,7 @@ outfit "D1 Conversion Shield"
 	"mass" 1
 	"outfit space" -1
 	"t1shield capacity" -1
-	"shield generation" 0.06
+	"shield generation" 0.03
 	"shield energy" .4
 	shields 100
 	description "Higher energy consumption, paired with a greater maximum shield capacity, though a slightly lower regeneration rate."
@@ -44,7 +44,7 @@ outfit "D1 Deflector Shield"
 	"mass" 1
 	"outfit space" -1
 	"t1shield capacity" -1
-	"shield generation" 0.1
+	"shield generation" 0.05
 	"shield energy" .2
 	description "A standard deflector shield that provides a good balance between damage resistance and energy regeneration."
 
@@ -55,7 +55,7 @@ outfit "D1 Fortified Deflector"
 	"mass" 1
 	"outfit space" -1
 	"t1shield capacity" -1
-	"shield generation" 0.03
+	"shield generation" 0.015
 	"shield energy" .25
 	shields 350
 	description "Max shields are higher but regenerate slowly. Allows you to survive significantly more enemy fire."
@@ -67,7 +67,7 @@ outfit "D1 Nimble Deflector"
 	"mass" 1
 	"outfit space" -1
 	"t1shield capacity" -1
-	"shield generation" 0.45
+	"shield generation" 0.225
 	"shield energy" .25
 	shields -350
 	description "Max shields are reduced in exchange for rapid regeneration. Great for hit-and-run tactics."
@@ -79,7 +79,7 @@ outfit "D1 Overloaded Shield"
 	"mass" 1
 	"outfit space" -1
 	"t1shield capacity" -1
-	"shield generation" 0.008
+	"shield generation" 0.004
 	"shield energy" .3
 	shields 700
 	description "Extremely powerful shield with low regeneration rate."
@@ -91,7 +91,7 @@ outfit "D1 Ray Shield"
 	"mass" 1
 	"outfit space" -1
 	"t1shield capacity" -1
-	"shield generation" 0.1
+	"shield generation" 0.05
 	"shield energy" .2
 	shields -20
 	"piercing resistance" 1
@@ -104,7 +104,7 @@ outfit "D1 Resonant Shield"
 	"mass" 1
 	"outfit space" -1
 	"t1shield capacity" -1
-	"shield generation" 0.1
+	"shield generation" 0.05
 	"shield energy" .01
 	shields -80
 	description "Decreased energy consumption, with a trade off of lower max shields."
@@ -116,7 +116,7 @@ outfit "D1 Scrambler Shield"
 	"mass" 1
 	"outfit space" -1
 	"t1shield capacity" -1
-	"shield generation" 0.06
+	"shield generation" 0.03
 	"shield energy" .2
 	"radar jamming" 5
 	description "Significantly increases enemy lock-on time if you have 100% shields or higher. Takes longer for shields to start regenerating."
@@ -127,7 +127,7 @@ outfit "D2 Deflector Shield"
 	thumbnail "outfit/shields/deflector shield 2"
 	"mass" 2
 	"outfit space" -2
-	"shield generation" 0.2
+	"shield generation" 0.1
 	"shield energy" 0.4
 	description "D2 Deflector Shield"
 
@@ -137,7 +137,7 @@ outfit "D3 Deflector Shield"
 	thumbnail "outfit/shields/deflector shield 3"
 	"mass" 10
 	"outfit space" -10
-	"shield generation" 1.0
+	"shield generation" 0.5
 	"shield energy" 2.0
 	description "D3 Deflector Shield"
 
@@ -147,7 +147,7 @@ outfit "D4 Deflector Shield"
 	thumbnail "outfit/shields/deflector shield 4"
 	"mass" 15
 	"outfit space" -15
-	"shield generation" 1.5
+	"shield generation" 0.75
 	"shield energy" 3.0
 	description "D4 Deflector Shield"
 
@@ -157,7 +157,7 @@ outfit "D4.5 Deflector Shield"
 	thumbnail "outfit/shields/deflector shield 4_5"
 	"mass" 18
 	"outfit space" -18
-	"shield generation" 1.8
+	"shield generation" 0.9
 	"shield energy" 3.6
 	description "D4.5 Deflector Shield"
 
@@ -167,6 +167,6 @@ outfit "D5 Deflector Shield"
 	thumbnail "outfit/shields/deflector shield 5"
 	"mass" 20
 	"outfit space" -20
-	"shield generation" 2.0
+	"shield generation" 1.0
 	"shield energy" 4.0
 	description "D5 Deflector Shield"

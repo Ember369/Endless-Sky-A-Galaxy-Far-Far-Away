@@ -13,7 +13,7 @@ outfit "E-11 Blaster Rifle"
 	category "Hand to Hand"
 	cost 730
 	thumbnail "outfit/hand to hand/e11blasterrifle"
-	"capture attack" 1.6
+	"capture attack" .6
 	"capture defense" .8
 	"unplunderable" 1
 	description "The E-11 blaster rifle is a light but powerful blaster rifle manufactured by BlasTech Industries. It serves as the standard issue weapon of Imperial stormtroopers. The blaster rifle is the successor to BlasTech's E-10 blaster rifle and is based on the DC-15A blaster carbine used by clone troopers during the Clone Wars."

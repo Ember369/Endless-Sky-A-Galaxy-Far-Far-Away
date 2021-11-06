@@ -28,8 +28,8 @@ outfit "B1 Laser Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "B1 Laser Cannon"
@@ -55,8 +55,8 @@ outfit "G1 Laser Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "G1 Laser Cannon"
@@ -82,8 +82,8 @@ outfit "GI1 Laser Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "GI1 Laser Cannon"
@@ -109,8 +109,8 @@ outfit "P1 Laser Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "P1 Laser Cannon"
@@ -136,8 +136,8 @@ outfit "R1 Laser Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "R1 Laser Cannon"
@@ -163,8 +163,8 @@ outfit "Y1 Laser Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "Y1 Laser Cannon"
@@ -194,7 +194,7 @@ outfit "I1 Ion Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 500
+		"shield damage" 250
 		"hull damage" 0
 		"ion damage" 3
 		cluster
@@ -228,8 +228,8 @@ outfit "G1 Burst Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "G1 Burst Cannon"
@@ -257,8 +257,8 @@ outfit "R1 Burst Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "R1 Burst Cannon"
@@ -290,8 +290,8 @@ outfit "G1 Guided Burst Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 120
-		"hull damage" 120
+		"shield damage" 60
+		"hull damage" 60
 		cluster
 		phasing
 	description "G1 Guided Burst Cannon"
@@ -319,8 +319,8 @@ outfit "R1 Guided Burst Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 120
-		"hull damage" 120
+		"shield damage" 60
+		"hull damage" 60
 		cluster
 		phasing
 	description "R1 Guided Burst Cannon"
@@ -350,8 +350,8 @@ outfit "G1 Rapid Fire Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "G1 Rapid Fire Cannon"
@@ -377,8 +377,8 @@ outfit "R1 Rapid Fire Cannon"
 		"firing force" 0
 		"firing heat" 0.6
 		"hit force" 0
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "R1 Rapid Fire Cannon"
@@ -470,8 +470,8 @@ outfit "B1 Laser Turret"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "B1 Laser Turret"
@@ -500,8 +500,8 @@ outfit "G1 Laser Turret"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "G1 Laser Turret"
@@ -528,8 +528,8 @@ outfit "GI1 Laser Turret"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "GI1 Laser Turret"
@@ -558,8 +558,8 @@ outfit "R1 Laser Turret"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "R1 Laser Turret"
@@ -586,8 +586,8 @@ outfit "R1U Laser Turret"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "R1U Laser Turret"
@@ -614,8 +614,8 @@ outfit "G1U Laser Turret"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "G1U Laser Turret"
@@ -641,8 +641,8 @@ outfit "G1U Laser Turret (AI)"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "G1U Laser Turret (AI)"
@@ -669,8 +669,8 @@ outfit "GI1U Laser Turret"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "G1 Laser Turret (G) Imp U"
@@ -696,8 +696,8 @@ outfit "R1 Laser Turret (AI)"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 200
-		"hull damage" 200
+		"shield damage" 100
+		"hull damage" 100
 		cluster
 		phasing
 	description "R1 Laser Turret (AI)"
@@ -729,7 +729,7 @@ outfit "I1 Ion Turret"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 500
+		"shield damage" 250
 		"hull damage" 0
 		"ion damage" 3
 		cluster
@@ -758,7 +758,7 @@ outfit "I1U Ion Turret"
 		"reload" 90
 		"firing energy" 20
 		"firing heat" .6
-		"shield damage" 500
+		"shield damage" 250
 		"hull damage" 0
 		"ion damage" 3
 		cluster
@@ -791,8 +791,8 @@ outfit "G1Heavy Laser Turret"
 		"reload" 90
 		"firing energy" 25
 		"firing heat" .7
-		"shield damage" 205
-		"hull damage" 205
+		"shield damage" 102.5
+		"hull damage" 102.5
 		cluster
 		phasing
 	description "G1Heavy Laser Turret"
@@ -819,8 +819,8 @@ outfit "R1Heavy Laser Turret"
 		"reload" 90
 		"firing energy" 25
 		"firing heat" .7
-		"shield damage" 205
-		"hull damage" 205
+		"shield damage" 102.5
+		"hull damage" 102.5
 		cluster
 		phasing
 	description "R1Heavy Laser Turret"
@@ -847,8 +847,8 @@ outfit "G1Heavy Laser Turret (AI)"
 		"reload" 90
 		"firing energy" 25
 		"firing heat" .7
-		"shield damage" 205
-		"hull damage" 205
+		"shield damage" 102.5
+		"hull damage" 102.5
 		cluster
 		phasing
 	description "G1Heavy Laser Turret (AI)"
@@ -875,8 +875,8 @@ outfit "R1Heavy Laser Turret (AI)"
 		"reload" 90
 		"firing energy" 25
 		"firing heat" .7
-		"shield damage" 205
-		"hull damage" 205
+		"shield damage" 102.5
+		"hull damage" 102.5
 		cluster
 		phasing
 	description "R1Heavy Laser Turret (AI)"
@@ -906,8 +906,8 @@ outfit "B2 Laser Cannon"
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 228
-		"hull damage" 228
+		"shield damage" 114
+		"hull damage" 114
 		cluster
 		phasing
 	description "B2 Laser Cannon"
@@ -932,8 +932,8 @@ outfit "G2 Laser Cannon"
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 228
-		"hull damage" 228
+		"shield damage" 114
+		"hull damage" 114
 		cluster
 		phasing
 	description "G2 Laser Cannon"
@@ -958,8 +958,8 @@ outfit "R2 Laser Cannon"
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 228
-		"hull damage" 228
+		"shield damage" 114
+		"hull damage" 114
 		cluster
 		phasing
 	description "R2 Laser Cannon"
@@ -984,8 +984,8 @@ outfit "Y2 Laser Cannon"
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 228
-		"hull damage" 228
+		"shield damage" 114
+		"hull damage" 114
 		cluster
 		phasing
 	description "Y2 Laser Cannon"
@@ -1012,7 +1012,7 @@ outfit "I2 Ion Cannon"
 		"firing force" 0
 		"firing heat" 0.8
 		"hit force" 0
-		"shield damage" 484
+		"shield damage" 285
 		"hull damage" 0
 		"ion damage" 6
 		cluster
@@ -1044,8 +1044,8 @@ outfit "B2 Laser Turret"
 		"reload" 100
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 228
-		"hull damage" 228
+		"shield damage" 114
+		"hull damage" 114
 		phasing
 	description "B2 Laser Turret"
 
@@ -1071,8 +1071,8 @@ outfit "G2 Laser Turret"
 		"reload" 100
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 228
-		"hull damage" 228
+		"shield damage" 114
+		"hull damage" 114
 		phasing
 	description "G2 Laser Turret"
 
@@ -1098,8 +1098,8 @@ outfit "R2 Laser Turret"
 		"reload" 100
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 228
-		"hull damage" 228
+		"shield damage" 114
+		"hull damage" 114
 		phasing
 	description "R2 Laser Turret"
 
@@ -1125,8 +1125,8 @@ outfit "Y2 Laser Turret"
 		"reload" 100
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 228
-		"hull damage" 228
+		"shield damage" 114
+		"hull damage" 114
 		phasing
 	description "Y2 Laser Turret"
 
@@ -1154,7 +1154,7 @@ outfit "I2 Ion Turret"
 		"reload" 90
 		"firing energy" 30
 		"firing heat" .8
-		"shield damage" 484
+		"shield damage" 285
 		"hull damage" 0
 		"ion damage" 6
 		phasing
@@ -1184,8 +1184,8 @@ outfit "B2Heavy Laser Turret"
 		"reload" 100
 		"firing energy" 33
 		"firing heat" .85
-		"shield damage" 231
-		"hull damage" 231
+		"shield damage" 115.5
+		"hull damage" 115.5
 		phasing
 	description "B2Heavy Laser Turret"
 
@@ -1211,8 +1211,8 @@ outfit "R2Heavy Laser Turret"
 		"reload" 100
 		"firing energy" 33
 		"firing heat" .85
-		"shield damage" 231
-		"hull damage" 231
+		"shield damage" 115.5
+		"hull damage" 115.5
 		phasing
 	description "R2Heavy Laser Turret"
 
@@ -1238,8 +1238,8 @@ outfit "G2Heavy Laser Turret"
 		"reload" 100
 		"firing energy" 33
 		"firing heat" .85
-		"shield damage" 231
-		"hull damage" 231
+		"shield damage" 115.5
+		"hull damage" 115.5
 		phasing
 	description "G2Heavy Laser Turret"
 
@@ -1265,8 +1265,8 @@ outfit "Y2Heavy Laser Turret"
 		"reload" 100
 		"firing energy" 33
 		"firing heat" .85
-		"shield damage" 231
-		"hull damage" 231
+		"shield damage" 115.5
+		"hull damage" 115.5
 		phasing
 	description "Y2Heavy Laser Turret"
 
@@ -1296,8 +1296,8 @@ outfit "R2Dual Laser Turret"
 		"reload" 100
 		"firing energy" 35
 		"firing heat" .9
-		"shield damage" 233
-		"hull damage" 233
+		"shield damage" 116.5
+		"hull damage" 116.5
 		phasing
 	description "R2Dual Laser Turret"
 
@@ -1323,8 +1323,8 @@ outfit "G2Dual Laser Turret"
 		"reload" 100
 		"firing energy" 35
 		"firing heat" .9
-		"shield damage" 233
-		"hull damage" 233
+		"shield damage" 116.5
+		"hull damage" 116.5
 		phasing
 	description "G2Dual Laser Turret"
 
@@ -1350,8 +1350,8 @@ outfit "B2Dual Laser Turret"
 		"reload" 100
 		"firing energy" 35
 		"firing heat" .9
-		"shield damage" 233
-		"hull damage" 233
+		"shield damage" 116.5
+		"hull damage" 116.5
 		phasing
 	description "B2Dual Laser Turret"
 
@@ -1384,8 +1384,8 @@ outfit "B3 Turbolaser Turret"
 		"reload" 160
 		"firing energy" 120
 		"firing heat" 4
-		"shield damage" 393
-		"hull damage" 393
+		"shield damage" 196.5
+		"hull damage" 196.5
 		phasing
 	description "B3 Turbolaser Turret"
 
@@ -1411,8 +1411,8 @@ outfit "G3 Turbolaser Turret"
 		"reload" 160
 		"firing energy" 120
 		"firing heat" 4
-		"shield damage" 393
-		"hull damage" 393
+		"shield damage" 196.5
+		"hull damage" 196.5
 		phasing
 	description "G3 Turbolaser Turret"
 
@@ -1438,8 +1438,8 @@ outfit "R3 Turbolaser Turret"
 		"reload" 160
 		"firing energy" 120
 		"firing heat" 4
-		"shield damage" 393
-		"hull damage" 393
+		"shield damage" 196.5
+		"hull damage" 196.5
 		phasing
 	description "R3 Turbolaser Turret"
 
@@ -1465,8 +1465,8 @@ outfit "Y3 Turbolaser Turret"
 		"reload" 160
 		"firing energy" 120
 		"firing heat" 4
-		"shield damage" 393
-		"hull damage" 393
+		"shield damage" 196.5
+		"hull damage" 196.5
 		phasing
 	description "Y3 Turbolaser Turret"
 
@@ -1500,7 +1500,7 @@ outfit "I4 Ion Turret"
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
-		"shield damage" 1700
+		"shield damage" 850
 		"hull damage" 0
 		"ion damage" 20
 		"disruption damage" 5
@@ -1528,8 +1528,8 @@ outfit "M4 Mass-Driver Battery"
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
-		"shield damage" 200
-		"hull damage" 1500
+		"shield damage" 100
+		"hull damage" 750
 		"piercing" .8
 	description "M4 Mass-Driver Battery"
 
@@ -1558,8 +1558,8 @@ outfit "B4Dual Turbolaser Turret"
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
-		"shield damage" 800
-		"hull damage" 800
+		"shield damage" 400
+		"hull damage" 400
 	description "Dual Turbolaser Turret (B)"
 
 outfit "G4Dual Turbolaser Turret"
@@ -1584,8 +1584,8 @@ outfit "G4Dual Turbolaser Turret"
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
-		"shield damage" 800
-		"hull damage" 800
+		"shield damage" 400
+		"hull damage" 400
 	description "Dual Turbolaser Turret (G)"
 
 outfit "R4Dual Turbolaser Turret"
@@ -1610,8 +1610,8 @@ outfit "R4Dual Turbolaser Turret"
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
-		"shield damage" 800
-		"hull damage" 800
+		"shield damage" 400
+		"hull damage" 400
 	description "Dual Turbolaser Turret (R)"
 
 outfit "Y4Dual Turbolaser Turret"
@@ -1636,8 +1636,8 @@ outfit "Y4Dual Turbolaser Turret"
 		"reload" 320
 		"firing energy" 170
 		"firing heat" 12
-		"shield damage" 800
-		"hull damage" 800
+		"shield damage" 400
+		"hull damage" 400
 	description "Dual Turbolaser Turret (Y)"
 
 
@@ -1666,8 +1666,8 @@ outfit "G5Quad Turbolaser Turret"
 		"reload" 350
 		"firing energy" 300
 		"firing heat" 20
-		"shield damage" 1650
-		"hull damage" 1650
+		"shield damage" 825
+		"hull damage" 825
 	description "Quad Turbolaser Turret (G)"
 
 outfit "R5Quad Turbolaser Turret"
@@ -1692,8 +1692,8 @@ outfit "R5Quad Turbolaser Turret"
 		"reload" 350
 		"firing energy" 300
 		"firing heat" 20
-		"shield damage" 1650
-		"hull damage" 1650
+		"shield damage" 825
+		"hull damage" 825
 	description "Quad Turbolaser Turret (R)"
 
 outfit "Y5Quad Turbolaser Turret"
@@ -1718,8 +1718,8 @@ outfit "Y5Quad Turbolaser Turret"
 		"reload" 350
 		"firing energy" 300
 		"firing heat" 20
-		"shield damage" 1650
-		"hull damage" 1650
+		"shield damage" 825
+		"hull damage" 825
 	description "Y5Quad Turbolaser Turret"
 
 
@@ -1746,8 +1746,8 @@ outfit "G6Octuple Turbolaser Turret"
 		"reload" 360
 		"firing energy" 300
 		"firing heat" 20
-		"shield damage" 2250
-		"hull damage" 2250
+		"shield damage" 1125
+		"hull damage" 1125
 	description "G6Octuple Turbolaser Turret"
 
 outfit "R6Octuple Turbolaser Turret"
@@ -1772,8 +1772,8 @@ outfit "R6Octuple Turbolaser Turret"
 		"reload" 360
 		"firing energy" 300
 		"firing heat" 20
-		"shield damage" 2250
-		"hull damage" 2250
+		"shield damage" 1125
+		"hull damage" 1125
 	description "Quad Turbolaser Turret (R)"
 
 
@@ -1799,8 +1799,8 @@ outfit "R5 Turbolaser Cannon"
 		"firing force" 0
 		"firing heat" 25
 		"hit force" 0
-		"shield damage" 3500
-		"hull damage" 3500
+		"shield damage" 1250
+		"hull damage" 1250
 		cluster
 	description "R5 Turbolaser Cannon"
 
@@ -1874,30 +1874,26 @@ outfit "Composite Beam Laser (B6)"
 		"hull damage" 150
 	description "Composite Beam Laser Prototype developed on Shantipole."
 
+
+# Currently doesn't work but is still equipped on Mines (trigger and blast radii mess with it)
 outfit "Proximity Mine"
-	category "Turrets"
+	category "Guns"
+	"gun ports" -1
 	cost 1500
 	thumbnail "outfit/ztemplate"
 	"mass" 1
 	"outfit space" -1
 	"weapon capacity" -1
-	"turret mounts" -1
-	"required crew" 0
 	weapon
-		sprite "projectile/invis"
-		"hardpoint sprite" "hardpoint/invis"
-		"hardpoint offset" 9.
-		"inaccuracy" 0
-		"turret turn" 360
-		"velocity" 12
-		"lifetime" 10
+		"inaccuracy" 180
+		"velocity" 5
+		"lifetime" 1
 		"reload" 1
-		"firing energy" 0
-		"firing heat" 0
-		"trigger radius" 100
-		"trigger radius" 105
-		"shield damage" 3000
-		"hull damage" 3000
+		"firing corrosion" 3000
+		"firing hull" 48
+		"hull damage" 700
+		"blast radius" 10
+		"trigger radius" 10
 	description "Proximity Mine"
 
 outfit "Defenceless"

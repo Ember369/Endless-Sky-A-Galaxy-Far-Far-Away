@@ -12,7 +12,7 @@ ship "42"
 	sprite "ship/42"
 	thumbnail "outfit/unknown"
 	attributes
-		category "Interceptor"
+		category Interceptor
 		"absolute threshold" 20
 		"cost" 0
 		"shields" 100000000
@@ -49,7 +49,7 @@ ship "42"
 
 	gun 0 0 "Arrow"	
 	explode "large explosion" 3
-	description "42"
+	description "Uhh, don't ask what this is. A ship purely for testing (with a removable 'arrow' sprite to make the ship completely invisible. Great for cinematic views of systems without your own flagship visible."
 
 outfit "Arrow"
 	category "Systems"

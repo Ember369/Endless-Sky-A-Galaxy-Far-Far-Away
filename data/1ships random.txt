@@ -8139,6 +8139,8 @@ ship "Kandosii-type Dreadnought"
 	turret 0 1104 "Y3 Turbolaser Turret"
 	turret 0 -328 "Y4Dual Turbolaser Turret"
 	turret 0 93 "Y4Dual Turbolaser Turret"
+	turret -384.5 926 "Y3 Turbolaser Turret"
+	turret 384.5 926 "Y3 Turbolaser Turret"
 	bay "Starfighter (Bay) " 0 -328
 	bay "Starfighter (Bay) " 0 93
 	bay "Starfighter (Bay) " 0 561
@@ -11677,9 +11679,9 @@ ship "R60 T-Wing (Prototype) (Bay)"
 
 
 
-ship "Razor Crest Gunship"
-	sprite "ship/razorcrestgunship"
-	thumbnail "thumbnail/razorcrestgunship"
+ship "ST-70 Assault Ship"
+	sprite "ship/st70assaultship"
+	thumbnail "thumbnail/st70assaultship"
 	attributes
 		category "Transport "
 		"cost" 90000
@@ -11719,7 +11721,7 @@ ship "Razor Crest Gunship"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	"final explode" "final explosion large" 1
-	description "The Razor Crest is a gunship used by the Mandalorian bounty hunter Din Djarin. It was once a military craft used to patrol local territories prior to the Galactic Empire. Djarin utilises the vessel as his transport and living quarters while hunting fugitives in the Outer Rim Territories."
+	description "The ST-70 Assault Ship is a class of gunship used in the galaxy. Its usage predates the rise of the Galactic Empire, when they were used for local military patrols. ST-70 Assault Ships have a single pilot and can hold at least four passengers. Two laser cannons are equipped. ST-70's have two engines and a hyperdrive."
 	description "Artwork/model by Binkley-Spacetrucker"
 
 

@@ -34,7 +34,7 @@ outfit "Mega-Ion Cannon"
 		"reload" 2000
 		"firing energy" 3000
 		"firing heat" 20
-		"shield damage" 300000
+		"shield damage" 150000
 		"ion damage" 4000
 		submunition megaioncannon
 		submunition megaioncannon1
@@ -45,7 +45,7 @@ outfit megaioncannon
 		sprite "projectile/megaioncannonhit/megaioncannonhit"
 			"frame rate" 10
 			"random start frame"
-		"shield damage" 300000
+		"shield damage" 150000
 		"ion damage" 4000
 		"hit force" 0
 		"lifetime" 5

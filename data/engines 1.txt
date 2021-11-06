@@ -43,14 +43,14 @@ outfit "I1 Jet Engine"
 	"thrusting heat" 1
 	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
-	"flare sound" "blueflare tinyimperial"
+	"flare sound" "flare tiny imp"
 	"turn" 90
 	"turning energy" .5
 	"turning heat" 1
 	"afterburner thrust" 1.5
 	"afterburner energy" 0.1
 	"afterburner heat" .5
-	"afterburner effect" "slam engine redion"
+	"afterburner effect" "slam engine b"
 		"frame rate" 0.8
 	description "Gives the ship a minimal usage of boost, at a relatively low energy requirement. Great for frequent bursts of high speed."
 
@@ -157,7 +157,7 @@ outfit "I1 Microthrust Engine"
 	"thrusting heat" 1
 	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
-	"flare sound" "blueflare tinyimperial"
+	"flare sound" "flare tiny imp"
 	"turn" 170
 	"turning energy" .6
 	"turning heat" 1
@@ -252,7 +252,7 @@ outfit "I1 Propulsion Engine"
 	"thrusting heat" 1
 	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
-	"flare sound" "blueflare tinyimperial"
+	"flare sound" "flare tiny imp"
 	"turn" 80
 	"turning energy" .5
 	"turning heat" 1
@@ -357,7 +357,7 @@ outfit "I1 SLAM Engine"
 	"thrusting heat" 1
 	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
-	"flare sound" "blueflare tinyimperial"
+	"flare sound" "flare tiny imp"
 	"turn" 100
 	"turning energy" .5
 	"turning heat" 1
@@ -365,7 +365,7 @@ outfit "I1 SLAM Engine"
 	"afterburner energy" 2
 	"afterburner heat" 2
 	"drag" 0.1
-	"afterburner effect" "slam engine redion"
+	"afterburner effect" "slam engine b"
 		"frame rate" 0.8
 	description "The SubLight Acceleration Motor decreases max speed, but allows your ship to boost, accelerating quickly out of tight situations."
 
@@ -475,7 +475,7 @@ outfit "I1 Sublight Engine"
 	"thrusting heat" 1
 	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
-	"flare sound" "blueflare tinyimperial"
+	"flare sound" "flare tiny imp"
 	"turn" 80
 	"turning energy" .5
 	"turning heat" 1
@@ -570,7 +570,7 @@ outfit "I1 Thrust Engine"
 	"thrusting heat" 1
 	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
-	"flare sound" "blueflare tinyimperial"
+	"flare sound" "flare tiny imp"
 	"turn" 100
 	"turning energy" .5
 	"turning heat" 1
@@ -669,7 +669,7 @@ outfit "I1 Unstable Sublight Engine"
 	"thrusting heat" 1
 	"flare sprite" "effect/redion flare/micro"
 		"frame rate" 0.8
-	"flare sound" "blueflare tinyimperial"
+	"flare sound" "flare tiny imp"
 	"turn" 130
 	"turning energy" .7
 	"turning heat" 1

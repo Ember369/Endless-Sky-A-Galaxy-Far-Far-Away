@@ -12,7 +12,7 @@ outfit "Advanced Homing Missile"
 	category "Ammunition"
 	cost 3500
 	thumbnail "outfit/advancedhomingmissile"
-	"mass" .01
+	"mass" 0.1
 	"advancedhomingmissile capacity" -1
 	description "Advanced Homing Missile"
 
@@ -58,8 +58,8 @@ outfit "Advanced Homing Missile Launcher"
 		"homing" 2
 		"optical tracking" .8
 		"infrared tracking" .8
-		"shield damage" 500
-		"hull damage" 500
+		"shield damage" 250
+		"hull damage" 250
 		"hit force" 0
 		"missile strength" 30
 		"velocity override" 50
@@ -116,8 +116,8 @@ outfit "Assault Concussion Missile Launcher"
 		"homing" 2
 		"optical tracking" 1
 		"infrared tracking" 1
-		"shield damage" 500
-		"hull damage" 500
+		"shield damage" 350
+		"hull damage" 350
 		"hit force" 0
 		"missile strength" 30
 	description "Assault Concussion Missile Launcher"
@@ -127,7 +127,7 @@ outfit "Cluster Missile"
 	category "Ammunition"
 	cost 3300
 	thumbnail "outfit/clustermissile"
-	"mass" .01
+	"mass" 0.1
 	"cluster capacity" -1
 	description "Fletchette Missile"
 
@@ -173,8 +173,8 @@ outfit "Cluster Missile Launcher"
 		"homing" 4
 		"optical tracking" .5
 		"infrared tracking" .5
-		"shield damage" 30
-		"hull damage" 30
+		"shield damage" 15
+		"hull damage" 15
 		"hit force" 0
 		"missile strength" 4
 		phasing
@@ -195,8 +195,8 @@ outfit clustermissile
 		"homing" 2
 		"optical tracking" .5
 		"infrared tracking" .5
-		"shield damage" 125
-		"hull damage" 125
+		"shield damage" 62.5
+		"hull damage" 62.5
 		"hit force" 0
 
 outfit clustermissile1
@@ -229,7 +229,7 @@ outfit "Advanced Concussion Missile"
 	category "Ammunition"
 	cost 3000
 	thumbnail "outfit/advancedconcussionmissile"
-	"mass" .01
+	"mass" 0.1
 	"advancedconcussion capacity" -1
 	description "Advanced Concussion Missile"
 	description "Compared to standard concussion missiles, advanced concussion missiles have a higher blast rating and exit velocity, and they are capable of tracking a target for a longer period of time. A pair is enough to eliminate a fully-shielded TIE Defender or Delta-class DX-9 stormtrooper transport. They also carry a green shield around the warheads."
@@ -274,8 +274,8 @@ outfit "Advanced Concussion Missile Launcher"
 		"firing heat" 1
 		"acceleration" 0.7
 		"drag" .05
-		"shield damage" 650
-		"hull damage" 650
+		"shield damage" 325
+		"hull damage" 325
 		"hit force" 0
 		"missile strength" 18
 		phasing
@@ -288,7 +288,7 @@ outfit "Concussion Missile"
 	category "Ammunition"
 	cost 2700
 	thumbnail "outfit/concussionmissile"
-	"mass" .01
+	"mass" 0.1
 	"concussion capacity" -1
 	description "Concussion Missile"
 
@@ -328,8 +328,8 @@ outfit "Concussion Missile Launcher"
 		"firing heat" 1
 		"acceleration" 0.7
 		"drag" .05
-		"shield damage" 600
-		"hull damage" 600
+		"shield damage" 300
+		"hull damage" 300
 		"hit force" 0
 		"missile strength" 16
 		phasing
@@ -339,7 +339,7 @@ outfit "Plasma Torpedo"
 	category "Ammunition"
 	cost 3500
 	thumbnail "outfit/plasmatorpedo"
-	"mass" .01
+	"mass" 0.1
 	"plasma capacity" -1
 	description "Plasma Torpedo"
 
@@ -379,8 +379,8 @@ outfit "Plasma Torpedo Launcher"
 		"firing heat" 1
 		"acceleration" .7
 		"drag" .05
-		"shield damage" 1900
-		"hull damage" 30
+		"shield damage" 950
+		"hull damage" 15
 		"hit force" 0
 		"missile strength" 20
 		phasing
@@ -429,8 +429,8 @@ outfit "Ion Bomb Launcher"
 		"firing heat" 1
 		"drag" 1
 		"missile strength" 35
-		"shield damage" 10
-		"hull damage" 10
+		"shield damage" 5
+		"hull damage" 5
 		"ion damage" 10000
 		"hit force" 0
 		phasing
@@ -484,8 +484,8 @@ outfit "Diamond Boron Missile Launcher"
 		safe
 		"trigger radius" 150
 		"blast radius" 700
-		"shield damage" 3000
-		"hull damage" 3000
+		"shield damage" 1500
+		"hull damage" 1500
 		"hit force" 0
 		"missile strength" 20
 		"no damage scaling"
@@ -495,7 +495,7 @@ outfit "Intruder Missile"
 	category "Ammunition"
 	cost 2700
 	thumbnail "outfit/intrudermissile"
-	"mass" .01
+	"mass" 0.1
 	"intruder capacity" -1
 	description "Intruder Missile"
 
@@ -535,8 +535,8 @@ outfit "Intruder Missile Launcher"
 		"firing heat" 1
 		"acceleration" .7
 		"drag" .05
-		"shield damage" 20
-		"hull damage" 10
+		"shield damage" 10
+		"hull damage" 5
 		"ion damage" 1000
 		"hit force" 0
 		"missile strength" 20
@@ -549,7 +549,7 @@ outfit "Proton Torpedo"
 	category "Ammunition"
 	cost 4000
 	thumbnail "outfit/protontorpedo"
-	"mass" .01
+	"mass" 0.1
 	"protontorpedo capacity" -1
 	description "Proton Torpedo"
 
@@ -589,8 +589,8 @@ outfit "Proton Torpedo Launcher"
 		"firing heat" 1
 		"acceleration" .6
 		"drag" .05
-		"shield damage" 900
-		"hull damage" 900
+		"shield damage" 450
+		"hull damage" 450
 		"hit force" 0
 		"missile strength" 20
 		phasing
@@ -638,8 +638,8 @@ outfit "Proton Bomb Bay"
 		"firing heat" 1
 		"drag" 1
 		"missile strength" 35
-		"shield damage" 2000
-		"hull damage" 2000
+		"shield damage" 1000
+		"hull damage" 1000
 		"stream"
 	description "This launcher fires cluster munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
 
@@ -686,8 +686,8 @@ outfit "Seismic Charge Bay"
 		"firing heat" 1
 		"drag" 1
 		"missile strength" 35
-		"shield damage" 2000
-		"hull damage" 2000
+		"shield damage" 1000
+		"hull damage" 1000
 		"blast radius" 700
 		"no damage scaling"
 		"stream"
@@ -811,8 +811,8 @@ outfit "Omnicannon"
 		"firing force" 0
 		"firing heat" 1.2
 		"hit force" 0
-		"shield damage" 7000
-		"hull damage" 7000
+		"shield damage" 3500
+		"hull damage" 3500
 		"blast radius" 600
 		"missile strength" 0
 		"no damage scaling"
@@ -842,8 +842,8 @@ outfit "Linked Ion/Plasma Cannon"
 		"firing heat" 70
 		"hit force" 0
 		"piercing" .3
-		"shield damage" 7000
-		"hull damage" 7000
+		"shield damage" 3500
+		"hull damage" 3500
 		"ion damage" 500
 	description "The Linked Ion/Plasma Cannon fired a large ion pulse followed by an enormous, spiraling plasma shot, a combination that disabled the shields and allowed the plasma shot to do maximum damage."
 
@@ -870,8 +870,8 @@ outfit "Orbital Bombardment Cannon"
 		"firing heat" 70
 		"hit force" 0
 		"piercing" .3
-		"shield damage" 10000
-		"hull damage" 10000
+		"shield damage" 5000
+		"hull damage" 5000
 		cluster
 	description "The Orbital Bombardment Particle Cannon is a model of particle cannon and mass-driver cannon that is supposedly powered by kyber crystals and considered by the Rebel Alliance to be a superweapon."
 
@@ -901,7 +901,7 @@ outfit "Orbital Autocannon"
 		"firing heat" 70
 		"hit force" 0
 		"piercing" .3
-		"shield damage" 20000
-		"hull damage" 20000
+		"shield damage" 5000
+		"hull damage" 5000
 		cluster
 	description "The orbital autocannon is a starship weapon used for large-scale bombardments. The Mandator IV-class Siege Dreadnought used by the First Order is equipped with two such cannons."

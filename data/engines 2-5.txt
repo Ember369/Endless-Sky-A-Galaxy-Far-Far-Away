@@ -104,7 +104,7 @@ outfit "B3 Sublight Engine"
 	"thrust" 36
 	"thrusting energy" 2.4
 	"thrusting heat" 4.8
-	"reverse thrust" 12
+	"reverse thrust" 8
 	"reverse thrusting energy" 0.53
 	"reverse thrusting heat" 1
 	"flare sprite" "effect/blue flare/medium"
@@ -125,7 +125,7 @@ outfit "G3 Sublight Engine"
 	"thrust" 36
 	"thrusting energy" 2.4
 	"thrusting heat" 4.8
-	"reverse thrust" 12
+	"reverse thrust" 8
 	"reverse thrusting energy" 0.53
 	"reverse thrusting heat" 1
 	"flare sprite" "effect/green flare/medium"
@@ -146,7 +146,7 @@ outfit "O3 Sublight Engine"
 	"thrust" 36
 	"thrusting energy" 2.4
 	"thrusting heat" 4.8
-	"reverse thrust" 12
+	"reverse thrust" 8
 	"reverse thrusting energy" 0.53
 	"reverse thrusting heat" 1
 	"flare sprite" "effect/orange flare/medium"
@@ -167,7 +167,7 @@ outfit "P3 Sublight Engine"
 	"thrust" 36
 	"thrusting energy" 2.4
 	"thrusting heat" 4.8
-	"reverse thrust" 12
+	"reverse thrust" 8
 	"reverse thrusting energy" 0.53
 	"reverse thrusting heat" 1
 	"flare sprite" "effect/pink flare/medium"

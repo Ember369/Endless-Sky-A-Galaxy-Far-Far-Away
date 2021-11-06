@@ -37,7 +37,7 @@ news "Civilian"
 		government "Galactic Empire"
 	name
 		word
-			"Civilian"
+			Civilian"
 	portrait
 		portrait/civilian01
 		portrait/civilian02

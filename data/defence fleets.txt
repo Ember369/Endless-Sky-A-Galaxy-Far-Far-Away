@@ -109,6 +109,8 @@ mission "Geonosis Quarantine Blockade"
 		ship "TIE/LN Fighter (Bay)" "Iota 20"
 		ship "TIE/LN Fighter (Bay)" "Iota 21"
 		ship "TIE/LN Fighter (Bay)" "Iota 22"
+		ship "TIE/LN Fighter (Bay)" "Iota 23"
+		ship "TIE/LN Fighter (Bay)" "Iota 24"
 		dialog "The TIE fighter squadron has been destroyed."
 	on enter Geonosis
 		conversation

@@ -9,6 +9,18 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 
+outfit "Plot Armour"
+	category "Hero"
+	cost 0
+	thumbnail "outfit/droid/mkmaintenancedroid"
+	"mass" 0
+	"outfit space" 0
+	"shield protection" 100000
+	"hull protection" 100000
+	unplunderable 1
+	installable -1
+	description "Plot armour."
+
 outfit "Luke Skywalker"
 	category "Hero"
 	cost 0

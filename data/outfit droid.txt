@@ -37,7 +37,6 @@ outfit "A1 R2-series Astromech Droid"
 	"jump speed" .05
 	"astromech capacity" -1
 	"required crew" -1
-	"operating costs" 5
 	description "The R2-series astromech droid is a model of astromech droid produced by Industrial Automaton, boasting a level of success that was never equalled in Industrial Automaton's long history. A combination of excellent design, high-quality marketing, and good timing makes this astromech droid one of the most sought after droids in history, and one of the few vintage astromech series still in active production decades after it was first designed."
 
 outfit "A1 R3-series Astromech Droid"
@@ -52,7 +51,6 @@ outfit "A1 R3-series Astromech Droid"
 	"jump speed" .1
 	"astromech capacity" -1
 	"required crew" -1
-	"operating costs" 5
 	description "The R3-series astromech droid is an astromech model developed and sold by the droidmaker Industrial Automaton (IA). The R3 came at the heels of IA's blockbuster launch of the R2-series astromech droid as the company rushed to capitalise on their new dominance of the maintenance and repair droid market. Based on the R2's basic design, the R3 is only distinguished visually by its clear dome. Unlike the R2, this unit was built for military and government uses, and can hold an immense amount of data. Although its design is tailored toward large-scale vessels and battle stations, the R3-series astromech maintains the starfighter plug-in functionality of other astromech droids, being a more capable astrogator than any previous R-series astromech produced by Industrial Automaton."
 
 outfit "A1 R4-series Astromech Droid"
@@ -65,7 +63,6 @@ outfit "A1 R4-series Astromech Droid"
 	"hull energy" .16
 	"astromech capacity" -1
 	"required crew" -1
-	"operating costs" 5
 	description "Flushed with the success of their landmark R2 launch, Industrial Automaton rushed to capitalise on their new dominance of the astromech droid market. The R4-series astromech droid is a highly successful attempt to capture a new market prospect, and is more suitable to the public than its predecessor. It is simpler, tougher, and cheaper than previous R3-series models."
 
 outfit "A1 R5-series Astromech Droid"
@@ -78,7 +75,6 @@ outfit "A1 R5-series Astromech Droid"
 	"hull energy" .08
 	"astromech capacity" -1
 	"required crew" -1
-	"operating costs" 5
 	description "The R5-series astromech droid, also known as the R2-5, is a line of low-cost astromech droids built by Industrial Automaton. Based upon the success of prior astromech models, such as the wildly popular R2-series, Industrial Automaton intended the R5-series to cater to budget buyers at the cost of some functionality. Because of their inexpensive construction, however, droids of this series are plagued by a number of design flaws—most obviously, a sullen demeanor and sharp attitude resulting from deficiencies in the machine's personality matrix."
 
 outfit "A1 MK Maintenance Droid"

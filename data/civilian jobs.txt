@@ -15,6 +15,7 @@ mission "Civilian Escort (civiliantransport, Dangerous Destination, 1)"
 	job
 	deadline 8
 	to offer
+		has "agffa sandbox start"
 		random < 40
 		"combat rating" < 6
 		or
@@ -48,6 +49,7 @@ mission "Civilian Escort (civiliantransport, Dangerous Origin, 1)"
 	job
 	deadline 8
 	to offer
+		has "agffa sandbox start"
 		random < 40
 		"combat rating" < 6
 		or
@@ -82,6 +84,7 @@ mission "Civilian Escort (civilianheavycargofreighter, Dangerous Destination, 1)
 	job
 	deadline 8
 	to offer
+		has "agffa sandbox start"
 		random < 40
 		"combat rating" < 6
 		or
@@ -115,6 +118,7 @@ mission "Civilian Escort (civilianheavycargofreighter, Dangerous Origin, 1)"
 	job
 	deadline 8
 	to offer
+		has "agffa sandbox start"
 		random < 40
 		"combat rating" < 6
 		or
@@ -149,6 +153,7 @@ mission "Civilian Escort (civiliantransport, Dangerous Destination, 2)"
 	job
 	deadline 10
 	to offer
+		has "agffa sandbox start"
 		random < 70
 		"combat rating" > 5
 	source
@@ -179,6 +184,7 @@ mission "Civilian Escort (civiliantransport, Dangerous Origin, 2)"
 	job
 	deadline 10
 	to offer
+		has "agffa sandbox start"
 		random < 70
 		"combat rating" > 5
 	source
@@ -210,6 +216,7 @@ mission "Civilian Escort (civilianheavycargofreighter, Dangerous Destination, 2)
 	job
 	deadline 10
 	to offer
+		has "agffa sandbox start"
 		random < 70
 		"combat rating" > 5
 	source
@@ -240,6 +247,7 @@ mission "Civilian Escort (civilianheavycargofreighter, Dangerous Origin, 2)"
 	job
 	deadline 10
 	to offer
+		has "agffa sandbox start"
 		random < 70
 		"combat rating" > 5
 	source
@@ -271,6 +279,7 @@ mission "Civilian Escort (civiliantransport, Dangerous Destination, 3)"
 	job
 	deadline 10
 	to offer
+		has "agffa sandbox start"
 		random < 40
 		"combat rating" > 20
 	source
@@ -301,6 +310,7 @@ mission "Civilian Escort (civiliantransport, Dangerous Origin, 3)"
 	job
 	deadline 10
 	to offer
+		has "agffa sandbox start"
 		random < 40
 		"combat rating" > 20
 	source
@@ -332,6 +342,7 @@ mission "Civilian Escort (civilianheavycargofreighter, Dangerous Destination, 3)
 	job
 	deadline 10
 	to offer
+		has "agffa sandbox start"
 		random < 40
 		"combat rating" > 20
 	source
@@ -362,6 +373,7 @@ mission "Civilian Escort (civilianheavycargofreighter, Dangerous Origin, 3)"
 	job
 	deadline 10
 	to offer
+		has "agffa sandbox start"
 		random < 40
 		"combat rating" > 20
 	source

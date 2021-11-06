@@ -182,8 +182,8 @@ ship "Allegiance Battlecruiser"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"G5Quad Turbolaser Turret" 23
-		"G4Dual Turbolaser Turret" 9
+		"G5Quad Turbolaser Turret" 27
+		"G4Dual Turbolaser Turret" 5
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -196,14 +196,14 @@ ship "Allegiance Battlecruiser"
 	engine 627 1772.5 3
 	turret -33.5 1686 "G4Dual Turbolaser Turret"
 	turret 33.5 1686 "G4Dual Turbolaser Turret"
-	turret -373 1473 "G4Dual Turbolaser Turret"
-	turret 373 1473 "G4Dual Turbolaser Turret"
+	turret -373 1473 "G5Quad Turbolaser Turret"
+	turret 373 1473 "G5Quad Turbolaser Turret"
 	turret -884 1276 "G5Quad Turbolaser Turret"
 	turret 884 1276 "G5Quad Turbolaser Turret"
 	turret -847 1161.5 "G5Quad Turbolaser Turret"
 	turret 847 1161.5 "G5Quad Turbolaser Turret"
-	turret -628.5 1104 "G4Dual Turbolaser Turret"
-	turret 628.5 1104 "G4Dual Turbolaser Turret"
+	turret -628.5 1104 "G5Quad Turbolaser Turret"
+	turret 628.5 1104 "G5Quad Turbolaser Turret"
 	turret -805 1048.5 "G5Quad Turbolaser Turret"
 	turret 805 1048.5 "G5Quad Turbolaser Turret"
 	turret -768.5 932 "G5Quad Turbolaser Turret"
@@ -516,7 +516,7 @@ ship "Alpha Xg-1 Star Wing (Bay)"
 	attributes
 		licenses
 			Imperial
-		category "Starfighter (Bay)"
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 135000
 		"shields" 2400
@@ -2081,19 +2081,19 @@ ship "Fulgor Pursuit Frigate"
 	attributes
 		licenses
 			Imperial
-		category "Frigate "
-		"cost" 8900000
-		"shields" 37000
-		"hull" 15300
-		"required crew" 350
-		"bunks" 1130
-		"mass" 4845
-		"drag" 18.5
+		category "Heavy Cruiser "
+		"cost" 42000000
+		"shields" 93000
+		"hull" 41000
+		"required crew" 500
+		"bunks" 1600
+		"mass" 13200
+		"drag" 46
 		"heat dissipation" .45
 		"fuel capacity" 1000
-		"cargo space" 160
+		"cargo space" 200
 		"outfit space" 617
-		"weapon capacity" 296
+		"weapon capacity" 334
 		"engine capacity" 220
 		weapon
 			"blast radius" 300
@@ -2101,42 +2101,49 @@ ship "Fulgor Pursuit Frigate"
 			"hull damage" 350
 			"hit force" 800
 	outfits
-		"G3 Turbolaser Turret" 8
-		"G4Dual Turbolaser Turret" 3
+		"G5Quad Turbolaser Turret" 3
+		"G4Dual Turbolaser Turret" 12
 		"Concussion Missile Launcher" 2
 		"Concussion Missile Storage Rack" 2
 		"Concussion Missile" 16
 		
-		"P4 Power Converter"
-		"D4 Deflector Shield"
-		"C4 Coolant System"
+		"P5 Power Converter"
+		"D5 Deflector Shield"
+		"C5 Coolant System"
 		
-		"B4 Sublight Engine"
-		"H4 Hyperspace Motivator"
+		"B5 Sublight Engine"
+		"B2 Sublight Engine"
+		"H5 Hyperspace Motivator"
 		
-	engine -78 359.5
-	engine 78 359.5
-	gun -32.5 -326.5 "Concussion Missile Launcher"
-	gun 32.5 -326.5 "Concussion Missile Launcher"
-	turret -120.5 318 "G3 Turbolaser Turret"
-	turret 120.5 318 "G3 Turbolaser Turret"
-	turret -100 125.5 "G3 Turbolaser Turret"
-	turret 100 125.5 "G3 Turbolaser Turret"
-	turret -189.5 84.5 "G4Dual Turbolaser Turret"
-	turret 189.5 84.5 "G4Dual Turbolaser Turret"
-	turret 0 -188 "G4Dual Turbolaser Turret"
-	turret -59.5 -277.5 "G3 Turbolaser Turret"
-	turret 59.5 -277.5 "G3 Turbolaser Turret"
-	turret -21.5 -351 "G3 Turbolaser Turret"
-	turret 21.5 -351 "G3 Turbolaser Turret"
-	bay "Starfighter (Bay) " 0 135
-	bay "Starfighter (Bay) " 0 135
-	bay "Starfighter (Bay) " 0 135
-	bay "Starfighter (Bay) " 0 135
-	bay "Starfighter (Bay) " 0 135
-	bay "Starfighter (Bay) " 0 135
-	bay "Starfighter (Bay) " 0 135
-	bay "Starfighter (Bay) " 0 135
+	engine -157 734
+	engine 157 734
+	gun -18 -718.5 "Concussion Missile Launcher"
+	gun 18 -718.5 "Concussion Missile Launcher"
+	turret -43 -708 "G4Dual Turbolaser Turret"
+	turret 43 -708 "G4Dual Turbolaser Turret"
+	turret -123.5 -557 "G4Dual Turbolaser Turret"
+	turret 123.5 -557 "G4Dual Turbolaser Turret"
+	turret 0 -378 "G5Quad Turbolaser Turret"
+	turret -132 -280.5 "G4Dual Turbolaser Turret"
+	turret 132 -280.5 "G4Dual Turbolaser Turret"
+	turret -77.5 -11.5 "G4Dual Turbolaser Turret"
+	turret 77.5 -11.5 "G4Dual Turbolaser Turret"
+	turret -392 165.5 "G5Quad Turbolaser Turret"
+	turret 392 165.5 "G5Quad Turbolaser Turret"
+	turret -205 257.5 "G4Dual Turbolaser Turret"
+	turret 205 257.5 "G4Dual Turbolaser Turret"
+	turret -244 648 "G4Dual Turbolaser Turret"
+	turret 244 648 "G4Dual Turbolaser Turret"
+	bay "Starfighter (Bay) " 0 191.5
+	bay "Starfighter (Bay) " 0 191.5
+	bay "Starfighter (Bay) " 0 191.5
+	bay "Starfighter (Bay) " 0 191.5
+	bay "Starfighter (Bay) " 0 191.5
+	bay "Starfighter (Bay) " 0 191.5
+	bay "Starfighter (Bay) " 0 191.5
+	bay "Starfighter (Bay) " 0 191.5
+	bay "Starfighter (Bay) " 0 191.5
+	bay "Starfighter (Bay) " 0 191.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2989,9 +2996,10 @@ ship "Imperial I Star Destroyer"
 	turret -652 979 "G4Dual Turbolaser Turret"
 	turret 662 980 "G4Dual Turbolaser Turret"
 	turret 4 -264 "G4Dual Turbolaser Turret"
-	turret 4 -264 "G4Dual Turbolaser Turret"
-	turret 4 -264 "G4Dual Turbolaser Turret"
-	turret 4 -264 "G4Dual Turbolaser Turret"
+	turret 0 -968 "G4Dual Turbolaser Turret"
+	turret -372 -386.5 "G4Dual Turbolaser Turret"
+	turret 372 -386.5 "G4Dual Turbolaser Turret"
+
 	bay "Starfighter (Bay) " 0 -264
 	bay "Starfighter (Bay) " 0 -264
 	bay "Starfighter (Bay) " 0 -264
@@ -3094,9 +3102,9 @@ ship "Imperial II Star Destroyer"
 	turret -652 979 "I4 Ion Turret"
 	turret 662 980 "I4 Ion Turret"
 	turret 4 -264 "G4Dual Turbolaser Turret"
-	turret 4 -264 "G4Dual Turbolaser Turret"
-	turret 4 -264 "G4Dual Turbolaser Turret"
-	turret 4 -264 "G4Dual Turbolaser Turret"
+	turret 0 -968 "G4Dual Turbolaser Turret"
+	turret -372 -386.5 "G4Dual Turbolaser Turret"
+	turret 372 -386.5 "G4Dual Turbolaser Turret"
 	bay "Starfighter (Bay) " 0 -264
 	bay "Starfighter (Bay) " 0 -264
 	bay "Starfighter (Bay) " 0 -264
@@ -5413,8 +5421,8 @@ ship "Tartan Patrol Cruiser" "Tartan Patrol Cruiser (Stripe)"
 
 
 ship "Tector Star Destroyer"
-	sprite "ship/imperialdestroyer"
-	thumbnail "thumbnail/imperialdestroyer"
+	sprite "ship/tectordestroyer"
+	thumbnail "thumbnail/tectordestroyer"
 	attributes
 		licenses
 			Imperial
@@ -5439,8 +5447,9 @@ ship "Tector Star Destroyer"
 			"hull damage" 550
 			"hit force" 950
 	outfits
-		"G5Quad Turbolaser Turret" 18
-		"G4Dual Turbolaser Turret" 14
+		"G5Quad Turbolaser Turret" 24
+		"G4Dual Turbolaser Turret" 6
+		"I4 Ion Turret" 2
 		
 		"P5 Power Converter"
 		"D5 Deflector Shield"
@@ -5449,40 +5458,40 @@ ship "Tector Star Destroyer"
 		"B5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 		
-	engine -422 1475
-	engine 431 1476
-	turret -474 926 "G5Quad Turbolaser Turret"
-	turret -441 926 "G5Quad Turbolaser Turret"
-	turret 449 930 "G5Quad Turbolaser Turret"
-	turret 482 928 "G5Quad Turbolaser Turret"
-	turret -474 836 "G5Quad Turbolaser Turret"
-	turret -442 836 "G5Quad Turbolaser Turret"
-	turret 449 840 "G5Quad Turbolaser Turret"
-	turret 482 838 "G5Quad Turbolaser Turret"
-	turret -474 747 "G5Quad Turbolaser Turret"
-	turret -442 747 "G5Quad Turbolaser Turret"
-	turret 450 748 "G5Quad Turbolaser Turret"
-	turret 482 748 "G5Quad Turbolaser Turret"
-	turret -474 658 "G5Quad Turbolaser Turret"
-	turret -442 657 "G5Quad Turbolaser Turret"
-	turret 449 659 "G5Quad Turbolaser Turret"
-	turret 482 658 "G5Quad Turbolaser Turret"
-	turret -94 -1183 "G5Quad Turbolaser Turret"
-	turret 94 -1181 "G5Quad Turbolaser Turret"
-	turret -405 -301 "G4Dual Turbolaser Turret"
-	turret 411 -302 "G4Dual Turbolaser Turret"
-	turret 3 -58 "G4Dual Turbolaser Turret"
-	turret 4 -15 "G4Dual Turbolaser Turret"
-	turret 4 31 "G4Dual Turbolaser Turret"
-	turret -644 360 "G4Dual Turbolaser Turret"
-	turret 650 360 "G4Dual Turbolaser Turret"
-	turret 4 513 "G4Dual Turbolaser Turret"
-	turret -652 979 "G4Dual Turbolaser Turret"
-	turret 662 980 "G4Dual Turbolaser Turret"
-	turret 4 -264 "G4Dual Turbolaser Turret"
-	turret 4 -264 "G4Dual Turbolaser Turret"
-	turret 4 -264 "G4Dual Turbolaser Turret"
-	turret 4 -264 "G4Dual Turbolaser Turret"
+	engine -425.5 1463
+	engine 425.5 1463
+	turret -50 -1415 "G4Dual Turbolaser Turret"
+	turret 50 -1415 "G4Dual Turbolaser Turret"
+	turret -402 -308.5 "G4Dual Turbolaser Turret"
+	turret 402 -308.5 "G4Dual Turbolaser Turret"
+	turret -383 343 "G5Quad Turbolaser Turret"
+	turret 383 343 "G5Quad Turbolaser Turret"
+	turret -410 342.5 "G5Quad Turbolaser Turret"
+	turret 410 342.5 "G5Quad Turbolaser Turret"
+	turret -642.5 361.5 "G4Dual Turbolaser Turret"
+	turret 642.5 361.5 "G4Dual Turbolaser Turret"
+	turret -427 476.5 "G5Quad Turbolaser Turret"
+	turret 427 476.5 "G5Quad Turbolaser Turret"
+	turret -456 477.5 "G5Quad Turbolaser Turret"
+	turret 456 477.5 "G5Quad Turbolaser Turret"
+	turret -471.5 612.5 "G5Quad Turbolaser Turret"
+	turret 471.5 612.5 "G5Quad Turbolaser Turret"
+	turret -500.5 613.5 "G5Quad Turbolaser Turret"
+	turret 500.5 613.5 "G5Quad Turbolaser Turret"
+	turret -516.5 747 "G5Quad Turbolaser Turret"
+	turret 516.5 747 "G5Quad Turbolaser Turret"
+	turret -544.5 746.5 "G5Quad Turbolaser Turret"
+	turret 544.5 746.5 "G5Quad Turbolaser Turret"
+	turret -562 880 "G5Quad Turbolaser Turret"
+	turret 562 880 "G5Quad Turbolaser Turret"
+	turret -590 880.5 "G5Quad Turbolaser Turret"
+	turret 590 880.5 "G5Quad Turbolaser Turret"
+	turret -610 1009.5 "G5Quad Turbolaser Turret"
+	turret 610 1009.5 "G5Quad Turbolaser Turret"
+	turret -636.5 1009.5 "G5Quad Turbolaser Turret"
+	turret 636.5 1009.5 "G5Quad Turbolaser Turret"
+	turret -545 1095 "I4 Ion Turret"
+	turret 545 1095 "I4 Ion Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -5667,7 +5676,7 @@ ship "TIE/D Fighter (Bay)"
 	attributes
 		licenses
 			Imperial
-		category "Starfighter (Bay)"
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 300000
 		"shields" 3100
@@ -5994,7 +6003,7 @@ ship "TIE/IN Interceptor (Royal Guard) (Bay)"
 	attributes
 		licenses
 			Imperial
-		category "Starfighter (Bay)"
+		category "Starfighter (Bay) "
 		"absolute threshold" 20
 		"cost" 140000
 		"shields" 800
@@ -7719,6 +7728,59 @@ ship "VT-49 Decimator"
 	"final explode" "final explosion large" 1
 	description "The VT-49 Decimator is a prestige starship used by the naval forces of the Galactic Empire. The ship is a heavily armed Imperial transport that has gone through many revisions and modifications, making it one of the galaxy's more feared Imperial warships. It is used to drop firebombs and is used in raiding parties against enemy infantry. In the Imperial starfleet, receiving command of a VT-49 Decimator is considered an honour."
 	description "Artwork/model by Unusualsuspex"
+
+
+
+ship "Ye-4 Gunship"
+	sprite "ship/ye4gunship"
+	thumbnail "thumbnail/ye4gunship"
+	attributes
+		category "Patrol Craft "
+		"cost" 200000
+		"shields" 3000
+		"hull" 5000
+		"required crew" 2
+		"bunks" 14
+		"mass" 140
+		"drag" 4.49
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 5
+		"outfit space" 58
+		"weapon capacity" 22
+		"engine capacity" 22
+		weapon
+			"blast radius" 300
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 800
+	outfits
+		"G2 Laser Cannon" 2
+		"G2 Laser Turret" 6
+		
+		"P2 Power Converter"
+		"D2 Deflector Shield"
+		"C2 Coolant System"
+		
+		"B2 Sublight Engine"
+		"H2 Hyperspace Motivator"
+
+	engine 0 40
+	gun -2.5 -45
+	gun 2.5 -45
+	turret -19 -17.5 "R2 Laser Cannon"
+	turret 19 -17.5 "R2 Laser Cannon"
+	turret -11 15.5 "R2 Laser Turret"
+	turret 11 15.5 "R2 Laser Turret"
+	turret -6 27 "R2 Laser Turret"
+	turret 6 27 "R2 Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large" 1
+	description "Ye-4 gunships, also called Imperial Gunboats, are heavily armed gunships employed by the Imperial Navy. Two vertical stabilisers protrude from the top and bottom of the ship's rear. It is armed with six turret weapons that can effortlessly destroy enemy starfighters, along with two front-facing laser cannons."
+	description "Artwork/model by UnusualSuspex"
 
 
 

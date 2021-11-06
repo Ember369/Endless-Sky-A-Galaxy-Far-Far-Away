@@ -558,8 +558,6 @@ event "agffa cinematic"
 		pos 5315.96 -6519.93
 		government "Resistance"
 		habitable 1715
-		music ambient/wait
-		arrival 1000
 		link "Ring of Kafrene"
 		link Codia
 		asteroids "small rock" 5 10.764

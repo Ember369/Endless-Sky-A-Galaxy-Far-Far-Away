@@ -547,6 +547,6 @@ outfit "turretmineprojectile"
 		"velocity" 20
 		"lifetime" 100
 		"reload" 240
-		"shield damage" 100
-		"hull damage" 100
+		"shield damage" 50
+		"hull damage" 50
 		"hit force" 0

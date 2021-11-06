@@ -1,3 +1,46 @@
+government "Inaccessible Wormhole"
+	swizzle 0
+	color 1.5 1.5 1.5
+	"attitude toward"
+		"Galactic Empire (Cadet)" -0.01
+		"Bounty Hunter" -0.01
+		"Civilian" -0.01
+		"Galactic Empire" -0.01
+		"Galactic Empire (Sympathiser)" -0.01
+		"Scum & Villainy" -0.04
+		"Rebel Alliance" -0.04
+		"Target Practice (Anti-Imperial)" -0.04
+	"bribe" 0
+	"fine" 0
+
+government "Target Practice (Anti-Imperial)"
+	"display name" "Target Practice"
+	swizzle 0
+	color 1.5 1.5 1.5
+	"player reputation" -0.01
+	"attitude toward"
+		"Galactic Empire (Cadet)" -0.01
+	"bribe" 0
+	"fine" 0
+
+government "Galactic Empire (Cadet)"
+	"display name" "Galactic Empire"
+	swizzle 0
+	color 1.5 1.5 1.5
+	"player reputation" 0
+	"attitude toward"
+		"Bounty Hunter" 0
+		"Civilian" 0.04
+		"Galactic Empire" 0.04
+		"Galactic Empire (Sympathiser)" 0.04
+		"Scum & Villainy" -0.04
+		"Rebel Alliance" -0.04
+		"Target Practice (Anti-Imperial)" -0.04
+	"bribe" 0
+	"fine" 0
+	"friendly hail" "friendly galacticempire"
+	"hostile hail" "hostile galacticempire"
+
 government "Galactic Empire"
 	swizzle 0
 	color 1.5 1.5 1.5
@@ -8,7 +51,7 @@ government "Galactic Empire"
 		"Galactic Empire (Sympathiser)" 0.04
 		"Scum & Villainy" -0.04
 		"Rebel Alliance" -0.04
-	"bribe" .05
+	"bribe" 0
 	"fine" 0
 	"friendly hail" "friendly galacticempire"
 	"hostile hail" "hostile galacticempire"
@@ -24,7 +67,7 @@ government "Galactic Empire (Sympathiser)"
 		"Galactic Empire" 0.04
 		"Scum & Villainy" -0.04
 		"Rebel Alliance" 0.04
-	"bribe" .05
+	"bribe" 0
 	"fine" 0
 
 government "Rebel Alliance"

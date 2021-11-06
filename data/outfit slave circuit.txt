@@ -55,5 +55,5 @@ outfit "SC5 Slave Circuit"
 	"mass" 18
 	"outfit space" -18
 	"required crew" -30
-	"energy consumption" 1
+	"energy consumption" 5.4
 	description "A slave circuit is a mechanism that allows for remote control of a vehicle's systems while using a communications device. In technical vernacular, a vehicle that has a slave circuit installed is slave-rigged."

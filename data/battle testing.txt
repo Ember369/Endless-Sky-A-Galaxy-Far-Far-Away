@@ -15,6 +15,7 @@ mission "() TESTING BATTLE TREE"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 		not "() TESTING BATTLE TREE: active"
 	on accept
 		"smallimperialfleet" = 0
@@ -472,6 +473,7 @@ mission "Rebel vs Imperial Fighters"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 	source
 		government "Galactic Empire" "Rebel Alliance" "Unaffiliated"
 	destination
@@ -508,6 +510,7 @@ mission "Rebel vs Imperial Fighters (w/Corvettes)"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 	source
 		government "Galactic Empire" "Rebel Alliance" "Unaffiliated"
 	destination
@@ -546,6 +549,7 @@ mission "Rebel vs Imperial Corvette"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 	source
 		government "Galactic Empire" "Rebel Alliance" "Unaffiliated"
 	destination
@@ -580,6 +584,7 @@ mission "Rebel Corvette vs Imperial Fighters"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 	source
 		government "Galactic Empire" "Rebel Alliance" "Unaffiliated"
 	destination
@@ -613,6 +618,7 @@ mission "Rebel vs Imperial Fleet"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 	source
 		government "Galactic Empire" "Rebel Alliance" "Unaffiliated"
 	destination
@@ -666,6 +672,7 @@ mission "() Combat Rating"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 	on accept
 		"combat rating" = 10000
 	on complete
@@ -678,6 +685,7 @@ mission "() Align Reputation"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 	on accept
 		conversation
 			`Which faction would you like to align with?`
@@ -710,9 +718,8 @@ mission "() Align Reputation"
 			`Aligned with the Scum & Villainy.`
 				goto next
 			label next
-			"Reputation Set."
-	on complete
-		payment 0
+			`Reputation Set.`
+				decline
 
 mission "Galaxy Fleet"
 	name "Galaxy Fleet"
@@ -721,6 +728,7 @@ mission "Galaxy Fleet"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 	source
 		government "Galactic Empire" "Rebel Alliance" "Unaffiliated" "Sith Eternal"
 	destination
@@ -997,7 +1005,7 @@ mission "Galaxy Fleet"
 				"R60 T-Wing (Bay)"
 				"R60 T-Wing (Prototype)"
 				"R60 T-Wing (Prototype) (Bay)"
-				"Razor Crest Gunship"
+				"ST-70 Assault Ship"
 				"Sabaoth Cavik Toth's Starfighter"
 				"Sabaoth Cavik Toth's Starfighter (Bay)"
 				"SCT Scout Craft"
@@ -1048,7 +1056,7 @@ mission "Galaxy Fleet"
 				"Purrgil (Frigate)"
 				"Purrgil (Corvette)"
 				"Purrgil (Transport)"
-				"Purrgil (Bay)"
+				"Purrgil (Fighter)"
 				"Acclamator Assault Ship"
 				"ARC-170 Starfighter"
 				"ARC-170 Starfighter (Bay)"
@@ -1134,6 +1142,7 @@ mission "Destroy the Republic Fleet"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 	source
 		system "N'zoth"
 	destination
@@ -1159,6 +1168,7 @@ mission "Destroy the Subjugator"
 	job
 	to offer
 		random < 99
+		has "agffa sandbox start"
 	source
 		system "N'zoth"
 	destination

@@ -848,7 +848,7 @@ ship "BTL-S8 K-Wing"
 		"hull" 4800
 		"required crew" 2
 		"bunks" 4
-		"mass" 37
+		"mass" 39
 		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
@@ -918,7 +918,7 @@ ship "BTL-S8 K-Wing (Bay)"
 		"hull" 4800
 		"required crew" 2
 		"bunks" 4
-		"mass" 37
+		"mass" 39
 		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
@@ -988,7 +988,7 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (Ion Bombs)"
 		"hull" 4800
 		"required crew" 2
 		"bunks" 4
-		"mass" 37
+		"mass" 39
 		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
@@ -1060,7 +1060,7 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B)"
 		"hull" 4800
 		"required crew" 2
 		"bunks" 4
-		"mass" 37
+		"mass" 39
 		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
@@ -1130,7 +1130,7 @@ ship "BTL-S8 K-Wing (Bay)" "BTL-S8 K-Wing (B) (Bay)"
 		"hull" 4800
 		"required crew" 2
 		"bunks" 4
-		"mass" 37
+		"mass" 39
 		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
@@ -1200,7 +1200,7 @@ ship "BTL-S8 K-Wing" "BTL-S8 K-Wing (B) (Ion Bombs)"
 		"hull" 4800
 		"required crew" 2
 		"bunks" 4
-		"mass" 37
+		"mass" 39
 		"drag" 1.42
 		"heat dissipation" .7
 		"fuel capacity" 700
@@ -2003,18 +2003,18 @@ ship "EF76 Nebulon-B Frigate"
 	engine -46.5 390
 	engine 46.5 390
 	engine 0 390
-	turret -38.5 287.5 "R3 Turbolaser Turret"
-	turret 38.5 287.5 "R3 Turbolaser Turret"
-	turret -31 -106.5 "R3 Turbolaser Turret"
-	turret 31 -106.5 "R3 Turbolaser Turret"
-	turret -41.5 -163 "R3 Turbolaser Turret"
-	turret 41.5 -163 "R3 Turbolaser Turret"
-	turret -41.5 -209.5 "R3 Turbolaser Turret"
-	turret 41.5 -209.5 "R3 Turbolaser Turret"
-	turret -35 -271.5 "R3 Turbolaser Turret"
-	turret 35 -271.5 "R3 Turbolaser Turret"
 	turret -25 -353.5 "R3 Turbolaser Turret"
 	turret 25 -353.5 "R3 Turbolaser Turret"
+	turret -35 -271.5 "R3 Turbolaser Turret"
+	turret 35 -271.5 "R3 Turbolaser Turret"
+	turret -41.5 -209.5 "R3 Turbolaser Turret"
+	turret 41.5 -209.5 "R3 Turbolaser Turret"
+	turret -41.5 -163 "R3 Turbolaser Turret"
+	turret 41.5 -163 "R3 Turbolaser Turret"
+	turret -31 -106.5 "R3 Turbolaser Turret"
+	turret 31 -106.5 "R3 Turbolaser Turret"
+	turret -38.5 287.5 "R3 Turbolaser Turret"
+	turret 38.5 287.5 "R3 Turbolaser Turret"
 	bay "Starfighter (Bay) " 0 233
 	bay "Starfighter (Bay) " 0 233
 	bay "Starfighter (Bay) " 0 233
@@ -2073,20 +2073,20 @@ ship "EF76 Nebulon-B2 Frigate"
 	engine 30 329
 	engine 0 329
 	gun 0 -283.5 "Concussion Missile Launcher"
-	turret -48 218 "R3 Turbolaser Turret"
-	turret 48 218 "R3 Turbolaser Turret"
-	turret -45 -103.5 "R3 Turbolaser Turret"
-	turret 45 -103.5 "R3 Turbolaser Turret"
-	turret -61 -154 "R3 Turbolaser Turret"
-	turret 61 -154 "R3 Turbolaser Turret"
-	turret -120 -168 "R3 Turbolaser Turret"
-	turret 120 -168 "R3 Turbolaser Turret"
-	turret -106 -240.5 "R3 Turbolaser Turret"
-	turret 106 -240.5 "R3 Turbolaser Turret"
-	turret -53.5 -253.5 "R3 Turbolaser Turret"
-	turret 53.5 -253.5 "R3 Turbolaser Turret"
 	turret -31.5 -303.5 "R3 Turbolaser Turret"
 	turret 31.5 -303.5 "R3 Turbolaser Turret"
+	turret -53.5 -253.5 "R3 Turbolaser Turret"
+	turret 53.5 -253.5 "R3 Turbolaser Turret"
+	turret -106 -240.5 "R3 Turbolaser Turret"
+	turret 106 -240.5 "R3 Turbolaser Turret"
+	turret -120 -168 "R3 Turbolaser Turret"
+	turret 120 -168 "R3 Turbolaser Turret"
+	turret -61 -154 "R3 Turbolaser Turret"
+	turret 61 -154 "R3 Turbolaser Turret"
+	turret -45 -103.5 "R3 Turbolaser Turret"
+	turret 45 -103.5 "R3 Turbolaser Turret"
+	turret -48 218 "R3 Turbolaser Turret"
+	turret 48 218 "R3 Turbolaser Turret"
 	bay "Starfighter (Bay) " 0 189.5
 	bay "Starfighter (Bay) " 0 189.5
 	bay "Starfighter (Bay) " 0 189.5
@@ -2248,9 +2248,9 @@ ship "Sphyrna Corvette (Modified)"
 	engine 27.5 132
 	gun -17 -108.5 "R2 Laser Cannon"
 	gun 17 -108.5 "R2 Laser Cannon"
-	turret 0 41.5 "R2Heavy Laser Turret"
 	turret -17 -108.5 "R2Heavy Laser Turret"
 	turret 17 -108.5 "R2Heavy Laser Turret"
+	turret 0 41.5 "R2Heavy Laser Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -2581,7 +2581,7 @@ ship "MC30c Escort Frigate"
 			"hit force" 950
 	outfits
 		"R5Quad Turbolaser Turret" 2
-		"R4Dual Turbolaser Turret" 12
+		"R4Dual Turbolaser Turret" 14
 		"Proton Torpedo Launcher" 3
 		"Proton Torpedo Storage Rack" 4
 		"Proton Torpedo" 29
@@ -2608,6 +2608,8 @@ ship "MC30c Escort Frigate"
 	turret 51 371 "R4Dual Turbolaser Turret"
 	turret -23 151 "R4Dual Turbolaser Turret"
 	turret 23 151 "R4Dual Turbolaser Turret"
+	turret -35.5 39 "R4Dual Turbolaser Turret"
+	turret 35.5 39 "R4Dual Turbolaser Turret"
 	turret -57 -35 "R4Dual Turbolaser Turret"
 	turret 57 -35 "R4Dual Turbolaser Turret"
 	turret -57 -150 "R4Dual Turbolaser Turret"
@@ -2854,56 +2856,52 @@ ship "MC75 Star Cruiser"
 		"B5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 		
-	engine -65 1275
-	engine -20 1276
-	engine 42 1276
-	engine 84 1275
-	turret -100 -1126 "R5Quad Turbolaser Turret"
-	turret -65 -1153 "R5Quad Turbolaser Turret"
-	turret 93 -1148 "R4Dual Turbolaser Turret"
-	turret 130 -1122 "R4Dual Turbolaser Turret"
-	turret -150 -840 "R4Dual Turbolaser Turret"
-	turret 71 -864 "R4Dual Turbolaser Turret"
-	turret 178 -842 "R4Dual Turbolaser Turret"
-	turret -120 -816 "R4Dual Turbolaser Turret"
-	turret -102 -692 "R5Quad Turbolaser Turret"
-	turret 127 -693 "R5Quad Turbolaser Turret"
-	turret -179 -531 "R4Dual Turbolaser Turret"
-	turret 204 -532 "R4Dual Turbolaser Turret"
-	turret -67 -298 "R5Quad Turbolaser Turret"
-	turret 94 -299 "R5Quad Turbolaser Turret"
-	turret -160 -59 "R4Dual Turbolaser Turret"
-	turret 184 -53 "R4Dual Turbolaser Turret"
-	turret -134 246 "R5Quad Turbolaser Turret"
-	turret 160 245 "R5Quad Turbolaser Turret"
-	turret -90 618 "I4 Ion Turret"
-	turret 119 617 "I4 Ion Turret"
-	turret -96 751 "R4Dual Turbolaser Turret"
-	turret 121 751 "R4Dual Turbolaser Turret"
-	turret -76 1048 "R4Dual Turbolaser Turret"
-	turret 103 1050 "R4Dual Turbolaser Turret"
-	turret -133 265 "R5Quad Turbolaser Turret"
-	turret 155 265 "R5Quad Turbolaser Turret"
-	turret -241 -458 "R5Quad Turbolaser Turret"
-	turret 264 -461 "R5Quad Turbolaser Turret"
-	turret -68 -280 "R4Dual Turbolaser Turret"
-	turret 91 -280 "R4Dual Turbolaser Turret"
-	turret -68 -280 "R4Dual Turbolaser Turret"
-	turret 91 -280 "R4Dual Turbolaser Turret"
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
-	bay "Starfighter (Bay) " 11 -788
+	turret -51.5 -1387 "R5Quad Turbolaser Turret"
+	turret 51.5 -1387 "R5Quad Turbolaser Turret"
+	turret -68.5 -1236.5 "R4Dual Turbolaser Turret"
+	turret 68.5 -1236.5 "R4Dual Turbolaser Turret"
+	turret -105.5 -1146.5 "R4Dual Turbolaser Turret"
+	turret 105.5 -1146.5 "R4Dual Turbolaser Turret"
+	turret -112 -931.5 "R5Quad Turbolaser Turret"
+	turret 112 -931.5 "R5Quad Turbolaser Turret"
+	turret -138 -845.5 "R4Dual Turbolaser Turret"
+	turret 138 -845.5 "R4Dual Turbolaser Turret"
+	turret -138.5 -752.5 "R4Dual Turbolaser Turret"
+	turret 138.5 -752.5 "R4Dual Turbolaser Turret"
+	turret -192 -554 "R5Quad Turbolaser Turret"
+	turret 192 -554 "R5Quad Turbolaser Turret"
+	turret -91 -390 "R4Dual Turbolaser Turret"
+	turret 91 -390 "R4Dual Turbolaser Turret"
+	turret -92 -307.5 "I4 Ion Turret"
+	turret 92 -307.5 "I4 Ion Turret"
+	turret -178 -89 "R5Quad Turbolaser Turret"
+	turret 178 -89 "R5Quad Turbolaser Turret"
+	turret -183 134 "R4Dual Turbolaser Turret"
+	turret 183 134 "R4Dual Turbolaser Turret"
+	turret -163 288 "R4Dual Turbolaser Turret"
+	turret 163 288 "R4Dual Turbolaser Turret"
+	turret -158 498 "R5Quad Turbolaser Turret"
+	turret 158 498 "R5Quad Turbolaser Turret"
+	turret -111 670.5 "R4Dual Turbolaser Turret"
+	turret 111 670.5 "R4Dual Turbolaser Turret"
+	turret -111 923 "R4Dual Turbolaser Turret"
+	turret 111 923 "R4Dual Turbolaser Turret"
+	turret -111.5 1198.5 "R5Quad Turbolaser Turret"
+	turret 111.5 1198.5 "R5Quad Turbolaser Turret"
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
+	bay "Starfighter (Bay) " 0 -740.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -3075,38 +3073,39 @@ ship "MC80A Star Cruiser"
 	engine 134 1495
 	engine -223 1114
 	engine 223 1114
-	turret -102 -1155 "R5Quad Turbolaser Turret"
-	turret 64 -1153 "R5Quad Turbolaser Turret"
-	turret -102 -936 "R4Dual Turbolaser Turret"
-	turret 59 -931 "R4Dual Turbolaser Turret"
-	turret -95 -853 "R5Quad Turbolaser Turret"
-	turret 44 -854 "R5Quad Turbolaser Turret"
-	turret -127 -685 "R4Dual Turbolaser Turret"
-	turret 89 -688 "R4Dual Turbolaser Turret"
-	turret -229 -480 "R4Dual Turbolaser Turret"
-	turret 184 -478 "R4Dual Turbolaser Turret"
-	turret -205 -272 "I4 Ion Turret"
-	turret 164 -256 "I4 Ion Turret"
-	turret -199 -79 "R5Quad Turbolaser Turret"
-	turret 158 -69 "R5Quad Turbolaser Turret"
-	turret -273 -63 "R4Dual Turbolaser Turret"
-	turret 231 -59 "R4Dual Turbolaser Turret"
-	turret -257 237 "R5Quad Turbolaser Turret"
-	turret 214 236 "R5Quad Turbolaser Turret"
-	turret -105 284 "R4Dual Turbolaser Turret"
-	turret 70 263 "R4Dual Turbolaser Turret"
-	turret -207 402 "R5Quad Turbolaser Turret"
-	turret 172 410 "R5Quad Turbolaser Turret"
-	turret -124 445 "R4Dual Turbolaser Turret"
-	turret 87 438 "R4Dual Turbolaser Turret"
-	turret -127 605 "R5Quad Turbolaser Turret"
-	turret 90 600 "R5Quad Turbolaser Turret"
-	turret -131 963 "I4 Ion Turret"
-	turret 93 956 "I4 Ion Turret"
-	turret -65 938 "R5Quad Turbolaser Turret"
-	turret 25 936 "R5Quad Turbolaser Turret"
-	turret -72 1109 "R4Dual Turbolaser Turret"
-	turret 31 1113 "R4Dual Turbolaser Turret"
+
+	turret -107.5 -1478.5 "R5Quad Turbolaser Turret"
+	turret 107.5 -1478.5 "R5Quad Turbolaser Turret"
+	turret -114.5 -1153 "R5Quad Turbolaser Turret"
+	turret 114.5 -1153 "R5Quad Turbolaser Turret"
+	turret -105 -992.5 "R5Quad Turbolaser Turret"
+	turret 105 -992.5 "R5Quad Turbolaser Turret"
+	turret -168.5 -879.5 "R4Dual Turbolaser Turret"
+	turret 168.5 -879.5 "R4Dual Turbolaser Turret"
+	turret -87 -723.5 "I4 Ion Turret"
+	turret 87 -723.5 "I4 Ion Turret"
+	turret -308 -559 "R4Dual Turbolaser Turret"
+	turret 308 -559 "R4Dual Turbolaser Turret"
+	turret -153.5 -478 "R5Quad Turbolaser Turret"
+	turret 153.5 -478 "R5Quad Turbolaser Turret"
+	turret -149.5 -294.5 "I4 Ion Turret"
+	turret 149.5 -294.5 "I4 Ion Turret"
+	turret -286.5 -206.5 "R5Quad Turbolaser Turret"
+	turret 286.5 -206.5 "R5Quad Turbolaser Turret"
+	turret -160.5 -62 "R4Dual Turbolaser Turret"
+	turret 160.5 -62 "R4Dual Turbolaser Turret"
+	turret -99 185 "R5Quad Turbolaser Turret"
+	turret 99 185 "R5Quad Turbolaser Turret"
+	turret -299 250.5 "R4Dual Turbolaser Turret"
+	turret 299 250.5 "R4Dual Turbolaser Turret"
+	turret -214 424 "R5Quad Turbolaser Turret"
+	turret 214 424 "R5Quad Turbolaser Turret"
+	turret -138.5 562 "R4Dual Turbolaser Turret"
+	turret 138.5 562 "R4Dual Turbolaser Turret"
+	turret -49.5 719.5 "R4Dual Turbolaser Turret"
+	turret 49.5 719.5 "R4Dual Turbolaser Turret"
+	turret -69.5 1035 "R4Dual Turbolaser Turret"
+	turret 69.5 1035 "R4Dual Turbolaser Turret"
 	bay "Starfighter (Bay) " -332.5 -4.5
 		angle -90
 	bay "Starfighter (Bay) " 332.5 -4.5
@@ -3191,46 +3190,56 @@ ship "MC80 Heavy Cruiser"
 		"B5 Sublight Engine"
 		"H5 Hyperspace Motivator"
 		
-	engine -517 -576
-	engine -446 -548
-	engine -416 -548
-	engine 434 -550
-	engine 470 -550
-	engine 584 -592
-	engine -215 1091
-	engine 242 1095
-	turret 17 -1175 "R5Quad Turbolaser Turret"
-	turret 10 -950 "R5Quad Turbolaser Turret"
-	turret -127 -952 "R4Dual Turbolaser Turret"
-	turret 163 -952 "R4Dual Turbolaser Turret"
-	turret -93 -868 "R4Dual Turbolaser Turret"
-	turret 118 -866 "R4Dual Turbolaser Turret"
-	turret -140 -746 "R4Dual Turbolaser Turret"
-	turret -89 -733 "R4Dual Turbolaser Turret"
-	turret 121 -730 "R5Quad Turbolaser Turret"
-	turret 164 -745 "R5Quad Turbolaser Turret"
-	turret -303 -776 "R4Dual Turbolaser Turret"
-	turret 329 -783 "R4Dual Turbolaser Turret"
-	turret -364 -620 "R5Quad Turbolaser Turret"
-	turret 400 -618 "R5Quad Turbolaser Turret"
-	turret -128 -352 "R4Dual Turbolaser Turret"
-	turret 12 -422 "R4Dual Turbolaser Turret"
-	turret 150 -344 "R5Quad Turbolaser Turret"
-	turret -234 -221 "R5Quad Turbolaser Turret"
-	turret 253 -227 "R4Dual Turbolaser Turret"
-	turret -229 -13 "R4Dual Turbolaser Turret"
-	turret -124 -75 "R5Quad Turbolaser Turret"
-	turret 15 -95 "R5Quad Turbolaser Turret"
-	turret 150 -72 "I4 Ion Turret"
-	turret 255 -17 "I4 Ion Turret"
-	turret -297 168 "R5Quad Turbolaser Turret"
-	turret 323 169 "R5Quad Turbolaser Turret"
-	turret -66 470 "R4Dual Turbolaser Turret"
-	turret 95 474 "R4Dual Turbolaser Turret"
-	turret -39 597 "R5Quad Turbolaser Turret"
-	turret 65 591 "R5Quad Turbolaser Turret"
-	turret -84 856 "I4 Ion Turret"
-	turret 115 860 "I4 Ion Turret"
+	engine -606.5 -590
+	engine 606.5 -590
+	engine -538 -577.5
+	engine 538 -577.5
+	engine -434.5 -543.5
+	engine 434.5 -543.5
+	engine -225 1080
+		over
+	engine 225 1080
+		over
+	engine -128.5 1205
+		over
+	engine 128.5 1205
+		over
+	engine -68.5 1307
+		over
+	engine 68.5 1307
+		over
+	turret 0 -1273.5 "R5Quad Turbolaser Turret"
+	turret -176.5 -1106.5 "R5Quad Turbolaser Turret"
+	turret 176.5 -1106.5 "R5Quad Turbolaser Turret"
+	turret 0 -971 "R5Quad Turbolaser Turret"
+	turret -126 -930.5 "R4Dual Turbolaser Turret"
+	turret 126 -930.5 "R4Dual Turbolaser Turret"
+	turret -410 -878 "I4 Ion Turret"
+	turret 410 -878 "I4 Ion Turret"
+	turret -346.5 -754 "R5Quad Turbolaser Turret"
+	turret 346.5 -754 "R5Quad Turbolaser Turret"
+	turret -203.5 -723.5 "I4 Ion Turret"
+	turret 203.5 -723.5 "I4 Ion Turret"
+	turret -388.5 -619 "R5Quad Turbolaser Turret"
+	turret 388.5 -619 "R5Quad Turbolaser Turret"
+	turret 0 -478.5 "R5Quad Turbolaser Turret"
+	turret -172 -392 "R4Dual Turbolaser Turret"
+	turret 172 -392 "R4Dual Turbolaser Turret"
+	turret -293.5 -211.5 "R5Quad Turbolaser Turret"
+	turret 293.5 -211.5 "R5Quad Turbolaser Turret"
+	turret 0 -174.5 "R5Quad Turbolaser Turret"
+	turret -168 -125.5 "R4Dual Turbolaser Turret"
+	turret 168 -125.5 "R4Dual Turbolaser Turret"
+	turret -293.5 80 "R4Dual Turbolaser Turret"
+	turret 293.5 80 "R4Dual Turbolaser Turret"
+	turret -61 377.5 "R5Quad Turbolaser Turret"
+	turret 61 377.5 "R5Quad Turbolaser Turret"
+	turret -68.5 515.5 "R4Dual Turbolaser Turret"
+	turret 68.5 515.5 "R4Dual Turbolaser Turret"
+	turret -83.5 870 "R4Dual Turbolaser Turret"
+	turret 83.5 870 "R4Dual Turbolaser Turret"
+	turret -63.5 1135.5 "R4Dual Turbolaser Turret"
+	turret 63.5 1135.5 "R4Dual Turbolaser Turret"
 	bay "Starfighter (Bay) " -386.5 -105.5
 		angle -90
 	bay "Starfighter (Bay) " 386.5 -105.5
@@ -4268,8 +4277,8 @@ ship "X4 Gunship"
 	attributes
 		category "Patrol Craft "
 		"cost" 200000
-		"shields" 1000
-		"hull" 7000
+		"shields" 3000
+		"hull" 5000
 		"required crew" 2
 		"bunks" 14
 		"mass" 138
