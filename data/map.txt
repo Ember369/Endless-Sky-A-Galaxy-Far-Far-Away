@@ -19543,11 +19543,10 @@ system Mindor
 		sprite planet/gas11
 		distance 2790.39
 		period 1794.1
-system "Mintaka "
+system Mintaka
 	pos -304 -462
 	government Republic
 	habitable 775.625
-	music ambient/wait
 	arrival 1000
 	link Almaaz
 	link Alnitak
@@ -23332,7 +23331,7 @@ system Pathway
 	habitable 2140.92
 	music ambient/wait
 	arrival 1000
-	link "Mintaka "
+	link Mintaka
 	asteroids "small rock" 71 7.4037
 	asteroids "large rock" 54 8.8044
 	asteroids "small metal" 2 10.005
